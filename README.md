@@ -5,6 +5,8 @@ your first language: Patente AM, A e B, C, D, CQC and the revisione exams. Helpe
 English, 简体中文 or Español.
 All 3,034 vocabulary meanings include bundled Chinese and work offline without a language pack.
 
+Try the beta on iPhone or iPad: [join on TestFlight](https://testflight.apple.com/join/HY3t2Yr6).
+
 Read [docs/DESIGN.md](docs/DESIGN.md) for the product structure and data model.
 
 ## Layout
