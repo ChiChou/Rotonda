@@ -35,6 +35,10 @@ build for another target.
 
 Requires iOS 18 (SwiftUI Translation APIs, `Tab`). Bundle identifier: `me.chichou.rotonda`.
 
+## Privacy
+
+Rotonda keeps study data on your device. See the [privacy policy](PRIVACY.md).
+
 ## License
 
 Source code is licensed under the [Apache License 2.0](LICENSE). Bundled study content and
