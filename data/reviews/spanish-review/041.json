@@ -1,0 +1,55 @@
+{
+  "batch": "041",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "1dc552beb3476e220a1537c30f5b35e77398814741068ff51a25924c3f492764",
+  "source_sha256": "37ab7fe2b73cb4467282212a6c5e918299d44ee868bba89a817e4e95ed4f11e7",
+  "corrections": [
+    {
+      "id": "36b1b10e81027bc95fa33bd544be63b2c6e15768f73d4870577b12d4bde51fd9",
+      "before": "La señal mostrada prohíbe adelantar a vehículos de motor a los vehículos de masa máxima autorizada superior a 3,5 toneladas que no transportan personas",
+      "after": "La señal mostrada prohíbe a los vehículos de masa máxima autorizada superior a 3,5 toneladas que no transportan personas adelantar vehículos de motor",
+      "reason": "Reworded: the Spanish reads as if the vehicles were prohibited from being overtaken; the sign prohibits these vehicles from overtaking motor vehicles"
+    },
+    {
+      "id": "36bbbc9a750f24e29be8f788bc83004d9b6b6bdd39db66d9c6be5baa257f6926",
+      "before": "A nivel internacional, un servicio ocasional es un servicio de alquiler con conductor",
+      "after": "A nivel internacional, se entiende por servicio ocasional un servicio de alquiler con conductor",
+      "reason": "Definition 's'intende' must read 'se entiende' (definition, not equation)"
+    },
+    {
+      "id": "36f52e224756873d85749208fc83f73b361864bda814586c23cc71656c816707",
+      "before": "Para sujetar correctamente los bultos al vehículo se debe tener en cuenta el tiempo de conducción del conductor",
+      "after": "Para la correcta sujeción de los bultos en el vehículo hay que tener en cuenta el tiempo de conducción del conductor",
+      "reason": "Restituye que se trata de vehículos de motor.; Spanish described a different sentence (chain lubrication); restored the Italian meaning about securing loads and the driving time"
+    },
+    {
+      "id": "3749e23ee4a5fa04aeb1bf5f54af9e3791bd90efc2798413a9a2d77ce5ff63e7",
+      "before": "Los documentos para la validez del CMR consisten en el DDT, documento de transporte, y el documento de acompañamiento",
+      "after": "Los documentos para la validez del CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera) consisten en el DDT (documento de transporte) y el documento de acompañamiento",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "374fbc295581897c88e993a61858ec8f0ef916e8e3430d5c8a1454c3baaaf91f",
+      "before": "El seguro obligatorio de responsabilidad civil automotor cubre los daños causados por el vehículo siempre que lo conduzca el propietario",
+      "after": "El seguro RCA, obligatorio por ley, cubre los daños causados por el vehículo siempre que lo conduzca el propietario",
+      "reason": "Restituye la sigla RCA junto con su explicación.; Removed added expansion of RCA not in the Italian"
+    },
+    {
+      "id": "37781b9a50a02bd67ea22bc4853bd5250a3e75416ac4b831e53b953335569469",
+      "before": "Según el CMR, la duración del transporte no puede acordarse verbalmente",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), la duración del transporte no puede acordarse verbalmente",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "aba102fbe28ef7c65fef1fe1fa02fbc3174902a08ead97cdf0d4f635c91be97c"
+}

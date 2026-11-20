@@ -1,0 +1,43 @@
+{
+  "batch": "028",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "3f700a250025950795f2304a0f588e39fa5aa9096e2940701dc04e958aeb97d1",
+  "source_sha256": "e199a57b19f30a5460ea4e18f248cd2f9af4503cff4a7e8faed2a4113a76924b",
+  "corrections": [
+    {
+      "id": "25330ddac5d6d937a204a3d8d031668db0185482b134ff4efeceed493e8c7a56",
+      "before": "Solo forman parte de la CEMT los Estados que fundaron inicialmente la Comunidad Europea",
+      "after": "Solo forman parte de la Conferencia Europea de Ministros de Transporte (CEMT) los Estados que fundaron inicialmente la Comunidad Europea",
+      "reason": "Restituye el nombre completo de la conferencia incluido en el original."
+    },
+    {
+      "id": "2538c68e91ac96540ce02c2b1bd4dc073fa179215d3a3eceb033ba9936b79193",
+      "before": "La señal mostrada indica un área de parada a la derecha",
+      "after": "La señal mostrada indica un apartadero a la derecha",
+      "reason": "Piazzola di sosta designa un apartadero, no necesariamente una parada genérica."
+    },
+    {
+      "id": "25ed681bf2cc17fd921ba016b3ccae1f0239c2aa89917e6df5e0b37e311dfe3a",
+      "before": "La señal mostrada normalmente se coloca 150 metros antes de un cambio de rasante",
+      "after": "La señal mostrada normalmente se coloca 150 metros antes de un resalto",
+      "reason": "'dosso' is a speed hump, not a grade change (cambio de rasante)"
+    },
+    {
+      "id": "264344e7807b43fde09af182d21cbe733b968b85117e8208e21b84c7b9509a9e",
+      "before": "Un vehículo descubierto es un vehículo con carrocería tipo furgón",
+      "after": "Se entiende por vehículo descubierto un vehículo con carrocería tipo furgón",
+      "reason": "Definition 'si intende' rendered as 'se entiende por'"
+    }
+  ],
+  "reviewed_file_sha256": "954dd96267658c28341189ebbd861e362671e31e96f11c9ec1fd8429ae9bf92b"
+}

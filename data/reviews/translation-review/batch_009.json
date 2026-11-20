@@ -1,0 +1,228 @@
+{
+  "batch": "009",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_early",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "dd14933d1fea556ee41888f017f29f5f25f125579ce3acb60b1b7b7847b9466f",
+  "rows": 100,
+  "verified_ids": [
+    "3f4078a82c3fac1dee32fe8752663677edb82911daf0953f7733314a12f71443",
+    "d617690d6ca08559cbdb070bc8d800909ce6d23084917b1cd58b083de8d298cc",
+    "a5c88954a14b83cfdb8eda4eb768eb99d400566eeb4c66597316088e55603e4e",
+    "03fd0f278f2277218c73db2bf2ece2fc78abd38afd9e15e9b9c7fb54ff9eb72e",
+    "2a60f9363abb19d4e31d871fd804740ef75cf2306fa5375e0ecb532e0943fc3a",
+    "f6e21a6cdada25190a00dd28787d7f420522ed06e2a6e98fda799d381cb83063",
+    "80b280689952344b30048bdc8cfdbfc02166587819f3bf4ad751e8abc7c601a2",
+    "86ecf875d30cf314e4496ac58704f4d54bda781763dd1415ab381f89f461c1d9",
+    "3e1d5e9ea4635cfcb2d5706c500385e2dd409777cc13261262fae936a4e5d873",
+    "4dda4e25dd7637b5fe21b768e5342211d062eed38b3d12ef91ed24676eb9c7a3",
+    "5693757eda9bc9a6f6c0e179e6758d8c9a066cf3f502fed8086743be2a0fd661",
+    "7fc3681d0cbf2e8a8f5c561853df8f77de385be46fcbdcf97ffe987a3a5353ea",
+    "9c44417deacf9644ceb6fd2bdd18c00245c95e2dfd74bff4a3ed1470efe50d38",
+    "0e6ccd6efbc9cfb13022f89d529163200a6cf6275cd16bee1a7f32a82f8112ab",
+    "63e37f314c06be382adf2a0be73ac443f0d506fa129e844b7dadac826b1edc1b",
+    "fcb8ee02654ebfea76ad634848c0d8373211b3b5a35c8b38889c66bebe8a685c",
+    "5bdfe09e41bb0ee4158a9c5517c7e7a69001787da9a2071cc79fb3f25ef5e751",
+    "65133e266736a679b080477b73663fddb18e037cec0d369e02a7bf352588d0dc",
+    "0a8051649e72d5b9ee89b3f613be54cd2693343ba926d760f4f24da62b3c65d2",
+    "9ffa71628615e079768ef972d6ee0c479093f16e0a42e2d758428f0cb90e5a9c",
+    "ee270424aa9ba4f9e0960f7ff9d117dab3dbbeb6d3c240cc8c01f4770e44180e",
+    "fc5224a025d8b5923a2efe8fb91d3a301863552cb56af4250768bbed5e0be443",
+    "ff67db3f821d495a856b8ec72942dc2ccd28ef955234b9496aa2719b973dbf05",
+    "a4561e059092f33d1cda919f1f06dc6631da303fc0c88b3578f603068633c954",
+    "2bab7d7bee7df288fdedc9a950f013216cc86b66b80515039da7caa5fd6679dc",
+    "f28347595aa3cf99c58ea43b3188f0fc0e4cb768602674e615cfcb488edd6a41",
+    "b163cd034a8ffa6bdf9f896f95d8b7782dff64dcb33325355b07bea46a78ebb1",
+    "4e781c5cee7db37260357a6c59340f818a3b40ec0fc9e0398e756d879e8f682c",
+    "b713651bfcd042186b4bec8c32ebe029957aede8f02a610f118ccc1fb3c40215",
+    "fb4870dbcdb605c4719022d39a7f0acc9f21f70cfe2b17158f17f4d6610586d4",
+    "5e71dd9d553f450de61adefed08c98c84cba8f2b8400cb5e659fcd5a70d9bef3",
+    "79cb5c60c83d0409f67072f583b38828025f5b3036c1aa9acf2ce8eaa57138c8",
+    "1c2e1c317fcebbcab41131acf5821840f3471afb14ec8c28b4ed42277345d2ca",
+    "8a95cea472c0dae89cd115d4f12a05f1fce1ce3f08128fa73fa99a1a937ede33",
+    "54d81f8b7c1e7979eef36361c638f81de28530efc833e9d457254cc1370dd717",
+    "725320b17e45dad100d1a9b75cccf7045d3400535e04bcef8e2317ccc4e53a73",
+    "9a25bb9888ed3eb7c86162177d409af84addf89c73c50b6d6449794b97f626ce",
+    "8ac1ce0603ac36981e507640c40e248f418f6e7be697a0682b131b692d08f50b",
+    "91915b986072b871a359fc92b63396ed482908bba27df9d6a8308d2a320c182b",
+    "593473734e6c7cdb45f89d844ffde3ad2ed036e92458bd17a0d88775b372f2e2",
+    "c8e4186a3c35e4f0a69f2fb2ff7d716caab38f360093642c17198cb8797203e4",
+    "da9a61b7ab23e2b850def4b146f65a351c1ceb441a23dec7b1a453ac7ce8160a",
+    "8225c0e1f04c572186aa8ad99ada020cc89db380830a1b296809b7b4bbb7504f",
+    "4de21cd0675b1f33115730a26dfd414fd81c79151f876ab72814879b8dd98520",
+    "d6d52b23aacff8961b5b7e8008485d062b195fbfa8879aa85d2e13ff0745f3eb",
+    "f31d3b24c8c21acabd397aac5c70312c40e8f1d225de22e2ff811eb5beb1e9e4",
+    "310321e8c8cc5b82d7464dde015b177cf870e120d41fbbf9cfa403fd463007cb",
+    "e3617f39291a6736c7e636d67f0061c0446e9f6e3aaae0f2816eba02c31ef780",
+    "5f891affcdea9e911bcc3befe6e6c9069b2f4c4586145c95a6dbef5ce3c31bca",
+    "e6aabd8a918416de87df175f1c50503425ec63d3fcd4d930b628cb93d8d38672",
+    "ae246869605fdecdc48a11e1f02cb0a65f2d80e7f750ec360c5193d1b0bdbed2",
+    "eb96a154caca978c9bc3563d23865328272237979299bde326f57184fecf19ae",
+    "d7f218c4ed6926aa1f7d7ba92b278a3428c1805b1d498f9dfa4a5324cc1c5452",
+    "b5695b4f6d95fb35e52536dee4dcc519a56a76ceae29e90ad83a36bc89439d00",
+    "80394cf4df235b262b8e0b855156d6604f19d4f1797b5fa5a5f62b5807603a72",
+    "c93cab1e7efe9c0fa375b56f319b3d18a6a54f9691cdad9e8949e9c280705bd1",
+    "c501e049ba37ef99fd8ad71a00299de737f252f0fa1aec8269bda5ab6df7a486",
+    "fb2dcdd403f3ea8d2a498460f62c5d577a5dfcdbc5b9614723653175fcad67df",
+    "9e2adc2141020845d156ee2dc1080c735368b7b697fa7ab28ea3259241179621",
+    "eee5e519980d7b0ea559ed37c51605b609dd3be34617a915fdf2d4dedea73981",
+    "fe059feb4f6dc979449cb7cc406dd2beb974af23678ab5ec1d161f9f03d0b2c3",
+    "0ca2a9a52717000313b5c5244ab4e0e86d26bb7e22ac08a85a283b4a82597e1d",
+    "1ffee2f0a19126cdc4d694d0bfe3d0da24307a52a1249e2feaa5c74bc05902b4",
+    "865fa8f49364bd4e2b5c53fa7b3306c22f624123c79a5203c714867ebe60c29c",
+    "eb82ffc803323ba2aae992e38b8c9131e05189c8c3ebb918fb806e9b3e9a0d7e",
+    "c45b69b4b7536bb5f52351339218b9572475326c13ac5fe6f1c95ef0d38d2576",
+    "1380d0b7fedb28e7151e2bc62730f2adf7986e7cc9a0f80283bb5f430a71e33f",
+    "b6f99838398d4597690c0037208402c19a360847cd6d848ec0595c2b7da085e9",
+    "98a8beb1adde9358288b97eeda02c6f9d06c35da12366cb13a5f31b63527e6c0",
+    "92de9b5814b37ed614038cedbe0722953cc2798fccd6ec5ba0fce61ad78eca87",
+    "e913a19d54296d19a888ef6ae9db3eade82d15934aab9807929c9ebd008a6a88",
+    "977da6a2e553baee65eda68afa588d3bc4e8b3dd1cb5edc3277808d8acf2fa4a",
+    "b16ab7c445eb62ef3c56eb3789d765ac37e6a3af63feb398944d5213471a3f4a",
+    "e5d0e21d820cfe8a69059f7edb73f39a8e484a4c349967a2e1cad2bb79010736",
+    "5604a71e115672301075d94207010a533968dba8016eee10713c01c975603675",
+    "f2a53771be716c2351ef740333379ae787c3a926cf3d069b11938d9dca590164",
+    "7e55819de717e7a62a03d329a8aab097c75be93d99fac4f67ed47becc42855d4",
+    "01ef2774446d0ba15d58c8754d14982f4641a287ef298f2f9e16a5e58468d61f",
+    "5045c0467effc88a5093098052bff245be02ebcb3ff8c07a2c19f0ae40411600",
+    "bed1e9a6808f8c00939c61304c8c3977316321f57e508680cb4d5dc6c9717aa6",
+    "f01a108125c22c100ba3fb80f9770e97fdd2d27b85d7fe7717a6c0fd5780afa1",
+    "ade662ed4df9939e41dea8df65e83b16042d042524d5316d4cc67f8329e7d848",
+    "27ee9371a83410ce4acd8328e19eab0fe7f023fc16c4e1fa97a8ccbf5bf03969",
+    "b807634233d40b67668c8081ef20fdded60ede2cd4022ba7ae632040db16a2dd",
+    "55f403bc03afcd607c66f45a971478ae46425dc002f454b47d8dbc221aa2160b",
+    "44f50d56f2e550c46d0080a8c38532ce96daa8a5b3960746208b8ef9fa6e33b1",
+    "0937c711b4177ba69016ea8e43f3b9ad37760446ffc514009746b2f7c943978b",
+    "77c8b96e6ec03291514e21d4d741943775c001a34055cd74b49d62bac54cfc4a",
+    "26d48e5429e4f07dc4c950e0d4754d47a303b63cb155c8044dedb39b73f99212",
+    "301c0c6e7a0a1d79e9e6188472e5ada503d44c6c3a47be2b0fe4ea9f4f2c0da0",
+    "7a7ebcb067144e53aaabd988d15acbb42746090c87397564cb6dfb88d9455f52",
+    "3b60d281d3098c21944bc4f004577dff007fa49a19347ff488e95fb0f2ceae16",
+    "7ac20c470b8b5e4dc1c529af108d83067c8c2a02e89d917ed9ba4bf8659d58fb",
+    "d5f538641892820e1de1ce444c02529a318ec57cc715aa994ba66ee43e429e3f",
+    "6ba1c5396ec8a5dbeb09edc2863957bbda0229393257f1f7a7120e3494939a07",
+    "0ca97d2eb3e822df40c0ee57cffe5f8f5715f107ab382156fb14404f2fe9ea0d",
+    "d8112c40a5cabf516fb2d01e7bbcccbe37d0bfbddcbc70a0a78a4cb05689ac54",
+    "8140c4173f0c91aa8d64f4fc1702bb7d4926679c30e2f3cefe6e07b02fd9bba2",
+    "a3ea12723ce04c762a97a3fada1da923b9c51cb041a68214c6651421bc756fcd",
+    "f6cfa72e9e4b5a7a8040f2a6ef31200899fcfe231b00ad9e64cc2aea1479cba2"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "2a60f9363abb19d4e31d871fd804740ef75cf2306fa5375e0ecb532e0943fc3a",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "One may not overtake on humps on two-lane one-way roads.",
+          "after": "One may not overtake on speed humps on two-lane one-way roads."
+        },
+        "zh": {
+          "before": "在两车道单行道的坡顶处不得超车。",
+          "after": "在两车道单行道的减速带处不得超车。"
+        }
+      }
+    },
+    {
+      "id": "f6e21a6cdada25190a00dd28787d7f420522ed06e2a6e98fda799d381cb83063",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "不得超越已发出靠右停车信号的车辆。",
+          "after": "不得超越已发出靠右行驶意图信号的车辆。"
+        }
+      }
+    },
+    {
+      "id": "9c44417deacf9644ceb6fd2bdd18c00245c95e2dfd74bff4a3ed1470efe50d38",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "On one-way roads, overtaking may be performed even on a hump.",
+          "after": "On one-way roads, overtaking may be performed even on a speed hump."
+        },
+        "zh": {
+          "before": "在单行道上，即使在坡顶也可以超车。",
+          "after": "在单行道上，即使在减速带处也可以超车。"
+        }
+      }
+    },
+    {
+      "id": "0e6ccd6efbc9cfb13022f89d529163200a6cf6275cd16bee1a7f32a82f8112ab",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "On roads with two separate carriageways, overtaking may be performed even on a hump.",
+          "after": "On roads with two separate carriageways, overtaking may be performed even on a speed hump."
+        },
+        "zh": {
+          "before": "在设有两条分隔车行道的道路上，即使在坡顶也可以超车。",
+          "after": "在设有两条分隔车行道的道路上，即使在减速带处也可以超车。"
+        }
+      }
+    },
+    {
+      "id": "63e37f314c06be382adf2a0be73ac443f0d506fa129e844b7dadac826b1edc1b",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "On a hump, overtaking may be performed on the downhill section unless otherwise signposted.",
+          "after": "On a speed hump, overtaking may be performed on the downhill section unless otherwise signposted."
+        },
+        "zh": {
+          "before": "在坡顶路段，除非另有标志规定，可以在下坡部分超车。",
+          "after": "在减速带路段，除非另有标志规定，可以在下坡部分超车。"
+        }
+      }
+    },
+    {
+      "id": "fcb8ee02654ebfea76ad634848c0d8373211b3b5a35c8b38889c66bebe8a685c",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "On a hump, overtaking may always be performed on the uphill section.",
+          "after": "On a speed hump, overtaking may always be performed on the uphill section."
+        },
+        "zh": {
+          "before": "在坡顶路段，始终可以在上坡部分超车。",
+          "after": "在减速带路段，始终可以在上坡部分超车。"
+        }
+      }
+    },
+    {
+      "id": "a4561e059092f33d1cda919f1f06dc6631da303fc0c88b3578f603068633c954",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "Overtaking is prohibited on a bend or hump on one-way roads.",
+          "after": "Overtaking is prohibited on a bend or speed hump on one-way roads."
+        },
+        "zh": {
+          "before": "在单行道的弯道或坡顶处禁止超车。",
+          "after": "在单行道的弯道或减速带处禁止超车。"
+        }
+      }
+    },
+    {
+      "id": "3b60d281d3098c21944bc4f004577dff007fa49a19347ff488e95fb0f2ceae16",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "Stopping a vehicle is always prohibited on bends and humps.",
+          "after": "Stopping a vehicle is always prohibited on bends and speed humps."
+        },
+        "zh": {
+          "before": "在弯道和坡顶始终禁止车辆临时停车。",
+          "after": "在弯道和减速带处始终禁止车辆临时停车。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "7a693ec665729172bda095bd15e6c233fe343ac0bd9706aebb071433db9c7435"
+}

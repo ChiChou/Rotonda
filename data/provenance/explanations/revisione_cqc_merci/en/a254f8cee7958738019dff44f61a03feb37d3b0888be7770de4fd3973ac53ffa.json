@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed50-9b1b-7880-9bac-80f022bece69"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "revisione_cqc_merci",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 15395,
+          "quesito_id": 3252,
+          "text_it": "La guida di un veicolo adibito al trasporto di cose in conto proprio è consentita esclusivamente al titolare dell’impresa",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "51c616ecefd13bf711b0f0300e81260c7018049dfa939dc881c2a88b2c4af935",
+        "italian": "La guida non è esclusiva del titolare: può essere affidata anche a lavoratori dipendenti e agli altri soggetti ammessi.",
+        "italian_sha256": "0aef56cce0f91213ce23ae933722f5254b53994e9e819a25641d3f3905feb3cb"
+      },
+      {
+        "source": {
+          "number": 15396,
+          "quesito_id": 3253,
+          "text_it": "Non è ammesso il rilascio di licenza per trasporto di cose in conto proprio se l’attività di trasporto sia economicamente prevalente nell’impresa",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b1fe6771311f80211b85a4fabe506d1b8f996458e8ad4f87e58f9cb2ef7550bd",
+        "italian": "Il trasporto in conto proprio deve essere complementare o accessorio rispetto all’attività principale e non economicamente prevalente.",
+        "italian_sha256": "f83c848f7f3c3baa02b487f77f58fd3ef0e27a2a6ec7889d988b50fddf2566f3"
+      },
+      {
+        "source": {
+          "number": 15397,
+          "quesito_id": 3253,
+          "text_it": "Non è ammesso il rilascio di licenza per trasporto di cose in conto proprio se il trasporto avvenga con veicoli noleggiati",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "aa2b311321bce4dcce6e1686ccda0bf8cf784e381b962a26728645e2dada50c1",
+        "italian": "Il quiz considera i veicoli soggetti a licenza: per essi il noleggio senza conducente non è il titolo di disponibilità previsto. La frase è generica: fino a 6 tonnellate il noleggio senza conducente è ammesso e la licenza non è richiesta.",
+        "italian_sha256": "bd72c138d1130fbb072b6bf7bb173eab5541c178452e2e23e99f639d2bfeaa0a"
+      },
+      {
+        "source": {
+          "number": 15398,
+          "quesito_id": 3253,
+          "text_it": "Non è ammesso il rilascio di licenza per trasporto di cose in conto proprio se i veicoli vengano condotti da persona estranea all’impresa",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "43203cf89fd895ec9da19243240f8718ecf5ee80ea0f4b0603d3b623d92be88e",
+        "italian": "La guida deve essere affidata a una persona riconducibile all’impresa e appartenente alle categorie ammesse; un estraneo non soddisfa tale condizione.",
+        "italian_sha256": "22adb809a22af789dc167fd86bb05c2256d271dc586aaeba5529b3fc1f495be2"
+      },
+      {
+        "source": {
+          "number": 15399,
+          "quesito_id": 3253,
+          "text_it": "Non è ammesso il rilascio di licenza per trasporto di cose in conto proprio se le merci sono state trasformate dall’impresa che richiede la licenza",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8e661058a284a7d82d6be6fc9831bc2253dc314624cfd4667b02941adc8d591a",
+        "italian": "La trasformazione delle merci da parte dell’impresa non impedisce il conto proprio: le merci possono essere detenute proprio per essere trasformate, purché ricorrano le altre condizioni.",
+        "italian_sha256": "dd0ffcbdee785682da9707318833fb05ada5ed241b130a75d2157acf44c54860"
+      },
+      {
+        "source": {
+          "number": 15400,
+          "quesito_id": 3253,
+          "text_it": "Non è ammesso il rilascio di licenza per trasporto di cose in conto proprio se il trasporto avvenga con i mezzi di proprietà dell’impresa",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b17b1895e53b3f71a7ce81473e90a48519d4da8227d0f478c5b00e47a36bd1fd",
+        "italian": "La proprietà dei mezzi non impedisce la licenza: è uno dei titoli di disponibilità ammessi per il trasporto in conto proprio.",
+        "italian_sha256": "ba411be2658584156fc88017b2ea73537d00d0af80f3700418be58c217ca807c"
+      },
+      {
+        "source": {
+          "number": 15415,
+          "quesito_id": 3256,
+          "text_it": "La licenza per il trasporto in conto proprio contiene la limitazione delle merci che possono essere trasportate",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b5abb51259df33f2ace6f84ee9850c263ce23b5806ef529b0bd85c4737451fc2",
+        "italian": "La licenza indica le cose o le classi di cose autorizzate, limitando le merci trasportabili secondo le condizioni previste.",
+        "italian_sha256": "9b2d4f62d01f97888860ef7aab5ebfa8c89bc6ed9e13f45d61df1637b3bed349"
+      },
+      {
+        "source": {
+          "number": 15416,
+          "quesito_id": 3256,
+          "text_it": "La licenza per il trasporto in conto proprio è prevista solo per veicoli aventi una massa complessiva superiore a 6 t",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "62caf0467e923e4b7254ac4d86441a5d9abc761c84fdee0253fc40968450d469",
+        "italian": "Per il trasporto in conto proprio la licenza è richiesta per veicoli di massa complessiva a pieno carico superiore a 6 tonnellate; fino a tale soglia non occorre.",
+        "italian_sha256": "43d7849751f7beb6f3a4d637ccb9b952a825460d74c720aaf4cc0ff21d52f8e6"
+      },
+      {
+        "source": {
+          "number": 15417,
+          "quesito_id": 3256,
+          "text_it": "La licenza per il trasporto in conto proprio non contiene nessuna limitazione relativamente alle cose trasportate",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d56e73173696bd1594b320672e0e8e619e4baf6f2f687c22fa954c586a3ba98c",
+        "italian": "È errato dire che non vi siano limiti: la licenza elenca le cose o classi di cose per cui è rilasciata.",
+        "italian_sha256": "326fc48d9725e53606688b0ead011ed688f646c0aea74cfc2608d9c349c21f3b"
+      },
+      {
+        "source": {
+          "number": 15418,
+          "quesito_id": 3256,
+          "text_it": "La licenza per il trasporto in conto proprio non deve accompagnare la carta di circolazione",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "328621d6c92a4992deb9c0f11f0c23ccd7751ee867d4531512293167b41bb811",
+        "italian": "La licenza non può essere omessa: fa parte della documentazione del veicolo e il conducente deve poterla esibire ai controlli.",
+        "italian_sha256": "43acc83b434016803c506f29f18aceff2cc0e70f26d1e6c6db414a108e4b76ca"
+      },
+      {
+        "source": {
+          "number": 15419,
+          "quesito_id": 3256,
+          "text_it": "La licenza per il trasporto in conto proprio non riporta l’attività svolta dall’intestatario",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "5ce783431aa1243bf2d652ec7fde684f48e252583219e63c2ac47e55b4128e23",
+        "italian": "La licenza riporta anche l’attività dell’intestatario, oltre ai dati del veicolo e alle classi di cose trasportabili.",
+        "italian_sha256": "702610ed964a53a466d6b0d42040c1cc024d1caa97d53587b04e249db9bd174f"
+      },
+      {
+        "source": {
+          "number": 15424,
+          "quesito_id": 3258,
+          "text_it": "Si definisce attività di autotrasporto di cose per conto di terzi, l’attività di trasporto svolta imprenditorialmente dietro corrispettivo",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8bcd6605725b4ff7b1dd1888b8f141ded2aab2def73bd597b3f57ce0740e6598",
+        "italian": "Il conto terzi è un’attività imprenditoriale che presta servizi di trasporto verso corrispettivo.",
+        "italian_sha256": "7b855dfd8a0d58873a240a86a5e2f4925da0bcea7b582cd5bf962aacbd6f0924"
+      },
+      {
+        "source": {
+          "number": 15425,
+          "quesito_id": 3258,
+          "text_it": "L’attività di autotrasporto di cose può essere definita per conto di terzi quando il veicolo è utilizzato, dietro corrispettivo, nell’interesse di persone diverse dall’intestatario della carta di circolazione",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7fe8a72aea20f30175feaa468f771e6e88c7ad5277e48a226f774aca7e250666",
+        "italian": "Il conto terzi riguarda l’impiego del veicolo, dietro corrispettivo, nell’interesse di persone diverse dall’intestatario.",
+        "italian_sha256": "eaf5a20b6247d62c1705334d50477f97ac951ae0e2760f2c622f3add3af54a3d"
+      },
+      {
+        "source": {
+          "number": 15426,
+          "quesito_id": 3258,
+          "text_it": "L’attività di autotrasporto di cose può essere definita per conto di terzi quando l’imprenditore si obbliga, dietro corrispettivo, a prestare i servizi di trasporto ordinati dal committente",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4ea62f3c0bc2f922d9c7212f693260d677456821e7ebced6b1b94e77bfb0af16",
+        "italian": "Nel conto terzi il vettore svolge professionalmente un servizio di trasporto per il committente dietro corrispettivo.",
+        "italian_sha256": "e1569cdfee5ff1003601c0731aac84ed099fe825b41bddea1a4e8d608ac9056f"
+      },
+      {
+        "source": {
+          "number": 15427,
+          "quesito_id": 3258,
+          "text_it": "Si definisce autotrasporto di cose per conto di terzi, l’attività di trasporto di merci di proprietà dell’intestatario del veicolo",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "23d4e90ace805e75cb8e3a9071f44ab520e3280a0cadfd4830a247960427a00a",
+        "italian": "La proprietà della merce da parte dell’intestatario non definisce il conto terzi: questo è un servizio imprenditoriale reso dietro corrispettivo. Il trasporto per esigenze proprie può invece essere in conto proprio se ricorrono i requisiti.",
+        "italian_sha256": "29d96f52a9a3026883bbb133d9ba2b63cca94df3f5bad633d973ff390a9b761d"
+      },
+      {
+        "source": {
+          "number": 15428,
+          "quesito_id": 3258,
+          "text_it": "Gli autoveicoli superiori a 6 t di massa complessiva a pieno carico possono esclusivamente svolgere attività di autotrasporto di cose per conto terzi",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "859dc9b65c393bfd71afc4ba5ba3bedf2a6dc1dd99469b33328cc2a6a4b23fcb",
+        "italian": "Superare 6 tonnellate non riserva il veicolo al conto terzi: può essere impiegato anche in conto proprio con la licenza e i requisiti previsti.",
+        "italian_sha256": "fa7beab45c904e39c73e8d4473a224b6fb3b1d5b65d712cf2f443a0ede7674e9"
+      },
+      {
+        "source": {
+          "number": 15437,
+          "quesito_id": 3260,
+          "text_it": "Ogni autoveicolo destinato al trasporto di cose per conto di terzi deve essere contraddistinto da una striscia diagonale di colore bianco sulla parte anteriore",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "e5f5d08a4e0448a253a92d006dd5b163c1b318a322111976c8e9caac5adf46db",
+        "italian": "Il contrassegno previsto per il servizio di trasporto di cose per conto terzi è una striscia diagonale bianca sulla parte anteriore.",
+        "italian_sha256": "47190e8b0bee681600dd2a2ee12a058383827335cc1089826d6475ed5bd311cc"
+      },
+      {
+        "source": {
+          "number": 15438,
+          "quesito_id": 3260,
+          "text_it": "Ogni autoveicolo destinato al trasporto di cose per conto di terzi deve essere immatricolato come autoveicolo uso terzi",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c686a2307889c7c27315cecab25f85c56e8d20979eaffe0eb495cb4ec8199802",
+        "italian": "Il veicolo deve essere destinato e immatricolato per l’uso di terzi, con la relativa indicazione nel documento di circolazione.",
+        "italian_sha256": "0aa8b860369b726f5fd4ad5363520dfb4d2f681844ae5522fac2f765403180ab"
+      },
+      {
+        "source": {
+          "number": 15439,
+          "quesito_id": 3260,
+          "text_it": "Ogni autoveicolo destinato al trasporto di cose per conto di terzi deve essere contraddistinto da una striscia diagonale di colore rosso sulla parte anteriore",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c481c14b43c2a6f1aa5e56044c71c4a0fe4e89653ec3d87e23cb913dcf68acd0",
+        "italian": "Il colore indicato è errato: la striscia per il conto terzi è bianca; quella rossa contraddistingue il conto proprio.",
+        "italian_sha256": "47826f48964e8040ce9bd078dc326a62305ebecfa6dbd083445aae0b58f38dab"
+      },
+      {
+        "source": {
+          "number": 15440,
+          "quesito_id": 3260,
+          "text_it": "Gli autoveicoli destinati al trasporto di cose per conto di terzi devono essere dotati di un pannello posteriore con la scritta \"conto terzi\"",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "aabfdc413aac6352bcb148f4bfa9888f1c16ad165b038b15285640edab8de7b1",
+        "italian": "Il contrassegno previsto non è un pannello posteriore con la scritta «conto terzi»: è una striscia diagonale bianca, riprodotta anche posteriormente.",
+        "italian_sha256": "658225f10d802242c8916dba25ad13cef06bbf3eab36655cc31996961cb60159"
+      },
+      {
+        "source": {
+          "number": 15441,
+          "quesito_id": 3261,
+          "text_it": "L’iscrizione all’Albo nazionale degli autotrasportatori serve a tutte le imprese che intendono esercitare l’attività del trasporto su strada di cose per conto terzi",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "118f423d674076c9dbc68fa0f8f3c80e6fc99189cf8079d85c2a3b204f46cdea",
+        "italian": "L’iscrizione all’Albo è richiesta per esercitare l’autotrasporto di cose per conto terzi; possono essere necessari anche ulteriori titoli per l’esercizio.",
+        "italian_sha256": "b20c0f01fc395ab10ceb0220e0b049dff8182e427b2776bbb27816062395a6f1"
+      },
+      {
+        "source": {
+          "number": 15442,
+          "quesito_id": 3261,
+          "text_it": "L’iscrizione all’Albo nazionale degli autotrasportatori serve per effettuare servizio di trasporto per conto di terzi senza incorrere in un trasporto abusivo",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c87fc29b4e180cc12d74eb231a6fab85d878e0d1d87f48452f2c63f5fe68abfa",
+        "italian": "L’iscrizione all’Albo è richiesta per esercitare l’autotrasporto di cose per conto di terzi; da sola non sostituisce gli altri eventuali requisiti per operare regolarmente.",
+        "italian_sha256": "ba51be4b2193dda86447c26586a25abcf134c043c904e898419ec329f903aac3"
+      },
+      {
+        "source": {
+          "number": 15444,
+          "quesito_id": 3261,
+          "text_it": "L’iscrizione all’Albo nazionale degli autotrasportatori serve a tutte le imprese che intendono esercitare l’attività del trasporto su strada di cose per conto terzi",
+          "answer": 1,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2fc6040a354595462813841af106e01b9e2037e60e8004e09f0456e9bb992b91",
+        "italian": "L’Albo riguarda le imprese che esercitano l’autotrasporto di cose per conto di terzi; l’iscrizione è un requisito per tale attività.",
+        "italian_sha256": "fb57748fe7a2803a5c11da364b1af92551eca33407da71f21a2997663d988922"
+      },
+      {
+        "source": {
+          "number": 15446,
+          "quesito_id": 3261,
+          "text_it": "L’iscrizione all’Albo nazionale degli autotrasportatori serve per poter essere esentati dal richiedere la carta di circolazione.",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "97325244f1c6eba2325228e8744731596d3a1954420f7fd64a93140c1fd0714f",
+        "italian": "L’iscrizione all’Albo riguarda l’attività di autotrasporto e non esonera dalla documentazione richiesta per la circolazione del veicolo.",
+        "italian_sha256": "83387afd615ed72bdec29022b3d22f7d9d30cbe69998e06400063efa9c218a90"
+      },
+      {
+        "source": {
+          "number": 15448,
+          "quesito_id": 3261,
+          "text_it": "L’iscrizione all’Albo nazionale degli autotrasportatori serve a tutte le imprese che intendono esercitare l’attività del trasporto su strada di cose ad uso proprio",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "86ef06c6e3694886bc89afad19951c41af19a32132fba8ed776126cee5da3e35",
+        "italian": "L’Albo riguarda il trasporto per conto di terzi, non quello in conto proprio, che segue una disciplina distinta.",
+        "italian_sha256": "47d336fe4d5cc9fdf003430c78e797b86655b20700a0dca6b8d1c674b20cb54d"
+      },
+      {
+        "source": {
+          "number": 15449,
+          "quesito_id": 3261,
+          "text_it": "L’iscrizione all’Albo nazionale degli autotrasportatori consente il rilascio della licenza in conto proprio",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2d7e770b4bbc6fd53d55c7bf928794e9123b42123816f01891d6f99d10260b59",
+        "italian": "L’iscrizione all’Albo riguarda il conto terzi e non è il titolo per ottenere la licenza in conto proprio, soggetta ai requisiti propri di quel regime.",
+        "italian_sha256": "81b72b3aba128df11f3c9fca014fb6b9922018a82d235281fb26b83bb4faef1f"
+      },
+      {
+        "source": {
+          "number": 15466,
+          "quesito_id": 3264,
+          "text_it": "Il contratto di trasporto di cose su strada è un contratto consensuale",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "112d683d4728b7602d10dc9744cad5f332befab2bff298e0c6cc506d0652dab1",
+        "italian": "Il contratto è consensuale: si perfeziona con l’accordo delle parti, senza attendere la consegna della merce.",
+        "italian_sha256": "7d5d8e05551678843c147a342c42293626ad24aa56609189496eddfca92c9d24"
+      },
+      {
+        "source": {
+          "number": 15467,
+          "quesito_id": 3264,
+          "text_it": "Il contratto di trasporto di cose può essere concluso a favore di terzi",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "93d929d6f2f337a8f042445700d5ffbbe41cd980513799dc4a9d5a5a0589d854",
+        "italian": "Il trasporto può essere pattuito a favore di un destinatario diverso dal mittente, che acquista i diritti verso il vettore alle condizioni previste dalla legge.",
+        "italian_sha256": "b9c12292e7b6848aba4a41a2c9221923cf5abba5c840e29a1f31c51ba217030b"
+      },
+      {
+        "source": {
+          "number": 15468,
+          "quesito_id": 3264,
+          "text_it": "Il contratto di trasporto si può anche negoziare e concludere a mezzo telefax",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1b358a03be21c4d9cf37dc60f80d86cf53cbcdba75aa8723a45baab203d7eee1",
+        "italian": "La proposta e l’accettazione possono essere scambiate anche per telefax, purché risulti l’accordo tra le parti.",
+        "italian_sha256": "f02c4a892f6f06b3c47871aa2ebdea3d6c4a32920336d7685c1ced74cd7f71f9"
+      },
+      {
+        "source": {
+          "number": 15469,
+          "quesito_id": 3264,
+          "text_it": "Il contratto di trasporto di cose su strada può essere concluso anche senza l’indicazione del corrispettivo",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "90d03e8446dc84aa551e86856eae3f53247ef1bb285f47f0a241b54b4123748b",
+        "italian": "Il quiz segna falso perché il trasporto è normalmente oneroso e il corrispettivo figura tra gli elementi del contratto scritto. Attenzione: la mancata indicazione di una cifra non esclude necessariamente un prezzo determinabile con altri criteri.",
+        "italian_sha256": "c4256774fdd38317a5d8c8d73073235517e706f5819c4d3233d9d279b86b0063"
+      },
+      {
+        "source": {
+          "number": 15470,
+          "quesito_id": 3264,
+          "text_it": "Il contratto di trasporto può avere un oggetto non determinato",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "296bef0de5d4a3f7d65647e947d45ace4cd986cf05105050817ad5728f662b0d",
+        "italian": "Il quiz considera falsa l’affermazione perché l’oggetto non può essere lasciato indeterminato e indeterminabile. Attenzione: la legge ammette anche un oggetto non ancora determinato, purché determinabile.",
+        "italian_sha256": "31da85dbdf3b20930729446c7943d91d3c4403110d7955bd1d761505e9c9fa6c"
+      },
+      {
+        "source": {
+          "number": 15471,
+          "quesito_id": 3264,
+          "text_it": "Il contratto di trasporto è un contratto con cui un soggetto (mittente) si impegna nei confronti di un altro soggetto (vettore) a trasferire persone o cose da un luogo ad un altro in cambio di un corrispettivo",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7811d065ce6f9dde6ec928a2424b46ba4e1136f27358345847ea6b4fcc56cf59",
+        "italian": "È il vettore, non il mittente, a obbligarsi verso corrispettivo a trasferire persone o cose da un luogo a un altro.",
+        "italian_sha256": "d08d12d004d78e06068da5719acf454808142125b0eea780cf18b67761144acb"
+      },
+      {
+        "source": {
+          "number": 15472,
+          "quesito_id": 3265,
+          "text_it": "In materia di contratto di trasporto su strada i diritti si prescrivono in un anno",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "12f1c2fec5ac0368cabe4d7ec1bb35597279efb5768ea893c9ef431f03de83dd",
+        "italian": "La regola generale è la prescrizione annuale dei diritti derivanti dal contratto di trasporto; se il trasporto inizia o termina fuori d’Europa, il termine è di 18 mesi.",
+        "italian_sha256": "b0177dd757eea32fc27d851a740d73a83357a90c49823f520b7eb9310037c5f8"
+      },
+      {
+        "source": {
+          "number": 15473,
+          "quesito_id": 3265,
+          "text_it": "In materia di contratto di trasporto su strada i diritti si prescrivono in 18 mesi se il trasporto ha inizio fuori d’Europa",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2b4a5463d253c99e89d03bb4d4379a327551017820307ffea07e8aa0af5d7806",
+        "italian": "Il codice civile prevede 18 mesi quando il trasporto ha inizio o termine fuori d’Europa; possono applicarsi discipline speciali ai trasporti internazionali.",
+        "italian_sha256": "44b35ec9d7db838508d368bbbd79252b0193d7a1b7dd0723960554e475c29d17"
+      },
+      {
+        "source": {
+          "number": 15474,
+          "quesito_id": 3265,
+          "text_it": "In materia di contratto di trasporto su strada i diritti si prescrivono in 18 mesi se il trasporto ha termine fuori d’Europa",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "a6475ce72c6daa67f390c273fbca32f109d7d33f78d969eee2700aff3a27b70d",
+        "italian": "Il codice civile prevede 18 mesi quando il trasporto ha inizio o termine fuori d’Europa; possono applicarsi discipline speciali ai trasporti internazionali.",
+        "italian_sha256": "44b35ec9d7db838508d368bbbd79252b0193d7a1b7dd0723960554e475c29d17"
+      },
+      {
+        "source": {
+          "number": 15475,
+          "quesito_id": 3265,
+          "text_it": "In materia di contratto di trasporto su strada i diritti si prescrivono in 5 anni",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1ac873ee3090357aea195c304fa4f3d02fe5d672c1e70f2106c8d1244d2d2873",
+        "italian": "Cinque anni non è il termine generale: il codice civile prevede un anno, oppure 18 mesi se il trasporto inizia o termina fuori d’Europa.",
+        "italian_sha256": "f9d82d231652197f5f845b1dd84476e90a3004682daabf7684c8ec5be10ed768"
+      },
+      {
+        "source": {
+          "number": 15476,
+          "quesito_id": 3265,
+          "text_it": "In materia di contratto di trasporto su strada i diritti si prescrivono in 18 mesi se il trasporto si svolge su territorio UE",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "aff1d0740f11cec50f9880a385a3dfa2089d0c4cf087446a9fc8f9f764f06b96",
+        "italian": "Lo svolgimento nell’UE non comporta di per sé 18 mesi: il codice civile prevede di regola un anno e collega i 18 mesi all’inizio o alla fine fuori d’Europa.",
+        "italian_sha256": "6b861bafd9272581f9a4694888fca0cb1a5063cb35cc8ab10a31496dfe7d6a6f"
+      },
+      {
+        "source": {
+          "number": 15477,
+          "quesito_id": 3265,
+          "text_it": "In materia di contratto di trasporto su strada i diritti si prescrivono in il giorno dopo in cui è stata scaricata la merce",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d7961fb3ad7dda3e7b42d79c810f13a4d79402e325747befc2c37c02b59e9436",
+        "italian": "Il giorno successivo allo scarico non è il termine di prescrizione. Di regola i diritti si prescrivono in un anno, decorrente dalla riconsegna o dal giorno in cui avrebbe dovuto avvenire.",
+        "italian_sha256": "83c9cb51a9e435b8edbbaf5a36f4f5c61b5af39292d77fbefbdbfbee3faae88a"
+      },
+      {
+        "source": {
+          "number": 15482,
+          "quesito_id": 3267,
+          "text_it": "Il contratto di trasporto su strada di merci prevede di norma un mittente, un vettore e un destinatario",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "bf9a8abde225900c7c4f350897a2fcbbbfe8b69e8c1ef50bea4c964cfcc39715",
+        "italian": "Normalmente il mittente affida la merce al vettore, che la trasporta al destinatario indicato.",
+        "italian_sha256": "b50e2a0c9a968b9e451e91ec5c93f1bfd38753f5a379d454f3721ac4353badb3"
+      },
+      {
+        "source": {
+          "number": 15483,
+          "quesito_id": 3267,
+          "text_it": "Il contratto di trasporto su strada di merci prevede l’indicazione precisa delle cose da trasferire e del corrispettivo",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "0f75b9ac8ff779627314eb030f98d7c83830aebdcc3ded1145d3f45742c7e63c",
+        "italian": "Nel contratto scritto la tipologia e la quantità della merce e il corrispettivo sono elementi da indicare; la merce e il prezzo devono comunque essere identificabili.",
+        "italian_sha256": "c4bb078f10c02bdcfadbd599c3d8637a1a2160f988f89b246eb15699d21f3294"
+      },
+      {
+        "source": {
+          "number": 15484,
+          "quesito_id": 3267,
+          "text_it": "Il contratto di trasporto su strada di merci è un contratto con cui uno spedizioniere assume l’obbligo di concludere, in nome proprio e per conto di colui che l’ha incaricato (committente), un contratto di trasporto e di espletare le operazioni accessorie",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3086647067cbd40bc8d84237ab51375a924ee015033c9e33f3f285b111436d7e",
+        "italian": "La descrizione riguarda la spedizione: nel trasporto è il vettore che assume l’obbligo di trasferire la merce.",
+        "italian_sha256": "aa2c2429c5cdea9222666b6444dddd92bf229b72ab136dac59afda7581172d78"
+      },
+      {
+        "source": {
+          "number": 15485,
+          "quesito_id": 3267,
+          "text_it": "Il contratto di trasporto su strada di merci coinvolge solo questi 3 soggetti: vettore, spedizioniere e agente",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3b0273e353be36421e589d0057105f8b96366f3965d9435925f63c68387bdaa8",
+        "italian": "Non sono soltanto vettore, spedizioniere e agente: nel trasporto figurano normalmente anche il mittente e il destinatario.",
+        "italian_sha256": "e6e4b0028699cff5a5f359fbdadacd8caf0e7827302b3b40fca9bfa454d48338"
+      },
+      {
+        "source": {
+          "number": 15497,
+          "quesito_id": 3270,
+          "text_it": "I soggetti del contratto di trasporto di merci sono cinque: mittente, vettore, caricatore, destinatario e proprietario della merce",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "89e82d4036c43336eec1a58f2eb446fb315bb31c4d7f4032c0bf68ba74fc6781",
+        "italian": "Il quiz considera cinque ruoli della filiera: mittente, vettore, caricatore, destinatario e proprietario della merce. Non sono necessariamente cinque persone diverse né tutte parti del contratto.",
+        "italian_sha256": "b2851cb5ef7ba86fcdc680fac54b54de0485d32d2e685034186c64f6461ff070"
+      },
+      {
+        "source": {
+          "number": 15498,
+          "quesito_id": 3270,
+          "text_it": "I soggetti del contratto di trasporto di merci sono quattro: mittente, destinatario, vettore e autista",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7b402c018b8026697f4d6962276cf12bce99faaa16b2afed042e6a699991e64c",
+        "italian": "L’elenco è incompleto nel senso del quiz: considera anche caricatore e proprietario della merce. L’autista conduce il veicolo, ma non è necessariamente una parte del contratto.",
+        "italian_sha256": "79ae71da6d663769e897f4c015f4972f1d9660791ef9dc34c0eba926808a593f"
+      },
+      {
+        "source": {
+          "number": 15499,
+          "quesito_id": 3270,
+          "text_it": "I soggetti del contratto di trasporto di merci sono quattro: mittente, destinatario, vettore e caricatore",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2bcf92aa5b205576fec7242bb94e5ef8d7511db293f8fd83e4d691b433f62111",
+        "italian": "Secondo lo schema del quiz manca il proprietario della merce. I cinque ruoli considerati possono comunque coincidere nella stessa persona e non sono tutti necessariamente parti contrattuali.",
+        "italian_sha256": "eb79992433590550ceee3dcb6583c503c5df6f3621b225f7cbcdfd5375d62c04"
+      },
+      {
+        "source": {
+          "number": 15500,
+          "quesito_id": 3270,
+          "text_it": "I soggetti del contratto di trasporto di merci sono tre: mittente, vettore e caricatore",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c23eda3c34e8703f596a04198234e046b0aa3152199bffde6846221f51a39e31",
+        "italian": "L’elenco tralascia il destinatario e il proprietario della merce, inclusi tra i cinque ruoli considerati dal quiz. I ruoli non corrispondono necessariamente a persone distinte.",
+        "italian_sha256": "16067932f5e1105f50e26150739a6df1255c20d3c5b1f628f3f987fa6665ef5b"
+      },
+      {
+        "source": {
+          "number": 15501,
+          "quesito_id": 3270,
+          "text_it": "I soggetti del contratto di trasporto di merci sono tre: mittente, destinatario, vettore",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8a49edf58c7b15f6131a3d8de4837a77ac003d2373243b5cd04e839615bb2003",
+        "italian": "FALSO. Il contratto è concluso tra mittente e vettore; il destinatario può essere un terzo beneficiario e può anche coincidere con il mittente. Non sono quindi necessariamente tre parti contrattuali distinte.",
+        "italian_sha256": "32e5bc8163e84b65699e3be6f814b564f9af86b6df296fb4c15fbe927bc754c1"
+      },
+      {
+        "source": {
+          "number": 15502,
+          "quesito_id": 3271,
+          "text_it": "I soggetti giuridici coinvolti nel contratto di trasporto su strada comprendono il mittente, cioè colui che spedisce la merce",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f947ce1426eef9925890ea4a74644e4f714b4f24196023daa9a238b5bd3878a0",
+        "italian": "VERO. Il mittente affida la merce al vettore per la spedizione e indica il destinatario e la destinazione.",
+        "italian_sha256": "201ade27474b0c3c8b0c3856621f40333a4d2d197e8fbf87cc0f2c53b9a729b5"
+      },
+      {
+        "source": {
+          "number": 15503,
+          "quesito_id": 3271,
+          "text_it": "I soggetti giuridici coinvolti nel contratto di trasporto su strada comprendono il vettore, che deve accertarsi che il carico sia stato fatto a regola d’arte",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b0505b7a3d96a01f7b84696aca2284cff3611cca9aff574e26c326b8bbcaad6b",
+        "italian": "VERO. Il vettore deve verificare che il carico sia sistemato in sicurezza prima del trasporto; anche il caricatore risponde delle violazioni accertate sulla sistemazione.",
+        "italian_sha256": "6242400a4c90d6f11808abe09781b6832fe672adb52b93d451b7b419c67acd66"
+      },
+      {
+        "source": {
+          "number": 15504,
+          "quesito_id": 3271,
+          "text_it": "I soggetti giuridici coinvolti nel contratto di trasporto su strada comprendono il destinatario, che può fare accertare lo stato delle cose trasportate",
+          "answer": 1,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1d98719f47730c9d0d74027020ae8a42fead0e8570cdfeebdd7224e1ef911a8a",
+        "italian": "VERO. Il destinatario può far accertare, a proprie spese e prima della riconsegna, l’identità e lo stato delle cose trasportate.",
+        "italian_sha256": "9693465f22ba34ca9a8a2f66c753f6d97190860cd1420a28310ccafed2c361ec"
+      }
+    ],
+    "task_sha256": "ff47f62950f89e30d07fdb9d5eb84fdce378f38bbfbebdf3e1acf6300579b4da"
+  },
+  "rows": [
+    {
+      "number": 15395,
+      "text": "Driving is not reserved exclusively for the business owner: it may also be entrusted to employees and other eligible persons."
+    },
+    {
+      "number": 15396,
+      "text": "Own-account transport must be complementary or incidental to the main business activity and must not be economically predominant."
+    },
+    {
+      "number": 15397,
+      "text": "The quiz considers vehicles subject to a licence: for these, hire without a driver is not an accepted basis for having the vehicle available. The statement is general: up to 6 tonnes, hire without a driver is permitted and a licence is not required."
+    },
+    {
+      "number": 15398,
+      "text": "Driving must be entrusted to a person connected with the business who belongs to an eligible category; an outsider does not meet this condition."
+    },
+    {
+      "number": 15399,
+      "text": "The processing of goods by the business does not prevent own-account transport: the goods may be held specifically for processing, provided the other conditions are met."
+    },
+    {
+      "number": 15400,
+      "text": "Owning the vehicles does not prevent a licence from being issued: it is one of the accepted bases for having vehicles available for own-account transport."
+    },
+    {
+      "number": 15415,
+      "text": "The licence specifies the goods or classes of goods authorised, limiting what may be transported under the applicable conditions."
+    },
+    {
+      "number": 15416,
+      "text": "For own-account transport, a licence is required for vehicles with a maximum laden mass exceeding 6 tonnes; it is not required up to that threshold."
+    },
+    {
+      "number": 15417,
+      "text": "It is incorrect to say there are no limits: the licence lists the goods or classes of goods for which it is issued."
+    },
+    {
+      "number": 15418,
+      "text": "The licence cannot be omitted: it is part of the vehicle documentation and the driver must be able to present it during checks."
+    },
+    {
+      "number": 15419,
+      "text": "The licence also states the holder's activity, as well as the vehicle details and the classes of goods that may be transported."
+    },
+    {
+      "number": 15424,
+      "text": "Transport for hire or reward is a business activity that provides transport services in exchange for payment."
+    },
+    {
+      "number": 15425,
+      "text": "Transport for hire or reward involves using the vehicle for payment in the interests of persons other than the registered holder."
+    },
+    {
+      "number": 15426,
+      "text": "In transport for hire or reward, the carrier professionally provides a transport service to the customer in exchange for payment."
+    },
+    {
+      "number": 15427,
+      "text": "Ownership of the goods by the registered holder does not define transport for hire or reward: that is a business service provided for payment. Transport for one's own needs may instead be own-account transport if the requirements are met."
+    },
+    {
+      "number": 15428,
+      "text": "Exceeding 6 tonnes does not restrict a vehicle to transport for hire or reward: it may also be used for own-account transport with the required licence and other requirements met."
+    },
+    {
+      "number": 15437,
+      "text": "The prescribed marking for the transport of goods for hire or reward is a white diagonal stripe on the front."
+    },
+    {
+      "number": 15438,
+      "text": "The vehicle must be designated and registered for use for hire or reward, with the relevant entry in the registration document."
+    },
+    {
+      "number": 15439,
+      "text": "The colour stated is incorrect: the stripe for transport for hire or reward is white; the red stripe identifies own-account transport."
+    },
+    {
+      "number": 15440,
+      "text": "The prescribed marking is not a rear panel bearing the words «conto terzi»: it is a white diagonal stripe, also reproduced at the rear."
+    },
+    {
+      "number": 15441,
+      "text": "Registration in the register is required to carry goods by road for hire or reward; further authorisations may also be needed to operate."
+    },
+    {
+      "number": 15442,
+      "text": "Registration in the register is required to carry goods by road for hire or reward; on its own, it does not replace any other requirements for operating lawfully."
+    },
+    {
+      "number": 15444,
+      "text": "The register covers businesses that carry goods by road for hire or reward; registration is a requirement for that activity."
+    },
+    {
+      "number": 15446,
+      "text": "Registration in the register concerns the road haulage activity and does not exempt the vehicle from the documentation required for its use on the road."
+    },
+    {
+      "number": 15448,
+      "text": "The register concerns transport for hire or reward, not own-account transport, which is governed by separate rules."
+    },
+    {
+      "number": 15449,
+      "text": "Registration in the register concerns transport for hire or reward and is not the basis for obtaining an own-account transport licence, which is subject to the requirements of that regime."
+    },
+    {
+      "number": 15466,
+      "text": "The contract is consensual: it is concluded when the parties agree, without waiting for the goods to be handed over."
+    },
+    {
+      "number": 15467,
+      "text": "Transport may be agreed for the benefit of a recipient other than the sender, who acquires rights against the carrier under the conditions provided by law."
+    },
+    {
+      "number": 15468,
+      "text": "The offer and acceptance may also be exchanged by fax, provided the agreement between the parties is established."
+    },
+    {
+      "number": 15469,
+      "text": "The quiz marks this false because transport is normally provided for payment and the fee is among the elements of a written contract. Note: failure to state an amount does not necessarily rule out a price that can be determined using other criteria."
+    },
+    {
+      "number": 15470,
+      "text": "The quiz considers the statement false because the subject matter cannot be left undetermined and impossible to determine. Note: the law also permits subject matter that has not yet been determined, provided it can be determined."
+    },
+    {
+      "number": 15471,
+      "text": "It is the carrier, not the sender, who undertakes to move people or goods from one place to another in exchange for payment."
+    },
+    {
+      "number": 15472,
+      "text": "The general rule is a one-year limitation period for rights arising from a transport contract; if the transport starts or ends outside Europe, the period is 18 months."
+    },
+    {
+      "number": 15473,
+      "text": "The Civil Code provides for 18 months when the transport starts or ends outside Europe; special rules may apply to international transport."
+    },
+    {
+      "number": 15474,
+      "text": "The Civil Code provides for 18 months when the transport starts or ends outside Europe; special rules may apply to international transport."
+    },
+    {
+      "number": 15475,
+      "text": "Five years is not the general period: the Civil Code provides for one year, or 18 months if the transport starts or ends outside Europe."
+    },
+    {
+      "number": 15476,
+      "text": "Transport within the EU does not in itself mean an 18-month period: the Civil Code generally provides for one year and links the 18-month period to transport starting or ending outside Europe."
+    },
+    {
+      "number": 15477,
+      "text": "The day after unloading is not the limitation period. As a rule, rights become time-barred after one year, starting from delivery or the day on which delivery should have taken place."
+    },
+    {
+      "number": 15482,
+      "text": "Normally, the sender entrusts the goods to the carrier, who transports them to the named recipient."
+    },
+    {
+      "number": 15483,
+      "text": "In a written contract, the type and quantity of goods and the fee are elements to be stated; in any event, the goods and the price must be identifiable."
+    },
+    {
+      "number": 15484,
+      "text": "The description concerns freight forwarding: in a transport contract, it is the carrier who undertakes to move the goods."
+    },
+    {
+      "number": 15485,
+      "text": "The parties are not limited to the carrier, freight forwarder and agent: the sender and recipient are also normally involved in transport."
+    },
+    {
+      "number": 15497,
+      "text": "The quiz considers five roles in the transport chain: sender, carrier, loader, recipient and owner of the goods. They are not necessarily five different people, nor are they all necessarily parties to the contract."
+    },
+    {
+      "number": 15498,
+      "text": "The list is incomplete for the purposes of the quiz: it also considers the loader and the owner of the goods. The driver drives the vehicle but is not necessarily a party to the contract."
+    },
+    {
+      "number": 15499,
+      "text": "According to the quiz's scheme, the owner of the goods is missing. The five roles considered may nevertheless be combined in the same person, and they are not all necessarily parties to the contract."
+    },
+    {
+      "number": 15500,
+      "text": "The list omits the recipient and the owner of the goods, who are included among the five roles considered by the quiz. The roles do not necessarily correspond to separate people."
+    },
+    {
+      "number": 15501,
+      "text": "FALSO. The contract is concluded between the sender and the carrier; the recipient may be a third-party beneficiary and may also be the sender. There are therefore not necessarily three separate parties to the contract."
+    },
+    {
+      "number": 15502,
+      "text": "VERO. The sender entrusts the goods to the carrier for shipment and specifies the recipient and destination."
+    },
+    {
+      "number": 15503,
+      "text": "VERO. The carrier must check that the load is safely arranged before transport; the loader is also liable for identified violations concerning its arrangement."
+    },
+    {
+      "number": 15504,
+      "text": "VERO. The recipient may have the identity and condition of the goods being transported checked at their own expense before delivery."
+    }
+  ],
+  "output_sha256": "0680b9993d200cc845a02effd27803624011e1b84873c0dc0dcfb3c661dd248e"
+}

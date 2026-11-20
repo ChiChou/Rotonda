@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed57-012e-78c0-b2a1-bb3d7eb10ba8"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 13678,
+          "quesito_id": 3037,
+          "text_it": "Il surriscaldamento delle ganasce ne aumenta il coefficiente di attrito",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6a7d77540b28e8b1724217e8773f3c2b4ec6c6f5789ebc1d5be24576a48532f5",
+        "italian": "Falso. Il surriscaldamento può ridurre l’attrito delle guarnizioni delle ganasce e quindi l’efficacia frenante, provocando il fading.",
+        "italian_sha256": "216136f4394d30afa17e10ab39f568ce71def2d2db68ab1fc17dbf2ae164bcbb"
+      },
+      {
+        "source": {
+          "number": 13679,
+          "quesito_id": 3037,
+          "text_it": "Nei freni a disco la ventilazione delle parti a strisciamento è assicurata da un compressore",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "35fc1d2a5b0a6e75d3c77a84a45bad3780bd336f13c5c58c755fb2a043ce2abe",
+        "italian": "Falso. Il raffreddamento del disco avviene attraverso la circolazione dell’aria dovuta al moto del veicolo e alla rotazione del disco, non tramite un compressore.",
+        "italian_sha256": "7f588e94791637fdd2f543ba0f23ad924a494aaf7b032b7d463f16cc7ede5701"
+      },
+      {
+        "source": {
+          "number": 13680,
+          "quesito_id": 3037,
+          "text_it": "Nei freni la forza frenante è amplificata dall’ABS",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5f1eed8b5f0a594e651c3bddd3c24da8fdaa7874d7d2f7e082bafb1007c8aa64",
+        "italian": "Falso. L’ABS modula la pressione per contrastare il bloccaggio delle ruote; non è il dispositivo che amplifica la forza frenante.",
+        "italian_sha256": "89c9df63fc637462bb85f74deca9afdf012841a907209c627748cf2c33f9d2be"
+      },
+      {
+        "source": {
+          "number": 13681,
+          "quesito_id": 3038,
+          "text_it": "Nel freno idraulico la forza frenante è trasmessa da un liquido",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "adc0fca3ffe32bccca5e18b861afcd8a3e9072b5d9773127c91d16c6fd3dac46",
+        "italian": "Vero. Nel freno idraulico il liquido trasmette la pressione agli organi che azionano i freni alle ruote.",
+        "italian_sha256": "fa0cf4d76911a3639a4720efb51b02609a18a13dc74a1c64568cf5a24d412654"
+      },
+      {
+        "source": {
+          "number": 13682,
+          "quesito_id": 3038,
+          "text_it": "La forza frenante è amplificata dal servofreno",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b2135e7990d5e283efab4f9365fdc6b69701876627d58bc1da3f77660b501e43",
+        "italian": "Vero. Il servofreno assiste lo sforzo esercitato sul pedale, aumentando la forza disponibile per azionare il circuito frenante.",
+        "italian_sha256": "ecc4674521b38a84414952a9f82c3f2e85d3505645bcfbf7517ea77e0586afa0"
+      },
+      {
+        "source": {
+          "number": 13683,
+          "quesito_id": 3038,
+          "text_it": "Nel freno pneumatico la forza frenante è fornita dalla pressione di aria",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a58a916318b4caa7898447f83c49d0112cb83a15df5d5726eb9b1071d3c8c311",
+        "italian": "Vero. Nel freno pneumatico la pressione dell’aria aziona le camere frenanti, che applicano i freni alle ruote.",
+        "italian_sha256": "6fc1fb387c4b72cadaf9ada1665e8efb7841c59313a6dc0226f7f2f1a2deb307"
+      },
+      {
+        "source": {
+          "number": 13684,
+          "quesito_id": 3038,
+          "text_it": "Il freno pneumatico utilizza l’aria compressa preventivamente accumulata in serbatoi",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "632cd43aa06f2ecef98c5f64ec925a438c5b539fcfde03b5657cb364c12f82d4",
+        "italian": "Vero. Il compressore riempie i serbatoi, che conservano aria compressa disponibile per le frenate.",
+        "italian_sha256": "9caca6201d1b29e68ad7ea5f916d0e8fc3467822ed47f674b222f342c4deca64"
+      },
+      {
+        "source": {
+          "number": 13685,
+          "quesito_id": 3038,
+          "text_it": "L’impianto frenante oleopneumatico è dotato di un compressore",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b4cfd3e004770882935e2a595fb429d67bbcb8ac8e4b3fd322c9fdb6edd642a0",
+        "italian": "Vero. Nell’impianto oleopneumatico il compressore alimenta il circuito ad aria che aziona il convertitore e il circuito idraulico.",
+        "italian_sha256": "3560d0f0337811e11acb8b399a527fa0a654976534686da4640523dbed1c0382"
+      },
+      {
+        "source": {
+          "number": 13686,
+          "quesito_id": 3038,
+          "text_it": "I freni a disco comprendono le pinze che agiscono sulle pasticche",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ecd52dd7c0d7c009d22fc099a20395030fc99fae800d73eaf4365e9e2a54d37d",
+        "italian": "Vero. La pinza preme le pastiglie contro il disco, generando l’attrito che rallenta la ruota.",
+        "italian_sha256": "497cb24a9652ea563c85cf780e8870bd4847842cfee22ecad9ce71193af71ce8"
+      },
+      {
+        "source": {
+          "number": 13687,
+          "quesito_id": 3038,
+          "text_it": "Nei freni oleopneumatici il fluido frenante è costituito da una miscela di olio ed aria",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2777c185d87ad31e110989b9cb125f6b6e0dfb74d9bff2d6f0d8702721b0dc27",
+        "italian": "Falso. Aria e liquido non formano una miscela frenante: il convertitore usa la pressione dell’aria per mettere in pressione il liquido in un circuito distinto.",
+        "italian_sha256": "4729e2827103030d6b9df6d36d53d77c895b1d03f086821b12a1a2aa4732a359"
+      },
+      {
+        "source": {
+          "number": 13688,
+          "quesito_id": 3038,
+          "text_it": "L’impianto frenante pneumatico è dotato di un convertitore pneumoidraulico",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a8b255e485f689a37327df0dae796779c1bf71dfda1322fc77521b97d8d9f959",
+        "italian": "Falso nel senso del quiz: un impianto interamente pneumatico aziona i freni con aria; il convertitore serve invece quando la pressione pneumatica comanda una parte idraulica.",
+        "italian_sha256": "238b85f63659c4d0e59a6b21a30c94c667f9c4f068a598daf46ad297cc17a48d"
+      },
+      {
+        "source": {
+          "number": 13689,
+          "quesito_id": 3038,
+          "text_it": "Il freno oleopneumatico agisce sull’albero di trasmissione",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d59a4e73715fb66cf4c4369ea258d4d72057db05c55c80c8a4a7610f4605c1fb",
+        "italian": "Falso. Oleopneumatico indica il modo di azionare il freno: l’aria mette in pressione il liquido che comanda i freni alle ruote, non necessariamente un freno sull’albero di trasmissione.",
+        "italian_sha256": "3a08b9b071092cd62fbed37cd4f14542462ec0d601b6b1b875fecf87e19e77b6"
+      },
+      {
+        "source": {
+          "number": 13690,
+          "quesito_id": 3038,
+          "text_it": "Il freno oleopneumatico è un tipo di freno ausiliario che genera solo il rallentamento del veicolo",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0f65361df1c949000fabbab34904a95ceb7bdb8a3acef9344a889c862f4a11c8",
+        "italian": "Falso. L’oleopneumatico è un sistema di azionamento del freno di servizio: può rallentare e arrestare il veicolo, non è soltanto un freno ausiliario.",
+        "italian_sha256": "c8b006d8dc740c2630fb05e7580c4b9ef3d6b1c88970c5477508932179e147a7"
+      },
+      {
+        "source": {
+          "number": 13691,
+          "quesito_id": 3038,
+          "text_it": "Il freno oleopneumatico utilizza l’olio di lubrificazione del motore",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cc9617caf210344782ad0ddf3a63deb5363169f62db5cfaccb7d99e85c35a747",
+        "italian": "Falso. Il circuito idraulico usa il liquido frenante previsto dal costruttore, con un proprio serbatoio; non usa l’olio di lubrificazione del motore.",
+        "italian_sha256": "f08cdd1aa8178d3a80717600d25bab526a68a12e72ee404d1deb8195432601ce"
+      },
+      {
+        "source": {
+          "number": 13692,
+          "quesito_id": 3038,
+          "text_it": "Il freno pneumatico sfrutta l’incomprimibilità dell’aria",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0680bd450d9f946dd4d8edb3c42ef5bf65fb1960ce8e20341c356baa105083f2",
+        "italian": "Falso. L’aria è comprimibile: il freno pneumatico usa aria compressa accumulata nei serbatoi e la sua pressione per azionare i freni.",
+        "italian_sha256": "d1b5d4ae5347d3780826c62177505dc1ba5d67136f43a9127e23e58b778244b2"
+      },
+      {
+        "source": {
+          "number": 13693,
+          "quesito_id": 3039,
+          "text_it": "L’impiego del freno motore e/o del rallentatore limita l’usura degli elementi frenanti",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8e9e84c7277c0f0869f09cf19453d5be183597146785fab8562028b56950f9c7",
+        "italian": "Il freno motore e il rallentatore assorbono parte della decelerazione, riducendo l’uso e quindi l’usura dei freni di servizio.",
+        "italian_sha256": "6ea84c028e01cbbcf6a5cc9fe2b3e91cf80f5c5fe30e2a7781b10d620994a696"
+      },
+      {
+        "source": {
+          "number": 13694,
+          "quesito_id": 3039,
+          "text_it": "L’uso combinato del rallentatore e freno comporta un minor usura delle ganasce",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f56eb5d0dce89d9bfe104edb5aa11df9a303013bf5179d4811b17ae7f44b1272",
+        "italian": "Il rallentatore assorbe parte della frenata: il freno di servizio lavora meno e le guarnizioni delle ganasce si usurano meno.",
+        "italian_sha256": "523d53ce7f9357e5401625b12c724e116737ab14e449b126e9a911a2f1e999df"
+      },
+      {
+        "source": {
+          "number": 13695,
+          "quesito_id": 3039,
+          "text_it": "L’impiego del freno motore e/o del rallentatore limita il consumo delle guarnizioni d’attrito dell’impianto dei freni",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "004927f3d1aa95b65e2683e055aa12ce08799d3b081099be443a28e3f13cf21f",
+        "italian": "Freno motore e rallentatore riducono gli interventi dei freni di servizio e quindi il consumo delle loro guarnizioni d’attrito.",
+        "italian_sha256": "a044bf5966e06c83d1dca86cdbfc8a78734cda53ee7c01d1ff9116a540244fb2"
+      },
+      {
+        "source": {
+          "number": 13696,
+          "quesito_id": 3039,
+          "text_it": "L’impiego del freno motore e/o del rallentatore limita il surriscaldamento dei freni",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bdeedec7f84aaf8f3e85b63085ff31bdf1e7398f15bfcfdcadff426833e11db8",
+        "italian": "I freni ausiliari assorbono parte della frenata, limitando il lavoro e il riscaldamento dei freni di servizio.",
+        "italian_sha256": "ed1fa7d43654d747b4842a4c069cd38876a161a20539d6217f1d7c66272a25d3"
+      },
+      {
+        "source": {
+          "number": 13698,
+          "quesito_id": 3039,
+          "text_it": "Per effettuare una frenata brusca è opportuno l’impiego del freno motore",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ff816cba01737ba3216514cd8302214f42a807291a3c5921d028283e3533913c",
+        "italian": "È falso che il freno motore sia il mezzo adatto per una frenata brusca: in emergenza occorre frenare subito con il freno di servizio.",
+        "italian_sha256": "a414ff60d70fc308a7ee724ac2cefa148f202a5a4bdd901c74ec7a7dd9b43691"
+      },
+      {
+        "source": {
+          "number": 13699,
+          "quesito_id": 3039,
+          "text_it": "L’uso combinato di freno e rallentatore è azionato da un dispositivo automatico",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6ae3937c2bcaa49629611bf6e89ce71dabed5d2e2eee94759a9aa085bcfaa62d",
+        "italian": "Il quiz considera falsa l’attivazione automatica come regola generale: il rallentatore può essere comandato dal conducente. La formulazione è ambigua, perché alcuni impianti lo attivano automaticamente tramite il pedale del freno.",
+        "italian_sha256": "c53520657a0605d865a9e726c24a3f456c9bc462c49e754b9af8a9a586d8b3d6"
+      },
+      {
+        "source": {
+          "number": 13700,
+          "quesito_id": 3039,
+          "text_it": "L’impiego del freno motore e/o del rallentatore provoca il surriscaldamento dei freni",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "dfa8ebb0c9dd8dfbfc7cd5e45668428e060d455aa7be7639e7222b15314d5c19",
+        "italian": "È falso che i freni ausiliari provochino il surriscaldamento dei freni di servizio: assorbendo parte della frenata ne limitano il riscaldamento.",
+        "italian_sha256": "39490d358c4d8f32eb5877f7c3def57e19e0e22474c652391458548911af2f48"
+      },
+      {
+        "source": {
+          "number": 13701,
+          "quesito_id": 3039,
+          "text_it": "L’uso del freno motore evita un innalzamento della temperatura del motore",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5ed39e6b09cfd3993ad6cd3cb06ac58454d7d5de03cc7ad930e15e3a14135602",
+        "italian": "FALSO. Il freno motore non garantisce che la temperatura del motore resti invariata: il freno allo scarico può contribuire al riscaldamento.",
+        "italian_sha256": "4a0278b65cd6c8bce100201ed2102cf4107de1d60c2babbeb1bbdba65f317709"
+      },
+      {
+        "source": {
+          "number": 13702,
+          "quesito_id": 3039,
+          "text_it": "Nelle lunghe discese è consigliabile non usare il freno motore per evitarne il suo deterioramento",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "662cf9cce0ec3d3adabd6a118fb32c9e6fe61a129c9f776bced42096a4862c1d",
+        "italian": "È falso che in discesa si debba evitare il freno motore per proteggerlo: usarlo con una marcia adeguata aiuta a controllare la velocità e riduce il ricorso ai freni di servizio.",
+        "italian_sha256": "8dc068b59fc08aba8d39e9d729a89415758b14ac3bdabc87aac06523270f5bb0"
+      },
+      {
+        "source": {
+          "number": 13703,
+          "quesito_id": 3040,
+          "text_it": "Il rallentatore è particolarmente efficiente alle alte velocità",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bf3350a055d4715b84e59c902b0ea8bfa2bf238b01376c663d6d961bb054b976",
+        "italian": "Il quiz considera efficace il rallentatore alle alte velocità. La prestazione dipende però dal dispositivo: alcuni sono efficaci anche a bassa velocità.",
+        "italian_sha256": "e8f57f3cb1c94747d0fcfe1382770365ba804ca6dd2c182c8ce8e49415f568f9"
+      },
+      {
+        "source": {
+          "number": 13704,
+          "quesito_id": 3040,
+          "text_it": "L’uso del solo rallentatore non garantisce un rapido arresto del veicolo",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "15e8996c0019df641b16142e75a55b0b3e1efe32dcabc076fb8ebd2398b7b311",
+        "italian": "Il rallentatore serve a decelerare, ma da solo non garantisce un arresto rapido: per fermarsi si usa il freno di servizio.",
+        "italian_sha256": "bf23228757e96357d68f46f2c915ce9e875b88855bfa8f808339e520bf44cbb4"
+      },
+      {
+        "source": {
+          "number": 13705,
+          "quesito_id": 3040,
+          "text_it": "Il freno di servizio consente un rapido arresto del veicolo mentre i rallentatori e il freno motore ne consentono il solo rallentamento",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bea3036807d3a09320b455ec1c0d3c2386698de744a068771616bd4a6902a79c",
+        "italian": "Il freno di servizio serve a rallentare e arrestare rapidamente il veicolo; freno motore e rallentatore aiutano soprattutto a decelerare e controllare la velocità.",
+        "italian_sha256": "2bded0fce8b7e899ad45bc39b3ab1fa8bb7dcf7f6c66e345a914aa47f5cddafe"
+      },
+      {
+        "source": {
+          "number": 13706,
+          "quesito_id": 3040,
+          "text_it": "L’intervento dell’ABS non è comandata dal conducente",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e9b13b021625b773de759f70a02df5e26fbad0d56041f9d3c90336bd4dc7cd0d",
+        "italian": "L’ABS interviene automaticamente durante la frenata: rileva la velocità delle ruote e regola la pressione per contrastarne il bloccaggio.",
+        "italian_sha256": "8a80d63d7e3a1976ef08def1e711c4682420d0a0ebc2742c7e3192edf157ae13"
+      },
+      {
+        "source": {
+          "number": 13707,
+          "quesito_id": 3040,
+          "text_it": "L’uso prolungato del freno motore provoca un innalzamento della temperatura del motore",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e8cf76af2b0a6e17e82b5c8ea36d70a6e45a0df4d4201d5d95f6c9cc5116bfb7",
+        "italian": "VERO. Nel caso del freno allo scarico, il funzionamento può contribuire al riscaldamento del motore; l’aumento effettivo dipende dalle condizioni e dal raffreddamento.",
+        "italian_sha256": "c27785cdd26d681efa13c3461279483b243c4c11fa2b3192469951ab1880b0bd"
+      },
+      {
+        "source": {
+          "number": 13708,
+          "quesito_id": 3040,
+          "text_it": "Il freno motore limita la fuoriuscita dei gas di scarico",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "efd9c31d131e30581e57c0aafbcd8fad88bc4bc9c7ed262cb6f9544139a8f057",
+        "italian": "VERO. Nel freno allo scarico una valvola limita l’uscita dei gas, creando una contropressione che oppone resistenza al motore. Non tutti i sistemi di freno motore funzionano così.",
+        "italian_sha256": "bded566a0df32e4729c0b9602c976e29294df6a1ff881614c0bd67665bccc986"
+      },
+      {
+        "source": {
+          "number": 13711,
+          "quesito_id": 3040,
+          "text_it": "Il freno motore è efficace in quanto agisce sull’albero di trasmissione",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ce22e42ade5e9f9167f1061cdfc2318c8e753c5f081f6b04cdad6719b80cb7ff",
+        "italian": "È falso attribuire il freno motore a un’azione diretta sull’albero di trasmissione: la resistenza nasce nel motore e raggiunge le ruote attraverso la trasmissione. Alcuni rallentatori agiscono invece sull’albero.",
+        "italian_sha256": "99236633528662827a07ef5aee937bd3b8da5fffb38db135062973b9aa76c38a"
+      },
+      {
+        "source": {
+          "number": 13712,
+          "quesito_id": 3040,
+          "text_it": "Il freno motore è particolarmente efficiente alle alte velocità",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7808bb5705e6985fd777103983214f54e3966cf85f6ba6b5341a91f9dc67b794",
+        "italian": "FALSO. Il quiz contrappone le alte velocità alla marcia lenta con rapporto ridotto. La formulazione è ambigua: l’efficacia dipende soprattutto dal regime del motore e dal rapporto inserito, non dalla sola velocità del veicolo.",
+        "italian_sha256": "a54f1c1c1d46a795c6dc68ea534c2dc3ceca40030f6cd7aa45000cc537c20a67"
+      },
+      {
+        "source": {
+          "number": 13713,
+          "quesito_id": 3041,
+          "text_it": "Il rallentatore è di tipo elettromagnetico o idraulico",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9e486e04fce1c0e061143b68a2807db089353c58f2d8b6847cf2db9232a1ec0a",
+        "italian": "Tra i rallentatori esistono dispositivi elettromagnetici e dispositivi idrodinamici, che usano un fluido.",
+        "italian_sha256": "23a74c75f201804135198e6454309ed36fe2e69598e0993f8c457d26e47ba444"
+      },
+      {
+        "source": {
+          "number": 13714,
+          "quesito_id": 3041,
+          "text_it": "L’azione del rallentatore è comandata dal conducente",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "47438ebaea1b6afa50af8bf784dbd8d35c47a48fd90b82f902ee35cbb179d25a",
+        "italian": "Il conducente può comandare il rallentatore, ad esempio mediante una leva; su alcuni veicoli è integrato anche nel comando a pedale.",
+        "italian_sha256": "0b7284c497d522e88c13d11e37690f64109786247e9c35d25608d2092d60c214"
+      },
+      {
+        "source": {
+          "number": 13715,
+          "quesito_id": 3041,
+          "text_it": "E’ opportuno utilizzare il rallentatore percorrendo lunghe discese",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "51903ff46bfec1da125a202019ae382d766f0b020c13f15f5ca73452c34f3072",
+        "italian": "Nelle lunghe discese il rallentatore aiuta a controllare la velocità senza ricorrere continuamente al freno di servizio.",
+        "italian_sha256": "6dacc96974708c9bcbd3b9772c7596022fef946045b4ddebb1fc59f9fa944ae0"
+      },
+      {
+        "source": {
+          "number": 13716,
+          "quesito_id": 3041,
+          "text_it": "Il rallentatore è particolarmente efficiente alle basse velocità",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "32da4ce54b336494f522a2973c5f6cad12b44001479863aaf494864ac334505a",
+        "italian": "Il quiz considera falsa la particolare efficienza alle basse velocità. La risposta dipende però dal tipo di rallentatore: alcuni modelli sono efficaci anche a bassa velocità.",
+        "italian_sha256": "cb298af5dd62a3b26b06e565c488d0f0cd78aeb6586c3db9b9439e14aede17d8"
+      },
+      {
+        "source": {
+          "number": 13717,
+          "quesito_id": 3041,
+          "text_it": "Il contemporaneo uso del rallentatore e del freno motore provoca il bloccaggio delle ruote",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6ae15e7ad3c6d6832ed4199ab7519ec18882c8592a7868908ff3a60a1954a704",
+        "italian": "È falso che l’uso contemporaneo provochi necessariamente il bloccaggio: i due dispositivi possono essere combinati. Occorre comunque dosare la frenata secondo l’aderenza e le istruzioni del veicolo.",
+        "italian_sha256": "dee875ddf0ff2494fd33f5d7a46cf2e21f74aa1e38880a56a6c0e93aa1e948c5"
+      },
+      {
+        "source": {
+          "number": 13718,
+          "quesito_id": 3041,
+          "text_it": "Il rallentatore interviene automaticamente quando si supera la velocità di 80 km/h",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "96724c6bafa2eb4bdda7368809d1f3417603d7b972490ba6c95e12b87b72f6ef",
+        "italian": "FALSO. Il rallentatore è un freno ausiliario: non entra necessariamente in funzione al superamento di 80 km/h; l’attivazione dipende dai comandi e dal sistema del veicolo.",
+        "italian_sha256": "a27d67f4217bd733a370c3958561a6bd970da7e6c60539d7859a965712c78a06"
+      },
+      {
+        "source": {
+          "number": 13719,
+          "quesito_id": 3041,
+          "text_it": "Il rallentatore annulla la mandata del gasolio",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c2e7726448cafa618593104144732d7044fd97c33b2c2ced46107372f962c820",
+        "italian": "FALSO. Il rallentatore frena il veicolo; non è definito dall’annullamento della mandata del gasolio. Per esempio, quello idrodinamico produce una coppia frenante nella trasmissione.",
+        "italian_sha256": "eb6afc2fd050d56803307832c17901e3940fd46a0a7b251097fc74c9c8ad5039"
+      },
+      {
+        "source": {
+          "number": 13720,
+          "quesito_id": 3041,
+          "text_it": "Il rallentatore è efficace in quanto agisce direttamente sullo scarico del motore",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "369b2b4d5c0c5c883812a991ef940eb211d8f9f04105a5c3b6fb9d7c430452a5",
+        "italian": "FALSO. Agire sullo scarico è il principio del freno allo scarico; un rallentatore idrodinamico frena invece tramite un fluido nella trasmissione.",
+        "italian_sha256": "7ca883c9db2e9422b31919ff33182bde4e71952bece62a9c1f3eec3f815e5a87"
+      },
+      {
+        "source": {
+          "number": 13721,
+          "quesito_id": 3042,
+          "text_it": "Il cambio è un componente della trasmissione",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f7035b7a40c33013928a8f171fb83e920593217f58769d032eff0fabb86e4a64",
+        "italian": "VERO. Il cambio fa parte della trasmissione e modifica il rapporto tra il motore e le ruote.",
+        "italian_sha256": "5e4b6bcc043112581d2ca31e38112ee984ebb83f2d9e5081d1f924a1b70ff2a3"
+      },
+      {
+        "source": {
+          "number": 13722,
+          "quesito_id": 3042,
+          "text_it": "L’uso del cambio consente di adeguare la velocità alle variazioni di pendenza della strada",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "464864c939e406f5950a87fa542077f40ca30d175860ca90b3cd1d893ec901af",
+        "italian": "VERO. Cambiando rapporto si può adattare la velocità e la forza disponibile alle ruote alle esigenze della salita o della discesa.",
+        "italian_sha256": "5c238a6666a386c1f1ecdc90095a3f543f25548b2e59c02c67183baf44166808"
+      },
+      {
+        "source": {
+          "number": 13723,
+          "quesito_id": 3042,
+          "text_it": "L’aumento di forza di trazione è necessario in salita",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8f1de22947b16974518150cef9c6bdf6da3e53a7efa9eeceab7cdc5914fa7067",
+        "italian": "VERO. In salita serve maggiore forza di trazione per contrastare anche la componente del peso diretta lungo la pendenza.",
+        "italian_sha256": "d40e6e760c93dae00648daf2b31b66fcc2b3a8526f0e1d96d89ca18768771569"
+      },
+      {
+        "source": {
+          "number": 13724,
+          "quesito_id": 3042,
+          "text_it": "L’aumento di forza di trazione si ottiene inserendo le ridotte",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d50040374de382a456783aa9bec41ac9fcfd48fc5fdfc7fd861c1bf27cddd8fb",
+        "italian": "VERO. Le marce ridotte moltiplicano maggiormente la coppia trasmessa alle ruote, aumentando la forza di trazione disponibile a bassa velocità.",
+        "italian_sha256": "10247ee037d04de944ab2bd5049c24120fdc7cf9920d18f8aaa8666ea452aad2"
+      },
+      {
+        "source": {
+          "number": 13725,
+          "quesito_id": 3042,
+          "text_it": "E’ necessario aumentare la forza di trazione con l’aumentare del carico",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "452763d49f2393a9d12dc5cf4c7feb386c204755b6eda452c3bc1f58e7d5ef53",
+        "italian": "VERO. A parità di condizioni, un carico maggiore richiede più forza di trazione, in particolare per accelerare o affrontare una salita.",
+        "italian_sha256": "5b279d4c4f9e429af4a77b784e88d734ff0750d78f3e533fbcbaacf952d2ab87"
+      },
+      {
+        "source": {
+          "number": 13726,
+          "quesito_id": 3042,
+          "text_it": "All’aumentare della pendenza in salita è necessario inserire una marcia più bassa al fine di aumentare lo sforzo di trazione",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8fb4c394b271de316828dbfd176daa599cd3f22843ffdcd687d400cdb5e97397",
+        "italian": "VERO. Se la salita diventa più ripida, una marcia più bassa può fornire alle ruote la maggiore forza di trazione necessaria.",
+        "italian_sha256": "3e091184dc7decce23f1874d7445a2247cf946fd0d06edcd8b14d7ddf079a9b8"
+      },
+      {
+        "source": {
+          "number": 13727,
+          "quesito_id": 3042,
+          "text_it": "In salita, a parità di pendenza, all’aumentare del carico è necessario inserire una marcia più bassa per ottenere uno sforzo di trazione maggiore",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "93b99f158ab0501f956128f2ba8c010532955ffe2cb2dd6fa4444d78aac10bc9",
+        "italian": "VERO. A parità di pendenza, un carico maggiore richiede più trazione; quando quella disponibile non basta, si scala per aumentarla.",
+        "italian_sha256": "44b20f33483dbcbda6be1040c64669814a9eff74b89f23a46106608960aea30d"
+      },
+      {
+        "source": {
+          "number": 13728,
+          "quesito_id": 3042,
+          "text_it": "In salita, a parità di pendenza, all’aumentare del carico è necessario inserire una marci più alta per ottenere uno sforzo di trazione maggiore",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f4a89a3affd71d7ee7d9160a8e254a47a4483be669d5f49a74a6a348702fd309",
+        "italian": "FALSO. Una marcia più alta non aumenta lo sforzo di trazione: se il carico richiede più forza in salita, si può inserire una marcia più bassa.",
+        "italian_sha256": "8c4aad1796672f8d1838326706654268923875cc3b9fab68fc5e584fe48486db"
+      },
+      {
+        "source": {
+          "number": 13729,
+          "quesito_id": 3042,
+          "text_it": "E’ necessario inserire la marcia più alta per aumentare lo sforzo di trazione",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d83f3c8f7fcf670ad34ceabeeb4463fde75297f1e1da3dca130da3c757e66497",
+        "italian": "FALSO. Per aumentare la forza di trazione disponibile alle ruote si sceglie una marcia più bassa, che moltiplica maggiormente la coppia.",
+        "italian_sha256": "972e4111b935e19f9d096c9b993ca55dd395d4df91404f283fba96dc3f420ae6"
+      },
+      {
+        "source": {
+          "number": 13730,
+          "quesito_id": 3042,
+          "text_it": "Percorrendo le discese è necessario un maggiore sforzo di trazione",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9ae5d188fe7c6df91812ffc8f238fd34dc02a8393a06a317aa1682ec825a55d4",
+        "italian": "FALSO. In discesa la componente del peso favorisce il moto, quindi non occorre per questo maggiore trazione; può invece servire una marcia bassa per il freno motore.",
+        "italian_sha256": "1827cb2a85967123b0f68e8ae3d89f4f0ede807640586039df540d720a8bb40d"
+      }
+    ],
+    "task_sha256": "f6836ef91802981242412b12e92bf308482124abb0e47dac127516cc43c5e10e"
+  },
+  "rows": [
+    {
+      "number": 13678,
+      "text": "False. Overheating can reduce the friction of the brake shoe linings and therefore braking effectiveness, causing brake fade."
+    },
+    {
+      "number": 13679,
+      "text": "False. The disc is cooled by air circulating due to the vehicle's movement and the disc's rotation, not by a compressor."
+    },
+    {
+      "number": 13680,
+      "text": "False. ABS modulates pressure to prevent the wheels from locking; it is not the device that amplifies braking force."
+    },
+    {
+      "number": 13681,
+      "text": "True. In a hydraulic brake, fluid transmits pressure to the components that operate the brakes at the wheels."
+    },
+    {
+      "number": 13682,
+      "text": "True. The brake booster assists the effort applied to the pedal, increasing the force available to operate the braking circuit."
+    },
+    {
+      "number": 13683,
+      "text": "True. In an air brake, air pressure operates the brake chambers, which apply the brakes at the wheels."
+    },
+    {
+      "number": 13684,
+      "text": "True. The compressor fills the tanks, which store compressed air for braking."
+    },
+    {
+      "number": 13685,
+      "text": "True. In an air-over-hydraulic system, the compressor supplies the air circuit that operates the converter and the hydraulic circuit."
+    },
+    {
+      "number": 13686,
+      "text": "True. The caliper presses the pads against the disc, generating the friction that slows the wheel."
+    },
+    {
+      "number": 13687,
+      "text": "False. Air and fluid do not form a braking mixture: the converter uses air pressure to pressurize the fluid in a separate circuit."
+    },
+    {
+      "number": 13688,
+      "text": "False in the context of the quiz: a fully pneumatic system uses air to operate the brakes; a converter is used when air pressure controls a hydraulic section."
+    },
+    {
+      "number": 13689,
+      "text": "False. Air-over-hydraulic describes how the brake is operated: air pressurizes the fluid that controls the brakes at the wheels, not necessarily a brake on the drive shaft."
+    },
+    {
+      "number": 13690,
+      "text": "False. An air-over-hydraulic system operates the service brake: it can slow and stop the vehicle; it is not merely an auxiliary brake."
+    },
+    {
+      "number": 13691,
+      "text": "False. The hydraulic circuit uses the brake fluid specified by the manufacturer and has its own reservoir; it does not use engine lubricating oil."
+    },
+    {
+      "number": 13692,
+      "text": "False. Air is compressible: an air brake uses compressed air stored in tanks and its pressure to operate the brakes."
+    },
+    {
+      "number": 13693,
+      "text": "Engine braking and the retarder provide part of the deceleration, reducing use and therefore wear of the service brakes."
+    },
+    {
+      "number": 13694,
+      "text": "The retarder provides part of the braking: the service brake does less work and the brake shoe linings wear less."
+    },
+    {
+      "number": 13695,
+      "text": "Engine braking and the retarder reduce use of the service brakes and therefore wear of their friction linings."
+    },
+    {
+      "number": 13696,
+      "text": "Auxiliary brakes provide part of the braking, limiting the work and heating of the service brakes."
+    },
+    {
+      "number": 13698,
+      "text": "It is false that engine braking is the appropriate means for sudden braking: in an emergency, the service brake must be applied immediately."
+    },
+    {
+      "number": 13699,
+      "text": "The quiz considers automatic activation false as a general rule: the retarder can be controlled by the driver. The wording is ambiguous because some systems activate it automatically through the brake pedal."
+    },
+    {
+      "number": 13700,
+      "text": "It is false that auxiliary brakes cause the service brakes to overheat: by providing part of the braking, they limit their heating."
+    },
+    {
+      "number": 13701,
+      "text": "False. Engine braking does not guarantee that engine temperature will remain unchanged: the exhaust brake can contribute to heating."
+    },
+    {
+      "number": 13702,
+      "text": "It is false that engine braking should be avoided downhill to protect it: using it in an appropriate gear helps control speed and reduces reliance on the service brakes."
+    },
+    {
+      "number": 13703,
+      "text": "The quiz considers the retarder effective at high speeds. Performance, however, depends on the device: some are also effective at low speeds."
+    },
+    {
+      "number": 13704,
+      "text": "The retarder is used to decelerate, but on its own it does not guarantee a rapid stop: the service brake is used to stop."
+    },
+    {
+      "number": 13705,
+      "text": "The service brake is used to slow and quickly stop the vehicle; engine braking and the retarder mainly help to decelerate and control speed."
+    },
+    {
+      "number": 13706,
+      "text": "ABS intervenes automatically during braking: it detects wheel speed and regulates pressure to prevent the wheels from locking."
+    },
+    {
+      "number": 13707,
+      "text": "True. In the case of an exhaust brake, its operation can contribute to engine heating; the actual increase depends on conditions and cooling."
+    },
+    {
+      "number": 13708,
+      "text": "True. In an exhaust brake, a valve restricts the escape of gases, creating back pressure that resists the engine. Not all engine braking systems work this way."
+    },
+    {
+      "number": 13711,
+      "text": "It is false to attribute engine braking to direct action on the drive shaft: the resistance arises in the engine and reaches the wheels through the transmission. Some retarders, by contrast, act on the shaft."
+    },
+    {
+      "number": 13712,
+      "text": "False. The quiz contrasts high speeds with slow travel in a low gear. The wording is ambiguous: effectiveness depends mainly on engine speed and the selected gear, not vehicle speed alone."
+    },
+    {
+      "number": 13713,
+      "text": "Retarders include electromagnetic devices and hydrodynamic devices, which use a fluid."
+    },
+    {
+      "number": 13714,
+      "text": "The driver can control the retarder, for example using a lever; on some vehicles it is also integrated into the pedal control."
+    },
+    {
+      "number": 13715,
+      "text": "On long descents, the retarder helps control speed without continually using the service brake."
+    },
+    {
+      "number": 13716,
+      "text": "The quiz considers the claim of particular effectiveness at low speeds false. The answer, however, depends on the type of retarder: some models are also effective at low speeds."
+    },
+    {
+      "number": 13717,
+      "text": "It is false that using both devices together necessarily causes the wheels to lock: they can be combined. Braking must still be adjusted to the available grip and the vehicle's instructions."
+    },
+    {
+      "number": 13718,
+      "text": "False. The retarder is an auxiliary brake: it does not necessarily activate above 80 km/h; activation depends on the controls and the vehicle's system."
+    },
+    {
+      "number": 13719,
+      "text": "False. The retarder brakes the vehicle; it is not defined by cutting off the diesel fuel supply. For example, a hydrodynamic retarder produces braking torque in the transmission."
+    },
+    {
+      "number": 13720,
+      "text": "False. Acting on the exhaust is the principle of the exhaust brake; a hydrodynamic retarder instead brakes using a fluid in the transmission."
+    },
+    {
+      "number": 13721,
+      "text": "True. The gearbox is part of the transmission and changes the ratio between the engine and the wheels."
+    },
+    {
+      "number": 13722,
+      "text": "True. Changing gear allows the speed and the force available at the wheels to be adapted to the demands of climbing or descending."
+    },
+    {
+      "number": 13723,
+      "text": "True. More tractive force is needed uphill to also counteract the component of weight directed along the slope."
+    },
+    {
+      "number": 13724,
+      "text": "True. Low gears multiply the torque transmitted to the wheels more, increasing the tractive force available at low speed."
+    },
+    {
+      "number": 13725,
+      "text": "True. Other conditions being equal, a heavier load requires more tractive force, particularly to accelerate or climb a hill."
+    },
+    {
+      "number": 13726,
+      "text": "True. If the hill becomes steeper, a lower gear can provide the wheels with the additional tractive force needed."
+    },
+    {
+      "number": 13727,
+      "text": "True. On the same gradient, a heavier load requires more traction; when the available traction is insufficient, shifting down increases it."
+    },
+    {
+      "number": 13728,
+      "text": "False. A higher gear does not increase tractive effort: if the load requires more force uphill, a lower gear can be selected."
+    },
+    {
+      "number": 13729,
+      "text": "False. To increase the tractive force available at the wheels, a lower gear is selected, which multiplies torque more."
+    },
+    {
+      "number": 13730,
+      "text": "False. Downhill, the component of weight assists motion, so more traction is not needed for that reason; a low gear may instead be needed for engine braking."
+    }
+  ],
+  "output_sha256": "d676bea2887607093099b75153a74dc6f4b88b640cf04a4275ba8ee09d76b8a1"
+}

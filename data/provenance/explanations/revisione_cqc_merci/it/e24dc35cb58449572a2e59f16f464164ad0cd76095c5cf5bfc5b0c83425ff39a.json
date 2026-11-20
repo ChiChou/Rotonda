@@ -1,0 +1,73 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee5b-4da2-7b02-bbdd-1438f6c2f691"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "revisione_cqc_merci",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 16437,
+          "quesito_id": 3390,
+          "text_it": "A bordo dei veicoli adibiti al trasporto di sostanze pericolose con modalità diverse dalla cisterna deve trovarsi facoltativamente, il certificato",
+          "answer": 0,
+          "page": 13,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1c5c8c8a8744a5a191175d7e1f93fe34de0063739ba8398c7f72a1d7cad71cf5",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/8c5c4f9b0667d3d3c9ccc32d932ea97ce91e37ccdf0faec500801c54e62e731d",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16410,
+                "reason": "Il DPR 327/1980 disciplina l'autorizzazione sanitaria di alcuni veicoli, ma la fonte verificata non conferma un obbligo generale di tenerla a bordo per tutti gli alimenti sfusi; non è stata verificata la disciplina attuale per tale obbligo."
+              },
+              {
+                "number": 16437,
+                "reason": "Il testo ufficiale è tronco e non identifica il certificato: non si può stabilire quale obbligo o esenzione si applichi."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v2/5822d86d58bc70feb98fd4a8db853f85998405eb9d0a335bf9d3b0a324884bcb",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16410,
+                "reason": "Il DPR 327/1980, artt. 43-44, disciplina storicamente l’autorizzazione sanitaria per determinati mezzi e contenitori, ma non è stato verificato l’obbligo generale di tenerla a bordo indicato nel quesito. Il testo storico fornito dal Ministero non è accessibile; la fonte sostitutiva non chiarisce tale obbligo."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito ufficiale è tronco e non identifica il certificato: non si può individuare quale affermazione sia falsa né ricostruire la regola specifica. ADR 2009, 8.1.2 (https://www.mit.gov.it/nfsmitgov/files/media/basic/2023-04/ADR/accordo_adr_2009___traduzione_italiana__gato_b___parte_8.pdf), distingue i documenti richiesti secondo il caso, senza consentire di identificare il certificato mancante."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "A bordo dei veicoli adibiti al trasporto di sostanze pericolose con modalità diverse dalla cisterna deve trovarsi facoltativamente, l’autorizzazione sanitaria di idoneità del veicolo",
+          "text": "L’autorizzazione sanitaria riguarda l’idoneità per il trasporto alimentare, non è un documento ADR facoltativo per le merci pericolose. Per queste ultime si applicano invece i documenti ADR richiesti dal caso concreto."
+        }
+      }
+    ],
+    "task_sha256": "a92ab3bbfac9e3b61261c084815dd776c12635361cca3e8c59401233a1290bc6",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. For VERO, the official bank defines the exam-specific premise: explain its practical rationale without expanding it into an unqualified current statutory duty. Cite the official bank for that premise, and distinguish supporting general rules from exact legal mandates. This is teaching content, not a fresh legal audit of every official answer. For FALSO, give a supported correction and distinguish source defects explicitly. Do not fabricate sources or facts. Special sources and scoping: Swiss passenger question18135/36204 has verified contrast: actual Swiss professional training manual /tmp/rotonda-final-swiss-market.pdf, SHAee721d7f27d976d1d35b12a726eb552ff134492e7ea11e1e82c21025e52a04d6, actualp55 section4.4, text /tmp/rotonda-final-swiss-market.txt, exactoriginalURL https://www.berufszulassung.ch/upload/docs/pdf_f/24-GD-accesaumarche-lowPDF-f.pdf; it explicitly explains ATTart20 excludes Swiss passenger transport between EU states, distinct from liberalized goods transport. Do not invent permission based on the quiz FALSO: preserve verdict and flag contrast, cite exact inspected text and actualagreement ifaccessible. Truncated16437: raw official text is genuinely incomplete (verified raw.txt lines1028-29); identify that defect, do not invent missing certificate. Explain applicable ADR certificates are mandatory when required, with scope/exemptions rather than claiming all certificates mandatory. Hybrid34634/35:53percent is explicitly the official quiz estimate, not universal current emissions; teach reduced combustion/fuel use and mathematical distinction53percentremaining=47percentreduction, not10percent, without inventing a new measurement. Gauge32554: a clearly labelled physical derivation may explain water occupying tankvolume reduces compressed-airvolume, so sameairwithdrawal can cause greaterpressurechange; do not pretend a manufacturer diagnosis wasverified. Pitch34671/tyrewear34666: explain suspension/damper/load role, no unsupported universal inverse rule; qualify what can be inferred from one parameter. SCIA/grainseal/documentitems: explain rationale of traceability, hygiene notification, tamper detection, using officialquiz as exam premise and general EUfoodrules as support; do not mislabel SCIA as vehicle fitness certificate or invent universal national current duty to carry everypaper. Schools17588/17724/35674: distinguish vehicle homologation/age from duty to use belts actuallyinstalled; avoid absolute assertion allschoolbusesarebeltlessoranychildmayignorebelts. Economic/transportqualitativeitems: support mechanism, not inventedcurrentstatisticalfrequency. No review stage. Do not confuse absent external citations with genuine uncertainty: stable terminology and ordinary business/physical reasoning may use evidence explicitly labelled Ragionamento didattico, without claiming external verification. Verify uncertain medical, legal, numerical and statistical assertions. For qualitative exam-context statements, explain the mechanism and limitations rather than demanding an exact current statistical frequency. Distinguish an illustrative configuration from a universal mechanical law. Where the printed answer is overbroad, qualify it visibly and explain the supported distinction; do not invent opposite absolutes. For the customs fiscal-origin item, the inspected original state-archive record https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=521942&TipoPag=comparc describes historical dazi as indirect taxes and receipts paid to the fiscal chamber; this supports explaining historical revenue function without inventing a first-origin date. For market liberalization and own-account distinctions use Commission COM2014/222 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52014DC0222 sections2.1 and2.3; preserve its2014 timeframe, do not extrapolate to every current transport."
+  },
+  "rows": [
+    {
+      "number": 16437,
+      "text": "Il testo è incompleto: non specifica quale certificato sia in questione. Il verdetto ufficiale è FALSO; non si può però identificare il documento mancante. In generale, i certificati ADR previsti per il trasporto concreto devono essere a bordo quando richiesti: non sono facoltativi; obblighi ed eventuali esenzioni dipendono dal caso.",
+      "evidence": [
+        "ADR 2009, allegato B, 8.1.2, https://www.mit.gov.it/nfsmitgov/files/media/basic/2023-04/ADR/accordo_adr_2009___traduzione_italiana__gato_b___parte_8.pdf: documenti da tenere a bordo secondo le prescrizioni applicabili; il testo del quesito non identifica il certificato."
+      ]
+    }
+  ],
+  "output_sha256": "da01b96c802898aeac3a8862953151e9133e1db8f82ae135829b219256d02cca"
+}

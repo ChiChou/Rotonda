@@ -1,0 +1,43 @@
+{
+  "batch": "001",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "78b550f0a15e3c1e9fffb7bc8ab1fb2e57dc1d1dfd6ce4b2e65fbc8353682f86",
+  "source_sha256": "b3fb9bfd3261d18e3be5d2170bc4f01b81daf90e6bb6c6c5e784560d15efc948",
+  "corrections": [
+    {
+      "id": "021098a7250f65c60dbf1b9582670eecf3ee30b1641a574ecc7c75ae6d6f1b71",
+      "before": "Los servicios ocasionales en la UE con salida cargada y regreso vacío están liberalizados solo en algunos Estados miembros",
+      "after": "Los servicios ocasionales en la UE con salida con pasajeros y regreso vacío están liberalizados solo en algunos Estados miembros",
+      "reason": "Aclara que la salida con carga se refiere a pasajeros, ya que se trata de un servicio ocasional de viajeros."
+    },
+    {
+      "id": "0219dbb5ae4546fd54af765c4cfabeabb236dd2d10f9b998a812c3d217b80a77",
+      "before": "Para transportar mercancías por cuenta de terceros las empresas deben inscribirse en el Registro de Arrendadores",
+      "after": "Para transportar mercancías por cuenta de terceros las empresas deben inscribirse en el Registro de empresas de alquiler de vehículos",
+      "reason": "Term: 'Albo dei noleggiatori' is the register of vehicle hire operators; the draft's 'Registro de Arrendadores' named the wrong business type"
+    },
+    {
+      "id": "0220d34c17446cc060532992a84815bbfd38a93c4c2c0b4d5cb3ffbe64e1efbf",
+      "before": "En la carta de movilidad de la empresa se indica el estándar de los factores de calidad del servicio, como la marca de los vehículos utilizados",
+      "after": "En la carta de movilidad de la empresa se indica el estándar de los factores de calidad del servicio, como la marca de los vehículos utilizados en los servicios",
+      "reason": "Restored omitted clause 'nei servizi' (in the services)"
+    },
+    {
+      "id": "0260662f4c6c8fef483b8212bf2a867ec5b67afc607cfad02d0ab640ae74e68a",
+      "before": "En el contrato de transporte de mercancías, por avería se entiende el incumplimiento por parte del transportista del plazo de entrega convenido en el contrato",
+      "after": "En el contrato de transporte de mercancías, por avería se entiende el incumplimiento por parte del transportista del plazo contractualmente convenido para su cumplimiento",
+      "reason": "'adempimento' means performance in general; 'de entrega' narrows it to delivery"
+    }
+  ],
+  "reviewed_file_sha256": "dbb95940ca29d00bf793f7e9c412de7555a66f22a06005d2ec5962ea8a8c0d08"
+}

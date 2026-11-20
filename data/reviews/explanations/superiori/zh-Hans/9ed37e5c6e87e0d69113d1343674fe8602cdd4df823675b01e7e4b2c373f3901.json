@@ -1,0 +1,621 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29632,
+          "quesito_id": 6182,
+          "text_it": "Alcuni veicoli per cava e cantiere hanno il cambio raffreddato ad acqua",
+          "answer": 0,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6e13028bf9d54fb09cda85ac96360821f1805e80a3558033103052d7b289adcf",
+        "localized_text": "某些采石场和工地车辆配备水冷变速箱。"
+      },
+      {
+        "source": {
+          "number": 29633,
+          "quesito_id": 6182,
+          "text_it": "Il cambio serve a mantenere la velocità rotativa dell’albero di trasmissione costante, indipendentemente dal numero dei giri del motore",
+          "answer": 0,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0973f33bf80effb3a37d43ebaf0d190c99f6e2d812d65f2cff975867ba22ffdb",
+        "localized_text": "变速箱使传动轴转速保持恒定，与发动机转速无关。"
+      },
+      {
+        "source": {
+          "number": 29634,
+          "quesito_id": 6182,
+          "text_it": "Il cambio automatico deve essere disinserito nelle discese ripide",
+          "answer": 0,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cb09273ff0cb503e966304f023257140a34d7211e2fd5e8819502aa7adcea0c6",
+        "localized_text": "陡下坡时必须断开自动变速箱。"
+      },
+      {
+        "source": {
+          "number": 29635,
+          "quesito_id": 6183,
+          "text_it": "Se il veicolo è a trazione integrale, significa che tutte le ruote sono motrici",
+          "answer": 1,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1a072cea0f632c0885607a0e2b6a640d6031205f029b6566a5f68535efb91726",
+        "localized_text": "四轮驱动意味着所有车轮都是驱动轮。"
+      },
+      {
+        "source": {
+          "number": 29636,
+          "quesito_id": 6183,
+          "text_it": "\"Trazione anteriore\" significa che sono motrici le sole ruote di uno o più assi anteriori",
+          "answer": 1,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "de6a25e6bfd1e4ffe17ae944d44185f098cb0347075d6a8af81f098d1d4834b4",
+        "localized_text": "前轮驱动意味着只有一根或多根前轴的车轮是驱动轮。"
+      },
+      {
+        "source": {
+          "number": 29637,
+          "quesito_id": 6183,
+          "text_it": "\"Trazione posteriore\" significa che sono motrici le sole ruote di uno o più assi posteriori",
+          "answer": 1,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2d03629e03c1004a54fc9868c3da73c5c017752d1357cd18b5f548f6693be3f4",
+        "localized_text": "后轮驱动意味着只有一根或多根后轴的车轮是驱动轮。"
+      },
+      {
+        "source": {
+          "number": 29638,
+          "quesito_id": 6183,
+          "text_it": "In genere, i veicoli pesanti sono a trazione anteriore",
+          "answer": 0,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0f5ecf5081d75c53ca8a911832bfe003a6f44a2aa0eb9c8e1b682389dec3f795",
+        "localized_text": "重型车辆通常采用前轮驱动。"
+      },
+      {
+        "source": {
+          "number": 29639,
+          "quesito_id": 6183,
+          "text_it": "I veicoli dotati di cambio automatico sono in genere a trazione integrale",
+          "answer": 0,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "946863dbd123294428355a63fbd69055bf5e264f0c4799a461da0e5216ee3e32",
+        "localized_text": "配备自动变速箱的车辆通常采用四轮驱动。"
+      },
+      {
+        "source": {
+          "number": 29640,
+          "quesito_id": 6183,
+          "text_it": "I veicoli a trazione posteriore devono forzatamente avere motore anteriore",
+          "answer": 0,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f9365df51903962908ebbb75a3b0ae243a424eef27069e667f9a951be5013c53",
+        "localized_text": "后轮驱动车辆必须采用前置发动机。"
+      },
+      {
+        "source": {
+          "number": 29641,
+          "quesito_id": 6184,
+          "text_it": "La coppia conica è costituita da due ingranaggi sempre in presa, chiamati pignone e corona",
+          "answer": 1,
+          "page": 112,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ce00e2f4b964c3271f3ca0b86db42c52eeda54ebeea9c7e1a1b199cc59c46b5a",
+        "localized_text": "锥齿轮副由两个始终啮合的齿轮组成，称为小齿轮和冠状齿轮。"
+      },
+      {
+        "source": {
+          "number": 29642,
+          "quesito_id": 6184,
+          "text_it": "La coppia conica serve, tra l’altro, a ridurre la velocità delle ruote rispetto a quella dell’albero motore",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bbb56871cd473b1c008faec12fba64a47e45754f404798b3308fc71ba14943bd",
+        "localized_text": "锥齿轮副的作用之一是降低车轮相对于曲轴的转速。"
+      },
+      {
+        "source": {
+          "number": 29643,
+          "quesito_id": 6184,
+          "text_it": "La coppia conica serve, tra l’altro, a deviare di 90° il moto rotatorio dell’albero di trasmissione",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "24500737c35ff87aa9f4ba8c0ed97ab65f99f30cb10fa585b369eac5699ae111",
+        "localized_text": "锥齿轮副的作用之一是使传动轴旋转方向改变90°。"
+      },
+      {
+        "source": {
+          "number": 29644,
+          "quesito_id": 6184,
+          "text_it": "La coppia conica è in genere utilizzata nei veicoli con motore anteriore e trazione posteriore",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "80bbfcb975a18def85f19cc0af757ddb70d84f3f09713d577e03266c6ac5a698",
+        "localized_text": "锥齿轮副通常用于前置发动机后轮驱动车辆。"
+      },
+      {
+        "source": {
+          "number": 29645,
+          "quesito_id": 6184,
+          "text_it": "Una delle caratteristiche della coppia conica è il rapporto al ponte",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5159090ceb1a12db809b50f2e1a27c957719ad0b80270e7964cba3c34e781ba7",
+        "localized_text": "锥齿轮副的一个特征是主减速比。"
+      },
+      {
+        "source": {
+          "number": 29647,
+          "quesito_id": 6184,
+          "text_it": "La coppia conica serve, tra l’altro, ad aumentare la velocità delle ruote rispetto a quella dell’albero motore",
+          "answer": 0,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5b1e59a6d199dcf735160853480d2fdc50bb8a31ead9b4bbdab3574ca92b7cc7",
+        "localized_text": "锥齿轮副的作用之一是提高车轮相对于曲轴的转速。"
+      },
+      {
+        "source": {
+          "number": 29648,
+          "quesito_id": 6184,
+          "text_it": "La coppia conica serve, tra l’altro, a deviare di 60° il moto rotatorio dell’albero di trasmissione",
+          "answer": 0,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4bef6de6f3802848072bfbd00c9b94a184711f58085efecdc50f648bdd9e791d",
+        "localized_text": "锥齿轮副的作用之一是使传动轴旋转方向改变60°。"
+      },
+      {
+        "source": {
+          "number": 29649,
+          "quesito_id": 6184,
+          "text_it": "La coppia conica è inserita manualmente dall’autista grazie a un comando posto sul cruscotto",
+          "answer": 0,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b96570fe20f2c5bdb3eb6a3bda5ec3483f07dc794230919a6e59e9fdcfdd3da6",
+        "localized_text": "驾驶员通过仪表板控制装置手动接合锥齿轮副。"
+      },
+      {
+        "source": {
+          "number": 29650,
+          "quesito_id": 6184,
+          "text_it": "Nella coppia conica, il pignone trasmette il moto alla corona grazie a un disco a frizione",
+          "answer": 0,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1c59b6b60c5340d34691cee2338ac1fcf422a3a0f66df4ae62e0cf12dd85c0ec",
+        "localized_text": "在锥齿轮副中，小齿轮通过摩擦盘向冠状齿轮传递运动。"
+      },
+      {
+        "source": {
+          "number": 29652,
+          "quesito_id": 6185,
+          "text_it": "Il sincronizzatore è un dispositivo che facilita l'accoppiamento degli ingranaggi del cambio durante il passaggio da una marcia all'altra",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6c0979439cedb667d1911ccabc14a4384ee65c8ef36e549d56779d1cddafe036",
+        "localized_text": "同步器使变速箱在换挡时更容易啮合齿轮。"
+      },
+      {
+        "source": {
+          "number": 29653,
+          "quesito_id": 6185,
+          "text_it": "Durante la percorrenza di una curva, il differenziale consente di trasferire parte della velocità di rotazione dalla ruota motrice interna a quella esterna alla curva",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5ed62b5e45288a696060ef6e02abbfbb3d89f95b5657702cb7376d19ab8f5655",
+        "localized_text": "转弯时，差速器将一部分转速从弯道内侧驱动轮转移到外侧驱动轮。"
+      },
+      {
+        "source": {
+          "number": 29654,
+          "quesito_id": 6185,
+          "text_it": "La funzione del cambio di velocità è quella di modificare la potenza erogabile alle ruote per vincere più facilmente le resistenze all'avanzamento",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "dc5d8480c0bee89716b7e5ee9a4159786fca6f471c5daa973c2bb0130f6ef9d8",
+        "localized_text": "变速箱改变可传递给车轮的功率，以便更容易克服行驶阻力。"
+      },
+      {
+        "source": {
+          "number": 29655,
+          "quesito_id": 6185,
+          "text_it": "Il differenziale è un meccanismo che consente di evitare lo strisciamento delle ruote durante la percorrenza di una curva",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "31e8123098c9f5bdf0ed2e3491fc080162c68179978d94729d467c21021d4273",
+        "localized_text": "差速器防止车轮在通过弯道时滑动。"
+      },
+      {
+        "source": {
+          "number": 29656,
+          "quesito_id": 6185,
+          "text_it": "Nei veicoli pesanti le variazioni di massa tra veicolo carico e veicolo scarico sono significative e quindi vengono utilizzati cambi con un numero di rapporti superiore ai cambi utilizzati nei veicoli leggeri",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "124e6eea091ca64f38fcbc40ef536e90012e873e8c07031c3878fe281482c97a",
+        "localized_text": "重型车辆载货和空载质量差异显著，因此使用的变速箱挡位比轻型车辆更多。"
+      },
+      {
+        "source": {
+          "number": 29657,
+          "quesito_id": 6185,
+          "text_it": "Nei cambi montati sui veicoli pesanti, lo splitter è una levetta posizionata sotto il pomello del cambio che consente di scegliere tra un gruppo di marce \"veloci\" e uno di \"lente\"",
+          "answer": 1,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c39259f87951729fa5fbc1e232e21776b5b4aee594024f5499dd609ebe6549f7",
+        "localized_text": "在重型车辆变速箱中，分挡器是位于换挡球头下方的小杆，用于选择高速挡组或低速挡组。"
+      },
+      {
+        "source": {
+          "number": 29659,
+          "quesito_id": 6185,
+          "text_it": "Il differenziale consente di mantenere una trazione ottimale del veicolo anche su terreni con scarsa aderenza",
+          "answer": 0,
+          "page": 113,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7568b664417cb13df2e7b8620eb3e0307a745f8e2a2094e4feacce87db3b5dd9",
+        "localized_text": "差速器即使在附着力低的路面上也能保持最佳牵引力。"
+      }
+    ],
+    "task_sha256": "9ed37e5c6e87e0d69113d1343674fe8602cdd4df823675b01e7e4b2c373f3901"
+  },
+  "rows": [
+    {
+      "number": 29632,
+      "text": "题库判为FALSO，但未说明冷却方式。有些变速器可通过发动机冷却液间接冷却变速器油；现有资料未确认某款工程车辆实际采用这一组合。",
+      "evidence": [
+        "Official superiori question 29632 retains its printed verdict.",
+        "Volvo oil/coolant exchanger https://stpi.it.volvo.com/STPIFiles/Volvo/FactSheet/TC-MWO%2CTC-MWOH2%2CTC-HWO_Eng_02_338871162.pdf ; Volvo construction vehicles https://www.volvotrucks.com/en-en/transport-solutions/building-construction.html . Combination not independently verified as a specific vehicle."
+      ]
+    },
+    {
+      "number": 29633,
+      "text": "变速箱改变发动机与传动系统之间的传动比。挂挡时输出转速随发动机转速变化，并非独立保持恒定。",
+      "evidence": [
+        "https://web.mit.edu/2.972/www/reports/manual_transmission/manual_transmission.html, MIT, How a Manual Transmission Works: rapporto selezionato fra motore e ruote e velocità degli alberi."
+      ]
+    },
+    {
+      "number": 29634,
+      "text": "下坡时应保持合适挡位，以利用发动机制动。挂空挡会切断这一连接，并非必要。",
+      "evidence": [
+        "https://www.eaton.com/content/dam/eaton/products/transmissions/vehicle-transmissions/fr-series-manual/eaton-fuller-heavy-duty-transmission-driver-instructions-trdr0515-en-us.pdf, p. 6: non procedere in folle; https://videos.eaton.com/detail/videos/get-2-know-automated-transmissions/video/5856014367001/eaton-get2know-international-driver-training%3A-low-speeds: il comando automatico seleziona marce e freno motore."
+      ]
+    },
+    {
+      "number": 29635,
+      "text": "全轮驱动可将驱动力传给所有车轮，而非仅传给前轮或后轮。实际分配取决于系统。",
+      "evidence": [
+        "https://press.zf.com/press/en/releases/release_78466.html, ZF, axle drives: la trazione integrale collega anche il ponte posteriore tramite una frizione controllata."
+      ]
+    },
+    {
+      "number": 29636,
+      "text": "前轮驱动时，驱动力传至前轴车轮；后轮不是驱动轮。",
+      "evidence": [
+        "https://files.eric.ed.gov/fulltext/ED246299.pdf, Power Trains, sezioni trasmissione e assi motori: le ruote motrici ricevono il moto dalla trasmissione."
+      ]
+    },
+    {
+      "number": 29637,
+      "text": "后轮驱动时，驱动力传至后轴车轮；前轮不是驱动轮。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29638,
+      "text": "重型车辆通常由后轴而非前轴驱动，具体配置取决于车辆。",
+      "evidence": [
+        "https://www.volvotrucks.com/content/dam/volvo-trucks/markets/master/mbc/product_guide_volvo_FM_Euro3-5_eng.pdf, Volvo FM, configurazioni degli assi: gli esempi di autocarri riportano assi motori posteriori."
+      ]
+    },
+    {
+      "number": 29639,
+      "text": "自动变速箱选择传动比；全轮驱动则说明哪些车轮能获得驱动力。两者没有必然联系。",
+      "evidence": [
+        "https://www.volvotrucks.com/content/dam/volvo-trucks/markets/master/mbc/product_guide_volvo_FM_Euro3-5_eng.pdf, Volvo FM, cambi automatici e configurazioni assi: sono specificati separatamente."
+      ]
+    },
+    {
+      "number": 29640,
+      "text": "后轮驱动说明驱动轮的位置，并不限定发动机位置：发动机也可位于后部。",
+      "evidence": [
+        "https://www.maine.gov/future/sites/maine.gov.dafs.bbm.procurementservices/files/pdfs/autoschoolbus15091700000000000056oconnor.pdf, Blue Bird All American Rear Engine specifications: autobus con motore posteriore e ponte posteriore con riduzione ipoide."
+      ]
+    },
+    {
+      "number": 29641,
+      "text": "小齿轮与冠状齿轮啮合，通过齿传递运动，两者构成主减速齿轮副。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29642,
+      "text": "锥齿轮副实现最终减速：冠状齿轮转速低于小齿轮，并与变速箱的传动比变化共同作用。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29643,
+      "text": "在题目所述车桥中，纵向小齿轮与冠状齿轮啮合，将运动传向横向半轴，方向改变90°。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29644,
+      "text": "前置发动机后轮驱动车辆中，纵向传动轴将运动传至车桥，锥齿轮副再将其传向后半轴。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29645,
+      "text": "主减速比表示最终传动的减速程度，与冠状齿轮和小齿轮的齿数比有关。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29647,
+      "text": "车桥锥齿轮副使转速降低而非提高：冠状齿轮转得比小齿轮慢。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29648,
+      "text": "在题目所述车桥中，锥齿轮副使运动从纵向传动轴转向半轴，方向改变90°，而非60°。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29649,
+      "text": "小齿轮和冠状齿轮构成最终传动并相互啮合；它们不像挡位那样用仪表板开关接合。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29650,
+      "text": "小齿轮通过齿的啮合向冠状齿轮传递运动，而不是通过摩擦盘。",
+      "evidence": [
+        "https://media.defense.gov/2014/Jun/20/2002655909/-1/-1/1/140620-N-ZZ182-6551.pdf, NAVEDTRA 14264A, cap. 11, §§ 2.1.4–2.2: pignone e corona, riduzione fissa, rapporto e deviazione a 90°."
+      ]
+    },
+    {
+      "number": 29652,
+      "text": "同步器在接合前使待连接部件的转速相适应，从而便于换挡。",
+      "evidence": [
+        "https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%206.PDF, MIT, p. 6-19: il sincronizzatore adegua le velocità prima dell’innesto."
+      ]
+    },
+    {
+      "number": 29653,
+      "text": "转弯时外侧车轮行程更长，必须转得更快。差速器允许两个驱动轮以不同速度旋转。",
+      "evidence": [
+        "https://files.eric.ed.gov/fulltext/ED246299.pdf, Power Trains, p. 268: il differenziale consente alla ruota esterna di girare più velocemente in curva."
+      ]
+    },
+    {
+      "number": 29654,
+      "text": "改变传动比可调整车轮扭矩和转速：低挡提高可用驱动力。变速箱不会凭空产生功率。",
+      "evidence": [
+        "https://web.mit.edu/2.972/www/reports/manual_transmission/manual_transmission.html, MIT, How a Manual Transmission Works: rapporto selezionato fra motore e ruote e velocità degli alberi."
+      ]
+    },
+    {
+      "number": 29655,
+      "text": "转弯时两轮行程不同。差速器允许它们以不同速度旋转，避免刚性连接造成的拖滑。",
+      "evidence": [
+        "https://files.eric.ed.gov/fulltext/ED246299.pdf, Power Trains, p. 268: il differenziale consente alla ruota esterna di girare più velocemente in curva."
+      ]
+    },
+    {
+      "number": 29656,
+      "text": "重型车辆面对差异很大的载荷和阻力。更多传动比有助于根据不同情况选择驱动力和发动机转速。",
+      "evidence": [
+        "https://www.volvotrucks.com/en-en/news-stories/press-releases/2021/mar/volvo-trucks-i-shift-transmission-technology.html, Volvo I-Shift: rapporti crawler per maggior coppia e partenze con carichi pesanti; https://www.volvotrucks.com/content/dam/volvo-trucks/markets/master/mbc/product_guide_volvo_FM_Euro3-5_eng.pdf, Volvo FM, cambi: I-Shift a 12 rapporti."
+      ]
+    },
+    {
+      "number": 29657,
+      "text": "在所述变速箱中，换挡球头附近的分挡控制装置选择慢速或快速传动比，使挡位间隔更细。不同变速箱的控制装置布局不同。",
+      "evidence": [
+        "https://zinref.ru/avtomobili/Iveco/019_Iveco%20Stralis%20AT_AD_%20italiano_2004/114.htm, manuale Iveco Stralis 2004, figura 125: comando pneumatico splitter, marce gamma lenta e veloce; https://www.eaton.com/content/dam/eaton/products/transmissions/vehicle-transmissions/rt-18/TRDR0800EN-US_0614.pdf, p. 11: selettore splitter L/H e comando di gamma distinti."
+      ]
+    },
+    {
+      "number": 29659,
+      "text": "普通差速器允许车轮转速不同，但不能保证在湿滑路面获得最佳牵引力：一个车轮可能空转。差速锁可以改善牵引力。",
+      "evidence": [
+        "https://www.eaton.com/us/en-us/products/differentials-traction-control/locking-differentials.html, Eaton, Locking Differentials: un bloccaggio migliora la trazione quando una ruota ha poca aderenza."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "9ed37e5c6e87e0d69113d1343674fe8602cdd4df823675b01e7e4b2c373f3901",
+    "output_sha256": "c938cba54be591db094f8924c3fd8f2ad1824425f6be4a08c02e9062cbb77057",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / drivetrain-full-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29632,
+      29633,
+      29634,
+      29635,
+      29636,
+      29637,
+      29638,
+      29639,
+      29640,
+      29641,
+      29642,
+      29643,
+      29644,
+      29645,
+      29647,
+      29648,
+      29649,
+      29650,
+      29652,
+      29653,
+      29654,
+      29655,
+      29656,
+      29657,
+      29659
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Volvo gearbox cooler and construction I-Shift sources individually inspected; they do not independently prove a specific combined installation. Independently inspected alternate final-drive discussion in local complete /tmp/rotonda-eric-ed246299.pdf SHA-256 8a58e164d4c663118ebdb3e209ff8719971fd1004438109f80cfb5f92fcaed45 PDF pp. 252–253 and 268–269; exact Navy PDF and Eaton TRDR0515 returned 403. Maine rear-engine specification returned 403.",
+      "For 29640 independently inspected Volkswagen factory archive https://www.volkswagen-newsroom.com/en/vehicle-data-beetle-kaefer-1500-profile-19600: rear engine and rear drive; this corroborates the claim without asserting access to the blocked Maine bus PDF."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb03-64d0-7dc1-b3c7-1c965c296fa4",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "294a41a77ccede021d1ddc3ae8222f6c9eaf2808969ee5ca9e504cfd6d008141",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb03-64d0-7dc1-b3c7-1c965c296fa4",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29632,
+              "reason": "Il quesito attribuisce FALSO alla possibilità che alcuni veicoli da cava e cantiere abbiano il cambio raffreddato ad acqua; la documentazione Volvo descrive il raffreddamento ad acqua del cambio tramite scambiatore olio/acqua, anche per trasporti pesanti, e offre I-Shift per cantieri. Non è chiarito se la formulazione escluda tale raffreddamento indiretto o quali configurazioni il quesito intenda escludere.",
+              "checked_sources": [
+                "https://stpi.it.volvo.com/STPIFiles/Volvo/FactSheet/TC-MWO%2CTC-MWOH2%2CTC-HWO_Eng_02_338871162.pdf, Volvo Trucks, Gearbox oil cooler, p. 1: le versioni ad acqua raffreddano il cambio tramite uno scambiatore collegato al circuito motore, tra cui I-Shift.",
+                "https://www.volvotrucks.com/en-en/transport-solutions/building-construction.html, Volvo Trucks, Building and construction trucks: I-Shift è offerto per impieghi edili.",
+                "https://www.eaton.com/content/dam/eaton/products/transmissions/vehicle-transmissions/installation-guides/eaton-lightning-series-transmissions-installation-guide-trig-0580-en-us.pdf, p. 9: uno scambiatore interno olio/acqua raffredda olio del cambio mediante liquido motore."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "294a41a77ccede021d1ddc3ae8222f6c9eaf2808969ee5ca9e504cfd6d008141",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

@@ -1,0 +1,663 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26460,
+          "quesito_id": 5164,
+          "text_it": "Si è tenuti a regolare la velocità in base alle condizioni atmosferiche",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e89c35fa0e7f98ad9210eb55e6155549f98db7372018f84544962d5bd631f333",
+        "localized_text": "Se debe ajustar la velocidad según las condiciones meteorológicas"
+      },
+      {
+        "source": {
+          "number": 26461,
+          "quesito_id": 5164,
+          "text_it": "Si è tenuti a regolare la velocità in base alla visibilità",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "0258742ec42b5610a5e7fb22f5423b02b6ce1656adae92d4e55bfaff112da5db",
+        "localized_text": "Se debe ajustar la velocidad según la visibilidad"
+      },
+      {
+        "source": {
+          "number": 26462,
+          "quesito_id": 5164,
+          "text_it": "Si è tenuti a regolare la velocità in base alla lunghezza del viaggio",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "563659f8ba2974ce87cb01379fd9eff7c72c49d0bb683bdb8324147a442678a1",
+        "localized_text": "Se debe ajustar la velocidad según la longitud del viaje"
+      },
+      {
+        "source": {
+          "number": 26463,
+          "quesito_id": 5164,
+          "text_it": "Si è tenuti a regolare la velocità in base alla velocità dei veicoli che ci seguono",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "f41349a82b4c06f2e65c18066169f589ce140d1fa0f6fbbf3a011672894d5f08",
+        "localized_text": "Se debe ajustar la velocidad según la velocidad de los vehículos que nos siguen"
+      },
+      {
+        "source": {
+          "number": 26464,
+          "quesito_id": 5164,
+          "text_it": "Si è tenuti a regolare la velocità in base al tipo di forcella del ciclomotore",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "1f51b747ff6077a5bd6d80eff0a389fa31a8f7537c3b451fe1e1f4c5abb52245",
+        "localized_text": "Se debe ajustar la velocidad según el tipo de horquilla del ciclomotor"
+      },
+      {
+        "source": {
+          "number": 26465,
+          "quesito_id": 5165,
+          "text_it": "Si deve tenere una velocità che non costituisca pericolo per la sicurezza della circolazione",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9aca24205b3cf486d9ce6ebc7c16b0ac661b227d992fb655d41ac69e4e6d1c6d",
+        "localized_text": "Se debe mantener una velocidad que no ponga en peligro la seguridad de la circulación"
+      },
+      {
+        "source": {
+          "number": 26466,
+          "quesito_id": 5165,
+          "text_it": "Si deve tenere una velocità che permetta di intervenire con sicurezza in caso di imprevisti",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a12d7c6f11811ed6debb38284406d780327491114d0e8b45e20adcb5e62f0ab9",
+        "localized_text": "Se debe mantener una velocidad que permita reaccionar con seguridad ante imprevistos"
+      },
+      {
+        "source": {
+          "number": 26467,
+          "quesito_id": 5165,
+          "text_it": "Si deve tenere una velocità adeguata alle condizioni della strada",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9035255a5d72bdad85b99d3df1680ee43adf9d95cc33450fb74fae5480801897",
+        "localized_text": "Se debe mantener una velocidad adecuada a las condiciones de la vía"
+      },
+      {
+        "source": {
+          "number": 26468,
+          "quesito_id": 5165,
+          "text_it": "Si deve tenere una velocità regolata in funzione del tempo che abbiamo a disposizione",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a26a1c52f5bd89217836caaa0c927b178347bdfce40a2e3f44853f8238a97123",
+        "localized_text": "Se debe ajustar la velocidad en función del tiempo disponible"
+      },
+      {
+        "source": {
+          "number": 26469,
+          "quesito_id": 5165,
+          "text_it": "Si deve tenere una velocità sempre superiore a 40 km/h",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "209c657d5c562e56438dbd4bee10d9d2dbcd33e59558b2eba1a7acaca78d0186",
+        "localized_text": "Siempre se debe mantener una velocidad superior a 40 km/h"
+      },
+      {
+        "source": {
+          "number": 26470,
+          "quesito_id": 5165,
+          "text_it": "Si deve tenere una velocità proporzionata alla lunghezza del percorso",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ee7c5bdba1084122b7bdfce2e39a9990f4c6d473a85466568a8174f8d27ae8e9",
+        "localized_text": "Se debe mantener una velocidad proporcional a la longitud del recorrido"
+      },
+      {
+        "source": {
+          "number": 26471,
+          "quesito_id": 5166,
+          "text_it": "E' obbligo del conducente regolare la velocità in relazione alle caratteristiche e allo stato di manutenzione della strada",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "85bb4b2796fe5ab0ecd05ca6004c05f4540601c7fac6e14a57231f605526df7c",
+        "localized_text": "El conductor tiene la obligación de ajustar la velocidad según las características y el estado de mantenimiento de la vía"
+      },
+      {
+        "source": {
+          "number": 26472,
+          "quesito_id": 5166,
+          "text_it": "E' obbligo del conducente regolare la velocità in relazione alle condizioni del traffico",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ec32940207098f2643de41889a13e81cc27b22a50cac81e715f8d0920019764b",
+        "localized_text": "El conductor está obligado a ajustar la velocidad a las condiciones del tránsito"
+      },
+      {
+        "source": {
+          "number": 26473,
+          "quesito_id": 5166,
+          "text_it": "E' obbligo del conducente regolare la velocità in modo da poter arrestare il veicolo entro i limiti del suo campo di visibilità",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7074bf6bdae6f5c496c53eed62d5bdea978e0d3d9f872d6fb0fa65bf87d581e6",
+        "localized_text": "El conductor debe ajustar la velocidad para poder detener el vehículo dentro de su campo de visión"
+      },
+      {
+        "source": {
+          "number": 26474,
+          "quesito_id": 5166,
+          "text_it": "E' obbligo del conducente regolare la velocità solo di giorno",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "617eab8686771176910e48eb23e3bd4b79799b4c035df7105a9976ebedbc29de",
+        "localized_text": "El conductor está obligado a ajustar la velocidad solo de día"
+      },
+      {
+        "source": {
+          "number": 26475,
+          "quesito_id": 5166,
+          "text_it": "E' obbligo del conducente regolare la velocità solo in presenza degli agenti addetti ai servizi di polizia stradale",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "76a80f7596aa9995405363bd59a89cce54e273944fcd6dc616c7249400393435",
+        "localized_text": "El conductor solo está obligado a ajustar la velocidad en presencia de agentes de policía vial"
+      },
+      {
+        "source": {
+          "number": 26476,
+          "quesito_id": 5166,
+          "text_it": "E' obbligo del conducente regolare la velocità sulle strade a senso unico",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "efdac660bb20743f08c6fa3bb5a7194da97780a7b4883bbf2ef8046e445100a1",
+        "localized_text": "El conductor está obligado a ajustar la velocidad en vías de sentido único"
+      },
+      {
+        "source": {
+          "number": 26477,
+          "quesito_id": 5167,
+          "text_it": "Si deve in particolare regolare la velocità in curva",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4052940025e953ee93a4333d7308182a5b597558abf4d4be4a701d5255f11d1d",
+        "localized_text": "Se debe ajustar especialmente la velocidad en las curvas"
+      },
+      {
+        "source": {
+          "number": 26478,
+          "quesito_id": 5167,
+          "text_it": "Si deve in particolare regolare la velocità in prossimità degli incroci",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c16318ad0e6ddbc5cb27f99fa13e901c766e6be06da46bc8b3b3451bda1af6c9",
+        "localized_text": "Se debe ajustar especialmente la velocidad cerca de las intersecciones"
+      },
+      {
+        "source": {
+          "number": 26479,
+          "quesito_id": 5167,
+          "text_it": "Si deve in particolare regolare la velocità in caso di nebbia o foschia",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5cd3608a573171c0a7d2827df285f99b353e8cced5a447e3de86968e51e8e3cb",
+        "localized_text": "Se debe ajustar especialmente la velocidad en caso de niebla o neblina"
+      },
+      {
+        "source": {
+          "number": 26480,
+          "quesito_id": 5167,
+          "text_it": "Si deve in particolare regolare la velocità quando si gareggia con un altro veicolo",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "562e935260cae15faa50ac58b180d260977f65b0a460eb938ddfb1a8cf2992e8",
+        "localized_text": "Se debe ajustar especialmente la velocidad al competir con otro vehículo"
+      },
+      {
+        "source": {
+          "number": 26481,
+          "quesito_id": 5167,
+          "text_it": "Si deve in particolare regolare la velocità fuori dai centri abitati",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "3cbe6371f2673e12aa3f640c5edd5edab91c6f7ff93bac9c947180b54a65856e",
+        "localized_text": "Se debe ajustar especialmente la velocidad fuera de las zonas pobladas"
+      },
+      {
+        "source": {
+          "number": 26482,
+          "quesito_id": 5167,
+          "text_it": "Si deve in particolare regolare la velocità di giorno",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ded2a68b1cdd210317a7d287213f5870f752367f00a624da11a46a703ab22bd5",
+        "localized_text": "Se debe ajustar especialmente la velocidad durante el día"
+      },
+      {
+        "source": {
+          "number": 26483,
+          "quesito_id": 5168,
+          "text_it": "Si deve in particolare regolare la velocità quando la visibilità è limitata",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "289beafd60cb2c53817774e553e125bed046271fdee3394eabc184ab7fa13ac5",
+        "localized_text": "Se debe ajustar especialmente la velocidad cuando la visibilidad es limitada"
+      },
+      {
+        "source": {
+          "number": 26484,
+          "quesito_id": 5168,
+          "text_it": "Si deve in particolare regolare la velocità in prossimità delle scuole",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "350bb1c1c776e592a0003d947880559791aaae37cb99abf281cc12ce662c3c68",
+        "localized_text": "Se debe ajustar especialmente la velocidad cerca de las escuelas"
+      }
+    ],
+    "task_sha256": "bcb8e2f3e623fa8217ddeeed8e14108becd2065e9c84c1c91c5ea1d1f93d5c40"
+  },
+  "rows": [
+    {
+      "number": 26460,
+      "text": "La lluvia, la niebla y otras condiciones meteorológicas pueden cambiar la visibilidad y el estado de la vía: hay que adaptar la velocidad a la situación.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26461,
+      "text": "La velocidad debe permitir detenerse dentro del tramo visible; cuando se ve menos lejos, hay que ajustarla.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26462,
+      "text": "La longitud del viaje no determina la velocidad: hay que adaptarla a las condiciones reales de la vía y del tránsito.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26463,
+      "text": "La velocidad de los vehículos que vienen detrás no determina por sí sola la nuestra: hay que elegir una velocidad segura según la vía, el tránsito y las demás condiciones.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26464,
+      "text": "El tipo de horquilla por sí solo no es el criterio para elegir la velocidad: importan las características y el estado del vehículo y las condiciones de la vía.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26465,
+      "text": "Hay que ajustar la velocidad a las condiciones del vehículo, la vía y el tránsito para evitar peligros y desorden en la circulación.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26466,
+      "text": "Una velocidad adecuada permite mantener el control y realizar con seguridad las maniobras necesarias, incluso detenerse ante un obstáculo previsible.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26467,
+      "text": "Una superficie resbaladiza puede dificultar el control y la detención del vehículo, por lo que hay que ajustar la velocidad a las condiciones de la vía.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26468,
+      "text": "La prisa o el tiempo disponible no determinan la velocidad permitida: hay que adaptarla a las condiciones de seguridad.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26469,
+      "text": "No existe una obligación general de superar siempre los 40 km/h: la velocidad debe adaptarse a las condiciones, que pueden exigir reducirla o detenerse.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche.",
+        "Codice della strada, art. 141, comma 4, https://aci.gov.it/codice-della-strada/art-141/ — in certe circostanze si deve ridurre la velocità e, occorrendo, fermarsi."
+      ]
+    },
+    {
+      "number": 26470,
+      "text": "La velocidad no es proporcional a la longitud del recorrido: hay que adaptarla a las condiciones reales de circulación.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26471,
+      "text": "Las características y el estado de la vía son factores que deben considerarse para mantener una velocidad que no cree peligro.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26472,
+      "text": "El tránsito es una de las condiciones que deben considerarse: la velocidad debe permitir circular sin crear peligro ni desorden.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26473,
+      "text": "Cuando la visibilidad es limitada, hay que elegir una velocidad que deje suficiente distancia visible para reaccionar y detenerse ante un obstáculo previsible.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26474,
+      "text": "La obligación rige tanto de día como de noche; de noche se requiere especial atención al ajuste de la velocidad.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26475,
+      "text": "La velocidad debe adaptarse a las condiciones incluso cuando no hay agentes presentes: la obligación no depende de los controles.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26476,
+      "text": "El cuestionario marca FALSO, pero el enunciado es ambiguo: también en las calles de sentido único, como en cualquier vía, se debe ajustar la velocidad a las condiciones. El sentido único por sí solo no exige reducirla automáticamente.",
+      "evidence": [
+        "PDF ufficiale AM assegnato, data/inputs/official/2026-11-14/conseguimento-am-it.pdf, SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30, pagina PDF 121, quesito 26476: testo senza «solo», risposta stampata FALSO.",
+        "Codice della strada art. 141, commi 1–3: obbligo generale di regolare la velocità in base alle condizioni della strada e del traffico; il comma 3 elenca situazioni particolari senza indicare il senso unico come tale; https://aci.gov.it/codice-della-strada/art-141/.",
+        "PDF ufficiale AM assegnato, pagina PDF 122, quesito 26487: la diversa affermazione «Si deve in particolare regolare la velocità percorrendo una strada a senso unico» è stampata FALSO. Un possibile riferimento a una regola speciale, anziché all’obbligo generale, è un’inferenza sull’intenzione del quesito 26476, non una spiegazione accertata del verdetto."
+      ]
+    },
+    {
+      "number": 26477,
+      "text": "En las curvas hay que ajustar especialmente la velocidad para mantener el control y responder a las condiciones del tramo.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26478,
+      "text": "Cerca de las intersecciones hay que ajustar especialmente la velocidad para poder realizar con seguridad las maniobras necesarias.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26479,
+      "text": "La niebla y la neblina reducen la visibilidad: hay que ajustar la velocidad para poder detenerse dentro del campo visible.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26480,
+      "text": "Está prohibido competir en velocidad; ajustar la velocidad sirve para la seguridad vial, no para competir con otros vehículos.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche.",
+        "Codice della strada, art. 141, comma 5, https://aci.gov.it/codice-della-strada/art-141/ — divieto di gareggiare in velocità."
+      ]
+    },
+    {
+      "number": 26481,
+      "text": "Estar fuera de una zona poblada no es por sí solo una situación que requiera un ajuste especial: la velocidad debe adaptarse a las condiciones reales también fuera de ella.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26482,
+      "text": "El día en sí no exige un ajuste especial: la velocidad debe adaptarse siempre, también de noche, cuando se requiere especial atención.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26483,
+      "text": "Con visibilidad limitada hay que ajustar especialmente la velocidad para poder detenerse dentro del tramo visible.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    },
+    {
+      "number": 26484,
+      "text": "Cerca de las escuelas hay que ajustar especialmente la velocidad, teniendo en cuenta la posible presencia de niños.",
+      "evidence": [
+        "Codice della strada, art. 141, commi 1–3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni; controllo, arresto nel campo visibile e situazioni specifiche."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "bcb8e2f3e623fa8217ddeeed8e14108becd2065e9c84c1c91c5ea1d1f93d5c40",
+    "output_sha256": "63c37043f13e6ba663283d1b4acc6d7994220a406bd61eef9847bfdfea62f9e7",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-26476-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      26460,
+      26461,
+      26462,
+      26463,
+      26464,
+      26465,
+      26466,
+      26467,
+      26468,
+      26469,
+      26470,
+      26471,
+      26472,
+      26473,
+      26474,
+      26475,
+      26476,
+      26477,
+      26478,
+      26479,
+      26480,
+      26481,
+      26482,
+      26483,
+      26484
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1e9e3-e98e-7693-b197-cf9290fc0429",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "1bcdf24df7a52f200ff70875f126a1a155da56b7866faec233fc7e44dc8d2e48",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9e5-9b63-7f43-aad5-a49898750e64",
+        "label": "author-0-1",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ac173b31f09455d680973ebabf6c4461fd3b58523c0affdc6f1488878aba83eb",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9e6-17bd-7453-ae12-6794b8557c95",
+        "label": "author-0-2",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ac173b31f09455d680973ebabf6c4461fd3b58523c0affdc6f1488878aba83eb",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9e6-eb46-71e3-b951-d23594a6643f",
+        "label": "author-0-3",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ac173b31f09455d680973ebabf6c4461fd3b58523c0affdc6f1488878aba83eb",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "bcb8e2f3e623fa8217ddeeed8e14108becd2065e9c84c1c91c5ea1d1f93d5c40",
+        "output_sha256": "0303bee8f5c5ac0f805a870ea8fcafbbe5f45992ff96abea21aa624751aec16e",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-26476-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          26460,
+          26461,
+          26462,
+          26463,
+          26464,
+          26465,
+          26466,
+          26467,
+          26468,
+          26469,
+          26470,
+          26471,
+          26472,
+          26473,
+          26474,
+          26475,
+          26476,
+          26477,
+          26478,
+          26479,
+          26480,
+          26481,
+          26482,
+          26483,
+          26484
+        ],
+        "issues": [
+          "26463: The question asks whether speed must be regulated based on the speed of following vehicles; the explanation substitutes imitating them, a narrower claim. Explain that their speed does not dictate your speed while accounting for actual traffic and maintaining safety; do not suggest surrounding traffic is irrelevant.",
+          "26467: The explanation is a paraphrase of the assertion: saying that road characteristics affect appropriate speed and that it must be adapted provides no concrete reason. Explain, for example, how a damaged or slippery surface affects control or stopping.",
+          "26473: The explanation largely repeats the asserted stopping-distance duty, adding a foreseeable obstacle but not explaining the purpose or why visibility constrains speed. Explain that the driver needs enough visible distance to react and stop before a foreseeable obstacle."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "124",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "5f5f21ac1610fdd6bc16b8c594d86e0076c222f9ea470449cca2500ea8068555",
+  "source_sha256": "e8e2fe761e991284ed90ebb1550fea8439fbfe347fd19342b239c15fb20582fb",
+  "corrections": [
+    {
+      "id": "a5e9ac5e5a543a2e13e105e79ff0f52283c8f176df0669bb8068190f4496706f",
+      "before": "La señal mostrada indica la presencia de una estación de Carabineros con un puesto de control",
+      "after": "La señal mostrada indica la presencia de una estación de los Carabinieri con un puesto de control",
+      "reason": "Carabineros is the Chilean force; the Italian is Carabinieri"
+    }
+  ],
+  "reviewed_file_sha256": "6e892b7861e3ab514eada57a8f892a2c4923f05c3c07d423187e610a69b8bc65"
+}

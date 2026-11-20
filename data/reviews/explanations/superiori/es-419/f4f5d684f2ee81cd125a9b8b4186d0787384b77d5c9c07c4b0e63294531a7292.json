@@ -1,0 +1,677 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 30313,
+          "quesito_id": 6228,
+          "text_it": "I freni dei veicoli di massa complessiva a pieno carico superiore a 7,5 tonnellate sono raffreddati ad acqua",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "869cc3846b95c8cfe23ed91170bf854d5e2ef8b26aa1bcbeb9e330456e6503e7",
+        "localized_text": "Los frenos de vehículos de masa máxima autorizada superior a 7,5 toneladas se refrigeran con agua"
+      },
+      {
+        "source": {
+          "number": 30314,
+          "quesito_id": 6228,
+          "text_it": "Sui veicoli a 3 assi, la frenatura è ripartita tra l’asse anteriore e uno dei due assi posteriori",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2dc9f367d3dcf75465605fab0178ae394ff2e44854ab9a198298d826384d9dfc",
+        "localized_text": "En los vehículos de 3 ejes, el frenado se distribuye entre el eje delantero y uno de los dos ejes traseros"
+      },
+      {
+        "source": {
+          "number": 30315,
+          "quesito_id": 6229,
+          "text_it": "Gli autoveicoli devono essere dotati di 3 sistemi di frenatura: servizio, soccorso, stazionamento",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a3e58c49fa368a40efe788991b9ba4c435517c0d60603cac1e80248366d51b0b",
+        "localized_text": "Los vehículos automotores deben tener 3 sistemas de frenado: servicio, emergencia y estacionamiento"
+      },
+      {
+        "source": {
+          "number": 30316,
+          "quesito_id": 6229,
+          "text_it": "La frenatura di stazionamento di un autoveicolo deve essere ad azione puramente meccanica",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "73e84eb90b34d0129c107616f6085f4461572242b7f0c07d55804641b3905e7c",
+        "localized_text": "El freno de estacionamiento de un vehículo automotor debe ser de acción puramente mecánica"
+      },
+      {
+        "source": {
+          "number": 30317,
+          "quesito_id": 6229,
+          "text_it": "La frenatura di servizio degli autoveicoli deve agire su tutte le ruote",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3773c93960bb8c1f159862942f7e23eaddbba0267237652386ec11e7901f2315",
+        "localized_text": "El freno de servicio de los vehículos automotores debe actuar sobre todas las ruedas"
+      },
+      {
+        "source": {
+          "number": 30318,
+          "quesito_id": 6229,
+          "text_it": "La frenatura di servizio degli autoveicoli deve essere moderabile",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fdf857bd94086c98aae12eaf39be5993b3142cb8178e9e112ce9f2f822b65d3a",
+        "localized_text": "El frenado de servicio de los vehículos automotores debe ser graduable"
+      },
+      {
+        "source": {
+          "number": 30319,
+          "quesito_id": 6229,
+          "text_it": "La frenatura di servizio degli autoveicoli deve essere azionabile dal conducente dal proprio posto di guida senza togliere le mani dal volante",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6ff994373a349a1dcf366fb5a74c37a30963c502d23540cebfff40969408e601",
+        "localized_text": "El freno de servicio de los vehículos debe poder ser accionado por el conductor desde su asiento sin quitar las manos del volante"
+      },
+      {
+        "source": {
+          "number": 30320,
+          "quesito_id": 6229,
+          "text_it": "La frenatura di soccorso deve essere moderabile",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "856850d4abafb74e66e8a2f505a40904cf36b2e3c2ddf60da901d11ea457a2c7",
+        "localized_text": "El frenado de emergencia debe poder regularse"
+      },
+      {
+        "source": {
+          "number": 30321,
+          "quesito_id": 6229,
+          "text_it": "La frenatura di soccorso viene normalmente realizzata con l’uso \"a fondo\" del freno di stazionamento",
+          "answer": 0,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d83197e0ce6b8429b51ebbd22f0bb063acfcf9266b3d4d34842151064c5c500c",
+        "localized_text": "El frenado de emergencia normalmente se realiza accionando a fondo el freno de estacionamiento"
+      },
+      {
+        "source": {
+          "number": 30322,
+          "quesito_id": 6229,
+          "text_it": "La frenatura di stazionamento è in genere conglobata col servofreno",
+          "answer": 0,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "76c3fdc2758f4af1791a2de398049fef7d874c6b9f5e35b686372bbe2fd593aa",
+        "localized_text": "El freno de estacionamiento suele estar integrado con el servofreno"
+      },
+      {
+        "source": {
+          "number": 30323,
+          "quesito_id": 6229,
+          "text_it": "La frenatura di servizio degli autoveicoli deve essere di tipo \"a impulsi\"",
+          "answer": 0,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f955f166fa052f1838e1650f8bf4f3928366752422d4c96018ce5665722e5ca5",
+        "localized_text": "El freno de servicio de los vehículos debe ser de tipo por impulsos"
+      },
+      {
+        "source": {
+          "number": 30324,
+          "quesito_id": 6229,
+          "text_it": "Il comando del freno di stazionamento è lo stesso del freno di servizio",
+          "answer": 0,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3b7dab161be6cd7974dc0f4ce747784354aeef07547fc7103ecd3ce6b13f3028",
+        "localized_text": "El mando del freno de estacionamiento es el mismo que el del freno de servicio"
+      },
+      {
+        "source": {
+          "number": 30325,
+          "quesito_id": 6229,
+          "text_it": "Su tutti gli autoveicoli devono essere presenti idonei cunei per il fermo",
+          "answer": 0,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "99d4dda059afe93a9b2a7232236b0148b0e0d68fcd6b3891e2fef3c52eb553e0",
+        "localized_text": "Todos los vehículos deben llevar cuñas adecuadas para inmovilizarlos"
+      },
+      {
+        "source": {
+          "number": 30326,
+          "quesito_id": 6230,
+          "text_it": "Fanno parte dell’impianto di frenatura pneumatico il compressore e i serbatoi dell’aria compressa",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "66b9dadf305f648dc73da5e43ff70826556bacec7a2d44d2dd4fdbcdb015c0b0",
+        "localized_text": "El compresor y los depósitos de aire comprimido forman parte del sistema de frenos neumático"
+      },
+      {
+        "source": {
+          "number": 30327,
+          "quesito_id": 6230,
+          "text_it": "Quando il veicolo è in marcia, nell’impianto di frenatura pneumatico deve esservi sempre aria in pressione nel tratto di impianto compreso tra il compressore e il distributore duplex",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4bf796561926fa89093171e2ae97297e8eae159744971a94b705d79e5ff30c1c",
+        "localized_text": "Cuando el vehículo está en marcha, en el sistema de frenos neumáticos siempre debe haber aire a presión en el tramo comprendido entre el compresor y la válvula distribuidora dúplex"
+      },
+      {
+        "source": {
+          "number": 30328,
+          "quesito_id": 6230,
+          "text_it": "Nell’impianto di frenatura pneumoidraulico (freno misto), i convertitori trasformano la pressione dell’aria in pressione idraulica",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fecea356e5f707ecb3499c8969cec568068565f947679f735e5ba0f184a20b0a",
+        "localized_text": "En el sistema de frenado neumohidráulico (freno mixto), los convertidores transforman la presión de aire en presión hidráulica"
+      },
+      {
+        "source": {
+          "number": 30329,
+          "quesito_id": 6230,
+          "text_it": "L’impianto di frenatura pneumatico integrale o quello pneumoidraulico, sono divisi in più sezioni indipendenti, una per le ruote anteriori, una per quelle posteriori ed eventualmente una per il rimorchio",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a8678b93c7c808330a0e666c2727827605fff17c218f58a6f6c2d14f85d6e636",
+        "localized_text": "El sistema de frenos totalmente neumático o neumohidráulico se divide en varias secciones independientes: una para las ruedas delanteras, otra para las traseras y, en su caso, otra para el remolque"
+      },
+      {
+        "source": {
+          "number": 30330,
+          "quesito_id": 6230,
+          "text_it": "Nei veicoli con impianto di frenatura ad aria compressa, appositi dispositivi modulatori regolano la pressione dell’aria diretta agli elementi frenanti dell’asse posteriore in base al carico del veicolo",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7673c9f0ca708eb224e171a2556258586826a01890fa6c9f0c74e8f705253c42",
+        "localized_text": "En los vehículos con frenos de aire comprimido, unos moduladores regulan la presión del aire dirigido a los elementos de frenado del eje trasero según la carga"
+      },
+      {
+        "source": {
+          "number": 30331,
+          "quesito_id": 6230,
+          "text_it": "Se l’impianto di frenatura pneumatica o pneumoidraulica non è in pressione, il veicolo non può essere messo in movimento perché non è possibile disinserire il freno di stazionamento a molla",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "05f6835e421e3a597269778b62c8497c370eeabbc53f4ae995678f16feb9298c",
+        "localized_text": "Si el sistema de frenos neumático o neumohidráulico no tiene presión, el vehículo no puede ponerse en movimiento porque no se puede liberar el freno de estacionamiento de resorte"
+      },
+      {
+        "source": {
+          "number": 30332,
+          "quesito_id": 6230,
+          "text_it": "Se l’impianto di frenatura è tipo pneumatico, prima della partenza è necessario accertarsi che nei serbatoi vi sia pressione sufficiente",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "615b8886e89a6d001914d5d6a11328f09c24d9d75a22bda04ed034bc900c049a",
+        "localized_text": "Si el sistema de frenos es neumático, antes de partir es necesario asegurarse de que haya suficiente presión en los depósitos"
+      },
+      {
+        "source": {
+          "number": 30333,
+          "quesito_id": 6230,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, se si verifica una perdita di aria in una sezione dell’impianto di frenatura, le altre sezioni possono funzionare regolarmente; tale struttura costituisce il \"freno di soccorso\"",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6fb7bd28f13235922b1ab10303c3007b7449631c5bd429765fbddfc66c56e7da",
+        "localized_text": "En vehículos con frenos neumáticos, si hay una fuga en una sección las demás pueden funcionar normalmente; esta estructura constituye el freno de emergencia"
+      },
+      {
+        "source": {
+          "number": 30334,
+          "quesito_id": 6230,
+          "text_it": "A partire dalla valvola protezione serbatoi, l’impianto di frenatura di servizio ad aria compressa è costituito da due sezioni distinte più una eventuale per il rimorchio",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "94a855b6ea3112bc3f3dc18b833d2f076f67cc6fad30fb2f7b056b3d738dd2de",
+        "localized_text": "A partir de la válvula de protección de depósitos, el sistema de freno de servicio de aire comprimido consta de dos secciones independientes y una eventual para el remolque"
+      },
+      {
+        "source": {
+          "number": 30335,
+          "quesito_id": 6230,
+          "text_it": "In caso di avaria in una sezione dei freni, anche se le altre sezioni funzionano, non si deve intraprendere un nuovo viaggio se non si è provveduto alla riparazione del guasto",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2c798c6d568e3fe880323be10a078f1c56c7e7dbf39312352f97e79496d4cf7f",
+        "localized_text": "Si se avería una sección de los frenos, aunque las demás funcionen no se debe iniciar otro viaje sin reparar la falla"
+      },
+      {
+        "source": {
+          "number": 30336,
+          "quesito_id": 6230,
+          "text_it": "I serbatoi dell’aria dei veicoli dotati di frenatura pneumatica o pneumoidraulica, sono normalmente: uno per ogni sezione dell’impianto, uno per i servizi ed eventualmente per le sospensioni pneumatiche",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c329daa008aebca35b88d02b3cc4d45da7d83c635c58926c6bde633def575442",
+        "localized_text": "Los depósitos de aire de los vehículos con frenos neumáticos o neumohidráulicos son normalmente uno por cada sección del sistema, uno para los servicios y eventualmente otro para la suspensión neumática"
+      },
+      {
+        "source": {
+          "number": 30337,
+          "quesito_id": 6230,
+          "text_it": "I serbatoi dell’aria compressa degli impianti di frenatura dei mezzi pesanti sono dotati di un dispositivo per lo scarico dell’acqua di condensa accumulatasi",
+          "answer": 1,
+          "page": 134,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1faee3dfad0a90b928309fde4f5a3e7fc130e2ad72b6b44e311fc382d2c8173d",
+        "localized_text": "Los depósitos de aire comprimido de los frenos de vehículos pesados tienen un dispositivo para drenar el agua de condensación acumulada"
+      }
+    ],
+    "task_sha256": "f4f5d684f2ee81cd125a9b8b4186d0787384b77d5c9c07c4b0e63294531a7292"
+  },
+  "rows": [
+    {
+      "number": 30313,
+      "text": "Una masa superior a 7,5 toneladas no implica que los frenos se refrigeren con agua: sus componentes disipan el calor producido por la fricción.",
+      "evidence": [
+        "Ontario Official Air Brake Handbook, Vehicle Braking Systems, https://www.ontario.ca/document/official-air-brake-handbook/vehicle-braking-systems: il calore è assorbito e dissipato dai componenti dei freni."
+      ]
+    },
+    {
+      "number": 30314,
+      "text": "El freno de servicio actúa sobre todas las ruedas, por lo que el segundo eje trasero también participa en el frenado.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §5.2.1.7.1 richiede l’azione del freno di servizio su tutte le ruote."
+      ]
+    },
+    {
+      "number": 30315,
+      "text": "Los frenos de servicio, emergencia y estacionamiento cumplen funciones distintas: reducir la velocidad, detener el vehículo ante una falla y mantenerlo inmóvil. Pueden compartir componentes.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §§2.1.2 e 5.2.1.1-2 definiscono le tre funzioni e ammettono componenti comuni."
+      ]
+    },
+    {
+      "number": 30316,
+      "text": "El vehículo debe mantenerse inmóvil mediante una acción puramente mecánica, aunque se use otra energía para accionar el freno.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §2.1.2.3 richiede il mantenimento delle parti frenanti in posizione bloccata con un dispositivo puramente meccanico."
+      ]
+    },
+    {
+      "number": 30317,
+      "text": "El freno de servicio actúa sobre todas las ruedas y distribuye el frenado entre los ejes.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §5.2.1.7.1 dispone che il freno di servizio agisca su tutte le ruote."
+      ]
+    },
+    {
+      "number": 30318,
+      "text": "El conductor debe poder graduar la fuerza de frenado según la necesidad, en vez de tener solo frenado total o liberación total.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §2.1.2.1 richiede una frenatura di servizio graduabile."
+      ]
+    },
+    {
+      "number": 30319,
+      "text": "El mando de servicio debe poder accionarse desde el puesto de conducción sin soltar el volante, para que el conductor pueda seguir dirigiendo el vehículo al frenar.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §2.1.2.1 prevede azionamento dal posto di guida senza togliere le mani dallo sterzo."
+      ]
+    },
+    {
+      "number": 30320,
+      "text": "El frenado de emergencia también debe ser graduable para controlar la detención si falla el freno de servicio.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §2.1.2.2 richiede una frenatura di soccorso graduabile."
+      ]
+    },
+    {
+      "number": 30321,
+      "text": "El frenado de emergencia debe ser graduable: normalmente no consiste en accionar a fondo el mando de estacionamiento. También puede proporcionarlo la parte operativa del freno de servicio.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §§2.1.2.2 e 5.2.1.2 consentono soccorso graduabile e componenti comuni; non prescrivono l’applicazione a fondo dello stazionamento."
+      ]
+    },
+    {
+      "number": 30322,
+      "text": "El freno de estacionamiento mantiene inmóvil el vehículo mediante un dispositivo mecánico; el servofreno ayuda al frenado de servicio.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §§2.1.2.1 e 2.1.2.3 distinguono servizio e mantenimento meccanico in sosta."
+      ]
+    },
+    {
+      "number": 30323,
+      "text": "El freno de servicio debe ser graduable, no funcionar obligatoriamente por impulsos: el conductor regula la fuerza con el mando.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §2.1.2.1 prescrive frenatura graduabile."
+      ]
+    },
+    {
+      "number": 30324,
+      "text": "El mando del freno de estacionamiento debe ser independiente del de servicio, aunque algunos componentes puedan compartirse.",
+      "evidence": [
+        "UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §§5.2.1.2.2 e 5.2.1.2.5 richiedono comandi indipendenti e consentono componenti comuni alle condizioni indicate."
+      ]
+    },
+    {
+      "number": 30325,
+      "text": "El cuestionario marca FALSO: no todos los autoveicoli deben llevar calzos. Los calzos ayudan a impedir el desplazamiento accidental; las normas prevén su uso para vehículos pesados estacionados en pendientes pronunciadas.",
+      "evidence": [
+        "Official superiori question 30325, printed FALSO, rejects carriage for all autoveicoli; it does not identify a universal carriage category.",
+        "DPR 495/1992 art.353(2), https://olympus.uniurb.it/index.php?option=com_content&view=article&id=15022:dpr49592 — wheel chocks for qualifying heavy vehicles stopped on steep gradients; use condition, not proof of universal carriage obligation.",
+        "ASAPS guidance https://www.asaps.it/986-Comportamento_del_conducente_in_sosta_e_uso_di_cunei_fermaruote_per_i_veicoli_pesanti.html — heavy-vehicle chock use on steep grades; local inspected copy /tmp/rotonda-asaps-heavy-vehicle-chocks.txt."
+      ]
+    },
+    {
+      "number": 30326,
+      "text": "El compresor produce aire comprimido y los depósitos lo almacenan como reserva para alimentar los circuitos de freno.",
+      "evidence": [
+        "Ontario Official Air Brake Handbook, Air Supply Subsystem, https://www.ontario.ca/document/official-air-brake-handbook/air-supply-subsystem: il compressore alimenta i serbatoi e i due circuiti di servizio."
+      ]
+    },
+    {
+      "number": 30327,
+      "text": "El cuestionario marca VERDADERO: los depósitos y circuitos protegidos deben conservar presión suficiente para frenar. Sin embargo, el compresor funciona por ciclos y, en algunos sistemas, un tramo de descarga se ventila al alcanzar la presión de corte. Sin conocer el diseño no puede suponerse que cada tramo esté siempre presurizado.",
+      "evidence": [
+        "Original superiori question 30327, p.134, printed VERO asserts pressure throughout compressor-to-duplex path while driving; actual circuit layout unspecified.",
+        "WABCO Maintenance Manual 34 (revised 2020), printed p.34 (PDF p.37), https://www.wabco-customercentre.com/catalog/docs/mm34_web.pdf — defines a discharge-line unloaded-compressor arrangement venting unused air to atmosphere at cut-out. Architecture-specific example, not assertion that all lines or protected reservoirs empty."
+      ]
+    },
+    {
+      "number": 30328,
+      "text": "En el freno neumohidráulico, el convertidor usa la fuerza del aire comprimido para generar presión en el líquido hidráulico que acciona los frenos.",
+      "evidence": [
+        "NHTSA, interpretation nht92-4.20, https://www.nhtsa.gov/interpretations/nht92-420: descrive convertitori aria-idraulica e trasmissione al fluido dei freni."
+      ]
+    },
+    {
+      "number": 30329,
+      "text": "Los circuitos de las ruedas delanteras y traseras están separados, al igual que la alimentación del remolque cuando existe; esto limita los efectos de una fuga en una sección.",
+      "evidence": [
+        "WABCO, Systems and Components in Commercial Vehicles, pp. 3-4, 19, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf: schema e valvola di protezione distinguono circuiti di servizio e alimentazione rimorchio; la valvola conserva pressione nei circuiti integri."
+      ]
+    },
+    {
+      "number": 30330,
+      "text": "El dispositivo sensible a la carga ajusta la presión de los frenos traseros: un vehículo vacío necesita menos fuerza que uno totalmente cargado.",
+      "evidence": [
+        "WABCO, Systems and Components in Commercial Vehicles, pp. 3-4, 19, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf: p. 3, valvola sensibile al carico regola la pressione in funzione del carico sull’asse posteriore."
+      ]
+    },
+    {
+      "number": 30331,
+      "text": "El cuestionario marca VERDADERO. En los vehículos con frenos de estacionamiento de resorte normalmente se necesita aire suficiente para liberarlos; sin presión pueden quedar aplicados. Aun así, el vehículo podría moverse físicamente: no fuerces la marcha, detente de forma segura y pide asistencia.",
+      "evidence": [
+        "Original superiori question 30331, p.134, printed VERO; not all pneumatic or pneumohydraulic vehicles have the same spring-brake arrangement.",
+        "Ontario Official Air Brake Handbook, https://www.ontario.ca/document/official-air-brake-handbook/spring-parking-and-emergency-brake-subsystem — spring brakes apply as chamber pressure falls and normally release with air; many vehicles can still physically move with springs applied. Indexed government source text inspected; direct fetch may return 403. Physical possibility is not advice to move with applied brakes or inadequate pressure."
+      ]
+    },
+    {
+      "number": 30332,
+      "text": "Antes de partir se comprueban los manómetros: los depósitos deben tener aire suficiente para que funcionen los frenos.",
+      "evidence": [
+        "Ontario Official Air Brake Handbook, Air Supply Subsystem, https://www.ontario.ca/document/official-air-brake-handbook/air-supply-subsystem: i manometri indicano la pressione dei serbatoi e la bassa pressione è un pericolo."
+      ]
+    },
+    {
+      "number": 30333,
+      "text": "La válvula de protección conserva la presión en las secciones intactas si una pierde aire; la sección operativa puede proporcionar frenado de emergencia con menor eficacia.",
+      "evidence": [
+        "WABCO, Systems and Components in Commercial Vehicles, pp. 3-4, 19, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf: p. 19, protezione dei circuiti integri; UN Regulation 13, paragrafi 2.1.2 e 5.2.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r013r4e.pdf: §5.2.1.2.6 richiede il soccorso dopo guasti previsti."
+      ]
+    },
+    {
+      "number": 30334,
+      "text": "La válvula de protección separa los dos circuitos de servicio y también protege la alimentación del remolque, si existe, de una fuga en otro circuito.",
+      "evidence": [
+        "WABCO, Systems and Components in Commercial Vehicles, pp. 3-4, 19, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf: p. 19, uscite 21 e 22 per serbatoi di servizio, circuito 3 per stazionamento e alimentazione rimorchio."
+      ]
+    },
+    {
+      "number": 30335,
+      "text": "El frenado restante sirve para detenerse tras una falla; no recupera toda la eficacia, por lo que debe repararse antes de iniciar otro viaje.",
+      "evidence": [
+        "Ontario Official Air Brake Handbook, Inspecting Air Brake System Operation, https://www.ontario.ca/document/official-air-brake-handbook/inspecting-air-brake-system-operation: una perdita eccessiva rende difettoso l’impianto; Ontario Official Air Brake Handbook, Air Supply Subsystem, https://www.ontario.ca/document/official-air-brake-handbook/air-supply-subsystem: un circuito residuo offre la funzione necessaria a fermare il veicolo."
+      ]
+    },
+    {
+      "number": 30336,
+      "text": "En el esquema considerado, las secciones de freno tienen reservas separadas; otros depósitos pueden alimentar los servicios auxiliares y la suspensión neumática.",
+      "evidence": [
+        "WABCO, Systems and Components in Commercial Vehicles, pp. 3-4, 19, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf: p. 19, serbatoi distinti per circuiti di servizio, circuito di stazionamento/rimorchio e ausiliari; Ontario Official Air Brake Handbook, Air Supply Subsystem, https://www.ontario.ca/document/official-air-brake-handbook/air-supply-subsystem: il numero di serbatoi dipende dal veicolo. WABCO p. 112: l’impianto di sospensione pneumatica comprende alimentazione e riserva di aria compressa."
+      ]
+    },
+    {
+      "number": 30337,
+      "text": "El aire comprimido puede depositar humedad en el depósito: una válvula de drenaje permite eliminar la condensación acumulada.",
+      "evidence": [
+        "Ontario Official Air Brake Handbook, Air Supply Subsystem, https://www.ontario.ca/document/official-air-brake-handbook/air-supply-subsystem: la valvola sul fondo del serbatoio consente di scaricare umidità e olio."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "f4f5d684f2ee81cd125a9b8b4186d0787384b77d5c9c07c4b0e63294531a7292",
+    "output_sha256": "dcbc9a7680a0bc6e4d3a3e7510e03def22d782d44644fe1fb24d318df9f974cf",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / brake-batches-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      30313,
+      30314,
+      30315,
+      30316,
+      30317,
+      30318,
+      30319,
+      30320,
+      30321,
+      30322,
+      30323,
+      30324,
+      30325,
+      30326,
+      30327,
+      30328,
+      30329,
+      30330,
+      30331,
+      30332,
+      30333,
+      30334,
+      30335,
+      30336,
+      30337
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Compared all four localized explanations with source statements and verdicts. Inspected UN R13 in official EUR-Lex regulation 2026/746 §§2.1.2, 5.2.1.2 and 5.2.1.7.1; https://eur-lex.europa.eu/eli/reg/2026/746/oj (HTML JavaScript challenge; indexed PDF).",
+      "30327: WABCO maintenance manual 34 p.34 (PDF p.37), https://www.wabco-customercentre.com/catalog/docs/mm34_web.pdf, supports a discharge-line unloaded-compressor example, not universal unloading of protected reservoirs. 30331: Ontario indexed official spring-brake handbook and Manitoba Air Brake Manual corroborate spring application and normal air release; Ontario direct page returned 403.",
+      "30325: https://www.asaps.it/986-Comportamento_del_conducente_in_sosta_e_uso_di_cunei_fermaruote_per_i_veicoli_pesanti.html locally inspected /tmp/rotonda-asaps-heavy-vehicle-chocks.txt lines 170–187: two chocks for vehicles over 3.5 tonnes in steep-grade parking; DPR 495 art.353(2) concerns use on steep gradients. These do not independently establish a universal carriage duty for every vehicle over 3.5 tonnes.",
+      "WABCO https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf timed out for reviewer; circuit concepts checked against Utah CDL air-brake handbook https://dld.utah.gov/cdl-manual-section-5-air-brakes/ and independent UN R13 requirements; exact WABCO pages not independently inspected.",
+      "Re-reviewed 30325 in all four languages: explains the printed FALSO and chock use for heavy vehicles on steep gradients, without an unconditional carriage claim; cited DPR 495 art. 353(2) and ASAPS use context verified. Other rows unchanged from full review."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb46-291d-7600-96c2-50efd91d9655",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "f50460d1f26036b7504fb2075376fa3634ec4b3881b675898b9c40848886c6f5",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb46-291d-7600-96c2-50efd91d9655",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 30327,
+              "reason": "La risposta stampata VERO richiede pressione sempre nell’intero tratto dal compressore al distributore duplex. Alcuni impianti scaricano verso atmosfera la mandata del compressore durante la fase di scarico; non è chiaro se il quesito presupponga un diverso schema e quale sia il tratto inteso.",
+              "checked_sources": [
+                "WABCO Maintenance Manual 34 p. 34, https://www.wabco-customercentre.com/catalog/docs/mm34_web.pdf: la linea di mandata può scaricare aria all’atmosfera durante il ciclo di scarico.",
+                "WABCO Systems and Components in Commercial Vehicles p. 19, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf: la valvola protegge la pressione nei circuiti integri."
+              ]
+            },
+            {
+              "number": 30331,
+              "reason": "La risposta stampata VERO afferma che il veicolo non può essere messo in movimento senza pressione perché il freno a molla non si disinserisce. La fonte tecnica conferma l’azione della molla e la necessità di pressione per rilasciarla normalmente, ma osserva che molti veicoli possono comunque muoversi con il freno applicato. La portata assoluta dell’affermazione richiede adjudicazione.",
+              "checked_sources": [
+                "Ontario Official Air Brake Handbook, Spring (Parking and Emergency) Brake Subsystem, https://www.ontario.ca/document/official-air-brake-handbook/spring-parking-and-emergency-brake-subsystem: l’aria comprime la molla per il rilascio, ma molti veicoli possono muoversi anche con il freno inserito."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "f50460d1f26036b7504fb2075376fa3634ec4b3881b675898b9c40848886c6f5",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "f4f5d684f2ee81cd125a9b8b4186d0787384b77d5c9c07c4b0e63294531a7292",
+        "output_sha256": "045e4922ef5afa1864fdabc158ba998083a8b8887bf60e93d53680641a9631aa",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / brake-batches-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          30313,
+          30314,
+          30315,
+          30316,
+          30317,
+          30318,
+          30319,
+          30320,
+          30321,
+          30322,
+          30323,
+          30324,
+          30325,
+          30326,
+          30327,
+          30328,
+          30329,
+          30330,
+          30331,
+          30332,
+          30333,
+          30334,
+          30335,
+          30336,
+          30337
+        ],
+        "issues": [
+          "30325: The learner text asserts chocks are required or provided for every autoveicolo above 3.5 tonnes. The inspected operational guidance supports chock use when parking on steep grades, but does not establish a universal carriage requirement for that vehicle category. Distinguish the source quiz convention from the supported operating-use scope, or supply an authoritative source establishing the unconditional requirement."
+        ],
+        "reviewer_evidence": [
+          "Compared all four localized explanations with source statements and verdicts. Inspected UN R13 in official EUR-Lex regulation 2026/746 §§2.1.2, 5.2.1.2 and 5.2.1.7.1; https://eur-lex.europa.eu/eli/reg/2026/746/oj (HTML JavaScript challenge; indexed PDF).",
+          "30327: WABCO maintenance manual 34 p.34 (PDF p.37), https://www.wabco-customercentre.com/catalog/docs/mm34_web.pdf, supports a discharge-line unloaded-compressor example, not universal unloading of protected reservoirs. 30331: Ontario indexed official spring-brake handbook and Manitoba Air Brake Manual corroborate spring application and normal air release; Ontario direct page returned 403.",
+          "30325: https://www.asaps.it/986-Comportamento_del_conducente_in_sosta_e_uso_di_cunei_fermaruote_per_i_veicoli_pesanti.html locally inspected /tmp/rotonda-asaps-heavy-vehicle-chocks.txt lines 170–187: two chocks for vehicles over 3.5 tonnes in steep-grade parking; DPR 495 art.353(2) concerns use on steep gradients. These do not independently establish a universal carriage duty for every vehicle over 3.5 tonnes.",
+          "WABCO https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf timed out for reviewer; circuit concepts checked against Utah CDL air-brake handbook https://dld.utah.gov/cdl-manual-section-5-air-brakes/ and independent UN R13 requirements; exact WABCO pages not independently inspected."
+        ]
+      }
+    ]
+  }
+}

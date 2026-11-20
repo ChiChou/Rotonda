@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1edd4-485d-73d1-9e26-64a88af9db5f"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "es-419",
+    "records": [
+      {
+        "source": {
+          "number": 16052,
+          "quesito_id": 3346,
+          "text_it": "I documenti per la validità della CMR consistono nel DDT (documento di trasporto) e nella bolla di accompagnamento",
+          "answer": 0,
+          "page": 62,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bfbe8dedc61d1fc8d1827e93e6454991e61aba0f8719568d2d707d711cd06ec4",
+        "italian": "FALSO. DDT e bolla non sono documenti che determinano la validità del contratto CMR: la lettera di vettura prova il contratto, che resta valido anche se essa manca o è irregolare.",
+        "italian_sha256": "a18fc305007179b223f66216a24b53cbb88f7f1ae0a7adab40427addc42ce753"
+      },
+      {
+        "source": {
+          "number": 16053,
+          "quesito_id": 3346,
+          "text_it": "I documenti per la validità della CMR consistono solo nella lettera di vettura",
+          "answer": 0,
+          "page": 62,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9e8ec2f1c52de8cc4e61e6f8815092c1c1affa827987545fae332eb950aca198",
+        "italian": "FALSO. La lettera di vettura documenta il contratto, ma non è un requisito della sua validità: il contratto resta soggetto alla CMR anche se la lettera manca, è irregolare o è perduta.",
+        "italian_sha256": "1e2e93a63cdc04a0fb4fb14f0a39bec6ac1140aa14bca059447abc3f7e84c1d6"
+      },
+      {
+        "source": {
+          "number": 16054,
+          "quesito_id": 3346,
+          "text_it": "I documenti per la validità della CMR consistono nella bolla di accompagnamento",
+          "answer": 0,
+          "page": 62,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9b621b4fb17f22ce36f6facd9d082f2965ce384a92bc33ebb53c0cf528d56c33",
+        "italian": "FALSO. La validità del contratto CMR non dipende dalla bolla di accompagnamento: il contratto è documentato dalla lettera di vettura e resta valido anche in sua assenza.",
+        "italian_sha256": "43a252d9c54c86ee2679f976608203e7064b4491be7b6a349001d9a0871eeece"
+      },
+      {
+        "source": {
+          "number": 16055,
+          "quesito_id": 3347,
+          "text_it": "Nella CMR, nel caso di trasporto combinato, la responsabilità del vettore è esclusa quando l’evento dannoso avviene nella tratta non stradale e non sia dovuta ad atto o ad omissione del vettore",
+          "answer": 1,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "94098778dd787641044c23130d5e0e3fd56cf01935bd0ae12af82330f5e6622f",
+        "italian": "VERO secondo il quiz, ma la formulazione è imprecisa: il danno nella tratta non stradale non esclude automaticamente la responsabilità del vettore stradale. Se è provato che deriva da un evento proprio di quella tratta e non da un suo atto od omissione, la responsabilità si determina secondo il regime applicabile all'altro modo di trasporto.",
+        "italian_sha256": "e7b5c645c5ac521fff9f524834db8d0269080401d431da62a6d13d3d8b1a5cf4"
+      },
+      {
+        "source": {
+          "number": 16056,
+          "quesito_id": 3347,
+          "text_it": "Nella CMR può essere intrapresa azione di risarcimento del danno nei confronti del vettore se il danno non è causato dal comportamento del titolare del diritto di disposizione della merce",
+          "answer": 1,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "29091bd2a2ec214f11eb52a3f66106e3ce48cb700cea17fba6768b1432e67051",
+        "italian": "VERO. Il danneggiato può agire contro il vettore per perdita, avaria o ritardo; l'assenza di una causa imputabile all'avente diritto non basta però da sola a garantire il risarcimento, perché possono ricorrere altre cause di esonero.",
+        "italian_sha256": "24ebb4a4863c5994236bad6d54454f3e02c6cb263d1379183badb94fbf086b46"
+      },
+      {
+        "source": {
+          "number": 16057,
+          "quesito_id": 3347,
+          "text_it": "Nella CMR, nel caso di trasporto combinato, la responsabilità del vettore è inclusa anche quando l’evento dannoso avviene nella tratta non stradale",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "10e953b01a233bddda2d404cfef4cd18dcb10881b4cd1166a01904ca7e73d1a2",
+        "italian": "FALSO secondo il quiz, ma la frase è ambigua: la responsabilità del vettore può riguardare anche la tratta non stradale. In circostanze specifiche e provate si applica il regime dell'altro modo di trasporto, senza esclusione automatica della responsabilità.",
+        "italian_sha256": "9f88c71ca4942525ac173fec21e9e90fa6976c230165f8c1b2d4551d07201318"
+      },
+      {
+        "source": {
+          "number": 16058,
+          "quesito_id": 3347,
+          "text_it": "Nella CMR, nel caso di trasporto combinato, la responsabilità del vettore è totale e comprende anche i danni provocati da terzi nella tratta non stradale",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9dcf82cec5248348e5a1120fe3023761f6c0e7a5f9a1e03567c34b093c743fab",
+        "italian": "FALSO. La responsabilità non è automaticamente totale per tutti i danni causati da terzi: in presenza delle condizioni previste per la tratta non stradale essa si determina secondo il regime applicabile a quel trasporto.",
+        "italian_sha256": "3ce2dc37079a04ba654b05d93afee1f3c17a98607f5ea1c5ee31be4c72c87e49"
+      },
+      {
+        "source": {
+          "number": 16059,
+          "quesito_id": 3347,
+          "text_it": "Nella CMR, nel caso di trasporto combinato, la responsabilità del vettore include anche i danni degli altri vettori non stradali se la partenza del carico è avvenuta con il mezzo stradale",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "292d86ee30e19d9fc052014c0bbee9c0aef10856170853124fdcebd2e7716930",
+        "italian": "FALSO. La sola partenza su strada non rende automaticamente il vettore responsabile di ogni danno imputabile ad altri vettori: per determinati eventi della tratta non stradale la responsabilità segue il regime proprio di quella tratta.",
+        "italian_sha256": "85b94e42a9e7c376a19cfcca2501fcaadbfdac925290132cf3349a3901335e3d"
+      },
+      {
+        "source": {
+          "number": 16060,
+          "quesito_id": 3347,
+          "text_it": "Nella CMR può essere intrapresa azione di risarcimento del danno nei confronti del vettore se il danno provocato non è conseguenza diretta della esecuzione dell’ordine ricevuto",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "39bcb86f09b0a9a728d8913a100c35cacc0aadce8f991f4769652ba6f1cf7d9b",
+        "italian": "FALSO secondo il quiz, ma la formulazione è problematica: se il danno non deriva dall'istruzione dell'avente diritto, questa specifica causa di esonero non opera; un'azione può quindi essere proposta, fermo restando l'esame delle altre cause di esonero.",
+        "italian_sha256": "ca8793622eb58959956db6e28f08be8195f5239382a13649da33eebdab82d220"
+      },
+      {
+        "source": {
+          "number": 16061,
+          "quesito_id": 3347,
+          "text_it": "Nella CMR può essere intrapresa azione di risarcimento del danno nei confronti del vettore se il vettore ha operato con la diligenza professionale richiesta dal trasporto della merce affidatagli",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "90e81c7a1e9e21bcfe153d3f16d26b5888d7fc68b1904b7f72cc51aefcfebd48",
+        "italian": "FALSO secondo il quiz, ma la sola diligenza non esclude automaticamente ogni pretesa: il vettore risponde di perdita, avaria e ritardo salvo che provi una causa di esonero prevista dalla CMR, comprese circostanze inevitabili e conseguenze non impedibili.",
+        "italian_sha256": "77ef19f97df6e7b3379424be1b2e64dc169049db03fc54ba5e72118dfbf2d94f"
+      },
+      {
+        "source": {
+          "number": 16062,
+          "quesito_id": 3347,
+          "text_it": "Nella CMR può essere intrapresa azione di risarcimento del danno nei confronti del vettore se il vettore ha avvertito il titolare del diritto di disposizione della merce del danno conseguente ad un suo ordine",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c2bd1528f5ad38a57e7a2cc39b5094bc1ce8963add448984faa61c0b6222cb12",
+        "italian": "FALSO secondo il quiz, ma il solo avvertimento non esclude automaticamente un'azione: occorre verificare se il danno sia stato causato dall'istruzione dell'avente diritto e se tale istruzione derivi o meno da colpa del vettore.",
+        "italian_sha256": "3ade81f65f03fd27fad53913e199063124f53d71167c73b3ba99c3ec4c71edd1"
+      },
+      {
+        "source": {
+          "number": 16066,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, la responsabilità del vettore inizia prima della presa in carico della merce e termina con la riconsegna a destinazione",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ce031a503282124b2a5a38846197f248714cf16162a4d915b1b258ea81323cc0",
+        "italian": "FALSO. Per perdita e avaria la responsabilità CMR riguarda il periodo dalla presa in carico della merce alla riconsegna, non il periodo precedente alla presa in carico.",
+        "italian_sha256": "547fe4703299c4384dcc6f9e45df4c562f51e3a72a575e6843bde2f90dde1588"
+      },
+      {
+        "source": {
+          "number": 16067,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, la responsabilità del vettore inizia con la stipula del contratto di trasporto e termina con la riconsegna al destinatario",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c8d70e3f7aff6d2f815f31f4095131a3ca86e1387ae2aede5f2e16446251dbf6",
+        "italian": "FALSO. Per perdita e avaria la responsabilità decorre dalla presa in carico della merce, non dalla semplice stipula del contratto, e dura fino alla riconsegna.",
+        "italian_sha256": "edb14ebff4df9bd290ef4cf0d4a89e5996716c1ac175bc58e54761ea820ee4a0"
+      },
+      {
+        "source": {
+          "number": 16069,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, il vettore è responsabile solo della merce",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2b4c98e9aaf6cfdce30d017553da123fa5ec0a186b31e1cf583ad27a7c3407ba",
+        "italian": "FALSO. Il vettore non risponde soltanto della merce: risponde anche degli atti e delle omissioni dei dipendenti e delle altre persone di cui si avvale per eseguire il trasporto, quando agiscono nell'esercizio delle loro funzioni.",
+        "italian_sha256": "d5cb2aeb874cb254946cf30b994203ce7fce56a681755970e7613cdf6f5fd1fa"
+      },
+      {
+        "source": {
+          "number": 16070,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, il vettore è responsabile solo degli addetti regolarmente stipendiati",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9b2cafa43f7012bbe70bb9007d6b0c97abbb055f4a9386a773186aaa09c5f86f",
+        "italian": "FALSO. La responsabilità non è limitata agli addetti regolarmente stipendiati: comprende anche le altre persone di cui il vettore si avvale per il trasporto, quando agiscono nell'esercizio delle loro funzioni.",
+        "italian_sha256": "4b4431b0eec63d6f109630fc9a9fc92cfb2db33ef7328821970907f28a664261"
+      },
+      {
+        "source": {
+          "number": 16071,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, il vettore è responsabile per il lavoro di tutti quelli che intervengono nell’esecuzione del trasporto purché retribuiti secondo il contratto",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3f2eba55ac9c57b8f187ab8e1ecc01e330aeddd5c1d164bb9944b3f3258bee8a",
+        "italian": "FALSO. La retribuzione secondo contratto non è la condizione posta dalla CMR: il vettore risponde degli atti e delle omissioni delle persone di cui si avvale, se agiscono nell'esercizio delle loro funzioni.",
+        "italian_sha256": "37037bca129c43aeca301046742941a4f796c16fd9b675f213629635c269ab0a"
+      },
+      {
+        "source": {
+          "number": 16074,
+          "quesito_id": 3349,
+          "text_it": "Nella CMR, il mittente può incaricare il vettore di incassare una somma determinata che, per effetto di altro rapporto, sia dovuta al mittente medesimo",
+          "answer": 1,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "108a3367158ae00f78f0e42398a4b532c97360a8fe07ef848b495b89f746bccf",
+        "italian": "VERO. Il contratto può prevedere un assegno da riscuotere alla riconsegna: se il vettore consegna senza incassarlo, risponde verso il mittente nei limiti dell'importo previsto.",
+        "italian_sha256": "693c0f18114023cd05defde23768b2cae5aaececf1a7ef83d48bfaf0a1096034"
+      },
+      {
+        "source": {
+          "number": 16075,
+          "quesito_id": 3349,
+          "text_it": "Nella CMR, il destinatario della merce non ha più interesse alla riconsegna quando la merce non ha più le caratteristiche originarie e non può più essere utilizzata",
+          "answer": 1,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "129abb374e27178066b4d47e06cb15bee1ec2ef6e4a6c05f0a1eb8d835707a18",
+        "italian": "VERO secondo il quiz: se la merce è divenuta inutilizzabile, il destinatario può non avere più interesse pratico alla riconsegna. La perdita di interesse va però valutata nel caso concreto; la CMR non la presume automaticamente per ogni alterazione.",
+        "italian_sha256": "04853925f437d152269d8df40cb3e42ea52cf2cfdace3ce4e320186b52d2837a"
+      },
+      {
+        "source": {
+          "number": 16076,
+          "quesito_id": 3349,
+          "text_it": "Nella CMR, il mittente non può incaricare il vettore di altre incombenze oltre quelle proprie del trasporto",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ead947ac9e22fcc0fffd289badcd362bcf4b50e026a877e9cad2a9b3e634ad37",
+        "italian": "FALSO. Il mittente può affidare al vettore anche l'incasso di un assegno alla riconsegna, se previsto dal contratto di trasporto.",
+        "italian_sha256": "aaf567594ea96597dbc5817f6d2292fbf22a4c6b4da70e32b3591d020bd961dd"
+      },
+      {
+        "source": {
+          "number": 16077,
+          "quesito_id": 3349,
+          "text_it": "Nella CMR, il mittente può incaricare il vettore di riscuotere per suo conto somme di denaro non quantificate",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "25fe0d5baeacc051768fd63838d1a7c15e7f750b6f3b31552575e80782b8b348",
+        "italian": "FALSO secondo il quiz: l'assegno da incassare alla riconsegna deve essere determinato nell'accordo, così da sapere quanto il vettore debba riscuotere. La CMR prevede la responsabilità per la mancata riscossione entro il limite dell'assegno.",
+        "italian_sha256": "888596bcab2e6cbfe0b1db76e78e06a9482981e672f32a8c6932a6953c7ce2b6"
+      },
+      {
+        "source": {
+          "number": 16078,
+          "quesito_id": 3349,
+          "text_it": "Nella CMR, il mittente può incaricare il vettore di incassare una somma di denaro oppure il suo equivalente in qualsiasi bene di valore non determinabile",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6fa807668a5eeb49b879eb0b51838e7c3d4f1c798834faf9b1c81c62971ddaab",
+        "italian": "FALSO. L'assegno previsto alla riconsegna è una somma da riscuotere secondo il contratto; non è previsto che sia sostituito automaticamente con un qualsiasi bene di valore indeterminabile.",
+        "italian_sha256": "8d42c9df1acb1ea605aaad6471d719abf00d994211d52b70732f8448e8186372"
+      },
+      {
+        "source": {
+          "number": 16079,
+          "quesito_id": 3349,
+          "text_it": "Nella CMR, il destinatario della merce non ha più interesse alla riconsegna quando nonostante tutto, la merce può ancora essere utilizzata",
+          "answer": 0,
+          "page": 63,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "140a1034dd97b9a23ebe0fb7a0944360ab0c97f036643cbe0d37a5816bb5d013",
+        "italian": "FALSO secondo il quiz: la possibilità di usare ancora la merce può conservare un interesse alla riconsegna. L'interesse concreto dipende però dalle circostanze e dall'utilità residua, non dalla sola possibilità materiale di utilizzarla.",
+        "italian_sha256": "d30ae95aa57037a4213efd24d9a15cdd3c6702531d4f7049959920696b876dce"
+      },
+      {
+        "source": {
+          "number": 16080,
+          "quesito_id": 3349,
+          "text_it": "Nella CMR, il destinatario della merce non ha più interesse alla riconsegna quando la merce viene consegnata entro 20 giorni dal termine convenuto",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "48af469f53473198a72da09be446240fb990593445106a98cb2f24d5e1b25382",
+        "italian": "FALSO. Il solo superamento del termine convenuto entro venti giorni non dimostra che sia cessato l'interesse alla riconsegna. La CMR consente di considerare perduta la merce non consegnata dopo trenta giorni dalla scadenza del termine pattuito.",
+        "italian_sha256": "567a201cf29f3f6d089453183029e0a340e21a33d80cd23901c6fba3de597b5c"
+      },
+      {
+        "source": {
+          "number": 16081,
+          "quesito_id": 3349,
+          "text_it": "Nella CMR, il destinatario della merce non ha più interesse alla riconsegna quando non essendo convenuto un termine, la merce viene consegnata entro 50 giorni dal ricevimento della merce da parte del vettore",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "14bcd4c3125e7c70ddd45adbf3ceedca428d184f2b08de971d81b00d9831add8",
+        "italian": "FALSO. Senza termine convenuto, la merce non riconsegnata può essere considerata perduta senza altre prove dopo 60 giorni dalla presa in carico, non dopo 50.",
+        "italian_sha256": "a05907e15b728ea1dfe0f63f0b73a5ce4787d02046a4527e296f9ae00bd231dc"
+      },
+      {
+        "source": {
+          "number": 16082,
+          "quesito_id": 3350,
+          "text_it": "Nella CMR, si ha perdita totale e non avaria quando la merce diventa obiettivamente non commerciabile nella sua totalità anche se l’avaria si riferisce ad una sola parte della merce trasportata",
+          "answer": 1,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9c4df76f3fd75c77561e948d46d0987a8ab343ef24c18c5a042e937b6b9ac775",
+        "italian": "VERO secondo il quiz: se il danno a una parte rende inutilizzabile commercialmente l’intera partita, il pregiudizio può riguardare tutta la spedizione. La qualificazione come perdita totale non è però automatica: la CMR contempla anche l’avaria che deprezza l’intera spedizione.",
+        "italian_sha256": "a1f48c550c75932d452cf3b0a8ebf0c4d3259a30362a80f091820e47076e1de6"
+      },
+      {
+        "source": {
+          "number": 16083,
+          "quesito_id": 3350,
+          "text_it": "Nella CMR, l’avaria è il danneggiamento della merce con conseguente riduzione del suo valore economico, pur essendo ancora utilizzabile",
+          "answer": 1,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c2935b7090a2d8752095ccd90d54dc01cfd025209fd9a8df2d39dab301db306f",
+        "italian": "VERO. L’avaria è un danno alla merce che ne riduce il valore; la merce può restare utilizzabile. La CMR commisura l’indennità al deprezzamento.",
+        "italian_sha256": "8955ec96c87825368e964a22f370be62417540a536708c864763185875cfb4a7"
+      },
+      {
+        "source": {
+          "number": 16084,
+          "quesito_id": 3350,
+          "text_it": "Nella CMR, si ha perdita totale e non avaria quando la merce può essere collocata sul mercato di destinazione a prezzo irrisorio",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c06ea68f6de60cd77757b5d4e0dedd5b30312f0b99ab5e766fac2666303bf5b7",
+        "italian": "FALSO. Un prezzo molto basso indica un forte deprezzamento, ma non comporta automaticamente una perdita totale: la merce può essere avariata e ancora vendibile.",
+        "italian_sha256": "0c1092f71e4663fcd46291301f98bb7738edd961278f5c1e9c4a1766bd13a694"
+      },
+      {
+        "source": {
+          "number": 16085,
+          "quesito_id": 3350,
+          "text_it": "Nella CMR, si ha perdita totale e non avaria quando il valore della merce trasportata non è indicato nella lettera di vettura",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8b58378dde1abc5613c509892ed4d956243ad44edcf040535dea631492770b75",
+        "italian": "FALSO. La mancata dichiarazione del valore nella lettera di vettura non determina la perdita della merce; la dichiarazione può incidere sul limite dell’indennità.",
+        "italian_sha256": "1b1235b2751d2dcc6da967bae73b29bbd3b5b0992851da27124275d69feafb41"
+      },
+      {
+        "source": {
+          "number": 16086,
+          "quesito_id": 3350,
+          "text_it": "Nella CMR, si ha perdita totale e non avaria quando risulta avariata una parte della merce trasportata e sono state emesse più lettere di vettura",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ac717f5ead1e96b94d0f21fff3ed3f61153d5b9dbe483a69bc39182538ef682b",
+        "italian": "FALSO. Il numero delle lettere di vettura non trasforma automaticamente l’avaria di una parte in perdita totale. Conta il pregiudizio alla spedizione.",
+        "italian_sha256": "b30696def340ca954e3da48375319e3fa8880a5624f92e10c2ca7fb185a62dec"
+      },
+      {
+        "source": {
+          "number": 16087,
+          "quesito_id": 3350,
+          "text_it": "Nella CMR, l’avaria è il danneggiamento della merce con riduzione del suo valore economico e della sua utilizzabilità",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "27c9f0e8093330c1463c7e5a727d447ca52b7332ab6be109c7ff876b9db039ba",
+        "italian": "FALSO secondo il quiz, ma la formulazione è ambigua: un danno può ridurre sia il valore sia l’utilizzabilità della merce. La CMR collega l’indennità per avaria al deprezzamento.",
+        "italian_sha256": "d7357a377d755bb0112430adc1f56ce6e44e1df888f32312f02b24cd7ff4cbec"
+      },
+      {
+        "source": {
+          "number": 16088,
+          "quesito_id": 3350,
+          "text_it": "Nella CMR, l’avaria è il danneggiamento della merce",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b24363aa1c36775b89538db4f6d67abb530d9cbe47dfe963d7033612b45c61f1",
+        "italian": "FALSO secondo il quiz, ma la frase è incompleta e può descrivere l’avaria: si tratta di un danno alla merce, rilevante per la CMR attraverso il deprezzamento.",
+        "italian_sha256": "d004f082bb011bb29beb4f2339998245e5718d2d3ab692f3b3264c8745a29b3e"
+      },
+      {
+        "source": {
+          "number": 16089,
+          "quesito_id": 3350,
+          "text_it": "Nella CMR, l’avaria è la perdita della utilizzabilità della merce",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f93942179c7aa486699a3981dd0c1a1bd9e6ed83a4d4376ffa2ef3fe01534e14",
+        "italian": "FALSO. La perdita dell’utilizzabilità non definisce da sola ogni avaria: la merce danneggiata può conservare un’utilità, pur avendo subito un deprezzamento.",
+        "italian_sha256": "265d7c38b7c6abd70ca4ae554d1d4c7999745f38bb0d4a04798549b0d39b16ca"
+      },
+      {
+        "source": {
+          "number": 16090,
+          "quesito_id": 3351,
+          "text_it": "Nella CMR, la merce s’intende avariata quando vi è una variazione o differenza nello stato fisico della merce trasportata tale da abbassarne il valore commerciale",
+          "answer": 1,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "be4cef26b3690731c319ad3c99a68a39fe94b1379510974348828d4d8b9156df",
+        "italian": "VERO. Una modifica dello stato della merce che ne abbassa il valore commerciale può costituire avaria; l’indennità è calcolata sul deprezzamento.",
+        "italian_sha256": "17408288b2fc2325129bb4b01f26c2f9a8882090f939bd467611b897999be692"
+      },
+      {
+        "source": {
+          "number": 16091,
+          "quesito_id": 3351,
+          "text_it": "Nella CMR, la merce s’intende avariata quando la variazione o differenza nello stato fisico della merce trasportata non influenza il suo valore commerciale",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "962a02ab5b35e6bd2ac19d2a1ca51d821d71f820921a91e27375c2e73a437c4b",
+        "italian": "FALSO. Una variazione priva di effetti sul valore commerciale non comporta il deprezzamento su cui la CMR calcola l’indennità per avaria.",
+        "italian_sha256": "4bfcc01b926b31ac61033ad13fe3bc6ac18ed093deebb5734ec1cb61f1d4a5b9"
+      },
+      {
+        "source": {
+          "number": 16092,
+          "quesito_id": 3351,
+          "text_it": "Nella CMR, la merce s’intende avariata quando la variazione o differenza nello stato fisico della merce trasportata è riconducibile ad atti del vettore",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4d6691dc0c66677e0525b70612181f38bdeb3a147f329b6a7cc5f82e54390533",
+        "italian": "FALSO. L’avaria non è definita dalla sola attribuzione del fatto al vettore: è il danno alla merce a rilevare; la causa incide sulla responsabilità.",
+        "italian_sha256": "6cd2af7cba88c66ed6c80ad0868ed9ddd06ddfab2e01a041e9639cf00da6d133"
+      },
+      {
+        "source": {
+          "number": 16093,
+          "quesito_id": 3351,
+          "text_it": "Nella CMR, la merce s’intende avariata quando la variazione o differenza nello stato fisico della merce trasportata è conseguenza di ordini impartiti dal destinatario",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9d402ca5d8b5d039f2297d1ff349b20a27e7984f6b99719edaf860bf91629d2c",
+        "italian": "FALSO. Un ordine del destinatario non definisce l’avaria: questa riguarda il danno alla merce. Un ordine dell’avente diritto può invece rilevare ai fini dell’esonero del vettore.",
+        "italian_sha256": "3aed72fb69beaacb8f9a2a46433aa235f9cfc7838780bbbb1e7598ceb509d069"
+      },
+      {
+        "source": {
+          "number": 16094,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, in caso di ritardo, il titolare del diritto può chiedere il risarcimento o l’indennità per perdita della merce con rinuncia all’indennità per ritardo",
+          "answer": 1,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5c4624ee6a3f1891838b1907bc6498242077d9994ac027c7f821bbbc02aa4c56",
+        "italian": "VERO nel caso in cui la merce possa essere considerata perduta: l’avente diritto può chiedere l’indennità per perdita invece di attendere la consegna. Se la merce viene ritrovata e richiesta, la CMR prevede la restituzione dell’indennità per perdita, salvo il diritto per il ritardo.",
+        "italian_sha256": "ec92bf096c5acd840076599b58b522a209ac3356b8fac0c77a214e13dff5e685"
+      },
+      {
+        "source": {
+          "number": 16095,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, in caso di ritardo, il titolare del diritto può chiedere la riconsegna oltre il termine con diritto all’indennità di ritardo",
+          "answer": 1,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c833bcb637425cc38e784e369410f0afe2d7bab14c87dae99baf99aa0d55a733",
+        "italian": "VERO. La merce può essere riconsegnata in ritardo e il danno da ritardo può essere indennizzato se provato, nei limiti previsti dalla CMR.",
+        "italian_sha256": "403b6477e3de69562c1dd628994a21d59d86312b537ac08bc5c833dbaae89932"
+      },
+      {
+        "source": {
+          "number": 16096,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, per ritardo s’intende la mancata riconsegna della merce entro il termine convenuto",
+          "answer": 1,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e48af6ac9e58a73c1c26022ef12f343a2e913401261ac8ac0ff702b59e8e8b5c",
+        "italian": "VERO. Il mancato rispetto del termine di riconsegna concordato costituisce ritardo. In assenza di un termine si considera il tempo ragionevole per un vettore diligente.",
+        "italian_sha256": "95e4d9be66b83e8301e3f5c668566f5df2c7c0030e667353de4c44d9b945e9c6"
+      },
+      {
+        "source": {
+          "number": 16097,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, in caso di ritardo, il titolare del diritto può chiedere sia il risarcimento per perdita della merce che l’indennità per riconsegna della merce oltre il termine",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9521d36d11f2a13f37ff9210a1857e98eedaf1ac234d9e720856f218d9612173",
+        "italian": "FALSO. Per la stessa merce non si trattiene l’indennità per perdita dopo averne chiesto la riconsegna: va restituita, salvo il diritto all’indennità per ritardo.",
+        "italian_sha256": "d23bfbb33552aa5a2449657088e207f70551c31c3cc6d6f240b511c8d9a13831"
+      },
+      {
+        "source": {
+          "number": 16098,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, in caso di ritardo, il titolare del diritto può ricevere la merce con ritardo ma non ha diritto ad alcuna indennità",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2c4a4a4df2c54bbcb765d06a7848436e5cd70443d3142df534f085b8d2513de4",
+        "italian": "FALSO. La consegna tardiva non esclude ogni indennità: se prova un pregiudizio da ritardo, l’avente diritto può chiederne il risarcimento nei limiti previsti.",
+        "italian_sha256": "851dd3801058ea769a12a1d67509f89a9f1605de2731705e3ca60ecfade59d92"
+      },
+      {
+        "source": {
+          "number": 16099,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, in caso di ritardo, il titolare del diritto non può chiedere il risarcimento per perdita della merce né l’indennità per i ritardo",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f6509ecfe7ab49a9b1736f53e695d1dec8b853cbb7b5f875340d2f469876249c",
+        "italian": "FALSO. Il ritardo può dare diritto a un’indennità per il pregiudizio provato; trascorsi i termini previsti, la merce non consegnata può anche essere considerata perduta.",
+        "italian_sha256": "b9760e194daf854c487b866f89f3d16013718b47f02203d06ba62265d6b9a0b5"
+      },
+      {
+        "source": {
+          "number": 16100,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, per ritardo s’intende la mancata riconsegna della merce entro 40 giorni dal termine convenuto",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4254cc62897d9a4b1befae6609a588da4847bd8ad345b7bbc4b703d4fc00767d",
+        "italian": "FALSO. Il ritardo inizia quando non si rispetta il termine convenuto, senza attendere altri 40 giorni.",
+        "italian_sha256": "13a37df54c2cffd88aadae7439afdd0857889dc7afc3bfb6ca89acf4d391ae13"
+      },
+      {
+        "source": {
+          "number": 16101,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, per ritardo s’intende la mancata riconsegna della merce nel luogo di destinazione concordato",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1ce16696f851cccd3917099f6ec7f690b61bab7ae5339b44ecc9669372fc8004",
+        "italian": "FALSO. Il ritardo riguarda il tempo della riconsegna: si verifica se è superato il termine convenuto o, in sua assenza, il tempo ragionevole.",
+        "italian_sha256": "a800979b35c1323e605e872b6274ff49928aa93d8a7dbdfb1263352c49caa72e"
+      },
+      {
+        "source": {
+          "number": 16102,
+          "quesito_id": 3352,
+          "text_it": "Nella CMR, per ritardo s’intende la mancata riconsegna della merce entro 70 giorni dal ricevimento della merce da parte del vettore",
+          "answer": 0,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6c4b24eee6d6afc925d43c400422ddb184f48b07e55cceb8bfcf039542ecd96b",
+        "italian": "FALSO. Non occorre attendere 70 giorni: senza termine convenuto, il ritardo dipende dal superamento del tempo ragionevole per un vettore diligente.",
+        "italian_sha256": "f5c9599f9c0aa556d9e77afaef0c568e397c5b01b1a08e0cbbecec06f81c000b"
+      },
+      {
+        "source": {
+          "number": 16103,
+          "quesito_id": 3353,
+          "text_it": "Nella CMR, nel corso del trasporto, il vettore è responsabile della perdita totale o parziale della merce o della sua avaria o del ritardo nella consegna",
+          "answer": 1,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5ecf93e06d4b4800e02677a7d369dc58d5f444cfd0fe68af55f890817fb07867",
+        "italian": "VERO. Il vettore risponde della perdita totale o parziale e dell’avaria tra presa in carico e riconsegna, nonché del ritardo, salvo le cause di esonero previste.",
+        "italian_sha256": "208ae17cec1a1761a0751ab047ead551cbdf450241b79d2279875b1eaf1765df"
+      },
+      {
+        "source": {
+          "number": 16104,
+          "quesito_id": 3353,
+          "text_it": "Il vettore è esonerato dalla responsabilità della perdita, dell’avaria o del ritardo nella riconsegna della merce nel caso di vizio proprio della merce",
+          "answer": 1,
+          "page": 64,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "24a78d780aa859848e5ccda04192474ebcbaf06258e089c36f439c53164f15a2",
+        "italian": "VERO. Il vettore è esonerato se prova che perdita, avaria o ritardo sono dovuti a un vizio proprio della merce.",
+        "italian_sha256": "c3c30794227b3aa9f652b2cb795f91951d222cc88a62479265baee614143db28"
+      },
+      {
+        "source": {
+          "number": 16105,
+          "quesito_id": 3353,
+          "text_it": "Nella CMR, nel corso del trasporto, il vettore è responsabile solo della perdita parziale o totale della merce",
+          "answer": 0,
+          "page": 65,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1794bed93feb156efb9927902355ef092f724c44f686ee826ff8146745f3d22c",
+        "italian": "FALSO. La responsabilità del vettore non riguarda soltanto la perdita: comprende anche l’avaria e il ritardo nella riconsegna, salvi gli esoneri previsti.",
+        "italian_sha256": "0f8be94627873e2ec1575bc7db149f369bf647b946ac8c9c0874551edbba3dc4"
+      },
+      {
+        "source": {
+          "number": 16106,
+          "quesito_id": 3353,
+          "text_it": "Nella CMR, nel corso del trasporto, il vettore è responsabile solo del ritardo nella consegna",
+          "answer": 0,
+          "page": 65,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "52b82df150e219e354c9f92d80bb5e821df0ca69a1e336acb198e247505c9a1c",
+        "italian": "Non risponde solo del ritardo: il vettore risponde anche della perdita totale o parziale e dell’avaria della merce tra presa in carico e riconsegna, salvo le cause di esonero previste.",
+        "italian_sha256": "bba2aa6d30b4abe1b5d69a32300a20f7e410a52c13ab996967b33fbe785f75d7"
+      },
+      {
+        "source": {
+          "number": 16107,
+          "quesito_id": 3353,
+          "text_it": "Nella CMR, nel corso del trasporto, il vettore non risponde se il ritardo è dovuto a guasto del veicolo utilizzato",
+          "answer": 0,
+          "page": 65,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5dae10fe187ab2f5a849c8d6c8a578cef5eda920821f4f112af19eaf806f2f71",
+        "italian": "Il guasto del veicolo non esonera di per sé il vettore dalla responsabilità per il ritardo.",
+        "italian_sha256": "a60063167d52ba46b8c4fedd8b39f1d6adb149a0b62c20172838af10694e7a33"
+      }
+    ],
+    "task_sha256": "3403feedd4318b03f3d2f018f812f8cec95cbbf3f83e8d94c0c1dd762ca8f54e"
+  },
+  "rows": [
+    {
+      "number": 16052,
+      "text": "FALSO. El DDT y el documento de acompañamiento no determinan la validez del contrato CMR: la carta de porte acredita el contrato, que sigue siendo válido aunque esta falte o sea irregular."
+    },
+    {
+      "number": 16053,
+      "text": "FALSO. La carta de porte documenta el contrato, pero no es un requisito para su validez: el contrato sigue sujeto a la CMR aunque la carta falte, sea irregular o se haya perdido."
+    },
+    {
+      "number": 16054,
+      "text": "FALSO. La validez del contrato CMR no depende del documento de acompañamiento: el contrato se documenta con la carta de porte y sigue siendo válido incluso si esta falta."
+    },
+    {
+      "number": 16055,
+      "text": "VERO según el cuestionario, pero la formulación es imprecisa: el daño en el tramo no carretero no excluye automáticamente la responsabilidad del transportista carretero. Si se prueba que deriva de un hecho propio de ese tramo y no de un acto u omisión suyos, la responsabilidad se determina según el régimen aplicable al otro modo de transporte."
+    },
+    {
+      "number": 16056,
+      "text": "VERO. El perjudicado puede reclamar al transportista por pérdida, avería o demora; sin embargo, la ausencia de una causa imputable al titular del derecho no basta por sí sola para garantizar la indemnización, pues pueden existir otras causas de exoneración."
+    },
+    {
+      "number": 16057,
+      "text": "FALSO según el cuestionario, pero la frase es ambigua: la responsabilidad del transportista también puede abarcar el tramo no carretero. En circunstancias específicas y probadas se aplica el régimen del otro modo de transporte, sin que la responsabilidad quede excluida automáticamente."
+    },
+    {
+      "number": 16058,
+      "text": "FALSO. La responsabilidad no es automáticamente total por todos los daños causados por terceros: si se cumplen las condiciones previstas para el tramo no carretero, se determina según el régimen aplicable a ese transporte."
+    },
+    {
+      "number": 16059,
+      "text": "FALSO. El solo hecho de que el transporte comience por carretera no hace automáticamente responsable al transportista de todo daño imputable a otros transportistas: para determinados hechos del tramo no carretero, la responsabilidad sigue el régimen propio de ese tramo."
+    },
+    {
+      "number": 16060,
+      "text": "FALSO según el cuestionario, pero la formulación es problemática: si el daño no deriva de la instrucción del titular del derecho, esta causa específica de exoneración no se aplica; por tanto, puede presentarse una reclamación, sin perjuicio del examen de las demás causas de exoneración."
+    },
+    {
+      "number": 16061,
+      "text": "FALSO según el cuestionario, pero la diligencia por sí sola no excluye automáticamente toda reclamación: el transportista responde por pérdida, avería y demora, salvo que pruebe una causa de exoneración prevista en la CMR, incluidas circunstancias inevitables y consecuencias que no podían impedirse."
+    },
+    {
+      "number": 16062,
+      "text": "FALSO según el cuestionario, pero el solo aviso no excluye automáticamente una reclamación: hay que comprobar si el daño fue causado por la instrucción del titular del derecho y si dicha instrucción se debió o no a una falta del transportista."
+    },
+    {
+      "number": 16066,
+      "text": "FALSO. Para la pérdida y la avería, la responsabilidad según la CMR abarca el período desde la recepción de la mercancía hasta su entrega, no el período anterior a su recepción."
+    },
+    {
+      "number": 16067,
+      "text": "FALSO. Para la pérdida y la avería, la responsabilidad comienza con la recepción de la mercancía, no con la simple celebración del contrato, y dura hasta la entrega."
+    },
+    {
+      "number": 16069,
+      "text": "FALSO. El transportista no responde solo por la mercancía: también responde por los actos y omisiones de sus empleados y de las demás personas a las que recurre para realizar el transporte, cuando actúan en el ejercicio de sus funciones."
+    },
+    {
+      "number": 16070,
+      "text": "FALSO. La responsabilidad no se limita al personal que recibe un salario regular: también comprende a las demás personas a las que el transportista recurre para el transporte, cuando actúan en el ejercicio de sus funciones."
+    },
+    {
+      "number": 16071,
+      "text": "FALSO. La remuneración según el contrato no es la condición establecida por la CMR: el transportista responde por los actos y omisiones de las personas a las que recurre, si actúan en el ejercicio de sus funciones."
+    },
+    {
+      "number": 16074,
+      "text": "VERO. El contrato puede prever una suma contra reembolso que se cobrará al entregar la mercancía: si el transportista entrega sin cobrarla, responde ante el remitente hasta el límite del importe previsto."
+    },
+    {
+      "number": 16075,
+      "text": "VERO según el cuestionario: si la mercancía ha quedado inutilizable, el destinatario puede dejar de tener interés práctico en recibirla. Sin embargo, la pérdida de interés debe evaluarse en cada caso; la CMR no la presume automáticamente por cualquier alteración."
+    },
+    {
+      "number": 16076,
+      "text": "FALSO. El remitente también puede encargar al transportista el cobro de una suma contra reembolso al entregar la mercancía, si así lo prevé el contrato de transporte."
+    },
+    {
+      "number": 16077,
+      "text": "FALSO según el cuestionario: la suma contra reembolso que se cobrará al entregar la mercancía debe fijarse en el acuerdo, para saber cuánto debe cobrar el transportista. La CMR prevé la responsabilidad por la falta de cobro hasta el límite de esa suma."
+    },
+    {
+      "number": 16078,
+      "text": "FALSO. La suma contra reembolso prevista para la entrega debe cobrarse según el contrato; no está previsto sustituirla automáticamente por cualquier bien de valor indeterminable."
+    },
+    {
+      "number": 16079,
+      "text": "FALSO según el cuestionario: la posibilidad de seguir usando la mercancía puede mantener el interés en recibirla. Sin embargo, el interés concreto depende de las circunstancias y de la utilidad restante, no solo de la posibilidad material de usarla."
+    },
+    {
+      "number": 16080,
+      "text": "FALSO. El solo hecho de superar el plazo acordado por hasta veinte días no demuestra que haya cesado el interés en recibir la mercancía. La CMR permite considerar perdida la mercancía no entregada después de treinta días desde el vencimiento del plazo acordado."
+    },
+    {
+      "number": 16081,
+      "text": "FALSO. Si no se acordó un plazo, la mercancía no entregada puede considerarse perdida sin más pruebas después de 60 días desde su recepción por el transportista, no después de 50."
+    },
+    {
+      "number": 16082,
+      "text": "VERO según el cuestionario: si el daño a una parte hace que todo el lote sea comercialmente inutilizable, el perjuicio puede afectar a todo el envío. Sin embargo, su calificación como pérdida total no es automática: la CMR también contempla la avería que deprecia todo el envío."
+    },
+    {
+      "number": 16083,
+      "text": "VERO. La avería es un daño a la mercancía que reduce su valor; la mercancía puede seguir siendo utilizable. La CMR calcula la indemnización en función de la depreciación."
+    },
+    {
+      "number": 16084,
+      "text": "FALSO. Un precio muy bajo indica una fuerte depreciación, pero no implica automáticamente una pérdida total: la mercancía puede estar averiada y todavía poder venderse."
+    },
+    {
+      "number": 16085,
+      "text": "FALSO. No declarar el valor en la carta de porte no determina la pérdida de la mercancía; la declaración puede influir en el límite de la indemnización."
+    },
+    {
+      "number": 16086,
+      "text": "FALSO. El número de cartas de porte no convierte automáticamente la avería de una parte en una pérdida total. Lo que cuenta es el perjuicio al envío."
+    },
+    {
+      "number": 16087,
+      "text": "FALSO según el cuestionario, pero la formulación es ambigua: un daño puede reducir tanto el valor como la utilidad de la mercancía. La CMR relaciona la indemnización por avería con la depreciación."
+    },
+    {
+      "number": 16088,
+      "text": "FALSO según el cuestionario, pero la frase está incompleta y puede describir la avería: se trata de un daño a la mercancía, relevante para la CMR por la depreciación que produce."
+    },
+    {
+      "number": 16089,
+      "text": "FALSO. La pérdida de utilidad no define por sí sola toda avería: la mercancía dañada puede conservar alguna utilidad, aunque haya sufrido una depreciación."
+    },
+    {
+      "number": 16090,
+      "text": "VERO. Una modificación del estado de la mercancía que reduce su valor comercial puede constituir una avería; la indemnización se calcula sobre la depreciación."
+    },
+    {
+      "number": 16091,
+      "text": "FALSO. Una variación que no afecta el valor comercial no produce la depreciación sobre la que la CMR calcula la indemnización por avería."
+    },
+    {
+      "number": 16092,
+      "text": "FALSO. La avería no se define solo por atribuir el hecho al transportista: lo que importa es el daño a la mercancía; la causa influye en la responsabilidad."
+    },
+    {
+      "number": 16093,
+      "text": "FALSO. Una orden del destinatario no define la avería: esta se refiere al daño a la mercancía. En cambio, una orden del titular del derecho puede ser relevante para exonerar al transportista."
+    },
+    {
+      "number": 16094,
+      "text": "VERO cuando la mercancía puede considerarse perdida: el titular del derecho puede pedir la indemnización por pérdida en vez de esperar la entrega. Si la mercancía se encuentra y se solicita su entrega, la CMR prevé la devolución de la indemnización por pérdida, sin perjuicio del derecho por la demora."
+    },
+    {
+      "number": 16095,
+      "text": "VERO. La mercancía puede entregarse con demora y el daño causado por esta puede indemnizarse si se prueba, dentro de los límites previstos por la CMR."
+    },
+    {
+      "number": 16096,
+      "text": "VERO. El incumplimiento del plazo de entrega acordado constituye una demora. Si no hay un plazo, se considera el tiempo razonable para un transportista diligente."
+    },
+    {
+      "number": 16097,
+      "text": "FALSO. Por la misma mercancía no se conserva la indemnización por pérdida después de solicitar su entrega: debe devolverse, sin perjuicio del derecho a la indemnización por demora."
+    },
+    {
+      "number": 16098,
+      "text": "FALSO. La entrega tardía no excluye toda indemnización: si prueba un perjuicio por la demora, el titular del derecho puede reclamar su indemnización dentro de los límites previstos."
+    },
+    {
+      "number": 16099,
+      "text": "FALSO. La demora puede dar derecho a una indemnización por el perjuicio probado; una vez transcurridos los plazos previstos, la mercancía no entregada también puede considerarse perdida."
+    },
+    {
+      "number": 16100,
+      "text": "FALSO. La demora comienza cuando no se cumple el plazo acordado, sin esperar otros 40 días."
+    },
+    {
+      "number": 16101,
+      "text": "FALSO. La demora se refiere al momento de la entrega: ocurre si se supera el plazo acordado o, en su ausencia, el tiempo razonable."
+    },
+    {
+      "number": 16102,
+      "text": "FALSO. No es necesario esperar 70 días: si no se acordó un plazo, la demora depende de que se supere el tiempo razonable para un transportista diligente."
+    },
+    {
+      "number": 16103,
+      "text": "VERO. El transportista responde por la pérdida total o parcial y por la avería entre la recepción y la entrega de la mercancía, así como por la demora, salvo las causas de exoneración previstas."
+    },
+    {
+      "number": 16104,
+      "text": "VERO. El transportista queda exonerado si prueba que la pérdida, la avería o la demora se deben a un vicio propio de la mercancía."
+    },
+    {
+      "number": 16105,
+      "text": "FALSO. La responsabilidad del transportista no se refiere solo a la pérdida: también comprende la avería y la demora en la entrega, salvo las exoneraciones previstas."
+    },
+    {
+      "number": 16106,
+      "text": "El transportista no responde solo por la demora: también responde por la pérdida total o parcial y la avería de la mercancía entre su recepción y su entrega, salvo las causas de exoneración previstas."
+    },
+    {
+      "number": 16107,
+      "text": "La avería del vehículo no exonera por sí sola al transportista de la responsabilidad por la demora."
+    }
+  ],
+  "output_sha256": "c000e679ffd3bfb2c39dba03d69c37dd8c10a3a936c102da6822629175b90337"
+}

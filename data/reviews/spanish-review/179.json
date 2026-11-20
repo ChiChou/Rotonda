@@ -1,0 +1,49 @@
+{
+  "batch": "179",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "938382ccefe12896dd910224eee9d4ebcdc13d20cbf0e171f65c3cef92319a60",
+  "source_sha256": "57ca3bd369131e8f0a9e0042861d18a54c358391c62915d7f592dd50ecdfe537",
+  "corrections": [
+    {
+      "id": "ed03d81bfcebc9f1c7c40df49e7ecf50e2fba29ec71669cef55862c680f7ee08",
+      "before": "08##tipología8 CQC",
+      "after": "08##tipologia8 CQC",
+      "reason": "Keep Italian code spelling 'tipologia'"
+    },
+    {
+      "id": "ed0b2b2f09cb55458b04eb46dc61a67c927155097fa85f0ec3bcda8222837535",
+      "before": "Los autobuses escolares pueden llevar el distintivo AUTOBÚS ESCOLAR",
+      "after": "Los autobuses escolares pueden llevar el distintivo SCUOLABUS",
+      "reason": "Conserva la inscripción literal del distintivo."
+    },
+    {
+      "id": "ed406ef48ed6e2642be5c38def0dd1fe2b25945800c99f70607b973537e589d2",
+      "before": "Detención, estacionamiento, definiciones viales",
+      "after": "Parada, estacionamiento, definiciones viales",
+      "reason": "Fermata indica la parada temporal."
+    },
+    {
+      "id": "edd4f698333d0441949ab498e0b5787887077d2e34f64df3b0bf6ef796d3c197",
+      "before": "El cargador es responsable de infracciones del código de tránsito cometidas por el conductor que se deban exclusivamente a instrucciones de transporte incompatibles con los límites de velocidad y los tiempos de conducción y descanso",
+      "after": "El cargador es responsable de infracciones del código de tránsito cometidas por el conductor que se deban exclusivamente a instrucciones de transporte dadas a ese conductor e incompatibles con los límites de velocidad y los tiempos de conducción y descanso",
+      "reason": "Restituye que las instrucciones se facilitaron al propio conductor."
+    },
+    {
+      "id": "ede00b7f4df39060ad64ee063a705bbf990783dbe658799e887f5211d5e2102e",
+      "before": "Por circulación se entiende el movimiento, la detención y el estacionamiento únicamente de los vehículos de motor en la vía",
+      "after": "Por circulación se entiende el movimiento, la parada y el estacionamiento únicamente de los vehículos de motor en la vía",
+      "reason": "Fermata indica la parada temporal."
+    }
+  ],
+  "reviewed_file_sha256": "e2a2657facf212683611883f3b28c28742c30d893bbc9462442e229ecdfdcbdb"
+}

@@ -1,0 +1,37 @@
+{
+  "batch": "059",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "b48cc6c9fc35dac6dcb1e840dd127e783f09d5d19db463e606f34b14d5d66b04",
+  "source_sha256": "7a12a0437981e8a37b9727bc69ed217d0fe964bcade8c4cc70244fa1831d417e",
+  "corrections": [
+    {
+      "id": "4e85a2d58bdcb7a7dec47fc74d596a97fd3e74b7e850bf2b8307cda1067f879b",
+      "before": "El estacionamiento de intercambio está destinado exclusivamente a bicicletas de usuarios del transporte colectivo de línea",
+      "after": "El estacionamiento de intercambio está destinado exclusivamente a velocípedos de usuarios del transporte colectivo de línea",
+      "reason": "Velocipedi abarca más vehículos que solo bicicletas."
+    },
+    {
+      "id": "4e87afe12026ed02baec3f4e41c0de5710c002a9a340bcf3b7e22273486c7d4c",
+      "before": "Las paradas de transporte público en lados opuestos de carreteras de una sola calzada y doble sentido deben estar separadas al menos 30 m",
+      "after": "Las paradas de transporte público en lados opuestos de carreteras fuera de poblado de una sola calzada y doble sentido deben estar separadas al menos 30 m",
+      "reason": "Se recupera la condición de carreteras fuera de poblado."
+    },
+    {
+      "id": "4f28aef6441dcf6e5989ee295f3154433350f0617cc5ca102745a51943310ea7",
+      "before": "En los motores de combustión interna, solo alrededor del 30 % de la energía producida se transforma en energía mecánica",
+      "after": "En los motores de combustión interna, solo alrededor del 30 % de la energía producida por la combustión se transforma en energía mecánica",
+      "reason": "Se recupera que la energía procede de la combustión."
+    }
+  ],
+  "reviewed_file_sha256": "68e9e7d0fc7881e927d9b6df70eac096efc5e28a7ac8cacff561e2d8f6c60a8f"
+}

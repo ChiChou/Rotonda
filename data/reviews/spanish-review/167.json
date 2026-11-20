@@ -1,0 +1,43 @@
+{
+  "batch": "167",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ceef213889bfe2b59705b0a50fac682f66b3088e24fcb06def70329509f3708b",
+  "source_sha256": "a9fef31ffb092fb6c8917e9f44ca3f32a64ed428c07cd9a70f61f9118697339c",
+  "corrections": [
+    {
+      "id": "dcefe1fa63facb6f8a9eeb2de4f231ba5563485df8aed2542fe202d6990a18ea",
+      "before": "El DUA se utiliza para mercancías comunitarias destinadas a terceros países",
+      "after": "El DAU se utiliza para mercancías comunitarias destinadas a terceros países",
+      "reason": "Keep the Italian code DAU instead of DUA"
+    },
+    {
+      "id": "dd2b715ec33be915ca65a7b00bcb1d841275ae5733fd8cdb4b8b961fce02fc40",
+      "before": "En un motor diésel, la bomba de inyección envía combustible a presión a los inyectores en la cantidad solicitada por el pedal del acelerador",
+      "after": "En un motor diésel, la bomba de inyección envía diésel a presión a los inyectores en la cantidad solicitada por el pedal del acelerador",
+      "reason": "Gasolio especifica el combustible diésel."
+    },
+    {
+      "id": "dd5e83d3be28637a7cb2a8c681dab185eb1cc3b5c05e9a94a994d4ecb1755212",
+      "before": "La bahía de parada es una parte de la vía destinada a la detención de vehículos",
+      "after": "La bahía de parada es una parte de la vía destinada a la parada de vehículos",
+      "reason": "Fermata indica parada temporal."
+    },
+    {
+      "id": "dd71d0e7637e5288c45f9e65f1bc791521d268256d125001f790a5b2c51d4994",
+      "before": "La señal mostrada permite detener vehículos sobre las franjas siempre que quede espacio suficiente para los peatones",
+      "after": "La señal mostrada permite la parada de vehículos sobre las franjas siempre que quede espacio suficiente para los peatones",
+      "reason": "Fermata indica parada temporal."
+    }
+  ],
+  "reviewed_file_sha256": "9415f46075c9789f82c20e3cdb985fa0481f98df0f1221a8bfb67c8a5af4c16f"
+}

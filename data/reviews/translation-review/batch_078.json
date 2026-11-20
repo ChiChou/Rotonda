@@ -1,0 +1,270 @@
+{
+  "batch": "078",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "824616670ae8ce293442241462d856b7621b81977c1db5bd854ee28c920ecb85",
+  "rows": 100,
+  "verified_ids": [
+    "68c31ada0af7bec2c3c0173cce93dc8c201e908f9f39af38574c87124ad533fe",
+    "454f275da8e6560e9894eb97d63260ae554a3e5c656a2f2f896fe6da4f42978d",
+    "c387b396f3b4055af3dfd45c566b49d2421cf5cc12dd2cd8e2643873aa09786d",
+    "126039027816a74ff6e9e0546cbf2367493a4503eb3eca3098be93573feaaa78",
+    "5e8daa8fef651bdd8b2099e6e33ab210bb96a4d5aa4cf2d1024451c3a1e732a0",
+    "7ea2f3df2f36957356d717377aa741d5505e8ba188511109f6195aec00ae8cf7",
+    "6a6519efe0e2618b3e1895aea698ed82f4c3d7d0f5fa9c58d98dad97b82a2abe",
+    "412e5ab02011460ff42eb3ba8a8d7726ac0eb8a3e9b2f3dbf658b0226d02b6d0",
+    "e9e6f19f45214b9f7a31ab9b20dc00d152c9cfeeef8d9f03804271060ba38758",
+    "d80db9434053a24a12c5a3f88bac850c9fd2af285dd1aa4d73dd9dea975c3540",
+    "994eb0ea36492201fb683602503952879831749bbc5b6b209b01c61236812303",
+    "2c929865bd6c17b6edb0ffd54640101f5f9594974ac6b0e5382bc7efe5b03ad2",
+    "2fc229b99fe61056ead23146ddedf397fc95c0f3805e973b211c8da81a1f8e60",
+    "498253606a445aefaaf006ebff408cf8f879ef81a91f3951a555ae02dc046fbb",
+    "537725fb162a0460eed3c4e71a663299efc2fb0384ce656a5faf4f2c7b3947ae",
+    "399c5da1e5d7604c9491711fa682c50b73928911ed867ae73646539b7014852b",
+    "a9d56fb8403e492960862df5caf873eb6180c9848990c7c0a0e27135fbe188f8",
+    "77494c4040c5d6b35426625207914b515402d4ddc46dcf0aec12ec8551d29d4f",
+    "2c2f210599c39bd7e65062506903947437829ffd68d4cbe3a2212baa3fa62ba0",
+    "21886fd00b46cdcfdd8ffed3b32c245a60819dc5f0daf5c0dc7372ff6a65af29",
+    "7b55ad71e6f8af9f7655f508d7d47c911ce6ae61853951712f32ad3df21ffda8",
+    "9cee937eabcce0229613075e89b1183ffb485406ad893daf2fc37aec59c80232",
+    "9be0c3ba1345b138ae3f92cfb01472f13b7a4c0f0e512ef7c05dd7e78802d375",
+    "dbabafad3aa0b1b68ee7910753a65154af30240677171694bef2d136a3660259",
+    "e6e87eae3c93d1a8fa3a0b2c700e3706b346ecb585abb58044f9e0619e472f83",
+    "3207d02eb62084578f20691e382f38024801894bb70a04f952e19c53519f9346",
+    "6ad943c931785961e0aa62a9e5842f51869e70e2c341facb5c1d2ef3323f2641",
+    "528baad63a6b7df1021c3379e62f4cdf5f895035318848f58f38322343733534",
+    "2221cedf963205879379db85043c85c8dbbaac7541c2f8f4e5b6791e95014669",
+    "4b2be5312b20c29077fab49cfeb0071c0e7cf67a5994d8a144fbdd0c5a50a02d",
+    "9cc9ff690cfa46b8f1797aa8b15dbc5863ff8c2a19f699aa675d790e3a121887",
+    "cd5f723882c573cb5cbf2f98d19ffa90a936c6590ddf186d40fdc03d8ec9bc3d",
+    "f3a3e2e5b7194c478fd6d26dc8be0d343418144bdceff6a838242e71c4b686e9",
+    "e8fd1b2383a5941e7ff7f2a066e2eca3700871ac4e958fafb9d3303fcd84077d",
+    "609419a83e4506b079fcdb096681b798a4ed01f924e75e521e1877f741088a0c",
+    "29a51503e9b177df998b0d3a0743b2f339fa26b8b58558ffceb09312612fa678",
+    "1cf560005202b624c1edbb4f96276a8d7466cfee49f22b525f1c595cd6dba6d7",
+    "6691d7292fba98ba9af884d13107402488c12371fe1a8a60f250fa6c8e511919",
+    "6540b707ce6bfeea01e32fbddc38c31773298ec45bc54c80c01a48fc2f73c3a9",
+    "3a9f28826f76cb90b8d241de4aed98bfe7640e685bc7a4ed88ceb52614775f20",
+    "b3c1e1d43955038c7982214591f05c695d964b794100d8b98db746f4d3bfbf5f",
+    "2c7bb2dfaa8a2fa4e637bd6ec7aa5863b596a221974cabc8a6d67d7995a8389a",
+    "01b254e88e915ba6417561bf895b65d6172af89e17d7c9facae63a2a3a39cfbc",
+    "e7d822b2236d2b0ef9a2b303b179f864710d27e9fa188f5181098131d4537acd",
+    "0a8873aaf9f711eb389e2a345083c8dbd5097627770b80dde5a9c6c59a20e308",
+    "8c550aa659b444f4a764baef659e442763ab9f7d3da75e511aeea1fa3f2f43b6",
+    "f0895ece037610f577f7030327c26061c4d946d11f6b959139891840217805d7",
+    "06f8ffc92c79b5ba5b802c1174b5d1bf84a26b8f3a6a99272aee55fcb4ca44df",
+    "ced6caa575cfb13793ffcac5936c25fb8545fcd749c90135ebb35c7f4f878cd9",
+    "cd90e40a7655ac5b6918810a311993aa0f62ef8c1520aa50785ab377058523b9",
+    "5b64b32f6be95a367116ce4624cd4856f80a233df7ae2fdd6b2acada73ea6378",
+    "e60cb3bb36e1fc0578849d3ccaaaee73c4bd46e1f34c377344925c63850050f9",
+    "64d8386da2179bd015e22e44913985812d7ed1a797f0b082026b156f9304c7b1",
+    "93fd88d36154cf28da6118fc62058e3c9c0ae361b6ab73fc17e7ab59de427eef",
+    "7874e8034791e8c789ada50e5b91e767704fc396695bc69312864e809e32a22e",
+    "c3b90e68c340add105dab05e28101b8019fb0b543fb45709cce50aca94493abe",
+    "699e37235b9d0aae0b58f72862cf09ad4e75a19e3c0bc6ada4c54093c0a73111",
+    "decfb383e08970d991f70e53a15f8f13e0a6002f2839793a49823e1aadcf6d64",
+    "2356571ac73a3ee38e0a28396269f941cef4ccba377e0ed97c6917d9d287737a",
+    "aacc999c809cff43fe92240030216945075e94b41eed7a8d0a9b406e93a471c5",
+    "8b37ed84383ab098f3ce8ddad312457670a3aab637534467fdc94787fd763509",
+    "bd095a5fdd487ecadf96e2b38b45378fe57db52d2a2138ee4814a02d16580582",
+    "88a83b8447982ec9d55dbe1ef80c627f770884d81a5b6eccb322ceb330bf2a0d",
+    "4d343e0812e5088efa0e2e02b5aa2faf03316b9d71955e18bf62ab5a779d601d",
+    "7655e940788d888bc4b2e36e2bcb1faad38ee72b52c49dac3af6da315c863813",
+    "1aed4c3501746b37b0f826a2564ac0d7ca2d272f699f87eac579f66debba3c92",
+    "0f5fbf54068134504bbaf6ac9802baee15ecc514a812f81dfb8bbcd4e4e6184e",
+    "d695a23903f54f9f28a9e999523bec5058f9e1911df8e3f2b7d5b0d83b7ede33",
+    "f034a658c83e3de4edcd1d1be6a9cb6998298ada8dc6f96c085046c89747695d",
+    "ae82ce535b61d97d4582c19bd051f4031aacf1cb60abdd7460d2c0d7e30474e4",
+    "473e4f77d13e9b5a206bb5699f20cd2ea1e14dc5f7c197cd5eb052be0b73780f",
+    "72ecb5c1cc3ea594cd19b33947bbd7327fc6d9b5396eb39c5d9e185b8572371f",
+    "e2b2df01ffff268f504b08e848799ac200f64b4acf0f2e52ab029268111801c6",
+    "e6d5ed1943e8716d357d1b2163005a26a160cb7f4a7b4ed25b15ad8a3bce4fb7",
+    "25330ddac5d6d937a204a3d8d031668db0185482b134ff4efeceed493e8c7a56",
+    "21c48651b62b26fb22af77e16e0b071c160ae726c3db08544553774fe194b6db",
+    "0d7b0f9a0b4329c1b096050a25ef2439d015cc2a68ba9ce61ff004de946967df",
+    "646cf352389e476cdff2099520728f109858e76412eafd72377418b5886f4164",
+    "6be2c9d1d56c5e00bf5337bc26c0d898db01b84b5f767228f67bf47e4e0d974b",
+    "0eb9bbc186793c159beb2fba150a48fe08cbb041a751f46a7c94ad2162cd499d",
+    "fe2ff120a9982c03abfa25db54e1c92afabd4f2dc8217bd07c0c23df1f2b9547",
+    "c5698550a28c392e12eeaa10a87fda7d2a205992ecce1d164140ee04c62e94cb",
+    "022142462fe07c76cbd67e310bbc0b41c5c014bbef87c4f4827bb7991b28a141",
+    "7886dfe7a654387a3f1108220a9b1d63b0e05ad2e3b81be5dd63ea8a6c509a26",
+    "5a111ec1d309476000a35f3a78b33d5bbe2e85ce65b3f9fc763dd296c99c44cb",
+    "4548fc8abf39fc12617ab1ac419cf96d16e89ac431c91bb84a86d8531b592c5f",
+    "5052dcab4afa2a7864fbe0ca07767ce65a2b8bf779a7502f90cf5201642d9fb6",
+    "605e4ac32c26da63014add8683c03ae7390b57b001789f14bc3a0197d4a98e35",
+    "a6c05f5867ca05ffe1f22a55eec08238502bb8be0d75d5e220d5dc5ffea96097",
+    "7250ee32c3026e79d066e60e35848b8eefc981291204dff7333457414e2618a8",
+    "0ac114b8a1ce1521286371d9da033ab9b08037b250f48ca5c1b7da5b063683b7",
+    "a107b06cd2ce7d78a992c5fe6d8572c8def13e9d12e51ca761c5280ca5c5b9a5",
+    "3f69b8d93e0563bb1fac2c34e92cde2ef9e37bd6968e8514ba5c6191b9225770",
+    "ea4e90f95d130e705ca0849405332a70b2b9be56b0b5c640f7d7365a05f234ff",
+    "a8f8cceb570d4afd2bed547ef20727b01d8299fe9546ba30f4f7062106aed76a",
+    "c7f25d3bd5959bf7dfbf2c4ec3e56bd42bd777f1f641faf183393bcdb579b202",
+    "c083a3d3755dbecdcb5dc41421ba5b304e6a85515555bc1cc6ff73ea6da6c7dd",
+    "d823eaa30ae5b92173a1a6e7d863e66a4d7581645b7e5002c18058a386ff62d0",
+    "9bf1a05716ca660cbf7654b35813f744f852224dcfc471e5473c0c5ed6fb3b2f",
+    "3e0e40f2337e0f9c2b5bcf83b05565fbdd3453b4c67b909d6103fc56433e4a34"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "f3a3e2e5b7194c478fd6d26dc8be0d343418144bdceff6a838242e71c4b686e9",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Generally, driving abroad requires a national distinguishing sign, except on vehicles registered with plates already showing the state and EU indication.",
+          "after": "Generally, driving abroad requires a national distinguishing sign, except on vehicles registered with plates already showing the state and European Community indication."
+        },
+        "zh": {
+          "before": "一般而言，在国外驾车需要国家识别标志，但已使用标有国家和欧盟标识牌照的车辆除外。",
+          "after": "一般而言，在国外驾车需要国家识别标志，但已使用标有国家和欧洲共同体标识牌照的车辆除外。"
+        }
+      }
+    },
+    {
+      "id": "2c7bb2dfaa8a2fa4e637bd6ec7aa5863b596a221974cabc8a6d67d7995a8389a",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The Community licence is the authorisation required for transport outside the EU.",
+          "after": "The Community licence is the authorisation required for transport outside Europe."
+        },
+        "zh": {
+          "before": "共同体许可证是在欧盟境外开展运输所需的许可凭证。",
+          "after": "共同体许可证是在欧洲以外开展运输所需的许可凭证。"
+        }
+      }
+    },
+    {
+      "id": "e7d822b2236d2b0ef9a2b303b179f864710d27e9fa188f5181098131d4537acd",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "To circulate within the EU, a vehicle carrying goods for hire or reward must carry a certified true copy of the Community licence.",
+          "after": "To circulate within the EU, a vehicle carrying out transport for hire or reward must carry a certified true copy of the Community licence."
+        },
+        "zh": {
+          "before": "在欧盟境内行驶时，受雇或收取报酬运输货物的车辆必须随车携带共同体许可证的核证副本。",
+          "after": "在欧盟境内行驶时，受雇或收取报酬进行运输的车辆必须随车携带共同体许可证的核证副本。"
+        }
+      }
+    },
+    {
+      "id": "0a8873aaf9f711eb389e2a345083c8dbd5097627770b80dde5a9c6c59a20e308",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "To circulate within the EU, a vehicle carrying goods for hire or reward must carry a simple photocopy of the Community licence.",
+          "after": "To circulate within the EU, a vehicle carrying out transport for hire or reward must carry a simple photocopy of the Community licence."
+        },
+        "zh": {
+          "before": "在欧盟境内行驶时，受雇或收取报酬运输货物的车辆必须随车携带共同体许可证的普通复印件。",
+          "after": "在欧盟境内行驶时，受雇或收取报酬进行运输的车辆必须随车携带共同体许可证的普通复印件。"
+        }
+      }
+    },
+    {
+      "id": "8c550aa659b444f4a764baef659e442763ab9f7d3da75e511aeea1fa3f2f43b6",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "To circulate within the EU, a vehicle carrying goods for hire or reward must carry an ECMT authorisation.",
+          "after": "To circulate within the EU, a vehicle carrying out transport for hire or reward must carry an ECMT authorisation."
+        },
+        "zh": {
+          "before": "在欧盟境内行驶时，受雇或收取报酬运输货物的车辆必须随车携带ECMT许可证。",
+          "after": "在欧盟境内行驶时，受雇或收取报酬进行运输的车辆必须随车携带ECMT许可证。"
+        }
+      }
+    },
+    {
+      "id": "f0895ece037610f577f7030327c26061c4d946d11f6b959139891840217805d7",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "To circulate within the EU, a vehicle carrying goods for hire or reward must carry a certificate stating the vehicle's emissions class (EURO 1, 2, 3, etc.).",
+          "after": "To circulate within the EU, a vehicle carrying out transport for hire or reward must carry a certificate stating the vehicle's emissions class (EURO 1, 2, 3, etc.)."
+        },
+        "zh": {
+          "before": "在欧盟境内行驶时，受雇或收取报酬运输货物的车辆必须随车携带证明车辆排放等级（欧1、欧2、欧3等）的证书。",
+          "after": "在欧盟境内行驶时，受雇或收取报酬进行运输的车辆必须随车携带证明车辆排放等级（欧1、欧2、欧3等）的证书。"
+        }
+      }
+    },
+    {
+      "id": "06f8ffc92c79b5ba5b802c1174b5d1bf84a26b8f3a6a99272aee55fcb4ca44df",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "To circulate within the EU, a vehicle carrying goods for hire or reward must carry the original Community licence.",
+          "after": "To circulate within the EU, a vehicle carrying out transport for hire or reward must carry the original Community licence."
+        },
+        "zh": {
+          "before": "在欧盟境内行驶时，受雇或收取报酬运输货物的车辆必须随车携带共同体许可证原件。",
+          "after": "在欧盟境内行驶时，受雇或收取报酬进行运输的车辆必须随车携带共同体许可证原件。"
+        }
+      }
+    },
+    {
+      "id": "f034a658c83e3de4edcd1d1be6a9cb6998298ada8dc6f96c085046c89747695d",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "在欧盟境内开展受雇或收取报酬的国际公路货运，每辆车及其可能牵引的挂车只需随车携带共同体许可证的核证副本即可。",
+          "after": "在欧盟境内开展受雇或收取报酬的国际公路货运，每辆车（包括其可能牵引的挂车）只需随车携带一份共同体许可证的核证副本即可。"
+        }
+      }
+    },
+    {
+      "id": "473e4f77d13e9b5a206bb5699f20cd2ea1e14dc5f7c197cd5eb052be0b73780f",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "International road haulage for hire or reward requires only that the two states have signed a bilateral agreement.",
+          "after": "International road haulage for hire or reward requires the two countries to have signed a bilateral agreement."
+        },
+        "zh": {
+          "before": "开展受雇或收取报酬的国际公路货运，唯一要求是两国已签订双边协议。",
+          "after": "开展受雇或收取报酬的国际公路货运需要两国已签订双边协议。"
+        }
+      }
+    },
+    {
+      "id": "72ecb5c1cc3ea594cd19b33947bbd7327fc6d9b5396eb39c5d9e185b8572371f",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The European Conference of Ministers of Transport (ECMT) includes EU and non-EU states that have joined it.",
+          "after": "The European Conference of Ministers of Transport (ECMT) includes European Community and non-Community states that have joined it."
+        },
+        "zh": {
+          "before": "欧洲交通部长会议（ECMT）包括已加入的欧盟及非欧盟国家。",
+          "after": "欧洲交通部长会议（ECMT）包括已加入的欧洲共同体成员国及非成员国。"
+        }
+      }
+    },
+    {
+      "id": "25330ddac5d6d937a204a3d8d031668db0185482b134ff4efeceed493e8c7a56",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Only the states that originally founded the EU belong to the European Conference of Ministers of Transport (ECMT).",
+          "after": "Only the states that originally founded the European Community belong to the European Conference of Ministers of Transport (ECMT)."
+        },
+        "zh": {
+          "before": "只有最初创建欧盟的国家属于欧洲交通部长会议（ECMT）。",
+          "after": "只有最初创建欧洲共同体的国家属于欧洲交通部长会议（ECMT）。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "165781887a6fe2ac1e0bdaa42c87bf3377b991d7849e3a62544c3e177adcd0f6"
+}

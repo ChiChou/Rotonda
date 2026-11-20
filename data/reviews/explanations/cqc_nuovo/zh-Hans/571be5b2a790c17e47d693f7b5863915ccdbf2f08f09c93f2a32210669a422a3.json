@@ -1,0 +1,674 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31424,
+          "quesito_id": 7023,
+          "text_it": "Un veicolo si dice sottosterzante quando l'angolo di deriva dei pneumatici dell'asse anteriore è superiore a quello dell'asse posteriore",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7609a750ab26411c070c9f5c0ece30e38dca4afa23477ebcddda671b1fe21227",
+        "localized_text": "前轴轮胎侧偏角大于后轴轮胎侧偏角时，车辆处于转向不足。"
+      },
+      {
+        "source": {
+          "number": 31425,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva è causato da forze trasversali che agiscono sui pneumatici",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c834e3dc1a8030ea88227baf7f114454b56e8e808afb3e7ef35ca91fd2c7ef37",
+        "localized_text": "侧偏角由作用于轮胎的横向力引起。"
+      },
+      {
+        "source": {
+          "number": 31426,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva non dipende dal carico che grava sui singoli assi",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3a3fd0401b57135441810ef99e9bd7b9080019620a6490a4befd056c05f97625",
+        "localized_text": "侧偏角与各车轴承受的载荷无关。"
+      },
+      {
+        "source": {
+          "number": 31427,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva dei pneumatici è maggiore nei veicoli muniti di servosterzo",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "37bff79cd988c200971f39fde91a326d2f97ebe3e45732598894faabdd464130",
+        "localized_text": "配有动力转向的车辆轮胎侧偏角更大。"
+      },
+      {
+        "source": {
+          "number": 31428,
+          "quesito_id": 7024,
+          "text_it": "Nel sovrasterzo il veicolo tende a chiudere la traiettoria in curva per l'effetto della maggiore deriva delle ruote posteriori",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cbf16cd59dbe77333d9383e4217c54ba1c1723ebc1ed8f964302a4af2514a556",
+        "localized_text": "过度转向时，由于后轮侧偏较大，车辆趋向缩小转弯轨迹。"
+      },
+      {
+        "source": {
+          "number": 31429,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva è l'angolo che si crea tra la traiettoria ideale e quella reale del pneumatico",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "68c79b55b6a4be1428854cf572285c94ef8d2d24d7709b4ac434d5a84de60d62",
+        "localized_text": "侧偏角是轮胎理想轨迹与实际轨迹之间的夹角。"
+      },
+      {
+        "source": {
+          "number": 31430,
+          "quesito_id": 7024,
+          "text_it": "Il comportamento sottosterzante del veicolo non è influenzato dalla pressione di gonfiaggio dei pneumatici",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8979f9e3a8c5e00cde28ff17c7a54bbad147f9e1e1ff157f34ac9816be378672",
+        "localized_text": "车辆转向不足不受轮胎充气压力影响。"
+      },
+      {
+        "source": {
+          "number": 31431,
+          "quesito_id": 7024,
+          "text_it": "La deriva dei pneumatici dipende dal carico del veicolo",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3187eb7aa25ed00f60836d257793fc8fb78c603942d03000d072981a373d3bfd",
+        "localized_text": "轮胎侧偏取决于车辆载荷。"
+      },
+      {
+        "source": {
+          "number": 31432,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva è legato alla deformazione della carcassa del pneumatico",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4d7e3edad30835291309b4c9daa687dfdba3771c2a6d646870a5c6dc95f8bf25",
+        "localized_text": "侧偏角与轮胎胎体变形有关。"
+      },
+      {
+        "source": {
+          "number": 31433,
+          "quesito_id": 7024,
+          "text_it": "La deriva dei pneumatici è influenzata dall'angolo di campanatura delle ruote che può favorire il cedimento dei fianchi",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "82c6f57538f4378eb6bfff96494bdf64e3df52f2d95abc4bf8ce55e128e3dc84",
+        "localized_text": "轮胎侧偏受车轮外倾角影响，外倾角可能促使胎侧变形。"
+      },
+      {
+        "source": {
+          "number": 31434,
+          "quesito_id": 7024,
+          "text_it": "Nel sovrasterzo il veicolo non è in grado di girare a sufficienza",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f906953c232d6aa81ba2cd5b08ade97513467cb973128e2092fc8dff35d0370a",
+        "localized_text": "过度转向时，车辆无法充分转向。"
+      },
+      {
+        "source": {
+          "number": 31435,
+          "quesito_id": 7024,
+          "text_it": "Nel sovrasterzo il veicolo tende a fare perno sulle ruote anteriori e ad andare in testacoda",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f2fc25b1594244281b6dd781ca4e9b419daf38aac4375f7a22321b6579879566",
+        "localized_text": "过度转向时，车辆趋向以前轮为支点旋转并甩尾。"
+      },
+      {
+        "source": {
+          "number": 31436,
+          "quesito_id": 7024,
+          "text_it": "La deriva dei pneumatici è lo scostamento della traiettoria del pneumatico, rispetto a quella impostata del conducente",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d00f8f372e500c7b581d7f518eeaf856e236e8ace6290e74c4d8aca010da81cb",
+        "localized_text": "轮胎侧偏是轮胎轨迹偏离驾驶人设定轨迹的现象。"
+      },
+      {
+        "source": {
+          "number": 31437,
+          "quesito_id": 7024,
+          "text_it": "Per correggere il sovrasterzo può essere opportuno sterzare in senso opposto a quello della curva",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2be5b4c26e44ab31ea210ed4e81799ac5ba2d59ddbe78a4d9419eac092b7ea2b",
+        "localized_text": "纠正过度转向时，可能宜向弯道相反方向转向。"
+      },
+      {
+        "source": {
+          "number": 31438,
+          "quesito_id": 7024,
+          "text_it": "Per correggere il sovrasterzo può essere richiesta una momentanea sterzata verso l'esterno della curva",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7c7b051761b243e336c4a747a013f01f41b7297260ada3934807c2d898c9f205",
+        "localized_text": "纠正过度转向可能需要短暂向弯道外侧转向。"
+      },
+      {
+        "source": {
+          "number": 31439,
+          "quesito_id": 7024,
+          "text_it": "Per correggere il sovrasterzo di può essere opportuno accelerare senza agire sul volante",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6457335c0be65b40b3e8b26e085eff2f73cb96e57ae63ffcc815a8f121cf158c",
+        "localized_text": "纠正过度转向时，可能宜不转动方向盘而加速。"
+      },
+      {
+        "source": {
+          "number": 31440,
+          "quesito_id": 7024,
+          "text_it": "In caso di comportamento sovrasterzante del veicolo bisogna frenare a fondo",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cb26d97e798c91db289af86a96d64a57892b5e07ab2970b130e24cdf41730104",
+        "localized_text": "车辆过度转向时必须全力制动。"
+      },
+      {
+        "source": {
+          "number": 31441,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sovrasterzo di un veicolo a trazione posteriore si dovrà rilasciare l'acceleratore e agevolare la ripresa di direzionalità del veicolo",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "397d51133319e12779de648a60349232cd9e4dbbba2b461d4c6198c54a5702f9",
+        "localized_text": "纠正后轮驱动车辆的过度转向时，应松开油门并帮助车辆恢复方向控制。"
+      },
+      {
+        "source": {
+          "number": 31442,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sovrasterzo è necessario un momentaneo e rapido intervento del volante verso l'interno della curva",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c72b7c82b2103f5f2d489971324a9da4940ebdbb4781342586f156fcbc9a8992",
+        "localized_text": "纠正过度转向需要短暂迅速地向弯道内侧转动方向盘。"
+      },
+      {
+        "source": {
+          "number": 31443,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sovrasterzo occorre applicare correttamente il controsterzo",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "75435e693bd56a43f94bc09de109db2a81ace48104203004fa405eff8c810087",
+        "localized_text": "纠正过度转向必须正确反打方向。"
+      },
+      {
+        "source": {
+          "number": 31444,
+          "quesito_id": 7025,
+          "text_it": "Quando il veicolo ha un comportamento sottosterzante tende a curvare più di quanto richiesto dal conducente",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ff4c7a5b110eb68c7d07a78bcc8379a2cf787f60fdb1c18e91bd56c362dfdfd1",
+        "localized_text": "车辆转向不足时，趋向于比驾驶人要求转得更多。"
+      },
+      {
+        "source": {
+          "number": 31445,
+          "quesito_id": 7025,
+          "text_it": "Quando il veicolo ha un comportamento sottosterzante tende a curvare meno di quanto voluto dal conducente",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4be883d419e92c046fe4904f115241fffe09a6962342aa1c640c6f8536ebb876",
+        "localized_text": "车辆转向不足时，趋向于比驾驶人期望转得更少。"
+      },
+      {
+        "source": {
+          "number": 31446,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sottosterzo occorre un momentaneo intervento sul volante verso l'interno della curva",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "07ec008bebfd6cec0e5453c3f02e853ab02a99e65e56f93df118cd616bd275ab",
+        "localized_text": "纠正转向不足需要短暂向弯道内侧转动方向盘。"
+      },
+      {
+        "source": {
+          "number": 31447,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sottosterzo occorre intervenire sullo sterzo e sull'acceleratore per ridare la corretta direzionalità al veicolo",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9d6116069ceb8bbb468c68542d96aeb21da55c6ee7afa48c2df0b1970537badf",
+        "localized_text": "纠正转向不足需要操作方向盘和油门，使车辆恢复正确方向控制。"
+      },
+      {
+        "source": {
+          "number": 31448,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sottosterzo occorre frenare a fondo",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "55c1745639f604054af5b2e962800c308c3b0f3d7c705d254ed23abcbbd14659",
+        "localized_text": "纠正转向不足需要全力制动。"
+      }
+    ],
+    "task_sha256": "571be5b2a790c17e47d693f7b5863915ccdbf2f08f09c93f2a32210669a422a3"
+  },
+  "rows": [
+    {
+      "number": 31424,
+      "text": "前轮侧偏更大，使车辆的转弯轨迹比预期更宽。",
+      "evidence": [
+        "https://africa.michelin.com/en/auto/assistance/glossary — understeer: front tire slip angles exceed rear"
+      ]
+    },
+    {
+      "number": 31425,
+      "text": "侧向力使轮胎变形，实际行进方向因此偏离轮胎指向。",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, 2nd ed., §2.8 printed p.87/PDF p.102 and §2.9 printed p.93/PDF p.108 — lateral contact-patch deflection during cornering; lateral force/slip relationship depends on compliance contributed by carcass and tread. Exact directly inspected local PDF /tmp/rotonda-dixon-tyres-handling.pdf SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed.",
+        "Toyota Technical Review vol.67 pp.74–76 https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol67_E.pdf — measured lateral tyre forces under slip and camber; local copy /tmp/rotonda-toyota-ttr67.pdf."
+      ]
+    },
+    {
+      "number": 31426,
+      "text": "车轴载荷影响轮胎的侧向特性，因而也影响侧偏；二者并非无关。",
+      "evidence": [
+        "https://simulation.michelin.com/tametire — tire forces and cornering stiffness depend on vertical load and slip angle"
+      ]
+    },
+    {
+      "number": 31427,
+      "text": "动力转向提供转向助力，并不意味着轮胎侧偏角更大。",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/steering/electric-power-steering-systems/ — steering assistance; https://simulation.michelin.com/tametire — tire forces depend on operating conditions including load and slip angle"
+      ]
+    },
+    {
+      "number": 31428,
+      "text": "后轮侧偏大于前轮时，车辆转向超过预期，轨迹趋向内侧。",
+      "evidence": [
+        "https://middle-east.michelin.com/en/auto/assistance/glossary — oversteer: rear slip greater and turn sharper"
+      ]
+    },
+    {
+      "number": 31429,
+      "text": "它是轮胎指向与实际行进方向之间的夹角。",
+      "evidence": [
+        "https://link.springer.com/article/10.1007/s11249-020-1273-5 — slip angle between tire plane and actual direction of travel"
+      ]
+    },
+    {
+      "number": 31430,
+      "text": "胎压会改变轮胎的侧向刚度，因此可能影响转向不足的倾向。",
+      "evidence": [
+        "https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/tirepressure-fmvss-138.pdf — pp. V-55–56, low pressure reduces cornering stiffness; https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/ESC_FR_03_2007_0.pdf — inflation can change handling balance"
+      ]
+    },
+    {
+      "number": 31431,
+      "text": "载荷会改变轮胎的侧向响应，因此可能改变转弯时的侧偏。",
+      "evidence": [
+        "https://simulation.michelin.com/tametire — tire force and cornering stiffness depend on vertical load"
+      ]
+    },
+    {
+      "number": 31432,
+      "text": "转弯时侧向力使包括胎体在内的轮胎变形，这种柔性会造成侧偏。",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, 2nd ed., §2.8 printed p.87/PDF p.102 and §2.9 printed p.93/PDF p.108 — lateral contact-patch deflection during cornering; lateral force/slip relationship depends on compliance contributed by carcass and tread. Exact directly inspected local PDF /tmp/rotonda-dixon-tyres-handling.pdf SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed.",
+        "Toyota Technical Review vol.67 pp.74–76 https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol67_E.pdf — measured lateral tyre forces under slip and camber; local copy /tmp/rotonda-toyota-ttr67.pdf."
+      ]
+    },
+    {
+      "number": 31433,
+      "text": "题库标为正确。车轮外倾角会改变轮胎接地区域的变形和横向响应，从而影响转弯表现。题目中的“让位”并不必然表示胎侧破裂或结构坍塌，其确切含义未予说明。",
+      "evidence": [
+        "Toyota Technical Review vol.67 pp.74–76, https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol67_E.pdf — measured and analysed lateral forces due to camber and contact deformation; exact local PDF /tmp/rotonda-toyota-ttr67.pdf SHA256 712ef98dfd31d591e9ed041a54d58952c972ef7b9c43116bb6e297e219618f6f. This does not establish sidewall rupture, structural collapse, or intended meaning of cedimento."
+      ]
+    },
+    {
+      "number": 31434,
+      "text": "转向不足使车辆转弯小于预期；转向过度时，车尾则趋向外摆。",
+      "evidence": [
+        "https://middle-east.michelin.com/en/auto/assistance/glossary — oversteer turns more sharply and rear swings outward; https://africa.michelin.com/en/auto/assistance/glossary — understeer"
+      ]
+    },
+    {
+      "number": 31435,
+      "text": "后轮侧偏大于前轮时，车尾趋向外滑；严重时车辆可能甩尾旋转。",
+      "evidence": [
+        "https://thetiredigest.michelin.com/performance-handling — oversteer: greater rear slip and possible spin"
+      ]
+    },
+    {
+      "number": 31436,
+      "text": "轮胎实际行进方向不完全等于其指向：侧向力使轮胎变形，造成这种偏差。",
+      "evidence": [
+        "https://thetiredigest.michelin.com/performance-handling — wheel direction, path and tread deformation"
+      ]
+    },
+    {
+      "number": 31437,
+      "text": "车尾向外滑时，反打方向使车轮指向预期路线，有助于恢复控制。",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4: rear skid, steer toward intended path"
+      ]
+    },
+    {
+      "number": 31438,
+      "text": "暂时向弯道外侧转向就是反打方向：车尾滑动时，它有助于使车轮指向预期路线。",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4: steer toward intended path during rear skid"
+      ]
+    },
+    {
+      "number": 31439,
+      "text": "不修正方向而加速并非恢复控制的通则：应使车轮指向预期路线，并根据情况调整油门。",
+      "evidence": [
+        "https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/Driver-Training-Update-1850-21115.pdf — p. 5, steering and throttle vary with skid conditions"
+      ]
+    },
+    {
+      "number": 31440,
+      "text": "猛踩制动可能加剧后轮失去抓地力，应平稳修正方向。",
+      "evidence": [
+        "https://post.ca.gov/portals/0/post_docs/publications/driver_training.pdf — pp. 91–92, avoid braking in oversteer"
+      ]
+    },
+    {
+      "number": 31441,
+      "text": "加速过猛导致后驱动轮打滑时，松缓油门有助于恢复抓地力和方向控制。",
+      "evidence": [
+        "https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/Driver-Training-Update-1850-21115.pdf — p. 5, ease off throttle for over-acceleration skid and steer toward intended path"
+      ]
+    },
+    {
+      "number": 31442,
+      "text": "转向过度时车尾向外摆，应朝预期路线反打方向，而非继续向弯道内侧转向。",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4, rear skid recovery"
+      ]
+    },
+    {
+      "number": 31443,
+      "text": "车尾滑动时，反打方向使车轮指向预期路线；车辆恢复抓地力时应随之调整。",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4, rear skid and countersteering"
+      ]
+    },
+    {
+      "number": 31444,
+      "text": "转向不足时，车辆的转弯轨迹比驾驶员预期更宽，而不是更窄。",
+      "evidence": [
+        "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100WWVP.TXT — understeer is a larger turning radius than steering angle suggests"
+      ]
+    },
+    {
+      "number": 31445,
+      "text": "转向不足时，车辆轨迹比转向输入所要求的更宽，即转弯小于预期。",
+      "evidence": [
+        "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100WWVP.TXT — understeer means a larger radius than expected"
+      ]
+    },
+    {
+      "number": 31446,
+      "text": "题库标为正确，但没有说明具体情况。稳定转弯时，如果前轮仍有附着力，转向不足可能需要更大的转向角才能沿弯道行驶。如果前轮已经侧滑，则不要继续增加转向；应平稳降低车速并减小转向角，以恢复附着力。",
+      "evidence": [
+        "Chalmers Vehicle Dynamics Compendium §4.3.3 PDF pp.247–249 https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — steady-state understeer gradient describes additional steering relative to reference; exact local copy /tmp/rotonda-chalmers-dynamics-compendium.pdf inspected. This is a possible interpretation, not verified quiz intent.",
+        "California POST Driver Training Instructor Manual printed pp.92,160 https://post.ca.gov/portals/0/post_docs/publications/driver_training.pdf — front-wheel skid understeer and recovery: avoid adding steering, reduce input and speed appropriately. Technical driving guidance; not universal legal instruction."
+      ]
+    },
+    {
+      "number": 31447,
+      "text": "为恢复方向控制，应配合操作方向盘和油门：松缓油门，使车轮指向预期路线，避免过度转向。",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4, front skid: ease throttle and steer toward intended path without excess"
+      ]
+    },
+    {
+      "number": 31448,
+      "text": "猛踩制动并非所需的修正方法，应平稳操作以恢复抓地力和方向控制。",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4, front skid recovery uses smooth inputs"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "571be5b2a790c17e47d693f7b5863915ccdbf2f08f09c93f2a32210669a422a3",
+    "output_sha256": "db174e8424c95f27d02fadbfa6e897f70c37af4c61a312053620c576bd844a11",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31424,
+      31425,
+      31426,
+      31427,
+      31428,
+      31429,
+      31430,
+      31431,
+      31432,
+      31433,
+      31434,
+      31435,
+      31436,
+      31437,
+      31438,
+      31439,
+      31440,
+      31441,
+      31442,
+      31443,
+      31444,
+      31445,
+      31446,
+      31447,
+      31448
+    ],
+    "issues": [],
+    "review_evidence": "Independently reviewed all 25 Italian source/verdict pairs and four language texts; no figures. Dixon exact local PDF SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed printed pp87,93: lateral tyre/contact deflection and carcass/tread compliance; Toyota Technical Review measured camber response and 31433 caveat. Michelin TameTire/glossary, NHTSA tyre-pressure discussion, California POST driver manual and Vermont recovery guidance inspected. 31446 differentiates steady understeer from sliding front tyres; no invented universal steering response.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb8a-2a10-72a1-9f97-44a14379b44d",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "9bd2f2125ab000b451bd4b0c6d5a23106f24ab9e2cbb7c338abae3d8b07bab34",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb8a-2a10-72a1-9f97-44a14379b44d",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31433,
+              "reason": "La fonte tecnica verificata collega campanatura, deformazione dell’impronta e forza laterale, ma non stabilisce che la campanatura favorisca il cedimento dei fianchi come afferma il quesito; occorre chiarire il significato tecnico di cedimento e verificare la proposizione completa.",
+              "checked_sources": [
+                "Toyota Technical Review vol. 67, pp. 74–75, https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol67_E.pdf: la campanatura deforma l’impronta e genera forza laterale, senza stabilire il cedimento dei fianchi."
+              ]
+            },
+            {
+              "number": 31446,
+              "reason": "Il verdetto VERO richiede una sterzata verso l’interno per correggere il sottosterzo senza distinguere il caso di perdita di aderenza; la fonte di addestramento avverte che aggiungere sterzo in tale condizione peggiora lo scivolamento e prescrive di ridurlo. Non è chiaro quale condizione il quesito sottintenda.",
+              "checked_sources": [
+                "California Commission on POST, Driver Training Instructor Manual, p. 92, https://post.ca.gov/portals/0/post_docs/publications/driver_training.pdf: nel sottosterzo con perdita di aderenza evitare ulteriore sterzata e allentare parte dello sterzo.",
+                "Vermont driver education, Unit 10, fact sheet 10.4, https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf: dirigere verso la traiettoria desiderata senza sterzare più del necessario."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "9bd2f2125ab000b451bd4b0c6d5a23106f24ab9e2cbb7c338abae3d8b07bab34",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "571be5b2a790c17e47d693f7b5863915ccdbf2f08f09c93f2a32210669a422a3",
+        "output_sha256": "7794748e341e592fe8c1f2851484d7d5cd48286efa640f7475b85d8b8c8af3f4",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / camber-understeer-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31424,
+          31425,
+          31426,
+          31427,
+          31428,
+          31429,
+          31430,
+          31431,
+          31432,
+          31433,
+          31434,
+          31435,
+          31436,
+          31437,
+          31438,
+          31439,
+          31440,
+          31441,
+          31442,
+          31443,
+          31444,
+          31445,
+          31446,
+          31447,
+          31448
+        ],
+        "issues": [
+          {
+            "number": 31425,
+            "reason": "Sole NHTSA source https://www.nhtsa.gov/staticfiles/safercar/pdf/PneumaticTire_HS-810-561.pdf redirects to an NHTSA page stating file does not exist; provide an accessible directly inspected technical source supporting lateral force and deformation/slip."
+          },
+          {
+            "number": 31432,
+            "reason": "The same sole NHTSA source redirects to a file-not-found page. Replace with a directly inspected source supporting carcass deformation and slip; tire tread deformation alone does not establish the specific carcass claim."
+          }
+        ],
+        "source_access_notes": [
+          "Independently inspected local Toyota TTR PDF pp.76–78 and Chalmers Vehicle Dynamics PDF pp.247–249, Michelin tire and technical model pages, California POST manual pp.92–93, and ADTSEA Fact Sheet 10.4. 31433 avoids unverified structural failure and 31446 distinguishes steady-state steering from front-wheel skid; neither assumes official intended interpretation. Michelin Tire Digest has an internally inconsistent understeer-angle sentence; reviewed understeer definition against separate Michelin glossary and Chalmers, not that sentence."
+        ]
+      }
+    ]
+  }
+}

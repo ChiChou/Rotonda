@@ -1,0 +1,31 @@
+{
+  "batch": "071",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "e39fad30072cda596e2a1b585dd7b0d298eb076a293aea11c0054118bef33890",
+  "source_sha256": "61e1bf690dc0832a35818b8f2db9f6f977d1ea601b0bf54ee5818571ce4697ff",
+  "corrections": [
+    {
+      "id": "5e9b4646b057b365bc73586d80b7e9b6a2654764968c18aef34d14311355987e",
+      "before": "El panel complementario mostrado, colocado debajo de la señal de ESTACIONAMIENTO, indica su horario y la limitación a los días hábiles",
+      "after": "El panel complementario mostrado, colocado debajo de la señal de ESTACIONAMIENTO, indica su horario y la limitación a los días laborables",
+      "reason": "Días no festivos conserva la inclusión de los sábados en los días feriales italianos.; 'feriali' means working weekdays, not non-holiday days"
+    },
+    {
+      "id": "5ee4fc55bf824191014e4b265f81686a616473e99ffc1265e1c8b1f6e88409f4",
+      "before": "Está prohibido estacionar a menos de 15 metros de la señal de parada de autobuses, trolebuses y vehículos sobre rieles, cuando los espacios de parada no están delimitados",
+      "after": "Está prohibido estacionar a menos de 15 metros de la señal de parada de autobuses, trolebuses y vehículos sobre rieles, cuando los espacios de estacionamiento no están delimitados",
+      "reason": "'spazi di stazionamento' are parking spaces, not stop spaces"
+    }
+  ],
+  "reviewed_file_sha256": "2187339b1486e4b429aac2b7a5b8f4fd24d3723b3e16bbc5f086f9a628464c75"
+}

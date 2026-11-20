@@ -1,0 +1,75 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee68-8099-76b0-b1b5-bc45d1dec72d"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "revisione_cqc_persone",
+    "language": "es-419",
+    "records": [
+      {
+        "source": {
+          "number": 17224,
+          "quesito_id": 3493,
+          "text_it": "Possono essere causa di pericolo il mancato rispetto delle regole della strada da parte del pedone o di altri conducenti",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "52759a8523e7b6b776be27fca02ccff70086fff5efe953358b76af2d1df5fcee",
+        "italian": "Una violazione delle regole da parte di un pedone o di un altro conducente può creare un conflitto con gli altri utenti e quindi un pericolo.",
+        "italian_sha256": "11b05bcbc2c14408f0820b2c78fd89534911f26e8efc0847d4004a6302839ebc"
+      },
+      {
+        "source": {
+          "number": 17225,
+          "quesito_id": 3493,
+          "text_it": "Possono essere causa di pericolo la mancanza di conoscenza delle regole da parte del pedone",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "d5fd4d09b78f5777126877eaecfe49e55568637d2c2d1c21d66fd3930179ffca",
+        "italian": "Un pedone che non conosce le regole può comportarsi in modo pericoloso, per esempio attraversando senza verificare il traffico.",
+        "italian_sha256": "f105c5205a81ca97ac6703ec099fada04bc3686376d11615234139bcdee7f1ea"
+      },
+      {
+        "source": {
+          "number": 17229,
+          "quesito_id": 3493,
+          "text_it": "Possono essere causa di pericolo la presenza di segnaletica stradale lungo il tragitto",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "e25d129696f2ad89870e949a1e25332240a79b779e3d3edb0b6fd14fce4d6576",
+        "italian": "È falso che la semplice presenza della segnaletica sia una causa di pericolo: i segnali servono a disciplinare la circolazione e a indicare condizioni della strada. Una segnaletica difettosa può invece creare rischi.",
+        "italian_sha256": "a4530ff062b9549e2a73290e3945ee8e5b11e9ccd3a71a601ac40f531726bca4"
+      }
+    ],
+    "task_sha256": "b0ed67baf10da72943b92e6476e8093b4a4cf390b4ac422911849212f6a24b25"
+  },
+  "rows": [
+    {
+      "number": 17224,
+      "text": "Una infracción de las reglas por parte de un peatón o de otro conductor puede generar un conflicto con los demás usuarios y, por lo tanto, un peligro."
+    },
+    {
+      "number": 17225,
+      "text": "Un peatón que no conoce las reglas puede comportarse de manera peligrosa, por ejemplo, al cruzar sin verificar el tránsito."
+    },
+    {
+      "number": 17229,
+      "text": "Es falso que la simple presencia de señalización sea una causa de peligro: las señales sirven para regular la circulación e indicar las condiciones de la vía. En cambio, una señalización defectuosa puede generar riesgos."
+    }
+  ],
+  "output_sha256": "b8edb4d2f787879e9afb15d6676797b8f85ce20bbc4fee24334c01471d4a1b8b"
+}

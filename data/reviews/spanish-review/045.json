@@ -1,0 +1,55 @@
+{
+  "batch": "045",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "27e783a24a1f161942a4666eb8f346eab879a5ac248978c7484ed27f36c23d9c",
+  "source_sha256": "c634706902cbb313057f7b267c03743e1e37c4f086d7e91dc02be9483091aee2",
+  "corrections": [
+    {
+      "id": "3b953d3c6d1c6b0b8e4acb76a187d946695b17e01f866276f4d6ff6e21fc3cda",
+      "before": "La actuación anticipada sobre los mandos consiste en pisar bruscamente el pedal de freno",
+      "after": "La actuación anticipada sobre los mandos (conducción anticipada) consiste en pisar bruscamente el pedal de freno",
+      "reason": "Restituye el término conducción anticipada incluido en el original."
+    },
+    {
+      "id": "3bb3494d3cfdf3cbaac689c07da340a1db8d0abaa6427954106cdca3409d3b74",
+      "before": "Las mercancías de la UE son las obtenidas íntegramente en su territorio aduanero",
+      "after": "Se consideran mercancías de la UE las obtenidas íntegramente en su territorio aduanero",
+      "reason": "Definition 'si intendono' must read as a definition ('se consideran'), not a bare equation"
+    },
+    {
+      "id": "3bdb376113504c3e7219b1223d053f600472109bd53bdc0edc7a845625efc405",
+      "before": "El CMR se aplica cuando los lugares de recepción y entrega previstos están en dos Estados distintos, al menos uno de los cuales forma parte del convenio",
+      "after": "El CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera) se aplica cuando los lugares de recepción y entrega previstos están en dos Estados distintos, al menos uno de los cuales forma parte del convenio",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "3c41247d464bbe706327fe7cfdea4da167911ccacdc18d6a07eed527f706716b",
+      "before": "En caso de agresiones o robos no hay que llamar a las fuerzas del orden para no empeorar la situación",
+      "after": "En caso de agresiones, hurtos o asaltos no hay que llamar a las fuerzas del orden para no empeorar la situación",
+      "reason": "Distingue hurtos y asaltos, ambos enumerados en el original."
+    },
+    {
+      "id": "3c724048df2d2de84d90a7858aa378d10d88dcfd4e5e8526e555772587ecf917",
+      "before": "La velocidad debe ajustarse según la duración del viaje",
+      "after": "La velocidad debe ajustarse según la longitud del viaje",
+      "reason": "Lunghezza se refiere a la longitud, no a la duración del viaje."
+    },
+    {
+      "id": "3ced8ad80ea0e87a734e0c42878e42b769c8ba6551a8bccb3d14682e0b363536",
+      "before": "El CMR se aplica a los transportes gratuitos",
+      "after": "El CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera) se aplica a los transportes gratuitos",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "3fb9e3c6d7b50620097e9c196ddd442ed8d9ec518466ee04b270fad62b3eafcc"
+}

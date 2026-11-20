@@ -1,0 +1,35 @@
+{
+  "_about": "App corrections to data translations, applied by Scripts/import_bank_data.py. Each 'from' must match the source exactly, so a correction already applied or changed in the source fails the import instead of silently overwriting. Migrate these through the reviewed correction workflow in data/docs/workflow.md, then remove the corresponding app override.",
+  "es-419": {
+    "20640": {
+      "from": "La señal mostrada advierte de un cruce con una vía férrea sin salida",
+      "to": "La señal mostrada advierte de un cruce con una vía muerta",
+      "reason": "binario morto is a dead-end railway siding: vía muerta"
+    },
+    "33051": {
+      "from": "Las mercancías movilizadas en tarimas nunca pueden apilarse",
+      "to": "Las mercancías paletizadas nunca pueden apilarse",
+      "reason": "movimentate con pallet means palletised, not mobilised"
+    },
+    "20372": {
+      "from": "La señal mostrada se encuentra al final del recorrido peatonal y ciclista",
+      "to": "La señal mostrada se encuentra al final del recorrido para peatones y bicicletas",
+      "reason": "percorso ciclabile is a path for bicycles, not a cyclist"
+    },
+    "36455": {
+      "from": "Para conducir vehículos eléctricos sin rieles alimentados por línea aérea basta con tener una tarjeta de identidad",
+      "to": "Para conducir trolebuses basta con tener una tarjeta de identidad",
+      "reason": "filoveicoli are trolleybuses; use the standard term"
+    },
+    "23850": {
+      "from": "Durante la colocación del triángulo móvil de peligro, el conductor no debe usar el chaleco de alta visibilidad si está en carriles de emergencia o apartaderos",
+      "to": "Durante la colocación del triángulo móvil de peligro, el conductor no debe usar el chaleco de alta visibilidad si está en carriles de emergencia o en bahías de estacionamiento",
+      "reason": "piazzole di sosta are roadside lay-bys; apartadero also means a railway siding"
+    },
+    "16480": {
+      "from": "Se configura transporte no autorizado cuando se realiza con personal que no está en regla, sin seguro RCA o sin haber pagado la contribución al registro nacional de transportistas de mercancías por cuenta de terceros",
+      "to": "Se configura transporte no autorizado cuando se realiza con personal que no está en regla, sin seguro RCA, sin haber pagado la contribución al registro nacional de transportistas de mercancías por cuenta de terceros",
+      "reason": "keep the Italian comma list instead of introducing 'o' between its conditions"
+    }
+  }
+}

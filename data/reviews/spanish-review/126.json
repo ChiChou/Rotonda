@@ -1,0 +1,25 @@
+{
+  "batch": "126",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "819ef8702c3ecc5ec2776bbb943bf2632c07eb341977af84c4495af655abe4e3",
+  "source_sha256": "74d43dce13dad7652b5a6f403a3890ce25f1068eed6d498f0eb8d6248b76a2b0",
+  "corrections": [
+    {
+      "id": "a8f256f371c5bc1b068233a6095708be6cb7318805b1b255e5fba597a061590a",
+      "before": "Por servicio ocasional de transporte de personas en autobús de «circuito cerrado» se entiende un servicio que no permite a la empresa ofrecer excursiones locales a sus clientes en el Estado de destino",
+      "after": "Por servicio ocasional de transporte de personas en autobús de «puertas cerradas» se entiende un servicio que no permite a la empresa ofrecer excursiones locales a sus clientes en el Estado de destino",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    }
+  ],
+  "reviewed_file_sha256": "c96e2c5d27b5d2189096e7655163738cb988989cf930832557d168166443b638"
+}

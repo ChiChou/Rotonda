@@ -1,0 +1,65 @@
+VOCABULARY DATA — SOURCES AND LIMITATIONS
+
+The quiz bank is unchanged. word_study_metadata.json is a separately generated vocabulary overlay. The CEFR levels are estimates from an automatically/LLM-assisted public learning deck, not official Council of Europe assessments. Surface forms are matched exactly first. Morphological matches inherit a level only if every possible lemma has a source level and those levels agree. Missing/conflicting matches remain unclassified. Only source entries used by the overlay are included. Source SHA-256 values are recorded in the JSON. The generator is Scripts/build_word_study_metadata.py.
+
+Language-Learning-decks Italian dataset
+https://github.com/vbvss199/Language-Learning-decks
+Revision efd235e692efd47eda026d0a1cbd703ce23d7692
+Copyright 2025 GENERAL NEURO. Upstream MIT notice below.
+We retain words, CEFR estimates, English meanings, part of speech and bilingual examples; word_frequency values are not included. Allora also uses this source. Following its conservative data licensing, this derived vocabulary overlay is distributed under Creative Commons Attribution-ShareAlike 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+Underlying frequency-list provenance: Robyn Speer (2022), wordfreq v3.0.2, https://doi.org/10.5281/zenodo.7199437 ; includes OPUS OpenSubtitles 2018 / OpenSubtitles, https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles . No subtitle records are separately bundled.
+
+Morph-it! 0.48
+Copyright 2004–2007 Marco Baroni and Eros Zanchetta.
+https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it
+Morph-it! A free corpus-based morphological resource for the Italian language (2005).
+Source: Creative Commons Attribution-ShareAlike 2.0 / LGPL. We use the CC BY-SA option for the derived form-to-lemma mappings, redistributed as part of the CC BY-SA 4.0 overlay. No full Morph-it! lexicon is bundled.
+https://creativecommons.org/licenses/by-sa/2.0/
+
+spaCy Italian stop words
+https://github.com/explosion/spaCy/blob/master/spacy/lang/it/stop_words.py
+MIT license. Exact word matches and phrases consisting entirely of stop words are excluded; single-letter elision fragments l and d are additionally excluded. Full quiz question text remains intact. The stop-word decision is separate from CEFR.
+
+MIT License
+
+Copyright (c) 2025 GENERAL NEURO
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+The MIT License (MIT)
+
+Copyright (C) 2016-2024 ExplosionAI GmbH, 2016 spaCy GmbH, 2015 Matthew Honnibal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

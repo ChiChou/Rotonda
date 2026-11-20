@@ -1,0 +1,943 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 25580,
+          "quesito_id": 5021,
+          "text_it": "Il segnale raffigurato permette la fermata dei veicoli sulle strisce purché rimanga spazio sufficiente per i pedoni",
+          "answer": 0,
+          "page": 40,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+              "sha256": "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+              "page": 40,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "dc06d5a524ee774addac7ae0413b16133f1c727c34bf363d839c94a0e7a101c3",
+        "localized_text": "图示标志允许车辆在人行横道上临时停车，只要为行人留有足够空间。"
+      },
+      {
+        "source": {
+          "number": 25581,
+          "quesito_id": 5022,
+          "text_it": "In presenza del segnale raffigurato non è consentito sorpassare i veicoli che si fermano per far attraversare i pedoni",
+          "answer": 1,
+          "page": 40,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+              "sha256": "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+              "page": 40,
+              "bbox": [
+                465.63,
+                157.0,
+                545.63,
+                237.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8053aa6b94d1ad1e72a5ec8182c89359b7399235d3afc0a44a4b456c7ad4a27f",
+        "localized_text": "在图示标志处，禁止超越为让行人过街而停下的车辆。"
+      },
+      {
+        "source": {
+          "number": 25582,
+          "quesito_id": 5022,
+          "text_it": "In presenza del segnale raffigurato è necessario rallentare per essere pronti a fermarsi per dare la precedenza ai pedoni",
+          "answer": 1,
+          "page": 40,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+              "sha256": "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+              "page": 40,
+              "bbox": [
+                465.63,
+                243.0,
+                545.63,
+                323.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "2d527b8fc222b859e595fb7a51d98a2f8680ffd69af239a1f33995f8df430ff9",
+        "localized_text": "在图示标志处，必须减速，以便准备停车给行人让行。"
+      },
+      {
+        "source": {
+          "number": 25583,
+          "quesito_id": 5022,
+          "text_it": "In presenza del segnale raffigurato è necessario non sostare o fermarsi sopra le strisce pedonali",
+          "answer": 1,
+          "page": 40,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+              "sha256": "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+              "page": 40,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "1b02f2797b9e9271d9af4b2a344254a3a39c89f6c1bbe1c97cd933a749e3a81e",
+        "localized_text": "在图示标志处，不得在人行横道上停放或临时停车。"
+      },
+      {
+        "source": {
+          "number": 25584,
+          "quesito_id": 5022,
+          "text_it": "In presenza del segnale raffigurato è necessario suonare se vi sono pedoni che attraversano sulle strisce",
+          "answer": 0,
+          "page": 40,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+              "sha256": "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+              "page": 40,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "6721d378e847d2af7207a8ca4d50561b9ed0b3e3c07e688b97f3c9ce538b1dd2",
+        "localized_text": "在图示标志处，如果有行人在人行横道上过街，必须鸣喇叭。"
+      },
+      {
+        "source": {
+          "number": 25585,
+          "quesito_id": 5022,
+          "text_it": "In presenza del segnale raffigurato è necessario rallentare solo se vi sono bambini che attraversano sulle strisce",
+          "answer": 0,
+          "page": 40,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+              "sha256": "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+              "page": 40,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ffecef35e9413e177aabddaf3af5e24debf9f9982c60e4347deaa7c94bb604b8",
+        "localized_text": "在图示标志处，只有儿童在人行横道上过街时才必须减速。"
+      },
+      {
+        "source": {
+          "number": 25586,
+          "quesito_id": 5022,
+          "text_it": "In presenza del segnale raffigurato è necessario tenere presente che i pedoni debbono dare la precedenza ai veicoli",
+          "answer": 0,
+          "page": 40,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+              "sha256": "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+              "page": 40,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "08e35f13d1e72271170d0cbe583ac26a63ffb5814ec2e5c456664a0b41ae6061",
+        "localized_text": "在图示标志处，必须记住行人必须给车辆让行。"
+      },
+      {
+        "source": {
+          "number": 25587,
+          "quesito_id": 5023,
+          "text_it": "Il segnale raffigurato preavvisa un attraversamento ciclabile",
+          "answer": 1,
+          "page": 40,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 40,
+              "bbox": [
+                465.63,
+                721.0,
+                545.63,
+                801.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "fb86bdc89cff4abecebedaea47e1f651d13c12e91d98a90f5ad1a0cd09435d6c",
+        "localized_text": "图示标志预告前方有自行车横道。"
+      },
+      {
+        "source": {
+          "number": 25588,
+          "quesito_id": 5023,
+          "text_it": "Il segnale raffigurato di norma è posto 150 metri prima di un attraversamento ciclabile",
+          "answer": 1,
+          "page": 41,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 41,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "41792d7b49e2b96e3eafd170b87cd32940552b3a9603dabd00f2f8e89d3c5203",
+        "localized_text": "图示标志通常设置在自行车横道前150米处。"
+      },
+      {
+        "source": {
+          "number": 25589,
+          "quesito_id": 5023,
+          "text_it": "Il segnale raffigurato comporta di regolare la velocità in modo da non costituire pericolo per la sicurezza dei ciclisti",
+          "answer": 1,
+          "page": 41,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 41,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "061f6abfa74500e3fd7eebb9bee1defb6de2c5f56b00c71940b58c1e98693bb9",
+        "localized_text": "图示标志要求调整速度，以免危及骑车人的安全。"
+      },
+      {
+        "source": {
+          "number": 25590,
+          "quesito_id": 5023,
+          "text_it": "Il segnale raffigurato è posto dopo ogni attraversamento ciclabile",
+          "answer": 0,
+          "page": 41,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 41,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "06fbd62c507369b69f37cd0650638b085540a689a6336d4b60b0fd482ad2b71b",
+        "localized_text": "图示标志设置在每个自行车横道之后。"
+      },
+      {
+        "source": {
+          "number": 25591,
+          "quesito_id": 5023,
+          "text_it": "Il segnale raffigurato vieta il transito ai ciclisti",
+          "answer": 0,
+          "page": 41,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 41,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "725cc9019926725fe1b60bf2263da8fbf043c5c20b5fd1cbf48a66e8fc42e472",
+        "localized_text": "图中所示标志禁止骑行者通行"
+      },
+      {
+        "source": {
+          "number": 25592,
+          "quesito_id": 5023,
+          "text_it": "Il segnale raffigurato preavvisa l'inizio di una pista ciclabile",
+          "answer": 0,
+          "page": 41,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 41,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "d1f34e69f277fb4fb2ac168ff4fcdee9ac9428e1e6efea849ae9be295c810ac3",
+        "localized_text": "图示标志预告前方自行车道的起点。"
+      },
+      {
+        "source": {
+          "number": 25593,
+          "quesito_id": 5024,
+          "text_it": "In presenza del segnale raffigurato è necessario regolare la velocità in modo da non costituire pericolo per la sicurezza dei ciclisti",
+          "answer": 1,
+          "page": 41,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 41,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "73331fc66efdec23a46bd4f479970f93ca92e7c467034756b953bc323ab9f25a",
+        "localized_text": "在图示标志处，必须调整速度，以免危及骑车人的安全。"
+      },
+      {
+        "source": {
+          "number": 25594,
+          "quesito_id": 5024,
+          "text_it": "In presenza del segnale raffigurato è necessario rallentare per essere pronti a fermarsi per dare la precedenza ai ciclisti",
+          "answer": 1,
+          "page": 41,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 41,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "5ac5349ca2d76c127f04ec605bb1026ef024bc8eefd92eb3c5264eda43229c80",
+        "localized_text": "在图示标志处，必须减速，以便准备停车给骑车人让行。"
+      },
+      {
+        "source": {
+          "number": 25595,
+          "quesito_id": 5024,
+          "text_it": "In presenza del segnale raffigurato è necessario non sorpassare veicoli che si sono fermati per far attraversare la strada ai ciclisti",
+          "answer": 1,
+          "page": 41,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 41,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c9af756f911bf7ba2ecd4b1a99c896b6342772f58759b9d1f5845a6e2f56f2d9",
+        "localized_text": "在图示标志处，不得超越为让骑车人过马路而停下的车辆。"
+      },
+      {
+        "source": {
+          "number": 25596,
+          "quesito_id": 5024,
+          "text_it": "In presenza del segnale raffigurato è necessario suonare se vi sono ciclisti che stanno per iniziare l'attraversamento delle strisce",
+          "answer": 0,
+          "page": 42,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 42,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "206d3795cfeba44219808f950c00b181a182edaf9cb0a0ea6a66d8ea8a25cb85",
+        "localized_text": "在图示标志处，如果骑车人即将开始通过标线横道，必须鸣喇叭。"
+      },
+      {
+        "source": {
+          "number": 25597,
+          "quesito_id": 5024,
+          "text_it": "In presenza del segnale raffigurato è necessario tenere presente che i ciclisti devono dare la precedenza ai veicoli",
+          "answer": 0,
+          "page": 42,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 42,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "af664467992f2db22df29bb3198d38290997d9d69cda538d431eb8cea1cd2bae",
+        "localized_text": "遇到图中所示标志时，须注意骑行者必须让车辆先行"
+      },
+      {
+        "source": {
+          "number": 25598,
+          "quesito_id": 5024,
+          "text_it": "In presenza del segnale raffigurato è necessario dare la precedenza solo ai ciclisti che attraversano da destra",
+          "answer": 0,
+          "page": 42,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png",
+              "sha256": "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0",
+              "page": 42,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "cbdc4b6095157d071ad50582a1e1029af4cb110e841628d07b1a4d538046fead",
+        "localized_text": "在图示标志处，只须给从右侧横穿的骑车人让行。"
+      },
+      {
+        "source": {
+          "number": 25599,
+          "quesito_id": 5025,
+          "text_it": "Il segnale raffigurato è posto prima di una discesa pericolosa",
+          "answer": 1,
+          "page": 42,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+              "sha256": "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+              "page": 42,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "90cae19512957273fac5bb927111b0b0a2eebc5c06d79af7cd6e8e9b12b1f7b5",
+        "localized_text": "图中所示标志设在危险下坡之前"
+      },
+      {
+        "source": {
+          "number": 25600,
+          "quesito_id": 5025,
+          "text_it": "Il segnale raffigurato richiede di tenere una maggiore distanza di sicurezza dal veicolo che precede",
+          "answer": 1,
+          "page": 42,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+              "sha256": "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+              "page": 42,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "f0c5fe74a4e70db10d68ecb6ad836240ed087671de36a4161f4bb52e86fba7d1",
+        "localized_text": "图示标志要求与前车保持更大的安全距离。"
+      },
+      {
+        "source": {
+          "number": 25601,
+          "quesito_id": 5025,
+          "text_it": "Il segnale raffigurato comporta di moderare la velocità",
+          "answer": 1,
+          "page": 42,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+              "sha256": "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+              "page": 42,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "b3843a3c712f4149fd062515c86f8b5e4afc4a58bdabc5fe1fbe7c052be671fe",
+        "localized_text": "图中所示标志要求减速行驶"
+      },
+      {
+        "source": {
+          "number": 25602,
+          "quesito_id": 5025,
+          "text_it": "Il segnale raffigurato preavvisa un tratto di strada pericoloso per il fondo dissestato",
+          "answer": 0,
+          "page": 42,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+              "sha256": "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+              "page": 42,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "9905e41450976549941aeb9a7e3cbf572d629341ac56c2ff2ee314657b328c4d",
+        "localized_text": "图示标志预告前方路段因路面不平而危险。"
+      },
+      {
+        "source": {
+          "number": 25603,
+          "quesito_id": 5025,
+          "text_it": "Il segnale raffigurato indica l'entità della pendenza di una salita ripida",
+          "answer": 0,
+          "page": 43,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+              "sha256": "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+              "page": 43,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4110df821cffd2b86be04d25dc38490d6e969f53cf5770fca973b8a91ee5cdaf",
+        "localized_text": "图示标志表示陡峭上坡路的坡度。"
+      },
+      {
+        "source": {
+          "number": 25604,
+          "quesito_id": 5025,
+          "text_it": "Il segnale raffigurato preavvisa una salita pericolosa",
+          "answer": 0,
+          "page": 42,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+              "sha256": "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+              "page": 42,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "6db972e14c88966e86d0981c2e54ead3ed280fa38f90d9f55856a4da74699294",
+        "localized_text": "图示标志预告前方有危险上坡路。"
+      }
+    ],
+    "task_sha256": "1e85c76c8249315d999d14567a197c414a30a01c28a61bda58592cbf3a7aacc1"
+  },
+  "rows": [
+    {
+      "number": 25580,
+      "text": "该标志预告人行横道：即使留有行人通行空间，也禁止在横道上临时停车或停放。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "Codice della strada, art. 158: comma 1, lettera g: fermata e sosta vietate sugli attraversamenti pedonali; https://www.aci.it/fileadmin/cds/art-158.php"
+      ]
+    },
+    {
+      "number": 25581,
+      "text": "前车停车是为了让行人过街：禁止在横道处超越该车。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "Codice della strada, art. 148: comma 13: vietato sorpassare il veicolo fermo per far attraversare pedoni; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 25582,
+      "text": "标志预告人行横道：应减速并准备停车，让行人通过。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "Codice della strada, art. 141: comma 4: rallentare presso gli attraversamenti pedonali; https://www.aci.it/fileadmin/cds/art-141.php",
+        "Codice della strada, art. 191: comma 1: precedenza ai pedoni; https://www.aci.it/fileadmin/cds/art-191.php"
+      ]
+    },
+    {
+      "number": 25583,
+      "text": "人行横道必须保持畅通：横道上禁止临时停车和停放。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "Codice della strada, art. 158: comma 1, lettera g: vietate fermata e sosta sugli attraversamenti; https://www.aci.it/fileadmin/cds/art-158.php"
+      ]
+    },
+    {
+      "number": 25584,
+      "text": "横道上有行人并不意味着必须鸣笛：应减速让行；喇叭仅用于安全需要。",
+      "evidence": [
+        "Codice della strada, art. 156: comma 1: clacson solo per sicurezza; https://www.aci.it/fileadmin/cds/art-156.php",
+        "Codice della strada, art. 191: comma 1: precedenza ai pedoni; https://www.aci.it/fileadmin/cds/art-191.php"
+      ]
+    },
+    {
+      "number": 25585,
+      "text": "不只是儿童：接近横道时应减速，也要让其他行人通过。",
+      "evidence": [
+        "Codice della strada, art. 141: comma 4: ridurre velocità presso attraversamenti pedonali; https://www.aci.it/fileadmin/cds/art-141.php",
+        "Codice della strada, art. 191: comma 1: precedenza ai pedoni; https://www.aci.it/fileadmin/cds/art-191.php"
+      ]
+    },
+    {
+      "number": 25586,
+      "text": "在交通无人或信号灯指挥的横道，驾驶人应让正在横过或紧邻横道的行人先行。",
+      "evidence": [
+        "Codice della strada, art. 191: comma 1: precedenza ai pedoni sugli attraversamenti o nelle immediate prossimità quando il traffico non è regolato; https://www.aci.it/fileadmin/cds/art-191.php"
+      ]
+    },
+    {
+      "number": 25587,
+      "text": "带骑车人图案的三角标志预告车行道上有供自行车横过的标线横道。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 25588,
+      "text": "这是危险警告标志：通常设在危险地点前150米，此处指自行车横道。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "D.P.R. 495/1992, art. 81, comma 7: segnali di pericolo di norma a 150 m; https://www.regione.toscana.it/-/pericolo-ci-siamo-noi"
+      ]
+    },
+    {
+      "number": 25589,
+      "text": "骑车人可能通过横道：应调整速度，避免危及他们。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "Codice della strada, art. 141: comma 1: velocità adeguata alla sicurezza; https://www.aci.it/fileadmin/cds/art-141.php"
+      ]
+    },
+    {
+      "number": 25590,
+      "text": "三角标志在横道前预告自行车通行，并非设在每个横道之后。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 25591,
+      "text": "三角标志警告前方有自行车横道，并不禁止骑车人通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 25592,
+      "text": "三角标志预告骑车人横穿车行道的地点，并非自行车道起点。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 25593,
+      "text": "标志提醒自行车可能横穿：应调整速度，避免危及骑车人。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "Codice della strada, art. 141: comma 1: velocità adeguata alla sicurezza; https://www.aci.it/fileadmin/cds/art-141.php"
+      ]
+    },
+    {
+      "number": 25594,
+      "text": "在自行车横道应让骑车人先行：减速并准备停车让他们通过。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 88, commi 2-3, figure II.13 e II.14: segnali di attraversamento pedonale e ciclabile; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "Codice della strada, art. 40: comma 11: precedenza ai ciclisti sugli attraversamenti ciclabili; https://www.aci.it/fileadmin/cds/art-40.php",
+        "Codice della strada, art. 141: commi 1-2: velocità e arresto in sicurezza; https://www.aci.it/fileadmin/cds/art-141.php"
+      ]
+    },
+    {
+      "number": 25595,
+      "text": "前车停车让骑车人横穿时，你也应等待，因为超越前车会妨碍他们通过。",
+      "evidence": [
+        "Codice della strada, art. 40: comma 11: precedenza ai ciclisti sugli attraversamenti ciclabili; https://www.aci.it/fileadmin/cds/art-40.php",
+        "Codice della strada, art. 148: comma 2: sorpasso senza pericolo e strada libera; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 25596,
+      "text": "有骑车人时不应自动鸣笛：应让他们横穿，喇叭仅用于安全需要。",
+      "evidence": [
+        "Codice della strada, art. 156: comma 1: clacson solo per sicurezza; https://www.aci.it/fileadmin/cds/art-156.php",
+        "Codice della strada, art. 40: comma 11: precedenza ai ciclisti sugli attraversamenti; https://www.aci.it/fileadmin/cds/art-40.php"
+      ]
+    },
+    {
+      "number": 25597,
+      "text": "在自行车横道，驾驶人应让骑车人先行，而非相反。",
+      "evidence": [
+        "Codice della strada, art. 40: comma 11: precedenza ai ciclisti sugli attraversamenti ciclabili; https://www.aci.it/fileadmin/cds/art-40.php"
+      ]
+    },
+    {
+      "number": 25598,
+      "text": "自行车横道的让行对象不限于从右侧来的骑车人：也要让另一侧来的骑车人通过。",
+      "evidence": [
+        "Codice della strada, art. 40: comma 11: precedenza ai ciclisti sugli attraversamenti, senza distinzione di provenienza; https://www.aci.it/fileadmin/cds/art-40.php"
+      ]
+    },
+    {
+      "number": 25599,
+      "text": "图案向下倾斜的三角标志预告危险下坡；数字表示坡度。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 89, commi 1-2, figura II.15: discesa pericolosa e pendenza percentuale; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 25600,
+      "text": "下坡时停车所需距离增加：应与前车保持更大距离，以便安全停车。",
+      "evidence": [
+        "Codice della strada, art. 149: comma 1: distanza sufficiente per arrestarsi tempestivamente; https://www.aci.it/fileadmin/cds/art-149.php",
+        "Codice della strada, art. 141: commi 1-3: adeguare velocità alle condizioni e alle forti discese; https://www.aci.it/fileadmin/cds/art-141.php",
+        "Ministero delle infrastrutture e dei trasporti, listato quiz revisione 2024, V04: spazio di frenatura aumenta in discesa; https://www.ilportaledellautomobilista.it/gms/dettaglionormativa.downloadallegato_1%3Adownload/210779/Circ.%24002019281%240020del%24002005.07.24%240020All.%240020LISTATO_definitivo%240020in%240020pdf.pdf"
+      ]
+    },
+    {
+      "number": 25601,
+      "text": "标志警告前方陡下坡：应控制车速，以保持车辆可控。",
+      "evidence": [
+        "Codice della strada, art. 141: comma 3: regolare la velocità nelle forti discese; https://www.aci.it/fileadmin/cds/art-141.php"
+      ]
+    },
+    {
+      "number": 25602,
+      "text": "图案表示危险下坡，不是路面不平：它警告的是坡度。",
+      "evidence": [
+        "D.P.R. 495/1992, artt. 85 e 89, figure II.1 e II.15: segnali distinti per strada deformata e discesa pericolosa; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 25603,
+      "text": "所示坡度是下坡：图形向右下降，并不表示上坡。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 89, figure II.15 e II.16: discesa e salita pericolosa; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 25604,
+      "text": "图形向右下降：标志预告危险下坡，而不是上坡。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 89, figure II.15 e II.16: discesa e salita pericolosa; https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "1e85c76c8249315d999d14567a197c414a30a01c28a61bda58592cbf3a7aacc1",
+    "output_sha256": "aa4a2dde05e6a611c36ea40e99982073616e496fc8c49a3ad74d15c798d970fd",
+    "author": "gpt-6.1-terra / 01a1e999-487c-7421-b736-da14d68d5d10",
+    "reviewer": "gpt-6.1-terra / 01a1e99b-9b83-71b0-9788-3c19d98d3a66",
+    "status": "accepted",
+    "checked_numbers": [
+      25580,
+      25581,
+      25582,
+      25583,
+      25584,
+      25585,
+      25586,
+      25587,
+      25588,
+      25589,
+      25590,
+      25591,
+      25592,
+      25593,
+      25594,
+      25595,
+      25596,
+      25597,
+      25598,
+      25599,
+      25600,
+      25601,
+      25602,
+      25603,
+      25604
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "bf47384f430b803cf37a6bda070af929d7463f1ce93905c289d24a3344450656",
+        "attached_image_paths": [
+          "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+          "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+          "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png"
+        ],
+        "attached_image_sha256": [
+          "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+          "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+          "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "015700351921504d382477c28097ff9e71e1da5cd513d800cbfabd1452d30189",
+        "attached_image_paths": [
+          "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+          "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+          "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png"
+        ],
+        "attached_image_sha256": [
+          "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+          "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+          "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0"
+        ]
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1e999-487c-7421-b736-da14d68d5d10",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "bf47384f430b803cf37a6bda070af929d7463f1ce93905c289d24a3344450656",
+          "attached_image_paths": [
+            "source/images/34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966.png",
+            "source/images/674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b.png",
+            "source/images/dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0.png"
+          ],
+          "attached_image_sha256": [
+            "34ec01b3bf97cc2d24acda884a19aaa3e28e0792e449c75196d00aadf1ade966",
+            "674233a60f91026b5ee9ec89a049aaa99b5977b624d9e8b67d5bba730cdd972b",
+            "dfa206526441659de6548340ca7a722809ccc589d3c71725c97c4089f44e74c0"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

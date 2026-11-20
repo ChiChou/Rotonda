@@ -1,0 +1,31 @@
+{
+  "batch": "109",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "79d002d8bd2c736025c6c542bd366ed22bd04891425d2af9a18c47383fe49cf9",
+  "source_sha256": "242cf385f909ef83c37e7cb6d5712d520fe94ae4bb688c0ebb7f85ae1496a016",
+  "corrections": [
+    {
+      "id": "9202da5ec88efe4f12c3383b55f93ca2523d3108816b5dbea6d89ff4fccd50f4",
+      "before": "El equipo de carga y descarga de contenedores aumenta la estabilidad del vehículo",
+      "after": "El equipo desmontable aumenta la estabilidad del vehículo",
+      "reason": "attrezzatura scarrabile means demountable equipment (skip/roll-off body), not container handling equipment"
+    },
+    {
+      "id": "924284e5e147fa924623c4855d8259285f102c31ddc31c9d9032ba83e827889a",
+      "before": "07##tipología7 CQC",
+      "after": "07##tipologia7 CQC",
+      "reason": "Se conserva el marcador estructural 07##tipologia7 exactamente como en el original."
+    }
+  ],
+  "reviewed_file_sha256": "9d38bc29b8d8efa6acf40d46b1470cc718449adcc1b8969f91a17f335171615b"
+}

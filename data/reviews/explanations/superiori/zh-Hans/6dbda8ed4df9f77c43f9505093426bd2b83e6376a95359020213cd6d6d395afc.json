@@ -1,0 +1,685 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28626,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore elettromagnetico è più pesante di quello idraulico",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7f0c1ea6458a416bc95d5bb71988630836e7f04244a89cc3acc909a8e21cc9f2",
+        "localized_text": "电磁缓速器比液力缓速器重。"
+      },
+      {
+        "source": {
+          "number": 28627,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore elettromagnetico può sopportare carichi frenanti minori rispetto a quello idraulico",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "15580f1eda8f88254b7d8fda54a830baf561ed9ee4243fae0d3c880115f30275",
+        "localized_text": "电磁缓速器能够承受的制动负荷小于液力缓速器。"
+      },
+      {
+        "source": {
+          "number": 28628,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore idraulico agisce direttamente sugli elementi frenanti delle ruote motrici",
+          "answer": 0,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d70a32f320af02238866391444e9f6be08ae9da508d48ba192420bd9b0b59c18",
+        "localized_text": "液力缓速器直接作用于驱动轮制动部件。"
+      },
+      {
+        "source": {
+          "number": 28629,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore idraulico deve essere periodicamente svuotato dell’olio e pulito con dello sgrassante",
+          "answer": 0,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9048345796c7bc4728a6ec98f8e57784043dfb213c1be2337941a7e9a1623385",
+        "localized_text": "液力缓速器必须定期排油并使用除油剂清洁。"
+      },
+      {
+        "source": {
+          "number": 28630,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore non deve essere usato assieme al freno motore",
+          "answer": 0,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "dde6eb4b48bb8a3a8a98b3cae3ed0153f29e4ee895cb61c9e6af953be5fffd88",
+        "localized_text": "缓速器不得与发动机制动一起使用。"
+      },
+      {
+        "source": {
+          "number": 28631,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore idraulico è raffreddato ad aria",
+          "answer": 0,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "55b79543796788c650446464b1247b253d85cf5e195e517fd3f0fcd94edbbbda",
+        "localized_text": "液力缓速器采用风冷。"
+      },
+      {
+        "source": {
+          "number": 28632,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore idraulico è più usato perché quello elettromagnetico consuma molta corrente",
+          "answer": 0,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a7af327e426a329f0482974111e3d8b7a50f55f7cc5ade0b45e79b1a66936a71",
+        "localized_text": "液力缓速器使用更广泛，因为电磁缓速器耗电量大。"
+      },
+      {
+        "source": {
+          "number": 28633,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore idraulico fa parte dell’impianto di frenatura pneumoidraulico",
+          "answer": 0,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1e407723b437c4c9ef7b01cadefd2fde096007f3645b80629369837a7bb107f3",
+        "localized_text": "液力缓速器是气液制动系统的一部分。"
+      },
+      {
+        "source": {
+          "number": 28634,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore idraulico è di più agevole montaggio rispetto a quello elettromagnetico",
+          "answer": 0,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7a97bdd22b8957295a21dbf363e8a18a3fafd2f7e7d033e2b1c90021ae982774",
+        "localized_text": "液力缓速器比电磁缓速器更容易安装。"
+      },
+      {
+        "source": {
+          "number": 28635,
+          "quesito_id": 6108,
+          "text_it": "Il limitatore di velocità è un dispositivo che interviene sull’iniezione del combustibile",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "de83fd844ec4c2d05752bd7f6afe443d5357485cd874fb96538326d9bb8dd7fa",
+        "localized_text": "限速器是一种作用于燃油喷射的装置。"
+      },
+      {
+        "source": {
+          "number": 28636,
+          "quesito_id": 6108,
+          "text_it": "Il limitatore di velocità è un dispositivo la cui funzione è quella di regolare l’alimentazione di combustibile al motore, al fine di limitare la velocità del veicolo ad un valore stabilito",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5e4b7c80d0586321353680941bded6e062180c3710bfb31184dd35d19c7a1704",
+        "localized_text": "限速器通过调节发动机燃料供应，将车速限制在规定值。"
+      },
+      {
+        "source": {
+          "number": 28637,
+          "quesito_id": 6108,
+          "text_it": "Il limitatore di velocità deve essere di tipo omologato e montato da officina autorizzata",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b228fc3a744e2fe4dfe61f5ade3f88b50bc79546162479387a43dc0144ebbf48",
+        "localized_text": "限速器必须为经批准的类型，并由获授权维修厂安装。"
+      },
+      {
+        "source": {
+          "number": 28638,
+          "quesito_id": 6108,
+          "text_it": "Il limitatore di velocità, montato da officina autorizzata, comporta l’obbligo dell’aggiornamento della carta di circolazione",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "32592d51838958d582d2799684cc1de9dfcf41bc733dde52fbed1b16ab42f3d0",
+        "localized_text": "由获授权维修厂安装限速器后，必须更新行驶证。"
+      },
+      {
+        "source": {
+          "number": 28639,
+          "quesito_id": 6108,
+          "text_it": "Il limitatore di velocità deve essere inviolabile, cioè non deve essere possibile aumentare o spostare temporaneamente o permanentemente il livello della limitazione di velocità",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "77a5b8aaaf252e6358049d8c6c8415bfe99ea0a4b1b66d64cc037e7d8650b24d",
+        "localized_text": "限速器必须防篡改，即不得临时或永久提高或改变限速设定值。"
+      },
+      {
+        "source": {
+          "number": 28640,
+          "quesito_id": 6108,
+          "text_it": "La velocità massima consentita dal limitatore ad un autobus deve essere di 100 km/h",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "aa77e25937cf88dd63f5c52b1d1188e0d0ebe49f3c285cb194bd70d4d6592124",
+        "localized_text": "巴士限速器允许的最高速度必须为100公里／小时。"
+      },
+      {
+        "source": {
+          "number": 28641,
+          "quesito_id": 6108,
+          "text_it": "La velocità massima consentita dal limitatore ad un autocarro, di massa complessiva a pieno carico superiore a 3,5 tonnellate, deve essere di 90 km/h",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "607efeed8a1b5fd8efa826305dd476deb78a40faf7be2cfff7814a978ede13a3",
+        "localized_text": "满载总质量超过3.5吨的卡车，其限速器允许的最高速度必须为90公里／小时。"
+      },
+      {
+        "source": {
+          "number": 28642,
+          "quesito_id": 6108,
+          "text_it": "A bordo dei veicoli che montano il limitatore di velocità, deve essere presente una copia del certificato di installazione",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5201501706509204006fe30e488c0b8cf4f2e2e41cf8211c40c226c0e86c82bc",
+        "localized_text": "配备限速器的车辆必须随车携带安装证明副本。"
+      },
+      {
+        "source": {
+          "number": 28643,
+          "quesito_id": 6108,
+          "text_it": "A bordo dei veicoli che montano il limitatore di velocità, deve essere presente una copia dell’attestazione di apposizione dei sigilli da parte di officina autorizzata",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "658611d4d27d81f3f96a7c612f7f8574ec732a297931ad2bfd349f7222f4240f",
+        "localized_text": "配备限速器的车辆必须随车携带获授权维修厂封印证明的副本。"
+      },
+      {
+        "source": {
+          "number": 28644,
+          "quesito_id": 6108,
+          "text_it": "Sulla copia del certificato di installazione del limitatore di velocità devono risultare, tra l’altro, il numero e la data di redazione del certificato",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "630bad59f05597a44f5ba70ae6d140ce0b8b3c1b2d5d8339335a9cf515890066",
+        "localized_text": "限速器安装证明副本必须注明证明编号和日期等信息。"
+      },
+      {
+        "source": {
+          "number": 28645,
+          "quesito_id": 6108,
+          "text_it": "Sulla copia del certificato di installazione del limitatore di velocità devono risultare, tra l’altro, il numero di omologazione e di matricola del limitatore",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "81c3a87757c178b60f1699a8d94fe76f2097223c4424a07ab75caad5840b09d2",
+        "localized_text": "限速器安装证明副本必须注明限速器的批准编号和序列号等信息。"
+      },
+      {
+        "source": {
+          "number": 28646,
+          "quesito_id": 6108,
+          "text_it": "Sulla copia del certificato di installazione del limitatore di velocità devono risultare, tra l’altro, il numero di telaio e di targa del veicolo su cui è montato",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "04970df26af25c78b66cf5048d83ab4f07b0313978c43ee3d70cd92892d05fd0",
+        "localized_text": "限速器安装证明副本必须注明安装车辆的底盘号和车牌号等信息。"
+      },
+      {
+        "source": {
+          "number": 28647,
+          "quesito_id": 6108,
+          "text_it": "Sulla copia del certificato di installazione del limitatore di velocità deve risultare, tra l’altro, la dichiarazione che il limitatore è stato omologato per il tipo di veicolo su cui è montato",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "32caf01e17dab243a2ef0459073af26ae0d8e046fd25ee48bab42e91675ed965",
+        "localized_text": "限速器安装证明副本必须包含该限速器已获准用于所安装车辆类型的声明等内容。"
+      },
+      {
+        "source": {
+          "number": 28648,
+          "quesito_id": 6108,
+          "text_it": "Il limitatore di velocità non deve essere montato sugli autobus che effettuano servizio pubblico urbano",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a3968b55a6fe36a53bfbec870b8ea21e837d4eb66e8b13f8056618eef6629716",
+        "localized_text": "执行城市公共服务的巴士不得安装限速器。"
+      },
+      {
+        "source": {
+          "number": 28649,
+          "quesito_id": 6108,
+          "text_it": "Il limitatore di velocità deve essere montato su tutti gli autocarri, di massa complessiva a pieno carico superiore a 3,5 tonnellate, immatricolati dopo il 1 ottobre 2001",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4c4a4594ccc0d5f0f047111fd923100599bab55544d739abbfbd98c7600bd510",
+        "localized_text": "2001年10月1日之后注册、满载总质量超过3.5吨的所有卡车都必须安装限速器。"
+      },
+      {
+        "source": {
+          "number": 28650,
+          "quesito_id": 6108,
+          "text_it": "Su un veicolo dotato di motore Diesel, il limitatore di velocità interviene sulla mandata della pompa di iniezione oppure degli iniettori pompa",
+          "answer": 1,
+          "page": 79,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9666598625a49d1498f04fa31c5f172479b2e395d68891ec154d77a0325d38d0",
+        "localized_text": "在柴油车辆上，限速器作用于喷油泵或泵喷嘴的供油。"
+      }
+    ],
+    "task_sha256": "6dbda8ed4df9f77c43f9505093426bd2b83e6376a95359020213cd6d6d395afc"
+  },
+  "rows": [
+    {
+      "number": 28626,
+      "text": "一般比较而言，电磁缓速器较重：它包含旋转的金属部件和线圈，而液力缓速器利用液体阻力。",
+      "evidence": [
+        "https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf — Egaf, Impianto di frenatura, p. 36: struttura e confronto generale del peso."
+      ]
+    },
+    {
+      "number": 28627,
+      "text": "一般而言，电磁缓速器承受的制动负荷较小，必须散去产生的热量；液力缓速器将热量传给冷却回路。",
+      "evidence": [
+        "https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf — Egaf, Impianto di frenatura, p. 36: carichi generalmente minori e scambiatore olio-acqua."
+      ]
+    },
+    {
+      "number": 28628,
+      "text": "液力缓速器通过液体使传动系统减速，并不直接操纵车轮制动部件。",
+      "evidence": [
+        "https://www.zf.com/products/en/cv/products_76431.html — Intarder idrodinamico integrato nel cambio, frena senza usura e alleggerisce i freni di servizio."
+      ]
+    },
+    {
+      "number": 28629,
+      "text": "保养应遵循制造商说明：液压回路使用油液，可能需要专门维护，但没有规定必须定期放油并用除油剂清洗。",
+      "evidence": [
+        "https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf p.37: manutenzione e pulizia da polvere e terriccio; non prescrive svuotamento con sgrassante.",
+        "https://www.zf.com/products/en/cv/products_76431.html circuito olio integrato; manutenzione specifica secondo modello."
+      ]
+    },
+    {
+      "number": 28630,
+      "text": "缓速器可以与发动机制动同时使用，两套系统都能帮助车辆减速。",
+      "evidence": [
+        "https://www.scania.com/content/dam/scanianoe/market/tz/experience-scania/publications/Scania-News-5.pdf — Scania News, integrazione del retarder con freno allo scarico e cambio."
+      ]
+    },
+    {
+      "number": 28631,
+      "text": "液力缓速器产生的热量通过热交换器传给车辆冷却回路，而不是直接传给空气。",
+      "evidence": [
+        "https://redirect.voith.com/index2.php?R=Q2906431QB81598E8 — Voith, trasferimento del calore dal retarder al circuito di raffreddamento attraverso uno scambiatore."
+      ]
+    },
+    {
+      "number": 28632,
+      "text": "题库判为错误：电磁缓速器耗电本身不能证明液压式更普及。两种系统在安装集成、供电及散热方式上有所不同。",
+      "evidence": [
+        "https://www.zf.com/products/en/cv/products_76431.html ritardatore idrodinamico integrato nella trasmissione e raffreddamento a olio.",
+        "https://fr.telma.com/produits/accessoires sistema elettronico di comando e potenza del rallentatore elettromagnetico."
+      ]
+    },
+    {
+      "number": 28633,
+      "text": "缓速器是传动系统的辅助制动装置，独立于操纵行车制动器的气液制动回路。",
+      "evidence": [
+        "https://www.zf.com/products/en/cv/products_76431.html — Intarder idrodinamico integrato nel cambio, frena senza usura e alleggerisce i freni di servizio."
+      ]
+    },
+    {
+      "number": 28634,
+      "text": "题库判为错误：液压缓速器并非在所有车辆上都更容易安装。液压式可能与变速箱及冷却系统集成，电磁式需要电气连接；具体取决于车型。",
+      "evidence": [
+        "https://www.zf.com/products/en/cv/products_76431.html idrodinamico integrato nel cambio.",
+        "https://fr.telma.com/produits/accessoires sistema di comando e potenza elettrico per rallentatore elettromagnetico."
+      ]
+    },
+    {
+      "number": 28635,
+      "text": "限速器控制发动机的燃油供给；在喷射系统中，它可通过控制喷油量限制车速。",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A31992L0024 — direttiva 92/24/CEE, allegato I, punti 2.5 e 7.1.2: regolazione del carburante e protezione contro modifiche non autorizzate."
+      ]
+    },
+    {
+      "number": 28636,
+      "text": "限速器通过调节发动机的燃油供给，使车速保持在规定值，而不使用行车制动器的正常操纵装置。",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A31992L0024 — direttiva 92/24/CEE, allegato I, punti 2.5 e 7.1.2: regolazione del carburante e protezione contro modifiche non autorizzate."
+      ]
+    },
+    {
+      "number": 28637,
+      "text": "单独安装时，应使用经过型式批准的装置，并由指定且获授权的维修厂安装，不能随意安装。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=05A01775&atto.dataPubblicazioneGazzetta=2005-03-02&atto.tipoProvvedimento=DECRETO — DM 19 novembre 2004, art. 1, lettere b), c), e): soglie e officine autorizzate."
+      ]
+    },
+    {
+      "number": 28638,
+      "text": "题库判定正确，但2005年有关安装车间的部级通函说明，该安装程序不要求更新行驶证。车间会出具安装证明，其中一份须随车保存。 其他改装可能适用不同程序，应核查具体规定。",
+      "evidence": [
+        "https://rivistagiuridica.aci.it/fileadmin/Documenti/1000001121_02.pdf circolare MIT 23 maggio 2005 prot.2580/M368, p.2: per la procedura di montaggio descritta non è previsto aggiornamento carta; certificato in copia a bordo.",
+        "https://www.gazzettaufficiale.it/eli/gu/2005/05/11/108/sg/pdf DM 2 maggio 2005 art.4(2): certificato e copia a bordo.",
+        "MIT circolare 89803 del 2 ottobre 2007, https://mit.gov.it/index.php/normativa/circolare-numero-89803-del-02102007 : per la diversa procedura di disattivazione/deroga dei veicoli di viabilità autostradale prevede visita e aggiornamento; accesso diretto 502, testo indicizzato verificato, non prova che il montaggio ordinario richieda aggiornamento."
+      ]
+    },
+    {
+      "number": 28639,
+      "text": "设定值必须防止未经授权的干预，使车辆使用时不能提高或改变限速值。",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A31992L0024 — direttiva 92/24/CEE, allegato I, punti 2.5 e 7.1.2: regolazione del carburante e protezione contro modifiche non autorizzate."
+      ]
+    },
+    {
+      "number": 28640,
+      "text": "对须安装限速器的客车，规定的限速值为每小时100公里；道路通行限速是另一回事。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=05A01775&atto.dataPubblicazioneGazzetta=2005-03-02&atto.tipoProvvedimento=DECRETO — DM 19 novembre 2004, art. 1, lettere b), c), e): soglie e officine autorizzate."
+      ]
+    },
+    {
+      "number": 28641,
+      "text": "对须安装限速器的N2和N3类货车，限速器应将车速限制在每小时90公里。道路通行限速可能更低。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=05A01775&atto.dataPubblicazioneGazzetta=2005-03-02&atto.tipoProvvedimento=DECRETO — DM 19 novembre 2004, art. 1, lettere b), c), e): soglie e officine autorizzate."
+      ]
+    },
+    {
+      "number": 28642,
+      "text": "对于法令规定的安装，证书的一份副本留在车上供路检和定期检验使用，另一份由维修厂保存。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/2005/05/11/108/sg/pdf — decreto 2 maggio 2005, art. 4 comma 2: contenuto del certificato e copia da conservare a bordo."
+      ]
+    },
+    {
+      "number": 28643,
+      "text": "题库判定正确。按该法令规定的程序，车间在需要时加装封印并出具安装证明，其中一份须随车保存。该法令没有规定必须另备一份封印证明，也未规定安装证明必须证明封印的加装。",
+      "evidence": [
+        "Decreto MIT 2 maggio 2005 art. 4(2), https://www.gazzettaufficiale.it/eli/gu/2005/05/11/108/sg/pdf, pp. 45–46: dopo installazione e sigillatura ove ricorra, officina redige certificato; una copia va a bordo. Il testo elenca i contenuti senza imporre un’attestazione separata o dire che il certificato debba attestare i sigilli."
+      ]
+    },
+    {
+      "number": 28644,
+      "text": "编号和日期用于识别安装证书，证书副本须保存在车上。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/2005/05/11/108/sg/pdf — decreto 2 maggio 2005, art. 4 comma 2: contenuto del certificato e copia da conservare a bordo."
+      ]
+    },
+    {
+      "number": 28645,
+      "text": "证书记录型式批准编号和序列号，以识别获批准的型号及安装的具体限速器。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/2005/05/11/108/sg/pdf — decreto 2 maggio 2005, art. 4 comma 2: contenuto del certificato e copia da conservare a bordo."
+      ]
+    },
+    {
+      "number": 28646,
+      "text": "车架号和车牌号将证书与安装限速器的具体车辆对应起来。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/2005/05/11/108/sg/pdf — decreto 2 maggio 2005, art. 4 comma 2: contenuto del certificato e copia da conservare a bordo."
+      ]
+    },
+    {
+      "number": 28647,
+      "text": "证书中的声明确认该限速器已获准安装在该类型车辆上。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/2005/05/11/108/sg/pdf — decreto 2 maggio 2005, art. 4 comma 2: contenuto del certificato e copia da conservare a bordo."
+      ]
+    },
+    {
+      "number": 28648,
+      "text": "题库判定正确表示无需强制安装，并非禁止安装限速器。欧盟指令将仅用于城市公共服务的车辆排除在其适用范围之外。",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A31992L0006 direttiva 92/6/CEE art.6: esclusione dal campo per veicoli usati solo per servizi pubblici nelle aree urbane; esenzione non equivale a divieto."
+      ]
+    },
+    {
+      "number": 28649,
+      "text": "题库判定正确，但2001年10月后登记、超过3.5吨的货车并非一律适用相同规定。法令区分车辆类别、日期和2001至2004年车辆的排放条件，并有分阶段适用和豁免用途；2005年起规定新登记的N2和N3车辆。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=05A01775&atto.dataPubblicazioneGazzetta=2005-03-02&atto.tipoProvvedimento=DECRETO DM 19 novembre 2004 art.1 lettere c–d, modifica artt.3–4: categorie N2/N3, immatricolazioni dal 2005, veicoli 2001–2004 conformi ai limiti emissioni e applicazione progressiva; eccezioni restano rilevanti.",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A31992L0006 direttiva 92/6/CEE art.6: categorie esenti."
+      ]
+    },
+    {
+      "number": 28650,
+      "text": "在柴油系统中，限速器可根据所装系统，控制喷油泵的供油量或泵喷嘴，以减少燃油供给。",
+      "evidence": [
+        "https://www.truckspares365.co.uk/hub/wp-content/uploads/2022/08/030402en-1.pdf — Scania, Fuel quantity and injection timing, p. 7: controllo elettronico della quantità degli iniettori pompa e funzione limitatore.",
+        "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A31992L0024 — direttiva 92/24/CEE allegato I, punto 2.5: controllo dell’alimentazione carburante."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "6dbda8ed4df9f77c43f9505093426bd2b83e6376a95359020213cd6d6d395afc",
+    "output_sha256": "af3f8ffdabb314cc1efbb3171bca7c1a6e6eba4072527475e5b1f148cab749d8",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      28626,
+      28627,
+      28628,
+      28629,
+      28630,
+      28631,
+      28632,
+      28633,
+      28634,
+      28635,
+      28636,
+      28637,
+      28638,
+      28639,
+      28640,
+      28641,
+      28642,
+      28643,
+      28644,
+      28645,
+      28646,
+      28647,
+      28648,
+      28649,
+      28650
+    ],
+    "issues": [],
+    "review_evidence": [
+      "2005 decree article 4 verified in the Gazzetta official edition indexed text. Scania injection manual verified through indexed exact source after direct browser redirect failed. Voith URL redirects to Driventic truck retarder page, whose technical section confirms heat exchanger and cooling circuit.",
+      "28643 corrected consistently with the decree, article 4(2); reconstructing the original row reproduces the round-one fingerprint, establishing that no other draft rows changed."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eab5-4abe-7b12-b78b-091638f9931f",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "039b67ffc1fd9b02cc721c111b4befc21c43884c27ed919110bab921cc35f48e",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eab5-4abe-7b12-b78b-091638f9931f",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28643,
+              "reason": "Il verdetto VERO richiede una copia a bordo dell’attestazione dei sigilli senza condizioni. La disciplina verificata richiede la copia del certificato di installazione e la sigillatura ove necessaria; non chiarisce un obbligo generale di portare una distinta attestazione dei sigilli.",
+              "checked_sources": [
+                "https://www.gazzettaufficiale.it/eli/gu/2005/05/11/108/sg/pdf — decreto 2 maggio 2005, art. 4 commi 1-2: sigilli ove ricorra e copia del certificato di installazione a bordo.",
+                "https://www.gazzettaufficiale.it/eli/gu/2023/04/21/94/sg/pdf — prescrizioni sui sigilli del tachigrafo e giustificazione scritta della rimozione."
+              ]
+            },
+            {
+              "number": 28648,
+              "reason": "Il quesito dice che il limitatore non deve essere montato sugli autobus urbani, mentre la direttiva esclude dall’obbligo i veicoli che assicurano un servizio pubblico esclusivamente urbano: non chiarisce un divieto di montaggio.",
+              "checked_sources": [
+                "https://eur-lex.europa.eu/legal-content/it/ALL/?uri=CELEX%3A31992L0006 — direttiva 92/6/CEE art. 6: esenzione per servizio pubblico esclusivamente urbano."
+              ]
+            },
+            {
+              "number": 28649,
+              "reason": "Il VERO riguarda tutti gli autocarri oltre 3,5 t immatricolati dopo il 1 ottobre 2001, ma per N2 il decreto condiziona l’applicazione ai veicoli del periodo 2001–2004 alla conformità a specifici valori di emissione e prevede scadenze differenziate; inoltre esistono esenzioni. La portata assoluta resta da adjudicare.",
+              "checked_sources": [
+                "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=05A01775&atto.dataPubblicazioneGazzetta=2005-03-02&atto.tipoProvvedimento=DECRETO — DM 19 novembre 2004 art. 1 lettera d), art. 4 sostituito: requisiti di emissione e scadenze.",
+                "https://eur-lex.europa.eu/legal-content/it/ALL/?uri=CELEX%3A31992L0006 — direttiva 92/6/CEE art. 6: categorie e impieghi esenti."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "039b67ffc1fd9b02cc721c111b4befc21c43884c27ed919110bab921cc35f48e",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "6dbda8ed4df9f77c43f9505093426bd2b83e6376a95359020213cd6d6d395afc",
+        "output_sha256": "b14d491d4ab82548ec731aacd9ecae1afccf6239c653bf87b32aa56fea735f84",
+        "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          28626,
+          28627,
+          28628,
+          28629,
+          28630,
+          28631,
+          28632,
+          28633,
+          28634,
+          28635,
+          28636,
+          28637,
+          28638,
+          28639,
+          28640,
+          28641,
+          28642,
+          28643,
+          28644,
+          28645,
+          28646,
+          28647,
+          28648,
+          28649,
+          28650
+        ],
+        "issues": [
+          {
+            "number": 28643,
+            "reason": "The 2005 decree article 4(2) says seals are applied where applicable before issuing the installation certificate; the specified certificate contents do not state that it attests the seals. The separate MIT inspector quiz repeats the attestation assertion but is not independent documentary evidence. Keep the scoped certificate and seals information, but do not assert the certificate itself attests seals without a supporting primary source."
+          }
+        ],
+        "review_evidence": [
+          "2005 decree article 4 verified in the Gazzetta official edition indexed text. Scania injection manual verified through indexed exact source after direct browser redirect failed. Voith URL redirects to Driventic truck retarder page, whose technical section confirms heat exchanger and cooling circuit."
+        ]
+      }
+    ]
+  }
+}

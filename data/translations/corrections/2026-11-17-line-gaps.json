@@ -1,0 +1,66 @@
+{
+  "draft": {
+    "status": "draft_unreviewed",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "rows": [
+      {
+        "id": "95cccf383f4db1a37fab0f33b946452eccb0ccdba2033370f6a5f8aa9f75a9bf",
+        "it": "Quando, su una strada a doppio senso di circolazione, è presente la segnaletica raffigurata, è possibile oltrepassare la striscia solo nei tratti in cui è interrotta",
+        "question_numbers": [
+          26277
+        ],
+        "answer": 0,
+        "translations": {
+          "es-419": {
+            "current": "Cuando en una vía de doble sentido está presente la señalización mostrada, solo se puede cruzar la línea en los tramos donde es discontinua",
+            "proposed": "Cuando en una vía de doble sentido está presente la señalización mostrada, solo se puede cruzar la línea por los espacios entre sus trazos pintados"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/inputs/official/2026-11-14/conseguimento-am-it.pdf, SHA256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30, PDF page 111, question 26277",
+            "support": "PDF text and printed FALSO inspected. The Italian says only where the line is interrupted."
+          },
+          {
+            "reference": "data/source/images/803b597c70fe2373338d9e43747b19e881c7d28705ba9276b82d95293640a335.png",
+            "support": "Visually inspected figure: a two-way road marked with a broken center line, composed of painted dashes separated by gaps."
+          },
+          {
+            "reference": "data/translations/es-419/112.csv",
+            "support": "Existing exact source ID and Spanish baseline verified."
+          }
+        ],
+        "reason": "The current Spanish can refer to an entire discontinuous-line section rather than the interruptions between painted dashes. The proposed wording preserves the claimed restriction to the gaps and the exclusive solo; it does not correct the printed false claim."
+      }
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "draft_sha256": "e6f01abd943929d25acf845a35c989cc4cfea6919541aa41bfb233f6aba862e2",
+    "draft_sha256_method": "SHA256 UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_file_sha256": "26d77a1948e7264b83283e85daa27bff69c1421a72900758a6edc1e72be352fb",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "checked_pairs": [
+      [
+        "95cccf383f4db1a37fab0f33b946452eccb0ccdba2033370f6a5f8aa9f75a9bf",
+        "es-419"
+      ]
+    ],
+    "pair_assessments": [
+      {
+        "id": "95cccf383f4db1a37fab0f33b946452eccb0ccdba2033370f6a5f8aa9f75a9bf",
+        "language": "es-419",
+        "result": "accepted",
+        "finding": "The proposed wording preserves the two-way road, depicted marking, possibility, and exclusive restriction to the interruptions between painted segments. It preserves the false proposition rather than supplying the correct rule. The prior Spanish can be read as referring to the whole dashed-line section."
+      }
+    ],
+    "issues": [],
+    "source_checks": [
+      "Inspected the original AM PDF viewer page 111: question 26277 exactly matches the draft and is marked FALSO; the figure shows a single dashed center line.",
+      "Verified the linked source figure SHA-256 and AM figures.csv question link; visually inspected the image.",
+      "Verified the existing es-419/112.csv source ID and baseline, and recomputed the Italian text ID."
+    ],
+    "assessment": "The proposed phrasing makes the asserted restriction to interruptions explicit while retaining solo and the printed false premise; it does not import an explanation or alter the verdict."
+  }
+}

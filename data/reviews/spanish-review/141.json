@@ -1,0 +1,31 @@
+{
+  "batch": "141",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "6717edbf770cf702ee3f6f1c0c2f61bf37977a1fa3ce115b21c36ae15c99a85a",
+  "source_sha256": "2abd1b38cfd6fd98859603a16013ec142c2d19653dc72726fb5572901e55ce8b",
+  "corrections": [
+    {
+      "id": "bb156b209cd614eaa829594888dd2ea6a9e9b09065acdcb6a37b9cbeeb168431",
+      "before": "El certificado de aptitud para conducir trolebuses no contiene ninguna referencia a la licencia que posee su titular",
+      "after": "El certificado de aptitud para conducir vehículos eléctricos sin rieles alimentados por línea aérea no contiene ninguna referencia a la licencia que posee su titular",
+      "reason": "Filoveicoli abarca vehículos eléctricos sin rieles alimentados por línea aérea, no solo trolebuses ni tranvías."
+    },
+    {
+      "id": "bb46194c33e8c308957fac61c34e70e53bb62a7c25ab8e0c88c460b900265f82",
+      "before": "La inmigración clandestina también involucra la trata de personas y puede alimentar el mercado laboral informal",
+      "after": "La inmigración clandestina también involucra el tráfico de seres humanos y puede alimentar el mercado laboral informal",
+      "reason": "Tráfico de seres humanos conserva el alcance del original sin limitarlo a la trata."
+    }
+  ],
+  "reviewed_file_sha256": "f4f8345a5c69cb9af9ef6d205c9f74436e8e7b86b1c6d77897f8d4cc3dfe73ec"
+}

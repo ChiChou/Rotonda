@@ -1,0 +1,37 @@
+{
+  "batch": "019",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9f71bd406933dfddf2e9b0ea662c0eeb4580cf44123ec597f174d3319ecc7f49",
+  "source_sha256": "4b8173b4a25b1a26b219d76bdce91e1eb3ebb3475d9bc7435a6eb06549bc7650",
+  "corrections": [
+    {
+      "id": "19a353e19e4db89518be1fe7972977952ebcdef3662b1575206ce0f31be986d6",
+      "before": "La función fuera de ámbito, que desactiva el cronotacógrafo digital, debe utilizarse cuando el aparato está dañado",
+      "after": "La función «out of scope» (desactivación del cronotacógrafo digital) debe utilizarse cuando el cronotacógrafo está dañado",
+      "reason": "Restituye el nombre original de la función junto con su explicación."
+    },
+    {
+      "id": "19de56a0e892e4a67ebad1dc58377003ee45b00a19aef8ed39016b513e4c6423",
+      "before": "La modificación de una carrocería para transportar alimentos perecederos a temperatura controlada requiere aprobación específica después de una inspección y prueba en la oficina de Motorización Civil competente",
+      "after": "La modificación de una carrocería para transportar alimentos perecederos a temperatura controlada requiere aprobación específica después de una inspección y prueba en la UMC (oficina de Motorización Civil) competente",
+      "reason": "Restituye la sigla UMC junto con su explicación."
+    },
+    {
+      "id": "1a7e6a56077443b62ee3c1e297f1a99e0929168a1a3951e7f52699cb5f9bbb82",
+      "before": "La falta de cobertura del seguro de responsabilidad civil automotor conlleva una sanción para el propietario y el usuario del vehículo",
+      "after": "La falta de cobertura del seguro de responsabilidad civil automotor (RCA) conlleva una sanción para el propietario y el usuario del vehículo",
+      "reason": "Restituye la sigla RCA incluida en el original."
+    }
+  ],
+  "reviewed_file_sha256": "f3d07327a681e7d9256e74c6f51881bd713ea6d068ff95bac25279316ae2e046"
+}

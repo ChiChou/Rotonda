@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed97-0f22-7d41-ad54-e2ff612f2646"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 15304,
+          "quesito_id": 3235,
+          "text_it": "Per effettuare trasporti combinati si utilizzano autoveicoli con carrozzeria cisterna",
+          "answer": 0,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c9c0a0e0ee4e0690731937d9aa904dbc37f7e04f7a0eec7ab73778d247e51904",
+        "italian": "FALSO secondo il quiz se si intende che la carrozzeria cisterna sia necessaria: nel combinato si usano anche container e casse mobili. La frase è ambigua, perché non esclude esplicitamente che possano essere impiegati veicoli cisterna.",
+        "italian_sha256": "55db1c1ead98fd123afe03feedacc76a95217da0349f84cda405d9c75ec1e646"
+      },
+      {
+        "source": {
+          "number": 15308,
+          "quesito_id": 3236,
+          "text_it": "Il pallet consente rapide operazioni di trasbordo della merce",
+          "answer": 1,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "65e453a42ee9054695406127c2fa3c3420bb902e375d6b09fc2c93bd10f2ccb0",
+        "italian": "VERO. Il pallet raggruppa la merce in un carico unitario, che può essere movimentato con mezzi meccanici, rendendo più rapide le operazioni di trasbordo.",
+        "italian_sha256": "b3af0c0b71182c6472b27601bc2c4125f62768749772888ea448c7047106092a"
+      },
+      {
+        "source": {
+          "number": 15309,
+          "quesito_id": 3236,
+          "text_it": "Il pallet è definito anche pedana o bancale",
+          "answer": 1,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "94166fba0c90e24b8141c881b5028b53469f92760b49c60c0ce3105b08763439",
+        "italian": "Il pallet è una piattaforma di carico, chiamata anche pedana o bancale, che facilita la movimentazione delle merci.",
+        "italian_sha256": "b1dc9856339734b6539bf78759856021e40b2685877d84981ba91516e3b4360d"
+      },
+      {
+        "source": {
+          "number": 15313,
+          "quesito_id": 3236,
+          "text_it": "Il pallet è una gabbia di ferro",
+          "answer": 0,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "75d978adb5a17c5b15e5ebbd3f9f9061ed0707c4746c7a34576a37ce79303272",
+        "italian": "Il pallet non è definito come una gabbia di ferro: è una pedana su cui si raccolgono le merci per movimentarle.",
+        "italian_sha256": "ca65994c80705ae860cdaf63c231fd3e5a901b51d8ebddf728a27be10b3c71a9"
+      },
+      {
+        "source": {
+          "number": 15316,
+          "quesito_id": 3237,
+          "text_it": "I pallet caricati con merci sono movimentabili con il transpallets",
+          "answer": 1,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b0f6e91ea08344b7e9ef4ba513a76a065eff193afe91d9f1a0a74868eeb668cd",
+        "italian": "Il transpallet, manuale o motorizzato, serve a sollevare e spostare i pallet carichi, se adatto al peso e al tipo di pallet.",
+        "italian_sha256": "ce35907bfdc48254bc21ec0ab49840fdf7808d1f29d623e2933a88e269cf3a37"
+      },
+      {
+        "source": {
+          "number": 15337,
+          "quesito_id": 3241,
+          "text_it": "L’uso di autoarticolati è particolarmente indicato nel caso di trasporto intermodale",
+          "answer": 1,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "77deb169e571220fb71e5f4d4fab8e94f6933fbffac48cd30c987414af6aadc9",
+        "italian": "Nel trasporto intermodale il semirimorchio può proseguire su un altro mezzo, senza trasferire individualmente le merci: per questo l’autoarticolato è adatto.",
+        "italian_sha256": "6f739515314b99361e0d4fc1bb586254588dbddc69fdcaafef80a1aa158a23df"
+      },
+      {
+        "source": {
+          "number": 15338,
+          "quesito_id": 3241,
+          "text_it": "L’uso di autoarticolati è particolarmente indicato in caso di frazionamento del viaggio",
+          "answer": 1,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7fe596ea3ed15dee3b9471c9126d442d6e47d871bb49a19ee455ad297ea63bc6",
+        "italian": "Se il viaggio è suddiviso in tratte, il semirimorchio può essere sganciato e affidato a un’altra trattrice, mantenendo il carico a bordo.",
+        "italian_sha256": "a78c70a66f3cbc79fddb92b7a9c84a87b6a30e6e367b2154ef2c60906a4b914e"
+      },
+      {
+        "source": {
+          "number": 15339,
+          "quesito_id": 3241,
+          "text_it": "L’uso dell’autotreno è particolarmente indicato nel caso di frazionamento del carico",
+          "answer": 1,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c21e4c96558f65b6bcabbc5f24501e648ec9da475693578643e455326442ec5d",
+        "italian": "Nell’autotreno il carico può essere ripartito tra motrice e rimorchio, rendendo possibile separare le due parti del carico.",
+        "italian_sha256": "72d38e91adc96295244fd9cfd09617d015c104682255f778bff905b3602a037d"
+      },
+      {
+        "source": {
+          "number": 15340,
+          "quesito_id": 3241,
+          "text_it": "Il vantaggio dell’autoarticolato è nella interscambiabilità del semirimorchio",
+          "answer": 1,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4f1a315fc587524012a3f8647dbc7b53564cf87d88a2ca5412e5ba4c20ba1121",
+        "italian": "Il semirimorchio può essere sganciato e abbinato a una trattrice compatibile: questa intercambiabilità facilita l’organizzazione del trasporto.",
+        "italian_sha256": "bc8d53cd1fedc61626c2ed2aa91a4032b61f9d2754b8f91371d83ecb3dfd4d42"
+      },
+      {
+        "source": {
+          "number": 15341,
+          "quesito_id": 3241,
+          "text_it": "L’uso dell’autoarticolato è particolarmente indicato quando si trasporta un esigua quantità di merce",
+          "answer": 0,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a1bfa354c064888c11afb408880f02c5639ce0db14f12098607810f985946fa4",
+        "italian": "Una quantità esigua di merce non rende particolarmente indicato un autoarticolato: la scelta dipende dal carico e dall’organizzazione del trasporto.",
+        "italian_sha256": "63e5b8372b95114647d1342498a98dba94e29175878d0c5848b3e956e64b2c19"
+      },
+      {
+        "source": {
+          "number": 15343,
+          "quesito_id": 3241,
+          "text_it": "E’preferibile il trasporto con autoarticolato invece che con autotreno se le merci trasportate hanno destinazioni in un altro Stato",
+          "answer": 0,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6548fde1e3b3c488c79fcc6b0bb221d559ea7ac249e1db8ec49dafe320307e8e",
+        "italian": "La destinazione in un altro Stato non rende di per sé preferibile l’autoarticolato: la scelta dipende dalle caratteristiche del carico e del viaggio.",
+        "italian_sha256": "e6606a5d963da1070f82e4d4f549b9b67e084d6d1586ced99ffcebbc8ba1495c"
+      },
+      {
+        "source": {
+          "number": 15350,
+          "quesito_id": 3243,
+          "text_it": "Le trattrici stradali sono veicoli per uso speciale",
+          "answer": 1,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d55c33215b23bbabfbf8cac48089efcf3fb96b35471e84633ec9d7a4b6992bd4",
+        "italian": "Le trattrici stradali figurano nell’elenco degli autoveicoli classificati per uso speciale.",
+        "italian_sha256": "a5e120a127adc2f136679e3ee11ed858da7275fccebef0bc18ea345ef36de465"
+      },
+      {
+        "source": {
+          "number": 15351,
+          "quesito_id": 3243,
+          "text_it": "Gli autoveicoli per soccorso stradale sono veicoli per uso speciale",
+          "answer": 1,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "066d148f634235271fdb36daa25e5cb038ac82333a17c6a6de4e3787f53d0e8f",
+        "italian": "Gli autoveicoli per soccorso stradale figurano nell’elenco dei veicoli per uso speciale.",
+        "italian_sha256": "842210ae1de4793dab3e843eb2bf4f0f3723bcc6880d6cee3dc700acbb91a3d4"
+      },
+      {
+        "source": {
+          "number": 15352,
+          "quesito_id": 3243,
+          "text_it": "Le autopompe per calcestruzzo sono veicoli per uso speciale",
+          "answer": 1,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "76934942a7837fa8126e5d0ed0ec74654a1dc9dfee99221524cf798975cb765c",
+        "italian": "Le autopompe per calcestruzzo figurano nell’elenco degli autoveicoli per uso speciale.",
+        "italian_sha256": "df616de7cc20ac4c061f88da7b2d5524d12ac1a26ab8a29bb7bb657dca097a3f"
+      },
+      {
+        "source": {
+          "number": 15353,
+          "quesito_id": 3243,
+          "text_it": "Le betoniere sono veicoli per uso speciale",
+          "answer": 0,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0fc24e892417a7b2daf82cf61dcce2bacd00b0c3946b01b68b2673c3ecee8d3a",
+        "italian": "La betoniera destinata al trasporto di calcestruzzo è classificata per trasporto specifico, non per uso speciale. Si distingue dall’autopompa per calcestruzzo.",
+        "italian_sha256": "9812107ba04d74e2b73451b64d08b1789e5f9d27e2b10aa5270ae2f4ec3d9d1f"
+      },
+      {
+        "source": {
+          "number": 15354,
+          "quesito_id": 3243,
+          "text_it": "I veicoli muniti di attrezzature per il trasporto di container sono veicoli per uso speciale",
+          "answer": 0,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "105ac960308b0f0b252e4187dc2c56be9fb30e3ef91e94011b4f52202953ec9a",
+        "italian": "Il veicolo attrezzato per trasportare container rientra nel trasporto specifico: la sola presenza delle attrezzature non lo rende un veicolo per uso speciale.",
+        "italian_sha256": "69563c5aa30134e4e41b6f4629b2ed058c5551c08fd9d3d38c9e47d98bd83463"
+      },
+      {
+        "source": {
+          "number": 15355,
+          "quesito_id": 3243,
+          "text_it": "I veicoli attrezzati per il trasporto esclusivo di animali vivi sono veicoli per uso speciale",
+          "answer": 0,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ca2122468b29dced915d62d031d5580d460e6aebf57a8886472d605c964baf88",
+        "italian": "Il veicolo attrezzato per trasportare esclusivamente animali vivi è destinato al trasporto specifico, non all’uso speciale.",
+        "italian_sha256": "cc201dcfd57d2032aaf81de476725a867bee339a7380f37d5e1a976f54db1966"
+      },
+      {
+        "source": {
+          "number": 15356,
+          "quesito_id": 3244,
+          "text_it": "I veicoli ad uso speciale sono esenti dalla disciplina dell’autotrasporto merci",
+          "answer": 1,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "dcbc4832eef4a73e7f76ae4d1a986141e14d06229660437776384d01dc51ea5c",
+        "italian": "Il quiz considera esenti i veicoli a uso speciale perché destinati a un’attività diversa dal trasporto di merci. L’esenzione dell’articolo 30 va però verificata per la concreta categoria e le condizioni previste dalla legge.",
+        "italian_sha256": "4e2c3d80af090614f1c6c53542936db329e03fc629b1eac3a85a54857a263a5e"
+      },
+      {
+        "source": {
+          "number": 15357,
+          "quesito_id": 3244,
+          "text_it": "I veicoli ad uso speciale sono soggetti dalla disciplina dell’autotrasporto merci",
+          "answer": 0,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8a7906429cde6bc44bf55258b70c7817aec9867aedc8ca530cb9a1347fddbccc",
+        "italian": "Il quiz considera esclusi dalla disciplina dell’autotrasporto di merci i veicoli speciali destinati ad attività diverse dal trasporto di cose. L’articolo 30 prevede tuttavia esclusioni specifiche, non un’esenzione indistinta per ogni veicolo speciale.",
+        "italian_sha256": "6a04ee4fa1cb00d5497080e534752466e36a58e0437b73ea3e3db7ab44b71109"
+      },
+      {
+        "source": {
+          "number": 15358,
+          "quesito_id": 3244,
+          "text_it": "I veicoli ad uso speciale sono esenti dalla disciplina dell’autotrasporto merci se appartenenti ad imprese iscritte all’Albo nazionale degli autotrasportatori di cose per conto di terzi",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1e36f30da3d8ed19ffe11c77003fd8e2ac644209bff7af8c3c6d246979ce3939",
+        "italian": "L’iscrizione dell’impresa all’Albo non rende automaticamente esente ogni veicolo speciale: conta se il veicolo e il trasporto rientrano nelle condizioni di esclusione previste.",
+        "italian_sha256": "7daf3d96ef476fc87325cbc2b27cbbb871cfc16396013a04034b1b57bb24e27a"
+      },
+      {
+        "source": {
+          "number": 15359,
+          "quesito_id": 3244,
+          "text_it": "I veicoli ad uso speciale sono esenti dalla disciplina dell’autotrasporto merci anche se effettuano il trasporto delle merci occasionalmente",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e455664e8c2eab02da42f23143756d27469733f6cdf033ec5f2071828a1975ea",
+        "italian": "Il solo carattere occasionale del trasporto non basta a garantire l’esenzione: occorre verificare le condizioni previste per il veicolo e il suo impiego.",
+        "italian_sha256": "cc4c3608c6214b89d85e3adaae439bfea6b3101cf14adce9d9fec2067490ba85"
+      },
+      {
+        "source": {
+          "number": 15360,
+          "quesito_id": 3245,
+          "text_it": "I mezzi d’opera non sono esenti dalla disciplina dell’autotrasporto di merci",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "518473973069d50f34915cb709d9723097c818be88062fd16a77bc653cd47a15",
+        "italian": "Il mezzo d’opera che trasporta merci è in generale soggetto alla disciplina dell’autotrasporto; esistono esclusioni per particolari veicoli e impieghi previsti dalla legge.",
+        "italian_sha256": "ce1e9de19da91f01f28680ab2b3108793091b5863d3cfbb057cd031bac8fe7fc"
+      },
+      {
+        "source": {
+          "number": 15361,
+          "quesito_id": 3245,
+          "text_it": "I mezzi d’opera in dotazione alle Regioni per il soddisfacimento delle esigenze interne dell’Ente, sono esenti dalla disciplina dell’autotrasporto di merci",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "18324c3aba30b395c1d01c80f8fb1d2647893e61114d8a7970699954464ec739",
+        "italian": "L’esclusione riguarda gli autoveicoli di proprietà della Regione destinati esclusivamente al trasporto necessario alle sue esigenze interne. Il solo fatto di essere in dotazione non precisa, però, la proprietà richiesta dalla norma.",
+        "italian_sha256": "58e58fb27a57ef9c5e8ccfcda742d744868acd1b35c7d05a0e722ea7dfc9722b"
+      },
+      {
+        "source": {
+          "number": 15363,
+          "quesito_id": 3245,
+          "text_it": "I mezzi d’opera sono esenti dalla disciplina dell’autotrasporto di merci",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ebda0175d6c5d88d07da952aeedbcc2ed2dced64690e8042791bdf7b3c0d4d2b",
+        "italian": "La qualifica di mezzo d’opera non comporta da sola l’esenzione: se trasporta merci si applica in generale la disciplina, salvo specifiche esclusioni di legge.",
+        "italian_sha256": "32bb3e2558c21a366f20ca7ffba7df63392b3225c65900b9e4d4e09cbb574d6e"
+      },
+      {
+        "source": {
+          "number": 15364,
+          "quesito_id": 3245,
+          "text_it": "I mezzi d’opera sono esenti dalla disciplina dell’autotrasporto di merci se eccedenti le masse legali",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7194c22bcf8ef669702a64383502d311f84cb6ed9867e777ce9988f72066486e",
+        "italian": "Il superamento delle masse ordinarie non è una causa generale di esenzione dalla disciplina dell’autotrasporto: contano la destinazione e le condizioni previste dalla legge.",
+        "italian_sha256": "5daf17a553ef7d4c73c36b2d2051efeefb2818df5abb18cc859d1a6f7ccfe771"
+      },
+      {
+        "source": {
+          "number": 15365,
+          "quesito_id": 3245,
+          "text_it": "I mezzi d’opera sono immatricolabili soltanto in conto proprio",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "35fcf3cf7513f03bf44dce1b344a7cf0030557d4ee356795e54f8ed325a92330",
+        "italian": "FALSO. I mezzi d’opera possono essere utilizzati anche per trasporti in conto terzi, nel rispetto dei titoli e delle condizioni applicabili.",
+        "italian_sha256": "2182159c9bd29359f772290566ddf36421024374a3ec21f0d95b229450b7b843"
+      },
+      {
+        "source": {
+          "number": 15366,
+          "quesito_id": 3246,
+          "text_it": "Gli autoveicoli per uso speciale sono sempre esenti dalla disciplina dell’autotrasporto di merci",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "12f5d7f6010e0a9518a5afb43e01d85e3300f70f85796dcda74b2b7f9b50f7be",
+        "italian": "VERO, nel senso previsto dal quiz per i veicoli effettivamente classificati a uso speciale e impiegati secondo tale destinazione. La legge esclude i veicoli speciali non adibiti al trasporto di cose; la parola «sempre» non elimina i limiti di impiego.",
+        "italian_sha256": "0038c62288f576dd2039b5a677bdae722d6b456cb6a9a3572e8b3b9da3815b64"
+      },
+      {
+        "source": {
+          "number": 15367,
+          "quesito_id": 3246,
+          "text_it": "Gli autoveicoli per uso speciale adibiti a soccorso stradale sono esenti dalla disciplina dell’autotrasporto di merci",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "59562a5a1ff5b3c9b00950d0026df34408318ac17829ccbca8f26ce8c09a79c9",
+        "italian": "VERO. Il veicolo di soccorso stradale rientra fra i veicoli speciali esclusi dalla disciplina dell’autotrasporto di cose, se impiegato secondo la propria destinazione.",
+        "italian_sha256": "9e07bce8315dbeaa3da54a9863030b194dd192cfa588382e36d8e51113130c11"
+      },
+      {
+        "source": {
+          "number": 15368,
+          "quesito_id": 3246,
+          "text_it": "Gli autoveicoli adibiti al carico, compattazione trasporto e scarico di rifiuti solidi urbani, sono esenti dalla disciplina dell’autotrasporto di merci perché ad uso speciale",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9c4ee4160e6a114fbb2574540d59d3efcaf114ca9488d9b1651fd4adc9cc73aa",
+        "italian": "Il trasporto di rifiuti urbani non è automaticamente esente dalla disciplina dell’autotrasporto perché svolto con un veicolo attrezzato: occorre valutare il servizio e le condizioni applicabili.",
+        "italian_sha256": "d497ebd7fcc7f9569ef8a87eafdd500431fa7d3bdd7ad7aa0f37e2d7e4b31b83"
+      },
+      {
+        "source": {
+          "number": 15369,
+          "quesito_id": 3247,
+          "text_it": "Gli autoveicoli ad uso speciale sono esenti dalla disciplina dell’autotrasporto di cose in conto proprio.",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8776b37ae80374e971f93b9f5526ad6a986cd0d6fe730d85d7537881b3c7f046",
+        "italian": "VERO. I veicoli a uso speciale, impiegati secondo la loro destinazione e non come normali veicoli per il trasporto di cose, sono esclusi dalla disciplina indicata.",
+        "italian_sha256": "a6e082ea5b98544eb37fff8ac139f3e3e269ec49152e734932f3c561e73e7856"
+      },
+      {
+        "source": {
+          "number": 15370,
+          "quesito_id": 3247,
+          "text_it": "Gli autoveicoli di proprietà dello Stato, Regioni, Province e Comuni,destinati esclusivamente al trasporto di cose necessarie al soddisfacimento delle esigenze dell’Ente, sono esenti dalla disciplina dell’autotrasporto di cose in conto proprio.",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ab1c5fab3492060fbb6b3a825bc2bbaa88992dc091e580e8f93130b621e9b740",
+        "italian": "VERO. I veicoli degli enti indicati, destinati esclusivamente alle necessità dell’ente proprietario, sono esclusi dalla disciplina dell’autotrasporto di cose.",
+        "italian_sha256": "e1894743e9448c366b130daf52675a6ce9b06674de643ed1b5231d08d407be9e"
+      },
+      {
+        "source": {
+          "number": 15371,
+          "quesito_id": 3247,
+          "text_it": "Gli autoveicoli adibiti al trasporto di cose di massa complessiva pari a 7,5 t sono esenti dalla disciplina dell’autotrasporto di cose in conto proprio",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cb19916cccfbbb6477645c956b35687deb0b18be55511fa2b9864034f6c84d88",
+        "italian": "FALSO. La soglia di esenzione è 6 t di massa complessiva a pieno carico: un veicolo di 7,5 t la supera.",
+        "italian_sha256": "d42e49107ac293ea37061ae7bc90f9cb94e63f445621c51753b8ae8dabc49095"
+      },
+      {
+        "source": {
+          "number": 15372,
+          "quesito_id": 3247,
+          "text_it": "Gli autoveicoli adibiti al trasporto di cose prodotte in uno Stato estero sono esenti dalla disciplina dell’autotrasporto di cose in conto proprio.",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "94579feb10362844605d1c35437f92dadf16d4427b5749898bffa636b16d94c8",
+        "italian": "FALSO. La provenienza estera delle cose non determina l’esenzione: il conto proprio dipende dalle condizioni del trasporto e dal rapporto con le merci.",
+        "italian_sha256": "a612c8b59a8305c7363d63d8f835ea83a06e7344653ce33580220e6930417845"
+      },
+      {
+        "source": {
+          "number": 15373,
+          "quesito_id": 3247,
+          "text_it": "Gli autoveicoli adibiti al trasporto di cose aventi portata complessiva superiore a 6 t, sono esenti dalla disciplina dell’autotrasporto di cose in conto proprio",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b4bb3638feb18aba95ac6cae4316bd64d4535252dd829a417b06e9f37b1ce403",
+        "italian": "FALSO. Una portata superiore a 6 t non dà diritto all’esenzione; la soglia prevista riguarda invece la massa complessiva a pieno carico, fino a 6 t.",
+        "italian_sha256": "8cdebef666a6dffa9e0a2e6711d434e920804dab748b6d45ce45e26640905bf3"
+      },
+      {
+        "source": {
+          "number": 15374,
+          "quesito_id": 3248,
+          "text_it": "Gli autocarri aventi massa complessiva non superiore a 6 t adibiti ad uso proprio sono esenti dalla disciplina dell’autotrasporto merci",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2c08fc87ef1f5380cd6022527ce5aa4de6bf5214694320d7aa222b5546303e02",
+        "italian": "VERO. Per gli autoveicoli in uso proprio fino a 6 t di massa complessiva a pieno carico non si applica la legge n. 298/1974; restano fermi gli altri obblighi applicabili.",
+        "italian_sha256": "57f4e30f2122c873ebe4240898fd40b8a85fbea4bc5507406642fb4d5d669962"
+      },
+      {
+        "source": {
+          "number": 15375,
+          "quesito_id": 3248,
+          "text_it": "Gli autocarri aventi tara di 6 t sono esenti dalla disciplina dell’autotrasporto merci",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "dcce34edf091bf0d4a6539ed1cdc2600f02fea0e008efc82b211db01e143d0c0",
+        "italian": "FALSO. Non è la tara a stabilire questa esenzione: conta la massa complessiva a pieno carico, che non deve superare 6 t.",
+        "italian_sha256": "81f1f15b660ea97bae5442cf8b164d1e308d49bb3a2a558630b035c64b79387d"
+      },
+      {
+        "source": {
+          "number": 15377,
+          "quesito_id": 3249,
+          "text_it": "Con un veicolo munito della licenza in conto proprio possono essere trasportate solo le cose elencate nella licenza",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ad8743ba65809f3a3eff11876dc91f7c9ed927ca77da207531761b1f1eec55d5",
+        "italian": "VERO. Le cose trasportate devono rientrare fra quelle indicate nella licenza, oltre a soddisfare le condizioni del conto proprio.",
+        "italian_sha256": "cb6cd1ac06aba5fd2aca91abfd1b00968a1451665236b78ff512b87089c2b43e"
+      },
+      {
+        "source": {
+          "number": 15380,
+          "quesito_id": 3249,
+          "text_it": "Con un veicolo munito della licenza in conto proprio possono essere trasportate cose prodotte dalla stessa impresa intestataria della licenza, anche se destinate ad un terzo",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9ca478772554ba641db64e2299294e8302110ea3c319c8e1d12f0f420d048c32",
+        "italian": "VERO. Le merci prodotte dall’impresa possono essere trasportate per le sue esigenze anche se destinate a un cliente, purché siano comprese nella licenza e ricorrano gli altri requisiti del conto proprio.",
+        "italian_sha256": "99a597a7ff58719e71e4940d64b74881fcd9904bb987105502395165c0f49e37"
+      },
+      {
+        "source": {
+          "number": 15386,
+          "quesito_id": 3251,
+          "text_it": "Il trasporto di cose in conto proprio è quello eseguito per merci prodotte e/o trasformate dalla stessa impresa che effettua il trasporto",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "17399f6c52d4e344eeac08b80484a5d6317540bf6cf05d3dc0ac89e7a2c2797d",
+        "italian": "VERO. Il trasporto di merci prodotte o trasformate dall’impresa può essere in conto proprio se avviene per le sue esigenze e ricorrono anche le altre condizioni previste dalla legge.",
+        "italian_sha256": "8ea507aa231a40ea1a429db5cc056a03d1cb0971b9814f518c7a0a45db9ba3fa"
+      },
+      {
+        "source": {
+          "number": 15387,
+          "quesito_id": 3251,
+          "text_it": "Il trasporto di cose in conto proprio è eseguito esclusivamente con veicoli immatricolate a nome di imprese artigiane o agricole",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ff867781f65cca3f58afee543810d5a24852f4f56ee5dbe16d61d262ed1de614",
+        "italian": "FALSO. Il conto proprio non è riservato alle imprese artigiane o agricole: può essere svolto anche da altre persone o enti per esigenze proprie, alle condizioni di legge.",
+        "italian_sha256": "e4025775ea85d2cb6265293d1a7b24a2cbc39eaabf760ead82bbf3fbae064af2"
+      },
+      {
+        "source": {
+          "number": 15388,
+          "quesito_id": 3251,
+          "text_it": "Chiunque guidi un autocarro immatricolato in uso proprio deve essere titolare di carta di qualificazione del conducente.",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c96749e72d853fd000915032daab7faff7fb706983594759164134601f127399",
+        "italian": "FALSO. L’uso proprio non impone la CQC a chiunque guidi: l’obbligo dipende dal veicolo e dall’attività svolta e sono previste deroghe.",
+        "italian_sha256": "237a1070b394ca716e578f18f1b5bd405a97e6611d6d93fb867ff6cc76630abc"
+      },
+      {
+        "source": {
+          "number": 15393,
+          "quesito_id": 3252,
+          "text_it": "La guida di un veicolo adibito al trasporto di cose in conto proprio è consentita anche ad un parente del titolare della licenza",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "099ccbe661d692858147d212cf35fa819238ae7a9bb82d2fdf3437299c142da3",
+        "italian": "FALSO. La sola parentela non autorizza la guida: occorre un rapporto ammesso dalla disciplina del conto proprio. Un parente che abbia anche tale rapporto può invece guidare.",
+        "italian_sha256": "7d4b85d748e8f254e1d6ce0ed4815fb19619473b86624d9407b369c99bd27ce7"
+      },
+      {
+        "source": {
+          "number": 15401,
+          "quesito_id": 3254,
+          "text_it": "La licenza di trasporto di cose in conto proprio è rilasciata dalla Provincia",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "59f3ddd284eca099977cac015ed81ebd25c1f354e6e351fde68fcd27ae661521",
+        "italian": "VERO. Il rilascio delle licenze per l’autotrasporto di merci in conto proprio è attribuito alle Province.",
+        "italian_sha256": "1e176e5e588ede63ec21996ab28135a47d560fd78265a1b842b1131299452841"
+      },
+      {
+        "source": {
+          "number": 15402,
+          "quesito_id": 3254,
+          "text_it": "La licenza di trasporto di cose in conto proprio è rilasciata dalla Camera di commercio",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6c57b846a3dafcb12a92f020b82b747941186852b56240a82f0b2f391ac7c31b",
+        "italian": "FALSO. La licenza è di competenza della Provincia, non della Camera di commercio.",
+        "italian_sha256": "5b0b819f91e3839a6e8d64b9eedf4fd70355953ab4736c3d0b30f4fc78a18e81"
+      },
+      {
+        "source": {
+          "number": 15403,
+          "quesito_id": 3254,
+          "text_it": "La licenza di trasporto di cose in conto proprio è rilasciata dall’Ufficio Motorizzazione civile",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "556664805545d7b632cc4f6860e4947be16a884de04d0f1ef5798fbb34b7362a",
+        "italian": "FALSO. La licenza è di competenza della Provincia, non dell’Ufficio Motorizzazione civile.",
+        "italian_sha256": "90b8f032ae314f27964085f8c36c81a97adf8d0ae643bd97377e7d2465e10b0d"
+      },
+      {
+        "source": {
+          "number": 15404,
+          "quesito_id": 3254,
+          "text_it": "La licenza di trasporto di cose in conto proprio è rilasciata dalla Prefettura",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "62175757de1f2c46e9952dcfa8ce72e75a73ce277245a55a91369017e4de5691",
+        "italian": "FALSO. La licenza è di competenza della Provincia, non della Prefettura.",
+        "italian_sha256": "daddc9fa5213964736055468bd32e381a99b6c62ad0603e2410316d47640f3da"
+      },
+      {
+        "source": {
+          "number": 15405,
+          "quesito_id": 3254,
+          "text_it": "La licenza di trasporto di cose in conto proprio è rilasciata dal Comitato provinciale Albo autotrasportatori",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7026b9fee35636658c32227a9330cdba675512d37e9e507448d6fe0e940b50da",
+        "italian": "FALSO. La licenza è di competenza della Provincia, non del Comitato provinciale dell’Albo.",
+        "italian_sha256": "dbf08d91268136b5ce7620b736f459e36190beb2f0d3e3c82912b42da9069ca5"
+      },
+      {
+        "source": {
+          "number": 15406,
+          "quesito_id": 3255,
+          "text_it": "Per effettuare il trasporto di cose in conto proprio bisogna essere titolari di una licenza per ciascun veicolo di massa complessiva superore a 6 t",
+          "answer": 1,
+          "page": 25,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "58971d673458bbe6646fc90e1a116ca91b8b01a56766e42630f9e7208eda8dab",
+        "italian": "VERO. Per il conto proprio è prevista una licenza per ciascun veicolo; la legge sull’autotrasporto non si applica agli autoveicoli fino a 6 t di massa complessiva a pieno carico.",
+        "italian_sha256": "fce7de08a2643f7b75327d5774234ad22f2c459a865d72af3a4c12a0ef3f5e1b"
+      },
+      {
+        "source": {
+          "number": 15407,
+          "quesito_id": 3255,
+          "text_it": "Per effettuare trasporto di cose in conto proprio bisogna essere titolari di una licenza rilasciata dalla Provincia",
+          "answer": 1,
+          "page": 25,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "890bb28642a9ce56a229d9524255248df840a65a278d337068cdf402ab00ae2e",
+        "italian": "VERO. Nei casi in cui è richiesta, la licenza per il trasporto in conto proprio è rilasciata dalla Provincia.",
+        "italian_sha256": "3898a5ac2f731e680d16f13aabea9cb890a7ea120b44a6f6ed41c849bceee58b"
+      },
+      {
+        "source": {
+          "number": 15408,
+          "quesito_id": 3255,
+          "text_it": "Per effettuare il trasporto di cose in conto proprio su veicoli di massa complessiva a pieno carico inferiore a 6 t non è necessaria alcuna licenza",
+          "answer": 1,
+          "page": 25,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f788cb0a31f60f4b19f292888682d6f1ae60ac18386fdbd848e50a6cb2212abe",
+        "italian": "VERO. Sotto le 6 t di massa complessiva a pieno carico non occorre la licenza prevista dalla legge sull’autotrasporto in conto proprio; l’esenzione comprende anche le 6 t.",
+        "italian_sha256": "ff7cc10f41c438b00aeef5b13b5db8be2e51c0dfdf5ec21d27b32ba9b414faeb"
+      }
+    ],
+    "task_sha256": "13265a7a6723d508894d37f00c385a154812a71b11917df4c6c6b2ce7d4ac204"
+  },
+  "rows": [
+    {
+      "number": 15304,
+      "text": "如果将题目理解为必须使用罐式车身，按照测验答案为 FALSO：联合运输也使用集装箱和可交换车厢。这句话有歧义，因为它没有明确排除使用罐车的可能性。"
+    },
+    {
+      "number": 15308,
+      "text": "VERO。托盘将货物集成一个装载单元，可用机械设备搬运，从而加快转运作业。"
+    },
+    {
+      "number": 15309,
+      "text": "Pallet 是一种装货平台，也称为 pedana 或 bancale，便于搬运货物。"
+    },
+    {
+      "number": 15313,
+      "text": "托盘并不被定义为铁笼：它是集中货物以便搬运的垫板。"
+    },
+    {
+      "number": 15316,
+      "text": "手动或机动托盘搬运车用于升起和移动装载货物的托盘，但必须适合托盘的重量和类型。"
+    },
+    {
+      "number": 15337,
+      "text": "在多式联运中，半挂车可以由另一种运输工具继续运送，无须逐件转移货物，因此铰接式车辆适合这种运输。"
+    },
+    {
+      "number": 15338,
+      "text": "如果行程分成多个路段，半挂车可以卸下并交由另一辆牵引车牵引，货物仍留在车上。"
+    },
+    {
+      "number": 15339,
+      "text": "在货车与挂车组成的列车中，货物可以分装在主车和挂车上，从而可以将两部分货物分开。"
+    },
+    {
+      "number": 15340,
+      "text": "半挂车可以卸下并与兼容的牵引车连接：这种互换性有助于组织运输。"
+    },
+    {
+      "number": 15341,
+      "text": "货物数量很少并不使铰接式车辆特别适用：选择取决于货物和运输安排。"
+    },
+    {
+      "number": 15343,
+      "text": "目的地位于另一个国家，本身并不意味着铰接式车辆更合适：选择取决于货物和行程的特点。"
+    },
+    {
+      "number": 15350,
+      "text": "公路牵引车列在归类为特殊用途的机动车清单中。"
+    },
+    {
+      "number": 15351,
+      "text": "道路救援机动车列在特殊用途车辆清单中。"
+    },
+    {
+      "number": 15352,
+      "text": "混凝土泵车列在特殊用途机动车清单中。"
+    },
+    {
+      "number": 15353,
+      "text": "用于运输混凝土的搅拌车归类为特种运输车辆，而非特殊用途车辆。它不同于混凝土泵车。"
+    },
+    {
+      "number": 15354,
+      "text": "配备集装箱运输设备的车辆属于特种运输车辆：仅有这些设备并不会使其成为特殊用途车辆。"
+    },
+    {
+      "number": 15355,
+      "text": "专门配备用于运输活体动物的车辆属于特种运输车辆，而非特殊用途车辆。"
+    },
+    {
+      "number": 15356,
+      "text": "测验认为特殊用途车辆可以豁免，因为它们用于货物运输以外的活动。但第30条的豁免须结合具体车辆类别和法律规定的条件进行核实。"
+    },
+    {
+      "number": 15357,
+      "text": "测验认为，用于货物运输以外活动的特殊车辆不受公路货物运输规定约束。不过，第30条规定的是具体排除情形，并非所有特殊车辆都一概豁免。"
+    },
+    {
+      "number": 15358,
+      "text": "企业在名册中登记，并不会使每辆特殊车辆自动获得豁免：关键在于车辆和运输是否符合规定的排除条件。"
+    },
+    {
+      "number": 15359,
+      "text": "仅凭运输是偶尔进行的，还不足以保证豁免：必须核实针对车辆及其用途规定的条件。"
+    },
+    {
+      "number": 15360,
+      "text": "运输货物的工程车辆一般受公路运输规定约束；法律对特定车辆和用途规定了排除情形。"
+    },
+    {
+      "number": 15361,
+      "text": "排除规定适用于大区拥有、专门用于满足其内部需要所必需运输的机动车。但仅说明车辆配属于大区，并未明确其是否符合法规要求的所有权条件。"
+    },
+    {
+      "number": 15363,
+      "text": "仅具有工程车辆的资格并不自动带来豁免：如果运输货物，一般适用相关规定，法律规定的特定排除情形除外。"
+    },
+    {
+      "number": 15364,
+      "text": "超过普通质量限额并不是豁免公路运输规定的一般理由：关键在于用途和法律规定的条件。"
+    },
+    {
+      "number": 15365,
+      "text": "FALSO。工程车辆也可用于为第三方运输，但须符合适用的许可和条件。"
+    },
+    {
+      "number": 15366,
+      "text": "VERO，按照测验的含义，这适用于实际归类为特殊用途并按照该用途使用的车辆。法律将不用于运输货物的特殊车辆排除在外；“始终”一词并不消除使用限制。"
+    },
+    {
+      "number": 15367,
+      "text": "VERO。道路救援车辆如果按照其用途使用，属于不受公路货物运输规定约束的特殊车辆。"
+    },
+    {
+      "number": 15368,
+      "text": "城市垃圾运输不会仅因使用配备专门设备的车辆而自动获得公路运输规定的豁免：必须评估所提供的服务和适用条件。"
+    },
+    {
+      "number": 15369,
+      "text": "VERO。特殊用途车辆按照其用途使用，而非作为普通货物运输车辆使用时，不受所述规定约束。"
+    },
+    {
+      "number": 15370,
+      "text": "VERO。上述机构的车辆如果专门用于满足车辆所有机构的需要，则不受公路货物运输规定约束。"
+    },
+    {
+      "number": 15371,
+      "text": "FALSO。豁免门槛为满载总质量6吨：7.5吨的车辆超过了这一门槛。"
+    },
+    {
+      "number": 15372,
+      "text": "FALSO。货物来自国外并不构成豁免理由：自用运输取决于运输条件以及与货物的关系。"
+    },
+    {
+      "number": 15373,
+      "text": "FALSO。载重量超过6吨并不能获得豁免；规定的门槛指的是满载总质量不超过6吨。"
+    },
+    {
+      "number": 15374,
+      "text": "VERO。满载总质量不超过6吨的自用机动车不适用第298/1974号法律；其他适用义务仍然有效。"
+    },
+    {
+      "number": 15375,
+      "text": "FALSO。决定此项豁免的不是空车重量，而是满载总质量，后者不得超过6吨。"
+    },
+    {
+      "number": 15377,
+      "text": "VERO。运输的货物必须属于许可证上列明的货物，同时还须满足自用运输的条件。"
+    },
+    {
+      "number": 15380,
+      "text": "VERO。企业生产的货物即使交付给客户，也可以为企业自身需要而运输，前提是货物包括在许可证中，并满足自用运输的其他要求。"
+    },
+    {
+      "number": 15386,
+      "text": "VERO。运输企业生产或加工的货物，如果是为了企业自身需要，并且符合法律规定的其他条件，可以属于自用运输。"
+    },
+    {
+      "number": 15387,
+      "text": "FALSO。自用运输并非手工业或农业企业专有：其他个人或机构也可以依法为自身需要进行自用运输。"
+    },
+    {
+      "number": 15388,
+      "text": "FALSO。自用并不意味着所有驾驶者都必须持有 CQC：是否有此义务取决于车辆和所从事的活动，并且存在例外。"
+    },
+    {
+      "number": 15393,
+      "text": "FALSO。仅有亲属关系不足以授权驾驶：还必须具有自用运输规定所认可的关系。如果亲属同时具有这种关系，则可以驾驶。"
+    },
+    {
+      "number": 15401,
+      "text": "VERO。自用公路货物运输许可证由省级机构负责发放。"
+    },
+    {
+      "number": 15402,
+      "text": "FALSO。许可证由省级机构负责发放，而非商会。"
+    },
+    {
+      "number": 15403,
+      "text": "FALSO。许可证由省级机构负责发放，而非民用机动车管理办公室。"
+    },
+    {
+      "number": 15404,
+      "text": "FALSO。许可证由省级机构负责发放，而非省督府。"
+    },
+    {
+      "number": 15405,
+      "text": "FALSO。许可证由省级机构负责发放，而非公路运输经营者名册省级委员会。"
+    },
+    {
+      "number": 15406,
+      "text": "VERO。自用运输规定每辆车都需有许可证；公路运输法不适用于满载总质量不超过6吨的机动车。"
+    },
+    {
+      "number": 15407,
+      "text": "VERO。在需要许可证的情况下，自用运输许可证由省级机构发放。"
+    },
+    {
+      "number": 15408,
+      "text": "VERO。满载总质量低于6吨时，无须取得自用公路运输法规定的许可证；豁免也包括恰好6吨的车辆。"
+    }
+  ],
+  "output_sha256": "eda3f8937f9c26f8071a8ef81c461f7bde25bcb2c47197e343d1be267efd9566"
+}

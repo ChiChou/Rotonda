@@ -1,0 +1,25 @@
+{
+  "batch": "106",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "b63f4cbe29471a051f76bfd0b781625e7f9ca23ed9df3725848cd7c9031a6542",
+  "source_sha256": "46614bc27d9f184e1d2f7b7a71fa77575c023e0c9138c9fd20e9fb0a5e244442",
+  "corrections": [
+    {
+      "id": "8e26779e5e695a66da05c5434fb2c7b438badcfd95d1bc1457762ff3e45ef35f",
+      "before": "Si pierde la tarjeta del tacógrafo, el conductor debe imprimir el informe de conducción registrado en la memoria del aparato, firmarlo y conservarlo para los viajes siguientes",
+      "after": "En caso de pérdida de la tarjeta del tacógrafo, el conductor debe imprimir el informe de conducción registrado en la memoria del aparato, firmarlo y conservarlo para los viajes siguientes",
+      "reason": "Broken Spanish (Si pierde); the Italian is a conditional instruction (in caso di smarrimento), so it should read as a conditional"
+    }
+  ],
+  "reviewed_file_sha256": "be40b912f3346e03f598424d60267263f3c827d03c74328d60f18f18abf775db"
+}

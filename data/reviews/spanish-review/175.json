@@ -1,0 +1,31 @@
+{
+  "batch": "175",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "a8097c337414521cca009d6389747391bad0220775c5b7f3adbad8670c4eeab8",
+  "source_sha256": "165d4236e577fb7e5f12ac0fd8d5dbd292aa449eb667e3e2b39cc7989f94bd4e",
+  "corrections": [
+    {
+      "id": "e7a1f21bf7141ff800e9194052cb50b14ff010890b7f3608e7747357fee4785d",
+      "before": "El alcohol, los medicamentos y muchas sustancias que causan estados de alteración no generan dependencia",
+      "after": "El alcohol, los medicamentos y muchas sustancias que causan estados de alteración no generan habituación",
+      "reason": "Assuefazione indica habituación, no necesariamente dependencia."
+    },
+    {
+      "id": "e7ff713fa082808bf58c4dd63abbf0c777d56a3b95abcd18170a48d69d4e9c96",
+      "before": "Las marcas de la figura indican un cruce para ciclistas",
+      "after": "La señalización de la figura indica un cruce para ciclistas",
+      "reason": "'segnaletica' is signage in general, not road markings"
+    }
+  ],
+  "reviewed_file_sha256": "eb86686b3093f707009f2541befc57cddcbc3357231678bbd6168cc5df25b3bc"
+}

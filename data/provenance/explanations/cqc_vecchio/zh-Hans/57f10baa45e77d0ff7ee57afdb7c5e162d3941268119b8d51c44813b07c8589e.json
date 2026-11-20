@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed8e-b0a4-7c42-95ce-5a8fe317af86"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 13838,
+          "quesito_id": 3055,
+          "text_it": "La troppo rapida escursione dell’ago del manometro dell’aria durante la marcia può essere determinata dalla presenza di acqua nel serbatoio dell’aria dell’impianto frenante",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "97404d783225d31c444764b58bf7cc96496df68caee970f3604f981269d270b8",
+        "italian": "VERO. Se l’acqua occupa parte del serbatoio, resta meno volume per l’aria: a parità di aria consumata, la pressione può variare più rapidamente e muovere rapidamente l’ago.",
+        "italian_sha256": "ec1249aafacaf63f9db3a2b0d12573e00218ed89804b3b251e76e1fa2e3a3277"
+      },
+      {
+        "source": {
+          "number": 13839,
+          "quesito_id": 3055,
+          "text_it": "L’indicazione di un eccesso di pressione dell’aria nel serbatoio dell’impianto frenante può essere causato da un prolungato uso dei freni",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b89d1399c4da3ed3bb6ada61942f9b699fb0ab07ce96766de54376fa55998abe",
+        "italian": "FALSO. L’uso dei freni consuma aria e tende a ridurre la pressione nei serbatoi; non provoca di per sé una sovrapressione.",
+        "italian_sha256": "78b38887dc4fdf8ac87b3abe380b7d7baee65826f3a44ff78f38201a4d67c49b"
+      },
+      {
+        "source": {
+          "number": 13840,
+          "quesito_id": 3055,
+          "text_it": "La pressione dell’aria nel serbatoio dell’impianto frenante può aumentare oltre il limite di esercizio, se il conducente, durante la marcia, utilizza scarsamente i freni.",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "79fe2d9a2c82dfde475aa624e11ce64d4efebbcc5a25f205c4211830f6720467",
+        "italian": "FALSO. Anche se i freni sono usati poco, il regolatore interrompe normalmente la carica al limite previsto; una sovrapressione indica un’anomalia.",
+        "italian_sha256": "47a7807cfbd9ebf13d7d322f191a470347d86ae225fbbb1134b8cd63122fa84e"
+      },
+      {
+        "source": {
+          "number": 13841,
+          "quesito_id": 3055,
+          "text_it": "La presenza di acqua nel serbatoio dell’aria dell’impianto frenante aumenta il volume a disposizione dell’aria",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bff979ff45e8ef6fb1c537bdf04995b0cd5520e98eae41c2aeceab0c31882d4f",
+        "italian": "FALSO. L’acqua occupa spazio nel serbatoio, quindi riduce, anziché aumentare, il volume disponibile per l’aria.",
+        "italian_sha256": "bbef782d41412780ae3ff2a5eb2fc37d8d114828b6d6a020eacbecb21f6b2084"
+      },
+      {
+        "source": {
+          "number": 13842,
+          "quesito_id": 3056,
+          "text_it": "Il freno di soccorso interviene in caso di guasto del freno di servizio",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cfe2a09bc7efd78ca14a70af3cbd2b76250ceed5f3c66a9e79964d84a7948fc3",
+        "italian": "VERO. Il freno di soccorso serve ad arrestare il veicolo se il freno di servizio è guasto; le modalità di intervento dipendono dall’impianto.",
+        "italian_sha256": "07210eebd74067fc530c21405acf6cd30bb4390de7dbae07664b49f85aa76347"
+      },
+      {
+        "source": {
+          "number": 13843,
+          "quesito_id": 3056,
+          "text_it": "L’impianto frenante di un autocarro o di un autobus consente di realizzare la frenatura di servizio e quella di soccorso agendo sul solo pedale del freno",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "03b45b2f05d722ca571e8b6ff059a78ba7bd3fca4abfeb03a3bb0a679cc49f76",
+        "italian": "Nel sistema a doppio circuito descritto dal quiz, il pedale comanda la frenatura di servizio e, se un circuito si guasta, consente la frenatura residua di soccorso.",
+        "italian_sha256": "9ad52fbf75e03b57676070f109726e1b3381182dcbfe3b42c67855776066a920"
+      },
+      {
+        "source": {
+          "number": 13844,
+          "quesito_id": 3056,
+          "text_it": "L’impianto frenante di un autocarro o di un autobus è realizzato con due distinti circuiti, al fine di garantire l’arresto del veicolo anche in caso di avaria di uno dei due circuiti.",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "68441468d508daa6d164a67ee07877e67fbb44408491e05ba91cac177e39866d",
+        "italian": "I due circuiti separati consentono, in caso di avaria di uno, di conservare una frenatura residua con l'altro, sufficiente ad arrestare il veicolo, pur con efficacia ridotta.",
+        "italian_sha256": "252e664e21bf3d0d236b79bd17e9694a48b895c497cf4cd8cf2a9ae29c9a0c96"
+      },
+      {
+        "source": {
+          "number": 13845,
+          "quesito_id": 3056,
+          "text_it": "L’improvvisa caduta di pressione dell’aria di un serbatoio dei freni, può essere causata dalla rottura della tubazione tra il serbatoio e il distributore duplex",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ece9c8a7fce9ff601bb6d65d57fe1504e324810fcdf039c7e8c87116901227f7",
+        "italian": "La rottura del tubo tra serbatoio e distributore può far uscire l'aria compressa e provocare una rapida caduta della pressione nel serbatoio interessato.",
+        "italian_sha256": "088f3fe0c56a30748ba06b75672a0a82cab9e47ca4da258c68fa1f78e3f7afb5"
+      },
+      {
+        "source": {
+          "number": 13846,
+          "quesito_id": 3056,
+          "text_it": "La rottura della tubazione dell’aria compressa di una dei due circuiti dell’impianto frenante, non compromette l’efficienza dell’altra",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c36f653055cb89f200a3abc63004ca4635d4824f6f2973bd536d8b97900e8520",
+        "italian": "Nel doppio circuito la separazione limita gli effetti della rottura al circuito interessato: l'altro mantiene la frenatura residua, non necessariamente quella ordinaria completa.",
+        "italian_sha256": "1b59c37bdbc0133f0ed8308d39ed7b7ab2ef8cdf2b56be8230096dbec72c9080"
+      },
+      {
+        "source": {
+          "number": 13847,
+          "quesito_id": 3056,
+          "text_it": "Il conducente che verifica che vi sia un’ avaria di uno dei due circuiti dell’impianto frenante, deve arrestarsi quanto prima in condizioni di sicurezza",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "21af2bf973c47427a5d0a359481771683e262bfddb76632fcbfe285da8e1b247",
+        "italian": "Con un circuito guasto la frenatura è degradata: occorre fermarsi appena possibile in sicurezza e far controllare e riparare l'impianto.",
+        "italian_sha256": "c6bb3765a48f466f80577233c4fa9fec6356e4141edbbda744fdcb4d91802212"
+      },
+      {
+        "source": {
+          "number": 13848,
+          "quesito_id": 3056,
+          "text_it": "Il conducente che verifica che vi sia un’ avaria di uno dei due circuiti dell’impianto frenante, può continuare a circolare purchè l’altro circuito sia efficiente",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "db39d6e59aefd3fc42f70cabd1e7a5d800233832b6a78137b26e43296e982cc6",
+        "italian": "È sbagliato continuare normalmente la marcia: il circuito rimasto serve ad assicurare la frenatura residua, mentre il guasto richiede di fermarsi in sicurezza e far riparare l'impianto.",
+        "italian_sha256": "8e873588a08d83437a18eb56e00082fb34a180a6da03fac409697ec3915932bc"
+      },
+      {
+        "source": {
+          "number": 13849,
+          "quesito_id": 3056,
+          "text_it": "Il distributore duplex non è in grado di funzionare se il veicolo è sovraccarico",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "53fa6f923533cd35fc86306251cff35b9fc2f01b9d1a8d20d3089cfabfa86b59",
+        "italian": "Il sovraccarico non rende di per sé inutilizzabile il distributore duplex, che dosa l'aria dei circuiti frenanti su comando del pedale. Il sovraccarico può comunque compromettere la sicurezza e la capacità di arresto.",
+        "italian_sha256": "766c14e06bc43b72d7ef3b6913ba4dbcc8bcb09bcd9ce8e09bb61d2197bd28e9"
+      },
+      {
+        "source": {
+          "number": 13850,
+          "quesito_id": 3056,
+          "text_it": "Il distributore duplex è azionato dal convertitore pneumo-idraulico",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a3ad1bfcd8666265558f9d3da4ffdc92b71c7f909ecdca18a8cb9b86823008c3",
+        "italian": "Il distributore duplex non è azionato dal convertitore pneumo-idraulico: è il pedale del freno a comandarlo, regolando la pressione nei due circuiti.",
+        "italian_sha256": "e1ea6aacf27d12d0fbef6f810dfcff22602c2db64e51a9889760391898745566"
+      },
+      {
+        "source": {
+          "number": 13851,
+          "quesito_id": 3056,
+          "text_it": "Il distributore duplex non è applicabile nei veicoli muniti di cambio epicicloidale",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6c6d825da80f68b2a916d94f7149786d1f61cc9c80dac6c1bce214fd2eaaae5a",
+        "italian": "Il tipo di cambio non rende inapplicabile il distributore duplex: questo appartiene al comando pneumatico dei freni, distinto dalla trasmissione con cambio epicicloidale.",
+        "italian_sha256": "d916cc8179c516765fe78a70073211d579595c83aaf5bba422783848fa4a9763"
+      },
+      {
+        "source": {
+          "number": 13852,
+          "quesito_id": 3056,
+          "text_it": "In caso di malfunzionamento del distributore duplex è opportuno marciare con il motore ad alto numero di giri",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6b7d039678c021e5808f76f65c91ec9cd81aee0b113106c69d8ed817827c9721",
+        "italian": "Tenere il motore ad alto regime non ripara il distributore duplex. Un guasto al comando dei freni richiede di fermarsi in sicurezza e far verificare il veicolo.",
+        "italian_sha256": "8600e15da8ed91752aa5af0d96b1d5bf2723dc0fea0253eb46660f94097f829d"
+      },
+      {
+        "source": {
+          "number": 13853,
+          "quesito_id": 3057,
+          "text_it": "L’intasamento del filtro dell’aria del motore provoca irregolarità nella combustione",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3d9bfe769e4deba49b7168f796b3607a4303b0481c0e14950148f792460181b5",
+        "italian": "Un filtro intasato limita l'aria aspirata e può alterare la combustione, soprattutto nei motori diesel considerati dal quiz.",
+        "italian_sha256": "caf05ff91b52b0dd18b58c822f962681808485fd0ad79ea22fafbb752eb7bb34"
+      },
+      {
+        "source": {
+          "number": 13854,
+          "quesito_id": 3057,
+          "text_it": "L’intasamento del filtro dell’aria del motore provoca l’emissione di fumo nero allo scarico",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b89e2813bc5fd224d9f8d81764883798c1a5c18676298c82874810cfb8950414",
+        "italian": "Il filtro intasato può ridurre l'aria disponibile per la combustione e favorire fumo nero, in particolare in un diesel; l'effetto non è necessariamente identico su ogni motore.",
+        "italian_sha256": "358056cd159d7c24fbd88da8949e477f18bbccbea0e179277495302098b9af57"
+      },
+      {
+        "source": {
+          "number": 13855,
+          "quesito_id": 3057,
+          "text_it": "L’intasamento del filtro dell’aria del motore provoca la riduzione dell’efficienza del motore",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f716e7089a1a68fc7c7f3be3fdb3c3643f77f6da3f8fdfa74b5bc4d7a7684a52",
+        "italian": "Se il filtro è ostruito passa meno aria al motore: questo può perdere potenza e funzionare meno efficientemente.",
+        "italian_sha256": "3e7c27ffb0a26fe95549def8ed94ededf1fd9acaaee5424f46d22068bf5ca2f6"
+      },
+      {
+        "source": {
+          "number": 13856,
+          "quesito_id": 3057,
+          "text_it": "L’intasamento del filtro dell’aria del motore provoca l’inefficienza della frenatura",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "42083ca2b0a89275c145be724f31bd9fe3fdc000d04c7ba1ed5584156010dbe0",
+        "italian": "Il filtro dell'aria del motore non è il filtro dell'impianto frenante: se si intasa limita l'aria per la combustione, non provoca direttamente l'inefficienza dei freni.",
+        "italian_sha256": "e21facfcad018f6a6c7ad2974dea598727659706b53fca32b6716bcc3c624a4a"
+      },
+      {
+        "source": {
+          "number": 13857,
+          "quesito_id": 3057,
+          "text_it": "L’intasamento del filtro dell’aria del motore provoca l’ingresso di sostanze estranee nella camera di combustione",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c79422fccfe6f29a2161cb2816d5602f04f0f5099bfa2d3f3098e2666dfb6170",
+        "italian": "L'intasamento limita il passaggio dell'aria; non implica di per sé l'ingresso di corpi estranei nella camera di combustione. Tale rischio riguarda invece, per esempio, un filtro danneggiato o mal montato.",
+        "italian_sha256": "a1bfc77f1ede599b5f502e23743e846d6f126eb5ccd846095173741d4636c2bc"
+      },
+      {
+        "source": {
+          "number": 13858,
+          "quesito_id": 3057,
+          "text_it": "L’intasamento del filtro dell’aria del motore provoca l’emissione di fumo bianco allo scarico",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "62bfef249de2d47b3909da2dcf18e9d70fa45883d2e54885590c39cd520f4412",
+        "italian": "Il fumo bianco non è l'effetto tipico attribuito all'intasamento del filtro aria: la minore aria disponibile può invece favorire fumosità nera, soprattutto nei diesel.",
+        "italian_sha256": "c89d17eea8b04ba89caa39863c09fc1171e404de01ed6cce74f59ff3d43a1d07"
+      },
+      {
+        "source": {
+          "number": 13859,
+          "quesito_id": 3058,
+          "text_it": "L’intasamento del filtro antipolline può deteriorare la salubrità dell’abitacolo",
+          "answer": 1,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "81bef75029b8116d687c6fb33994bb234f2bc893141fe9a9158a076bf4434b68",
+        "italian": "Un filtro antipolline intasato può ridurre il flusso d'aria nell'abitacolo e peggiorarne la qualità; va sostituito secondo la manutenzione prevista.",
+        "italian_sha256": "e09da1f9e51e09707d8c8c472b66828eb75a01b9a1d4cfc5a9e2a836a8436df6"
+      },
+      {
+        "source": {
+          "number": 13860,
+          "quesito_id": 3058,
+          "text_it": "L’intasamento del filtro antipolline diminuisce le prestazioni del veicolo",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "64bab4f37061e1cadaf4780621fff430c94052f1f89cced4eacab63bedb5f96e",
+        "italian": "Il filtro antipolline riguarda l'aria della ventilazione dell'abitacolo, non quella aspirata dal motore: il suo intasamento non riduce direttamente le prestazioni del veicolo.",
+        "italian_sha256": "28854ee85015aab38084f02371530dbd9a2bd8893e81af1c8f14f5cac3605d0e"
+      },
+      {
+        "source": {
+          "number": 13861,
+          "quesito_id": 3059,
+          "text_it": "L’omessa sostituzione del filtro dell’olio ne provoca l’intasamento",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "dafccf39fd2cc8fe7cd0b1e27eed5cfeb3388ea9f2529bf6bbfda75fda4f6896",
+        "italian": "Il filtro trattiene progressivamente le impurità dell'olio; se non viene sostituito agli intervalli previsti può saturarsi e intasarsi.",
+        "italian_sha256": "04d9d513308d14367c2fb79637864546189868cf0716ae45e80eb1b03bdfd012"
+      },
+      {
+        "source": {
+          "number": 13862,
+          "quesito_id": 3059,
+          "text_it": "L’intasamento del filtro dell’olio può provocare il danneggiamento dei cilindri del motore",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "86080e4402bc1100dc3801d688ee06bd1aba4d034cc66d563cc6074d39ae7d4f",
+        "italian": "Un filtro intasato può aprire il bypass, facendo circolare olio non filtrato: le impurità possono aumentare l'usura e danneggiare anche i cilindri.",
+        "italian_sha256": "33f59a335d583b487b0a462a6f05a5a8543b026e7e83aabbcc1d3cbbfaa8faab"
+      },
+      {
+        "source": {
+          "number": 13863,
+          "quesito_id": 3059,
+          "text_it": "L’intasamento del filtro dell’olio è causa di presenza di impurità nell’olio",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e3c3a221d6f0b95fc3d33c214d6b46121b810d79fc10ec5a89f41cfad5079711",
+        "italian": "Con il filtro intasato può aprirsi il bypass e circolare olio non filtrato, contenente impurità. Sono però le impurità accumulate a contribuire all'intasamento, non il filtro a crearle.",
+        "italian_sha256": "172409268ee7a362779cf291ccc2668dadbe4d3afe91ace549ec6cf8234da07f"
+      },
+      {
+        "source": {
+          "number": 13864,
+          "quesito_id": 3059,
+          "text_it": "L’intasamento del filtro dell’olio può provocare l’interruzione del circuito di lubrificazione",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "85ce959d3580381963171794265271b4dbfba88da6551d2648a5912126140993",
+        "italian": "Nel sistema considerato dal quiz, l'intasamento non interrompe il circuito: una valvola di bypass consente all'olio di continuare a circolare senza essere filtrato. La risposta presuppone che il bypass sia presente e funzionante.",
+        "italian_sha256": "9c96c6a75acf4fb4fd36b08b72825bdaa31e3250b7cc7a0a83c77311b06daf60"
+      },
+      {
+        "source": {
+          "number": 13865,
+          "quesito_id": 3059,
+          "text_it": "L’intasamento del filtro dell’olio può causare fumo nero allo scarico",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "711b8732c3ae80cf1e9ce8f0c0302403b578b82562b41293f821f14347fa3453",
+        "italian": "Il fumo nero è legato a problemi di combustione, non direttamente all'intasamento del filtro dell'olio, che riguarda invece la pulizia e la circolazione del lubrificante.",
+        "italian_sha256": "cacec723761eac3551c7077f5c15a8751e8cf2b0ef7f423eb6516371e6384ac7"
+      },
+      {
+        "source": {
+          "number": 13866,
+          "quesito_id": 3059,
+          "text_it": "L’intasamento del filtro dell’olio provoca il malfunzionamento del servofreno",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5425cf0ea84e0b678f6304637988bb21d43b21cfe4f65b044ecd6086ed440f67",
+        "italian": "Il filtro dell'olio intasato riguarda la lubrificazione del motore, non il funzionamento del servofreno. Può invece consentire la circolazione di olio non filtrato attraverso il bypass.",
+        "italian_sha256": "61dd9eb0193ab38567be97a8aadb054deb959cd066b2d7a8d01d6f1c94c872a4"
+      },
+      {
+        "source": {
+          "number": 13867,
+          "quesito_id": 3060,
+          "text_it": "Il filtro del carburante intercetta le impurità contenute nel carburante",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b0392cb0636d961e61627b850e947eec36b0e76bd9a4fa84e1efe6c37f79ef1f",
+        "italian": "Il filtro carburante trattiene impurità presenti nel carburante, proteggendo i componenti del sistema di alimentazione e iniezione.",
+        "italian_sha256": "b4f9a9bbb18144d6f19b049cd88f453b6d530e38bd31c1bf09317d2315558cb6"
+      },
+      {
+        "source": {
+          "number": 13868,
+          "quesito_id": 3060,
+          "text_it": "L’intasamento del filtro del carburante può comportare un’irregolare afflusso di carburante alla pompa",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ac98bbc7c72f275f05df3a7c33e50a8555abab2ce6d508ad5d817e9552348af6",
+        "italian": "Un filtro ostruito limita il passaggio del carburante e può compromettere l’alimentazione della pompa, se il filtro si trova a monte di essa.",
+        "italian_sha256": "15cdd9c4bfef2bfbd5760cdbfc512c7478a015b4491fcc23e63a1f670a38f435"
+      },
+      {
+        "source": {
+          "number": 13869,
+          "quesito_id": 3060,
+          "text_it": "L’intasamento del filtro del carburante comporta perdita di efficienza del motore",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "076d61ab6375b13f05ac1bd6f97802c8e2946d775148ddc262bc7d10aaba6224",
+        "italian": "Il filtro ostruito ostacola l’alimentazione: al motore può arrivare meno carburante e la potenza diminuire.",
+        "italian_sha256": "c05fbfc8fdcd25619952585bdf602e68f3df7c858fbca56383c0456d2a3a3638"
+      },
+      {
+        "source": {
+          "number": 13870,
+          "quesito_id": 3060,
+          "text_it": "L’intasamento del filtro del carburante comporta l’emissione di fumo nero allo scarico",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "de82070b02ac46febc573b9422c1805ed5a0cd707e1f3164d0bd8e1da77b5c91",
+        "italian": "Il fumo nero non è una conseguenza necessaria del filtro carburante intasato. L’ostruzione limita soprattutto l’alimentazione; il fumo nero può dipendere, per esempio, da un filtro dell’aria ostruito.",
+        "italian_sha256": "97996ab61fc571e0300b884d651ec4fddbdc57269e7154d210874b467bf25f34"
+      },
+      {
+        "source": {
+          "number": 13871,
+          "quesito_id": 3060,
+          "text_it": "L’intasamento del filtro del carburante comporta la insufficiente lubrificazione dei cilindri del motore",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "185e5758485aaf22a81d84082bf38402979fb0fe66019e5b36588ba5ca446dd7",
+        "italian": "Il filtro del carburante non provvede alla lubrificazione dei cilindri: la sua ostruzione ostacola invece l’alimentazione del motore.",
+        "italian_sha256": "1aaffaa667c9ca2b47c8a3c82d7ee46ee2a8072648179d50b7e7fea688a04e5e"
+      },
+      {
+        "source": {
+          "number": 13872,
+          "quesito_id": 3060,
+          "text_it": "L’intasamento del filtro del carburante comporta maggior usura degli iniettori",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "074ffe899d0a1e4cc59e3b29b2b69f0979d5512fd6175033e4a39f4a4991b7c4",
+        "italian": "L’intasamento non comporta di per sé maggiore usura degli iniettori: il filtro trattiene le impurità e, se ostruito, limita soprattutto il flusso.",
+        "italian_sha256": "43c900f5fdce5f1903bf4d7450510d64b4711ac392f5817020d0b2e8f34dbdfe"
+      },
+      {
+        "source": {
+          "number": 13873,
+          "quesito_id": 3061,
+          "text_it": "Sterzare a veicolo fermo provoca un’ usura anomala dei pneumatici",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a1ee92900dedac43e2cb988af47459e84542fce1f5a3c47a39614f4d04fce386",
+        "italian": "VERO. Sterzando da fermo il battistrada viene sollecitato contro il fondo senza rotolare, con maggiore usura degli pneumatici.",
+        "italian_sha256": "153aa4006624744350774ed1bf1d925cabfc9709f048b224c7ebeb6fc8418bfc"
+      },
+      {
+        "source": {
+          "number": 13875,
+          "quesito_id": 3061,
+          "text_it": "L’eccessivo gioco dello sterzo provoca una difficoltà nel mantenere la traiettoria voluta",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "31ac39b39b82c33bb88baa58b5624b3ac47af3e67ad43985976c7e54ca4c21a2",
+        "italian": "Con troppo gioco, una parte del movimento del volante non si trasmette subito alle ruote: mantenere la traiettoria diventa meno preciso.",
+        "italian_sha256": "00163e169c58d605120f00554ef311a391cfe587fde38164cede2fe16cf849e2"
+      },
+      {
+        "source": {
+          "number": 13876,
+          "quesito_id": 3061,
+          "text_it": "L’eccessivo gioco dello sterzo pregiudica il funzionamento delle sospensioni anteriori",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c443b3686cc7dde0f6e5a07f44270aff809ee08c88533834da9026b0d5958af5",
+        "italian": "Il gioco eccessivo riguarda la risposta dello sterzo e non compromette necessariamente il funzionamento delle sospensioni anteriori. Occorre comunque controllare i componenti interessati.",
+        "italian_sha256": "e9b5cd38b345291a8311ec459625eb7bffff4d4639b1a98ef3359e0798350258"
+      },
+      {
+        "source": {
+          "number": 13877,
+          "quesito_id": 3061,
+          "text_it": "L’eccessivo gioco dello sterzo deteriora precocemente gli pneumatici posteriori",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6c2c9ad8d8ec0a49faaeeb542e90b0e3f8d1ec0ac82c76476ea49f0f897b2988",
+        "italian": "Il gioco dello sterzo non provoca necessariamente un’usura precoce degli pneumatici posteriori; il problema principale è la minore precisione della direzione.",
+        "italian_sha256": "51df4bc3a41a56e46dea67f0ef851929db132f8d44c9929a714bb239e791b1ae"
+      },
+      {
+        "source": {
+          "number": 13878,
+          "quesito_id": 3061,
+          "text_it": "L’eccessivo gioco dello sterzo si riduce mantenendo saldamente lo sterzo con entrambe le mani",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d3a106f42236c240d895119dc42ce103acbac298a875267d4219fd25346f9117",
+        "italian": "Tenere il volante con due mani aiuta il controllo, ma non elimina il gioco meccanico: occorre far controllare e riparare o regolare lo sterzo.",
+        "italian_sha256": "3985fd55e5d1c9415a3b6282d0e5419e621155f7738587ad9db9fb634ffb1f56"
+      },
+      {
+        "source": {
+          "number": 13879,
+          "quesito_id": 3062,
+          "text_it": "La non corretta convergenza delle ruote anteriori determina l’asimmetrico consumo dei pneumatici",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9758c03fce28befa784fbc7c6f6ed2efa4d234d94fdd2cd093e3688ccbac2b38",
+        "italian": "Una convergenza non corretta fa strisciare irregolarmente il battistrada e può produrre un consumo asimmetrico.",
+        "italian_sha256": "c129481338c4b50cd8a272169ed428bc6cf443c23348054d7a7677e885d93079"
+      },
+      {
+        "source": {
+          "number": 13880,
+          "quesito_id": 3062,
+          "text_it": "L’eccessiva pressione di gonfiaggio degli pneumatici ne provoca un maggiore consumo della parte centrale",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "da02838f7b36efe1c45d5e92aa8aa9cac751af86078256941aba7315dd85c242",
+        "italian": "Una pressione troppo alta può concentrare il carico al centro del battistrada, che tende a consumarsi più rapidamente.",
+        "italian_sha256": "25dafaf93b45013e1e3770a576fea7dfd92fff735599c6927c1f487da92a1cc8"
+      },
+      {
+        "source": {
+          "number": 13881,
+          "quesito_id": 3062,
+          "text_it": "Un’insufficiente pressione di gonfiaggio degli pneumatici provoca un eccessivo consumo dei bordi del battistrada",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ea9bd02c833766b252985a002c89ddf71ba7d288f7b7fc3925e9237bd85aa7eb",
+        "italian": "Con pressione insufficiente le spalle del battistrada tendono a consumarsi più della parte centrale.",
+        "italian_sha256": "3a67e74b38d2d82845dc5d8d5b90b8ae6bb55199ae4f4593a4d619a9f1d934d6"
+      },
+      {
+        "source": {
+          "number": 13882,
+          "quesito_id": 3062,
+          "text_it": "La mancata equilibratura dello pneumatico ne provoca un anomalo consumo",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0401a34e89919d2597912c0931719c09046ba7f796ba2c6c04b64570b4d71187",
+        "italian": "Lo squilibrio della ruota può causare vibrazioni e usura irregolare del pneumatico.",
+        "italian_sha256": "97382d38aae4a61168706675184937a3a2b857c0b84188e492fbcbd8b542ae5b"
+      },
+      {
+        "source": {
+          "number": 13883,
+          "quesito_id": 3062,
+          "text_it": "La perdita di convergenza del veicolo diminuisce il rischio sbandamento del veicolo",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "74e306171f27be594ab0a362a266dfecd26f97eb69bfca78210c53e0a2f94f85",
+        "italian": "Una convergenza alterata non riduce il rischio di sbandamento: può rendere meno stabile la direzione e favorire la deriva.",
+        "italian_sha256": "240459b0771ea40b46713e6873bf09d0c2e5ad34006ba1856d0e84f0b3f4cac6"
+      },
+      {
+        "source": {
+          "number": 13884,
+          "quesito_id": 3062,
+          "text_it": "La non corretta equilibratura delle ruote diminuisce lo spazio di frenatura del veicolo",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "59081293c52d8df4914520d948697f8ca37ae8d55cb6973fcad0bf6cc96a302c",
+        "italian": "Una ruota non equilibrata non accorcia lo spazio di frenatura: può invece provocare vibrazioni e usura irregolare.",
+        "italian_sha256": "85434bda1e9dd16f5bb7ca1ccf3b8e75f4bc23923ef91bfcc92f3857e7752c1c"
+      },
+      {
+        "source": {
+          "number": 13885,
+          "quesito_id": 3062,
+          "text_it": "Una perdita di equilibratura delle ruote comporta che il veicolo tende a discostarsi dalla traiettoria rettilinea",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "33d528b27725556cf1be8c733a25c57e20262904e6dadd1078c0685e765b5d73",
+        "italian": "Nel criterio del quiz lo squilibrio causa soprattutto vibrazioni, mentre la deriva rettilinea è associata all’assetto o a differenze tra pneumatici. Una deriva può comunque avere più cause.",
+        "italian_sha256": "adbb6f41e0ff7ed4cb1368e74583f4e8706f4c59016ded5cef6e53980da8e9b9"
+      },
+      {
+        "source": {
+          "number": 13886,
+          "quesito_id": 3062,
+          "text_it": "Lo sfarfallamento dello sterzo può essere causato dalla non corretta convergenza delle ruote anteriori",
+          "answer": 0,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "60cab73ad34d1fccfce271d66b3e42aca37417cd600f4622a867a598639cd394",
+        "italian": "Il quiz indica FALSO: lo sfarfallamento è comunemente associato allo squilibrio delle ruote. La formulazione è però ambigua: un documento tecnico segnala anche un assetto scorretto tra le possibili cause di oscillazione.",
+        "italian_sha256": "0cd188c4183149ed7a8a0fd5cd0b794bcca981bbcc2701455ad16a840e0d0c20"
+      },
+      {
+        "source": {
+          "number": 13887,
+          "quesito_id": 3063,
+          "text_it": "Una perdita di convergenza delle ruote comporta che il veicolo tende a discostarsi dalla traiettoria rettilinea",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "acabdd57a2ed43895fd4d27753a95442e3cf04887ea2dd5a7f19589494273902",
+        "italian": "Una convergenza alterata può rendere meno stabile la marcia rettilinea e favorire la deviazione dalla traiettoria.",
+        "italian_sha256": "7ad96b29dd4ed705186010ab4f97270887077e1695a63f1e3a550044c88332f1"
+      },
+      {
+        "source": {
+          "number": 13888,
+          "quesito_id": 3063,
+          "text_it": "La diversa pressione di gonfiaggio degli pneumatici di uno stesso asse comporta uno scostamento dalla traiettoria rettilinea",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ed37b5c76383b0f3fef456d2b8de86ffda2dda97a71ebd1896fe7d6b8c14d2cd",
+        "italian": "Pressioni diverse sullo stesso asse possono produrre una risposta diversa dei pneumatici e far tirare il veicolo da un lato.",
+        "italian_sha256": "d16772dbf5554be3040d91effcdae56759c7e2e973d4454b261f5d6df3f2187d"
+      }
+    ],
+    "task_sha256": "f2bbaee6d2b04026a38fd37e7e8a7c59e2a78b16547f3606ed25b7fb251775b6"
+  },
+  "rows": [
+    {
+      "number": 13838,
+      "text": "VERO. 如果水占据了储气罐的一部分，留给空气的空间就会减少：消耗相同数量的空气时，压力可能变化得更快，使指针快速移动。"
+    },
+    {
+      "number": 13839,
+      "text": "FALSO. 使用制动器会消耗空气，使储气罐内的压力趋于降低；它本身不会造成压力过高。"
+    },
+    {
+      "number": 13840,
+      "text": "FALSO. 即使很少使用制动器，调压器通常也会在达到规定限值时停止充气；压力过高表明存在故障。"
+    },
+    {
+      "number": 13841,
+      "text": "FALSO. 水会占据储气罐内的空间，因此会减少而不是增加空气可用的容积。"
+    },
+    {
+      "number": 13842,
+      "text": "VERO. 应急制动器用于在行车制动器发生故障时使车辆停下；其作用方式取决于具体系统。"
+    },
+    {
+      "number": 13843,
+      "text": "在题目所述的双回路系统中，踏板控制行车制动；如果一个回路发生故障，踏板还能提供剩余的应急制动力。"
+    },
+    {
+      "number": 13844,
+      "text": "两个独立回路中若有一个发生故障，另一个仍能提供剩余制动力，虽然制动效果降低，但足以使车辆停下。"
+    },
+    {
+      "number": 13845,
+      "text": "储气罐与分配阀之间的管道破裂可能导致压缩空气泄漏，使相关储气罐内的压力迅速下降。"
+    },
+    {
+      "number": 13846,
+      "text": "在双回路系统中，回路分离使管道破裂的影响局限于受影响的回路：另一个回路仍能提供剩余制动力，但不一定能提供正常的全部制动力。"
+    },
+    {
+      "number": 13847,
+      "text": "一个回路发生故障时，制动性能会下降：应尽快在安全条件下停车，并检查和修复制动系统。"
+    },
+    {
+      "number": 13848,
+      "text": "继续正常行驶是错误的：剩余回路用于保证剩余制动力，而发生故障后需要安全停车并修复制动系统。"
+    },
+    {
+      "number": 13849,
+      "text": "超载本身不会使双回路分配阀无法使用；该阀根据踏板指令调节制动回路中的空气。不过，超载可能影响安全和停车能力。"
+    },
+    {
+      "number": 13850,
+      "text": "双回路分配阀不是由气液转换器驱动的：它由制动踏板控制，调节两个回路中的压力。"
+    },
+    {
+      "number": 13851,
+      "text": "变速器的类型不会使双回路分配阀无法使用：该阀属于制动气动控制系统，与采用行星齿轮变速器的传动系统相互独立。"
+    },
+    {
+      "number": 13852,
+      "text": "让发动机保持高转速无法修复双回路分配阀。制动控制装置发生故障时，需要安全停车并检查车辆。"
+    },
+    {
+      "number": 13853,
+      "text": "滤清器堵塞会限制进气，可能影响燃烧，尤其是在题目所考虑的柴油发动机中。"
+    },
+    {
+      "number": 13854,
+      "text": "滤清器堵塞可能减少燃烧所需的空气并促使排出黑烟，柴油发动机尤其如此；这一影响在不同发动机上不一定完全相同。"
+    },
+    {
+      "number": 13855,
+      "text": "如果滤清器堵塞，进入发动机的空气就会减少：发动机可能动力下降，运行效率也会降低。"
+    },
+    {
+      "number": 13856,
+      "text": "发动机空气滤清器不是制动系统的滤清器：它堵塞时会限制燃烧所需的空气，不会直接导致制动器失效。"
+    },
+    {
+      "number": 13857,
+      "text": "堵塞会限制空气通过；它本身并不意味着异物会进入燃烧室。例如，滤清器损坏或安装不当才会带来这种风险。"
+    },
+    {
+      "number": 13858,
+      "text": "白烟并不是空气滤清器堵塞的典型后果：可用空气减少反而可能促使排出黑烟，柴油发动机尤其如此。"
+    },
+    {
+      "number": 13859,
+      "text": "花粉滤清器堵塞可能减少进入车厢的气流，并使车厢空气质量变差；应按规定的保养周期更换。"
+    },
+    {
+      "number": 13860,
+      "text": "花粉滤清器过滤的是车厢通风空气，而不是发动机吸入的空气：它堵塞不会直接降低车辆性能。"
+    },
+    {
+      "number": 13861,
+      "text": "滤清器会逐渐截留机油中的杂质；如果不按规定周期更换，可能达到饱和并发生堵塞。"
+    },
+    {
+      "number": 13862,
+      "text": "滤清器堵塞可能使旁通阀打开，让未经过滤的机油循环：杂质可能增加磨损，也可能损坏气缸。"
+    },
+    {
+      "number": 13863,
+      "text": "滤清器堵塞时，旁通阀可能打开，使含有杂质的未过滤机油循环。不过，是积累的杂质促成了堵塞，而不是滤清器产生了杂质。"
+    },
+    {
+      "number": 13864,
+      "text": "在题目所考虑的系统中，堵塞不会中断润滑回路：旁通阀让机油未经滤清继续循环。这个答案以旁通阀存在且正常工作为前提。"
+    },
+    {
+      "number": 13865,
+      "text": "黑烟与燃烧问题有关，而不直接由机油滤清器堵塞引起；机油滤清器关系到润滑油的清洁和循环。"
+    },
+    {
+      "number": 13866,
+      "text": "机油滤清器堵塞影响的是发动机润滑，而不是制动助力器的工作。它可能使未经过滤的机油通过旁通阀循环。"
+    },
+    {
+      "number": 13867,
+      "text": "燃油滤清器截留燃油中的杂质，保护供油和喷射系统的部件。"
+    },
+    {
+      "number": 13868,
+      "text": "滤清器堵塞会限制燃油通过；如果滤清器位于泵的上游，还可能影响泵的燃油供应。"
+    },
+    {
+      "number": 13869,
+      "text": "滤清器堵塞会阻碍供油：到达发动机的燃油可能减少，动力也可能下降。"
+    },
+    {
+      "number": 13870,
+      "text": "燃油滤清器堵塞不一定会导致黑烟。堵塞主要限制供油；黑烟可能由其他原因造成，例如空气滤清器堵塞。"
+    },
+    {
+      "number": 13871,
+      "text": "燃油滤清器不负责气缸的润滑：它堵塞会阻碍发动机供油。"
+    },
+    {
+      "number": 13872,
+      "text": "堵塞本身不会必然加剧喷油器磨损：滤清器会截留杂质，堵塞时主要是限制燃油流量。"
+    },
+    {
+      "number": 13873,
+      "text": "VERO. 原地转向时，胎面在不滚动的情况下受到地面的作用力，使轮胎磨损加剧。"
+    },
+    {
+      "number": 13875,
+      "text": "转向间隙过大时，方向盘的一部分动作不会立即传递给车轮，使车辆更难精确保持行驶轨迹。"
+    },
+    {
+      "number": 13876,
+      "text": "间隙过大会影响转向响应，但不一定损害前悬架的工作。无论如何，都需要检查相关部件。"
+    },
+    {
+      "number": 13877,
+      "text": "转向间隙不一定会导致后轮胎过早磨损；主要问题是转向精度降低。"
+    },
+    {
+      "number": 13878,
+      "text": "双手握住方向盘有助于控制车辆，但不能消除机械间隙：需要检查转向系统并进行修理或调整。"
+    },
+    {
+      "number": 13879,
+      "text": "前束不正确会使胎面不均匀地摩擦地面，可能造成不对称磨损。"
+    },
+    {
+      "number": 13880,
+      "text": "胎压过高可能使载荷集中在胎面中央，导致中央部分磨损得更快。"
+    },
+    {
+      "number": 13881,
+      "text": "胎压不足时，胎面两肩往往比中央部分磨损得更快。"
+    },
+    {
+      "number": 13882,
+      "text": "车轮不平衡可能导致振动和轮胎不均匀磨损。"
+    },
+    {
+      "number": 13883,
+      "text": "前束失准不会降低车辆侧滑的风险：它可能使方向稳定性变差，并使车辆更容易跑偏。"
+    },
+    {
+      "number": 13884,
+      "text": "车轮不平衡不会缩短制动距离，反而可能导致振动和不均匀磨损。"
+    },
+    {
+      "number": 13885,
+      "text": "按照题目的判定标准，车轮不平衡主要导致振动，而直线行驶时跑偏与车轮定位或轮胎之间的差异有关。不过，跑偏可能有多种原因。"
+    },
+    {
+      "number": 13886,
+      "text": "题目给出的答案是 FALSO：转向摆振通常与车轮不平衡有关。不过，这一说法存在歧义：一份技术文件也将车轮定位不正确列为摆振的可能原因之一。"
+    },
+    {
+      "number": 13887,
+      "text": "前束失准可能使直线行驶的稳定性变差，并使车辆更容易偏离行驶轨迹。"
+    },
+    {
+      "number": 13888,
+      "text": "同一车轴上的轮胎气压不同，可能使轮胎反应不同，导致车辆向一侧跑偏。"
+    }
+  ],
+  "output_sha256": "1fe9e19b624691e245874e3072ef82bbe452d4f6f955e67cb979962a866c2b09"
+}

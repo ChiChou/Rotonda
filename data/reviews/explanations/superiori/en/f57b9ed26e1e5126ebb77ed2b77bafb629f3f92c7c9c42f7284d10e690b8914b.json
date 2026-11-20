@@ -1,0 +1,654 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28877,
+          "quesito_id": 6124,
+          "text_it": "Ogni sei mesi gli estintori presenti sugli autobus vanno svuotati, puliti internamente e ricaricati",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cf64b61873d703ff84b74d1d6ec0d4ed4207bf913a99c1d07567e214e4f5d86b",
+        "localized_text": "Every six months, bus fire extinguishers must be emptied, cleaned inside and recharged."
+      },
+      {
+        "source": {
+          "number": 28878,
+          "quesito_id": 6124,
+          "text_it": "Il pulsante di emergenza presente sugli autobus, se premuto, consente l'immediata apertura di tutte le porte del veicolo",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fcbd648f30ee74f1ead46b23b8091d9523b6819b9624ba09284586f2f02693dd",
+        "localized_text": "When pressed, the emergency button on a bus immediately opens all vehicle doors."
+      },
+      {
+        "source": {
+          "number": 28879,
+          "quesito_id": 6124,
+          "text_it": "Il pulsante di emergenza presente sugli autobus, se premuto, consente l'immediata espulsione verso l'esterno dei vetri dei finestrini di sicurezza",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "03d4128cf96bf8b2aa6a98cb95c0528cab2eaf63f65f0ae30278209e2956251f",
+        "localized_text": "When pressed, the emergency button on a bus immediately ejects the emergency window glass outward."
+      },
+      {
+        "source": {
+          "number": 28880,
+          "quesito_id": 6124,
+          "text_it": "Il pulsante di emergenza presente sugli autobus, se premuto, consente di lanciare un messaggio di SOS al numero di telefono 118",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5ce213415f13a3e036de32d88e8e76292f26022be7f0db9ade530abfda77be11",
+        "localized_text": "When pressed, the emergency button on a bus sends an SOS message to telephone number 118."
+      },
+      {
+        "source": {
+          "number": 28881,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus con al massimo trenta posti, deve trovarsi almeno un estintore da otto litri se a schiuma o uno da tre chili se a neve carbonica",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8764e0557bc477c97cbdaf5479aaf8967032abfec243fd6c8787be3494b2eedc",
+        "localized_text": "Buses with no more than thirty seats must carry at least one 8-litre foam extinguisher or one 3-kilogram carbon dioxide extinguisher."
+      },
+      {
+        "source": {
+          "number": 28882,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus con al massimo trenta posti, deve trovarsi almeno un estintore da cinque chili a polvere",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2dd23f59b0af2e99511ea46d96874a16a0bd49cf2d08ae6292552ba7273bfc28",
+        "localized_text": "Buses with no more than thirty seats must carry at least one 5-kilogram powder extinguisher."
+      },
+      {
+        "source": {
+          "number": 28883,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus interregionali con più di trenta posti, deve trovarsi almeno un estintore da 200 grammi a schiuma per ogni fila di sedili",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c1312275ff09d8564ee065c041c47bbf9fb33014becd1f1a7e17651c28ebccfe",
+        "localized_text": "Interregional buses with more than thirty seats must carry at least one 200-gram foam extinguisher per row of seats."
+      },
+      {
+        "source": {
+          "number": 28884,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus con più di trenta posti, deve trovarsi almeno un estintore da otto chili a schiuma, oppure due estintori da quattro chili se a neve carbonica",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0e5db5fcfad621e5ebe850ac61ba852f369add131febb6fb35883bbbe399ee13",
+        "localized_text": "Buses with more than thirty seats must carry at least one 8-kilogram foam extinguisher or two 4-kilogram carbon dioxide extinguishers."
+      },
+      {
+        "source": {
+          "number": 28885,
+          "quesito_id": 6124,
+          "text_it": "Durante la stagione invernale, gli estintori presenti sugli autobus possono essere tenuti all'interno del portabagagli",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "45841aa4af1a8f889d5b6180596ef3c9b85df2cfc7c19b6f249e9a8c2baeb4a3",
+        "localized_text": "In winter, bus fire extinguishers may be kept in the luggage compartment."
+      },
+      {
+        "source": {
+          "number": 28886,
+          "quesito_id": 6124,
+          "text_it": "Ogni sei mesi il conducente deve provare l'estintore presente sull'autobus, azionandolo per due secondi, annotando data ed esito della prova sull'apposita targhetta posta sull'estintore",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a99c02f49db44eb2204f80907da85e55a377d55e6835104a383d335e795cbf02",
+        "localized_text": "Every six months the driver must test the bus fire extinguisher by operating it for two seconds, recording the date and result on its tag."
+      },
+      {
+        "source": {
+          "number": 28887,
+          "quesito_id": 6124,
+          "text_it": "Gli estintori presenti sugli autobus devono essere controllati ogni dodici mesi",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a13f2919cc2212ff96b54018fd5c47d9397bf8cc8b923f1e8537a14821d0f1e9",
+        "localized_text": "Bus fire extinguishers must be checked every twelve months."
+      },
+      {
+        "source": {
+          "number": 28888,
+          "quesito_id": 6124,
+          "text_it": "L'annotazione dell'avvenuto controllo semestrale degli estintori presenti sull'autobus deve essere conservata presso l'azienda titolare del veicolo",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b2806f657c002d732cb89fc11d02c3cd6bc72fc62db098f388b4004fa63d99ba",
+        "localized_text": "The record of the six-monthly inspection of bus fire extinguishers must be kept at the company owning the vehicle."
+      },
+      {
+        "source": {
+          "number": 28889,
+          "quesito_id": 6124,
+          "text_it": "Il pulsante di emergenza presente sull'autobus deve trovarsi sotto il sedile del conducente, per evitare il pericolo di azionamento involontario",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4e113abc10d81509f187d402c98b2d5c323dce454a18a5a362b13dc1c3399a14",
+        "localized_text": "The emergency button on a bus must be under the driver's seat to prevent accidental activation."
+      },
+      {
+        "source": {
+          "number": 28890,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus interregionali con più di trenta posti e percorso superiore a 500 chilometri, deve essere presente a bordo un medico o un paramedico che si occupi di eventuali soccorsi sanitari",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "72023635a8cac5180a540051397ff1ba8cb6217c6962692327295048350875cc",
+        "localized_text": "Interregional buses with more than thirty seats and routes over 500 kilometres must carry a doctor or paramedic to handle medical emergencies."
+      },
+      {
+        "source": {
+          "number": 28891,
+          "quesito_id": 6124,
+          "text_it": "Le uscite di emergenza presenti sugli autobus con più di trenta posti possono essere solo porte",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "46421bdaed3450fb45dd991c22d9a64f51ed1c421e022d03ccc2736a0d809e2a",
+        "localized_text": "Emergency exits on buses with more than thirty seats may only be doors."
+      },
+      {
+        "source": {
+          "number": 28892,
+          "quesito_id": 6125,
+          "text_it": "E' opportuno che il conducente verifichi, prima di ogni viaggio, la posizione, pulizia e stato generale degli specchi retrovisori del veicolo",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "133827b843f480c09209bdca32b6c96910e0ef919ae901d720f8d6dc373db123",
+        "localized_text": "Before every journey, the driver should check the position, cleanliness and general condition of the vehicle's mirrors."
+      },
+      {
+        "source": {
+          "number": 28893,
+          "quesito_id": 6125,
+          "text_it": "Anche se gli specchi retrovisori sono ben regolati, esistono parti della strada che il conducente non riesce a vedere",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ca1f0a89cfb2ec850ebc3d9257dc4fc17805afb969568b65b1e6673f1ae1ca53",
+        "localized_text": "Even when mirrors are correctly adjusted, there are parts of the road the driver cannot see."
+      },
+      {
+        "source": {
+          "number": 28894,
+          "quesito_id": 6125,
+          "text_it": "Vi sono parti della strada che il conducente riesce a vedere direttamente e altre che può vedere solo di riflesso attraverso gli specchi retrovisori",
+          "answer": 1,
+          "page": 88,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "86038bd72e2cb3b74068a94ce722d6a8a04bdccbe288f1a45847f7a3168ef2e8",
+        "localized_text": "The driver can see some parts of the road directly and others only by reflection in the mirrors."
+      },
+      {
+        "source": {
+          "number": 28895,
+          "quesito_id": 6125,
+          "text_it": "Se gli specchi retrovisori sono ben regolati, non esistono parti della strada che il conducente non possa vedere chiaramente",
+          "answer": 0,
+          "page": 88,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8180eeea3907030a1460418e07885f1fb7e0423b0c8c7cd921e0506aaeb29bcb",
+        "localized_text": "If mirrors are correctly adjusted, there are no parts of the road the driver cannot see clearly."
+      },
+      {
+        "source": {
+          "number": 28896,
+          "quesito_id": 6125,
+          "text_it": "Se gli specchi retrovisori di un lato sono sporchi o danneggiati, non vi sono pericoli se quelli dell’altro lato sono in perfetto ordine",
+          "answer": 0,
+          "page": 88,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "df69a3d1a0faaa6db96bf675b5dee0dfa3287f1bcf061acc74b72bb7aea2e56f",
+        "localized_text": "If mirrors on one side are dirty or damaged, there is no danger if those on the other side are in perfect condition."
+      },
+      {
+        "source": {
+          "number": 28897,
+          "quesito_id": 6125,
+          "text_it": "Gli specchi retrovisori possono essere integralmente sostituiti da telecamere opportunamente disposte",
+          "answer": 0,
+          "page": 88,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0bf6e93d5143a1f84e07997be1787aeb077b0ac538b277a82b48dc8cc1f79d93",
+        "localized_text": "Mirrors may be entirely replaced by suitably positioned cameras."
+      },
+      {
+        "source": {
+          "number": 28898,
+          "quesito_id": 6126,
+          "text_it": "Il proprietario o il conducente devono seguire lo scadenzario degli interventi di manutenzione programmata indicato sul manuale di uso e manutenzione fornito dal costruttore del veicolo",
+          "answer": 1,
+          "page": 88,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6c4eb4981eee159256508098850986d45e3f98e627e5ddb50a58f3d4f4d5d540",
+        "localized_text": "The owner or driver must follow the scheduled maintenance timetable in the manufacturer's use and maintenance manual."
+      },
+      {
+        "source": {
+          "number": 28899,
+          "quesito_id": 6126,
+          "text_it": "La pulizia del parabrezza è rilevante anche ai fini del funzionamento e della durata delle spazzole del tergicristallo",
+          "answer": 1,
+          "page": 88,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e01de59c8d6b656b81fe33913e86e9c2f9380d83a9ad1e22fd58728266db32d6",
+        "localized_text": "Windshield cleanliness also affects wiper blade operation and life."
+      },
+      {
+        "source": {
+          "number": 28900,
+          "quesito_id": 6126,
+          "text_it": "Prima di partire occorre verificare la pulizia delle superfici vetrate e degli specchi retrovisori",
+          "answer": 1,
+          "page": 88,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "be251d86a986ef7c2cc877bae52bb10844e20ba392aa0eb5fdf31f496b6dcd66",
+        "localized_text": "Before departure, check the cleanliness of glass surfaces and mirrors."
+      },
+      {
+        "source": {
+          "number": 28901,
+          "quesito_id": 6126,
+          "text_it": "Vanno verificati periodicamente lo stato di usura e la pressione di gonfiaggio di tutti gli pneumatici",
+          "answer": 1,
+          "page": 88,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0dd5f4da6c5adbb59a7e019fd074c16c5b65125d9f7b190dc677d0208f952777",
+        "localized_text": "The wear and inflation pressure of all tires must be checked periodically."
+      }
+    ],
+    "task_sha256": "f57b9ed26e1e5126ebb77ed2b77bafb629f3f92c7c9c42f7284d10e690b8914b"
+  },
+  "rows": [
+    {
+      "number": 28877,
+      "text": "The six-monthly check verifies that the extinguisher works; emptying and recharging are separate operations, not required at every check.",
+      "evidence": [
+        "Vigili del Fuoco Fermo, avviso manutenzione estintori 2024, https://www.vigilfuoco.it/sites/default/files/2024-02/Avviso%20procedura%20di%20gara%20estintori.pdf: controllo semestrale distinto da ricarica e collaudo.",
+        "Circolare interministeriale 23 marzo 2018, prot. 6575/RU, §§1–4 e nota 2, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: dotazioni, idoneità, manutenzione e targhetta."
+      ]
+    },
+    {
+      "number": 28878,
+      "text": "The emergency button in this question stops the engine; doors use separate controls and do not all open immediately.",
+      "evidence": [
+        "Ministero infrastrutture e trasporti, quiz superiori 2025, quesiti 28864–28870, https://ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb: controllo, targhetta e comando di arresto motore previsti nel contesto del quiz.",
+        "UNECE R107 rev.5, allegato 3 §§7.5.4 e 7.6, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/2015/R107r5e.pdf: sede e accessibilità estintori, uscite e comandi porte."
+      ]
+    },
+    {
+      "number": 28879,
+      "text": "The button in this question stops the engine; it does not eject the glass. Window exits have their own devices, such as a tool for breaking the glass.",
+      "evidence": [
+        "Ministero infrastrutture e trasporti, quiz superiori 2025, quesiti 28864–28870, https://ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb: controllo, targhetta e comando di arresto motore previsti nel contesto del quiz.",
+        "UNECE R107 rev.7 allegato 3 §7.6.8, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/2020/R107r7e.pdf: apertura o rottura dei finestrini di emergenza."
+      ]
+    },
+    {
+      "number": 28880,
+      "text": "The emergency button described in the question stops the engine; it is not a control for automatically sending a message to 118.",
+      "evidence": [
+        "Ministero infrastrutture e trasporti, quiz superiori 2025, quesiti 28864–28870, https://ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb: controllo, targhetta e comando di arresto motore previsti nel contesto del quiz."
+      ]
+    },
+    {
+      "number": 28881,
+      "text": "The quiz marks this FALSE, but the wording is ambiguous: “at least one” can refer to the number of extinguishers. Historically, up to 30 seats required at least one 5-litre foam or one 2-kg CO₂ unit; a larger suitable approved unit is not automatically inadequate. Check applicable requirements and approved equivalents.",
+      "evidence": [
+        "DM 18 April 1977 annex §5.5.8.1, official Gazzetta supplement printed p. 6, inspected original SHA-256 fc395ed35fa70499c519865e91fcaed1838bf8535c961667b4794d6245696f50: up to 30 seats at least 5 L foam or 2 kg CO2; over 30 at least 5 L foam or two 2 kg CO2; approved equivalent effectiveness permitted. https://www.gazzettaufficiale.it/eli/gu/1977/05/19/135/so/0/sg/pdf",
+        "Joint Interior/MIT circular 6575/RU 23 March 2018 explains approved equivalents and modern suitability; its summary contains a unit/30-seat boundary discrepancy, so historic original is used for that wording. https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf",
+        "The printed FALSO is retained; the literal wording permits a reading about extinguisher count rather than claiming a minimum size. Larger suitable approved units are not automatically inadequate; the historic lower threshold alone does not refute the statement. The official intended interpretation is not established."
+      ]
+    },
+    {
+      "number": 28882,
+      "text": "The circular regards powder extinguishers as unsuitable inside buses: dispersed powder can irritate eyes and mucous membranes.",
+      "evidence": [
+        "Circolare interministeriale 23 marzo 2018, prot. 6575/RU, §§1–4 e nota 2, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: dotazioni, idoneità, manutenzione e targhetta."
+      ]
+    },
+    {
+      "number": 28883,
+      "text": "Equipment is not calculated as one small extinguisher per row. For buses with more than thirty seats the circular specifies a foam extinguisher or two CO₂ extinguishers meeting the stated specifications.",
+      "evidence": [
+        "Circolare interministeriale 23 marzo 2018, prot. 6575/RU, §§1–4 e nota 2, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: dotazioni, idoneità, manutenzione e targhetta."
+      ]
+    },
+    {
+      "number": 28884,
+      "text": "The quiz marks this FALSE, but the wording is ambiguous: two 4-kg CO₂ units may meet the historical minimum of two 2-kg units for over 30 seats if suitable and approved. The historical alternative was one 5-litre foam unit: kilograms and litres are not directly equivalent. Check applicable requirements and approved equivalents.",
+      "evidence": [
+        "DM 18 April 1977 annex §5.5.8.1, official Gazzetta supplement printed p. 6, inspected original SHA-256 fc395ed35fa70499c519865e91fcaed1838bf8535c961667b4794d6245696f50: up to 30 seats at least 5 L foam or 2 kg CO2; over 30 at least 5 L foam or two 2 kg CO2; approved equivalent effectiveness permitted. https://www.gazzettaufficiale.it/eli/gu/1977/05/19/135/so/0/sg/pdf",
+        "The question states 8 kg foam; the original specifies 5 litres, and units cannot be converted without composition. Two 4-kg CO2 units exceed the historical two 2-kg minimum, but actual approval and suitability must be checked.",
+        "Joint Interior/MIT circular 6575/RU 23 March 2018 on approved equivalents: https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf",
+        "The printed FALSO is retained; the literal wording permits a reading about extinguisher count rather than claiming a minimum size. Larger suitable approved units are not automatically inadequate; the historic lower threshold alone does not refute the statement. The official intended interpretation is not established."
+      ]
+    },
+    {
+      "number": 28885,
+      "text": "The extinguisher must remain in its designated location and be easy to retrieve in an emergency; winter does not justify storing it in the luggage compartment.",
+      "evidence": [
+        "UNECE R107 rev.5, allegato 3 §§7.5.4 e 7.6, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/2015/R107r5e.pdf: sede e accessibilità estintori, uscite e comandi porte.",
+        "Circolare interministeriale 23 marzo 2018, prot. 6575/RU, §§1–4 e nota 2, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: dotazioni, idoneità, manutenzione e targhetta."
+      ]
+    },
+    {
+      "number": 28886,
+      "text": "Periodic inspection is entrusted to competent personnel; it does not consist of discharging the extinguisher for two seconds. Work is recorded on its tag.",
+      "evidence": [
+        "Circolare interministeriale 23 marzo 2018, prot. 6575/RU, §§1–4 e nota 2, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: dotazioni, idoneità, manutenzione e targhetta.",
+        "Vigili del Fuoco Fermo, avviso manutenzione estintori 2024, https://www.vigilfuoco.it/sites/default/files/2024-02/Avviso%20procedura%20di%20gara%20estintori.pdf: controllo semestrale distinto da ricarica e collaudo."
+      ]
+    },
+    {
+      "number": 28887,
+      "text": "The six-monthly periodic check is more frequent than a twelve-month check; waiting a year does not meet that interval.",
+      "evidence": [
+        "Ministero infrastrutture e trasporti, quiz superiori 2025, quesiti 28864–28870, https://ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb: controllo, targhetta e comando di arresto motore previsti nel contesto del quiz.",
+        "Vigili del Fuoco Fermo, avviso manutenzione estintori 2024, https://www.vigilfuoco.it/sites/default/files/2024-02/Avviso%20procedura%20di%20gara%20estintori.pdf: controllo semestrale distinto da ricarica e collaudo."
+      ]
+    },
+    {
+      "number": 28888,
+      "text": "The result must be recorded on the tag attached to the extinguisher so it can be checked on board; keeping a record only at the company does not replace that entry.",
+      "evidence": [
+        "Circolare interministeriale 23 marzo 2018, prot. 6575/RU, §§1–4 e nota 2, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: dotazioni, idoneità, manutenzione e targhetta."
+      ]
+    },
+    {
+      "number": 28889,
+      "text": "The emergency stop button must be within the driver’s reach; under the seat it would not be readily accessible.",
+      "evidence": [
+        "Ministero infrastrutture e trasporti, quiz superiori 2025, quesiti 28864–28870, https://ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb: controllo, targhetta e comando di arresto motore previsti nel contesto del quiz."
+      ]
+    },
+    {
+      "number": 28890,
+      "text": "The quiz marks this FALSE: seat count and journey length alone do not establish that a doctor or paramedic must travel on board. In an accident, arrange the necessary assistance, including first aid where appropriate.",
+      "evidence": [
+        "Regulation (EU) 181/2011 Article 8: carrier provides reasonable and proportionate assistance in immediate practical needs after an accident, including first aid where necessary; this does not itself establish a doctor-on-board rule based on 30 seats/500 km. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R0181",
+        "Official superiori quiz question 28890 prints FALSO; no independent general doctor-on-board requirement identified for those thresholds."
+      ]
+    },
+    {
+      "number": 28891,
+      "text": "Emergency exits are not limited to doors: they can also include windows and escape hatches, depending on the vehicle’s configuration.",
+      "evidence": [
+        "UNECE R107 rev.5, allegato 3 §§7.5.4 e 7.6, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/2015/R107r5e.pdf: sede e accessibilità estintori, uscite e comandi porte."
+      ]
+    },
+    {
+      "number": 28892,
+      "text": "Clean, intact mirrors adjusted for the driver allow the available side and rear areas to be checked before setting off.",
+      "evidence": [
+        "DVSA, Carry out bus or coach daily walkaround checks, §§1 e 19, https://www.gov.uk/guidance/carry-out-psv-daily-walkaround-checks: verifiche di specchi, vetri e pneumatici.",
+        "Health and Safety Authority Ireland, Bus Driver Walk-Around Check Sheet, punto 1, https://www.hsa.ie/media/eg4lwmzg/bus_driver_walk_around_worksheet.pdf: visibilità e regolazione specchi."
+      ]
+    },
+    {
+      "number": 28893,
+      "text": "Mirrors extend the field of view, but blind spots can remain where a road user is not visible.",
+      "evidence": [
+        "TfL/TRL, Bus Safety Standard: Bus Vision, Blind Spot Mirrors, https://content.tfl.gov.uk/bus-safety-standard-bus-vision.pdf: aree non visibili direttamente né tramite gli specchi su autobus esaminati."
+      ]
+    },
+    {
+      "number": 28894,
+      "text": "The driver sees some areas directly through the windows; mirrors show other side and rear areas indirectly.",
+      "evidence": [
+        "TfL/TRL, Bus Safety Standard: Bus Vision, Blind Spot Mirrors, https://content.tfl.gov.uk/bus-safety-standard-bus-vision.pdf: aree non visibili direttamente né tramite gli specchi su autobus esaminati.",
+        "UN Regulation 46, official EU publication, §§2.1 and 2.1.1, inspected in accessible EUR-Lex HTML: indirect-vision devices serve areas not visible directly, and mirrors provide rear, side or front fields of vision. https://eur-lex.europa.eu/eli/reg/2014/46/oj/eng"
+      ]
+    },
+    {
+      "number": 28895,
+      "text": "Correct adjustment improves visibility, but does not necessarily eliminate every blind spot around the vehicle.",
+      "evidence": [
+        "TfL/TRL, Bus Safety Standard: Bus Vision, Blind Spot Mirrors, https://content.tfl.gov.uk/bus-safety-standard-bus-vision.pdf: aree non visibili direttamente né tramite gli specchi su autobus esaminati."
+      ]
+    },
+    {
+      "number": 28896,
+      "text": "Mirrors on the two sides show different areas; working mirrors on one side do not restore the view lost on the other.",
+      "evidence": [
+        "DVSA, Carry out bus or coach daily walkaround checks, §§1 e 19, https://www.gov.uk/guidance/carry-out-psv-daily-walkaround-checks: verifiche di specchi, vetri e pneumatici.",
+        "TfL/TRL, Bus Safety Standard: Bus Vision, Blind Spot Mirrors, https://content.tfl.gov.uk/bus-safety-standard-bus-vision.pdf: aree non visibili direttamente né tramite gli specchi su autobus esaminati."
+      ]
+    },
+    {
+      "number": 28897,
+      "text": "The quiz marks this FALSE: simply fitting any cameras in place of mirrors is not enough. On eligible vehicles, approved camera-monitor systems may replace specified mirrors subject to the applicable fields of view and conditions; cameras are not universally prohibited.",
+      "evidence": [
+        "UNECE Regulation No.46 revision 7 §2.2.6 and Annex 12: camera-monitor indirect-vision systems and approval requirements; applicable vehicle class and field of view determine permissible replacement. https://unece.org/sites/default/files/2024-02/R046r7e%281%29.pdf",
+        "Printed FALSO does not establish a general ban on approved camera-monitor systems; interpreting the statement as arbitrary camera replacement is an editorial inference."
+      ]
+    },
+    {
+      "number": 28898,
+      "text": "The manufacturer’s schedule specifies preventive maintenance and its intervals; following it helps keep the vehicle in working order.",
+      "evidence": [
+        "HSE, Inspection, maintenance and repair, Planned maintenance, https://www.hse.gov.uk/workplacetransport/vehicles/inspection.htm: manutenzione periodica e guida del costruttore."
+      ]
+    },
+    {
+      "number": 28899,
+      "text": "Dirt on the windscreen can accumulate on the wiper rubber and impair wiping; keeping the glass clean helps the blades last.",
+      "evidence": [
+        "Bosch, How to Improve the Life of Windshield Wipers?, Keep the Windshield Clean, https://ap.boschaftermarket.com/in/en/news/tips-and-technology/how-to-improve-the-life-of-windshield-wipers/: sporco sul vetro e durata delle spazzole."
+      ]
+    },
+    {
+      "number": 28900,
+      "text": "Clean glass and mirrors keep both direct and reflected views clear, so they should be checked before departure.",
+      "evidence": [
+        "DVSA, Carry out bus or coach daily walkaround checks, §§1 e 19, https://www.gov.uk/guidance/carry-out-psv-daily-walkaround-checks: verifiche di specchi, vetri e pneumatici.",
+        "HSE, Safe manoeuvring, A clear view, https://www.hse.gov.uk/workplacetransport/vehicles/safemanoeuvring.htm: visuale da parabrezza, vetri laterali e specchi."
+      ]
+    },
+    {
+      "number": 28901,
+      "text": "Wear and pressure affect tyre performance; checking all wheels helps identify damage or incorrect inflation.",
+      "evidence": [
+        "DVSA, Carry out bus or coach daily walkaround checks, §§1 e 19, https://www.gov.uk/guidance/carry-out-psv-daily-walkaround-checks: verifiche di specchi, vetri e pneumatici.",
+        "HSE, Inspection, maintenance and repair, Planned maintenance, https://www.hse.gov.uk/workplacetransport/vehicles/inspection.htm: manutenzione periodica e guida del costruttore."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "f57b9ed26e1e5126ebb77ed2b77bafb629f3f92c7c9c42f7284d10e690b8914b",
+    "output_sha256": "365e45c7efaf5738bfc189bb2144b28a739215e53f33a796858c2cf256cbdaeb",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / extinguisher-round2-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      28877,
+      28878,
+      28879,
+      28880,
+      28881,
+      28882,
+      28883,
+      28884,
+      28885,
+      28886,
+      28887,
+      28888,
+      28889,
+      28890,
+      28891,
+      28892,
+      28893,
+      28894,
+      28895,
+      28896,
+      28897,
+      28898,
+      28899,
+      28900,
+      28901
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Original Gazzetta 1977 supplement page 6 independently inspected in prior round; 2018 joint circular independently checked, including approved CO₂ units with nominal charge at least 2 kg. Revised 28881 and 28884 visibly acknowledge literal ambiguity and applicable approval.",
+      "UN R46 official EU publication https://eur-lex.europa.eu/eli/reg/2014/46/oj/eng/pdf indexed full section §§2.1–2.1.1 inspected independently; defines indirect vision and mirror field. Direct HTML fetch presented JavaScript challenge, so reviewer used indexed PDF text."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eac5-fcbf-7661-86f1-2d96afef1b26",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "843d2e7040457b8386829eba63c4500c846a2651bd8ba0cd81b79c2d9a2e2d98",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eac5-fcbf-7661-86f1-2d96afef1b26",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28881,
+              "reason": "Il FALSO riguarda un obbligo espresso come minimo, ma gli 8 litri a schiuma o 3 kg CO₂ indicati superano i minimi descritti nella circolare; non è chiaro se si intenda indicare la soglia minima obbligatoria o vietare la dotazione proposta.",
+              "checked_sources": [
+                "Circolare interministeriale 23 marzo 2018 prot. 6575/RU §§1–2, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: per capacità e numero di estintori indica dotazioni minime ed equivalenze.",
+                "Ministero infrastrutture e trasporti, quiz superiori quesiti 28859–60, 28881, 28884 e 28897, https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDE%2BSUPERIORI23-10.pdf/8673967c-c17e-421d-8f67-b711a33194c1: enunciati e risposte stampate."
+              ]
+            },
+            {
+              "number": 28884,
+              "reason": "Il FALSO riguarda un obbligo espresso come minimo, ma due estintori CO₂ da 4 kg superano il minimo di due da 2 kg; non è chiaro se il quesito intenda la soglia minima oppure l’inidoneità della dotazione proposta.",
+              "checked_sources": [
+                "Circolare interministeriale 23 marzo 2018 prot. 6575/RU §§1–2, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: per capacità e numero di estintori indica dotazioni minime ed equivalenze.",
+                "Ministero infrastrutture e trasporti, quiz superiori quesiti 28859–60, 28881, 28884 e 28897, https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDE%2BSUPERIORI23-10.pdf/8673967c-c17e-421d-8f67-b711a33194c1: enunciati e risposte stampate."
+              ]
+            },
+            {
+              "number": 28897,
+              "reason": "Il FALSO assoluto sulle telecamere contrasta con la possibilità di sostituzione mediante sistemi telecamera-monitor omologati; il quesito non precisa veicolo, omologazione o epoca.",
+              "checked_sources": [
+                "Ministero infrastrutture e trasporti, quiz superiori quesiti 28859–60, 28881, 28884 e 28897, https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDE%2BSUPERIORI23-10.pdf/8673967c-c17e-421d-8f67-b711a33194c1: enunciati e risposte stampate.",
+                "UNECE R46 revisione 7, §2.2.6 e allegato 12, https://unece.org/sites/default/files/2024-02/R046r7e%281%29.pdf: sistemi telecamera-monitor omologati possono sostituire sistemi prescritti di specchi, alle condizioni del regolamento.",
+                "Transport for London, Bus safety strategy, Blind spot mirrors and camera systems, https://tfl.gov.uk/cdn/static/cms/documents/bus-safety-strategy.pdf: descrive telecamere e monitor su nuovi autobus."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "843d2e7040457b8386829eba63c4500c846a2651bd8ba0cd81b79c2d9a2e2d98",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

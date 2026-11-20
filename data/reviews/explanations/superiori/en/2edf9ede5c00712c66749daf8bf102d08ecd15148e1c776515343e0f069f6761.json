@@ -1,0 +1,1001 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 30388,
+          "quesito_id": 6234,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, l’essiccatore deve essere messo in funzione manualmente dal conducente",
+          "answer": 0,
+          "page": 136,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7756ccd8a21bea2fecd9fb4b83563b4e93e4cca9da5837ccf1995b3c6fcf4263",
+        "localized_text": "In pneumatic-braked vehicles, the driver must start the dryer manually."
+      },
+      {
+        "source": {
+          "number": 30389,
+          "quesito_id": 6234,
+          "text_it": "Nell’essiccatore di un impianto frenante pneumatico, una volta \"asciugata\" l’aria, vengono aggiunte piccole particelle di lubrificante per oliare le valvole del circuito dell’aria compressa",
+          "answer": 0,
+          "page": 136,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1734336572b24c8dd2fd8e7ce32cf524762e2dfbc925be5dd026c9567a1a4afb",
+        "localized_text": "In a pneumatic brake dryer, small lubricant particles are added after drying air to oil air-circuit valves."
+      },
+      {
+        "source": {
+          "number": 30390,
+          "quesito_id": 6234,
+          "text_it": "Nell’impianto di frenatura pneumatico, vi sono tanti essiccatori quanti sono i serbatoi dell’aria compressa",
+          "answer": 0,
+          "page": 136,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "69ef7914a220b437980ed79e9eda38e9735913eddf84a14fb8ec8e595b45bfd0",
+        "localized_text": "A pneumatic braking system has one dryer for each compressed-air tank."
+      },
+      {
+        "source": {
+          "number": 30391,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione permette di mantenere l’aria dei circuiti frenanti ad una pressione compresa tra due valori, massimo e minimo",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1f173691b706a23c0a9320cf1b8287e581e4722550b2769f8498f5d28bd6d692",
+        "localized_text": "In compressed-air brakes, the pressure regulator keeps circuit pressure between maximum and minimum values."
+      },
+      {
+        "source": {
+          "number": 30392,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione permette di evitare sovrappressioni nell’impianto",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3c89586e078b927a6c73fa6be870393450720f0566347afa9f2b2807b6ac0a7c",
+        "localized_text": "In compressed-air brakes, the pressure regulator prevents system overpressure."
+      },
+      {
+        "source": {
+          "number": 30393,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione è dotato di una valvola di sicurezza",
+          "answer": 1,
+          "page": 136,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6f9c6552c6747c6b63d29201e3e4fa84dcf5b2b819c56485979a70901099a801",
+        "localized_text": "In compressed-air brakes, the pressure regulator has a safety valve."
+      },
+      {
+        "source": {
+          "number": 30394,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione prevede anche fasi di funzionamento a vuoto del compressore",
+          "answer": 1,
+          "page": 136,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "49a1d1e7561341a98ca610bfb1ccd50fa1fa38c8a62aa8093c98a18de97f7c06",
+        "localized_text": "In compressed-air brakes, the pressure regulator also provides compressor idle phases."
+      },
+      {
+        "source": {
+          "number": 30395,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione prevede anche fasi in cui scarica aria in atmosfera",
+          "answer": 1,
+          "page": 136,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "24fc5ccfb4f66175031a3603769f72a4530558d500ef0e4dd837a0b9fe8ae480",
+        "localized_text": "In compressed-air brakes, the pressure regulator also has phases when it vents air to atmosphere."
+      },
+      {
+        "source": {
+          "number": 30396,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione permette di mantenere l’aria dei circuiti frenanti alla pressione fissa di quindici bar",
+          "answer": 0,
+          "page": 136,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "24af5fa10959a98c90a769ce9c222b7570c83f56d0b48d85269dc70a1e31eb3b",
+        "localized_text": "In compressed-air brakes, the pressure regulator keeps brake-circuit air at a fixed 15 bar."
+      },
+      {
+        "source": {
+          "number": 30397,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione ha il compito di regolare il valore della pressione dell’aria inviata agli elementi frenanti",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "18bb20847972af63e5c2bb28056906325d45569c6bcf8e692a24ed9330768097",
+        "localized_text": "In compressed-air brakes, the pressure regulator adjusts pressure sent to brake components."
+      },
+      {
+        "source": {
+          "number": 30398,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione ha il compito di regolare il valore della pressione dell’aria all'interno delle sospensioni pneumatiche",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "94b8bd8f78d308725a149252b80dd4fe4eaef114b151755185d548ee0329f499",
+        "localized_text": "In compressed-air brakes, the pressure regulator adjusts air suspension pressure."
+      },
+      {
+        "source": {
+          "number": 30399,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione non è necessario se il veicolo è dotato di sospensioni pneumatiche",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b1c8a0597cf00e0fac2206d7ec999ab22ec3134c63d102a05475d11b2b0f9a6a",
+        "localized_text": "In compressed-air brakes, a pressure regulator is unnecessary if the vehicle has air suspension."
+      },
+      {
+        "source": {
+          "number": 30400,
+          "quesito_id": 6235,
+          "text_it": "Negli impianti di frenatura ad aria compressa, il regolatore di pressione è comandato dal conducente attraverso apposito \"manettino\" posto sul cruscotto",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3eb3df37ec3db622676a4e5eecea199d155b732208760aaafcab0d5b2cbb2bdd",
+        "localized_text": "In compressed-air brakes, the driver operates the pressure regulator using a dashboard hand control."
+      },
+      {
+        "source": {
+          "number": 30401,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti dei veicoli stradali possono essere del tipo a tamburo e ganasce dotate di guarnizione di attrito (ferodo)",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "37c52a40614fa0a09db2317e5253f58fea6771557883b5afe2a12b3daefd5326",
+        "localized_text": "Road vehicle brakes may use drums and shoes with friction lining."
+      },
+      {
+        "source": {
+          "number": 30402,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti dei veicoli stradali possono essere del tipo a disco e pastiglie dotate di guarnizione di attrito (ferodo)",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cee29369c969bbae585134bb50f75a25164abc39f0fc3ede700221f94e5efb13",
+        "localized_text": "Road vehicle brakes may use discs and pads with friction lining."
+      },
+      {
+        "source": {
+          "number": 30403,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti dei veicoli stradali pesanti sono del tipo ad attrito",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8ab7bb207e91eb422fabc9e253951158575b1164eb061bd8ee26b69761306a4f",
+        "localized_text": "Heavy road vehicle brake components are friction type."
+      },
+      {
+        "source": {
+          "number": 30404,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti dei veicoli possono avere problemi di surriscaldamento",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8475e8f5f8a47ce0a30f803f48a1b1b5793b0e8fe40252ffc84d1da2d41ffcce",
+        "localized_text": "Vehicle brake components can overheat."
+      },
+      {
+        "source": {
+          "number": 30405,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti dei veicoli, trasformano l’energia cinetica posseduta dal veicolo in calore da disperdere in atmosfera",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f42388e41394853d8e29621afc3f7e3d9bccc7bce769641908519c895a2eb119",
+        "localized_text": "Vehicle brake components convert kinetic energy into heat dissipated into the atmosphere."
+      },
+      {
+        "source": {
+          "number": 30406,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti possono essere del tipo a disco e ganasce dotate di guarnizione di attrito (ferodo)",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7d9cc95c03963b7b59de2ca42baca27e3a342828c9f18d6f47e469d89a230671",
+        "localized_text": "Brake components may use discs and shoes with friction lining."
+      },
+      {
+        "source": {
+          "number": 30407,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti possono essere del tipo a ganasce e pastiglie dotate di guarnizione di attrito (ferodo)",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "31dd61fd8f55d612532abf2d5422c0061d293362881c2bb816bc6a36385625c7",
+        "localized_text": "Brake components may use shoes and pads with friction lining."
+      },
+      {
+        "source": {
+          "number": 30408,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti dei veicoli possono avere problemi di eccessiva ventilazione",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "858cf7744631b9210794dad33f1732524e394b9a2f801883762eb39e8fcd9b59",
+        "localized_text": "Vehicle brake components can suffer excessive ventilation."
+      },
+      {
+        "source": {
+          "number": 30409,
+          "quesito_id": 6236,
+          "text_it": "Gli elementi frenanti dei veicoli stradali pesanti sono del tipo elettromagnetico",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "56889f485cb7e1a6a575fe50fd6131d9c868d2e757ee64cd9bc43e4abf64a68f",
+        "localized_text": "Heavy road vehicle brake components are electromagnetic."
+      },
+      {
+        "source": {
+          "number": 30410,
+          "quesito_id": 6236,
+          "text_it": "I veicoli stradali di massa complessiva a pieno carico superiore a 7,5 tonnellate, devono essere dotati di elementi frenanti raffreddati a liquido",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9f7f25c0cdb43f97f9b92b25f4463d8e2e280df8d1f5c73428d2e94f5b43345b",
+        "localized_text": "Road vehicles with total laden mass over 7.5 tonnes must have liquid-cooled brake components."
+      },
+      {
+        "source": {
+          "number": 30411,
+          "quesito_id": 6236,
+          "text_it": "I veicoli stradali di massa complessiva a pieno carico superiore a 3,5 tonnellate, non possono essere dotati di elementi frenanti autoventilanti per pericolo di rottura del disco",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "09f7f3c49e477998fc8448ad858032b01b5564038c8c2ceb2b26e3f13c1e93b6",
+        "localized_text": "Road vehicles with total laden mass over 3.5 tonnes cannot have self-ventilated brakes because the disc may break."
+      },
+      {
+        "source": {
+          "number": 30413,
+          "quesito_id": 6237,
+          "text_it": "Il freno di tipo pneumoidraulico funziona grazie all'azione combinata dell'aria e dell'olio",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "82c598f8e39c084dd9a0f13d991e79c49a5404a349d3923b203fce4025f8f4ee",
+        "localized_text": "A pneumatic-hydraulic brake works through the combined action of air and oil."
+      }
+    ],
+    "task_sha256": "2edf9ede5c00712c66749daf8bf102d08ecd15148e1c776515343e0f069f6761"
+  },
+  "rows": [
+    {
+      "number": 30388,
+      "text": "The dryer operates automatically in the compressed-air supply circuit; the driver does not have to start it by hand.",
+      "evidence": [
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_maintenance_manuals_/MM35_web_1.pdf p. 2, “How the System Saver Twin Air Dryer Works”: il regolatore avvia automaticamente il compressore sotto la soglia e l’aria attraversa l’essiccatore, avviando il ciclo di essiccazione."
+      ]
+    },
+    {
+      "number": 30389,
+      "text": "The dryer removes moisture and can separate oil aerosols; it does not add lubricant to the air going to the valves.",
+      "evidence": [
+        "https://www.zf.com/products/en/cv/products_64542.html: essiccatore separa umidità e aerosol di olio; include regolatore e valvola di spurgo."
+      ]
+    },
+    {
+      "number": 30390,
+      "text": "One dryer can treat air upstream of several reservoirs; there need not be one dryer per reservoir.",
+      "evidence": [
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_maintenance_manuals_/MM35_web_1.pdf p. 2, figura 1.2: un essiccatore alimenta un serbatoio di alimentazione e due serbatoi dell’impianto."
+      ]
+    },
+    {
+      "number": 30391,
+      "text": "The governor controls air production between cut-in and cut-out thresholds, replenishing pressure when it falls.",
+      "evidence": [
+        "https://www.wabco-customercentre.com/catalog/docs/8150102173.pdf §6.1.1.1: regolatore 975 303 controlla automaticamente la pressione e comprende valvola di sicurezza integrata.",
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_maintenance_manuals_/MM1736_web.pdf §4.2.5: il regolatore comanda carico e scarico del compressore alle soglie di pressione.",
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ §§5.1.2, 5.1.7: soglie di intervento del regolatore; il pedale modula la pressione di frenatura."
+      ]
+    },
+    {
+      "number": 30392,
+      "text": "At the upper threshold the governor unloads the compressor, limiting supply pressure; a safety valve protects against excess pressure.",
+      "evidence": [
+        "https://www.wabco-customercentre.com/catalog/docs/8150102173.pdf §6.1.1.1: regolatore 975 303 controlla automaticamente la pressione e comprende valvola di sicurezza integrata.",
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_maintenance_manuals_/MM1736_web.pdf §4.2.5: il regolatore comanda carico e scarico del compressore alle soglie di pressione."
+      ]
+    },
+    {
+      "number": 30393,
+      "text": "The governor considered here has a safety valve that operates if pressure becomes excessive.",
+      "evidence": [
+        "https://www.wabco-customercentre.com/catalog/docs/8150102173.pdf §6.1.1.1: regolatore 975 303 controlla automaticamente la pressione e comprende valvola di sicurezza integrata."
+      ]
+    },
+    {
+      "number": 30394,
+      "text": "At the upper threshold the governor unloads the compressor; when pressure falls to the lower threshold, loading resumes.",
+      "evidence": [
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_maintenance_manuals_/MM1736_web.pdf §4.2.5: il regolatore comanda carico e scarico del compressore alle soglie di pressione.",
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ §§5.1.2, 5.1.7: soglie di intervento del regolatore; il pedale modula la pressione di frenatura."
+      ]
+    },
+    {
+      "number": 30395,
+      "text": "At cut-out pressure the governor can vent air to the atmosphere; venting stops when pressure falls to the cut-in threshold.",
+      "evidence": [
+        "https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf p. 15, Combined Unloader 975 303, funzionamento a): alla pressione di disinserimento l’aria del compressore esce allo scarico 3; sotto la pressione di reinserimento l’uscita si chiude e riprende il riempimento."
+      ]
+    },
+    {
+      "number": 30396,
+      "text": "Supply pressure varies between cut-in and cut-out thresholds; it is not held fixed at 15 bar.",
+      "evidence": [
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_maintenance_manuals_/MM1736_web.pdf §4.2.5: il regolatore comanda carico e scarico del compressore alle soglie di pressione.",
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ §§5.1.2, 5.1.7: soglie di intervento del regolatore; il pedale modula la pressione di frenatura."
+      ]
+    },
+    {
+      "number": 30397,
+      "text": "The governor controls reservoir supply pressure; the brake control modulates the pressure sent to the brakes during braking.",
+      "evidence": [
+        "https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf p. 15, Combined Unloader 975 303: controllo automatico della pressione di esercizio e alimentazione dei serbatoi.",
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ §§5.1.2 e 5.1.7: il regolatore controlla i cicli del compressore; la pressione applicata dal pedale comanda la frenata."
+      ]
+    },
+    {
+      "number": 30398,
+      "text": "The brake governor controls the system supply pressure; it does not directly control air suspension pressure.",
+      "evidence": [
+        "https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf p. 15, Combined Unloader 975 303: controllo automatico della pressione di esercizio dell’impianto frenante.",
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_suspension_maintenance_manuals/MM1315_web_2.pdf p. 2: la centralina OptiRide regola la pressione dei soffietti della sospensione."
+      ]
+    },
+    {
+      "number": 30399,
+      "text": "Air suspension does not replace the governor: the brake supply still needs pressure control.",
+      "evidence": [
+        "https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf p. 15, Combined Unloader 975 303: il regolatore controlla automaticamente la pressione di esercizio dei freni.",
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_suspension_maintenance_manuals/MM1315_web_2.pdf p. 2: la sospensione OptiRide usa un controllo proprio della pressione dei soffietti."
+      ]
+    },
+    {
+      "number": 30400,
+      "text": "The governor acts automatically according to air pressure, without a hand control operated by the driver.",
+      "evidence": [
+        "https://www.wabco-customercentre.com/catalog/docs/8150102173.pdf §6.1.1.1: regolatore 975 303 controlla automaticamente la pressione e comprende valvola di sicurezza integrata.",
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_maintenance_manuals_/MM1736_web.pdf §4.2.5: il regolatore comanda carico e scarico del compressore alle soglie di pressione."
+      ]
+    },
+    {
+      "number": 30401,
+      "text": "In a drum brake, shoes lined with friction material press against the drum to slow the wheel.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: ganasce e tamburo, pastiglie e disco; attrito genera calore e uso eccessivo provoca surriscaldamento e fading."
+      ]
+    },
+    {
+      "number": 30402,
+      "text": "In a disc brake, pads lined with friction material press against the disc to slow the wheel.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: ganasce e tamburo, pastiglie e disco; attrito genera calore e uso eccessivo provoca surriscaldamento e fading."
+      ]
+    },
+    {
+      "number": 30403,
+      "text": "Heavy vehicle service brakes use friction: for example, pads press on a disc or shoes on a drum.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: ganasce e tamburo, pastiglie e disco; attrito genera calore e uso eccessivo provoca surriscaldamento e fading.",
+        "https://www.fmcsa.dot.gov/carrier-safety/carrier-safety-resources/motorcoach-brake-systems-and-safety-technologies: freni a disco e a tamburo per veicoli pesanti; il rallentatore è distinto."
+      ]
+    },
+    {
+      "number": 30404,
+      "text": "Friction produces heat; prolonged or excessive use can overheat brakes and reduce their effectiveness.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: ganasce e tamburo, pastiglie e disco; attrito genera calore e uso eccessivo provoca surriscaldamento e fading."
+      ]
+    },
+    {
+      "number": 30405,
+      "text": "In friction brakes, energy of motion is converted into heat that must be dissipated into the surroundings.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: ganasce e tamburo, pastiglie e disco; attrito genera calore e uso eccessivo provoca surriscaldamento e fading."
+      ]
+    },
+    {
+      "number": 30406,
+      "text": "In a conventional disc brake the pads act on the disc; shoes are associated with the drum.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: ganasce e tamburo, pastiglie e disco; attrito genera calore e uso eccessivo provoca surriscaldamento e fading."
+      ]
+    },
+    {
+      "number": 30407,
+      "text": "Shoes and pads belong to different types of brake: shoes act on a drum and pads on a disc.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: ganasce e tamburo, pastiglie e disco; attrito genera calore e uso eccessivo provoca surriscaldamento e fading."
+      ]
+    },
+    {
+      "number": 30408,
+      "text": "The typical problem is overheating from friction; ventilation helps dissipate heat.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: l’attrito produce calore e l’uso eccessivo surriscalda i freni.",
+        "https://special.mercedes-benz-trucks.com/en/the-e-econic/technical-data/downloads.html “Technical data at a glance” e “Brakes”: eEconic ha massa complessiva 19 o 27 t e dischi a ventilazione interna su tutti gli assi.",
+        "Sathiyan et al., “Experimental thermal analysis of brake cooling relative to mass flow of air through a ventilated brake disc”, Case Studies in Thermal Engineering 64 (2024), 105530, https://doi.org/10.1016/j.csite.2024.105530, testo completo https://research.chalmers.se/publication/543957/file/543957_Fulltext.pdf, §1 p. 1: la rotazione aspira aria attraverso le alette del disco ventilato; la convezione forzata favorisce la dissipazione del calore."
+      ]
+    },
+    {
+      "number": 30409,
+      "text": "Heavy vehicle service brakes normally use friction, with discs or drums; an electromagnetic retarder, if fitted, is a separate device.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx §§5.1.8, 5.4.5: ganasce e tamburo, pastiglie e disco; attrito genera calore e uso eccessivo provoca surriscaldamento e fading.",
+        "https://www.fmcsa.dot.gov/carrier-safety/carrier-safety-resources/motorcoach-brake-systems-and-safety-technologies: freni a disco e a tamburo per veicoli pesanti; il rallentatore è distinto."
+      ]
+    },
+    {
+      "number": 30410,
+      "text": "Exceeding 7.5 tonnes does not require liquid-cooled brakes: air-cooled disc brakes exist for heavy vehicles.",
+      "evidence": [
+        "https://special.mercedes-benz-trucks.com/en/the-e-econic/technical-data/downloads.html “Technical data at a glance” e “Brakes”: eEconic ha massa complessiva 19 o 27 t e dischi a ventilazione interna di serie su tutti gli assi.",
+        "https://special.mercedes-benz-trucks.com/it/leeconic/dati-tecnici/equipaggiamento/sistemi-di-assistenza-per-la-sicurezza.html “Freni”: freni a disco autoventilanti dell’eEconic; https://special.mercedes-benz-trucks.com/it/econic-servizi-municipali/generalita/applicazione.html: versione per raccolta rifiuti da 27 t sul mercato italiano.",
+        "Sathiyan et al., “Experimental thermal analysis of brake cooling relative to mass flow of air through a ventilated brake disc”, Case Studies in Thermal Engineering 64 (2024), 105530, https://doi.org/10.1016/j.csite.2024.105530, testo completo https://research.chalmers.se/publication/543957/file/543957_Fulltext.pdf, §1 p. 1: la rotazione aspira aria attraverso le alette del disco ventilato; la convezione forzata favorisce la dissipazione del calore."
+      ]
+    },
+    {
+      "number": 30411,
+      "text": "Vehicles over 3.5 tonnes can also have ventilated discs; ventilation helps dissipate heat.",
+      "evidence": [
+        "https://special.mercedes-benz-trucks.com/en/the-e-econic/technical-data/downloads.html “Technical data at a glance” e “Brakes”: eEconic ha massa complessiva 19 o 27 t e dischi a ventilazione interna su tutti gli assi.",
+        "Sathiyan et al., “Experimental thermal analysis of brake cooling relative to mass flow of air through a ventilated brake disc”, Case Studies in Thermal Engineering 64 (2024), 105530, https://doi.org/10.1016/j.csite.2024.105530, testo completo https://research.chalmers.se/publication/543957/file/543957_Fulltext.pdf, §1 p. 1: la rotazione aspira aria attraverso le alette del disco ventilato; la convezione forzata favorisce la dissipazione del calore."
+      ]
+    },
+    {
+      "number": 30413,
+      "text": "In an air-over-hydraulic brake, compressed air acts on a device that generates hydraulic force; fluid then transmits that force to the brakes.",
+      "evidence": [
+        "https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf §6: nei freni pneumo-idraulici la pressione dell’aria è convertita in forza idraulica per azionare i freni."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "2edf9ede5c00712c66749daf8bf102d08ecd15148e1c776515343e0f069f6761",
+    "output_sha256": "2bf034e165d102d3a4381d6eb29f7c57b8c5c0b7d29181123b6ca96a57cbcc7d",
+    "author": "gpt-6.1-terra / 01a1eb50-f38c-7ab0-b799-a71317d21eef",
+    "reviewer": "gpt-6.1-terra / 01a1eb51-9f82-78e1-af56-6f2c64f1fba3",
+    "status": "accepted",
+    "checked_numbers": [
+      30388,
+      30389,
+      30390,
+      30391,
+      30392,
+      30393,
+      30394,
+      30395,
+      30396,
+      30397,
+      30398,
+      30399,
+      30400,
+      30401,
+      30402,
+      30403,
+      30404,
+      30405,
+      30406,
+      30407,
+      30408,
+      30409,
+      30410,
+      30411,
+      30413
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "d0f8406af09539e236fbe72d54372251bc42a9a307208f3c243d45bb274b17da",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "e2dbcbe79940478f475a9b25b6f370adcc88e39b09e3361df06873d48200e64f",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1eb49-ea82-7623-9287-3653b901daed",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "f502d7846e5872c4934c549d622d48b15164bdf2d0b7809bb9aa8fff4a2f2ad6",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb4e-0a5d-7e63-b53d-c0a47d41966d",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "e45f85029b0cbf5117d052553428f5d582d625f838f4322716cbebfb1df0788f",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb50-f38c-7ab0-b799-a71317d21eef",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "d0f8406af09539e236fbe72d54372251bc42a9a307208f3c243d45bb274b17da",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "f9d4e2e96c3ecdf9da534a69e1ce443f47c8ac6f7490596c837e4c242b30b170",
+          "output_sha256": "69efc5c22b9a07bc3e90f89a7a1874896f6db1f9aa7e3f0ff9cad52f22477412",
+          "author": "gpt-6.1-terra / 01a1eb49-ea82-7623-9287-3653b901daed",
+          "reviewer": "gpt-6.1-terra / 01a1eb4b-ff8e-7fc0-92ee-847707f7caf7",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30388,
+            30389,
+            30390,
+            30391,
+            30392,
+            30393,
+            30394,
+            30395,
+            30396,
+            30397,
+            30398,
+            30399,
+            30400,
+            30401,
+            30402,
+            30403,
+            30404,
+            30405,
+            30406,
+            30407,
+            30408,
+            30409,
+            30410,
+            30411,
+            30413
+          ],
+          "issues": [
+            "30388, 30390, 30397, 30398, 30399: The cited WABCO 8150502173.pdf §4.8 diagram could not be inspected: the browser rejected the PDF as too large. Replace or supplement with an accessible exact source and verify the claimed diagram. WABCO https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_technical_publications/TP971.pdf depicts a dryer upstream of multiple reservoirs; https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf pp. 15 and 20 describes automatic supply control and the system arrangement. These independent sources do not verify the cited diagram itself.",
+            "30388: The cited ZF air dryer product page confirms moisture and oil-aerosol separation, but its accessible text does not establish the draft evidence claim that this product includes a governor and purge valve. Cite a specific accessible technical reference supporting that claim or remove the unsupported evidence assertion.",
+            "30395: The cited WABCO 9753039503.pdf page 2 is image-only and could not be inspected in this review. The WABCO 975 303 operating description at https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf p. 15 supports exhaust during the unloaded phase, but the exact cited document remains unverified; provide accessible evidence or replace the citation.",
+            "30408, 30411: The cited Brembo 150.65 catalogue page could not be opened, so its specific vehicle mass and ventilated-disc fitment cannot be verified from the cited evidence. Provide an accessible manufacturer catalogue that establishes both fitment and a mass over 3.5 tonnes; Oregon confirms overheating, but does not verify this vehicle-specific citation.",
+            "30410: The cited Knorr-Bremse references separately mention disc brakes for vehicles up to 44 tonnes and a ventilated disc used in commercial vehicles, but do not establish a particular air-cooled brake fitted to a road vehicle above 7.5 tonnes or the asserted Italian legal conclusion. Provide an authoritative, applicable provision or a verified qualifying vehicle/fitment example and supporting evidence for the cooling method."
+          ]
+        },
+        {
+          "task_sha256": "2edf9ede5c00712c66749daf8bf102d08ecd15148e1c776515343e0f069f6761",
+          "output_sha256": "98eb5e28fd74d77d4888b5629ecd75a5192bfcda12c77964ffa7ef8824ab4b46",
+          "author": "gpt-6.1-terra / 01a1eb49-ea82-7623-9287-3653b901daed",
+          "reviewer": "gpt-6.1-terra / 01a1eb4b-ff8e-7fc0-92ee-847707f7caf7",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30388,
+            30389,
+            30390,
+            30391,
+            30392,
+            30393,
+            30394,
+            30395,
+            30396,
+            30397,
+            30398,
+            30399,
+            30400,
+            30401,
+            30402,
+            30403,
+            30404,
+            30405,
+            30406,
+            30407,
+            30408,
+            30409,
+            30410,
+            30411,
+            30413
+          ],
+          "issues": [
+            "30388, 30390, 30397, 30398, 30399: The cited WABCO 8150502173.pdf §4.8 diagram could not be inspected: the browser rejected the PDF as too large. Replace or supplement with an accessible exact source and verify the claimed diagram. WABCO https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_technical_publications/TP971.pdf depicts a dryer upstream of multiple reservoirs; https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf pp. 15 and 20 describes automatic supply control and the system arrangement. These independent sources do not verify the cited diagram itself.",
+            "30388: The cited ZF air dryer product page confirms moisture and oil-aerosol separation, but its accessible text does not establish the draft evidence claim that this product includes a governor and purge valve. Cite a specific accessible technical reference supporting that claim or remove the unsupported evidence assertion.",
+            "30395: The cited WABCO 9753039503.pdf page 2 is image-only and could not be inspected in this review. The WABCO 975 303 operating description at https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf p. 15 supports exhaust during the unloaded phase, but the exact cited document remains unverified; provide accessible evidence or replace the citation.",
+            "30408, 30411: The cited Brembo 150.65 catalogue page could not be opened, so its specific vehicle mass and ventilated-disc fitment cannot be verified from the cited evidence. Provide an accessible manufacturer catalogue that establishes both fitment and a mass over 3.5 tonnes; Oregon confirms overheating, but does not verify this vehicle-specific citation.",
+            "30410: The cited Knorr-Bremse references separately mention disc brakes for vehicles up to 44 tonnes and a ventilated disc used in commercial vehicles, but do not establish a particular air-cooled brake fitted to a road vehicle above 7.5 tonnes or the asserted Italian legal conclusion. Provide an authoritative, applicable provision or a verified qualifying vehicle/fitment example and supporting evidence for the cooling method."
+          ]
+        },
+        {
+          "task_sha256": "57b23ae04e2c910d90dbdd902d973ce35e854e60c7ca77e7e6090c2e187c4012",
+          "output_sha256": "a293c17015f9c83428155aa83f2e7480733352a2df667c42d09ad2bde9ae5f1a",
+          "author": "gpt-6.1-terra / 01a1eb49-ea82-7623-9287-3653b901daed",
+          "reviewer": "gpt-6.1-terra / 01a1eb4b-ff8e-7fc0-92ee-847707f7caf7",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30388,
+            30389,
+            30390,
+            30391,
+            30392,
+            30393,
+            30394,
+            30395,
+            30396,
+            30397,
+            30398,
+            30399,
+            30400,
+            30401,
+            30402,
+            30403,
+            30404,
+            30405,
+            30406,
+            30407,
+            30408,
+            30409,
+            30410,
+            30411,
+            30413
+          ],
+          "issues": [
+            "30388, 30390, 30397, 30398, 30399: The cited WABCO 8150502173.pdf §4.8 diagram could not be inspected: the browser rejected the PDF as too large. Replace or supplement with an accessible exact source and verify the claimed diagram. WABCO https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_technical_publications/TP971.pdf depicts a dryer upstream of multiple reservoirs; https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf pp. 15 and 20 describes automatic supply control and the system arrangement. These independent sources do not verify the cited diagram itself.",
+            "30388: The cited ZF air dryer product page confirms moisture and oil-aerosol separation, but its accessible text does not establish the draft evidence claim that this product includes a governor and purge valve. Cite a specific accessible technical reference supporting that claim or remove the unsupported evidence assertion.",
+            "30395: The cited WABCO 9753039503.pdf page 2 is image-only and could not be inspected in this review. The WABCO 975 303 operating description at https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf p. 15 supports exhaust during the unloaded phase, but the exact cited document remains unverified; provide accessible evidence or replace the citation.",
+            "30408, 30411: The cited Brembo 150.65 catalogue page could not be opened, so its specific vehicle mass and ventilated-disc fitment cannot be verified from the cited evidence. Provide an accessible manufacturer catalogue that establishes both fitment and a mass over 3.5 tonnes; Oregon confirms overheating, but does not verify this vehicle-specific citation.",
+            "30410: The cited Knorr-Bremse references separately mention disc brakes for vehicles up to 44 tonnes and a ventilated disc used in commercial vehicles, but do not establish a particular air-cooled brake fitted to a road vehicle above 7.5 tonnes or the asserted Italian legal conclusion. Provide an authoritative, applicable provision or a verified qualifying vehicle/fitment example and supporting evidence for the cooling method."
+          ]
+        },
+        {
+          "task_sha256": "4b5e2b15df97be5e61b0aa2933cf444c9e7e299a270ffb4d2a785ea0be099c7d",
+          "output_sha256": "dd9e368079022ecdb31374a33a5e5747b9a88ec43e81964b0c9e50baefd96d0c",
+          "author": "gpt-6.1-terra / 01a1eb49-ea82-7623-9287-3653b901daed",
+          "reviewer": "gpt-6.1-terra / 01a1eb4b-ff8e-7fc0-92ee-847707f7caf7",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30388,
+            30389,
+            30390,
+            30391,
+            30392,
+            30393,
+            30394,
+            30395,
+            30396,
+            30397,
+            30398,
+            30399,
+            30400,
+            30401,
+            30402,
+            30403,
+            30404,
+            30405,
+            30406,
+            30407,
+            30408,
+            30409,
+            30410,
+            30411,
+            30413
+          ],
+          "issues": [
+            "30388, 30390, 30397, 30398, 30399: The cited WABCO 8150502173.pdf §4.8 diagram could not be inspected: the browser rejected the PDF as too large. Replace or supplement with an accessible exact source and verify the claimed diagram. WABCO https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_processing_technical_publications/TP971.pdf depicts a dryer upstream of multiple reservoirs; https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf pp. 15 and 20 describes automatic supply control and the system arrangement. These independent sources do not verify the cited diagram itself.",
+            "30388: The cited ZF air dryer product page confirms moisture and oil-aerosol separation, but its accessible text does not establish the draft evidence claim that this product includes a governor and purge valve. Cite a specific accessible technical reference supporting that claim or remove the unsupported evidence assertion.",
+            "30395: The cited WABCO 9753039503.pdf page 2 is image-only and could not be inspected in this review. The WABCO 975 303 operating description at https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf p. 15 supports exhaust during the unloaded phase, but the exact cited document remains unverified; provide accessible evidence or replace the citation.",
+            "30408, 30411: The cited Brembo 150.65 catalogue page could not be opened, so its specific vehicle mass and ventilated-disc fitment cannot be verified from the cited evidence. Provide an accessible manufacturer catalogue that establishes both fitment and a mass over 3.5 tonnes; Oregon confirms overheating, but does not verify this vehicle-specific citation.",
+            "30410: The cited Knorr-Bremse references separately mention disc brakes for vehicles up to 44 tonnes and a ventilated disc used in commercial vehicles, but do not establish a particular air-cooled brake fitted to a road vehicle above 7.5 tonnes or the asserted Italian legal conclusion. Provide an authoritative, applicable provision or a verified qualifying vehicle/fitment example and supporting evidence for the cooling method."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "f9d4e2e96c3ecdf9da534a69e1ce443f47c8ac6f7490596c837e4c242b30b170",
+          "output_sha256": "47c9ca86a9e9b485ff44a8871c7f816de9fbf9ad9d6156386b761151a95c0844",
+          "author": "gpt-6.1-terra / 01a1eb4e-0a5d-7e63-b53d-c0a47d41966d",
+          "reviewer": "gpt-6.1-terra / 01a1eb4f-5e3a-72c1-8885-885ac84ddd74",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30388,
+            30389,
+            30390,
+            30391,
+            30392,
+            30393,
+            30394,
+            30395,
+            30396,
+            30397,
+            30398,
+            30399,
+            30400,
+            30401,
+            30402,
+            30403,
+            30404,
+            30405,
+            30406,
+            30407,
+            30408,
+            30409,
+            30410,
+            30411,
+            30413
+          ],
+          "issues": [
+            {
+              "number": 30408,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            },
+            {
+              "number": 30410,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            },
+            {
+              "number": 30411,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            }
+          ]
+        },
+        {
+          "task_sha256": "2edf9ede5c00712c66749daf8bf102d08ecd15148e1c776515343e0f069f6761",
+          "output_sha256": "e7fe664ef3b9396499495d76b0e8566548ac9b2ee0dcb8a941985fd524a2facf",
+          "author": "gpt-6.1-terra / 01a1eb4e-0a5d-7e63-b53d-c0a47d41966d",
+          "reviewer": "gpt-6.1-terra / 01a1eb4f-5e3a-72c1-8885-885ac84ddd74",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30388,
+            30389,
+            30390,
+            30391,
+            30392,
+            30393,
+            30394,
+            30395,
+            30396,
+            30397,
+            30398,
+            30399,
+            30400,
+            30401,
+            30402,
+            30403,
+            30404,
+            30405,
+            30406,
+            30407,
+            30408,
+            30409,
+            30410,
+            30411,
+            30413
+          ],
+          "issues": [
+            {
+              "number": 30408,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            },
+            {
+              "number": 30410,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            },
+            {
+              "number": 30411,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            }
+          ]
+        },
+        {
+          "task_sha256": "57b23ae04e2c910d90dbdd902d973ce35e854e60c7ca77e7e6090c2e187c4012",
+          "output_sha256": "f6c8ab3db1ea923f562c4596f362ef22939724d90b3e8657821f2a0646ca0fcb",
+          "author": "gpt-6.1-terra / 01a1eb4e-0a5d-7e63-b53d-c0a47d41966d",
+          "reviewer": "gpt-6.1-terra / 01a1eb4f-5e3a-72c1-8885-885ac84ddd74",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30388,
+            30389,
+            30390,
+            30391,
+            30392,
+            30393,
+            30394,
+            30395,
+            30396,
+            30397,
+            30398,
+            30399,
+            30400,
+            30401,
+            30402,
+            30403,
+            30404,
+            30405,
+            30406,
+            30407,
+            30408,
+            30409,
+            30410,
+            30411,
+            30413
+          ],
+          "issues": [
+            {
+              "number": 30408,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            },
+            {
+              "number": 30410,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            },
+            {
+              "number": 30411,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            }
+          ]
+        },
+        {
+          "task_sha256": "4b5e2b15df97be5e61b0aa2933cf444c9e7e299a270ffb4d2a785ea0be099c7d",
+          "output_sha256": "2a6099da9b301a7f3186f4e59752ba5a9b7ce59836adc91a49e43fae48e253ef",
+          "author": "gpt-6.1-terra / 01a1eb4e-0a5d-7e63-b53d-c0a47d41966d",
+          "reviewer": "gpt-6.1-terra / 01a1eb4f-5e3a-72c1-8885-885ac84ddd74",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30388,
+            30389,
+            30390,
+            30391,
+            30392,
+            30393,
+            30394,
+            30395,
+            30396,
+            30397,
+            30398,
+            30399,
+            30400,
+            30401,
+            30402,
+            30403,
+            30404,
+            30405,
+            30406,
+            30407,
+            30408,
+            30409,
+            30410,
+            30411,
+            30413
+          ],
+          "issues": [
+            {
+              "number": 30408,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            },
+            {
+              "number": 30410,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            },
+            {
+              "number": 30411,
+              "reason": "The cited Brembo document bf863c1b-e174-44a7-b480-825a2ffa0680 could not be accessed or independently inspected, so its stated support for ventilation reducing operating temperature remains unverified. Replace or supplement this citation with an accessible authoritative source that establishes the cooling mechanism, and review the resulting draft again."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

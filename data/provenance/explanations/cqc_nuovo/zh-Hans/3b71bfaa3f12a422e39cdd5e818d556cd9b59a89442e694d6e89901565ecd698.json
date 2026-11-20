@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed7d-04cd-7083-a317-16afde1b6409"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 34895,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria promiscua non è percorribile da altri veicoli",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "df56464a92a11b906a1a32cc6a99cba6d12cad18ca7861b5a246cf7aea095a83",
+        "italian": "La sede promiscua può essere percorsa anche da altri veicoli: i binari sono a raso e fanno parte della carreggiata.",
+        "italian_sha256": "bd956489a175817c119bd2f6518f5fb6c10c4b032927ba7b55dbb7d3d7094b5f"
+      },
+      {
+        "source": {
+          "number": 34896,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria propria è una parte della strada opportunamente delimitata ove è vietata la circolazione dei veicoli gommati",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fd38ab90459dce34e57ba7228b8c3b09ee4e60b0d248fff5a3a5aa1b35041fa9",
+        "italian": "La sede propria è delimitata e riservata ai tram: i normali veicoli gommati non possono percorrerla.",
+        "italian_sha256": "0f4150c59253a86330b885b14b3c4477e5dadcf7d18979619402c10d0b28553c"
+      },
+      {
+        "source": {
+          "number": 34897,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria propria è percorribile da altri veicoli poiché i binari sono a raso",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "36a505d2e8fa41ba7048ac00d6856a0e4c33bbb1342646a1ee94e6db01c7a92b",
+        "italian": "La sede propria non è aperta agli altri veicoli. Sono invece i binari della sede promiscua, a raso nella carreggiata, a consentirne il transito.",
+        "italian_sha256": "6d2d68e16d4e3d432e18a34acb755209d3ebed79187dc55c7162ee0ca9d8dda3"
+      },
+      {
+        "source": {
+          "number": 34898,
+          "quesito_id": 7270,
+          "text_it": "Lo spartitraffico è una parte longitudinale non carrabile della strada",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9ca1273af4cb2f828a4e5707d31ad2c3b64ed6479211dd35610ecf476f8895ac",
+        "italian": "Lo spartitraffico è una parte longitudinale non carrabile, destinata a separare correnti di veicoli.",
+        "italian_sha256": "644dbdb75d92298137803725c92172b4d7caa8b086deef0eab4076a1d7301e77"
+      },
+      {
+        "source": {
+          "number": 34899,
+          "quesito_id": 7270,
+          "text_it": "Lo spartitraffico è destinato ai pedoni",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4168a42584ed3c0faff856995b0cf195b0bb0cd8bd5e58f19479c6f511f2be1d",
+        "italian": "Lo spartitraffico separa correnti veicolari; lo spazio destinato ai pedoni è, ad esempio, il marciapiede.",
+        "italian_sha256": "4a228f36b4c9546bcbda82690f892154e4965790252787c20758ebdca7c664a5"
+      },
+      {
+        "source": {
+          "number": 34900,
+          "quesito_id": 7270,
+          "text_it": "Lo spartitraffico è una parte della strada su cui è vietata la sosta",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2ef46e5af710b0328aa370125fead367bfbd9db8df50267f9b7f527ee0ba4121",
+        "italian": "Sullo spartitraffico la sosta è vietata: è una parte non carrabile destinata a separare le correnti veicolari.",
+        "italian_sha256": "4732b7e0f65702fdf48e45e705297c1dfc09e30207fb3bd449b50c8801a2d3f3"
+      },
+      {
+        "source": {
+          "number": 34901,
+          "quesito_id": 7271,
+          "text_it": "Lo spartitraffico è una parte della strada su cui non è vietata la fermata",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2b25f99175816138610c653af19847b25cc0d04971bee29089cbc4ac78471f84",
+        "italian": "La fermata è vietata sullo spartitraffico, che è una parte non carrabile destinata a separare le correnti veicolari.",
+        "italian_sha256": "d319c315c3d8571e876abc3f87861c625941c50c3c21d9acec631df6119a1537"
+      },
+      {
+        "source": {
+          "number": 34902,
+          "quesito_id": 7271,
+          "text_it": "Lo spartitraffico è destinato alla separazione di correnti veicolari",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c3249aea985286b3301f03859f3ac02c7ca80cd8339b1ae59c2c3a1cc4a7f5b0",
+        "italian": "Lo spartitraffico separa correnti veicolari ed è una parte non carrabile della strada.",
+        "italian_sha256": "79232ddac69e32dd1efcb265be7de9d57b64e36ca30fdee3c39a97e5a32162b1"
+      },
+      {
+        "source": {
+          "number": 34903,
+          "quesito_id": 7271,
+          "text_it": "Lo spartitraffico è destinato al riparo ed alla sosta dei pedoni",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1316175883f5810e31baccfdf6aff3b8a6e62332ded22f51b4b37322c0c67124",
+        "italian": "Il riparo e la sosta dei pedoni sono funzione del salvagente; lo spartitraffico separa le correnti veicolari.",
+        "italian_sha256": "d6456d4a62015e3f2494f2ecd56050a23fb01aed3a841eb9bbe88e21619e6053"
+      },
+      {
+        "source": {
+          "number": 34904,
+          "quesito_id": 7271,
+          "text_it": "Le zone a traffico limitato sono aree in cui la circolazione può essere riservata ai veicoli autorizzati",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7d5d3fb8bf970217a3e4915fce8f4dff242519fc42f84dc090f823c18dbb911a",
+        "italian": "In una ZTL l’accesso e la circolazione possono essere limitati a determinate categorie di utenti o veicoli, secondo le autorizzazioni previste.",
+        "italian_sha256": "76f2748e0292767ce31d25d7b1d1f86422bb6be8b329f57e46c84443c650dcaa"
+      },
+      {
+        "source": {
+          "number": 34905,
+          "quesito_id": 7271,
+          "text_it": "Le zone a traffico limitato sono delimitate da appositi segnali",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0b00031b20c25a4721451ac13b997b40360ffbfe03177d0f6c031134b97d5613",
+        "italian": "Gli accessi alla ZTL sono indicati dagli appositi segnali, che comunicano l’inizio e la fine della zona e le relative limitazioni.",
+        "italian_sha256": "d636377d621230ec5603b4a80aaa063cbdf9b6d192b70e5ebeb62ff9d282952c"
+      },
+      {
+        "source": {
+          "number": 34906,
+          "quesito_id": 7271,
+          "text_it": "Le zone a traffico limitato sono sempre riservate solo a pedoni e biciclette",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "852df804940209cdaac75d3c3da39b41c440b64e241f84ffabcdd61f560cfda0",
+        "italian": "Una ZTL non è sempre riservata a pedoni e biciclette: può ammettere altre categorie di veicoli secondo le limitazioni stabilite.",
+        "italian_sha256": "64cc0760290f3d1e20653313f5273c62e4a01c5ce8f03b47c00f7ee4e3712e66"
+      },
+      {
+        "source": {
+          "number": 34907,
+          "quesito_id": 7271,
+          "text_it": "Le zone a traffico limitato coincidono sempre con il centro della città",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6258d2608b2980a3faaebb099c4ff6882c242e58abe9541fa5e99a791dd492ae",
+        "italian": "Una ZTL non coincide necessariamente con il centro città: è un’area individuata dall’autorità competente nella quale si applicano limitazioni alla circolazione.",
+        "italian_sha256": "2c27d18b8a12c0efb04d0f2ede4b788278dd33e75f45ea89dcc78b71b2775206"
+      },
+      {
+        "source": {
+          "number": 34908,
+          "quesito_id": 7271,
+          "text_it": "Le zone a traffico limitato sono aree in cui la circolazione può essere limitata nel tempo o a veicoli autorizzati",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5ecf3447c0f835bdd12a611f1aea6b84f5e339824572dc39b18001c33777f272",
+        "italian": "In una ZTL accesso e circolazione possono essere limitati a orari prestabiliti oppure a particolari categorie di utenti e veicoli.",
+        "italian_sha256": "7ef76558e1cc097a415557ef95996b0aed694bf358466b88e67c8c3dfbb50925"
+      },
+      {
+        "source": {
+          "number": 34909,
+          "quesito_id": 7271,
+          "text_it": "Le zone a traffico limitato non sono riservate alla circolazione di veicoli pubblici",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c10188c96923b9a129c2fd67d400842e06cb955bd4eb3bcb841600c8a322286a",
+        "italian": "La ZTL non è necessariamente riservata ai soli veicoli pubblici: possono essere ammesse anche altre categorie. La formulazione è ambigua, perché specifiche limitazioni possono comunque favorire il trasporto pubblico.",
+        "italian_sha256": "31ce096d6ea5c106f2d28cd8b7bcdfd39d7c9a9020b6f25146c8b7683e8f68a1"
+      },
+      {
+        "source": {
+          "number": 34910,
+          "quesito_id": 7271,
+          "text_it": "Le zone a traffico limitato sono escluse al traffico veicolare",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6a263322271bdbbf6352c3b9c07eada24980589b7c01f057ceb059cd77981c1f",
+        "italian": "Il traffico veicolare non è escluso in assoluto: nella ZTL è limitato per orari o categorie e possono transitare i veicoli ammessi.",
+        "italian_sha256": "f968e3c4fd8167e1ce8ad25919c655c18b4f52e4c6eee113ae6552a45701c6ab"
+      },
+      {
+        "source": {
+          "number": 34911,
+          "quesito_id": 7271,
+          "text_it": "Le zone a traffico limitato sono aree escluse ai pedoni",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "27d970de9fb9afb41405ff2df40e28a06f9a55bc7ae4fde263fbdb1b3cbd109a",
+        "italian": "FALSO. La ZTL limita l’accesso o la circolazione dei veicoli in determinati orari o per determinate categorie; non è un’area da cui sono esclusi i pedoni.",
+        "italian_sha256": "e7c8703cd4e22711ec68be1fabefb7bb455f1875ea4da8b989ff76dade8a0168"
+      },
+      {
+        "source": {
+          "number": 34912,
+          "quesito_id": 7271,
+          "text_it": "La rete integrata di trasporti è omogenea e non consente la realizzazione dell'interscambio dei viaggiatori",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8c2ecc11731e2565b8807714d465257d91de661ace15cc2537abcd8cb1342641",
+        "italian": "FALSO. Una rete integrata collega servizi e modalità di trasporto diversi e può consentire ai viaggiatori di passare dall’uno all’altro.",
+        "italian_sha256": "b8eaf2a760e66c76b3cc581ba9b434bde38973dd957e212759359faf7748a963"
+      },
+      {
+        "source": {
+          "number": 34913,
+          "quesito_id": 7271,
+          "text_it": "La rete integrata di trasporti non comporta mai il trasbordo di passeggeri da un mezzo all'altro",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6d2abb95c2fe7a6632fd545b8387fba00fa6728a9b61726a265f852ab78cf533",
+        "italian": "FALSO. Una rete integrata può richiedere il trasbordo fra mezzi o linee collegati; non è vero che lo escluda sempre.",
+        "italian_sha256": "251438104b5da0e7a2b7d40943959516474a87cf04d4b73716871aef4bba80cb"
+      },
+      {
+        "source": {
+          "number": 34914,
+          "quesito_id": 7271,
+          "text_it": "La rete integrata di trasporti è costituita da più sistemi di trasporto collegati tra loro",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "142f93bba423105dc42f5c126d91f95155adda438cb91bcc9b13ee84aa7032fb",
+        "italian": "VERO. La rete integrata collega tra loro diversi sistemi e servizi di trasporto, rendendo possibili collegamenti coordinati.",
+        "italian_sha256": "44d911756546eb055647eb623d531abdb001cf2d0231a605dd8cf14c9ee3f943"
+      },
+      {
+        "source": {
+          "number": 34916,
+          "quesito_id": 7271,
+          "text_it": "La rete integrata di trasporti è un sistema per ottimizzare il servizio di trasporto pubblico",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5d86b4020390435864710297a56e6f17de3be940d12e800808cd1fd42dfcf449",
+        "italian": "VERO. Collegare e coordinare reti e servizi aiuta a migliorare l’accessibilità e l’organizzazione del trasporto pubblico.",
+        "italian_sha256": "97f8f881c655054720aedcb7562d1e4904a333282753d22e264c2d3b7252a0f9"
+      },
+      {
+        "source": {
+          "number": 34917,
+          "quesito_id": 7272,
+          "text_it": "La rete integrata di trasporti è costituita sempre da due sistemi di trasporto",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c94fd8744bd7f2177dab1f3c4e606d4f47c1449f7a6b8745ac91dd01648d998a",
+        "italian": "FALSO. L’integrazione non impone esattamente due sistemi: può collegare più modalità e servizi di trasporto.",
+        "italian_sha256": "1243d3065288447ed300979c69ea9f1648a1c4297b8f249c4a4f74b202078a1c"
+      },
+      {
+        "source": {
+          "number": 34918,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni permettono la sosta agli autobus ed accolgono gli utenti in attesa",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a9a6cd3e51554a62d5a6590a54bceec4a4561e1df96e88618b16bae6597bd20f",
+        "italian": "VERO. L’autostazione offre spazi per la sosta degli autobus e strutture in cui i viaggiatori possono attendere.",
+        "italian_sha256": "52a6ec338f79924ea2b729517106c0023e23931a36ae01498c7ffe4d918b3112"
+      },
+      {
+        "source": {
+          "number": 34919,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni non possono contenere officine in quanto è vietato per legge",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b3d8ee8ee3b3f4d74fd44089f0adb75cd0438fd12b805fb190c8b6c579b2d0cd",
+        "italian": "FALSO. Non esiste il divieto generale affermato: un’autostazione può comprendere un’officina per le riparazioni.",
+        "italian_sha256": "08e6708b4095a475272f3c602b70f3ae89a93492b81f554bf91eb6e8585c4a7d"
+      },
+      {
+        "source": {
+          "number": 34920,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni sono aree dedicate esclusivamente al ricovero e la manutenzione dei mezzi",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0c3dbca88a7eafde9d8dae233b96cb9d8b9e01f62a6f3970fc668da3e1e71374",
+        "italian": "FALSO. L’autostazione serve anche ai viaggiatori e allo scambio con gli autobus; non è destinata esclusivamente al ricovero e alla manutenzione.",
+        "italian_sha256": "0a6b6ae73c89cf62c0796b09d075d66e015682e0aed3dab865e0970e29d2db99"
+      },
+      {
+        "source": {
+          "number": 34921,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni sono aree per lo smaltimento di autobus fuori uso",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f83378b69496c49246a5d6e267690bd346a559c86b5719009157a4d612c0c844",
+        "italian": "FALSO. L’autostazione serve la circolazione e la sosta degli autobus e l’accesso dei viaggiatori, non lo smaltimento dei mezzi fuori uso.",
+        "italian_sha256": "390cfdbe55275e2d4489ec58e8b456d13d3a8d46528d9d8df8ee7904f0ff67e7"
+      },
+      {
+        "source": {
+          "number": 34922,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni comprendono solamente un piazzale ove circolano gli autobus",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "45d8225d4ea7dc46fc5211958f1baa64ddc1d20efae30c46703190e10fdababe",
+        "italian": "FALSO. Oltre agli spazi di circolazione degli autobus, l’autostazione può comprendere strutture e servizi per i viaggiatori e per i veicoli.",
+        "italian_sha256": "bb026c144c5f13c8ebc3e2d17878898d684803f9b4366bb658fc3ccd2c37307d"
+      },
+      {
+        "source": {
+          "number": 34923,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni consentono lo scambio di viaggiatori e dei bagagli nella rete dei trasporti",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c52e2bffe23aa2680ef53a58355d5e6d29478bbcdee5521055b4d38e30af254f",
+        "italian": "VERO. L’autostazione è un nodo di scambio per i viaggiatori e i loro bagagli tra servizi di trasporto.",
+        "italian_sha256": "70283a5777604f5e63f44a500668fbb5b24b1dd0e15222b1574fe0f028314701"
+      },
+      {
+        "source": {
+          "number": 34924,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni consentono lo scambio solamente di merci",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a92019adfc19c4e249189234abb5c123b538ad3691041781de952b99271a2d0d",
+        "italian": "FALSO. L’autostazione serve anche i viaggiatori e i loro bagagli: non è un luogo di scambio riservato alle merci.",
+        "italian_sha256": "7ca76ef1e976fff183d2b1ce62e88bed642d990eb02585cb31c47c540272d0cf"
+      },
+      {
+        "source": {
+          "number": 34925,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni sono collocate all'interno delle stazioni ferroviarie",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c76c2bd6bf40e0bf2feecef54a832b63928291eb9560d1c95835e2e44216a117",
+        "italian": "FALSO. Un’autostazione può essere collegata a una stazione ferroviaria per favorire l’interscambio, ma non è necessariamente al suo interno.",
+        "italian_sha256": "64f2e592ba03455305b4102efe4b7161a85f63a8c016f8d702d1ebb82fa39cef"
+      },
+      {
+        "source": {
+          "number": 34926,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni possono rappresentare importanti complessi di interscambio modale",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "86efd305e6c21705aabaadd07dc0724c01afbdc7630a3a92e8b5cdaf3f557895",
+        "italian": "VERO. Un’autostazione può collegare gli autobus ad altri servizi, per esempio ferroviari, diventando un nodo di interscambio modale.",
+        "italian_sha256": "54ceb01559886b34615a0ecfdf44a167d4ea9a5265aff74b4bb74b5545af4252"
+      },
+      {
+        "source": {
+          "number": 34927,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni sono infrastrutture specifiche poste fuori dalla sede stradale",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9c7bc86fada0cc26e60eeb08cdb0a98e1630187b1ac29c6ee4dc031dcb0f2071",
+        "italian": "VERO. Nel modello considerato dal quiz l’autostazione è un’infrastruttura dedicata, distinta dalla normale sede stradale. Nella pratica esistono anche configurazioni a bordo strada.",
+        "italian_sha256": "d069613718ba6d9f723c22872ecb2c8e1254047ab504e6cf1a3ecc0eb7390a44"
+      },
+      {
+        "source": {
+          "number": 34928,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni sono complessi integrati di strutture e servizi finalizzati allo scambio dei viaggiatori e dei loro bagagli",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "18721bafdc9e7bba1884b28073a2c2a186d1c8f6cd567e3cb1108dad0a98b854",
+        "italian": "VERO. L’autostazione riunisce spazi e servizi che permettono ai viaggiatori e ai loro bagagli di accedere ai collegamenti e cambiare mezzo.",
+        "italian_sha256": "a1b99bce9af1fe706930d27f1e03ec246c0ff7ede1bd6c4634daad6a8c0d85ae"
+      },
+      {
+        "source": {
+          "number": 34929,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni consentono il transito degli autobus e di eventuali veicoli di servizio",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1c2acfe271f86642017e07ea23f1796551c229061f5fe17afe1b7bfac24cce0e",
+        "italian": "VERO. Gli spazi dell’autostazione sono organizzati per la circolazione degli autobus e possono ospitare anche veicoli di servizio.",
+        "italian_sha256": "4283c918a194eb891b92585cd4c43ac37d4095f892dfee24205d8c659fb15afe"
+      },
+      {
+        "source": {
+          "number": 34930,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni sono aree di sosta per le autovetture",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f0cf8e3a50712d6e65a5344440840896f503dc136a00562f53064a2d66e34e5e",
+        "italian": "FALSO. La funzione dell’autostazione è servire gli autobus e i viaggiatori; non è semplicemente un parcheggio per autovetture.",
+        "italian_sha256": "6bf40689eee3679b6deb9bfcd48681a44ab62f0dc3dc2273d0f3050d363c499f"
+      },
+      {
+        "source": {
+          "number": 34931,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni comprendono, tra l'altro, piazzale, fabbricato viaggiatori e fabbricato veicoli",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1ff90abfaea7c542fad3e5b3a11ea51b6a31d1f70ff8f2c71afc29b2a57b50f6",
+        "italian": "VERO. Nel modello del quiz l’autostazione comprende il piazzale e fabbricati per viaggiatori e veicoli. Le dotazioni effettive possono variare secondo l’impianto.",
+        "italian_sha256": "58ad85952b818b21b4b6db41e7b405c9e137afd56a5b1a485f3abe7988788a5b"
+      },
+      {
+        "source": {
+          "number": 34932,
+          "quesito_id": 7272,
+          "text_it": "Le autostazioni non possono contenere una biglietteria",
+          "answer": 0,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a9eed979f6ed816dc2f42e2dcf7c9d6860c58512d13f02c4c1e8acf838dae8d8",
+        "italian": "FALSO. Una biglietteria può essere presente tra i servizi dell’autostazione, ad esempio nel fabbricato destinato ai viaggiatori.",
+        "italian_sha256": "4285d85546b1e0a0b1ac6c0dc278bf02ccd41da4ed33a868dbce18ece65f38fb"
+      },
+      {
+        "source": {
+          "number": 34933,
+          "quesito_id": 7273,
+          "text_it": "L'autostazione realizzata con il fabbricato viaggiatori ad un lato del piazzale, ha sempre un solo marciapiede",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5052174470687b711344ee16bb101b6a43634ac469d4afd2c244a5c12fb1e49c",
+        "italian": "FALSO. Con il fabbricato su un lato si possono disporre più marciapiedi paralleli: non è obbligatorio averne uno solo.",
+        "italian_sha256": "9f3e5b0a11629d453a908b37a61fc31ee7dafdb4398851a59e46ca0883c7e3c5"
+      },
+      {
+        "source": {
+          "number": 34934,
+          "quesito_id": 7273,
+          "text_it": "L'autostazione realizzata con il fabbricato viaggiatori ad un lato del piazzale può avere un numero limitato di marciapiedi",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "98b6eb20ca035fc070921543b09ad0afa3a63bad6dac835c7b67d2ac4ef4ddc8",
+        "italian": "FALSO secondo il quiz, che intende dire che lo schema non impone un numero massimo prefissato di marciapiedi. La frase è però ambigua: un’autostazione concreta può avere un numero limitato di marciapiedi.",
+        "italian_sha256": "0c33683c9f488562504b2ad860d455c1774a160cbd00e7b874e740f75d063733"
+      },
+      {
+        "source": {
+          "number": 34935,
+          "quesito_id": 7273,
+          "text_it": "L'autostazione realizzata con il fabbricato viaggiatori ad un lato del piazzale può avere un numero illimitato di marciapiedi",
+          "answer": 1,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "88abe1194a62af702910d8054aae254c0dd33fab942440a6557835cdb6b0a0cd",
+        "italian": "VERO secondo il quiz: lo schema consente di aggiungere marciapiedi paralleli senza un limite prefissato dalla tipologia. «Illimitato» non significa che un impianto reale possa averne infiniti: lo spazio disponibile pone un limite.",
+        "italian_sha256": "58caac385013892f39bf0378c9491bfd307b7cd34953da559cf5baa0fb5a88cb"
+      },
+      {
+        "source": {
+          "number": 34939,
+          "quesito_id": 7273,
+          "text_it": "Il piazzale dell'autostazione è una zona sicura ove non si verifica mai interferenza tra autobus e viaggiatore",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4166f39a81882d94431e8c32dc9a922a0314740536e5c47bb1950620d1014615",
+        "italian": "È falso che non vi siano mai interferenze: nel piazzale autobus e persone possono incontrarsi, con rischio di investimento.",
+        "italian_sha256": "ffbbba3d42c82e21e4008aa08986e1d7c2e9f62a71ca3ce11eaffdffd97076f2"
+      },
+      {
+        "source": {
+          "number": 34940,
+          "quesito_id": 7273,
+          "text_it": "Il piazzale dell'autostazione non è mai utilizzato dai viaggiatori",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b4d69c5776852f3c41c59511746f967dbbb193fa64a3fa40d3057d60136f8e23",
+        "italian": "È falso che i viaggiatori non usino mai il piazzale: possono percorrerlo utilizzando gli appositi passaggi pedonali.",
+        "italian_sha256": "051ca3f016db4c3fe8073fea85677b7ea5bfa58759614058c95e747f5c28ccac"
+      },
+      {
+        "source": {
+          "number": 34941,
+          "quesito_id": 7273,
+          "text_it": "Il piazzale dell'autostazione è una zona pericolosa a causa della circolazione promiscua di veicoli e persone",
+          "answer": 1,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2e323c67d738fd5a1105d8e9fa67294cf395d1c6cdbbd89345f091579a5d8467",
+        "italian": "La presenza di veicoli e persone rende possibile l'investimento: occorre rispettare percorsi pedonali e segnaletica.",
+        "italian_sha256": "7e75e8ac899df5ae347038be5154a58bc392bcc28307215688ba6c89534baede"
+      },
+      {
+        "source": {
+          "number": 34942,
+          "quesito_id": 7273,
+          "text_it": "Il piazzale dell'autostazione è destinato alla circolazione e sosta degli autobus e alla circolazione dei viaggiatori",
+          "answer": 1,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0b9633f5200ad7f143b1aabc776da46622240aa6f31516b52bc8cc5a45d287b4",
+        "italian": "Il piazzale comprende spazi per la circolazione e la sosta degli autobus e percorsi per i viaggiatori, da usare secondo la segnaletica.",
+        "italian_sha256": "15266979dc6be38c545f33e4a050a5f7fe83d19aa060e79da6fe00d43aea7616"
+      },
+      {
+        "source": {
+          "number": 34943,
+          "quesito_id": 7273,
+          "text_it": "Il piazzale dell'autostazione deve essere utilizzato seguendo le norme del regolamento di esercizio",
+          "answer": 1,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ef9d8ed226e286af53355a6ea113d46db0350e75ad26c02a5f704b533439243d",
+        "italian": "Il piazzale va utilizzato rispettando il regolamento dell'autostazione, la segnaletica e le disposizioni del personale.",
+        "italian_sha256": "90a1e182058601c983837fc5e01e3e73907580ae9f9d5c0a7bcf61ac7e93e480"
+      },
+      {
+        "source": {
+          "number": 34944,
+          "quesito_id": 7273,
+          "text_it": "Il piazzale dell'autostazione è destinato esclusivamente alla circolazione dei viaggiatori",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0721e0acdc11aa0651592f6d2c140288442e8fd2d828c1d1ecd1b63df2912c30",
+        "italian": "È falsa l'esclusività per i viaggiatori: nel piazzale circolano e sostano anche gli autobus, mentre le persone seguono i percorsi previsti.",
+        "italian_sha256": "60b0337963afefbc1180d275b650afaee1aa107d19446e509af78fc78914c00f"
+      },
+      {
+        "source": {
+          "number": 34945,
+          "quesito_id": 7273,
+          "text_it": "Gli autobus possono avere lunghezza massima di 13,50 m se hanno due assi",
+          "answer": 1,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e496b3ff01c95b507f6c60c1304afb395cebe46a177deac603c0fdbf55c8daa8",
+        "italian": "Per un autobus a due assi è prevista una lunghezza massima di 13,50 m, anche considerando eventuali sovrastrutture amovibili.",
+        "italian_sha256": "1615a5b0ebd6c4c2067adf41c9da35f0ec400defea88c49df9a093059de165b9"
+      },
+      {
+        "source": {
+          "number": 34946,
+          "quesito_id": 7273,
+          "text_it": "L'invasione del marciapiede con l'autobus durante la manovra di accostamento alla fermata è dovuto alla distanza tra i centri degli assi (anteriore e posteriore)",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4e66c594acbfaa4c3b871d03fd5de15faeb38e9b1d7d155e049d655523c267ad",
+        "italian": "Il quiz considera falso attribuire l'invasione al passo: nell'accostamento conta soprattutto la traiettoria dello sbalzo anteriore. La formulazione è però generica: anche il passo influenza la traiettoria complessiva del veicolo.",
+        "italian_sha256": "9b2ce6606a374b131b11f8d6e8aa5140f38798dac48cee18ec3c7184767a5ffa"
+      },
+      {
+        "source": {
+          "number": 34947,
+          "quesito_id": 7273,
+          "text_it": "Il taglio delle curve degli autobus è dovuto all'interferenza (strisciamento) della parte posteriore della carrozzeria con la sede stradale",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "282bc6156067eb09e0e7d7bf676d6bceb7b3abc565f75bdaedf8a5451d7a7316",
+        "italian": "Il taglio della curva non è lo strisciamento della carrozzeria sul suolo: è il passaggio delle ruote posteriori più all'interno rispetto alle anteriori.",
+        "italian_sha256": "bb523b1a3446e6a73f2a7cd31d1279e246bcf626f3f0b84db747ce0b08f3462e"
+      },
+      {
+        "source": {
+          "number": 34948,
+          "quesito_id": 7273,
+          "text_it": "L'allargamento della traiettoria della parte posteriore della carrozzeria in curva è dovuto alla scarsa altezza da terra dell'autobus",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "203073583ec7fb04b4fd4d62778e6b2124cadc269c763b878be3142a5cf9f6ae",
+        "italian": "Non è la scarsa altezza da terra ad allargare la traiettoria posteriore: in curva lo sbalzo dietro l'asse posteriore può spostarsi verso l'esterno.",
+        "italian_sha256": "8d8fdc860c61dd8b9c76f5e5bb62b486ce8449aa7274c7a2bd3543f72e496480"
+      }
+    ],
+    "task_sha256": "df1c3e080fbade7bd74540caf421a121e73f40fe5ed2c6fb9e4e4886b612f9ec"
+  },
+  "rows": [
+    {
+      "number": 34895,
+      "text": "混行有轨电车路段也可供其他车辆通行：轨道与路面齐平，是车行道的一部分。"
+    },
+    {
+      "number": 34896,
+      "text": "专用有轨电车路段设有分隔，专供有轨电车使用：普通橡胶轮胎车辆不得驶入。"
+    },
+    {
+      "number": 34897,
+      "text": "专用有轨电车路段不对其他车辆开放。混行路段的轨道与车行道路面齐平，因此允许其他车辆通行。"
+    },
+    {
+      "number": 34898,
+      "text": "交通分隔带是道路上沿纵向设置的非行车部分，用于分隔不同车流。"
+    },
+    {
+      "number": 34899,
+      "text": "交通分隔带用于分隔车流；供行人使用的空间例如人行道。"
+    },
+    {
+      "number": 34900,
+      "text": "交通分隔带上禁止停车：它是用于分隔车流的非行车部分。"
+    },
+    {
+      "number": 34901,
+      "text": "交通分隔带上禁止临时停车；它是用于分隔车流的非行车部分。"
+    },
+    {
+      "number": 34902,
+      "text": "交通分隔带用于分隔车流，是道路上的非行车部分。"
+    },
+    {
+      "number": 34903,
+      "text": "供行人避让和停留是安全岛的功能；交通分隔带用于分隔车流。"
+    },
+    {
+      "number": 34904,
+      "text": "在限行区（ZTL），根据规定的许可，进入和通行可能仅限于特定类别的道路使用者或车辆。"
+    },
+    {
+      "number": 34905,
+      "text": "限行区（ZTL）的出入口由专用标志标明，标志说明区域的起点、终点及相关限制。"
+    },
+    {
+      "number": 34906,
+      "text": "限行区（ZTL）并非始终只供行人和自行车通行：根据规定的限制，也可能允许其他类别的车辆进入。"
+    },
+    {
+      "number": 34907,
+      "text": "限行区（ZTL）不一定与市中心重合：它是主管部门划定的实施交通限制的区域。"
+    },
+    {
+      "number": 34908,
+      "text": "在限行区（ZTL），进入和通行可能仅限于预定时段，或者仅限于特定类别的道路使用者和车辆。"
+    },
+    {
+      "number": 34909,
+      "text": "限行区（ZTL）不一定只供公共车辆通行：也可能允许其他类别的车辆进入。这个表述有歧义，因为具体限制仍可能优先照顾公共交通。"
+    },
+    {
+      "number": 34910,
+      "text": "车辆通行并非被完全禁止：在限行区（ZTL），通行受到时段或类别的限制，获准的车辆可以通行。"
+    },
+    {
+      "number": 34911,
+      "text": "FALSO. 限行区（ZTL）在特定时段或针对特定类别限制车辆进入或通行；它并非禁止行人进入的区域。"
+    },
+    {
+      "number": 34912,
+      "text": "FALSO. 综合交通网络连接不同的交通服务和运输方式，可以让旅客从一种换乘到另一种。"
+    },
+    {
+      "number": 34913,
+      "text": "FALSO. 综合交通网络可能要求旅客在相互连接的交通工具或线路之间换乘；说它总是排除换乘是不对的。"
+    },
+    {
+      "number": 34914,
+      "text": "VERO. 综合交通网络将不同的运输系统和服务连接起来，使协调衔接成为可能。"
+    },
+    {
+      "number": 34916,
+      "text": "VERO. 连接和协调交通网络与服务有助于改善公共交通的可及性和组织方式。"
+    },
+    {
+      "number": 34917,
+      "text": "FALSO. 综合交通网络并不要求恰好有两个系统：它可以连接多种运输方式和服务。"
+    },
+    {
+      "number": 34918,
+      "text": "VERO. 汽车站提供供公共汽车停放的空间，以及供旅客候车的设施。"
+    },
+    {
+      "number": 34919,
+      "text": "FALSO. 所说的全面禁止并不存在：汽车站可以设有维修车间。"
+    },
+    {
+      "number": 34920,
+      "text": "FALSO. 汽车站还服务于旅客及其与公共汽车之间的换乘；它并非仅用于车辆停放和维护。"
+    },
+    {
+      "number": 34921,
+      "text": "FALSO. 汽车站用于公共汽车的通行和停放以及旅客进出，不是用于处置报废车辆。"
+    },
+    {
+      "number": 34922,
+      "text": "FALSO. 除公共汽车通行的空间外，汽车站还可以包括供旅客和车辆使用的设施与服务。"
+    },
+    {
+      "number": 34923,
+      "text": "VERO. 汽车站是旅客及其行李在不同运输服务之间换乘的枢纽。"
+    },
+    {
+      "number": 34924,
+      "text": "FALSO. 汽车站也服务于旅客及其行李：它不是专供货物转运的场所。"
+    },
+    {
+      "number": 34925,
+      "text": "FALSO. 汽车站可以与火车站相连，以方便换乘，但不一定位于火车站内部。"
+    },
+    {
+      "number": 34926,
+      "text": "VERO. 汽车站可以将公共汽车与其他服务相连接，例如铁路服务，从而成为不同交通方式之间的换乘枢纽。"
+    },
+    {
+      "number": 34927,
+      "text": "VERO. 在题目所考虑的模式中，汽车站是一种专用设施，与普通道路分开。实际中也存在设在路边的形式。"
+    },
+    {
+      "number": 34928,
+      "text": "VERO. 汽车站汇集了各种空间和服务，使旅客及其行李能够进入交通线路并换乘交通工具。"
+    },
+    {
+      "number": 34929,
+      "text": "VERO. 汽车站的空间按公共汽车通行的需要进行安排，也可以容纳服务车辆。"
+    },
+    {
+      "number": 34930,
+      "text": "FALSO. 汽车站的功能是为公共汽车和旅客提供服务；它并非仅仅是乘用车停车场。"
+    },
+    {
+      "number": 34931,
+      "text": "VERO. 在题目所采用的模式中，汽车站包括站场以及供旅客和车辆使用的建筑。实际设施可能因车站而异。"
+    },
+    {
+      "number": 34932,
+      "text": "FALSO. 售票处可以是汽车站提供的服务之一，例如设在供旅客使用的建筑内。"
+    },
+    {
+      "number": 34933,
+      "text": "FALSO. 旅客建筑位于站场一侧时，可以设置多个平行站台，并非必须只有一个。"
+    },
+    {
+      "number": 34934,
+      "text": "FALSO，按照题目的意思，这种布局不规定站台数量的预设上限。不过这一表述有歧义：实际的汽车站可以只有数量有限的站台。"
+    },
+    {
+      "number": 34935,
+      "text": "VERO，按照题目的意思：这种布局允许增加平行站台，其类型本身没有规定数量上限。“无限”并不意味着实际车站可以有无穷多个站台：可用空间会构成限制。"
+    },
+    {
+      "number": 34939,
+      "text": "说从不会发生交叉冲突是不对的：在站场内，公共汽车和人员可能相遇，有人员被撞的风险。"
+    },
+    {
+      "number": 34940,
+      "text": "说旅客从不使用站场是不对的：他们可以通过专用人行通道穿行站场。"
+    },
+    {
+      "number": 34941,
+      "text": "车辆和人员同时存在可能导致人员被撞：必须遵守人行路线和交通标志标线。"
+    },
+    {
+      "number": 34942,
+      "text": "站场包括供公共汽车通行和停放的空间，以及供旅客使用的路线；使用时应遵守标志标线。"
+    },
+    {
+      "number": 34943,
+      "text": "使用站场时应遵守汽车站的规章、标志标线和工作人员的指示。"
+    },
+    {
+      "number": 34944,
+      "text": "说站场只供旅客使用是错误的：公共汽车也在站场内通行和停放，而人员应沿规定路线行走。"
+    },
+    {
+      "number": 34945,
+      "text": "双轴公共汽车的最大长度规定为13.50米，计量时也包括可能装有的可拆卸上部结构。"
+    },
+    {
+      "number": 34946,
+      "text": "题目认为将驶上人行道归因于轴距是错误的：靠站时主要取决于前悬的行驶轨迹。不过这种表述较笼统：轴距也会影响车辆的整体轨迹。"
+    },
+    {
+      "number": 34947,
+      "text": "转弯内轮差不是车身与地面发生刮擦，而是后轮的行驶轨迹比前轮更靠近弯道内侧。"
+    },
+    {
+      "number": 34948,
+      "text": "后部轨迹向外扩展并非由离地间隙小造成：转弯时，后轴后方的悬伸部分可能向外侧移动。"
+    }
+  ],
+  "output_sha256": "49518cf15f1221047f98401777890ba4753d5391cf76ea16c7602938578a527f"
+}

@@ -1,0 +1,37 @@
+{
+  "batch": "127",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "069db105489962006181a176a743c7f4a23b4cbdf61b55c7280fedf3c5947dbe",
+  "source_sha256": "63756a1aa1b9af9f7cff1bfb34d4646f58402fbd264dcc5acece12bf5028b0a6",
+  "corrections": [
+    {
+      "id": "a91cddf8e16c7f611c530f880e0c6abf8891012e6aedf34b065d7440fdb29c1e",
+      "before": "Las áreas de parada de autobuses no pueden ser usadas para detener otros vehículos",
+      "after": "Las áreas de parada de autobuses no pueden ser usadas por otros vehículos para detenerse",
+      "reason": "Se aclara que otros vehículos no pueden detenerse allí, no que la zona detiene a otros vehículos."
+    },
+    {
+      "id": "a93949fdf63dac745d62e4127a091e8fe5a56797454b0462fbf4ed891b09cf74",
+      "before": "Para transportar mercancía italiana hacia Portugal se necesita el documento aduanero DDT",
+      "after": "Para transportar mercancía italiana hacia Portugal se necesita el documento aduanero DDT (documento de transporte)",
+      "reason": "Restores the Italian gloss (documento di transporte) dropped from the source"
+    },
+    {
+      "id": "a952b10ce625257ba56e57560584631442a09de2ba002b6c22387e6aae2463bb",
+      "before": "Los límites de cobertura de la póliza RCA son los importes máximos que la aseguradora se compromete a pagar en caso de accidente",
+      "after": "Los límites de cobertura de la póliza RCA (responsabilidad civil de vehículos) son los importes máximos que la aseguradora se compromete a pagar en caso de accidente",
+      "reason": "Se restituye la aclaración del significado de RCA presente en el original."
+    }
+  ],
+  "reviewed_file_sha256": "b57d25f224dfdd3a23edffdcf690d670a3eec6aff9a60b48e1144cfed56aa34d"
+}

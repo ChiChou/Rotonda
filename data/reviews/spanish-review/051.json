@@ -1,0 +1,37 @@
+{
+  "batch": "051",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "cc00afaf80182783dc65aa349f7081eb96215adc12cc8d51790fe86d3075c41d",
+  "source_sha256": "42776eb3c4d58f017b05ffe1fb03db5579dc4b856cdb66c94c8c85a53c96081c",
+  "corrections": [
+    {
+      "id": "43eb6dae18f814e9689f3c8e787549b1fea8697b903485f4c9572f1b56bd1037",
+      "before": "Cuando un conductor encuentra una manifestación en una zona poblada, debe tocar discretamente la bocina para que despejen el paso cuanto antes",
+      "after": "Cuando un conductor encuentra un cortejo en una zona poblada, debe tocar discretamente la bocina para que despejen el paso cuanto antes",
+      "reason": "Corteo es un cortejo y no necesariamente una manifestación."
+    },
+    {
+      "id": "44034cc2260f8525fb01495a21fcf980f843c3b6e1e359441d5d49bf2f4f318a",
+      "before": "La carta de porte es un documento obligatorio expedido por las oficinas de Motorización Civil",
+      "after": "La carta de porte es un documento obligatorio expedido por las UMC (oficinas de Motorización Civil)",
+      "reason": "Restituye la sigla UMC junto con su explicación."
+    },
+    {
+      "id": "449c87dd31db09ff2b6fd3ca0ab5b02744fb2ef087c5fbce851e008c67628cbd",
+      "before": "La hoja de registro del cronotacógrafo analógico debe retirarse al devolver el vehículo o después de 24 horas de su inserción",
+      "after": "La hoja de registro del cronotacógrafo analógico debe retirarse al devolver el vehículo o después de 24 horas desde su colocación",
+      "reason": "Conserva la inscripción literal del panel y explica su significado.; Row text described a different sentence (exceptional vehicle panels); replaced with the analogue tachograph record-sheet statement from the Italian"
+    }
+  ],
+  "reviewed_file_sha256": "e417e350b948495a7caa103d5c63f81bfcb785d23b9598a2c44d0adc944c14c6"
+}

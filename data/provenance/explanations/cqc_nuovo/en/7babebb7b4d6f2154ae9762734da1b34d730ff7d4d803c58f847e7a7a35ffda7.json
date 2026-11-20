@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed47-a7a1-71d2-aea5-626ce32fe593"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 34845,
+          "quesito_id": 7267,
+          "text_it": "Il passo carrabile è destinato alla sosta regolamentata o non dei veicoli",
+          "answer": 0,
+          "page": 125,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "88fdf340aa31530023a8cea7b0525c7ba640189949791b3427748b2619b89df1",
+        "italian": "Il passo carrabile non è un parcheggio: è l'accesso a un'area laterale idonea allo stazionamento dei veicoli.",
+        "italian_sha256": "36fcfd694f90fe66f34a07406e555d7bd49cf1789fc2ceb7da10aabecb09a402"
+      },
+      {
+        "source": {
+          "number": 34846,
+          "quesito_id": 7267,
+          "text_it": "Il passo carrabile è un punto in cui è vietata la sosta ma non la fermata",
+          "answer": 1,
+          "page": 125,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "476633edfe967ecb2affa4196971e279f83dec2016607fa9b150cb174f5bca9f",
+        "italian": "Allo sbocco del passo carrabile è vietata la sosta. Questo divieto, da solo, non vieta la fermata; restano applicabili eventuali altri divieti e l'obbligo di non creare intralcio.",
+        "italian_sha256": "06cf76aed93bee9a83e8705497f30b416d3a541b448c69b165c2da0a1b2403b3"
+      },
+      {
+        "source": {
+          "number": 34847,
+          "quesito_id": 7267,
+          "text_it": "Il passo carrabile è destinato al transito dei pedoni",
+          "answer": 0,
+          "page": 125,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5b6f3408d43f22626b0a003e17368a58766382cdd5a8c1a4b363ffe6b96487d3",
+        "italian": "Il passo carrabile non è destinato al transito pedonale: è un accesso a un'area laterale idonea allo stazionamento di veicoli.",
+        "italian_sha256": "4dbba9df203f7e618dcc698c1cf2eec6e32f3de00aca153c4fb21113a16d463d"
+      },
+      {
+        "source": {
+          "number": 34848,
+          "quesito_id": 7267,
+          "text_it": "Il passo carrabile è un accesso a un'area laterale in corrispondenza del quale è vietata la sosta",
+          "answer": 1,
+          "page": 125,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c66c46a013d31a589d71e76fb0e8ded1df81df728267c239dd753ee0cd860f60",
+        "italian": "Il passo carrabile dà accesso a un'area laterale idonea ai veicoli; allo sbocco è vietata la sosta, per mantenere libero l'accesso.",
+        "italian_sha256": "b56e48e151f52dc0ef64ef6ee90fa7b2e8e72d18ca4404d5f6a1cf234ce64c9b"
+      },
+      {
+        "source": {
+          "number": 34849,
+          "quesito_id": 7267,
+          "text_it": "Il passo carrabile è un accesso ad un'area laterale idonea allo stazionamento di uno o più veicoli",
+          "answer": 1,
+          "page": 125,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a3cd79cb9f6372b44e0fefd620ef84f1c2fe7f4fea5799728c206f26118e60a1",
+        "italian": "Il passo carrabile è l'accesso dalla strada a un'area laterale in cui possono stazionare uno o più veicoli.",
+        "italian_sha256": "5462266373bdf7adb04ce11c8d72bff68df34c691eb0b27bf52e22bedfd18178"
+      },
+      {
+        "source": {
+          "number": 34850,
+          "quesito_id": 7267,
+          "text_it": "Il passo carrabile è un'area destinata alla sosta dei veicoli",
+          "answer": 0,
+          "page": 125,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7c51e90c4700e2380ea6f3a0a307b4ac2baac649bc7a5722b94885aa83c10a1c",
+        "italian": "Il passo carrabile non è l'area di sosta: è l'accesso a un'area laterale idonea a ospitare veicoli.",
+        "italian_sha256": "d812e389c77953a9c584b6f255de5543842729d035b5995e94f895e5c358fee5"
+      },
+      {
+        "source": {
+          "number": 34851,
+          "quesito_id": 7267,
+          "text_it": "La piazzola di sosta è destinata agli utenti di autobus di linea",
+          "answer": 0,
+          "page": 125,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1bd0700a6eeca95e9cf9c58893caef7266e51596d56563996c2edac781c5dd35",
+        "italian": "La piazzola di sosta è destinata alla sosta dei veicoli, non all'attesa degli utenti degli autobus. Il golfo di fermata serve invece alle fermate dei mezzi collettivi di linea.",
+        "italian_sha256": "7b2672a182f059e7719b1062e5250032e7ed05158758045b30f273b19f8afbdb"
+      },
+      {
+        "source": {
+          "number": 34852,
+          "quesito_id": 7267,
+          "text_it": "La piazzola di sosta è adiacente esternamente alla banchina",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "39fb07297831487b72463eac8144ddbdb2caa39e87eef16b37b047ac0ea75c12",
+        "italian": "La piazzola di sosta è una parte limitata della strada posta esternamente e adiacente alla banchina.",
+        "italian_sha256": "f96440d8858e71ae703f7a80a30731177ac7a2a053e6da5b589f1d758b8eddcf"
+      },
+      {
+        "source": {
+          "number": 34853,
+          "quesito_id": 7268,
+          "text_it": "La piazzola di sosta è destinata alla sosta dei veicoli",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e630cf5839b2dc8e4484819809903bdd36a41d18ecf5fbb014b1ebcf1b338da1",
+        "italian": "La piazzola di sosta è uno spazio di lunghezza limitata destinato alla sosta dei veicoli, posto all'esterno della banchina.",
+        "italian_sha256": "f44413aac315b05d8a1e252b3a9f0923249a74470b1c550ee02af53625c2e2fa"
+      },
+      {
+        "source": {
+          "number": 34854,
+          "quesito_id": 7268,
+          "text_it": "La piazzola di sosta è destinata al transito dei pedoni",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7f26b3bfa50758f59871ceb3fc51f72dc879f7dbb161c30396685f1b51375684",
+        "italian": "La piazzola non è destinata al transito dei pedoni: la sua funzione è consentire la sosta dei veicoli.",
+        "italian_sha256": "3686cde72c017ba5531647145ef7d8a38facaf38e3097f76608e9fc4136c258a"
+      },
+      {
+        "source": {
+          "number": 34855,
+          "quesito_id": 7268,
+          "text_it": "Le piazzole di sosta delle autostrade sono destinate ad agevolare l'intermodalità",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f434dc89fd89c7c7f32baaf1983ddf7f725c9721b17912ac0714b8a130e82979",
+        "italian": "Le piazzole autostradali servono alla sosta dei veicoli, anche in emergenza, non sono strutture destinate allo scambio fra mezzi di trasporto.",
+        "italian_sha256": "09458dc324c70fc0f876db7688a7cbc171b122fc719fd4002792d02376026415"
+      },
+      {
+        "source": {
+          "number": 34856,
+          "quesito_id": 7268,
+          "text_it": "La piazzola di sosta è presegnalata da appositi segnali verticali",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "401638542ac92e1b1812399a7cee0966f3c6ebb68d7f18709cd8fe5f231aa25a",
+        "italian": "Esistono appositi segnali verticali che indicano la presenza di una piazzola a lato della carreggiata. Il quiz li descrive come presegnalazione, ma la norma ne indica la funzione senza stabilire qui che ogni piazzola debba essere sempre presegnalata.",
+        "italian_sha256": "0c6cec1387972ef48824dd4446d8151485a097b911510df9f68afa8865495ba8"
+      },
+      {
+        "source": {
+          "number": 34857,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è un agente che aiuta i pedoni nell'attraversamento della strada",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5f42824ff6e0f85ef58a896fcb86ae7be60d0c7d12a485d1c2cb2518a5340637",
+        "italian": "Il salvagente non è un agente: è una parte della strada protetta, destinata al riparo e alla sosta dei pedoni presso attraversamenti o fermate dei mezzi collettivi.",
+        "italian_sha256": "780bac2af63c9d3bd3abbdb597cea6e874624180de11f740cdbcf78f105a0a6d"
+      },
+      {
+        "source": {
+          "number": 34858,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente ripara i pedoni in corrispondenza degli attraversamenti",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0ab086b8772c6f52b47b0f1250f29b0d2f64d3e67be39291206739617de2f829",
+        "italian": "Il salvagente offre ai pedoni uno spazio protetto in cui ripararsi e sostare, anche in corrispondenza degli attraversamenti.",
+        "italian_sha256": "5f00c40fbc085a1c95dd48ea05c274fa8f9bf8f90ed44f7c434024c879df3557"
+      },
+      {
+        "source": {
+          "number": 34859,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è destinato al riparo ed alla sosta dei pedoni",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a33e3d0fdcc5143540cf4eda4c4fdc7a28b458ad12527bc4fef177f8180f1a71",
+        "italian": "Il salvagente è uno spazio rialzato o delimitato e protetto, destinato al riparo e alla sosta dei pedoni.",
+        "italian_sha256": "43a990cff22d1e7c16a811f21e87fdd2891d30561aff87757a58e72f35c39a4d"
+      },
+      {
+        "source": {
+          "number": 34860,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è percorribile dagli autobus urbani di linea",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cfc761530483454cf7d5d9a217424fab0871aa3ab6a4ef51716e9dd528949484",
+        "italian": "Il salvagente non è percorribile dagli autobus: è uno spazio protetto per il riparo e la sosta dei pedoni, anche presso fermate dei mezzi collettivi.",
+        "italian_sha256": "7e5f8d7c78cee7216bbe511bba9be987e52e1bf9a2950e6816b8dc51c82f5175"
+      },
+      {
+        "source": {
+          "number": 34861,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è una parte della strada che agevola la salita/discesa dei passeggeri dagli autobus",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "01a9e7805c62b14e10963db45ad1aa2f0d7486a0028a42f411234d8cf0bb7862",
+        "italian": "Alle fermate dei mezzi collettivi il salvagente offre ai pedoni uno spazio protetto, agevolando anche la salita e la discesa dagli autobus.",
+        "italian_sha256": "dc2097b0a51f65e1b95ccbf385a75e29a9ba0ed8b191ca6d7ede31399b240479"
+      },
+      {
+        "source": {
+          "number": 34862,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è parte della strada rialzata o opportunamente delimitata e protetta",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fc589f0f2910bf883a5795114ad5dd0b9ee75d836d4d52ef835c818c646dc80d",
+        "italian": "Il salvagente può essere rialzato oppure delimitato e protetto in altro modo.",
+        "italian_sha256": "e694fe246062001df772948e3e0be320b15a8778fd28d4bfa83bda432a1a1a7f"
+      },
+      {
+        "source": {
+          "number": 34863,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è riservato alla circolazione dei tram e dei veicoli assimilati",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "88937b93d9333276e78fa8c2bc429d0d4c0617984ac313ab09eb8f4a8c94485b",
+        "italian": "La parte riservata ai tram è la sede tranviaria; il salvagente serve al riparo e alla sosta dei pedoni.",
+        "italian_sha256": "125d7df0b978a5a501709ab8eb0705ccff8d0d55f4a3982420d5966c93a3d354"
+      },
+      {
+        "source": {
+          "number": 34864,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è destinato alla sosta dei veicoli",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "83e772c725fb6c50d874781ed4cfe044179eeb703e7eba36ae9c134c84a6eefc",
+        "italian": "Il salvagente non è un parcheggio: è destinato al riparo e alla sosta dei pedoni.",
+        "italian_sha256": "88dd938b731ef0f5bb84778c9577b4189e0b2d67db4aadcc41096def0523cf44"
+      },
+      {
+        "source": {
+          "number": 34865,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è segnalato da luci rosse lampeggianti",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "48ed06becb1fefc35458147f7fb92bab6abc0004d24a02f69fb1097cb3cf0239",
+        "italian": "Le luci rosse lampeggianti non definiscono il salvagente, che è uno spazio rialzato oppure delimitato e protetto per i pedoni.",
+        "italian_sha256": "31445fbbd44df69e96749f97443b867a54872572fc5e026a626f1c35db1fcaec"
+      },
+      {
+        "source": {
+          "number": 34866,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è destinato al riparo dei pedoni",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2dd0a6058236f977d51174be8082581ebd8abbfd91508e35f9ed1ea3d5398ef1",
+        "italian": "Il salvagente offre riparo e spazio di sosta ai pedoni presso attraversamenti o fermate dei mezzi collettivi.",
+        "italian_sha256": "8f9b78a6a3b1001b5afbcd58b29910b0e061053991a9255a237ccede8e441d2d"
+      },
+      {
+        "source": {
+          "number": 34867,
+          "quesito_id": 7268,
+          "text_it": "Il salvagente è una parte della strada che agevola la salita/discesa dei passeggeri dai filobus",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cc8de6bd41a87992385b525d4be7b43b0a7861d1b441a64cc01bf24f51c718e9",
+        "italian": "Alle fermate dei mezzi collettivi il salvagente offre ai pedoni uno spazio protetto, agevolando anche la salita e la discesa dai filobus.",
+        "italian_sha256": "20480cc20f37cf317f7cb0cf8f18164cc9777a351f6d459ce090ef2726b81c95"
+      },
+      {
+        "source": {
+          "number": 34868,
+          "quesito_id": 7268,
+          "text_it": "La sede stradale comprende i golfi di fermata",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d633f37e7089c37dab82b5f6b211259172ba33b48668fcbda93b928b12466687",
+        "italian": "Il golfo di fermata è parte della strada, esterna alla carreggiata, e rientra nella sede stradale.",
+        "italian_sha256": "19a591cdff1f7f4ed661f917e5d664beb6e2301ab5baa79d8274fef1bdbafe40"
+      },
+      {
+        "source": {
+          "number": 34869,
+          "quesito_id": 7269,
+          "text_it": "La sede stradale è riservata alla circolazione dei tram e dei veicoli assimilati",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "87703e33b38a0d7591adc7a6b76360fc0a73f72b7fcb8ad3443fcb1910c563fc",
+        "italian": "La sede stradale comprende tutta la superficie entro i confini stradali; la parte riservata ai tram è la sede tranviaria.",
+        "italian_sha256": "982fb989a892b0a34108ab2a4966cecbeacb44d92ebff1d5358521284a8a0689"
+      },
+      {
+        "source": {
+          "number": 34870,
+          "quesito_id": 7269,
+          "text_it": "La sede stradale non comprende i golfi di fermata",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "83afeecbd49ef456c6bb2e37353435b3079b303d9ea69cfecebdb9a0c8b25fca",
+        "italian": "Il golfo di fermata fa parte della strada e quindi della sede stradale, anche se è esterno alla carreggiata.",
+        "italian_sha256": "4cbe7adfd54d34b453ea634be35d6dd079db5a955fef7d20d99091d59a52ffde"
+      },
+      {
+        "source": {
+          "number": 34871,
+          "quesito_id": 7269,
+          "text_it": "La sede stradale è destinata alla separazione di correnti veicolari",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "415251809afcbc045380993dbdc5e13337512255f58aecf7b7e59c2d4a350c72",
+        "italian": "La separazione delle correnti veicolari è funzione dello spartitraffico; la sede stradale comprende la superficie entro i confini stradali.",
+        "italian_sha256": "fd904caab7f68c5d8eeea6de2143f93a0995ce14b99e34e068ac276cc3d35ad1"
+      },
+      {
+        "source": {
+          "number": 34872,
+          "quesito_id": 7269,
+          "text_it": "La sede stradale è una superficie compresa entro i confini stradali",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0c78f69e6aa9f50df6f8dc8e4d718b464cee258ba26ed0294ee56f0e2265dcca",
+        "italian": "La sede stradale è la superficie compresa entro i confini della strada.",
+        "italian_sha256": "b0df2da156d1d9cc1e5018a6cab138bff86ba4a55816b8c74d7eeff5afa3f031"
+      },
+      {
+        "source": {
+          "number": 34873,
+          "quesito_id": 7269,
+          "text_it": "La sede stradale comprende la carreggiata e le fasce di pertinenza",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3d28f4d9426f1ce83aee2a72a06e591eb21c7ef72d2f75b66219dc47c57e1d41",
+        "italian": "La sede stradale comprende sia la carreggiata sia le fasce di pertinenza.",
+        "italian_sha256": "dc5c6010c70c9e6a5a09352788481291edc1064e12784423cd4c5e337bf2bdd7"
+      },
+      {
+        "source": {
+          "number": 34874,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria propria è destinata esclusivamente alla circolazione dei tram",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "391aa35d5a277419b3121fe3306623e3706cd296d306593e131ff07fb79db28e",
+        "italian": "La sede tranviaria propria è riservata ai tram e ai veicoli assimilabili, non alla normale circolazione degli altri veicoli.",
+        "italian_sha256": "6df6203508f3d1eab823ec037c19af8da2f6ab559dc6eba44ef8903146aa66a8"
+      },
+      {
+        "source": {
+          "number": 34875,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria promiscua è delimitata da appositi segnali verticali",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "34aff1d705406539a459ae1d29cbc09bf35c760eebdef34ecbac2811a6c0766e",
+        "italian": "La sede promiscua non è definita da appositi segnali verticali: è la parte della carreggiata condivisa con gli altri veicoli.",
+        "italian_sha256": "261d5d66859985e4054acd722eff3197582e0f5ae60bf71fc69d8cc65d092472"
+      },
+      {
+        "source": {
+          "number": 34876,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria propria non è percorribile da altri veicoli",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d51aa456ca4a1cf40e0ccd3f75dcfd2477bae2ba8658e694295bb07a0fddbc4a",
+        "italian": "La sede tranviaria propria è riservata ai tram e ai veicoli assimilabili; gli altri veicoli non possono percorrerla.",
+        "italian_sha256": "ca1a9ef4d6f0fcc48a8bfd30abeabd0d4087daa8b29579259e9a015a732b2794"
+      },
+      {
+        "source": {
+          "number": 34877,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria promiscua è segnalata da colonnine gialle lampeggianti",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3b7e15d4540265fbe1833aa0b503bc790ea3ee06845497f44d1e2651c9b53cd6",
+        "italian": "Le colonnine gialle lampeggianti non identificano la sede tranviaria promiscua, che è condivisa con gli altri veicoli.",
+        "italian_sha256": "e188baee5527120bfc235c0508641da22c797b9aea2a4c648f364f5d878d295d"
+      },
+      {
+        "source": {
+          "number": 34878,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria promiscua è una parte della strada aperta alla circolazione ma su cui è vietata la sosta e la fermata degli altri veicoli",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "577acf567f1629232a53e87d1eb44ece14e4d86c694b813641cd39ed40934ada",
+        "italian": "La sede promiscua può essere percorsa anche dagli altri veicoli, ma fermata e sosta sono vietate sui binari o tanto vicino da ostacolare i tram.",
+        "italian_sha256": "0bf8dd04b519e31726205bb67fe643aaa36cae53c257bf433486df7607f8b356"
+      },
+      {
+        "source": {
+          "number": 34879,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria è destinata al riparo ed alla sosta dei pedoni",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d8e935697e377684bcaa720c49845e62398c25f674963eec48698df43f900553",
+        "italian": "La sede tranviaria serve alla circolazione dei tram; il riparo e la sosta dei pedoni sono funzioni del salvagente.",
+        "italian_sha256": "4e4c9cbb328bf07f9edd21a3b48ded50f0816915098e0fd4baa78a58cde13902"
+      },
+      {
+        "source": {
+          "number": 34880,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria è parte della strada",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "58f5f11df07195837f881151adf89e9c60126f38aa6fb72811fe89f7b1b80446",
+        "italian": "La sede tranviaria è una parte longitudinale della strada destinata alla circolazione dei tram e dei veicoli assimilabili.",
+        "italian_sha256": "1936481196a3f1d854f83c0795c2af4142fc74fe243490125e939770ded62614"
+      },
+      {
+        "source": {
+          "number": 34881,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria è una parte longitudinale della strada, opportunamente delimitata",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "87c168c92a62b31f1b4dff96c670a88d6ede2c7f25fc049698171fbb0d04db48",
+        "italian": "La sede tranviaria è una parte longitudinale della strada opportunamente delimitata.",
+        "italian_sha256": "655572b0914046f127b81a25de9f47903ee987fe8dfb8e936283013a26a63037"
+      },
+      {
+        "source": {
+          "number": 34882,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria propria non consente la fermata o la sosta dei veicoli",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e1472e5ac2cddb95cca4711cc0372994104b0ea807fbb76b94afe41de2d918be",
+        "italian": "Sulla sede propria, riservata ai tram e ai veicoli assimilabili, gli altri veicoli non possono fermarsi né sostare.",
+        "italian_sha256": "fa10870b84aa798e6872a5db0b9b3180997850691e12ce3beb592d2b034a96ba"
+      },
+      {
+        "source": {
+          "number": 34883,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria propria è percorribile anche da altri veicoli",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b7068a813efc6057bf919fdf7fb5e7471f96f3aa45839eac5f1bec446034fe87",
+        "italian": "La sede propria non è aperta alla normale circolazione degli altri veicoli: è riservata ai tram e ai veicoli assimilabili.",
+        "italian_sha256": "74c2249572395d36c2b0ae7ec27858c3914ac716856cb5a4aacfb8b1244284df"
+      },
+      {
+        "source": {
+          "number": 34884,
+          "quesito_id": 7269,
+          "text_it": "La sede tranviaria promiscua è percorribile anche da veicoli diversi dal tram poiché i binari sono a raso",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0965848b97698013c0f57732defe88c3ac3cc1fdb306757bef6b4366e1b53f8f",
+        "italian": "Nella sede promiscua i binari sono a raso e la carreggiata può essere percorsa anche da altri veicoli.",
+        "italian_sha256": "f852a6eb9a4c0f94310cae02db370e64865dd9de97310d2d4da09a8239648af9"
+      },
+      {
+        "source": {
+          "number": 34885,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria propria consente la sosta dei veicoli se non intralciano la marcia dei tram",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dc672d83863cecd65735ef8ce98f1a3c63ae692e0dcf8a4b603b4ebaa8d5aaed",
+        "italian": "La sede propria non consente la sosta degli altri veicoli, anche se non ostacolano il tram: è riservata alla circolazione tranviaria.",
+        "italian_sha256": "cbd8a76c86e56b9c9a12874abcfe28fdbf1916b5ceb3f709698d54c48cf70c87"
+      },
+      {
+        "source": {
+          "number": 34886,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria promiscua consente la sosta dei veicoli se non intralciano la marcia dei tram",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "faa3643a37664b73a81dd48ec0fc20ee21208c5f5ab0c39dd5294cd20ec3520c",
+        "italian": "Non basta non intralciare il tram: sulla sede promiscua la sosta degli altri veicoli è vietata.",
+        "italian_sha256": "16062c897b2d3efc95760dab6f2401a5e29bd4205f51c74552de1b55743ffb5c"
+      },
+      {
+        "source": {
+          "number": 34887,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria promiscua è percorribile dagli autobus",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f2c790f634d67ef81f1aeecec8c7da32750fab0000170a4b7c060ce40a70750c",
+        "italian": "La sede promiscua è aperta anche agli altri veicoli e può quindi essere percorsa dagli autobus, nel rispetto della segnaletica.",
+        "italian_sha256": "645403b5e12ff8135edc2bd33179a0b3f531738f0b8e3413c1c594da4c6b7936"
+      },
+      {
+        "source": {
+          "number": 34888,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria propria è delimitata da appositi segnali verticali",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "00e559399323e2da70bead77d4283bb01a987d32ff8a6070f64a5d5fdfaa9f0c",
+        "italian": "La sede propria è delimitata e riservata ai tram; la delimitazione non è necessariamente affidata a segnali verticali.",
+        "italian_sha256": "1befb9b6697abd6b130855f9375be0e9162ca31c38cd1085ffcdaf44048ab41e"
+      },
+      {
+        "source": {
+          "number": 34889,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria è sempre percorribile anche dagli autobus",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "494de0f12fce0eeca16de3dd6e645540ea8b24d892efa2fc963792d6b225d963",
+        "italian": "Non sempre: la sede promiscua può essere percorsa dagli autobus, mentre quella propria è riservata ai tram.",
+        "italian_sha256": "513bed742d0f1bfff3a69daef31d258b49f2fd9b872565ed6c52e04f0ef5a24d"
+      },
+      {
+        "source": {
+          "number": 34890,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria promiscua fa parte della carreggiata",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e6739e3159d1e048ccf69976779ff895e1fcc04b4dbf6871ef396393cc8785e0",
+        "italian": "La sede promiscua è inserita nella carreggiata ed è condivisa con gli altri veicoli.",
+        "italian_sha256": "eac3b37640442d5048b0ee7b8a618bdc2c578ce974eb71c548efd75c63293cf4"
+      },
+      {
+        "source": {
+          "number": 34891,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria è destinata alla separazione di correnti veicolari",
+          "answer": 0,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b675c26aaf7a6467fe00749481193ecf2d9233de2c7632498529043f04d9c569",
+        "italian": "La separazione delle correnti veicolari è funzione dello spartitraffico; la sede tranviaria è destinata ai tram.",
+        "italian_sha256": "2eb98fe795ef4e07f4edf0a86f27c2d5e23d992e0cf3a82efe58767b0ada75b7"
+      },
+      {
+        "source": {
+          "number": 34892,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria può essere propria o promiscua",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "79f7acd2be48f3d3cfda3fd3e3a0c7a9e33c83c68fd309497c824ac0e146ff6c",
+        "italian": "La sede è propria se riservata ai tram, promiscua se condivisa con gli altri veicoli.",
+        "italian_sha256": "f09461fd5934dedf9c4664172873268cc326b2850a74146a55f1ec5c460bf1d8"
+      },
+      {
+        "source": {
+          "number": 34893,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria è parte della carreggiata se di tipo promiscuo",
+          "answer": 1,
+          "page": 126,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "34e9e221db22c54ca1e2475ae8d420409b2fff7a2ebb40b3dbe999cbbc154ccf",
+        "italian": "Quando è promiscua, la sede tranviaria fa parte della carreggiata e può essere condivisa con altri veicoli.",
+        "italian_sha256": "b2aec2f68adc8a8be418747b5805758e6a7cef26fba5d056691db07bca4d9d17"
+      },
+      {
+        "source": {
+          "number": 34894,
+          "quesito_id": 7270,
+          "text_it": "La sede tranviaria è riservata alla circolazione dei tram e dei veicoli assimilabili",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "220f5a94d014a7f19c55d91661b576ed2d783185fbe89ac7af5b8aad4716be54",
+        "italian": "La definizione del Codice riserva la sede ai tram e ai veicoli assimilabili; nella sede promiscua, però, possono transitare anche altri veicoli.",
+        "italian_sha256": "40250382a7e25c2e598f51eab44627781c44b04aeebf4aacde327d817bfea058"
+      }
+    ],
+    "task_sha256": "ce8b213abfc36629537f3357de7d00c85a139b62a8dbd2b65917df9b77c2d260"
+  },
+  "rows": [
+    {
+      "number": 34845,
+      "text": "A driveway is not a parking area: it is the access to an adjacent area suitable for parking vehicles."
+    },
+    {
+      "number": 34846,
+      "text": "Parking is prohibited at the driveway entrance. This prohibition alone does not prohibit stopping; any other prohibitions and the obligation not to cause an obstruction still apply."
+    },
+    {
+      "number": 34847,
+      "text": "A driveway is not intended for pedestrian traffic: it is an access to an adjacent area suitable for parking vehicles."
+    },
+    {
+      "number": 34848,
+      "text": "A driveway provides access to an adjacent area suitable for vehicles; parking is prohibited at the entrance to keep the access clear."
+    },
+    {
+      "number": 34849,
+      "text": "A driveway is the access from the road to an adjacent area where one or more vehicles can park."
+    },
+    {
+      "number": 34850,
+      "text": "A driveway is not the parking area: it is the access to an adjacent area suitable for vehicles."
+    },
+    {
+      "number": 34851,
+      "text": "A lay-by is intended for parking vehicles, not for bus passengers to wait. A bus bay, on the other hand, serves as a stop for scheduled public transport vehicles."
+    },
+    {
+      "number": 34852,
+      "text": "A lay-by is a limited section of the road located outside and adjacent to the shoulder."
+    },
+    {
+      "number": 34853,
+      "text": "A lay-by is a space of limited length intended for parking vehicles, located outside the shoulder."
+    },
+    {
+      "number": 34854,
+      "text": "A lay-by is not intended for pedestrian traffic: its purpose is to allow vehicles to park."
+    },
+    {
+      "number": 34855,
+      "text": "Motorway lay-bys are used for parking vehicles, including in emergencies; they are not facilities intended for transferring between modes of transport."
+    },
+    {
+      "number": 34856,
+      "text": "There are specific road signs indicating the presence of a lay-by beside the carriageway. The quiz describes them as advance warning signs, but the rule states their function without establishing here that every lay-by must always have advance warning."
+    },
+    {
+      "number": 34857,
+      "text": "A pedestrian refuge is not an officer: it is a protected part of the road intended to provide shelter and a place for pedestrians to wait near crossings or public transport stops."
+    },
+    {
+      "number": 34858,
+      "text": "A pedestrian refuge provides pedestrians with a protected space to shelter and wait, including at crossings."
+    },
+    {
+      "number": 34859,
+      "text": "A pedestrian refuge is a raised or delineated and protected space intended to provide shelter and a place for pedestrians to wait."
+    },
+    {
+      "number": 34860,
+      "text": "Buses cannot drive over a pedestrian refuge: it is a protected space where pedestrians can shelter and wait, including near public transport stops."
+    },
+    {
+      "number": 34861,
+      "text": "At public transport stops, a pedestrian refuge provides pedestrians with a protected space, also making it easier to board and get off buses."
+    },
+    {
+      "number": 34862,
+      "text": "A pedestrian refuge may be raised or delineated and protected in another way."
+    },
+    {
+      "number": 34863,
+      "text": "The part reserved for trams is the tramway; a pedestrian refuge provides shelter and a place for pedestrians to wait."
+    },
+    {
+      "number": 34864,
+      "text": "A pedestrian refuge is not a parking area: it is intended to provide shelter and a place for pedestrians to wait."
+    },
+    {
+      "number": 34865,
+      "text": "Flashing red lights do not define a pedestrian refuge, which is a raised or delineated and protected space for pedestrians."
+    },
+    {
+      "number": 34866,
+      "text": "A pedestrian refuge provides shelter and space for pedestrians to wait near crossings or public transport stops."
+    },
+    {
+      "number": 34867,
+      "text": "At public transport stops, a pedestrian refuge provides pedestrians with a protected space, also making it easier to board and get off trolleybuses."
+    },
+    {
+      "number": 34868,
+      "text": "A bus bay is part of the road, outside the carriageway, and falls within the road area."
+    },
+    {
+      "number": 34869,
+      "text": "The road area includes the entire surface within the road boundaries; the part reserved for trams is the tramway."
+    },
+    {
+      "number": 34870,
+      "text": "A bus bay is part of the road and therefore of the road area, even though it is outside the carriageway."
+    },
+    {
+      "number": 34871,
+      "text": "Separating streams of traffic is the function of a traffic divider; the road area includes the surface within the road boundaries."
+    },
+    {
+      "number": 34872,
+      "text": "The road area is the surface within the road boundaries."
+    },
+    {
+      "number": 34873,
+      "text": "The road area includes both the carriageway and the adjoining roadside strips."
+    },
+    {
+      "number": 34874,
+      "text": "A dedicated tramway is reserved for trams and comparable vehicles, not for normal traffic by other vehicles."
+    },
+    {
+      "number": 34875,
+      "text": "A shared tramway is not defined by specific road signs: it is the part of the carriageway shared with other vehicles."
+    },
+    {
+      "number": 34876,
+      "text": "A dedicated tramway is reserved for trams and comparable vehicles; other vehicles cannot use it."
+    },
+    {
+      "number": 34877,
+      "text": "Flashing yellow bollards do not identify a shared tramway, which is shared with other vehicles."
+    },
+    {
+      "number": 34878,
+      "text": "Other vehicles may also use a shared tramway, but stopping and parking are prohibited on the tracks or close enough to obstruct trams."
+    },
+    {
+      "number": 34879,
+      "text": "A tramway is used by trams; providing shelter and a place for pedestrians to wait are functions of a pedestrian refuge."
+    },
+    {
+      "number": 34880,
+      "text": "A tramway is a longitudinal part of the road intended for trams and comparable vehicles."
+    },
+    {
+      "number": 34881,
+      "text": "A tramway is a suitably delineated longitudinal part of the road."
+    },
+    {
+      "number": 34882,
+      "text": "On a dedicated tramway, reserved for trams and comparable vehicles, other vehicles may neither stop nor park."
+    },
+    {
+      "number": 34883,
+      "text": "A dedicated tramway is not open to normal traffic by other vehicles: it is reserved for trams and comparable vehicles."
+    },
+    {
+      "number": 34884,
+      "text": "On a shared tramway, the rails are flush with the road surface and other vehicles may also use the carriageway."
+    },
+    {
+      "number": 34885,
+      "text": "A dedicated tramway does not permit other vehicles to park, even if they do not obstruct the tram: it is reserved for tram traffic."
+    },
+    {
+      "number": 34886,
+      "text": "Not obstructing the tram is not enough: other vehicles are prohibited from parking on a shared tramway."
+    },
+    {
+      "number": 34887,
+      "text": "A shared tramway is also open to other vehicles and can therefore be used by buses, in accordance with road signs."
+    },
+    {
+      "number": 34888,
+      "text": "A dedicated tramway is delineated and reserved for trams; it is not necessarily delineated by road signs."
+    },
+    {
+      "number": 34889,
+      "text": "Not always: buses may use a shared tramway, whereas a dedicated tramway is reserved for trams."
+    },
+    {
+      "number": 34890,
+      "text": "A shared tramway forms part of the carriageway and is shared with other vehicles."
+    },
+    {
+      "number": 34891,
+      "text": "Separating streams of traffic is the function of a traffic divider; a tramway is intended for trams."
+    },
+    {
+      "number": 34892,
+      "text": "A tramway is dedicated if reserved for trams and shared if used by other vehicles as well."
+    },
+    {
+      "number": 34893,
+      "text": "When shared, a tramway is part of the carriageway and may be shared with other vehicles."
+    },
+    {
+      "number": 34894,
+      "text": "The Highway Code's definition reserves the tramway for trams and comparable vehicles; however, other vehicles may also travel on a shared tramway."
+    }
+  ],
+  "output_sha256": "d11e1ff919f76b6928afed05d1d7b1e3b47f939dee610956eb20e76d3971f337"
+}

@@ -1,0 +1,974 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26664,
+          "quesito_id": 5197,
+          "text_it": "La sosta è vietata in prossimità dei passaggi a livello, solo se senza barriere",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "dbfc5f4dbc34cdf6471c10c028569caf1eb77210b10301712a0627f99f11ed11",
+        "localized_text": "Está prohibido estacionar cerca de los pasos a nivel solo si no tienen barreras"
+      },
+      {
+        "source": {
+          "number": 26665,
+          "quesito_id": 5198,
+          "text_it": "La sosta è vietata davanti ai passi carrabili",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5da54b6180259b61c1e6bdcefd5b7165ecbe679cf8cc285453b479a68fe845a1",
+        "localized_text": "Está prohibido estacionar frente a los accesos vehiculares"
+      },
+      {
+        "source": {
+          "number": 26666,
+          "quesito_id": 5198,
+          "text_it": "La sosta è vietata sui marciapiedi, salvo diversa segnalazione",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "6b73ea72fb9b39c3f0f71e5dc4c0a3c3071cc0d6ab266b881ccf6b5fc2bc8e55",
+        "localized_text": "Está prohibido estacionar en las aceras, salvo señalización distinta"
+      },
+      {
+        "source": {
+          "number": 26667,
+          "quesito_id": 5198,
+          "text_it": "La sosta è vietata in corrispondenza di incroci regolati da semaforo",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "d935ce01afb820b2bf5a664d63738617a41592f92d2201a2712ee718d4abfa33",
+        "localized_text": "Está prohibido estacionar en intersecciones reguladas por semáforos"
+      },
+      {
+        "source": {
+          "number": 26668,
+          "quesito_id": 5198,
+          "text_it": "La sosta è vietata sempre sui lunghi rettilinei",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9e8dca7cd203db3490211604f52a012471bda841b8f0e2a4bd7e113a78b1af36",
+        "localized_text": "Siempre está prohibido estacionar en los tramos rectos largos"
+      },
+      {
+        "source": {
+          "number": 26669,
+          "quesito_id": 5198,
+          "text_it": "La sosta è vietata nelle strade a senso unico",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "25fb31aca178440cb98581fe81143d405f65ef1c8a16c8aa79f5897250683b37",
+        "localized_text": "Está prohibido estacionar en vías de sentido único"
+      },
+      {
+        "source": {
+          "number": 26670,
+          "quesito_id": 5198,
+          "text_it": "La sosta è vietata fuori dai centri abitati",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "0936aee586f6cc09117d449e336948147aec88768e3df273876458aae41593fe",
+        "localized_text": "Está prohibido estacionar fuera de las zonas pobladas"
+      },
+      {
+        "source": {
+          "number": 26671,
+          "quesito_id": 5199,
+          "text_it": "E' vietato sostare negli spazi riservati alla sosta dei veicoli per persone disabili",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "2f96a46d30db4e2445c68fa302b1a0e0c6ecbd54e6ec3d5b4eef0c87eed5b26d",
+        "localized_text": "Está prohibido estacionar en los espacios reservados para vehículos de personas con discapacidad"
+      },
+      {
+        "source": {
+          "number": 26672,
+          "quesito_id": 5199,
+          "text_it": "E' vietato sostare occupando nel parcheggio più di uno spazio",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "52d92c9fccbfaebb75227ea6c66cb4a30e66461831e8f81b51d9d293864f3dcf",
+        "localized_text": "Está prohibido estacionar ocupando más de un espacio en el estacionamiento"
+      },
+      {
+        "source": {
+          "number": 26673,
+          "quesito_id": 5199,
+          "text_it": "E' vietato sostare davanti ai distributori di carburante, durante l'orario di apertura",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "25ae62918cd69f95c071679370d477c8228e038cb6db41dd43b7925dcb3ef2f7",
+        "localized_text": "Está prohibido estacionar frente a los surtidores de combustible durante el horario de apertura"
+      },
+      {
+        "source": {
+          "number": 26674,
+          "quesito_id": 5199,
+          "text_it": "E' vietato sostare nelle strade senza marciapiede",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9eb23709b945c505d101c1dd4a856638116b1e6b63cc79b6b8d1573da592960e",
+        "localized_text": "Está prohibido estacionar en vías sin acera"
+      },
+      {
+        "source": {
+          "number": 26675,
+          "quesito_id": 5199,
+          "text_it": "E' vietato sostare lungo le strade prive di illuminazione pubblica",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5eb4445cce0626fac712082b42b774e69cf8a61d3aef73db8c3a878364fba0de",
+        "localized_text": "Está prohibido estacionar en vías sin iluminación pública"
+      },
+      {
+        "source": {
+          "number": 26676,
+          "quesito_id": 5199,
+          "text_it": "E' vietato sostare lungo le strade a forte pendenza",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c1691909afe883fbc88f3ad309bbe43256b7b7ef41710f75c1219a66f215fe33",
+        "localized_text": "Está prohibido estacionar en vías de fuerte pendiente"
+      },
+      {
+        "source": {
+          "number": 26677,
+          "quesito_id": 5200,
+          "text_it": "La sosta in doppia fila è vietata ai quadricicli leggeri a motore",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "519dcf424be2bb4e0a131e272e992ada21a6a915d3a8c4c8cca14580ec1c0a89",
+        "localized_text": "Está prohibido estacionar en doble fila a los cuadriciclos ligeros de motor"
+      },
+      {
+        "source": {
+          "number": 26678,
+          "quesito_id": 5200,
+          "text_it": "La sosta in doppia fila può ostacolare la circolazione",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "bff2eea60a92f318eb28f33c73637ee4389d2d8ab1ecfafba3a208f351dbf288",
+        "localized_text": "Estacionar en doble fila puede obstaculizar la circulación"
+      },
+      {
+        "source": {
+          "number": 26679,
+          "quesito_id": 5200,
+          "text_it": "La sosta in doppia fila è ammessa se i veicoli sono a due ruote",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b2e25cf2f2e141f4cb20b96af9d61d93a00f83fe3886f7465dee9791377c7d39",
+        "localized_text": "Se permite estacionar en doble fila si los vehículos son de dos ruedas"
+      },
+      {
+        "source": {
+          "number": 26680,
+          "quesito_id": 5200,
+          "text_it": "La sosta in doppia fila è consentita ai quadricicli leggeri a motore",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "298dd8e210f8aad93b1cb40aef5b5b66db9126f536e80068f7dfb93865f393df",
+        "localized_text": "Se permite estacionar en doble fila a los cuatriciclos ligeros motorizados"
+      },
+      {
+        "source": {
+          "number": 26681,
+          "quesito_id": 5200,
+          "text_it": "La sosta in doppia fila, nei centri abitati, è sempre vietata ai ciclomotori a due ruote",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "034c645627aa8c4e20c7ff5a137c56ca0d008d0c4563c7b52c1dbdc4570f004a",
+        "localized_text": "Estacionar en doble fila en zonas pobladas está siempre prohibido para los ciclomotores de dos ruedas"
+      },
+      {
+        "source": {
+          "number": 26682,
+          "quesito_id": 5200,
+          "text_it": "La sosta in doppia fila è consentita solo per pochi minuti ai quadricicli leggeri a motore",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "6d7bbf0d09d3bbd1d457bef92fe8475c13ac9e90302e57f6f264b9baffaa2198",
+        "localized_text": "El estacionamiento en doble fila está permitido solo por unos minutos a los cuatriciclos ligeros motorizados"
+      },
+      {
+        "source": {
+          "number": 26683,
+          "quesito_id": 5201,
+          "text_it": "Quando si esce da un parcheggio autorizzato, si ha l'obbligo di dare la precedenza ai veicoli in transito",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "63fdb91596fbfa9d095c84aafad4b7c81c1b1c65277fe2f7258a9d9baa58334b",
+        "localized_text": "Al salir de un estacionamiento autorizado hay que ceder el paso a los vehículos que circulan"
+      },
+      {
+        "source": {
+          "number": 26684,
+          "quesito_id": 5201,
+          "text_it": "Quando si lascia il veicolo in sosta in un parcheggio autorizzato, si ha l'obbligo di non ostacolare gli altri utenti della strada presenti nel parcheggio",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e4532593f1b0af52f1a501da95ad3a4de66b81031d53110b75f84fa98070e8aa",
+        "localized_text": "Al dejar el vehículo estacionado en un estacionamiento autorizado, se está obligado a no obstaculizar a los demás usuarios presentes"
+      },
+      {
+        "source": {
+          "number": 26685,
+          "quesito_id": 5201,
+          "text_it": "Quando si lascia il veicolo in sosta in un parcheggio autorizzato, si ha l'obbligo di disporre il veicolo all’interno degli appositi spazi delimitati",
+          "answer": 1,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "1289408e575e0038a3ad80f737b0c98fb6e50975a3f6e78caf0989c951e6d068",
+        "localized_text": "Al estacionar en un estacionamiento autorizado hay que colocar el vehículo dentro de los espacios delimitados"
+      },
+      {
+        "source": {
+          "number": 26686,
+          "quesito_id": 5201,
+          "text_it": "Un parcheggio autorizzato a pagamento, è delimitato da strisce gialle",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "01afb8a64ae1cb302e74a3c8a9b8d36d3a1f46db00a9a89de2f2136e02f5b8ae",
+        "localized_text": "Un estacionamiento autorizado de pago está delimitado por líneas amarillas"
+      },
+      {
+        "source": {
+          "number": 26687,
+          "quesito_id": 5201,
+          "text_it": "Un parcheggio autorizzato delimitato da strisce azzurre è riservato alla sosta dei soli taxi",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7c0a49e206d7cfb276e79827d3b7433605081cfdbaaa37f7f0c607fa8d3dcdcb",
+        "localized_text": "Un estacionamiento autorizado delimitado por líneas azules está reservado exclusivamente para taxis"
+      },
+      {
+        "source": {
+          "number": 26688,
+          "quesito_id": 5201,
+          "text_it": "Non è ammesso sostare nelle immediate vicinanze di un parcheggio autorizzato",
+          "answer": 0,
+          "page": 127,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7c09bcaa6f6ff985109b4d37277a8511eb6c9b538b265ffafaaf56c87665282c",
+        "localized_text": "No se permite estacionar en las inmediaciones de un estacionamiento autorizado"
+      }
+    ],
+    "task_sha256": "08b7767e5b6fbf8a7a7bf3b688469d68f90fd6462a7240065c27d63a2e656019"
+  },
+  "rows": [
+    {
+      "number": 26664,
+      "text": "La prohibición se aplica cerca de los pasos a nivel aunque tengan barreras.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 1 lett. a: divieto presso passaggi a livello senza distinzione per barriere."
+      ]
+    },
+    {
+      "number": 26665,
+      "text": "La salida debe permanecer libre para que los vehículos puedan entrar y salir.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. a: vieta la sosta allo sbocco dei passi carrabili."
+      ]
+    },
+    {
+      "number": 26666,
+      "text": "La acera es para los peatones: está prohibido estacionar allí, salvo que la señalización indique lo contrario.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 1 lett. h: divieto sui marciapiedi salvo diversa segnalazione."
+      ]
+    },
+    {
+      "number": 26667,
+      "text": "La prohibición también se aplica cuando la intersección está regulada por semáforos: mantenerla despejada permite el paso de vehículos que vienen de otras direcciones.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 1 lett. e-f: divieto sulle aree di intersezione fuori e dentro i centri abitati.",
+        "https://www.aci.it/fileadmin/cds/art-145.php art. 145 comma 7: l’area di manovra deve essere sgombrata per consentire il transito dalle altre direzioni."
+      ]
+    },
+    {
+      "number": 26668,
+      "text": "Un tramo recto largo no prohíbe por sí solo el estacionamiento: hay que respetar las señales y las demás reglas.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-157.php art. 157 commi 2-3: posizione della sosta; https://www.aci.it/fileadmin/cds/art-158.php art. 158: luoghi vietati."
+      ]
+    },
+    {
+      "number": 26669,
+      "text": "El sentido único no prohíbe por sí mismo estacionar. En las calles urbanas de sentido único también se puede estacionar a la izquierda, siempre que quede espacio suficiente para al menos una fila de vehículos y, en todo caso, de al menos tres metros de ancho.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-157.php art. 157 comma 4: nelle strade urbane a senso unico la sosta a sinistra richiede spazio sufficiente per almeno una fila di veicoli, comunque non inferiore a tre metri."
+      ]
+    },
+    {
+      "number": 26670,
+      "text": "Fuera de las zonas pobladas se puede estacionar cumpliendo las condiciones previstas: normalmente se coloca el vehículo fuera de la calzada.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-157.php art. 157 comma 3: collocazione fuori carreggiata e relative condizioni."
+      ]
+    },
+    {
+      "number": 26671,
+      "text": "Estos espacios están reservados a vehículos al servicio de personas con discapacidad autorizadas; no son de uso libre.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. g; https://www.aci.it/fileadmin/cds/art-188.php art. 188 commi 1-2: spazi riservati e autorizzazione."
+      ]
+    },
+    {
+      "number": 26672,
+      "text": "En espacios delimitados, el vehículo debe quedar dentro de su cajón sin invadir los contiguos.",
+      "evidence": [
+        "https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf art. 351 comma 2: veicolo entro lo spazio assegnato senza invadere quelli contigui."
+      ]
+    },
+    {
+      "number": 26673,
+      "text": "La prohibición mantiene libre el acceso a los surtidores situados en la vía durante el horario de servicio.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. o: divieto presso distributori sulla sede stradale nelle ore di esercizio."
+      ]
+    },
+    {
+      "number": 26674,
+      "text": "La falta de acera no prohíbe automáticamente estacionar: hay que dejar espacio suficiente para los peatones, al menos un metro.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-157.php art. 157 comma 2: spazio per pedoni in assenza di marciapiede rialzato."
+      ]
+    },
+    {
+      "number": 26675,
+      "text": "La falta de alumbrado público no prohíbe por sí sola estacionar; sin embargo, puede ser necesario encender las luces del vehículo según las condiciones previstas.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-153.php art. 153 commi 1 e 5: segnalazione del veicolo in sosta e relative eccezioni; https://www.aci.it/fileadmin/cds/art-157.php art. 157: condizioni di sosta."
+      ]
+    },
+    {
+      "number": 26676,
+      "text": "La pendiente por sí sola no implica una prohibición general. El conductor debe tomar las precauciones necesarias para evitar accidentes.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 4: cautele durante la sosta; https://www.aci.it/fileadmin/cds/art-157.php art. 157: regole generali di collocazione."
+      ]
+    },
+    {
+      "number": 26677,
+      "text": "La excepción a la prohibición de estacionar en doble fila se aplica a vehículos de dos ruedas, no a cuadriciclos.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. c: divieto in seconda fila salvo veicoli a due ruote."
+      ]
+    },
+    {
+      "number": 26678,
+      "text": "Un vehículo en doble fila ocupa espacio en la calzada y puede obstaculizar el tránsito o bloquear a un vehículo estacionado.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. b-c: impedimento ai veicoli in sosta e seconda fila; https://www.aci.it/fileadmin/cds/art-140.php art. 140 comma 1: non creare intralcio."
+      ]
+    },
+    {
+      "number": 26679,
+      "text": "Los vehículos de dos ruedas están excluidos de la prohibición específica de estacionar en doble fila, pero siguen vigentes las demás reglas, incluida la de no obstaculizar.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. c: eccezione per veicoli a due ruote; https://www.aci.it/fileadmin/cds/art-140.php art. 140 comma 1: non creare intralcio."
+      ]
+    },
+    {
+      "number": 26680,
+      "text": "Los cuadriciclos no están incluidos en la excepción para vehículos de dos ruedas: tienen prohibido estacionar en doble fila.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. c: eccezione limitata ai veicoli a due ruote."
+      ]
+    },
+    {
+      "number": 26681,
+      "text": "La prohibición específica de doble fila excluye a los vehículos de dos ruedas también en zonas pobladas; deben respetar las demás prohibiciones y no obstaculizar.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. c: eccezione per due ruote; https://www.aci.it/fileadmin/cds/art-140.php art. 140 comma 1: non creare intralcio."
+      ]
+    },
+    {
+      "number": 26682,
+      "text": "La prohibición de estacionar en doble fila para cuadriciclos no tiene una excepción de unos minutos. Estacionar es distinto de detenerse por un tiempo muy breve.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. c: divieto in seconda fila salvo due ruote; https://www.aci.it/fileadmin/cds/art-157.php art. 157 comma 1 lett. b-c: distinzione tra fermata e sosta."
+      ]
+    },
+    {
+      "number": 26683,
+      "text": "Al incorporarse al flujo, hay que ceder el paso a los vehículos que ya circulan y maniobrar sin peligro ni obstrucción.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-154.php art. 154 commi 1 e 3 lett. c: manovra sicura e precedenza nell’immissione."
+      ]
+    },
+    {
+      "number": 26684,
+      "text": "Incluso en un estacionamiento, el vehículo no debe bloquear el paso ni impedir que otros usen sus vehículos.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-140.php art. 140 comma 1: evitare intralcio; https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. b: non impedire accesso o spostamento dei veicoli in sosta."
+      ]
+    },
+    {
+      "number": 26685,
+      "text": "Donde hay cajones delimitados, hay que colocar el vehículo dentro del asignado sin invadir los demás.",
+      "evidence": [
+        "https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf art. 351 comma 2: obbligo di restare entro lo spazio delimitato."
+      ]
+    },
+    {
+      "number": 26686,
+      "text": "Las líneas azules normalmente indican estacionamiento de pago; las amarillas señalan espacios reservados a determinadas categorías.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/documenti/viaggia_con_noi/pdf/ita/8__Parcheggi.pdf ACI, Parcheggi: significato delle strisce blu e gialle."
+      ]
+    },
+    {
+      "number": 26687,
+      "text": "Las líneas azules normalmente indican estacionamiento de pago, no una reserva exclusiva para taxis.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/documenti/viaggia_con_noi/pdf/ita/8__Parcheggi.pdf ACI, Parcheggi: strisce blu per sosta a pagamento; https://www.aci.it/fileadmin/cds/art-158.php art. 158 comma 2 lett. d: spazi riservati ai veicoli in servizio di piazza."
+      ]
+    },
+    {
+      "number": 26688,
+      "text": "La cercanía a un estacionamiento autorizado no crea por sí sola una prohibición general; hay que respetar las señales y las demás reglas de estacionamiento.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-157.php art. 157 commi 2-5: collocazione e segnaletica; https://www.aci.it/fileadmin/cds/art-158.php art. 158: luoghi di divieto."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "08b7767e5b6fbf8a7a7bf3b688469d68f90fd6462a7240065c27d63a2e656019",
+    "output_sha256": "9e396fcefd85f329ba42524f4aebf0d3736c4fdc2467a90df8ecd0e745c0b14d",
+    "author": "gpt-6.1-terra / 01a1ea01-6843-7153-a0bf-c2064f09d326",
+    "reviewer": "gpt-6.1-terra / 01a1ea02-033b-7963-9a26-4c81c9d0a293",
+    "status": "accepted",
+    "checked_numbers": [
+      26664,
+      26665,
+      26666,
+      26667,
+      26668,
+      26669,
+      26670,
+      26671,
+      26672,
+      26673,
+      26674,
+      26675,
+      26676,
+      26677,
+      26678,
+      26679,
+      26680,
+      26681,
+      26682,
+      26683,
+      26684,
+      26685,
+      26686,
+      26687,
+      26688
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "cd17ca56ffd33185a0337809a320cbc94ffb5d9a268526d3e629bd9531ad6d01",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "39225ecc642c6a4a9948024be5f18f87595535025f1b6ef771608370c7813146",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1e9fb-3daa-7651-a0dd-e475d95348a1",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "63c06e148586d84ee1f6e6a8c4c119c141018505e0a562a837bfc7621520dda1",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9fe-0acf-72c0-a7b7-c5002139af29",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "dd62203cca1b6fcba1e5aec46c1d1c86072e458659a835cb46c1606dbdf567f5",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9ff-d5fb-7981-baf9-f515ac1ca879",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7964f06394cf15f33dfb9c5c0344081cf07a06d6525c3b71391f7c83c1106be4",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea01-6843-7153-a0bf-c2064f09d326",
+        "label": "author-3-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "cd17ca56ffd33185a0337809a320cbc94ffb5d9a268526d3e629bd9531ad6d01",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "2de1e081ff5a3676b97afcb769f9ee0cf803f4c77a11969c73aa2c2320b86638",
+          "output_sha256": "f2ed7508112e6cf7614f72c215cb6e57d451e1d7905b4986ab0995c0acc188b7",
+          "author": "gpt-6.1-terra / 01a1e9fb-3daa-7651-a0dd-e475d95348a1",
+          "reviewer": "gpt-6.1-terra / 01a1e9fd-0982-7191-b4f0-238a18e92c73",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26669: Article 157(4) requires enough width for at least one line of vehicles as well as a minimum of three metres. The explanation presents three metres alone as the condition for parking on the left, omitting the separate sufficient-width requirement. State both conditions, specifically for urban one-way streets."
+          ]
+        },
+        {
+          "task_sha256": "9342d6d936fb1259977891254633479db51f579bc51c3c6477bf333ccb933562",
+          "output_sha256": "2347a28dd34e9a4b9180def3869a41ee89b3766b529a14b04f65b95fe4810011",
+          "author": "gpt-6.1-terra / 01a1e9fb-3daa-7651-a0dd-e475d95348a1",
+          "reviewer": "gpt-6.1-terra / 01a1e9fd-0982-7191-b4f0-238a18e92c73",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26669: Article 157(4) requires enough width for at least one line of vehicles as well as a minimum of three metres. The explanation presents three metres alone as the condition for parking on the left, omitting the separate sufficient-width requirement. State both conditions, specifically for urban one-way streets."
+          ]
+        },
+        {
+          "task_sha256": "5912f31c352f46c2c263f56198a27bca7560c42b3b5822b11b23253034d3de5e",
+          "output_sha256": "4af037cd46564ccfc86dc0a853221ea2c0069f4523c74e60948626b18c429661",
+          "author": "gpt-6.1-terra / 01a1e9fb-3daa-7651-a0dd-e475d95348a1",
+          "reviewer": "gpt-6.1-terra / 01a1e9fd-0982-7191-b4f0-238a18e92c73",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26669: Article 157(4) requires enough width for at least one line of vehicles as well as a minimum of three metres. The explanation presents three metres alone as the condition for parking on the left, omitting the separate sufficient-width requirement. State both conditions, specifically for urban one-way streets."
+          ]
+        },
+        {
+          "task_sha256": "08b7767e5b6fbf8a7a7bf3b688469d68f90fd6462a7240065c27d63a2e656019",
+          "output_sha256": "da5f153916c7b1b0c161bc6b01052650813dd365532dedc85095a68156d94cc6",
+          "author": "gpt-6.1-terra / 01a1e9fb-3daa-7651-a0dd-e475d95348a1",
+          "reviewer": "gpt-6.1-terra / 01a1e9fd-0982-7191-b4f0-238a18e92c73",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26669: Article 157(4) requires enough width for at least one line of vehicles as well as a minimum of three metres. The explanation presents three metres alone as the condition for parking on the left, omitting the separate sufficient-width requirement. State both conditions, specifically for urban one-way streets."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "2de1e081ff5a3676b97afcb769f9ee0cf803f4c77a11969c73aa2c2320b86638",
+          "output_sha256": "b2822e649146ce1c557b8aea0545db5e123813cbd1961f80e1f9e4369b5ae2cc",
+          "author": "gpt-6.1-terra / 01a1e9fe-0acf-72c0-a7b7-c5002139af29",
+          "reviewer": "gpt-6.1-terra / 01a1e9fe-caca-7843-bfdf-e3a9f23d946e",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26667: The explanation restates the assertion that the prohibition applies at traffic-light-controlled intersections, without explaining why parking is prohibited in the intersection area. Add the decisive reason, such as keeping the crossing clear for traffic, consistently in all four languages."
+          ]
+        },
+        {
+          "task_sha256": "9342d6d936fb1259977891254633479db51f579bc51c3c6477bf333ccb933562",
+          "output_sha256": "5a5e3d95072ac190861e5fa9735533cd4c272aeafe7f09e5a0010a80ad9c161b",
+          "author": "gpt-6.1-terra / 01a1e9fe-0acf-72c0-a7b7-c5002139af29",
+          "reviewer": "gpt-6.1-terra / 01a1e9fe-caca-7843-bfdf-e3a9f23d946e",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26667: The explanation restates the assertion that the prohibition applies at traffic-light-controlled intersections, without explaining why parking is prohibited in the intersection area. Add the decisive reason, such as keeping the crossing clear for traffic, consistently in all four languages."
+          ]
+        },
+        {
+          "task_sha256": "5912f31c352f46c2c263f56198a27bca7560c42b3b5822b11b23253034d3de5e",
+          "output_sha256": "03f84cac2aef9e32b034e9028a8a4c6711b3a9683ef548d431e6cd269333ddb8",
+          "author": "gpt-6.1-terra / 01a1e9fe-0acf-72c0-a7b7-c5002139af29",
+          "reviewer": "gpt-6.1-terra / 01a1e9fe-caca-7843-bfdf-e3a9f23d946e",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26667: The explanation restates the assertion that the prohibition applies at traffic-light-controlled intersections, without explaining why parking is prohibited in the intersection area. Add the decisive reason, such as keeping the crossing clear for traffic, consistently in all four languages."
+          ]
+        },
+        {
+          "task_sha256": "08b7767e5b6fbf8a7a7bf3b688469d68f90fd6462a7240065c27d63a2e656019",
+          "output_sha256": "34426b6649ee37b8dd5b2e8a01db2858f9ccce2f61d9fffd2202827675089e97",
+          "author": "gpt-6.1-terra / 01a1e9fe-0acf-72c0-a7b7-c5002139af29",
+          "reviewer": "gpt-6.1-terra / 01a1e9fe-caca-7843-bfdf-e3a9f23d946e",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26667: The explanation restates the assertion that the prohibition applies at traffic-light-controlled intersections, without explaining why parking is prohibited in the intersection area. Add the decisive reason, such as keeping the crossing clear for traffic, consistently in all four languages."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "5912f31c352f46c2c263f56198a27bca7560c42b3b5822b11b23253034d3de5e",
+          "output_sha256": "b450f6a4c1de2a0b6787de165d3ca78b3572bcabbd4dd01aa635079aeb09ee12",
+          "author": "gpt-6.1-terra / 01a1e9ff-d5fb-7981-baf9-f515ac1ca879",
+          "reviewer": "gpt-6.1-terra / 01a1ea00-6dbd-7600-b10b-9c424f3e5c72",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26664,
+            26665,
+            26666,
+            26667,
+            26668,
+            26669,
+            26670,
+            26671,
+            26672,
+            26673,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            26685,
+            26686,
+            26687,
+            26688
+          ],
+          "issues": [
+            "26677, 26678, 26679, 26680, 26681, 26682: The Chinese localized question uses 并排停放 (parking side by side), which can describe ordinary adjacent parking and does not reliably convey the Italian seconda fila (double parking). The explanations correctly use 双排停车, but the question and explanation therefore do not reliably describe the same maneuver; adjudicate and correct the source translation before acceptance."
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "batch": "053",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "848af68111a0ee3ffb3c3461016c95d1bc4aed4d107ee289ddc27e28adca1c41",
+  "source_sha256": "3db3440cda7fe307ec49c58a3a2bf296707782e2a4357fcf1372f1f8b7e67b70",
+  "corrections": [
+    {
+      "id": "46ac322a1f1b3e1c5a915ac133ddc0971eb60c5cf934879c9c8e4ef117a44466",
+      "before": "01##tipología1 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "01##tipologia1 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original."
+    },
+    {
+      "id": "46afaa82d428cdd030235be131dfa0ad43978c329ce979b322a19f88d88542bb",
+      "before": "Normalmente no es obligatorio usar cinturones en autobuses interregionales, aunque estén equipados con ellos",
+      "after": "Normalmente no es obligatorio que los pasajeros de autobuses interregionales usen cinturones de seguridad, aunque los autobuses estén equipados con ellos",
+      "reason": "Restituye que la afirmación se refiere a los pasajeros."
+    },
+    {
+      "id": "46b36c50353f88112566a2f543625ea56f9dedd79eb95c6025cb5250e313ff1d",
+      "before": "Generalmente no conviene usar logística inversa si un producto se dañó durante el transporte o resulta defectuoso",
+      "after": "Generalmente no conviene usar la reverse logistics (logística inversa) si un producto se dañó durante el transporte o resulta defectuoso",
+      "reason": "Restituye el término original junto con su explicación."
+    },
+    {
+      "id": "4700cb470e5e5fd554b9c6e211e7496c244cee12fa8691b6e4c490cb07c62847",
+      "before": "Según el CMR, el remitente siempre responde por los defectos del embalaje",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el remitente siempre responde por los defectos del embalaje",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "470612f201a9d0ad7f9caeb5311b0eee6dc536f69bae9722783437ec66a20f5a",
+      "before": "En vehículos de dos ruedas, la rotura repentina de la cadena puede bloquear la rueda trasera y causar pérdida de control",
+      "after": "En vehículos de motor de dos ruedas, la rotura repentina de la cadena de transmisión puede bloquear la rueda trasera y causar pérdida de control",
+      "reason": "Restituye que los vehículos son de motor y que la cadena es de transmisión."
+    },
+    {
+      "id": "471751d9f3d4bb617537aaad2c17a094260c41560fc6edfefbcf5b353c9b3ad3",
+      "before": "El área de parada está situada junto al exterior del acotamiento",
+      "after": "El apartadero está situado junto al exterior del acotamiento",
+      "reason": "Piazzola di sosta designa un apartadero."
+    },
+    {
+      "id": "47883f80257a1b26fe6a9b5246c2472d4f5e35f253f461a8fa4ed88c0084a789",
+      "before": "La autorización internacional de tránsito permite transportar mercancías con destino final en el país que expidió la autorización de tránsito",
+      "after": "La autorización internacional de tránsito permite al transportista efectuar un transporte con destino final en el país que expidió la autorización de tránsito",
+      "reason": "El original no limita el transporte a mercancías."
+    }
+  ],
+  "reviewed_file_sha256": "1deca15def8ff9715888e5922594ce3c2588b518dc59ffb60d1631c07e4ffef4"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "unresolved_source_ambiguity",
+  "number": 28670,
+  "bank": "superiori",
+  "translation_adjudication": {
+    "status": "blocked_ambiguous",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "id": "f68a75627dca88364e68a786206a799e209a0868f068853c494a8674ad5b26c5",
+    "question_number": 28670,
+    "it": "Il dispositivo limitatore di velocità agisce, se presente, sulla pompa di iniezione del veicolo",
+    "printed_answer": "VERO",
+    "baselines": {
+      "en": "The speed limiter acts on the vehicle's injection pump if one is present.",
+      "zh-Hans": "限速器作用于车辆的喷油泵（如有）。",
+      "es-419": "El limitador de velocidad, si está instalado, actúa sobre la bomba de inyección del vehículo"
+    },
+    "finding": "The parenthetic se presente is adjacent to the verb and can be understood as referring to the masculine limiter or to the feminine pump later in the sentence; the adjective presente does not distinguish gender. Limiter is a plausible reading from the subject and placement, but neither the clause nor nearby general questions proves exclusivity. English one and Chinese postposed 如有 favor an optional pump; Spanish explicitly makes the limiter optional. These are different propositions. A closely parenthesized English clause can retain some ambiguity, but natural Spanish and Chinese alternatives typically identify an antecedent or become obscure. No defensible coordinated correction preserving both possible readings and learner intelligibility was established.",
+    "source_checks": [
+      "data/source/banks/superiori/questions.csv: exact 28670 text and answer 1 verified; surrounding group 6109 inspected.",
+      "data/translations/multibank/batch_106.jsonl and data/translations/es-419/186.csv: exact baselines verified; text ID recomputed with prepare_bank_translations.text_id.",
+      "Nearby statements 28668–28673 concern fitment, checks and effects but do not specify which item se presente qualifies. A product-specific limiter installation cannot resolve the Italian grammar."
+    ],
+    "resolution_needed": "Escalate source-language adjudication using independent official author/teaching context; do not select a referent solely from technical examples. Retain VERO, and leave correction unreviewed until resolved.",
+    "rows": []
+  },
+  "explanation_adjudication": {
+    "question": 28670,
+    "printed_answer": "VERO",
+    "source_italian": "Il dispositivo limitatore di velocità agisce, se presente, sulla pompa di iniezione del veicolo",
+    "reviewer": "gpt-6.1-terra /root/terra_runner",
+    "finding": "The position of se presente does not settle whether limiter or pump is the intended antecedent. Existing en and zh favor pump; es identifies limiter. Neither placement nor checked technology establishes official intent. This explanation can transparently teach an actual pump-based configuration and disclose the two readings, but does not itself repair the mismatched task translations.",
+    "source_checks": [
+      {
+        "source": "VDO AGB III product manual 2002, chapter 1 pp 1-5 to 1-7, chapter 2 p 2-10",
+        "url": "https://www.laltraranda.it/sites/default/files/documenti/agb_iii_x10-397-109-132.pdf",
+        "finding": "Inspected diagrams of injection-pump linkage and electric actuator, and installation text. Example is system-specific, not a universal pump design."
+      },
+      {
+        "source": "Council Directive 92/24/EEC Annex I section 2.5",
+        "url": "https://eur-lex.europa.eu/eli/dir/1992/24/oj/eng",
+        "finding": "Historic speed-limiter definition controls engine fuel feed to limit speed. The retrieved official text supports function, not grammatical antecedent or universal injection-pump action."
+      },
+      {
+        "source": "Original source and translation adjudication",
+        "url": "/tmp/rotonda-limiter-referent-translation-draft.json",
+        "finding": "Question and existing helper-language mismatches inspected; translator left correction blocked."
+      }
+    ],
+    "recommended_explanation_it": "Il quiz indica VERO. In alcuni sistemi il limitatore controlla l’alimentazione intervenendo sul comando della pompa d’iniezione, riducendo il carburante quando si raggiunge la velocità impostata. Nel testo italiano «se presente» non chiarisce se si riferisca al limitatore o alla pompa; questa descrizione riguarda un sistema con entrambi.",
+    "limits": "Express equivalent caveat and pump-based example in all four languages. Do not say every limiter acts on an injection pump or pretend the chosen antecedent is official. Explanation mitigates ambiguity but cannot make mismatched helper-language questions equivalent: translation correction remains independently blocked until an ambiguity-preserving rendering or authoritative resolution is reviewed."
+  },
+  "independent_explanation_review_scope": {
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "number": 28670,
+    "note": "Explanation explicitly identifies unresolved Italian antecedent and gives a bounded example; acceptance concerns explanation only. Existing English and Chinese question translations favor the pump antecedent, while Spanish favors the limiter. These translations remain divergent and are not repaired or validated by the explanation review."
+  },
+  "resolution": "The reviewed explanations disclose the ambiguous Italian conditional and teach a specific supported limiter installation. Existing question translations remain unchanged; the explanation review does not constitute acceptance of a translation correction. No intended antecedent has been established."
+}

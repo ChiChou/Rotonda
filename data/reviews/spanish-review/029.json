@@ -1,0 +1,31 @@
+{
+  "batch": "029",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "6bcc31529f33ac1347adbb55e4dbe2570479b71f4319ae5005f1492b18539c08",
+  "source_sha256": "eed509f2311c9c935b6799d105cb4e4b12aca34882d631a3bd64e56600bd1c23",
+  "corrections": [
+    {
+      "id": "26ef0f91e0a2621c929fb412845aa4b8bfaecbcd8d0b744b6aa75e8f9e1a9725",
+      "before": "Para transportar productos alimenticios nunca es obligatorio utilizar vehículos que cumplan las normas ATP para el transporte internacional de alimentos perecederos",
+      "after": "Para transportar productos alimenticios nunca es obligatorio utilizar vehículos que cumplan las normas ATP (acuerdo internacional para el transporte de productos perecederos)",
+      "reason": "Restituye la descripción del acuerdo sin convertirla en un requisito adicional de transporte internacional."
+    },
+    {
+      "id": "2711b52a3ccc6c5573999e242a65ff01b505b2567b049a0ff67bdc9082970599",
+      "before": "El ABS sirve para reducir el consumo de combustible durante la aceleración del vehículo",
+      "after": "El ABS (dispositivo antibloqueo del sistema de frenos) sirve para reducir el consumo de combustible durante la aceleración del vehículo",
+      "reason": "Restituye la definición de ABS incluida en el original."
+    }
+  ],
+  "reviewed_file_sha256": "2ff845c041c0e21f1b701bf810a5447348d2ebb58aca6e54580984ded692afcb"
+}

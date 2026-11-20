@@ -1,0 +1,43 @@
+{
+  "batch": "190",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "62c854ea5ba028a3d1cc3470b80698da8697b8fd067971b142be1e228a41fa5a",
+  "source_sha256": "119806327568e2cebb7f75d1753377f59b584847b50801bf7e80fc001e877e36",
+  "corrections": [
+    {
+      "id": "fb461f5d3094524d9f5d37df0f626101d9449e87b6a4c0928b15c84cbc8eceb2",
+      "before": "La distancia de seguridad también debe establecerse según el estado de los frenos",
+      "after": "La distancia de seguridad también debe establecerse según el funcionamiento de los frenos",
+      "reason": "Efficienza se refiere al funcionamiento eficaz de los frenos."
+    },
+    {
+      "id": "fb74ea88bd6719b9c2192d137178a2c73bd4a22bd334e744e5ad962b010d12e7",
+      "before": "El conductor de un autobús garantiza una comodidad de marcha adecuada manteniendo una velocidad no uniforme y realizando giros bruscos",
+      "after": "El conductor de un autobús debe garantizar una comodidad de marcha adecuada a los pasajeros mediante una velocidad no uniforme y giros bruscos",
+      "reason": "Restituye la obligación y que la comodidad corresponde a los pasajeros."
+    },
+    {
+      "id": "fb99884ddcd93349a355b0076b18d87ee02c4e94ed27c90abe8959ad9bf180de",
+      "before": "Reservar infraestructura específica a autobuses y trolebuses de transporte público permite reducir el consumo de combustible y la contaminación atmosférica",
+      "after": "Reservar infraestructura específica, como vías y carriles, a autobuses y trolebuses de transporte público permite reducir el consumo de combustible y la contaminación atmosférica",
+      "reason": "Restituye los ejemplos de infraestructura del original."
+    },
+    {
+      "id": "fbf7874a411795120171fbfd7f1c27c2dcc31809d40b140af748e41df7c7a61e",
+      "before": "Los autobuses escolares pueden llevar el distintivo «autobús escolar»",
+      "after": "Los autobuses escolares pueden llevar el distintivo «scuolabus»",
+      "reason": "Conserva la inscripción literal del distintivo."
+    }
+  ],
+  "reviewed_file_sha256": "12e8d7774090fdb91bf47cee2dbd2a3475a58d9cf8cfdd8b9a73c8c6400f40ee"
+}

@@ -1,0 +1,55 @@
+{
+  "batch": "185",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "88fd18647ce76ad4295d4270001145e932165056e64968bae52162a98d9ddf5d",
+  "source_sha256": "268e626ac2f471138b82023d813d507cbdcc2b6a5dddfbfa0c51c3cd56b0290f",
+  "corrections": [
+    {
+      "id": "f4c901e616ac43632e44d56234d97aaf0b012850f93b4ea4ea1be99608b4a274",
+      "before": "Se debe ajustar la velocidad según la duración del viaje",
+      "after": "Se debe ajustar la velocidad según la longitud del viaje",
+      "reason": "Lunghezza indica distancia o longitud, no duración."
+    },
+    {
+      "id": "f4f8cc0531506c62123fd81d60fc2ed41f69e4e303c136cdcdc5aafb9f36a968",
+      "before": "Las zonas de estacionamiento de las autopistas están destinadas a facilitar la intermodalidad",
+      "after": "Los apartaderos de las autopistas están destinados a facilitar la intermodalidad",
+      "reason": "Piazzole di sosta designa apartaderos viales."
+    },
+    {
+      "id": "f515ae159847bff768fdb357d934a6f8b7d4106ebd8cd2a0fe0c2fe6533bdca8",
+      "before": "Si se producen daños a personas, materiales u otras mercancías, o gastos causados por defectos del embalaje o sujeción inadecuada, la responsabilidad corresponde al transportista si la carta de porte no contiene sus reservas motivadas, pues se presume que la mercancía y su embalaje estaban en buen estado aparente al recibirlos",
+      "after": "Si se producen daños a personas, materiales u otras mercancías, o gastos causados por defectos del embalaje o por una sujeción defectuosa o inadecuada de las mercancías en el vehículo, la responsabilidad corresponde al transportista si la carta de porte no contiene sus reservas motivadas, pues se presume que la mercancía y su embalaje estaban en buen estado aparente al recibirlos",
+      "reason": "Restituye la sujeción defectuosa y que se realiza en el vehículo."
+    },
+    {
+      "id": "f566f06ff1e58538fa3e4023696ca92facbba6d0f7f6ddb06186ef38a6bd2ef4",
+      "before": "En un motor diésel, la bomba de inyección en línea controlada por el acelerador permite regular la cantidad de combustible enviada a los inyectores",
+      "after": "En un motor diésel, la bomba de inyección en línea controlada por el acelerador permite regular la cantidad de diésel enviada a los inyectores",
+      "reason": "Gasolio especifica el combustible diésel."
+    },
+    {
+      "id": "f58396245298274aaede8b92c4718d02bb006b6f3fef416022672a4730ab2d84",
+      "before": "En un motor diésel, el control electrónico de los inyectores permite establecer el momento y la duración de la inyección en los cilindros",
+      "after": "En un motor diésel, el control electrónico de los inyectores permite establecer el momento y la duración de la inyección de diésel en los cilindros",
+      "reason": "Restituye el combustible diésel indicado en el original."
+    },
+    {
+      "id": "f59692146c6d2113320b4325ed104af0d6f8be01cb280256cd9168b746bcaf00",
+      "before": "Es reglamentario encontrar la palabra JUEGOS en el pavimento cerca de jardines públicos",
+      "after": "Es reglamentario encontrar la palabra GIOCHI en el pavimento cerca de jardines públicos",
+      "reason": "Conserva la inscripción literal indicada en el pavimento."
+    }
+  ],
+  "reviewed_file_sha256": "b7a4e299152140ac8a15c9cd536a3e5eee5fe9f9d786f464654149be853e7caa"
+}

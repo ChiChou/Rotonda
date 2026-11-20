@@ -1,0 +1,164 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee60-c122-79d3-9fe7-baad52cb3351"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "cqc_vecchio",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 16122,
+          "quesito_id": 3354,
+          "text_it": "La lettera di vettura internazionale CMR in Italia deve essere conservata dal destinatario per almeno 2 anni dalla data del trasporto",
+          "answer": 0,
+          "page": 65,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "48b95c686603ade8a78e87e69309a409fd6898d5ba9f8fb718a5794ba0265deb",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-final-gaps-v2/bfb3ca1006bb894e7eaec9f6cbb444db0365dfaf4a3314af027963686b2716df",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 15006,
+                  "reason": "Non verificata una fonte primaria che sostenga il nesso causale specifico tra diverso consumo dei ferodi e squilibrio; la diversa usura non prova da sola la causa."
+                },
+                {
+                  "number": 15342,
+                  "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+                },
+                {
+                  "number": 15362,
+                  "reason": "L’assenza di targa civile non identifica con certezza una categoria esclusa dalla legge 298/1974, art. 30."
+                },
+                {
+                  "number": 16122,
+                  "reason": "Non verificata la disciplina italiana specifica della conservazione della CMR da parte del destinatario."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificate le condizioni di omologazione che consentono un sedile per accompagnatore senza cintura."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture nel periodo del quiz."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v3/ce54874ce81267de71f3147fd667d597bb7f659f291d2ff46d0f8e587802d025",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 16122,
+                  "reason": "Non verificata la disciplina italiana specifica della conservazione della CMR da parte del destinatario; la convenzione sulla lettera di vettura non dimostra da sola il termine applicabile."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificato un caso di omologazione che consenta il sedile per accompagnatore senza cintura; la circolare del 1994 richiede la cintura per la configurazione specifica che disciplina."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17588,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori senza cinture di sicurezza",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d3fd0fc2bde7364d62b65754d24dfd51dbb7cef9c27ac24d5168e7c7b0c121e9",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-final-gaps-v2/bfb3ca1006bb894e7eaec9f6cbb444db0365dfaf4a3314af027963686b2716df",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 15006,
+                  "reason": "Non verificata una fonte primaria che sostenga il nesso causale specifico tra diverso consumo dei ferodi e squilibrio; la diversa usura non prova da sola la causa."
+                },
+                {
+                  "number": 15342,
+                  "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+                },
+                {
+                  "number": 15362,
+                  "reason": "L’assenza di targa civile non identifica con certezza una categoria esclusa dalla legge 298/1974, art. 30."
+                },
+                {
+                  "number": 16122,
+                  "reason": "Non verificata la disciplina italiana specifica della conservazione della CMR da parte del destinatario."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificate le condizioni di omologazione che consentono un sedile per accompagnatore senza cintura."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture nel periodo del quiz."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v3/ce54874ce81267de71f3147fd667d597bb7f659f291d2ff46d0f8e587802d025",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 16122,
+                  "reason": "Non verificata la disciplina italiana specifica della conservazione della CMR da parte del destinatario; la convenzione sulla lettera di vettura non dimostra da sola il termine applicabile."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificato un caso di omologazione che consenta il sedile per accompagnatore senza cintura; la circolare del 1994 richiede la cintura per la configurazione specifica che disciplina."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori",
+          "text": "È falso che siano vietati posti per accompagnatori: per il trasporto dei bambini della scuola materna è anzi previsto un posto idoneo per l'accompagnatore."
+        }
+      }
+    ],
+    "task_sha256": "f8b3f6ae6b4db26d7598b6d82d32b391e48d08a1979fe6893be4b0f6abca052e",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. For VERO, the official bank defines the exam-specific premise: explain its practical rationale without expanding it into an unqualified current statutory duty. Cite the official bank for that premise, and distinguish supporting general rules from exact legal mandates. This is teaching content, not a fresh legal audit of every official answer. For FALSO, give a supported correction and distinguish source defects explicitly. Do not fabricate sources or facts. Special sources and scoping: Swiss passenger question18135/36204 has verified contrast: actual Swiss professional training manual /tmp/rotonda-final-swiss-market.pdf, SHAee721d7f27d976d1d35b12a726eb552ff134492e7ea11e1e82c21025e52a04d6, actualp55 section4.4, text /tmp/rotonda-final-swiss-market.txt, exactoriginalURL https://www.berufszulassung.ch/upload/docs/pdf_f/24-GD-accesaumarche-lowPDF-f.pdf; it explicitly explains ATTart20 excludes Swiss passenger transport between EU states, distinct from liberalized goods transport. Do not invent permission based on the quiz FALSO: preserve verdict and flag contrast, cite exact inspected text and actualagreement ifaccessible. Truncated16437: raw official text is genuinely incomplete (verified raw.txt lines1028-29); identify that defect, do not invent missing certificate. Explain applicable ADR certificates are mandatory when required, with scope/exemptions rather than claiming all certificates mandatory. Hybrid34634/35:53percent is explicitly the official quiz estimate, not universal current emissions; teach reduced combustion/fuel use and mathematical distinction53percentremaining=47percentreduction, not10percent, without inventing a new measurement. Gauge32554: a clearly labelled physical derivation may explain water occupying tankvolume reduces compressed-airvolume, so sameairwithdrawal can cause greaterpressurechange; do not pretend a manufacturer diagnosis wasverified. Pitch34671/tyrewear34666: explain suspension/damper/load role, no unsupported universal inverse rule; qualify what can be inferred from one parameter. SCIA/grainseal/documentitems: explain rationale of traceability, hygiene notification, tamper detection, using officialquiz as exam premise and general EUfoodrules as support; do not mislabel SCIA as vehicle fitness certificate or invent universal national current duty to carry everypaper. Schools17588/17724/35674: distinguish vehicle homologation/age from duty to use belts actuallyinstalled; avoid absolute assertion allschoolbusesarebeltlessoranychildmayignorebelts. Economic/transportqualitativeitems: support mechanism, not inventedcurrentstatisticalfrequency. Final7: Italian CMR retention primaryarticle2220 exact1page verified PDF /tmp/rotonda-final-civil-2220.pdf SHA feb0de7fd51994d2c09d8b2ce40f56d4a2a27533d3ee6252d2a5576fa3e48352 and .txt; exactoriginalURL in /tmp/rotonda-final-civil-2220-url.txt. It establishes10years forbusinessrecords/correspondence; qualify applicability to commercialrecord, do notclaim everyprivateCMRalways10years; distinguish CMRclaimlimitation fromretention. ECMT33730 originalITF/IRU2014guide nowlocallyavailable /tmp/rotonda-ecmt-2014.pdf SHA32b65f49127b79b0b13a85ff9a3f8c059818b6ceaddc36579527c1da31dacfc2, fulltextsamebasename.txt, originalcopyhost https://www.fai.it/wp-content/uploads/2023/02/manuale-CEMT-2014.pdf ; section4.1 printed21 limitsonevehicleatatime andrequireslicenceonboard. Cite officialquizTrueforitscopyrule and explainquota/titleuniqueness withoutpretendingsection4.1explicitlysayscertifiedcopy. Current2026digitallicenceguide https://www.itf-oecd.org/sites/default/files/docs/user_guide_2026.pdf changesdocumentform, notabilitymultiplyauthorizations. Lifeinsurance32336: explain distinction personal life cover vsqualification/CQC andmandatoryRCvehicle/workinjuryinsurance. OfficialFALSOdefinesexamabsenceofgeneralpersonal-life-policyrequirement; do notdemandfindingstatutoryprovisionthatlistsallnon-obligations. Lifeinsurancecanbepersonalchoiceorcontractualspecificarrangement; no falseclaimallinsuranceoptional. Seatbelts17588/35674: explain classificationofschoolbusdoesnotaloneestablishbeltequipmentforeveryregistrationdate/homologation; do notconcludethatpresentbeltsmaybegoignored. Art172current https://aci.gov.it/codice-della-strada/art-172/ aboutM2/M3wheninstalled supportsqualification; distinguishnewtypeequipmentrequirementsfromblanketdefinition. Bus35608: officialFALSOdoesnotjustifyinventinguniversaloppositerule; explainuseofprescribeddoorflowandpassengerseparation, companysignage. Actualoriginaloperatorrules https://www.trasfer.eu/it/Regolamento_Viaggiatori/ arts4and5 directlysayuseprescribeddoors andforTHREE-doorbuses frontorrearboarding, centralexits. ThisillustratesusualsegregatedflowbutnotquantitativeproofeveryFOUR-doordesign:beexplicitaboutscope, usetheofficialquizonitsownexam-specificpattern. Do notleaveordinarypedagogicalexplanationsmissingmerelyforlackofuniversalindependentproof; clearlylabelderivationandlimits. No review stage. Do not confuse absent external citations with genuine uncertainty: stable terminology and ordinary business/physical reasoning may use evidence explicitly labelled Ragionamento didattico, without claiming external verification. Verify uncertain medical, legal, numerical and statistical assertions. For qualitative exam-context statements, explain the mechanism and limitations rather than demanding an exact current statistical frequency. Distinguish an illustrative configuration from a universal mechanical law. Where the printed answer is overbroad, qualify it visibly and explain the supported distinction; do not invent opposite absolutes. For the customs fiscal-origin item, the inspected original state-archive record https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=521942&TipoPag=comparc describes historical dazi as indirect taxes and receipts paid to the fiscal chamber; this supports explaining historical revenue function without inventing a first-origin date. For market liberalization and own-account distinctions use Commission COM2014/222 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52014DC0222 sections2.1 and2.3; preserve its2014 timeframe, do not extrapolate to every current transport."
+  },
+  "rows": [
+    {
+      "number": 16122,
+      "text": "È falso indicare due anni dalla data del trasporto come termine generale per il destinatario. Per la documentazione commerciale soggetta all’articolo 2220 del codice civile la conservazione è di dieci anni; l’applicabilità dipende dalla natura del documento e dal soggetto. Il termine di conservazione non va confuso con quello per far valere un reclamo CMR.",
+      "evidence": [
+        "Codice civile, art. 2220, pagina 1, https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+2220&codiceOrdinamento=0000000000022200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D: conservazione decennale delle scritture e della corrispondenza commerciale indicata."
+      ]
+    },
+    {
+      "number": 17588,
+      "text": "Il quiz considera falsa l’affermazione assoluta sulle cinture: la classificazione come scuolabus non determina da sola la dotazione di ogni veicolo, che dipende anche dall’epoca e dall’omologazione. Questo non autorizza a ignorare le cinture presenti: sugli autobus M2 e M3 gli occupanti oltre i tre anni devono usare i sistemi di sicurezza installati quando sono seduti.",
+      "evidence": [
+        "Banca ufficiale CQC, quesito 17588, pagina 116: verdetto FALSO per il divieto assoluto indicato.",
+        "Codice della strada, art. 172, comma 6, https://aci.gov.it/codice-della-strada/art-172/: gli occupanti oltre tre anni dei veicoli M2 e M3 usano da seduti i sistemi di sicurezza presenti."
+      ]
+    }
+  ],
+  "output_sha256": "9fce1892ef65a918b9b84c4171119fb18377284bf8350c80b2dde2457f688514"
+}

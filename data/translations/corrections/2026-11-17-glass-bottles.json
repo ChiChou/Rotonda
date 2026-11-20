@@ -1,0 +1,61 @@
+{
+  "draft": {
+    "status": "draft_unreviewed",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "rows": [
+      {
+        "id": "4b4c569859ac69679f7ff6164a8a21a941fcffbdb7bf4eac4e883dbf61946b0a",
+        "it": "Se sulla strada si trovano degli oggetti pericolosi (bottiglie di vetro, sassi o pezzi di legno), occorre trascinarli fuori dalla strada, ma solo nelle ore notturne",
+        "question_numbers": [
+          27509
+        ],
+        "answer": 0,
+        "translations": {
+          "es-419": {
+            "current": "Si hay objetos peligrosos en la vía, como botellas, piedras o trozos de madera, hay que arrastrarlos fuera, pero solo de noche",
+            "proposed": "Si hay objetos peligrosos en la vía, como botellas de vidrio, piedras o trozos de madera, hay que arrastrarlos fuera, pero solo de noche"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/inputs/official/2026-11-14/conseguimento-am-it.pdf, physical page 158 (printed page 157), SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+            "support": "Original question 27509 explicitly says bottiglie di vetro; printed answer FALSO confirmed in data/source/banks/am/raw.txt and questions.csv."
+          },
+          {
+            "reference": "data/translations/es-419/056.csv",
+            "support": "Existing reviewed baseline says botellas without specifying glass."
+          }
+        ],
+        "reason": "Restore glass as the bottle material while preserving the assertion that removal is required only at night and its false verdict."
+      }
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "draft_sha256": "216987936624a3827858aeca59127fad82f287048d31b3bfa4ffdd699832b48c",
+    "draft_sha256_method": "SHA256 UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_file_sha256": "e60880f46c0545f4672da5f4a3545b66f5ef3825799415c7b5fd62831bfe0069",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "checked_pairs": [
+      [
+        "4b4c569859ac69679f7ff6164a8a21a941fcffbdb7bf4eac4e883dbf61946b0a",
+        "es-419"
+      ]
+    ],
+    "pair_assessments": [
+      {
+        "id": "4b4c569859ac69679f7ff6164a8a21a941fcffbdb7bf4eac4e883dbf61946b0a",
+        "language": "es-419",
+        "result": "accepted",
+        "finding": "Adds glass as the material for bottles; retains dangerous objects, stones and wood, dragging them off the road and the false only-at-night restriction."
+      }
+    ],
+    "issues": [],
+    "source_checks": [
+      "Official AM PDF physical page 158 text independently inspected for question 27509; printed FALSO corroborated by source questions.csv.",
+      "Verified exact current baseline in data/translations/es-419/056.csv and recomputed Italian text ID."
+    ],
+    "assessment": "The single-language correction faithfully preserves the Italian assertion without adding explanation or correcting its false premise."
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "batch": "000",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_early",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "478acdedfe64c1976567fca1ddf1e160599c332045c32c4ecd6053870cb3af73",
+  "rows": 100,
+  "verified_ids": [
+    "d95109f6b0ebe363be2164ae700efa582fddf3f3e6758e7caa70f24b599497ea",
+    "ce075ccd2b76b57e294b126217d8ecaac52c04295e43eb7112469094609b3c42",
+    "00a25851df470daf29f6bdbc244da5b6817630a4c01330502ccc3abcdb0949c5",
+    "955f98cfe37ff96110a8283405b374ef3806f906eff87093297cb97ba46561fe",
+    "5e9b4646b057b365bc73586d80b7e9b6a2654764968c18aef34d14311355987e",
+    "9d6846657bc519af06e90c0d3f70fe05f5aaf0a5c5d4f6ac59af886593455790",
+    "8f416a2bfe0d304cc2625c58465135d6b85a1b0374e8210b7ef4a38f6a7003ce",
+    "2e4e49f5837205101434ece2177b24ec5125a4ebba6a60600f91346887ee771a",
+    "1160f7997746b7adc9f00966b9b86511e87d9a5a9eb45a81dbb42f9026f8fc76",
+    "2ba00d9977d16ae4f09a3b61ebabd2a3323e43e8c0592a1bb274731b17f7aaa9",
+    "218fc37c494b4325a99111bc5db5804872ea935d38df90b27e676989e2cf5d1b",
+    "f9d6416db35b050bb209584cadf3716b6de9b6e51b809bccbd7c436ed344f73c",
+    "9f3e575fabf7598ea2be850df36ccd47d45d2cb7b87eea0fee4f4c1d468f15e1",
+    "d106752e89d504cfe08e655906b6a59a214900559dcad48684bce2bc962566ed",
+    "97f61d90a8f9515027259a1bf6a8e99afff1ff309b23d2de2b7e97f04cea4ccb",
+    "9176cd918e84333a544e2e6db62fa77fa60d0b0598bf33e58d5471ff56b3f4db",
+    "083b769e80284d982566ba9eddefa1f7d7814f33f9bb45c411c01bdd42011e79",
+    "8bf38390d08ca1ae11ebad4aa5f22e6be157a7c82615fe2da704980e70e1f874",
+    "2268f3456e0c6e954ea918c03c0dfaba88b71f5777daaf92fdf69397b431bbff",
+    "6bc2ff2cdfc9108a98912cb6d27b5747a66ec4dc591baafc377e853b7113776a",
+    "0ee3f52b70e57ca0294fe0e89a5ef80380f8e0de55c12cfdbcc6696cee940b59",
+    "2e5b0ebf818e2cc025d09223b849d64447511bb6d6efdebc619fe20e3c461f42",
+    "d996bd4b3aa2d55a16ed86181504a83ffd8a8270bb4778c4a403e78fa7ebb80a",
+    "68052ab21508db782a05aab32cf068847c28625621a0591648922a24acfb7a62",
+    "6379d43f500bdd0d4d5296f5750a06e2c47a7e149a0c6d6e24a34ba60415f0d6",
+    "b72159f905211fece5bfc6f0b4ba81a30e50f475978e3da9e48f6adbef360ae8",
+    "cf0d7097e6f95623d03cc310264c8297d81e83194ff9d66aebed7d2374349131",
+    "4c87fb4dc891e0a904645327e9f603ad589ceef88c3b2d1193d5c79b5191de4c",
+    "0b806b2ef05052787b443d6002c8b852b6e8d2fa8470ffd280830edff9d9c207",
+    "489ba886972b4808f87723626290991793052b920bb4042affa21a12cbe21749",
+    "d0c556b93056551e0de15be1c95543c3df784f67692013dd8e795c49bf7a9e02",
+    "5df8823cf1a5035845fc1dee06889d87aada2b02aa8ca2e14749f73201797c52",
+    "9a0b4b4b37803ce02f3c1b3e20cc2ce17e4e5d2e0baf2e926e0574ca1bdee3cb",
+    "ab47538a90c78af79c846d74dfef2485608739b8109f76830e7497b3683b1973",
+    "d297f95e37b065df2d9d0bfd8704820f71723b8cab5658c521af81f9f3139ebe",
+    "c27b9d269decc569b290295ff6c0a5c36faef065ddcfdd34fd1ece2ad45d3c27",
+    "280625259b65e09ee315ff3b0709ef058a6d0f2792b35720322c3fc8d28b81ce",
+    "6659a40972e7757be29c259ef1fd5c0882ba986e59e20a27cb5d3670add019df",
+    "92a4da588a4395e9a38984e990b6889798a9ba34354783340deeab5fffd00e1e",
+    "12386a2d19649e594263899e2f5c77d8c6684e5ebe08a43daecdde7b576bdeb9",
+    "63245df7afdb27c6b59cb41c74f85c71a8a0a3758207c808d5563c46a7667d81",
+    "53e1d9b4dd0afa3332d97f1ca7851ea554279f73093974f338c8c28f7fe5df6a",
+    "3546222665ddf346a7051748ac189116902d04d6aed4a89a4fffd7ded42bd70f",
+    "1ffd9bcd0792880a9ab9ed0257928a47dc3fc5ce8a971b4614d998cc7a514217",
+    "0a921fbe7f1e2f6b1729a21583c352fe610132e756ed31f37bff38d0f4889ac3",
+    "305de99276889833b05f83683453f656c9562eb57a180fad480623bf3a61e83f",
+    "7233d4a49697664b1dd51bee98228aa941173cd5b5cc81c37374fd904188c87c",
+    "edbe33a1fa7f0dbbea746806540deff77e68ec1a2c086306ebdadf81644d60c8",
+    "a0bedb56dce9637777f345b135e8b3cf6353fd14c69008b6d6fc5b4e28a72720",
+    "d8d5b6c9b0de65874f0fb8e7d812f7e225134a62ec0dfecd5a3a199b6fc9f452",
+    "39d2178658680a2f25f0d7025ddbc513c9d5998f706d55e2f5a3829b0f4b98f8",
+    "49729810021ab93b41a9c6381e67233b43873fd27d200f569b2522d96af1bb37",
+    "032eced09dcab74766f66e8c170a45b74bd0c294be26a4077daa9ae9b7d84710",
+    "c33fea901100fe03c498cc995a9a8c7e0181089bfd6d5f9a5f35ec33911b4e7f",
+    "3da95f03827d38ac39080d236ae20f1cc3dc3536e0dc3adcbe2d8e21680834d5",
+    "b73b2645d14590e5ff44cb1a441fa787a62cb210d52bb8c6bb3bd79e1700025a",
+    "54c1869828dee2687a755052c60e9c228d80ae79b91a6d2fe8250821a821aab6",
+    "8c160c0b2fdd76f60e30ef071e86b19859080b25f66a352e7abe5375c410f50e",
+    "e5a47c82b177d061cac5a3d4a852baee97fc3944e5a96f932c6bf611dd570e12",
+    "795d307b6bf4ea5ef410b4c9f1186d3afaa6a0f1b18046ed7406b28673bb8158",
+    "35fb08635805d8bbf4a4603f4034abf9448ea28a3476f36bdfddf34a0e9e3db3",
+    "ddb002f9666fd9cb90716eedc961fab268609fe9651b7dbdf53ac78e7f4705bf",
+    "1252bbdf4915b2a509444544c150ad5953b0c87c31065d7158050864aed6e33d",
+    "eda0c9a2b459969206d7678f871f0ec9c07847d4ad841f4281a2b0c79aa516b8",
+    "a7e2a4706a4d5f2c69cf5f1567e343fa3276ff51be84e310b8f5889ccd577b15",
+    "16a7d86200be4de3c60fdf21cc16ec2c352015d3af22d10d7e54bcbd2d579787",
+    "ed9cd520968ce169cc82a0303de4dceeb697d6d971c18dfefaee07a86b65db20",
+    "6c96dfbaa56c9c59d6043cc6e706bdac1428f47103df45973cdd98795ef6339c",
+    "470fb4c16142b2232e8c22edbc7500906eec3190d2c9ce184bc4fac9df856df4",
+    "777f57ba5bf86cf20545022ec33b6f0d4055c9cfd2b898caf60a72694d17dda2",
+    "cc2b6754a9dbbf5d8d2e0b021b501b9fed3d4586f85939dfccae45418297a88c",
+    "df340e88e61bb2dc2bc30dc7fb8b43c748c5b53506b7babe5aa206e18fcad92e",
+    "24b52fd0641a4a4a25dccf0535c82f4c1640324513ab6427a2a9e448a06f2398",
+    "131e6d65dd99745d958f40617b32791776f0f652968c18a8617e591590bf247d",
+    "2aa654b61773e62c990318c399f73875d2c288e963c002f87aaa2891790b0221",
+    "b44333a48fbdad853809161ee4a5d5dfe99e299d0a5b93f57d80f9682d2f2d62",
+    "354d0afa9589dfd9d269f08565a362a3f78c19508927df7edc36a5a743ae60f8",
+    "839dda2cd8a23211ab86fa94e70bb847b2539ace80210acdee72b534fd86fbcf",
+    "60f2aac80918e327169f2ae4f1e4c2de23d9e88de8a16569e1bf368012007ec1",
+    "0fb736b1f83ecbf8d81201e87937846d223881898742939810f9119d537bf944",
+    "dcd3594a5703e2ddcec2737f0e31aaf7d08ea29c492ebdc624c80a2a4f062c38",
+    "599df4fd112f8a82436ce4dfe45836a1db916ef0f5c8c07d927ce54ce7b4b09c",
+    "78c22c049e41b4b7865005082ef51e771840ee215bb6739e1e87ea27df322db1",
+    "b2ba024f542ea26a1885ede0445b080bfa0fca48649029bbf915974595768ede",
+    "36238a27592e2ddf42ab99d22b2d30265940f53ad7dfab74930d0f69425146a7",
+    "1f0d8b1e36c5fac59130cdfd919db398e88543d135c1b711aa73f03d5320155c",
+    "3f35ee1fb1073584d9e6140f706a91761bd5243e3177596344d817a97ce81fed",
+    "50627f85686655f83fd59e1ee0858d2a189b1c2b8b1b2e5933e084d61ac6219c",
+    "d6bb5c753adb796e4f03e63d08fc13114f92ea15e2eb20766658576187302172",
+    "710aa2a97b5d8d06a10018626756744171059cd910f3c12a5fa0bca091297d50",
+    "b8967919fc28fac50fdd4e666cb83b6852eeb88e1395e3f403102492d9c7b224",
+    "7bf10fe52a1a01b37f37e8b654c3c3212b205024512d7680ba07799aad80ae62",
+    "addebe91ebb748be6803c95fdf8a6aedb366af2cdb8abab171a57e1f3c3af3bd",
+    "5fc12290c014aa6d39088e46828f03346e79d3ffa62a2a7cd00faa985b04cc5d",
+    "f53adf21859c5fb10cd9ca9802ae01b4c2a37b33f6e8cb947a1549df07d46dd7",
+    "6877c20cc0871353e5dcd2eb833532564c22c795959fe6e81cd7d3bb850c7e93",
+    "12144b5883e5e8215059016cf7a4cc128f16c8be67f40809fbf5e5d97df6c54a",
+    "359a31d8593d4520a589f40297858dd9af3129ab042b55b322746786d4e0f193",
+    "a9fca19143cd693b9329462ef67b9b0fa11558c16c4885f0e5aba07375b26e3d",
+    "08652926d7d0dfa9b9ccc20f67c1e1bc7a1b8e811017e76a98c59d57ba2fb5b5"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "955f98cfe37ff96110a8283405b374ef3806f906eff87093297cb97ba46561fe",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The supplementary panel shown, placed below the NO PARKING sign, indicates that parking is allowed on public holidays.",
+          "after": "The supplementary panel shown, placed below the NO PARKING sign, indicates that parking is allowed on Sundays and public holidays."
+        },
+        "zh": {
+          "before": "图示辅助标牌置于禁止停车标志下方，表示节假日允许停车。",
+          "after": "图示辅助标牌置于禁止停车标志下方，表示星期日和节假日允许停车。"
+        }
+      }
+    },
+    {
+      "id": "5e9b4646b057b365bc73586d80b7e9b6a2654764968c18aef34d14311355987e",
+      "reason": "Feriali means working days per the term list",
+      "changes": {
+        "en": {
+          "before": "The supplementary panel shown, placed below the PARKING sign, indicates its hours and restriction to weekdays.",
+          "after": "The supplementary panel shown, placed below the PARKING sign, indicates its hours and restriction to working days."
+        }
+      }
+    },
+    {
+      "id": "8f416a2bfe0d304cc2625c58465135d6b85a1b0374e8210b7ef4a38f6a7003ce",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The supplementary panel shown indicates the hours during which the sign applies on public holidays.",
+          "after": "The supplementary panel shown indicates the hours during which the sign applies on Sundays and public holidays."
+        },
+        "zh": {
+          "before": "图示辅助标牌表示该标志在节假日有效的时间段。",
+          "after": "图示辅助标牌表示该标志在星期日和节假日有效的时间段。"
+        }
+      }
+    },
+    {
+      "id": "68052ab21508db782a05aab32cf068847c28625621a0591648922a24acfb7a62",
+      "reason": "Feriali rendered as working days",
+      "changes": {
+        "en": {
+          "before": "Each supplementary panel shown applies only on weekdays.",
+          "after": "Each supplementary panel shown applies only on working days."
+        }
+      }
+    },
+    {
+      "id": "032eced09dcab74766f66e8c170a45b74bd0c294be26a4077daa9ae9b7d84710",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The sign shown is placed on road maintenance machinery stopped on the carriageway.",
+          "after": "The sign shown is placed on road maintenance machinery parked on the carriageway."
+        },
+        "zh": {
+          "before": "图示标志设置在停于车行道上的道路养护机械上。",
+          "after": "图示标志设置在停放于车行道上的道路养护机械上。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "be05fbfce8f89a1632f779e44eaf2a7f6150cde9a7fd5475e094fc563675492b"
+}

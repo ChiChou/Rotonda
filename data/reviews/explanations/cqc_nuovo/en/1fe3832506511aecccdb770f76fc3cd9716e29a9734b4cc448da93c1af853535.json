@@ -1,0 +1,739 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31549,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di infortunio si deve stringere l'arto fratturato con un laccio emostatico",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2ceb3179527e1ab46c5ce00c264f261fd2bbaecf119f7615f21d8c1573bcb178",
+        "localized_text": "In case of injury, a fractured limb must be tightened with a tourniquet."
+      },
+      {
+        "source": {
+          "number": 31550,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di incidente stradale bisogna avvertire il proprio legale prima di qualsiasi altra azione",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e5b701fbfc8a1decab467efd37dacb086262e0401e51566b509e56a3ede96118",
+        "localized_text": "After a road accident, one must contact one's lawyer before taking any other action."
+      },
+      {
+        "source": {
+          "number": 31551,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di infortunio o malore si deve somministrare all'infortunato qualunque tipo di farmaco",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e382c06bc8cad3bef7b9a4c30cf40833ae4207d3a4fce622ed91b13122645350",
+        "localized_text": "In case of injury or illness, any kind of medication must be given to the injured person."
+      },
+      {
+        "source": {
+          "number": 31552,
+          "quesito_id": 7033,
+          "text_it": "Se la vittima presenta un corpo estraneo in un occhio bisogna coprirlo ed aspettare l'intervento dello specialista",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e59900c9107a05baf67ee405853e09b136bd1d622d8ae14ff63c79c6f38606f8",
+        "localized_text": "If a victim has a foreign object in an eye, cover it and wait for a specialist."
+      },
+      {
+        "source": {
+          "number": 31553,
+          "quesito_id": 7033,
+          "text_it": "Se la vittima presenta un corpo estraneo in un occhio chi effettua il primo soccorso deve rimuovere il corpo estraneo",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fb772ee916a91f9637ebb3549f1f26ee75ae2113cf100eb6e619b7e740a518ef",
+        "localized_text": "If a victim has a foreign object in an eye, the first aider must remove it."
+      },
+      {
+        "source": {
+          "number": 31554,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di infortunio o malore è opportuno richiedere l'intervento di un medico o di una autoambulanza",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7229f72a3cff47cf304d4ca22e53414622483dea7b8d7e8133d93f63679659e0",
+        "localized_text": "In case of injury or illness, it is advisable to call a doctor or ambulance."
+      },
+      {
+        "source": {
+          "number": 31555,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di incidente stradale bisogna avvertire il proprio assicuratore prima di qualsiasi altra azione",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "690ab3e572f10b02e3063827c400c0f6680cc49270e1367f6f5dd0330f1bd061",
+        "localized_text": "After a road accident, one must contact one's insurer before taking any other action."
+      },
+      {
+        "source": {
+          "number": 31556,
+          "quesito_id": 7033,
+          "text_it": "Se la vittima presenta un corpo estraneo in un occhio bisogna togliere il corpo estraneo anche con mezzi di fortuna",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1e15f742618c0de3366cfe7eca0faac0df0a0bf258995f9a1c367afc688f2a4f",
+        "localized_text": "If a victim has a foreign object in an eye, remove it even with improvised means."
+      },
+      {
+        "source": {
+          "number": 31557,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di infortunio o malore si deve cercare di mantenere la calma",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cf29f4a96b4d82176c54a63d0647f36d60dd65922f13cd3e2b60ff392a1b8acf",
+        "localized_text": "In case of injury or illness, one should try to remain calm."
+      },
+      {
+        "source": {
+          "number": 31558,
+          "quesito_id": 7033,
+          "text_it": "Se la vittima presenta un corpo estraneo in un occhio bisogna fare prendere aria all'occhio",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "17dea1722d3fd41d37de1f559921aabc0e2d7c206f9c433b349dbd1870647fe3",
+        "localized_text": "If a victim has a foreign object in an eye, let air reach the eye."
+      },
+      {
+        "source": {
+          "number": 31559,
+          "quesito_id": 7033,
+          "text_it": "Se la vittima presenta un corpo estraneo in un occhio bisogna versare acqua nell'occhio",
+          "answer": 0,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "83a0044041a24a20ebb8b16362713c6701d8fcf4a6bddb8a9bb6b6609390dda7",
+        "localized_text": "If a victim has a foreign object in an eye, pour water into the eye."
+      },
+      {
+        "source": {
+          "number": 31560,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di incidente stradale è sufficiente segnalare il pericolo con il clacson",
+          "answer": 0,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f38eee474ac49e689c17ff66a6e41df651fbaabc52a0ff103d56b15d932daef8",
+        "localized_text": "After a road accident, sounding the horn is sufficient to warn of danger."
+      },
+      {
+        "source": {
+          "number": 31561,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di incidente stradale bisogna somministrare alcool agli infortunati in stato di shock",
+          "answer": 0,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "56b8fb935a87443eef905ef4254abe5fbcd68ac8fe8d12d39a01dadd24491c52",
+        "localized_text": "After a road accident, give alcohol to injured people in shock."
+      },
+      {
+        "source": {
+          "number": 31562,
+          "quesito_id": 7033,
+          "text_it": "Se la vittima presenta un corpo estraneo in un occhio bisogna coprirlo con materiale possibilmente sterile",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f7f85941cf52f0ead6f2b2f0343c047ca6d5f75ec95d3a70546135ee1731c682",
+        "localized_text": "If a victim has a foreign object in an eye, cover it with preferably sterile material."
+      },
+      {
+        "source": {
+          "number": 31563,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di incidente stradale è necessario cercare di contenere i pericoli ambientali, potendolo fare in condizioni di sicurezza",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b49ffbf0d4d2b5030d52077248376d845d753fecb5dd7942974588b839c906c9",
+        "localized_text": "After a road accident, try to contain environmental hazards if this can be done safely."
+      },
+      {
+        "source": {
+          "number": 31564,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di infortunio o malore bisogna somministrare bevande alcoliche agli infortunati",
+          "answer": 0,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a43e997ab73d1986c5844122b03d4e52c3c21e0b35f95e079e40aa35ad31f34a",
+        "localized_text": "In case of injury or illness, give injured people alcoholic drinks."
+      },
+      {
+        "source": {
+          "number": 31565,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di incidente stradale bisogna proteggere un ferito che non si può spostare dalla carreggiata",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "286daabb74b5a6e2f2a262bc3059a86e12721f99a94242ce6a01f1b6ec411434",
+        "localized_text": "After a road accident, protect an injured person who cannot be moved from the carriageway."
+      },
+      {
+        "source": {
+          "number": 31566,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di incidente stradale si deve rimuovere subito l'infortunato dalla strada indipendentemente dalle lesioni che presenta",
+          "answer": 0,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "278604459941d0bedb3a8ff6108c02c74ea1f370eab34ec6a31f01aa271ddf2f",
+        "localized_text": "After a road accident, immediately move the injured person from the road regardless of their injuries."
+      },
+      {
+        "source": {
+          "number": 31567,
+          "quesito_id": 7033,
+          "text_it": "Nel caso di incidente stradale il conducente deve verificare che non vi siano fumo o fiamme dai veicoli coinvolti",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9929355e933b6bdb5bc799e347e0934c1ec94ffcf65e762cd3a268fc2595fd7e",
+        "localized_text": "After a road accident, the driver must check that there is no smoke or flame from involved vehicles."
+      },
+      {
+        "source": {
+          "number": 31568,
+          "quesito_id": 7034,
+          "text_it": "Se la vittima presenta un corpo estraneo in un occhio è opportuno che la vittima non si tocchi l'occhio ferito",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f2da3e99047fe457a0a614541a0f275513221c92bfdd70666261a5c3a27414c6",
+        "localized_text": "If a victim has a foreign object in an eye, the victim should not touch the injured eye."
+      },
+      {
+        "source": {
+          "number": 31569,
+          "quesito_id": 7034,
+          "text_it": "Chi effettua il primo soccorso non deve rimuovere il corpo estraneo dall'occhio dell'infortunato",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a7f319a97d768231a10e1149efef8aaac97ae54d855ef8c495569872fd2826ea",
+        "localized_text": "A first aider must not remove a foreign object from an injured person's eye."
+      },
+      {
+        "source": {
+          "number": 31570,
+          "quesito_id": 7034,
+          "text_it": "Nel caso di infortunio o malore si deve restare ad assistere l'infortunato, tranquillizzandolo e rassicurandolo",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "99f091f8b626f7f11f3a1ef99fd5c03633f664744e907012d856e2ab0a8fb21a",
+        "localized_text": "In case of injury or illness, remain with the injured person, calming and reassuring them."
+      },
+      {
+        "source": {
+          "number": 31571,
+          "quesito_id": 7034,
+          "text_it": "In caso di situazioni di emergenza, se si è in autostrada, è sufficiente attendere il passaggio del primo veicolo di servizio o di polizia stradale",
+          "answer": 0,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ab2ae1184c272f300b27893a4a75367b0b847ba139862a54ba5e174c06bc6a16",
+        "localized_text": "In an emergency on a motorway, it is sufficient to wait for the first service or traffic police vehicle to pass."
+      },
+      {
+        "source": {
+          "number": 31572,
+          "quesito_id": 7034,
+          "text_it": "Nel caso di incidente stradale occorre segnalare il pericolo ai veicoli che sopraggiungono",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c7da280865854298fcb2507e8c62b211a85048b3c7b20a1713fb09b63bf9bb71",
+        "localized_text": "After a road accident, warn approaching vehicles of the danger."
+      },
+      {
+        "source": {
+          "number": 31573,
+          "quesito_id": 7034,
+          "text_it": "Nel caso di infortunio, se nella ferita è penetrato un corpo estraneo bisogna evitare di rimuoverlo",
+          "answer": 1,
+          "page": 16,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f1ebbd5fc927587162a54f17c6b6bbec1f1fb1a00850e86a707fabbc109756b4",
+        "localized_text": "If a foreign object has entered a wound, avoid removing it."
+      }
+    ],
+    "task_sha256": "1fe3832506511aecccdb770f76fc3cd9716e29a9734b4cc448da93c1af853535"
+  },
+  "rows": [
+    {
+      "number": 31549,
+      "text": "A fracture calls for keeping the limb still, not tightening a tourniquet around it. A tourniquet controls severe bleeding; it does not immobilize a fracture.",
+      "evidence": [
+        "NHS 111 Wales, First aid, https://111.wales.nhs.uk/encyclopaedia/f/article/firstaid/: mantenere ferma la frattura.",
+        "American Red Cross, Bleeding (Life-Threatening External), https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external: il laccio è un mezzo per controllare emorragie potenzialmente letali."
+      ]
+    },
+    {
+      "number": 31550,
+      "text": "First make the scene safe and call emergency services if needed; contacting a lawyer is not the first action.",
+      "evidence": [
+        "Hato Hone St John, Environmental safety, https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/: valutare traffico, incendi e fumi, avvisare chi sopraggiunge e garantire la sicurezza.",
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31551,
+      "text": "Do not give medicines at random: they may be unsuitable. Call emergency services and follow their instructions.",
+      "evidence": [
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate.",
+        "UK HSE, first aid at work, tablets and medication: https://www.hse.gov.uk/firstaid/faqs.htm — workplace first aid ordinarily excludes giving medicines; describes exceptions such as aspirin for suspected heart attack and assistance with prescribed medication. UK guidance, not Italian law; supports avoiding arbitrary medication, not a blanket ban."
+      ]
+    },
+    {
+      "number": 31552,
+      "text": "For a serious eye injury, protect the eye without pressing on an embedded object and await medical help. Small superficial particles may be treated differently.",
+      "evidence": [
+        "Hato Hone St John, Eye injuries, https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/: lesione importante, copertura senza pressione su oggetto infisso e soccorso; piccole particelle possono essere sciacquate."
+      ]
+    },
+    {
+      "number": 31553,
+      "text": "Do not try to pull an embedded object out of the eye: this can cause further injury. Small superficial particles can instead be flushed with clean water.",
+      "evidence": [
+        "Hato Hone St John, Eye injuries, https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/: lesione importante, copertura senza pressione su oggetto infisso e soccorso; piccole particelle possono essere sciacquate."
+      ]
+    },
+    {
+      "number": 31554,
+      "text": "An injury or sudden illness may need medical assessment. If the person is at risk, call emergency services and describe their condition.",
+      "evidence": [
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31555,
+      "text": "The priority is to make the scene safe and call emergency services if needed. Contact the insurer afterward, not before every other action.",
+      "evidence": [
+        "Hato Hone St John, Environmental safety, https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/: valutare traffico, incendi e fumi, avvisare chi sopraggiunge e garantire la sicurezza.",
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31556,
+      "text": "Do not pull an embedded object out with improvised tools: this may worsen the injury. Protect the eye without pressure and seek help.",
+      "evidence": [
+        "Hato Hone St John, Eye injuries, https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/: lesione importante, copertura senza pressione su oggetto infisso e soccorso; piccole particelle possono essere sciacquate."
+      ]
+    },
+    {
+      "number": 31557,
+      "text": "Staying calm helps you communicate clearly with emergency services and follow their instructions.",
+      "evidence": [
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31558,
+      "text": "Simply leaving the eye exposed does not protect a serious injury. Protect it without pressing on an embedded object and seek medical help.",
+      "evidence": [
+        "Hato Hone St John, Eye injuries, https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/: lesione importante, copertura senza pressione su oggetto infisso e soccorso; piccole particelle possono essere sciacquate."
+      ]
+    },
+    {
+      "number": 31559,
+      "text": "The quiz marks this FALSE, but does not specify the type of foreign object. A small loose superficial particle can be gently rinsed with clean water; if an object is embedded or has penetrated the eye, do not try to remove it and seek urgent assistance.",
+      "evidence": [
+        "Official CQC question 31559 printed FALSO does not specify a superficial or embedded object; neither situation is silently assumed.",
+        "Hato Hone St John, Eye injuries https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/ — gentle clean-water washing for minor loose material, no removal of embedded object and urgent help for major injury.",
+        "NHS https://www.nhs.uk/conditions/eye-injuries/ — clean-water washing when appropriate, urgent care and no removal for penetrating objects; examples are not an interpretation of official quiz intent."
+      ]
+    },
+    {
+      "number": 31560,
+      "text": "The horn alone is not enough: warn approaching traffic and call emergency services when needed.",
+      "evidence": [
+        "ACI, Patentino, https://www.aci.it/fileadmin/documenti/guida_alla_guida/patentinonuovook.pdf, p. 29: triangolo mobile tra le segnalazioni di incidente.",
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31561,
+      "text": "Do not give alcohol to a person in shock. Call emergency services and give no drinks while waiting.",
+      "evidence": [
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31562,
+      "text": "A clean dressing can protect a serious eye injury; if an object is embedded, do not press on it.",
+      "evidence": [
+        "Hato Hone St John, Eye injuries, https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/: lesione importante, copertura senza pressione su oggetto infisso e soccorso; piccole particelle possono essere sciacquate."
+      ]
+    },
+    {
+      "number": 31563,
+      "text": "Checking hazards such as traffic and fire helps prevent further casualties. Act only if it is safe and call the necessary emergency services.",
+      "evidence": [
+        "Hato Hone St John, Environmental safety, https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/: valutare traffico, incendi e fumi, avvisare chi sopraggiunge e garantire la sicurezza."
+      ]
+    },
+    {
+      "number": 31564,
+      "text": "Do not give alcohol to an injured or ill person. If shock is suspected, give no food or drink; seek help and follow the emergency responders’ instructions.",
+      "evidence": [
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate.",
+        "St John Ambulance hypothermia https://www.sja.org.uk/first-aid-advice/hypothermia/?category=12270 — do not give alcohol to warm a person with hypothermia; American Red Cross https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — no food or drink for suspected shock. These are scenario-specific medical guidance, not an all-casualty food/drink rule.",
+        "Hato Hone St John, emergency procedures, longer-term care in a remote area: https://www.stjohn.org.nz/First-Aid/First-Aid-Library/Immediate-First-Aid1/Emergency-Procedures/ — advises avoiding alcohol for a sick or injured patient because it may mask symptoms. The separate no-food-or-drink advice remains limited to suspected shock."
+      ]
+    },
+    {
+      "number": 31565,
+      "text": "If the injured person cannot be moved, warn approaching traffic and protect the scene without exposing yourself to further danger.",
+      "evidence": [
+        "Hato Hone St John, Environmental safety, https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/: valutare traffico, incendi e fumi, avvisare chi sopraggiunge e garantire la sicurezza."
+      ]
+    },
+    {
+      "number": 31566,
+      "text": "Do not automatically move a trauma casualty: movement can worsen injuries. Move them if essential because of immediate danger.",
+      "evidence": [
+        "American Red Cross, Expert Tips for Handling Emergencies, https://production.redcross.org/take-a-class/articles-tips-for-handling-emergencies.html: evitare di muovere il ferito salvo pericolo immediato.",
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31567,
+      "text": "Smoke or flames indicate danger to casualties and rescuers. Assess the scene from a safe position and call emergency services.",
+      "evidence": [
+        "Hato Hone St John, Environmental safety, https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/: valutare traffico, incendi e fumi, avvisare chi sopraggiunge e garantire la sicurezza."
+      ]
+    },
+    {
+      "number": 31568,
+      "text": "The person should not rub or touch the injured eye: this could worsen the injury. Seek medical help according to its severity.",
+      "evidence": [
+        "Hato Hone St John, Eye injuries, https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/: lesione importante, copertura senza pressione su oggetto infisso e soccorso; piccole particelle possono essere sciacquate."
+      ]
+    },
+    {
+      "number": 31569,
+      "text": "Do not try to pull an embedded object out of the eye: this can cause further harm. A small superficial particle can instead be flushed with clean water.",
+      "evidence": [
+        "Hato Hone St John, Eye injuries, https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/: lesione importante, copertura senza pressione su oggetto infisso e soccorso; piccole particelle possono essere sciacquate."
+      ]
+    },
+    {
+      "number": 31570,
+      "text": "Staying with and reassuring the person helps while waiting for emergency services; monitor their condition and notify the dispatcher if it worsens.",
+      "evidence": [
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31571,
+      "text": "On a motorway, waiting for a service vehicle is not enough: reach a safe place and contact the appropriate emergency service.",
+      "evidence": [
+        "ACI, Auto in panne in autostrada, https://infomobility.aci.it/auto-in-panne-come-affrontare-unemergenza-meccanica-soprattutto-in-autostrada/: ripararsi in sicurezza e contattare i soccorsi."
+      ]
+    },
+    {
+      "number": 31572,
+      "text": "Warning approaching traffic reduces the risk of further collisions and protects casualties and rescuers.",
+      "evidence": [
+        "Hato Hone St John, Environmental safety, https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/: valutare traffico, incendi e fumi, avvisare chi sopraggiunge e garantire la sicurezza.",
+        "American Red Cross shock guidance https://www.redcross.org/take-a-class/resources/learn-first-aid/shock — scene safety, immediate help, and no food or drink in suspected shock; technical first-aid guidance, not Italian emergency-number source.",
+        "Hato Hone St John, scene safety https://www.stjohn.org.nz/first-aid/first-aid-library/immediate-first-aid1/environmental-safety/ — assess traffic and fire hazards, maintain scene safety and obtain help as appropriate."
+      ]
+    },
+    {
+      "number": 31573,
+      "text": "Do not remove an object embedded in a wound: removal can increase bleeding. Protect the area around it and seek help.",
+      "evidence": [
+        "American Red Cross, Bleeding (Life-Threatening External), https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external: non rimuovere oggetti infissi; pressione e medicazioni attorno."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "1fe3832506511aecccdb770f76fc3cd9716e29a9734b4cc448da93c1af853535",
+    "output_sha256": "03b3d05b19f9f2e0f349da2d9d437b5406ba5dae311938e00b055b99df853199",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / eye-foreign-body-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      31549,
+      31550,
+      31551,
+      31552,
+      31553,
+      31554,
+      31555,
+      31556,
+      31557,
+      31558,
+      31559,
+      31560,
+      31561,
+      31562,
+      31563,
+      31564,
+      31565,
+      31566,
+      31567,
+      31568,
+      31569,
+      31570,
+      31571,
+      31572,
+      31573
+    ],
+    "issues": [],
+    "source_access_notes": [
+      "Independently inspected Hato Hone St John eye injury and environmental safety guidance, NHS eye injuries, and American Red Cross shock and bleeding guidance. The Ministry URL presented a Gcore security challenge to reviewer; coordinator shell fetch returned 403. 31559 correctly distinguishes rinsing loose superficial material from embedded or penetrating injury.",
+      "Rechecked removal of inaccessible Ministry references and confirmed shock-qualified no-food/drink guidance; St John hypothermia and Red Cross shock sources do not by themselves support attribution of broad all-injured no-alcohol guidance.",
+      "Independently inspected UK HSE medication FAQ (workplace scope and emergency exceptions) and Hato Hone St John emergency procedures (sick/injured alcohol guidance, remote-care context); Red Cross no food/drink applies to suspected shock. 31551 and 31564 match these scopes."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb8e-9f9c-7df0-9943-44fe53056ae5",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "fcdf50b5b8ebdf12a8c00277a997a193e519760e57a0652d3a15bacc6094dbd9",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb8e-9f9c-7df0-9943-44fe53056ae5",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31559,
+              "reason": "Il quesito giudica falsa senza qualificazioni l’azione di versare acqua nell’occhio con corpo estraneo, ma le fonti di primo soccorso raccomandano il risciacquo per piccole particelle superficiali. Il testo non specifica un oggetto infisso o una lesione penetrante; la portata intesa non è verificabile senza adjudicazione indipendente.",
+              "checked_sources": [
+                "Quesito ufficiale cqc_nuovo 31559, PDF SHA-256 8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6, pagina 16 zero-based: enunciato generico, risposta stampata FALSO.",
+                "Hato Hone St John, Eye injuries, https://www.stjohn.org.nz/first-aid/first-aid-library/eye-injuries/: consiglia di sciacquare delicatamente con acqua pulita un piccolo corpo estraneo; distingue gli oggetti grandi infissi.",
+                "NHS, Eye injuries, https://www.nhs.uk/conditions/eye-injuries/: raccomanda acqua pulita se c’è qualcosa nell’occhio e vieta di estrarre oggetti penetrati."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "fcdf50b5b8ebdf12a8c00277a997a193e519760e57a0652d3a15bacc6094dbd9",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "1fe3832506511aecccdb770f76fc3cd9716e29a9734b4cc448da93c1af853535",
+        "output_sha256": "996e0034f8694593d77542e36f037f6aefeb1dc543291848bc2835d75845f940",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / eye-foreign-body-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31549,
+          31550,
+          31551,
+          31552,
+          31553,
+          31554,
+          31555,
+          31556,
+          31557,
+          31558,
+          31559,
+          31560,
+          31561,
+          31562,
+          31563,
+          31564,
+          31565,
+          31566,
+          31567,
+          31568,
+          31569,
+          31570,
+          31571,
+          31572,
+          31573
+        ],
+        "issues": [
+          {
+            "number": 31564,
+            "reason": "Learner text attributes an unqualified no-food/drink instruction to the Italian Ministry, but exact cited Ministry page returns a security challenge (coordinator fetch 403); no full source has been inspected. Accessible American Red Cross source supports the instruction for suspected shock, not every casualty. Replace unverified attribution with directly inspected and appropriately scoped guidance."
+          },
+          {
+            "number": 31550,
+            "reason": "The inaccessible Ministry URL is repeated in evidence for 31550, 31551, 31554, 31555, 31557, 31560, 31561, 31564, 31566, 31570 and 31572. Replace or remove unverified reference where it is not needed, using personally inspected sources for the relevant claims; the indexed snippet does not establish source access."
+          }
+        ],
+        "source_access_notes": [
+          "Independently inspected Hato Hone St John eye injury and environmental safety guidance, NHS eye injuries, and American Red Cross shock and bleeding guidance. The Ministry URL presented a Gcore security challenge to reviewer; coordinator shell fetch returned 403. 31559 correctly distinguishes rinsing loose superficial material from embedded or penetrating injury."
+        ]
+      },
+      {
+        "task_sha256": "1fe3832506511aecccdb770f76fc3cd9716e29a9734b4cc448da93c1af853535",
+        "output_sha256": "ee8531dd7be2a31629823a730d4e11d9b084fb55c527260d44d8fcb4f8390ed4",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / eye-foreign-body-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31549,
+          31550,
+          31551,
+          31552,
+          31553,
+          31554,
+          31555,
+          31556,
+          31557,
+          31558,
+          31559,
+          31560,
+          31561,
+          31562,
+          31563,
+          31564,
+          31565,
+          31566,
+          31567,
+          31568,
+          31569,
+          31570,
+          31571,
+          31572,
+          31573
+        ],
+        "issues": [
+          {
+            "number": 31564,
+            "reason": "Broad no-alcohol advice for injured or ill people is supported in current evidence only by guidance scoped to shock and hypothermia. Hato Hone St John emergency procedures directly advises against alcohol for sick or injured patients; inspect and cite it."
+          },
+          {
+            "number": 31551,
+            "reason": "Replacement shock and environmental-safety citations do not address administering medications. Cite directly inspected relevant first-aid guidance, e.g. UK HSE first-aid medication FAQ or University of Valencia emergency first aid."
+          }
+        ],
+        "source_access_notes": [
+          "Independently inspected Hato Hone St John eye injury and environmental safety guidance, NHS eye injuries, and American Red Cross shock and bleeding guidance. The Ministry URL presented a Gcore security challenge to reviewer; coordinator shell fetch returned 403. 31559 correctly distinguishes rinsing loose superficial material from embedded or penetrating injury.",
+          "Rechecked removal of inaccessible Ministry references and confirmed shock-qualified no-food/drink guidance; St John hypothermia and Red Cross shock sources do not by themselves support attribution of broad all-injured no-alcohol guidance."
+        ]
+      }
+    ]
+  }
+}

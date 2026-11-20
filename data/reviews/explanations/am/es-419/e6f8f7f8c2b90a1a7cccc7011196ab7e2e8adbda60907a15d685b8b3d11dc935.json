@@ -1,0 +1,937 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26715,
+          "quesito_id": 5206,
+          "text_it": "Il marciapiede è una parte della strada vietata alla circolazione dei ciclomotori",
+          "answer": 1,
+          "page": 128,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "52b8f3a198c67ff44452febb4075c8b15fe7cd6c0c00fe06c78a1f5ddab814b0",
+        "localized_text": "La acera es una parte de la vía donde está prohibida la circulación de ciclomotores"
+      },
+      {
+        "source": {
+          "number": 26716,
+          "quesito_id": 5206,
+          "text_it": "Il marciapiede è una parte della strada vietata alla circolazione dei pedoni",
+          "answer": 0,
+          "page": 128,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "35ef955b72b2c3cf5caeb54a5d6670fd082cbeb5674495525e3ce26a485bb712",
+        "localized_text": "La acera es una parte de la vía donde está prohibida la circulación de peatones"
+      },
+      {
+        "source": {
+          "number": 26717,
+          "quesito_id": 5206,
+          "text_it": "Il marciapiede è una parte della strada riservata alle sole biciclette",
+          "answer": 0,
+          "page": 128,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a656db306493481f44e1f642353a7ac9a37f27b332f73572964438e7f802183b",
+        "localized_text": "La acera es una parte de la vía reservada exclusivamente para bicicletas"
+      },
+      {
+        "source": {
+          "number": 26718,
+          "quesito_id": 5206,
+          "text_it": "Il marciapiede è una parte della strada riservata ai veicoli in sosta, ma vietata ai pedoni",
+          "answer": 0,
+          "page": 128,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a7a3ea31d77bc1c6e971b0afafe3e3fa672b94a0ff31c624f76fe35adb52eaae",
+        "localized_text": "La acera es una parte de la vía reservada para vehículos estacionados, pero prohibida para peatones"
+      },
+      {
+        "source": {
+          "number": 26719,
+          "quesito_id": 5207,
+          "text_it": "Il salvagente è destinato al riparo o alla sosta dei pedoni che attraversano la strada",
+          "answer": 1,
+          "page": 128,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4af1db12ead2e904399c6e0252fe9736e1677b515612900aa3fe1c27a84eb249",
+        "localized_text": "El refugio peatonal está destinado a proteger o permitir la espera de los peatones que cruzan la vía"
+      },
+      {
+        "source": {
+          "number": 26720,
+          "quesito_id": 5207,
+          "text_it": "Il salvagente agevola la salita e la discesa dei passeggeri da tram, filobus od autobus",
+          "answer": 1,
+          "page": 128,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7746538aaf60b84d38e89a0a076d7af702bfd42d1971d0cea7c3dbe3d7659081",
+        "localized_text": "La isla de refugio facilita el ascenso y descenso de pasajeros de tranvías, trolebuses o autobuses"
+      },
+      {
+        "source": {
+          "number": 26721,
+          "quesito_id": 5207,
+          "text_it": "Il salvagente può essere segnalato con colonnine luminose e luci semaforiche gialle lampeggianti",
+          "answer": 1,
+          "page": 128,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c8a66e659702e3f5fc46b9c7c06720ce60c37624c6d322178f62b59b53e47b5a",
+        "localized_text": "La isla de refugio puede señalizarse con postes luminosos y luces amarillas intermitentes de semáforo"
+      },
+      {
+        "source": {
+          "number": 26722,
+          "quesito_id": 5207,
+          "text_it": "Il salvagente può essere segnalato con colonnine luminose a luce gialla fissa",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "cb61df3e0406db40db952f16ea8cd7c41aa0c4452da8bd0e15ee21a0383ff029",
+        "localized_text": "La isla de refugio puede señalizarse con postes luminosos de luz amarilla fija"
+      },
+      {
+        "source": {
+          "number": 26723,
+          "quesito_id": 5207,
+          "text_it": "Il salvagente è una zona destinata alla sosta dei ciclomotori",
+          "answer": 0,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5186910dd3a361929409c5028c7b6b873b696f43c7377c5825a9afbec8565e98",
+        "localized_text": "La isla de refugio es una zona destinada al estacionamiento de ciclomotores"
+      },
+      {
+        "source": {
+          "number": 26724,
+          "quesito_id": 5207,
+          "text_it": "Il salvagente è una zona dove è consentito il transito dei ciclomotori",
+          "answer": 0,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e3aeb8d820e6c65155ec38cf758bf87f29133c5f812d321e6bb74bf8c391f7e0",
+        "localized_text": "La isla de refugio es una zona donde se permite el paso de ciclomotores"
+      },
+      {
+        "source": {
+          "number": 26725,
+          "quesito_id": 5207,
+          "text_it": "Il salvagente è una zona della strada destinata al primo soccorso",
+          "answer": 0,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4d76d7c8de52d6a1f98a481ec878c92f1665fb99cda55afb185b592d1e7848ce",
+        "localized_text": "El refugio peatonal es una zona de la vía destinada a primeros auxilios"
+      },
+      {
+        "source": {
+          "number": 26726,
+          "quesito_id": 5208,
+          "text_it": "Sulla strada è vietato effettuare un cambiamento di direzione senza segnalare la manovra con sufficiente anticipo",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9cc478d61abaaf95d1e2315fce2f9b027a40cbe798759021f1e14417f55b27b5",
+        "localized_text": "En la vía está prohibido cambiar de dirección sin señalizar la maniobra con suficiente anticipación"
+      },
+      {
+        "source": {
+          "number": 26727,
+          "quesito_id": 5208,
+          "text_it": "Sulla strada è vietato gareggiare in velocità",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "793ba2068940edcff56765c193400c7632a8fb63a24304259c79549e607d8d99",
+        "localized_text": "Está prohibido competir en velocidad en la vía"
+      },
+      {
+        "source": {
+          "number": 26728,
+          "quesito_id": 5208,
+          "text_it": "Sulla strada è vietato circolare a velocità troppo bassa senza giustificato motivo",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "f627a8289216d67b622e65afdbd2560932da2fea69f6f4e7975726953dbfc102",
+        "localized_text": "Está prohibido circular por la vía a velocidad demasiado baja sin motivo justificado"
+      },
+      {
+        "source": {
+          "number": 26729,
+          "quesito_id": 5208,
+          "text_it": "Sulla strada è vietato immettersi nel flusso della circolazione provenendo da strade laterali",
+          "answer": 0,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7c19a453a9b0a5d8501bb4d29bc05669c9b136890a1494f2fc768aa26dd68e1b",
+        "localized_text": "Está prohibido incorporarse a la circulación desde vías laterales"
+      },
+      {
+        "source": {
+          "number": 26730,
+          "quesito_id": 5208,
+          "text_it": "Sulla strada è vietato adeguare la velocità in relazione alle sue caratteristiche",
+          "answer": 0,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c5a0136c6dcc91e26fd1359b8658d0701c7622a25c556d0308ff4a4bd2c635df",
+        "localized_text": "En la vía está prohibido ajustar la velocidad a sus características"
+      },
+      {
+        "source": {
+          "number": 26731,
+          "quesito_id": 5208,
+          "text_it": "Sulla strada è vietato fermare momentaneamente il veicolo lungo il margine destro",
+          "answer": 0,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e28f4b81416b231a1958fc020fed568298eeec29d36c62d27bf502ca7f0f1e97",
+        "localized_text": "En la vía está prohibido detener momentáneamente el vehículo junto al borde derecho"
+      },
+      {
+        "source": {
+          "number": 26732,
+          "quesito_id": 5209,
+          "text_it": "Causa frequente di incidenti dovuti alle condizioni della strada può essere fondo ghiacciato",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ee82b8ffc9f7be4693e1305963378da76a9e92ee49a7ada7d06b13ad908f64dd",
+        "localized_text": "Una superficie helada puede ser una causa frecuente de accidentes debidos al estado de la vía"
+      },
+      {
+        "source": {
+          "number": 26733,
+          "quesito_id": 5209,
+          "text_it": "Causa frequente di incidenti dovuti alle condizioni della strada può essere strada coperta di foglie",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b3ff845ee0369698bb7916aff52ca8a6f903aa06285f58b7655601ac8bcff2ed",
+        "localized_text": "Una causa frecuente de accidentes por las condiciones de la vía puede ser que esté cubierta de hojas"
+      },
+      {
+        "source": {
+          "number": 26734,
+          "quesito_id": 5209,
+          "text_it": "Causa frequente di incidenti dovuti alle condizioni della strada può essere presenza di pietrisco sulla carreggiata",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9447ccb9fad408e39ce72d7dd29cdf47ea9b13768e40ad32658bb2e91539bee2",
+        "localized_text": "La presencia de gravilla en la calzada puede ser una causa frecuente de accidentes debidos al estado de la vía"
+      },
+      {
+        "source": {
+          "number": 26735,
+          "quesito_id": 5209,
+          "text_it": "Causa frequente di incidenti dovuti alle condizioni della strada può essere presenza di olio sull'asfalto",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "6d8022115642a1893994693edf222e937e170d331cf316ec56593ab7bcd96954",
+        "localized_text": "La presencia de aceite en el asfalto puede ser una causa frecuente de accidentes debidos al estado de la vía"
+      },
+      {
+        "source": {
+          "number": 26736,
+          "quesito_id": 5209,
+          "text_it": "Causa frequente di incidenti dovuti alle condizioni della strada può essere fondo asfaltato ruvido",
+          "answer": 0,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c8cadb0ff0d38c0df5c59e6582c807d1cc8b95e185b94abbcb5bfd0a14a8ddab",
+        "localized_text": "Una superficie de asfalto rugosa puede ser una causa frecuente de accidentes debidos al estado de la vía"
+      },
+      {
+        "source": {
+          "number": 26737,
+          "quesito_id": 5209,
+          "text_it": "Causa frequente di incidenti dovuti alle condizioni della strada può essere una buona illuminazione",
+          "answer": 0,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "f89227c31beb380df95303759ef1d8434d878cb42579e379c22f81fab0c1ea3e",
+        "localized_text": "Una buena iluminación puede ser una causa frecuente de accidentes debidos a las condiciones de la vía"
+      },
+      {
+        "source": {
+          "number": 26738,
+          "quesito_id": 5210,
+          "text_it": "In presenza di una galleria è necessario rallentare l'andatura prima di entrare",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "dfdfdce3cb871739e413d52a27aa9bf18d5c399080d2b591ffc3da06c5f47933",
+        "localized_text": "Ante un túnel es necesario reducir la velocidad antes de entrar"
+      },
+      {
+        "source": {
+          "number": 26739,
+          "quesito_id": 5210,
+          "text_it": "In presenza di una galleria è necessario tenere saldo il manubrio per fronteggiare colpi di vento laterale all'uscita",
+          "answer": 1,
+          "page": 129,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "77b0c59204d584886c5aab7ff598a1bb5ff64e31d178ca7b8e48994be1bd527d",
+        "localized_text": "En un túnel es necesario sujetar firmemente el manubrio para afrontar ráfagas de viento lateral al salir"
+      }
+    ],
+    "task_sha256": "e6f8f7f8c2b90a1a7cccc7011196ab7e2e8adbda60907a15d685b8b3d11dc935"
+  },
+  "rows": [
+    {
+      "number": 26715,
+      "text": "La acera está separada de la calzada y destinada a los peatones: los ciclomotores no circulan por ella.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, nn. 7, 33 e 39: carreggiata, marciapiede e pista ciclabile"
+      ]
+    },
+    {
+      "number": 26716,
+      "text": "La acera está destinada a los peatones y separada de la calzada por donde circulan los vehículos.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, nn. 7, 33 e 39: carreggiata, marciapiede e pista ciclabile"
+      ]
+    },
+    {
+      "number": 26717,
+      "text": "La acera está destinada a los peatones; la parte reservada a las bicicletas es la ciclovía.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, nn. 7, 33 e 39: carreggiata, marciapiede e pista ciclabile"
+      ]
+    },
+    {
+      "number": 26718,
+      "text": "La acera está destinada a los peatones, no al estacionamiento de vehículos; las excepciones deben estar señalizadas.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, nn. 7, 33 e 39: carreggiata, marciapiede e pista ciclabile",
+        "https://aci.gov.it/codice-della-strada/art-158/ — art. 158, comma 1, lett. h): sosta sul marciapiede salvo diversa segnalazione"
+      ]
+    },
+    {
+      "number": 26719,
+      "text": "La isla de refugio ofrece un espacio protegido donde los peatones pueden detenerse al cruzar.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, n. 45: salvagente per riparo e sosta dei pedoni presso attraversamenti o fermate"
+      ]
+    },
+    {
+      "number": 26720,
+      "text": "Junto a una parada, la isla de refugio protege a los peatones y ofrece espacio para subir al transporte colectivo o bajar de él.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, n. 45: salvagente per riparo e sosta dei pedoni presso attraversamenti o fermate"
+      ]
+    },
+    {
+      "number": 26721,
+      "text": "Los bolardos luminosos amarillos de luz fija que indican una isla de refugio pueden complementarse con luces semafóricas amarillas intermitentes.",
+      "evidence": [
+        "https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318 — regolamento, art. 170 comma 5: colonnine gialle fisse per salvagente, integrabili con luci gialle lampeggianti"
+      ]
+    },
+    {
+      "number": 26722,
+      "text": "Los bolardos luminosos de luz amarilla fija señalan una isla de refugio y hacen visible la isla protegida para los conductores.",
+      "evidence": [
+        "https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318 — regolamento, art. 170 comma 5: colonnine gialle fisse per salvagente, integrabili con luci gialle lampeggianti"
+      ]
+    },
+    {
+      "number": 26723,
+      "text": "La isla de refugio protege a los peatones en cruces o paradas; no está destinada a estacionar ciclomotores.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, n. 45: salvagente per riparo e sosta dei pedoni presso attraversamenti o fermate"
+      ]
+    },
+    {
+      "number": 26724,
+      "text": "La isla de refugio es un espacio protegido para peatones: los ciclomotores circulan por la calzada, no sobre la isla.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, n. 45: salvagente per riparo e sosta dei pedoni presso attraversamenti o fermate"
+      ]
+    },
+    {
+      "number": 26725,
+      "text": "La isla de refugio es un espacio protegido para peatones en cruces o paradas, no un puesto de primeros auxilios.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-3/ — art. 3, comma 1, n. 45: salvagente per riparo e sosta dei pedoni presso attraversamenti o fermate"
+      ]
+    },
+    {
+      "number": 26726,
+      "text": "Antes de cambiar de dirección hay que señalizar la maniobra con suficiente anticipación para avisar a los demás usuarios.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-154/ — art. 154 commi 1-2: sicurezza e segnalazione anticipata delle manovre"
+      ]
+    },
+    {
+      "number": 26727,
+      "text": "Está prohibido competir en velocidad: al aumentar la velocidad, también aumenta la distancia necesaria para detenerse ante un obstáculo.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-141/ — art. 141 commi 1, 2 e 5: velocità adeguata, controllo del veicolo e divieto di gareggiare in velocità",
+        "https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/sicurezza-attiva-e-passiva-2/qualche-nozione-di-fisica-nella-sicurezza-stradale/ — formula della frenata: lo spazio di arresto comprende reazione e frenata; entrambi dipendono dalla velocità"
+      ]
+    },
+    {
+      "number": 26728,
+      "text": "Una velocidad innecesariamente baja puede obstaculizar o poner en peligro el flujo normal; aun así, hay que reducirla cuando las condiciones lo exijan.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-141/ — art. 141 commi 1, 2, 5 e 6: velocità adeguata, controllo, divieto di gare e di intralcio per velocità troppo bassa"
+      ]
+    },
+    {
+      "number": 26729,
+      "text": "Se puede ingresar desde una vía lateral respetando la prioridad y asegurándose de que la maniobra sea segura.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-154/ — art. 154 commi 1-2: sicurezza e segnalazione anticipata delle manovre",
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145: precedenza nelle intersezioni"
+      ]
+    },
+    {
+      "number": 26730,
+      "text": "Por el contrario, hay que ajustar la velocidad a las características y condiciones de la vía para mantener el control.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-141/ — art. 141 commi 1, 2, 5 e 6: velocità adeguata, controllo, divieto di gare e di intralcio per velocità troppo bassa"
+      ]
+    },
+    {
+      "number": 26731,
+      "text": "Detenerse brevemente junto al borde derecho no está siempre prohibido: donde se permita la detención, el vehículo debe colocarse lo más cerca posible de ese borde, sin causar peligro ni obstrucción. Fuera de las zonas urbanizadas debe colocarse fuera de la calzada; solo si eso es imposible se usa el borde derecho.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-157/ — art. 157 commi 1, 2 e 3: fermata, posizione al margine destro e fuori dalla carreggiata fuori dai centri abitati, salvo impossibilità"
+      ]
+    },
+    {
+      "number": 26732,
+      "text": "El hielo reduce la adherencia de los neumáticos, por lo que frenar y mantener el control resulta más difícil.",
+      "evidence": [
+        "https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158 — regola 126: distanza di arresto maggiore su ghiaccio"
+      ]
+    },
+    {
+      "number": 26733,
+      "text": "Las hojas, especialmente mojadas, pueden volver resbaladiza la superficie y aumentar el riesgo de perder adherencia.",
+      "evidence": [
+        "https://www.cheshirefire.gov.uk/your-safety/road-safety/using-roads-safely/driving-in-adverse-weather/ — foglie bagnate aumentano la distanza di arresto"
+      ]
+    },
+    {
+      "number": 26734,
+      "text": "La gravilla suelta reduce la adherencia y puede causar pérdida de control, sobre todo al tomar curvas o frenar.",
+      "evidence": [
+        "https://tfl.gov.uk/cdn/static/cms/documents/tfl-urban-motorcycle-design-handbook.pdf — sezione 2.2, p. 16: pietrisco e gasolio comportano rischio di perdita di controllo"
+      ]
+    },
+    {
+      "number": 26735,
+      "text": "El aceite sobre el asfalto vuelve resbaladiza la superficie y puede reducir la adherencia, favoreciendo la pérdida de control.",
+      "evidence": [
+        "https://assets.publishing.service.gov.uk/media/5fa19888e90e07042c1e10f0/Transaidetal-2020-InstructorsManualCBCMotorcycleRiderTraining-Generic-AfCAP-RAF2114A-190524__1_.pdf — pp. 57 e seguenti: liquidi e olio rendono scivoloso il fondo e compromettono il controllo"
+      ]
+    },
+    {
+      "number": 26736,
+      "text": "Un pavimento con rugosidad adecuada favorece la adherencia, incluso en mojado; por sí solo no es una causa frecuente de accidentes.",
+      "evidence": [
+        "https://www.fhwa.dot.gov/pavement/t504036.cfm — sezione 4: micro e macrotessitura contribuiscono all’attrito sul bagnato"
+      ]
+    },
+    {
+      "number": 26737,
+      "text": "Una buena iluminación mejora la visibilidad de los obstáculos y ayuda a evitar choques, en vez de ser una causa frecuente de accidentes.",
+      "evidence": [
+        "https://highways.fhwa.dot.gov/safety/proven-safety-countermeasures/lighting — illuminazione adeguata migliora la visibilità e riduce il rischio di incidenti"
+      ]
+    },
+    {
+      "number": 26738,
+      "text": "Al acercarse a un túnel es prudente reducir la velocidad antes de entrar: el cambio de luz puede dificultar la visión de obstáculos.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-141/ — art. 141 commi 1, 2, 5 e 6: velocità adeguata, controllo, divieto di gare e di intralcio per velocità troppo bassa",
+        "https://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_600second.pdf — sezione tunnel lighting: velocità e adattamento visivo all’ingresso"
+      ]
+    },
+    {
+      "number": 26739,
+      "text": "Al salir del túnel, una ráfaga lateral puede desplazar el ciclomotor: sujetar firmemente el manubrio ayuda a controlarlo.",
+      "evidence": [
+        "Suzuki UZ125NEY Owner’s Manual, p. 1-6, “Special situations require special care” and warning: https://d3rur0l55cri1p.cloudfront.net/uploads/sites/4/2024/01/Adress125.pdf — strong crosswinds can move the motorcycle; grip the handlebars firmly; sudden side winds at tunnel exits can cause loss of control."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "e6f8f7f8c2b90a1a7cccc7011196ab7e2e8adbda60907a15d685b8b3d11dc935",
+    "output_sha256": "9f513a4ae83a24100d9d9593faf3b9f66dc78740e3e786cbd95992dba86431b3",
+    "author": "gpt-6.1-terra / 01a1ea08-6f45-75f0-8a5f-7e8c422bdc8b",
+    "reviewer": "gpt-6.1-terra / 01a1ea08-fee6-72a1-a6c5-e8c0bc2c36e1",
+    "status": "accepted",
+    "checked_numbers": [
+      26715,
+      26716,
+      26717,
+      26718,
+      26719,
+      26720,
+      26721,
+      26722,
+      26723,
+      26724,
+      26725,
+      26726,
+      26727,
+      26728,
+      26729,
+      26730,
+      26731,
+      26732,
+      26733,
+      26734,
+      26735,
+      26736,
+      26737,
+      26738,
+      26739
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "028b46965493848fd7c9dd62507f4238884510acff04fcf544bf9fb28bef5a89",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "03352ef6ba1892f42e209f1b95aeb74bc0e4158f2c73e9dd0c6a1edc443c6081",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1ea02-121f-7cd3-b60e-8a5edbb9797a",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7c6c423a76f326211163e7cfad56b399cc7fdba6299fd407832f0590f7106abd",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea05-b595-7710-a4b6-d7ebf6714c32",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "6b38f80b4ff3a333c1ddb936ab6bda3a0050045ab7435a6b13d35bdc4e114df0",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea08-6f45-75f0-8a5f-7e8c422bdc8b",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "028b46965493848fd7c9dd62507f4238884510acff04fcf544bf9fb28bef5a89",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "a246b709c157e1feca737e8bb6e13f47e5f61a513a3c0333b290855aa1196456",
+          "output_sha256": "13919b1398b4509e39e44d79f9bf78740416e567cffa873dddf0a6c40ec4090e",
+          "author": "gpt-6.1-terra / 01a1ea02-121f-7cd3-b60e-8a5edbb9797a",
+          "reviewer": "gpt-6.1-terra / 01a1ea04-576e-7c13-a3e9-105f67f89d4a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26715,
+            26716,
+            26717,
+            26718,
+            26719,
+            26720,
+            26721,
+            26722,
+            26723,
+            26724,
+            26725,
+            26726,
+            26727,
+            26728,
+            26729,
+            26730,
+            26731,
+            26732,
+            26733,
+            26734,
+            26735,
+            26736,
+            26737,
+            26738,
+            26739
+          ],
+          "issues": [
+            "26722: The explanation only restates that steady yellow bollards may mark a refuge; add the reason or function of this signal, such as making the protected island visible to approaching traffic. The cited regulation art. 170(5) specifies the signal but the draft does not teach its purpose.",
+            "26727: The explanation repeats the prohibition and says roads are shared, but does not explain why racing creates danger or otherwise give the decisive reason; add a specific supported explanation rather than a generic statement.",
+            "26731: The explanation implies a brief stop at the right edge is allowed wherever stopping is not prohibited, omitting the condition in the cited Codice della strada art. 157(3): outside built-up areas stopping must be outside the carriageway when possible, with the right edge used when that is impossible. Explain this distinction in all four languages."
+          ]
+        },
+        {
+          "task_sha256": "b21cfac2e96e35bc70788309389d36a2f643c437b09754acdd85dcaeea3a00a0",
+          "output_sha256": "629d2079cf3ecd69a3e0ea25ff3c7624634ea5c43e5265f9d5a3754656429232",
+          "author": "gpt-6.1-terra / 01a1ea02-121f-7cd3-b60e-8a5edbb9797a",
+          "reviewer": "gpt-6.1-terra / 01a1ea04-576e-7c13-a3e9-105f67f89d4a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26715,
+            26716,
+            26717,
+            26718,
+            26719,
+            26720,
+            26721,
+            26722,
+            26723,
+            26724,
+            26725,
+            26726,
+            26727,
+            26728,
+            26729,
+            26730,
+            26731,
+            26732,
+            26733,
+            26734,
+            26735,
+            26736,
+            26737,
+            26738,
+            26739
+          ],
+          "issues": [
+            "26722: The explanation only restates that steady yellow bollards may mark a refuge; add the reason or function of this signal, such as making the protected island visible to approaching traffic. The cited regulation art. 170(5) specifies the signal but the draft does not teach its purpose.",
+            "26727: The explanation repeats the prohibition and says roads are shared, but does not explain why racing creates danger or otherwise give the decisive reason; add a specific supported explanation rather than a generic statement.",
+            "26731: The explanation implies a brief stop at the right edge is allowed wherever stopping is not prohibited, omitting the condition in the cited Codice della strada art. 157(3): outside built-up areas stopping must be outside the carriageway when possible, with the right edge used when that is impossible. Explain this distinction in all four languages."
+          ]
+        },
+        {
+          "task_sha256": "63ab7bdf83cf1435e76393b309f1e396c85556f77766e6d19e9426ff8cccdcc4",
+          "output_sha256": "bf5444877359881652c5cbe6918d17d6ee8fe01bee5142897246b0cbbbd1fc70",
+          "author": "gpt-6.1-terra / 01a1ea02-121f-7cd3-b60e-8a5edbb9797a",
+          "reviewer": "gpt-6.1-terra / 01a1ea04-576e-7c13-a3e9-105f67f89d4a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26715,
+            26716,
+            26717,
+            26718,
+            26719,
+            26720,
+            26721,
+            26722,
+            26723,
+            26724,
+            26725,
+            26726,
+            26727,
+            26728,
+            26729,
+            26730,
+            26731,
+            26732,
+            26733,
+            26734,
+            26735,
+            26736,
+            26737,
+            26738,
+            26739
+          ],
+          "issues": [
+            "26722: The explanation only restates that steady yellow bollards may mark a refuge; add the reason or function of this signal, such as making the protected island visible to approaching traffic. The cited regulation art. 170(5) specifies the signal but the draft does not teach its purpose.",
+            "26727: The explanation repeats the prohibition and says roads are shared, but does not explain why racing creates danger or otherwise give the decisive reason; add a specific supported explanation rather than a generic statement.",
+            "26731: The explanation implies a brief stop at the right edge is allowed wherever stopping is not prohibited, omitting the condition in the cited Codice della strada art. 157(3): outside built-up areas stopping must be outside the carriageway when possible, with the right edge used when that is impossible. Explain this distinction in all four languages.",
+            "26731: 不禁止停车 is ambiguous between a prohibition on parking and one on stopping; distinguish a brief stop from parking so the condition matches the Italian and article 157."
+          ]
+        },
+        {
+          "task_sha256": "e6f8f7f8c2b90a1a7cccc7011196ab7e2e8adbda60907a15d685b8b3d11dc935",
+          "output_sha256": "2b701a089fc4b94dbb565404a74350d0abe170a9cb8ef1debc2afdf27a2d1277",
+          "author": "gpt-6.1-terra / 01a1ea02-121f-7cd3-b60e-8a5edbb9797a",
+          "reviewer": "gpt-6.1-terra / 01a1ea04-576e-7c13-a3e9-105f67f89d4a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26715,
+            26716,
+            26717,
+            26718,
+            26719,
+            26720,
+            26721,
+            26722,
+            26723,
+            26724,
+            26725,
+            26726,
+            26727,
+            26728,
+            26729,
+            26730,
+            26731,
+            26732,
+            26733,
+            26734,
+            26735,
+            26736,
+            26737,
+            26738,
+            26739
+          ],
+          "issues": [
+            "26722: The explanation only restates that steady yellow bollards may mark a refuge; add the reason or function of this signal, such as making the protected island visible to approaching traffic. The cited regulation art. 170(5) specifies the signal but the draft does not teach its purpose.",
+            "26727: The explanation repeats the prohibition and says roads are shared, but does not explain why racing creates danger or otherwise give the decisive reason; add a specific supported explanation rather than a generic statement.",
+            "26731: The explanation implies a brief stop at the right edge is allowed wherever stopping is not prohibited, omitting the condition in the cited Codice della strada art. 157(3): outside built-up areas stopping must be outside the carriageway when possible, with the right edge used when that is impossible. Explain this distinction in all four languages."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "a246b709c157e1feca737e8bb6e13f47e5f61a513a3c0333b290855aa1196456",
+          "output_sha256": "d746d5cf9f4ce4dbd7fe859a3ce9065a7bff7aebaa5fff566ca78a929c0abd3f",
+          "author": "gpt-6.1-terra / 01a1ea05-b595-7710-a4b6-d7ebf6714c32",
+          "reviewer": "gpt-6.1-terra / 01a1ea06-dfe3-7443-816a-734d14b67cf6",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26715,
+            26716,
+            26717,
+            26718,
+            26719,
+            26720,
+            26721,
+            26722,
+            26723,
+            26724,
+            26725,
+            26726,
+            26727,
+            26728,
+            26729,
+            26730,
+            26731,
+            26732,
+            26733,
+            26734,
+            26735,
+            26736,
+            26737,
+            26738,
+            26739
+          ],
+          "issues": [
+            "26739: The cited U.S. Army Knowledge2013.pdf could not be retrieved (timeout), and its claimed Gusting Crosswinds passage could not be independently checked. Remove or replace this unverifiable citation with an accessible authoritative source, or provide the cited document for inspection. The other cited Suzuki manual independently supports the tunnel-exit crosswind and firm-handlebar explanation."
+          ]
+        },
+        {
+          "task_sha256": "b21cfac2e96e35bc70788309389d36a2f643c437b09754acdd85dcaeea3a00a0",
+          "output_sha256": "d28bf6d8c523621041c13dab36ef1ccfbfca80dd13b024f2a6847bb434cdfb23",
+          "author": "gpt-6.1-terra / 01a1ea05-b595-7710-a4b6-d7ebf6714c32",
+          "reviewer": "gpt-6.1-terra / 01a1ea06-dfe3-7443-816a-734d14b67cf6",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26715,
+            26716,
+            26717,
+            26718,
+            26719,
+            26720,
+            26721,
+            26722,
+            26723,
+            26724,
+            26725,
+            26726,
+            26727,
+            26728,
+            26729,
+            26730,
+            26731,
+            26732,
+            26733,
+            26734,
+            26735,
+            26736,
+            26737,
+            26738,
+            26739
+          ],
+          "issues": [
+            "26739: The cited U.S. Army Knowledge2013.pdf could not be retrieved (timeout), and its claimed Gusting Crosswinds passage could not be independently checked. Remove or replace this unverifiable citation with an accessible authoritative source, or provide the cited document for inspection. The other cited Suzuki manual independently supports the tunnel-exit crosswind and firm-handlebar explanation."
+          ]
+        },
+        {
+          "task_sha256": "63ab7bdf83cf1435e76393b309f1e396c85556f77766e6d19e9426ff8cccdcc4",
+          "output_sha256": "b13629f6f4e6dcdb8a486ded5e4a8d84556e263f5b88dceb3971c4ec06b85c60",
+          "author": "gpt-6.1-terra / 01a1ea05-b595-7710-a4b6-d7ebf6714c32",
+          "reviewer": "gpt-6.1-terra / 01a1ea06-dfe3-7443-816a-734d14b67cf6",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26715,
+            26716,
+            26717,
+            26718,
+            26719,
+            26720,
+            26721,
+            26722,
+            26723,
+            26724,
+            26725,
+            26726,
+            26727,
+            26728,
+            26729,
+            26730,
+            26731,
+            26732,
+            26733,
+            26734,
+            26735,
+            26736,
+            26737,
+            26738,
+            26739
+          ],
+          "issues": [
+            "26739: The cited U.S. Army Knowledge2013.pdf could not be retrieved (timeout), and its claimed Gusting Crosswinds passage could not be independently checked. Remove or replace this unverifiable citation with an accessible authoritative source, or provide the cited document for inspection. The other cited Suzuki manual independently supports the tunnel-exit crosswind and firm-handlebar explanation."
+          ]
+        },
+        {
+          "task_sha256": "e6f8f7f8c2b90a1a7cccc7011196ab7e2e8adbda60907a15d685b8b3d11dc935",
+          "output_sha256": "cbd42fb0c5defd51163ea0cfeac7dada4cf44409d49690fcdaaa1ad2ba1715c3",
+          "author": "gpt-6.1-terra / 01a1ea05-b595-7710-a4b6-d7ebf6714c32",
+          "reviewer": "gpt-6.1-terra / 01a1ea06-dfe3-7443-816a-734d14b67cf6",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26715,
+            26716,
+            26717,
+            26718,
+            26719,
+            26720,
+            26721,
+            26722,
+            26723,
+            26724,
+            26725,
+            26726,
+            26727,
+            26728,
+            26729,
+            26730,
+            26731,
+            26732,
+            26733,
+            26734,
+            26735,
+            26736,
+            26737,
+            26738,
+            26739
+          ],
+          "issues": [
+            "26739: The cited U.S. Army Knowledge2013.pdf could not be retrieved (timeout), and its claimed Gusting Crosswinds passage could not be independently checked. Remove or replace this unverifiable citation with an accessible authoritative source, or provide the cited document for inspection. The other cited Suzuki manual independently supports the tunnel-exit crosswind and firm-handlebar explanation."
+          ]
+        }
+      ]
+    ]
+  }
+}

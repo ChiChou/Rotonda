@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1edc4-707e-7af0-a0d1-28ade860805a"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "revisione_cqc_persone",
+    "language": "es-419",
+    "records": [
+      {
+        "source": {
+          "number": 17502,
+          "quesito_id": 3531,
+          "text_it": "Alla classe B appartengono gli autobus destinati al noleggio con conducente",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "fc2a1ac22908ace0edf3fb58bb8e62e42d561b7fab1935fb1b3e24ca17cc46c6",
+        "italian": "Un autobus di classe B, con passeggeri seduti, può essere impiegato per il noleggio con conducente. La classe indica l’allestimento e non riserva il veicolo a quel servizio.",
+        "italian_sha256": "50dd043aebaf8a40efe89e5741036e38e266722b07b3d438a9c97d94a2029f00"
+      },
+      {
+        "source": {
+          "number": 17506,
+          "quesito_id": 3531,
+          "text_it": "Alla classe B appartengono gli autobus destinati al trasporto di più di 22 persone oltre il conducente",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "230e6d09adae3078d7f1957c657555a9e8ddbdde6f984faff055867edc31be12",
+        "italian": "La classe B riguarda veicoli con al massimo 22 passeggeri oltre al conducente; oltre tale soglia si usano le classi I, II e III.",
+        "italian_sha256": "3d465e708a0dd6c6cf79760c4929bf834878337285bc87d2db2208a32d8909be"
+      },
+      {
+        "source": {
+          "number": 17508,
+          "quesito_id": 3531,
+          "text_it": "Alla classe II appartengono gli autobus destinati al trasporto di massimo 22 persone oltre il conducente",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "a77810d74f3766819e136c8d19170394159fa2ea6a3611c2da5e1b2f15d469ac",
+        "italian": "La classe II riguarda veicoli con più di 22 passeggeri oltre al conducente; fino a 22 si distinguono le classi A e B.",
+        "italian_sha256": "b746e330095c37fa43fd9e59094c780f82d8262db1e6695c188c3643ac99c3c3"
+      },
+      {
+        "source": {
+          "number": 17509,
+          "quesito_id": 3531,
+          "text_it": "Alla classe B appartengono gli autobus di classe II",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "4c15caa1b57051bf141f3c41752d97f39e57d74e74622a5f3761cf29d6015f6e",
+        "italian": "Le due classi sono distinte: B riguarda veicoli fino a 22 passeggeri oltre al conducente, II quelli di capacità superiore.",
+        "italian_sha256": "ddd18e9f4ada372f36884f8c281250daa8dacb5d1a6d45e1de97c52829ee10cd"
+      },
+      {
+        "source": {
+          "number": 17516,
+          "quesito_id": 3533,
+          "text_it": "Gli autobus devono essere muniti di uscite di sicurezza",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "39e65df71cf3919c700496f5c4deaa3e24cec3a42694f792738315b03132f9d5",
+        "italian": "Le uscite di sicurezza permettono l’evacuazione in emergenza e devono rispettare le prescrizioni applicabili al veicolo.",
+        "italian_sha256": "8a4c68e8a58248633b2b06defc2be74be572343dd2ef6792872589f2c0224901"
+      },
+      {
+        "source": {
+          "number": 17517,
+          "quesito_id": 3533,
+          "text_it": "Gli autobus devono essere muniti di estintori",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "724229803e727b159ea1364c71a89f88512a2e92be7a55f058849804b2995234",
+        "italian": "Gli autobus devono avere estintori idonei a intervenire su un principio d’incendio a bordo.",
+        "italian_sha256": "ae5ca5d06f49f54bcfe83b613fd283dab9c9a2f65dc695b7a76fb8b7d7981d28"
+      },
+      {
+        "source": {
+          "number": 17518,
+          "quesito_id": 3533,
+          "text_it": "Gli autobus devono essere muniti di posti a sedere, posti in piedi e posti per diversamente abili in base all’allestimento interno",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "95197160e7722f5f14746e9ff89d796f9e92ef97e7b99af7b191edc3faad1e06",
+        "italian": "L’allestimento determina i posti autorizzati e può comprendere posti in piedi e spazi accessibili. La formulazione non significa che ogni autobus debba avere tutte queste categorie.",
+        "italian_sha256": "ed6f63aae59ed8030ee803c5507c5576d821bba1894c70baf9b2f187a80080fe"
+      },
+      {
+        "source": {
+          "number": 17519,
+          "quesito_id": 3533,
+          "text_it": "Gli autobus devono essere muniti di esclusivamente di posti a sedere",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "aeb1a7347457fd4914bd707fd9b237fff48b9fc8d7b3950e7f251465fde34bd9",
+        "italian": "Non tutti gli autobus hanno solo posti a sedere: le classi A, I e II possono prevedere anche passeggeri in piedi.",
+        "italian_sha256": "5c1eab67f1ec5e884caeb309e51c85a4b7d063ec0bda7b25b172bb98695e7102"
+      },
+      {
+        "source": {
+          "number": 17520,
+          "quesito_id": 3533,
+          "text_it": "Gli autobus devono essere muniti di pannelli retroriflettenti posteriori",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "a9b3a8d8d456d1f43ace1d855ed56e8d58bd8506c21756acc8627dd9027a7102",
+        "italian": "FALSO. Non tutti gli autobus devono avere pannelli posteriori retroriflettenti: gli obblighi specifici per i pannelli dei veicoli pesanti riguardano determinate categorie, in particolare veicoli adibiti al trasporto di cose.",
+        "italian_sha256": "a6f5428b2cd7891f9c0e7fe4076db733f9d7d646bc0a212e5a778cd56ceabb41"
+      },
+      {
+        "source": {
+          "number": 17521,
+          "quesito_id": 3533,
+          "text_it": "Gli autobus devono essere muniti di strisce retroriflettenti laterali di colore rosso",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "49b8f62912ade62aecfa3f121a42b057a0d3ffd647135510fcf678e4e41899a7",
+        "italian": "FALSO. Non è previsto un obbligo generale di strisce laterali rosse per gli autobus; l'obbligo nazionale di evidenziatori continui riguarda le categorie indicate per il trasporto di cose.",
+        "italian_sha256": "36924d690e6475f4d3fa3ac5d69e7c9dd421ca1499ac501888b9a68cf5a8d076"
+      },
+      {
+        "source": {
+          "number": 17530,
+          "quesito_id": 3535,
+          "text_it": "Le uscite di sicurezza degli autobus devono essere segnalate tramite apposite scritte e/o simboli",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "d8b2285f36263cdef57eea68b355704d7f312f197300689b25f30a8459a65416",
+        "italian": "Le uscite di sicurezza devono essere riconoscibili mediante le indicazioni previste, così da poter essere individuate in emergenza.",
+        "italian_sha256": "ca6d38313cdfc81b869baf4b5f19d2ad71f5982d8e0c17534e399d5929edf7f6"
+      },
+      {
+        "source": {
+          "number": 17531,
+          "quesito_id": 3535,
+          "text_it": "Le uscite di sicurezza degli autobus possono essere porte, finestrini o botole",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "6f4f731f126d6fb7f45ba919517b5d89e535c69dd4d6ff33a7f64ee17298ae5a",
+        "italian": "Le uscite di sicurezza possono essere realizzate come porte, finestrini o botole di evacuazione.",
+        "italian_sha256": "f1d5341dc9a9bffa030bd189b8aabca2c0c18b76c3170c22826dd6f7ae93e90f"
+      },
+      {
+        "source": {
+          "number": 17532,
+          "quesito_id": 3535,
+          "text_it": "Le uscite di sicurezza degli autobus sono stabilite nel loro numero minimo in base al numero di passeggeri",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "be2087398140fc25b9d9bf0e1b80ff5cb367bc74213ed2ee47822fd7f1aa1955",
+        "italian": "Il numero minimo delle uscite dipende dalla capacità di trasporto, secondo le prescrizioni applicabili al veicolo.",
+        "italian_sha256": "d44ce8823bac425db6f278200f0a9a1adf6634ff92b95e41165f4a71ceb1f220"
+      },
+      {
+        "source": {
+          "number": 17533,
+          "quesito_id": 3535,
+          "text_it": "Le uscite di sicurezza degli autobus devono essere segnalate tramite luci di colore rosso",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "8b617303d8dee9f5d4bea344855ffb6ec9d3ff398c37a0cc1067966d92253004",
+        "italian": "Non è richiesta una segnalazione mediante luci rosse: le uscite devono essere identificate con le apposite indicazioni.",
+        "italian_sha256": "7f52608a016d41c40a260a59c50aa43173a565eb1e726c4c49653313accbfb40"
+      },
+      {
+        "source": {
+          "number": 17535,
+          "quesito_id": 3535,
+          "text_it": "Le uscite di sicurezza degli autobus possono non essere segnalate",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "3abb923a8b3946b4c3cef3c7901bf3171ee4559e0e5b4698e823b88fc1e46cf6",
+        "italian": "Le uscite non possono restare prive di indicazione: devono essere riconoscibili per l’evacuazione.",
+        "italian_sha256": "371395695245c109e359dcfc91f69ba914c3180fa2bd42aeec8949416707aeeb"
+      },
+      {
+        "source": {
+          "number": 17536,
+          "quesito_id": 3535,
+          "text_it": "Le uscite di sicurezza degli autobus sono stabilite nel loro numero minimo in base alla massa a pieno carico dell’autobus",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "93a2eb292c484c76c6dc5c37f9f78f4ab9106218a5360122315eb61e3a7a6d08",
+        "italian": "Il numero minimo non si determina dalla massa a pieno carico, ma secondo le prescrizioni riferite anche alla capacità di passeggeri.",
+        "italian_sha256": "e2c768f982012853f3257bbe2f85fa3b80273756ed7cbdc15506834b704799f6"
+      },
+      {
+        "source": {
+          "number": 17562,
+          "quesito_id": 3540,
+          "text_it": "Gli estintori degli autobus non devono essere scaduti di validità",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "f94fbf67cd5d0b1138a15f61d390a724e6c4e4a91633982ee1b81be94431704a",
+        "italian": "VERO. Gli estintori devono essere mantenuti efficienti e sottoposti alle revisioni previste: una scadenza di revisione superata non va trascurata.",
+        "italian_sha256": "89c246fffe1d6b4a1b0ca818179d69dd76dc49fcc4a25fd1f9c8c04193998750"
+      },
+      {
+        "source": {
+          "number": 17564,
+          "quesito_id": 3540,
+          "text_it": "Gli estintori degli autobus devono essere nel numero minimo stabilito",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "5adf2fba7f9e074b3e178b5c6d8d988342f1c39842ec8a2b4f713ff4095b43d7",
+        "italian": "La dotazione deve rispettare il numero minimo previsto per il tipo di autobus e la sua capacità.",
+        "italian_sha256": "793f30d2622fd9f872ea6ff05fa2a66c871ce4e86095ad4438a443e33ce63b13"
+      },
+      {
+        "source": {
+          "number": 17565,
+          "quesito_id": 3540,
+          "text_it": "Gli autobus fino a 30 posti devono essere equipaggiati con estintori da uno a cinque litri a schiuma",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "cf7db05c5ad44b0d3fe0c9478afe4f22ce2216dfaf923b96d97290b2ba6afe3a",
+        "italian": "Il quiz indica VERO, ma «da uno a cinque litri» è ambiguo: la prescrizione storica richiamava un estintore a schiuma da 5 litri, non una capacità qualsiasi tra uno e cinque. La nota ministeriale indica come equivalente un estintore a base d’acqua omologato di almeno 6 litri.",
+        "italian_sha256": "66b850eee4975552e63dd12135f6213f659f08f526664932046962c2ecd2995d"
+      },
+      {
+        "source": {
+          "number": 17569,
+          "quesito_id": 3540,
+          "text_it": "Gli estintori degli autobus devono essere presenti nel numero indicato sulla carta di circolazione",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "36167f62c34d5f371aad367137605150b677a1da564a108b7024cee31762fd36",
+        "italian": "Il numero minimo deriva dalle prescrizioni sulla dotazione in funzione del veicolo, non da un numero indicato sulla carta di circolazione.",
+        "italian_sha256": "a53d2f66a78284657c038bd982013fc5bcbeba85ca9d966ad28aca649b78f0a4"
+      },
+      {
+        "source": {
+          "number": 17570,
+          "quesito_id": 3540,
+          "text_it": "Gli estintori degli autobus devono essere caricati prima della partenza",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "8e9b69a5626929450f8332ae384db4a4bdcbdefe9eb9bd744478f8801882d732",
+        "italian": "Non si ricaricano gli estintori prima di ogni partenza: devono essere già efficienti e sottoposti alla manutenzione prevista.",
+        "italian_sha256": "572855d5462b507586c1da69ec5d446b6828d14c75e61e25cc2320cb92893eb8"
+      },
+      {
+        "source": {
+          "number": 17576,
+          "quesito_id": 3542,
+          "text_it": "La cassetta del pronto soccorso degli autobus è obbligatoria",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "d5f6e379df155318e0332cfde876b306d7ba78a96ec806c8718bc3ea3adc5cf4",
+        "italian": "La cassetta di pronto soccorso è una dotazione prevista per gli autobus. Le prescrizioni concrete dipendono dalle norme applicabili al veicolo; la normativa costruttiva prevede una sede per la cassetta.",
+        "italian_sha256": "13e663d448883de13c5057726a259d19d297d9f1da6c41e4f24a34e908860762"
+      },
+      {
+        "source": {
+          "number": 17577,
+          "quesito_id": 3542,
+          "text_it": "La cassetta del pronto soccorso degli autobus deve essere alloggiata in apposita sede",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "18bfef22f6adbbc3f0baa82e896855c834830a2a6e2b759580c26efc4716d71a",
+        "italian": "La cassetta va collocata nella sede prevista e riconoscibile, così da poter essere trovata e prelevata in caso di emergenza.",
+        "italian_sha256": "b97fbdbae73c7073c77c73684f59f5241df5374cf6e1899d15f41db9268e0a15"
+      },
+      {
+        "source": {
+          "number": 17578,
+          "quesito_id": 3542,
+          "text_it": "La cassetta del pronto soccorso degli autobus deve contenere farmaci non scaduti di validità",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "d53a4ff58720eb658de7bfd33afb15b26dfa449fd1bd5a11c4bc34c97b0202ac",
+        "italian": "Il quiz considera vero che i farmaci eventualmente presenti non debbano essere scaduti: la dotazione deve restare utilizzabile. Questo non significa che ogni cassetta debba necessariamente contenere medicinali.",
+        "italian_sha256": "8ff9f9c4e71917d2f93feeed5d14c6be41d5a4b41409dc716895b3f24c8cb589"
+      },
+      {
+        "source": {
+          "number": 17579,
+          "quesito_id": 3542,
+          "text_it": "La cassetta del pronto soccorso degli autobus è facoltativa",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "1a701af47747e417cede66e2b3738a3921077447d18e64ea375a4ebc43aad98c",
+        "italian": "È falso che sia una dotazione semplicemente facoltativa: il quiz la considera prevista per gli autobus e le norme costruttive ne prevedono la sede. Le prescrizioni concrete dipendono dal veicolo.",
+        "italian_sha256": "00084e23969ebbb7fc1bdca638dd212fc2cbe3cddfa705d8058bfc66130c009b"
+      },
+      {
+        "source": {
+          "number": 17580,
+          "quesito_id": 3542,
+          "text_it": "La cassetta del pronto soccorso degli autobus è obbligatoria solamente per autobus con più di 16 posti escluso il conducente",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "326768a3ab2d4c8d202232b787d1a7a99c31ef0ba874d05b4ec0c0aeeeaa903b",
+        "italian": "È falso che la previsione riguardi solamente gli autobus oltre 16 posti: la soglia può incidere sulle caratteristiche della dotazione, non elimina automaticamente la cassetta sui veicoli più piccoli.",
+        "italian_sha256": "1766e2212e1cc2e0849798171374707711416e5dca50bff90e3e74357815935f"
+      },
+      {
+        "source": {
+          "number": 17581,
+          "quesito_id": 3542,
+          "text_it": "La cassetta del pronto soccorso degli autobus può essere utilizzata solo da personale medico",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "f6bcfe25bbd3c7b97fb7f55948a5b1f24070dcdbdbee97c8525f2bfa3e917049",
+        "italian": "È falso che solo un medico possa usare la cassetta: i presidi servono al primo soccorso e possono essere impiegati anche da chi presta assistenza, nei limiti delle proprie competenze.",
+        "italian_sha256": "ddc933574df42c055b0d479aff65caa6f270b9fbc9d57d41ebbfc5299938461d"
+      },
+      {
+        "source": {
+          "number": 17583,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus adibito al trasporto degli studenti e può essere munito di sedili per accompagnatori",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "b082e66cd4e0f68ced791886c4af033f6e0eeb8ac3fb348b2eb60f23e510dfa7",
+        "italian": "Lo scuolabus può avere un posto per l'accompagnatore; quando trasporta bambini della scuola materna, la presenza dell'accompagnatore e un posto idoneo sono previsti.",
+        "italian_sha256": "90b51490f768acee5bfced4cb834d3768f6f23f3e05652df39329ba5aad7d4f0"
+      },
+      {
+        "source": {
+          "number": 17584,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus che può essere munito di segnale di indicazione \"scuolabus\" quadrato a fondo arancione sistemato posteriormente",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "8c03c51ba3e2dd4906a6aa786d6ffea78cde01e49a912907d43eea6424a4f2da",
+        "italian": "Il segnale quadrato a fondo giallo-arancione può identificare lo scuolabus: posto all'esterno del veicolo, indica che trasporta bambini da e per la scuola.",
+        "italian_sha256": "49b557e365179dccde843ddca494b9387ac1dbfc6aad8faf0d72579832846cb8"
+      },
+      {
+        "source": {
+          "number": 17585,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus avente sedili di dimensioni ridotte in base alla tipologia di alunni da trasportare",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "842c87ee7e0c8d83727cefc146881204e1f8bf50cbec907ad612ebdf2a9ab4e1",
+        "italian": "Gli scuolabus possono avere sedili e spazi di dimensioni ridotte, adeguati agli alunni trasportati. La formulazione del quiz non implica che ogni sedile debba essere ridotto.",
+        "italian_sha256": "170b261ddd22c55514a9a845ddb9e42911384b449a6580f791d08ca8e5f2ced7"
+      },
+      {
+        "source": {
+          "number": 17587,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "99d7f2eb1e0782ce15751d00f6083334c45874820f84d546df538269efb1f583",
+        "italian": "È falso che siano vietati posti per accompagnatori: per il trasporto dei bambini della scuola materna è anzi previsto un posto idoneo per l'accompagnatore.",
+        "italian_sha256": "77032b1890c1848a98e162b311cd8b1a5265e715b2e6baaeb8bef91911a245c5"
+      },
+      {
+        "source": {
+          "number": 17591,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus con sedili di dimensioni analoghe a quelli di tutti gli autobus",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "74f9ce831d007d9513cbe5afc28cbec1431afd01cc8d16052c1cbd638b01539d",
+        "italian": "È falso che i sedili debbano avere sempre dimensioni analoghe a quelli di tutti gli altri autobus: nello scuolabus possono essere più piccoli, in funzione degli alunni trasportati.",
+        "italian_sha256": "0cfdfe22f3362e42f9860c233e89b7b58beafa62bc51293f541bed3c3da90691"
+      },
+      {
+        "source": {
+          "number": 17594,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus adibito al trasporto di studenti esclusivamente della scuola materna",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "523fcdd5e6505f311175de7aedf8146f838f72914f73f05f479fcaca7ac35b15",
+        "italian": "È falsa l'esclusività per la scuola materna: gli scuolabus possono essere usati anche per gli alunni della scuola dell'obbligo.",
+        "italian_sha256": "928b1240b3029186fdac792190862c5e887deca4dba86d63564e05286d43af16"
+      },
+      {
+        "source": {
+          "number": 17631,
+          "quesito_id": 3549,
+          "text_it": "Gli autobus devono essere muniti di estintori",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "ad398c8dca546b9ebb470dd5642aca398060f590b32e4ed75519761c9d9ada62",
+        "italian": "Gli estintori sono dotazioni di sicurezza previste per gli autobus, per consentire un primo intervento contro un incendio; numero e caratteristiche dipendono dalle prescrizioni applicabili al veicolo.",
+        "italian_sha256": "2c1948f304a82214ef572b6eb2fb18f13d296e9ab22488b191f7bd993d4bf4c0"
+      },
+      {
+        "source": {
+          "number": 17632,
+          "quesito_id": 3549,
+          "text_it": "Gli autobus devono essere muniti di finestrini di emergenza",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "1db2e304b07c0eb72cec8865b371c49c35e88add5ea4216a2645defd87f2aafc",
+        "italian": "I finestrini di emergenza consentono l'evacuazione quando le normali porte non sono utilizzabili. Il quiz li considera dotazione dell'autobus; la configurazione delle uscite dipende dalla classe e dall'omologazione del veicolo.",
+        "italian_sha256": "adcaeaf5bb9912d4d5a3e832e9a2d96a942df1f817a6d8374a98eedfea689a54"
+      },
+      {
+        "source": {
+          "number": 17633,
+          "quesito_id": 3549,
+          "text_it": "Gli autobus devono essere muniti di uscite di sicurezza",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "3ea2a0f114f57dcd862f6503dee2058d4f9f6cd136060cd54163e1c85813b2b7",
+        "italian": "Le uscite di sicurezza permettono ai passeggeri di lasciare il veicolo in emergenza; numero e disposizione dipendono dalle caratteristiche e dalla capacità dell'autobus.",
+        "italian_sha256": "16d140f9c79fcd348409a58702ff49216a93efcb7146165ba8e68c90916dbdb4"
+      },
+      {
+        "source": {
+          "number": 17636,
+          "quesito_id": 3549,
+          "text_it": "Gli autobus devono essere muniti di bretelle rifrangenti",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "5df877ba8c52869745b0161298f9e3126da109cc501944a2f1c00e7685c70514",
+        "italian": "È falso che le bretelle rifrangenti siano una dotazione obbligatoria dell'autobus in quanto tale. Il quiz distingue questa voce dalle dotazioni di sicurezza del veicolo, come le uscite di emergenza.",
+        "italian_sha256": "9a53e4a0a8454ed29cfffea744509101368a5892b6812382a6c81f34ea08d7e0"
+      },
+      {
+        "source": {
+          "number": 17638,
+          "quesito_id": 3549,
+          "text_it": "Gli autobus devono essere muniti di coprisedili",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "76a5fe13131a1e6ea683f666ed1fcf1004de6a471f32420c2bb50d5e92a40765",
+        "italian": "È falso che i coprisedili siano una dotazione obbligatoria dell'autobus: sono accessori, mentre sono previste dotazioni di sicurezza come le uscite di emergenza.",
+        "italian_sha256": "c39cf12eac9f755ba5be2f441ed0a021780302e05373626cf54b2cacfaf772e7"
+      },
+      {
+        "source": {
+          "number": 17640,
+          "quesito_id": 3549,
+          "text_it": "Gli autobus devono essere muniti di impianti acustici per ascoltare la musica durante il tragitto",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "fc624b40b2b436787e08645d4dd4eb5877d5de4e3f714e7e5a3a77c2dc9c8143",
+        "italian": "È falso che un impianto per ascoltare musica sia obbligatorio: è un accessorio, non una dotazione di sicurezza richiesta su ogni autobus.",
+        "italian_sha256": "fb29a82561e26ba173773a124aa2dbde2b9d962f11fb7ee259078aedb428cd97"
+      },
+      {
+        "source": {
+          "number": 17659,
+          "quesito_id": 3553,
+          "text_it": "L’obbligo di utilizzare le cinture di sicurezza, salvo i casi di esenzione consente di minimizzare i danni causati da un sinistro stradale",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "0117dba777cd942a90ff35161d43fc30939bc978c54082586115611dfd530e15",
+        "italian": "Le cinture trattengono gli occupanti durante l'urto e riducono il rischio e la gravità delle lesioni, senza poter eliminare ogni danno.",
+        "italian_sha256": "cb0a29588ff8b340d9b0b5cd5d72cc9f2e7a72b36c30d7bf868b59340195fd79"
+      },
+      {
+        "source": {
+          "number": 17660,
+          "quesito_id": 3553,
+          "text_it": "L’obbligo di utilizzare le cinture di sicurezza, salvo i casi di esenzione è comunque utile anche per sinistri che avvengono a basse velocità",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "675eb9522040c69b99a6d448e00a9f8a2a0d2ece348b3857d08ada2f9cf75919",
+        "italian": "Anche a bassa velocità una frenata o una collisione può provocare lesioni: la cintura aiuta a trattenere l'occupante.",
+        "italian_sha256": "4585bbfad638ed253e2d9a07b66b90490fab614d4824b7a4cbebcc8b9e12cff4"
+      },
+      {
+        "source": {
+          "number": 17661,
+          "quesito_id": 3553,
+          "text_it": "L’obbligo di utilizzare le cinture di sicurezza, salvo i casi di esenzione non toglie al conducente l’obbligo di guidare in maniera adeguata alle condizioni del traffico e della strada",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "2bae6c001f9deaefbab067740685195e8303a5a066e7376dec6b1ee83a511237",
+        "italian": "La cintura protegge in caso di urto, ma non sostituisce la guida prudente: il conducente deve regolare la velocità secondo strada, traffico e altre circostanze.",
+        "italian_sha256": "2e1c3cc77282b916269441a4f056f4cf654296f9eed28b6cac059c7a32105a5d"
+      },
+      {
+        "source": {
+          "number": 17663,
+          "quesito_id": 3553,
+          "text_it": "L’obbligo di utilizzare le cinture di sicurezza, salvo i casi di esenzione riguarda solamente i passeggeri dei sedili posteriori degli autobus che ne sono provvisti",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "f8da96fee4f556f9366323d6e863c249a783d8d07d722c2a2085e2c4dbd57fb8",
+        "italian": "È falso che l'obbligo riguardi soltanto i posti posteriori: sugli autobus M2 e M3, salvo esenzioni, gli occupanti di età superiore a tre anni usano da seduti i sistemi disponibili, anche davanti.",
+        "italian_sha256": "34605513f9e6d79a9b33298336d47aed1af32c404ef121841fc2749b6aeec7b7"
+      },
+      {
+        "source": {
+          "number": 17664,
+          "quesito_id": 3553,
+          "text_it": "L’obbligo di utilizzare le cinture di sicurezza, salvo i casi di esenzione riguarda solo il conducente in quanto i passeggeri sono espressamente esentati",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "71d567cbcf601e6085be0b339f53d8f4561966c1f4a5cc9040dec5e13b52a563",
+        "italian": "È falso che i passeggeri siano tutti esentati: sugli autobus M2 e M3 anche gli occupanti seduti di età superiore a tre anni devono usare i sistemi disponibili, salvo le specifiche esenzioni.",
+        "italian_sha256": "c6f73046904e21185113edc5f80901561fa35bdac8347d6092af08296d125037"
+      },
+      {
+        "source": {
+          "number": 17665,
+          "quesito_id": 3553,
+          "text_it": "L’obbligo di utilizzare le cinture di sicurezza, salvo i casi di esenzione riguarda solo i passeggeri in quanto il conducente è espressamente esentato",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "f6de8f5701c0fd95c204c2c3a98ce219c2a883d86c90906acc25c2f028ef1c21",
+        "italian": "È falso che il conducente sia automaticamente esentato: sugli autobus M2 e M3 l'obbligo riguarda gli occupanti seduti sopra i tre anni, salvo le esenzioni previste.",
+        "italian_sha256": "30439f7e13eff4cbf5a86801c036394952e6a30fb98fff8030c05ef29a822f77"
+      },
+      {
+        "source": {
+          "number": 17692,
+          "quesito_id": 3559,
+          "text_it": "Sugli autobus delle categorie internazionali M2 e M3 dotati di cinture di sicurezza i bambini di età inferiore a 3 anni: non hanno obbligo di utilizzare le cinture di sicurezza o i dispositivi di ritenuta per bambini",
+          "answer": 1,
+          "page": 13,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "db5b02d76b3be4f1e6b7c030a8d2c18b80b62b7684a8c4cf937553b4e9514258",
+        "italian": "Il quiz considera vero che sotto i tre anni non vi sia l'obbligo generale indicato per gli autobus M2 e M3: l'articolo 172 lo formula per gli occupanti di età superiore a tre anni. Ciò non esclude l'uso di sistemi adatti né eventuali prescrizioni per particolari servizi.",
+        "italian_sha256": "976829929999ffd4e169049e20c11fba2da2763a53b9e3e3f993fa9068ef2e50"
+      },
+      {
+        "source": {
+          "number": 17693,
+          "quesito_id": 3559,
+          "text_it": "Sugli autobus delle categorie internazionali M2 e M3 dotati di cinture di sicurezza i bambinidi età uguale o superiore a 3 anni devono utilizzare appositi sistemi di ritenuta, se effettivamente presenti sul veicolo (omologati ed idonei al veicolo) oppure le cinture di sicurezza, se il loro utilizzo non è incompatibile con la loro statura",
+          "answer": 1,
+          "page": 13,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "48933b359d0b0eec15d287a04de85348bc56eae9d81cda927fd6ff0bd004f57e",
+        "italian": "Sui veicoli M2 e M3 si usano i sistemi disponibili e compatibili con il bambino. Il quiz include chi ha esattamente tre anni; l’articolo 172 parla invece di occupanti di età superiore a tre anni.",
+        "italian_sha256": "eccf644991fef47c76614cdec8e3bea79a134a45cc3cb02b003f89f4628c914c"
+      },
+      {
+        "source": {
+          "number": 17694,
+          "quesito_id": 3559,
+          "text_it": "Sugli autobus delle categorie internazionali M2 e M3 dotati di cinture di sicurezza i bambini di età inferiore a 3 anni: hanno comunque l’obbligo di utilizzare le cinture di sicurezza o i dispositivi di ritenuta per bambini",
+          "answer": 0,
+          "page": 13,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "3bf6b83bd0b668ab6b93c635feb0051e47ce1e8a46ed9f1c0a11a4426f28ebcd",
+        "italian": "Non esiste un obbligo generale di uso per tutti i bambini sotto i tre anni sugli autobus M2 e M3: la disposizione specifica riguarda gli occupanti di età superiore a tre anni.",
+        "italian_sha256": "b514f92eba6e59cd0fb9a5d4544a5d86a5559690683218c2fafaa71a13ba2fe7"
+      },
+      {
+        "source": {
+          "number": 17695,
+          "quesito_id": 3559,
+          "text_it": "Sugli autobus delle categorie internazionali M2 e M3 dotati di cinture di sicurezza i bambini devono utilizzare i dispositivi di ritenuta o le cinture di sicurezza se trattasi di autobus urbani ovvero suburbani o extraurbani sui quali è consentito il trasporto di passeggeri in piedi quando circolano in ambito urbano",
+          "answer": 0,
+          "page": 13,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "b917acbe5894a5bc1c2aa3664350ca09e3ad305ad8fe4e360b033d7c0ce7f9de",
+        "italian": "È errato imporre sempre l’uso: i passeggeri dei veicoli autorizzati a trasportare persone in piedi sono esentati quando il veicolo circola in zona urbana nei servizi indicati.",
+        "italian_sha256": "c460686f6f3534109a06ce1992fd4f78778b5f971e59766ce7cb24b42fa80edf"
+      },
+      {
+        "source": {
+          "number": 17706,
+          "quesito_id": 3561,
+          "text_it": "Il trasporto di persone diversamente abili su carrozzella richiede il corretto utilizzo degli apparecchi di sollevamento di cui è munito l’autobus",
+          "answer": 1,
+          "page": 13,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "2465c610f490dd9b06b8d8d9b5475d012879a9e0a1fd94b56a60d29f5a724f26",
+        "italian": "Se l’autobus è dotato di sollevatore, occorre usarlo correttamente per far salire e scendere la persona in carrozzella in sicurezza.",
+        "italian_sha256": "9c40c3c69bc41ce5244ab0744d5545f9e0ecff036433be08ba2f81141a1cfae6"
+      }
+    ],
+    "task_sha256": "93063d74dedf57b9349b2c5fddca4217cb98d043e62a02259c0df33116c73dcc"
+  },
+  "rows": [
+    {
+      "number": 17502,
+      "text": "Un autobús de clase B, con pasajeros sentados, puede utilizarse para el servicio de alquiler con conductor. La clase indica la configuración del vehículo y no lo reserva para ese servicio."
+    },
+    {
+      "number": 17506,
+      "text": "La clase B corresponde a vehículos con un máximo de 22 pasajeros además del conductor; por encima de ese límite se utilizan las clases I, II y III."
+    },
+    {
+      "number": 17508,
+      "text": "La clase II corresponde a vehículos con más de 22 pasajeros además del conductor; hasta 22 pasajeros se distinguen las clases A y B."
+    },
+    {
+      "number": 17509,
+      "text": "Las dos clases son distintas: la B corresponde a vehículos de hasta 22 pasajeros además del conductor, y la II a los de mayor capacidad."
+    },
+    {
+      "number": 17516,
+      "text": "Las salidas de emergencia permiten evacuar el vehículo en una emergencia y deben cumplir los requisitos aplicables al vehículo."
+    },
+    {
+      "number": 17517,
+      "text": "Los autobuses deben contar con extintores adecuados para intervenir ante un principio de incendio a bordo."
+    },
+    {
+      "number": 17518,
+      "text": "La configuración determina las plazas autorizadas y puede incluir plazas para pasajeros de pie y espacios accesibles. Esto no significa que todos los autobuses deban tener todas estas categorías."
+    },
+    {
+      "number": 17519,
+      "text": "No todos los autobuses tienen únicamente asientos: las clases A, I y II también pueden admitir pasajeros de pie."
+    },
+    {
+      "number": 17520,
+      "text": "FALSO. No todos los autobuses deben tener paneles retrorreflectantes traseros: las obligaciones específicas para los paneles de vehículos pesados corresponden a determinadas categorías, en particular a vehículos destinados al transporte de mercancías."
+    },
+    {
+      "number": 17521,
+      "text": "FALSO. No existe una obligación general de colocar franjas laterales rojas en los autobuses; la obligación nacional de llevar marcas continuas de señalización corresponde a las categorías indicadas para el transporte de mercancías."
+    },
+    {
+      "number": 17530,
+      "text": "Las salidas de emergencia deben poder reconocerse mediante las indicaciones previstas, para que puedan localizarse en una emergencia."
+    },
+    {
+      "number": 17531,
+      "text": "Las salidas de emergencia pueden ser puertas, ventanillas o escotillas de evacuación."
+    },
+    {
+      "number": 17532,
+      "text": "El número mínimo de salidas depende de la capacidad de transporte, según los requisitos aplicables al vehículo."
+    },
+    {
+      "number": 17533,
+      "text": "No se exige señalizarlas mediante luces rojas: las salidas deben identificarse con las indicaciones correspondientes."
+    },
+    {
+      "number": 17535,
+      "text": "Las salidas no pueden quedar sin señalización: deben poder reconocerse para la evacuación."
+    },
+    {
+      "number": 17536,
+      "text": "El número mínimo no se determina por la masa a plena carga, sino según los requisitos que también toman en cuenta la capacidad de pasajeros."
+    },
+    {
+      "number": 17562,
+      "text": "VERO. Los extintores deben mantenerse en buen estado de funcionamiento y someterse a las revisiones previstas: no debe ignorarse el vencimiento del plazo de revisión."
+    },
+    {
+      "number": 17564,
+      "text": "La dotación debe respetar el número mínimo previsto para el tipo de autobús y su capacidad."
+    },
+    {
+      "number": 17565,
+      "text": "El cuestionario indica VERO, pero «de uno a cinco litros» es ambiguo: la disposición histórica hacía referencia a un extintor de espuma de 5 litros, no a cualquier capacidad entre uno y cinco. La nota ministerial indica como equivalente un extintor a base de agua homologado de al menos 6 litros."
+    },
+    {
+      "number": 17569,
+      "text": "El número mínimo se deriva de los requisitos de equipamiento en función del vehículo, no de un número indicado en la tarjeta de circulación."
+    },
+    {
+      "number": 17570,
+      "text": "Los extintores no se recargan antes de cada salida: ya deben estar en buen estado de funcionamiento y recibir el mantenimiento previsto."
+    },
+    {
+      "number": 17576,
+      "text": "El botiquín de primeros auxilios es un equipamiento previsto para los autobuses. Los requisitos concretos dependen de las normas aplicables al vehículo; la normativa de construcción prevé un lugar para el botiquín."
+    },
+    {
+      "number": 17577,
+      "text": "El botiquín debe colocarse en el lugar previsto y reconocible, para que pueda encontrarse y retirarse en caso de emergencia."
+    },
+    {
+      "number": 17578,
+      "text": "El cuestionario considera verdadero que los medicamentos que pueda haber no deben estar vencidos: la dotación debe permanecer utilizable. Esto no significa que todos los botiquines deban contener necesariamente medicamentos."
+    },
+    {
+      "number": 17579,
+      "text": "Es falso que sea un equipamiento simplemente opcional: el cuestionario lo considera previsto para los autobuses y las normas de construcción prevén un lugar para él. Los requisitos concretos dependen del vehículo."
+    },
+    {
+      "number": 17580,
+      "text": "Es falso que la disposición se refiera únicamente a autobuses de más de 16 plazas: ese límite puede influir en las características del equipamiento, pero no elimina automáticamente el botiquín en los vehículos más pequeños."
+    },
+    {
+      "number": 17581,
+      "text": "Es falso que solo un médico pueda usar el botiquín: los artículos sirven para prestar primeros auxilios y también pueden ser usados por quien brinda asistencia, dentro de los límites de sus conocimientos y capacidades."
+    },
+    {
+      "number": 17583,
+      "text": "El autobús escolar puede tener un asiento para el acompañante; cuando transporta niños de preescolar, están previstos la presencia de un acompañante y un asiento adecuado para él."
+    },
+    {
+      "number": 17584,
+      "text": "La señal cuadrada con fondo amarillo anaranjado puede identificar al autobús escolar: colocada en el exterior del vehículo, indica que transporta niños hacia y desde la escuela."
+    },
+    {
+      "number": 17585,
+      "text": "Los autobuses escolares pueden tener asientos y espacios de tamaño reducido, adecuados para los alumnos transportados. La formulación del cuestionario no implica que todos los asientos deban ser reducidos."
+    },
+    {
+      "number": 17587,
+      "text": "Es falso que estén prohibidos los asientos para acompañantes: para el transporte de niños de preescolar está previsto, de hecho, un asiento adecuado para el acompañante."
+    },
+    {
+      "number": 17591,
+      "text": "Es falso que los asientos deban tener siempre dimensiones similares a las de todos los demás autobuses: en el autobús escolar pueden ser más pequeños, según los alumnos transportados."
+    },
+    {
+      "number": 17594,
+      "text": "Es falsa la exclusividad para el preescolar: los autobuses escolares también pueden utilizarse para alumnos de la enseñanza obligatoria."
+    },
+    {
+      "number": 17631,
+      "text": "Los extintores son equipos de seguridad previstos para los autobuses, para permitir una primera intervención contra un incendio; su número y características dependen de los requisitos aplicables al vehículo."
+    },
+    {
+      "number": 17632,
+      "text": "Las ventanillas de emergencia permiten la evacuación cuando las puertas normales no pueden utilizarse. El cuestionario las considera parte del equipamiento del autobús; la configuración de las salidas depende de la clase y de la homologación del vehículo."
+    },
+    {
+      "number": 17633,
+      "text": "Las salidas de emergencia permiten a los pasajeros abandonar el vehículo en una emergencia; su número y disposición dependen de las características y de la capacidad del autobús."
+    },
+    {
+      "number": 17636,
+      "text": "Es falso que los tirantes reflectantes sean un equipamiento obligatorio del autobús como tal. El cuestionario distingue este elemento de los equipos de seguridad del vehículo, como las salidas de emergencia."
+    },
+    {
+      "number": 17638,
+      "text": "Es falso que las fundas de los asientos sean un equipamiento obligatorio del autobús: son accesorios, mientras que sí están previstos equipos de seguridad como las salidas de emergencia."
+    },
+    {
+      "number": 17640,
+      "text": "Es falso que un sistema para escuchar música sea obligatorio: es un accesorio, no un equipo de seguridad exigido en todos los autobuses."
+    },
+    {
+      "number": 17659,
+      "text": "Los cinturones sujetan a los ocupantes durante el impacto y reducen el riesgo y la gravedad de las lesiones, aunque no pueden eliminar todos los daños."
+    },
+    {
+      "number": 17660,
+      "text": "Incluso a baja velocidad, una frenada o una colisión puede provocar lesiones: el cinturón ayuda a sujetar al ocupante."
+    },
+    {
+      "number": 17661,
+      "text": "El cinturón protege en caso de impacto, pero no sustituye la conducción prudente: el conductor debe ajustar la velocidad según la vía, el tránsito y otras circunstancias."
+    },
+    {
+      "number": 17663,
+      "text": "Es falso que la obligación se refiera solo a los asientos traseros: en los autobuses M2 y M3, salvo excepciones, los ocupantes mayores de tres años utilizan los sistemas disponibles cuando están sentados, también en los asientos delanteros."
+    },
+    {
+      "number": 17664,
+      "text": "Es falso que todos los pasajeros estén exentos: en los autobuses M2 y M3, los ocupantes sentados mayores de tres años también deben utilizar los sistemas disponibles, salvo las exenciones específicas."
+    },
+    {
+      "number": 17665,
+      "text": "Es falso que el conductor esté exento automáticamente: en los autobuses M2 y M3, la obligación corresponde a los ocupantes sentados mayores de tres años, salvo las exenciones previstas."
+    },
+    {
+      "number": 17692,
+      "text": "El cuestionario considera verdadero que para los menores de tres años no exista la obligación general indicada para los autobuses M2 y M3: el artículo 172 la establece para los ocupantes mayores de tres años. Esto no excluye el uso de sistemas adecuados ni posibles requisitos para servicios particulares."
+    },
+    {
+      "number": 17693,
+      "text": "En los vehículos M2 y M3 se utilizan los sistemas disponibles y compatibles con el niño. El cuestionario incluye a quienes tienen exactamente tres años; el artículo 172, en cambio, habla de ocupantes mayores de tres años."
+    },
+    {
+      "number": 17694,
+      "text": "No existe una obligación general de uso para todos los niños menores de tres años en los autobuses M2 y M3: la disposición específica se refiere a los ocupantes mayores de tres años."
+    },
+    {
+      "number": 17695,
+      "text": "Es incorrecto imponer siempre el uso: los pasajeros de vehículos autorizados a transportar personas de pie están exentos cuando el vehículo circula en zona urbana en los servicios indicados."
+    },
+    {
+      "number": 17706,
+      "text": "Si el autobús cuenta con un elevador, debe utilizarse correctamente para que la persona en silla de ruedas suba y baje de forma segura."
+    }
+  ],
+  "output_sha256": "79e4740958993d5609e3767d24fa71ae999b717669043addd47922a2c780250b"
+}

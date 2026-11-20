@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1eda1-353e-7b23-ac5e-c34205fcd1f4"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 17976,
+          "quesito_id": 3604,
+          "text_it": "I servizi regolari specializzati assicurano il trasporto di determinate categorie di viaggiatori",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d41fc9835326dd3daea324ea65fcb44f6973e4ce7aeee0a891ef4d5376058db0",
+        "italian": "I servizi regolari specializzati sono destinati a categorie determinate di passeggeri, con esclusione degli altri.",
+        "italian_sha256": "981764596ff92deeb473c7c7b00f9b81a740764c7a056cafe5b28149db49627e"
+      },
+      {
+        "source": {
+          "number": 17977,
+          "quesito_id": 3604,
+          "text_it": "I servizi regolari specializzati non comprendono il trasporto domicilio- posto di lavoro dei lavoratori",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "da428274bd2e6e5450b418c15a191df431e921511981bddb42321b43b7b98359",
+        "italian": "È errata l'esclusione: il trasporto domicilio-lavoro dei lavoratori è espressamente compreso tra i servizi regolari specializzati.",
+        "italian_sha256": "6d2c3a5e8f279358bf903eef72f31b3aed0e6262fd39041868608bf6828da19c"
+      },
+      {
+        "source": {
+          "number": 17978,
+          "quesito_id": 3604,
+          "text_it": "I servizi regolari specializzati non comprendono il trasporto domicilio- scuola degli studenti",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0cb597d6f701ba6b3cd0d448aebdc09093fca3c95d6a818e432c09c6db9f7dbb",
+        "italian": "È errata l'esclusione: il trasporto domicilio-istituto scolastico di scolari e studenti è compreso tra i servizi regolari specializzati.",
+        "italian_sha256": "c64982f9f388f058246bd196c83f10d649784735c50d38244158b9ca63ba34b3"
+      },
+      {
+        "source": {
+          "number": 17979,
+          "quesito_id": 3604,
+          "text_it": "I servizi regolari specializzati non comprendono il trasporto Stato di origine-luoghi di stanza dei militari e delle loro famiglie",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4cf69e66d61fa515b7c00653e7d88b4974664780326110fb1b55194f935141a3",
+        "italian": "È errata l'esclusione: la disciplina richiamata dal quiz includeva tra i servizi regolari specializzati anche il trasporto dei militari e delle loro famiglie tra Stato d'origine e luogo di stanza.",
+        "italian_sha256": "248d16c486db82bb02d66315c2d028bb0a6fd4aa996a9feb73a13a283b1b33ac"
+      },
+      {
+        "source": {
+          "number": 17980,
+          "quesito_id": 3604,
+          "text_it": "I servizi regolari specializzati sono soggetti ad autorizzazione anche se sono attivati in base ad un contratto stipulato tra chi organizza il servizio ed il vettore",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a36e776c35156f1ef4b01fc7d41666246d2cca8dd502ac6b1f938e68f568e0e0",
+        "italian": "È errato affermare che l'autorizzazione sia sempre richiesta: se il servizio regolare specializzato è contemplato da un contratto tra organizzatore e vettore, non è soggetto all'autorizzazione prevista per i servizi regolari dal regolamento.",
+        "italian_sha256": "1f415fe2224f4aa1de83dbad02e29f2160e9f4f345122a48e25256914f487cd0"
+      },
+      {
+        "source": {
+          "number": 17981,
+          "quesito_id": 3604,
+          "text_it": "I servizi occasionali comprendono il trasporto domicilio-posto di lavoro dei lavoratori",
+          "answer": 0,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c7326a38f0ca42bfcc7ff94c128695f8d835e2048e2cbf0ec9499e57cf15eac1",
+        "italian": "Nel quiz il trasporto regolare domicilio-lavoro è classificato tra i servizi regolari specializzati, non tra gli occasionali. La sola destinazione lavoro non basta però a classificare ogni singolo viaggio come regolare.",
+        "italian_sha256": "b9578242d709ed3b5aeec6d35ce1be72ba2ce8a5c4f36992017996ad18000a53"
+      },
+      {
+        "source": {
+          "number": 17982,
+          "quesito_id": 3605,
+          "text_it": "La disciplina dell’autotrasporto di persone in ambito UE si applica ai trasporti internazionali di viaggiatori con autobus",
+          "answer": 1,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4fb7ee9d92b0566e0a69792009046686d19bbfa079d754d9dcf3690b3ae9ecf4",
+        "italian": "Il regolamento UE riguarda i trasporti internazionali di passeggeri con autobus, quando ricorrono le condizioni previste per vettore, veicolo e territorio.",
+        "italian_sha256": "eaf4a287cd35af36b5464f624ae40757ec2686e53b6507794f1075ff2d119651"
+      },
+      {
+        "source": {
+          "number": 17983,
+          "quesito_id": 3605,
+          "text_it": "La disciplina dell’autotrasporto di persone in ambito UE si applica ai trasporti internazionali effettuati nel territorio dell’Unione europea",
+          "answer": 1,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "281f66e21ffca12f9bf5be44009981183b34146d253733412d577aaa95fc5541",
+        "italian": "La disciplina UE si applica ai trasporti internazionali con autobus nel territorio dell'Unione, alle condizioni previste per vettore e veicolo e con le particolarità previste per i paesi terzi.",
+        "italian_sha256": "cb1308a92e16c21102ac27a2add4e0ffc198458b883b56af2ac89fda48852699"
+      },
+      {
+        "source": {
+          "number": 17984,
+          "quesito_id": 3605,
+          "text_it": "La disciplina dell’autotrasporto di persone in ambito UE si applica ai trasporti internazionali effettuati da vettori per conto terzi stabiliti in uno Stato membro",
+          "answer": 1,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3f78a0a2406dd4214dfcd665a4b6ffd98e02bda70a746a00f530b73d3dab5259",
+        "italian": "Sono compresi i trasporti internazionali con autobus effettuati da vettori per conto terzi stabiliti in uno Stato membro, purché ricorrano anche gli altri requisiti del regolamento.",
+        "italian_sha256": "abc5008c9e36124778f5476117e3c4e6be23eac360d283ae319a0a5c261e52a6"
+      },
+      {
+        "source": {
+          "number": 17985,
+          "quesito_id": 3605,
+          "text_it": "La disciplina dell’autotrasporto di persone in ambito UE si applica ai trasporti internazionali che almeno attraversano il territorio dell’Unione europea",
+          "answer": 0,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "da143b91ca8219a6fcf6cdd83cd32329aece3254654aae0cfcce7798b9f2d13a",
+        "italian": "Il solo attraversamento dell'Unione non basta a far rientrare qualsiasi trasporto nella disciplina: occorrono anche i requisiti relativi al vettore e all'autobus. Il regolamento può comunque applicarsi al transito, se tali requisiti sono rispettati.",
+        "italian_sha256": "e924ee64b9f15f1d761a865f31999d62b67146ca885f64bbe8041d562617c799"
+      },
+      {
+        "source": {
+          "number": 17986,
+          "quesito_id": 3605,
+          "text_it": "La disciplina dell’autotrasporto di persone in ambito UE si applica a tutti i trasporti internazionali",
+          "answer": 0,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "112c45a7a3855c14747f795b4f3394f3c89d49051e6e435616dcc761cf2df716",
+        "italian": "È errato dire tutti: il regolamento riguarda i trasporti internazionali con autobus che soddisfano specifiche condizioni, non qualsiasi trasporto internazionale.",
+        "italian_sha256": "da5bb90506e5b921def023990ba4eb091107d236728c29b50f5508f2e2976182"
+      },
+      {
+        "source": {
+          "number": 17987,
+          "quesito_id": 3605,
+          "text_it": "La disciplina dell’autotrasporto di persone in ambito UE si applica a tutti i trasporti internazionali in partenza od in arrivo in Italia",
+          "answer": 0,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "95e3961675c06fd5a3c69ccc4358b5f23e75d4d7eaa9a093bb02bd87ba02a11f",
+        "italian": "Partenza o arrivo in Italia non bastano da soli: il regolamento UE richiede altre condizioni e prevede limiti specifici per le tratte con paesi terzi.",
+        "italian_sha256": "0bb9aeb4dcd75b21bd71656dabbe546943368302d54bde6c4f0db644a42b69b6"
+      },
+      {
+        "source": {
+          "number": 17988,
+          "quesito_id": 3605,
+          "text_it": "La disciplina dell’autotrasporto di persone in ambito UE si applica ai servizi regolari internazionali che almeno attraversano il territorio dell’Unione europea",
+          "answer": 0,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "69c0e28244cbd045a46e16f41fc3a4a72c5e2ead1642232a45f82e5ab56dd637",
+        "italian": "Il solo transito nell'Unione non rende automaticamente applicabile la disciplina a ogni servizio regolare: devono ricorrere anche i requisiti su vettore e veicolo. Il transito può comunque rientrarvi quando tali requisiti sono soddisfatti.",
+        "italian_sha256": "9c02d177ae813d2ca21f09030f4ab88a32fe8b91d3cd8551e97d502d88687efc"
+      },
+      {
+        "source": {
+          "number": 17989,
+          "quesito_id": 3605,
+          "text_it": "La disciplina dell’autotrasporto di persone in ambito UE si applica a tutti i trasporti internazionali effettuati in conto terzi, a prescindere dall’autoveicolo utilizzato",
+          "answer": 0,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0d14f5bdd42aeb17c6fa42052d7af727f6f0d0d2dbb97d078b190418784aa8c0",
+        "italian": "È errato prescindere dal veicolo: il regolamento riguarda autobus idonei e destinati a trasportare più di nove persone, conducente compreso, oltre a richiedere altre condizioni.",
+        "italian_sha256": "a1f768005967c15e4ddc1ed1834b4cac8ce077907dff5f7da5637ad2afd73023"
+      },
+      {
+        "source": {
+          "number": 18000,
+          "quesito_id": 3608,
+          "text_it": "I servizi regolari specializzati sono quei servizi regolari che assicurano il trasporto di determinate categorie di viaggiatori, a esclusione di altri viaggiatori",
+          "answer": 1,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ab574c5c0ab39f0641b5efe623cb72979b9b5be539814c00da5bcd592baa7e02",
+        "italian": "I servizi regolari specializzati sono riservati a determinate categorie di viaggiatori e non aperti agli altri passeggeri.",
+        "italian_sha256": "10c32f5770198c32d7bac60d5806b6b5bb5da2932c952af136b8c1fb8f157c5c"
+      },
+      {
+        "source": {
+          "number": 18001,
+          "quesito_id": 3608,
+          "text_it": "I servizi regolari specializzati sono quei servizi regolari che non necessitano di autorizzazione se contemplati in un contratto stipulato tra organizzatore del servizio e vettore esercente che deve essere obbligatoriamente tenuto a bordo del veicolo",
+          "answer": 1,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "991893d9b1035c76e72769681046562a6b5e00752a931ccb496c5eb121e35fff",
+        "italian": "Il servizio specializzato previsto dal contratto tra organizzatore e vettore è esente dall’autorizzazione prevista per i servizi regolari. Il contratto o una sua copia certificata conforme funge da documento di controllo.",
+        "italian_sha256": "c969d2bc2ab0b6c6795639c39f5af08cae739448aba9c00ead2fea3e4374ec55"
+      },
+      {
+        "source": {
+          "number": 18002,
+          "quesito_id": 3608,
+          "text_it": "I servizi regolari specializzati sono quei servizi regolari che si svolgono utilizzando veicoli speciali",
+          "answer": 0,
+          "page": 38,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6509cf71ffe181548f8e8a465625dcd89d93df50aabb73c42b10b4050fb35ad9",
+        "italian": "«Specializzati» non significa svolti con veicoli speciali: questi servizi regolari sono riservati a determinate categorie di passeggeri, come lavoratori o studenti.",
+        "italian_sha256": "48e27b1ccd74d58dd197ac579140890bdd763310eee1d753199fe6be867ad893"
+      },
+      {
+        "source": {
+          "number": 18003,
+          "quesito_id": 3608,
+          "text_it": "I servizi regolari specializzati sono quei servizi regolari che si svolgono utilizzando autovetture e non autobus",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "676bc4d695df4ea78c9248860688faa4eb45bb16fea0992a91333ca3a5725a36",
+        "italian": "La distinzione non riguarda l’uso di autovetture anziché autobus: il servizio specializzato trasporta regolarmente determinate categorie di passeggeri.",
+        "italian_sha256": "854f360696c909b9daa30620e3cb189250f925db1c1ebfa880804e3a165140ae"
+      },
+      {
+        "source": {
+          "number": 18004,
+          "quesito_id": 3608,
+          "text_it": "I servizi regolari specializzati sono quei servizi regolari che sono effettuati da vettori speciali, in quanto per la loro natura possono svolgere i servizi senza nessun documento a bordo dell’autobus",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "22ff5ea773ac3dacdae37003a01d7c60123f76d44c60298d449551b58cf8503d",
+        "italian": "Non esistono qui vettori esentati da ogni documento per la loro natura. Per il servizio specializzato previsto dal contratto, il contratto o una copia certificata conforme funge da documento di controllo.",
+        "italian_sha256": "8f7d85b79509ec763cad4486df2938a74b8fe315e90a345441b57dc87cf1b173"
+      },
+      {
+        "source": {
+          "number": 18005,
+          "quesito_id": 3609,
+          "text_it": "Se previsti in un contratto stipulato tra chi organizza il servizio e il vettore che lo esercita possono non essere autorizzati i servizi regolari specializzati UE",
+          "answer": 1,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1d2eb7d24dcfd9c8f52797a4f334710ef54d7ca0f44f3c7b84e3cb08d84b3c18",
+        "italian": "I servizi regolari specializzati contemplati da un contratto tra organizzatore e vettore non richiedono l’autorizzazione prevista per i servizi regolari.",
+        "italian_sha256": "dd1f8ceddd36c62a27d1b400047ebf14c2d34dbedefda381a541af9f94c4c350"
+      },
+      {
+        "source": {
+          "number": 18006,
+          "quesito_id": 3609,
+          "text_it": "Se previsti in un contratto stipulato tra chi organizza il servizio e il vettore che lo esercita possono non essere autorizzati i servizi regolari UE",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0e7642bcfad3d92c04604e456f00a8e1b19a6ebbb693e6304e7e110bb291920a",
+        "italian": "Il solo contratto non esenta dall’autorizzazione tutti i servizi regolari UE: l’esenzione riguarda i servizi regolari specializzati contemplati dal contratto.",
+        "italian_sha256": "60f2ef6f2deedfe80b19ea962d386183b1be471c61258493304aa4c7ec312430"
+      },
+      {
+        "source": {
+          "number": 18007,
+          "quesito_id": 3609,
+          "text_it": "Se previsti in un contratto stipulato tra chi organizza il servizio e il vettore che lo esercita possono non essere autorizzati i servizi regolari con Stati extra UE",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d58efff1c4e6ab8393d9d1a5521e9a0c4b73289baaa794b8c30ecc3b7ac5c642",
+        "italian": "L’esenzione indicata dal quiz riguarda i servizi regolari specializzati disciplinati dalle norme UE, non automaticamente tutti i servizi regolari con Stati extra UE. Per questi ultimi occorre considerare gli accordi applicabili.",
+        "italian_sha256": "623f6037d74f3f7d376317dbc5e8745dab3e18f39f3d87d202b272fa943c6f3e"
+      },
+      {
+        "source": {
+          "number": 18008,
+          "quesito_id": 3609,
+          "text_it": "Se previsti in un contratto stipulato tra chi organizza il servizio e il vettore che lo esercita possono non essere autorizzati i servizi di trasporto in conto proprio",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "634f138cc1f2a5dfd0257d68b50447a9d1cccc889198dc02981555a3cd047ddc",
+        "italian": "Il contratto tra organizzatore e vettore è la condizione dell’esenzione prevista per i servizi regolari specializzati, non la regola che definisce il trasporto in conto proprio. Quest’ultimo segue una disciplina distinta.",
+        "italian_sha256": "a54ce5d9a22ed7e1648c763e7b7d79c213ddc76c50cb3f1bebf8d5467251c09f"
+      },
+      {
+        "source": {
+          "number": 18009,
+          "quesito_id": 3610,
+          "text_it": "I servizi UE la cui disciplina prevede che la copia del contratto tra vettore e committente sia obbligatoriamente tenuta a bordo dell’autobus sono i servizi regolari specializzati UE",
+          "answer": 1,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4b170d821762733a945f4c3da233b16edcd2be82a5dddde5fb86d507e3d6629d",
+        "italian": "Per i servizi regolari specializzati previsti dal contratto, esso funge da documento di controllo: è ammesso anche l’originale, oltre alla copia certificata conforme.",
+        "italian_sha256": "ff0ea553cb9b0a51370418585ebfe08c146c15b6b223a396331b205e644af367"
+      },
+      {
+        "source": {
+          "number": 18010,
+          "quesito_id": 3610,
+          "text_it": "I servizi UE la cui disciplina prevede che la copia del contratto tra vettore e committente sia obbligatoriamente tenuta a bordo dell’autobus sono i servizi regolari UE",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b7065eff570f58a08e98d1b347f2697f17756b5ae10b57fab420671c8338284c",
+        "italian": "La copia del contratto non è il documento previsto indistintamente per i servizi regolari: la regola riguarda quelli specializzati contemplati dal contratto, per i quali è ammesso anche l’originale.",
+        "italian_sha256": "13f9d40c92471bb9bb5d6341bca3957e2e3a6dd42e28ea38c53d24eaff045558"
+      },
+      {
+        "source": {
+          "number": 18011,
+          "quesito_id": 3610,
+          "text_it": "I servizi UE la cui disciplina prevede che la copia del contratto tra vettore e committente sia obbligatoriamente tenuta a bordo dell’autobus sono i servizi occasionali UE",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e4d628a32fae4b23b0d78cf05464d174045105b071baefc2240dd497db949cbd",
+        "italian": "Il contratto come documento di controllo riguarda i servizi regolari specializzati contrattualizzati. Per i servizi occasionali è previsto di norma il foglio di viaggio.",
+        "italian_sha256": "c57ddb23dfc04559f581830388d22b43f189bd6dd01de5c18b77998e6f20fa75"
+      },
+      {
+        "source": {
+          "number": 18012,
+          "quesito_id": 3610,
+          "text_it": "I servizi UE la cui disciplina prevede che la copia del contratto tra vettore e committente sia obbligatoriamente tenuta a bordo dell’autobus sono i servizi di trasporto in conto proprio",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "db17a2b3b9792e4b18fd9eea3ff76cd5225a576510b10a4bd57964330cc7da41",
+        "italian": "Il contratto tra vettore e committente come documento di controllo è previsto per i servizi regolari specializzati contrattualizzati, non per il trasporto in conto proprio.",
+        "italian_sha256": "c94a1efb349a8a9426a92dcaa6f3eaed3348b951a19d94cb4be0cc8557d2ac8c"
+      },
+      {
+        "source": {
+          "number": 18016,
+          "quesito_id": 3611,
+          "text_it": "I servizi regolari sono soggetti ad autorizzazione, che viene redatta nella lingua dello Stato che la rilascia",
+          "answer": 1,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cf96c94adb0306d60986c14fdbd0afa414f0e52149eca24306700ccf21ca2c74",
+        "italian": "VERO. I servizi regolari internazionali sono soggetti ad autorizzazione; il modello usa una lingua ufficiale dello Stato di stabilimento del vettore. La formulazione del quiz va intesa in questo contesto.",
+        "italian_sha256": "8e44796ff90918de0eea07c821a8cb5ed7c66bf99c7bf0c460d29445c5992b0b"
+      },
+      {
+        "source": {
+          "number": 18019,
+          "quesito_id": 3611,
+          "text_it": "I servizi regolari sono soggetti ad autorizzazione, che viene redatta in lingua francese",
+          "answer": 0,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "393b4d03a85d20fb1499e2325f8600cf61fcf3f1292014de030e0a8277f4bbd9",
+        "italian": "FALSO. Non è imposto il francese: il modello dell’autorizzazione usa una delle lingue ufficiali dello Stato di stabilimento del vettore.",
+        "italian_sha256": "7d0c2d0bbae8fdb12b4b9739ff8cd3172669cacbfda5d91b7f08ae571ed41cd9"
+      },
+      {
+        "source": {
+          "number": 18024,
+          "quesito_id": 3612,
+          "text_it": "In materia di trasporti in ambito comunitario è necessario tenere a bordo del veicolo l’originale o una copia certificata dell’autorizzazione e degli eventuali permessi di transito, se si tratta di un servizio regolare internazionale",
+          "answer": 1,
+          "page": 39,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1a61f7924dd2cde93c7ec3f493ee5be6e181fae426f7dc94711403771dc186ad",
+        "italian": "VERO. Per il servizio regolare soggetto ad autorizzazione, l’originale o una copia certificata deve essere a bordo; eventuali permessi di transito richiesti dal regime applicabile vanno anch’essi portati. Nell’UE l’autorizzazione copre l’intero itinerario.",
+        "italian_sha256": "80819837f0d65d0112e528104a52ca1ce7b270360176686fda590ca12a51807a"
+      },
+      {
+        "source": {
+          "number": 18026,
+          "quesito_id": 3612,
+          "text_it": "In materia di trasporti in ambito comunitario è necessario tenere a bordo del veicolo una copia certificata del contratto stipulato tra l’organizzatore del servizio e il vettore, se si tratta di un servizio regolare specializzato",
+          "answer": 1,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b6a42f0f426c03c5043aea4c8c2b24a5d34698a2875b0ab06051825c8c11909b",
+        "italian": "Per il servizio regolare specializzato previsto dal contratto, la copia certificata conforme è un documento di controllo valido. La norma ammette anche il contratto originale.",
+        "italian_sha256": "ae1abe7b9e1c7b24685fa37b9797673ce0364c4facd01cf2997f7a20aa23646f"
+      },
+      {
+        "source": {
+          "number": 18029,
+          "quesito_id": 3612,
+          "text_it": "In materia di trasporti in ambito comunitario è necessario tenere a bordo del veicolo una copia certificata del contratto stipulato tra l’organizzatore del servizio e il vettore, se si tratta di un servizio regolare",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8ea2499b496a158de210e8f5ccbd84363e8c6cfc22445a0a731cc65a958fe6cd",
+        "italian": "La copia del contratto non è richiesta indistintamente per ogni servizio regolare: è il documento di controllo, in alternativa all’originale, per il servizio specializzato previsto dal contratto.",
+        "italian_sha256": "4a93b04ec88deb81ee0ac72d3741bccf990868071ccee0bb22009314ec1ec204"
+      },
+      {
+        "source": {
+          "number": 18031,
+          "quesito_id": 3612,
+          "text_it": "In materia di trasporti in ambito comunitario è necessario tenere a bordo del veicolo il foglio di viaggio, se si tratta di un servizio regolare che non prevede l’attraversamento di paesi extracomunitari",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0b6ffbf1021be1e811c54facc2b594a9ce0c243456044ff7a6eaf6ff8be9e82e",
+        "italian": "Il foglio di viaggio non è il documento richiesto per il normale servizio regolare UE: è previsto di norma per i servizi occasionali. Il servizio regolare è soggetto ad autorizzazione.",
+        "italian_sha256": "0bb3225da0e61ba329004abc9e07b25762adf72e270d843f4bc4eee4947de8a2"
+      },
+      {
+        "source": {
+          "number": 18032,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari è obbligatorio tenere a bordo del mezzo che effettua il servizio la copia conforme dell’autorizzazione",
+          "answer": 1,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "df219a837711b078805dd8738fe57dacebde6e6ccfa06f626c6678fcb312d255",
+        "italian": "Per un servizio regolare soggetto ad autorizzazione, il veicolo deve avere a bordo l’autorizzazione o una copia certificata conforme. I servizi specializzati contrattualizzati costituiscono un’eccezione all’obbligo di autorizzazione.",
+        "italian_sha256": "7f4fb151f7fd1a0b4d5ae4bc0595147badb5636ea3d2a104235f7f8f86946656"
+      },
+      {
+        "source": {
+          "number": 18033,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari è obbligatorio tenere a bordo del mezzo che effettua il servizio la copia conforme della licenza comunitaria",
+          "answer": 1,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "92760c1296c9e86c2a3a3c580e1d71d7785cf1175daded83235443fc3f92e4f0",
+        "italian": "La copia certificata conforme della licenza comunitaria deve trovarsi a bordo del veicolo che effettua il trasporto internazionale.",
+        "italian_sha256": "fe3ab2fa29ddd21f83711e73f6257e9a7368e1c00b957fff17bad67be03d3b43"
+      },
+      {
+        "source": {
+          "number": 18034,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari è obbligatorio tenere a bordo del mezzo che effettua il servizio i permessi di transito",
+          "answer": 1,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "eff8d81bf4465807240ae4349f6117b0bc96049e84fd6fb599684d7fe4f86e4d",
+        "italian": "VERO secondo il quiz: gli eventuali permessi di transito richiesti devono accompagnare il servizio. La frase è generale: per il servizio regolare UE l’autorizzazione vale per l’intero itinerario e non implica sempre un permesso di transito separato.",
+        "italian_sha256": "d1a4f573f41b2b1f3d3f726afae9ad2fb3b17e6da1c36d87547e5ba7ef323c60"
+      },
+      {
+        "source": {
+          "number": 18035,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari specializzati, non è necessaria l’autorizzazione se sono attivati in base ad un contratto stipulato tra l’organizzatore del servizio e il vettore",
+          "answer": 1,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8c1261631b1df383691c0677c5e9823a7429b1abfc9eb00f2c8fc50f630d8f17",
+        "italian": "Quando il servizio regolare specializzato è contemplato da un contratto tra organizzatore e vettore, non è soggetto all’autorizzazione prevista dal capo III.",
+        "italian_sha256": "0b4d65e536ef191c43ccd17754024fae48d09515a4e7ac6fb42daf198e9f9f65"
+      },
+      {
+        "source": {
+          "number": 18036,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari specializzati, è obbligatorio tenere a bordo del mezzo che effettua il servizio una copia certificata del contratto stipulato tra l’organizzatore del servizio e il vettore",
+          "answer": 1,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6b8ecf112c397a0fc1a8e9e1db60fa38d6057627852a60080f0c6fead788ac6f",
+        "italian": "Per il servizio specializzato previsto dal contratto, una copia certificata conforme funge da documento di controllo. La norma ammette anche il contratto originale.",
+        "italian_sha256": "d2b7537457bab8d2d9dedf8b82af6c4d75183a6c8b3870e3c1356318a3b9f0dc"
+      },
+      {
+        "source": {
+          "number": 18037,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari non specializzati, è obbligatorio tenere a bordo del mezzo che effettua il servizio una copia certificata del contratto stipulato tra l’organizzatore del servizio e il vettore",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e13882441bde62c58b386be54068d133966e01d879ef5a8bfbcc599bd158f7e4",
+        "italian": "La copia del contratto non è il documento prescritto per i servizi regolari non specializzati: la regola riguarda quelli specializzati contemplati dal contratto e ammette anche l’originale.",
+        "italian_sha256": "638efba4bf8a585178ab2afb7481a0f5408d14cf3dd68b8a250726ba21047d59"
+      },
+      {
+        "source": {
+          "number": 18038,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari non è obbligatorio tenere a bordo del mezzo che effettua il servizio la copia conforme dell’autorizzazione",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ac7446d4e9a8bf0b709f231d29c08e137d4a9aca565bb282fc4e5c92ef15cf60",
+        "italian": "Per il servizio regolare soggetto ad autorizzazione il documento deve essere a bordo, in originale o in copia certificata conforme. Per i servizi specializzati contrattualizzati vale l’esenzione dall’autorizzazione.",
+        "italian_sha256": "c38a7c17332d21219441f957226eb5e9b669e9632fb079d627643ab473ec5eb9"
+      },
+      {
+        "source": {
+          "number": 18039,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari non è necessaria l’autorizzazione allo svolgimento del servizio se non prevede l’attraversamento di paesi extracomunitari",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "af89f8b20cff19182cf3ef41bf845a654cd32969a8be8e4bca2f5d6b42a3aced",
+        "italian": "Falso. I servizi regolari internazionali sono soggetti ad autorizzazione anche quando l’itinerario rimane nell’UE.",
+        "italian_sha256": "b0a6f08f3c9a7db4575ce01a36cc84a59a843a2b61f29df19945cba59060d835"
+      },
+      {
+        "source": {
+          "number": 18040,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari è obbligatorio tenere a bordo del mezzo che effettua il servizio il documento di controllo foglio di viaggio",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d3cc8fbdcba25c9254627312460bfc8b40bbca6c8abd5fb49ac2c48f0b481a46",
+        "italian": "Falso. Il foglio di viaggio è previsto per i servizi occasionali; per un servizio regolare soggetto ad autorizzazione il documento da tenere a bordo è l’autorizzazione.",
+        "italian_sha256": "ba44a5959fc63516be904ce8b77625ff0001636b0cdb463a8404cf089c4b8c2a"
+      },
+      {
+        "source": {
+          "number": 18041,
+          "quesito_id": 3613,
+          "text_it": "In materia di servizi regolari comunitari è obbligatorio tenere a bordo del mezzo che effettua il servizio una carta stradale in scala nella quale siano indicati l’itinerario e le fermate effettuate",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f16de67af4509819c02d615aa1de1b017a015fb896800d4237cf2dfb01201c9b",
+        "italian": "Falso. Non è prescritta a bordo una carta stradale in scala: l’autorizzazione del servizio indica itinerario e fermate e deve trovarsi a bordo.",
+        "italian_sha256": "a58deb16b5179d73fa9afc6374b9e5ae9dff46fdd70e526ae00e277ebf4ae5fb"
+      },
+      {
+        "source": {
+          "number": 18046,
+          "quesito_id": 3615,
+          "text_it": "Sul documento collettivo o individuale di trasporto di cui devono essere muniti i viaggiatori di un servizio regolare UE, non è indispensabile che sia riportato nome e cognome del passeggero",
+          "answer": 1,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9774d23310ac4612f494991533e2f45b5c90cc714b632cfad3051b0d6ac017c5",
+        "italian": "Vero. Per il documento di un servizio regolare non specializzato sono previsti percorso, validità e tariffa; nome e cognome non figurano tra le indicazioni obbligatorie.",
+        "italian_sha256": "5521e313ac46ae5c96d40228613e7de985f10c37ba356d9e9094c44166ee2005"
+      },
+      {
+        "source": {
+          "number": 18047,
+          "quesito_id": 3615,
+          "text_it": "Sul documento collettivo o individuale di trasporto di cui devono essere muniti i viaggiatori di un servizio regolare UE, non è indispensabile che sia riportato il prezzo del trasporto",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c7469e68c2f7d2b16300d3a28b2f8ea28c18e65326e6d37e6cb3bf87d4a32abf",
+        "italian": "Falso. Il documento di trasporto del servizio regolare non specializzato deve indicare la tariffa.",
+        "italian_sha256": "850e042d7bf8c357137769ec2a68d05ba56f9c25f0c79fe167b67ae6774bb1b2"
+      },
+      {
+        "source": {
+          "number": 18048,
+          "quesito_id": 3615,
+          "text_it": "Sul documento collettivo o individuale di trasporto di cui devono essere muniti i viaggiatori di un servizio regolare UE, non è indispensabile che sia riportata l’indicazione delle fermate di salita e discesa del passeggero",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e782c87d10e9f065e2770f45ade4be1d3342a78789ddf3338776cbbaf31a9bae",
+        "italian": "Falso secondo il quiz: il documento deve indicare i punti di partenza e di arrivo. La norma parla però di questi punti, senza precisare espressamente le fermate individuali di ciascun passeggero.",
+        "italian_sha256": "182c99ce608496d4267346c62443c96e49c1f2dfe48e7655666ba45a4479c510"
+      },
+      {
+        "source": {
+          "number": 18049,
+          "quesito_id": 3615,
+          "text_it": "Sul documento collettivo o individuale di trasporto di cui devono essere muniti i viaggiatori di un servizio regolare UE, non è indispensabile che sia riportata la durata di validità dello stesso documento di trasporto",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "915bedf3e93a8cf354ce825b21b16310f6f5491151df04168542b0ad2cb0ce0c",
+        "italian": "Falso. Il documento deve indicare la propria durata di validità.",
+        "italian_sha256": "0d70d9844050404785f8c92aadd686e7381010074af520ae5960982f373e3adb"
+      },
+      {
+        "source": {
+          "number": 18050,
+          "quesito_id": 3616,
+          "text_it": "Il biglietto (documento di trasporto) deve essere conservato dai viaggiatori per tutta la durata del viaggio",
+          "answer": 1,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "962796661c3ad3665b5ed5d302949ac4e7308fd1d313a4dce2edda4ada7ed830",
+        "italian": "Vero. Nella disciplina richiamata dal quiz, il viaggiatore deve conservare il documento per tutta la durata del viaggio.",
+        "italian_sha256": "caa8595f97955dc1392fbe76692f643def49168dfa595b6f3922671ba340a8b9"
+      },
+      {
+        "source": {
+          "number": 18051,
+          "quesito_id": 3616,
+          "text_it": "Il biglietto (documento di trasporto) deve essere rilasciato dal vettore anche alla fine del viaggio",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f1c9350d47184f67ada9120f0e1e9cced1d468d79538b7d0608497a555017b11",
+        "italian": "Falso. Il documento deve accompagnare il viaggio: rilasciarlo soltanto alla fine non permette al viaggiatore di esserne munito durante il percorso.",
+        "italian_sha256": "3957266b61d36425b694064f6589263cfd20636d8d466dc07738e5b49340a320"
+      },
+      {
+        "source": {
+          "number": 18052,
+          "quesito_id": 3616,
+          "text_it": "Il biglietto (documento di trasporto) deve essere necessariamente ritirato dal viaggiatore prima di salire a bordo dell’autobus",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5845490eeb4f99faa6c46a8331c913957d261aec8a0122810eb7cf49ccb2059a",
+        "italian": "Falso. Il ritiro prima della salita non è una regola universale: quando il gestore lo consente, il biglietto può essere acquistato a bordo.",
+        "italian_sha256": "a0e490043b4eabb310a302b14c7fe23124ea55024e1a6d8b22d99c200b25eb9f"
+      }
+    ],
+    "task_sha256": "e60894c209882eaf4390058e604f0c5511ec8248c78770b63be3defc57675724"
+  },
+  "rows": [
+    {
+      "number": 17976,
+      "text": "专门定期服务面向特定类别的乘客，不向其他乘客开放。"
+    },
+    {
+      "number": 17977,
+      "text": "这种排除说法是错误的：工作人员往返住所与工作地点的运输明确属于专门定期服务。"
+    },
+    {
+      "number": 17978,
+      "text": "这种排除说法是错误的：学生往返住所与学校的运输属于专门定期服务。"
+    },
+    {
+      "number": 17979,
+      "text": "这种排除说法是错误的：题目所依据的规定也将军人及其家属往返原籍国与驻地的运输列为专门定期服务。"
+    },
+    {
+      "number": 17980,
+      "text": "说始终需要授权是错误的：如果专门定期服务包含在组织者与承运人签订的合同中，就不受该条例对定期服务规定的授权要求约束。"
+    },
+    {
+      "number": 17981,
+      "text": "在题目中，住所与工作地点之间的定期运输被归类为专门定期服务，而非临时服务。但仅凭目的地是工作地点，不足以将每一次行程都归类为定期运输。"
+    },
+    {
+      "number": 17982,
+      "text": "符合承运人、车辆和地域方面规定的条件时，欧盟条例适用于国际巴士客运。"
+    },
+    {
+      "number": 17983,
+      "text": "欧盟规定适用于欧盟境内的国际巴士运输，须符合承运人和车辆方面的条件，并遵守针对第三国的特别规定。"
+    },
+    {
+      "number": 17984,
+      "text": "其中包括在成员国设立的营业性承运人提供的国际巴士运输，但还须满足条例的其他要求。"
+    },
+    {
+      "number": 17985,
+      "text": "仅仅穿越欧盟并不足以使任何运输都纳入该规定的范围：还须符合承运人和巴士方面的要求。如果满足这些要求，条例仍可适用于过境运输。"
+    },
+    {
+      "number": 17986,
+      "text": "说“所有”是错误的：该条例涉及满足特定条件的国际巴士运输，而非任何国际运输。"
+    },
+    {
+      "number": 17987,
+      "text": "仅凭在意大利出发或到达还不够：欧盟条例还要求满足其他条件，并对涉及第三国的路线规定了具体限制。"
+    },
+    {
+      "number": 17988,
+      "text": "仅仅过境欧盟，不会使该规定自动适用于每项定期服务：还须满足承运人和车辆方面的要求。满足这些要求时，过境运输仍可纳入其范围。"
+    },
+    {
+      "number": 17989,
+      "text": "忽略车辆条件是错误的：该条例涉及适合并用于运载九人以上（包括驾驶人）的巴士，同时还要求满足其他条件。"
+    },
+    {
+      "number": 18000,
+      "text": "专门定期服务仅供特定类别的旅客使用，不向其他乘客开放。"
+    },
+    {
+      "number": 18001,
+      "text": "组织者与承运人之间的合同所规定的专门服务，免于取得定期服务所需的授权。合同或其经认证的真实副本可作为检查文件。"
+    },
+    {
+      "number": 18002,
+      "text": "“专门”并不意味着使用特种车辆：这些定期服务仅供特定类别的乘客使用，例如工作人员或学生。"
+    },
+    {
+      "number": 18003,
+      "text": "这种区别与使用轿车还是巴士无关：专门服务定期运送特定类别的乘客。"
+    },
+    {
+      "number": 18004,
+      "text": "这里不存在因自身性质而免于携带任何文件的承运人。对于合同规定的专门服务，合同或经认证的真实副本可作为检查文件。"
+    },
+    {
+      "number": 18005,
+      "text": "组织者与承运人之间的合同所规定的专门定期服务，无须取得定期服务所需的授权。"
+    },
+    {
+      "number": 18006,
+      "text": "仅有合同并不能使所有欧盟定期服务免于授权：豁免适用于合同所规定的专门定期服务。"
+    },
+    {
+      "number": 18007,
+      "text": "题目所述的豁免涉及受欧盟规则管辖的专门定期服务，并非自动适用于所有与非欧盟国家之间的定期服务。对于后者，须考虑适用的协议。"
+    },
+    {
+      "number": 18008,
+      "text": "组织者与承运人之间的合同是专门定期服务获得豁免的条件，并非界定自用运输的规则。自用运输遵循另一套规定。"
+    },
+    {
+      "number": 18009,
+      "text": "对于合同规定的专门定期服务，合同可作为检查文件：除了经认证的真实副本，也允许使用原件。"
+    },
+    {
+      "number": 18010,
+      "text": "合同副本并非所有定期服务一律规定使用的文件：该规则涉及合同所规定的专门服务，也允许使用原件。"
+    },
+    {
+      "number": 18011,
+      "text": "合同作为检查文件适用于有合同约定的专门定期服务。临时服务通常使用行车单。"
+    },
+    {
+      "number": 18012,
+      "text": "承运人与委托人之间的合同作为检查文件，适用于有合同约定的专门定期服务，而不适用于自用运输。"
+    },
+    {
+      "number": 18016,
+      "text": "VERO。国际定期服务须取得授权；其表格使用承运人设立所在国的一种官方语言。应在这一背景下理解题目的表述。"
+    },
+    {
+      "number": 18019,
+      "text": "FALSO。并未规定必须使用法语：授权表格使用承运人设立所在国的一种官方语言。"
+    },
+    {
+      "number": 18024,
+      "text": "VERO。对于须取得授权的定期服务，车上必须携带授权文件原件或经认证的副本；适用制度要求的任何过境许可证也须携带。在欧盟境内，授权涵盖整个行程。"
+    },
+    {
+      "number": 18026,
+      "text": "对于合同规定的专门定期服务，经认证的真实副本是有效的检查文件。规定也允许使用合同原件。"
+    },
+    {
+      "number": 18029,
+      "text": "并非每项定期服务都一律要求携带合同副本：对于合同规定的专门服务，副本可替代原件作为检查文件。"
+    },
+    {
+      "number": 18031,
+      "text": "行车单并非普通欧盟定期服务所要求的文件：它通常用于临时服务。定期服务须取得授权。"
+    },
+    {
+      "number": 18032,
+      "text": "对于须取得授权的定期服务，车辆上必须携带授权文件或经认证的真实副本。有合同约定的专门服务是授权义务的例外。"
+    },
+    {
+      "number": 18033,
+      "text": "执行国际运输的车辆上必须携带欧盟许可证经认证的真实副本。"
+    },
+    {
+      "number": 18034,
+      "text": "根据题目为 VERO：服务运行时必须携带任何所需的过境许可证。这一表述比较笼统：对于欧盟定期服务，授权对整个行程有效，并不总是意味着需要单独的过境许可证。"
+    },
+    {
+      "number": 18035,
+      "text": "当专门定期服务包含在组织者与承运人之间的合同中时，该服务不受第三章规定的授权要求约束。"
+    },
+    {
+      "number": 18036,
+      "text": "对于合同规定的专门服务，经认证的真实副本可作为检查文件。规定也允许使用合同原件。"
+    },
+    {
+      "number": 18037,
+      "text": "合同副本并非非专门定期服务规定的文件：该规则涉及合同所规定的专门服务，也允许使用原件。"
+    },
+    {
+      "number": 18038,
+      "text": "对于须取得授权的定期服务，车上必须携带该文件的原件或经认证的真实副本。有合同约定的专门服务免于授权。"
+    },
+    {
+      "number": 18039,
+      "text": "Falso。即使行程始终在欧盟境内，国际定期服务也须取得授权。"
+    },
+    {
+      "number": 18040,
+      "text": "Falso。行车单用于临时服务；对于须取得授权的定期服务，车上应携带的文件是授权文件。"
+    },
+    {
+      "number": 18041,
+      "text": "Falso。规定并未要求车上携带按比例绘制的道路地图：服务授权文件注明路线和停靠站，且必须随车携带。"
+    },
+    {
+      "number": 18046,
+      "text": "Vero。非专门定期服务的运输凭证须注明路线、有效期和票价；乘客的姓名不属于必须注明的内容。"
+    },
+    {
+      "number": 18047,
+      "text": "Falso。非专门定期服务的运输凭证必须注明票价。"
+    },
+    {
+      "number": 18048,
+      "text": "根据题目为 Falso：凭证必须注明出发点和到达点。但规定提及的是这两个地点，并未明确规定每位乘客各自的上下车站。"
+    },
+    {
+      "number": 18049,
+      "text": "Falso。凭证必须注明其有效期限。"
+    },
+    {
+      "number": 18050,
+      "text": "Vero。根据题目所依据的规定，旅客必须在整个行程中保存凭证。"
+    },
+    {
+      "number": 18051,
+      "text": "Falso。凭证必须在行程中随身携带：仅在行程结束时发放，会使旅客无法在途中持有凭证。"
+    },
+    {
+      "number": 18052,
+      "text": "Falso。上车前领取并非普遍规则：运营者允许时，可以在车上购票。"
+    }
+  ],
+  "output_sha256": "b607b69818a3457142050d21642de6e467e0681df5c32f6ba0b42a59124cbfdc"
+}

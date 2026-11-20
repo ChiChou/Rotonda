@@ -1,0 +1,160 @@
+{
+  "batch": "042",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_early",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "13cdc5921a8399b4ccb5e5492ce477f810f7f261e29441becd72d256432fd69d",
+  "rows": 100,
+  "verified_ids": [
+    "954ddfa6c5959809403c2d5358385e0f52c549ff3302a8840368167def190e0f",
+    "c7a041fbd04fda6e1e9e0ae851a882cad86b42cbc1536dff52eaac18527b344c",
+    "c07d18698a3f40f28046f1b2c476fc515ef980f25826abd872e1153ec07e4d2e",
+    "6844847e89d8f49e5fa8cfe4b4bbb62fe170ac37c25c13122e6ea68ae84b4a48",
+    "db14af1add0df0475ede3c75eb87c1aa790750aa5a155c2807a322fd405a436b",
+    "12cdf571f978f61bad16464caa5c64cc840441882e0aa8ade5e044a290523df9",
+    "1176d4f365e00d78a5bf7cb786f0c8edb7318dc31638c960e1fb9207220be92f",
+    "8cf3177fd7a810c8d800a87d144e9667672d45d8ac93db393fced0798d092d39",
+    "cd419ec2e0c353b3cb6b341475b4f68c8d5bd96657eb18d8abd2821a8ef507d5",
+    "94b8b14b24df547bd8bd95473173c713b4cdd8bdceb2b6851b50f1228f0c1d1c",
+    "310ac0214b61598ecee2529fea3cbd2342647bcf16b27da50236c23760097e52",
+    "a927b18bf50282d2a1728833fffe52b1cb49efc806ee4de27935987734c21c59",
+    "ae6a2979783a2e76d464ce7e1a3e13b9e75df2dbdeb39c329cac7961c05c9569",
+    "b3dfb9098d3e8edaaec918df24faae89783f0ce100e96d6cc4a1484486bdeede",
+    "f68022d1b456549fa09c3a57f8139c40f8634b23a337b5f1c80add4576aa5c5d",
+    "794d6f5b94df7dabfedca70f3e9c1705076eff49c21babb955fe3a88002aa8f1",
+    "6042250c230d20152231a423fbc054d94cd9063f3542e3526fefa58fc1c01d88",
+    "362a026f4e1f3368c0af885596cd5f3a3e42294bbdce628b4fa826f47287b902",
+    "1936f0729a1a6c5bc389e43fd81e6f07e7edd049eb0103dbb2c21013a4b9687d",
+    "9b05d670f36dbd654fe12d5cdb99cd1e78f137ec16d31ae08ecd447f13899056",
+    "49ed047e9fe4b4c4907ce16fdd02ca14b5df33978cc38ba34b576a360557ed4c",
+    "e1fc70715b7a72282337767aa9afe5413915944336cc3b14e8962d7db09d5a42",
+    "64e0e49f74daef8630217210562b3771a0734da028cf73d6e7b4cb6b1b5942e0",
+    "44d2f8231c4dde44a5b6d9352472851356031d13034f79929f4b8c078230e7db",
+    "83b4b01ef9959155b26dee77f127dd5f6a6bdf8574593336467463a7b870562a",
+    "44034cc2260f8525fb01495a21fcf980f843c3b6e1e359441d5d49bf2f4f318a",
+    "8a5a623a3eabb844084ce7f4862c95aa528b970b8ea85fe67e6e60e7ad9a0ac0",
+    "136e915044797aa195e455d6ea33ef21e879b89cc00c81d7ea276f2a2a0f970a",
+    "4663254e20f80cb851f38870bb813fccaca509b9757a9b5487002291ba1569df",
+    "25cb408fe078e5c6f0e2463d3832b0cdc008b119a814e8a46b7e7d79e610671f",
+    "ac0b6dbfd777d07b0fda6a5481982f3a281421fdf0c874cb3578e143b0554e6a",
+    "592e37106cb30b0722699cb5b00cd513b65a24e66e212e69efc7a913790760c9",
+    "e9f4244ff70e10b8c2e27ee6fd8ec22766001d3905971a4a72aadba13176d053",
+    "fee17642ede4c697cd273158e78985e350d37332300d75351370bf9062d5cfeb",
+    "0a2a81c3a3851e169abc32fcbb24909d064c1d0c3814f04a1b15742782911969",
+    "c288864ab99bbd2ffb631db8cf86dcada03b6c30cabae33d1ec508102de1d3ba",
+    "d8ae32c3b58809301e23e2c2b3a25e027b7e2a05462821f624ebf45b7e4bcab2",
+    "78d635f90ccc3a27963955c7facaaf94ba06278f260e08d0a0a9585db7592c22",
+    "8f09e479113c7ca4474cd1f3d03d38a3563430b2323e4321ecbe8b30ada59b98",
+    "0effe2b3021f6d2f51616d70b5e1ba57cc253d3819c87bba40bf898537416af6",
+    "d49ab018db9a1c0f832d2071c97bc7b42546ba4f518f3e8c67d6cbd9a16dc996",
+    "b863f09f896833c66213cb3ad533775f323d9541c052de86c9e2775e21a93c8d",
+    "c330c207959e494cb8fa19003a20af1b1a040a475e1d23cf344e05c54f5fb04e",
+    "3c9034269473bcc9a2292508c0e773dcf44b09f5e25268638fb868807d331b6d",
+    "e8c50b55704798a3890027ac429d65b346a4ee8c76f063b484f636d85fba14bd",
+    "08045a00fa4d4c4ac81b5f9878ead269656deecbcfa675e5740fcda5c1e81457",
+    "44bc3836f1bfdd4d532279593a3252ca59027476b19460457314d8428e7c51f5",
+    "c793cf466cb5caf765a4a8bb27637adc2c2c688dc05494ccf72b41c56016c089",
+    "4b1112a96c8ec2b0cfc23a75efb2818f30ffba32b75a13f094cea7b4edca2b9d",
+    "176800b2fa357de83ecbea5fe9fd89400d8c8a6686d1bbb9656cbd798910d8a1",
+    "d3910b31900e582bfe26fd6482d0874e516caa1b8257fb8391b06d214459b935",
+    "434cf45bbafc6ef9e5cbbf1708b977aa10122c338b8be43af928e8d78d37a6af",
+    "97b1e54c390d78d7a43de2078b50046b6475f02eb91412959823d0ea42aa507f",
+    "6108c811fe4adc27317d1c7364b57fc89f2b5c16e32d2a78703af42b3bc0de6f",
+    "7100a066b3939cb51b0f9309741f7359a89952847f04bf53d384601e5e5dc906",
+    "705697dddc258802657b45f5bbef48a47ce39ab8111b19ac5c6efa2c582a6b54",
+    "d2725f12dd705e5415c80d06204bab063e2a8c7ce2570c39bc15502884b6589c",
+    "edd4f698333d0441949ab498e0b5787887077d2e34f64df3b0bf6ef796d3c197",
+    "9c2ec72bc1608d0e2467253b69ef2c1256109e7dbe0b1135489fd3649f4dbde3",
+    "0251d32a558917bfc98ffcffa6becdcd58d7237261701509c6c99873b8e194b6",
+    "1983206314eae16f881ff1f697859927c5713dbe6a4963ba61e9306512f52a5c",
+    "0d4e4d71529def7cef488c2c2e358bd9bd029dceed3a8e3776585d8237ac1c3b",
+    "979ef4a77d446e1eec3f2d7f5c3cc76661dd2b0e9adcb98037dd2e3cbd00873f",
+    "8e33ea3a0f9c888abe96c4f26855899519260ea00ef673fe9934871d53a585d6",
+    "d018b29907ec57c51e67d315219c7791be63658f113e2fc194f01d4fa9e07cba",
+    "5aa3b2137010ba62c95fb78e407ccba1f96579583bdedbe5b22bc5136d562e02",
+    "cc532f29ae781c615077e4741b80d55b2e3d3767b871b0b1b28da67baefd554b",
+    "c8d70579bf4e1433231fa397d84d51460d6157a0fc337a6f321b72d0cb1e4d16",
+    "9b7d2b86e70de7ce1b93304a6a5977f73d1b493cae4b1c9e7c3910763031484a",
+    "72465fb869a0dc0a9acf1d1d8a2994005d3a849bd11a536d39a5a4d42c60bfd9",
+    "30fb4dd099d57d558580d3b5d3807b08b27c351692bcc07f6af62e8667aaa0d3",
+    "5cb9335cafe6a3137d5c78b4af0fe5d832af987ce14efa702b1b1b69bee05f02",
+    "7afa496729a9aff493af7c6836412a8db1af10f13d4e010635b61ea654c809be",
+    "99c393474dc59d3fa9c42833f3bc90f973493ffcaea4c982cedaa7a93d2b5426",
+    "b5f739f52b42c558a5d43da0e0253bd0b221fad62ff753777c67c2ece6d50806",
+    "3ec1278d40c29dfcd8a9fff6d1b45f960addd0174d6c2f19e27327854bf5d817",
+    "e35bb1f4626e20b603fa33858b2f9dd4a6ccdc3913139a087ca051abfeedef62",
+    "ca6b091194b27c41295f1d0074df27a83e1a28b856397def042c4f23b4ab09e0",
+    "6f237757e96c096bf057b5b6f3a703affeafa64d949b7edeab2f311b9f3bd9d8",
+    "726bc734e2237394b1b0df25b17be3ab92e4d2c664ac4809c4e62cf5346fd942",
+    "1205f2983cfd337d3d5b88bdf65db8c7b7bef529adef0eeecec797954d0f6602",
+    "66292e11545abc9cf027dad0029f83b3b3b65ba8b301ee859a301835f7510895",
+    "4302bbe9975057c5784924e339871f98cadb7bb26fa996b0ddf9e2d6fbdbbdec",
+    "7ca12fc9de1f10ba791d3ca181b99de29eebb92e68349f979e6078ceebd3b453",
+    "6c1480b28fcf1367f90d19332b4d7f3017ba81d601deab9347f46af4838310d9",
+    "4788b2653e979e4483bbc464fadef28f580a49e7f9f9cb3045861bb35dcd3975",
+    "0d6268fa6c7b4dcbbe44b5e1b113780556c669052f0a1e869f397a5c858595e4",
+    "390b6133849ae6a98e13fb38c9bbe524790888262f47201ca715c8829182d14c",
+    "eaddee7b4bf1a2a3c7bbd8f4ea9ebdc151310359041212ed9b6b546c499511d1",
+    "3775df2c168ac66326a216a12755c35318ea1bda8734a5bb63b38fc11fc0a740",
+    "d99d6e905281b769cdb0e855c96365e5d781613505555eefc5d8e921820dcd84",
+    "7d805a5ba78c7a999fc4acefd0e9179c110cab470bd5ef01b48cffea3306e965",
+    "27aa2dd0622ae679ac7ac2b339cc1afb464c7b5f2649e0e61ef5fed71ea05ed5",
+    "7aae3f28831072308c0b0c9a30ffe088c4e4b134298e227ffb17683a2cd63abf",
+    "777b23e8aa1ea4dd7c5ffe9e730fdc037519e5ffc08fd196324fb75b0ad2871c",
+    "c0c004cc9ee5cb90427b3116d6049e4b372379f597505163905f004e12b2bea1",
+    "5e64edf4e6eb55b8977e0df1b6d0cf04c87a8d4e886a86bc69a049d80a70aa37",
+    "8e56cdbe8c6eac0ca857eef9879a0e6f0ad5215703456468cd0af4d9397ed937",
+    "643517e743015b061239572a8791a8c1a8822581c768a65ac6fa0337d1afce65",
+    "9ed3f1fca3b1f6e7b8ef8bf181f90f31096592375faae0078448cc4b5956c5aa"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "b3dfb9098d3e8edaaec918df24faae89783f0ce100e96d6cc4a1484486bdeede",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "For damage or costs caused by defective packaging or improper cargo securing, the consignor is liable when they loaded the goods.",
+          "after": "For damage to people, equipment or other goods, or costs caused by defective packaging or improper cargo securing, the consignor is liable when they loaded the goods."
+        }
+      }
+    },
+    {
+      "id": "4663254e20f80cb851f38870bb813fccaca509b9757a9b5487002291ba1569df",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "For damage or costs caused by defective packaging or improper cargo securing, the consignor is liable when the carrier noted the defects on the consignment note.",
+          "after": "For damage to people, equipment or other goods, or costs caused by defective packaging or improper cargo securing, the consignor is liable when the carrier noted the defects on the consignment note."
+        }
+      }
+    },
+    {
+      "id": "592e37106cb30b0722699cb5b00cd513b65a24e66e212e69efc7a913790760c9",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "For damage or costs caused by defective packaging or improper securing, the consignor is liable when they result from inaccurate or incomplete particulars provided by the consignor on the consignment note.",
+          "after": "For damage to people, equipment or other goods, or costs caused by defective packaging or improper securing, the consignor is liable when they result from inaccurate or incomplete particulars provided by the consignor on the consignment note."
+        }
+      }
+    },
+    {
+      "id": "b863f09f896833c66213cb3ad533775f323d9541c052de86c9e2775e21a93c8d",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "For damage or costs caused by defective packaging or improper securing, the consignee is liable if they do not sign the consignment note on receipt.",
+          "after": "For damage to people, equipment or other goods, or costs caused by defective packaging or improper securing, the consignee is liable if they do not sign the consignment note on receipt."
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "afbc8f815ce560d49c46c9d0b5bc07505468d6ca272d7fe4a3ad21411308a5e2"
+}

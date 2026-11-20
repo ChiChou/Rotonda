@@ -1,0 +1,31 @@
+{
+  "batch": "086",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "d30d5df99364372d6dcdecaaa0c458a98517e8a299e6f690d6db720dbc9c9744",
+  "source_sha256": "9871a8ad29ace756b47530a875e9947c8f7a3c85958ded15b4e6de52e91531d1",
+  "corrections": [
+    {
+      "id": "71b235ef5820c9305ea73dfe362525c22541be8a0484ba727e7b671a6c9ddcfd",
+      "before": "Al sacar mercancías de una zona o depósito franco hay que presentar el DDT para el control aduanero",
+      "after": "Al sacar mercancías de una zona o depósito franco hay que presentar el DDT (documento de transporte) para el control aduanero",
+      "reason": "Expands the Italian acronym DDT, as batch 088 does for the same term"
+    },
+    {
+      "id": "72aee8f6c8d4a2b209ad9e0f91bf9699a722639b552673bdfcaf8c497b2448de",
+      "before": "Si se remolcan casas rodantes y remolques T.A.T.S., no es obligatorio que el vehículo tractor tenga espejo retrovisor derecho",
+      "after": "Si se remolcan remolques vivienda y remolques T.A.T.S., no es obligatorio que el vehículo tractor tenga espejo retrovisor derecho",
+      "reason": "Se precisa que los caravan son remolques vivienda para evitar confundirlos con autocaravanas."
+    }
+  ],
+  "reviewed_file_sha256": "80815970f96cc826867beaaf21fb8e0db6659d158a264627ffe904f16eaf5ebf"
+}

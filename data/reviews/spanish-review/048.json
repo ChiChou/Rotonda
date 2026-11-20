@@ -1,0 +1,49 @@
+{
+  "batch": "048",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2b150fad75280a5b9390844442bd12513df3b71e12a5697505b97eedb017ab7a",
+  "source_sha256": "6f4883f18c12342aaedb2724988bb14cbefd9c927fee935589f670d14e1ad206",
+  "corrections": [
+    {
+      "id": "3fec5af7a9d6410a36685a05b145e828aef3a7a48c1d11662c853adeb07c6cef",
+      "before": "Los elementos de freno pueden ser de zapatas y pastillas con revestimiento de fricción",
+      "after": "Los elementos de freno pueden ser de zapatas y pastillas con revestimiento de fricción (ferodo)",
+      "reason": "Restituye el término ferodo incluido en el original."
+    },
+    {
+      "id": "406a5f2ab6e53fd3734900635b5509eb0644780e38d7bde7a2e08bcf3f734a3f",
+      "before": "Los vehículos que transportan mercancías producidas en el extranjero están exentos de la normativa de transporte por cuenta propia",
+      "after": "Los vehículos que transportan mercancías producidas en el extranjero están exentos de la normativa de transporte de mercancías por cuenta propia",
+      "reason": "Restituye que la normativa se refiere al transporte de mercancías."
+    },
+    {
+      "id": "4080c87628491d1f0ae8a326b43de46f27f2fbaebec4860573e84f111e117d83",
+      "before": "La última milla es uno de los puntos más críticos de la cadena de distribución",
+      "after": "La última milla es uno de los puntos más críticos de la supply chain (cadena de distribución)",
+      "reason": "Restituye el término original junto con su explicación."
+    },
+    {
+      "id": "409fa73cede92f01cb5fae5665881990e27692fd5961f87798d2fcc96742855d",
+      "before": "Según el CMR, el destinatario no puede sustituirse por otros destinatarios",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el destinatario no puede sustituir a otros destinatarios por sí mismo",
+      "reason": "Restituye el nombre del convenio incluido en el original.; Reversed meaning: the consignee cannot substitute other consignees with himself, as in the Italian"
+    },
+    {
+      "id": "40a689259b328aa3db6acc9615be050c9c7c101c73332bfb3fbc62189ba38398",
+      "before": "Según el CMR, el transportista solo es responsable de los empleados que reciben un salario regular",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista solo es responsable de los empleados que reciben un salario regular",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "d98b1bf91fedffd7eced98ba560d5bbcb229746b8e62d78dde109e7a330f956c"
+}

@@ -1,0 +1,37 @@
+{
+  "batch": "011",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ddd07f9594793c83752a9c47dc1ae2b32625cd7aef3ad50c73fd97eab7fa9051",
+  "source_sha256": "1098044a816306c39058f781a98c158e05376af19fa5abaabbd11a6357bc1ef8",
+  "corrections": [
+    {
+      "id": "1019bfac09a27f039f0c1779596422911a791897ca738936191d4fb753ee52ac",
+      "before": "El CMR se aplica desde la celebración del contrato de transporte",
+      "after": "El CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera) se aplica desde la celebración del contrato de transporte",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "1050e95078c2f12f808b298975996b28173acdb2c039a25e42fe4ec36342fa0b",
+      "before": "El ESP, programa electrónico de estabilidad, es un sistema que sirve para estabilizar el vehículo en la trayectoria elegida",
+      "after": "El ESP (programa electrónico de estabilidad) es un sistema electrónico que sirve para estabilizar el vehículo en la trayectoria elegida",
+      "reason": "Restituye que el sistema es electrónico, como indica el original."
+    },
+    {
+      "id": "107e456f41192be6396be3accb98d093898d0a3e4842aaf0c78f1651439245c8",
+      "before": "Una empresa italiana especializada en mudanzas que quiera realizar un transporte a un Estado miembro de la CEMT puede solicitar una autorización CEMT fuera de cuota",
+      "after": "Una empresa italiana especializada en mudanzas que quiera realizar un transporte en un Estado miembro de la CEMT puede solicitar una autorización CEMT fuera de cuota",
+      "reason": "El original indica un transporte en el Estado, sin especificar que sea hacia él."
+    }
+  ],
+  "reviewed_file_sha256": "1490e10bcc06a7cd2f51616bab2a863f856c98ca6239ea0f2f890d7e9b4404d7"
+}

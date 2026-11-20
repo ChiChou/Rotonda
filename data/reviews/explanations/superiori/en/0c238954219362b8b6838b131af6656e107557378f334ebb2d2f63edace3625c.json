@@ -1,0 +1,669 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 30288,
+          "quesito_id": 6226,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, la condotta automatica del freno non è mai in pressione",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "efdfd888b53af522ea36db71b4d268e25f397818ae9141ac264632b3c0999cda",
+        "localized_text": "In pneumatic-braked vehicles, the automatic brake line is never pressurized."
+      },
+      {
+        "source": {
+          "number": 30289,
+          "quesito_id": 6226,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, la condotta moderabile del freno è sempre in pressione",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "490a75bd1a5c51ed1135a09dd3e9c0aa20d25038aaae4f4da1894c9ea31df0cf",
+        "localized_text": "In pneumatic-braked vehicles, the control brake line is always pressurized."
+      },
+      {
+        "source": {
+          "number": 30290,
+          "quesito_id": 6226,
+          "text_it": "Non esistono circuiti frenanti di tipo pneumoidraulico",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "229be6ffdae83085e35b5e754f9643a6a8a549703d6eca33064d13dbe648b2d5",
+        "localized_text": "Pneumatic-hydraulic braking circuits do not exist."
+      },
+      {
+        "source": {
+          "number": 30291,
+          "quesito_id": 6226,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, la rottura del tubo dell’aria dei freni della ruota anteriore destra richiede l’arresto immediato del veicolo, ovunque ci si trovi, con contestuale richiesta di soccorso",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "316a3ba6fa02292e9743b8da3beff6decf141b264edbc0c6f6c3631dc8950deb",
+        "localized_text": "In pneumatic-braked vehicles, a broken right front brake air pipe requires an immediate stop wherever the vehicle is and a call for assistance."
+      },
+      {
+        "source": {
+          "number": 30292,
+          "quesito_id": 6227,
+          "text_it": "L’azionamento del freno di stazionamento comporta l’espulsione dell’aria dal bielemento frenante",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0aa93c35d6610e2ab628a50c6dba70c9a4774406c2a104fad85871dd47b77557",
+        "localized_text": "Applying the parking brake expels air from the dual brake actuator."
+      },
+      {
+        "source": {
+          "number": 30293,
+          "quesito_id": 6227,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, all'interno dei serbatoi dell'aria può depositarsi, per condensazione, una certa quantità di acqua",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ccd5d6e03bf48623af06f895fa8640a6550bf2686a66276fc889b72a47ae0b12",
+        "localized_text": "In pneumatic-braked vehicles, water may collect in air tanks through condensation."
+      },
+      {
+        "source": {
+          "number": 30294,
+          "quesito_id": 6227,
+          "text_it": "Nella manutenzione ordinaria degli autoveicoli dotati di frenatura pneumatica, è buona norma spurgare periodicamente i serbatoi dell’aria compressa, eliminando l’acqua eventualmente formatasi per condensazione",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4a9fe3173f3bae7287b96689d8c8c3625a6a78af3396a4b7936a3179693192b7",
+        "localized_text": "Routine maintenance of pneumatic-braked vehicles should include periodic draining of compressed-air tanks to remove condensation."
+      },
+      {
+        "source": {
+          "number": 30295,
+          "quesito_id": 6227,
+          "text_it": "Occorre sempre controllare che la pressione nei serbatoi principali dell’impianto frenante pneumatico non scenda al di sotto del valore minimo previsto dalla casa costruttrice del veicolo",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2e9808753e6787592c283275ae6183bd39e7bb081927a463eee0b8a12442cd7f",
+        "localized_text": "Always check that pressure in the main pneumatic brake tanks does not fall below the vehicle manufacturer's minimum."
+      },
+      {
+        "source": {
+          "number": 30296,
+          "quesito_id": 6227,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, il distributore a mano permette la frenatura di stazionamento immettendo aria nei bielementi frenanti",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "494eaca284ee19776ec04143ef008b0b2ddb4f17bac00d05aa91cadb55dcbe2a",
+        "localized_text": "In pneumatic-braked vehicles, the hand valve applies parking braking by sending air into dual brake actuators."
+      },
+      {
+        "source": {
+          "number": 30297,
+          "quesito_id": 6227,
+          "text_it": "In caso di svuotamento dei serbatoi dell'aria compressa l'autoveicolo rimane sfrenato",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "514522ab4f5cc9f551eed089d2e9ad3e57aa5a0401b0ee0596e7381b831bb47b",
+        "localized_text": "If compressed-air tanks empty, the vehicle remains unbraked."
+      },
+      {
+        "source": {
+          "number": 30298,
+          "quesito_id": 6227,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, la presenza di acqua nei serbatoi è utile perché aumenta la pressione dell'aria",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "709565544d498d9c6253248caeea80767ba8f83e2c6a96d4e8b4db81af49cfe6",
+        "localized_text": "In pneumatic-braked vehicles, water in the tanks is useful because it increases air pressure."
+      },
+      {
+        "source": {
+          "number": 30299,
+          "quesito_id": 6227,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, l’azionamento del freno di stazionamento può essere effettuato anche con veicolo in marcia",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "54b93236e762ea00e0462c36dd110103d34f2ff9162dda4bf7e9cff76df081c4",
+        "localized_text": "In pneumatic-braked vehicles, the parking brake can also be applied while moving."
+      },
+      {
+        "source": {
+          "number": 30300,
+          "quesito_id": 6227,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumatica, occorre sempre controllare che la pressione nei serbatoi principali dell’impianto frenante sia pari a quella delle sospensioni pneumatiche",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c0480cb24b0f1caf88d8c7162491c1cf4260f60cd43e3b2d73affb1b8d388694",
+        "localized_text": "In pneumatic-braked vehicles, always check that main brake tank pressure equals air suspension pressure."
+      },
+      {
+        "source": {
+          "number": 30301,
+          "quesito_id": 6228,
+          "text_it": "La frenatura di un veicolo avviene grazie alla trasformazione della sua energia cinetica in calore",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a81f655d53a2d7ae92b4806d1f9e342a4e870991569ef0cb132abeaa69006ef0",
+        "localized_text": "A vehicle brakes by converting its kinetic energy into heat."
+      },
+      {
+        "source": {
+          "number": 30302,
+          "quesito_id": 6228,
+          "text_it": "La frenatura di servizio è ripartita su tutte le ruote del veicolo",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8f8e61cafe47bd18463c4ad25aebdab933af511f1db46fe0ecd45b724f72eb5f",
+        "localized_text": "Service braking is distributed to all vehicle wheels."
+      },
+      {
+        "source": {
+          "number": 30303,
+          "quesito_id": 6228,
+          "text_it": "La frenatura degli autoveicoli è in genere ottenuta mediante freni ad attrito",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8b044bb737a244437a7c9d486e276f03543aae3470a8491f1544c52a651f9b02",
+        "localized_text": "Motor vehicles are generally braked by friction brakes."
+      },
+      {
+        "source": {
+          "number": 30304,
+          "quesito_id": 6228,
+          "text_it": "La massima forza frenante applicabile all’autoveicolo è pari al suo peso aderente",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fe686fe06928198d6de1523612a04b92d316024960964258b3eae847204ba3dc",
+        "localized_text": "Maximum braking force applicable to a motor vehicle equals its adhesive weight."
+      },
+      {
+        "source": {
+          "number": 30305,
+          "quesito_id": 6228,
+          "text_it": "L’ABS permette di sfruttare al meglio la forza frenante disponibile",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "42ad22945bc5862be6f7b029051bec607a1738dba98eb0ef73cd04d13ce8cceb",
+        "localized_text": "ABS makes best use of available braking force."
+      },
+      {
+        "source": {
+          "number": 30306,
+          "quesito_id": 6228,
+          "text_it": "Per ottenere una buona frenatura occorre evitare il bloccaggio delle ruote",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0ed786d77f68c9cd75da358fafe28edece79d6a685309bf9beccb6a1a41289c6",
+        "localized_text": "To brake effectively, wheel lock must be avoided."
+      },
+      {
+        "source": {
+          "number": 30307,
+          "quesito_id": 6228,
+          "text_it": "La distribuzione dei pesi sul veicolo influisce sulla frenatura",
+          "answer": 1,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0404e3b04e4e4e3d2466587af510ee5f2cfbb3d7bfa3ffa5ce88b3cfc489e25c",
+        "localized_text": "Vehicle weight distribution affects braking."
+      },
+      {
+        "source": {
+          "number": 30308,
+          "quesito_id": 6228,
+          "text_it": "L’ABS permette di raddoppiare la forza frenante",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d7d0c1d74d0a9a94a5f8e3572d48521abc1dd0f7d95f1fa893001645a229e2cd",
+        "localized_text": "ABS doubles braking force."
+      },
+      {
+        "source": {
+          "number": 30309,
+          "quesito_id": 6228,
+          "text_it": "La distanza di frenatura minima si ottiene con il bloccaggio di tutte le ruote",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "64cfc17c221c7205348dd41675a33e4e75683afe00945d1f92346edad440bc52",
+        "localized_text": "Minimum braking distance is obtained by locking all wheels."
+      },
+      {
+        "source": {
+          "number": 30310,
+          "quesito_id": 6228,
+          "text_it": "La distribuzione dei pesi sul veicolo non influisce sulla frenatura",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0b3df7ee4d89cb05a38b6914bede3af545c28c7d2c9e6ace84dfb4f7c0bbbde3",
+        "localized_text": "Vehicle weight distribution does not affect braking."
+      },
+      {
+        "source": {
+          "number": 30311,
+          "quesito_id": 6228,
+          "text_it": "La massima forza frenante applicabile all’autoveicolo è pari a metà del suo peso aderente",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "510ecc4cce3c99c2855e90639c777a559b95c88910a83588bc6fedb644740d20",
+        "localized_text": "Maximum braking force applicable to a motor vehicle equals half its adhesive weight."
+      },
+      {
+        "source": {
+          "number": 30312,
+          "quesito_id": 6228,
+          "text_it": "Il riscaldamento dei freni ne migliora la funzionalità",
+          "answer": 0,
+          "page": 133,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3faf5f28043d6536b047a01f8149f85a1e27f1a0303d78cf7fb94d8619a95a83",
+        "localized_text": "Heating brakes improves their operation."
+      }
+    ],
+    "task_sha256": "0c238954219362b8b6838b131af6656e107557378f334ebb2d2f63edace3625c"
+  },
+  "rows": [
+    {
+      "number": 30288,
+      "text": "The automatic supply line feeds the trailer and is pressurized in normal operation. A pressure drop triggers automatic trailer braking.",
+      "evidence": [
+        "https://www.ontario.ca/document/print/book/82162 — Official Air Brake Handbook, service brake subsystem and trailer supply/control lines: supply charges trailer; service line carries pedal demand; dual circuits retain partial braking."
+      ]
+    },
+    {
+      "number": 30289,
+      "text": "The service line sends the braking command to the trailer. Its pressure rises when the brake is applied; it is not always pressurized.",
+      "evidence": [
+        "https://www.ontario.ca/document/print/book/82162 — Official Air Brake Handbook, service brake subsystem and trailer supply/control lines: supply charges trailer; service line carries pedal demand; dual circuits retain partial braking."
+      ]
+    },
+    {
+      "number": 30290,
+      "text": "Air-over-hydraulic systems exist: compressed air operates a converter that pressurizes the brake fluid.",
+      "evidence": [
+        "https://cvsa.org/api/media/file/2012-04-Hydraulic-Brake-System-Inspection-Procedures-Revised-04-27-17.pdf — CVSA Inspection Bulletin 2012-04, Addendum 2: air-over-hydraulic actuator converts air pressure to hydraulic pressure."
+      ]
+    },
+    {
+      "number": 30291,
+      "text": "A broken pipe compromises braking. Stop as soon as it is safe, rather than necessarily at the exact point of failure, and have the faulty vehicle checked.",
+      "evidence": [
+        "https://www.fmcsa.dot.gov/carrier-safety/carrier-safety-resources/motorcoach-brake-systems-and-safety-technologies — FMCSA: low pressure requires a safe stop off the roadway; a separate circuit can retain braking. https://www.ontario.ca/document/official-air-brake-handbook/checklists-charts-and-circuit-diagrams — defective vehicles must be reported and not driven."
+      ]
+    },
+    {
+      "number": 30292,
+      "text": "The spring section of the combined brake chamber holds the vehicle. The parking control releases the air holding the spring compressed, allowing the spring to apply the brake.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Utah CDL manual §5.1.4, §5.1.14 and §5.4.7: condensate drains, spring brake application and low-pressure warning."
+      ]
+    },
+    {
+      "number": 30293,
+      "text": "Moisture in compressed air can condense and collect at the bottom of the tanks.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Utah CDL manual §5.1.4, §5.1.14 and §5.4.7: condensate drains, spring brake application and low-pressure warning."
+      ]
+    },
+    {
+      "number": 30294,
+      "text": "Drain the condensation as specified for maintenance: water can freeze and interfere with brake operation.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Utah CDL manual §5.1.4, §5.1.14 and §5.4.7: condensate drains, spring brake application and low-pressure warning."
+      ]
+    },
+    {
+      "number": 30295,
+      "text": "The tanks must maintain the specified operating pressure. Too little air can make service braking insufficient and activate the low-pressure warning.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Utah CDL manual §5.1.4, §5.1.14 and §5.4.7: condensate drains, spring brake application and low-pressure warning."
+      ]
+    },
+    {
+      "number": 30296,
+      "text": "The hand valve exhausts air from the spring section of the combined chambers. The spring applies the brake; air releases it.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Utah CDL manual §5.1.4, §5.1.14 and §5.4.7: condensate drains, spring brake application and low-pressure warning."
+      ]
+    },
+    {
+      "number": 30297,
+      "text": "In systems with spring brakes, loss of pressure releases the springs, which apply the brakes. The vehicle does not simply remain unbraked.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Utah CDL manual §5.1.4, §5.1.14 and §5.4.7: condensate drains, spring brake application and low-pressure warning."
+      ]
+    },
+    {
+      "number": 30298,
+      "text": "Water is a contaminant, not a useful way to increase pressure. It can freeze or damage components and must be drained.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Utah CDL manual §5.1.4, §5.1.14 and §5.4.7: condensate drains, spring brake application and low-pressure warning."
+      ]
+    },
+    {
+      "number": 30299,
+      "text": "The quiz marks this FALSE. The parking brake normally holds the vehicle stationary, but for certain configurations the regulation requires that it can also be applied while moving. Follow the vehicle’s emergency instructions.",
+      "evidence": [
+        "UNECE R13 §5.2.1.2.4, https://eur-lex.europa.eu/eli/reg/2026/746/oj — specified shared-control arrangements require parking brake application while moving, with an exception for auxiliary partial-service control; not a general recommendation. Indexed official text; direct page JS challenge."
+      ]
+    },
+    {
+      "number": 30300,
+      "text": "Brake tank pressure must be checked against the specified values for the braking system; it does not have to equal the air suspension pressure.",
+      "evidence": [
+        "https://www.ontario.ca/document/print/book/82162 — Official Air Brake Handbook, supply subsystem: reservoirs, governor and pressure protection for auxiliary circuits; normal brake pressure is checked against system operating range."
+      ]
+    },
+    {
+      "number": 30301,
+      "text": "In friction brakes, the energy of motion is converted mainly into heat at the braking surfaces, slowing the vehicle.",
+      "evidence": [
+        "https://static.nhtsa.gov/odi/inv/2020/INRD-PE20003-10834.pdf — Bendix Fundamentals of Brakes, energy of motion to heat; https://dld.utah.gov/cdl-manual-section-5-air-brakes/ §5.4.5: overheating causes fade."
+      ]
+    },
+    {
+      "number": 30302,
+      "text": "The service brake acts on all wheels and distributes its action among the axles to brake the vehicle in a balanced way.",
+      "evidence": [
+        "https://eur-lex.europa.eu/eli/reg/2026/746/oj — UN Regulation 13, §5.2.1.7–5.2.1.8 and Annex 13 Appendix 2 §1.1: service brakes and adhesion as maximum braking force divided by dynamic axle load."
+      ]
+    },
+    {
+      "number": 30303,
+      "text": "Friction brakes slow the vehicle by pressing pads or shoes against discs or drums, dissipating energy as heat.",
+      "evidence": [
+        "https://static.nhtsa.gov/odi/inv/2020/INRD-PE20003-10834.pdf — Bendix Fundamentals of Brakes, energy of motion to heat; https://dld.utah.gov/cdl-manual-section-5-air-brakes/ §5.4.5: overheating causes fade."
+      ]
+    },
+    {
+      "number": 30304,
+      "text": "The quiz marks this TRUE, but maximum braking force does not always equal the adhesive weight: it also depends on the grip coefficient and dynamic wheel load. Equality is a special case, not a general rule.",
+      "evidence": [
+        "UNECE R13 Annex 13 Appendix 2 §1.1.1, https://eur-lex.europa.eu/eli/reg/2026/746/oj — measured adhesion coefficient is maximum braking force without wheel locking divided by dynamic axle load; equality with dynamic load is a special coefficient of one, not universal. Indexed official text; direct page JS challenge."
+      ]
+    },
+    {
+      "number": 30305,
+      "text": "ABS regulates brake pressure to limit wheel lock and seek effective use of available grip. The force achieved and stopping distance depend on the surface and system.",
+      "evidence": [
+        "https://www.nhtsa.gov/sites/nhtsa.gov/files/absperformancefinalreport.pdf — NHTSA Light Vehicle ABS Research Program §2.1: ABS regulates slip and braking pressure, maintaining force near the available peak; stopping distance varies by surface.",
+        "NHTSA Light Vehicle ABS Performance, https://www.nhtsa.gov/sites/nhtsa.gov/files/nhtsaabst4finalrpt.pdf — indexed results found longer stops on loose gravel for some tested light vehicles; direct PDF text extraction malformed. Control near peak is an aim, not an assured result on every surface or system."
+      ]
+    },
+    {
+      "number": 30306,
+      "text": "Avoiding wheel lock helps preserve directional control and use the available grip during braking.",
+      "evidence": [
+        "https://www.nhtsa.gov/sites/nhtsa.gov/files/absperformancefinalreport.pdf — NHTSA Light Vehicle ABS Research Program §2.1: ABS regulates slip and braking pressure, maintaining force near the available peak; stopping distance varies by surface."
+      ]
+    },
+    {
+      "number": 30307,
+      "text": "Load distribution changes the weight on the wheels and axles, affecting available grip and the distribution of braking.",
+      "evidence": [
+        "https://eur-lex.europa.eu/eli/reg/2026/746/oj — UN Regulation 13, §5.2.1.7–5.2.1.8 and Annex 13 Appendix 2 §1.1: service brakes and adhesion as maximum braking force divided by dynamic axle load."
+      ]
+    },
+    {
+      "number": 30308,
+      "text": "ABS does not double braking force. It modulates pressure to prevent wheel lock and use the available grip.",
+      "evidence": [
+        "https://www.nhtsa.gov/sites/nhtsa.gov/files/absperformancefinalreport.pdf — NHTSA Light Vehicle ABS Research Program §2.1: ABS regulates slip and braking pressure, maintaining force near the available peak; stopping distance varies by surface."
+      ]
+    },
+    {
+      "number": 30309,
+      "text": "Locking every wheel does not guarantee the shortest distance. Regulating braking can make better use of grip and preserve steering control; the result depends on the surface.",
+      "evidence": [
+        "https://www.nhtsa.gov/sites/nhtsa.gov/files/absperformancefinalreport.pdf — NHTSA Light Vehicle ABS Research Program §2.1: ABS regulates slip and braking pressure, maintaining force near the available peak; stopping distance varies by surface."
+      ]
+    },
+    {
+      "number": 30310,
+      "text": "Weight distribution does affect braking: it changes the load on each axle and therefore the grip each can use.",
+      "evidence": [
+        "https://eur-lex.europa.eu/eli/reg/2026/746/oj — UN Regulation 13, §5.2.1.7–5.2.1.8 and Annex 13 Appendix 2 §1.1: service brakes and adhesion as maximum braking force divided by dynamic axle load."
+      ]
+    },
+    {
+      "number": 30311,
+      "text": "Maximum braking force is not fixed at half the weight on the braked wheels: it also depends on the tire-road coefficient of adhesion.",
+      "evidence": [
+        "https://eur-lex.europa.eu/eli/reg/2026/746/oj — UN Regulation 13, §5.2.1.7–5.2.1.8 and Annex 13 Appendix 2 §1.1: service brakes and adhesion as maximum braking force divided by dynamic axle load."
+      ]
+    },
+    {
+      "number": 30312,
+      "text": "Excessive heating reduces brake effectiveness and can cause brake fade.",
+      "evidence": [
+        "https://static.nhtsa.gov/odi/inv/2020/INRD-PE20003-10834.pdf — Bendix Fundamentals of Brakes, energy of motion to heat; https://dld.utah.gov/cdl-manual-section-5-air-brakes/ §5.4.5: overheating causes fade."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "0c238954219362b8b6838b131af6656e107557378f334ebb2d2f63edace3625c",
+    "output_sha256": "b9c32b5ffc93e764bb7e684594f18318332b29b12238f7c76f1f51b31324d038",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / brake-batches-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      30288,
+      30289,
+      30290,
+      30291,
+      30292,
+      30293,
+      30294,
+      30295,
+      30296,
+      30297,
+      30298,
+      30299,
+      30300,
+      30301,
+      30302,
+      30303,
+      30304,
+      30305,
+      30306,
+      30307,
+      30308,
+      30309,
+      30310,
+      30311,
+      30312
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Independently inspected indexed official UNECE R13 https://eur-lex.europa.eu/eli/reg/2026/746/oj §5.2.1.2.4 and Annex13 Appendix2 §1.1.1: conditional in-motion parking brake actuation, grip coefficient and dynamic load. Direct EU HTML challenged JavaScript. NHTSA https://www.nhtsa.gov/sites/nhtsa.gov/files/nhtsaabst4finalrpt.pdf indexed gravel test shows limits; its raw PDF text extraction garbled.",
+      "Rechecked all four 30305 revisions: ABS grip use is an aim, not guaranteed near-maximum force; performance and stopping distance are qualified by surface and system. All other rows unchanged from prior full review."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb44-1c4b-7202-a3c4-81bd7b9fa4ea",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "cf01eef39de5e14c1adfabd07de2a2fc695109a24dc653927274652035c1b724",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb44-1c4b-7202-a3c4-81bd7b9fa4ea",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 30299,
+              "reason": "Il quesito afferma che il freno di stazionamento può essere azionato in marcia ma riporta FALSO; il regolamento richiede tale possibilità per alcune configurazioni. Non è chiaro se il quiz intenda vietarne l’uso ordinario anziché negarne la possibilità tecnica.",
+              "checked_sources": [
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202600746 — Regolamento ONU 13 §5.2.1.2.4: per determinate configurazioni il freno di stazionamento deve poter essere azionato in marcia.",
+                "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — §5.1.14: il comando scarica aria dai freni a molla; la fonte descrive il meccanismo."
+              ]
+            },
+            {
+              "number": 30304,
+              "reason": "Il verdetto VERO attribuisce sempre la forza frenante massima al peso aderente, senza specificare un coefficiente di aderenza unitario; la fonte definisce invece la forza massima tramite il coefficiente e il carico dinamico. Non è chiaro se il quiz presupponga una condizione ideale non dichiarata.",
+              "checked_sources": [
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202600746 — Regolamento ONU 13, allegato 13 appendice 2 §1.1.1: il coefficiente di aderenza è il rapporto fra forza frenante massima senza bloccaggio e carico dinamico sull’asse.",
+                "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/00-80T-80.pdf — §6.11: il coefficiente di attrito è il rapporto fra forza di attrito e forza normale e dipende dalle condizioni."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "cf01eef39de5e14c1adfabd07de2a2fc695109a24dc653927274652035c1b724",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "0c238954219362b8b6838b131af6656e107557378f334ebb2d2f63edace3625c",
+        "output_sha256": "c47f553992b7d068e017ac68c3d055e5804ca5c5e6cddcf0324ad55eb8375779",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / brake-batches-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          30288,
+          30289,
+          30290,
+          30291,
+          30292,
+          30293,
+          30294,
+          30295,
+          30296,
+          30297,
+          30298,
+          30299,
+          30300,
+          30301,
+          30302,
+          30303,
+          30304,
+          30305,
+          30306,
+          30307,
+          30308,
+          30309,
+          30310,
+          30311,
+          30312
+        ],
+        "issues": [
+          "30305: The explanation states ABS keeps braking force near available grip as an unqualified result. ABS seeks effective braking while limiting wheel lock, but performance depends on surface and design; NHTSA found longer stops on loose gravel. Qualify the statement as an aim or possibility rather than a guaranteed near-maximum force, consistently with 30265 and 30309."
+        ],
+        "reviewer_evidence": [
+          "Independently inspected indexed official UNECE R13 https://eur-lex.europa.eu/eli/reg/2026/746/oj §5.2.1.2.4 and Annex13 Appendix2 §1.1.1: conditional in-motion parking brake actuation, grip coefficient and dynamic load. Direct EU HTML challenged JavaScript. NHTSA https://www.nhtsa.gov/sites/nhtsa.gov/files/nhtsaabst4finalrpt.pdf indexed gravel test shows limits; its raw PDF text extraction garbled."
+        ]
+      }
+    ]
+  }
+}

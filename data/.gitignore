@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+# Official downloads and reproducible build artifacts.
+/downloads/
+/database/
+/exports/
+/assets/official/
+/assets/ab/
+/pdf_images/assets/
+/source/legacy/ab/*.db
+/source/legacy/ab/*.db-*
+*.building
+/translations/tasks/
+/reviews/multibank-build.json
+/pdf_images/image_index.json
+
+# Manually supplied originals and scratch task bundles.
+/inputs/
+/tasks/
+/teoria/
+*.pdf
+*.db
+*.db-*
+*.sqlite*

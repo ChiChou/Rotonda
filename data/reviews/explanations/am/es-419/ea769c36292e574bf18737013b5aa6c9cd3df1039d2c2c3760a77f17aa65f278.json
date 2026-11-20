@@ -1,0 +1,1538 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26184,
+          "quesito_id": 5122,
+          "text_it": "In un incrocio regolato dal semaforo, la luce rossa accesa permette di ripartire quando appare il giallo per la strada che si incrocia",
+          "answer": 0,
+          "page": 118,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "d923ada6ac1b23b8da6b910ded31cc0a50c6ae98712557aa2b1d68ddcae8c9bf",
+        "localized_text": "En una intersección regulada por semáforo, la luz roja encendida permite arrancar cuando aparece la luz amarilla para la vía transversal"
+      },
+      {
+        "source": {
+          "number": 26185,
+          "quesito_id": 5122,
+          "text_it": "In un incrocio regolato dal semaforo, la luce rossa accesa permette l'attraversamento purché l'incrocio sia libero",
+          "answer": 0,
+          "page": 118,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b713098301b0c5be54844717e786ad33b7ecc5fc0a7e766851d9d0d6fe5b004f",
+        "localized_text": "En una intersección regulada por semáforo, la luz roja encendida permite cruzar siempre que la intersección esté libre"
+      },
+      {
+        "source": {
+          "number": 26186,
+          "quesito_id": 5123,
+          "text_it": "Quando il semaforo emette luce verde nella nostra direzione possiamo svoltare a sinistra, ma dando la precedenza ai veicoli provenienti di fronte",
+          "answer": 1,
+          "page": 25,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png",
+              "sha256": "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6",
+              "page": 25,
+              "bbox": [
+                465.63,
+                157.0,
+                545.63,
+                237.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "d66b5dff741ee6681ddb776ca738b8f0009946bae96157fd31afca81e44d9eeb",
+        "localized_text": "Cuando el semáforo muestra luz verde en nuestra dirección podemos girar a la izquierda, pero cediendo el paso a los vehículos que vienen de frente"
+      },
+      {
+        "source": {
+          "number": 26187,
+          "quesito_id": 5123,
+          "text_it": "Quando il semaforo emette luce verde nella nostra direzione, svoltando a destra dobbiamo dare la precedenza ai pedoni che attraversano",
+          "answer": 1,
+          "page": 25,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png",
+              "sha256": "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6",
+              "page": 25,
+              "bbox": [
+                465.63,
+                243.0,
+                545.63,
+                323.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c94d8db03d16ea00928ff85be09b6572e29283d8812624cd1e8dddf7bd3ff0a6",
+        "localized_text": "Cuando el semáforo está en verde en nuestra dirección, al girar a la derecha debemos ceder el paso a los peatones que cruzan"
+      },
+      {
+        "source": {
+          "number": 26188,
+          "quesito_id": 5123,
+          "text_it": "Quando il semaforo emette luce verde nella nostra direzione possiamo attraversare l'incrocio, usando comunque prudenza",
+          "answer": 1,
+          "page": 25,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png",
+              "sha256": "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6",
+              "page": 25,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "b77c9e342f9fb6e4880c3bcbfd9c9c456156589409912af4d0e7515cf48c6fef",
+        "localized_text": "Cuando el semáforo muestra luz verde en nuestra dirección podemos cruzar la intersección, siempre con prudencia"
+      },
+      {
+        "source": {
+          "number": 26189,
+          "quesito_id": 5123,
+          "text_it": "Quando il semaforo emette luce verde nella nostra direzione possiamo svoltare a sinistra solo quando compare il giallo",
+          "answer": 0,
+          "page": 25,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png",
+              "sha256": "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6",
+              "page": 25,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "5d4687fb5d293e9c11df01a59aab198d994e4e5e60d4c8b31d71cf086fa49268",
+        "localized_text": "Cuando el semáforo muestra luz verde en nuestra dirección podemos girar a la izquierda solo cuando aparece la luz amarilla"
+      },
+      {
+        "source": {
+          "number": 26190,
+          "quesito_id": 5123,
+          "text_it": "Quando il semaforo emette luce verde nella nostra direzione possiamo svoltare solo se la strada è divisa in corsie",
+          "answer": 0,
+          "page": 25,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png",
+              "sha256": "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6",
+              "page": 25,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "f5770b7f641cc45fa52eacbcc048b57118952cde250e067081c175b0120e6766",
+        "localized_text": "Cuando el semáforo está en verde en nuestra dirección solo podemos girar si la vía está dividida en carriles"
+      },
+      {
+        "source": {
+          "number": 26191,
+          "quesito_id": 5123,
+          "text_it": "Quando il semaforo emette luce verde nella nostra direzione è obbligatorio fermarsi",
+          "answer": 0,
+          "page": 25,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png",
+              "sha256": "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6",
+              "page": 25,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "cd1c98bee8921845af374fcb663ab33c26db8c59165dca26118caa9e1ea93c00",
+        "localized_text": "Cuando el semáforo muestra luz verde en nuestra dirección es obligatorio detenerse"
+      },
+      {
+        "source": {
+          "number": 26192,
+          "quesito_id": 5124,
+          "text_it": "Nei semafori raffigurati le frecce accese indicano, se verdi, le direzioni verso le quali si può proseguire",
+          "answer": 1,
+          "page": 25,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 25,
+              "bbox": [
+                465.63,
+                721.0,
+                545.63,
+                801.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c8403e20af772844de75605c0ded9a3cb81a65ebb1c66e87ae8402471dbf59f1",
+        "localized_text": "En los semáforos mostrados, las flechas verdes encendidas indican las direcciones en que se puede continuar"
+      },
+      {
+        "source": {
+          "number": 26193,
+          "quesito_id": 5124,
+          "text_it": "Nei semafori raffigurati le frecce accese indicano, se rosse, che non possiamo proseguire in quelle direzioni",
+          "answer": 1,
+          "page": 26,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 26,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "e99427b3915ed190f3e42b08b6f553f8aa1e880a6c3cdfbf1218afe6aa5cc34a",
+        "localized_text": "En los semáforos mostrados, las flechas encendidas, si son rojas, indican que no podemos continuar en esas direcciones"
+      },
+      {
+        "source": {
+          "number": 26194,
+          "quesito_id": 5124,
+          "text_it": "Nei semafori raffigurati le frecce accese indicano, se gialle fisse, di sgomberare l'incrocio o di fermarsi in condizioni di sicurezza",
+          "answer": 1,
+          "page": 26,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 26,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "3f9d1463f6341c98e44e2ac5a0087006a9f812cc1a62c097de7cd695ccce4001",
+        "localized_text": "En los semáforos mostrados, las flechas encendidas, si son amarillas fijas, indican que se debe despejar la intersección o detenerse en condiciones de seguridad"
+      },
+      {
+        "source": {
+          "number": 26195,
+          "quesito_id": 5124,
+          "text_it": "Nei semafori raffigurati le frecce accese indicano, se gialle lampeggianti, di fermarci in ogni caso",
+          "answer": 0,
+          "page": 26,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 26,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "819c562df2104fa0f800d1417241a5c366005cb1bdca6ea37a1a8ee4d865a1ba",
+        "localized_text": "En los semáforos mostrados, las flechas encendidas indican que, si son amarillas intermitentes, debemos detenernos en todos los casos"
+      },
+      {
+        "source": {
+          "number": 26196,
+          "quesito_id": 5124,
+          "text_it": "Nei semafori raffigurati le frecce accese indicano, se verdi e rivolte verso l'alto, che si può proseguire in tutte le direzioni",
+          "answer": 0,
+          "page": 26,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 26,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "63946d3ea708240f059ec07dadb715a2028bafa8f0945a52505175ebc0a0ecd6",
+        "localized_text": "En los semáforos mostrados, las flechas encendidas, si son verdes y apuntan hacia arriba, indican que se puede continuar en todas las direcciones"
+      },
+      {
+        "source": {
+          "number": 26197,
+          "quesito_id": 5124,
+          "text_it": "Nei semafori raffigurati le frecce accese indicano, se rosse, di svoltare a destra ma con prudenza",
+          "answer": 0,
+          "page": 26,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 26,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "50abea7d75bccb43d9240ae49d58633dac8e02e45068cfb205ba8da2190387a3",
+        "localized_text": "En los semáforos mostrados, las flechas rojas encendidas indican girar a la derecha con prudencia"
+      },
+      {
+        "source": {
+          "number": 26198,
+          "quesito_id": 5125,
+          "text_it": "E’ possibile trovare una luce circolare gialla lampeggiante nei semafori, quando il verde e il rosso sono spenti",
+          "answer": 1,
+          "page": 118,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "aa70e9ec6ce4d22f16d43a7eea9c456bfd8d4cdf69ffb7a46009e28b97ba36e5",
+        "localized_text": "En los semáforos puede encontrarse una luz circular amarilla intermitente cuando las luces verde y roja están apagadas"
+      },
+      {
+        "source": {
+          "number": 26199,
+          "quesito_id": 5125,
+          "text_it": "E’ possibile trovare una luce circolare gialla lampeggiante nei semafori, per prescrivere di usare prudenza e diminuire la velocità",
+          "answer": 1,
+          "page": 118,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "f7461992725761bb7fa11de9bac493ebc7bc78d593284da6adc0d739db76f3e0",
+        "localized_text": "En los semáforos puede haber una luz circular amarilla intermitente que indica que se debe tener precaución y reducir la velocidad"
+      },
+      {
+        "source": {
+          "number": 26200,
+          "quesito_id": 5125,
+          "text_it": "E’ possibile trovare una luce circolare gialla lampeggiante in punti pericolosi della strada, che invita a rallentare",
+          "answer": 1,
+          "page": 118,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b61348938e4f21703c9e8e26a7a29960a72eea15ae5937c8c0662889ea9bd6fd",
+        "localized_text": "Puede haber una luz circular amarilla intermitente en puntos peligrosos de la vía que invita a reducir la velocidad"
+      },
+      {
+        "source": {
+          "number": 26201,
+          "quesito_id": 5125,
+          "text_it": "E’ possibile trovare una luce circolare gialla lampeggiante nei semafori, per indicare di fermarsi sempre all'incrocio",
+          "answer": 0,
+          "page": 118,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "632e0a905917ef2e786614d9d8a26800a19cbd523d2f37992b164ae7c3de5c06",
+        "localized_text": "En los semáforos puede haber una luz circular amarilla intermitente que indica que siempre hay que detenerse en la intersección"
+      },
+      {
+        "source": {
+          "number": 26202,
+          "quesito_id": 5125,
+          "text_it": "E’ possibile trovare una luce circolare gialla lampeggiante nei semafori insieme al rosso per indicare pericolo",
+          "answer": 0,
+          "page": 118,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "563a78296b3c5a1f4018354810d2628266e2fa50f1322a9d00f4232fee2a6657",
+        "localized_text": "En los semáforos puede encontrarse una luz circular amarilla intermitente junto con la roja para indicar peligro"
+      },
+      {
+        "source": {
+          "number": 26203,
+          "quesito_id": 5125,
+          "text_it": "E’ possibile trovare una luce circolare gialla lampeggiante nei semafori, che segnala di liberare velocemente l'incrocio",
+          "answer": 0,
+          "page": 118,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "8b48b36c64b8ae5111dbcb5f5a9e83ec3c7876d2d377ccc6052741f28dcdaa65",
+        "localized_text": "En los semáforos puede haber una luz circular amarilla intermitente que indica que hay que despejar rápidamente la intersección"
+      },
+      {
+        "source": {
+          "number": 26204,
+          "quesito_id": 5126,
+          "text_it": "Incontrando il semaforo a tre luci di figura, è permesso il passaggio quando si accende il giallo, se non ci si può fermare in condizioni di sicurezza prima dell'incrocio",
+          "answer": 1,
+          "page": 26,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 26,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "e719fab9b9cba03da6e264469c49ba6a503eb329c2a9a6bdc36417d39ec49920",
+        "localized_text": "Ante el semáforo de tres luces de la figura, se permite pasar cuando se enciende la luz amarilla si no se puede detener el vehículo con seguridad antes de la intersección"
+      },
+      {
+        "source": {
+          "number": 26205,
+          "quesito_id": 5126,
+          "text_it": "Incontrando il semaforo a tre luci di figura, è permesso il passaggio quando è acceso il giallo lampeggiante, usando però la massima prudenza e rallentando",
+          "answer": 1,
+          "page": 26,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 26,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "996448f11afe5bf4bd58ec3996611349cc34baa7eacf886cc790d10e18c3246e",
+        "localized_text": "Ante el semáforo de tres luces de la figura se permite pasar cuando está encendida la luz amarilla intermitente, pero con la máxima prudencia y reduciendo la velocidad"
+      },
+      {
+        "source": {
+          "number": 26206,
+          "quesito_id": 5126,
+          "text_it": "Incontrando il semaforo a tre luci di figura, è permesso il passaggio quando il semaforo è spento, usando la massima prudenza",
+          "answer": 1,
+          "page": 26,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 26,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "76d679f5060e6564b04e8e9b40390092db09fe91c56ae02e2aaa572692c80c50",
+        "localized_text": "Ante el semáforo de tres luces de la figura se permite pasar cuando está apagado, con la máxima prudencia"
+      },
+      {
+        "source": {
+          "number": 26207,
+          "quesito_id": 5126,
+          "text_it": "Incontrando il semaforo a tre luci di figura, è permesso il passaggio quando è accesa la luce rossa, ma nessun veicolo sta attraversando l'incrocio",
+          "answer": 0,
+          "page": 27,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 27,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ea16d8b84dff07dc61092ed4bf2e41e4aa56b4b473602c46761ec78d85b65168",
+        "localized_text": "Ante el semáforo de tres luces de la figura, se permite pasar cuando está encendida la luz roja, pero ningún vehículo cruza la intersección"
+      },
+      {
+        "source": {
+          "number": 26208,
+          "quesito_id": 5126,
+          "text_it": "Incontrando il semaforo a tre luci di figura, è permesso il passaggio quando si accende la luce rossa per tutte le direzioni",
+          "answer": 0,
+          "page": 27,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+              "sha256": "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+              "page": 27,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "df7cda2c2bb727647a9b11d05c1715a4545e042e7c1e38c35a97b8d3a5809dc3",
+        "localized_text": "Ante el semáforo de tres luces de la figura se permite pasar cuando se enciende la luz roja para todas las direcciones"
+      }
+    ],
+    "task_sha256": "ea769c36292e574bf18737013b5aa6c9cd3df1039d2c2c3760a77f17aa65f278"
+  },
+  "rows": [
+    {
+      "number": 26184,
+      "text": "La luz roja frente a nosotros obliga a detenerse: la amarilla de la vía transversal no autoriza a arrancar. Hay que esperar la autorización para avanzar en nuestra dirección.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 11 (https://aci.gov.it/codice-della-strada/art-41/): rosso: arresto prima della linea."
+      ]
+    },
+    {
+      "number": 26185,
+      "text": "La luz roja obliga a detenerse antes de la línea; que la intersección esté libre no autoriza a cruzarla.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 11 (https://aci.gov.it/codice-della-strada/art-41/): rosso: arresto prima della linea."
+      ]
+    },
+    {
+      "number": 26186,
+      "text": "La luz verde permite girar a la izquierda si la señalización lo permite, pero hay que ceder el paso a los vehículos que vienen de frente y siguen cruzando nuestra trayectoria.",
+      "evidence": [
+        "Ministero delle infrastrutture e dei trasporti, listato quiz A/B 2024, gruppo 07002 V01 (https://www.ilportaledellautomobilista.it/gms/dettaglionormativa.downloadallegato_1%3Adownload/210779/Circ.%24002019281%240020del%24002005.07.24%240020All.%240020LISTATO_definitivo%240020in%240020pdf.pdf): con il verde si può svoltare a sinistra dando precedenza ai veicoli provenienti di fronte.",
+        "Codice della strada, art. 41, comma 9 (https://aci.gov.it/codice-della-strada/art-41/): il verde consente le direzioni ammesse dalla segnaletica."
+      ]
+    },
+    {
+      "number": 26187,
+      "text": "La luz verde permite el giro admitido por la señalización, pero quien gira debe ceder el paso a los peatones que cruzan con luz verde simultánea.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 9 (https://aci.gov.it/codice-della-strada/art-41/): verde: precedenza ai pedoni con via libera contemporaneo."
+      ]
+    },
+    {
+      "number": 26188,
+      "text": "La luz verde permite avanzar en las direcciones autorizadas, pero hay que acercarse con prudencia y entrar en la intersección solo si se puede despejar antes de la luz roja.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 9 (https://aci.gov.it/codice-della-strada/art-41/): verde: sgombero prima del rosso."
+      ]
+    },
+    {
+      "number": 26189,
+      "text": "No hay que esperar la luz amarilla para girar: la verde permite el giro si la señalización lo admite, respetando las prioridades. La amarilla anuncia la detención.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 2, 9 e 10 (https://aci.gov.it/codice-della-strada/art-41/): verde consente le direzioni ammesse; giallo preavvisa arresto."
+      ]
+    },
+    {
+      "number": 26190,
+      "text": "La división en carriles no es una condición para girar: con luz verde se puede seguir una dirección permitida por la señalización, respetando las reglas de la maniobra.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 9 (https://aci.gov.it/codice-della-strada/art-41/): verde nelle direzioni ammesse dalla segnaletica.",
+        "Codice della strada, art. 154, commi 1 e 3 (https://aci.gov.it/codice-della-strada/art-154/): condizioni e posizione per le svolte."
+      ]
+    },
+    {
+      "number": 26191,
+      "text": "La luz verde permite avanzar en las direcciones autorizadas; no obliga siempre a detenerse. Siguen vigentes las prioridades y la prohibición de bloquear la intersección.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 9 (https://aci.gov.it/codice-della-strada/art-41/): verde e condizioni per impegnare l’incrocio."
+      ]
+    },
+    {
+      "number": 26192,
+      "text": "La flecha verde permite avanzar a los vehículos en la dirección indicada por ella, no en todas las direcciones.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 3 e 12 (https://aci.gov.it/codice-della-strada/art-41/): freccia: colore e direzione delimitano il segnale."
+      ]
+    },
+    {
+      "number": 26193,
+      "text": "La flecha roja significa detenerse para quien va en la dirección indicada: no autoriza a avanzar en ella.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 3 e 12 (https://aci.gov.it/codice-della-strada/art-41/): freccia rossa: arresto nella direzione indicata."
+      ]
+    },
+    {
+      "number": 26194,
+      "text": "La flecha amarilla fija anuncia la detención en la dirección indicada: hay que detenerse si se puede hacer con seguridad; de lo contrario, despejar pronto la intersección con prudencia.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 10 e 12 (https://aci.gov.it/codice-della-strada/art-41/): arresto se possibile senza pericolo; altrimenti sgombero sollecito con opportuna prudenza; vale anche per le frecce."
+      ]
+    },
+    {
+      "number": 26195,
+      "text": "La flecha amarilla intermitente no obliga siempre a detenerse: indica que se cruce en la dirección señalada con especial prudencia.",
+      "evidence": [
+        "Ministero delle infrastrutture e dei trasporti, listato quiz A/B 2024, gruppo 07003 V04, p. 100 (https://www.ilportaledellautomobilista.it/gms/dettaglionormativa.downloadallegato_1%3Adownload/210779/Circ.%24002019281%240020del%24002005.07.24%240020All.%240020LISTATO_definitivo%240020in%240020pdf.pdf): le frecce gialle lampeggianti indicano di attraversare con particolare prudenza.",
+        "Codice della strada, art. 41, comma 3 (https://aci.gov.it/codice-della-strada/art-41/): le frecce delle lanterne di corsia indicano le direzioni interessate."
+      ]
+    },
+    {
+      "number": 26196,
+      "text": "La flecha verde hacia arriba permite seguir de frente, no girar en cualquier dirección.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 3 e 12 (https://aci.gov.it/codice-della-strada/art-41/): freccia verde limitata alla direzione indicata."
+      ]
+    },
+    {
+      "number": 26197,
+      "text": "La flecha roja obliga a detenerse para la dirección indicada: no ordena girar a la derecha, ni siquiera con prudencia.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 3 e 12 (https://aci.gov.it/codice-della-strada/art-41/): freccia rossa: arresto nella direzione indicata."
+      ]
+    },
+    {
+      "number": 26198,
+      "text": "La luz amarilla puede parpadear mientras la roja y la verde están apagadas: en ese caso se avanza despacio y con prudencia, respetando las prioridades.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 17 (https://aci.gov.it/codice-della-strada/art-41/): giallo lampeggiante: prudenza e precedenza.",
+        "Ministero delle infrastrutture e dei trasporti, listato quiz A/B 2024, gruppo 07005, V01 (https://www.ilportaledellautomobilista.it/gms/dettaglionormativa.downloadallegato_1%3Adownload/210779/Circ.%24002019281%240020del%24002005.07.24%240020All.%240020LISTATO_definitivo%240020in%240020pdf.pdf): il giallo lampeggiante può essere acceso con rosso e verde spenti."
+      ]
+    },
+    {
+      "number": 26199,
+      "text": "La luz amarilla intermitente llama a la prudencia: se avanza a velocidad moderada y se respetan las prioridades.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 17 (https://aci.gov.it/codice-della-strada/art-41/): giallo lampeggiante: prudenza, velocità moderata e precedenza."
+      ]
+    },
+    {
+      "number": 26200,
+      "text": "La luz amarilla intermitente llama la atención sobre un peligro; no otorga prioridad ni exige detenerse siempre. Hay que reducir la velocidad, avanzar con prudencia y respetar las prioridades.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 17 (https://aci.gov.it/codice-della-strada/art-41/): giallo lampeggiante: velocità moderata e prudenza.",
+        "D.P.R. 495/1992, art. 165, commi 1 e 2 (https://static-www.comune.napoli.it/wp-content/uploads/2025/05/DPR___19921216.495___Regolamento_di_esecuzione_e_attuazione_c.d.s.__aggiornato_d.P.R._2012.151_.pdf?mode=download): luce circolare anche presso punti pericolosi, per richiamare a velocità moderata e prudenza."
+      ]
+    },
+    {
+      "number": 26201,
+      "text": "La luz amarilla intermitente no exige detenerse siempre: se avanza a velocidad moderada, con prudencia y respetando las prioridades.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 17 (https://aci.gov.it/codice-della-strada/art-41/): giallo lampeggiante: passaggio prudente e precedenze."
+      ]
+    },
+    {
+      "number": 26202,
+      "text": "En el funcionamiento normal de un mismo semáforo, la luz amarilla intermitente y la roja no forman una señal conjunta de peligro: la roja obliga a detenerse, mientras que la amarilla intermitente permite avanzar con prudencia y respetando las prioridades. La amarilla puede parpadear con las demás luces apagadas.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 11 e 17 (https://aci.gov.it/codice-della-strada/art-41/): il rosso impone arresto; il giallo lampeggiante consente di procedere con prudenza, velocità moderata e rispetto delle precedenze.",
+        "D.P.R. 495/1992, art. 169, comma 4 (https://static-www.comune.napoli.it/wp-content/uploads/2025/05/DPR___19921216.495___Regolamento_di_esecuzione_e_attuazione_c.d.s.__aggiornato_d.P.R._2012.151_.pdf?mode=download): gli impianti devono impedire segnali contemporanei contrastanti; in caso di guasto passano al giallo lampeggiante.",
+        "Ministero delle infrastrutture e dei trasporti, listato A/B 2024, gruppo 07005 V01 (https://www.ilportaledellautomobilista.it/gms/dettaglionormativa.downloadallegato_1%3Adownload/210779/Circ.%24002019281%240020del%24002005.07.24%240020All.%240020LISTATO_definitivo%240020in%240020pdf.pdf): il giallo lampeggiante può trovarsi con le altre luci spente."
+      ]
+    },
+    {
+      "number": 26203,
+      "text": "La luz amarilla intermitente exige velocidad moderada y prudencia, no despejar rápidamente la intersección. Con la luz amarilla fija, quien ya está en la intersección debe despejarla sin demora.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 10 e 17 (https://aci.gov.it/codice-della-strada/art-41/): giallo fisso e lampeggiante comportano prescrizioni diverse.",
+        "Ministero delle infrastrutture e dei trasporti, listato quiz A/B 2024, gruppo 07004 V03, p. 100 (https://www.ilportaledellautomobilista.it/gms/dettaglionormativa.downloadallegato_1%3Adownload/210779/Circ.%24002019281%240020del%24002005.07.24%240020All.%240020LISTATO_definitivo%240020in%240020pdf.pdf): con il giallo fisso chi ha già impegnato l’incrocio deve liberarlo."
+      ]
+    },
+    {
+      "number": 26204,
+      "text": "Con luz amarilla fija hay que detenerse antes de la línea si es posible hacerlo con seguridad. Si al encenderse estamos demasiado cerca para detenernos así, seguimos y despejamos pronto la intersección con prudencia.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 10 e 12 (https://aci.gov.it/codice-della-strada/art-41/): arresto se possibile senza pericolo; altrimenti sgombero sollecito con opportuna prudenza; vale anche per le frecce."
+      ]
+    },
+    {
+      "number": 26205,
+      "text": "Con la flecha amarilla intermitente se puede pasar en la dirección indicada, reduciendo la velocidad y con especial prudencia.",
+      "evidence": [
+        "Ministero delle infrastrutture e dei trasporti, domande AM, n. 26205 (https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0): il passaggio con giallo lampeggiante nella figura richiede prudenza e di rallentare.",
+        "Ministero delle infrastrutture e dei trasporti, listato quiz A/B 2024, gruppo 07003 V04, p. 100 (https://www.ilportaledellautomobilista.it/gms/dettaglionormativa.downloadallegato_1%3Adownload/210779/Circ.%24002019281%240020del%24002005.07.24%240020All.%240020LISTATO_definitivo%240020in%240020pdf.pdf): le frecce gialle lampeggianti indicano di attraversare con particolare prudenza.",
+        "Codice della strada, art. 41, comma 3 (https://aci.gov.it/codice-della-strada/art-41/): le frecce delle lanterne di corsia indicano le direzioni interessate."
+      ]
+    },
+    {
+      "number": 26206,
+      "text": "Si el semáforo está apagado, se avanza a velocidad mínima y con especial prudencia, respetando la señalización y las prioridades; también hay que obedecer los repetidores que funcionen.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 18 (https://aci.gov.it/codice-della-strada/art-41/): semaforo spento: velocità minima, prudenza, ripetizioni efficienti."
+      ]
+    },
+    {
+      "number": 26207,
+      "text": "La luz roja obliga a detenerse antes de la línea de detención aunque no haya otros vehículos cruzando la intersección.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 11 e 12 (https://aci.gov.it/codice-della-strada/art-41/): rosso: arresto, anche per frecce."
+      ]
+    },
+    {
+      "number": 26208,
+      "text": "La luz roja obliga a detenerse, no permite avanzar: si afecta a todas las direcciones, no se puede entrar en la intersección por ninguna de ellas.",
+      "evidence": [
+        "Codice della strada, art. 41, commi 11 e 12 (https://aci.gov.it/codice-della-strada/art-41/): rosso: arresto, anche per frecce."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "ea769c36292e574bf18737013b5aa6c9cd3df1039d2c2c3760a77f17aa65f278",
+    "output_sha256": "fda0d3d3759ea30e47c4e0cd264997aef0f9d8d5dea39c06f8b0e3ae1a1400e4",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      26184,
+      26185,
+      26186,
+      26187,
+      26188,
+      26189,
+      26190,
+      26191,
+      26192,
+      26193,
+      26194,
+      26195,
+      26196,
+      26197,
+      26198,
+      26199,
+      26200,
+      26201,
+      26202,
+      26203,
+      26204,
+      26205,
+      26206,
+      26207,
+      26208
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1e9cc-ad8d-7122-a7d7-c51080506d8f",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "eaf309308a7794f4eb46d1012c3c9ca4af3bb1c78ae368267f08a4ccd43cfd02",
+          "attached_image_paths": [
+            "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+            "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png"
+          ],
+          "attached_image_sha256": [
+            "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+            "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6"
+          ]
+        }
+      },
+      {
+        "run_id": "01a1e9d0-b4c5-7b42-b471-a7b4d3fde47a",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7f40ac9b6ec0328e593184057293f2275bf44b067e3c7b1f939e3c51bebd9e32",
+          "attached_image_paths": [
+            "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+            "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png"
+          ],
+          "attached_image_sha256": [
+            "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+            "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6"
+          ]
+        }
+      },
+      {
+        "run_id": "01a1e9d3-37c4-7c23-92f1-7a4b6d0356fb",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "304e1d73a3e5fc9391651711601e5585200c9d9897cb4ef68a47c8d65130a03a",
+          "attached_image_paths": [
+            "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+            "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png"
+          ],
+          "attached_image_sha256": [
+            "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+            "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6"
+          ]
+        }
+      },
+      {
+        "run_id": "01a1e9d6-d7c0-7d53-8540-285fe6f2e606",
+        "label": "author-3-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3dfaa64f558392f758113d7359363a74225d408996dab0807c42c7aa8a65e79b",
+          "attached_image_paths": [
+            "source/images/0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8.png",
+            "source/images/b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6.png"
+          ],
+          "attached_image_sha256": [
+            "0e754865022616938cdff9f2f0edd2932a9496089f65cc5b3ca0bfdd77f00cb8",
+            "b1c59d4c5ee2715ca36718f77cf1c743133508bcc7b171c4119200cfeb05bec6"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "e9df8f740581aafb6fc1a06d836ce3b740227e90460878fabcbed683a1cccfbc",
+          "output_sha256": "359fd611c76fa7e70a6c056ff2920457a7b739b3f587e9643f15a65a6e78d72c",
+          "author": "gpt-6.1-terra / 01a1e9cc-ad8d-7122-a7d7-c51080506d8f",
+          "reviewer": "gpt-6.1-terra / 01a1e9cf-4026-73d1-a4d8-e701e9101586",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26194, 26204: The explanations omit the requirement to clear the intersection promptly when unable to stop safely. Article 41(10) requires clearing promptly with appropriate caution; add this qualification in all four languages.",
+            "26195, 26205: The cited Article 41(17) addresses the flashing yellow lamp in Article 41(1)(i), but the attached figure depicts lane-direction arrow signals. Supply direct authoritative support for applying the flashing-yellow rule to these arrows (the official A/B list, group 07003 V04, is a relevant true teaching statement), and retain the direction limitation where appropriate.",
+            "26202: The cited quiz's V01 establishes that flashing yellow can occur with the other lights off, not that it always does; F08 is a false assertion and cannot substantiate the asserted exclusive operating rule. Provide independent authority for that rule or narrow the explanation to supported facts while preserving the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "d3d81c3de687dba24b65106e4c53e6e52cc86f2dd915fa7d0f821f2e05341268",
+          "output_sha256": "818ec8a76a0e5e8eff7d04492a9648f7f4f7a05d776b8ed5958149a9d52b03ec",
+          "author": "gpt-6.1-terra / 01a1e9cc-ad8d-7122-a7d7-c51080506d8f",
+          "reviewer": "gpt-6.1-terra / 01a1e9cf-4026-73d1-a4d8-e701e9101586",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26194, 26204: The explanations omit the requirement to clear the intersection promptly when unable to stop safely. Article 41(10) requires clearing promptly with appropriate caution; add this qualification in all four languages.",
+            "26195, 26205: The cited Article 41(17) addresses the flashing yellow lamp in Article 41(1)(i), but the attached figure depicts lane-direction arrow signals. Supply direct authoritative support for applying the flashing-yellow rule to these arrows (the official A/B list, group 07003 V04, is a relevant true teaching statement), and retain the direction limitation where appropriate.",
+            "26202: The cited quiz's V01 establishes that flashing yellow can occur with the other lights off, not that it always does; F08 is a false assertion and cannot substantiate the asserted exclusive operating rule. Provide independent authority for that rule or narrow the explanation to supported facts while preserving the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "fc54ca520c375c531ca62aff77648cead83a755670555733f405840f1b6dc7f2",
+          "output_sha256": "55f53ba3bd7d20cf877b72b953ca38a2d71985839f918e3f8ded283cedda2bf9",
+          "author": "gpt-6.1-terra / 01a1e9cc-ad8d-7122-a7d7-c51080506d8f",
+          "reviewer": "gpt-6.1-terra / 01a1e9cf-4026-73d1-a4d8-e701e9101586",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26194, 26204: The explanations omit the requirement to clear the intersection promptly when unable to stop safely. Article 41(10) requires clearing promptly with appropriate caution; add this qualification in all four languages.",
+            "26195, 26205: The cited Article 41(17) addresses the flashing yellow lamp in Article 41(1)(i), but the attached figure depicts lane-direction arrow signals. Supply direct authoritative support for applying the flashing-yellow rule to these arrows (the official A/B list, group 07003 V04, is a relevant true teaching statement), and retain the direction limitation where appropriate.",
+            "26202: The cited quiz's V01 establishes that flashing yellow can occur with the other lights off, not that it always does; F08 is a false assertion and cannot substantiate the asserted exclusive operating rule. Provide independent authority for that rule or narrow the explanation to supported facts while preserving the printed verdict.",
+            "26186: Chinese adds 直行 (going straight), narrowing the Italian explanation, which covers oncoming vehicles continuing across the turning path, including other conflicting movements. Align the languages."
+          ]
+        },
+        {
+          "task_sha256": "ea769c36292e574bf18737013b5aa6c9cd3df1039d2c2c3760a77f17aa65f278",
+          "output_sha256": "cac5c8212ebd39e477305bcd954542bc706c56b81d19789eab3024515ed4a61c",
+          "author": "gpt-6.1-terra / 01a1e9cc-ad8d-7122-a7d7-c51080506d8f",
+          "reviewer": "gpt-6.1-terra / 01a1e9cf-4026-73d1-a4d8-e701e9101586",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26194, 26204: The explanations omit the requirement to clear the intersection promptly when unable to stop safely. Article 41(10) requires clearing promptly with appropriate caution; add this qualification in all four languages.",
+            "26195, 26205: The cited Article 41(17) addresses the flashing yellow lamp in Article 41(1)(i), but the attached figure depicts lane-direction arrow signals. Supply direct authoritative support for applying the flashing-yellow rule to these arrows (the official A/B list, group 07003 V04, is a relevant true teaching statement), and retain the direction limitation where appropriate.",
+            "26202: The cited quiz's V01 establishes that flashing yellow can occur with the other lights off, not that it always does; F08 is a false assertion and cannot substantiate the asserted exclusive operating rule. Provide independent authority for that rule or narrow the explanation to supported facts while preserving the printed verdict."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "e9df8f740581aafb6fc1a06d836ce3b740227e90460878fabcbed683a1cccfbc",
+          "output_sha256": "2b773bf48eccbc695d64e95682821e68124a27709799ef731e87312e2c50dd30",
+          "author": "gpt-6.1-terra / 01a1e9d0-b4c5-7b42-b471-a7b4d3fde47a",
+          "reviewer": "gpt-6.1-terra / 01a1e9d2-2780-7150-b424-7c45bd909dc3",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26186: The cited art. 145(2) concerns vehicles approaching from the right, not specifically oncoming traffic; art. 41(9) cites traffic being joined. Supply direct authoritative evidence for the claimed duty to yield to oncoming vehicles crossing the left-turn path.",
+            "26195, 26205: Evidence attributes direction-limited arrows to art. 41(4), which concerns public-transport white bars, not colored lane arrows; correct the citation to art. 41(3). Art. 41(17) addresses the separate flashing-yellow lantern, so establish the moderate-speed and priority claims for the pictured flashing arrows with applicable authority rather than treating that provision as automatically governing them.",
+            "26202: The explanation says flashing yellow can operate with other lights off, but this possibility does not explain why the asserted combination with red is false. Explicitly correct the tested simultaneous-red claim and support the correction; the cited V01 alone does not rule out coexistence.",
+            "26203: The contrast implies prompt clearing under steady yellow applies only when stopping safely is impossible. The official 2024 quiz list 07004 V03 also requires clearing when already in the intersection. Avoid presenting that condition as exhaustive, especially in zh-Hans where 才 explicitly makes it exclusive."
+          ]
+        },
+        {
+          "task_sha256": "d3d81c3de687dba24b65106e4c53e6e52cc86f2dd915fa7d0f821f2e05341268",
+          "output_sha256": "69c48814d35a640b19b49d84e96d1299e6f2642f9c2528f4ec177fb3833e48ca",
+          "author": "gpt-6.1-terra / 01a1e9d0-b4c5-7b42-b471-a7b4d3fde47a",
+          "reviewer": "gpt-6.1-terra / 01a1e9d2-2780-7150-b424-7c45bd909dc3",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26186: The cited art. 145(2) concerns vehicles approaching from the right, not specifically oncoming traffic; art. 41(9) cites traffic being joined. Supply direct authoritative evidence for the claimed duty to yield to oncoming vehicles crossing the left-turn path.",
+            "26195, 26205: Evidence attributes direction-limited arrows to art. 41(4), which concerns public-transport white bars, not colored lane arrows; correct the citation to art. 41(3). Art. 41(17) addresses the separate flashing-yellow lantern, so establish the moderate-speed and priority claims for the pictured flashing arrows with applicable authority rather than treating that provision as automatically governing them.",
+            "26202: The explanation says flashing yellow can operate with other lights off, but this possibility does not explain why the asserted combination with red is false. Explicitly correct the tested simultaneous-red claim and support the correction; the cited V01 alone does not rule out coexistence.",
+            "26203: The contrast implies prompt clearing under steady yellow applies only when stopping safely is impossible. The official 2024 quiz list 07004 V03 also requires clearing when already in the intersection. Avoid presenting that condition as exhaustive, especially in zh-Hans where 才 explicitly makes it exclusive."
+          ]
+        },
+        {
+          "task_sha256": "fc54ca520c375c531ca62aff77648cead83a755670555733f405840f1b6dc7f2",
+          "output_sha256": "672dccefe22b76d6af7de990ecb9290d918ba61e585d245f0e38997d0b13e8f7",
+          "author": "gpt-6.1-terra / 01a1e9d0-b4c5-7b42-b471-a7b4d3fde47a",
+          "reviewer": "gpt-6.1-terra / 01a1e9d2-2780-7150-b424-7c45bd909dc3",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26186: The cited art. 145(2) concerns vehicles approaching from the right, not specifically oncoming traffic; art. 41(9) cites traffic being joined. Supply direct authoritative evidence for the claimed duty to yield to oncoming vehicles crossing the left-turn path.",
+            "26195, 26205: Evidence attributes direction-limited arrows to art. 41(4), which concerns public-transport white bars, not colored lane arrows; correct the citation to art. 41(3). Art. 41(17) addresses the separate flashing-yellow lantern, so establish the moderate-speed and priority claims for the pictured flashing arrows with applicable authority rather than treating that provision as automatically governing them.",
+            "26202: The explanation says flashing yellow can operate with other lights off, but this possibility does not explain why the asserted combination with red is false. Explicitly correct the tested simultaneous-red claim and support the correction; the cited V01 alone does not rule out coexistence.",
+            "26203: The contrast implies prompt clearing under steady yellow applies only when stopping safely is impossible. The official 2024 quiz list 07004 V03 also requires clearing when already in the intersection. Avoid presenting that condition as exhaustive, especially in zh-Hans where 才 explicitly makes it exclusive."
+          ]
+        },
+        {
+          "task_sha256": "ea769c36292e574bf18737013b5aa6c9cd3df1039d2c2c3760a77f17aa65f278",
+          "output_sha256": "3d2b7c50ebcb89eeedddb4e4760a0cba1b6d1cbf23af7c1c76b97f3114aca3bf",
+          "author": "gpt-6.1-terra / 01a1e9d0-b4c5-7b42-b471-a7b4d3fde47a",
+          "reviewer": "gpt-6.1-terra / 01a1e9d2-2780-7150-b424-7c45bd909dc3",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26186: The cited art. 145(2) concerns vehicles approaching from the right, not specifically oncoming traffic; art. 41(9) cites traffic being joined. Supply direct authoritative evidence for the claimed duty to yield to oncoming vehicles crossing the left-turn path.",
+            "26195, 26205: Evidence attributes direction-limited arrows to art. 41(4), which concerns public-transport white bars, not colored lane arrows; correct the citation to art. 41(3). Art. 41(17) addresses the separate flashing-yellow lantern, so establish the moderate-speed and priority claims for the pictured flashing arrows with applicable authority rather than treating that provision as automatically governing them.",
+            "26202: The explanation says flashing yellow can operate with other lights off, but this possibility does not explain why the asserted combination with red is false. Explicitly correct the tested simultaneous-red claim and support the correction; the cited V01 alone does not rule out coexistence.",
+            "26203: The contrast implies prompt clearing under steady yellow applies only when stopping safely is impossible. The official 2024 quiz list 07004 V03 also requires clearing when already in the intersection. Avoid presenting that condition as exhaustive, especially in zh-Hans where 才 explicitly makes it exclusive."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "e9df8f740581aafb6fc1a06d836ce3b740227e90460878fabcbed683a1cccfbc",
+          "output_sha256": "b391a854e723aa476f84fbd16ce0b267e5c3d2fe445cea015d0dfa4f5ca2307e",
+          "author": "gpt-6.1-terra / 01a1e9d3-37c4-7c23-92f1-7a4b6d0356fb",
+          "reviewer": "gpt-6.1-terra / 01a1e9d5-046a-7dd1-ac99-ac6152475629",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26186: The cited DomandeB.pdf reference could not be inspected: the server response exceeded the browsing limit. Replace it with an accessible exact supporting citation; the official revision AM/B 2025 list independently supports the oncoming-traffic rule (https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAB%2Bitaliano%2B04%2B04%2B2025/37af530b-c893-4d69-ba4a-a94fc4622fe6?version=1.0, no. 20980).",
+            "26198: The evidence cites 07005 F08 as support for the assertion that flashing amber does not operate with red. F08 is a false quiz assertion; it cannot substantiate the correction. Retain the true V01 for the stated possibility and replace or remove the unsupported F08 claim in the evidence.",
+            "26202: The draft makes a categorical claim that red and green are off in flashing-amber mode. The cited QuizPatente3D text and official 07005 V01 state this is possible, not that it is always so; V01 does not establish the categorical correction. Provide an authoritative source supporting the full claim or qualify the explanation and its evidence without deriving a rule from the false quiz assertion."
+          ]
+        },
+        {
+          "task_sha256": "d3d81c3de687dba24b65106e4c53e6e52cc86f2dd915fa7d0f821f2e05341268",
+          "output_sha256": "18e9e6d7772591fe9c34be06b1cb2c78a446ab5bf0cb0cb8069cf7d692f1f91f",
+          "author": "gpt-6.1-terra / 01a1e9d3-37c4-7c23-92f1-7a4b6d0356fb",
+          "reviewer": "gpt-6.1-terra / 01a1e9d5-046a-7dd1-ac99-ac6152475629",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26186: The cited DomandeB.pdf reference could not be inspected: the server response exceeded the browsing limit. Replace it with an accessible exact supporting citation; the official revision AM/B 2025 list independently supports the oncoming-traffic rule (https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAB%2Bitaliano%2B04%2B04%2B2025/37af530b-c893-4d69-ba4a-a94fc4622fe6?version=1.0, no. 20980).",
+            "26198: The evidence cites 07005 F08 as support for the assertion that flashing amber does not operate with red. F08 is a false quiz assertion; it cannot substantiate the correction. Retain the true V01 for the stated possibility and replace or remove the unsupported F08 claim in the evidence.",
+            "26202: The draft makes a categorical claim that red and green are off in flashing-amber mode. The cited QuizPatente3D text and official 07005 V01 state this is possible, not that it is always so; V01 does not establish the categorical correction. Provide an authoritative source supporting the full claim or qualify the explanation and its evidence without deriving a rule from the false quiz assertion.",
+            "26184: The helper explanation says to wait for green, while the Italian says to wait for permission to proceed in the relevant direction; align the four texts in meaning, including other valid directions by an authorized traffic officer or applicable signal."
+          ]
+        },
+        {
+          "task_sha256": "fc54ca520c375c531ca62aff77648cead83a755670555733f405840f1b6dc7f2",
+          "output_sha256": "2699ddd9c60696298fe3d5717b297bdaa263c9e841b268dd7f2bd38454f0ea7d",
+          "author": "gpt-6.1-terra / 01a1e9d3-37c4-7c23-92f1-7a4b6d0356fb",
+          "reviewer": "gpt-6.1-terra / 01a1e9d5-046a-7dd1-ac99-ac6152475629",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26186: The cited DomandeB.pdf reference could not be inspected: the server response exceeded the browsing limit. Replace it with an accessible exact supporting citation; the official revision AM/B 2025 list independently supports the oncoming-traffic rule (https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAB%2Bitaliano%2B04%2B04%2B2025/37af530b-c893-4d69-ba4a-a94fc4622fe6?version=1.0, no. 20980).",
+            "26198: The evidence cites 07005 F08 as support for the assertion that flashing amber does not operate with red. F08 is a false quiz assertion; it cannot substantiate the correction. Retain the true V01 for the stated possibility and replace or remove the unsupported F08 claim in the evidence.",
+            "26202: The draft makes a categorical claim that red and green are off in flashing-amber mode. The cited QuizPatente3D text and official 07005 V01 state this is possible, not that it is always so; V01 does not establish the categorical correction. Provide an authoritative source supporting the full claim or qualify the explanation and its evidence without deriving a rule from the false quiz assertion.",
+            "26184: The helper explanation says to wait for green, while the Italian says to wait for permission to proceed in the relevant direction; align the four texts in meaning, including other valid directions by an authorized traffic officer or applicable signal."
+          ]
+        },
+        {
+          "task_sha256": "ea769c36292e574bf18737013b5aa6c9cd3df1039d2c2c3760a77f17aa65f278",
+          "output_sha256": "951e9c430516b17643f410e12dcfa6c8d236f84a06565ff82c910c48fc91b78f",
+          "author": "gpt-6.1-terra / 01a1e9d3-37c4-7c23-92f1-7a4b6d0356fb",
+          "reviewer": "gpt-6.1-terra / 01a1e9d5-046a-7dd1-ac99-ac6152475629",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26186: The cited DomandeB.pdf reference could not be inspected: the server response exceeded the browsing limit. Replace it with an accessible exact supporting citation; the official revision AM/B 2025 list independently supports the oncoming-traffic rule (https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAB%2Bitaliano%2B04%2B04%2B2025/37af530b-c893-4d69-ba4a-a94fc4622fe6?version=1.0, no. 20980).",
+            "26198: The evidence cites 07005 F08 as support for the assertion that flashing amber does not operate with red. F08 is a false quiz assertion; it cannot substantiate the correction. Retain the true V01 for the stated possibility and replace or remove the unsupported F08 claim in the evidence.",
+            "26202: The draft makes a categorical claim that red and green are off in flashing-amber mode. The cited QuizPatente3D text and official 07005 V01 state this is possible, not that it is always so; V01 does not establish the categorical correction. Provide an authoritative source supporting the full claim or qualify the explanation and its evidence without deriving a rule from the false quiz assertion.",
+            "26184: The helper explanation says to wait for green, while the Italian says to wait for permission to proceed in the relevant direction; align the four texts in meaning, including other valid directions by an authorized traffic officer or applicable signal."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "e9df8f740581aafb6fc1a06d836ce3b740227e90460878fabcbed683a1cccfbc",
+          "output_sha256": "20495de7d2c182eb1aa03d2f9420ba59d9ea0f38fda17a944ea908887aea2c61",
+          "author": "gpt-6.1-terra / 01a1e9d6-d7c0-7d53-8540-285fe6f2e606",
+          "reviewer": "gpt-6.1-terra / 01a1e9d7-eddc-7c13-8f4a-ad90c5b91689",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26202: The explanation says flashing amber does not require red to be lit, but that possibility does not refute the actual assertion that the two are lit together. Explicitly correct the asserted simultaneous indication and substantiate the correction; the cited 07005 V01 establishes only that amber can flash with the other lamps off. Preserve the printed false verdict.",
+            "26186: The cited Ministry revision PDF for question 20980 timed out and could not be independently inspected. Replace or verify the exact cited evidence; Ministry A/B 2024 listato group 07002 V01 independently supports yielding to oncoming vehicles."
+          ]
+        },
+        {
+          "task_sha256": "d3d81c3de687dba24b65106e4c53e6e52cc86f2dd915fa7d0f821f2e05341268",
+          "output_sha256": "4ff07501dcb73659d6f207b041b638dc3fcf15882265b9c031d510217a65109b",
+          "author": "gpt-6.1-terra / 01a1e9d6-d7c0-7d53-8540-285fe6f2e606",
+          "reviewer": "gpt-6.1-terra / 01a1e9d7-eddc-7c13-8f4a-ad90c5b91689",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26202: The explanation says flashing amber does not require red to be lit, but that possibility does not refute the actual assertion that the two are lit together. Explicitly correct the asserted simultaneous indication and substantiate the correction; the cited 07005 V01 establishes only that amber can flash with the other lamps off. Preserve the printed false verdict.",
+            "26186: The cited Ministry revision PDF for question 20980 timed out and could not be independently inspected. Replace or verify the exact cited evidence; Ministry A/B 2024 listato group 07002 V01 independently supports yielding to oncoming vehicles."
+          ]
+        },
+        {
+          "task_sha256": "fc54ca520c375c531ca62aff77648cead83a755670555733f405840f1b6dc7f2",
+          "output_sha256": "10a9316b388afedca0664abbeafd626ae1a19883cb8e1508fd972196fe4b5c88",
+          "author": "gpt-6.1-terra / 01a1e9d6-d7c0-7d53-8540-285fe6f2e606",
+          "reviewer": "gpt-6.1-terra / 01a1e9d7-eddc-7c13-8f4a-ad90c5b91689",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26202: The explanation says flashing amber does not require red to be lit, but that possibility does not refute the actual assertion that the two are lit together. Explicitly correct the asserted simultaneous indication and substantiate the correction; the cited 07005 V01 establishes only that amber can flash with the other lamps off. Preserve the printed false verdict.",
+            "26186: The cited Ministry revision PDF for question 20980 timed out and could not be independently inspected. Replace or verify the exact cited evidence; Ministry A/B 2024 listato group 07002 V01 independently supports yielding to oncoming vehicles."
+          ]
+        },
+        {
+          "task_sha256": "ea769c36292e574bf18737013b5aa6c9cd3df1039d2c2c3760a77f17aa65f278",
+          "output_sha256": "80d3a75e4a05dd4519bbd83ada9a545089ac9a402b8001a33da22c7f36b6b7ac",
+          "author": "gpt-6.1-terra / 01a1e9d6-d7c0-7d53-8540-285fe6f2e606",
+          "reviewer": "gpt-6.1-terra / 01a1e9d7-eddc-7c13-8f4a-ad90c5b91689",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26184,
+            26185,
+            26186,
+            26187,
+            26188,
+            26189,
+            26190,
+            26191,
+            26192,
+            26193,
+            26194,
+            26195,
+            26196,
+            26197,
+            26198,
+            26199,
+            26200,
+            26201,
+            26202,
+            26203,
+            26204,
+            26205,
+            26206,
+            26207,
+            26208
+          ],
+          "issues": [
+            "26202: The explanation says flashing amber does not require red to be lit, but that possibility does not refute the actual assertion that the two are lit together. Explicitly correct the asserted simultaneous indication and substantiate the correction; the cited 07005 V01 establishes only that amber can flash with the other lamps off. Preserve the printed false verdict.",
+            "26186: The cited Ministry revision PDF for question 20980 timed out and could not be independently inspected. Replace or verify the exact cited evidence; Ministry A/B 2024 listato group 07002 V01 independently supports yielding to oncoming vehicles."
+          ]
+        }
+      ],
+      {
+        "task_sha256": "ea769c36292e574bf18737013b5aa6c9cd3df1039d2c2c3760a77f17aa65f278",
+        "output_sha256": "5ab1a786971402ea1fe367779f98ac7c8afc8ed9ed8f77b097bf822a39adfcb8",
+        "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          26184,
+          26185,
+          26186,
+          26187,
+          26188,
+          26189,
+          26190,
+          26191,
+          26192,
+          26193,
+          26194,
+          26195,
+          26196,
+          26197,
+          26198,
+          26199,
+          26200,
+          26201,
+          26202,
+          26203,
+          26204,
+          26205,
+          26206,
+          26207,
+          26208
+        ],
+        "issues": [
+          {
+            "number": 26200,
+            "reason": "The text repeats that flashing amber at a dangerous point calls for slowing and caution, without explaining why. Explain that it draws attention to a hazard rather than conveying priority or an unconditional stop, and that priority rules remain applicable."
+          },
+          {
+            "number": 26202,
+            "reason": "The official true item establishes that flashing amber can occur with other lights off, and the false item rejects a danger interpretation of amber with red; neither establishes the absolute claim that other lights are always off whenever amber flashes. Cite a source that directly supports normal operation of the same vehicle signal or qualify the assertion to avoid deriving exclusivity from those quiz answers."
+          }
+        ]
+      }
+    ]
+  }
+}

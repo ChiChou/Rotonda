@@ -1,0 +1,37 @@
+{
+  "batch": "168",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "1e11f433ec30dc0d982c43f8e7389972fccdbdc1b1a600e665dde6ffa60b8ad6",
+  "source_sha256": "a51fabeafab4b1acf36e9ef5050da379e3c36e6fc2edbf61946f375dc1f352e1",
+  "corrections": [
+    {
+      "id": "de6a6f263d896ccf43a0d08d8b074e2e93bb05c7aa31437cbc814c3ad13220f2",
+      "before": "Para resolver los principales problemas de los sistemas de transporte, las teorías económicas sugieren abandonar los enfoques mediante tarifas y mediante limitación directa del uso",
+      "after": "Para resolver los principales problemas de los sistemas de transporte, las teorías económicas sugieren abandonar los enfoques «by-pricing» (mediante la tarificación) y «by-quantity» (mediante la limitación directa del uso)",
+      "reason": "Gasolio especifica el combustible diésel.; The Spanish text described a diesel injection pump, a different sentence; rewritten from the Italian"
+    },
+    {
+      "id": "de800c626904d6a3c3c50157cd8a94fb43e2b5b07daf42d7948ed83ba63f374d",
+      "before": "En las estaciones de autobuses, los andenes rectos y paralelos se utilizan cuando la parada es de larga duración.",
+      "after": "En las estaciones de autobuses, los andenes rectos y paralelos se utilizan cuando el estacionamiento es de larga duración.",
+      "reason": "Sosta de larga duración se refiere al estacionamiento."
+    },
+    {
+      "id": "dedbbf38138d0d86ad27441209cdd6c82f1d869264d5d218589af3f6943d9be7",
+      "before": "La señal mostrada indica una zona de parada para taxis en servicio",
+      "after": "La señal mostrada indica una zona de estacionamiento para taxis en servicio",
+      "reason": "Sosta indica el estacionamiento de taxis en la zona reservada."
+    }
+  ],
+  "reviewed_file_sha256": "7d67ca6ce9e5953694fd4043d8395581bf6f8803721c8462dcbac71f3618e2de"
+}

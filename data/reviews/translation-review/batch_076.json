@@ -1,0 +1,206 @@
+{
+  "batch": "076",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "3bb78452024d8677f9572ba9626e27b2a771230dce2a61a5691dfdf47f313a3b",
+  "rows": 100,
+  "verified_ids": [
+    "44537cf15d5cdf259625c0ab4ac264b515620b9ed6dee932678faa266c675010",
+    "50096a44ca4aea6fd1eb883b38b196d5d4cd458e6c36408e7de69ae029fd1082",
+    "9129f3e8205d659b94293f9226457e4ea8d8ddd116ed7d77d24d9aa6d2bd5913",
+    "3e29b769d219e8aeaf033bc8366d81b09db8584fd82b0db5b7eea7001c34e8e6",
+    "6fd5aa2f533dcf9f666c51065b8a6af1ab0983622f00c1aae6b857383408e3b1",
+    "af31f866bd23146af6fd34c15816c563055708c21545c41f7c7e8841066fb439",
+    "fc0f922c93a777a38c5c51aa1e877ec18df02a554559e7e7bb914c9f030bfd83",
+    "9abf0686ec67fbbba64075e3b5596c7670bde99d1612ea3ce4d1ee0944d77cb9",
+    "2f602d6dce2f058b43fa60377d3d4bf857287e73127fcff507175504058c4364",
+    "dd15393a07ed0db6fa5ad919706c5337a361cbcfa4062b08fe56fd47b59976e6",
+    "0eb036de23346e8280d45e2b88fa7bce8a4b1a794d146433791f52c4e7a68397",
+    "7785860c14ecb0b635afda2a6779b20687fac4170960c05943a8f6210b56a900",
+    "ebaac7dd48b18dbb7e6279be6cccf457a1d5c7f981d866286c9d5df69ead47bf",
+    "68e566152559202bd0742eb2337fcac1fe27a2056c20720420bc75ce52c5a9f1",
+    "1180963aa5e8e52867c35555c9a1b432cf3c7ecff46084ed55e43fa797c866ab",
+    "b1baa4752399ad8359d97d8cdf87146cc8c9b10d93a3b7f9d95d8710a011a88a",
+    "e9cbe5579693b8753dd276e4e239577f5a1819363961a3b694e3ea6c355e3f50",
+    "b2ec30df12d6aa54cb312f4e6d97d71192fbfc395f54fa2088b9d87a3d388a71",
+    "813e0d517bd55f330090a949477b33642df5b630c563769df1252ee191895c3e",
+    "7124ea76479fe4ca6455e5b0507a9009cd4c1aebda75da50a0dbefaaeaf26cff",
+    "b3e8e49c97c38ea202c4b7e83f631dc3a00f7dc2dc3ea7e32fde1ae96d3ed42e",
+    "8952d2b74d09235a7f60a2459a352232a174f5b43f113ecfd91b66612bbf7875",
+    "09594033dc1017ebbd06538e75132ac3c802c21bbcadfd8131298e8aed644de9",
+    "7fcd8463db20e4accb804b344cc706359b18cb216c34be24c699fc4a8a15fd45",
+    "ccde9543d86c547ff6452217f6994e4f2fb95aa9184f79dcc2d62043220504a9",
+    "aae2e1055eb6eca4922f643cbdc45a20ad114e40ea3739547539c134be14d716",
+    "5b1288102f774bee5ae5b0d7b27d81b22ad7cbce388c9c4b47eb79eb9fd42c8c",
+    "0cc95ad8fc8b62d2a4c3046f2a2be6bbdcb7cfa31ec5880586d1aabda17449e0",
+    "aa1f2f5790649706e62d72a04c9177a1303a3e0d907f8d134229d2423faa2a98",
+    "ac4a2c7e51952ef7ff00a8d8d6bb307d18e59d8d7e0107bb4eda2477798dbea6",
+    "0cdcfafb2f5236e741c05e95f0cd20207a743d779616fd7b7844f87b20d8764e",
+    "763d8a8484644f7ea91cc01181f7a214f45be274036d64dd2e4c9aa00d45026e",
+    "1c7b93b72f7492fa61cf312d3734bac2a326b8aa8543ade7d69af3c65a9aa7fa",
+    "5666dea072da7d4aeca7b4aa9226110970e16920e981dff3fe4cb0a7d7e8ee4a",
+    "9c72c5fe1414b211407bd2dd9daaa87385abf6fb8c19f137691ae941661c96c0",
+    "56a651391639dd8b49e727b1e5d645c3eb9d60d46f0f98e4f4aacfd5a871f0c8",
+    "8d7827e5f83564f93223e57fcf886e24e226acd6715933670f8c062b63e7ccaf",
+    "44b0895d571a248749e507e2de10062bbc5987b93013cd0f8328d1178b0ca7bf",
+    "1a6ec832aef9cf67e40323d062ba186e78519471a4d6990b96ad500a14196989",
+    "b1f3b11384645b0170ff2e972f0b31392f9f7c153f00c36193ed8f3c87aaeddc",
+    "0899f93e341aaccec02767c03cf1df3b8fb1e0735bda54425a16ab31d3de76f7",
+    "52f35ba91fca66f04b55ee845c8e295fff70027e617a940a11819008d2729859",
+    "9e7780aa203a864d1fc1360a088403b381ea3f977d789271223843f2623fd3d6",
+    "8b308d48bb683ef26b8722c2f5098fa4ddb79251ffaaef7c48e46c8c36948143",
+    "dfd04788fc39234d166996bb8fa6af750079c93f8305d8e48e99ec3e6693d758",
+    "2c6a808b0bb8d3425e00a548f8570c873da86b5fcf6e38bb7e915c4ad3c216b3",
+    "067f115f289c9c033e083648a8206d9930799eb4e1e3f4e8175cab396603c48b",
+    "9baa6ce96a74d08a4d39e1d4a9dae6d538a601305af3fc74af51232cf225ebc3",
+    "ad417ad6fcfe05ba1e40c2c51ba726e607945c1441afde137c1cc31bd026e8bf",
+    "79ac240d1235b80e4d2cfe3deb47795222a060988bcaaa5e4e4959a7790acecc",
+    "d25f47d82c59bcea27852945a6c1e4bcda9d1358a52888900dffe3fbd193fc6f",
+    "8de7d28b079463172ee16176d9c54efdaf559dd6b3e04bdf19dd068c11bee6f9",
+    "4c404f680dd326ce790e73e1d10c0e972732a144ca0fa7884d2d43266ecc74f4",
+    "146bd54609961456ffbde16584490ff8aa32baa552afd7337045bdba69a88a69",
+    "28831576176d0d9eec0f5cc4362ea4aeee3f6b617318c71174694cc538748c31",
+    "fe904909f26c6541805fd8ee67df0a51860f33ee95683ae805d6ebc40bed3b02",
+    "b3ffdffabff20bf3b6f7bafd64ed1d8f30a98046686da8e6d62da1086d047fa6",
+    "7e8fec6586ed668b9b10383f31fd6b34ad012a0928210cbe654c62e20753f636",
+    "48d907fdfd43178747f58d63b3bbdfde3e314fac91a3f7acebbb23e21c645c2c",
+    "f9633db2b5b78782505d0ba321d23fedffad9fc1b22c69638a70804bd5708c08",
+    "e41ae37f20716c14bb84db0e5523697e5f402cec0b675badcdabd747a3aa181f",
+    "6a4d04a6c91c1953311952e6c4e7b85ce02c254aa907fd8d8126688cca249c6a",
+    "d42a8dc251e7f850915a6729d166c8c3b1b7d8f1cb7fbed284a58ad800251672",
+    "33ac54fd9bf0d9bbe2a9906b10a076743c54ea589bc46e9f2ee40c05e51c70d9",
+    "de2371706a6d2c5c1fcb3e4d7d1fb446f15da5f95444e09892bdcd71ec93a825",
+    "bc1328930d3a645cb8321bb97487e0dc9b30d89dcc2161913eff72170848e798",
+    "f34109f2eb40d305124e45eeea077aba211677fb2b4d4b69301afc61fc1fdf1c",
+    "54568176e223f4bb7004333709986e8be5a616d53a2901f90e8042149de02f4f",
+    "b451a2b0f07d7c806c80c8812586ead91596c48a61eddba0ed2d0fb0870dc4d5",
+    "eb5d27be186db800eae63bc2158009498755fc51f21cc3ff30e991d5ed345856",
+    "e911c5c4ce8e8dfb6d5540eb30c8ca9efc8b1c75535e311f6a4035e057fc2f03",
+    "8e5053587a849bda0b681dfc16cca68a3e4e4f1b457e3dfeb343b143841d77b7",
+    "e93a0ce8c7faaff04f2c7070cb464f5d8dc029cbe9179195011f7b32cb514eed",
+    "1047ed94900e6cc20c86e050e7556fe84a41f7694b0b2e885d4fb5b92262f1f1",
+    "6cc74850547a6f000e67a6578c0e4088c5fa08aacb92a26eb5e02ca81eee46ec",
+    "3a19a3297a76e8901f3b3732816a0301832778020e5f80e307a555171f9db1cc",
+    "3964c69763c6a31aead769e7d44298845699de7235289a0d066ce77f7e2df86c",
+    "355c277d79c6c49fb231edd0d961aa00db0666a823a4d819c40bc2c1e2f6882b",
+    "f48aad3e98a5b6595dc070b53280f71c4b74443c2789486a43dd0c8fa061368f",
+    "1ee8dd1994eb323b7386bf3f61d7fcc25c344edccd2ffa2612fd88ad504f9748",
+    "c70be5852124259e6b273885300ce688ad932e0454c6141f2d0bb01d410f059d",
+    "10b7fbaceabf630a96657a1f0218169f14a61ae61b0f2f59221ed41f8d0a0fd5",
+    "2e08985dc5fa2df6c50f94e147eb02dc76d7a5b5a33143542e0b08541ac73066",
+    "bad3f71aceabd3132eeb590f789ecd61436efa0c54bc2c4d749e98db227f4a3e",
+    "d97138e57c774c477420eca0869d91c8d5070b881266cbb39e36dc8be0e16804",
+    "4b838cd0a4e1e5922a9da8dedeca264bd087bd447c4b2c202191126f01b299b1",
+    "829565afb1a3c37892fb21fd07623581a7159c42b0d15baf0a39bf22e017b860",
+    "403fb6cf0411c6fc47711de80af30adffd800c23ba15206292e02fb39928836b",
+    "c9b0fbfe52c6932e90b4f265350702810d0ceb6a47fd376044eaba7793659a4c",
+    "e3d305fbdc7ede5d4e9f7a4448b42edd4cf919d34fc8dbe068c0f55074c11f87",
+    "068e2e293a05e97422a78c3c1356707a3ca7a334683ad4d68999985f818f2a30",
+    "5ebf7411b44755352c3ef12872eecb69a2849b16b5544eb395323dd6f15d15f6",
+    "911bf74eb602d842a8009e418d286f1e3f2d6690cfca569a2384463544d5f281",
+    "33eac8a4382c724149b60ecc42265201273636efb27d9b8a020e1ff1b37f615b",
+    "ce7a6dffaa738f3da2dc96dc0c98af01312d7822fce30f1cd473cedb02848e72",
+    "67f3e8fc28fe9695ef1c5e0f9ded5bd2e6c9da75704cb2649e8a2788ec06b6d6",
+    "24ab5f032b33385c7354c6abb818a4e2219fbf8266049f33b751f4a28a42d6a0",
+    "8f635b60c4cdc311ab41b58a0669ca4c82fa52cfb5a06f5caa4f2fa9d9e5b713",
+    "1fd72ee2dee0b2e74db692c68eb8d53ea8f357d299eca94f962b253811ba7a93",
+    "84eda2b16d699a264c0bdd78e294c33e8cc14816bd08de2bf701aa7ccec24673"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "9abf0686ec67fbbba64075e3b5596c7670bde99d1612ea3ce4d1ee0944d77cb9",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Rights under a road transport contract expire after 18 months if transport begins outside Europe.",
+          "after": "Rights under a road transport contract become time-barred after 18 months if transport begins outside Europe."
+        }
+      }
+    },
+    {
+      "id": "2f602d6dce2f058b43fa60377d3d4bf857287e73127fcff507175504058c4364",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Rights under a road transport contract expire after 18 months if transport ends outside Europe.",
+          "after": "Rights under a road transport contract become time-barred after 18 months if transport ends outside Europe."
+        }
+      }
+    },
+    {
+      "id": "dd15393a07ed0db6fa5ad919706c5337a361cbcfa4062b08fe56fd47b59976e6",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Rights under a road transport contract expire the day after the goods are unloaded.",
+          "after": "Rights under a road transport contract become time-barred the day after the goods are unloaded."
+        }
+      }
+    },
+    {
+      "id": "6cc74850547a6f000e67a6578c0e4088c5fa08aacb92a26eb5e02ca81eee46ec",
+      "reason": "Effettuare means carry out; 'may include' changes the claim",
+      "changes": {
+        "en": {
+          "before": "International services may include intra-Community regular services.",
+          "after": "Intra-Community regular services may be performed in the international context."
+        },
+        "zh": {
+          "before": "国际服务可以包括共同体内部定期服务。",
+          "after": "在国际范围内可以开展共同体内部定期服务。"
+        }
+      }
+    },
+    {
+      "id": "3a19a3297a76e8901f3b3732816a0301832778020e5f80e307a555171f9db1cc",
+      "reason": "Effettuare means carry out; 'may include' changes the claim",
+      "changes": {
+        "en": {
+          "before": "International services may include extra-Community regular services.",
+          "after": "Extra-Community regular services may be performed in the international context."
+        },
+        "zh": {
+          "before": "国际服务可以包括共同体境外定期服务。",
+          "after": "在国际范围内可以开展共同体境外定期服务。"
+        }
+      }
+    },
+    {
+      "id": "3964c69763c6a31aead769e7d44298845699de7235289a0d066ce77f7e2df86c",
+      "reason": "Effettuare means carry out; 'may include' changes the claim",
+      "changes": {
+        "en": {
+          "before": "International services may include intra-Community occasional services.",
+          "after": "Intra-Community occasional services may be performed in the international context."
+        },
+        "zh": {
+          "before": "国际服务可以包括共同体内部临时服务。",
+          "after": "在国际范围内可以开展共同体内部临时服务。"
+        }
+      }
+    },
+    {
+      "id": "355c277d79c6c49fb231edd0d961aa00db0666a823a4d819c40bc2c1e2f6882b",
+      "reason": "Effettuare means carry out; 'may include' changes the claim",
+      "changes": {
+        "en": {
+          "before": "International services may include extra-Community occasional services.",
+          "after": "Extra-Community occasional services may be performed in the international context."
+        },
+        "zh": {
+          "before": "国际服务可以包括共同体境外临时服务。",
+          "after": "在国际范围内可以开展共同体境外临时服务。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "735249e4982221ab1fa770e5ddc45d8ad44ebdd6ac3c236d625d185d98422635"
+}

@@ -1,0 +1,88 @@
+{
+  "draft": {
+    "status": "draft_unreviewed",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "rows": [
+      {
+        "id": "077d985d7320ad365d9cac876dc4158b2b28c9f200516fd54eea14f04af76ca0",
+        "it": "Il conducente del ciclomotore deve evitare la posizione sdraiata in avanti, anche se essa riduce la resistenza dell’aria",
+        "question_numbers": [
+          27436
+        ],
+        "answer": 1,
+        "translations": {
+          "zh-Hans": {
+            "current": "轻便摩托车驾驶人必须避免身体前伏，即使这样可以减小空气阻力。",
+            "proposed": "轻便摩托车驾驶人必须避免向前俯卧的姿势，即使这种姿势能减小空气阻力。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/inputs/official/2026-11-14/conseguimento-am-it.pdf, physical PDF page 155, SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+            "support": "Official AM source statement and printed answer; compared question text and baseline translation."
+          }
+        ],
+        "reason": "Replace the weaker forward-lean posture with lying forward, while preserving the obligation to avoid it and the concession about air resistance."
+      },
+      {
+        "id": "bb23e2d440e4b29964fac4623dcfe289605fe767a21674bdf796fbd0a6efdbea",
+        "it": "Se, conducendo un quadriciclo leggero a motore, si intralciano i veicoli che seguono, occorre permettere il sorpasso ai veicoli più veloci che seguono appena si sia giunti in un punto sicuro",
+        "question_numbers": [
+          27445
+        ],
+        "answer": 1,
+        "translations": {
+          "es-419": {
+            "current": "Si al conducir un cuatriciclo ligero motorizado se obstaculiza a los vehículos que vienen detrás, hay que permitirles adelantar en cuanto se llegue a un punto seguro",
+            "proposed": "Si al conducir un cuatriciclo ligero motorizado se obstaculiza a los vehículos que vienen detrás, hay que permitir que los vehículos más rápidos que siguen adelanten en cuanto se llegue a un punto seguro"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/inputs/official/2026-11-14/conseguimento-am-it.pdf, physical PDF page 155, SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+            "support": "Official AM source statement and printed answer; compared question text and baseline translation."
+          }
+        ],
+        "reason": "Restore più veloci as the qualifier of the following vehicles permitted to overtake, preserving the initial condition and safe-place timing."
+      }
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "draft_sha256": "c91230a516010bf5d29f7e98cea841ae79b6cc575e81faa7d91310efea0a0e31",
+    "draft_sha256_method": "SHA256 of UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_file_sha256": "b742f50dd54bc73db12bf094dc56a363533673c9b67695e26fee28f5e744dd5e",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "checked_pairs": [
+      [
+        "077d985d7320ad365d9cac876dc4158b2b28c9f200516fd54eea14f04af76ca0",
+        "zh-Hans"
+      ],
+      [
+        "bb23e2d440e4b29964fac4623dcfe289605fe767a21674bdf796fbd0a6efdbea",
+        "es-419"
+      ]
+    ],
+    "issues": [],
+    "pair_assessments": [
+      {
+        "id": "077d985d7320ad365d9cac876dc4158b2b28c9f200516fd54eea14f04af76ca0",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "向前俯卧 explicitly describes the forward lying posture; the obligation to avoid it and concession regarding air resistance are preserved."
+      },
+      {
+        "id": "bb23e2d440e4b29964fac4623dcfe289605fe767a21674bdf796fbd0a6efdbea",
+        "language": "es-419",
+        "result": "accepted",
+        "finding": "The condition of obstructing following vehicles, the faster following vehicles, permission to overtake and timing upon reaching a safe point are preserved."
+      }
+    ],
+    "source_checks": [
+      "Original AM PDF physical page 155: compared both Italian questions and printed VERO answers; verified source PDF hash 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30 from previous direct hash check.",
+      "Recomputed source text IDs using prepare_bank_translations.text_id; compared Chinese baseline in translations/multibank/batch_017.jsonl and Spanish baseline in translations/es-419/141.csv.",
+      "Neither translation inserts explanation or changes the asserted rule."
+    ]
+  }
+}

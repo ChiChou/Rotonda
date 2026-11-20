@@ -1,0 +1,37 @@
+{
+  "batch": "177",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "5e0d62cfd4fe0bb77b02aa4053ec1ba3c202b176f4c42f18dde7a652ea24486c",
+  "source_sha256": "cc34d911f8c291d78796f402b30f6b749cd46ba1bf1b0ff2c6c304ba02f675e3",
+  "corrections": [
+    {
+      "id": "ea30d38ea3665451b5c13dab538dcdd273189003f3b7ab3747fe7d5b198556d9",
+      "before": "La inyección controlada por el sistema Common Rail proporciona una presión muy alta del combustible incluso a bajas revoluciones del motor",
+      "after": "La inyección controlada por el sistema Common Rail proporciona una presión muy alta del diésel incluso a bajas revoluciones del motor",
+      "reason": "Gasolio especifica el combustible diésel."
+    },
+    {
+      "id": "eb136619db4095335e1eb2d5c56b1fa8862546d54ab6e28b9a5462f5c8def5be",
+      "before": "En un motor diésel, los inyectores tienen un dispositivo que pulveriza el combustible que entra en los cilindros",
+      "after": "En un motor diésel, los inyectores tienen un dispositivo que pulveriza el diésel que entra en los cilindros",
+      "reason": "Gasolio especifica el combustible diésel."
+    },
+    {
+      "id": "eb154482d9f386f13745a26e2fc538e887155196251a97ea1428f8623767fd06",
+      "before": "El propietario que pretende desmantelar o dar de baja un vehículo debe entregarlo a un centro de recogida para su descontaminación, un desmantelador autorizado",
+      "after": "El propietario que pretende desmantelar o desguazar un vehículo debe entregarlo a un centro de recogida para su puesta en seguridad, un desmantelador autorizado",
+      "reason": "Rottamare indica desguazar, no solamente dar de baja.; 'messa in sicurezza' means making safe, not decontamination"
+    }
+  ],
+  "reviewed_file_sha256": "1da1c205b9f1de8687d76527b34c5282b840ff2bb11028e59d063b91c165448f"
+}

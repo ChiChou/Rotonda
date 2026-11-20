@@ -1,0 +1,43 @@
+{
+  "batch": "058",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2aa479a15618caf1eb447ef092ea650579af5a094c5eaf60614d7764ce23d967",
+  "source_sha256": "aa06bd341b54052029ec38e1cac90935f5e91778dad1bb573f72294d7abf55c2",
+  "corrections": [
+    {
+      "id": "4d4dcd29ef132d332b99283c977f93e28a16a0804e394676c80cfbdcc37099ab",
+      "before": "El transporte por cuenta propia se realiza exclusivamente con vehículos matriculados a nombre de empresas artesanales o agrícolas",
+      "after": "El transporte de mercancías por cuenta propia se realiza exclusivamente con vehículos matriculados a nombre de empresas artesanales o agrícolas",
+      "reason": "Se recupera que se trata de transporte de mercancías."
+    },
+    {
+      "id": "4d7badd294a483b97468412acc8809b7358a9ae36bf651a6e8346404be433f90",
+      "before": "Durante la parada del autobús, el conductor debe prestar especial atención a su posición respecto de la acera, sobre todo si debe subir o bajar una persona en silla de ruedas",
+      "after": "Durante la parada del autobús, el conductor debe prestar especial atención a su posición respecto de la acera, sobre todo si debe subir o bajar una persona con discapacidad en silla de ruedas",
+      "reason": "Se recupera la referencia a una persona con discapacidad en silla de ruedas."
+    },
+    {
+      "id": "4da301f8b51ff1a55bb45dcd38bae0a4d41b8ac470c135dd0a088b1a9d9d3935",
+      "before": "El rendimiento de un sistema de vigilancia con reconocimiento automático de accidentes no depende de la calidad ni de la cantidad de información recibida",
+      "after": "El rendimiento de un sistema de vigilancia con reconocimiento automático de accidentes no depende de la calidad ni de la cantidad de información suministrada por el sistema",
+      "reason": "'fornite dal sistema' means provided by the system; 'recibida' changed the subject/direction of the information"
+    },
+    {
+      "id": "4df4750700c4eb4bbfb308150f43f8f1b791202fd314e0dd37bc5de7179f7246",
+      "before": "Con niebla densa, si hay que detenerse en la calzada conviene usar las luces de emergencia",
+      "after": "Con niebla densa, si hay que detenerse en la calzada conviene usar las luces de emergencia (las cuatro direccionales intermitentes simultáneamente)",
+      "reason": "Se conserva la aclaración de las cuatro luces intermitentes simultáneas."
+    }
+  ],
+  "reviewed_file_sha256": "db9a14411e5a303bdcfe25634c6a7400bae7c52ff4b25315434ab85210f7a112"
+}

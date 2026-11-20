@@ -1,0 +1,49 @@
+{
+  "batch": "054",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "b3a4b0f55ffbd078fea6d3fbf5a48bc73af4be607ba090ba33f868fb45e89a81",
+  "source_sha256": "727d66cfe889a3dae4a74e901b8abd76f707fbc7eb947247cacb6c976338303c",
+  "corrections": [
+    {
+      "id": "47dc5f29ab5fec2fde1e4ddf6cc7f1f6cdd8633a2ce42ff1949d683bf73abbdd",
+      "before": "La señal mostrada indica un área de descanso vigilada",
+      "after": "La señal mostrada indica un área vigilada para detenerse",
+      "reason": "Área di sosta no implica necesariamente instalaciones de descanso."
+    },
+    {
+      "id": "482687d2f9212d9bd933bfe1966ccea10068d155c18e424e2f978e3bbe0ca979",
+      "before": "11##tipología11 CQC",
+      "after": "11##tipologia11 CQC",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original."
+    },
+    {
+      "id": "4862205a140f32c4b13d2c5b5fe3f8e39937da86072851ca5d34613b3aaa9bf3",
+      "before": "Al conectar neumáticamente el tractor y el remolque, el conductor debe usar guantes de protección adecuados",
+      "after": "En los sistemas de frenos de aire comprimido, el conductor que conecta neumáticamente el tractor y el remolque debe usar guantes de protección adecuados",
+      "reason": "Restituye que la conexión corresponde a sistemas de frenos de aire comprimido."
+    },
+    {
+      "id": "48ade12266b21b54c76bc2fbe4705098fff620bae2c8deb8ae57bd6a11ee77f3",
+      "before": "La línea blanca lateral discontinua de la figura separa la calzada de un área de parada",
+      "after": "La línea blanca lateral discontinua de la figura separa la calzada de un apartadero",
+      "reason": "Piazzola di sosta designa un apartadero."
+    },
+    {
+      "id": "49429b1f79437531d4a6e7e0cc57489f8a5c83addb77b22df487e1b872f45cfd",
+      "before": "La función fuera de ámbito, que desactiva el tacógrafo digital, debe usarse cuando el aparato está dañado",
+      "after": "La función «out of scope» (desactivación del tacógrafo digital) debe usarse cuando el tacógrafo está dañado",
+      "reason": "Restituye el nombre original de la función junto con su explicación."
+    }
+  ],
+  "reviewed_file_sha256": "dda4dc4ce8dfbf7631d5855a21703f09ce448da7e5f70dbca39097edeb4c342a"
+}

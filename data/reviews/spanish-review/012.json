@@ -1,0 +1,37 @@
+{
+  "batch": "012",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "dac9105bb2ad9fc4e441a0126046b7917a5c29f4fbb126c152833c80aff17339",
+  "source_sha256": "72c7c14be04745f549011f0830c660a0f6d9f51132b35fe044d89db1e0ef0243",
+  "corrections": [
+    {
+      "id": "10b6eb2038cb0cdcd8b2fd39164bcf4e9bc3174f87d12a84be94be7ac667de27",
+      "before": "Según el CMR, por retraso se entiende la falta de entrega de la mercancía dentro del plazo convenido",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), por retraso se entiende la falta de entrega de la mercancía dentro del plazo convenido",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "116f63e3948900c622ff65810095de0b74fbdc3226a00ea3b002ec088b089d1c",
+      "before": "La licencia de categoría B autoriza a conducir autobuses destinados al transporte de un máximo de 16 pasajeros, sin contar al conductor",
+      "after": "La licencia de categoría B autoriza a conducir autobuses destinados al transporte de un máximo de 16 plazas, sin contar al conductor",
+      "reason": "El original se refiere a plazas, no a pasajeros."
+    },
+    {
+      "id": "11be5e0383592324ad70f3e407b1107c02c5ac81c5ea30ee0f631ee13c25550a",
+      "before": "En los sistemas de frenos, la fuerza de frenado es amplificada por el ABS",
+      "after": "En los sistemas de frenos, la fuerza de frenado es amplificada por el ABS (dispositivo antibloqueo del sistema de frenos)",
+      "reason": "Restituye la definición de ABS incluida en el original."
+    }
+  ],
+  "reviewed_file_sha256": "d108859ada688e4c05f650370e09232d3331afc1040a9c7f1a808c363af3a922"
+}

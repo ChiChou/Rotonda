@@ -1,0 +1,470 @@
+{
+  "batch": "081",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "b2d0048a67e641fbe3b93c3f8a4eb4b255ccea2867f38545cd3b7bbdac2321a4",
+  "rows": 100,
+  "verified_ids": [
+    "d588087f2bd803314e206f1761f56629080de1b400fd7b77028006450157795e",
+    "26ac63256a507ace1e20155024b85e31be7012eb307c744a15f1c4819cae076c",
+    "ba9a675d2ab624e51e340939b68cfb54614bfe6947cf945a2a83fc81cd319301",
+    "9709e983da6c5a135c4cbc5a07a671f4df32ae40c6f61f3399ffe1224233e1a2",
+    "15d0c1f0c0704a606736dbf34696532f1c8d63c3505cb61a965e3200da8c6b3d",
+    "992fccc3123a51333303dfd77f651cd14a773bc018a83d0975343314af7bf2be",
+    "0142e83c7b872ae33dd6f606784ef0412f7cc12a4bac475d6420c16ee55eb4da",
+    "9e78c06914407ce446665a1ba49f5c386f8f65e6ee59b98c2c25abc0e30db18e",
+    "52d2dda3115f5896a7deec2d3d50e633f66950f0c87a93354e758f052f80437f",
+    "b923904cf6ac953d430699a7d8813eae1368861c5606268e359fb9b22df545da",
+    "eb8b00ccfd43e52a016e35e43722a4128f30e076ebbb2c5a94be27c5f55baa38",
+    "423c9dba625a1e2c2b3c484c216121bb116422ea61e10c9413ed1fc853e13dcf",
+    "9cf5a84ea75e98aa8097b494e11fa7bae350cc897722ec1cf84e085bc73fda96",
+    "e2b2210b8116fe1e26b62121fd966f2fcfd959eb42eb7993af5fe80c6d6aebc2",
+    "6aeb4cf626f1d43464410b53bfc1ba3ab34c725061e73670b91915af7e938fb8",
+    "d68044d100bd0d7757bbeb6c5a1748466c430e907662106fd9ed7e1f40af56dc",
+    "376c62ec153668e734b098dd6974ba4b728aec2bc2b93dcdf83f3879db34707c",
+    "ec3410d506b43bcb02c8628dbce38b79f1fa12b744ab446158b46be9ef245c59",
+    "da4ad74c5b844436905cdc046ac3dc63c99747e4c9f058451d8ea034d444227e",
+    "af0450f229770cac0bcf5b3c36310e1515e8feb0339db3ebec46d8aedc2da3cb",
+    "b76e79d72756bbbec8954d57ece21c0a23a8d429fc81570656813e67a40b7913",
+    "66c34e8dc04e001118d9104cb635b091f0549ba3f19cc6b27efa7d2474bcf0e4",
+    "6b179e1c9ad2b3122b66cede7686be9f70f887075aea8c33e37aeea9deb8f25a",
+    "c9562ba929ac3d3c1c6a55cd31e7d0fb75d037620eb89c4d626a887f835f1b49",
+    "6bf9c983d961b7fac12ca1a204befa73af70df3836bf52ad85c9e2374e47f525",
+    "89f2cd4a1cdd1328cc720e9b98b2d35af3b01a766d7ea84edf897b637760801e",
+    "6510f65448986f40112bafc773e8e95c7c635c9dfd77f20f295c9823c404508b",
+    "683992dc601cd3c992b51d3c0f0414fb3356e42f4f09825cb30095edfd48cfd6",
+    "96b1934811f3792ad5edad9573b4078421e579c1a804eb2eca9e22b283c0fd74",
+    "5eedb1123a0cd3a39230ea78da9d30c85f431dee0af542a4513f101f5e023b9a",
+    "82d480879dbcf0b6cf4c3d7e5cc9ebe4fc7eeb5ca83c8994c3d83f6e4bca2cc4",
+    "aadbfde9a1552057063fce2e95b0e3e0601c278451efde5550c9df9d7318ed74",
+    "0f42d1c97a66e6d8f4a0122e9313c6389550d6500862492d8d73b68f5e9869c0",
+    "aae1d4f1bc1bb466db654c2c60af7c12d6364e5ba74d9fe0b4a017e53d1ae5f7",
+    "4d31ad4469abe8c1767a8c52a5ac143d25c8ed92faa103cf87846457bc6e364f",
+    "8c57d1ce855279554219b4e1c9aa0662ad90a762f2c165fd9a17b4d898a7a7c0",
+    "f477b18381b7338ea58f952618e70d5d452b225670e6954e1b111a24d776310c",
+    "06ec6d2e4d1a700ddb121ea61869d31216957b4ca9f6fe17cec46e4393d924e1",
+    "b028a915d4be713c8d81b07414458263d85d5075d6ca18c4bda4a96e2a412abc",
+    "ff0186b9a674cfb36b1a3394335f86ba112e431ba314b61e32d1da09d6a722db",
+    "0e3c08b73539dcbb68fa3a45f6a2b097a12c960934cdbe8281b574017dcc24ee",
+    "c7433b42d98ebdd306cdbfac9963dfae9a8bd9943afc07f4fa5121de66b2325c",
+    "a58f826ded5a8f9a0a23e8478b3345ab5ae670ce578296685b35ef93e0714345",
+    "90c20e6cc20cb6f90d72b23c9a1d7002696c131612b76ad13077564d339317d9",
+    "1d9d6397c7641366a8b0071d4c760450d63ef4cd12ad984eb2cb1ab1840de349",
+    "dda217631b9deb78d93ba5e3d2d0dd326609be7350b389a625703d79e37b0a27",
+    "00133cc925f42080e6a0ebd310288cbef867e5abd88bc1714db94609a334e5bf",
+    "1c92a4cb4e27db70fcdc508be6d1ca0f74bf2d04456df7a8fbe6c1b5f0217aac",
+    "b92c9d2297daa53b796d2a0914cc88e2b054ef402a2c9b0595d3a611d2cd235a",
+    "8acd187b906093249f41d3269fed1be773e27f15ef5970b0fc0a0656b5e5e74a",
+    "367bb8a07844b980d47afc15480b4196a9eda941f961dca2444f764b76dffef2",
+    "c8869b41f433fd264ca52c277a6470ee821ef8a768078dec23f32e8d78b95434",
+    "8f42b18d0fbf31c4c8a25ec2b8fe8a74da3e055e8f3bd76d9b46367fb8fe1c23",
+    "48b51fa5a0758ea02203ffb4191c18219c96db426e99f2a851da8f3349e56ee8",
+    "a96ba59f1372c42ab65efe08db54884d50f712f4a16a49e42c9e92fb8e01fb7a",
+    "fbd9cd8a84dab1e98e30696258310e04aa4c7c9b100ee30745cf9870b715fbb7",
+    "25552d48c5697302366a7bc06ff0d738c41d849324d473b15a23738462006971",
+    "13309a1bc2b016896bc221f5a07726577526d3e2616081cee3574e64dcda7154",
+    "e8bcea5f8e9d3e93d8421fd7136e5ad89b2cdd7de0de44a12c0f90153c85b7d0",
+    "2a19c3858e2e8b063e7192995a292bedb7ca55585dbb6f8090ee1a3313e8aaa0",
+    "119e9d99490f32892f976bcd6c3a400f9f6bf76de2c5d9cb55e983cfc00a169b",
+    "b4762b932b6a5bf1962ee593ae5605ad119375014da0ee11dee8c8dac0636a95",
+    "222772d300b2d5b637a2386ba3565de1105eba01861d9d5a246403f027769e45",
+    "a5b83f17bac158faa332cbec31ec8f6bd797ec70b39c4731a25db22d91f89dc6",
+    "9a704973524dec628d43310416bf0cbc51bd41e626545e1daecbf56dafb1188f",
+    "b1d896c655aeff2d3f6a9b70798fe233899afd72499bc29614a6fae947be350f",
+    "2bc0ea67686d549ba6ca4499be43a0cb034db27cbb92cd2384146e6a15817b6a",
+    "22505f547b0c5af1077e51750805122ffbc348b25d8037098d3d52fe7926d8d5",
+    "1d3e181478487b2f6846b745c346341faa7266d103b5648e8c70a00f41a291b6",
+    "bfb508dbe52205aeb1c347adda070067b843b963a76e0cb2e8904febfc81ed83",
+    "ebe1d36cb95eaae1defd07f1b73169a0a936d834fa8c43e5dc25a06f81083cc5",
+    "1c421ec901dea28d6a77522b316d69d2e90a40d673dadad8295af27846c4b13b",
+    "8597f6ee5bf7b9b4db056f290a7d2791d1469a94d5141da74e3f645cff79a632",
+    "9adc4e3309e840f3382a20d0e39fee2f40033c078977ae48b6d41bd33baba6d7",
+    "4eb69e7f5191b6772b6905148cb980073c9366af8fab34e06964aac3e7a35ded",
+    "b4067dcf73f342a4188acfee1075eae03b32d240af7a895005f0437b6c9f9267",
+    "d926a57d0701788cc1bf1d0d6eed033ba635b0d3eb25301ea4d53d4aa682370d",
+    "a1c0711c57ed3f95d9b012e46394152edadeb3b5f46048d08842a73c1d5f6d8c",
+    "8cc14ba897d42dfcad78654c0d8a74dc8086dee040f8bc4602c0ce835ce12ee3",
+    "597dffff9e4027323ca6b2beaec1904a9402ff13312e855bb5ba06a1856ba9d8",
+    "a8c136c564f49fd13d5b8577d26687de8d977b2d9bd5b0dee9e831e97b84c98b",
+    "802f7dcf2341e122295892e72f99e6311bcc337c8a67047580b452da3e57fdbe",
+    "c5ae749c630fa7a9fab9d661c203524a43fa154e37a954c4bb562689c89ca61a",
+    "99700b318113bbcff70c85ba76d3b995c38e3fa1761a2643a670fdc3416c9152",
+    "47325aac67f2f066efc3dec77bcac97558769bfb7e746d2264dbde804b0fbd9d",
+    "edc4f8e76541164632e6fba87bf248242d19ca75990721612c813388705d2ae5",
+    "61eabc413684160eaf663a364157baa2c8aa759146f748017802743394ff970f",
+    "dcefe1fa63facb6f8a9eeb2de4f231ba5563485df8aed2542fe202d6990a18ea",
+    "bcfad5e8ccaaaa2316cc0463eff56d2401c0090abca0c4d69e640b7dbd376b54",
+    "8efef07da6d6ff61ee7a1260c5d112d7de98c8143ea1fe49cba6fda1389746d3",
+    "7daaa6f825574a0b882ea0e232b5f4f30573facd5b87fbd114b2968d033ef6bc",
+    "d497ef4746ed5e94f8eb7e5ae062cc5b6d568591280be077322be8e17876b626",
+    "04d6579cba866f073289aa0f8730f061fd718652d2d49d75ba8cf49c5fd0179c",
+    "c1003aec1f13e47cacefd8d23479919aca560fb9335a495250829da2618ade1f",
+    "e28baf02c9860f6aeba7a7c9f1be08bb4c98be7c0f11f3cdba9934409ce598c0",
+    "fdee96430c705e1d6a0edef5887ebc17af2a3b30048828bed8137dae869a25b4",
+    "1534563cbdd53beeaa9650bb80b3bd9087c74bd26e93e8229b37f144e3a11e7f",
+    "586cb623a15fea2b212451bfa441d32001c3dd16d543dd2d90b79574594a0f4c",
+    "3667ba7d0045a84bb4abc04b0ac44c58165e58402979408a0d0b0fa75e6849a5",
+    "8613a4b1e79b41c0a91a3ea4d0d3e26419e83adbb501df93323d8fcd5bfa0dae"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "992fccc3123a51333303dfd77f651cd14a773bc018a83d0975343314af7bf2be",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "When goods marked T1 on the customs declaration arrive at customs, the Guardia di Finanza stamps permission to enter the customs area, checks any seals and gives the document to customs.",
+          "after": "When goods under the T1 procedure arrive at customs, the Guardia di Finanza stamps permission to enter the customs area, checks any seals and gives the document to customs."
+        },
+        "zh": {
+          "before": "报关单上标有T1的货物抵达海关时，财政警察加盖进入海关区域的准入章，检查已施加的封志，并将文件交给海关。",
+          "after": "处于T1程序下的货物抵达海关时，财政警察加盖进入海关区域的准入章，检查已施加的封志，并将文件交给海关。"
+        }
+      }
+    },
+    {
+      "id": "0142e83c7b872ae33dd6f606784ef0412f7cc12a4bac475d6420c16ee55eb4da",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "When goods marked T1 on the customs declaration arrive at customs in Italy, they must be presented at the entry gate to the Guardia di Finanza guard post, which checks the seals and stamps permission to enter on the T1 document.",
+          "after": "When goods under the T1 procedure arrive at customs in Italy, they must be presented at the entry gate to the Guardia di Finanza guard post, which checks the seals and stamps permission to enter on the T1 document."
+        },
+        "zh": {
+          "before": "报关单上标有T1的货物抵达意大利海关时，必须在入口向财政警察岗哨出示货物；岗哨检查封志并在T1文件上加盖准入章。",
+          "after": "处于T1程序下的货物抵达意大利海关时，必须在入口向财政警察岗哨出示货物；岗哨检查封志并在T1文件上加盖准入章。"
+        }
+      }
+    },
+    {
+      "id": "9e78c06914407ce446665a1ba49f5c386f8f65e6ee59b98c2c25abc0e30db18e",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "When goods covered by a T1 customs declaration arrive at customs, the Guardia di Finanza stamps no document.",
+          "after": "When goods under the T1 procedure arrive at customs, the Guardia di Finanza stamps no document."
+        },
+        "zh": {
+          "before": "受T1报关单约束的货物抵达海关时，财政警察不在任何文件上盖章。",
+          "after": "处于T1程序下的货物抵达海关时，财政警察不在任何文件上盖章。"
+        }
+      }
+    },
+    {
+      "id": "52d2dda3115f5896a7deec2d3d50e633f66950f0c87a93354e758f052f80437f",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "When goods covered by a T1 customs declaration arrive at customs, the Guardia di Finanza receives the document from the driver and gives it to customs offices without further formalities.",
+          "after": "When goods under the T1 procedure arrive at customs, the Guardia di Finanza receives the document from the driver and gives it to customs offices without further formalities."
+        },
+        "zh": {
+          "before": "受T1报关单约束的货物抵达海关时，财政警察从驾驶人处接收文件并交给海关办公室，无须办理其他手续。",
+          "after": "处于T1程序下的货物抵达海关时，财政警察从驾驶人处接收文件并交给海关办公室，无须办理其他手续。"
+        }
+      }
+    },
+    {
+      "id": "b923904cf6ac953d430699a7d8813eae1368861c5606268e359fb9b22df545da",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "When goods covered by a T1 customs declaration arrive at customs, the Guardia di Finanza may inspect them by sampling.",
+          "after": "When goods under the T1 procedure arrive at customs, the Guardia di Finanza may inspect them by sampling."
+        },
+        "zh": {
+          "before": "受T1报关单约束的货物抵达海关时，财政警察可以进行抽查。",
+          "after": "处于T1程序下的货物抵达海关时，财政警察可以进行抽查。"
+        }
+      }
+    },
+    {
+      "id": "eb8b00ccfd43e52a016e35e43722a4128f30e076ebbb2c5a94be27c5f55baa38",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "When goods covered by a T1 customs declaration arrive at customs in Italy, they must be presented to the customs official.",
+          "after": "When goods under the T1 procedure arrive at customs in Italy, they must be presented to the customs official."
+        },
+        "zh": {
+          "before": "受T1报关单约束的货物抵达意大利海关时，必须向海关官员出示货物。",
+          "after": "处于T1程序下的货物抵达意大利海关时，必须向海关官员出示货物。"
+        }
+      }
+    },
+    {
+      "id": "423c9dba625a1e2c2b3c484c216121bb116422ea61e10c9413ed1fc853e13dcf",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "When goods covered by a T1 customs declaration arrive at customs in Italy, they must be presented to the customs broker.",
+          "after": "When goods under the T1 procedure arrive at customs in Italy, they must be presented to the customs broker."
+        },
+        "zh": {
+          "before": "受T1报关单约束的货物抵达意大利海关时，必须向报关代理人出示货物。",
+          "after": "处于T1程序下的货物抵达意大利海关时，必须向报关代理人出示货物。"
+        }
+      }
+    },
+    {
+      "id": "b76e79d72756bbbec8954d57ece21c0a23a8d429fc81570656813e67a40b7913",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "When foreign goods enter EU territory, whoever transports them is responsible for immediately presenting the customs declaration to the designated customs office.",
+          "after": "When foreign goods enter EU territory, whoever transports them is responsible for their immediate presentation to the designated customs office."
+        },
+        "zh": {
+          "before": "外国货物进入欧盟境内时，负责运输的人有责任立即向指定海关提交报关单。",
+          "after": "外国货物进入欧盟境内时，负责运输的人有责任立即向指定海关呈报货物。"
+        }
+      }
+    },
+    {
+      "id": "6b179e1c9ad2b3122b66cede7686be9f70f887075aea8c33e37aeea9deb8f25a",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The freight forwarder is responsible for immediately presenting the customs declaration to the designated customs office when foreign goods enter EU territory.",
+          "after": "When foreign goods enter EU territory, the freight forwarder is responsible for their immediate presentation to the designated customs office."
+        },
+        "zh": {
+          "before": "外国货物进入欧盟境内时，货运代理人有责任立即向指定海关提交报关单。",
+          "after": "外国货物进入欧盟境内时，货运代理人有责任立即向指定海关呈报货物。"
+        }
+      }
+    },
+    {
+      "id": "c9562ba929ac3d3c1c6a55cd31e7d0fb75d037620eb89c4d626a887f835f1b49",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The consignee is responsible for immediately presenting the customs declaration to the designated customs office when foreign goods enter EU territory.",
+          "after": "When foreign goods enter EU territory, the consignee is responsible for their immediate presentation to the designated customs office."
+        },
+        "zh": {
+          "before": "外国货物进入欧盟境内时，收货人有责任立即向指定海关提交报关单。",
+          "after": "外国货物进入欧盟境内时，收货人有责任立即向指定海关呈报货物。"
+        }
+      }
+    },
+    {
+      "id": "6bf9c983d961b7fac12ca1a204befa73af70df3836bf52ad85c9e2374e47f525",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The sender is responsible for immediately presenting the customs declaration to the designated customs office when foreign goods enter EU territory.",
+          "after": "When foreign goods enter EU territory, the sender is responsible for their immediate presentation to the designated customs office."
+        },
+        "zh": {
+          "before": "外国货物进入欧盟境内时，发货人有责任立即向指定海关提交报关单。",
+          "after": "外国货物进入欧盟境内时，发货人有责任立即向指定海关呈报货物。"
+        }
+      }
+    },
+    {
+      "id": "90c20e6cc20cb6f90d72b23c9a1d7002696c131612b76ad13077564d339317d9",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The TIR plate identifies large road transport vehicles.",
+          "after": "TIR is an abbreviation originally created to designate large road transport vehicles."
+        },
+        "zh": {
+          "before": "TIR标牌用于识别大型公路运输车辆。",
+          "after": "TIR是最初为指代大型公路运输车辆而产生的缩写。"
+        }
+      }
+    },
+    {
+      "id": "1c92a4cb4e27db70fcdc508be6d1ca0f74bf2d04456df7a8fbe6c1b5f0217aac",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The TIR carnet is an internationally recognised document.",
+          "after": "The TIR carnet is an international document."
+        },
+        "zh": {
+          "before": "TIR手册是国际认可的文件。",
+          "after": "TIR手册是一种国际文件。"
+        }
+      }
+    },
+    {
+      "id": "ebe1d36cb95eaae1defd07f1b73169a0a936d834fa8c43e5dc25a06f81083cc5",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The TIR carnet is a customs document accompanying the goods and facilitating transport.",
+          "after": "The TIR carnet facilitates transport."
+        },
+        "zh": {
+          "before": "TIR手册是随货同行并便利运输的海关文件。",
+          "after": "TIR手册便利运输。"
+        }
+      }
+    },
+    {
+      "id": "8597f6ee5bf7b9b4db056f290a7d2791d1469a94d5141da74e3f645cff79a632",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The ATA carnet (customs convention on temporary admission of goods) is a customs document facilitating temporary imports.",
+          "after": "The ATA carnet is a customs document facilitating temporary imports."
+        },
+        "zh": {
+          "before": "ATA单证册（货物暂时进口海关公约）是便利暂时进口的海关文件。",
+          "after": "ATA单证册是便利暂时进口的海关文件。"
+        }
+      }
+    },
+    {
+      "id": "9adc4e3309e840f3382a20d0e39fee2f40033c078977ae48b6d41bd33baba6d7",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The ATA carnet (customs convention on temporary admission of goods) is an international customs document.",
+          "after": "The ATA carnet is an international customs document."
+        },
+        "zh": {
+          "before": "ATA单证册（货物暂时进口海关公约）是一种国际海关文件。",
+          "after": "ATA单证册是一种国际海关文件。"
+        }
+      }
+    },
+    {
+      "id": "4eb69e7f5191b6772b6905148cb980073c9366af8fab34e06964aac3e7a35ded",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The ATA carnet (customs convention on temporary admission of goods) is an international customs document established by the 1961 Brussels Convention.",
+          "after": "The ATA carnet is an international customs document established by the 1961 Brussels Convention."
+        },
+        "zh": {
+          "before": "ATA单证册（货物暂时进口海关公约）是由1961年布鲁塞尔公约设立的国际海关文件。",
+          "after": "ATA单证册是由1961年布鲁塞尔公约设立的国际海关文件。"
+        }
+      }
+    },
+    {
+      "id": "d926a57d0701788cc1bf1d0d6eed033ba635b0d3eb25301ea4d53d4aa682370d",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The ATA carnet (customs convention on temporary admission of goods) has the same function as the TIR carnet.",
+          "after": "The ATA carnet has the same function as the TIR carnet."
+        },
+        "zh": {
+          "before": "ATA单证册（货物暂时进口海关公约）与TIR手册具有相同功能。",
+          "after": "ATA单证册与TIR手册具有相同功能。"
+        }
+      }
+    },
+    {
+      "id": "a1c0711c57ed3f95d9b012e46394152edadeb3b5f46048d08842a73c1d5f6d8c",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The ATA carnet (customs convention on temporary admission of goods) requires formalities to be completed at every customs office crossed.",
+          "after": "The ATA carnet requires formalities to be completed at every customs office crossed."
+        },
+        "zh": {
+          "before": "ATA单证册（货物暂时进口海关公约）要求在途经的每个海关办理手续。",
+          "after": "ATA单证册要求在途经的每个海关办理手续。"
+        }
+      }
+    },
+    {
+      "id": "8cc14ba897d42dfcad78654c0d8a74dc8086dee040f8bc4602c0ce835ce12ee3",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The ATA carnet (customs convention on temporary admission of goods) is issued by the IRU.",
+          "after": "The ATA carnet is issued by the IRU."
+        },
+        "zh": {
+          "before": "ATA单证册（货物暂时进口海关公约）由国际道路运输联盟（IRU）签发。",
+          "after": "ATA单证册由国际道路运输联盟（IRU）签发。"
+        }
+      }
+    },
+    {
+      "id": "597dffff9e4027323ca6b2beaec1904a9402ff13312e855bb5ba06a1856ba9d8",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The ATA carnet (customs convention on temporary admission of goods) is valid for 5 years.",
+          "after": "The ATA carnet is valid for 5 years."
+        },
+        "zh": {
+          "before": "ATA单证册（货物暂时进口海关公约）有效期为5年。",
+          "after": "ATA单证册有效期为5年。"
+        }
+      }
+    },
+    {
+      "id": "c5ae749c630fa7a9fab9d661c203524a43fa154e37a954c4bb562689c89ca61a",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "For non-EU goods entering Italy without customs transit documents, the written summary declaration may be submitted by any person.",
+          "after": "For non-EU goods entering Italy without customs transit documents, the written summary declaration must be submitted by any person."
+        },
+        "zh": {
+          "before": "对于进入意大利且没有随附海关过境文件的非欧盟货物，书面简易申报可以由任何人提交。",
+          "after": "对于进入意大利且没有随附海关过境文件的非欧盟货物，书面简易申报必须由任何人提交。"
+        }
+      }
+    },
+    {
+      "id": "99700b318113bbcff70c85ba76d3b995c38e3fa1761a2643a670fdc3416c9152",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The TIR carnet is valid for one year from activation.",
+          "after": "Temporary storage warehouses are usually operated by carriers."
+        },
+        "zh": {
+          "before": "TIR手册自启用之日起有效期为一年。",
+          "after": "临时保管仓库通常由运输经营者管理。"
+        }
+      }
+    },
+    {
+      "id": "61eabc413684160eaf663a364157baa2c8aa759146f748017802743394ff970f",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under the EU code, customs declarations must be made in writing on specific customs forms (SAD).",
+          "after": "Under the Community code, customs declarations must be drawn up on specific customs forms (SAD)."
+        },
+        "zh": {
+          "before": "根据欧盟法典，报关单必须以书面形式填写在专用海关表格（SAD）上。",
+          "after": "根据共同体法典，报关单必须填写在专用海关表格（SAD）上。"
+        }
+      }
+    },
+    {
+      "id": "7daaa6f825574a0b882ea0e232b5f4f30573facd5b87fbd114b2968d033ef6bc",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under the EU code, customs declarations must be made by public deed.",
+          "after": "Under the Community code, customs declarations must be made by public deed."
+        },
+        "zh": {
+          "before": "根据欧盟法典，报关单必须以公证文书形式制作。",
+          "after": "根据共同体法典，报关单必须以公文书形式制作。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "ee14e3f00519940dd893761ded93f2718e9fd01462a0c3afa1d2720425b9a70b"
+}

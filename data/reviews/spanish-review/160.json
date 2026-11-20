@@ -1,0 +1,37 @@
+{
+  "batch": "160",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "26e6e6c54f6c0973a3b42a87909dfdf0a33c60bb125d27adf47f0ced262eba3e",
+  "source_sha256": "03db894e3d93079e25c49c109873c0abd838ba1ea0948910adefe4ad32a228ef",
+  "corrections": [
+    {
+      "id": "d34a2c081cc5e4184d9828dcc471385ab10bc9ecb9c1707c0c49dc26414a3af7",
+      "before": "El documento DUA T1 debe presentarse al funcionario de aduana al ingresar a las instalaciones aduaneras",
+      "after": "El documento DAU T1 debe presentarse al funcionario de aduana al ingresar a las instalaciones aduaneras",
+      "reason": "Keep the Italian code DAU T1 instead of the Spanish acronym DUA"
+    },
+    {
+      "id": "d46d3ef36748e402d5559f546e8928d0461a50172ba727d103729feef2d4fe36",
+      "before": "Para reducir la contaminación atmosférica causada por los vehículos hay que sustituir periódicamente el filtro de aire",
+      "after": "Para reducir la contaminación atmosférica causada por los vehículos hay que hacer sustituir periódicamente el filtro de aire",
+      "reason": "Far sostituire indica hacer sustituir el filtro."
+    },
+    {
+      "id": "d477a5c4e681f3b09c79d5b2d82637ca7260b09d794c5f866d9a09799090da26",
+      "before": "El estado de la suspensión influye en el comportamiento del vehículo en las curvas",
+      "after": "El buen funcionamiento de la suspensión influye en el comportamiento del vehículo en las curvas",
+      "reason": "Efficienza alude al funcionamiento, no solo al estado."
+    }
+  ],
+  "reviewed_file_sha256": "d0a69d76a6e0ed1870898a47c6f9be39553903bc9bb2a25905d3703c92faae22"
+}

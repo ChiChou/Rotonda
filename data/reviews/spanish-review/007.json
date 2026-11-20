@@ -1,0 +1,43 @@
+{
+  "batch": "007",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "162608cb01bd920f5e77eedf5253c93668dc51e67a2c1d90ecca507e608bba53",
+  "source_sha256": "e04dc10c8b351bc69356f05996675db149dd2541b85d23f07941fbc2be08978c",
+  "corrections": [
+    {
+      "id": "09fdc06c251fbf9e6e0737333de33ef7bd6f88d7173af7971690c8e450a4d738",
+      "before": "Según el CMR, el transportista no queda exento en ningún caso de responsabilidad por la pérdida, avería o retraso en la entrega de la mercancía",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista no queda exento en ningún caso de responsabilidad por la pérdida, avería o retraso en la entrega de la mercancía",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    },
+    {
+      "id": "0a8873aaf9f711eb389e2a345083c8dbd5097627770b80dde5a9c6c59a20e308",
+      "before": "Para circular dentro de la Unión Europea, un vehículo que transporta mercancías por cuenta de terceros debe llevar a bordo una fotocopia de la licencia comunitaria",
+      "after": "Para circular dentro de la Unión Europea, un vehículo que realiza transporte por cuenta de terceros debe llevar a bordo una fotocopia de la licencia comunitaria",
+      "reason": "El original no limita el transporte por cuenta de terceros al de mercancías."
+    },
+    {
+      "id": "0ac4298e3b2f4e366a91c6153a5f8e369606cae620aaa75ce137ab03f6a413bc",
+      "before": "El costo del transporte primario depende del modo de transporte y del tramo considerado, pero no de las propiedades de la mercancía transportada, como densidad, peligrosidad o valor",
+      "after": "El costo del transporte primario depende del modo de transporte y del tramo considerado, pero no de las propiedades de la mercancía transportada, como densidad, peligrosidad, valor, etc.",
+      "reason": "'ecc.' (etc.) dropped, turning an open list of examples into a closed one"
+    },
+    {
+      "id": "0ae4444727ba302cf14ed7a6770252d8732956b3a31b0b14787e55de3eb41ff0",
+      "before": "Según el CMR, el transportista que después de comunicar al remitente la imposibilidad de terminar el viaje acordado no recibe instrucciones está obligado a tomar las medidas más apropiadas en interés del derechohabiente",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista que después de comunicar al remitente la imposibilidad de terminar el viaje acordado no recibe instrucciones está obligado a tomar las medidas más apropiadas en interés del derechohabiente",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    }
+  ],
+  "reviewed_file_sha256": "a05b49358fbda3fe99cbcfe3494ce6f586ec25b5f5bafcb262e52368e21b52cc"
+}

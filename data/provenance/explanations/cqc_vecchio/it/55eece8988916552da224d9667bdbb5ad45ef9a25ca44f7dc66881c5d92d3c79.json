@@ -1,0 +1,2282 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee54-27dc-72f3-b291-7cfc7f506a9b"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "cqc_vecchio",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 14961,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente non deve intervenire perchè non è parte in causa",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "438001a59f75b376b2fb50230968f4392a68bd7930d431853c339d265f9f9423",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14961,
+              "text": "La controversia sul prezzo riguarda il rapporto tra vettore e cliente: il conducente, se non incaricato, lascia la questione ai responsabili dell’impresa. Può comunque riferire i fatti utili.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": {
+              "number": 14961,
+              "text": "La controversia sul prezzo riguarda il rapporto tra vettore e cliente: il conducente normalmente non la gestisce. Ciò non esclude che possa riferire i fatti o intervenire se incaricato.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14962,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente non è tenuto a prendere posizione a favore di una o dell’altra parte",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "543b227e23078e38e77f592ba315728cf4bc4e43b525b60882295b41ae2f06f6",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14962,
+              "text": "La contestazione del prezzo riguarda il rapporto tra cliente e vettore: il conducente non deve schierarsi.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": {
+              "number": 14962,
+              "text": "Il conducente non è tenuto a schierarsi nella controversia sul prezzo, che riguarda il rapporto tra vettore e cliente.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14965,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve svolgere la funzione di intermediario cercando di mettere d’accordo le parti",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "97f372feef208e6226c55d6067d72bc75bdaae76d190b95708d918a934fc7378",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14965,
+              "text": "Il conducente non è tenuto a mediare sul prezzo: la controversia va rimessa al vettore e al cliente.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": {
+              "number": 14965,
+              "text": "Il conducente non deve automaticamente fare da intermediario sul prezzo: la controversia è gestita dalle parti o dai loro incaricati.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire prendendo le difese del datore di lavoro",
+          "text": "Il conducente non deve prendere le difese del datore nella controversia sul prezzo: deve mantenere un comportamento professionale e riferire la questione all’impresa."
+        }
+      },
+      {
+        "source": {
+          "number": 14966,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire e prendere contatti direttamente con il cliente se il problema riguarda un trasporto da lui effettuato",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7ee5eb7bfdb557e923e2645d5b80690a43e135754c65e7fd61ac9880080de162",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14966,
+              "text": "Aver effettuato il trasporto non obbliga il conducente a trattare direttamente la controversia economica: se ne occupano le parti competenti.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": {
+              "number": 14966,
+              "text": "Aver effettuato il trasporto non obbliga il conducente a trattare direttamente la disputa sul prezzo: la questione spetta alle parti o ai loro incaricati.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14967,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente può intervenire se ritiene che il cliente abbia ragione",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2fbca60e5f925c84b7e0be2def5be12107a155cbbe1d4bc739907be236cbe90a",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14967,
+              "text": "Il conducente non deve prendere le parti del cliente in base alla propria opinione: la questione del prezzo riguarda il cliente e il vettore.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": {
+              "number": 14967,
+              "text": "La sola opinione che il cliente abbia ragione non dà al conducente il compito di gestire la disputa sul prezzo. Può comunque riferire i fatti all’impresa.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire prendendo le difese del datore di lavoro",
+          "text": "Il conducente non deve prendere le difese del datore nella controversia sul prezzo: deve mantenere un comportamento professionale e riferire la questione all’impresa."
+        }
+      },
+      {
+        "source": {
+          "number": 14968,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve assentarsi dal lavoro se è direttamente coinvolto",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cb275bddf630303a08d9ae3d188e0ae45e232a55d315b207d00183281ca39095",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14968,
+              "text": "Il coinvolgimento nella contestazione non impone al conducente di assentarsi: deve continuare a comportarsi professionalmente e riferire la questione ai responsabili.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": {
+              "number": 14968,
+              "text": "Essere coinvolto nel trasporto non impone al conducente di assentarsi: la controversia sul prezzo va riferita e gestita dai responsabili competenti.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire prendendo le difese del datore di lavoro",
+          "text": "Il conducente non deve prendere le difese del datore nella controversia sul prezzo: deve mantenere un comportamento professionale e riferire la questione all’impresa."
+        }
+      },
+      {
+        "source": {
+          "number": 15006,
+          "quesito_id": 3184,
+          "text_it": "L’equilibratura non corretta dei freni può dipendere dal diverso consumo dei ferodi di uno stesso asse",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6c0dccab8f1448bc7886248cbf6fa3e0db462254f705c6758c77e5eb9a6a5483",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/5c6a633068c2c17e832a3dcdd4adf32c35496880c93584cfd768044aef90ab31",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata sul requisito specifico di rifasatura del motore."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata sul rapporto tra diagnosi personale dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata sul nesso specifico tra diversa usura dei ferodi e squilibrio."
+              },
+              {
+                "number": 15014,
+                "reason": "Fonte primaria non individuata sul nesso specifico tra bloccaggio unilaterale e inefficienza."
+              },
+              {
+                "number": 15015,
+                "reason": "Fonte primaria non individuata per distinguere il guasto dell’indicatore da quello del circuito."
+              },
+              {
+                "number": 15016,
+                "reason": "Fonte primaria non individuata sul rapporto specifico tra filtro antiparticolato e freni."
+              },
+              {
+                "number": 15017,
+                "reason": "Fonte primaria non individuata sul rapporto specifico tra olio motore e freni."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’equilibratura non corretta dei freni può dipendere da differente pressione di gonfiaggio dei pneumatici sullo stesso asse",
+          "text": "VERO. Una pressione diversa dei pneumatici sullo stesso asse può far deviare il veicolo in frenata. Il quesito usa «equilibratura dei freni» in senso ampio: la deviazione non prova da sola uno squilibrio delle forze prodotte dai freni.",
+          "evidence": [
+            "Department for Transport, Highway Code, allegato 6, https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security: deviazione in frenata associata anche a pneumatici gonfiati scorrettamente"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 15342,
+          "quesito_id": 3241,
+          "text_it": "L’uso dell’autotreno è indicato quando si trasportano imbarcazioni lunghe oltre dodici metri",
+          "answer": 0,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "722c8c0d58a813028f151d2e7a6eefa071c92c298ba5f3cdfdb202dda393b0c5",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 15362,
+          "quesito_id": 3245,
+          "text_it": "I mezzi d’opera non muniti di targa civile, sono esentati dalla disciplina dell’autotrasporto di merci",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "815ae10e406bf2695109af0f7963c3e661297f2b6b8c785477e73ac9ea960b0e",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "I mezzi d’opera non sono esenti dalla disciplina dell’autotrasporto di merci",
+          "text": "Il mezzo d’opera che trasporta merci è in generale soggetto alla disciplina dell’autotrasporto; esistono esclusioni per particolari veicoli e impieghi previsti dalla legge.",
+          "evidence": [
+            "Legge 298/1974, art. 30, https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+30&codiceOrdinamento=200003000000000&id=%7BC1BB1D3A-6B44-4C38-A8B7-B74A1BBEEAEF%7D: campo di applicazione ed esclusioni della disciplina del trasporto di cose"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16122,
+          "quesito_id": 3354,
+          "text_it": "La lettera di vettura internazionale CMR in Italia deve essere conservata dal destinatario per almeno 2 anni dalla data del trasporto",
+          "answer": 0,
+          "page": 65,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "48b95c686603ade8a78e87e69309a409fd6898d5ba9f8fb718a5794ba0265deb",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16322,
+          "quesito_id": 3376,
+          "text_it": "I magazzini di temporanea custodia sono solitamente gestiti dai trasportatori",
+          "answer": 0,
+          "page": 72,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "908d270e2de46b18dbc2f7c2c1b20e30b609921015984577d2f6bface97bfd5f",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "I magazzini di cosiddetta temporanea custodia sono solitamente gestiti dai singoli trasportatori",
+          "text": "FALSO. Nel modello del quiz la gestione è attribuita alla Dogana, non ai singoli trasportatori. La disciplina ammette però anche gestori privati autorizzati: il ruolo indicato da solo non determina chi gestisce il deposito.",
+          "evidence": [
+            "Regolamento (UE) 952/2013, art. 148, https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32013R0952, la gestione può essere affidata a un operatore autorizzato oppure all’autorità doganale"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16350,
+          "quesito_id": 3379,
+          "text_it": "Per trasportare latte ed alimenti in genere è necessaria una dichiarazione di scorta o documento equipollente",
+          "answer": 1,
+          "page": 73,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "158a4fb27778828940190435a01a35bbbb38e423568a44be2a9f71d3dc451aca",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16719,
+          "quesito_id": 3427,
+          "text_it": "Ai fini dell’organizzazione di un’impresa di trasporto merci è rilevante la tipologia del trasporto",
+          "answer": 1,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0f46e3955b5337b305e9244dd5cbe9588d7da6af842782a0c7aec8827f8f7941",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/08979a97f98bbb551bf428898bbb775407e8514087ab7f91f22e256bc2c35a9c",
+            "candidate": {
+              "number": 16719,
+              "text": "Vero: la tipologia del trasporto influenza l’organizzazione, per esempio la scelta dei mezzi e delle risorse necessarie.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": {
+              "number": 16719,
+              "text": "La tipologia del trasporto è rilevante perché merci e servizi diversi richiedono mezzi, personale e procedure adeguati.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16725,
+          "quesito_id": 3427,
+          "text_it": "Ai fini dell’organizzazione di un’impresa di trasporto merci non è rilevante il profilo organizzativo dell’impresa",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d29d8054706939f4fe9c840532410900fc12efea2fe10817e2a99eb39ff573a3",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/08979a97f98bbb551bf428898bbb775407e8514087ab7f91f22e256bc2c35a9c",
+            "candidate": {
+              "number": 16725,
+              "text": "Falso: il profilo organizzativo è rilevante, perché definisce come sono distribuiti compiti, risorse e responsabilità dell’impresa.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+            "candidate": {
+              "number": 16725,
+              "text": "Il profilo organizzativo non è irrilevante: la distribuzione di compiti e risorse permette di coordinare il trasporto.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15006,
+                "reason": "Non verificata una fonte primaria che colleghi specificamente la diversa usura dei ferodi allo squilibrio dei freni sullo stesso asse."
+              },
+              {
+                "number": 15342,
+                "reason": "Non verificata una fonte primaria che giustifichi la scelta del veicolo per imbarcazioni oltre dodici metri."
+              },
+              {
+                "number": 15362,
+                "reason": "La legge 298/1974, art. 30, esclude categorie specifiche con targhe particolari; la sola assenza di targa civile non individua con certezza una categoria esente."
+              },
+              {
+                "number": 16122,
+                "reason": "Non verificata una fonte primaria sufficiente a stabilire la regola italiana di conservazione applicabile al destinatario e il relativo termine."
+              },
+              {
+                "number": 16322,
+                "reason": "Il regolamento UE 952/2013, art. 148, disciplina l’autorizzazione alla gestione, ma non dimostra chi gestisca solitamente i depositi."
+              },
+              {
+                "number": 16350,
+                "reason": "La tracciabilità degli alimenti prevista dal regolamento CE 178/2002, art. 18, non dimostra un obbligo universale di dichiarazione di scorta per ogni trasporto alimentare."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Ai fini dell’organizzazione di un’impresa di trasporto merci è rilevante il soggetto giuridico ma non il soggetto economico",
+          "text": "È falso escludere il soggetto economico: contano sia chi assume diritti e obblighi, sia chi orienta le decisioni economiche dell’impresa.",
+          "evidence": [
+            "Definizione: il soggetto giuridico è il titolare dei rapporti giuridici; il soggetto economico orienta le scelte dell’impresa."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17080,
+          "quesito_id": 3475,
+          "text_it": "Nelle autostazioni, i marciapiedi rettilinei e paralleli sono utilizzati quando la sosta è di lunga durata.",
+          "answer": 0,
+          "page": 98,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d891908c98acfe34c7c98e0560f94c22386230fa18ef31f2167b0f0c65f7c897",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5b4a709eb35844dad6b40adbd709f866bb49642963f01f5edc54defa1924131",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16564,
+                "reason": "Non individuata una fonte primaria che documenti specificamente il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale."
+              },
+              {
+                "number": 17080,
+                "reason": "Non individuata una fonte primaria che confermi la relazione tra disposizione dei marciapiedi e durata della sosta."
+              },
+              {
+                "number": 17140,
+                "reason": "Non individuata una fonte primaria che sostenga la prescrizione di distribuzione omogenea dei passeggeri in piedi."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Nelle autostazioni, i marciapiedi rettilinei e paralleli sono utilizzati quando la sosta è di lunga durata",
+          "text": "La lunga durata della sosta non è il criterio indicato: i marciapiedi rettilinei e paralleli consentono operazioni rapide di salita e discesa, ma richiedono molto spazio longitudinale.",
+          "evidence": [
+            "Università di Roma Tor Vergata, Autostazioni, p. 38, marciapiedi rettilinei e tempi di servizio ridotti"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17588,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori senza cinture di sicurezza",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d3fd0fc2bde7364d62b65754d24dfd51dbb7cef9c27ac24d5168e7c7b0c121e9",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/849fb40c3fd23146fd662dc202f85c33f2f098266dd1e38f39722a2f41f8287c",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17555,
+                  "reason": "Non verificata una fonte primaria sulla collocazione abituale delle porte di uscita; la disposizione delle porte varia con il veicolo."
+                },
+                {
+                  "number": 17557,
+                  "reason": "Non reperita una fonte primaria accessibile che confermi l'obbligo di dotazione, distinto dalla sola predisposizione dello spazio per l'estintore."
+                },
+                {
+                  "number": 17559,
+                  "reason": "Non verificata una fonte primaria specifica sui pannelli descritti e sulle categorie cui si applicano."
+                },
+                {
+                  "number": 17561,
+                  "reason": "Non verificata una fonte primaria sulla dotazione di barella degli autobus."
+                },
+                {
+                  "number": 17563,
+                  "reason": "Non verificata una fonte primaria applicabile sulla manutenzione in efficienza degli estintori a bordo."
+                },
+                {
+                  "number": 17567,
+                  "reason": "Non verificata una fonte primaria accessibile sui requisiti di approvazione degli estintori degli autobus."
+                },
+                {
+                  "number": 17572,
+                  "reason": "Non verificata una fonte primaria sull'obbligo di cassetta, distinto dalla predisposizione del relativo spazio."
+                },
+                {
+                  "number": 17574,
+                  "reason": "Non verificata una fonte primaria specifica sui pannelli posteriori a strisce e sulle categorie cui si applicano."
+                },
+                {
+                  "number": 17575,
+                  "reason": "Non verificata una fonte primaria sul pannello con la lettera a e sulle categorie cui si applica."
+                },
+                {
+                  "number": 17582,
+                  "reason": "Non verificata una fonte primaria sull'obbligo di dotazione della cassetta di pronto soccorso."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria sulle condizioni di omologazione dei sedili per accompagnatori privi di cinture; il verdetto storico richiede una qualificazione."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori",
+          "text": "È falso che siano vietati posti per accompagnatori: per il trasporto dei bambini della scuola materna è anzi previsto un posto idoneo per l'accompagnatore."
+        }
+      },
+      {
+        "source": {
+          "number": 17723,
+          "quesito_id": 3564,
+          "text_it": "Gli alunni tendono a non utilizzare gli appositi sostegni presenti sull’autobus",
+          "answer": 1,
+          "page": 121,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4e34b4bfdaf15ff70eeb57e687cb617da3d5163dae79b538fe6cbb72bdc2e1f1",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/04213352e2b06b1166ff938cbfbeb82a86efac79cf2310d0433f7dc588069568",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17723,
+                "reason": "Non reperita una fonte primaria che documenti la tendenza generale degli alunni a non usare i sostegni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non reperita una fonte primaria che quantifichi quanti scuolabus siano privi di cinture; la dotazione dipende anche dalle norme applicabili al veicolo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17724,
+          "quesito_id": 3564,
+          "text_it": "Molti scuolabus sono privi di sistemi di ritenuta(cinture di sicurezza)",
+          "answer": 1,
+          "page": 121,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7d4f005aa2d37a22a627cf5113e3539d10b09033ea2227f1167ec1c939b2b117",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/04213352e2b06b1166ff938cbfbeb82a86efac79cf2310d0433f7dc588069568",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17723,
+                "reason": "Non reperita una fonte primaria che documenti la tendenza generale degli alunni a non usare i sostegni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non reperita una fonte primaria che quantifichi quanti scuolabus siano privi di cinture; la dotazione dipende anche dalle norme applicabili al veicolo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17745,
+          "quesito_id": 3568,
+          "text_it": "Il raggiungimento del migliore equilibrio tra addetti e beni utilizzati nell’organizzazione aziendale delle imprese di trasporto, dipende dalla tipologia del servizio di trasporto, dimensione e forma giuridica dell’impresa",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d0a5c74558c8b7de3b97b79f96291d8004b843aa5c83adb9db4350f2099ccf68",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/04213352e2b06b1166ff938cbfbeb82a86efac79cf2310d0433f7dc588069568",
+            "candidate": {
+              "number": 17745,
+              "text": "Il fabbisogno di personale e mezzi varia con il servizio e la dimensione aziendale; anche la forma giuridica può incidere sull’organizzazione. Non esiste un rapporto unico valido per tutte le imprese.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 17723,
+                "reason": "Non reperita una fonte primaria che documenti la tendenza generale degli alunni a non usare i sostegni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non reperita una fonte primaria che quantifichi quanti scuolabus siano privi di cinture; la dotazione dipende anche dalle norme applicabili al veicolo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": {
+              "number": 17745,
+              "text": "Personale e mezzi vanno commisurati al servizio e alla dimensione dell’impresa; anche la forma giuridica influisce su come sono organizzati i ruoli. Non esiste un rapporto unico adatto a tutte le imprese.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il raggiungimento del migliore equilibrio tra addetti e beni utilizzati nell'organizzazione aziendale delle imprese di trasporto, dipende dalla tipologia del servizio di trasporto, dimensione e forma giuridica dell'impresa",
+          "text": "Servizio, dimensioni e forma giuridica possono incidere sull’organizzazione dell’impresa: per equilibrare addetti e beni si considerano insieme le esigenze e la struttura aziendale.",
+          "evidence": [
+            "Derivazione organizzativa: servizio, scala e struttura incidono sul modo di organizzare personale e mezzi"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17747,
+          "quesito_id": 3568,
+          "text_it": "Il raggiungimento del migliore equilibrio tra addetti e beni utilizzati nell’organizzazione aziendale delle imprese di trasporto, dipende anche dalla forma giuridica dell’impresa",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1d3faf1e89f887edc97846b2b198ac6a165dc411768479c9ca3584dba7fff8ef",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/04213352e2b06b1166ff938cbfbeb82a86efac79cf2310d0433f7dc588069568",
+            "candidate": {
+              "number": 17747,
+              "text": "La forma giuridica può influire sull’organizzazione dell’impresa e sulla gestione delle risorse, insieme agli altri fattori operativi.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 17723,
+                "reason": "Non reperita una fonte primaria che documenti la tendenza generale degli alunni a non usare i sostegni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non reperita una fonte primaria che quantifichi quanti scuolabus siano privi di cinture; la dotazione dipende anche dalle norme applicabili al veicolo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": {
+              "number": 17747,
+              "text": "La forma giuridica incide sull’organizzazione dei ruoli e quindi può influire sul rapporto tra addetti e beni impiegati. Il rapporto va valutato insieme alle esigenze concrete del servizio.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il raggiungimento del migliore equilibrio tra addetti e beni utilizzati nell'organizzazione aziendale delle imprese di trasporto, dipende anche dalla forma giuridica dell'impresa",
+          "text": "La forma giuridica può incidere sulla struttura organizzativa e sul modo di impiegare le risorse, insieme ad altri fattori come il tipo di servizio.",
+          "evidence": [
+            "Derivazione organizzativa: la forma dell’impresa contribuisce a definirne la struttura e l’organizzazione delle risorse"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17762,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali l’impresa familiare",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "775a8a29af45004262f2e2883f56eb1c6ac4c20b1fbfc51994ea7a399aaa237c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di persone",
+          "text": "Nel modello del quiz il noleggio può essere organizzato come società di persone, nella quale più soci partecipano all’impresa; esistono anche altre forme aziendali.",
+          "evidence": [
+            "Agenzia delle entrate, studio di settore SG72B, cluster 6, pp. 9-10: presenza di società di persone tra le imprese di trasporto prevalentemente non regolare; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17764,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la ditta individuale con numerosi conducenti dipendenti",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2e763168d9c2482c5f19d511521e538c2cbb3b968d6c32594f47a56a750ac791",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di capitali",
+          "text": "Il quiz considera la società di capitali non tipica del modello di noleggio descritto, associato a imprese più piccole. La risposta non significa che sia vietata: uno studio dell’Agenzia delle entrate rileva anche società di capitali tra le imprese di trasporto prevalentemente non regolare.",
+          "evidence": [
+            "Agenzia delle entrate, studio di settore SG72B, cluster 1 e 6, pp. 7 e 9-10: coesistono imprese piccole e società di capitali nel trasporto non regolare; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17765,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di persone di grandi dimensioni, con numerosi conducenti soci",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d27f9eead6305b4218e7dae586f2e4579cb9f67d3236a6baeb0071834d64285c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di capitali",
+          "text": "Il quiz considera la società di capitali non tipica del modello di noleggio descritto, associato a imprese più piccole. La risposta non significa che sia vietata: uno studio dell’Agenzia delle entrate rileva anche società di capitali tra le imprese di trasporto prevalentemente non regolare.",
+          "evidence": [
+            "Agenzia delle entrate, studio di settore SG72B, cluster 1 e 6, pp. 7 e 9-10: coesistono imprese piccole e società di capitali nel trasporto non regolare; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17770,
+          "quesito_id": 3571,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali ditta individuale",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "210f92fb89569acc92f086faaff52448c33f70a61692ee393efb31aa1f8cb845",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di capitali",
+          "text": "Il quiz considera la società di capitali non tipica del modello di noleggio descritto, associato a imprese più piccole. La risposta non significa che sia vietata: uno studio dell’Agenzia delle entrate rileva anche società di capitali tra le imprese di trasporto prevalentemente non regolare.",
+          "evidence": [
+            "Agenzia delle entrate, studio di settore SG72B, cluster 1 e 6, pp. 7 e 9-10: coesistono imprese piccole e società di capitali nel trasporto non regolare; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17771,
+          "quesito_id": 3571,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali società di persone con i conducenti soci e pochi veicoli",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "23b650ea6c9e424f7dec464b0db1bb68f3839977abdc73b082b4e5293868416b",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17080,
+                  "reason": "Non verificata una fonte primaria sulla relazione tra disposizione dei marciapiedi e durata della sosta."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria che chiarisca quando il sedile dell’accompagnatore possa essere privo di cintura; il solo obbligo di un posto idoneo non risolve tale punto."
+                },
+                {
+                  "number": 17723,
+                  "reason": "Non verificata una fonte sulla presunta tendenza generale degli alunni a non usare i sostegni."
+                },
+                {
+                  "number": 17724,
+                  "reason": "Non verificata una fonte sulla diffusione degli scuolabus privi di cinture nel periodo considerato."
+                },
+                {
+                  "number": 17762,
+                  "reason": "Non verificata una fonte sulla frequenza delle imprese familiari nel noleggio con conducente."
+                },
+                {
+                  "number": 17764,
+                  "reason": "Non verificata una fonte sulla frequenza delle ditte individuali con numerosi conducenti dipendenti nel noleggio."
+                },
+                {
+                  "number": 17765,
+                  "reason": "Non verificata una fonte sulla frequenza di società di persone grandi con numerosi conducenti soci nel noleggio."
+                },
+                {
+                  "number": 17770,
+                  "reason": "Non verificata una fonte che sostenga la frequenza indicata per le ditte individuali nei servizi di linea; i dati disponibili comprendono anche imprese individuali di trasporto regolare."
+                },
+                {
+                  "number": 17771,
+                  "reason": "Non verificata una fonte sulla frequenza della specifica struttura societaria descritta nei servizi di linea."
+                },
+                {
+                  "number": 18135,
+                  "reason": "Non verificate le condizioni applicabili al servizio Francia-Italia svolto da un vettore svizzero: il solo accordo generale non chiarisce tutte le ipotesi del quesito."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di capitali",
+          "text": "Il quiz considera la società di capitali non tipica del modello di noleggio descritto, associato a imprese più piccole. La risposta non significa che sia vietata: uno studio dell’Agenzia delle entrate rileva anche società di capitali tra le imprese di trasporto prevalentemente non regolare.",
+          "evidence": [
+            "Agenzia delle entrate, studio di settore SG72B, cluster 1 e 6, pp. 7 e 9-10: coesistono imprese piccole e società di capitali nel trasporto non regolare; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+          ]
+        }
+      }
+    ],
+    "task_sha256": "bfb3ca1006bb894e7eaec9f6cbb444db0365dfaf4a3314af027963686b2716df",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage. Do not confuse absent external citations with genuine uncertainty: stable terminology and ordinary business/physical reasoning may use evidence explicitly labelled Ragionamento didattico, without claiming external verification. Verify uncertain medical, legal, numerical and statistical assertions. For qualitative exam-context statements, explain the mechanism and limitations rather than demanding an exact current statistical frequency. Distinguish an illustrative configuration from a universal mechanical law. Where the printed answer is overbroad, qualify it visibly and explain the supported distinction; do not invent opposite absolutes. For the customs fiscal-origin item, the inspected original state-archive record https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=521942&TipoPag=comparc describes historical dazi as indirect taxes and receipts paid to the fiscal chamber; this supports explaining historical revenue function without inventing a first-origin date. For market liberalization and own-account distinctions use Commission COM2014/222 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52014DC0222 sections2.1 and2.3; preserve its2014 timeframe, do not extrapolate to every current transport."
+  },
+  "rows": [
+    {
+      "number": 14961,
+      "text": "La controversia sul prezzo riguarda vettore e cliente: il conducente normalmente non la gestisce. La formula è generale: può comunque riferire i fatti o intervenire se incaricato.",
+      "evidence": [
+        "Ragionamento didattico: la gestione del prezzo compete alle parti del rapporto commerciale o ai loro incaricati."
+      ]
+    },
+    {
+      "number": 14962,
+      "text": "Il conducente non è tenuto a schierarsi nella controversia sul prezzo, che riguarda il rapporto tra vettore e cliente.",
+      "evidence": [
+        "Ragionamento didattico: chi esegue il trasporto non è per questo chiamato a decidere la controversia commerciale."
+      ]
+    },
+    {
+      "number": 14965,
+      "text": "Non è automaticamente compito del conducente mediare sul prezzo: la controversia è gestita dalle parti o dai loro incaricati.",
+      "evidence": [
+        "Ragionamento didattico: eseguire il trasporto non implica l’incarico di mediare sulle condizioni economiche."
+      ]
+    },
+    {
+      "number": 14966,
+      "text": "Aver effettuato il trasporto non obbliga il conducente a trattare direttamente la disputa sul prezzo: la questione spetta alle parti o ai loro incaricati.",
+      "evidence": [
+        "Ragionamento didattico: l’esecuzione del trasporto e la gestione della controversia commerciale sono compiti distinti."
+      ]
+    },
+    {
+      "number": 14967,
+      "text": "Il quiz considera falso l’intervento a favore del cliente basato sulla sola opinione del conducente: la disputa spetta alle parti. Il conducente può comunque riferire i fatti o agire se incaricato.",
+      "evidence": [
+        "Ragionamento didattico: l’opinione personale non conferisce il compito di gestire una controversia altrui."
+      ]
+    },
+    {
+      "number": 14968,
+      "text": "Essere coinvolto nel trasporto non impone al conducente di assentarsi: la controversia sul prezzo va riferita ai responsabili competenti.",
+      "evidence": [
+        "Ragionamento didattico: una contestazione commerciale non richiede di per sé l’assenza dal lavoro."
+      ]
+    },
+    {
+      "number": 16322,
+      "text": "Il quiz considera non tipica la gestione da parte dei trasportatori. La gestione non è però riservata alla Dogana: può essere affidata anche a un operatore autorizzato, eventualmente un trasportatore.",
+      "evidence": [
+        "Regolamento (UE) 952/2013, art. 148: la gestione richiede autorizzazione, salvo che sia svolta dall’autorità doganale; https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32013R0952"
+      ]
+    },
+    {
+      "number": 16350,
+      "text": "Il quiz richiama la documentazione di accompagnamento usata per identificare le merci alimentari, come il latte. La formulazione è ampia: i documenti richiesti dipendono dal prodotto e dall’operazione, e non esiste un’unica dichiarazione universale per ogni trasporto.",
+      "evidence": [
+        "Ministero dell’Interno, circolare 104497 del 3 dicembre 2009, allegato 1: tra i documenti specifici figura la distinta latte; https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Circolare_protocollo_104497_03-12-2009_all_1.pdf"
+      ]
+    },
+    {
+      "number": 16719,
+      "text": "La tipologia del trasporto è rilevante perché merci e servizi diversi richiedono mezzi, personale e procedure adeguati.",
+      "evidence": [
+        "Ragionamento didattico: le caratteristiche della merce e del servizio determinano le risorse da organizzare."
+      ]
+    },
+    {
+      "number": 16725,
+      "text": "Il profilo organizzativo è rilevante: la distribuzione di compiti, responsabilità e risorse permette di coordinare il trasporto.",
+      "evidence": [
+        "Ragionamento didattico: organizzare l’impresa significa coordinare persone, mezzi e attività."
+      ]
+    },
+    {
+      "number": 17080,
+      "text": "Nel modello del quiz i marciapiedi rettilinei e paralleli sono adatti a operazioni rapide di salita e discesa, non sono scelti in funzione di una sosta lunga. La durata effettiva dipende comunque dal servizio.",
+      "evidence": [
+        "Università di Roma Tor Vergata, Le autostazioni, trattazione dei marciapiedi rettilinei: lo schema è associato a tempi di servizio ridotti; https://it.scribd.com/document/898032708/Le-autostazioni"
+      ]
+    },
+    {
+      "number": 17723,
+      "text": "Il quiz richiama il rischio che gli alunni non usino i sostegni: durante il movimento ciò può favorire una caduta in caso di frenata. Non significa che tutti gli alunni li trascurino.",
+      "evidence": [
+        "Ragionamento didattico: un sostegno aiuta a mantenere l’equilibrio quando il veicolo accelera o frena; la condotta varia tra persone."
+      ]
+    },
+    {
+      "number": 17745,
+      "text": "Personale e mezzi vanno commisurati al servizio e alla dimensione dell’impresa; anche la forma giuridica può incidere sull’organizzazione dei ruoli. Non esiste un rapporto unico adatto a tutte le imprese.",
+      "evidence": [
+        "Ragionamento didattico: servizio, scala e struttura incidono sull’organizzazione di personale e mezzi."
+      ]
+    },
+    {
+      "number": 17747,
+      "text": "La forma giuridica può influire sull’organizzazione dei ruoli e quindi sul modo di impiegare addetti e beni, insieme alle esigenze concrete del servizio.",
+      "evidence": [
+        "Ragionamento didattico: la struttura dell’impresa contribuisce a definire ruoli e gestione delle risorse."
+      ]
+    },
+    {
+      "number": 17762,
+      "text": "Nel modello del quiz il noleggio con conducente può avere una struttura familiare, con familiari impegnati nell’attività. È una configurazione possibile, non l’unica forma di impresa.",
+      "evidence": [
+        "Ragionamento didattico: in una piccola attività familiare i componenti della famiglia possono contribuire all’organizzazione e al servizio."
+      ]
+    },
+    {
+      "number": 17764,
+      "text": "Il quiz considera non tipica una ditta individuale di noleggio con numerosi conducenti dipendenti, contrapponendola al modello di piccola impresa. Non è un divieto di assumere dipendenti.",
+      "evidence": [
+        "Ragionamento didattico: la forma individuale individua il titolare, mentre il numero di dipendenti può variare; il quiz descrive un modello organizzativo."
+      ]
+    },
+    {
+      "number": 17765,
+      "text": "Il quiz considera non tipica nel noleggio una grande società di persone con numerosi conducenti soci, rispetto al modello di piccola impresa. Ciò non rende impossibile tale struttura.",
+      "evidence": [
+        "Ragionamento didattico: dimensione e numero di soci descrivono una configurazione aziendale, non un divieto generale."
+      ]
+    },
+    {
+      "number": 17770,
+      "text": "Il quiz considera la ditta individuale non tipica dei servizi di linea, che richiedono l’organizzazione di corse e risorse con continuità. Non significa che ogni impresa individuale sia esclusa dal settore.",
+      "evidence": [
+        "Ragionamento didattico: corse programmate, personale e mezzi richiedono coordinamento; la forma del titolare da sola non determina la possibilità di operare."
+      ]
+    },
+    {
+      "number": 17771,
+      "text": "Il quiz considera non tipica per i servizi di linea la società di persone con pochi veicoli e conducenti soci: il servizio di linea richiede il coordinamento continuativo delle corse. Non è un divieto assoluto di tale configurazione.",
+      "evidence": [
+        "Ragionamento didattico: la programmazione delle corse richiede risorse e coordinamento adeguati; forma sociale e numero di veicoli non costituiscono da soli un divieto."
+      ]
+    }
+  ],
+  "output_sha256": "f4586cb5cd8f6456857d3a369d31ebed977b799e5d6e61f4a5ecffd41201beaa"
+}

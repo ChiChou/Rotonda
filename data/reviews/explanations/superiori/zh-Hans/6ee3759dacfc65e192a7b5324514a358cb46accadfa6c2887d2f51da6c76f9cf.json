@@ -1,0 +1,684 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29432,
+          "quesito_id": 6168,
+          "text_it": "In un motore Diesel, il sistema d’iniezione multijet ha sempre due iniezioni di gasolio nel ciclo di funzionamento",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "17b688ad6d5456a8cd80f18280d640c884b495d1083e6699a1b4781b3b6bc1ad",
+        "localized_text": "在柴油发动机中，多次喷射系统每个工作循环始终喷射两次柴油。"
+      },
+      {
+        "source": {
+          "number": 29433,
+          "quesito_id": 6169,
+          "text_it": "I combustibili, miscelati con l’opportuna quantità d’aria e successivamente incendiati, forniscono l’energia necessaria al funzionamento del motore",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3a395cac3563eff53e9b90295c27967fba1b5c0ab83d4fb2df80fd4de543e0b3",
+        "localized_text": "燃料与适量空气混合后点燃，提供发动机运转所需能量。"
+      },
+      {
+        "source": {
+          "number": 29434,
+          "quesito_id": 6169,
+          "text_it": "In altitudine, dove la pressione dell’aria è inferiore, diminuisce il rendimento del motore, soprattutto se è di tipo a scoppio",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "eb7501c917a0b51f9e768126ac869f47b92f9c68b1a6fd340b3dca1374ae6b82",
+        "localized_text": "在空气压力较低的高海拔地区，发动机效率下降，尤其是点火式发动机。"
+      },
+      {
+        "source": {
+          "number": 29435,
+          "quesito_id": 6169,
+          "text_it": "Il motore Diesel ha, in linea di principio, un rendimento migliore di quello a scoppio",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fa2c6394f86fefdbe7fa0bdde773683e26cbb2bdc658031a5011f90ad5402a1c",
+        "localized_text": "原则上，柴油发动机比点火式发动机效率更高。"
+      },
+      {
+        "source": {
+          "number": 29436,
+          "quesito_id": 6169,
+          "text_it": "La benzina è più volatile del gasolio",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9c0b6fdcb9320de933a6ed404a600fc5cdb2dbff79529f25188a0bff3117de64",
+        "localized_text": "汽油比柴油更易挥发。"
+      },
+      {
+        "source": {
+          "number": 29437,
+          "quesito_id": 6169,
+          "text_it": "Il bioDiesel è una miscela di gasolio ordinario e olio vegetale combustibile, utilizzato nell’ottica di ridurre l’inquinamento atmosferico",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "29e7783d4a30e0539289bdbcf582bf2f3aa776779619071d6ffc5e32de91ce23",
+        "localized_text": "生物柴油是普通柴油与可燃植物油的混合物，用于减少空气污染。"
+      },
+      {
+        "source": {
+          "number": 29438,
+          "quesito_id": 6169,
+          "text_it": "Con la sigla B10 si individua un bioDiesel composto dal 10% di olio vegetale e dal 90% di gasolio",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2cd68f694334841b0ba5a6b0eb25163adb3748072a0f930e2d545c43a3f3db46",
+        "localized_text": "B10表示由10%植物油和90%柴油组成的生物柴油。"
+      },
+      {
+        "source": {
+          "number": 29439,
+          "quesito_id": 6169,
+          "text_it": "I combustibili, miscelati con l’opportuna quantità di vapore e successivamente incendiati, forniscono l’energia necessaria al funzionamento del motore",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f539a3599a9f2e194601ae9d6d7a97b7e08f21c24eff18c5128e803e9833a137",
+        "localized_text": "燃料与适量蒸气混合后点燃，提供发动机运转所需能量。"
+      },
+      {
+        "source": {
+          "number": 29440,
+          "quesito_id": 6169,
+          "text_it": "In altitudine, dove la pressione dell’aria è inferiore, diminuisce il rendimento del motore, soprattutto se è di tipo Diesel",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "11cf28f69ffa2275e49a49fb488dcca9496334b75f8c2643ea229f6b7d214bf1",
+        "localized_text": "在空气压力较低的高海拔地区，发动机效率下降，尤其是柴油发动机。"
+      },
+      {
+        "source": {
+          "number": 29441,
+          "quesito_id": 6169,
+          "text_it": "Il motore a scoppio ha, in linea di principio, un rendimento migliore di quello Diesel",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9b92d07d649c563fa01f1a1c303b8b378d19339af4a945d79e1e34ef71d2cbfe",
+        "localized_text": "原则上，点火式发动机比柴油发动机效率更高。"
+      },
+      {
+        "source": {
+          "number": 29442,
+          "quesito_id": 6169,
+          "text_it": "Il gasolio è più volatile della benzina",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6cbef2d1cc364546c32abaac350ec3d3c4f715050cbf3b91aabb208f4f5ed7ff",
+        "localized_text": "柴油比汽油更易挥发。"
+      },
+      {
+        "source": {
+          "number": 29443,
+          "quesito_id": 6169,
+          "text_it": "Con la sigla B10 si individua un combustibile composto dal 10% di gasolio ordinario e dal 90% di olio vegetale",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ec7bbb9c6336ddaa9b0b338f37442a0cb400610e90eb95e206132f8e97ebae56",
+        "localized_text": "B10表示由10%普通柴油和90%植物油组成的燃料。"
+      },
+      {
+        "source": {
+          "number": 29444,
+          "quesito_id": 6169,
+          "text_it": "Il gasolio può essere miscelato con una buona percentuale di alcool, nell’ottica di ridurre l’inquinamento atmosferico",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2350a80ab70d165858fcee3b255ec9f290e0e467ca223ce86b42360bcc1c4ea2",
+        "localized_text": "柴油可以与相当比例的酒精混合，以减少空气污染。"
+      },
+      {
+        "source": {
+          "number": 29445,
+          "quesito_id": 6169,
+          "text_it": "Il bioDiesel è un combustibile prodotto in raffinerie che hanno la certificazione ambientale di limitato inquinamento",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7dcb7fe4bcc187201f1e18e8a833c98c9beb542574530a784195b2dbfa9eeca1",
+        "localized_text": "生物柴油是在获得低环境污染认证的炼油厂生产的燃料。"
+      },
+      {
+        "source": {
+          "number": 29446,
+          "quesito_id": 6170,
+          "text_it": "La sigla GPL identifica il gas di petrolio liquefatto",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ab0a25a5031f93ab8057bab3f9c08affb9a1555307b67a4318ffbd592d90cbd7",
+        "localized_text": "GPL表示液化石油气。"
+      },
+      {
+        "source": {
+          "number": 29447,
+          "quesito_id": 6170,
+          "text_it": "Il GPL è una miscela di idrocarburi che viene resa liquida a bassa pressione",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8104c1f3102da89400a11d1156bdc50dc2f979d3f38713b8cc247d166331e1dd",
+        "localized_text": "液化石油气是低压下液化的碳氢化合物混合物。"
+      },
+      {
+        "source": {
+          "number": 29448,
+          "quesito_id": 6170,
+          "text_it": "Il GPL è un carburante poco inquinante",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fc642971f10606f34a22298b9c05abb38e9ecb7d79881da1f8c6efce306292aa",
+        "localized_text": "液化石油气是一种污染较小的燃料。"
+      },
+      {
+        "source": {
+          "number": 29449,
+          "quesito_id": 6170,
+          "text_it": "Il GPL può avere un avviamento a freddo difficoltoso",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b81f44da76a52707cc3e42a07a5e738091775157c000f6775fb24e2cc1045721",
+        "localized_text": "使用液化石油气时冷启动可能困难。"
+      },
+      {
+        "source": {
+          "number": 29450,
+          "quesito_id": 6170,
+          "text_it": "Il metano, per essere usato quale combustibile per autoveicoli, deve essere fortemente compresso",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "871398dc6a929c5f71c9d81e948859c21fb0e0a0f5ab3dc269daa167bf74bc69",
+        "localized_text": "甲烷用作机动车燃料时必须高度压缩。"
+      },
+      {
+        "source": {
+          "number": 29451,
+          "quesito_id": 6170,
+          "text_it": "Il metano non dà generalmente problemi nell'avviamento a freddo",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2fff9a88c56024ec36d3741de0cade242c9b5f3b84ecd0d8295c66bb4757e706",
+        "localized_text": "甲烷通常不会造成冷启动问题。"
+      },
+      {
+        "source": {
+          "number": 29452,
+          "quesito_id": 6170,
+          "text_it": "Il metano deve essere immagazzinato in serbatoi costituiti da bombole molto pesanti e resistenti",
+          "answer": 1,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "67b84c8995869b004cdcf5b70b47e98ddb16948066649c75bb8fb187a83aa962",
+        "localized_text": "甲烷必须储存在非常重且坚固的气瓶中。"
+      },
+      {
+        "source": {
+          "number": 29453,
+          "quesito_id": 6170,
+          "text_it": "La sigla GPL identifica il gasolio con particolato limitato",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f36781610506b18c1d0ac4e4fb4d4849b5a36292beb2b5eba5971d878b803fdd",
+        "localized_text": "GPL表示颗粒物受限的柴油。"
+      },
+      {
+        "source": {
+          "number": 29454,
+          "quesito_id": 6170,
+          "text_it": "Il GPL è un carburante più inquinante del gasolio",
+          "answer": 0,
+          "page": 106,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a6f9672e28a6e0228eabc5a9c93613eb0580bca75960264da7b1868b4050c4b3",
+        "localized_text": "液化石油气比柴油污染更大。"
+      },
+      {
+        "source": {
+          "number": 29455,
+          "quesito_id": 6170,
+          "text_it": "Il GPL è una miscela di idrocarburi che viene resa liquida ad alta pressione",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7449f763f1f2eab06043f45080a9b1da705b5663dfd8de40b06afe811801ec0e",
+        "localized_text": "液化石油气是高压下液化的碳氢化合物混合物。"
+      },
+      {
+        "source": {
+          "number": 29456,
+          "quesito_id": 6170,
+          "text_it": "Il GPL ha un buon avviamento a freddo",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "23d2af0f1f6ed6a595213a7e8de8e2dcb6ed28f1692085cfd09424914a83438a",
+        "localized_text": "液化石油气的冷启动性能良好。"
+      }
+    ],
+    "task_sha256": "6ee3759dacfc65e192a7b5324514a358cb46accadfa6c2887d2f51da6c76f9cf"
+  },
+  "rows": [
+    {
+      "number": 29432,
+      "text": "多次喷射系统将供油分成多次喷射：次数并非总是两次，而由发动机控制系统决定。",
+      "evidence": [
+        "Stellantis, Fiat Professional at the CV Show 2012, https://www.media.stellantis.com/uk-en/fiat-professional/press/fiat-professional-at-the-cv-show-2012 : MultiJet II gestisce fino a otto iniezioni per ciclo."
+      ]
+    },
+    {
+      "number": 29433,
+      "text": "燃料与空气中的氧气燃烧释放能量，发动机将其转化为机械功。",
+      "evidence": [
+        "US DOE, Internal Combustion Engine Basics, https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics : combustione della miscela aria-carburante e conversione in lavoro."
+      ]
+    },
+    {
+      "number": 29434,
+      "text": "试题标为 VERO：高海拔空气稀薄，可能限制氧气和可用功率。能源效率是另一项指标；汽油机与柴油机的比较取决于负荷和发动机，没有普遍规律。",
+      "evidence": [
+        "https://engineering.mit.edu/ask-an-engineer/which-engine-is-better-at-high-altitude-diesel-or-gasoline — MIT: ossigeno, potenza e rendimento dipendono dal tipo di motore e dal carico."
+      ]
+    },
+    {
+      "number": 29435,
+      "text": "一般来说，柴油发动机能更有效地利用燃料能量，原因包括压缩比更高、泵气损失更小。",
+      "evidence": [
+        "https://official.bankspower.com/tech_article/understanding-todays-diesel/ — confronto fra rapporti di compressione, perdite di pompaggio e rendimento Diesel."
+      ]
+    },
+    {
+      "number": 29436,
+      "text": "汽油比柴油更容易蒸发：这种性质称为挥发性。",
+      "evidence": [
+        "US DOT, Vent and Burn I, §5.7, https://railroads.dot.gov/sites/fra.dot.gov/files/2024-05/DOT%20FRA%20ORD-07-26%20Vent%20Burn%20I%20Report.pdf : benzina più volatile del gasolio."
+      ]
+    },
+    {
+      "number": 29437,
+      "text": "试题标为 VERO，但生物柴油并非仅是植物原油与柴油混合：它由油脂（包括动物脂肪）加工而成，可纯用或与柴油混合。",
+      "evidence": [
+        "https://afdc.energy.gov/fuels/biodiesel-production — DOE: il biodiesel è prodotto da oli o grassi trasformati e può essere mescolato al gasolio."
+      ]
+    },
+    {
+      "number": 29438,
+      "text": "试题标为 VERO，但 B10 含 10% 生物柴油和 90% 石油柴油。生物柴油是加工油脂制成的，原料不一定是植物，也不是植物原油。",
+      "evidence": [
+        "https://afdc.energy.gov/fuels/biodiesel-production — DOE: il biodiesel è prodotto da oli o grassi trasformati e può essere mescolato al gasolio.",
+        "https://afdc.energy.gov/files/u/publication/biodiesel_basics.pdf — DOE: convenzione B20 (20% biodiesel), B5 (5%) e B100; B10 è il 10% per la stessa convenzione."
+      ]
+    },
+    {
+      "number": 29439,
+      "text": "燃烧需要空气中的氧气，不能用燃料与蒸气的混合物代替空气。",
+      "evidence": [
+        "US DOE, Internal Combustion Engine Basics, https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics : il carburante brucia con l’aria nel motore."
+      ]
+    },
+    {
+      "number": 29440,
+      "text": "试题标为 FALSO：稀薄空气也可能降低柴油机的可用功率。能源效率不同于功率，与汽油机的比较取决于负荷和设计。",
+      "evidence": [
+        "https://engineering.mit.edu/ask-an-engineer/which-engine-is-better-at-high-altitude-diesel-or-gasoline — MIT: ossigeno, potenza e rendimento dipendono dal tipo di motore e dal carico."
+      ]
+    },
+    {
+      "number": 29441,
+      "text": "原则上柴油发动机的效率更高，原因包括压缩比更高、泵气损失更小。",
+      "evidence": [
+        "https://official.bankspower.com/tech_article/understanding-todays-diesel/ — confronto fra rapporti di compressione, perdite di pompaggio e rendimento Diesel."
+      ]
+    },
+    {
+      "number": 29442,
+      "text": "汽油的挥发性更强：它比柴油更容易蒸发。",
+      "evidence": [
+        "US DOT, Vent and Burn I, §5.7, https://railroads.dot.gov/sites/fra.dot.gov/files/2024-05/DOT%20FRA%20ORD-07-26%20Vent%20Burn%20I%20Report.pdf : benzina più volatile del gasolio."
+      ]
+    },
+    {
+      "number": 29443,
+      "text": "比例颠倒了：B10是含10%生物柴油和90%柴油的混合燃料，而非相反。生物柴油由油脂加工制成，不只是未经加工的植物油。",
+      "evidence": [
+        "US DOE AFDC, Biodiesel Production and Distribution, https://afdc.energy.gov/fuels/biodiesel-production : oli e grassi trasformati in biodiesel; US DOE, Biodiesel Basics, https://afdc.energy.gov/files/u/publication/biodiesel_basics.pdf : convenzione B20 e B5, da cui B10 indica il 10% di biodiesel."
+      ]
+    },
+    {
+      "number": 29444,
+      "text": "试题标为 FALSO：车辆应使用制造商认可的燃料。乙醇与柴油的实验混合物已被研究，但其排放结果并不意味着可以随意使用任何混合比例。",
+      "evidence": [
+        "https://afdc.energy.gov/files/u/publication/34817.pdf — NREL: studio di miscele etanolo-gasolio, emissioni e criticità; non autorizzazione generale."
+      ]
+    },
+    {
+      "number": 29445,
+      "text": "生物柴油的名称指由加工过的油脂制成的燃料的成分和来源，并非指炼油厂的环境认证。",
+      "evidence": [
+        "US DOE AFDC, Biodiesel Production and Distribution, https://afdc.energy.gov/fuels/biodiesel-production : produzione da oli o grassi mediante transesterificazione."
+      ]
+    },
+    {
+      "number": 29446,
+      "text": "GPL指液化石油气：它在压力下以液态储存。",
+      "evidence": [
+        "US DOE AFDC, Propane Basics, https://afdc.energy.gov/fuels/propane-basics : LPG significa liquefied petroleum gas e viene conservato liquido sotto pressione."
+      ]
+    },
+    {
+      "number": 29447,
+      "text": "液化石油气含有丙烷、丁烷等碳氢化合物，可在相对适中的压力下以液态储存。",
+      "evidence": [
+        "US DOE AFDC, Propane Basics, https://afdc.energy.gov/fuels/propane-basics : composizione e pressione di stoccaggio del propano per veicoli; US DOE AFDC, Filling CNG Fuel Tanks, https://afdc.energy.gov/vehicles/natural-gas-filling-tanks : pressione del metano compresso molto maggiore."
+      ]
+    },
+    {
+      "number": 29448,
+      "text": "与传统燃料相比，液化石油气可能降低排放；实际结果还取决于车辆和尾气处理系统。",
+      "evidence": [
+        "US DOE AFDC, Propane Vehicle Emissions, https://afdc.energy.gov/vehicles/propane-emissions : benefici possibili e emissioni allo scarico comparabili nei veicoli moderni."
+      ]
+    },
+    {
+      "number": 29449,
+      "text": "试题标为 VERO：某些汽化式 LPG 系统先用汽油启动，待系统升温后切换到燃气。但冷启动是否困难取决于系统和条件，并非所有 LPG 都如此。",
+      "evidence": [
+        "https://www.prinsautogas.com/en/service-your-vsi-system — Prins: sistema VSI con vaporizzatore parte a benzina e commuta a GPL secondo la temperatura.",
+        "https://afdc.energy.gov/vehicles/propane — DOE: il propano offre buone prestazioni a freddo."
+      ]
+    },
+    {
+      "number": 29450,
+      "text": "试题标为 VERO：压缩天然气（CNG）车辆将气体储存在高压下。但也有使用液化天然气（LNG）的车辆，燃料储存在低温储罐中。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/natural-gas — DOE: gas naturale compresso o liquefatto e relativi serbatoi."
+      ]
+    },
+    {
+      "number": 29451,
+      "text": "天然气本身是气态，容易与空气混合；冷启动可能较容易，但也取决于车辆和温度。",
+      "evidence": [
+        "https://afdc.energy.gov/files/pdfs/civic.pdf — DOE: test di avviamento a freddo di Honda Civic CNG con risultati variabili alla temperatura minima.",
+        "https://afdc.energy.gov/vehicles/natural-gas — DOE: combustibile gassoso e sistemi CNG."
+      ]
+    },
+    {
+      "number": 29452,
+      "text": "试题标为 VERO：CNG 气瓶必须耐受压力，钢瓶可能很重。但重量和结构各异：也有较轻的复合材料气瓶以及液化天然气储罐。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/natural-gas — DOE: gas naturale compresso o liquefatto e relativi serbatoi.",
+        "https://afdc.energy.gov/files/pdfs/anl_esd_10-4.pdf — Argonne: bombole di gas compresso in acciaio o composito e peso."
+      ]
+    },
+    {
+      "number": 29453,
+      "text": "GPL指液化石油气，并不是某种柴油的缩写。",
+      "evidence": [
+        "US DOE AFDC, Propane Basics, https://afdc.energy.gov/fuels/propane-basics : LPG significa liquefied petroleum gas."
+      ]
+    },
+    {
+      "number": 29454,
+      "text": "不能断言液化石油气一定比柴油污染更大：排放还取决于车辆和尾气处理。",
+      "evidence": [
+        "US DOE AFDC, Propane Vehicle Emissions, https://afdc.energy.gov/vehicles/propane-emissions : emissioni allo scarico comparabili a quelle dei veicoli diesel moderni."
+      ]
+    },
+    {
+      "number": 29455,
+      "text": "液化石油气在相对适中的压力下液化，不需要储存压缩天然气所用的高压。",
+      "evidence": [
+        "US DOE AFDC, Propane Basics, https://afdc.energy.gov/fuels/propane-basics : pressione del serbatoio GPL; US DOE AFDC, Filling CNG Fuel Tanks, https://afdc.energy.gov/vehicles/natural-gas-filling-tanks : pressione molto maggiore per il CNG."
+      ]
+    },
+    {
+      "number": 29456,
+      "text": "试题标为 FALSO：某些 LPG 系统冷启动时先用汽油，然后切换到燃气。其他系统在低温下也可能运行良好；结果取决于系统、燃料和条件。",
+      "evidence": [
+        "https://www.prinsautogas.com/en/service-your-vsi-system — Prins: sistema VSI con vaporizzatore parte a benzina e commuta a GPL secondo la temperatura.",
+        "https://afdc.energy.gov/vehicles/propane — DOE: il propano offre buone prestazioni a freddo."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "6ee3759dacfc65e192a7b5324514a358cb46accadfa6c2887d2f51da6c76f9cf",
+    "output_sha256": "b21a5eeb1032c5eee89f5d15e23f2965d66b35ee61dc2f2b12dafb2e04e4f1f0",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / rail-fuel-fuses-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29432,
+      29433,
+      29434,
+      29435,
+      29436,
+      29437,
+      29438,
+      29439,
+      29440,
+      29441,
+      29442,
+      29443,
+      29444,
+      29445,
+      29446,
+      29447,
+      29448,
+      29449,
+      29450,
+      29451,
+      29452,
+      29453,
+      29454,
+      29455,
+      29456
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Prins VSI service page directly inspected, including petrol starting and temperature-dependent changeover; DOE Honda Civic CNG test directly inspected, with mixed success at -20°F and successful -15°F start. MIT altitude and DOE biodiesel sources independently inspected."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaf3-0e73-7543-acf8-b5fdb5e5f8d3",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "5c0b12df75e585e7df1f33fad5712dd0f6990ee6d8ec77ddf1dc13baa2bfeb34",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaf3-0e73-7543-acf8-b5fdb5e5f8d3",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29434,
+              "reason": "Il confronto assoluto attribuisce soprattutto ai motori a scintilla, non ai Diesel, il calo di rendimento in quota; le fonti consultate mostrano perdita di potenza anche Diesel e distinguono potenza da rendimento senza stabilire il confronto generale.",
+              "checked_sources": [
+                "US DOT, Data base for light-weight automotive diesel power plants, §6.3.3, https://rosap.ntl.bts.gov/view/dot/10310/dot_10310_DS1.pdf : densità minore riduce la potenza Diesel.",
+                "Fuel, Impact of altitude on fuel consumption of a gasoline passenger car, https://www.sciencedirect.com/science/article/pii/S0016236111000627 : l’effetto sul consumo dipende dalle condizioni; non conferma il confronto richiesto."
+              ]
+            },
+            {
+              "number": 29437,
+              "reason": "Il verdetto vero identifica il biodiesel o B10 con olio vegetale; la fonte distingue biodiesel ottenuto trasformando oli o grassi dall’olio vegetale grezzo e dal carburante miscelato. Non è chiaro se il quesito intenda impropriamente un derivato.",
+              "checked_sources": [
+                "US DOE AFDC, Biodiesel Production and Distribution, https://afdc.energy.gov/fuels/biodiesel-production : il biodiesel si ottiene per transesterificazione e l’olio grezzo non è biodiesel.",
+                "US DOE, Biodiesel Basics, https://afdc.energy.gov/files/u/publication/biodiesel_basics.pdf : B20 e B5 designano percentuali di biodiesel nella miscela."
+              ]
+            },
+            {
+              "number": 29438,
+              "reason": "Il verdetto vero identifica il biodiesel o B10 con olio vegetale; la fonte distingue biodiesel ottenuto trasformando oli o grassi dall’olio vegetale grezzo e dal carburante miscelato. Non è chiaro se il quesito intenda impropriamente un derivato.",
+              "checked_sources": [
+                "US DOE AFDC, Biodiesel Production and Distribution, https://afdc.energy.gov/fuels/biodiesel-production : il biodiesel si ottiene per transesterificazione e l’olio grezzo non è biodiesel.",
+                "US DOE, Biodiesel Basics, https://afdc.energy.gov/files/u/publication/biodiesel_basics.pdf : B20 e B5 designano percentuali di biodiesel nella miscela."
+              ]
+            },
+            {
+              "number": 29440,
+              "reason": "Il confronto assoluto attribuisce soprattutto ai motori a scintilla, non ai Diesel, il calo di rendimento in quota; le fonti consultate mostrano perdita di potenza anche Diesel e distinguono potenza da rendimento senza stabilire il confronto generale.",
+              "checked_sources": [
+                "US DOT, Data base for light-weight automotive diesel power plants, §6.3.3, https://rosap.ntl.bts.gov/view/dot/10310/dot_10310_DS1.pdf : densità minore riduce la potenza Diesel.",
+                "Fuel, Impact of altitude on fuel consumption of a gasoline passenger car, https://www.sciencedirect.com/science/article/pii/S0016236111000627 : l’effetto sul consumo dipende dalle condizioni; non conferma il confronto richiesto."
+              ]
+            },
+            {
+              "number": 29444,
+              "reason": "Il verdetto falso nega senza condizioni una miscela significativa di alcol e gasolio volta a ridurre l’inquinamento; la fonte descrive miscele sperimentali e riduzioni di alcuni inquinanti, con limiti di stabilità. Non specifica il contesto che renderebbe falsa l’affermazione.",
+              "checked_sources": [
+                "NREL, Safety and Performance Assessment of Ethanol/Diesel Blends, https://afdc.energy.gov/files/u/publication/34817.pdf : miscele etanolo-gasolio, limitazioni di stabilità e riduzioni di particolato e CO."
+              ]
+            },
+            {
+              "number": 29449,
+              "reason": "I verdetti assumono difficoltà di avviamento a freddo del GPL, mentre la fonte DOE descrive buone proprietà a freddo del propano; non è specificato un impianto o una composizione che risolva il confronto.",
+              "checked_sources": [
+                "US DOE AFDC, Propane Vehicles, https://afdc.energy.gov/vehicles/propane : il propano offre buone prestazioni a freddo.",
+                "NREL, Comparison of CNG and LNG, https://afdc.energy.gov/files/pdfs/2171.pdf : il GPL richiede calore del refrigerante per vaporizzare, ma non stabilisce una regola generale di avviamento per ogni impianto."
+              ]
+            },
+            {
+              "number": 29450,
+              "reason": "Il verdetto vero richiede sempre forte compressione per il metano automobilistico; esistono anche veicoli alimentati con gas naturale liquefatto, e il testo non limita la domanda al CNG.",
+              "checked_sources": [
+                "US DOE AFDC, Natural Gas Vehicles, https://afdc.energy.gov/vehicles/natural-gas : distingue CNG stoccato sotto pressione e LNG stoccato liquido per veicoli."
+              ]
+            },
+            {
+              "number": 29452,
+              "reason": "Il verdetto vero richiede bombole molto pesanti per il metano senza specificare tecnologia o epoca, mentre esistono serbatoi compositi più leggeri e stoccaggio liquido.",
+              "checked_sources": [
+                "Argonne National Laboratory, Natural Gas, https://afdc.energy.gov/files/pdfs/anl_esd_10-4.pdf : serbatoi CNG anche con rivestimenti compositi leggeri e LNG in serbatoi isolati."
+              ]
+            },
+            {
+              "number": 29456,
+              "reason": "I verdetti assumono difficoltà di avviamento a freddo del GPL, mentre la fonte DOE descrive buone proprietà a freddo del propano; non è specificato un impianto o una composizione che risolva il confronto.",
+              "checked_sources": [
+                "US DOE AFDC, Propane Vehicles, https://afdc.energy.gov/vehicles/propane : il propano offre buone prestazioni a freddo.",
+                "NREL, Comparison of CNG and LNG, https://afdc.energy.gov/files/pdfs/2171.pdf : il GPL richiede calore del refrigerante per vaporizzare, ma non stabilisce una regola generale di avviamento per ogni impianto."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "5c0b12df75e585e7df1f33fad5712dd0f6990ee6d8ec77ddf1dc13baa2bfeb34",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

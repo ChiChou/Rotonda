@@ -1,0 +1,43 @@
+{
+  "batch": "159",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "562083f5e8550b083060417133c922b0793bd764128816ad3cf4919efd799adf",
+  "source_sha256": "e591db4274e457c91b5c0177cff1ca6b8439fa11213404c8d18b4c5af2996bb8",
+  "corrections": [
+    {
+      "id": "d201bfd1c6730a8ef68bbf609c0ba5d3bdb94a882262ae813f3fac3ee310295a",
+      "before": "En un sistema de lubricación, la bomba toma el aceite del cárter y lo envía por conductos a las diferentes piezas móviles del motor",
+      "after": "En un sistema de lubricación, la bomba toma el aceite del cárter y lo envía por ranuras específicas a las diferentes piezas móviles del motor",
+      "reason": "Scanalature indica ranuras específicas, no conductos genéricos."
+    },
+    {
+      "id": "d28aaa7d5155b140069931fc20736c225727d4afeda3ab07d42f6856343fb16e",
+      "before": "La distancia de seguridad debe ajustarse al estado del vehículo",
+      "after": "La distancia de seguridad debe ajustarse al estado de funcionamiento del vehículo",
+      "reason": "Recupera la referencia a la eficiencia del vehículo."
+    },
+    {
+      "id": "d2b1f0eaf87289e84fbdb41002c849dcd7e3e3469b981b476f7da936626152b0",
+      "before": "En zonas urbanas está prohibido detenerse cerca de las intersecciones, a más de 5 metros",
+      "after": "En zonas urbanas está prohibida la parada cerca de las intersecciones, a más de 5 metros",
+      "reason": "Fermata indica parada temporal."
+    },
+    {
+      "id": "d2fca21c4f5c0eab2dc106e9b369be07d369fc66607731cd3a4e612184e237b8",
+      "before": "La señal mostrada prohíbe detener el vehículo entre las 17:00 y las 20:00",
+      "after": "La señal mostrada prohíbe la parada del vehículo entre las 17:00 y las 20:00",
+      "reason": "Fermata indica parada temporal."
+    }
+  ],
+  "reviewed_file_sha256": "82c12cf54d22cd68d02f283e7a0e625121fcabb1eaa3e74dcbca1f0b1f780209"
+}

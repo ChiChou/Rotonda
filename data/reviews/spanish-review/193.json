@@ -1,0 +1,31 @@
+{
+  "batch": "193",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 93,
+  "baseline_sha256": "428483201866b732ff8cdee8423137b87ba7188fe34136c20170db499c404ed1",
+  "source_sha256": "1386cba07b0f19cbf9ca5aab677c969de29afa90d39624f5b9657fca7181f0c9",
+  "corrections": [
+    {
+      "id": "ff7a8df8774c2c58fb314ba35d1203eb13171f1472b2ccabbbe8933026d9525a",
+      "before": "El cuaderno ATA es un documento aduanero destinado a facilitar las importaciones temporales de mercancías",
+      "after": "El cuaderno ATA (convenio aduanero para la importación temporal de mercancías) es un documento aduanero destinado a facilitar las importaciones temporales",
+      "reason": "Restituye la explicación entre paréntesis del original."
+    },
+    {
+      "id": "ffb2f10850e566fe78081ce682f13d333fbe65519a92f5316315ec4c5e2e840a",
+      "before": "La revisión de un neumático incluye comprobar su estructura para detectar anomalías por desgaste, envejecimiento del material o daños por contactos accidentales",
+      "after": "La revisión del funcionamiento de un neumático incluye comprobar su estructura para detectar anomalías por desgaste, envejecimiento del material o daños por contactos accidentales",
+      "reason": "Restituye que la revisión comprueba la eficiencia del neumático."
+    }
+  ],
+  "reviewed_file_sha256": "4aeb2618ea0a7021633d0bf20d791c1e4c127c98904613a7dc1cc94514f467d5"
+}

@@ -1,0 +1,43 @@
+{
+  "batch": "173",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "1203723e767c6e2ee6616634e720186c5a2984590ee73e0304e90915acddf16e",
+  "source_sha256": "8fbba36f6ad6aa56dc2a6d0fea3e025305e98c9e6c44acfb42eb8880668cb6f5",
+  "corrections": [
+    {
+      "id": "e53e9ad882670c7faa8b0febc6b735af254ca46daaf6036635664c8e4df334bc",
+      "before": "15##tipología15 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "15##tipologia15 CQC - DL 30 DE JULIO DE 2021",
+      "reason": "Keep Italian code spelling 'tipologia'; keep 'DL' as in the Italian legal reference"
+    },
+    {
+      "id": "e546ecfc722da80f7ac36a6743b074441d658d03ef0aa4c4de79018b652b2bb4",
+      "before": "Es reglamentario encontrar la palabra TAXI pintada de amarillo en el pavimento para indicar zonas reservadas para taxis en servicio",
+      "after": "Es reglamentario encontrar la palabra TAXI pintada de amarillo en el pavimento para indicar zonas reservadas para el estacionamiento de taxis en servicio",
+      "reason": "Restituye que las zonas están reservadas para estacionar."
+    },
+    {
+      "id": "e5d3f74fea50697d1a735645be7e28b284ab9cb61865a5d7568fb5897f725b2c",
+      "before": "Los pasajeros tienen el deber de abstenerse de realizar actividades comerciales o publicitarias, incluso benéficas, en los vehículos, paradas o estaciones",
+      "after": "Los pasajeros tienen el deber de abstenerse de realizar actividades comerciales o publicitarias, incluso benéficas, en los vehículos, refugios de parada o estaciones",
+      "reason": "Pensiline designa los refugios o marquesinas de parada."
+    },
+    {
+      "id": "e63196d0cdc73336e4a49c5bc5b8542a7b7d5aeded9016383ce816d28fd10f31",
+      "before": "En vías de pendiente pronunciada, si el cruce es difícil, el vehículo que sube tiene prioridad si dispone de una zona de estacionamiento",
+      "after": "En vías de pendiente pronunciada, si el cruce es difícil, el vehículo que sube tiene prioridad si dispone de un apartadero",
+      "reason": "Piazzola di sosta es aquí un apartadero para facilitar el cruce."
+    }
+  ],
+  "reviewed_file_sha256": "2b2de9d9efb5a9e4f64f3d1b49e3b2762e3bebcde051c9090c358ea3487ec4f3"
+}

@@ -1,0 +1,79 @@
+{
+  "batch": "061",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "a4fcd9e246ba19d7fd8f89ba65caca4417928ec4b4e39292139a6d227a28190d",
+  "source_sha256": "c8fa78bfb2c7d1f58cbee6a83f11e0e65e8ef9e83bb55ba7db3e683879431891",
+  "corrections": [
+    {
+      "id": "5116db16d900ea2a5bd80eb2ddb50a3db7a341cb79e97e41ed23b74609bab032",
+      "before": "Si pierde su tarjeta del tacógrafo, el conductor debe denunciarlo a la policía",
+      "after": "Si se extravía su tarjeta del tacógrafo, el conductor debe denunciarlo a la policía",
+      "reason": "Garbled text; the Italian is about losing the tachograph card and reporting it to police"
+    },
+    {
+      "id": "513047e07337b4acd3d1c018dc4bc100cbc6e3f6ce3e563ea9e660ad83a9a630",
+      "before": "La obligación de protección del transportista implica adoptar todas las medidas adecuadas para que el pasajero llegue ileso",
+      "after": "La obligación de protección del transportista implica adoptar todas las medidas adecuadas para que el pasajero llegue ileso a destino",
+      "reason": "Se restituye que el pasajero llegue ileso a destino."
+    },
+    {
+      "id": "51675a62c97da118727516c81c0744bfce8d6c38bec501744e180a03f4eec5cb",
+      "before": "Los vehículos de mercancías por cuenta de terceros de masa máxima autorizada superior a 6 toneladas deben llevar una franja oblicua roja delante y detrás",
+      "after": "Los vehículos de mercancías por cuenta de terceros de masa total a plena carga superior a 6 toneladas deben llevar una franja oblicua roja delante y detrás",
+      "reason": "Se conserva masa a plena carga sin sustituirla por masa máxima autorizada."
+    },
+    {
+      "id": "517ae99eb94683e41456b668c6d01239460ca2e689f2d3a5b8f133fb7dbd9b60",
+      "before": "Ante la señal mostrada se permite el paso de un automóvil que arrastra una caravana",
+      "after": "Ante la señal mostrada se permite el paso de un automóvil que arrastra un remolque vivienda",
+      "reason": "Se precisa que caravan es un remolque vivienda."
+    },
+    {
+      "id": "517afb03809a7685ee26f7177d13bd18d07143c9fedcdb2a77e9bd61b8993a5e",
+      "before": "El desarrollo de la movilidad sostenible, especialmente a mediano plazo, no puede prescindir de combustibles alternativos como GNC, GLP y GNL",
+      "after": "El desarrollo de la movilidad sostenible (vehículos eléctricos e híbridos), especialmente a mediano plazo, no puede prescindir de combustibles alternativos como GNC (metano), GLP (gas licuado de petróleo) y GNL (gas natural licuado)",
+      "reason": "Se restituyen los ejemplos de vehículos y las explicaciones de los combustibles alternativos."
+    },
+    {
+      "id": "5194e97924d937b3373cab2bcb56bdf04f2cf4ed5ed21f222fc3fb64e0cb0f7e",
+      "before": "Entre los vehículos de transporte público de personas están los automóviles, equipados para transportar más de 9 personas",
+      "after": "Entre los vehículos de transporte público de personas figuran los automóviles, entendidos como vehículos destinados al transporte de personas y equipados para transportar más de 9 personas",
+      "reason": "Italian gives a definition (intese come); the Spanish dropped the definitional clause"
+    },
+    {
+      "id": "51a3eebb6aac4723f17d8f9ca5f6ef178d79c111f11a49e5ba4fdcc9cf8041b3",
+      "before": "La masa máxima autorizada corresponde a la tara más la carga útil",
+      "after": "La masa total a plena carga es la masa máxima autorizada y corresponde a la tara más la carga útil",
+      "reason": "Subject changed from the Italian term (massa complessiva a pieno carico) to a different term"
+    },
+    {
+      "id": "524b1c1d374684d637cf0da63f744b2e9622f7891be7d56e5e785601be954b1c",
+      "before": "Los conductores de vehículos de mercancías por cuenta de terceros de masa máxima autorizada superior a 3,5 t deben haber obtenido la tarjeta de cualificación del conductor",
+      "after": "Los conductores de vehículos de mercancías por cuenta de terceros de masa total a plena carga superior a 3,5 t deben haber obtenido la tarjeta de cualificación del conductor",
+      "reason": "Se conserva masa a plena carga sin sustituirla por masa máxima autorizada."
+    },
+    {
+      "id": "525c9b00378a1cb78c3655480085f6fc503470a7732b486b464f435f2ad746b3",
+      "before": "En un sistema de frenos neumático, el regulador mantiene la presión por debajo de un límite establecido",
+      "after": "En un sistema de frenos neumático, el regulador mantiene la presión a un valor no superior a un límite establecido",
+      "reason": "No superior incluye el límite, que por debajo excluía."
+    },
+    {
+      "id": "5273f74c75da1f9fba5a90aa4f8aebe9b6e1a0575838d2acaa20251452159d23",
+      "before": "El aceite de un camión diésel de masa máxima autorizada superior a 7,5 toneladas solo puede cambiarse en un taller especializado",
+      "after": "El aceite de un camión diésel de masa total a plena carga superior a 7,5 toneladas solo puede cambiarse en un taller especializado",
+      "reason": "Se conserva masa a plena carga sin sustituirla por masa máxima autorizada."
+    }
+  ],
+  "reviewed_file_sha256": "b750265baf1717d3a068d9dcd01b512e18f35922f534753a96554d0e42aa801b"
+}

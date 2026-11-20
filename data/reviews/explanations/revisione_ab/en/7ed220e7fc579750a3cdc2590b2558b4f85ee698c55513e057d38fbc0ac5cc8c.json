@@ -1,0 +1,104 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "revisione_ab",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/revisione-ab-it.pdf",
+    "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 20439,
+          "quesito_id": 4187,
+          "text_it": "Il segnale raffigurato obbliga a rallentare per essere pronti a fermarsi in caso di segnalazione da parte degli agenti",
+          "answer": 0,
+          "page": 51,
+          "bank": "revisione_ab",
+          "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+          "figures": [
+            {
+              "path": "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png",
+              "sha256": "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f",
+              "page": 51,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4d3f2ebb4ee753f1c083302ad2914c40a0171d4806b437d1646ddbf19b14a7b0",
+        "localized_text": "The sign shown obliges you to slow down so as to be ready to stop if signalled by the officers"
+      },
+      {
+        "source": {
+          "number": 22283,
+          "quesito_id": 4374,
+          "text_it": "Il conducente deve regolare la velocità in relazione alla propria abilità alla guida",
+          "answer": 0,
+          "page": 86,
+          "bank": "revisione_ab",
+          "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+          "figures": []
+        },
+        "source_sha256": "658509ae1b8167c38312f82b094c8a91ec5a672f39fe94ea834b2bf3e959efe3",
+        "localized_text": "The driver must adjust the speed in relation to his own driving ability"
+      }
+    ],
+    "task_sha256": "7ed220e7fc579750a3cdc2590b2558b4f85ee698c55513e057d38fbc0ac5cc8c"
+  },
+  "rows": [
+    {
+      "number": 20439,
+      "text": "The ALT POLIZIA sign indicates a police roadblock where you must stop, even without a further signal from an officer. Slowing down and being ready to stop is not enough.",
+      "evidence": [
+        "D.P.R. 16 dicembre 1992 n. 495, art. 123, comma 3, figura II.98: ALT POLIZIA segnala un posto di blocco al quale è obbligatorio fermarsi; il segnale è ripetuto al punto di arresto. https://olympus.uniurb.it/index.php?option=com_content&view=article&id=15022%3Adpr49592"
+      ]
+    },
+    {
+      "number": 22283,
+      "text": "Speed must be adapted to traffic conditions, such as traffic and weather, so that you can stop within the visible, clear stretch of road. It is not chosen based on your presumed driving skill.",
+      "evidence": [
+        "D.M. 12 marzo 2015 n. 46, allegato, punto 9.3.7: adeguamento della velocità alle condizioni di traffico e climatiche e arresto entro il tratto visibile e libero. https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=15G00059&atto.dataPubblicazioneGazzetta=2015-04-22&tipoDettaglio=originario"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "7ed220e7fc579750a3cdc2590b2558b4f85ee698c55513e057d38fbc0ac5cc8c",
+    "output_sha256": "a4df1cec19f8440acf2fc60e7cb491c150751a2e83bcdd697431bc5f9825666f",
+    "reviewer": "gpt-6.1-terra / 01a1e988-a3ba-7a21-9889-8caf272ea20f",
+    "status": "accepted",
+    "checked_numbers": [
+      20439,
+      22283
+    ],
+    "issues": [],
+    "author": "gpt-6.1-terra / 01a1e987-aeef-7661-a442-0e83eb17ad37",
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "430b9efbf87f00be1340649dc65ee40486646b5e1011bccf1ae3881015f5e0ba",
+        "attached_image_paths": [
+          "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png"
+        ],
+        "attached_image_sha256": [
+          "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "9c199b6d203cd73dacb929ed91ea6d0e36e6af8148077a8e8543df8280d0072e",
+        "attached_image_paths": [
+          "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png"
+        ],
+        "attached_image_sha256": [
+          "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f"
+        ]
+      }
+    }
+  }
+}

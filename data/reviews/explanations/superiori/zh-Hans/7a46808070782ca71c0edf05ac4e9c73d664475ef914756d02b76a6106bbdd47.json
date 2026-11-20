@@ -1,0 +1,684 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29936,
+          "quesito_id": 6199,
+          "text_it": "Il termostato dell'impianto di raffreddamento può essere attivato dal conducente per mezzo di un interruttore che si trova sul cruscotto",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "611eb0bc0ace4537edb8da0800c74085b8ede065f059fc63c0b1290ddfddae62",
+        "localized_text": "驾驶员可以通过仪表板开关启动冷却系统节温器。"
+      },
+      {
+        "source": {
+          "number": 29937,
+          "quesito_id": 6200,
+          "text_it": "Scopo fondamentale dello pneumatico è quello di assicurare l’aderenza ruota-strada",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a26753dff28eacaca4e37435b10d96bbb787dc133720f3abf9cd82558b5f7e68",
+        "localized_text": "轮胎的主要作用是确保车轮与道路之间的附着力。"
+      },
+      {
+        "source": {
+          "number": 29938,
+          "quesito_id": 6200,
+          "text_it": "Lo pneumatico agisce insieme alle sospensioni per il molleggio del veicolo",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "82044f78c410bc526d398b42a751cf1ef7712f6434a5eaa5c7a03adedcbfe04d",
+        "localized_text": "轮胎与悬架共同缓冲车辆。"
+      },
+      {
+        "source": {
+          "number": 29939,
+          "quesito_id": 6200,
+          "text_it": "Entro i limiti dell’aderenza, lo pneumatico assicura la trasmissione al suolo della forza motrice",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a80373a1873b1665dfadfa6adb04a9d3fa58d53f9bb383ae8521ece78f6e516a",
+        "localized_text": "在附着力限度内，轮胎将驱动力传递到地面。"
+      },
+      {
+        "source": {
+          "number": 29940,
+          "quesito_id": 6200,
+          "text_it": "Entro i limiti dell’aderenza, lo pneumatico assicura la trasmissione al suolo della forza frenante",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "23f5a64d924a6db8a28a319073ec548b2555bec9ed228f1d344b1a3c98abf8f1",
+        "localized_text": "在附着力限度内，轮胎将制动力传递到地面。"
+      },
+      {
+        "source": {
+          "number": 29941,
+          "quesito_id": 6200,
+          "text_it": "Lo pneumatico evita che il peso del veicolo gravante sulla strada danneggi il manto stradale",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b7958c08d430432a5c43a2b941d93f790cfc2229bb497a345eb1176fa5cf1872",
+        "localized_text": "轮胎防止车辆施加在道路上的重量损坏路面。"
+      },
+      {
+        "source": {
+          "number": 29942,
+          "quesito_id": 6200,
+          "text_it": "Entro i limiti dell’aderenza, lo pneumatico permette di dirigere il veicolo nella direzione impostata dal conducente",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b91be7f9b1fe0c5ab7b4ba876512a89d664e54e1087a05f0ccc7b081fb1d98c6",
+        "localized_text": "在附着力限度内，轮胎使车辆能够沿驾驶员设定的方向行驶。"
+      },
+      {
+        "source": {
+          "number": 29943,
+          "quesito_id": 6200,
+          "text_it": "Il battistrada dello pneumatico ha la funzione di drenare l’acqua, eventualmente presente sulla carreggiata, dall’area di impronta del battistrada",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "90870c31afd4c5a5653ad351b18ad96efc9c70ee2b05c74a8f00d189aa75c378",
+        "localized_text": "路面有水时，轮胎胎面将水从接地印迹区域排走。"
+      },
+      {
+        "source": {
+          "number": 29944,
+          "quesito_id": 6200,
+          "text_it": "Lo pneumatico deve essere il più rigido possibile",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fd8beddb3f3eccfff1aad5c65c8d4f8e2e1bd0efc66e6ab3d202af4e1c25cfb5",
+        "localized_text": "轮胎必须尽可能坚硬。"
+      },
+      {
+        "source": {
+          "number": 29945,
+          "quesito_id": 6200,
+          "text_it": "Durante la stagione fredda, lo pneumatico deve essere fatto scaldare alcuni minuti prima della partenza",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "177cc6bb275d44d8856d19525dc2fb1d2a73dc11b774f11c520a44db33640bbb",
+        "localized_text": "寒冷季节出发前必须将轮胎加热几分钟。"
+      },
+      {
+        "source": {
+          "number": 29946,
+          "quesito_id": 6200,
+          "text_it": "Una spia rossa posta sul cruscotto avverte l’autista quando lo pneumatico deve essere sostituito",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c51143ed0dab35dfabc18826120896a94a1805349f9cd48b8bb7045da391c967",
+        "localized_text": "仪表板红色警告灯会提醒驾驶员何时必须更换轮胎。"
+      },
+      {
+        "source": {
+          "number": 29947,
+          "quesito_id": 6200,
+          "text_it": "Acquistando nuovi pneumatici con mescola più morbida del set precedente, occorre irrigidire gli ammortizzatori",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fdc83f7b7ee5597e2c7aeae8f6ee49bea34c55d512f0aba01c0043ba5df3a080",
+        "localized_text": "购买比原轮胎配方更软的新轮胎时，必须调硬减震器。"
+      },
+      {
+        "source": {
+          "number": 29948,
+          "quesito_id": 6200,
+          "text_it": "L’aderenza ruota-strada non dipende dallo stato d’usura degli pneumatici",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "331dfb87cb220f544d130858d5c326fac31d278eb022fb77d46f65ff2fcb15bd",
+        "localized_text": "车轮与道路之间的附着力不取决于轮胎磨损程度。"
+      },
+      {
+        "source": {
+          "number": 29949,
+          "quesito_id": 6200,
+          "text_it": "Se, con un veicolo pesante, si devono affrontare salite di pendenza superiore al 15%, occorre montare pneumatici rinforzati",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7e355a928ba5be6494848b3f5e3b9c9ba5ae2b1db7097e548f46fdb71a0df360",
+        "localized_text": "重型车辆要通过坡度超过15%的上坡路时，必须安装加强型轮胎。"
+      },
+      {
+        "source": {
+          "number": 29950,
+          "quesito_id": 6200,
+          "text_it": "Non si può circolare in autostrada con veicoli che montano pneumatici ricostruiti",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "44b8b39040d48811ca6368f1e4c87805f8eed30bf7c83e72c1f082f07c95589d",
+        "localized_text": "安装翻新轮胎的车辆不得在高速公路上行驶。"
+      },
+      {
+        "source": {
+          "number": 29951,
+          "quesito_id": 6201,
+          "text_it": "La ruota è composta da disco e cerchio",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1a8278fc01b4d7d68218139cb58238b9c8749858495bd28dd36ebbc22437e044",
+        "localized_text": "车轮由轮辐盘和轮辋组成。"
+      },
+      {
+        "source": {
+          "number": 29952,
+          "quesito_id": 6201,
+          "text_it": "Sul cerchio è riportata una sigla che permette di ricavarne le principali caratteristiche",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "617445ae8a21aa15df9ce4bf51dde6f39322e50d2799b51c25a02ddf1bfc685d",
+        "localized_text": "轮辋上标有代码，可用于确定其主要特征。"
+      },
+      {
+        "source": {
+          "number": 29953,
+          "quesito_id": 6201,
+          "text_it": "Dalla sigla riportata sul cerchio si può ricavarne la larghezza",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0a1ddf2afab42945c5adf8c9bc2a6f8b2a3070ea3cace40298286ecd3c812d77",
+        "localized_text": "轮辋上的代码可以显示其宽度。"
+      },
+      {
+        "source": {
+          "number": 29954,
+          "quesito_id": 6201,
+          "text_it": "Dalla sigla riportata sul cerchio si può ricavare il tipo di profilo della balconata",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "26ab51c076bdd8f6f2c041f235232c1f2fe00bcfbda9c24b32ec53e0a3415328",
+        "localized_text": "轮辋上的代码可以显示轮缘轮廓类型。"
+      },
+      {
+        "source": {
+          "number": 29955,
+          "quesito_id": 6201,
+          "text_it": "Dalla sigla riportata sul cerchio si può ricavarne il diametro di calettamento",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3fb17e16109ef0bdd887555c5f276f48fe6bf8c0371b5253b732b909323eb107",
+        "localized_text": "轮辋上的代码可以显示其安装直径。"
+      },
+      {
+        "source": {
+          "number": 29956,
+          "quesito_id": 6201,
+          "text_it": "Dalla sigla riportata sul cerchio si può ricavarne l’OFF-SET",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "480719b7ec4563e8f5b6cd84d3b0dd9e6ab4862b7cdb9104b43f6313f1ec907a",
+        "localized_text": "轮辋上的代码可以显示其偏距。"
+      },
+      {
+        "source": {
+          "number": 29957,
+          "quesito_id": 6201,
+          "text_it": "Dalla sigla riportata sullo pneumatico si può ricavarne l’anno e la settimana di fabbricazione",
+          "answer": 1,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "daab1cbb107f4fe5d229f7caf611c7013d38a78f51288527b803a3f174fd87b5",
+        "localized_text": "轮胎上的代码可以显示其生产年份和周次。"
+      },
+      {
+        "source": {
+          "number": 29958,
+          "quesito_id": 6201,
+          "text_it": "Dalla sigla riportata sul cerchio si può ricavarne il giorno di fabbricazione dello pneumatico",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "66b0679379cda9d5f118edbf6a475bea8d8a88679bf1edf2802a42635233ebc0",
+        "localized_text": "轮辋上的代码可以显示轮胎的生产日期。"
+      },
+      {
+        "source": {
+          "number": 29959,
+          "quesito_id": 6201,
+          "text_it": "Dalla sigla riportata sul cerchio si può ricavarne la data in cui deve essere revisionato lo pneumatico",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6bd17a7ad74474671a8768e1746a517d00d964f52e786ae43c89643a869af9a5",
+        "localized_text": "轮辋上的代码可以显示轮胎必须检验的日期。"
+      },
+      {
+        "source": {
+          "number": 29960,
+          "quesito_id": 6201,
+          "text_it": "Dalla sigla riportata sul cerchio si può ricavarne l'anno di scadenza dello pneumatico",
+          "answer": 0,
+          "page": 122,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "84c709ed48401bcd348d8b9f12a8e1ae24a868ddedb6b916c3dfd862cf7d81ca",
+        "localized_text": "轮辋上的代码可以显示轮胎的到期年份。"
+      }
+    ],
+    "task_sha256": "7a46808070782ca71c0edf05ac4e9c73d664475ef914756d02b76a6106bbdd47"
+  },
+  "rows": [
+    {
+      "number": 29936,
+      "text": "节温器根据温度自动调节流向散热器的冷却液，而不是通过仪表板开关操作。",
+      "evidence": [
+        "https://www.valeoservice.co.uk/en-uk/lcv/cooling-and-air-management-lcv/thermostats — apertura alla temperatura prevista e flusso al radiatore."
+      ]
+    },
+    {
+      "number": 29937,
+      "text": "轮胎与路面的接地区域产生转向、加速和制动所需的力。",
+      "evidence": [
+        "Continental, White Paper Tires for Commercial Vehicles, printed/PDF p. 7, https://www.continental.com/fileadmin/__imported/sites/corporate/_international/english/hubpages/10_20press/01_press_releases/06_20cvt/001_white_papers_cvt/white_paper_tires_for_commercial_vehicles.pdf — road contact supplies traction, braking grip and lateral guidance; inspected complete local copy /tmp/rotonda-continental-commercial-tyres.pdf SHA256 fa6f57201027b16116e1958bd2d8be687633ef83627025b13d352191b4a695a6."
+      ]
+    },
+    {
+      "number": 29938,
+      "text": "轮胎通过变形缓冲路面不平，与悬架共同起到减振作用。",
+      "evidence": [
+        "https://thetiredigest.michelin.com/performance-noise-and-comfort — pneumatico flessibile attenua gli urti delle irregolarità."
+      ]
+    },
+    {
+      "number": 29939,
+      "text": "驱动力通过轮胎接地印迹传到路面；超过可用附着力时车轮会打滑。",
+      "evidence": [
+        "Continental, White Paper Tires for Commercial Vehicles, printed/PDF p. 7, https://www.continental.com/fileadmin/__imported/sites/corporate/_international/english/hubpages/10_20press/01_press_releases/06_20cvt/001_white_papers_cvt/white_paper_tires_for_commercial_vehicles.pdf — road contact supplies traction, braking grip and lateral guidance; inspected complete local copy /tmp/rotonda-continental-commercial-tyres.pdf SHA256 fa6f57201027b16116e1958bd2d8be687633ef83627025b13d352191b4a695a6."
+      ]
+    },
+    {
+      "number": 29940,
+      "text": "制动力通过轮胎接地印迹传到路面，受可用附着力限制。",
+      "evidence": [
+        "Continental, White Paper Tires for Commercial Vehicles, printed/PDF p. 7, https://www.continental.com/fileadmin/__imported/sites/corporate/_international/english/hubpages/10_20press/01_press_releases/06_20cvt/001_white_papers_cvt/white_paper_tires_for_commercial_vehicles.pdf — road contact supplies traction, braking grip and lateral guidance; inspected complete local copy /tmp/rotonda-continental-commercial-tyres.pdf SHA256 fa6f57201027b16116e1958bd2d8be687633ef83627025b13d352191b4a695a6."
+      ]
+    },
+    {
+      "number": 29941,
+      "text": "试题标为 VERO：轮胎通过可变形的接地印迹承载重量，使接触分布在路面上。这可以减少载荷集中，但不能保证路面不受损；重载仍会造成磨损。",
+      "evidence": [
+        "https://www.fhwa.dot.gov/policy/otps/truck/wusr/chap04.cfm — FHWA: l’interazione pneumatico-carico incide sul deterioramento del manto.",
+        "https://cdn.continental.com/fileadmin/__imported/sites/corporate/_international/english/hubpages/10_20press/01_press_releases/06_20cvt/001_white_papers_cvt/white_paper_tires_for_commercial_vehicles.pdf — Continental p.7 PDF locale visualizzato: impronta e sostegno del carico; distribuzione del contatto è inferenza fisica."
+      ]
+    },
+    {
+      "number": 29942,
+      "text": "接地印迹产生的侧向力使车辆沿所需方向行驶，但不能超过可用附着力。",
+      "evidence": [
+        "Continental, White Paper Tires for Commercial Vehicles, printed/PDF p. 7, https://www.continental.com/fileadmin/__imported/sites/corporate/_international/english/hubpages/10_20press/01_press_releases/06_20cvt/001_white_papers_cvt/white_paper_tires_for_commercial_vehicles.pdf — road contact supplies traction, braking grip and lateral guidance; inspected complete local copy /tmp/rotonda-continental-commercial-tyres.pdf SHA256 fa6f57201027b16116e1958bd2d8be687633ef83627025b13d352191b4a695a6."
+      ]
+    },
+    {
+      "number": 29943,
+      "text": "胎面沟槽收集并排走接地印迹中的水，有助于保持与湿路面的接触。",
+      "evidence": [
+        "https://middle-east.michelin.com/auto/en/advice/change-tyres/how-long-do-tyres-last — il battistrada raccoglie e scarica acqua."
+      ]
+    },
+    {
+      "number": 29944,
+      "text": "轮胎必须能够变形：其弹性有助于吸收路面不平并保持接触。",
+      "evidence": [
+        "https://thetiredigest.michelin.com/performance-noise-and-comfort — deformazione, aderenza e attenuazione degli urti."
+      ]
+    },
+    {
+      "number": 29945,
+      "text": "出发前不必预热轮胎。应按车辆说明在冷胎状态下检查胎压。",
+      "evidence": [
+        "https://www.nhtsa.gov/vehicle-safety/tires — controllo della pressione a pneumatici freddi secondo la prescrizione del veicolo."
+      ]
+    },
+    {
+      "number": 29946,
+      "text": "胎压警告灯提示压力不足，并不表示轮胎必须更换。磨损和损伤应直接检查。",
+      "evidence": [
+        "https://www.nhtsa.gov/vehicle-safety/tires — TPMS rileva pressione bassa; controllare usura e danni."
+      ]
+    },
+    {
+      "number": 29947,
+      "text": "换用更软的胶料不要求调硬减振器。替换轮胎必须符合车辆规格。",
+      "evidence": [
+        "https://africa.michelin.com/en/auto/advice/choose-tyres/choose-tyres-for-my-car — scelta secondo dimensioni e specifiche del veicolo; nessuna regolazione degli ammortizzatori prescritta."
+      ]
+    },
+    {
+      "number": 29948,
+      "text": "磨损会使沟槽变浅，可能降低湿地附着力，增加水滑风险。",
+      "evidence": [
+        "https://africa.michelin.com/en/auto/advice/change-tyres/tyre-wear-indicator — battistrada poco profondo e perdita di aderenza sul bagnato."
+      ]
+    },
+    {
+      "number": 29949,
+      "text": "所述坡度本身并不要求使用加强型轮胎：应按照车辆规格及所需承载能力选择轮胎。",
+      "evidence": [
+        "Continental Truck, Bus & Trailer Tire Product Data Guide 2025, https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/us/truck/literature/catalogs/TT-CO-BK-DATA.pdf — tire selection matched to axle loads and load/inflation tables; supports necessary load capacity, not proof that no special operating rule could exist."
+      ]
+    },
+    {
+      "number": 29950,
+      "text": "适合车辆且经过认证的翻新轮胎也可在高速公路上使用；翻新本身不构成普遍禁令。",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A42026X0308 — regolamento ONU 109, omologazione pneumatici ricostruiti per veicoli commerciali.",
+        "https://www.continental-tires.com/us/en/about-us/newsroom/truck-and-bus/contitread-hdl-5-ep/ — esempio di ricostruito progettato per lunghe percorrenze autostradali."
+      ]
+    },
+    {
+      "number": 29951,
+      "text": "在盘式车轮中，轮盘将车轮连接至轮毂，轮辋支撑轮胎。",
+      "evidence": [
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, ruota a disco composta da cerchio e disco."
+      ]
+    },
+    {
+      "number": 29952,
+      "text": "轮辋代号标明其尺寸和结构特征，有助于选择匹配的轮胎。",
+      "evidence": [
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, esempio di designazione e compatibilità."
+      ]
+    },
+    {
+      "number": 29953,
+      "text": "轮辋代号中的宽度是两个轮缘之间的距离，不是轮胎宽度。",
+      "evidence": [
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, larghezza nella designazione del cerchio."
+      ]
+    },
+    {
+      "number": 29954,
+      "text": "代号中的字母，例如 J，表示轮辋轮缘的轮廓类型。",
+      "evidence": [
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, J indica il tipo di balconata."
+      ]
+    },
+    {
+      "number": 29955,
+      "text": "轮辋代号包括安装轮胎胎圈处的公称直径；两者的直径必须匹配。",
+      "evidence": [
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, diametro del cerchio e necessaria corrispondenza con pneumatico."
+      ]
+    },
+    {
+      "number": 29956,
+      "text": "ET 标记表示偏距，即轮辋中心平面与轮盘在轮毂上的安装面之间的距离。",
+      "evidence": [
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, ET e definizione di offset."
+      ]
+    },
+    {
+      "number": 29957,
+      "text": "轮胎侧壁的日期代码表示生产周次和年份，不是到期日期。",
+      "evidence": [
+        "https://www.nhtsa.gov/interpretations/calendarwk23070 — codice TIN indica settimana e anno."
+      ]
+    },
+    {
+      "number": 29958,
+      "text": "轮辋代号描述的是轮辋。轮胎侧壁的日期代码表示生产周次和年份，而非确切日期。",
+      "evidence": [
+        "https://www.nhtsa.gov/interpretations/calendarwk23070 — codice sullo pneumatico indica settimana e anno.",
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, marcatura del cerchio."
+      ]
+    },
+    {
+      "number": 29959,
+      "text": "轮辋代号标识轮辋特征，不表示轮胎的检查日期；应定期检查磨损和损伤。",
+      "evidence": [
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, dati identificativi del cerchio.",
+        "https://www.nhtsa.gov/vehicle-safety/tires — ispezioni periodiche per usura e danni."
+      ]
+    },
+    {
+      "number": 29960,
+      "text": "轮辋代号描述轮辋特征，不表示轮胎的到期年份。侧壁代码表示生产时间。",
+      "evidence": [
+        "https://www.nhtsa.gov/vehicle-safety/tires — TIN sul fianco indica settimana e anno di fabbricazione.",
+        "https://www.continental-tires.com/content/dam/conti-tires-cms/continental/market-content/mx/tecnologia/download-tire-basics.pdf.coredownload.pdf — p. 29, designazione del cerchio."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "7a46808070782ca71c0edf05ac4e9c73d664475ef914756d02b76a6106bbdd47",
+    "output_sha256": "8a5b99c476fc8a98b78156203154a15d5de987bbba1670a76de4416c0b5490c1",
+    "author": "gpt-6.1-terra /root/terra_author (revision); gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra /root/terra_runner independent collaboration review",
+    "status": "accepted",
+    "checked_numbers": [
+      29936,
+      29937,
+      29938,
+      29939,
+      29940,
+      29941,
+      29942,
+      29943,
+      29944,
+      29945,
+      29946,
+      29947,
+      29948,
+      29949,
+      29950,
+      29951,
+      29952,
+      29953,
+      29954,
+      29955,
+      29956,
+      29957,
+      29958,
+      29959,
+      29960
+    ],
+    "issues": [],
+    "source_inspection": {
+      "source": "Continental 2025 Truck, Bus & Trailer Tire Product Data Guide",
+      "local_path": "/tmp/rotonda-continental-data-guide-2025.pdf",
+      "sha256": "3b85e9362626f0635aed519107aec52bf8a71ef9da4e282d6045405f0c10e0d9",
+      "finding": "Inspected full 120-page PDF locally; printed p.96 (PDF p.97) tabulates tyre load limits by cold inflation pressure, size and single/dual fitment. Supports load-capacity selection; does not establish absence of every possible special rule."
+    },
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb1f-265d-7ab0-8de6-7c3d5b98290b",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3ab0c8e744f611826e0d14c1a4bd5c90ae83f49968ff3224b26ad19ac5a7b233",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb1f-265d-7ab0-8de6-7c3d5b98290b",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29941,
+              "reason": "Il quesito stampa VERO per l’affermazione che lo pneumatico evita che il peso del veicolo danneggi il manto stradale, senza condizioni. La fonte tecnica indica invece che carichi su ruote e assi possono causare danni alla pavimentazione. Non è chiarito se il quesito intenda soltanto una riduzione del contatto diretto o dei danni superficiali: tale portata non è espressa nel testo.",
+              "checked_sources": [
+                "Quiz ufficiale superiori, PDF SHA-256 a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234, pagina 123 (indice 122), n. 29941: affermazione e risposta VERO stampata.",
+                "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/13038/007.cfm — sezione Traffic Loads: i carichi delle ruote e degli assi possono danneggiare la pavimentazione.",
+                "https://www.fhwa.dot.gov/policy/otps/truck/wusr/chap04.cfm — Truck-Pavement Interaction: il deterioramento dipende dai carichi sugli assi e anche dal numero e dalla larghezza degli pneumatici."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3ab0c8e744f611826e0d14c1a4bd5c90ae83f49968ff3224b26ad19ac5a7b233",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "7a46808070782ca71c0edf05ac4e9c73d664475ef914756d02b76a6106bbdd47",
+        "output_sha256": "8dc7b8a57d2d4bab94d1266ec78cae762929e0f7090bc5cf36d84a80c225da86",
+        "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          29936,
+          29937,
+          29938,
+          29939,
+          29940,
+          29941,
+          29942,
+          29943,
+          29944,
+          29945,
+          29946,
+          29947,
+          29948,
+          29949,
+          29950,
+          29951,
+          29952,
+          29953,
+          29954,
+          29955,
+          29956,
+          29957,
+          29958,
+          29959,
+          29960
+        ],
+        "issues": [
+          {
+            "number": 29937,
+            "reason": "The cited Michelin materials page does not state the described tyre-force functions. Replace or supplement it with inspected Continental commercial-tyre white paper PDF p.7, which describes traction, braking and lateral guidance."
+          },
+          {
+            "number": 29939,
+            "reason": "The cited Michelin materials page does not state the described tyre-force functions. Replace or supplement it with inspected Continental commercial-tyre white paper PDF p.7, which describes traction, braking and lateral guidance."
+          },
+          {
+            "number": 29940,
+            "reason": "The cited Michelin materials page does not state the described tyre-force functions. Replace or supplement it with inspected Continental commercial-tyre white paper PDF p.7, which describes traction, braking and lateral guidance."
+          },
+          {
+            "number": 29942,
+            "reason": "The cited Michelin materials page does not state the described tyre-force functions. Replace or supplement it with inspected Continental commercial-tyre white paper PDF p.7, which describes traction, braking and lateral guidance."
+          },
+          {
+            "number": 29949,
+            "reason": "The exact cited Bridgestone databook currently returns 404. Search indexing exposes the load/inflation tables, but provide an accessible manufacturer source or an exact complete local copy for verification."
+          }
+        ]
+      }
+    ]
+  }
+}

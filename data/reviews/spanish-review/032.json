@@ -1,0 +1,49 @@
+{
+  "batch": "032",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "137f0a619b0ac9dbbf2d4febee252ac0aa3118f34b3da2e7a96a89c1d80c8bb6",
+  "source_sha256": "1c1f73df8e898305507bc3169c766dc8cd1a54dd998d9378a89aaeef006f9c6d",
+  "corrections": [
+    {
+      "id": "2ac23a910e24717f341ccfdef56d65eaad12285551ada6972e4fe24cbf528b4b",
+      "before": "Al cruzar la frontera italo-suiza por Ponte Chiasso o Gaggiolo, la ficha de circulación debe ser llenada y firmada por el conductor del vehículo que transporta la mercancía",
+      "after": "Al cruzar la frontera italo-suiza por Ponte Chiasso (CO) o Gaggiolo (VA), la ficha de circulación debe ser llenada y firmada por el conductor del vehículo que transporta la mercancía",
+      "reason": "Restituye las siglas provinciales incluidas en el original."
+    },
+    {
+      "id": "2ae4f39aa29de2ca1f1524f2bbe57d3c3e101904173d7445df604b7893c4bd5e",
+      "before": "Los vehículos destinados al transporte por cuenta propia de masa máxima autorizada superior a 6 toneladas deben llevar una franja oblicua roja delante y detrás",
+      "after": "Los vehículos destinados al transporte de mercancías por cuenta propia de masa máxima autorizada superior a 6 toneladas deben llevar una franja oblicua roja delante y detrás",
+      "reason": "Restituye que se refiere al transporte de mercancías."
+    },
+    {
+      "id": "2ae8e2f9ad4d65726285e012babb3d8735901fa916abdf4697d141ea73359c96",
+      "before": "La sigla GLP identifica el gas licuado de petróleo",
+      "after": "La sigla GPL identifica el gas licuado de petróleo",
+      "reason": "Keep the Italian code GPL; GLP is the Spanish acronym"
+    },
+    {
+      "id": "2b07444aa3003799b149e3ca3ff9cd325c546f345d2d4a50362d34bd9cffc4d5",
+      "before": "Según el CMR, el destinatario ya no tiene interés en recibir la mercancía cuando esta ha perdido sus características originales y ya no puede utilizarse",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el destinatario ya no tiene interés en recibir la mercancía cuando esta ha perdido sus características originales y ya no puede utilizarse",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "2b582d761a92f0ef703e6c8ef56da32bc9594a3d470a77e99a6f15b54e1b6435",
+      "before": "01##tipología1 CQC",
+      "after": "01##tipologia1 CQC",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original."
+    }
+  ],
+  "reviewed_file_sha256": "b0844f511abec6bf311fe0e658cd4eba3407d509c3c1e6964f3083ebe6513148"
+}

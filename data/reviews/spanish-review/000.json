@@ -1,0 +1,37 @@
+{
+  "batch": "000",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "d3c4ebeb533eb08e6d5e7e1fe5ae141976bc3f570568ac38d50d3e9ec36c9d29",
+  "source_sha256": "e42d134336e7066e27a5fd306d1c611e98c1a85d7405f9aaef976dd216c5f668",
+  "corrections": [
+    {
+      "id": "001244fab26f3ff1c9434f81b623bfac593f5a4680f5229ff7772f03979aa912",
+      "before": "11##tipología11 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "11##tipologia11 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original."
+    },
+    {
+      "id": "0056d7797ab2802dacfc58f848f1d3c8ce292c0ee0eee1f28b862a9f7c5e50be",
+      "before": "Si un vehículo policial con la sirena encendida te adelanta, se coloca delante de ti y lleva en el techo una pantalla con la inscripción luminosa «ACCOSTARE» (orillarse), estás obligado a detenerte",
+      "after": "Si un vehículo policial con la sirena encendida te adelanta, se coloca delante de ti y lleva en el techo una pantalla con la inscripción luminosa «ACCOSTARE», estás obligado a detenerte",
+      "reason": "Removed the added Spanish gloss in parentheses, which is not in the Italian"
+    },
+    {
+      "id": "00b373a8535e5d13d02403f5a0b5eea7d7c7ebd73f17aa9a798269151408b042",
+      "before": "03##tipología3 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "03##tipologia3 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original."
+    }
+  ],
+  "reviewed_file_sha256": "37dd6500fdaf441666e84dcda2fe5b2fb29ac8462a86b420201b472a4acdb264"
+}

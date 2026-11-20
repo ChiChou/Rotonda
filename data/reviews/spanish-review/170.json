@@ -1,0 +1,55 @@
+{
+  "batch": "170",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2d7b60060b90c3be6a0ed2d6cd8bcf38c47031c0e21de491aebae6e974d91fe7",
+  "source_sha256": "05f66658b411cad757f60fdaff1262215f3a39018de3ea4e1cf068fd2b7b3ee0",
+  "corrections": [
+    {
+      "id": "e0fdbd737c1ffaed552ddd46b110be33c792cf29248d7823a4f3852a2b63d576",
+      "before": "En caso de detención, donde no haya acera elevada el conductor debe dejar un espacio de al menos un metro para el paso de peatones",
+      "after": "En caso de parada, donde no haya acera elevada el conductor debe dejar un espacio de al menos un metro para el paso de peatones",
+      "reason": "Fermata indica una parada temporal."
+    },
+    {
+      "id": "e0ff941b698bf22e9b22237ff9d3a1b9beb8cb222a7a8701181cbdf1dd975c65",
+      "before": "Cuando se ve en el techo de un vehículo de policía una pantalla con la palabra luminosa «ACCIDENTE», hay que reducir la velocidad",
+      "after": "Cuando se ve en el techo de un vehículo de policía una pantalla con la palabra luminosa «INCIDENTE», hay que reducir la velocidad",
+      "reason": "Conserva la inscripción literal de la pantalla policial."
+    },
+    {
+      "id": "e1039e3540467665eebd8129b7e5c82a276b69826ed062fb48ebb7ab25a81714",
+      "before": "La inmigración clandestina se refiere al ingreso legal a otro Estado de personas que no son ciudadanas ni tienen derecho de residencia permanente",
+      "after": "La inmigración clandestina se refiere al ingreso legal a otro Estado de personas que no son ciudadanas o no tienen derecho de residencia permanente",
+      "reason": "Mantiene la disyunción del original, sin convertirla en conjunción."
+    },
+    {
+      "id": "e15853203e373b7af57aea979d154fb4f1d01495b7e756f03be0c5101f04a617",
+      "before": "Si una avería mecánica inmoviliza el vehículo en un túnel de autopista, hay que llevarlo a una zona de estacionamiento si es posible",
+      "after": "Si una avería mecánica inmoviliza el vehículo en un túnel de autopista, hay que llevarlo a un apartadero si es posible",
+      "reason": "Piazzola di sosta en este contexto es un apartadero o refugio vial."
+    },
+    {
+      "id": "e1ec88974fdd46ea5e1d319d7d69bc2458989e5dbcce532f95e97cd9c7ca7f9a",
+      "before": "14##tipología14 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "14##tipologia14 CQC - DL 30 DE JULIO DE 2021",
+      "reason": "Keep Italian code spelling 'tipologia'; keep 'DL' as in the Italian legal reference"
+    },
+    {
+      "id": "e200dc67404a6e34f545fda974eeb09d0fd4e86a0ce966094baad3db1206c31b",
+      "before": "En caso de deficiencia del servicio, el conductor de un autobús de alquiler con conductor puede aplicar precios distintos de los previstos por la empresa para la que trabaja",
+      "after": "En caso de deficiencia del servicio, el conductor de un autobús de alquiler con conductor puede aplicar precios distintos de los previstos por la empresa de la que depende",
+      "reason": "'da cui dipende' means the company it depends on, not the company he works for"
+    }
+  ],
+  "reviewed_file_sha256": "a1ac69f12b0b0c7a49e997f8bd3dbd7aeafccd30db73fa3b690be232bc762987"
+}

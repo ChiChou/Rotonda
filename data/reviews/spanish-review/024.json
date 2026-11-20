@@ -1,0 +1,37 @@
+{
+  "batch": "024",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "d58ff680956dec8be13a49e1a201c04b3bd08808bebe3dfe60e8686187e6cd38",
+  "source_sha256": "c980c0d2fc3da08165431da6dbadb4abde88a1c18ae9406a5fa4a1e652175ee3",
+  "corrections": [
+    {
+      "id": "20065d0ae477fc9675ca101deacfd064f38094c1be1da77680fa0aea27c0954a",
+      "before": "Según el CMR, existe pérdida total y no avería cuando una parte de la mercancía transportada está dañada y se han emitido varias cartas de porte",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), existe pérdida total y no avería cuando una parte de la mercancía transportada está dañada y se han emitido varias cartas de porte",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "2018582430eef1c13bcb2499435fdead1e5c858cc94f32b005e71b383869880e",
+      "before": "Los autobuses nunca pueden inscribirse en una corona circular de radio exterior de 12,50 m e interior de 5,30 m",
+      "after": "Los autobuses nunca pueden inscribirse en una corona circular de radio exterior de 12,50 m e interior de 5,30 m (franja de ocupación)",
+      "reason": "Restituye el término entre paréntesis del original."
+    },
+    {
+      "id": "208acea9e29f689e8949a56a2c93cf6acac96d10ecfb27ca47c2dd673b1ed68e",
+      "before": "El conductor que causa solo daños materiales en un accidente puede indemnizar a la persona perjudicada mediante el seguro de responsabilidad civil automotor obligatorio por ley",
+      "after": "El conductor que causa solo daños materiales en un accidente puede indemnizar a la persona perjudicada mediante el seguro RCA (responsabilidad civil automotor) obligatorio por ley",
+      "reason": "Restituye la sigla RCA junto con su explicación."
+    }
+  ],
+  "reviewed_file_sha256": "6c981933d2d463c57c846af114f765c8ba24d800c34ccf36847e96a022e857f2"
+}

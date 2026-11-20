@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed7a-abee-75d3-b17b-09719bd6d0b8"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 34482,
+          "quesito_id": 7244,
+          "text_it": "Secondo la normativa ADR per veicolo telonato si intende un veicolo anche centinato, cioè munito di centine e un telone",
+          "answer": 1,
+          "page": 114,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "885cb79ba4af14a240d9d0e706da1e8edce2f2211b56390e776fc620274f2e87",
+        "italian": "Anche un veicolo con centine che sostengono il telone può essere un veicolo telonato: il telone serve a proteggere il carico.",
+        "italian_sha256": "e4f9be04216e0ccbad7cb51dca60104efd44e6b7a917ec911ba2e4ab540db56d"
+      },
+      {
+        "source": {
+          "number": 34483,
+          "quesito_id": 7244,
+          "text_it": "Secondo la normativa ADR per veicolo scoperto si intende un veicolo cisterna sprovvisto di coibentazione",
+          "answer": 0,
+          "page": 114,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e0f739acf028a67975189683a193c8eccfd760bb78dd3df74196de73bc70c622",
+        "italian": "L'assenza di coibentazione non rende scoperto un veicolo cisterna: il veicolo scoperto è definito dalla configurazione del pianale, mentre la cisterna serve a contenere il carico.",
+        "italian_sha256": "3e25898945148060dab7325c5513808fc116bf17942b36fa2fbfc61f8a37f4c3"
+      },
+      {
+        "source": {
+          "number": 34484,
+          "quesito_id": 7244,
+          "text_it": "Secondo la normativa ADR per veicolo scoperto si intende un veicolo il cui pianale è ricoperto con telone",
+          "answer": 0,
+          "page": 114,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "485040179b6b9fc0b84dbde0b7466dab5bd5ceedb6b19d6898eb46ac8516ea3e",
+        "italian": "Il telone identifica un veicolo telonato: è uno scoperto munito di copertura per proteggere il carico.",
+        "italian_sha256": "3fbf253b7af779924b04b322dddafeca4805cd46d99379f4f5c362fc123bca8b"
+      },
+      {
+        "source": {
+          "number": 34485,
+          "quesito_id": 7244,
+          "text_it": "Secondo la normativa ADR per veicolo scoperto si intende un veicolo con carrozzeria furgone",
+          "answer": 0,
+          "page": 114,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6902c28106be785b9a0a849d26b980da475971bcb6175a8a1286e4d42a6de421",
+        "italian": "Una carrozzeria furgone è chiudibile e identifica un veicolo chiuso; non è un veicolo scoperto.",
+        "italian_sha256": "60b755d0f84e002025f72d0271478f754ca9c6c4efb8d8944fb9a8a608b4ab83"
+      },
+      {
+        "source": {
+          "number": 34486,
+          "quesito_id": 7244,
+          "text_it": "Secondo la normativa ADR per veicolo chiuso si intende un veicolo il cui pianale è munito di sponde",
+          "answer": 0,
+          "page": 114,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "85bc5c48d687178ef73f17289b2755e24131a3595262819941988881b7d2f8d2",
+        "italian": "Le sole sponde non rendono chiuso il veicolo: il veicolo chiuso ha una carrozzeria che può essere chiusa.",
+        "italian_sha256": "f473d172a1e230d4c8ccab436861713d256b4217f2f4d48e476993b05990984b"
+      },
+      {
+        "source": {
+          "number": 34487,
+          "quesito_id": 7245,
+          "text_it": "Secondo la normativa ADR per veicolo chiuso si intende un veicolo il cui pianale è ricoperto con un telone",
+          "answer": 0,
+          "page": 114,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9425a50c47929482fc03205815c0f60cdc07852b289283050ab2a7e0c426a3a0",
+        "italian": "Il telone protegge il carico di un veicolo telonato; il veicolo chiuso ha invece una carrozzeria che può essere chiusa.",
+        "italian_sha256": "c83308b3cf6e6356cd0947047e39f7c762780d1d7f8f994f8c789239b719c7db"
+      },
+      {
+        "source": {
+          "number": 34488,
+          "quesito_id": 7245,
+          "text_it": "Secondo la normativa ADR per veicolo chiuso si intende un veicolo con centine e telone smontabili",
+          "answer": 0,
+          "page": 114,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "785439e9c63f312d37dc6226a8e165db964d96638297d74169d93bf4ed2b107b",
+        "italian": "Centine e telone indicano una copertura telonata, non bastano a definire una carrozzeria chiusa.",
+        "italian_sha256": "2e61b3cef9b74adf423742e618195b5122f2a7f42d5bddec328c195e48a5494d"
+      },
+      {
+        "source": {
+          "number": 34489,
+          "quesito_id": 7245,
+          "text_it": "Secondo la normativa ADR per veicolo telonato si intende un veicolo chiuso, con pareti e copertura rigide",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "541820640f619f9ac5021d30df6a887f705905f1140bd4dcad20f54b33fa531f",
+        "italian": "Pareti e copertura rigide descrivono una carrozzeria chiusa; il telonato è invece uno scoperto dotato di telone a protezione del carico.",
+        "italian_sha256": "26cec106ea6daf6201be812d87402b2c35b0192e4be76fb2115a49f2184e4389"
+      },
+      {
+        "source": {
+          "number": 34490,
+          "quesito_id": 7245,
+          "text_it": "Secondo la normativa ADR per veicolo telonato si intende un veicolo batteria coperto con telone ignifugo",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f773b507fe115d9cdb0b08b0999dfb2b10ef7772c1b8a8c5467394a8b1148e77",
+        "italian": "Il veicolo telonato non è definito come veicolo batteria ignifugato: è uno scoperto dotato di telone per proteggere il carico.",
+        "italian_sha256": "0fb11f4dcfde2558062bce3cc166a62f266ac44a271aff3d3ca7f9b6abdc35ad"
+      },
+      {
+        "source": {
+          "number": 34491,
+          "quesito_id": 7245,
+          "text_it": "Secondo la normativa ADR per veicolo telonato si intende un veicolo cisterna con coibentazione in tela",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "05cc25c2d9fa2220e106b7c64221fe59e9d231b3806bea38dd998727b63213fc",
+        "italian": "La coibentazione di una cisterna non definisce il veicolo telonato, che è uno scoperto con telone a protezione del carico.",
+        "italian_sha256": "c7fbad27f45591b63d6a8f5652697c81d044417b9aa4911aa8e96421696565de"
+      },
+      {
+        "source": {
+          "number": 34492,
+          "quesito_id": 7245,
+          "text_it": "Sulla carta di circolazione dei veicoli cassonati adibiti al trasporto di benzene (classe 3) in colli non deve figurare nessuna annotazione relativa all'idoneità del mezzo di trasporto",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "96b7b5803600dcf0c52a5e9e58339b65908c20275bd6c650ffd75cba93ef4ec3",
+        "italian": "Per un normale cassonato che trasporta benzene in colli non è richiesta una specifica annotazione ADR di idoneità sulla carta di circolazione.",
+        "italian_sha256": "15471329baabaabbd15852a028a3b024f7df0e2a4dd81b97287d04bdd129412f"
+      },
+      {
+        "source": {
+          "number": 34493,
+          "quesito_id": 7245,
+          "text_it": "Per attestare l'idoneità del veicolo al trasporto su strada, in regime nazionale, di merci pericolose in colli la carta di circolazione deve contenere l'annotazione di idoneità al trasporto di merce pericolosa",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c298b009fde1a357adf97424f880f07c1161bc68bc6b90f015d104864149fd39",
+        "italian": "L’annotazione sulla carta di circolazione non è richiesta in generale per attestare l’idoneità al trasporto di merci pericolose in colli; restano applicabili le eventuali prescrizioni specifiche.",
+        "italian_sha256": "8309aebcfee0c39e1ae5b6b74d7fcd3282a237f719bbcd9123b7b88f2dfbddca"
+      },
+      {
+        "source": {
+          "number": 34494,
+          "quesito_id": 7245,
+          "text_it": "Per attestare l'idoneità del veicolo al trasporto su strada, in regime nazionale, di merci pericolose in colli occorre l'attestato ATP",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2133803761cce2a833e7af85d7a854afb7cd669a1549e717d479c9cc5fd148ec",
+        "italian": "L’attestato ATP riguarda le attrezzature per il trasporto di alimenti deperibili, non attesta l’idoneità ADR per merci pericolose in colli.",
+        "italian_sha256": "0aaaf3afd87ce4b4efbce0ac4ac16594bb2a90bed2d3ee918dde457174436961"
+      },
+      {
+        "source": {
+          "number": 34495,
+          "quesito_id": 7245,
+          "text_it": "Per attestare l'idoneità del veicolo al trasporto su strada, in regime nazionale, di merci pericolose in colli necessita il certificato di approvazione ADR (con barra diagonale rosa)",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "337ede012c2f5252440f869d3c33f0ff08670ec1c1febdcdab369c52dbd0e3df",
+        "italian": "Il certificato ADR barrato rosa non è richiesto per ogni trasporto in colli: riguarda specifiche categorie di veicoli, tra cui quelli approvati per determinati esplosivi.",
+        "italian_sha256": "299f2e9c31daf95f09a27dd1860fe6529aada82813b0bc5e93cb151af33ef7b1"
+      },
+      {
+        "source": {
+          "number": 34496,
+          "quesito_id": 7245,
+          "text_it": "Sulla carta di circolazione dei veicoli cassonati adibiti al trasporto di benzene in colli deve figurare l'annotazione di idoneità del mezzo di trasporto",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0ba72839a393ab327132ee371b791a8e9c996000d3c09fb9175d5614234977f7",
+        "italian": "Per il normale trasporto di benzene in colli su cassonato non occorre una specifica annotazione di idoneità ADR sulla carta di circolazione.",
+        "italian_sha256": "3c958ecf85845cd8273232dfb28c267f25324eda4eb0461eb31306392dea83af"
+      },
+      {
+        "source": {
+          "number": 34497,
+          "quesito_id": 7245,
+          "text_it": "Sulla carta di circolazione dei veicoli cassonati adibiti al trasporto di benzene in colli deve figurare l'annotazione di idoneità solo in regime nazionale",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5f5db3c8b640b733a6e594b956d1608f967cabbaf007ef953af4a7c66bd928a3",
+        "italian": "L’annotazione non è richiesta per il normale cassonato che trasporta benzene in colli, neppure per il solo fatto che il trasporto sia nazionale.",
+        "italian_sha256": "46c33e8c15a04661f3dc303a41a5c28977834d30662b086f431f85032150f0b8"
+      },
+      {
+        "source": {
+          "number": 34498,
+          "quesito_id": 7245,
+          "text_it": "Sulla carta di circolazione dei veicoli cassonati adibiti al trasporto di benzene in colli deve figurare specifica annotazione",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ed36794952a31d196959d896b0152c4d77ff6c00adf3b8ba6d49eb5c9d411a9f",
+        "italian": "Per il normale cassonato che trasporta benzene in colli non è prevista una specifica annotazione ADR di idoneità sulla carta di circolazione.",
+        "italian_sha256": "cc2a96831652e15c4d51e6c341451018215fc03d8cd1d7e910d2eebc5cbe1c81"
+      },
+      {
+        "source": {
+          "number": 34499,
+          "quesito_id": 7245,
+          "text_it": "Il limitatore di velocità è obbligatorio per tutti i veicoli cisterna di massa massima autorizzata maggiore di 3,5 t ma non superiore a 12 t, immatricolati dopo il 31 dicembre 2006",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3d03b2f99ae4ce60ddfb0d365f696dcd4accbc3336eedd5622cdb4abeea7091c",
+        "italian": "Il quiz indica FALSO: la parola «tutti» non considera le eccezioni previste per alcuni veicoli. Per gli autoveicoli N2 e N3 soggetti alla disciplina il limitatore è invece richiesto; la sola data non basta a descrivere ogni caso.",
+        "italian_sha256": "c5c1d59b16db69f11b7a68b0e9b7cdd3908c0cf5c9e7582d0ae940d44779a123"
+      },
+      {
+        "source": {
+          "number": 34500,
+          "quesito_id": 7245,
+          "text_it": "Le unità di trasporto ADR in colli devono essere dotate di un dispositivo rallentatore della velocità, qualunque sia la loro massa complessiva a pieno carico",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9870d5fdd9f90374a8991c770d08eb1041c329600ba48fd6fa6dbd324be3443c",
+        "italian": "Il rallentatore non è richiesto a tutte le unità ADR in colli indipendentemente dalla massa: l’obbligo dipende dalla categoria e dalle caratteristiche del veicolo.",
+        "italian_sha256": "aa425e7b4a73fd1a00836f48d1478908bf7a31fb1f061782e3ba6cb45c2138f4"
+      },
+      {
+        "source": {
+          "number": 34501,
+          "quesito_id": 7245,
+          "text_it": "Nel caso di alcuni veicoli a motore, le unità di trasporto ADR in colli devono essere dotate di un dispositivo limitatore di velocità",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b4a8615b0c628d52e7fa40997625a21a642684b907bb8ef390fa3038ca83c4cc",
+        "italian": "Per alcuni veicoli a motore, in particolare quelli delle categorie N2 e N3 soggetti alla disciplina, è previsto il limitatore di velocità anche se trasportano merci in colli.",
+        "italian_sha256": "34d02651a5455aa3778b2053f357b2538bdd8620a804fdc167957e9290101338"
+      },
+      {
+        "source": {
+          "number": 34502,
+          "quesito_id": 7245,
+          "text_it": "Le unità di trasporto ADR in colli devono essere dotate obbligatoriamente dell'ABS (dispositivo antibloccaggio del sistema frenante)",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "703422321442ba699410d4778fad4e000b6cb659507fdaaf478dabb7eb156194",
+        "italian": "L’ABS non è richiesto indistintamente a tutte le unità ADR in colli: gli obblighi dipendono dalle caratteristiche e dall’immatricolazione dei veicoli.",
+        "italian_sha256": "4377a16bab885eccdcd11fe9b57b6d8e264f38b2c9f7de0200041773f96dc7d5"
+      },
+      {
+        "source": {
+          "number": 34503,
+          "quesito_id": 7246,
+          "text_it": "L'installazione dell'ABS (dispositivo antibloccaggio del sistema frenante) è obbligatoria sui veicoli ADR in relazione all'anno di immatricolazione, alla massa complessiva e alla modalità di trasporto",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "92b073baa46841a240e85dfcd973092050bd12e01e0e8c3e45861c9569c6fe3e",
+        "italian": "Le prescrizioni sull’ABS variano in base alla categoria del veicolo, alla massa e alla data di prima immatricolazione; conta quindi anche il tipo di trasporto ADR.",
+        "italian_sha256": "1a3f054af1b6d24547c75cb381487c2729041b2beb3fc7541aba8bfa9e448644"
+      },
+      {
+        "source": {
+          "number": 34504,
+          "quesito_id": 7246,
+          "text_it": "Le unità di trasporto ADR in colli devono essere dotate di idonei estintori",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "eaceafaa15a14a3a36d6c2f5ffee65955bca8c9245cd3a93ae566ebe72ba74f1",
+        "italian": "Le unità soggette alle disposizioni ADR devono avere estintori idonei; la dotazione varia secondo il veicolo e le eventuali esenzioni.",
+        "italian_sha256": "ccb5049eed0aff1ad63500aa0255c5dae0852907a0f8a794d5ea2437cde9262b"
+      },
+      {
+        "source": {
+          "number": 34505,
+          "quesito_id": 7246,
+          "text_it": "Le unità di trasporto ADR in colli devono essere dotate degli equipaggiamenti di sicurezza previsti dall'ADR",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ff7602e7feb4e1ebb2c70acfd0daf03c5eb6aeb0ffb198d5b66fb8b963d738a1",
+        "italian": "L’ADR prescrive equipaggiamenti di sicurezza per l’unità e l’equipaggio, con dotazioni ed eventuali esenzioni dipendenti dal trasporto.",
+        "italian_sha256": "a7c6a7a5f9104a508853c5c2368de2b1ae106cf5647254b279e264d3179797d6"
+      },
+      {
+        "source": {
+          "number": 34506,
+          "quesito_id": 7246,
+          "text_it": "Le unità di trasporto ADR in colli devono essere dotate sempre di un equipaggiamento elettrico speciale secondo le norme ADR",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "70681f46a7a1b1250460400c914a41f6437fb94aa4ab0edefd7c6cc8967a6a2b",
+        "italian": "L’equipaggiamento elettrico speciale non è richiesto sempre per il trasporto ADR in colli: le prescrizioni dipendono dal tipo di veicolo e di trasporto.",
+        "italian_sha256": "f42ea1bf5670f4d7d47e0df70734621d08b28b16180d2b7703c8246a7f1b4fad"
+      },
+      {
+        "source": {
+          "number": 34507,
+          "quesito_id": 7246,
+          "text_it": "Per attestare l'idoneità del veicolo al trasporto su strada, in regime nazionale, di merci pericolose in colli non è necessaria nessuna attestazione per carichi diversi da esplosivi e radioattivi",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0692158f69a932d3ccf5d00f7b60c0fb5fd53b48160dc6752aae1e576f302b49",
+        "italian": "Nel caso ordinario dei colli diversi da esplosivi e radioattivi non è richiesta una specifica attestazione ADR di idoneità del veicolo. Ciò non elimina gli altri documenti eventualmente prescritti per il trasporto.",
+        "italian_sha256": "2bf5cb84814857698d241d954842a0c8074701ffb6319b9fff81af57ab1606e6"
+      },
+      {
+        "source": {
+          "number": 34508,
+          "quesito_id": 7246,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando sporge anteriormente",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "81bf5f482b1fdb34f1f68efb75e008e2237b0da5338b45bfc3d22a4d0ba5f2cd",
+        "italian": "Una trave indivisibile che sporge anteriormente oltre la sagoma dell’autocarro configura un trasporto eccezionale; occorre la relativa autorizzazione.",
+        "italian_sha256": "3dd07bd4785c9c2595aaff9ce61094458fb47cd0e21e479f42fd468bd4b18205"
+      },
+      {
+        "source": {
+          "number": 34509,
+          "quesito_id": 7246,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando la lunghezza del veicolo più la parte sporgente della trave supera la lunghezza di 12 metri",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4c924d6537c4584ad3602df54a0e766e42cbee736bed57f1615d4bf0962e52fd",
+        "italian": "Per un autocarro isolato il limite ordinario di lunghezza, compreso il carico, è 12 metri: superarlo configura un trasporto in condizioni di eccezionalità.",
+        "italian_sha256": "3094829b7adfa701b3e96cf7f8d3864c5b3bb7d271d80d3424ef49763d8bd6ad"
+      },
+      {
+        "source": {
+          "number": 34510,
+          "quesito_id": 7246,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando la lunghezza del veicolo compreso il carico supera i limiti massimi di lunghezza fissati dal codice della strada",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "577ee55831c31e013a250d7ade0a4cab4cb562bdeadaffaafe653577c4c61aaf",
+        "italian": "Il trasporto è in condizioni di eccezionalità quando la trave indivisibile fa superare al veicolo i limiti di sagoma previsti dal Codice, compreso quello di lunghezza.",
+        "italian_sha256": "6d712e2a4cca77068d270597c789d9f373ce93a6842283b4920d11bd215a6c3a"
+      },
+      {
+        "source": {
+          "number": 34511,
+          "quesito_id": 7246,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando sporge posteriormente del 20% della lunghezza",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c70cf99f3e3cc526e80da16da0e6c721ca81f0b00869551583b52a06e267423e",
+        "italian": "Una sporgenza posteriore del 20% non rende di per sé eccezionale il trasporto: conta il superamento della sagoma limite complessiva. Per un carico indivisibile va rispettato anche il limite della sporgenza posteriore.",
+        "italian_sha256": "98bc7b597f27fdf8e13b8536c3a8a3bad1f68e8507514cb983296bb79de32c53"
+      },
+      {
+        "source": {
+          "number": 34512,
+          "quesito_id": 7246,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando sporge posteriormente del 10% della lunghezza",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "34d80f639e83d253692b8de81a77c537d69c8c598b224ce1f793d2e426e6365c",
+        "italian": "Una sporgenza posteriore del 10% non basta a definire eccezionale il trasporto: occorre verificare se il veicolo con il carico supera la sagoma limite.",
+        "italian_sha256": "fbbaaebe32cb0c751a2a0ffbc6d7a69177be8f3b0962e48599dc4cc4430ae3fe"
+      },
+      {
+        "source": {
+          "number": 34513,
+          "quesito_id": 7246,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando sporge posteriormente di un quarto della lunghezza",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "070e8d292e95c8604ca8c27c75723f2d389c1d3e22f85ca92253fd1c3523ba38",
+        "italian": "Una sporgenza di un quarto della lunghezza non rende automaticamente eccezionale il trasporto: occorre verificare la lunghezza complessiva rispetto al limite di sagoma.",
+        "italian_sha256": "03f182821907fc28e410df675f929f0ac8c732bd40e1cbe22c6817a13ff92af2"
+      },
+      {
+        "source": {
+          "number": 34514,
+          "quesito_id": 7246,
+          "text_it": "È trasporto in condizioni di eccezionalità il trasporto di cose indivisibili che, per loro dimensione, determinano eccedenza rispetto ai limiti di sagoma fissati dal codice della strada",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fcd90b7d182f1d63868d26ae43adb9cb26e784213c91e915095f0616caeed28d",
+        "italian": "Il trasporto di una cosa indivisibile è in condizioni di eccezionalità quando le sue dimensioni fanno superare al veicolo i limiti di sagoma del Codice della strada.",
+        "italian_sha256": "9567dd65b49d102d001abfadf5c9816b64650abbf53055b7b44666d9445c9d99"
+      },
+      {
+        "source": {
+          "number": 34515,
+          "quesito_id": 7246,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando la lunghezza del veicolo più la parte sporgente della trave supera la lunghezza di 11 metri",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "060dd6516d57f13f30dd174330f578e0f2246341e6c311ff4225dd3ba59c2f96",
+        "italian": "Undici metri non sono la soglia ordinaria: per un autocarro isolato il limite di lunghezza, compreso il carico, è 12 metri. Superare 11 metri non basta quindi a rendere eccezionale il trasporto.",
+        "italian_sha256": "0fcf02424653408ff61f2922f13769a8f2292db6499aeedcbef961aacf5ee390"
+      },
+      {
+        "source": {
+          "number": 34516,
+          "quesito_id": 7246,
+          "text_it": "Il trasporto di una trave su un autocarro viene sempre definito eccezionale per dimensioni quando il carico sporge nella parte posteriore",
+          "answer": 0,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8afd7e7fb8d91bb904b6703d9e7f71cdd02cbd4fa91908fb29c9191cc2e80d38",
+        "italian": "La sola sporgenza posteriore non rende sempre eccezionale il trasporto: una trave indivisibile può sporgere entro i limiti previsti, senza superare la sagoma limite del veicolo.",
+        "italian_sha256": "66900e10509149fac3e94be9f791f5afad78ca2e54a68b2c13ffdd82d4c2cca1"
+      },
+      {
+        "source": {
+          "number": 34517,
+          "quesito_id": 7246,
+          "text_it": "Per trasportare animali vivi è sempre obbligatoria una documentazione che specifichi origine degli animali e caratteristiche del viaggio",
+          "answer": 1,
+          "page": 115,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8817e00e72e523f7319bff53e02ba8e448df1d72a09ced8fa5428b9768dbe9e7",
+        "italian": "Nel trasporto soggetto al regolamento europeo, la documentazione a bordo indica fra l'altro origine, destinazione e durata prevista del viaggio. Il termine «sempre» è però troppo ampio: il regolamento esclude, per esempio, i trasporti estranei a un'attività economica.",
+        "italian_sha256": "7294306d205b7d72022f3b77a53a134860393c5645fe95436b3885429ccebbca"
+      },
+      {
+        "source": {
+          "number": 34518,
+          "quesito_id": 7246,
+          "text_it": "La normativa internazionale ADR si applica solamente al trasporto marittimo di merci",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0ce3bfd7d4afb990483bcd357b49d38d20cc335294b5786bfb976638ad7551c4",
+        "italian": "L'ADR non riguarda solamente il trasporto marittimo: è l'accordo sul trasporto internazionale di merci pericolose su strada.",
+        "italian_sha256": "b6ae6d3b17312ffb634673599e452f49ef24972b520f2d2fdf3812181dfd3e5c"
+      },
+      {
+        "source": {
+          "number": 34519,
+          "quesito_id": 7247,
+          "text_it": "Per trasportare rifiuti è necessario che l'impresa sia iscritta all'Albo nazionale gestori ambientali",
+          "answer": 1,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2199387321f61438ee5b16b1ab966cca91f3aaa4eac1bd4e134cf1000297e545",
+        "italian": "Le imprese che trasportano rifiuti sono normalmente tenute all'iscrizione all'Albo nazionale gestori ambientali nella categoria pertinente. Esistono però eccezioni specifiche, ad esempio per alcuni trasporti dei propri rifiuti da parte di imprenditori agricoli.",
+        "italian_sha256": "0df143cbe62f92dc6fcaf47871ffad3c7f73709bb7b5b3bf6649a90f1c7874c6"
+      },
+      {
+        "source": {
+          "number": 34520,
+          "quesito_id": 7247,
+          "text_it": "Per trasportare rifiuti è sufficiente che l'impresa sia iscritta all'Albo nazionale degli autotrasportatori",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d2ca17fc1ff146926d66366ba440a00eef387b54462511df145c052bd834dfb1",
+        "italian": "L'iscrizione all'Albo degli autotrasportatori non basta: per l'attività di trasporto di rifiuti è normalmente richiesta anche quella all'Albo nazionale gestori ambientali, salvo le eccezioni previste.",
+        "italian_sha256": "4f166559051005c30f925648ac9ecd2594bd264c866f3899b8ed2b47a17610f1"
+      },
+      {
+        "source": {
+          "number": 34521,
+          "quesito_id": 7247,
+          "text_it": "Rientrano nelle disposizioni di trasporto in regime ATP i prodotti di scarto delle industrie metallurgiche",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a957e28b1d0599efa004dec40b5ab5b4c3232784dbe8a19c754228335d68afe2",
+        "italian": "Gli scarti metallurgici non rientrano nell'ATP in quanto tali: l'accordo riguarda il trasporto di determinate derrate alimentari deperibili e i mezzi speciali impiegati.",
+        "italian_sha256": "ac657fbf1e658baaf9564e43b41b5c21258959a9632be622a3a6c8a26afbd6b1"
+      },
+      {
+        "source": {
+          "number": 34522,
+          "quesito_id": 7247,
+          "text_it": "Rientrano nelle disposizioni di trasporto in regime ATP le merci pericolose",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e7afdb5d9b758ef106567c827f8a6fea2011210d9fc0c53a0d07f0e9b03ff5a4",
+        "italian": "Le merci pericolose non rientrano nell'ATP per la loro pericolosità: l'ATP riguarda determinate derrate alimentari deperibili e i relativi mezzi speciali.",
+        "italian_sha256": "7caf3b38d8dec866e38755028ed594538c53718f3a9ce572139b73ff08c0c94c"
+      },
+      {
+        "source": {
+          "number": 34523,
+          "quesito_id": 7247,
+          "text_it": "Per trasportare prodotti alimentari, è obbligatorio utilizzare veicoli rispondenti alle norme ATP solo in caso di trasporti internazionali",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a444476dfe25f55fcd7f8c0b2024d5fa1321c1f2741602c36e0ba8840e66a35b",
+        "italian": "Non vale solo per i viaggi internazionali: in Italia le prescrizioni ATP si applicano anche a trasporti nazionali di determinate derrate, per esempio gli alimenti surgelati.",
+        "italian_sha256": "0213457baf09e6410b6ed9dbe43b05aaf8a1b33dc6568cc6eab2ca81e1a8e0b5"
+      },
+      {
+        "source": {
+          "number": 34524,
+          "quesito_id": 7247,
+          "text_it": "La sigla ATP si riferisce all'Accordo internazionale per il trasporto delle merci pericolose",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a86cdbcc98dcab8a324bef285fa9c1b31474ec05729de099c498fef7466f8b03",
+        "italian": "ATP non è l'accordo sulle merci pericolose: riguarda il trasporto di derrate alimentari deperibili e i mezzi speciali utilizzati.",
+        "italian_sha256": "199cc2c7cde7625476c1821822c7967ff165fb87e2050003540eaa4c573dfd53"
+      },
+      {
+        "source": {
+          "number": 34525,
+          "quesito_id": 7247,
+          "text_it": "La sigla ATP si riferisce a autorizzazione trasporto prodotti agricoli",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d34aee5c9a40d4d95a911222baa682870a79882b31186062bfb27a2d4d150140",
+        "italian": "ATP non significa autorizzazione al trasporto di prodotti agricoli: indica l'accordo relativo al trasporto di derrate deperibili e ai mezzi speciali da usare.",
+        "italian_sha256": "85e53b4ab5eec61aaeee0062b577678c4bbb5ccd90b575b2735ae9c009fbfc8a"
+      },
+      {
+        "source": {
+          "number": 34526,
+          "quesito_id": 7247,
+          "text_it": "La sigla ATP si riferisce a accordo internazionale per il trasporto di derrate deperibili",
+          "answer": 1,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "282ec98a86dd32f53ddad720d0a0fc5e556951aa84975e696cf3cc45a9df6b24",
+        "italian": "ATP indica l'accordo internazionale sul trasporto di derrate alimentari deperibili e sui mezzi speciali da utilizzare per tale trasporto.",
+        "italian_sha256": "36881471f4543839103fc6fdef96af990720f7a3346a40979f5b33d71f84f035"
+      },
+      {
+        "source": {
+          "number": 34527,
+          "quesito_id": 7247,
+          "text_it": "Per trasportare prodotti alimentari, è obbligatorio utilizzare veicoli rispondenti alle norme ATP solo nel caso di alcune derrate deperibili",
+          "answer": 1,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ae8081a8d88cf5991c8104ef841f47218d65f5baeab72457ddf83b0c20e88671",
+        "italian": "Le norme ATP riguardano determinate derrate deperibili e i mezzi speciali per trasportarle, non indistintamente tutti i prodotti alimentari.",
+        "italian_sha256": "7e4da065ad8c2a41c4c8e2a2ea2bee49f387934ac7021781154a06874f54806b"
+      },
+      {
+        "source": {
+          "number": 34528,
+          "quesito_id": 7247,
+          "text_it": "La modifica di una carrozzeria per trasporto di derrate deperibili in regime di temperatura controllata non comporta l'approvazione a seguito di visita e prova presso il competente UMC (ufficio motorizzazione civile)",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1e997c51bbfff87163bedca9359a6f3df335bb4569dd1bbe4a59e6e3d78b0456",
+        "italian": "Non è corretto escludere l'approvazione: una modifica della carrozzeria isotermica può richiedere visita e prova e aggiornamento della carta di circolazione. La procedura concreta dipende dalla modifica.",
+        "italian_sha256": "2d8d9842ddc042b8646645dfda0a18ab072b2303550917918b5aa1e8cd484472"
+      },
+      {
+        "source": {
+          "number": 34529,
+          "quesito_id": 7247,
+          "text_it": "L'installazione di una carrozzeria per trasporto di derrate deperibili in regime di temperatura controllata richiede specifica comunicazione al competente UMC (ufficio motorizzazione civile)",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f6fb7e390cb06eee58d3d0058180b208cc00ed29bb04057795ac5ca17b8f9338",
+        "italian": "Il quiz indica FALSO perché una semplice comunicazione non esaurisce le formalità: l'allestimento richiede le verifiche e l'approvazione applicabili. La frase è ambigua, perché non dice espressamente che la comunicazione sia sufficiente da sola.",
+        "italian_sha256": "5bb329b9eca706818acaa6e13f9e8f49ccab29361232c3d49dc5fb48e176f439"
+      },
+      {
+        "source": {
+          "number": 34530,
+          "quesito_id": 7247,
+          "text_it": "L'installazione di una carrozzeria per trasporto di derrate deperibili in regime di temperatura controllata non richiede alcuna formalità se il veicolo è già circolante",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1e79ebcd54b267dfce614d90601e81852f036988cdf3488d8e92e18b68fe0c15",
+        "italian": "Il fatto che il veicolo sia già circolante non elimina le formalità: l'allestimento della carrozzeria richiede le verifiche e l'aggiornamento dei documenti previsti.",
+        "italian_sha256": "0f807e96ab761aeacfc164ae917dee3c2c712b698957d2cb2a48d4901c6e48dc"
+      },
+      {
+        "source": {
+          "number": 34531,
+          "quesito_id": 7247,
+          "text_it": "Il trasporto di rifiuti speciali rientrano nelle disposizioni di trasporto in regime ATP (accordo internazionale trasporto derrate deperibili)",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7d3655ebb2818ed2114587f0d591f2ede03e8a0ccb985156d6ce06743419957b",
+        "italian": "I rifiuti speciali non sono soggetti all'ATP in quanto rifiuti: l'accordo riguarda determinate derrate alimentari deperibili e i mezzi speciali per il loro trasporto.",
+        "italian_sha256": "d223c59bce67b301b2872dd6022b4a0b7ed463feae5c5c09badab62c2f77c1ae"
+      }
+    ],
+    "task_sha256": "8a6e02982d4a0db87856fc5c95b3968a5a23c12d3ac2322d0f07bc56aea8409f"
+  },
+  "rows": [
+    {
+      "number": 34482,
+      "text": "使用篷杆支撑篷布的车辆也可以是篷布车：篷布用于保护货物。"
+    },
+    {
+      "number": 34483,
+      "text": "罐式车辆没有隔热层并不会使其成为敞篷车：敞篷车由其货台结构定义，而罐体用于容纳货物。"
+    },
+    {
+      "number": 34484,
+      "text": "篷布表明这是篷布车：它是装有覆盖物以保护货物的敞篷车。"
+    },
+    {
+      "number": 34485,
+      "text": "厢式车身可以关闭，因此属于封闭车辆，而不是敞篷车。"
+    },
+    {
+      "number": 34486,
+      "text": "仅有栏板并不能使车辆成为封闭车辆：封闭车辆具有可以关闭的车身。"
+    },
+    {
+      "number": 34487,
+      "text": "篷布用于保护篷布车的货物；封闭车辆则具有可以关闭的车身。"
+    },
+    {
+      "number": 34488,
+      "text": "篷杆和篷布表明车辆有篷布覆盖，但不足以将车身定义为封闭式。"
+    },
+    {
+      "number": 34489,
+      "text": "硬质侧壁和顶盖描述的是封闭式车身；篷布车则是装有篷布以保护货物的敞篷车。"
+    },
+    {
+      "number": 34490,
+      "text": "篷布车并非定义为经过防火处理的电池车辆：它是装有篷布以保护货物的敞篷车。"
+    },
+    {
+      "number": 34491,
+      "text": "罐体的隔热层不能用来定义篷布车；篷布车是装有篷布以保护货物的敞篷车。"
+    },
+    {
+      "number": 34492,
+      "text": "普通栏板货车以包装件运输苯时，行驶证上不要求有专门的 ADR 适运性标注。"
+    },
+    {
+      "number": 34493,
+      "text": "一般而言，行驶证上不要求有标注来证明车辆适合运输包装危险货物；但仍须遵守可能适用的具体规定。"
+    },
+    {
+      "number": 34494,
+      "text": "ATP 证书涉及运输易腐食品的设备，不能证明车辆符合包装危险货物运输的 ADR 适运要求。"
+    },
+    {
+      "number": 34495,
+      "text": "带粉红色斜条的 ADR 证书并非每次运输包装货物都需要：它适用于特定车辆类别，包括获准运输某些爆炸物的车辆。"
+    },
+    {
+      "number": 34496,
+      "text": "普通栏板货车以包装件运输苯时，行驶证上不需要专门的 ADR 适运性标注。"
+    },
+    {
+      "number": 34497,
+      "text": "普通栏板货车以包装件运输苯时，不要求该标注；仅因运输在国内进行，也不会产生这一要求。"
+    },
+    {
+      "number": 34498,
+      "text": "普通栏板货车以包装件运输苯时，行驶证上不规定须有专门的 ADR 适运性标注。"
+    },
+    {
+      "number": 34499,
+      "text": "题目给出的答案是 FALSO：“所有”一词没有考虑某些车辆适用的例外。受相关规定约束的 N2 和 N3 类机动车则需要限速器；仅凭日期不足以涵盖所有情况。"
+    },
+    {
+      "number": 34500,
+      "text": "并非所有运输包装货物的 ADR 运输单元都必须装有缓速器，且与质量无关：这一义务取决于车辆类别和特性。"
+    },
+    {
+      "number": 34501,
+      "text": "某些机动车，特别是受相关规定约束的 N2 和 N3 类车辆，即使运输包装货物，也须装有限速器。"
+    },
+    {
+      "number": 34502,
+      "text": "并非所有运输包装货物的 ADR 运输单元一律都要装有 ABS：相关义务取决于车辆的特性和注册情况。"
+    },
+    {
+      "number": 34503,
+      "text": "ABS 的规定因车辆类别、质量和首次注册日期而异，因此 ADR 运输的类型也有影响。"
+    },
+    {
+      "number": 34504,
+      "text": "受 ADR 规定约束的运输单元必须配备适当的灭火器；具体配备因车辆和可能适用的豁免而异。"
+    },
+    {
+      "number": 34505,
+      "text": "ADR 规定运输单元和车组人员须配备安全设备；具体配备及可能的豁免取决于运输情况。"
+    },
+    {
+      "number": 34506,
+      "text": "运输包装货物的 ADR 运输并非总是需要特殊电气设备：相关规定取决于车辆和运输类型。"
+    },
+    {
+      "number": 34507,
+      "text": "通常情况下，运输爆炸物和放射性物质以外的包装货物，不要求专门的 ADR 车辆适运证明。这并不免除运输中可能要求的其他文件。"
+    },
+    {
+      "number": 34508,
+      "text": "不可分割的梁向前伸出货车外廓时，构成特殊运输；须取得相应许可。"
+    },
+    {
+      "number": 34509,
+      "text": "单辆货车的普通长度限值，包括货物在内，为 12 米：超过该限值即构成特殊条件下的运输。"
+    },
+    {
+      "number": 34510,
+      "text": "当不可分割的梁使车辆超过道路交通法规规定的外廓限值，包括长度限值时，运输即处于特殊条件下。"
+    },
+    {
+      "number": 34511,
+      "text": "后部伸出 20% 本身并不会使运输成为特殊运输：关键在于是否超过整体外廓限值。对于不可分割的货物，还须遵守后部伸出的限值。"
+    },
+    {
+      "number": 34512,
+      "text": "后部伸出 10% 不足以认定为特殊运输：须检查车辆连同货物是否超过外廓限值。"
+    },
+    {
+      "number": 34513,
+      "text": "伸出长度达到车长的四分之一，并不会自动使运输成为特殊运输：须将总长度与外廓限值进行比较。"
+    },
+    {
+      "number": 34514,
+      "text": "运输不可分割的物品时，如果物品的尺寸使车辆超过道路交通法规的外廓限值，该运输即处于特殊条件下。"
+    },
+    {
+      "number": 34515,
+      "text": "11 米不是普通限值：单辆货车包括货物在内的长度限值为 12 米。因此，超过 11 米不足以使运输成为特殊运输。"
+    },
+    {
+      "number": 34516,
+      "text": "仅有后部伸出并不总会使运输成为特殊运输：不可分割的梁可以在规定限度内伸出，但不得超过车辆外廓限值。"
+    },
+    {
+      "number": 34517,
+      "text": "对于受欧洲法规约束的运输，随车文件须注明动物的来源、目的地和预计行程时长等信息。但“总是”一词过于宽泛：例如，该法规不适用于与经济活动无关的运输。"
+    },
+    {
+      "number": 34518,
+      "text": "ADR 并非仅涉及海上运输：它是关于国际道路危险货物运输的协定。"
+    },
+    {
+      "number": 34519,
+      "text": "运输废物的企业通常须在全国环境管理者名录的相关类别中登记。但也存在具体例外，例如农业经营者运输自身废物的某些情况。"
+    },
+    {
+      "number": 34520,
+      "text": "仅在公路运输经营者名录中登记并不足够：从事废物运输通常还须在全国环境管理者名录中登记，规定的例外情况除外。"
+    },
+    {
+      "number": 34521,
+      "text": "冶金废料本身不属于 ATP 范围：该协定涉及某些易腐食品的运输及所使用的专用运输设备。"
+    },
+    {
+      "number": 34522,
+      "text": "危险货物不会因其危险性而属于 ATP 范围：ATP 涉及某些易腐食品及相关专用运输设备。"
+    },
+    {
+      "number": 34523,
+      "text": "这并非只适用于国际运输：在意大利，ATP 的规定也适用于某些食品的国内运输，例如速冻食品。"
+    },
+    {
+      "number": 34524,
+      "text": "ATP 不是关于危险货物的协定：它涉及易腐食品的运输及所使用的专用运输设备。"
+    },
+    {
+      "number": 34525,
+      "text": "ATP 并非农产品运输许可的意思：它指关于易腐货物运输及应使用的专用运输设备的协定。"
+    },
+    {
+      "number": 34526,
+      "text": "ATP 指关于易腐食品运输及此类运输所用专用设备的国际协定。"
+    },
+    {
+      "number": 34527,
+      "text": "ATP 规则涉及某些易腐货物及运输这些货物的专用设备，并非不加区分地适用于所有食品。"
+    },
+    {
+      "number": 34528,
+      "text": "不能排除需要批准的可能：改装隔热车身可能需要检查、测试以及更新行驶证。具体程序取决于改装内容。"
+    },
+    {
+      "number": 34529,
+      "text": "题目给出的答案是 FALSO，因为仅提交一份通知不能完成所有手续：车辆改装还需要适用的检查和批准。这句话有歧义，因为它没有明确说仅凭通知就足够。"
+    },
+    {
+      "number": 34530,
+      "text": "车辆已经上路行驶，并不能免除相关手续：车身改装需要按规定进行检查并更新文件。"
+    },
+    {
+      "number": 34531,
+      "text": "特殊废物不会因其属于废物而受 ATP 约束：该协定涉及某些易腐食品及其运输所需的专用设备。"
+    }
+  ],
+  "output_sha256": "c7270380b3424c274b555623af4b1466218b0e948d05c71abe6e1b17f2600888"
+}

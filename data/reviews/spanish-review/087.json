@@ -1,0 +1,25 @@
+{
+  "batch": "087",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2760ac79f486e3ca0774aaa7336d8d8d41880123aab0a04d9e489c5e53d65493",
+  "source_sha256": "672141d5f07938569f1e59a166a04f5c0643d2f2013ea7e3b53ec2c836de008d",
+  "corrections": [
+    {
+      "id": "73f3d3a95d0a551f5816250dc0ebc9ea824dd2555ee7313bedd20aaadfe046c3",
+      "before": "El conductor de un automóvil debe considerar los riesgos que plantea en la vía la presencia de bicicletas, vehículos de poca masa caracterizados por bajas velocidades y posibles oscilaciones laterales",
+      "after": "El conductor de un automóvil debe considerar los riesgos que plantea en la vía la presencia de velocípedos, vehículos de poca masa caracterizados por bajas velocidades y posibles oscilaciones laterales",
+      "reason": "Velocipedi abarca más que bicicletas; se conserva la categoría completa y se aporta un ejemplo.; Removes the added gloss 'como bicicletas', which is not in the Italian"
+    }
+  ],
+  "reviewed_file_sha256": "ff8b14e094d3518c046c536bbc0dca64033db8be147a836c0002601bd008ed9e"
+}

@@ -1,0 +1,43 @@
+{
+  "batch": "013",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ddaefe34d8efd7a6e71732bfb4471ebeebf1af11c9d8c1e09d6670225ef0976c",
+  "source_sha256": "eb689817c81806b18319a0810dc42a436954596eb7ca6e50eb235282849cf8e2",
+  "corrections": [
+    {
+      "id": "126039027816a74ff6e9e0546cbf2367493a4503eb3eca3098be93573feaaa78",
+      "before": "En Italia, el transporte ocasional de pasajeros por carretera hacia países extracomunitarios se rige por acuerdos internacionales bilaterales y multilaterales",
+      "after": "En Italia, el transporte ocasional de pasajeros por carretera en países extracomunitarios se rige por acuerdos internacionales bilaterales y multilaterales",
+      "reason": "El original se refiere a servicios en países extracomunitarios, no específicamente hacia ellos."
+    },
+    {
+      "id": "1296235000b903b832b4b51011dd66a8a4383cf9e708e67c34b49bd918b5520d",
+      "before": "Según el CMR, la responsabilidad del transportista comienza cuando el vehículo inicia de hecho el transporte y termina cuando entra en el lugar de destino de la mercancía",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), la responsabilidad del transportista comienza cuando el vehículo inicia de hecho el transporte y termina cuando entra en el lugar de destino de la mercancía",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "12c1729c555eaf45fd08ee0470bac19a272f6856ee4880808e8bceaa8a94a43b",
+      "before": "La actuación anticipada sobre los mandos permite al conductor prever condiciones críticas",
+      "after": "La actuación anticipada sobre los mandos (conducción anticipada) permite al conductor prever condiciones críticas",
+      "reason": "Restituye el término conducción anticipada incluido en el original."
+    },
+    {
+      "id": "130a710eddfecfc506bfbc54d709733840bfffcf5a5481654163b240665b606f",
+      "before": "El ESP interviene cuando la unidad electrónica detecta una discrepancia entre la trayectoria elegida por el conductor y la trayectoria real del vehículo",
+      "after": "El ESP (programa electrónico de estabilidad) interviene cuando la unidad electrónica detecta una discrepancia entre la trayectoria elegida por el conductor y la trayectoria real del vehículo",
+      "reason": "Restituye el desarrollo de la sigla incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "3bdfbd0e6875f9c127242f2f390144107f3913f408bf0dbaab994700c6d7d985"
+}

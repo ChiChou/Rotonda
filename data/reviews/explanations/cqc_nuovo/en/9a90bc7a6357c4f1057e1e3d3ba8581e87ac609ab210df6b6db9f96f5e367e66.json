@@ -1,0 +1,704 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31174,
+          "quesito_id": 7008,
+          "text_it": "La guida automatica non può mai essere considerata un'evoluzione della guida assistita",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "58af20f3a53c6adae3976445a05809235cc57f6ef5a246f9668a98bfd08b5dcf",
+        "localized_text": "Automated driving can never be considered an evolution of assisted driving."
+      },
+      {
+        "source": {
+          "number": 31175,
+          "quesito_id": 7008,
+          "text_it": "Gli ADAS (sistemi avanzati di assistenza alla guida) intervengono sull'accelerazione del veicolo, sulla frenatura e sulla manovra di sterzata, in condizioni di pericolo imminente",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1567c271757ebe1d7fc2486954f9128142fb514f54c7ffb9906fdb3a72faad14",
+        "localized_text": "ADAS intervene in vehicle acceleration, braking and steering when danger is imminent."
+      },
+      {
+        "source": {
+          "number": 31176,
+          "quesito_id": 7008,
+          "text_it": "Gli ADAS (sistemi avanzati di assistenza alla guida) rappresentano il primo passo verso i veicoli a guida completamente autonoma",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "08454bcc9907779f9ba8eb0de90b5086cfa63087a58533b4d94e0a16afa05e00",
+        "localized_text": "ADAS represent the first step towards fully autonomous vehicles."
+      },
+      {
+        "source": {
+          "number": 31177,
+          "quesito_id": 7008,
+          "text_it": "Tra le funzioni principali degli ADAS (sistemi avanzati di assistenza alla guida) non vi rientra l'Intelligent Speed Assistance (ISA)",
+          "answer": 0,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8ac506fd61fc82da985c072734616a60eb1c3db1561d794cbd2bef8cccc68df1",
+        "localized_text": "Intelligent Speed Assistance (ISA) is not among the main functions of ADAS."
+      },
+      {
+        "source": {
+          "number": 31178,
+          "quesito_id": 7008,
+          "text_it": "Tra le funzioni principali degli ADAS (sistemi avanzati di assistenza alla guida) vi rientra Driver Alert Control",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "796d2812a3c24d6f2a39d40d0bff69b90b21fdcdbd659a309e0e781e89bb16f3",
+        "localized_text": "Driver Alert Control is among the main functions of ADAS."
+      },
+      {
+        "source": {
+          "number": 31179,
+          "quesito_id": 7008,
+          "text_it": "Gli elementi frenanti possono essere del tipo a tamburo o a disco",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5bd4b32d211ff6d4b5aecc211f8d01a04e5bd4057a7b2cea9a19f7ff7a010ac4",
+        "localized_text": "Braking elements can be drum or disc type."
+      },
+      {
+        "source": {
+          "number": 31180,
+          "quesito_id": 7008,
+          "text_it": "Il surriscaldamento delle ganasce ne aumenta il coefficiente di attrito",
+          "answer": 0,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ca908c34d066b9fba60d393236b23959cf098681bb94efa4a9a3c184afae57d2",
+        "localized_text": "Overheating brake shoes increases their coefficient of friction."
+      },
+      {
+        "source": {
+          "number": 31181,
+          "quesito_id": 7008,
+          "text_it": "Gli elementi frenanti dissipano l'energia cinetica del veicolo",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b61350744576f51ab0dcfaecfa176ef3385e73daafa8cb6decc42a54513a863e",
+        "localized_text": "Braking elements dissipate the vehicle's kinetic energy."
+      },
+      {
+        "source": {
+          "number": 31182,
+          "quesito_id": 7008,
+          "text_it": "Gli elementi frenanti producono una azione di attrito",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7f20a0fde8d86da93a4f5b25b6ce04fa52a09c225cf05ab046ba75f06f151436",
+        "localized_text": "Braking elements produce friction."
+      },
+      {
+        "source": {
+          "number": 31183,
+          "quesito_id": 7008,
+          "text_it": "Nel caso di foratura di un pneumatico, la situazione è da considerarsi di emergenza se il veicolo non ha ruote gemellate",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fd3026aff2c1d10e7d9f7769369ea01fc27078e58c1268ac79b3429af62a71bf",
+        "localized_text": "A tyre puncture is an emergency if the vehicle does not have twin wheels."
+      },
+      {
+        "source": {
+          "number": 31184,
+          "quesito_id": 7008,
+          "text_it": "I freni a tamburo hanno un sistema che spinge i ceppi contro il tamburo",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "de8a01c826c979335db386b86f2050aa92cd149d3fd6be8c052caccdb06481eb",
+        "localized_text": "Drum brakes have a system that pushes the shoes against the drum."
+      },
+      {
+        "source": {
+          "number": 31185,
+          "quesito_id": 7008,
+          "text_it": "I freni a tamburo sono dotati di ganasce e pinze",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b04c177cf461134a5859a71dd96777fcaee4baabb465219b7d708887d287bfa0",
+        "localized_text": "Drum brakes have shoes and calipers."
+      },
+      {
+        "source": {
+          "number": 31186,
+          "quesito_id": 7008,
+          "text_it": "I freni a tamburo sono identici ai freni a disco",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "70e8097cf5216a25fec0ce429671c39dbca4f71777c2d557b7960a880ad171ad",
+        "localized_text": "Drum brakes are identical to disc brakes."
+      },
+      {
+        "source": {
+          "number": 31187,
+          "quesito_id": 7008,
+          "text_it": "I freni a tamburo sono dotati di pinze e tamburi",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "15852264757ba5e9749ee108a3b4d5d523b205544f24ecbb9847f1cf57e06a31",
+        "localized_text": "Drum brakes have calipers and drums."
+      },
+      {
+        "source": {
+          "number": 31188,
+          "quesito_id": 7009,
+          "text_it": "I freni a tamburo comprendono ganasce e ferodi",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7e1b3cb7e039a3a88cf6c76a22515c74a34f43c8015629a6507e76f47e23eaac",
+        "localized_text": "Drum brakes include shoes and friction linings."
+      },
+      {
+        "source": {
+          "number": 31189,
+          "quesito_id": 7009,
+          "text_it": "I freni a tamburo sono costruttivamente incompatibili con veicoli pesanti",
+          "answer": 0,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6d5db117d2870ee03992763cc43c134ef5961b3593ca165e7a58c2f9129952db",
+        "localized_text": "Drum brakes are structurally incompatible with heavy vehicles."
+      },
+      {
+        "source": {
+          "number": 31190,
+          "quesito_id": 7009,
+          "text_it": "A parità di forza frenante, i freni a disco si surriscaldano meno di quelli a tamburo",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "268c6b4e09adb145859c65afdb4cb51ac77ea454ed6be8a87c5e1142f50442b3",
+        "localized_text": "For the same braking force, disc brakes overheat less than drum brakes."
+      },
+      {
+        "source": {
+          "number": 31191,
+          "quesito_id": 7009,
+          "text_it": "Nei freni a disco la ventilazione delle parti a strisciamento è assicurata da un compressore",
+          "answer": 0,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f54a3652a1855c1f08f6503077fd6df7eefd05a008df73764cfbb37eaa767624",
+        "localized_text": "In disc brakes, a compressor ventilates the friction surfaces."
+      },
+      {
+        "source": {
+          "number": 31192,
+          "quesito_id": 7009,
+          "text_it": "I freni a disco sono alternativi al freno motore",
+          "answer": 0,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "65bd9388460e2ab92e76bfd8356b5846a186eade7f8bb51944034384e293d6f7",
+        "localized_text": "Disc brakes are an alternative to engine braking."
+      },
+      {
+        "source": {
+          "number": 31193,
+          "quesito_id": 7009,
+          "text_it": "I freni a disco comprendono le pinze che agiscono sulle pasticche",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "25123d46b6b9e8fc907a9d255f933f0b6a9333b5dbdf141110513d89bcc33c6b",
+        "localized_text": "Disc brakes include calipers acting on the pads."
+      },
+      {
+        "source": {
+          "number": 31194,
+          "quesito_id": 7009,
+          "text_it": "I freni a disco non sono mai usati sui veicoli pesanti",
+          "answer": 0,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "067aa24aade7bb5a40f807f3a0d77230968230ba934af147c3a8b007b6815039",
+        "localized_text": "Disc brakes are never used on heavy vehicles."
+      },
+      {
+        "source": {
+          "number": 31195,
+          "quesito_id": 7009,
+          "text_it": "Le alte temperature dei freni ne migliorano le prestazioni",
+          "answer": 0,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6908148aedbebcb538f7e9a54a1488594b79b3fdf203cdb79dea383165c7e96a",
+        "localized_text": "High brake temperatures improve braking performance."
+      },
+      {
+        "source": {
+          "number": 31196,
+          "quesito_id": 7009,
+          "text_it": "Nei freni a disco autoventilato la ventilazione delle parti in strisciamento è maggiore rispetto al freno a tamburo",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "18499c53c05561a9a5789488518d4116877261a399556642db06d489ed0f3055",
+        "localized_text": "In ventilated disc brakes, friction surfaces receive more ventilation than in drum brakes."
+      },
+      {
+        "source": {
+          "number": 31197,
+          "quesito_id": 7009,
+          "text_it": "A parità di forza frenante, i freni a tamburo si surriscaldano meno di quelli a disco",
+          "answer": 0,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4ca95c178afe52abecc620e23716e8f900ebe4c531a35f1ba854d7d9c2618295",
+        "localized_text": "For the same braking force, drum brakes overheat less than disc brakes."
+      },
+      {
+        "source": {
+          "number": 31198,
+          "quesito_id": 7009,
+          "text_it": "Negli impianti idraulici, la forza frenante è amplificata dal servofreno",
+          "answer": 1,
+          "page": 4,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b90e9d861d3b62d37fa6e9bc0680caf5f2d28bff5993ccf9153927c65a8a89ac",
+        "localized_text": "In hydraulic systems, braking force is amplified by the brake booster."
+      }
+    ],
+    "task_sha256": "9a90bc7a6357c4f1057e1e3d3ba8581e87ac609ab210df6b6db9f96f5e367e66"
+  },
+  "rows": [
+    {
+      "number": 31174,
+      "text": "Automated driving extends automation beyond assistance: with assisted systems, the driver continues to monitor the driving task.",
+      "evidence": [
+        "https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies — Descrive assistenza a sterzo, accelerazione e frenata e livelli di automazione."
+      ]
+    },
+    {
+      "number": 31175,
+      "text": "Depending on the function, ADAS can adjust speed, brake or intervene in steering; some intervene to avoid or mitigate an imminent danger.",
+      "evidence": [
+        "https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies — Descrive assistenza a sterzo, accelerazione e frenata e livelli di automazione."
+      ]
+    },
+    {
+      "number": 31176,
+      "text": "ADAS automate individual assistance functions, while higher levels assign more of the driving task to the system.",
+      "evidence": [
+        "https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies — Descrive assistenza a sterzo, accelerazione e frenata e livelli di automazione."
+      ]
+    },
+    {
+      "number": 31177,
+      "text": "ISA is an assistance function: it informs or warns the driver about the speed limit and can help them comply with it.",
+      "evidence": [
+        "https://transport.ec.europa.eu/transport-themes/smart-mobility/road/application-areas/vehicle-safety-systems_en — Include ISA tra gli ADAS; https://road-safety.transport.ec.europa.eu/system/files/2021-07/isa_faqs_2013.pdf, domanda 1 — Descrive informazione, avviso e assistenza."
+      ]
+    },
+    {
+      "number": 31178,
+      "text": "Driver Alert Control is an aid that warns when driving becomes erratic, for example because of distraction or fatigue.",
+      "evidence": [
+        "https://www.volvocars.com/en-ae/support/car/v40/18w17/article/2e82f6fc0d1139c2c0a801e800329d4e/ — Descrive funzione e limiti di Driver Alert Control."
+      ]
+    },
+    {
+      "number": 31179,
+      "text": "Drum and disc brakes are two types of friction brake: they use different surfaces to slow the wheel.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31180,
+      "text": "Excessive heat can alter the friction material on the shoes, reducing friction and therefore braking effectiveness.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31181,
+      "text": "In friction braking, the energy of motion is converted mainly into heat.",
+      "evidence": [
+        "https://www.bremboparts.com/europe/en/support/car/maintenance/what-causes-brake-discs-to-overheat-and-how-to-avoid-it-335470 — L’attrito tra pastiglie e disco converte energia cinetica in calore."
+      ]
+    },
+    {
+      "number": 31182,
+      "text": "The braking surfaces rub together: friction opposes wheel rotation and slows the vehicle.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31183,
+      "text": "The quiz marks this FALSE, but the wording does not say that an emergency occurs only without dual wheels. A puncture can also be dangerous with duals: continuing with a flat tyre can overload its mate. Severity depends on pressure loss and driving conditions.",
+      "evidence": [
+        "Michelin North America, Truck Tire Warranty, p.10 (PDF p.12), https://www.michelinb2b.com/wps/b2bcontent/PDF/Michelin_Truck_Warranty.pdf: running an underinflated or flat dual severely overloads its mate and may cause failure. Technical mechanism, not Italian law; the printed conditional does not include “only,” so this source does not refute its literal wording."
+      ]
+    },
+    {
+      "number": 31184,
+      "text": "An actuator pushes the shoes against the inside of the drum; friction slows the wheel.",
+      "evidence": [
+        "https://www.oregon.gov/odot/dmv/pages/online_cdl_manual_2/section_5.aspx — Descrive la camma che spinge le ganasce contro il tamburo e l’attrito prodotto."
+      ]
+    },
+    {
+      "number": 31185,
+      "text": "A drum brake uses shoes against the drum; a caliper that presses pads is characteristic of a disc brake.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31186,
+      "text": "Both brakes use friction but have different structures: shoes against a drum or pads against a disc.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31187,
+      "text": "The drum works with shoes; the caliper is instead a disc-brake component that presses the pads.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31188,
+      "text": "The shoes carry friction lining, which is pressed against the drum.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31189,
+      "text": "Drum brakes are also used on heavy vehicles; there is no general design incompatibility.",
+      "evidence": [
+        "https://assets.publishing.service.gov.uk/media/68592b6ab328f1ba50f3cece/hgv-inspection-manual-from-1-july-2025.pdf, sezione 59 — La verifica dei veicoli pesanti comprende tamburi, ganasce, dischi, pinze e pastiglie."
+      ]
+    },
+    {
+      "number": 31190,
+      "text": "In general, a disc dissipates heat into the air more readily than a drum, helping it cool during braking.",
+      "evidence": [
+        "Bendix Commercial Vehicle Systems, Tech Tips, 21 June 2021, p.1, https://www.bendix.com/media/2021/bendix-tech-tips-extending-the-life-of-air-disc-brake-pads-and-rotors.pdf — manufacturer describes faster heat dissipation for air disc brakes than drum brakes; general comparison, not an absolute claim for every design."
+      ]
+    },
+    {
+      "number": 31191,
+      "text": "Disc cooling uses air around the disc and, in ventilated discs, internal channels; it does not require a compressor.",
+      "evidence": [
+        "Dexter, Hydraulic Disc Brakes, https://static.nhtsa.gov/odi/tsbs/2023/MC-10242554-0001.pdf: ventilated rotor dissipates braking heat; García-León et al. 2021 https://www.mdpi.com/2311-5521/6/4/160 studies airflow through ventilated disc geometries."
+      ]
+    },
+    {
+      "number": 31192,
+      "text": "Engine braking supplements the service brakes: slowing with the engine reduces the work demanded of disc brakes without replacing them.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31193,
+      "text": "The caliper presses the pads against the surfaces of the disc; friction slows the wheel.",
+      "evidence": [
+        "https://www.bremboparts.com/europe/en/support/car/maintenance/what-causes-brake-discs-to-overheat-and-how-to-avoid-it-335470 — Descrive attrito pastiglie-disco e azione della pinza."
+      ]
+    },
+    {
+      "number": 31194,
+      "text": "Heavy vehicles can also be fitted with disc brakes: their use is not limited to light vehicles.",
+      "evidence": [
+        "https://assets.publishing.service.gov.uk/media/68592b6ab328f1ba50f3cece/hgv-inspection-manual-from-1-july-2025.pdf, sezione 59 — La verifica dei veicoli pesanti comprende tamburi, ganasce, dischi, pinze e pastiglie."
+      ]
+    },
+    {
+      "number": 31195,
+      "text": "Excessive heat can cause fade: lining friction decreases and braking becomes less effective.",
+      "evidence": [
+        "https://dld.utah.gov/cdl-manual-section-5-air-brakes/ — Ganasce e pastiglie sfregano contro tamburi o dischi; il surriscaldamento riduce attrito e frenata; il freno motore limita l’uso dei freni."
+      ]
+    },
+    {
+      "number": 31196,
+      "text": "A ventilated disc has channels that promote airflow and heat dissipation; a drum is more enclosed.",
+      "evidence": [
+        "García-León et al. 2021, https://www.mdpi.com/2311-5521/6/4/160 — study of airflow and heat transfer in ventilated disc geometries.",
+        "Bendix Commercial Vehicle Systems, Tech Tips, 21 June 2021, p.1, https://www.bendix.com/media/2021/bendix-tech-tips-extending-the-life-of-air-disc-brake-pads-and-rotors.pdf — air disc design dissipates heat faster than drum brakes; manufacturer comparison, not a universal result for every design."
+      ]
+    },
+    {
+      "number": 31197,
+      "text": "Generally, it is the disc that dissipates heat more readily: the more enclosed drum tends to cool less effectively.",
+      "evidence": [
+        "Bendix Commercial Vehicle Systems, Tech Tips, 21 June 2021, p.1, https://www.bendix.com/media/2021/bendix-tech-tips-extending-the-life-of-air-disc-brake-pads-and-rotors.pdf — manufacturer describes faster heat dissipation for air disc brakes than drum brakes; general comparison, not an absolute claim for every design."
+      ]
+    },
+    {
+      "number": 31198,
+      "text": "The brake booster assists the driver by amplifying the force applied to the pedal, increasing the action on the braking circuit.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/braking-systems/vacuum-brake-booster/ — La differenza di pressione nel servofreno amplifica la forza sul pedale."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "9a90bc7a6357c4f1057e1e3d3ba8581e87ac609ab210df6b6db9f96f5e367e66",
+    "output_sha256": "141297a13fc8e5676e38eff59e31fd0c8c7f6fbd10869f7317dd12c72eb68891",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31174,
+      31175,
+      31176,
+      31177,
+      31178,
+      31179,
+      31180,
+      31181,
+      31182,
+      31183,
+      31184,
+      31185,
+      31186,
+      31187,
+      31188,
+      31189,
+      31190,
+      31191,
+      31192,
+      31193,
+      31194,
+      31195,
+      31196,
+      31197,
+      31198
+    ],
+    "issues": [],
+    "review_evidence": "Independently opened exact 2021 Bendix Tech Tips PDF p.1: air disc brakes dissipate heat faster than drum brakes; this is manufacturer comparative guidance, not proof every design does so. Previously claimed inspection of MC-10116343 was retracted by author and is not relied on. Inspected Michelin truck warranty PDF p.12 dual overload and Dexter p.27 ventilated rotor. The original Volvo 31178 link returned cache miss: separately inspected NHTSA report https://www.nhtsa.gov/sites/nhtsa.gov/files/811547b.pdf appendix Volvo Driver Alert Control, which supports the explanation. UK 2025 HGV PDF returned HTTP 410; Utah CDL section 5 describes both drum and air disc brakes for heavy vehicles and Bendix describes air discs for heavy vehicles. Checked source/verdict and all 25 localized rows; no figures.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb7a-54da-73e1-947f-abfcec9fc350",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "1453a5e0c6408b68c1cc538d3018a51e9141dda2f79214259c0cd881593de744",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb7a-54da-73e1-947f-abfcec9fc350",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31183,
+              "reason": "Il quesito afferma che una foratura è un’emergenza se il veicolo non ha ruote gemellate, ma il verdetto stampato è FALSO. La frase non dice esplicitamente che l’emergenza si verifica solo in assenza di gemellaggio: l’interpretazione esclusiva non è verificabile dal testo.",
+              "checked_sources": [
+                "PDF ufficiale CQC nuovo, pagina 4 (indice pagina 3), quesito 31183: formulazione condizionale e verdetto FALSO.",
+                "https://www.michelinb2b.com/wps/b2bcontent/PDF/Michelin_Truck_Warranty.pdf — Una gomma gemellata sgonfia sovraccarica l’altra e può causarne il cedimento; ciò dimostra il rischio anche con gemellaggio, ma non rende falsa la condizione espressa per veicoli senza gemellaggio.",
+                "https://www.nidirect.gov.uk/sites/default/files/publications/the-official-Highway-Code-for-Northern-Ireland-2020.PDF — I pneumatici run-flat possono consentire percorrenza limitata dopo foratura; la gravità dipende anche dal tipo e dalle condizioni del pneumatico."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "1453a5e0c6408b68c1cc538d3018a51e9141dda2f79214259c0cd881593de744",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "9a90bc7a6357c4f1057e1e3d3ba8581e87ac609ab210df6b6db9f96f5e367e66",
+        "output_sha256": "3217dd8f100d1d53c207b024f3692aa81d1b9e6c776558ee56f02cedbdb8ab5e",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31174,
+          31175,
+          31176,
+          31177,
+          31178,
+          31179,
+          31180,
+          31181,
+          31182,
+          31183,
+          31184,
+          31185,
+          31186,
+          31187,
+          31188,
+          31189,
+          31190,
+          31191,
+          31192,
+          31193,
+          31194,
+          31195,
+          31196,
+          31197,
+          31198
+        ],
+        "issues": [
+          {
+            "number": 31190,
+            "reason": "The cited Bendix MC-10116343-9999 air-disc checklist does not establish the claimed disc-versus-drum comparative cooling in the readable pages; root verified exact 56-page PDF locally, while pages 12–15 have corrupted extraction. Supply a directly inspected primary comparative source and exact location, or qualify the explanation to the evidence. Dexter and García-León support ventilated-disc airflow but do not alone establish the comparison."
+          },
+          {
+            "number": 31196,
+            "reason": "The cited Bendix MC-10116343-9999 air-disc checklist does not establish the claimed disc-versus-drum comparative cooling in the readable pages; root verified exact 56-page PDF locally, while pages 12–15 have corrupted extraction. Supply a directly inspected primary comparative source and exact location, or qualify the explanation to the evidence. Dexter and García-León support ventilated-disc airflow but do not alone establish the comparison."
+          },
+          {
+            "number": 31197,
+            "reason": "The cited Bendix MC-10116343-9999 air-disc checklist does not establish the claimed disc-versus-drum comparative cooling in the readable pages; root verified exact 56-page PDF locally, while pages 12–15 have corrupted extraction. Supply a directly inspected primary comparative source and exact location, or qualify the explanation to the evidence. Dexter and García-León support ventilated-disc airflow but do not alone establish the comparison."
+          }
+        ],
+        "review_evidence": "Checked all 25 source/verdict pairs and four languages; no figures. Michelin truck warranty PDF p12 supports dual mate overload and 31183 correctly discloses literal conditional limitation. Dexter manual PDF p27 and García-León support ventilated-disc heat/airflow. Bendix exact PDF independently inspected with coordinator, comparative cooling passage not located; some pages have character-offset extraction."
+      },
+      {
+        "task_sha256": "9a90bc7a6357c4f1057e1e3d3ba8581e87ac609ab210df6b6db9f96f5e367e66",
+        "output_sha256": "141297a13fc8e5676e38eff59e31fd0c8c7f6fbd10869f7317dd12c72eb68891",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "accepted",
+        "checked_numbers": [
+          31174,
+          31175,
+          31176,
+          31177,
+          31178,
+          31179,
+          31180,
+          31181,
+          31182,
+          31183,
+          31184,
+          31185,
+          31186,
+          31187,
+          31188,
+          31189,
+          31190,
+          31191,
+          31192,
+          31193,
+          31194,
+          31195,
+          31196,
+          31197,
+          31198
+        ],
+        "issues": [],
+        "review_evidence": "Independently opened exact 2021 Bendix Tech Tips PDF p.1: air disc brakes dissipate heat faster than drum brakes; this is manufacturer comparative guidance, not proof every design does so. Previously claimed inspection of MC-10116343 was retracted by author and is not relied on. Inspected Michelin truck warranty PDF p.12 dual overload and Dexter p.27 ventilated rotor. The original Volvo 31178 link returned cache miss: separately inspected NHTSA report https://www.nhtsa.gov/sites/nhtsa.gov/files/811547b.pdf appendix Volvo Driver Alert Control, which supports the explanation. UK 2025 HGV PDF returned HTTP 410; Utah CDL section 5 describes both drum and air disc brakes for heavy vehicles and Bendix describes air discs for heavy vehicles. Checked source/verdict and all 25 localized rows; no figures."
+      }
+    ]
+  }
+}

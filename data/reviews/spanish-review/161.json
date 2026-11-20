@@ -1,0 +1,37 @@
+{
+  "batch": "161",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "cf16d5f00474019a6b9adc076e95baef842850eadd34bfc0b4379b131b1cd4a9",
+  "source_sha256": "d0cc1f2c08265dd8eb06d8ad2085f67e677c6cbcb2d44d6a9e2cb2bf5877f9c3",
+  "corrections": [
+    {
+      "id": "d497ef4746ed5e94f8eb7e5ae062cc5b6d568591280be077322be8e17876b626",
+      "before": "El DUA no puede utilizarse para mercancías procedentes de terceros países",
+      "after": "El DAU no puede utilizarse para mercancías procedentes de terceros países",
+      "reason": "Keep the Italian code DAU instead of the Spanish acronym DUA"
+    },
+    {
+      "id": "d4d4fe9faabdd84cb7815558e48fc12983a2cd5fa76216cbe41994f76a55b0bc",
+      "before": "El conductor de un ciclomotor debe recordar que el silenciador puede calentarse y causar quemaduras graves",
+      "after": "El conductor de un ciclomotor debe recordar que el silenciador, al sobrecalentarse, puede causar quemaduras graves",
+      "reason": "Conserva la referencia al sobrecalentamiento del silenciador."
+    },
+    {
+      "id": "d55cdb8e61f73fc083102dd22e5a01747d539bcfcaaa53bde008c0ad8613a419",
+      "before": "En caso de accidente de tránsito con solo daños materiales hay que llamar a los Carabineros",
+      "after": "En caso de accidente de tránsito con solo daños materiales hay que llamar a los Carabinieri",
+      "reason": "Use the Italian police name Carabinieri, not another country's force"
+    }
+  ],
+  "reviewed_file_sha256": "5f37e8cfa4fdc74f9dff3c0c0b861d81db04cfe72b428ac78f7e89e6b09fe005"
+}

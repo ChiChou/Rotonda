@@ -1,0 +1,688 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31324,
+          "quesito_id": 7017,
+          "text_it": "L'ABS (dispositivo antibloccaggio del sistema frenante) è obbligatorio solo per i veicoli delle categorie M2, M3, N2, N3",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "692bd3b949fbfaf1b4c0787a65b355208bb9a0ef55d16b732f6f273fe2673672",
+        "localized_text": "只有M2、M3、N2和N3类车辆必须安装ABS防抱死制动系统。"
+      },
+      {
+        "source": {
+          "number": 31325,
+          "quesito_id": 7017,
+          "text_it": "Per arrestare un veicolo nello spazio minimo il conducente deve evitare il bloccaggio delle ruote",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "430e7928883926740b130276ac481c35c28a4c456e8563559e649269fe72f0ef",
+        "localized_text": "要在最短距离内停车，驾驶人必须避免车轮抱死。"
+      },
+      {
+        "source": {
+          "number": 31326,
+          "quesito_id": 7017,
+          "text_it": "Per ottenere una frenata graduale occorre agire ad intermittenza sul pedale del freno",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5584414ad61c3a61606333227cba420eebe1437eca2c1133b9be684ab0ebfe62",
+        "localized_text": "要实现平稳制动，必须间歇踩踏制动踏板。"
+      },
+      {
+        "source": {
+          "number": 31327,
+          "quesito_id": 7017,
+          "text_it": "Il rallentatore è comandato dal conducente",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "48d87f9ce40706962d4ed2c4075f2e4cd7df359d8d51c53e4eea8345043ac3f0",
+        "localized_text": "缓速器由驾驶人控制。"
+      },
+      {
+        "source": {
+          "number": 31328,
+          "quesito_id": 7017,
+          "text_it": "Il rallentatore è particolarmente efficiente alle velocità più basse possibili",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "257328d68ef0444bc05cb75281d86fa94a0fef8ce749f90b084252e12b4e7da8",
+        "localized_text": "缓速器在尽可能低的速度下特别有效。"
+      },
+      {
+        "source": {
+          "number": 31329,
+          "quesito_id": 7017,
+          "text_it": "Il rallentatore interviene automaticamente quando si supera la velocità di 80 km/h",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a7eddf3a90381554caf8dcef8e534758155b4a8fb80b2b08d4792e5ec57248e2",
+        "localized_text": "速度超过每小时80公里时，缓速器自动工作。"
+      },
+      {
+        "source": {
+          "number": 31330,
+          "quesito_id": 7017,
+          "text_it": "Il rallentatore è efficace in quanto agisce direttamente sul sistema di scarico del motore",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ed2f1a35ff11f6fd57622c579478c5624ec83235c62f117841bcd09a37eef01b",
+        "localized_text": "缓速器有效是因为它直接作用于发动机排气系统。"
+      },
+      {
+        "source": {
+          "number": 31331,
+          "quesito_id": 7017,
+          "text_it": "L'uso del solo rallentatore non garantisce un rapido arresto del veicolo",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "74bf5bc218143aa8da7a4ed2dfc3aa43c865860c1743338daac90d7c466b42c8",
+        "localized_text": "仅使用缓速器不能保证车辆迅速停下。"
+      },
+      {
+        "source": {
+          "number": 31332,
+          "quesito_id": 7018,
+          "text_it": "Il rallentatore è di tipo elettromagnetico o idraulico",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fb31acbe7a5aba4faf47228ea32e0f86346cb43e2790ca66d666838bed53cba3",
+        "localized_text": "缓速器可以是电磁式或液压式。"
+      },
+      {
+        "source": {
+          "number": 31333,
+          "quesito_id": 7018,
+          "text_it": "Il rallentatore è particolarmente efficiente alle velocità più alte",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "253e6877abe33007319ebcb2ae1ace35bd677e7e6848cf3a1d681eb96a94f680",
+        "localized_text": "缓速器在较高速度下特别有效。"
+      },
+      {
+        "source": {
+          "number": 31334,
+          "quesito_id": 7018,
+          "text_it": "L'uso del rallentatore annulla la mandata del gasolio",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "76ff21a704e575dfe7d8d0775a997c3e4cc0434a352e94797065d87bca117823",
+        "localized_text": "使用缓速器会切断柴油供给。"
+      },
+      {
+        "source": {
+          "number": 31335,
+          "quesito_id": 7018,
+          "text_it": "Un veicolo ha maggiore inerzia in salita che in discesa",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c362ae8c390811a6a01fcbf48811ff248a6d523afe584f1e330e1de4459c9c79",
+        "localized_text": "车辆上坡时的惯性比下坡时大。"
+      },
+      {
+        "source": {
+          "number": 31336,
+          "quesito_id": 7018,
+          "text_it": "L'utilizzo di una marcia bassa consente di sfruttare meglio l'inerzia del veicolo",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "65109a83539d4cd5c1c2999dc3bad73d94f1bb3e254aa1b5193697c267cf2ecd",
+        "localized_text": "使用低挡可以更好地利用车辆惯性。"
+      },
+      {
+        "source": {
+          "number": 31337,
+          "quesito_id": 7018,
+          "text_it": "Un veicolo a pieno carico ha minor inerzia dello stesso veicolo scarico",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2b895f18ae5779dc6070d378d2309ad6ec897d3fc628eb27e69c1969e161824d",
+        "localized_text": "满载车辆的惯性小于同一车辆空载时的惯性。"
+      },
+      {
+        "source": {
+          "number": 31338,
+          "quesito_id": 7018,
+          "text_it": "Lo sfruttamento dell'inerzia del motore e della trasmissione consente di risparmiare carburante e freni",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "18734f9aea4700b0466b2cf419c715e9d43babb427c6521981e46f727537fa72",
+        "localized_text": "利用发动机和传动系统惯性可以节省燃油并减少制动器磨损。"
+      },
+      {
+        "source": {
+          "number": 31339,
+          "quesito_id": 7018,
+          "text_it": "La maggiore inerzia del veicolo consente di arrestare il veicolo in uno spazio più breve",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "530d88e9e21bf461186a46bf4e3758580869bc2bd01aac49dcfa210ac3f17e33",
+        "localized_text": "车辆惯性越大，停车距离越短。"
+      },
+      {
+        "source": {
+          "number": 31340,
+          "quesito_id": 7018,
+          "text_it": "L'inerzia del veicolo può essere utilmente sfruttata per raggiungere il punto d'arresto",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c91b068fc41535a63b8a490299b8f1e4104e368ae605884615f5fee2038f6b58",
+        "localized_text": "可以有效利用车辆惯性驶至停车地点。"
+      },
+      {
+        "source": {
+          "number": 31341,
+          "quesito_id": 7018,
+          "text_it": "L'inerzia è la forza che si oppone alla variazione del moto del veicolo",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5c07fcd894ae30c9251688baa23607a538f4128efab8c65cec1a4fa732cc7eb1",
+        "localized_text": "惯性是阻碍车辆运动状态改变的力。"
+      },
+      {
+        "source": {
+          "number": 31342,
+          "quesito_id": 7018,
+          "text_it": "Il distributore duplex non è in grado di funzionare se il veicolo è sovraccarico",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "46faa0e85571135acd472f942974a71416e555f6f23fe532a52b44f15dee1eb0",
+        "localized_text": "车辆超载时双回路分配阀无法工作。"
+      },
+      {
+        "source": {
+          "number": 31343,
+          "quesito_id": 7018,
+          "text_it": "In presenza di un'avaria di uno dei due circuiti dell'impianto frenante, si può continuare a circolare purché l'altro circuito sia efficiente",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9784daff85bc65ea20d11b36eed500635087d1396a5f46b1c39dd997fe5c72c9",
+        "localized_text": "两个制动回路之一故障时，只要另一回路正常就可以继续行驶。"
+      },
+      {
+        "source": {
+          "number": 31344,
+          "quesito_id": 7018,
+          "text_it": "L'improvvisa caduta di pressione dell'aria di un serbatoio dei freni, può essere causata dalla rottura della tubazione tra il serbatoio e il distributore duplex",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1bd5bce876aa2353fe376875f1dbe048197b2c1e2a1713761e6a931cfe153799",
+        "localized_text": "制动储气筒气压突然下降可能由储气筒与双回路分配阀之间的管路破裂引起。"
+      },
+      {
+        "source": {
+          "number": 31345,
+          "quesito_id": 7018,
+          "text_it": "L'indicazione di un eccesso di pressione dell'aria nei serbatoi dell'impianto frenante può essere causata dal cattivo funzionamento del gruppo di regolazione e controllo e/o di una valvola",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7ca1236667b298653541297bf17ff6361bffd81381cc4627536d9269d6b7d556",
+        "localized_text": "制动系统储气筒显示气压过高可能由调节控制装置和／或阀门故障引起。"
+      },
+      {
+        "source": {
+          "number": 31346,
+          "quesito_id": 7018,
+          "text_it": "La scarsa pressione dell'aria nei serbatoi dell'impianto frenante può essere causata dal difettoso funzionamento del compressore",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2d6f2cca13337388cf01ca6e8d614b0655d6b7189148845ea6c09b1cb6b635fb",
+        "localized_text": "制动系统储气筒气压低可能由压缩机故障引起。"
+      },
+      {
+        "source": {
+          "number": 31347,
+          "quesito_id": 7018,
+          "text_it": "Prima di avviare il motore è necessario accertarsi che l'aria dell'impianto frenante abbia raggiunto una sufficiente pressione",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e91866c26f23e6f435e890f619f7e4843d0f3d8a2d2ba5291cc43b69d27292b8",
+        "localized_text": "启动发动机前，必须确认制动系统空气已达到足够压力。"
+      },
+      {
+        "source": {
+          "number": 31348,
+          "quesito_id": 7019,
+          "text_it": "La rottura della tubazione dell'aria compressa di una dei due circuiti dell'impianto frenante, non compromette l'efficienza dell'altra",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3cece6da78ef2ebd9a2227d28ff044478399895f07519cc69b977d454315f48b",
+        "localized_text": "两个制动回路之一的压缩空气管路破裂不会影响另一回路的效能。"
+      }
+    ],
+    "task_sha256": "26c5700ca97200a078494bc90835be97b11106b36d621da12351f2b18646c407"
+  },
+  "rows": [
+    {
+      "number": 31324,
+      "text": "该义务不限于所列类别：M1类车辆也有ABS型式批准要求。具体义务取决于车辆类型和适用规定。",
+      "evidence": [
+        "Regolamento (UE) 2019/2144, testo consolidato 7 gennaio 2026, appendice 2 parte I voce 58, https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=consolidation%3A2019R2144%2F20260107_0050010: prescrive ABS elettronico su tutte le ruote per la categoria M1 nella disposizione indicata."
+      ]
+    },
+    {
+      "number": 31325,
+      "text": "避免车轮抱死有助于保持转向控制，通常也能缩短停车距离。路面条件很重要：在一些松散碎石路面的 ABS 试验中，停车距离反而增加。",
+      "evidence": [
+        "NHTSA/Forkenbrock et al. (1999), https://www.nhtsa.gov/sites/nhtsa.gov/files/sae1999-01-1287.pdf, abstract and pp.6–7: tests of nine light passenger vehicles found shorter ABS stopping distances on most tested surfaces, but longer distances on loose gravel; stability generally improved. Not a universal result for every truck or surface."
+      ]
+    },
+    {
+      "number": 31326,
+      "text": "要平稳减速，应逐渐调节踏板压力；反复踩下和松开踏板并不能使制动变得平稳。",
+      "evidence": [
+        "UK Highway Code, regola 117, https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158: frenata leggera iniziale, aumento della pressione e rilascio graduale prima dell'arresto."
+      ]
+    },
+    {
+      "number": 31327,
+      "text": "驾驶人可根据车辆配置，通过操纵杆或踏板等方式控制缓速器。",
+      "evidence": [
+        "Telma, Retarders Accessories, https://www.telma.com/produits/accessoires: leva di comando diretto e attivazione progressiva tramite pedale."
+      ]
+    },
+    {
+      "number": 31328,
+      "text": "不能认为缓速器在尽可能低的速度下效果最好：其效能随类型和速度而变化，车辆停下时便不再产生缓速作用。",
+      "evidence": [
+        "Karsan Atak Euro 6 manual (2018), p.76/PDF78, https://www.karsan.com/download/files/karsan_versionii_atak_e6_um_en_070918_3167411681.pdf: optional retarder cannot operate at low speed and service brakes are required to stop. Telma FAQ https://www.telma.com/produits/faq-ralentisseur describes low-speed effectiveness in its own configuration; no unverified numeric interval claimed."
+      ]
+    },
+    {
+      "number": 31329,
+      "text": "缓速器不存在统一的80公里／小时启动门槛：其控制方式取决于系统，例如通过操纵杆或制动踏板。",
+      "evidence": [
+        "Telma, Retarders Accessories, https://www.telma.com/produits/accessoires: descrive comando con leva e attivazione tramite pedale, senza soglia generale di 80 km/h."
+      ]
+    },
+    {
+      "number": 31330,
+      "text": "缓速器的作用并不依赖排气系统：例如液压缓速器可以作用于传动系统，电磁缓速器则利用电磁感应。",
+      "evidence": [
+        "ZF, Intarder for Truck Transmissions, https://www.zf.com/products/en/cv/products_76431.html: freno idrodinamico integrato nel cambio; Telma, Operating principle, https://www.telma.com/produits/fonctionnement: rallentatore a induzione."
+      ]
+    },
+    {
+      "number": 31331,
+      "text": "缓速器用于持续制动，辅助行车制动器；需要停车时，单靠它不能保证迅速停下。",
+      "evidence": [
+        "Telma, FAQ, https://www.telma.com/produits/faq-ralentisseur: funzione di frenatura di durata e riduzione del carico sui freni; ZF, Intarder, https://www.zf.com/products/en/cv/products_76431.html: alleggerisce i freni di servizio."
+      ]
+    },
+    {
+      "number": 31332,
+      "text": "电磁缓速器利用电磁感应；液压缓速器利用液体产生阻力。",
+      "evidence": [
+        "Telma, Operating principle, https://www.telma.com/produits/fonctionnement: rallentatore elettromagnetico a induzione; ZF, Intarder, https://www.zf.com/products/en/cv/products_76431.html: freno idrodinamico."
+      ]
+    },
+    {
+      "number": 31333,
+      "text": "题库标为正确。有些配置的缓速器在低速时不工作，停车需要行车制动；但效果取决于类型和转速，其他型号在低速下也能工作。",
+      "evidence": [
+        "Karsan Atak Euro 6 operator manual (2018), p.76/PDF78, https://www.karsan.com/download/files/karsan_versionii_atak_e6_um_en_070918_3167411681.pdf (directly inspected local /tmp/rotonda-karsan-atak-2018.txt, PDF page 78): optional retarder cannot be used at low speed and service brake is required to stop.",
+        "Telma manufacturer FAQ https://www.telma.com/produits/faq-ralentisseur: Telma electromagnetic retarder has effective low-speed operation; type and configuration differ. Neither source establishes universally maximum effect at the highest speed."
+      ]
+    },
+    {
+      "number": 31334,
+      "text": "使用缓速器并不一定切断柴油供给：它是辅助制动装置，与发动机燃油供给控制不同。",
+      "evidence": [
+        "Telma, Safety, https://www.telma.com/produits/avantage-securite: il rallentatore elettromagnetico resta efficace anche a motore fermo; ZF, Intarder, https://www.zf.com/products/en/cv/products_76431.html: freno idrodinamico nella trasmissione."
+      ]
+    },
+    {
+      "number": 31335,
+      "text": "惯性取决于质量，与道路上坡还是下坡无关。坡度改变的是重力对运动的影响。",
+      "evidence": [
+        "OpenStax, Physics, §4.2, https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia: inerzia proporzionale alla massa; Newton's first law descrive il ruolo delle forze esterne."
+      ]
+    },
+    {
+      "number": 31336,
+      "text": "低挡会增强发动机制动，使车辆减速；要利用已有的运动，应选择合适的挡位，避免发动机吃力。",
+      "evidence": [
+        "Regolamento (UE) 134/2014 allegato VI punto 2.7.3.4, https://www.legislation.gov.uk/eur/2014/134/pdfs/eur_20140134_2018-03-20_en.pdf: scalare aumenta il freno motore; nidirect, Eco safe driving, https://www.nidirect.gov.uk/articles/eco-safe-driving-cars-lorries-and-buses: sfruttare il moto e usare la marcia più alta possibile senza affaticare il motore quando le condizioni lo consentono."
+      ]
+    },
+    {
+      "number": 31337,
+      "text": "满载时车辆质量更大，惯性也更大：要产生相同的运动变化需要更大的力。",
+      "evidence": [
+        "OpenStax, Physics, §4.2, https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia: inerzia proporzionale alla massa."
+      ]
+    },
+    {
+      "number": 31338,
+      "text": "题库标为正确。更准确地说，挂入合适挡位后，是整车已有的运动通过传动系统带动发动机；在现代车辆上松开加速踏板后，供油通常会中断，直到发动机转速降得较低。这样减速也能减少使用制动器。",
+      "evidence": [
+        "DVSA, Slow down using momentum, https://movingon.blog.gov.uk/2019/09/17/6-tips-to-improve-your-vehicles-fuel-efficiency/: suitable gear engaged, vehicle momentum drives engine, fuel supply usually cut until low engine speed; this describes whole-vehicle momentum and conditional operation, not engine rotational inertia alone."
+      ]
+    },
+    {
+      "number": 31339,
+      "text": "更大的惯性本身不会缩短停车距离：它意味着改变运动状态的阻力更大。停车距离还取决于制动力和附着力。",
+      "evidence": [
+        "OpenStax, Physics §4.2, https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia: maggiore massa comporta maggiore inerzia; University of Illinois, Accelerating and braking, https://mechref.engr.illinois.edu/dyn/ava.html: la forza frenante disponibile dipende anche dall’aderenza."
+      ]
+    },
+    {
+      "number": 31340,
+      "text": "提前预判停车时，可以松开加速踏板，利用车辆已有的运动继续前进，并在需要时制动。",
+      "evidence": [
+        "US Department of Energy, Efficient Driving, https://afdc.energy.gov/conserve/driving-behavior: anticipare il semaforo lasciando avanzare il veicolo riduce fermate inutili; UK Highway Code regole 117 e 122, https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158: frenata progressiva e limiti della marcia in folle."
+      ]
+    },
+    {
+      "number": 31341,
+      "text": "题库标为正确，其中“力”是日常说法。在物理学中，惯性是物体抵抗速度或方向变化的性质，并不是额外的制动力。",
+      "evidence": [
+        "OpenStax Physics §4.2 https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia: inertia is a property resisting changes in motion, not itself an applied force in an inertial frame."
+      ]
+    },
+    {
+      "number": 31342,
+      "text": "双回路分配阀控制两个制动回路；超载不会自动使其无法工作，但会损害车辆安全性和性能。",
+      "evidence": [
+        "UK Ministry of Defence, Bedford MJR2, Air Pressure and Braking System §§1–3, https://assets.publishing.service.gov.uk/media/63d27101d3bf7f3c3e1c08e1/FOI2022-11621.pdf: valvola a doppio comando e circuiti alimentati separatamente; funzionamento descritto mediante pressione e pedale."
+      ]
+    },
+    {
+      "number": 31343,
+      "text": "剩余回路可提供应急制动，但不能因此继续正常行驶。应安全停车并修复制动故障。",
+      "evidence": [
+        "Transport for London, Bus Safety Standard: Runaway Bus Prevention, https://content.tfl.gov.uk/bus-safety-standard-runaway-bus-prevention.pdf: il secondo circuito permette la frenatura secondaria; direttiva 2014/45/UE allegato I punto 1.1.3, https://www.legislation.gov.uk/eudr/2014/45/pdfs/eudr_20140045_adopted_en.pdf: difetti di pressione e protezione dei circuiti sono carenze alla revisione."
+      ]
+    },
+    {
+      "number": 31344,
+      "text": "储气筒供气的管路破裂可能导致空气泄漏，使受影响回路的显示压力迅速下降。",
+      "evidence": [
+        "Direttiva 2014/45/UE, allegato I punto 1.1.3, https://www.legislation.gov.uk/eudr/2014/45/pdfs/eudr_20140045_adopted_en.pdf: una perdita d'aria può causare una caduta di pressione; UK Ministry of Defence, Bedford MJR2, Air Pressure and Braking System, https://assets.publishing.service.gov.uk/media/63d27101d3bf7f3c3e1c08e1/FOI2022-11621.pdf: il serbatoio alimenta la valvola di frenatura."
+      ]
+    },
+    {
+      "number": 31345,
+      "text": "调节器控制空气压力；如果控制装置或保护阀故障，压力可能超过规定值。",
+      "evidence": [
+        "UK Ministry of Defence, Bedford MJR2, Air Pressure and Braking System §3, https://assets.publishing.service.gov.uk/media/63d27101d3bf7f3c3e1c08e1/FOI2022-11621.pdf: regolatore comanda il compressore; direttiva 2014/45/UE allegato I punto 1.1.3, https://www.legislation.gov.uk/eudr/2014/45/pdfs/eudr_20140045_adopted_en.pdf: controllo della valvola limitatrice di pressione.",
+        "WABCO C-APU testing instruction §4.4.1, https://www.wabco-customercentre.com/catalog/docs/9325019513.pdf: pressure limiting function of an integrated multicircuit protection valve is tested and adjusted independently of governor cutout (§4.4.2). A maladjusted limiter may allow pressure above its intended circuit setting; configuration-specific inference."
+      ]
+    },
+    {
+      "number": 31346,
+      "text": "压缩机向储气筒供气；若发生故障，可能无法使系统恢复足够压力。",
+      "evidence": [
+        "Transport for London, Bus Safety Standard: Runaway Bus Prevention, https://content.tfl.gov.uk/bus-safety-standard-runaway-bus-prevention.pdf: il compressore riempie i serbatoi; direttiva 2014/45/UE allegato I punto 1.1.3, https://www.legislation.gov.uk/eudr/2014/45/pdfs/eudr_20140045_adopted_en.pdf: verifica del tempo necessario a raggiungere la pressione sicura."
+      ]
+    },
+    {
+      "number": 31347,
+      "text": "应在起步前确认压力足够，而不一定要在启动发动机之前确认：压缩机可能需要发动机运转才能给系统充气。",
+      "evidence": [
+        "UK Ministry of Defence, Truck Load Handling DROPS, istruzione 113, https://assets.publishing.service.gov.uk/media/5a80091ee5274a2e87db7779/DE_S_FOI2016_03001___Attachment-_Truck_Load_Handling_DROPS_15_Tonne_8x6_LHD_MMLC.pdf: avviare il motore per utilizzare l'impianto pneumatico; direttiva 2014/45/UE allegato I punto 1.1.3: controllo della pressione sicura."
+      ]
+    },
+    {
+      "number": 31348,
+      "text": "在分离的回路中，保护装置防止一个回路的泄漏耗尽另一个回路的空气，使后者保留辅助制动能力。故障仍须修复。",
+      "evidence": [
+        "Transport for London, Bus Safety Standard: Runaway Bus Prevention, https://content.tfl.gov.uk/bus-safety-standard-runaway-bus-prevention.pdf: separazione dei circuiti per mantenere frenatura secondaria in caso di guasto; UK Ministry of Defence, Bedford MJR2, Air Pressure and Braking System §2, https://assets.publishing.service.gov.uk/media/63d27101d3bf7f3c3e1c08e1/FOI2022-11621.pdf: valvola di protezione e isolamento dei circuiti."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "26c5700ca97200a078494bc90835be97b11106b36d621da12351f2b18646c407",
+    "output_sha256": "fe6a089ce8b766b691bfc3bffac709fb0269475b2908d452d1739746b0043742",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / retarder-inertia-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      31324,
+      31325,
+      31326,
+      31327,
+      31328,
+      31329,
+      31330,
+      31331,
+      31332,
+      31333,
+      31334,
+      31335,
+      31336,
+      31337,
+      31338,
+      31339,
+      31340,
+      31341,
+      31342,
+      31343,
+      31344,
+      31345,
+      31346,
+      31347,
+      31348
+    ],
+    "issues": [],
+    "source_access_notes": [
+      "Independently inspected NHTSA Forkenbrock ABS paper abstract (loose gravel longer in its tested vehicles), Telma retarder FAQ, UK DVSA fuel-efficiency advice, and WABCO C-APU pressure limiter reference; manufacturer retarder claims depend on configuration, no general optimum-speed claim. US and UK references are technical teaching, not Italian law.",
+      "Rechecked Chinese 31338: existing vehicle motion drives engine via transmission, preserving qualified fuel cutoff and reduced brake use."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb84-3cf4-7683-af9b-84c5939316b0",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ed695c63e7bce1de52610e017b0368279751322b12ab73e4dd4d2d7bc22b618f",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb84-3cf4-7683-af9b-84c5939316b0",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31325,
+              "reason": "Il VERO afferma senza condizioni che evitare il bloccaggio è necessario per lo spazio minimo; su ghiaia sciolta una ruota bloccata può arrestare in meno spazio. Non è specificata la superficie.",
+              "checked_sources": [
+                "NHTSA, LV ABS Performance Evaluation, https://www.nhtsa.gov/sites/nhtsa.gov/files/sae1999-01-1287.pdf: su ghiaia sciolta il materiale accumulato davanti alle ruote può aumentare la forza frenante rispetto alle ruote rotolanti.",
+                "UK Highway Code, regole 118 e 120, https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158: evitare il bloccaggio per il controllo; ABS non garantisce spazio più breve."
+              ]
+            },
+            {
+              "number": 31333,
+              "reason": "Il VERO attribuisce genericamente la maggiore efficacia alle velocità alte, ma il costruttore indica per un rallentatore elettromagnetico massima efficacia in un intervallo intermedio e particolare efficacia a bassa velocità; non sono specificati tipo e confronto.",
+              "checked_sources": [
+                "Telma, FAQ, https://www.telma.com/produits/faq-ralentisseur: efficacia particolare a bassa velocità e massima tra 20 e 50 km/h a freddo.",
+                "ZF, Intarder, https://www.zf.com/products/en/cv/products_76431.html: esempio di rallentatore idrodinamico senza affermare una regola universale di prestazione."
+              ]
+            },
+            {
+              "number": 31338,
+              "reason": "Il VERO attribuisce risparmi all’inerzia del motore e della trasmissione, ma la fonte di guida economica parla del moto del veicolo che trascina il motore, non dell’inerzia dei componenti rotanti. Non è chiaro se il quesito intenda il moto del veicolo o l’inerzia propria di motore e trasmissione.",
+              "checked_sources": [
+                "DVSA, 6 tips to improve your vehicle’s fuel efficiency, https://movingon.blog.gov.uk/2019/09/17/6-tips-to-improve-your-vehicles-fuel-efficiency/: descrive il moto del veicolo che trascina il motore a marcia inserita.",
+                "nidirect, Eco safe driving, https://www.nidirect.gov.uk/articles/eco-safe-driving-cars-lorries-and-buses: sfruttare il moto del veicolo e il freno motore riduce il consumo."
+              ]
+            },
+            {
+              "number": 31341,
+              "reason": "Il VERO definisce l’inerzia una forza, mentre la fonte fisica la definisce una proprietà o tendenza dei corpi; occorre decidere come trattare il conflitto letterale.",
+              "checked_sources": [
+                "OpenStax, Physics §4.2, https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia: l’inerzia è la tendenza a mantenere lo stato di moto, proporzionale alla massa; una forza esterna modifica il moto."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ed695c63e7bce1de52610e017b0368279751322b12ab73e4dd4d2d7bc22b618f",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "26c5700ca97200a078494bc90835be97b11106b36d621da12351f2b18646c407",
+        "output_sha256": "1551fd36790a15eda70aa8088eb6901d2824b0b4f157f3b120786440476ce32b",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / retarder-inertia-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31324,
+          31325,
+          31326,
+          31327,
+          31328,
+          31329,
+          31330,
+          31331,
+          31332,
+          31333,
+          31334,
+          31335,
+          31336,
+          31337,
+          31338,
+          31339,
+          31340,
+          31341,
+          31342,
+          31343,
+          31344,
+          31345,
+          31346,
+          31347,
+          31348
+        ],
+        "issues": [
+          {
+            "number": 31338,
+            "reason": "Chinese text says the vehicle inertia drives the engine, reinstating the imprecise inertia-as-driving-cause wording that the other languages correct. Use existing vehicle motion or momentum driving the engine via the transmission, preserving the conditional fuel-cutoff claim."
+          }
+        ],
+        "source_access_notes": [
+          "Independently inspected NHTSA Forkenbrock ABS paper abstract (loose gravel longer in its tested vehicles), Telma retarder FAQ, UK DVSA fuel-efficiency advice, and WABCO C-APU pressure limiter reference; manufacturer retarder claims depend on configuration, no general optimum-speed claim. US and UK references are technical teaching, not Italian law."
+        ]
+      }
+    ]
+  }
+}

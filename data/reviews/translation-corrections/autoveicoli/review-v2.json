@@ -1,0 +1,73 @@
+{
+  "status": "needs_changes",
+  "draft_sha256": "c580169843c90a61bfe707223906bb42d4b4391c55349512a2119b03d2b757d6",
+  "draft_sha256_method": "SHA256 UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "draft_file_sha256": "dfe333aeea427515f657c88a7a714ce4787b58947a7e48a615713f53e62fa0d0",
+  "author": "gpt-6.1-terra / collaboration /root/terra_author",
+  "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+  "checked_pairs": [
+    [
+      "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "en"
+    ],
+    [
+      "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "es-419"
+    ],
+    [
+      "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "zh-Hans"
+    ],
+    [
+      "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "en"
+    ],
+    [
+      "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "es-419"
+    ],
+    [
+      "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "zh-Hans"
+    ]
+  ],
+  "issues": [
+    {
+      "id": "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "language": "en",
+      "issue": "The exception is attached to the entire sign statement, which reads as saying the sign does not apply to the excluded vehicles, rather than merely identifying the category named in the Italian. The Italian makes no exclusion claim. For 25755 this falsely suggests that the sign permits excluded motor quadricycles, whereas DPR 495/1992 article 117(1)(g) explicitly includes them in this sign’s prohibition. The phrase “excluding motorcycle-class vehicles, including motor tricycles and motor quadricycles” is awkward and potentially suggests all motor quadricycles are excluded; Article 53 makes classification dependent on statutory limits."
+    },
+    {
+      "id": "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "language": "es-419",
+      "issue": "The exception is attached to the entire sign statement, which reads as saying the sign does not apply to the excluded vehicles, rather than merely identifying the category named in the Italian. The Italian makes no exclusion claim. For 25755 this falsely suggests that the sign permits excluded motor quadricycles, whereas DPR 495/1992 article 117(1)(g) explicitly includes them in this sign’s prohibition. The phrase “excepto ... incluidos los triciclos y cuadriciclos de motor” risks excluding every motor quadricycle although Article 53 makes classification dependent on statutory limits."
+    },
+    {
+      "id": "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "language": "zh-Hans",
+      "issue": "The exception is attached to the entire sign statement, which reads as saying the sign does not apply to the excluded vehicles, rather than merely identifying the category named in the Italian. The Italian makes no exclusion claim. For 25755 this falsely suggests that the sign permits excluded motor quadricycles, whereas DPR 495/1992 article 117(1)(g) explicitly includes them in this sign’s prohibition. “例如机动四轮车” lacks a clear legal qualifier, and can suggest all motor quadricycles are excluded although Article 53 makes classification dependent on statutory limits."
+    },
+    {
+      "id": "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "language": "en",
+      "issue": "The exception is attached to the assertion that the prohibition ends, introducing an exclusion claim absent from the Italian. The false assertion remains false, but its scope is altered. The phrase “excluding motorcycle-class vehicles, including motor tricycles and motor quadricycles” is awkward and potentially suggests all motor quadricycles are excluded; Article 53 makes classification dependent on statutory limits."
+    },
+    {
+      "id": "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "language": "es-419",
+      "issue": "The exception is attached to the assertion that the prohibition ends, introducing an exclusion claim absent from the Italian. The false assertion remains false, but its scope is altered. The phrase “excepto ... incluidos los triciclos y cuadriciclos de motor” risks excluding every motor quadricycle although Article 53 makes classification dependent on statutory limits."
+    },
+    {
+      "id": "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "language": "zh-Hans",
+      "issue": "The exception is attached to the assertion that the prohibition ends, introducing an exclusion claim absent from the Italian. The false assertion remains false, but its scope is altered. “例如机动四轮车” lacks a clear legal qualifier, and can suggest all motor quadricycles are excluded although Article 53 makes classification dependent on statutory limits."
+    }
+  ],
+  "assessment": "All translations retain all and preserve the asserted end of prohibition in 25777. However, the proposed exclusions add a claim about the sign’s actual scope, and the examples risk overgeneralizing the legal classification. All six require revision. A faithful rendering must distinguish the class named in the question from the full coverage of the sign, without asserting that other vehicle categories are permitted.",
+  "source_checks": [
+    "Original AM PDF pages 72 and 75 and original linked figures checked in initial review: 25755 VERO, no motorcars sign; 25777 FALSO, end of overtaking prohibition sign.",
+    "https://aci.gov.it/codice-della-strada/art-54/ article 54(1) defines autoveicoli as motor vehicles with at least four wheels excluding motoveicoli.",
+    "https://aci.gov.it/codice-della-strada/art-53/ article 53(1)(h) covers certain motor quadricycles within motoveicoli and states vehicles exceeding any specified limits are autoveicoli.",
+    "https://olympus.uniurb.it/index.php?option=com_content&view=article&id=15022:dpr49592 DPR 495/1992 article 117(1)(g) explicitly includes three-wheel motoveicoli and motor quadricycles under the sign II.58 prohibition."
+  ]
+}

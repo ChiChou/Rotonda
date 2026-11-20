@@ -1,0 +1,31 @@
+{
+  "batch": "069",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "64ba65db1c9557f7f71abca96e4c1b02310ed1a21a285713fcd4594c39275888",
+  "source_sha256": "b33858afe0236c2d8c116e1cb1d7f71cbfe3c62720c3c9e7d4ac1ec9b3005ba4",
+  "corrections": [
+    {
+      "id": "5b894ce4680a71052b13d95f0bb58fd53de78e00ad742aa969e602a12c9f2766",
+      "before": "La circulación por la vía comprende también el movimiento de peatones",
+      "after": "Por circulación en la vía se entiende también el movimiento de peatones",
+      "reason": "Italian is a definition (si intende); Spanish turned it into an inclusion statement"
+    },
+    {
+      "id": "5cd568d9a2d4af51f93165af52f4b99eb077dc772c2a1667aed59ed644161de3",
+      "before": "La licencia de conducir de categoría B, salvo otra limitación indicada en el propio documento o ajuste a la fecha de cumpleaños del titular, tiene validez de cinco años si se expide o renueva a una persona que no ha cumplido 50 años",
+      "after": "La licencia de conducir de categoría B, salvo otra limitación indicada en el propio documento o ajuste a la fecha de cumpleaños del titular, tiene validez de cinco años si se expide o renueva a una persona que no ha superado los 50 años",
+      "reason": "El original incluye a quienes tienen 50 años; la versión anterior los excluía."
+    }
+  ],
+  "reviewed_file_sha256": "61c072425fcf464a547f9a371f44e20e0fdc7984f1ae709ae74cd039b351b010"
+}

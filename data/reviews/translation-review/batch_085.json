@@ -1,0 +1,158 @@
+{
+  "batch": "085",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_late",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "5fe151f1589b7593573c949ef33c7f950b8cff82c5604bc9194a3e460c072a0c",
+  "rows": 100,
+  "verified_ids": [
+    "d5c37d9eca2233a1f89f8627c5ef3680e32a604a7076fc85281765b6164083cf",
+    "3a722ddee57b73ef006674e41d92abc0ec9b5192556d138699bb1fad4a5c69a2",
+    "7ccc657188f74db07c57a588f89ec3b27960787d9b2dfc4f8fda015fac19a965",
+    "599fd4441eaa952d33baf8981f20250b7ead43f900fd1f416f512dee58c6ece2",
+    "30967629bd6b99de12a17271a748d2c1aee216e71db7b1e15016ad1de4cc6311",
+    "65df1d312968e15293967a5346985c6638b4cb0ef0876aa278fb22dc17b3b417",
+    "c3589c30e7e133d26a03881454b8d15d6848e15a5a6b25d1f205bb74c941ec80",
+    "49c8e54696893811573c64e6a8eaa83a0deb00ab2be7d5a3dd6df2b69652fa93",
+    "8d494d1c9703a2316a64de3725263cee49f85c0584f07cb8c95ed155dfcba636",
+    "4418a743ade830fcb762e7cf3d3abc2169a94e06f6a25d0315f86c49fcb77353",
+    "b949ad463e0ba4fba127681d8c56572e96afd996b059cb82bc677b88c566c89a",
+    "18eef067705902508847123ce154c04dadec0167d560e2b5c1e30db96111c6f3",
+    "8226c7ffff53de48b9f1318807fafad80d502dad7360a99cf202eda5848fd4ec",
+    "2fa5c1986b16d367693ce85a8993f2fe8d8f4227b9d7ab33814a4a9b3e10969e",
+    "64c013e1c4a072f48df3cd41891fb40d7b04bb0b7e97631e95d88d44ea121102",
+    "2ca4da184cbf63bba46f3ffa88e48187c00b43a7a2f000a1056929ac1fc9ff9e",
+    "8746c6e18c7ccf099852efc4db02ec6bf4958f0603437b5448cf4fe05dd3b354",
+    "3402b3929b1dff33906b9ee60611830c726fa66e0e57e8cac0e3f366ed3a4bce",
+    "d7f1126803426b62d4738ec922ca9776a88cb75ced23c035efc001c2aeb04125",
+    "449c72e52568d25a60ed8fd55149534d190b621631ee09c86078b925afe3b2c7",
+    "062d654fe051a53cebed454e498ab3eac95738dec296a918019171cc51ee4681",
+    "997ca6dd860accff5e93ec4b5037a02d6ede69443e1d8617ac0cb96469a0e829",
+    "84e7048b91f573ec98f4fa8aba243a789330a9022c6b08e134833fae5420e529",
+    "d0d8e56a0088243103c71a14f0928f5f7373d64c0d06e9bd83263ab04640c9b0",
+    "e59a3e8362ab61e8a45aeadda8b73b15537a83b9b671e9083bda29c060003313",
+    "8dfbe3c67a0451ad0a24dd45759957c917f376386bcb9f2cbb36ad734a631423",
+    "f0b8c470974ad4a8bdbf49e37263c2367dc883754dbf032ab1f5bc71f9f3aeaf",
+    "512f96161ff0a2dffc93f3fbb66311217cab84407297098abbac66dc8341ef69",
+    "5dc027b39bd0b8e19483e39a5a8def116fef479afd050a474e7636cf91c25c09",
+    "d885c5b708cf50a75f40551448e4f1af359e3c4969b76af379654774a0ce4afc",
+    "dba2efd6b6dd2efbefc3b14220b7ffce04236dcd50ea2a49d00306254765c21d",
+    "eb45b9ea45884472290443e8c0ddd31f8dd339d1fdfccca4adf86a363e338b08",
+    "d17e85063cd88c3d07f5cd919ec4674a434cc0b08e95ba015f5e722750365d39",
+    "28f3965c22dd7394d5a9c72a69f612030f4a18d507422464dfa911f50bd960dd",
+    "5194e97924d937b3373cab2bcb56bdf04f2cf4ed5ed21f222fc3fb64e0cb0f7e",
+    "d68c787539f9220f22a34741c3ac2a9bedc79fc99f9d3153477bc5011a46e96e",
+    "c85bbba981b1474bd205ee028a152d3577184e5bef29cde930593ce8d13decd6",
+    "f4d898670e9635a58ccc62b95d63c1aacce745e12a38a52b284c9abaa98da7a7",
+    "6a5e5b176c08905bf9ac101beae4be186857ecf6b8c0582e21c0ff9a98dbb297",
+    "82ab70cee287bcd4506a26f853e561460d9cd7fa1630f2be62a4ffd453b0d94e",
+    "3f139d02bd28442a9132a236b5f652e9acdea18d2c4dc46c9851b53c27f7ae55",
+    "d6e887e72c0cb99402fa896c6d1a0944d1ae0ff9a144a7c18d26b660d5e8a181",
+    "b03136b64c9dd8a2efb87dd789dda2365f15ad2ef40ea6c3905fe46641843415",
+    "b7cc7e41e3d1aa6fcc835f0ad2d59a3ce501106af309a8797209066e0bd1e82b",
+    "c57c5089fd2e283d67a70846bd2df9dac746170446c57d393476d266971c0014",
+    "dd55d4e74c06320904d505f0d4dcc9eac6fd8485ab3b4cd7863154433d1b3ba3",
+    "b3942e9a86fd1ffe679d52d8c84f27268e6dcd6afd0373bfc73ac716bed04056",
+    "46ea381370ec11e7d0c50ca4c8dd7903a6000689c6bd47fe25af8d545b5754b1",
+    "dc6b856e429e5e75c7ef21067c07c0af8ab894cef9eac367da1d416e4f5dd23c",
+    "2191140f1963711950cde670f8bb9190ecf4beb9206b6b2aaaca2b2e60662765",
+    "9ec61e7dd1221af9cd2ccc4874a99d83037e12cdeaf76abde7594cdf7143a825",
+    "070983c9ca0c60a3d35919747abc72992d22f0ebdc152f9fff132cb274fb0dc4",
+    "e35d1e3ad235b77f0e79551b121f021b2222a51462bb01499d3d4df2386829d5",
+    "68dd9dbb5cfe1b9e545cd1ede3090190cdb0d31c0fc80e04bde19c0cf0b19fb1",
+    "cf50c1190a16acdea65459ee572de2f8116def5c7f7fc2d51445d3bcdfe0ec48",
+    "a3994055c334b3991f8edcf214bbbedfa20ff1a9ebc068830686879ff4385ff5",
+    "51bb978c98fde73b14dce91bc3d97bee930917f385d7aab7648e09cc0306386e",
+    "0dd0ee167d6fd9e02c3c1566b6ccb59cb69741edb8f7570e795ebab63cbb4fea",
+    "64c576d776761efb621cb400e20ed6889f60c85875b60fc73201649b06a61488",
+    "71f59bb8457368df13bb5b52ad26ed16b4dd0a605db8f079ac639f8970d6dc2c",
+    "d9386805651e2d71c457bb6d800824f06c8bd6488c488f4a7deb5a875e63b12a",
+    "dce1592a6db16ea8d26be8026a420e505f959bd8f706ef78289923c92f0d634b",
+    "8e791eebbae08ece2532f257319e1a9bf2ff6874d5cea51f1970329e4d376096",
+    "d879906d189c7642aa0fcaffd51f4c64a946153a8c5c402e09b31f8125b1abcb",
+    "e9abdf31de7cdde818831ac04ce1005c4f4b3618fd655b9c5c696e4cb8179088",
+    "67394ef2120ca0a9ed29998b02681ba70689aa07177431dceea04e3eee83bba4",
+    "53c4235dc688ee3952eadb5de825a4fc1d901a28c647b0f142c14a66bf59380e",
+    "251b740a1352000a3699b1d39ab05ca9126f0f6f196afcf21e5060fc6eaa3afa",
+    "5975b9f94189cb96836f9d4033ecff92da162c1775834d644f8e85a4edbc7aef",
+    "7c785c999413cf81b8765dc9c93b607c0910aec1342abea781d495e1fdadc9cd",
+    "215cbeb25b45a6d97f41a2bf5b6651caff6839ba7646942040fd50096c3a5b0d",
+    "f3b2c0c66715dacbbf3741b2d63d236d1b06d9860b51408e51716d90a751e76f",
+    "fbf7874a411795120171fbfd7f1c27c2dcc31809d40b140af748e41df7c7a61e",
+    "8de68cd1b922f93ce8729f0a7a4b9c50d78bdc4fec1d5c381c391df3f178e581",
+    "38f7241e305f049bd3ee27f68422b40f20de5472a83babff2b0ee829c0d26835",
+    "a524e8fbb0c7a0d77085ed67bce78cc3655ecc16ac384053c996d9a96cdca1a4",
+    "8f651c5e67aa6085481bd7414154f1257a7a2414d54dea9015f8345ed03655fb",
+    "dbb2432bf7d77d03ed431f8ccb5cf1f64d4f1a19e7511481da8fb538953bd91f",
+    "d49d1786325df9edef2b333c43f727ae6aee15ce394b5a14929ca56d51956c09",
+    "71eea2daedc192f52bb2d3ef2d183c89ad4321fe8ab48ec81e0f5c7cc8dd474a",
+    "3312bff47d10d1ef803a860775e1059085e1a4d55c492c0143067eae65da639d",
+    "6147f64effc09478f1cd331ae67427a0ea336e2a0befc1d9e97093da33d871e9",
+    "1ddd837f1bb6c200d3cc1b961fd23e1c4b3edd3ccfac363f72d50c5c109b0b2f",
+    "e182b939ddcea50c0efd30caf207dccb0daa648523db7cb3bab5f517beb773d6",
+    "493426721494f7387b86d91927443169f4eed3f9b0dcb5aaf5a7c20f56214d73",
+    "a8a6a248272128ca9f5af847b065c9915146de81091f99b5c39b6e778e512282",
+    "5923cdd96b657ff80e6864a8267c0dba16871253902eb04f1605ed719b9dc3ea",
+    "bc5aae14ed0640d65d6917d44529cec5f08be661e4e9e8efe58c2e57ca4c3527",
+    "54bb7c9fca16905585c463f1310e65905ecea5e2a43615980307f442fb10b367",
+    "d894e9aa9edc8aab6c7517dd12aacb7d5c2f6c3ce45f13a55e5b2f865fdd257b",
+    "ec43c11626fbdf664866e03622b9315926322875bfef1fc727f1c3abc1868c32",
+    "da9680a048773b5bab8b9f87beb98b0361831989782e231ee31395265b3c42e5",
+    "a759cd18dd1e6f6f9a21dfe64de98422511fd237abc9efa90915788aab7a96ad",
+    "dfe072f83b0f82f578fab43dfdc25ca74dc39c1f97a331be669be96413bee91a",
+    "161812e8659c18d0ed729bded1ddd72e599c9fdd16397ca1abdaa86f3ed55067",
+    "3dc8e9a2106bb0c391a50083941ed34bea9fc12e86cd111b78535390641edddb",
+    "299f4463510cb985f4e401b5b3def2225cc183bf2f1dad643334d11c7e2c0d41",
+    "a67f18ab1ec7b9ad94b0247fbcb70c8c420077b2b5e094fa4f7c8526e09f5220",
+    "8537632cf0607d4acfc2017b1bb3b74af9516e7ae274716793d99cba30096bb0",
+    "f9a1b507bb453a0db9c6a2bd6300a645d682a5fea3d1923c755dfc7855428659"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "65df1d312968e15293967a5346985c6638b4cb0ef0876aa278fb22dc17b3b417",
+      "reason": "'ecc.' was dropped from the English list; restored as 'and similar'.",
+      "changes": {
+        "en": {
+          "before": "Weather conditions such as rain, frost and fog can cause danger.",
+          "after": "Weather conditions such as rain, frost, fog and similar can cause danger."
+        }
+      }
+    },
+    {
+      "id": "c3589c30e7e133d26a03881454b8d15d6848e15a5a6b25d1f205bb74c941ec80",
+      "reason": "'dosso' is a speed hump (减速带), not 隆起路段.; 'dosso' is a speed hump, not a generic hump; 'ecc.' restored as 'and similar'.",
+      "changes": {
+        "en": {
+          "before": "A bend, a hump, an intersection and similar features can cause danger.",
+          "after": "A bend, a speed hump, an intersection and similar features can cause danger."
+        },
+        "zh": {
+          "before": "弯道、隆起路段、交叉路口等可能造成危险。",
+          "after": "弯道、减速带、交叉路口等可能造成危险。"
+        }
+      }
+    },
+    {
+      "id": "f0b8c470974ad4a8bdbf49e37263c2367dc883754dbf032ab1f5bc71f9f3aeaf",
+      "reason": "Acronym RCA dropped from the Chinese; technical codes must be kept as in the Italian.; Acronym RCA dropped from the English; technical codes must be kept as in the Italian.",
+      "changes": {
+        "en": {
+          "before": "Contractual liability does not arise for non-performance due to force majeure and is not covered by motor third-party liability insurance.",
+          "after": "Contractual liability does not arise for non-performance due to force majeure and is not covered by RCA (motor third-party liability) insurance."
+        },
+        "zh": {
+          "before": "因不可抗力导致的不履行不产生合同责任，且合同责任不属于机动车第三者责任保险的保障范围。",
+          "after": "因不可抗力导致的不履行不产生合同责任，且合同责任不属于RCA（机动车第三者责任保险）的保障范围。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "687a48532a38bc61769b125aee4af17aa427ecbff06117843b268e17c102fd8a"
+}

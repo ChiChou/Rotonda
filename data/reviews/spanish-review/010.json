@@ -1,0 +1,43 @@
+{
+  "batch": "010",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "24623f653fc3746265e336ef63106b627cc03790de00f4b986acabc8c7777431",
+  "source_sha256": "935cb77310cd2a21444a8c81a525e9a56618cb198ddc3b96fa8851bd5471962e",
+  "corrections": [
+    {
+      "id": "0ddbde8fd336ae368608f286f8a8449313933606430919b9ceb88c46c5edb3a6",
+      "before": "Según el CMR, la duración del transporte no puede indicarse en un documento separado y distinto de la carta de porte",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), la duración del transporte no puede indicarse en un documento separado y distinto de la carta de porte",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    },
+    {
+      "id": "0e91d3af474a2ec65012f2df2e4379621a14400853115690e8d740e996fac085",
+      "before": "Las correas utilizadas para sujetar la carga en el vehículo no deben estar rotas ni desgastadas, ni tener dispositivos de apriete dañados",
+      "after": "Las correas utilizadas para sujetar la carga en el vehículo no deben estar rotas ni desgastadas, ni tener dispositivos de apriete (trinquetes tensores) dañados",
+      "reason": "Restituye el ejemplo entre paréntesis de los dispositivos tensores."
+    },
+    {
+      "id": "0eb9bbc186793c159beb2fba150a48fe08cbb041a751f46a7c94ad2162cd499d",
+      "before": "Una empresa italiana especializada en mudanzas que quiera transportar mercancías a un país miembro de la CEMT puede solicitar una autorización CEMT fuera de cuota",
+      "after": "Una empresa italiana especializada en mudanzas que quiera realizar un transporte en un país miembro de la CEMT puede solicitar una autorización CEMT fuera de cuota",
+      "reason": "El original indica un transporte en el país, sin especificar que sea hacia él."
+    },
+    {
+      "id": "0ebda92b79e532ea4afefd7d4e6643dc1fa800d69ea11049a78cfb93df55906d",
+      "before": "Un transportista británico de pasajeros debe tener una licencia del Reino Unido para la Comunidad para realizar un transporte dentro de la UE",
+      "after": "Un transportista británico debe tener una licencia del Reino Unido para la Comunidad para realizar un transporte dentro de la UE",
+      "reason": "El original no limita el transporte a pasajeros."
+    }
+  ],
+  "reviewed_file_sha256": "fd693d73295213d3f41f380bcd1c17a662552bbfa20a60a3314c7380ba048c9e"
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "066",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "53fc28c80712737ddd157bd3a24127405bd4665bf7bfda953e94ffa7edb9c48e",
+  "source_sha256": "ff51ca9c7ac93250341635936760c6bdb26448e621b82542ff761ec680aa96c3",
+  "corrections": [
+    {
+      "id": "5891a6170c69a5e8c85f5ef450cd1e414681f5e8cb7b1d0b57de328bd47df4ce",
+      "before": "A efectos de la normativa sobre el uso del tacógrafo, se define como «período de descanso diario normal» todo descanso que puede tomarse en dos períodos, el primero de al menos 3 horas sin interrupción y el segundo de al menos 9 horas sin interrupción",
+      "after": "A efectos de la normativa sobre el uso del tacógrafo, se define como «período de descanso diario regular» todo descanso que puede tomarse en dos períodos, el primero de al menos 3 horas sin interrupción y el segundo de al menos 9 horas sin interrupción",
+      "reason": "Term changed: Italian 'regolare' is the regular daily rest term, not 'normal'"
+    }
+  ],
+  "reviewed_file_sha256": "f23051d766f8dd96bae28c4151bbdc675a7fa1745cb1ad2877d5ddfb0dd83787"
+}

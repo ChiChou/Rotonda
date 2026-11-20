@@ -1,0 +1,25 @@
+{
+  "batch": "187",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "e4d1c753a126e65ce857e8d0eea4143886c3d318af1a5f357aff4504ecc947b3",
+  "source_sha256": "4727b24045d00e12f3b91487ae2ce34022854a2523338cdd78415c726ede756b",
+  "corrections": [
+    {
+      "id": "f873b6285735569f0dfd1beceb30ac6c9a702e152fd570792161ef58ae5c04cc",
+      "before": "Para desmantelar un vehículo debe entregarse exclusivamente al concesionario del fabricante",
+      "after": "Para desmantelar o desguazar un vehículo debe entregarse exclusivamente al concesionario del fabricante",
+      "reason": "Restituye la alternativa explícita de desguazar el vehículo."
+    }
+  ],
+  "reviewed_file_sha256": "2e645752ea1220fc10a14b97c6a5b6eb396a4a805177611ab1cdf255fd62d7e0"
+}

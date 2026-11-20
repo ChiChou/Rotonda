@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1edc2-fc44-7331-8882-d5fa40979e4e"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "revisione_cqc_persone",
+    "language": "es-419",
+    "records": [
+      {
+        "source": {
+          "number": 17038,
+          "quesito_id": 3468,
+          "text_it": "Gli autobus possono avere altezza massima di 4,20 m per autobus e filobus destinati a servizi pubblici di linea urbani e suburbani circolanti su itinerari prestabiliti",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "033c1c771bcfdca80849ed0e02a614c844b9cf4460735891c69943558abb5cb5",
+        "italian": "Il limite indicato non è quello previsto: per questi servizi l’altezza massima consentita è 4,30 m. Un autobus alto 4,20 m può comunque rientrare nel limite.",
+        "italian_sha256": "25bd7fecb7bdfc6434737f286b2427b7444ac22b5fd8b1e20ff65864b2c1db27"
+      },
+      {
+        "source": {
+          "number": 17039,
+          "quesito_id": 3468,
+          "text_it": "Gli autobus possono avere lunghezza massima di 12,00 m per veicoli a due assi",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "7f3c05749eda6a00014907aa718473a291475aa96d85a2e01148402e9c562903",
+        "italian": "Il valore di 12 m non è il limite massimo specifico: per un autobus a due assi la direttiva prevede 13,50 m. Un autobus lungo 12 m può comunque rientrare nel limite.",
+        "italian_sha256": "29bed20f0701e02b7d9cba072704b6ba8d59b061a1506440c76197641b19318c"
+      },
+      {
+        "source": {
+          "number": 17040,
+          "quesito_id": 3468,
+          "text_it": "Gli autobus possono avere larghezza massima di 2,60 metri",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "c31d1ce3be4976855a27919abde3cd2c343ab24f5d99f43bac0b36fcec264d30",
+        "italian": "La larghezza ordinaria massima è 2,55 m, non 2,60 m; i retrovisori mobili sono esclusi dal computo.",
+        "italian_sha256": "1dbee785fa57e5ae502536529c427bd7b52eb6f1ab26131cd66e7bbee19d3cbe"
+      },
+      {
+        "source": {
+          "number": 17047,
+          "quesito_id": 3470,
+          "text_it": "Il taglio delle curve degli autobus è dovuto a notevole valore della distanza tra il centro dell’asse anteriore e quello dell’asse posteriore",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "62142ec6194d4c7c25adcdb6c52203b662e0235539787aeb2d75e0c38ff015eb",
+        "italian": "Un passo lungo accentua il taglio: in curva le ruote posteriori seguono una traiettoria più interna rispetto a quelle anteriori.",
+        "italian_sha256": "f8e24694611a0d44092b9f1fce17e4ac74af3cb693521a1720c99279be56e749"
+      },
+      {
+        "source": {
+          "number": 17048,
+          "quesito_id": 3470,
+          "text_it": "Il taglio delle curve degli autobus è dovuto a impostazione della traiettoria da parte del conducente che non tiene conto del passo",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "d8a89e515bd301dd11c130bb467bc9e93e7e75e380def0a8c23703ae8be57356",
+        "italian": "Se il conducente non tiene conto del passo, può impostare la curva senza lasciare spazio sufficiente al percorso più interno delle ruote posteriori.",
+        "italian_sha256": "4e9320e6c3b8ec835fc9487d6d40b9c08956f54788c2a9e2ffe369fcc2c07f68"
+      },
+      {
+        "source": {
+          "number": 17049,
+          "quesito_id": 3470,
+          "text_it": "Il taglio delle curve da parte di un autobus può essere causato dalla lunghezza del passo",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "bee742a3b7dc3fcd9dae7269c4e37173da7b9368e6f0b150fe74a7b5f9a4b5fc",
+        "italian": "Un passo lungo aumenta la differenza tra le traiettorie degli assi e quindi il taglio della curva.",
+        "italian_sha256": "e0bebddbd7b804d6fb8cf72a5248c1c2280b1c1bffff88c122e639f5f83305c8"
+      },
+      {
+        "source": {
+          "number": 17050,
+          "quesito_id": 3470,
+          "text_it": "Il taglio delle curve degli autobus è dovuto a interferenza (strisciamento) della parte posteriore della carrozzeria con la sede stradale",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "4c6e69a678e7f3c9e77c8f2e446a1cef366b4735e7c3e1b149df11b72d63817e",
+        "italian": "Lo strisciamento sul fondo stradale è un fenomeno diverso: il taglio deriva dal percorso più interno delle ruote posteriori in curva.",
+        "italian_sha256": "fd3f2985ee967e08e052213178ae1e06acb811a436baf61b35359b239bed9b91"
+      },
+      {
+        "source": {
+          "number": 17051,
+          "quesito_id": 3470,
+          "text_it": "Il taglio delle curve degli autobus è dovuto a notevole valore dello sbalzo posteriore",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "2a5837aaa4809078912ca06ab91bc6389dce643074b5c912c1998de99039ce87",
+        "italian": "Lo sbalzo posteriore può spostare la coda verso l’esterno; il taglio verso l’interno dipende invece dalla traiettoria degli assi e dal passo.",
+        "italian_sha256": "1d6fff02ebee2e844aaca14deb7b67067107369facb432549981fcd46a621acc"
+      },
+      {
+        "source": {
+          "number": 17052,
+          "quesito_id": 3470,
+          "text_it": "Il taglio delle curve degli autobus è dovuto a scarsa altezza da terra della carrozzeria del veicolo",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "e2bc7c8e89a29c55ce412edd47335d81eb9129ccca73a8474dcbd192e1faa23a",
+        "italian": "La ridotta altezza da terra riguarda il rischio di contatto col fondo, non il taglio della curva, legato alla traiettoria degli assi.",
+        "italian_sha256": "037471e10999ce1267d0b061b7b30087afebe828b109e878482e288baeafb9b7"
+      },
+      {
+        "source": {
+          "number": 17053,
+          "quesito_id": 3471,
+          "text_it": "L’allargamento della traiettoria della parte posteriore della carrozzeria in curva è dovuto al notevole valore dello sbalzo posteriore",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "6f6f360bf01922b2e0ce416052c8267b70e4e30a30c77e181436193fed194696",
+        "italian": "La parte oltre l’asse posteriore può spostarsi lateralmente verso l’esterno durante la sterzata; uno sbalzo lungo richiede quindi più attenzione allo spazio disponibile.",
+        "italian_sha256": "e732dd2f747d3daaa91c2db70b30b4ecfc3c461c992fad72f2083a67240db1c5"
+      },
+      {
+        "source": {
+          "number": 17054,
+          "quesito_id": 3471,
+          "text_it": "L’allargamento della traiettoria della parte posteriore della carrozzeria in curva è dovuto al notevole valore della sporgenza del veicolo dall’asse posteriore",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "957e0a3dd23067e00b925c002c8a2b93562a75d343e867c17fec44939b745121",
+        "italian": "La sporgenza oltre l’asse posteriore è lo sbalzo posteriore: durante la sterzata la coda può spostarsi verso l’esterno.",
+        "italian_sha256": "5210eefce4b8f2ce372a12c88365ccd27466ed5d8e8bf2758d75b6618f966235"
+      },
+      {
+        "source": {
+          "number": 17055,
+          "quesito_id": 3471,
+          "text_it": "L’allargamento della traiettoria della parte posteriore della carrozzeria in curva è dovuto alla interferenza (strisciamento) della parte posteriore della carrozzeria con la sede stradale",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "a9269b27e47cc5843a0cca02b7651ad247875dd76e183751784d6a7a72e165a3",
+        "italian": "Lo strisciamento sulla strada è un altro fenomeno: l’allargamento laterale della coda in curva riguarda il movimento dello sbalzo posteriore.",
+        "italian_sha256": "1d8052d9c46ebe07627e8836878a133ed557c66b12f1c2069edded61ad3d82c0"
+      },
+      {
+        "source": {
+          "number": 17056,
+          "quesito_id": 3471,
+          "text_it": "L’allargamento della traiettoria della parte posteriore della carrozzeria in curva è dovuto al notevole valore della distanza tra il centro dell’asse anteriore e quello dell’asse posteriore",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "c99445c9260fc870be3b96b7037bf882635da4c9cd589454f6edebcbe2ce6ffe",
+        "italian": "Il passo influenza il taglio delle ruote posteriori verso l’interno; il quiz riferisce l’allargamento laterale della coda allo sbalzo posteriore. La traiettoria effettiva dipende comunque dalla geometria e dalla manovra.",
+        "italian_sha256": "c18e9ece0fb7d7f47cec5f7ea27d0c098d02c7ac030977e350edb747524b9124"
+      },
+      {
+        "source": {
+          "number": 17057,
+          "quesito_id": 3471,
+          "text_it": "L’allargamento della traiettoria della parte posteriore della carrozzeria in curva è dovuto alla scarsa altezza da terra della carrozzeria del veicolo",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "53590e1cab0c319a5cf7e7dfe2bb31ea166aa5e4cc605a1140681faf9a0c25e2",
+        "italian": "La scarsa altezza da terra riguarda il possibile contatto col fondo; l’allargamento laterale della coda riguarda invece lo sbalzo posteriore.",
+        "italian_sha256": "723f0eca904da34a40f65bab7f85d3fbafba62901e92c84cfe7201fd70c7d9f6"
+      },
+      {
+        "source": {
+          "number": 17058,
+          "quesito_id": 3471,
+          "text_it": "L’allargamento della traiettoria della parte posteriore della carrozzeria in curva è dovuto al notevole valore della sporgenza del veicolo dall’asse anteriore",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "d23fa5fce9d5e535420f5568e76cd5bde0393d1ffe593589e3f886c22746050b",
+        "italian": "La sporgenza davanti all’asse anteriore è lo sbalzo anteriore; l’allargamento della coda interessa invece la parte oltre l’asse posteriore.",
+        "italian_sha256": "b65c177dfda8403641d6e2e43b5aaea524d72a33ffaece8edf765720d928d9f3"
+      },
+      {
+        "source": {
+          "number": 17059,
+          "quesito_id": 3472,
+          "text_it": "L’invasione del marciapiede con l’autobus durante la manovra di accostamento alla fermata è dovuto al notevole valore dello sbalzo anteriore",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "b855c1533db1d7af229b23edfc422ccf4aece014537bf21ef22fe12585375da2",
+        "italian": "In accostamento la parte davanti all’asse anteriore può sporgere verso il marciapiede: occorre controllarla e raddrizzare il veicolo in tempo.",
+        "italian_sha256": "edbe76a2ab160a5196a01ac630a20e214f52d55b05963734b530f3ab82357a09"
+      },
+      {
+        "source": {
+          "number": 17060,
+          "quesito_id": 3472,
+          "text_it": "L’invasione del marciapiede con l’autobus durante la manovra di accostamento alla fermata è dovuto al notevole valore della sporgenza del veicolo dall’asse anteriore",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "ab62f94147ec3693b15a25ac049efad1a33650ee4c5726d5dc47e30d5dd08baa",
+        "italian": "La sporgenza davanti all’asse anteriore è lo sbalzo anteriore, che durante l’accostamento può occupare lo spazio sopra il marciapiede.",
+        "italian_sha256": "554c2a5b8f828c75bd5947393d6ffc47d1a753041a4a94f57858f3eab6c26f53"
+      },
+      {
+        "source": {
+          "number": 17061,
+          "quesito_id": 3472,
+          "text_it": "L’invasione del marciapiede con l’autobus durante la manovra di accostamento alla fermata è dovuto alla scarsa altezza da terra della carrozzeria del veicolo",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "3ab86e758129c948b0c858e628bb9637b68feb8ab610a5f12851bfd8b9933bf3",
+        "italian": "La scarsa altezza da terra riguarda il contatto con il fondo; nell’accostamento lo sbalzo anteriore può invece sporgere sopra il marciapiede.",
+        "italian_sha256": "14b4e2717a8f4e05cd2abcc3321421a153cec4ce82ad959b8325741a2b7bffc5"
+      },
+      {
+        "source": {
+          "number": 17062,
+          "quesito_id": 3472,
+          "text_it": "L’invasione del marciapiede con l’autobus durante la manovra di accostamento alla fermata è dovuto alla notevole valore della distanza tra i centri degli assi (anteriore e posteriore)",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "64d05bfcaa30fe09c95ab43e2b6eff2d1c9a9cc3b55b5fb4dba8433d2ee72608",
+        "italian": "Il quiz attribuisce l’invasione della parte anteriore allo sbalzo anteriore, non al passo. Il percorso effettivo dell’autobus dipende comunque anche dalla traiettoria impostata.",
+        "italian_sha256": "f6556fca7759bb48e49ebf27970584577d6643f6bcf002275c94ee1f01dfecdf"
+      },
+      {
+        "source": {
+          "number": 17063,
+          "quesito_id": 3472,
+          "text_it": "L’invasione del marciapiede con l’autobus durante la manovra di accostamento alla fermata è dovuto al notevole valore dello sbalzo posteriore",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "b90b6e8e95c23f9de4d2337a77e00a160e9ab5745a1847aefb008b4ae8f5b06b",
+        "italian": "Lo sbalzo posteriore riguarda la coda; nell’accostamento alla fermata è la sporgenza anteriore che può invadere lo spazio sopra il marciapiede.",
+        "italian_sha256": "e2de313dc2a492a1872660e79bf5b0f06af815dac677b820cde487d8c42c294e"
+      },
+      {
+        "source": {
+          "number": 17064,
+          "quesito_id": 3472,
+          "text_it": "L’invasione del marciapiede con l’autobus durante la manovra di accostamento alla fermata è dovuto al notevole valore della sporgenza del veicolo dall’asse posteriore",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "c424554405e815e89b8b0a017ee6412478f626247bcc7b1de8b8bc6f6eb11809",
+        "italian": "La sporgenza oltre l’asse posteriore riguarda la coda; nell’accostamento va controllata anche la sporgenza davanti all’asse anteriore.",
+        "italian_sha256": "0e7ec42a570096fd61552e1f32898b8077ce7dbcd0e06c3665d1d0eff9983ad3"
+      },
+      {
+        "source": {
+          "number": 17065,
+          "quesito_id": 3473,
+          "text_it": "Il rischio di interferenza (strisciamento) della parte posteriore della carrozzeria dell’autobus con la sede stradale aumenta se il tratto di strada è percorso ad alta velocità",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "ed6ab8e24a0a6b7c3eb6d65f9c7c37bd96de9b43037ffed4137721c764aa5d9c",
+        "italian": "Su un dosso o un cambio di pendenza, una velocità inadeguata può favorire il contatto dello sbalzo con la strada; il rischio dipende anche dal profilo e dal veicolo.",
+        "italian_sha256": "602866ee2dfc2cfde1be841c14dfd2549dccff323918e412d3ddf72d472173af"
+      },
+      {
+        "source": {
+          "number": 17066,
+          "quesito_id": 3473,
+          "text_it": "Il rischio di interferenza (strisciamento) della parte posteriore della carrozzeria dell’autobus con la sede stradale aumenta se il veicolo è molto carico",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "f33a09378a9e96c59b1192d6bd2e8429d883a970d7b490345cf78aa004ee7a94",
+        "italian": "Un carico elevato può abbassare la carrozzeria, riducendo la distanza da terra: lo sbalzo posteriore rischia così di toccare la strada, soprattutto nei cambi di pendenza.",
+        "italian_sha256": "fd8e7914c7c82ec89532dc7642a92160e11e745a7b35e0072ff3de0da1d75f84"
+      },
+      {
+        "source": {
+          "number": 17067,
+          "quesito_id": 3473,
+          "text_it": "Il rischio di interferenza (strisciamento) della parte posteriore della carrozzeria dell’autobus con la sede stradale aumenta se lo sbalzo posteriore è molto lungo",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "c6fa0959273d797dbed31aaccf5c56bf78afaf76f151625183c741e493d101e8",
+        "italian": "Uno sbalzo posteriore lungo può avvicinare la coda al fondo quando l’autobus attraversa un dosso o un cambio di pendenza.",
+        "italian_sha256": "78f927b0a9bc058bab51e705bc49635eb969f14f4bd3a921305d873e8b189c12"
+      },
+      {
+        "source": {
+          "number": 17068,
+          "quesito_id": 3473,
+          "text_it": "Il rischio di interferenza (strisciamento) della parte posteriore della carrozzeria dell’autobus con la sede stradale aumenta se lo sbalzo posteriore è molto corto",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "0baac53d3e56d7b2191e95c45d6580739be16c0f8d8fcc44be9b873186a415de",
+        "italian": "Non è uno sbalzo corto ad aumentare il rischio: a parità delle altre condizioni, una sporgenza posteriore più lunga può avvicinarsi maggiormente al fondo sui cambi di pendenza.",
+        "italian_sha256": "6b772bc583193f7ffa384061b68b8c180d1a2fcaf55bce7830dcb188f2549682"
+      },
+      {
+        "source": {
+          "number": 17069,
+          "quesito_id": 3473,
+          "text_it": "Il rischio di interferenza (strisciamento) della parte posteriore della carrozzeria dell’autobus con la sede stradale aumenta se la strada è pianeggiante",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "191e1bc965c7375619cacb4bba5d191f1f65130300d1aed86197aba9a086d3ae",
+        "italian": "Falso: su una strada pianeggiante lo sbalzo posteriore non incontra, per questo motivo, un aumento del rischio. Sono soprattutto i cambi bruschi di pendenza a ridurre la distanza dal suolo.",
+        "italian_sha256": "2db495883bfef10c22855bc40ed6fbc547ae4b9e11eec224d14a9b891202710c"
+      },
+      {
+        "source": {
+          "number": 17070,
+          "quesito_id": 3473,
+          "text_it": "Il rischio di interferenza (strisciamento) della parte posteriore della carrozzeria dell’autobus con la sede stradale aumenta se la sede stradale non presenta variazione di pendenza",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "5edae18b725dd8f2ecee8fd43e159638d3ec8103673d27fc3956494d55a10f1f",
+        "italian": "Falso: l’assenza di variazioni di pendenza non aumenta di per sé il rischio. Un raccordo di pendenza brusco può invece avvicinare lo sbalzo posteriore alla strada.",
+        "italian_sha256": "33c6fc565636b2435c08e10251c3c4798cd226acf316db76ba52a820a80975db"
+      },
+      {
+        "source": {
+          "number": 17071,
+          "quesito_id": 3474,
+          "text_it": "Durante la fermata dell’autobus, il conducente deve prestare particolare attenzione a porte e scalini di accesso (ove presenti) che si aprono verso l’esterno della carrozzeria",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "998b5516cda99206d00f8c97ab6e4f39743ba16153cff476e7d8e1e622d55238",
+        "italian": "Porte e scalini che sporgono all’esterno richiedono attenzione allo spazio disponibile e alle persone vicine, per evitare urti durante la fermata.",
+        "italian_sha256": "ce685cb61208f2179ccecd14b73bd2b51ee8ab2846a2f5e1610fdbdefab3a285"
+      },
+      {
+        "source": {
+          "number": 17072,
+          "quesito_id": 3474,
+          "text_it": "Durante la fermata dell’autobus, il conducente deve prestare particolare attenzione alla posizione del veicolo rispetto al marciapiede soprattutto qualora sia necessario fare scendere o salire un passeggero diversamente abile su carrozzella",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "6a64b70baee304e8c5d6692d2c0973e11dafaa31cd602e01580b56dc96fa1aea",
+        "italian": "La posizione rispetto al marciapiede deve consentire un accesso sicuro, soprattutto quando occorre utilizzare una pedana o assistere un passeggero in carrozzina.",
+        "italian_sha256": "2b8bf172a97194cfa30269d125dcb66489be14ed0e72162a40d03df9e8588355"
+      },
+      {
+        "source": {
+          "number": 17073,
+          "quesito_id": 3474,
+          "text_it": "Durante la fermata dell’autobus, il conducente deve utilizzare specchi retrovisori interni ed esterni nonché telecamere e monitor (se presenti)",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "f9b6812aab7d1c3080fc57082ef0e3203991edef41b54806a0153cf5597e166c",
+        "italian": "Specchi e, se presenti, telecamere e monitor aiutano a controllare le zone delle porte e i passeggeri durante la fermata.",
+        "italian_sha256": "be02f886f07c0d051ee373c82cfe130f1e3afe101f040f39c05eb263318bdcea"
+      },
+      {
+        "source": {
+          "number": 17074,
+          "quesito_id": 3474,
+          "text_it": "Durante la fermata dell’autobus, il conducente deve verificare che le operazioni di salita e discesa dei passeggeri non siano ostruite dalla presenza di oggetti non correttamente posizionati",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "6ede6c13bf44cfd483447bf067f9d02490c3c9c1d06470a9d12d927ef16c9d64",
+        "italian": "Gli oggetti lasciati presso porte o passaggi possono ostacolare o far inciampare i passeggeri: gli accessi devono restare liberi.",
+        "italian_sha256": "b0327f1e3276986cc0a07d0c3bfb85aa68d37fb135efafb0a9449ec3460f89ab"
+      },
+      {
+        "source": {
+          "number": 17075,
+          "quesito_id": 3474,
+          "text_it": "Durante la fermata dell’autobus, il conducente deve prestare particolare attenzione all’apertura delle uscite di sicurezza",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "a716916966d9575f2b9a8e1ed017a612a1dfed1b975c3d282f467209a15e2da6",
+        "italian": "Falso: nella fermata ordinaria si controllano soprattutto le porte di servizio e la salita e discesa. Le uscite di sicurezza sono destinate alle emergenze e vanno mantenute utilizzabili.",
+        "italian_sha256": "531ce645c342f397837dc450fbc47dda410ab619e87edc5677b9f55bed121dc0"
+      },
+      {
+        "source": {
+          "number": 17076,
+          "quesito_id": 3474,
+          "text_it": "Durante la fermata dell’autobus, il conducente deve far scendere i viaggiatori senza prestare particolare attenzione",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "44b88f0726953daea63964e112556e3f37790bd5d7ee8d697c52e65e51e1ea5d",
+        "italian": "Falso: la discesa richiede attenzione, perché i passeggeri possono inciampare o trovarsi in una posizione pericolosa.",
+        "italian_sha256": "ff753a933741cee966b39fd40b849f991371597c4fc2433e34f50d34b674b3ab"
+      },
+      {
+        "source": {
+          "number": 17093,
+          "quesito_id": 3478,
+          "text_it": "Il conducente di un autobus deve assicurare un adeguato grado di comfort di marcia ai passeggeri tramite curve percorse a velocità adeguata in relazione al raggio della curva",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "1847486986a4473445fa183c6b6b24c864fd12d6f9f6aba31b8fed1bd457aa32",
+        "italian": "Una velocità adeguata al raggio della curva limita le spinte laterali sui passeggeri e contribuisce a una marcia confortevole.",
+        "italian_sha256": "06bbd5f1f13818f326252765e0d12d9bf3cdf44e332e6c28fdae6ed90004625d"
+      },
+      {
+        "source": {
+          "number": 17094,
+          "quesito_id": 3478,
+          "text_it": "Il conducente di un autobus deve assicurare un adeguato grado di comfort di marcia ai passeggeri tramite manovre sufficientemente anticipate",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "1307424f98f0cb0ef70013881a61d48e340ffee46bce0606be9f9c97d183992c",
+        "italian": "Anticipare le manovre consente di eseguirle gradualmente e riduce gli scossoni per i passeggeri.",
+        "italian_sha256": "77b07ea2e9ef54e624c5abc18816a29b0f64ba544b1172715e8e342205bd0fe7"
+      },
+      {
+        "source": {
+          "number": 17096,
+          "quesito_id": 3478,
+          "text_it": "Il conducente di un autobus deve assicurare un adeguato grado di comfort di marcia ai passeggeri tramite accelerazioni e frenate graduali",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "3670b766ef276c8c2017deaf1bdb72184851f0732fe0726fd8c2d9e99b797afb",
+        "italian": "Accelerazioni e frenate graduali riducono gli scossoni e aiutano i passeggeri a mantenere l’equilibrio.",
+        "italian_sha256": "af6ca5aabe30cae62185c873c189b7af682f809462feffb29d13be62880bc136"
+      },
+      {
+        "source": {
+          "number": 17097,
+          "quesito_id": 3478,
+          "text_it": "Il conducente di un autobus deve assicurare un adeguato grado di comfort di marcia ai passeggeri tramite frenate possibilmente anticipate e moderate",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "045758826acbbb2575b7ebdea8388dba8e3547cb44ae15b4d8e4793853a2fe33",
+        "italian": "Frenare per tempo e moderatamente, quando possibile, limita le decelerazioni brusche e rende la marcia più confortevole.",
+        "italian_sha256": "637e6fa15769290ffd748eec7ec07318ef0633cdf1ab58cb68a92a26c91567be"
+      },
+      {
+        "source": {
+          "number": 17098,
+          "quesito_id": 3478,
+          "text_it": "Il conducente di un autobus deve assicurare un adeguato grado di comfort di marcia ai passeggeri tramite manovre graduali (dolci) ad eccezione di partenze e frenate",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "bd63645985c3497e6401003978a74b3256b76a9d4687b09c59de6cb479c3ca83",
+        "italian": "Falso: anche partenze e frenate devono essere possibilmente graduali, per limitare scossoni e perdite di equilibrio.",
+        "italian_sha256": "62f3f68ede016bf4faa8ef6ce613722048e96d56b2746c22f803650e0ee48c56"
+      },
+      {
+        "source": {
+          "number": 17099,
+          "quesito_id": 3478,
+          "text_it": "Il conducente di un autobus deve assicurare un adeguato grado di comfort di marcia ai passeggeri tramite velocità non uniforme e brusche sterzate",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "7e4e08367ff7a9ee57aee6dd98e3a7fa849c08cc23928886e963cc9515ef2675",
+        "italian": "Falso: variazioni brusche di velocità e sterzate improvvise creano scossoni. Occorre guidare con movimenti regolari e adeguati alle condizioni.",
+        "italian_sha256": "20f10439b9598c5e318b090110ed018a731fe22e3725b02fd50b6bc038740796"
+      },
+      {
+        "source": {
+          "number": 17100,
+          "quesito_id": 3478,
+          "text_it": "Il conducente di un autobus deve assicurare un adeguato grado di comfort di marcia ai passeggeri tramite repentine partenze e decise frenate",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "96be321382fbed969144910a748a817b10efad77afd4f54403c8b6c409f718ed",
+        "italian": "Falso: partenze repentine e frenate decise possono squilibrare i passeggeri. Per il comfort si parte e si frena gradualmente, salvo necessità.",
+        "italian_sha256": "37303f9983e34ab27ee7858c5ea600f230eba154abf76444df1b4fc80beafcd7"
+      },
+      {
+        "source": {
+          "number": 17101,
+          "quesito_id": 3479,
+          "text_it": "Il conducente ha l’obbligo di comportarsi con correttezza, civismo e senso di responsabilità in qualsiasi evenienza",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "aea7c98bfa0b24de6168959e59c961e792055b219a67208194301b1b186495b5",
+        "italian": "Il conducente deve agire con correttezza e responsabilità anche nelle situazioni difficili, tutelando le persone e la sicurezza del servizio.",
+        "italian_sha256": "a3e7e9fa6d7869870e63d13e671e0d9002cc71720d9ab7091cfeb2a39d457c00"
+      },
+      {
+        "source": {
+          "number": 17102,
+          "quesito_id": 3479,
+          "text_it": "Il conducente ha l’obbligo di preservare la sicurezza e l’incolumità dei viaggiatori",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "ccaf373e48b86fb87eaea13c5e354c2e16faf1a9bbd14b0d0e01dbdb318fa9c5",
+        "italian": "La sicurezza dei viaggiatori richiede attenzione sia durante la marcia sia nelle fasi di salita e discesa.",
+        "italian_sha256": "2264caef392dc87073f6b005682d60579d5a4c0cc04d90b4e9c57f46e46480c3"
+      },
+      {
+        "source": {
+          "number": 17103,
+          "quesito_id": 3479,
+          "text_it": "Il conducente ha l’obbligo di assecondare le richieste di ogni viaggiatore anche se a discapito degli altri passeggeri",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "156028fcda69034d88cb2999c57a8ddad21d415e513b14bfd28f2083dc7ff2ac",
+        "italian": "È sbagliato favorire ogni richiesta individuale anche a danno degli altri: il conducente deve trattare correttamente tutti i passeggeri e tutelarne la sicurezza.",
+        "italian_sha256": "3d7f1c18f97668ba3b1ebb0045a925dff778a01d25ea594bb3755624fff64452"
+      },
+      {
+        "source": {
+          "number": 17104,
+          "quesito_id": 3479,
+          "text_it": "Il conducente ha l’obbligo di rifiutare il trasporto dei supporti destinati ad assicurare o favorire la mobilità dei portatori di handicap",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "ca6d1d5e3ea30d4996737e1fbc13ab343572d5f03b6f43da382346f0030421df",
+        "italian": "Falso: gli ausili alla mobilità non vanno rifiutati in quanto tali; occorre agevolarne il trasporto secondo le condizioni di accessibilità applicabili.",
+        "italian_sha256": "00f7427c3b4ad21afed1429d0c85192d25203142cfa694fafcd5fb2c1b670a98"
+      },
+      {
+        "source": {
+          "number": 17105,
+          "quesito_id": 3479,
+          "text_it": "Il conducente ha l’obbligo di interrompere il servizio di propria iniziativa, qualora lo ritenga necessario",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "8264c5eecc87f3c4517afead6a4e3d4dbe11927a48c4e6a960bf96a3213e244f",
+        "italian": "Non esiste un obbligo generale di interrompere il servizio ogni volta che il conducente lo ritenga necessario. In caso di pericolo effettivo, però, deve fermarsi e adottare le misure necessarie alla sicurezza.",
+        "italian_sha256": "660263e6b7676aa8fe2c6fc8ddd5cd1921395339b4253641f4882332baf59285"
+      },
+      {
+        "source": {
+          "number": 17106,
+          "quesito_id": 3479,
+          "text_it": "Il conducente ha l’obbligo di trasportare qualsiasi cosa voglia il passeggero",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "90900fd64e57c3e41c4d5d9bdabaa38d41d9289d5d3a84b73717666b4e3658bb",
+        "italian": "Falso: non qualsiasi oggetto può essere trasportato; occorre rispettare le condizioni di sicurezza e non ostruire passaggi e uscite.",
+        "italian_sha256": "4c51b6ac8f3d04d5364308a3128d181ccb0135b039b4a174a195615f9575eead"
+      },
+      {
+        "source": {
+          "number": 17107,
+          "quesito_id": 3480,
+          "text_it": "L’illuminazione interna degli autobus deve essere presente ed efficiente",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "d968e9e6914c5322cf409c29e9ce21aa5354c2a201142fa14f518f3670136912",
+        "italian": "L’illuminazione interna prevista deve funzionare, così da rendere visibili ai passeggeri le zone di accesso e i gradini.",
+        "italian_sha256": "ee3a999ad693bc794964ac5068d93f69c52dfea581cffc3648a6ea95fdd8688f"
+      },
+      {
+        "source": {
+          "number": 17108,
+          "quesito_id": 3480,
+          "text_it": "L’illuminazione interna degli autobus deve essere periodicamente controllata",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "42ae44fccda210ff3a8d61889ec8f20d50e75bae40aac5d7067bcd712584730c",
+        "italian": "Controllare periodicamente l’illuminazione permette di individuare guasti e mantenerla efficiente.",
+        "italian_sha256": "a9c087b0cf8620a273571cca89ee4ab7f4e25c227d0551c6c761b686b9d987bd"
+      },
+      {
+        "source": {
+          "number": 17109,
+          "quesito_id": 3480,
+          "text_it": "L’illuminazione interna degli autobus è obbligatoria",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "25080f47e504912c9c7a86c0d1c255a66f134b48f25bce5dd8af5c980fbbeb14",
+        "italian": "L’illuminazione interna è prevista per rendere visibili, tra l’altro, gradini e accessi alle uscite.",
+        "italian_sha256": "6eed837c2e66160bc73060bec57a440a52414db9bc46abf70d6c2f98d1cc102e"
+      },
+      {
+        "source": {
+          "number": 17110,
+          "quesito_id": 3480,
+          "text_it": "L’illuminazione interna degli autobus può equipaggiare alcuni autobus",
+          "answer": 0,
+          "page": 4,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "444241decab3983b559fda81a5ba3010856e6fbe221a909a8059ade89ae31bb0",
+        "italian": "Falso secondo il quiz: l’illuminazione interna prevista non è un accessorio riservato solo ad alcuni autobus. La frase è ambigua: presa alla lettera, “alcuni” non esclude che ne siano dotati anche gli altri.",
+        "italian_sha256": "4ec2399edf59ae26e241cad3e08ff70f230d5930bf9155c949334cc3ec6ccf05"
+      }
+    ],
+    "task_sha256": "074654d6206718445b193f2b5a57fb1db34a550daaf01102306f01c5810c60c6"
+  },
+  "rows": [
+    {
+      "number": 17038,
+      "text": "El límite indicado no es el previsto: para estos servicios, la altura máxima permitida es de 4,30 m. Un autobús de 4,20 m de altura puede estar dentro del límite."
+    },
+    {
+      "number": 17039,
+      "text": "El valor de 12 m no es el límite máximo específico: para un autobús de dos ejes, la directiva establece 13,50 m. Un autobús de 12 m de longitud puede estar dentro del límite."
+    },
+    {
+      "number": 17040,
+      "text": "El ancho máximo ordinario es de 2,55 m, no de 2,60 m; los espejos retrovisores móviles se excluyen del cálculo."
+    },
+    {
+      "number": 17047,
+      "text": "Una distancia larga entre ejes acentúa el recorte de la curva: al girar, las ruedas traseras siguen una trayectoria más interior que las delanteras."
+    },
+    {
+      "number": 17048,
+      "text": "Si el conductor no tiene en cuenta la distancia entre ejes, puede trazar la curva sin dejar suficiente espacio para la trayectoria más interior de las ruedas traseras."
+    },
+    {
+      "number": 17049,
+      "text": "Una distancia larga entre ejes aumenta la diferencia entre las trayectorias de los ejes y, por lo tanto, el recorte de la curva."
+    },
+    {
+      "number": 17050,
+      "text": "El roce con la superficie de la carretera es un fenómeno distinto: el recorte se debe a la trayectoria más interior de las ruedas traseras en la curva."
+    },
+    {
+      "number": 17051,
+      "text": "El voladizo trasero puede desplazar la parte posterior hacia afuera; en cambio, el recorte hacia adentro depende de la trayectoria de los ejes y de la distancia entre ellos."
+    },
+    {
+      "number": 17052,
+      "text": "La poca altura libre al suelo está relacionada con el riesgo de contacto con la superficie, no con el recorte de la curva, que depende de la trayectoria de los ejes."
+    },
+    {
+      "number": 17053,
+      "text": "La parte situada detrás del eje trasero puede desplazarse lateralmente hacia afuera durante el giro; por eso, un voladizo largo requiere prestar más atención al espacio disponible."
+    },
+    {
+      "number": 17054,
+      "text": "La parte que sobresale detrás del eje trasero es el voladizo trasero: durante el giro, la parte posterior puede desplazarse hacia afuera."
+    },
+    {
+      "number": 17055,
+      "text": "El roce con la carretera es otro fenómeno: el desplazamiento lateral hacia afuera de la parte posterior en una curva está relacionado con el movimiento del voladizo trasero."
+    },
+    {
+      "number": 17056,
+      "text": "La distancia entre ejes influye en el recorte hacia adentro de las ruedas traseras; el cuestionario atribuye el desplazamiento lateral hacia afuera de la parte posterior al voladizo trasero. Sin embargo, la trayectoria real depende de la geometría y de la maniobra."
+    },
+    {
+      "number": 17057,
+      "text": "La poca altura libre al suelo está relacionada con el posible contacto con la superficie; en cambio, el desplazamiento lateral hacia afuera de la parte posterior está relacionado con el voladizo trasero."
+    },
+    {
+      "number": 17058,
+      "text": "La parte que sobresale delante del eje delantero es el voladizo delantero; en cambio, el desplazamiento hacia afuera de la parte posterior afecta a la parte situada detrás del eje trasero."
+    },
+    {
+      "number": 17059,
+      "text": "Al acercarse a la parada, la parte situada delante del eje delantero puede sobresalir hacia la acera: hay que vigilarla y enderezar el vehículo a tiempo."
+    },
+    {
+      "number": 17060,
+      "text": "La parte que sobresale delante del eje delantero es el voladizo delantero, que al acercarse a la parada puede ocupar el espacio sobre la acera."
+    },
+    {
+      "number": 17061,
+      "text": "La poca altura libre al suelo está relacionada con el contacto con la superficie; en cambio, al acercarse a la parada, el voladizo delantero puede sobresalir sobre la acera."
+    },
+    {
+      "number": 17062,
+      "text": "El cuestionario atribuye la invasión del espacio por la parte delantera al voladizo delantero, no a la distancia entre ejes. Sin embargo, el recorrido real del autobús también depende de la trayectoria elegida."
+    },
+    {
+      "number": 17063,
+      "text": "El voladizo trasero corresponde a la parte posterior; al acercarse a la parada, es el voladizo delantero el que puede invadir el espacio sobre la acera."
+    },
+    {
+      "number": 17064,
+      "text": "La parte que sobresale detrás del eje trasero corresponde a la parte posterior; al acercarse a la parada, también hay que vigilar la parte que sobresale delante del eje delantero."
+    },
+    {
+      "number": 17065,
+      "text": "En un lomo de burro o un cambio de pendiente, una velocidad inadecuada puede favorecer el contacto del voladizo con la carretera; el riesgo también depende del perfil de la vía y del vehículo."
+    },
+    {
+      "number": 17066,
+      "text": "Una carga elevada puede bajar la carrocería y reducir la altura libre al suelo: así, el voladizo trasero corre el riesgo de tocar la carretera, sobre todo en los cambios de pendiente."
+    },
+    {
+      "number": 17067,
+      "text": "Un voladizo trasero largo puede acercar la parte posterior al suelo cuando el autobús pasa por un lomo de burro o un cambio de pendiente."
+    },
+    {
+      "number": 17068,
+      "text": "No es un voladizo corto lo que aumenta el riesgo: si las demás condiciones son iguales, una parte trasera más larga puede acercarse más al suelo en los cambios de pendiente."
+    },
+    {
+      "number": 17069,
+      "text": "Falso: en una carretera plana, el riesgo para el voladizo trasero no aumenta por ese motivo. Son principalmente los cambios bruscos de pendiente los que reducen la altura libre al suelo."
+    },
+    {
+      "number": 17070,
+      "text": "Falso: la ausencia de cambios de pendiente no aumenta por sí sola el riesgo. En cambio, una transición brusca de pendiente puede acercar el voladizo trasero a la carretera."
+    },
+    {
+      "number": 17071,
+      "text": "Las puertas y los escalones que sobresalen hacia afuera requieren atención al espacio disponible y a las personas cercanas para evitar golpes durante la parada."
+    },
+    {
+      "number": 17072,
+      "text": "La posición con respecto a la acera debe permitir un acceso seguro, especialmente cuando es necesario usar una plataforma o ayudar a un pasajero en silla de ruedas."
+    },
+    {
+      "number": 17073,
+      "text": "Los espejos y, si están presentes, las cámaras y los monitores ayudan a vigilar las zonas de las puertas y a los pasajeros durante la parada."
+    },
+    {
+      "number": 17074,
+      "text": "Los objetos dejados cerca de las puertas o los pasillos pueden obstaculizar el paso o hacer tropezar a los pasajeros: los accesos deben permanecer libres."
+    },
+    {
+      "number": 17075,
+      "text": "Falso: en una parada ordinaria se vigilan principalmente las puertas de servicio y el ascenso y descenso de pasajeros. Las salidas de emergencia están destinadas a emergencias y deben mantenerse utilizables."
+    },
+    {
+      "number": 17076,
+      "text": "Falso: el descenso requiere atención, porque los pasajeros pueden tropezar o encontrarse en una posición peligrosa."
+    },
+    {
+      "number": 17093,
+      "text": "Una velocidad adecuada al radio de la curva limita los empujes laterales sobre los pasajeros y contribuye a un viaje cómodo."
+    },
+    {
+      "number": 17094,
+      "text": "Anticipar las maniobras permite realizarlas gradualmente y reduce las sacudidas para los pasajeros."
+    },
+    {
+      "number": 17096,
+      "text": "Acelerar y frenar gradualmente reduce las sacudidas y ayuda a los pasajeros a mantener el equilibrio."
+    },
+    {
+      "number": 17097,
+      "text": "Frenar con anticipación y moderadamente, cuando sea posible, limita las desaceleraciones bruscas y hace que el viaje sea más cómodo."
+    },
+    {
+      "number": 17098,
+      "text": "Falso: los arranques y las frenadas también deben ser graduales siempre que sea posible, para limitar las sacudidas y las pérdidas de equilibrio."
+    },
+    {
+      "number": 17099,
+      "text": "Falso: los cambios bruscos de velocidad y los giros repentinos causan sacudidas. Es necesario conducir con movimientos regulares y adecuados a las condiciones."
+    },
+    {
+      "number": 17100,
+      "text": "Falso: los arranques repentinos y las frenadas fuertes pueden hacer perder el equilibrio a los pasajeros. Para mayor comodidad, se arranca y se frena gradualmente, salvo cuando sea necesario actuar de otro modo."
+    },
+    {
+      "number": 17101,
+      "text": "El conductor debe actuar de manera correcta y responsable incluso en situaciones difíciles, protegiendo a las personas y la seguridad del servicio."
+    },
+    {
+      "number": 17102,
+      "text": "La seguridad de los pasajeros requiere atención tanto durante el recorrido como durante el ascenso y el descenso."
+    },
+    {
+      "number": 17103,
+      "text": "Es incorrecto atender toda petición individual incluso en perjuicio de los demás: el conductor debe tratar correctamente a todos los pasajeros y proteger su seguridad."
+    },
+    {
+      "number": 17104,
+      "text": "Falso: las ayudas para la movilidad no deben rechazarse por el hecho de serlo; es necesario facilitar su transporte según las condiciones de accesibilidad aplicables."
+    },
+    {
+      "number": 17105,
+      "text": "No existe una obligación general de interrumpir el servicio cada vez que el conductor lo considere necesario. Sin embargo, ante un peligro real, debe detenerse y tomar las medidas necesarias para la seguridad."
+    },
+    {
+      "number": 17106,
+      "text": "Falso: no se puede transportar cualquier objeto; es necesario respetar las condiciones de seguridad y no obstruir los pasillos ni las salidas."
+    },
+    {
+      "number": 17107,
+      "text": "La iluminación interior prevista debe funcionar para que los pasajeros puedan ver las zonas de acceso y los escalones."
+    },
+    {
+      "number": 17108,
+      "text": "Revisar periódicamente la iluminación permite detectar fallas y mantenerla en buen funcionamiento."
+    },
+    {
+      "number": 17109,
+      "text": "La iluminación interior está prevista para hacer visibles, entre otras cosas, los escalones y los accesos a las salidas."
+    },
+    {
+      "number": 17110,
+      "text": "Falso según el cuestionario: la iluminación interior prevista no es un accesorio reservado solo para algunos autobuses. La frase es ambigua: tomada literalmente, «algunos» no excluye que los demás también la tengan."
+    }
+  ],
+  "output_sha256": "0e6a82593630d5957d32ebbbb9ec884c405e09f3b8bbe8e85fc934d77a570360"
+}

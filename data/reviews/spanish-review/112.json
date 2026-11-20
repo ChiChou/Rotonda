@@ -1,0 +1,25 @@
+{
+  "batch": "112",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ca3ef4ca190f193570fd147d66f279d70d4e6788d1a48007123df2bb4ae88d99",
+  "source_sha256": "7b763d69bc03ba1917d85173d42821156492149aa07a054e01f84ffd1306938d",
+  "corrections": [
+    {
+      "id": "96614f06af9179e0876b49e0609e5319affa599cf8b56d47d99af83eddac9ecd",
+      "before": "Para realizar un servicio ocasional de pasajeros de circuito cerrado entre Italia y Francia es necesario llevar a bordo del autobús el original de la hoja de ruta comunitaria, además del original de la licencia comunitaria",
+      "after": "Para realizar un servicio ocasional de pasajeros de puertas cerradas entre Italia y Francia es necesario llevar a bordo del autobús el original de la hoja de ruta comunitaria, además del original de la licencia comunitaria",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    }
+  ],
+  "reviewed_file_sha256": "470bffdf7d7b4a2d067e0154a810c009901b088a3e2b5a89f0e23edd61a249d9"
+}

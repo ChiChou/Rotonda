@@ -1,0 +1,31 @@
+{
+  "batch": "082",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "8d1a12055a96d8978108c909159d3e3fbba10b23881cd7fdb47e8fc674f50933",
+  "source_sha256": "784534a925c9096bcc6a506f4f369b013786636b26355011d700802d7331e2ed",
+  "corrections": [
+    {
+      "id": "6cc1678625e628b950cd12bf6e8562a9ed3bfd0cba08bbc386ea35b6932dde0e",
+      "before": "Dentro de la UE, los servicios ocasionales de transporte de personas en autobús siguen una regulación distinta. Los de circuito cerrado requieren autorización",
+      "after": "Dentro de la UE, los servicios ocasionales de transporte de personas en autobús siguen una regulación distinta. Los de puertas cerradas requieren autorización",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    },
+    {
+      "id": "6daeac30a58b862a8fea7ddf9a1dd19e08e6d9f023d85c3d5d3aff06075893e8",
+      "before": "El límite máximo de velocidad en vías secundarias fuera de poblado es de 70 km/h para un automóvil que remolca una casa rodante de masa total de 900 kilogramos.",
+      "after": "El límite máximo de velocidad en vías secundarias fuera de poblado es de 70 km/h para un automóvil que remolca un remolque vivienda de masa total de 900 kilogramos.",
+      "reason": "Se identifica explícitamente el caravan como remolque vivienda para evitar confundirlo con una autocaravana."
+    }
+  ],
+  "reviewed_file_sha256": "ef950bf28b6f4e38100bac5fa9f4c19be181ef5468891651e16a7ce9bcf8d6c9"
+}

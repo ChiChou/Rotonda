@@ -1,0 +1,690 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28245,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata per avaria del veicolo, il conducente deve prima di tutto segnalare il pericolo all'ente proprietario della strada",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d33ef560db1c05f4e48adb5a69accf45225f5904474894b75eef91dc3efc00fa",
+        "localized_text": "故障车辆阻塞车行道时，驾驶员首先必须向道路所属管理机关报告危险。"
+      },
+      {
+        "source": {
+          "number": 28246,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente stradale con soli danni alle cose, il conducente ha l’obbligo di fermarsi e fornire le proprie generalità",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b1421832f1f5a298baa04504015a848e35aa16efd1a9544563b7c13402953347",
+        "localized_text": "道路事故仅造成财产损失时，驾驶员必须停车并提供个人身份信息。"
+      },
+      {
+        "source": {
+          "number": 28247,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente stradale con soli danni alle cose, il conducente ha l’obbligo di fermarsi e fornire le informazioni utili per l’esatta ricostruzione della dinamica dell’incidente",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5dca176c917e03e0ff621d9049bf02b3b23590bd92666f033cc72d4b0847156e",
+        "localized_text": "道路事故仅造成财产损失时，驾驶员必须停车并提供有助于准确还原事故经过的信息。"
+      },
+      {
+        "source": {
+          "number": 28248,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente con solo due veicoli coinvolti, è opportuno avvalersi del modulo di Constatazione amichevole (denuncia di sinistro)",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f722cbf9fdb2882a756f12d4ed771466d01154bb032ec7d1d469cc60df9ecaaa",
+        "localized_text": "事故仅涉及两辆车时，宜使用双方协商事故报告表。"
+      },
+      {
+        "source": {
+          "number": 28249,
+          "quesito_id": 6078,
+          "text_it": "In caso di utilizzo del modulo di Constatazione amichevole, il conducente deve riportare il luogo, le modalità e la data dell’incidente",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "61feb2cdf3200ee387a859e092aec1e3670ccbc214c939511bada6bbf93c6a54",
+        "localized_text": "使用双方协商事故报告表时，驾驶员必须填写事故地点、经过和日期。"
+      },
+      {
+        "source": {
+          "number": 28250,
+          "quesito_id": 6078,
+          "text_it": "In caso di utilizzo del modulo di Constatazione amichevole, il conducente deve riportare le generalità dell’altro conducente",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "79510f52c0ec2d4256949bb1f431d4df33558107c282992156a20e4e8cfab436",
+        "localized_text": "使用双方协商事故报告表时，驾驶员必须填写另一名驾驶员的个人身份信息。"
+      },
+      {
+        "source": {
+          "number": 28251,
+          "quesito_id": 6078,
+          "text_it": "In caso di utilizzo del modulo di Constatazione amichevole, il conducente deve riportare le generalità del proprietario dell’altro veicolo",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2bd9dc7ce69d123f0ea530394cf9b9efe16463ead91a6fb8d648e98b14ad979b",
+        "localized_text": "使用双方协商事故报告表时，驾驶员必须填写另一辆车车主的个人身份信息。"
+      },
+      {
+        "source": {
+          "number": 28252,
+          "quesito_id": 6078,
+          "text_it": "Nel modulo di Constatazione amichevole, il conducente deve riportare, ove possibile, le generalità di eventuali testimoni",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e3b5651b3dd42bd08cd70fd37d24e5f4f415f803b59baf2231873a38aa1561c1",
+        "localized_text": "在双方协商事故报告表上，驾驶员应在可能情况下填写证人的个人身份信息。"
+      },
+      {
+        "source": {
+          "number": 28253,
+          "quesito_id": 6078,
+          "text_it": "Nel modulo di Constatazione amichevole, il conducente deve riportare un semplice disegno schematico indicante la posizione dei veicoli e la dinamica dell’incidente",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9351d21fe181f59ba5c1f49db1f11d174fbf5d35ab973532c05c784da0bfc326",
+        "localized_text": "在双方协商事故报告表上，驾驶员必须绘制简单示意图，标明车辆位置和事故经过。"
+      },
+      {
+        "source": {
+          "number": 28254,
+          "quesito_id": 6078,
+          "text_it": "Nel modulo di Constatazione amichevole, il conducente deve riportare il numero di targa, il numero di polizza e la compagnia assicurativa dei veicoli coinvolti",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4164e299fd812f6f0a86dc580ce115174b548a09806e5fda66d9704b8f93ec94",
+        "localized_text": "在双方协商事故报告表上，驾驶员必须填写涉事车辆的车牌号、保险单号和保险公司。"
+      },
+      {
+        "source": {
+          "number": 28255,
+          "quesito_id": 6078,
+          "text_it": "Dopo un incidente stradale, se il veicolo coinvolto crea pericolo o intralcio, deve essere portato al più presto fuori dalla carreggiata",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a8c48152514da02a6d64b6bddb869f4504c740fc4feb093c9a7d4a238a499d6e",
+        "localized_text": "道路事故后，如果涉事车辆造成危险或妨碍交通，必须尽快将其移离车行道。"
+      },
+      {
+        "source": {
+          "number": 28256,
+          "quesito_id": 6078,
+          "text_it": "Dopo un incidente stradale, nei casi e con le modalità previste dal Codice della Strada, il conducente deve utilizzare il segnale di veicolo fermo",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "18a4bdba40a4dfa9cf62577a946c6561318474a1d5605bc49c0767253dda6ad8",
+        "localized_text": "道路事故后，驾驶员必须在道路交通法规规定的情况下按规定方式使用故障停车警告标志。"
+      },
+      {
+        "source": {
+          "number": 28257,
+          "quesito_id": 6078,
+          "text_it": "Il conducente, dopo un incidente stradale, qualora siano cadute dal veicolo delle sostanze viscide, deve rimanere sul posto per segnalare manualmente il pericolo ai veicoli che sopraggiungono",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d329ca404352e98e874eb70e30bd41781aa6db9f7b2c143f236aed9c5f5a4c54",
+        "localized_text": "道路事故后，如果车辆掉落了滑腻物质，驾驶员必须留在现场，以手势向驶近车辆警告危险。"
+      },
+      {
+        "source": {
+          "number": 28258,
+          "quesito_id": 6078,
+          "text_it": "Il conducente, in caso di incidente stradale ricollegabile ad un suo comportamento, ha l’obbligo di fermarsi e di prestare assistenza a chi ha subito un danno alla persona",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0a719592e5a11a107482cb82ca4e5b2549bd767598ba4fb87b3aae15ce48cc90",
+        "localized_text": "如果道路事故与驾驶员的行为有关，驾驶员必须停车并协助任何受到人身伤害的人。"
+      },
+      {
+        "source": {
+          "number": 28259,
+          "quesito_id": 6078,
+          "text_it": "E' punibile con la reclusione il conducente, coinvolto in un incidente stradale, che non si fermi a prestare assistenza a chi ha subito un danno alla persona",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "81efc2e7d47e4ea4bf517d73c6868f28baae23404f68f7cc5d9ea5e5d3734d6a",
+        "localized_text": "涉及道路事故的驾驶员如未停车协助受到人身伤害的人，可被判处监禁。"
+      },
+      {
+        "source": {
+          "number": 28260,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente stradale, il conducente che si dia alla fuga è passibile di arresto",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "59cd594bc30e32dc153c54192884f5572f9e55a980b408070e98857a0cdbbacf",
+        "localized_text": "道路事故后逃逸的驾驶员可能被拘捕。"
+      },
+      {
+        "source": {
+          "number": 28261,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente stradale, il conducente che si fermi e presti assistenza non è, di norma, soggetto all’arresto preventivo",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "43f8ccc6bee63b333604164965192c9990478526e3e478506440b408ed4adb95",
+        "localized_text": "道路事故后停车并提供援助的驾驶员通常不受预防性拘捕。"
+      },
+      {
+        "source": {
+          "number": 28262,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente stradale, si deve richiedere l’intervento dell’autorità quando non sia possibile ripristinare la circolazione",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f8301aea0812ca7a38aac4386a8864dc50bbdd7fe0d31ae483f4b5bd9581c3f7",
+        "localized_text": "道路事故后，如果无法恢复交通，必须请求有关部门到场。"
+      },
+      {
+        "source": {
+          "number": 28263,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente stradale, si può richiedere l’intervento dell’autorità quando l’altro conducente non sia in grado di esibire il certificato di assicurazione",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f6896752d9757f067a6905dd0435ca6253804efd1d7b1003ecb18dd144641797",
+        "localized_text": "道路事故后，如果另一名驾驶员无法出示保险证明，可以请求有关部门到场。"
+      },
+      {
+        "source": {
+          "number": 28264,
+          "quesito_id": 6078,
+          "text_it": "Si deve richiedere l’intervento dell’autorità quando un incidente stradale ha provocato feriti",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e5f5a0895cbd4f2a2fbd30e9c059cfdb421affa2206db671fd2a1b206b9a19c9",
+        "localized_text": "道路事故造成人员受伤时，必须请求有关部门到场。"
+      },
+      {
+        "source": {
+          "number": 28265,
+          "quesito_id": 6078,
+          "text_it": "A seguito di un incidente stradale, non si devono spostare i veicoli coinvolti finché non siano stati soccorsi eventuali feriti e la polizia non abbia rilevato tutti gli elementi utili alla ricostruzione dell’incidente",
+          "answer": 1,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "12617f5950f4172a03dff0b3448103ddaa298a64b047417f2bc062e22212d1f6",
+        "localized_text": "道路事故后，在伤者得到救助且警方记录完还原事故所需的所有信息之前，不得移动涉事车辆。"
+      },
+      {
+        "source": {
+          "number": 28266,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente stradale con soli danni alle cose, il conducente non ha l’obbligo di fermarsi e fornire le proprie generalità",
+          "answer": 0,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "45d9c2e327ad87ee9a8e0a6c87153e9cb4279148bee3446c67970d6fbff8dab6",
+        "localized_text": "道路事故仅造成财产损失时，驾驶员没有义务停车并提供个人身份信息。"
+      },
+      {
+        "source": {
+          "number": 28267,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente stradale con soli danni alle cose, al conducente è consigliato di fermarsi e fornire le proprie generalità",
+          "answer": 0,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "71752c3eef9b8d0910018a16905f1158a4c2b01797de82f2999d99043dea0123",
+        "localized_text": "道路事故仅造成财产损失时，建议驾驶员停车并提供个人身份信息。"
+      },
+      {
+        "source": {
+          "number": 28268,
+          "quesito_id": 6078,
+          "text_it": "In caso di incidente con più di due veicoli coinvolti, è opportuno avvalersi del modulo di Constatazione amichevole (denuncia di sinistro)",
+          "answer": 0,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4738522de3ba9f4f1640a5f674a558cdfdec790e0040294a300ce869fe45b0c7",
+        "localized_text": "事故涉及两辆以上车辆时，宜使用双方协商事故报告表。"
+      },
+      {
+        "source": {
+          "number": 28269,
+          "quesito_id": 6078,
+          "text_it": "Nel modulo di Constatazione amichevole, è sufficiente che il conducente riporti il luogo e modalità dell’incidente",
+          "answer": 0,
+          "page": 64,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4f5253af9487ccd4fecc0d3d770df7face358788fb406fc47a2f70d9524f6c3a",
+        "localized_text": "在双方协商事故报告表中，驾驶员只需填写事故地点和经过。"
+      }
+    ],
+    "task_sha256": "a0970b7a9fff0be335bdda3151e3db3deed4683161c5a8d7d2665f24a732d274"
+  },
+  "rows": [
+    {
+      "number": 28245,
+      "text": "应尽快尽可能清除障碍，并向其他道路使用者示警；还须通知道路管理机构或警方。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-161/ commi 1 e 3: rimozione sollecita, segnalazione agli utenti e informazione all’ente o alla polizia."
+      ]
+    },
+    {
+      "number": 28246,
+      "text": "即使只有财产损失，涉及与自身行为有关事故的人也必须停车，向受损方提供身份信息及其他有用信息。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-189/ commi 1, 4 e 5: fermata e dati anche per danni alle sole cose."
+      ]
+    },
+    {
+      "number": 28247,
+      "text": "停车并提供有用信息，有助于受损方还原经过和提出索赔，即使没有人员受伤也是如此。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-189/ commi 1 e 4: fermata e informazioni utili anche ai fini risarcitori; https://www.ivass.it/consumatori/quesiti/r.c.auto/index.html richiesta di risarcimento: include dinamica del sinistro."
+      ]
+    },
+    {
+      "number": 28248,
+      "text": "该表在同一份文件中收集两辆车的数据和事故经过，便于向保险公司报案。",
+      "evidence": [
+        "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, istruzioni 1 e 3: denuncia allo assicuratore e un modulo per due veicoli."
+      ]
+    },
+    {
+      "number": 28249,
+      "text": "日期、地点和经过有助于确定事故并说明其发生方式；表格为此设有栏目。",
+      "evidence": [
+        "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, campi 1, 2 e 12: data, luogo e circostanze."
+      ]
+    },
+    {
+      "number": 28250,
+      "text": "表格为每辆车设置驾驶员信息栏目，以确定碰撞时是谁在驾驶。",
+      "evidence": [
+        "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, campo 9: dati del conducente dei veicoli A e B."
+      ]
+    },
+    {
+      "number": 28251,
+      "text": "车主可能不是驾驶员；车主信息有助于确定与涉事车辆有关的人。",
+      "evidence": [
+        "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, foglio altre informazioni: proprietario se diverso dal contraente/assicurato; https://www.ministeroturismo.gov.it/wp-content/uploads/2025/12/Regolamento-utilizzo-autovetture-di-servizio_27_11_25_signed_Marcato-1-1.pdf art. 8 punto 12(e): generalità del proprietario se diverso dal conducente."
+      ]
+    },
+    {
+      "number": 28252,
+      "text": "已有的证人信息便于联系证人以查明经过；表格设有专门的栏目。",
+      "evidence": [
+        "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, foglio altre informazioni: campi per testimone e recapiti."
+      ]
+    },
+    {
+      "number": 28253,
+      "text": "示意图补充事故经过的勾选项，有助于表现碰撞时车辆的位置和事故经过。",
+      "evidence": [
+        "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, campo 13 e istruzione 4: grafico del sinistro."
+      ]
+    },
+    {
+      "number": 28254,
+      "text": "车牌和保险信息将涉事车辆与各自的保险联系起来，有助于处理事故报案。",
+      "evidence": [
+        "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, campi 7 e 8: targa, compagnia e numero di polizza."
+      ]
+    },
+    {
+      "number": 28255,
+      "text": "为疏通车行道，应尽快移走车辆；无法移出时，将其置于车行道右侧边缘。须保障安全，并在不影响安全的情况下保留痕迹。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-161/ comma 1; https://aci.gov.it/codice-della-strada/art-189/ commi 2 e 3: sicurezza, tracce e rimozione degli intralci."
+      ]
+    },
+    {
+      "number": 28256,
+      "text": "在道路法典规定的情况下，三角警示牌用于提醒后方驶近的驾驶员注意车辆或障碍物。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-162/ commi 1-3: casi e modalità di uso del segnale mobile di pericolo."
+      ]
+    },
+    {
+      "number": 28257,
+      "text": "立即在确保自身安全的情况下警示来车，并通知警方或道路管理机构。按规定使用警示三角牌；没有时使用其他适当方式，并非任何情况下都须留在现场手势警示。",
+      "evidence": [
+        "Official superiori quiz 28257 prints VERO. CdS art. 161(2)–(3), https://aci.gov.it/codice-della-strada/art-161/ : remove obstruction where possible, warn road authority or police, use warning device or suitable alternative when unavailable. Immediate safe manual warning is practical, not an unconditional indefinite duty."
+      ]
+    },
+    {
+      "number": 28258,
+      "text": "涉及与自身行为有关事故的人必须停车，并向伤者提供必要帮助。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-189/ comma 1: obbligo di fermarsi e prestare assistenza."
+      ]
+    },
+    {
+      "number": 28259,
+      "text": "如果事故与驾驶员的行为有关且有人受伤，不提供帮助可处监禁；造成人身伤害后逃逸也会受到处罚。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-189/ commi 1, 6 e 7: fuga con danni alle persone e omissione di assistenza punite con reclusione."
+      ]
+    },
+    {
+      "number": 28260,
+      "text": "在与自身行为有关的事故中逃逸，若有人身伤害，可能被逮捕；仅有财产损失时适用不同规定。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-189/ commi 5 e 6: sanzione amministrativa per sole cose e possibile arresto per fuga con danni alle persone."
+      ]
+    },
+    {
+      "number": 28261,
+      "text": "对于过失造成人身伤害的情况，停车、提供必要帮助并立即听候司法警察处理的驾驶员，不适用现行犯逮捕。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-189/ comma 8: condizioni e limitazione ai casi di lesioni personali colpose."
+      ]
+    },
+    {
+      "number": 28262,
+      "text": "车道受阻时，应警示其他道路使用者并通知道路管理机构或警方。如果无法清除障碍，他们的介入有助于处理交通受阻。",
+      "evidence": [
+        "CdS art. 161(1)–(3), https://aci.gov.it/codice-della-strada/art-161/ : in specified carriageway obstruction or dangerous spill cases, warn road users and inform road authority or police; intervention can help manage a continuing obstruction."
+      ]
+    },
+    {
+      "number": 28263,
+      "text": "如果无法取得另一辆车的保险信息，可以请求当局介入，核实必要信息。",
+      "evidence": [
+        "https://www.ministeroturismo.gov.it/wp-content/uploads/2025/12/Regolamento-utilizzo-autovetture-di-servizio_27_11_25_signed_Marcato-1-1.pdf art. 8 punti 5(d), 10 e 11: dati assicurativi e ricorso alle forze dell’ordine in caso di reticenza; https://aci.gov.it/codice-della-strada/art-189/ comma 4: obbligo di fornire informazioni utili."
+      ]
+    },
+    {
+      "number": 28264,
+      "text": "有人受伤时，应停车并提供帮助，呼叫医疗救援。通知警方前来协助处理事故也是审慎做法。",
+      "evidence": [
+        "CdS art. 189(1), https://aci.gov.it/codice-della-strada/art-189/ : a user involved through their conduct must stop and assist those injured.",
+        "ACI Roma https://prati.aciroma.com/cosa-fare-in-caso-di-incidente-stradale/ : practical advice to notify emergency medical services and police when there are injuries; do not infer a universal statutory police-call obligation from this advice."
+      ]
+    },
+    {
+      "number": 28265,
+      "text": "题库判为VERO，但规定并不总是禁止在警方勘查前移动车辆。应救助伤者，并在安全允许时保留现场痕迹；只有财产损失时，应尽可能避免妨碍交通。",
+      "evidence": [
+        "Official superiori quiz 28265 prints VERO although wording is unconditional. CdS art. 189(2)–(3), https://aci.gov.it/codice-della-strada/art-189/ : preserve traces compatible with safety and, for property damage only, avoid traffic obstruction where possible."
+      ]
+    },
+    {
+      "number": 28266,
+      "text": "这不是自愿的：即使只有财产损失，涉及与自身行为有关事故的人也必须停车并向受损方提供身份信息。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-189/ commi 1, 4 e 5: fermata e informazioni anche per danni alle sole cose."
+      ]
+    },
+    {
+      "number": 28267,
+      "text": "这不只是建议：即使与自身行为有关的事故只造成财产损失，停车和提供身份信息也是义务。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-189/ commi 1, 4 e 5: obbligo di fermarsi e fornire i dati anche per sole cose."
+      ]
+    },
+    {
+      "number": 28268,
+      "text": "题库判为FALSO，但超过两辆车参与事故时也可使用CAI事故申报表：IVASS指引规定三辆车使用两份表格。使用表格与直接赔偿的适用条件是不同问题。",
+      "evidence": [
+        "Official superiori quiz 28268 prints FALSO. IVASS Reg. 56/2025 Annex 1 instruction 3, https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf : two forms for three vehicles; form use differs from direct-compensation eligibility."
+      ]
+    },
+    {
+      "number": 28269,
+      "text": "仅填写地点和经过不够：表格还要求其他资料，包括日期、车辆及保险公司的识别信息。",
+      "evidence": [
+        "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, campi 1, 2, 7, 8 e 12: data, luogo, veicoli, assicurazioni e circostanze."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "a0970b7a9fff0be335bdda3151e3db3deed4683161c5a8d7d2665f24a732d274",
+    "output_sha256": "d7d7e2882901d3793ef3778d881a007d126cc208b08081d0ff9b7fedcb30b11b",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      28245,
+      28246,
+      28247,
+      28248,
+      28249,
+      28250,
+      28251,
+      28252,
+      28253,
+      28254,
+      28255,
+      28256,
+      28257,
+      28258,
+      28259,
+      28260,
+      28261,
+      28262,
+      28263,
+      28264,
+      28265,
+      28266,
+      28267,
+      28268,
+      28269
+    ],
+    "issues": [],
+    "source_checks": [
+      "All 25 source questions, printed answers and four-language explanations reviewed; no linked figures in this batch.",
+      "CdS art. 161(1)–(3), https://aci.gov.it/codice-della-strada/art-161/: obstruction warnings and notification in covered cases.",
+      "CdS art. 189(1)–(4), https://aci.gov.it/codice-della-strada/art-189/: assistance, preservation subject to safety and property-only traffic clearance.",
+      "ACI Roma https://prati.aciroma.com/cosa-fare-in-caso-di-incidente-stradale/ advises medical and police response with injuries; 28264 presents police notification as prudent rather than inventing a universal statutory obligation.",
+      "IVASS Reg. 56/2025 Annex 1 instruction 3 https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf explicitly provides two forms for three vehicles."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1ea98-b85f-7de3-a36a-963cc712a844",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3e404e0892fb9e4434aad183bb1b645203906b093fc7fa1b145ddbeefc4fa73a",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1ea98-b85f-7de3-a36a-963cc712a844",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28257,
+              "reason": "Il VERO impone di rimanere sul posto e segnalare manualmente in ogni caso; l’art. 161 richiede il segnale mobile o, in sua mancanza, altri mezzi idonei, senza stabilire sempre la segnalazione manuale. Non è verificata la portata assoluta della formulazione.",
+              "checked_sources": [
+                "https://aci.gov.it/codice-della-strada/art-161/ commi 2-3: cautele immediate e segnale dell’art. 162 o altri mezzi idonei in mancanza.",
+                "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb quesito 28257: formulazione e VERO."
+              ]
+            },
+            {
+              "number": 28265,
+              "reason": "Il VERO vieta senza eccezioni di spostare i veicoli fino ai rilievi della polizia anche con soli danni materiali; l’art. 189 subordina la conservazione delle tracce alla sicurezza e richiede di evitare, ove possibile, intralcio in caso di soli danni alle cose.",
+              "checked_sources": [
+                "https://aci.gov.it/codice-della-strada/art-189/ commi 2-3: sicurezza prioritaria, conservazione compatibile delle tracce e rimozione degli intralci con soli danni alle cose.",
+                "https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/guida-sicura-su-strada/soccorso-in-caso-di-incidente-stradale/ ammette spostamento per sicurezza o circolazione."
+              ]
+            },
+            {
+              "number": 28268,
+              "reason": "Il quesito giudica FALSO il ricorso opportuno al modulo con più di due veicoli, ma le istruzioni IVASS prevedono espressamente più moduli in caso di tre o più veicoli. Non è esplicitata una limitazione a un solo modulo o al risarcimento diretto.",
+              "checked_sources": [
+                "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf allegato 1, istruzione 3: due moduli per tre veicoli e così via.",
+                "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb quesito 28268: formulazione e FALSO."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3e404e0892fb9e4434aad183bb1b645203906b093fc7fa1b145ddbeefc4fa73a",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "a0970b7a9fff0be335bdda3151e3db3deed4683161c5a8d7d2665f24a732d274",
+        "output_sha256": "d6626607170f08b52de6f335ae4ff56cd8d671a3529f496d91ee46b9ad38cf52",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          28245,
+          28246,
+          28247,
+          28248,
+          28249,
+          28250,
+          28251,
+          28252,
+          28253,
+          28254,
+          28255,
+          28256,
+          28257,
+          28258,
+          28259,
+          28260,
+          28261,
+          28262,
+          28263,
+          28264,
+          28265,
+          28266,
+          28267,
+          28268,
+          28269
+        ],
+        "issues": [
+          {
+            "number": 28262,
+            "reason": "The explanation states a general obligation to request authorities whenever traffic cannot be restored, but the cited Ministry of Tourism document is an internal service-vehicle policy. Article 161(3) requires informing the road authority or police in its covered obstruction cases; use that exact scope or provide authority for a general obligation."
+          },
+          {
+            "number": 28264,
+            "reason": "The explanation presents calling authorities for any injury as an unqualified general obligation, but its sole supporting source is a service-vehicle policy. Cite general authority for that scope or qualify as a practical recommendation while preserving the duty to stop and assist under Article 189(1)."
+          }
+        ],
+        "source_checks": [
+          "All 25 Italian source assertions and printed verdicts compared to all four language drafts; no question in this batch has a linked figure.",
+          "CdS Article 189(1)–(4) verified at https://aci.gov.it/codice-della-strada/art-189/; Article 161 at https://aci.gov.it/codice-della-strada/art-161/.",
+          "IVASS Regulation 56/2025 Annex 1 inspected at https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf: instruction 3 permits two forms for three vehicles; instruction 5 specifies minimum counterparty details if unsigned.",
+          "Motorway tunnel operator guidance checked at https://www.autostrade.it/it/tecnologia-sicurezza/la-sicurezza-in-galleria."
+        ]
+      }
+    ]
+  }
+}

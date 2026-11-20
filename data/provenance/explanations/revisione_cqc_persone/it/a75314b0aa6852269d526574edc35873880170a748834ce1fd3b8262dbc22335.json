@@ -1,0 +1,158 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ece6-9680-7961-b204-644f95d739e4"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "revisione_cqc_persone",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 18276,
+          "quesito_id": 3657,
+          "text_it": "Il foglio di viaggio utilizzato per un trasporto occasionale comunitario deve contenere l’elenco dei passeggeri",
+          "answer": 0,
+          "page": 18,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "a4dfa7f110300a1e337534e731ee5b5933d4c2df8e555b14a7808ea35edce1ef"
+      },
+      {
+        "source": {
+          "number": 18291,
+          "quesito_id": 3660,
+          "text_it": "La mano da tenere è la sinistra in Inghilterra",
+          "answer": 1,
+          "page": 18,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "8f8ae8cc574edcec336e7cce90cabc630ca80bcdacfda8cf4bbb6b0c32923e1b"
+      },
+      {
+        "source": {
+          "number": 18292,
+          "quesito_id": 3660,
+          "text_it": "La mano da tenere è la sinistra in Galles",
+          "answer": 1,
+          "page": 18,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "9b5508eb48febe6ccf3bec4e3312fcf69f38d760469696aecc765888826ee0bf"
+      },
+      {
+        "source": {
+          "number": 18293,
+          "quesito_id": 3660,
+          "text_it": "La mano da tenere è la sinistra in Irlanda",
+          "answer": 1,
+          "page": 18,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "14d6a39c606b2c7a769f8ce95d7db7dbb95d59bb8fa0b9798123d319984550de"
+      },
+      {
+        "source": {
+          "number": 18294,
+          "quesito_id": 3660,
+          "text_it": "La mano da tenere è la sinistra in Francia",
+          "answer": 0,
+          "page": 18,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "eff68f6d2ecd5583bc9984b30837719530e43809b46327d995d3e96b30090d89"
+      },
+      {
+        "source": {
+          "number": 18295,
+          "quesito_id": 3660,
+          "text_it": "La mano da tenere è la sinistra in Austria",
+          "answer": 0,
+          "page": 18,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "0134514bc3ed7e5ee128fa58df64a4e1ae3f94d507351251448e854dff3eefdd"
+      },
+      {
+        "source": {
+          "number": 18296,
+          "quesito_id": 3660,
+          "text_it": "La mano da tenere è la sinistra in Olanda",
+          "answer": 0,
+          "page": 18,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "6faef6092d47d00c187ebf8bda9212d8ff51955d3393c251517ff7d9e057d284"
+      }
+    ],
+    "task_sha256": "e16162c451d7b2f7e9a4415caf84cc6b88afb9271cf8cfb5fbf300e871d30a49"
+  },
+  "rows": [
+    {
+      "number": 18276,
+      "text": "Il foglio di viaggio comunitario non richiede l’elenco nominativo dei passeggeri: il modello prevede l’indicazione del numero dei viaggiatori per le tratte indicate.",
+      "evidence": [
+        "Regolamento (UE) n. 361/2014, articolo 2 e allegato I, punto 7, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A02014R0361-20140430: il modello del foglio di viaggio indica il numero di viaggiatori, non un elenco nominativo"
+      ]
+    },
+    {
+      "number": 18291,
+      "text": "In Inghilterra si circola tenendo la sinistra, salvo diversa indicazione.",
+      "evidence": [
+        "GOV.UK, Learning to drive a car syllabus, unità 3, https://www.gov.uk/guidance/learning-to-drive-a-car-syllabus/unit-3-driving-a-vehicle-in-accordance-with-the-highway-code: nella guida normale si tiene la sinistra salvo diversa indicazione"
+      ]
+    },
+    {
+      "number": 18292,
+      "text": "In Galles si circola tenendo la sinistra, salvo diversa indicazione.",
+      "evidence": [
+        "GOV.UK, Learning to drive a car syllabus, unità 3, https://www.gov.uk/guidance/learning-to-drive-a-car-syllabus/unit-3-driving-a-vehicle-in-accordance-with-the-highway-code: nella guida normale si tiene la sinistra salvo diversa indicazione"
+      ]
+    },
+    {
+      "number": 18293,
+      "text": "In Irlanda si circola tenendo la sinistra.",
+      "evidence": [
+        "Commissione europea, Your Europe, Road rules and safety, https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/: l’Irlanda figura fra i paesi in cui si guida a sinistra"
+      ]
+    },
+    {
+      "number": 18294,
+      "text": "In Francia non si tiene la sinistra: si circola sulla destra.",
+      "evidence": [
+        "Ambasciata britannica a Parigi, Drive right, think right, https://www.gov.uk/government/news/drive-right-think-right-advises-british-embassy-paris: in Francia si guida sulla destra"
+      ]
+    },
+    {
+      "number": 18295,
+      "text": "In Austria non si tiene la sinistra: si circola sulla destra.",
+      "evidence": [
+        "Commissione europea, Your Europe, Road rules and safety, https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/: nell’UE la guida a sinistra è indicata per Cipro, Irlanda e Malta, non per l’Austria"
+      ]
+    },
+    {
+      "number": 18296,
+      "text": "In Olanda non si tiene la sinistra: si circola sulla destra.",
+      "evidence": [
+        "Commissione europea, Your Europe, Road rules and safety, https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/: nell’UE la guida a sinistra è indicata per Cipro, Irlanda e Malta, non per i Paesi Bassi"
+      ]
+    }
+  ],
+  "output_sha256": "4c86c2195b94868bbc304f037a65dd951fce3a5b9cead54bc39b02ac6a1aa7da"
+}

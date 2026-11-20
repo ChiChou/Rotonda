@@ -1,0 +1,49 @@
+{
+  "batch": "034",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "b29f5156438546ab87117d8cd33e7f06c3bf34bc4d90a41ae254d4b8fce0fb2f",
+  "source_sha256": "300022b2ead0a7831c526aecd3c3d5a8dc0215124f6a2bca6991d7994cede0f8",
+  "corrections": [
+    {
+      "id": "2cc31f92912b1440d455a0b4c9f76ee9741a8b47bbdec9c001e4157619d22c0b",
+      "before": "La señal mostrada indica un área de parada en el lado izquierdo",
+      "after": "La señal mostrada indica un apartadero en el lado izquierdo",
+      "reason": "Piazzola di sosta designa un apartadero, no necesariamente una parada genérica."
+    },
+    {
+      "id": "2d6990b64cb0795f622fdc6c31c33a71ef055148fdaaf1ee2d1763221d619cc7",
+      "before": "El seguro de responsabilidad civil automotor puede indemnizar a las personas no transportadas que sufran daños por la circulación del vehículo",
+      "after": "Las personas no transportadas que sufran daños por la circulación del vehículo son indemnizables por el seguro de responsabilidad civil automotor (RCA)",
+      "reason": "Italian says these persons are compensable by the RCA insurance; the draft made the insurer the subject with \"puede\" (may), changing the claim"
+    },
+    {
+      "id": "2d82c1489f3c483998f82c6682e17a82c722d124af50566249e8e2257986cb22",
+      "before": "Entre las medidas para impedir la entrada irregular de extranjeros están los detectores de latidos cardíacos, que permiten detectar personas dentro de los vehículos",
+      "after": "Entre las medidas para impedir la entrada irregular de extranjeros están los detectores de latidos cardíacos (heartbeat), que permiten detectar personas dentro de los vehículos",
+      "reason": "Restituye el término heartbeat incluido en el original."
+    },
+    {
+      "id": "2d92fd3feeee3bcd0d77a610c73006a2df6a71147fae312b426c81469b59d921",
+      "before": "Según el CMR, puede solicitarse una carta de porte por cada carga y por cada tipo de mercancía transportada",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), puede solicitarse una carta de porte por cada carga y por cada tipo de mercancía transportada",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "2e247c1debc6627b8d30629c6c5a1503d4abca8f38d17a9f64d7c99263828aed",
+      "before": "Según el CMR, si es imposible continuar el viaje, el transportista no necesita comunicarlo al remitente ni al destinatario",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), si es imposible continuar el viaje, el transportista no necesita comunicarlo al remitente ni al destinatario",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "d4c01e27218e68e55a0c13d4fda6e155912c8d0257d8f40ca54776c52b0ef648"
+}

@@ -1,0 +1,49 @@
+{
+  "batch": "142",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "dd3de59da9bd8595545d5e3bb8c1fe96572628ccf36bbed4948399e87a3f32e7",
+  "source_sha256": "8c5681680a79c0a130f8805f3014032f9202a3736098c7fe6557f0087c2b2172",
+  "corrections": [
+    {
+      "id": "bc1b9d41b745ca441e2634253c5d273bd58bea46519f6a37a3dd34ec090d1bda",
+      "before": "Los vehículos cisterna están sujetos a inestabilidad por el movimiento del líquido transportado",
+      "after": "Los vehículos cisterna están sujetos a inestabilidad por la agitación del líquido transportado",
+      "reason": "Precisa el movimiento de agitación del líquido indicado por sbattimento."
+    },
+    {
+      "id": "bc6025a1a2b77138b9fda39c9e5540ec5408f06a33d29c863a35c7bb288a8f41",
+      "before": "A bordo de los autobuses utilizados para servicios ocasionales internacionales en la UE se necesitan la copia certificada de la licencia comunitaria y el documento de control, es decir, la hoja de ruta",
+      "after": "A bordo de los autobuses utilizados para servicios ocasionales internacionales en la UE se necesitan copias certificadas de la licencia comunitaria y del documento de control, es decir, la hoja de ruta",
+      "reason": "El original exige copia conforme de ambos documentos."
+    },
+    {
+      "id": "bc6d1e46606fb3407ca5bdc5f1119dbcf643ff3ae48aec195410e317596a7e11",
+      "before": "Conviene que el conductor que presenta señales de cansancio llegue a la zona de estacionamiento más cercana y descanse",
+      "after": "Conviene que el conductor que presenta señales de cansancio llegue al apartadero más cercano y descanse",
+      "reason": "Piazzola di sosta indica un apartadero vial."
+    },
+    {
+      "id": "bcd825b8c87dae0b6da3f5284d15e0442e8b1d96a047c37649370e45d5ca72a7",
+      "before": "Detención, estacionamiento, parada y partida",
+      "after": "Parada, estacionamiento, detención y partida",
+      "reason": "Distingue fermata de arresto y conserva su orden."
+    },
+    {
+      "id": "bce89f08cbb9e6e5482d4c64c4962432cab493099f5e104a98f3e8ba00f52d07",
+      "before": "06##tipología6 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "06##tipologia6 CQC - DL 30 DE JULIO DE 2021",
+      "reason": "Code label must use Italian tipologia spelling; DL is the Italian decree-law, not an added expansion"
+    }
+  ],
+  "reviewed_file_sha256": "c290d509a91dac99d0ac59170bfdcefe889b514d57e353c8a2fad615223d0749"
+}

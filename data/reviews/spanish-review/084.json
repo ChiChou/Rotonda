@@ -1,0 +1,31 @@
+{
+  "batch": "084",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "b91e3cb60a0a788714501db4f1eec9522ffe1c559edb288ca1b5f773091e0f70",
+  "source_sha256": "6c9ed47b326f6e1b6dca7e1839b70ccdf97610d54ec1994fba74016ad732f00d",
+  "corrections": [
+    {
+      "id": "6f496c4c5e9830647051c691accf0df7c37ddfd649b9804fc10c92f337bf391a",
+      "before": "Por servicio ocasional de transporte de personas en autobús de «circuito cerrado» se entiende un servicio que transporta al mismo grupo de personas tanto en el viaje de ida como en el de regreso",
+      "after": "Por servicio ocasional de transporte de personas en autobús de «puertas cerradas» se entiende un servicio que transporta al mismo grupo de personas tanto en el viaje de ida como en el de regreso",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    },
+    {
+      "id": "7065cdb1340aa2abe8a374dc14773c26f2524d1c0708944d485c678e70fadff2",
+      "before": "La declaración aduanera para someter mercancías a un régimen de tránsito o despacho puede hacerse también verbalmente siempre que haya testigos",
+      "after": "La declaración aduanera para someter mercancías a un régimen de tránsito o despacho debe hacerse también verbalmente, siempre que haya testigos",
+      "reason": "Se restituye la obligación expresada por debe hacerse: la versión previa indicaba solo una posibilidad."
+    }
+  ],
+  "reviewed_file_sha256": "80dc1531902dcebe5d7af8bc6c325c36ee77ead510480cc055bc4d84eae1d3ff"
+}

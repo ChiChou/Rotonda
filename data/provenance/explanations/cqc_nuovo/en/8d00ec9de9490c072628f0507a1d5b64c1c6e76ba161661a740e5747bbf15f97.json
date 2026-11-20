@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed4a-d8e1-7580-835f-01b772a29ded"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 35516,
+          "quesito_id": 7309,
+          "text_it": "La forza di inerzia è uguale per i veicoli che marciano alla stessa velocità",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4f1faf854116c3f0b3d90a8c06e8b2adebef1c4355ee9eef91789f7567836f55",
+        "italian": "Falso: la stessa velocità non basta a determinare la forza inerziale. Essa dipende dalla massa e dall’accelerazione, cioè dalla variazione della velocità.",
+        "italian_sha256": "00fde692594bba454dc75c68e71d6c0d2319586a69c333403079ce83031f2648"
+      },
+      {
+        "source": {
+          "number": 35517,
+          "quesito_id": 7309,
+          "text_it": "La forza di inerzia permette una migliore tenuta di strada del veicolo in curva",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "00877cdef2cd075561a5370adbc134d1eeb4e35f28400b802fda618315de9422",
+        "italian": "Falso: in curva l’inerzia tende a mantenere il moto rettilineo; è l’aderenza degli pneumatici a fornire la forza necessaria a cambiare direzione.",
+        "italian_sha256": "e40a2a97248c7ae2965406c1436b6505176ee45d472c08afc33731bc0253be0e"
+      },
+      {
+        "source": {
+          "number": 35518,
+          "quesito_id": 7309,
+          "text_it": "La forza di inerzia aumenta con la massa del veicolo",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c8faf70e1d09d61022154c3f2e3c84b51579ab9d1e243ea48617557c79cfb9ef",
+        "italian": "Vero: a parità di accelerazione, maggiore è la massa, maggiore è la forza associata alla variazione del moto.",
+        "italian_sha256": "1c07c7edea99c19be213597d8f7635401630b28e926e1798b1de7d9a92ee29d9"
+      },
+      {
+        "source": {
+          "number": 35519,
+          "quesito_id": 7309,
+          "text_it": "Lo spostamento del baricentro influenza la stabilità del veicolo",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3719d20a65c5ae7460d3f62714b9a85d09627ba5b9fa546a8bd4636c7315d978",
+        "italian": "Vero: la posizione del baricentro incide sulla stabilità; per esempio, un baricentro più alto favorisce il ribaltamento.",
+        "italian_sha256": "94328b492acf493dbed42585fa9232c6b8c6635558ceeaecdbb89e704eea72a2"
+      },
+      {
+        "source": {
+          "number": 35520,
+          "quesito_id": 7309,
+          "text_it": "Il baricentro di un autobus è il punto di aggancio tra veicolo trattore e rimorchio",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8a1034c95c7c57bbbdffeaac295212c2e634d9388032c77e01f0e287503fb927",
+        "italian": "Falso: il punto di aggancio collega trattore e rimorchio. Il baricentro è invece il punto in cui si può considerare applicato il peso complessivo dell’autobus.",
+        "italian_sha256": "3109e7dc59ce468826c170f60b54183b2dbd1e9eebd43211ab7d7cc515bb96b5"
+      },
+      {
+        "source": {
+          "number": 35521,
+          "quesito_id": 7310,
+          "text_it": "L'altezza baricentrica del veicolo scarico è costante",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9c15cf4110cfbc04c7585860ece1b66f122068f7f411277d35a83900a318a93e",
+        "italian": "Vero nel modello del quiz: per uno stesso veicolo scarico, con masse e assetto invariati, il baricentro ha altezza determinata. Variazioni di assetto o configurazione possono modificarla.",
+        "italian_sha256": "f8f435809bd82f364e96ea4851e3384e582c8fbf6ec57cba0a575f2ea41197b5"
+      },
+      {
+        "source": {
+          "number": 35522,
+          "quesito_id": 7310,
+          "text_it": "La posizione del baricentro varia in funzione sia del carico che del suo posizionamento sul veicolo",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2e247f26f7d68ff165c9070b01455a9b31435ae6a5795704c47194a9f106cfef",
+        "italian": "Vero: il baricentro complessivo dipende dalla massa del carico e dalla sua posizione rispetto al veicolo.",
+        "italian_sha256": "eae39c68ecc7029a2eddbb763c8fdddef8f0eea703b3c95e97a5e41361a446e9"
+      },
+      {
+        "source": {
+          "number": 35523,
+          "quesito_id": 7310,
+          "text_it": "Il baricentro di un veicolo è ubicato al centro dell'asse delle ruote motrici",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b41e4655625975a78820a4367fd34b191b16aaffbda29765675e0cc8fca5da49",
+        "italian": "Falso: il baricentro dipende dalla distribuzione delle masse e non coincide necessariamente con il centro dell’asse motore.",
+        "italian_sha256": "1023edfb21464c68cdfb024f38c6318738fc05ec37f17add13006a74e551f176"
+      },
+      {
+        "source": {
+          "number": 35524,
+          "quesito_id": 7310,
+          "text_it": "Il baricentro varia a seconda che il veicolo percorra un rettilineo o una curva",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d19e6ee046d59ac85191ab3ac2c4035d07fd5feea938879e4c872a0ba434bd1c",
+        "italian": "Falso nel senso del quiz: la traiettoria da sola non cambia il baricentro rispetto a un veicolo rigido con carico fermo. In pratica rollio o spostamenti del carico possono modificarne la posizione rispetto alla strada.",
+        "italian_sha256": "fdcc0b9640eb2769d572f1af4f70ff9dd6b24de074561a003d0ae74fefef4dac"
+      },
+      {
+        "source": {
+          "number": 35525,
+          "quesito_id": 7310,
+          "text_it": "Il posizionamento del carico del veicolo influenza la posizione del baricentro",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a2f2ba92cd528bae0bdfdb3afeda3472673d5d9b558c7f1fcbcb483c079522b8",
+        "italian": "Vero: spostando il carico cambia la distribuzione delle masse e può spostarsi il baricentro complessivo.",
+        "italian_sha256": "4f1d340d2739455185261ee62dc23785470853d26c92a663726735d07d780356"
+      },
+      {
+        "source": {
+          "number": 35526,
+          "quesito_id": 7310,
+          "text_it": "La differente posizione del carico non modifica il baricentro del veicolo",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c54432f1b1d4eca3d679ec01b6b26a022995dd7b3dfdb9503dc14803aef80618",
+        "italian": "Falso: cambiando la posizione del carico cambia la distribuzione delle masse e può cambiare il baricentro complessivo.",
+        "italian_sha256": "9c7c951252a07dd8ace2b3d3d160b29f57470e2ddf59d294856abfa2596c2253"
+      },
+      {
+        "source": {
+          "number": 35527,
+          "quesito_id": 7310,
+          "text_it": "La posizione del baricentro di un veicolo varia con la sua anzianità",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b18b3d20dbf0dc11e6fb3667c67b34251616f9b6171d18eb0f24fca5704afe2e",
+        "italian": "Falso: l’età da sola non determina la posizione del baricentro, che dipende dalla distribuzione delle masse; modifiche al veicolo possono invece spostarlo.",
+        "italian_sha256": "2ea8bd2d399cc96cc8362f224e7341aca0acf3a86096f21af77ad09f7389fbf0"
+      },
+      {
+        "source": {
+          "number": 35528,
+          "quesito_id": 7310,
+          "text_it": "Il baricentro è il punto nel quale, per convenzione, sono da considerarsi applicate le forze agenti sul veicolo",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2101995d574db1242f9072f1382876072d104991ba496f3938b9b50ea9385b21",
+        "italian": "Vero secondo il quiz, ma la formulazione è imprecisa: nel baricentro si può rappresentare applicato il peso complessivo. Le altre forze agiscono nei rispettivi punti e possono produrre momenti.",
+        "italian_sha256": "8a04f4656607c2d496b5abdea23480a45d497a2b523ad03cd713f6c03ede7793"
+      },
+      {
+        "source": {
+          "number": 35529,
+          "quesito_id": 7310,
+          "text_it": "Il coefficiente di aderenza aumenta se la superficie di contatto tra due corpi è bagnata",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b89adddba4c022c14be806ea80c5c7948287e7d8e85c8c41d725fb1414da5653",
+        "italian": "Falso nel normale caso pneumatico-strada: l’acqua riduce generalmente l’aderenza rispetto alla superficie asciutta. L’effetto dipende comunque dai materiali e dalle condizioni.",
+        "italian_sha256": "c80495aa51557fa0b506fd7cb540994b867299a0ac97aee968deb9dc0c6770c0"
+      },
+      {
+        "source": {
+          "number": 35530,
+          "quesito_id": 7310,
+          "text_it": "Il coefficiente di aderenza tra pneumatico e sede stradale è più alto sulla ghiaia che sull'asfalto",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f5ccc78739bf1866a9030ad8a9507518e0f40b14ebdf49f28ebf940125d62c73",
+        "italian": "Falso: in genere la ghiaia offre meno aderenza dell’asfalto asciutto; i valori effettivi dipendono dalle condizioni delle superfici.",
+        "italian_sha256": "d4cbcc6429e7cbfcfc5d4613bfc9cc6f3a0085d552703afc6c8fcd7e06348a32"
+      },
+      {
+        "source": {
+          "number": 35531,
+          "quesito_id": 7310,
+          "text_it": "Il coefficiente di aderenza varia fra zero e uno",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e60a9cc6bfeb87473297bc9e5e86730f7653230c71b21913ba6a0d09c964a3f1",
+        "italian": "Vero secondo il quiz: nei casi stradali ordinari si usano spesso valori tra zero e uno. Il limite superiore non è però universale: in particolari condizioni il coefficiente può superare uno.",
+        "italian_sha256": "cd2faa8ce69b5855c7f6f7f8d97a2061c198d2c4bdd9fda43621633c05ade1c3"
+      },
+      {
+        "source": {
+          "number": 35532,
+          "quesito_id": 7310,
+          "text_it": "Il coefficiente di aderenza varia fra uno e due",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "75e24ff60dc07fc3d76bd0f8b563f82bcdcdc8b70c7b77e2f72a2136943d299b",
+        "italian": "Falso: il coefficiente non è limitato all’intervallo tra uno e due; nei casi ordinari può essere anche inferiore a uno. Non esiste tuttavia un limite superiore universale pari a uno.",
+        "italian_sha256": "02e58845056677c297f83115df9ec3c9ff9344189daef1032380aad2aa563448"
+      },
+      {
+        "source": {
+          "number": 35533,
+          "quesito_id": 7310,
+          "text_it": "Il coefficiente di aderenza fra pneumatico e asfalto aumenta se l'asfalto è rugoso",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9c894b6df7d1edb65f90e6dd2daa3a7687e5f32d683d779115cb7c142d90bbe3",
+        "italian": "Vero in generale: una tessitura adeguatamente ruvida favorisce l’attrito tra pneumatico e asfalto, anche aiutando il drenaggio dell’acqua.",
+        "italian_sha256": "d0693d24888608c3fb8ec11b98239852358a57493063f454023ff99cfa9f23ea"
+      },
+      {
+        "source": {
+          "number": 35534,
+          "quesito_id": 7310,
+          "text_it": "Il coefficiente di aderenza fra pneumatico e asfalto è basso se l'asfalto è ghiacciato",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ec6f2e51423c52e5f7f4492aaecc6470b96b852a521f87d3ffe65becc1642b4b",
+        "italian": "Vero: il ghiaccio riduce fortemente l’attrito disponibile tra pneumatico e strada, rendendo più facile lo slittamento.",
+        "italian_sha256": "1be6fa61a9321512795fc5c3ff319658aa9d0485d5c9c5776f2cc1d472ce49c2"
+      },
+      {
+        "source": {
+          "number": 35535,
+          "quesito_id": 7310,
+          "text_it": "La forza di attrito è una forza che si genera quando due superficie a contatto strisciano tra loro",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1b7b45c176834de5e231ce150d140e6a513cb8275172ee8fca95226b7030f019",
+        "italian": "Vero: quando due superfici a contatto strisciano si genera attrito dinamico, che si oppone allo scorrimento relativo. Esiste anche attrito statico senza strisciamento.",
+        "italian_sha256": "7595f869690fa3aa920213ddc513dd174937d9417f7e8cd1d09698689780be70"
+      },
+      {
+        "source": {
+          "number": 35536,
+          "quesito_id": 7310,
+          "text_it": "La forza di attrito contrasta lo scorrimento di due superfici a contatto",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c3008608ace49e9703c781b736f698faf55345ac78b5b5f98455f62b9988721b",
+        "italian": "L’attrito tra superfici a contatto contrasta il loro scorrimento relativo o la tendenza a scorrere.",
+        "italian_sha256": "147871c405788be64c78f891f79404cc5878c230deb63a6e611f45f2fad03e10"
+      },
+      {
+        "source": {
+          "number": 35537,
+          "quesito_id": 7311,
+          "text_it": "La forza di attrito che si sviluppa tra pneumatici e asfalto favorisce la diminuzione dei consumi",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "db5adc7c83eeeed746208cf3b209182222d9f62f7954d7c9945165e56c2c9622",
+        "italian": "La resistenza al rotolamento dei pneumatici comporta perdite di energia e può aumentare i consumi. L’aderenza pneumatico-strada è però necessaria alla marcia e alla frenata: non ogni forma di attrito al contatto ha lo stesso effetto dissipativo.",
+        "italian_sha256": "9d0868e682d3815dbcd306718922bf1580e5b14172ef1b7ecd170ae97fe752d7"
+      },
+      {
+        "source": {
+          "number": 35538,
+          "quesito_id": 7311,
+          "text_it": "La forza di attrito si oppone alla forza frenante del veicolo",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "27eaed245ecc613a0f0860f18622e247fe8660561a51ac220d8c29e4a6becab2",
+        "italian": "Non è vero che l’attrito pneumatico-strada si oppone alla frenata: è proprio l’aderenza a permettere alla strada di esercitare sulle ruote una forza che rallenta il veicolo.",
+        "italian_sha256": "d881e72349839e3161698bbefa2bc184f5ef581a2f93e2a08ca2aa1e7a5bcb8f"
+      },
+      {
+        "source": {
+          "number": 35539,
+          "quesito_id": 7311,
+          "text_it": "La forza di attrito aumenta il rendimento del veicolo in quanto non è una forza dissipativa",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6035030990a8af0ca6587b02b1d96392ef49805d6c4cd981be30ad57801b2670",
+        "italian": "È errato dire che l’attrito non sia dissipativo: nello scorrimento parte dell’energia meccanica diventa calore, riducendo il rendimento. L’attrito statico ideale, però, non dissipa necessariamente energia.",
+        "italian_sha256": "c76bbed9b5f66a9001cfd37e71742802d53363e62a71aad72f0d60b3ecbf6b87"
+      },
+      {
+        "source": {
+          "number": 35540,
+          "quesito_id": 7311,
+          "text_it": "La forza di attrito è una forza dissipativa",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ad5271649ce7f8c99b1fc1ca509c5714995d0a3c85ae4b2a10f8dd50157f3152",
+        "italian": "L’attrito di scorrimento dissipa energia meccanica trasformandone parte in calore. La frase va intesa in questo senso: l’attrito statico ideale non dissipa necessariamente energia.",
+        "italian_sha256": "d7ea584edc62b4845b01a7c5e28f11d235de111b1494d7bea000c74f54d162ab"
+      },
+      {
+        "source": {
+          "number": 35541,
+          "quesito_id": 7311,
+          "text_it": "La forza di attrito tende a mantenere il veicolo in movimento costante",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e3747761ca14282ec788a3f8a19fba6c2518b1e729abf2bf70754259f5af8b9d",
+        "italian": "Non è l’attrito a mantenere il veicolo a velocità costante: le resistenze tendono a rallentarlo e devono essere compensate dalla forza motrice. Senza forza risultante, il moto rettilineo uniforme continua per inerzia.",
+        "italian_sha256": "bd756f3894deccd146841dbedd274e12a01f8e7f2c5449c02933b9018a515642"
+      },
+      {
+        "source": {
+          "number": 35542,
+          "quesito_id": 7311,
+          "text_it": "La forza di attrito genera calore",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a83c3d333e854835b45c08447387b57c560795bb643cfc0084e85d8f0408d181",
+        "italian": "L’attrito di scorrimento trasforma parte dell’energia meccanica in calore. La frase riguarda l’attrito dissipativo: quello statico ideale non produce necessariamente calore.",
+        "italian_sha256": "862c0ee1c9bf2ff8e650f309739024be9df444cab2752de2110dd258087ac91d"
+      },
+      {
+        "source": {
+          "number": 35543,
+          "quesito_id": 7311,
+          "text_it": "La forza di attrito comporta l'abbassamento del baricentro del veicolo",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d222e55bb1b4e8350caf528ea4bba40cc0c639ccb461e625ab34f40714194523",
+        "italian": "L’attrito non abbassa di per sé il baricentro: la sua posizione dipende dalla distribuzione delle masse del veicolo e del carico. Una frenata può trasferire carico sugli assi senza cambiare per questo il baricentro.",
+        "italian_sha256": "8bb0b0db3c0efc61cf02b855b7c52d2d953630282d6030d74f2cb3e8438f2dc8"
+      },
+      {
+        "source": {
+          "number": 35544,
+          "quesito_id": 7312,
+          "text_it": "Tra i veicoli per il trasporto pubblico di persone ci sono gli autobus, intesi come veicoli destinati al trasporto di più di 9 persone",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d32a7f2f6c898fc6792af505b82b001fb3d6171725227f016db2eb2db0ef19a0",
+        "italian": "Gli autobus possono essere usati per il trasporto pubblico di persone. Sono destinati al trasporto di più di nove persone, conducente compreso; possono anche avere altri usi.",
+        "italian_sha256": "24931c31c2104ab23a8357a5e75ff3e4c55ed1f8019397d3c0483ba23dd25747"
+      },
+      {
+        "source": {
+          "number": 35545,
+          "quesito_id": 7312,
+          "text_it": "Tra i veicoli per il trasporto pubblico di persone ci sono gli scuolabus, intesi come particolare categoria di autobus, destinati al trasporto di alunni con specifici allestimenti",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "27c288fe4392304819263ce886109366eb61755d448dc0574f9b7fe3a89193e3",
+        "italian": "Lo scuolabus è destinato al trasporto di studenti e ha allestimenti specifici in relazione a tale impiego; può essere impiegato in un servizio di trasporto scolastico.",
+        "italian_sha256": "01579748b4279aff47f7fe439441bf8d0d733e7e492e09d6986b9c8d071866f1"
+      },
+      {
+        "source": {
+          "number": 35546,
+          "quesito_id": 7312,
+          "text_it": "Tra i veicoli per il trasporto pubblico di persone ci sono gli autosnodati, intesi come autobus realizzati con due tronchi rigidi collegati tra loro da una sezione snodata e comunicanti al loro interno",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "888787fef6f8663562eae80e376e976eb9d6bcaf6511e149ea4a1124496d4e12",
+        "italian": "L’autosnodato è un autobus formato da due tronconi rigidi collegati da una sezione snodata, con ambienti comunicanti per i passeggeri.",
+        "italian_sha256": "a5dc67f277f31f479ec581364a5345a515dab972e5185c465279b9b37abbdba4"
+      },
+      {
+        "source": {
+          "number": 35547,
+          "quesito_id": 7312,
+          "text_it": "Tra i veicoli per il trasporto pubblico di persone ci sono gli autosnodati, intesi come autobus costituiti da un'unica unità rigida",
+          "answer": 0,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fb5c44a0508251219b12183bdb2453a108de67f942b44a7f3df4fbf1ab159c08",
+        "italian": "L’autosnodato non è un’unica unità rigida: è formato da due tronconi rigidi collegati da una sezione snodata, con passaggio interno tra i due.",
+        "italian_sha256": "cb54a37ed1f6511a3142e8d25af433ef6edaf35263bb3107ccccc04515180f1d"
+      },
+      {
+        "source": {
+          "number": 35548,
+          "quesito_id": 7312,
+          "text_it": "Tra i veicoli per il trasporto pubblico di persone ci sono gli autocarri, intesi come autoveicoli destinati al trasporto di cose e delle persone addette all'uso e al trasporto delle cose stesse",
+          "answer": 0,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ef185f2b8658344538e7f101134e3c045cace4ae7405fb7947dc208e1ed508c6",
+        "italian": "La definizione di autocarro riportata è corretta, ma è errato includerlo tra i veicoli destinati al trasporto pubblico di persone: è destinato alle cose e alle persone addette al loro uso o trasporto.",
+        "italian_sha256": "c8c94fc02174290614f16c99c3c94a7e8a03a09919917224a7a1bdf4a909659d"
+      },
+      {
+        "source": {
+          "number": 35549,
+          "quesito_id": 7312,
+          "text_it": "Tra i veicoli per il trasporto pubblico di persone ci sono gli autocarri, intesi come veicoli destinati al trasporto occasionale di persone",
+          "answer": 0,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e5937c38f870e235946aa7bb4d1760a7898606a4ed2ca7538b95f98618e95a08",
+        "italian": "L’autocarro non è definito come veicolo per il trasporto occasionale di persone: è destinato alle cose e alle persone addette al loro uso o trasporto.",
+        "italian_sha256": "73c0ab673252308ebf9089717abfce6fc9dbcc450db68f4c05a3576b8bc3a725"
+      },
+      {
+        "source": {
+          "number": 35550,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus sono veicoli che richiedono un titolo autorizzativo nel caso in cui siano destinati ad uso terzi",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bdb50911891e42b7d25c2d386cf28beca8757eca0ff35c5ffa6e126b1c5fd04e",
+        "italian": "Per l’immatricolazione di autobus destinati all’uso di terzi è richiesto il titolo legale previsto per il servizio di trasporto.",
+        "italian_sha256": "f5718f39f070902b2a5165b73596504e66e2509ab73054bb284ff8b20fa8d578"
+      },
+      {
+        "source": {
+          "number": 35551,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus sono veicoli adibiti al trasporto di persone oltre a nove compreso il conducente",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a77585c6ef672e224e52bf649406595404f26438935b36b9d86afbd050155043",
+        "italian": "L’autobus è destinato al trasporto di più di nove persone contando anche il conducente.",
+        "italian_sha256": "bab5c7b9c83fe16ad335048b125db60ac7dde6537f982a473060dda2fb590199"
+      },
+      {
+        "source": {
+          "number": 35552,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus sono veicoli che godono di specifiche deroghe rispetto ai limiti generali per dimensioni per gli altri veicoli",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "063a27eb2ac89086052bac77c7f171b6e015b9eeb943e600105a1c49ab22f60e",
+        "italian": "Per alcune categorie di autobus sono previsti limiti di lunghezza specifici, diversi da quello generale stabilito per i veicoli isolati.",
+        "italian_sha256": "f25b07a802f40c60f9674fb34409c8861d958e1729b2433a7de020d9eaf20900"
+      },
+      {
+        "source": {
+          "number": 35553,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus sono veicoli adibiti al trasporto di merci",
+          "answer": 0,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0f620d64e10b23d7dc9688f05b748b04de1d5402d02d244d5f5e997a43be34a0",
+        "italian": "L’autobus non è definito come veicolo per le merci: è destinato al trasporto di più di nove persone, incluso il conducente. Per il trasporto di cose è prevista, tra le altre, la categoria degli autocarri.",
+        "italian_sha256": "7df3ee2a693c45c700274be43a3b7e3026033975eb3d09dbba556b6d9f7d527a"
+      },
+      {
+        "source": {
+          "number": 35554,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus sono veicoli adibiti al trasporto di persone fino a nove compreso il conducente",
+          "answer": 0,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9f723bf758cb1177aaae3831519b8dd64f606d9dffc14c3139359108ef16e8ea",
+        "italian": "Il limite indicato è errato: l’autobus è destinato al trasporto di più di nove persone, conducente compreso, non fino a nove.",
+        "italian_sha256": "2b70db2b94f850b47f0e05f7ea2cfb41500244e4bb9a20fbd07efa02f88ea0dc"
+      },
+      {
+        "source": {
+          "number": 35555,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus sono veicoli che possono essere destinati esclusivamente ad uso terzi",
+          "answer": 0,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "33231552e53dd4f328ff0df9990e3e00ad0c1541ee85148888aa11f8674df851",
+        "italian": "L’uso di terzi non è esclusivo: gli autobus possono essere destinati anche a uso proprio, alle condizioni previste.",
+        "italian_sha256": "41f7dc363996a96738cf9e755a41dffc0c915eefa16b321f8e6f57797cf99805"
+      },
+      {
+        "source": {
+          "number": 35556,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus urbani hanno prevalenza di posti in piedi",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "03947859944dbd8aa67e679adcd9aaf490f703ef85f63d5025be5ecca0f3b222",
+        "italian": "Il quiz considera gli autobus urbani come mezzi con molti posti in piedi, adatti a frequenti salite e discese. La prevalenza numerica dei posti in piedi non è però una caratteristica obbligatoria di ogni autobus urbano.",
+        "italian_sha256": "e3c65d5384d3392e3167a2adb0ad44ced6753d37437a87f797a0bb832de4f273"
+      },
+      {
+        "source": {
+          "number": 35557,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus urbani sono destinati a percorrere tratte brevi",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "61573ff56fd83dd3f9bbcdc2a70d1c88f81e085031b4054ae5786d76d5f2cf46",
+        "italian": "Gli autobus urbani sono pensati per servizi cittadini con fermate frequenti e spostamenti generalmente brevi; la lunghezza effettiva dipende dalla linea.",
+        "italian_sha256": "0aad30c04797a9667a63c94ef99c0f301f43389e6aa644235cc81ff7db54afe9"
+      },
+      {
+        "source": {
+          "number": 35558,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus urbani sono destinati a circolare prevalentemente nei centri urbani",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d1363473836120fff8fbc3abf54fd71285eb7cccbb3d9277a90fe5d331590a15",
+        "italian": "L’autobus urbano è concepito per il servizio nei centri abitati, anche se una linea può raggiungere zone esterne alla città.",
+        "italian_sha256": "9403aaa54897a93b5fbeac52974858868b4cf0b82a051abcf960322c8e1cfb6f"
+      },
+      {
+        "source": {
+          "number": 35559,
+          "quesito_id": 7312,
+          "text_it": "Gli autobus urbani hanno prevalentemente posti in piedi",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "31feb223cef3d1c62c0c228abffa295b52cf005265caa3d0a83ed4d755e220e2",
+        "italian": "Il quiz descrive l’allestimento urbano tipico, con ampio spazio per passeggeri in piedi. La prevalenza numerica di questi posti non è però prescritta per ogni autobus urbano.",
+        "italian_sha256": "b7218380d34a4a5e87013da64afdb083dcf1fa659483e17566dd3c3772a86d84"
+      },
+      {
+        "source": {
+          "number": 35560,
+          "quesito_id": 7313,
+          "text_it": "Gli autobus urbani hanno esclusivamente posti a sedere",
+          "answer": 0,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "97629091160f54d394f535e365004141605c9b8c027479b1f0a1d33cc2fd30c8",
+        "italian": "Non è corretto dire che gli autobus urbani abbiano esclusivamente posti a sedere: sono generalmente attrezzati anche per passeggeri in piedi.",
+        "italian_sha256": "f5bf7d59c7df8a1586694210023b1d5398ccd16b72d53504c8da654e4919829d"
+      },
+      {
+        "source": {
+          "number": 35561,
+          "quesito_id": 7313,
+          "text_it": "Gli autobus gran turismo sono impiegati su linee di lunga percorrenza",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f498551826aff470ce9e829877fdac885071abd3b5efa4e211e3490179e86c3d",
+        "italian": "Gli autobus gran turismo sono adatti ai viaggi lunghi e possono essere impiegati sulle relative linee.",
+        "italian_sha256": "a0381fa56a849e2e1000ac3001e2787652cf83a663c8772c369a9fbe42246834"
+      },
+      {
+        "source": {
+          "number": 35562,
+          "quesito_id": 7313,
+          "text_it": "Gli autobus gran turismo hanno solo posti a sedere",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f1290526592517dc58f16a95204e562398b98c3711ce603c25d26622e3fe74ff",
+        "italian": "I gran turismo sono destinati al trasporto di passeggeri seduti, senza posti in piedi.",
+        "italian_sha256": "54516bcb78f9240668dd4a7bf8662e5dd02fdbb6b2387ea49dd1f9627bb0f261"
+      },
+      {
+        "source": {
+          "number": 35563,
+          "quesito_id": 7313,
+          "text_it": "Secondo le loro caratteristiche costruttive gli autobus di classe A sono predisposti per i passeggeri in piedi",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "76f2aab3e27d6e0b78099056bf0f2c75671ca9c7ce4578a6321dd421dc31d3d8",
+        "italian": "Vero. La classe A comprende veicoli con sedili e spazi predisposti per passeggeri in piedi.",
+        "italian_sha256": "36fe0c508aa09482d6775ecc2eecc28abf9f4e57a302e53c7bbcc4dfee9118c3"
+      },
+      {
+        "source": {
+          "number": 35564,
+          "quesito_id": 7313,
+          "text_it": "Secondo le loro caratteristiche costruttive gli autobus di classe A non superano i 22 passeggeri oltre al conducente",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3bd720c40719ea81c315fab214ff4f6c729a3d22d1a5af19c701067e7a58a5b1",
+        "italian": "Vero. La classe A riguarda veicoli con capacità fino a 22 passeggeri, senza contare il conducente.",
+        "italian_sha256": "45417fbf096c25091baf3c3793af83a7882b9942c618c14cc09ee7cc56689d3e"
+      },
+      {
+        "source": {
+          "number": 35565,
+          "quesito_id": 7313,
+          "text_it": "Secondo le loro caratteristiche costruttive gli autobus di classe B non sono destinati al trasporto di persone in piedi",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7c0824d4ec005f446e5af83feb79d1045fb02e405079118112b4c66e66b8af97",
+        "italian": "Vero. I veicoli di classe B non sono predisposti per trasportare passeggeri in piedi.",
+        "italian_sha256": "7e59fc188f55642332402b13e38fac0bbd13c86d0ec9d7effd310e4de3272f8d"
+      }
+    ],
+    "task_sha256": "e963cc5318536b4908b92ac3f2bf140653d22da6c4c2cbf25c0eee6df028abe9"
+  },
+  "rows": [
+    {
+      "number": 35516,
+      "text": "False: travelling at the same speed is not enough to determine the inertial force. It depends on mass and acceleration, that is, the change in velocity."
+    },
+    {
+      "number": 35517,
+      "text": "False: on a bend, inertia tends to maintain motion in a straight line; it is the tyres' grip that provides the force needed to change direction."
+    },
+    {
+      "number": 35518,
+      "text": "True: for the same acceleration, the greater the mass, the greater the force associated with the change in motion."
+    },
+    {
+      "number": 35519,
+      "text": "True: the position of the centre of gravity affects stability; for example, a higher centre of gravity makes overturning more likely."
+    },
+    {
+      "number": 35520,
+      "text": "False: the coupling point connects the tractor vehicle and trailer. The centre of gravity is the point at which the total weight of the bus can be considered to act."
+    },
+    {
+      "number": 35521,
+      "text": "True in the quiz's model: for the same unladen vehicle, with its masses and attitude unchanged, the centre of gravity has a fixed height. Changes in attitude or configuration can alter it."
+    },
+    {
+      "number": 35522,
+      "text": "True: the overall centre of gravity depends on the mass of the load and its position relative to the vehicle."
+    },
+    {
+      "number": 35523,
+      "text": "False: the centre of gravity depends on the distribution of masses and does not necessarily coincide with the centre of the drive axle."
+    },
+    {
+      "number": 35524,
+      "text": "False in the sense intended by the quiz: the path alone does not change the centre of gravity relative to a rigid vehicle with a stationary load. In practice, body roll or movement of the load can change its position relative to the road."
+    },
+    {
+      "number": 35525,
+      "text": "True: moving the load changes the distribution of masses and may shift the overall centre of gravity."
+    },
+    {
+      "number": 35526,
+      "text": "False: changing the position of the load changes the distribution of masses and may change the overall centre of gravity."
+    },
+    {
+      "number": 35527,
+      "text": "False: age alone does not determine the position of the centre of gravity, which depends on the distribution of masses; modifications to the vehicle can, however, shift it."
+    },
+    {
+      "number": 35528,
+      "text": "True according to the quiz, but the wording is imprecise: the total weight can be represented as acting at the centre of gravity. Other forces act at their respective points and can produce moments."
+    },
+    {
+      "number": 35529,
+      "text": "False in the normal tyre-road case: water generally reduces grip compared with a dry surface. The effect nevertheless depends on the materials and conditions."
+    },
+    {
+      "number": 35530,
+      "text": "False: gravel generally offers less grip than dry asphalt; actual values depend on the condition of the surfaces."
+    },
+    {
+      "number": 35531,
+      "text": "True according to the quiz: in ordinary road conditions, values between zero and one are often used. However, the upper limit is not universal: under particular conditions the coefficient can exceed one."
+    },
+    {
+      "number": 35532,
+      "text": "False: the coefficient is not limited to the range between one and two; in ordinary cases it can also be less than one. However, there is no universal upper limit of one."
+    },
+    {
+      "number": 35533,
+      "text": "Generally true: a suitably rough texture promotes friction between tyre and asphalt, also helping water to drain away."
+    },
+    {
+      "number": 35534,
+      "text": "True: ice greatly reduces the friction available between tyre and road, making slipping more likely."
+    },
+    {
+      "number": 35535,
+      "text": "True: when two surfaces in contact slide against each other, kinetic friction arises and opposes their relative motion. Static friction also exists without sliding."
+    },
+    {
+      "number": 35536,
+      "text": "Friction between surfaces in contact opposes their relative sliding or tendency to slide."
+    },
+    {
+      "number": 35537,
+      "text": "Tyre rolling resistance causes energy losses and can increase fuel consumption. Tyre-road grip is nevertheless necessary for driving and braking: not every form of friction at the contact point has the same dissipative effect."
+    },
+    {
+      "number": 35538,
+      "text": "It is not true that tyre-road friction opposes braking: grip is precisely what allows the road to exert a force on the wheels that slows the vehicle."
+    },
+    {
+      "number": 35539,
+      "text": "It is incorrect to say that friction is not dissipative: during sliding, some mechanical energy becomes heat, reducing efficiency. Ideal static friction, however, does not necessarily dissipate energy."
+    },
+    {
+      "number": 35540,
+      "text": "Sliding friction dissipates mechanical energy by turning some of it into heat. The statement should be understood in this sense: ideal static friction does not necessarily dissipate energy."
+    },
+    {
+      "number": 35541,
+      "text": "Friction does not keep the vehicle at a constant speed: resistances tend to slow it down and must be balanced by the driving force. With no resultant force, uniform motion in a straight line continues through inertia."
+    },
+    {
+      "number": 35542,
+      "text": "Sliding friction converts some mechanical energy into heat. The statement refers to dissipative friction: ideal static friction does not necessarily produce heat."
+    },
+    {
+      "number": 35543,
+      "text": "Friction does not in itself lower the centre of gravity: its position depends on the distribution of the masses of the vehicle and its load. Braking can transfer load between the axles without thereby changing the centre of gravity."
+    },
+    {
+      "number": 35544,
+      "text": "Buses can be used for public passenger transport. They are intended to carry more than nine people, including the driver; they can also have other uses."
+    },
+    {
+      "number": 35545,
+      "text": "A school bus is intended to transport students and has equipment specific to that use; it can be used in a school transport service."
+    },
+    {
+      "number": 35546,
+      "text": "An articulated bus consists of two rigid sections connected by an articulated section, with interconnected passenger areas."
+    },
+    {
+      "number": 35547,
+      "text": "An articulated bus is not a single rigid unit: it consists of two rigid sections connected by an articulated section, with an internal passage between them."
+    },
+    {
+      "number": 35548,
+      "text": "The stated definition of a goods vehicle is correct, but it is wrong to include it among vehicles intended for public passenger transport: it is intended to carry goods and the people responsible for their use or transport."
+    },
+    {
+      "number": 35549,
+      "text": "A goods vehicle is not defined as a vehicle for the occasional transport of people: it is intended to carry goods and the people responsible for their use or transport."
+    },
+    {
+      "number": 35550,
+      "text": "To register buses intended for hire or reward, the legal authorisation prescribed for the transport service is required."
+    },
+    {
+      "number": 35551,
+      "text": "A bus is intended to carry more than nine people, counting the driver."
+    },
+    {
+      "number": 35552,
+      "text": "Some categories of bus have specific length limits that differ from the general limit established for single vehicles."
+    },
+    {
+      "number": 35553,
+      "text": "A bus is not defined as a vehicle for goods: it is intended to carry more than nine people, including the driver. Goods vehicles are one of the categories provided for transporting goods."
+    },
+    {
+      "number": 35554,
+      "text": "The stated limit is incorrect: a bus is intended to carry more than nine people, including the driver, not up to nine."
+    },
+    {
+      "number": 35555,
+      "text": "Use for hire or reward is not the only option: buses can also be intended for own-account use, subject to the prescribed conditions."
+    },
+    {
+      "number": 35556,
+      "text": "The quiz considers city buses to be vehicles with many standing spaces, suited to frequent boarding and alighting. However, having more standing spaces than seats is not a mandatory feature of every city bus."
+    },
+    {
+      "number": 35557,
+      "text": "City buses are designed for urban services with frequent stops and generally short journeys; the actual length depends on the route."
+    },
+    {
+      "number": 35558,
+      "text": "A city bus is designed for service in built-up areas, although a route may reach areas outside the city."
+    },
+    {
+      "number": 35559,
+      "text": "The quiz describes the typical city bus layout, with ample space for standing passengers. However, having more standing spaces than seats is not required for every city bus."
+    },
+    {
+      "number": 35560,
+      "text": "It is incorrect to say that city buses have only seats: they are generally also equipped for standing passengers."
+    },
+    {
+      "number": 35561,
+      "text": "Touring coaches are suitable for long journeys and can be used on such routes."
+    },
+    {
+      "number": 35562,
+      "text": "Touring coaches are intended to carry seated passengers, with no standing spaces."
+    },
+    {
+      "number": 35563,
+      "text": "True. Class A includes vehicles with seats and spaces designed for standing passengers."
+    },
+    {
+      "number": 35564,
+      "text": "True. Class A covers vehicles with a capacity of up to 22 passengers, not counting the driver."
+    },
+    {
+      "number": 35565,
+      "text": "True. Class B vehicles are not designed to carry standing passengers."
+    }
+  ],
+  "output_sha256": "31b9d327e051f909481a7255fbcc97cbd1dde875a34e232bbcf34f0aacf96d2b"
+}

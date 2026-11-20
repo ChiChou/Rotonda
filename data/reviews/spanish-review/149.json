@@ -1,0 +1,37 @@
+{
+  "batch": "149",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "108c041fbeee9aad82498922b030e316dca17a87eb5323cae6c088c1fa5168d2",
+  "source_sha256": "78d04ef5d8738c317e8ca0730fc2e140247dd09d8beb2e6fd30282033c2b745f",
+  "corrections": [
+    {
+      "id": "c4a3df5ed499f5efe31d3823faae318acca75319f076ddc241c6741e7ec596db",
+      "before": "El sistema de alimentación del motor diésel puede tener una bomba de inyección que envía combustible a alta presión a los inyectores",
+      "after": "El sistema de alimentación del motor diésel puede tener una bomba de inyección que envía diésel a alta presión a los inyectores",
+      "reason": "Especifica el diésel indicado por gasolio."
+    },
+    {
+      "id": "c4d4d85dbbc49f06e1d0216641fe9c61bab3e33cbca2bc2d4daa21054201b61a",
+      "before": "En las vías públicas se permiten las carreras de velocidad no autorizadas entre motocicletas, pero no entre vehículos automotores",
+      "after": "En las vías públicas se permiten las carreras de velocidad entre motocicletas, incluso si no están autorizadas, pero no entre vehículos automotores",
+      "reason": "Conserva incluso si no están autorizadas, sin limitar la afirmación a las carreras no autorizadas."
+    },
+    {
+      "id": "c5535d5596cdff905a77fd5ee60f68c9575494aab3825ba2757b3b4634b9a384",
+      "before": "El aire acondicionado también puede utilizarse en invierno para desempañar rápidamente el parabrisas",
+      "after": "El aire acondicionado también puede utilizarse en invierno para descongelar rápidamente el parabrisas",
+      "reason": "Sbrinare indica quitar el hielo, no desempañar."
+    }
+  ],
+  "reviewed_file_sha256": "418b8a4a87019ce6f3fcb30fe15e9afb5c3d3448069817e5d4dee3c93b921e29"
+}

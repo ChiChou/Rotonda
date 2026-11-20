@@ -1,0 +1,37 @@
+{
+  "batch": "033",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "b54f22c00b68444d3142407485ed5f992ebf52699599ed376edc569101d03f2d",
+  "source_sha256": "6f626ac31ae7e028f8aad316f5058bbec57e612b02efab54f89922607cf7de7f",
+  "corrections": [
+    {
+      "id": "2c272872774b121635ae7e7bc471310dcc4804911a7b525adc8f10b623bf42bb",
+      "before": "El convertidor neumohidráulico del sistema de frenos envía aceite a presión a los dispositivos hidráulicos de las ruedas",
+      "after": "El convertidor neumohidráulico del sistema de frenos envía aceite a presión a los dispositivos hidráulicos de frenado de las ruedas",
+      "reason": "Restituye que los dispositivos hidráulicos son de frenado."
+    },
+    {
+      "id": "2c4b31ed1cc96970684176cc0cf4ff938dcb3e7c260794a40ae1d8d9c7e9ebfd",
+      "before": "08##tipología8 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "08##tipologia8 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original."
+    },
+    {
+      "id": "2c56a72dd856d020366b67c5ba0aada9a354dd9c3938dce99ec566c2b964cfa8",
+      "before": "El conductor del autobús debe volver a salir de la parada con las puertas cerradas",
+      "after": "El conductor del autobús debe partir de la parada con las puertas cerradas",
+      "reason": "Italian says depart after the stop; \"volver a salir\" adds \"again\""
+    }
+  ],
+  "reviewed_file_sha256": "74a5eed12bc617dfbbc42fa8d80b171cd3c53d1abe50f62128680d90e84e0bbc"
+}

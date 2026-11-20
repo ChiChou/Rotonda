@@ -1,0 +1,679 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31399,
+          "quesito_id": 7022,
+          "text_it": "L'eccessiva pressione di gonfiaggio dei pneumatici ne provoca un maggiore consumo sui fianchi",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3fa1ae046ab3f4dc37bcdf323c812fba75f47d0ecbf29622351a0cd44ab3aad4",
+        "localized_text": "Excessive tyre pressure causes greater wear at the sides."
+      },
+      {
+        "source": {
+          "number": 31400,
+          "quesito_id": 7022,
+          "text_it": "La deriva dei pneumatici è l'angolo che si crea tra due assi del veicolo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a49566bab4ba0ae1f207f1d0aacc527cac299f2cd08e1492dff7defa02b99cef",
+        "localized_text": "Tyre slip angle is the angle formed between two vehicle axles."
+      },
+      {
+        "source": {
+          "number": 31401,
+          "quesito_id": 7022,
+          "text_it": "La deriva dei pneumatici viene misurata in occasione della revisione periodica del veicolo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0f46c1bd4f58162a02906df111564d7408b584539356504dace247e06e7a03dd",
+        "localized_text": "Tyre slip angle is measured during periodic vehicle inspection."
+      },
+      {
+        "source": {
+          "number": 31402,
+          "quesito_id": 7022,
+          "text_it": "La maggior deriva delle ruote posteriori rispetto a quelle anteriori diminuisce il comportamento sovrasterzante del veicolo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "184bce23b1a3a9086e88bb8d0e74bf931e709f71292c6376560b035be922ca96",
+        "localized_text": "Greater rear-wheel than front-wheel slip reduces a vehicle's tendency to oversteer."
+      },
+      {
+        "source": {
+          "number": 31403,
+          "quesito_id": 7022,
+          "text_it": "Nel sovrasterzo il veicolo tende a chiudere la traiettoria della curva per effetto della maggiore deriva delle ruote anteriori rispetto a quella delle ruote posteriori",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "82ab7564cf776b661e39e814ab774f1a2557f9f3eead725cb7616519902df176",
+        "localized_text": "In oversteer, the vehicle tightens its turning path because front-wheel slip exceeds rear-wheel slip."
+      },
+      {
+        "source": {
+          "number": 31404,
+          "quesito_id": 7022,
+          "text_it": "La corretta manutenzione del veicolo impedisce il verificarsi del fenomeno della deriva",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2031927e819ae8c4d3ede94abdb066b31fd61af0c0000b53f6833eb57debf656",
+        "localized_text": "Correct vehicle maintenance prevents tyre slip angle from occurring."
+      },
+      {
+        "source": {
+          "number": 31405,
+          "quesito_id": 7022,
+          "text_it": "Il sottosterzo aumenta la stabilità del veicolo in curva",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a9526687a75914037af60f4cdb8f57fbfd764d6b89fc8f7baf5cd49c6c0e23cf",
+        "localized_text": "Understeer increases vehicle stability on a bend."
+      },
+      {
+        "source": {
+          "number": 31406,
+          "quesito_id": 7022,
+          "text_it": "Il sottosterzo del veicolo in curva aumenta con l'aumentare della velocità",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "23eb011f7f549781931a821763223413f4022cbff1f66698116a8283f92860e1",
+        "localized_text": "Vehicle understeer on a bend increases with speed."
+      },
+      {
+        "source": {
+          "number": 31407,
+          "quesito_id": 7022,
+          "text_it": "Il sottosterzo è causato dalla maggior deriva delle ruote anteriori rispetto alle ruote posteriori",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5cd3ad9044d792db112a35e246404ae218e823dc5e13ecf836f017312ecb9415",
+        "localized_text": "Understeer is caused by greater front-wheel than rear-wheel slip."
+      },
+      {
+        "source": {
+          "number": 31408,
+          "quesito_id": 7022,
+          "text_it": "Nel sovrasterzo il veicolo tende a girare su sé stesso facendo perno sulle ruote anteriori",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4f86b72dcab16a2eb58a13378ff7b548ed33884fc62a9481210835197a8c7eed",
+        "localized_text": "In oversteer, the vehicle tends to rotate around its front wheels."
+      },
+      {
+        "source": {
+          "number": 31409,
+          "quesito_id": 7023,
+          "text_it": "Nel sovrasterzo il veicolo curva meno di quanto voluto dal conducente",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d4e87dfefea7e998cc0d959254c6903e5295f654266266d2e9bcb8025ee48510",
+        "localized_text": "In oversteer, the vehicle turns less than the driver intended."
+      },
+      {
+        "source": {
+          "number": 31410,
+          "quesito_id": 7023,
+          "text_it": "Gli ammortizzatori scarichi possono aumentare il comportamento sottosterzante del veicolo",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d0631d11a08e1b723fe582b797066bbc7a290e5559e98d8fbba4e50f3b716340",
+        "localized_text": "Worn shock absorbers can increase a vehicle's tendency to understeer."
+      },
+      {
+        "source": {
+          "number": 31411,
+          "quesito_id": 7023,
+          "text_it": "Nel sovrasterzo il veicolo curva più di quanto voluto dal conducente",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "92996159d0ca4d536021b640971b284ac8558b226a3908ce1a61055d03b167db",
+        "localized_text": "In oversteer, the vehicle turns more than the driver intended."
+      },
+      {
+        "source": {
+          "number": 31412,
+          "quesito_id": 7023,
+          "text_it": "Nel sovrasterzo il veicolo tende a proseguire per la tangente allargando la curva",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ad0200a098ddf03b7e6fc62de3499ec6cd03c0c005189816054b30a592f45d32",
+        "localized_text": "In oversteer, the vehicle tends to continue tangentially and widen its path through the bend."
+      },
+      {
+        "source": {
+          "number": 31413,
+          "quesito_id": 7023,
+          "text_it": "L'angolo di deriva dei pneumatici è causato dalla forza motrice nei veicoli a trazione anteriore",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "af4dba3d0718f991ac1e66d42cc9abe746688fcf03bbb6a8ebf67c6936a8e201",
+        "localized_text": "Tyre slip angle is caused by driving force in front-wheel-drive vehicles."
+      },
+      {
+        "source": {
+          "number": 31414,
+          "quesito_id": 7023,
+          "text_it": "L'aumento del carico sull'asse posteriore del veicolo aumenta il sottosterzo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9a90d2c6d25ad819da4e72264ad320e38bc8b9a8f55a43b68ecdd50822b6609b",
+        "localized_text": "Increasing the load on the rear axle increases understeer."
+      },
+      {
+        "source": {
+          "number": 31415,
+          "quesito_id": 7023,
+          "text_it": "La deriva dipende dalla pressione dei pneumatici",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "325a033a6630f8e1ae85671de61f2ecbc05ba3486615e0a82eeb1dc7be04eb87",
+        "localized_text": "Tyre slip depends on tyre pressure."
+      },
+      {
+        "source": {
+          "number": 31416,
+          "quesito_id": 7023,
+          "text_it": "Nel sottosterzo il veicolo tende ad allargare la curva",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2e4dba2a45bacd787d8eafb285a230dd0be5cd1d1483ce6a25eb6ab42555c66b",
+        "localized_text": "In understeer, the vehicle tends to widen its path through the bend."
+      },
+      {
+        "source": {
+          "number": 31417,
+          "quesito_id": 7023,
+          "text_it": "Un veicolo si dice sovrasterzante quando l'angolo di deriva dei pneumatici dell'asse posteriore è maggiore di quello dei pneumatici dell'asse anteriore",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cf4fa8fcb11b8e5b531364a394d4db9a56683d9e0adbedcf3e7710ef87d52c98",
+        "localized_text": "A vehicle is oversteering when rear-axle tyre slip angle exceeds front-axle tyre slip angle."
+      },
+      {
+        "source": {
+          "number": 31418,
+          "quesito_id": 7023,
+          "text_it": "La deriva dipende dalla forza trasversale che agisce sulle ruote in curva",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dfed240fb0d6ba0cac6da1b190173e819de6a0c89221e4310f179a00938edb6b",
+        "localized_text": "Tyre slip depends on lateral force acting on the wheels in a bend."
+      },
+      {
+        "source": {
+          "number": 31419,
+          "quesito_id": 7023,
+          "text_it": "Un veicolo si dice in sovrasterzo quando, ad esempio, per motivi di carico tende a deviare la traiettoria verso l'interno della curva e curva di più",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8fad1da929a59cfd1a609f3e8e7aeaf9da3408e8dc9e67a561cdb3ce13494710",
+        "localized_text": "A vehicle is oversteering when, for example due to loading, its path deviates towards the inside of the bend and it turns more."
+      },
+      {
+        "source": {
+          "number": 31420,
+          "quesito_id": 7023,
+          "text_it": "L'angolo di deriva dei pneumatici è indipendente dalla pressione di gonfiaggio dei pneumatici",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6eebc4eb24d1bc18e5d114299479fdb77cd735f8a39039ccb13b2006e61bf329",
+        "localized_text": "Tyre slip angle is independent of inflation pressure."
+      },
+      {
+        "source": {
+          "number": 31421,
+          "quesito_id": 7023,
+          "text_it": "Il sottosterzo del veicolo compensa l'effetto della deriva dei pneumatici",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0b71a63c88e154b83fbd80ee2492fcdeecc3e9350cf451b9da17d41a35deac2f",
+        "localized_text": "Vehicle understeer compensates for tyre slip."
+      },
+      {
+        "source": {
+          "number": 31422,
+          "quesito_id": 7023,
+          "text_it": "Il sottosterzo del veicolo aumenta nelle curve in salita",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "993cafbe723a65511c5a842742206e5d0fa3b718b5aa9943dea2ab29b744e159",
+        "localized_text": "Vehicle understeer increases on uphill bends."
+      },
+      {
+        "source": {
+          "number": 31423,
+          "quesito_id": 7023,
+          "text_it": "Nel sottosterzo, il veicolo curva meno di quanto di quanto voluto dal conducente",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b93c198f1e2d1cf858310e59f2254c9d090741bf8e73ec7ae73324d14d268d7f",
+        "localized_text": "In understeer, the vehicle turns less than the driver intended."
+      }
+    ],
+    "task_sha256": "a1ee06b723b82851dad6e73660413ea451f82622a87ff4c2020b5d1186a76c46"
+  },
+  "rows": [
+    {
+      "number": 31399,
+      "text": "Excess pressure tends to wear the center of the tread; shoulder wear is typical of insufficient pressure.",
+      "evidence": [
+        "Michelin, What pressure for your tyres?: https://africa.michelin.com/en/auto/advice/tyre-pressure/what-tyre-pressure — sovrapressione al centro, pressione insufficiente sulle spalle."
+      ]
+    },
+    {
+      "number": 31400,
+      "text": "Slip angle is the angle between the direction the wheel points and the direction it travels, not an angle between two vehicle axles.",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31401,
+      "text": "The periodic inspection checks tire condition and wear, among other things. Tire slip angle arises while driving under lateral force and is not a measurement specified in the periodic tire inspection.",
+      "evidence": [
+        "Direttiva 2014/45/UE, allegato I, punto 5.2.3: https://eur-lex.europa.eu/eli/dir/2014/45/oj — ispezione visiva dei pneumatici e relative anomalie.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31402,
+      "text": "Greater rear than front slip characterizes oversteer: the rear tends to move toward the outside of the bend, rather than reducing that tendency.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31403,
+      "text": "In oversteer the vehicle takes a tighter turn, but the rear wheels have the greater slip angle. Greater front slip instead characterizes understeer.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31404,
+      "text": "Slip arises from the tire's elastic response to lateral cornering forces and can occur even on a well-maintained vehicle. Maintenance does not eliminate it.",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31405,
+      "text": "The quiz marks this FALSE. Excessive understeer with loss of front grip can widen the path and reduce control. Mild understeer designed into a vehicle in its normal operating range is a different meaning and can make its response more predictable.",
+      "evidence": [
+        "NHTSA 2007 ESC final rule, technical discussion pp. 306–307 and 313–316, https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/ESC_FR_03_2007_0.pdf: distinguish designed understeer from excessive understeer and reduced steering response; technical discussion, not a claim of Italian law.",
+        "NHTSA heavy-vehicle ESC proposal https://www.nhtsa.gov/sites/nhtsa.gov/files/136_hvy_veh_esc_nprm.pdf, PDF p.21: severe understeer and front traction loss; proposal, not enacted rule."
+      ]
+    },
+    {
+      "number": 31406,
+      "text": "In an understeering vehicle, increasing speed in a bend increases the lateral force required, so more steering is needed to maintain the same path.",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31407,
+      "text": "When front slip exceeds rear slip, the front follows a wider path than the turn requested: this is understeer.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31408,
+      "text": "In oversteer the rear tends to move outward and the vehicle rotates more than intended; if severe, it can spin.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "NHTSA, Heavy Vehicle ESC Preliminary Regulatory Impact Analysis, figura III-2: https://www.nhtsa.gov/sites/nhtsa.gov/files/136_esc_hvy_veh_pria.pdf — il sovrasterzo può portare alla rotazione del veicolo."
+      ]
+    },
+    {
+      "number": 31409,
+      "text": "In oversteer the vehicle turns more than intended and the rear tends outward. Turning less than intended is understeer.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31410,
+      "text": "Ineffective shock absorbers can alter wheel contact and response. In some conditions, particularly with a front defect, the vehicle can become more prone to understeer.",
+      "evidence": [
+        "Deubel et al., Investigation and Phenomenological Modeling of Degraded Twin-Tube Shock Absorbers, §1: https://www.mdpi.com/2624-8921/7/1/26 — una prova con ammortizzatore anteriore degradato ha rilevato più rollio e sottosterzo."
+      ]
+    },
+    {
+      "number": 31411,
+      "text": "In oversteer rear slip exceeds front slip: the rear tends outward and the vehicle takes a tighter turn than intended.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31412,
+      "text": "Running wide is typical of understeer. In oversteer, the rear tends outward and the vehicle turns more than intended.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31413,
+      "text": "Slip angle is related to lateral force and tire deformation in a bend; it does not arise solely from driving force or only on driven front wheels.",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31414,
+      "text": "A rear load does not always increase understeer: by changing tire response, it can also shift the vehicle toward oversteer.",
+      "evidence": [
+        "NHTSA, ESV 2007, Light Commercial Vehicles: https://www-nrd.nhtsa.dot.gov/pdf/ESV/Proceedings/20/07-0269-O.pdf — nel veicolo studiato un carico sull’asse posteriore cambia la risposta da sottosterzante a sovrasterzante."
+      ]
+    },
+    {
+      "number": 31415,
+      "text": "Pressure changes tire deformation and its response to lateral forces, so it also affects slip angle in a bend.",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, p.68 / PDF p.83 and §2.15.7 p.117 / PDF p.132, https://staff.emu.edu.tr/alexanderchefranov/Documents/CMSE443/CMSE443%20Fall%202023/pdfcoffee.com_tires-suspension-and-handling-1-56091-831-4-pdf-free.pdf: lateral force depends on slip angle and inflation pressure; cornering stiffness changes with pressure and tire design. Directly inspected university-hosted textbook copy, not an axle-specific conclusion."
+      ]
+    },
+    {
+      "number": 31416,
+      "text": "In understeer the front deviates more than the rear and the vehicle follows a wider curve than the steering input calls for.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31417,
+      "text": "If the rear wheels have more slip than the front wheels, the rear tends outward and the vehicle turns more than intended: this is oversteer.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31418,
+      "text": "In a bend, lateral force deforms the tire and its actual direction of travel differs from its orientation. This difference is the slip angle.",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31419,
+      "text": "In oversteer the rear tends outward and the vehicle turns more than intended. Load distribution can contribute to changing this behavior.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "NHTSA, ESV 2007, Light Commercial Vehicles: https://www-nrd.nhtsa.dot.gov/pdf/ESV/Proceedings/20/07-0269-O.pdf — la distribuzione del carico modifica il comportamento direzionale."
+      ]
+    },
+    {
+      "number": 31420,
+      "text": "Pressure affects tire deformation and lateral response, and therefore slip angle too: the angle is not independent of pressure.",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, p.68 / PDF p.83 and §2.15.7 p.117 / PDF p.132, https://staff.emu.edu.tr/alexanderchefranov/Documents/CMSE443/CMSE443%20Fall%202023/pdfcoffee.com_tires-suspension-and-handling-1-56091-831-4-pdf-free.pdf: lateral force depends on slip angle and inflation pressure; cornering stiffness changes with pressure and tire design. Directly inspected university-hosted textbook copy, not an axle-specific conclusion."
+      ]
+    },
+    {
+      "number": 31421,
+      "text": "Understeer does not cancel slip: it describes behavior in which the front wheels have greater slip than the rear wheels.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31422,
+      "text": "The quiz marks this FALSE, but slope alone does not always predict understeer: the vehicle, load and grip matter. Under some steady uphill conditions, rearward load transfer can instead increase the tendency to understeer.",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, §6.18, printed pp.410–412 / PDF pp.425–427, https://staff.emu.edu.tr/alexanderchefranov/Documents/CMSE443/CMSE443%20Fall%202023/pdfcoffee.com_tires-suspension-and-handling-1-56091-831-4-pdf-free.pdf: steady-speed uphill model has rearward load transfer and increased primary understeer; certain specified final-handling model also increases. University-hosted copy of author textbook; not proof of a universal outcome.",
+        "Chalmers Vehicle Dynamics Compendium, §4.3.3, https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf: handling depends on vehicle and operating conditions; steady-state and transient understeer have distinct definitions."
+      ]
+    },
+    {
+      "number": 31423,
+      "text": "In understeer the front tends to run wide, so the vehicle turns less than requested by the steering input.",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "a1ee06b723b82851dad6e73660413ea451f82622a87ff4c2020b5d1186a76c46",
+    "output_sha256": "18fac486396b94fa30fa45ebb965b8f18ba4a1ee7978649d7c87563b5b4980b0",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31399,
+      31400,
+      31401,
+      31402,
+      31403,
+      31404,
+      31405,
+      31406,
+      31407,
+      31408,
+      31409,
+      31410,
+      31411,
+      31412,
+      31413,
+      31414,
+      31415,
+      31416,
+      31417,
+      31418,
+      31419,
+      31420,
+      31421,
+      31422,
+      31423
+    ],
+    "issues": [],
+    "review_evidence": "All 25 source/verdict pairs and four languages inspected; no figures. Exact local Dixon SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed §6.18 printed pp410–412 confirms steady uphill increases primary understeer; Chalmers exact local PDF SHA256 acd354e939823518dbbeeb056486d73530ea338dcb7bf69af6e0e819f2aeaef2 §4.3.3 inspected. NHTSA final ESC discussion supports mild designed understeer vs excessive grip loss. EU 2014/45 original local PDF p45 item5.2.3 inspected. Exact IFAC inaccessible; Dixon p68 independently corroborates pressure effect but is not cited for these rows. Fresh re-review: 31415/31420 Dixon printed p68/PDF83 and §2.15.7 printed p117/PDF132 inspected directly, confirming inflation-pressure influence on lateral force and cornering stiffness; learner text unchanged.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb88-7fd5-72d0-8ae1-32bbcf817e3e",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4f33518c13c81615970ebd456fda8a7ee663dd367074dd855ed842ed8cd229e2",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb88-7fd5-72d0-8ae1-32bbcf817e3e",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31405,
+              "reason": "Il quesito stampa FALSO per un aumento della stabilità dovuto al sottosterzo, ma non distingue il lieve sottosterzo progettuale dalla perdita di controllo per sottosterzo eccessivo. Le fonti indicano entrambi i casi; manca il contesto per conciliarli con il verdetto.",
+              "checked_sources": [
+                "NHTSA, Federal Motor Vehicle Safety Standards, Electronic Stability Control Systems, p. 96: https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/ESC_FR_03_2007_0.pdf — veicoli leggeri progettati con sottosterzo nel campo lineare.",
+                "NHTSA, Heavy Vehicle ESC NPRM: https://www.nhtsa.gov/sites/nhtsa.gov/files/136_hvy_veh_esc_nprm.pdf — il sottosterzo grave può causare perdita di controllo direzionale."
+              ]
+            },
+            {
+              "number": 31422,
+              "reason": "Il quiz stampa FALSO per aumento del sottosterzo in curva in salita, ma una fonte tecnica descrive un aumento del sottosterzo primario su salita a velocità costante. Non è specificato un contesto che risolva il conflitto.",
+              "checked_sources": [
+                "Dixon, Tires, Suspension and Handling, §6.18 Hills, p. 410: https://staff.emu.edu.tr/alexanderchefranov/Documents/CMSE443/CMSE443%20Fall%202023/pdfcoffee.com_tires-suspension-and-handling-1-56091-831-4-pdf-free.pdf — il trasferimento del carico verso il retro in salita aumenta il sottosterzo primario.",
+                "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — distingue gradiente di sottosterzo e comportamento transitorio."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4f33518c13c81615970ebd456fda8a7ee663dd367074dd855ed842ed8cd229e2",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "a1ee06b723b82851dad6e73660413ea451f82622a87ff4c2020b5d1186a76c46",
+        "output_sha256": "73f03cfe06f8a39be856b3b9346ebb6d5ed91130defa0038dcab75bc71b019a6",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31399,
+          31400,
+          31401,
+          31402,
+          31403,
+          31404,
+          31405,
+          31406,
+          31407,
+          31408,
+          31409,
+          31410,
+          31411,
+          31412,
+          31413,
+          31414,
+          31415,
+          31416,
+          31417,
+          31418,
+          31419,
+          31420,
+          31421,
+          31422,
+          31423
+        ],
+        "issues": [
+          {
+            "number": 31415,
+            "reason": "The cited IFAC DOI and publisher page returned 403 during direct independent verification. Add an inspectable primary source for pressure effects on lateral response/slip, such as directly inspected Dixon Tires, Suspension and Handling printed p.68 (PDF p.83) and §2.15 printed pp.115–117; retain accurate model scope."
+          },
+          {
+            "number": 31420,
+            "reason": "The cited IFAC DOI and publisher page returned 403 during direct independent verification. Add an inspectable primary source for pressure effects on lateral response/slip, such as directly inspected Dixon Tires, Suspension and Handling printed p.68 (PDF p.83) and §2.15 printed pp.115–117; retain accurate model scope."
+          }
+        ],
+        "review_evidence": "All 25 source/verdict pairs and four languages inspected; no figures. Exact local Dixon SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed §6.18 printed pp410–412 confirms steady uphill increases primary understeer; Chalmers exact local PDF SHA256 acd354e939823518dbbeeb056486d73530ea338dcb7bf69af6e0e819f2aeaef2 §4.3.3 inspected. NHTSA final ESC discussion supports mild designed understeer vs excessive grip loss. EU 2014/45 original local PDF p45 item5.2.3 inspected. Exact IFAC inaccessible; Dixon p68 independently corroborates pressure effect but is not cited for these rows."
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "083",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "8b04eb1a8f4af16a66f4f004d6c158022b9864a15d8f2ae049ee61f94046254b",
+  "source_sha256": "bfa3eb23572f9bc4ff5b3a71dd65344095375397a60448d38480c323c15e3a1e",
+  "corrections": [
+    {
+      "id": "6e70e288622510a157f57f0eda5332bc495e9f1432acf9d79103218a323591e9",
+      "before": "La mala ventilación del habitáculo reduce el bienestar del conductor",
+      "after": "La oxigenación deficiente del habitáculo reduce el bienestar del conductor",
+      "reason": "El original se refiere a la oxigenación, no específicamente a la ventilación."
+    }
+  ],
+  "reviewed_file_sha256": "5c6857ba9203ad8c12ba24a5bf8637f63732461f6415cc8342655cd491fe51e8"
+}

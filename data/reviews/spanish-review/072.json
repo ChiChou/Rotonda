@@ -1,0 +1,25 @@
+{
+  "batch": "072",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "01f89695b5cb30382fb61f0af424449663e9a5b31bdd75e14d6101b7707870e6",
+  "source_sha256": "dfea0f9ca479807975ac9b53547d611aa7c8acde8bc57215c9f879706a035290",
+  "corrections": [
+    {
+      "id": "61001ad08d04b1d3a27bd1c766c6b5316e2ea956d502c91e0812283412f1a576",
+      "before": "Con la licencia de categoría A1 se pueden conducir las máquinas agrícolas que están dentro de los límites de dimensiones y masa previstos para los vehículos de motor de dos o tres ruedas",
+      "after": "Con la licencia de categoría A1 se pueden conducir las máquinas agrícolas que están dentro de los límites de dimensiones y masa previstos para los motovehículos",
+      "reason": "Se conserva la categoría jurídica italiana motoveicoli sin restringirla mediante un número de ruedas no mencionado en el original."
+    }
+  ],
+  "reviewed_file_sha256": "35f4773fd4b83e06422f1dc918c752421c1f4ed841496c46b2b3726b6106eb0a"
+}

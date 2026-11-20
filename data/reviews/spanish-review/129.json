@@ -1,0 +1,31 @@
+{
+  "batch": "129",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "f7e0eed5f8423669a63d18fb8c1f6fc65fc4e6a6b3ac6d47a1f9c0ec52ae493b",
+  "source_sha256": "95cfa912c121aae8f1537388249cbd8278dcfdbb08bd6237507bf57e3eff5330",
+  "corrections": [
+    {
+      "id": "abb74675b37da97bfe6a96c6522ff4f711f19e33d548290f5c1bfdaf2ac4f1a6",
+      "before": "El documento DUA T1 debe presentarse al destinatario al entrar en el recinto aduanero",
+      "after": "El documento DAU T1 debe presentarse al destinatario al entrar en el recinto aduanero",
+      "reason": "Keep the Italian code DAU, not the Spanish DUA"
+    },
+    {
+      "id": "abd70d7411fcf6ef7a93a5f82cc6af1e8e0358ce83b04eef8ea8a39b4210b8d5",
+      "before": "La señal mostrada puede combinarse con un panel que indique la distancia entre la señal y la zona de parada",
+      "after": "La señal mostrada puede combinarse con un panel que indique la distancia entre la señal y el apartadero",
+      "reason": "Piazzola di sosta designa un apartadero vial, no una zona genérica de parada o estacionamiento."
+    }
+  ],
+  "reviewed_file_sha256": "74647321041c0a944fe16843b2a70c5f75bce87a7600b0e4129ee62bf71694f6"
+}

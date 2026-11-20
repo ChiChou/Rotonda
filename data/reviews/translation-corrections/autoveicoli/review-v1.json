@@ -1,0 +1,75 @@
+{
+  "status": "needs_changes",
+  "draft_sha256": "562dc52f1448fe219d26ece40a23089c8fab578dc7246cc96474a3ecfcd70413",
+  "draft_sha256_method": "SHA256 UTF-8 canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "draft_file_sha256": "0784f470ebcc2c1243cca9ff9305c7aca034c30cba5a35ba9ec7ccb2847416e2",
+  "author": "gpt-6.1-terra / collaboration /root/terra_author",
+  "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+  "checked_pairs": [
+    [
+      "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "en"
+    ],
+    [
+      "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "es-419"
+    ],
+    [
+      "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "zh-Hans"
+    ],
+    [
+      "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "en"
+    ],
+    [
+      "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "es-419"
+    ],
+    [
+      "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "zh-Hans"
+    ]
+  ],
+  "issues": [
+    {
+      "id": "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "language": "en",
+      "issue": "The central category is an unexplained Italian word: a learner who does not already know autoveicoli cannot determine which vehicles the statement covers. The category label alone does not translate its meaning. Preserve all and the stated prohibition/end while supplying an intelligible, scope-accurate target-language equivalent; do not add a sign-specific rule."
+    },
+    {
+      "id": "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "language": "es-419",
+      "issue": "The central category is an unexplained Italian word: a learner who does not already know autoveicoli cannot determine which vehicles the statement covers. The category label alone does not translate its meaning. Preserve all and the stated prohibition/end while supplying an intelligible, scope-accurate target-language equivalent; do not add a sign-specific rule."
+    },
+    {
+      "id": "206e76f0b837856dd88c270bb1c52ced8de4dec0db21a702d58d2f1e454e2a01",
+      "language": "zh-Hans",
+      "issue": "汽车类车辆 conveys a broad automobile-like category but is not a defined legal equivalent and the parenthetical Italian provides no usable boundary. A learner cannot infer exclusion of motoveicoli, including some four-wheelers; refine the wording to express the legal category accurately and intelligibly without adding the sign-specific extension."
+    },
+    {
+      "id": "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "language": "en",
+      "issue": "The central category is an unexplained Italian word: a learner who does not already know autoveicoli cannot determine which vehicles the statement covers. The category label alone does not translate its meaning. Preserve all and the stated prohibition/end while supplying an intelligible, scope-accurate target-language equivalent; do not add a sign-specific rule."
+    },
+    {
+      "id": "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "language": "es-419",
+      "issue": "The central category is an unexplained Italian word: a learner who does not already know autoveicoli cannot determine which vehicles the statement covers. The category label alone does not translate its meaning. Preserve all and the stated prohibition/end while supplying an intelligible, scope-accurate target-language equivalent; do not add a sign-specific rule."
+    },
+    {
+      "id": "8252e997527587d6816277c6f7da4898594d6ac40711687dfc4d9ceaf17e4529",
+      "language": "zh-Hans",
+      "issue": "汽车类车辆 conveys a broad automobile-like category but is not a defined legal equivalent and the parenthetical Italian provides no usable boundary. A learner cannot infer exclusion of motoveicoli, including some four-wheelers; refine the wording to express the legal category accurately and intelligibly without adding the sign-specific extension."
+    }
+  ],
+  "assessment": "All six retain the universal quantifier and the asserted action; all three translations of 25777 preserve its false assertion that the prohibition ends. No six proposed strings is approved because the category itself is insufficiently intelligible or delineated. The sign-specific regulatory extension is distinct from the legal vehicle classification and should not be silently inserted into the translation.",
+  "source_checks": [
+    "AM official PDF data/inputs/official/2026-11-14/conseguimento-am-it.pdf SHA256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30, PDFKit extracted page 72 question 25755 VERO and page 75 question 25777 FALSO; compared source question rows and raw text.",
+    "Independently inspected original extracted figures: 25755 red circular prohibition with car; 25777 white circular end-of-overtaking-prohibition symbol with two cars and black diagonal bar.",
+    "https://aci.gov.it/codice-della-strada/art-54/ article 54(1) defines autoveicoli as motor vehicles of at least four wheels excluding motoveicoli, including passenger cars, buses and other classes.",
+    "https://aci.gov.it/codice-della-strada/art-53/ article 53 classifies motoveicoli including motor quadricycles.",
+    "https://aci.gov.it/codice-della-strada/art-52/ article 52 search-indexed text identifies ciclomotori as motor vehicles; direct page fetch failed.",
+    "https://olympus.uniurb.it/index.php?option=com_content&view=article&id=15022:dpr49592 article 117(1)(g) provides that sign II.58 includes three-wheel motoveicoli and motor quadricycles."
+  ]
+}

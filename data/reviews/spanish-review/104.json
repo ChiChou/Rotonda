@@ -1,0 +1,31 @@
+{
+  "batch": "104",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "e0d26a3fc3a831407ff20c74521c3807a530db6645eb9cd8c73d85d24550fce7",
+  "source_sha256": "e3c2322874586f72606bd71663b1f6e80a92f3a53fcfa6cc9314130d5a97ed35",
+  "corrections": [
+    {
+      "id": "8aa9c4e5fcacb80e396b4e3b9104f4eb3e908195d19b3c14853d2ff9e9e33a35",
+      "before": "Se permite adelantar cerca de un cambio de rasante en vías de dos carriles por sentido",
+      "after": "Se permite adelantar cerca de un cambio de rasante en vías de dos carriles por sentido de circulación",
+      "reason": "Clarify per-direction wording (Italian per senso di marcia); meaning unchanged"
+    },
+    {
+      "id": "8b4087c6e95e177ab231cb47995b02a6ea4ec6fae44f33fd58fc9d5fd1742ba9",
+      "before": "Al incorporarse a la circulación con el ciclomotor se debe acelerar levantando la rueda delantera",
+      "after": "Con el ciclomotor se entra en la circulación acelerando y levantando la rueda delantera",
+      "reason": "Italian describes the act (accelerating and wheelie); the draft turned it into an obligation (se debe), changing the claim's modality"
+    }
+  ],
+  "reviewed_file_sha256": "8b35d38dda0a320fe5657b4145d54e96b8a4c6f3bb5d4ae7ad9387b0e1315dad"
+}

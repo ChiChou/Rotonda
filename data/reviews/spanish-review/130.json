@@ -1,0 +1,31 @@
+{
+  "batch": "130",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "4c1f436cd1e740d08feeb09bbd650268e60f4920db11103f9885155d83218297",
+  "source_sha256": "253ec80d7a8246493053bf63476aa8d27931375d4e9f2e7cbee55de0569c4833",
+  "corrections": [
+    {
+      "id": "ad02e629b4641f42cd8b3459454bc73f9115250c9894d059dbbfff5bb9cdd1a2",
+      "before": "10##tipología10 CQC",
+      "after": "10##tipologia10 CQC",
+      "reason": "tipologia code spelling per Italian convention"
+    },
+    {
+      "id": "ad11d5ca053eb2c0d9b7467fd073852fe9ca371c85f22ef9a6951b3a0223eeb0",
+      "before": "El carril de aceleración sirve para salir de una zona de estacionamiento",
+      "after": "El carril de aceleración sirve para salir de un apartadero",
+      "reason": "Piazzola di sosta indica un apartadero vial."
+    }
+  ],
+  "reviewed_file_sha256": "7da64064d27de08c2a98ece15c6a2beccfc06356802d8d61c65e3aa93cb1bc45"
+}

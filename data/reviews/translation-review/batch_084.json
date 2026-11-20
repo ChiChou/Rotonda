@@ -1,0 +1,298 @@
+{
+  "batch": "084",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "374a40f027fd268dc15a5cb915134fa4a39d85db530d59463ebe9816b5526f88",
+  "rows": 100,
+  "verified_ids": [
+    "9ea6be209782778f265a18552219e03921d1172a56a6d69e9013f48b1dc1d59a",
+    "05e25c32aabd2f1f865a49a6e0bd2c4860893d3cae7dc7244972658d9793a51b",
+    "22b311ac6119b17481e0171605d5bb5b80d5cc2dbbfe7ad0fd1ec139f5a841c7",
+    "270fe20f7d8d395457c414618f9da96ae91b99ac0dadda88b2bc16f50d069808",
+    "98efe6f2f970b76dfd8ac88c43a6411f4980bc9c91d8392820921215ea314245",
+    "2d4b6ebd55f1f04ae69ff8185f91e8acaa8d559ceb7216ff832083a2aff5388e",
+    "f9b00e27c38af897497fac65853f0ed6084ccda79432e1182ffacb523fd2accf",
+    "a9b6f86e1a4cf5bd5ad12b7ccfdb4f5c7682f917de7f688d6e05686873253903",
+    "d292243a10512bf12f970566b15f3f8f47d5ea69189e6fb25a7fcd2ce356b4b7",
+    "154598ce358db33e6937be9f944fb08b174a197e996606d46449c938bb372ca1",
+    "4500d806bf8260159ece959be86a7e1caf37e070a56fc10c15e5e8ac71f14da6",
+    "2b21604c49b543b3a7b1886af0020598859dbc3453e1d05ab1f6a9938cae20e1",
+    "58c84631f807d3b95a8d109d79bcdb348828f770cc31f94b9be2b6c279eaba83",
+    "481799b9689c1b98cad21c0cf9a1709b97a22bb78b82c3d1f5d88e425d811653",
+    "a72f9b7907858eca800a77a401bc2a05ad57324c02ec7d0a3fa2b1e379e76f08",
+    "6a5cda126085c46360898393808043f652ede702dfe7c5e972077ebfdc63a4b9",
+    "4d7badd294a483b97468412acc8809b7358a9ae36bf651a6e8346404be433f90",
+    "de800c626904d6a3c3c50157cd8a94fb43e2b5b07daf42d7948ed83ba63f374d",
+    "3ff970a03c92135ffe22fa6bba702699825afe63577feaf3c96adfd5becab88b",
+    "cb7f4fef2c45d23512390e4486c9bba0bc8bfe0aa33d4a92fcb82811f01bebc5",
+    "fb74ea88bd6719b9c2192d137178a2c73bd4a22bd334e744e5ad962b010d12e7",
+    "f5f7ddadc6cbc37df288cbeac5b8487c843da5c822c7c0554ddc679cf9355d6a",
+    "a90757eaecf8c85af3a56c9a34d428bb306252e072991f2cfbccb05f5c462e5b",
+    "3f3b54643e9bfab234a57be5cd6248020114c7dd74db64cb6154d693089cc821",
+    "bf15fe33f0cde1f84c3a69804d6ca79024c2c2e9d3ddb0b728937e985905424a",
+    "04bac7697100f2f83d7f14ac5941a2ccd764197a6d2e3f5bd7e2f9bb595875d4",
+    "80701692554402eaa97c11de4e38f46cc65ee5f53d8e26e00867f59db4729dc6",
+    "34d487826e12d2be88cf369e61dc334f791084269628dffe0d7900358f2f8f62",
+    "a0de4e7dfd647640dd7c3bee804f7081a4dffe7058287079a5179d18c823d8ef",
+    "4b864a77cc66f9550300a356290886070fefc8e6477d37d7beda459fa2d30a2a",
+    "af9056a692e9e25a80d07105c26670c59759df8e24cab3afdd050bf27d3b23ea",
+    "dd19b4f6e32a8d798f4df4b8268b4841514c6b6595b260822f9436b32af704ac",
+    "7e2cd32025c40435234fed59395731c9b073c1c5397898f359cac983e21039b0",
+    "17a1872438dc2fff99ddaa66223af553eef6a38bf0b04d09af5146689962f539",
+    "518e88f545cf500a5877706d640df82395227c6d51da0c77a904b6da67646476",
+    "177dd11b85a239f10f5453b39db7a32741b035524c65839dcc5772b88780e0b9",
+    "9ab109c8285c4b0bb566aca240186a0818778e6534f07ec17f4fd395a51af532",
+    "c06c9bc8bb4b4e1a332019e9f019025eec3a07bb050684e353f11e750074dafc",
+    "8f31c5347c6568323345b0ca667e4a3a5fe71a76cbd901f564c7e0dbff0f49df",
+    "792f28c56306a7df7a79290e1c5675e6030c6f1eb048a578fb733586853bcba2",
+    "2dc56efb44b23ce27845a9536fb094c6b75a66c3e144f5cfd5d90883d397cf98",
+    "36013e0dcb64ae9a9eee8b72228e63ecc6013587b35efebfeb5a55882788cce4",
+    "ea409aaff465fda0fe1bceabe71445215f3679f146b9116fd55b681d5f30ed1b",
+    "77734d9ec1d3ad534cca4f0353c8af279ba6ae1e88d3af3b00aff21bc170ea62",
+    "a9ee746180229ccca32e9fb1325eae91eb449af8c040fc58014bf317afa8e218",
+    "2cfd276f0dd1303489f95fd619318d0fd1610542976652035dfd8c247b9aa8f7",
+    "45e9e56a125da1f37959bd65698a697169ea4cb529fb6811e221c9be61c2ddcf",
+    "37b3b3851096f2c8777c984fc0b29a3e5ace2b3270ad4049544c2fbb9f519d24",
+    "fdf5552185ab95f2e903b4dfd6bab94d0340ec3f650fe96b66ef83d9f65ecf62",
+    "834238ca573ed756ef2b158ee000be0020cf526943d940dfcde5604aa44065fc",
+    "ed617c69e0cf0788653214765b274ba32e6b3868f60badcf1c55aff74f87c7cb",
+    "abe77b2dfc7edca94332215b6cd6ae09c55e9b002fc418676a2c7dd9d46fce26",
+    "db0e8874976a7553271bf4e854eefc8274fa3bf4919bc58c2abf574bcc01f402",
+    "f28ebae2d4d14c7126261782c96bb048d47236d8edf3d61f26fe3b9d9ca9f7a3",
+    "776e2fb5168fe081dccaecaf366774596fab3fe889af7585bda40d4901bb2877",
+    "008101016017cc9c4bceaaae8420331f97b540a332e0f83fc644d6ba228ce97a",
+    "f4386d3d5017274ad74a21bd1ed1b413d3ae60f1af4879404b98a3004e64aa64",
+    "1daa43676b03a8914120357cea5d0fd6b4f41d2405b1b69f2cb3ac5ab39c6e68",
+    "0558f9c791f68eebcf74a2a65445f671c78ed8ae4b093f6511b556106bb32137",
+    "ded69ad690a5766be74e7ffa57ad0b1eb9da150431706ba513b4dca56ae5c9e2",
+    "1a86cb9e13d3946f615cffa90721fde0b4579f603848d1abcfea6bdd491b83e4",
+    "8a0d518c85ef8c60cca12c511433bb2e402b944e2bfe55284ca82eac37ce3e4a",
+    "c7fc8faa205edba86e23bc7c63b873b9147cd0d761abfe54cab33d92aff4b8c4",
+    "1f538c739a0bed70ac15eda25338d3b92aa61e3464c256a6bb78018bc6b0bb50",
+    "d94c4d9b63e70fa3f577ab3aaf31d1264f35108e43ffdd4bcbb41653583b465e",
+    "cdbc9a6c53f1feeb82f0db800ee3253ced1fafa99b225f7162b54c4dd7dede33",
+    "e3ba15350b4584f165fe15e7a274ba75cf4bd82efa3b99c73457412163733528",
+    "8a76bc7be5c71ebdc757a5f7fc701bc76ac76ca6aa4318021a37f69318194c05",
+    "9e59aeaafa09952f88c25b5f12f2d974bcf58abb8fc3e9228115a37aad68b789",
+    "2a9e3d1768d15b893582e9ce112d751217c3d7e28c1b003f345a833ee065d18b",
+    "d57ecbaf4aea185e9d32fd6aba0392cb9e3dbe1d97befe5605a29fa5180585ea",
+    "ea82ca6d3535e02dc3704db6a89147845dfde08e8b896b4129b18a480990efc9",
+    "fc375b8d4f43b2da3c961628e74940af450872a440a72da51960c81d373ccf4f",
+    "bb29ec8230d78ed251ce1d17ec7cca69f8dcd587fab2843b88fd2886795c1f2f",
+    "5a8a7c0ef88b4cabbe6da464efc451fc605da6149583e8bb3cde46f3bff2a274",
+    "0eb28708144b4fb3cd3a4c4e9e882cb7ad3be560227f4416922279523b6be8dc",
+    "0dd873e0b905fca1f973755c1186d1c8484727818351c64429d1a4a795fab475",
+    "07aef065ecb592bcd973e0244df7196763ed0d01f4cb6716ae81a2352326a36f",
+    "cb3df3e1e848818c430e7dce36c439e8e1fbeb73dff72e8bb0eb792c8527ba1b",
+    "30e81a80162d2e98d1a817ce6f6e3ebece3ff11a5b3809a710adb032d28eaa0e",
+    "aed0c0dcb26be05586833970bfdcad67a26bd2387a19efadcca51929da5a9dc9",
+    "dddbfc091822dc4b65692e603c7d02593b002174d99443379c84bcc835f35997",
+    "8e2c7fd45fda18c82f3347f9227d9b0c4a17770fe5e3789b318bfcd5ccdeaee4",
+    "2a6d9813745f433159cb473111ad50514a8732222d9120a71be48b3de335ac13",
+    "b98c84f558d1eadec895e8ae1d758665bf29af5a378baafc36533930f65ca7fb",
+    "14847593acf13436f2f55bcfe9a2377aa371848c1c97736e76d7294b56f54e6f",
+    "d681dc547c869dbef3241fe4227eddb9170bfaf6356fd899630bf94a020bafac",
+    "70b97b60c00b536b5151dc5c92af8eadc774a8dc05ce2a0ef688ee49b5abf168",
+    "1adcc3115ca198402b60f7f8b8d4e800c599d4b4d2dc511dcaaf93b2978ecfa5",
+    "879d066df79fd513b5b714b46ae7a80ae1f0dbd41f648eae8a6487481c61dd86",
+    "5ed0b2211e049d582633dffa8e9464ce305378b7d29a4a5e058a53f983c6f823",
+    "4a2128d63e92b52238dc8702a79094b35ebf8334e5a63f77abd7b96f47b8315c",
+    "8f8201c39125746ea0956a11d8804c8cf9605a4f7fa0245334a7beaec4d96a50",
+    "8d1ce303f63f9c0545df8e1b9ef7dabc7f75d172b6d9d93f81cbef36f3a0d03d",
+    "9429e679004a65a4508ac78385a5afc71bb68c54bb0c37957aefcf83618b9100",
+    "4f01742cb0ebc6dfbfa962bb512abd695b87c4fe2bb6ddc2ed300d150837ac0a",
+    "3fda28a4711fed52a65775c0e25fc236504bd0ff9de71378f4aaf4dc3eb39f18",
+    "231aad410867cfe779c86c4212bfb1f470101ca5ba96416bfe2b32f60fff9d1c",
+    "903df51cd773cb5d8cdd45b677b652bb37d5b89cc6853400ed85a4bcf174801c",
+    "f76f1a0f571115136b8380fde524031a76ded61ff6364a9a6fec8b9f0a7f7a11"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "d292243a10512bf12f970566b15f3f8f47d5ea69189e6fb25a7fcd2ce356b4b7",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "公共汽车转弯时内轮差造成切弯，是由于车身后部与路面接触或擦碰。",
+          "after": "公共汽车转弯时切弯，是由于车身后部与路面接触或擦碰。"
+        }
+      }
+    },
+    {
+      "id": "a72f9b7907858eca800a77a401bc2a05ad57324c02ec7d0a3fa2b1e379e76f08",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "A bus encroaches on the pavement while pulling into a stop because of the distance between the centres of the front and rear axles.",
+          "after": "A bus encroaches on the pavement while pulling into a stop because of the large distance between the centres of the front and rear axles."
+        },
+        "zh": {
+          "before": "公共汽车靠站时侵入人行道，是由于前后轴中心之间的距离。",
+          "after": "公共汽车靠站时侵入人行道，是由于前后轴中心之间的距离很长。"
+        }
+      }
+    },
+    {
+      "id": "fb74ea88bd6719b9c2192d137178a2c73bd4a22bd334e744e5ad962b010d12e7",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "A bus driver ensures adequate passenger comfort by maintaining an uneven speed and making sudden steering movements.",
+          "after": "A bus driver must ensure adequate passenger comfort by maintaining an uneven speed and making sudden steering movements."
+        },
+        "zh": {
+          "before": "公共汽车驾驶人通过保持不均匀车速和突然转向来确保乘客适当的乘坐舒适度。",
+          "after": "公共汽车驾驶人必须通过保持不均匀车速和突然转向来确保乘客适当的乘坐舒适度。"
+        }
+      }
+    },
+    {
+      "id": "f5f7ddadc6cbc37df288cbeac5b8487c843da5c822c7c0554ddc679cf9355d6a",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "A bus driver must safeguard passengers' safety and physical wellbeing.",
+          "after": "A driver must safeguard passengers' safety and physical wellbeing."
+        },
+        "zh": {
+          "before": "公共汽车驾驶人有义务维护乘客的安全和人身健康。",
+          "after": "驾驶人有义务维护乘客的安全和人身健康。"
+        }
+      }
+    },
+    {
+      "id": "a90757eaecf8c85af3a56c9a34d428bb306252e072991f2cfbccb05f5c462e5b",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "A bus driver must satisfy every passenger's requests even at the expense of other passengers.",
+          "after": "A driver must satisfy every passenger's requests even at the expense of other passengers."
+        },
+        "zh": {
+          "before": "公共汽车驾驶人有义务满足每位旅客的要求，即使损害其他乘客利益也是如此。",
+          "after": "驾驶人有义务满足每位旅客的要求，即使损害其他乘客利益也是如此。"
+        }
+      }
+    },
+    {
+      "id": "bf15fe33f0cde1f84c3a69804d6ca79024c2c2e9d3ddb0b728937e985905424a",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "A bus driver must interrupt service on their own initiative whenever they consider it necessary.",
+          "after": "A driver must interrupt service on their own initiative whenever they consider it necessary."
+        },
+        "zh": {
+          "before": "公共汽车驾驶人认为必要时，有义务主动中断服务。",
+          "after": "驾驶人认为必要时，有义务主动中断服务。"
+        }
+      }
+    },
+    {
+      "id": "04bac7697100f2f83d7f14ac5941a2ccd764197a6d2e3f5bd7e2f9bb595875d4",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "A bus driver must transport anything a passenger wants.",
+          "after": "A driver must transport anything a passenger wants."
+        },
+        "zh": {
+          "before": "公共汽车驾驶人有义务运输乘客想带的任何东西。",
+          "after": "驾驶人有义务运输乘客想带的任何东西。"
+        }
+      }
+    },
+    {
+      "id": "80701692554402eaa97c11de4e38f46cc65ee5f53d8e26e00867f59db4729dc6",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Interior lighting may be present on some types of bus.",
+          "after": "Interior lighting may be fitted to some buses."
+        },
+        "zh": {
+          "before": "某些类型的公共汽车可以配备内部照明。",
+          "after": "某些公共汽车可以配备内部照明。"
+        }
+      }
+    },
+    {
+      "id": "1f538c739a0bed70ac15eda25338d3b92aa61e3464c256a6bb78018bc6b0bb50",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Bus passengers may normally take window-breaking hammers as souvenirs.",
+          "after": "Bus passengers are normally asked to take window-breaking hammers as souvenirs."
+        },
+        "zh": {
+          "before": "公共汽车乘客通常可以将破窗锤作为纪念品带走。",
+          "after": "公共汽车乘客通常被要求将破窗锤作为纪念品带走。"
+        }
+      }
+    },
+    {
+      "id": "e3ba15350b4584f165fe15e7a274ba75cf4bd82efa3b99c73457412163733528",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Wheelchair users with disabilities can never be transported by bus or minibus.",
+          "after": "Wheelchair users with disabilities cannot be transported by bus or minibus."
+        },
+        "zh": {
+          "before": "使用轮椅的残障人士在任何情况下都不能乘坐公共汽车或小型公共汽车。",
+          "after": "使用轮椅的残障人士不能乘坐公共汽车或小型公共汽车。"
+        }
+      }
+    },
+    {
+      "id": "d57ecbaf4aea185e9d32fd6aba0392cb9e3dbe1d97befe5605a29fa5180585ea",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Before moving off again, the bus driver must ensure passengers who have boarded and alighted are safe.",
+          "after": "During the journey, the driver must ensure that passengers have boarded and alighted and are safe before moving off again."
+        },
+        "zh": {
+          "before": "重新起步前，公共汽车驾驶人必须确认已上下车的乘客安全。",
+          "after": "行程期间，驾驶人必须在重新起步前确认乘客已上下车且处于安全状态。"
+        }
+      }
+    },
+    {
+      "id": "07aef065ecb592bcd973e0244df7196763ed0d01f4cb6716ae81a2352326a36f",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Wheelchair users with disabilities board and alight from a bus using a lift that can be removed when not needed.",
+          "after": "Wheelchair users with disabilities board and alight from a bus using a removable lift."
+        },
+        "zh": {
+          "before": "使用轮椅的残障人士通过不需要时可以拆除的升降装置上下公共汽车。",
+          "after": "使用轮椅的残障人士通过可以拆除的升降装置上下公共汽车。"
+        }
+      }
+    },
+    {
+      "id": "d681dc547c869dbef3241fe4227eddb9170bfaf6356fd899630bf94a020bafac",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "During service, a bus driver must talk to passengers to keep them calm.",
+          "after": "During service, the bus driver talks to passengers to keep them calm."
+        },
+        "zh": {
+          "before": "服务期间，公共汽车驾驶人必须与乘客交谈以使其保持安静。",
+          "after": "服务期间，公共汽车驾驶人与乘客交谈，使其保持平静。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "a4dc2712feeb6e2ddcc463c4a933c2ecd8fd9bad1e80bc5b5f27a778c1e12ef6"
+}

@@ -1,0 +1,637 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28752,
+          "quesito_id": 6115,
+          "text_it": "Quanto più è alto il baricentro del veicolo, tanto più stabile è il veicolo stesso",
+          "answer": 0,
+          "page": 82,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "54b121c13a9440b34d1b2a3bdf292df80509b0993cd769d75c92a5df2da7d334",
+        "localized_text": "The higher the vehicle's center of gravity, the more stable the vehicle."
+      },
+      {
+        "source": {
+          "number": 28753,
+          "quesito_id": 6115,
+          "text_it": "Il vento laterale influisce sulla stabilità del veicolo unicamente se sta percorrendo una curva",
+          "answer": 0,
+          "page": 82,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2993aa56cc883bb2ad30714936643c23a1a899a5a4d7ae9023b5b177fb89208b",
+        "localized_text": "Crosswinds affect vehicle stability only when it is taking a bend."
+      },
+      {
+        "source": {
+          "number": 28754,
+          "quesito_id": 6116,
+          "text_it": "Durante una curva, il liquido contenuto in una cisterna si sposta lateralmente verso il lato esterno della curva stessa, aumentando il pericolo di uscita di strada",
+          "answer": 1,
+          "page": 82,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "16018535c0803442061285c6d5e044a7f673ae6d519ad4563e82c5391dca2452",
+        "localized_text": "During a bend, liquid in a tank shifts sideways toward the outside of the bend, increasing the risk of leaving the road."
+      },
+      {
+        "source": {
+          "number": 28755,
+          "quesito_id": 6116,
+          "text_it": "In seguito ad una frenata, il liquido contenuto in una cisterna tende a spostarsi in avanti, spingendo il veicolo nella direzione di marcia",
+          "answer": 1,
+          "page": 82,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "48eafbbfa362a141e0dac000c089f67d13e21cbab94bfe802c80357a02571bf6",
+        "localized_text": "During braking, liquid in a tank tends to shift forward, pushing the vehicle in its direction of travel."
+      },
+      {
+        "source": {
+          "number": 28756,
+          "quesito_id": 6116,
+          "text_it": "I diaframmi interni della cisterna riducono gli spostamenti del liquido nelle situazioni di marcia più critiche (curva, accelerazione, frenata)",
+          "answer": 1,
+          "page": 82,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "59ce4f36cf68ec724f7b62a13b207f0f5934cefb28974e791601cd56373e680f",
+        "localized_text": "Internal tank baffles reduce liquid movement in critical driving situations such as bends, acceleration and braking."
+      },
+      {
+        "source": {
+          "number": 28757,
+          "quesito_id": 6116,
+          "text_it": "Se i diaframmi interni di una cisterna sono aperti, essi non impediscono il passaggio del liquido da uno scomparto ad un altro ma lo rendono più lento e più contenuto",
+          "answer": 1,
+          "page": 82,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f9442fb9e7a370e2ef068463a80ebb9cea4768b5934f64fc27891a62fb8983e7",
+        "localized_text": "Open internal tank baffles do not prevent liquid passing between compartments but slow and limit its movement."
+      },
+      {
+        "source": {
+          "number": 28758,
+          "quesito_id": 6116,
+          "text_it": "Una cisterna monoscomparto è particolarmente instabile quando il suo riempimento è circa il 50/60% del volume totale",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cee9984f753dfcc9b6760fc72f7524f65506e9e2f94cdab39c0b9ce3482b0103",
+        "localized_text": "A single-compartment tank is particularly unstable when filled to about 50/60% of its total volume."
+      },
+      {
+        "source": {
+          "number": 28759,
+          "quesito_id": 6116,
+          "text_it": "La forma di una cisterna influisce sulla stabilità del veicolo in curva",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d120083b676c407b6c51988ed624a758a2eb2c8bf8029866c7d9e92b99ab67a5",
+        "localized_text": "A tank's shape affects vehicle stability on bends."
+      },
+      {
+        "source": {
+          "number": 28760,
+          "quesito_id": 6116,
+          "text_it": "Una cisterna monoscomparto è più soggetta al pericolo di ribaltamento quando il suo riempimento è parziale (50/60%)",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "86084228abc51689395a5768323bf4d3052ea4a17459d0f09d083736e1205f19",
+        "localized_text": "A single-compartment tank is more prone to overturning when partially filled, 50/60%."
+      },
+      {
+        "source": {
+          "number": 28761,
+          "quesito_id": 6116,
+          "text_it": "Il trasporto di materie in polvere con una cisterna è meno problematico rispetto al trasporto di sostanze liquide",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "72b7f7ce8a109bd986f0074bdf03c3363ba666644eb2d3178449aca5c54408a3",
+        "localized_text": "Transporting powders in a tank is less problematic than transporting liquids."
+      },
+      {
+        "source": {
+          "number": 28762,
+          "quesito_id": 6116,
+          "text_it": "In seguito ad una brusca accelerata, il liquido contenuto in una cisterna tende a spostarsi all'indietro, sovraccaricando le ruote posteriori del veicolo",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "81abc2a583fbf7fdcc3c0ae5fb2d71130175c6606844ce14af6076581fbd01f2",
+        "localized_text": "After sudden acceleration, liquid in a tank tends to shift backward, overloading the vehicle's rear wheels."
+      },
+      {
+        "source": {
+          "number": 28763,
+          "quesito_id": 6116,
+          "text_it": "Imboccando una forte discesa, il liquido contenuto in una cisterna tende a spostarsi in avanti, spingendo il veicolo nella direzione di marcia",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2b3416fcc13bf514f2ab86338694c3a1731512d61f75fb92209e8a8ad258d36e",
+        "localized_text": "When entering a steep descent, liquid in a tank tends to shift forward, pushing the vehicle in its direction of travel."
+      },
+      {
+        "source": {
+          "number": 28764,
+          "quesito_id": 6116,
+          "text_it": "Imboccando una forte salita, il liquido contenuto in una cisterna tende a spostarsi all'indietro, sovraccaricando le ruote posteriori del veicolo",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b322d53d8446b758b6166b573cadd1de3368c1dfd97674cdfa8c63b3bf17d563",
+        "localized_text": "When entering a steep ascent, liquid in a tank tends to shift backward, overloading the vehicle's rear wheels."
+      },
+      {
+        "source": {
+          "number": 28765,
+          "quesito_id": 6116,
+          "text_it": "Durante una curva il liquido di una cisterna si sposta verso l’interno della curva stessa a causa della forma della cisterna",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9051567cd512ee1a5a853c47437b92919262efb9e1a9285e5f40a8f7914c4e5c",
+        "localized_text": "During a bend, liquid in a tank shifts toward the inside of the bend because of the tank's shape."
+      },
+      {
+        "source": {
+          "number": 28766,
+          "quesito_id": 6116,
+          "text_it": "In seguito ad una frenata dell’autocisterna, il liquido contenuto, a causa della sua inerzia, si sposta verso la parete posteriore",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ed1b119ea2fb96baec489cd60a89a7593a3337bc6fb4d52b0292ce39ca96b31a",
+        "localized_text": "When a tanker brakes, the liquid inside shifts toward the rear wall because of its inertia."
+      },
+      {
+        "source": {
+          "number": 28767,
+          "quesito_id": 6116,
+          "text_it": "In un veicolo per il trasporto di liquidi, i diaframmi interni della cisterna servono principalmente come rinforzo della struttura",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "628da1677c1e91e70b0bc39ad5af9a913dcd6672f90ef9b678b924bea12d8b47",
+        "localized_text": "In a liquid transport vehicle, the tank's internal baffles mainly reinforce the structure."
+      },
+      {
+        "source": {
+          "number": 28768,
+          "quesito_id": 6116,
+          "text_it": "Le aperture dei diaframmi interni in una cisterna hanno lo scopo esclusivo di permettere il passaggio di una persona per la pulizia della cisterna stessa",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "841996dcf0881dc8c68e84cb55c7ef27da898dcd68525ade41fe984734ef9a5d",
+        "localized_text": "Openings in internal tank baffles are solely intended to let a person pass through to clean the tank."
+      },
+      {
+        "source": {
+          "number": 28769,
+          "quesito_id": 6116,
+          "text_it": "Quando il riempimento di un’autocisterna è di circa il 50-60% della sua capienza, la stabilità del veicolo è maggiore perché il baricentro è più basso",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c62bc9ed8aab567d92c617dc4a3668da863dd48b5cce778e15a8c2cd22532568",
+        "localized_text": "A tanker filled to about 50–60% of capacity is more stable because its center of gravity is lower."
+      },
+      {
+        "source": {
+          "number": 28770,
+          "quesito_id": 6116,
+          "text_it": "La forma di una cisterna non ha nessuna influenza sulla stabilità del veicolo, salvo quando trasporta sostanze in polvere",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0ac9f76b15895b4395f98cb20c2fac06e472a1295fb5ad65119d502c89e2b147",
+        "localized_text": "A tank's shape has no effect on vehicle stability except when carrying powders."
+      },
+      {
+        "source": {
+          "number": 28771,
+          "quesito_id": 6116,
+          "text_it": "Un’autocisterna è più soggetta al ribaltamento quando viaggia a vuoto",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "46021daa535a0174b78d2e93fd9fd225159487727a64602cdc609638450cd9a3",
+        "localized_text": "A tanker is more prone to overturning when traveling empty."
+      },
+      {
+        "source": {
+          "number": 28772,
+          "quesito_id": 6116,
+          "text_it": "Il trasporto di sostanze liquide con un’autocisterna è meno pericoloso del trasporto di sostanze in polvere",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3f206ef75467bd5d224bbb997b12561efb89bde3a874abd7a5d7ea33ce508867",
+        "localized_text": "Transporting liquids by tanker is less dangerous than transporting powdered substances."
+      },
+      {
+        "source": {
+          "number": 28773,
+          "quesito_id": 6116,
+          "text_it": "Imboccando una forte salita, il liquido contenuto in una cisterna tende a spostarsi in avanti, spingendo il veicolo nella direzione di marcia",
+          "answer": 0,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "897a8ef9bed79fc123f332abb8f8bba7266e82012c1791f6ac86e58d414c065b",
+        "localized_text": "When entering a steep ascent, liquid in a tank tends to shift forward, pushing the vehicle in its direction of travel."
+      },
+      {
+        "source": {
+          "number": 28774,
+          "quesito_id": 6117,
+          "text_it": "La verifica della corretta sistemazione del carico spetta al conducente",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9c65c7385f0b56b50c06bd82573cd814cdeaef9fd534b9332bbd2ee133923ab4",
+        "localized_text": "The driver is responsible for checking that the load is properly arranged."
+      },
+      {
+        "source": {
+          "number": 28775,
+          "quesito_id": 6117,
+          "text_it": "La verifica della corretta sistemazione del carico riguarda tutta la durata del trasporto",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0e11fba33580691f77d49cd00b7142d64f3499280db5891f206bfe8d6659ef66",
+        "localized_text": "Correct load arrangement must be checked throughout the transport."
+      },
+      {
+        "source": {
+          "number": 28776,
+          "quesito_id": 6117,
+          "text_it": "Il sovraccarico si ha quando il carico supera per massa il valore di portata del veicolo",
+          "answer": 1,
+          "page": 83,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7ff75979a244f92513d9eea32e06835466d22727bc509f20751d811bf4dc78be",
+        "localized_text": "Overloading occurs when the load's mass exceeds the vehicle's payload capacity."
+      }
+    ],
+    "task_sha256": "a4798188e72f416e31e40d2b6b05a39cf1e6caac02199377dcbdfc6b83e07e9a"
+  },
+  "rows": [
+    {
+      "number": 28752,
+      "text": "A higher center of gravity makes a vehicle more prone to rollover, other conditions being equal.",
+      "evidence": [
+        "https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/136_ESC_Hvy_Veh_PRIA.pdf, p. III-2: un carico con baricentro alto aumenta la probabilità di ribaltamento."
+      ]
+    },
+    {
+      "number": 28753,
+      "text": "A crosswind can push or destabilize a vehicle even on a straight road, not just on a bend.",
+      "evidence": [
+        "https://hero.epa.gov/reference/7302475/, abstract: il vento laterale presso le pile di ponti può causare sbandamenti o ribaltamento dei veicoli alti."
+      ]
+    },
+    {
+      "number": 28754,
+      "text": "On a bend, the liquid collects toward the outside and its push can carry the vehicle off the road.",
+      "evidence": [
+        "https://www.usfa.dhs.gov/downloads/pdf/publications/fa-248.pdf, pp. 56–57, Liquid Surge: il liquido si muove verso l’esterno in curva e in avanti frenando; i diaframmi limitano il movimento."
+      ]
+    },
+    {
+      "number": 28755,
+      "text": "When braking, inertia carries the liquid toward the front wall, where it can push the vehicle forward.",
+      "evidence": [
+        "https://www.usfa.dhs.gov/downloads/pdf/publications/fa-248.pdf, pp. 56–57, Liquid Surge: il liquido si muove verso l’esterno in curva e in avanti frenando; i diaframmi limitano il movimento."
+      ]
+    },
+    {
+      "number": 28756,
+      "text": "Baffles reduce liquid movement during maneuvers; their effectiveness also depends on their arrangement, and they do not eliminate all sloshing.",
+      "evidence": [
+        "https://www.usfa.dhs.gov/downloads/pdf/publications/fa-248.pdf, pp. 56–57, Liquid Surge: il liquido si muove verso l’esterno in curva e in avanti frenando; i diaframmi limitano il movimento.",
+        "https://publications.iowa.gov/24440/1/430004.pdf, § 8.2.4–8.2.5: le aperture consentono il flusso e i diaframmi limitano le oscillazioni longitudinali; possono restare oscillazioni laterali."
+      ]
+    },
+    {
+      "number": 28757,
+      "text": "The openings let liquid pass between parts of the tank, while the baffles slow its movement.",
+      "evidence": [
+        "https://publications.iowa.gov/24440/1/430004.pdf, § 8.2.4–8.2.5: le aperture consentono il flusso e i diaframmi limitano le oscillazioni longitudinali; possono restare oscillazioni laterali."
+      ]
+    },
+    {
+      "number": 28758,
+      "text": "At an intermediate fill level there is both a substantial mass of liquid and room for it to slosh; around half capacity this can make the tank very unstable.",
+      "evidence": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1155/2013/659873, sezione Results and Discussion: nel modello studiato il riempimento 0,4–0,6 accentua l’effetto dello sloshing sulla stabilità."
+      ]
+    },
+    {
+      "number": 28759,
+      "text": "Tank shape changes liquid movement and mass distribution, affecting stability on bends.",
+      "evidence": [
+        "https://www.ternz.co.nz/Publications/Stability%20Effects%20of%20Sloshing%20Liquids%20and%20Hanging%20Meats.PDF, figura 3: la soglia dinamica di ribaltamento varia con la sezione della cisterna e il riempimento."
+      ]
+    },
+    {
+      "number": 28760,
+      "text": "In a partially filled tank, liquid can slosh sideways; around half capacity this can greatly reduce resistance to rollover.",
+      "evidence": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1155/2013/659873, sezione Results and Discussion: nel modello studiato il riempimento 0,4–0,6 accentua l’effetto dello sloshing sulla stabilità.",
+        "https://www.ternz.co.nz/Publications/Stability%20Effects%20of%20Sloshing%20Liquids%20and%20Hanging%20Meats.PDF, figura 3: la soglia dinamica di ribaltamento varia con la sezione della cisterna e il riempimento."
+      ]
+    },
+    {
+      "number": 28761,
+      "text": "The quiz marks this TRUE. Liquid in a partly filled tank can surge and shift the load during manoeuvres; powders also present risks. Overall safety depends on the material, fill level, tank, controls and manoeuvre: powders are not always safer.",
+      "evidence": [
+        "Official superiori questions 28761 VERO and 28772 FALSO; interpreting their teaching focus as liquid surge is an inference, not a verified official rationale.",
+        "HSE https://www.hse.gov.uk/workplacetransport/trafficroutes.htm : both liquid tankers and raised powder/bulk tankers can be unstable in different circumstances. HSE https://www.hse.gov.uk/comah/sragtech/techmeasearthing.htm discusses separate transfer hazards for flammable liquids and powders; UK technical guidance, not Italian law.",
+        "NTC Load Restraint Guide 2018 pp.181–183 https://www.ntc.gov.au/sites/default/files/assets/files/Load-Restraint-Guide-2018.pdf : independently adjudicated liquid surge and powder movement; author browser rejected PDF for size, not directly inspected."
+      ]
+    },
+    {
+      "number": 28762,
+      "text": "During acceleration, liquid moves toward the rear of the tank, transferring more load to the rear wheels.",
+      "evidence": [
+        "https://dxm.content-center.totalenergies.com/api/wedia/dam/variation/xysh7dg731ta71tmc3mgjw459a/original%2Cdefault, Professional Driver Manual, Trip Management e Rapid Acceleration: pendenza e accelerazione influenzano lo spostamento del liquido; l’accelerazione lo spinge verso il retro."
+      ]
+    },
+    {
+      "number": 28763,
+      "text": "Going downhill, liquid tends to collect toward the front of the tilted tank and can push the vehicle forward.",
+      "evidence": [
+        "https://dxm.content-center.totalenergies.com/api/wedia/dam/variation/xysh7dg731ta71tmc3mgjw459a/original%2Cdefault, Professional Driver Manual, Trip Management e Rapid Acceleration: pendenza e accelerazione influenzano lo spostamento del liquido; l’accelerazione lo spinge verso il retro.",
+        "https://www.usfa.dhs.gov/downloads/pdf/publications/fa-248.pdf, pp. 56–57, Liquid Surge: il liquido si muove verso l’esterno in curva e in avanti frenando; i diaframmi limitano il movimento."
+      ]
+    },
+    {
+      "number": 28764,
+      "text": "Going uphill, liquid tends to collect toward the rear of the tilted tank, increasing the load on the rear wheels.",
+      "evidence": [
+        "https://dxm.content-center.totalenergies.com/api/wedia/dam/variation/xysh7dg731ta71tmc3mgjw459a/original%2Cdefault, Professional Driver Manual, Trip Management e Rapid Acceleration: pendenza e accelerazione influenzano lo spostamento del liquido; l’accelerazione lo spinge verso il retro."
+      ]
+    },
+    {
+      "number": 28765,
+      "text": "On a bend, liquid moves outward, not inward; its lateral push can destabilize the vehicle.",
+      "evidence": [
+        "https://www.usfa.dhs.gov/downloads/pdf/publications/fa-248.pdf, pp. 56–57, Liquid Surge: il liquido si muove verso l’esterno in curva e in avanti frenando; i diaframmi limitano il movimento."
+      ]
+    },
+    {
+      "number": 28766,
+      "text": "When braking, inertia moves the liquid toward the front wall, not the rear wall.",
+      "evidence": [
+        "https://www.usfa.dhs.gov/downloads/pdf/publications/fa-248.pdf, pp. 56–57, Liquid Surge: il liquido si muove verso l’esterno in curva e in avanti frenando; i diaframmi limitano il movimento."
+      ]
+    },
+    {
+      "number": 28767,
+      "text": "Baffles mainly limit liquid sloshing; their primary purpose is not to reinforce the structure.",
+      "evidence": [
+        "https://www.usfa.dhs.gov/downloads/pdf/publications/fa-248.pdf, pp. 56–57, Liquid Surge: il liquido si muove verso l’esterno in curva e in avanti frenando; i diaframmi limitano il movimento.",
+        "https://publications.iowa.gov/24440/1/430004.pdf, § 8.2.4–8.2.5: le aperture consentono il flusso e i diaframmi limitano le oscillazioni longitudinali; possono restare oscillazioni laterali."
+      ]
+    },
+    {
+      "number": 28768,
+      "text": "The openings are not solely for cleaning: they also let liquid pass through the baffles, which limit its movement.",
+      "evidence": [
+        "https://publications.iowa.gov/24440/1/430004.pdf, § 8.2.4–8.2.5: le aperture consentono il flusso e i diaframmi limitano le oscillazioni longitudinali; possono restare oscillazioni laterali."
+      ]
+    },
+    {
+      "number": 28769,
+      "text": "An intermediate fill leaves room for liquid to slosh; around half capacity this can reduce stability even if the center of gravity is lower.",
+      "evidence": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1155/2013/659873, sezione Results and Discussion: nel modello studiato il riempimento 0,4–0,6 accentua l’effetto dello sloshing sulla stabilità.",
+        "https://www.ternz.co.nz/Publications/Stability%20Effects%20of%20Sloshing%20Liquids%20and%20Hanging%20Meats.PDF, figura 3: la soglia dinamica di ribaltamento varia con la sezione della cisterna e il riempimento."
+      ]
+    },
+    {
+      "number": 28770,
+      "text": "Shape also matters with a liquid load: it changes liquid movement and stability on bends.",
+      "evidence": [
+        "https://www.ternz.co.nz/Publications/Stability%20Effects%20of%20Sloshing%20Liquids%20and%20Hanging%20Meats.PDF, figura 3: la soglia dinamica di ribaltamento varia con la sezione della cisterna e il riempimento."
+      ]
+    },
+    {
+      "number": 28771,
+      "text": "An empty tank has no liquid mass to slosh; a partially filled tank may be more prone to rollover because the load moves.",
+      "evidence": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1155/2013/659873, sezione Results and Discussion: nel modello studiato il riempimento 0,4–0,6 accentua l’effetto dello sloshing sulla stabilità.",
+        "https://www.ternz.co.nz/Publications/Stability%20Effects%20of%20Sloshing%20Liquids%20and%20Hanging%20Meats.PDF, figura 3: la soglia dinamica di ribaltamento varia con la sezione della cisterna e il riempimento."
+      ]
+    },
+    {
+      "number": 28772,
+      "text": "The quiz marks this FALSE. Liquid in a partly filled tank can surge and affect stability; powders can also be hazardous. The comparison depends on the material, fill level, tank, controls and manoeuvre, so there is no universal ranking.",
+      "evidence": [
+        "Official superiori questions 28761 VERO and 28772 FALSO; interpreting their teaching focus as liquid surge is an inference, not a verified official rationale.",
+        "HSE https://www.hse.gov.uk/workplacetransport/trafficroutes.htm : both liquid tankers and raised powder/bulk tankers can be unstable in different circumstances. HSE https://www.hse.gov.uk/comah/sragtech/techmeasearthing.htm discusses separate transfer hazards for flammable liquids and powders; UK technical guidance, not Italian law.",
+        "NTC Load Restraint Guide 2018 pp.181–183 https://www.ntc.gov.au/sites/default/files/assets/files/Load-Restraint-Guide-2018.pdf : independently adjudicated liquid surge and powder movement; author browser rejected PDF for size, not directly inspected."
+      ]
+    },
+    {
+      "number": 28773,
+      "text": "Going uphill, liquid tends to collect toward the rear of the tilted tank, not the front.",
+      "evidence": [
+        "https://dxm.content-center.totalenergies.com/api/wedia/dam/variation/xysh7dg731ta71tmc3mgjw459a/original%2Cdefault, Professional Driver Manual, Trip Management e Rapid Acceleration: pendenza e accelerazione influenzano lo spostamento del liquido; l’accelerazione lo spinge verso il retro."
+      ]
+    },
+    {
+      "number": 28774,
+      "text": "The driver must check that the load is properly positioned and secured before setting off.",
+      "evidence": [
+        "https://www.europarl.europa.eu/RegData/etudes/etudes/join/2008/408953/IPOL-TRAN_ET%282008%29408953_EN.pdf, pp. 52–53: controllare carico e fissaggio prima della partenza e periodicamente durante il viaggio.",
+        "https://aci.gov.it/codice-della-strada/art-164/, comma 1: il carico deve essere sistemato evitando cadute o dispersioni e senza compromettere stabilità e guida."
+      ]
+    },
+    {
+      "number": 28775,
+      "text": "The load and its restraints should be checked again during the journey because they may shift or loosen, including after heavy braking.",
+      "evidence": [
+        "https://www.europarl.europa.eu/RegData/etudes/etudes/join/2008/408953/IPOL-TRAN_ET%282008%29408953_EN.pdf, pp. 52–53: controllare carico e fissaggio prima della partenza e periodicamente durante il viaggio."
+      ]
+    },
+    {
+      "number": 28776,
+      "text": "Payload is the permitted mass of cargo; exceeding it overloads the vehicle beyond its capacity.",
+      "evidence": [
+        "https://def.giustiziatributaria.gov.it/DocTribFrontend/getPrassiDetail.do?id=%7B2C025E8C-2892-464D-AFCD-CD1A8CD1BBC8%7D, risoluzione: portata come differenza fra massa massima complessiva e tara.",
+        "https://aci.gov.it/codice-della-strada/art-167/, comma 1: limite della massa complessiva indicata sulla carta di circolazione."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "a4798188e72f416e31e40d2b6b05a39cf1e6caac02199377dcbdfc6b83e07e9a",
+    "output_sha256": "b45ad9a34caa632e61261e53cca59504ea31da8763c2f835ae7b38958a69e49d",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / tanker-material-comparison-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      28752,
+      28753,
+      28754,
+      28755,
+      28756,
+      28757,
+      28758,
+      28759,
+      28760,
+      28761,
+      28762,
+      28763,
+      28764,
+      28765,
+      28766,
+      28767,
+      28768,
+      28769,
+      28770,
+      28771,
+      28772,
+      28773,
+      28774,
+      28775,
+      28776
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaba-7744-7413-9b09-5ea8e7e1a286",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "be93ab045fcef46413aa56b90a1b74a612add93c75667bc77342633e4165116c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaba-7744-7413-9b09-5ea8e7e1a286",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28761,
+              "reason": "Il confronto generale tra il pericolo del trasporto di liquidi e quello di materie in polvere non specifica proprietà del carico, riempimento o tipo di rischio; le fonti consultate mostrano che anche polveri e altri solidi sfusi possono spostarsi e che il confronto di stabilità dipende dal riempimento. Non è verificato un ordinamento generale coerente con il verdetto stampato.",
+              "checked_sources": [
+                "https://hsedocs.pdo.com.om/HSEDSVisioFiles/SP-2001.pdf, Annex A-7: anche aggregati sciolti come polvere di cemento possono muoversi in modo simile ai fluidi e influire sulla stabilità.",
+                "https://www.inderscience.com/info/inarticle.php?artid=35992, abstract: il confronto fra carichi oscillanti e non oscillanti varia con il livello di riempimento; non stabilisce una graduatoria universale dei rischi.",
+                "https://rosap.ntl.bts.gov/view/dot/12479/dot_12479_DS1.pdf, § 2.2.1.2: i liquidi parzialmente caricati oscillano e influenzano il rischio di ribaltamento; non confronta in generale tutte le polveri."
+              ]
+            },
+            {
+              "number": 28772,
+              "reason": "Il confronto generale tra il pericolo del trasporto di liquidi e quello di materie in polvere non specifica proprietà del carico, riempimento o tipo di rischio; le fonti consultate mostrano che anche polveri e altri solidi sfusi possono spostarsi e che il confronto di stabilità dipende dal riempimento. Non è verificato un ordinamento generale coerente con il verdetto stampato.",
+              "checked_sources": [
+                "https://hsedocs.pdo.com.om/HSEDSVisioFiles/SP-2001.pdf, Annex A-7: anche aggregati sciolti come polvere di cemento possono muoversi in modo simile ai fluidi e influire sulla stabilità.",
+                "https://www.inderscience.com/info/inarticle.php?artid=35992, abstract: il confronto fra carichi oscillanti e non oscillanti varia con il livello di riempimento; non stabilisce una graduatoria universale dei rischi.",
+                "https://rosap.ntl.bts.gov/view/dot/12479/dot_12479_DS1.pdf, § 2.2.1.2: i liquidi parzialmente caricati oscillano e influenzano il rischio di ribaltamento; non confronta in generale tutte le polveri."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "be93ab045fcef46413aa56b90a1b74a612add93c75667bc77342633e4165116c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

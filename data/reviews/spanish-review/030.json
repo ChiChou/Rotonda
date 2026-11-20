@@ -1,0 +1,43 @@
+{
+  "batch": "030",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "f7eb60a864025c78367a016d18ee55c56c2c5c6d6ded101844d1c6f3022044fc",
+  "source_sha256": "9667d503cfbc01b318c8535d780348d16220ba90a2d1d27f0339af1448e30848",
+  "corrections": [
+    {
+      "id": "2800228d2e0b85890a64325ad52fb52fe02a71d92092a7a23a9d55818677ec73",
+      "before": "La categoría internacional N2 comprende vehículos de motor destinados al transporte de mercancías de masa máxima superior a 3,5 toneladas, pero no superior a 12 toneladas",
+      "after": "La categoría internacional N2 comprende vehículos de motor destinados al transporte de mercancías, cuya masa máxima es superior a 3,5 toneladas pero no superior a 12 toneladas",
+      "reason": "Aclara que la masa máxima corresponde al vehículo, no a las mercancías."
+    },
+    {
+      "id": "283095711ebacb956cc41a6fb4ee0473a933cfcd02203a8d0cd3cb4772f7fafc",
+      "before": "Los vehículos con furgones isotérmicos para transportar alimentos bajo el régimen ATP se clasifican para transporte específico",
+      "after": "Los vehículos con furgones isotérmicos para transportar alimentos bajo el régimen ATP (acuerdo internacional para el transporte de productos perecederos) se clasifican para transporte específico",
+      "reason": "Restituye la descripción del acuerdo incluida en el original."
+    },
+    {
+      "id": "28831576176d0d9eec0f5cc4362ea4aeee3f6b617318c71174694cc538748c31",
+      "before": "Una empresa de transporte no necesita cumplir requisitos especiales para transportar mercancías por cuenta de terceros dentro de la UE con vehículos de capacidad superior a 3,5 toneladas porque el transporte en la UE es libre",
+      "after": "Una empresa de transporte por carretera no necesita cumplir requisitos especiales para realizar transportes por cuenta de terceros dentro de la UE con vehículos de capacidad de carga superior a 3,5 toneladas porque el transporte en la UE es libre",
+      "reason": "El original no limita el transporte a mercancías y especifica capacidad de carga."
+    },
+    {
+      "id": "28aece45fecb5cc77f38540d3fea75cf0869b3c0db115d4550bd692e146d3754",
+      "before": "La sigla GLP identifica el diésel con partículas limitadas",
+      "after": "La sigla GPL identifica el diésel con partículas limitadas",
+      "reason": "Keep the Italian code GPL; GLP is the Spanish acronym"
+    }
+  ],
+  "reviewed_file_sha256": "9ea745638ef96ce8116ec6bac518eb5e1655044ec11ad978f4700f40c76b132e"
+}

@@ -1,0 +1,49 @@
+{
+  "batch": "042",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "fce83c630c983e90074cc4e95b9ae26454ba58a7b7dc3b62493b37d2da0afc7c",
+  "source_sha256": "2b4f929a2835592f81f4db3bb955efab729b92c5b82520c37a2a802a24af020d",
+  "corrections": [
+    {
+      "id": "381da4a9af76240c22ee95dfbbdcdaafa004ab2b209e0e3b1c81c14663045ec0",
+      "before": "Las carreteras principales fuera de poblado tienen áreas de descanso específicas",
+      "after": "Las carreteras principales fuera de poblado tienen áreas específicas para detenerse",
+      "reason": "Área di sosta no implica necesariamente instalaciones de descanso."
+    },
+    {
+      "id": "387e4b9a449f157abf54eb1f4fe14facea87954d4d75c912b1d903b9322b24f4",
+      "before": "Los transportistas italianos de personas que atraviesan territorio británico en servicios ocasionales deben llevar a bordo la hoja de ruta INTERBUS llena",
+      "after": "Los transportistas italianos de personas que atraviesan territorio británico en servicios ocasionales deben llevar a bordo la hoja de ruta INTERBUS cumplimentada",
+      "reason": "'Llena' reads as 'full'; 'compilato' means filled in (cumplimentada)"
+    },
+    {
+      "id": "3892a40dd337062da8569f1873cd2c1491445dd4ee60c3514525e12c1dd884a5",
+      "before": "Solo forman parte de la CEMT los Estados que fundaron inicialmente la UE",
+      "after": "Solo forman parte de la Conferencia Europea de Ministros de Transporte (CEMT) los Estados que fundaron inicialmente la UE",
+      "reason": "Restituye el nombre de la conferencia incluido en el original."
+    },
+    {
+      "id": "389c382ae1e293dbdb4fdf50f172527f0d42fe9f60320238044f4e03c66e0e28",
+      "before": "La categoría internacional N3 comprende vehículos de motor destinados al transporte de mercancías de masa máxima superior a 12 toneladas",
+      "after": "La categoría internacional N3 comprende vehículos de motor destinados al transporte de mercancías cuya masa máxima es superior a 12 toneladas",
+      "reason": "Aclara que la masa corresponde a los vehículos."
+    },
+    {
+      "id": "38af5e0dab801bc314190374e0033bc925bd0ed029dc5e3570f60508fcb57c06",
+      "before": "El CMR se aplica al transporte combinado",
+      "after": "El CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera) se aplica al transporte combinado",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "e152167bdbc79b5ab18a3e1feac1729c8e9afee095823af8920e6e66d2215e87"
+}

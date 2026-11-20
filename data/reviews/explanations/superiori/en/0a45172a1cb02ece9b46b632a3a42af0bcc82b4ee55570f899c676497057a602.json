@@ -1,0 +1,1405 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29911,
+          "quesito_id": 6197,
+          "text_it": "Il surriscaldamento del motore ha come principale effetto quello di aumentare i consumi di carburante",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1c1a850ca5314acb9fe08252228c1ee5adf9d4b97b07ed58523b384295368948",
+        "localized_text": "The main effect of engine overheating is increased fuel consumption."
+      },
+      {
+        "source": {
+          "number": 29912,
+          "quesito_id": 6197,
+          "text_it": "Il surriscaldamento del motore ha come principale effetto quello di rendere impossibile l’uso dell’impianto di condizionamento dell’aria",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9c9837e0fd032434af900de0132381807d0bc49f977ce30e0542de8f24f797a2",
+        "localized_text": "The main effect of engine overheating is to make air conditioning unusable."
+      },
+      {
+        "source": {
+          "number": 29913,
+          "quesito_id": 6197,
+          "text_it": "Sul cruscotto si trova un apposito manometro che indica il valore della pressione del liquido di raffreddamento nel radiatore",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6245f7991031e289ee4636077b25d9433c3a5fabd2183bc53e5756c79b5054ec",
+        "localized_text": "A dedicated dashboard pressure gauge indicates radiator coolant pressure."
+      },
+      {
+        "source": {
+          "number": 29914,
+          "quesito_id": 6197,
+          "text_it": "Nei veicoli pesanti, la temperatura del liquido refrigerante non deve mai superare gli 80°C",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9b83bb89b06611d70cfb8ea0d408ffd82335e402dba78e07e1f07d52add6e4be",
+        "localized_text": "In heavy vehicles, coolant temperature must never exceed 80°C."
+      },
+      {
+        "source": {
+          "number": 29915,
+          "quesito_id": 6197,
+          "text_it": "Per limitare i consumi è bene che il motore funzioni sempre a basse temperature (massimo 60°C)",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a869fcc79142ac8105690aadc6fdd0084ec3fd632fff6f6af967d8f338b61fc3",
+        "localized_text": "To limit consumption, the engine should always run at low temperatures, maximum 60°C."
+      },
+      {
+        "source": {
+          "number": 29916,
+          "quesito_id": 6198,
+          "text_it": "Il radiatore serve a smaltire, grazie al passaggio forzato di aria, il calore in eccesso prodotto dal funzionamento del motore",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d69074b42cf18c1d8f241e40cbab322f965039125eb65ca8f80a7a6c5e0ec5b6",
+        "localized_text": "The radiator uses forced airflow to dissipate excess engine heat."
+      },
+      {
+        "source": {
+          "number": 29917,
+          "quesito_id": 6198,
+          "text_it": "Il radiatore è uno scambiatore di calore acqua-aria",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "04aae19d25ba3f193dd592a332afe57a09f8ae95989722bf7087a2c5c244cedf",
+        "localized_text": "A radiator is a water-to-air heat exchanger."
+      },
+      {
+        "source": {
+          "number": 29918,
+          "quesito_id": 6198,
+          "text_it": "Non si deve aggiungere acqua o liquido freddo nel radiatore quando il motore è molto caldo",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a00477a733ddb0f1c3d0071d52a4d970510e295173407168eb65f83be8897704",
+        "localized_text": "Do not add cold water or liquid to the radiator when the engine is very hot."
+      },
+      {
+        "source": {
+          "number": 29919,
+          "quesito_id": 6198,
+          "text_it": "In estate è bene sostituire il liquido refrigerante con acqua perché si evitano possibili surriscaldamenti del motore",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8eef12bdeaa6224d777b6e6648788ceba640f1beb31d4e96c9e4b6333e3671dc",
+        "localized_text": "In summer, coolant should be replaced with water to prevent possible engine overheating."
+      },
+      {
+        "source": {
+          "number": 29920,
+          "quesito_id": 6198,
+          "text_it": "Il radiatore serve a riscaldare l’abitacolo del veicolo utilizzando il calore prodotto dal funzionamento del motore",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4bbad70af81a198d94b5b908d0a20775cebe2b429ae97460be529b7a01a5928e",
+        "localized_text": "The radiator heats the passenger compartment using heat from engine operation."
+      },
+      {
+        "source": {
+          "number": 29921,
+          "quesito_id": 6198,
+          "text_it": "Se si prevede di circolare con temperature molto basse (-10°C) occorre sostituire il liquido refrigerante con alcool etilico",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6ee25a9c7bd6d1516a6a494390809ae5391b355775bc28b19d9460633400a994",
+        "localized_text": "If driving at very low temperatures, -10°C, coolant must be replaced with ethyl alcohol."
+      },
+      {
+        "source": {
+          "number": 29922,
+          "quesito_id": 6199,
+          "text_it": "Il ventilatore dell'impianto di raffreddamento serve ad accelerare il raffreddamento del liquido che passa dal radiatore",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d07c603382d607b733bcd92104db94b24b3e2c9f69d1956d24e6a9cd5a82d508",
+        "localized_text": "The cooling fan accelerates cooling of liquid passing through the radiator."
+      },
+      {
+        "source": {
+          "number": 29923,
+          "quesito_id": 6199,
+          "text_it": "Il ventilatore dell'impianto di raffreddamento si ferma automaticamente quando la temperatura del liquido di raffreddamento si abbassa oltre una determinata temperatura",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "908e227685293576a6c0b4bbd592c31bcd993c39920e48e1861038cca3423b09",
+        "localized_text": "The cooling fan stops automatically when coolant temperature falls below a certain level."
+      },
+      {
+        "source": {
+          "number": 29924,
+          "quesito_id": 6199,
+          "text_it": "Il ventilatore dell'impianto di raffreddamento si attiva automaticamente quando la temperatura del liquido di raffreddamento supera una determinata temperatura",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6d708a7be562083413a82bc43491f60a232a70a280dcc16ec82b78ef9765618e",
+        "localized_text": "The cooling fan starts automatically when coolant temperature exceeds a certain level."
+      },
+      {
+        "source": {
+          "number": 29925,
+          "quesito_id": 6199,
+          "text_it": "Il liquido di raffreddamento viene messo in circolazione da una pompa centrifuga",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fd8377817edcab86b5dd4cd9a1025ad756050148fe1ed2e2e82eb9b763baa302",
+        "localized_text": "A centrifugal pump circulates coolant."
+      },
+      {
+        "source": {
+          "number": 29926,
+          "quesito_id": 6199,
+          "text_it": "Il liquido dell’impianto di raffreddamento può essere sostituito con acqua, in caso di urgente necessità",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f64873c0047dbde71c65d53090a32022c757fc8fc01a5c4ac5d9bae916206d54",
+        "localized_text": "Cooling system fluid may be replaced with water in urgent need."
+      },
+      {
+        "source": {
+          "number": 29927,
+          "quesito_id": 6199,
+          "text_it": "Il liquido dell’impianto di raffreddamento ha un’alta temperatura di ebollizione (oltre 100°C) e una bassa temperatura di congelamento (meno di 0°C)",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1099021fd36071e0bd72d5076a888463068e5bb10166dfa5a1b29128304bd2f3",
+        "localized_text": "Cooling fluid has a high boiling point above 100°C and a low freezing point below 0°C."
+      },
+      {
+        "source": {
+          "number": 29928,
+          "quesito_id": 6199,
+          "text_it": "Il corretto funzionamento dell’impianto di raffreddamento si controlla grazie a una spia luminosa e a un termometro posti sulla plancia portastrumenti del veicolo",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8a6c5d94812828192fff22dc2fc4a1fbe949a72e3a1aaea298e58fa85659163b",
+        "localized_text": "Cooling system operation is checked using a dashboard warning light and thermometer."
+      },
+      {
+        "source": {
+          "number": 29929,
+          "quesito_id": 6199,
+          "text_it": "Il termostato dell'impianto di raffreddamento serve a regolare il riscaldamento del motore mantenendo la sua temperatura entro un intervallo di temperature ottimale",
+          "answer": 1,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "55b4ed7b82168739e3808504090c48bee1327e0092f3f5f15760f4876ef59ec6",
+        "localized_text": "The thermostat regulates engine warming, keeping temperature within an optimal range."
+      },
+      {
+        "source": {
+          "number": 29930,
+          "quesito_id": 6199,
+          "text_it": "Il ventilatore dell'impianto di raffreddamento funziona solamente quando il veicolo è fermo con il motore in moto",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5ac22b620c6db778428d29d8adcd4369ca7375b5abf2f06302865037954c8bda",
+        "localized_text": "The cooling fan works only when the vehicle is stationary with the engine running."
+      },
+      {
+        "source": {
+          "number": 29931,
+          "quesito_id": 6199,
+          "text_it": "Il ventilatore dell'impianto di raffreddamento viene attivato dal conducente per mezzo di un interruttore che si trova in cabina",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "034c734c81301e1d1f5c30f307c853e87d4b0a4443c6d026ccfc79b063b7be42",
+        "localized_text": "The driver activates the cooling fan with a switch in the cab."
+      },
+      {
+        "source": {
+          "number": 29932,
+          "quesito_id": 6199,
+          "text_it": "Quando il ventilatore dell'impianto di raffreddamento viene attivato, si disattiva contemporaneamente il compressore dell’impianto di condizionamento dell’aria dell'abitacolo",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b3a99145b9207521256aa7ea10ca85912c0bddae7697cdd453a9c4c4d65f97d6",
+        "localized_text": "When the cooling fan activates, the cabin air conditioning compressor simultaneously switches off."
+      },
+      {
+        "source": {
+          "number": 29933,
+          "quesito_id": 6199,
+          "text_it": "Il ventilatore dell'impianto di raffreddamento non può entrare in funzione se la temperatura dell’aria esterna è inferiore a 0°C",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "222d63cfac6e8aa5951bd714cbef9c356584eeca48145fda73f764104787e079",
+        "localized_text": "The cooling fan cannot start if outside air temperature is below 0°C."
+      },
+      {
+        "source": {
+          "number": 29934,
+          "quesito_id": 6199,
+          "text_it": "Il ventilatore dell'impianto di raffreddamento non può entrare in funzione se la velocità di marcia del veicolo è superiore a 80 km/h",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fecd7e5bf7cb41fcdd37374e5e4446cf7bf0339a1c79bffe3bd5ab0168ef8caa",
+        "localized_text": "The cooling fan cannot start if vehicle speed exceeds 80 km/h."
+      },
+      {
+        "source": {
+          "number": 29935,
+          "quesito_id": 6199,
+          "text_it": "Il ventilatore dell'impianto di raffreddamento viene spento nelle lunghe discese",
+          "answer": 0,
+          "page": 121,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "75756e656808621bca1b97cd65b27bc65fe0b83b7ded25478f7bd9e58864119c",
+        "localized_text": "The cooling fan is switched off on long descents."
+      }
+    ],
+    "task_sha256": "0a45172a1cb02ece9b46b632a3a42af0bcc82b4ee55570f899c676497057a602"
+  },
+  "rows": [
+    {
+      "number": 29911,
+      "text": "The main danger of overheating is engine damage, not simply increased fuel consumption.",
+      "evidence": [
+        "RAM 2500/3500 2022, If your engine overheats, https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2022/2500_3500/om_html/GUID-99684250-C756-4B62-9B8B-78815437F522.html — danni da surriscaldamento, tappo caldo sotto pressione e riscaldatore ausiliario al radiatore."
+      ]
+    },
+    {
+      "number": 29912,
+      "text": "Overheating can damage the engine. Switching off the air conditioner can reduce the heat load, but that is not the main effect of the fault.",
+      "evidence": [
+        "RAM 2500/3500 2022, If your engine overheats, https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2022/2500_3500/om_html/GUID-99684250-C756-4B62-9B8B-78815437F522.html — danni da surriscaldamento, tappo caldo sotto pressione e riscaldatore ausiliario al radiatore."
+      ]
+    },
+    {
+      "number": 29913,
+      "text": "The dashboard normally indicates coolant temperature, sometimes with a warning light for excessive temperature; a radiator pressure gauge cannot be assumed to be fitted.",
+      "evidence": [
+        "Volvo Trucks, Driver Guide, Temperature gauge for coolant, https://driverguide.volvotrucks.com/lang/en/chassi/Z0000FL/topic/256503 — esempio di indicatore della temperatura del refrigerante e di spia di temperatura eccessiva."
+      ]
+    },
+    {
+      "number": 29914,
+      "text": "There is no universal limit of 80°C: normal temperature depends on the engine and can exceed that value. Follow the range indicated by the manufacturer.",
+      "evidence": [
+        "Volvo Trucks, Driver Guide, temperature gauge for coolant, https://driverguide.volvotrucks.com/lang/en/chassi/Z0000FL/topic/256503 — temperatura normale 80–100 °C, indicatore e spia."
+      ]
+    },
+    {
+      "number": 29915,
+      "text": "The engine must reach its intended operating temperature: keeping it cold all the time does not help fuel economy. The thermostat assists warm-up and regulates temperature.",
+      "evidence": [
+        "HELLA, Engine cooling, operating principle, https://www.hella.com/techworld/en/technical/car-cooling-system/engine-cooling/ — calore trasferito dal liquido all’aria; termostato e ventilatore regolano il raffreddamento.",
+        "U.S. DOE, Benefits of Thermoelectric Technology for the Automobile, https://www1.eere.energy.gov/vehiclesandfuels/pdfs/thermoelectrics_app_2011/tuesday/stabler.pdf — a motore freddo il consumo è maggiore fino al riscaldamento."
+      ]
+    },
+    {
+      "number": 29916,
+      "text": "Coolant carries engine heat to the radiator; air passing through it disperses the heat, aided by the fan when needed.",
+      "evidence": [
+        "HELLA, Engine cooling, operating principle, https://www.hella.com/techworld/en/technical/car-cooling-system/engine-cooling/ — calore trasferito dal liquido all’aria; termostato e ventilatore regolano il raffreddamento."
+      ]
+    },
+    {
+      "number": 29917,
+      "text": "The radiator transfers heat carried by water-based coolant to the air without mixing the two fluids.",
+      "evidence": [
+        "HELLA, Engine cooling, operating principle, https://www.hella.com/techworld/en/technical/car-cooling-system/engine-cooling/ — calore trasferito dal liquido all’aria; termostato e ventilatore regolano il raffreddamento."
+      ]
+    },
+    {
+      "number": 29918,
+      "text": "Adding cool coolant too quickly to a very hot engine can damage it. Wait for it to cool and follow the manual: opening the hot system also risks burns from pressurized coolant and steam.",
+      "evidence": [
+        "RAM 2500/3500 2022, If your engine overheats, https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2022/2500_3500/om_html/GUID-99684250-C756-4B62-9B8B-78815437F522.html — danni da surriscaldamento, tappo caldo sotto pressione e riscaldatore ausiliario al radiatore.",
+        "Ford, Owner Manual, engine coolant check, https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/B299_CCL_Australia_Print_5_Nov_2012.pdf p.100 — acqua solo come rabbocco d’emergenza, poi ripristino miscela; rabbocco a motore freddo.",
+        "Toyota Owner’s Manual OM07001U, printed p. 419 (PDF p. 420), https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM07001U/OM07001U.pdf — wait for engine to cool and add coolant slowly; adding cool coolant too quickly to a hot engine can damage it. Separately warns against opening hot caps due to pressurized coolant and steam burns. Model-specific manufacturer guidance; supports the distinct risks."
+      ]
+    },
+    {
+      "number": 29919,
+      "text": "Coolant is not normally replaced with plain water in summer: the prescribed mixture also protects against corrosion and boiling.",
+      "evidence": [
+        "HELLA, Engine cooling, coolant, https://www.hella.com/techworld/ae/technical/car-cooling-system/engine-cooling/ — il refrigerante protegge dal gelo e dalla corrosione e aumenta il punto di ebollizione.",
+        "Ford, Owner Manual, engine coolant check, https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/B299_CCL_Australia_Print_5_Nov_2012.pdf p.100 — acqua solo come rabbocco d’emergenza, poi ripristino miscela; rabbocco a motore freddo."
+      ]
+    },
+    {
+      "number": 29920,
+      "text": "The engine radiator releases heat to the outside air. A separate heater heat exchanger fed by hot coolant heats the cabin.",
+      "evidence": [
+        "HELLA, Engine cooling, operating principle, https://www.hella.com/techworld/en/technical/car-cooling-system/engine-cooling/ — calore trasferito dal liquido all’aria; termostato e ventilatore regolano il raffreddamento.",
+        "RAM 2500/3500 2022, If your engine overheats, https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2022/2500_3500/om_html/GUID-99684250-C756-4B62-9B8B-78815437F522.html — danni da surriscaldamento, tappo caldo sotto pressione e riscaldatore ausiliario al radiatore."
+      ]
+    },
+    {
+      "number": 29921,
+      "text": "Do not replace coolant with ethyl alcohol: use the manufacturer’s prescribed mixture, with freeze protection suited to the expected temperatures.",
+      "evidence": [
+        "HELLA, Engine cooling, coolant, https://www.hella.com/techworld/ae/technical/car-cooling-system/engine-cooling/ — il refrigerante protegge dal gelo e dalla corrosione e aumenta il punto di ebollizione.",
+        "RAM 2500/3500 2022, Selection of Coolant, https://vehicleinfo.mopar.com/assets/publications/en-us/Ram/2022/2500_3500/om_html/GUID-BAC5EFED-2078-402D-9A75-36BF33FBF551.html — evitare acqua sola e refrigeranti a base di alcol; usare il refrigerante specificato."
+      ]
+    },
+    {
+      "number": 29922,
+      "text": "The fan increases airflow through the radiator, helping transfer heat from the liquid to the air.",
+      "evidence": [
+        "HELLA, Radiator Fans, how it works, https://www.hella.com/forvia-us/assets/documents/BI_Thermal_Management_Radiator_Fans_2026.pdf — il ventilatore automatico entra e si arresta in base alla temperatura, aumentando il flusso d’aria."
+      ]
+    },
+    {
+      "number": 29923,
+      "text": "In an automatically controlled system, the fan stops when the temperature falls to the set value because the same cooling is no longer needed.",
+      "evidence": [
+        "HELLA, Radiator Fans, how it works, https://www.hella.com/forvia-us/assets/documents/BI_Thermal_Management_Radiator_Fans_2026.pdf — il ventilatore automatico entra e si arresta in base alla temperatura, aumentando il flusso d’aria."
+      ]
+    },
+    {
+      "number": 29924,
+      "text": "In an automatically controlled system, a temperature sensor calls for the fan when coolant gets hot enough. The extra airflow through the radiator helps remove heat.",
+      "evidence": [
+        "HELLA, Radiator Fans, how it works, https://www.hella.com/forvia-us/assets/documents/BI_Thermal_Management_Radiator_Fans_2026.pdf — il ventilatore automatico entra e si arresta in base alla temperatura, aumentando il flusso d’aria."
+      ]
+    },
+    {
+      "number": 29925,
+      "text": "A centrifugal pump uses an impeller to move liquid around the circuit, carrying heat from the engine to the radiator.",
+      "evidence": [
+        "Hitachi Astemo Americas, Water Pump, https://one.hitachi-automotive.us/Products/oem/EMS/WaterPump/index.htm — la pompa principale fa circolare il refrigerante dal radiatore al motore con una girante e forza centrifuga.",
+        "HELLA, Engine cooling, https://www.hella.com/techworld/en/technical/car-cooling-system/engine-cooling/ — il liquido trasferisce il calore del motore al radiatore."
+      ]
+    },
+    {
+      "number": 29926,
+      "text": "In an urgent situation, if coolant is unavailable, some manufacturers permit temporary use of water to reach a service facility. It is not a permanent fill: water alone risks freezing, corrosion and overheating; the prescribed coolant must be restored.",
+      "evidence": [
+        "Toyota, Owner’s Manual OM07001U, p. 418, https://www.toyota.ca/content/dam/toyota/documents/manuals/en/OM07001U/OM07001U.pdf — in emergenza, se manca il liquido, si può usare acqua; l’esempio riguarda l’aggiunta necessaria, non prescrive di svuotare l’impianto.",
+        "Ford, Checking the Engine Coolant, https://www.fordservicecontent.com/Ford_Content/vdirsnet/OwnerManual/Home/Content?ProcUid=G2123759&Uid=G2123758&buildType=web&countryCode=USA&div=f&languageCode=EN&userMarket=NZL&vCode=&vFilteringEnabled=False&variantid=7209 — consente acqua senza liquido in emergenza per raggiungere assistenza; acqua sola rischia corrosione, surriscaldamento o gelo; richiede poi svuotamento, pulizia e riempimento da personale qualificato. Il quiz è interpretato come uso temporaneo dell’acqua in luogo del liquido mancante, non come indicazione di svuotare preventivamente il circuito."
+      ]
+    },
+    {
+      "number": 29927,
+      "text": "The coolant mixture lowers the freezing point and raises the boiling point compared with water; actual values depend on the mixture and pressure.",
+      "evidence": [
+        "HELLA, Engine cooling, coolant, https://www.hella.com/techworld/ae/technical/car-cooling-system/engine-cooling/ — il refrigerante protegge dal gelo e dalla corrosione e aumenta il punto di ebollizione."
+      ]
+    },
+    {
+      "number": 29928,
+      "text": "The gauge shows coolant temperature and the warning light signals excessive temperature. These are useful indications but do not replace checks for faults.",
+      "evidence": [
+        "Volvo Trucks, Driver Guide, temperature gauge for coolant, https://driverguide.volvotrucks.com/lang/en/chassi/Z0000FL/topic/256503 — temperatura normale 80–100 °C, indicatore e spia.",
+        "HELLA, Cooling system check, https://www.hella.com/techworld/en/technical/car-cooling-system/cooling-system-check/ — la diagnosi richiede controlli di livello e componenti."
+      ]
+    },
+    {
+      "number": 29929,
+      "text": "The thermostat regulates coolant flow to the radiator: it helps initial warm-up and helps maintain operating temperature.",
+      "evidence": [
+        "HELLA, Engine cooling, operating principle, https://www.hella.com/techworld/en/technical/car-cooling-system/engine-cooling/ — calore trasferito dal liquido all’aria; termostato e ventilatore regolano il raffreddamento."
+      ]
+    },
+    {
+      "number": 29930,
+      "text": "The fan is not limited to stationary operation: it can also run while driving when cooling requires it.",
+      "evidence": [
+        "HELLA, Engine cooling, operating principle, https://www.hella.com/techworld/en/technical/car-cooling-system/engine-cooling/ — calore trasferito dal liquido all’aria; termostato e ventilatore regolano il raffreddamento.",
+        "Ford, F-650/750 Owner Manual 2016, Engine-driven Cooling Fan, https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2016-F-650-750-Owner-Manual-version-1_om_EN-US_06_2015.pdf — il ventilatore varia con il fabbisogno, anche ad alta velocità e con diversi carichi."
+      ]
+    },
+    {
+      "number": 29931,
+      "text": "The fan is normally controlled automatically according to cooling needs, rather than by a driver-operated switch.",
+      "evidence": [
+        "HELLA, Radiator Fans, how it works, https://www.hella.com/forvia-us/assets/documents/BI_Thermal_Management_Radiator_Fans_2026.pdf — il ventilatore automatico entra e si arresta in base alla temperatura, aumentando il flusso d’aria.",
+        "Ford, F-650/750 Owner Manual 2016, Engine-driven Cooling Fan, https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2016-F-650-750-Owner-Manual-version-1_om_EN-US_06_2015.pdf — il ventilatore varia con il fabbisogno, anche ad alta velocità e con diversi carichi."
+      ]
+    },
+    {
+      "number": 29932,
+      "text": "The fan starting does not necessarily switch off the compressor at the same time. In severe conditions the system may nevertheless control the air conditioner to protect the engine.",
+      "evidence": [
+        "HELLA, Radiator Fans, how it works, https://www.hella.com/forvia-us/assets/documents/BI_Thermal_Management_Radiator_Fans_2026.pdf — il ventilatore automatico entra e si arresta in base alla temperatura, aumentando il flusso d’aria.",
+        "Ford, Engine-driven Cooling Fan and Fail-Safe Cooling, https://www.fordservicecontent.com/Ford_Content/vdirsnet/OwnerManual/Home/Content?ProcUid=G2020428&Uid=G2082037&buildtype=web&countryCode=USA&div=f&languageCode=en&userMarket=USA&vFilteringEnabled=False&variantid=9835 — ventola regolata secondo il fabbisogno; climatizzatore può essere disattivato in condizioni severe."
+      ]
+    },
+    {
+      "number": 29933,
+      "text": "The fan can come on even below 0°C: its control depends on the system and cooling needs, not just on the outside temperature.",
+      "evidence": [
+        "Audi, Self-Study Programme 268, W12 Engine, p. 10, Continued coolant circulation, https://www.volkspage.net/technik/ssp/ssp/SSP_268.pdf — la pompa e la ventola elettrica sono azionate insieme nella circolazione successiva; tra gli esempi di attivazione figura aria ambiente a −10 °C e refrigerante a 115 °C."
+      ]
+    },
+    {
+      "number": 29934,
+      "text": "Exceeding 80 km/h does not always prevent the fan from coming on: control depends on the system and coolant temperature as well as vehicle speed.",
+      "evidence": [
+        "Nissan N16, Engine Control QG, DTC P1217, p. EC-406, Cooling fan control, https://sylphy.ru/uploads/files/idx/ec.pdf — la tabella delle temperature che attivano la ventola ON indica oltre 95 °C di refrigerante anche per velocità superiori a 80 km/h, con climatizzatore spento o acceso."
+      ]
+    },
+    {
+      "number": 29935,
+      "text": "A long descent does not require the fan to be switched off: its control depends on cooling needs.",
+      "evidence": [
+        "Ford, F-650/750 Owner Manual 2016, Engine-driven Cooling Fan, https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2016-F-650-750-Owner-Manual-version-1_om_EN-US_06_2015.pdf — il ventilatore varia con il fabbisogno, anche ad alta velocità e con diversi carichi.",
+        "HELLA, Radiator Fans, how it works, https://www.hella.com/forvia-us/assets/documents/BI_Thermal_Management_Radiator_Fans_2026.pdf — il ventilatore automatico entra e si arresta in base alla temperatura, aumentando il flusso d’aria."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "0a45172a1cb02ece9b46b632a3a42af0bcc82b4ee55570f899c676497057a602",
+    "output_sha256": "1d7fe1cc8d58bf9553ba2b2b2a18221c6284e07f9bd10be3be70a538854ab7ea",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / coolant-oil-tyres-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29911,
+      29912,
+      29913,
+      29914,
+      29915,
+      29916,
+      29917,
+      29918,
+      29919,
+      29920,
+      29921,
+      29922,
+      29923,
+      29924,
+      29925,
+      29926,
+      29927,
+      29928,
+      29929,
+      29930,
+      29931,
+      29932,
+      29933,
+      29934,
+      29935
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "HELLA radiator fan document https://www.hella.com/forvia-us/assets/documents/BI_Thermal_Management_Radiator_Fans_2026.pdf independently inspected; automatic fan temperature control and airflow support 29924. Mopar overheating guide inspected for hot-system scald precautions."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb1a-2ba2-74a2-a171-2b7e61f7cfd0",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "5ab065986e188c824e4fc8e52b4ad7b6b5e36c0ad34059de648309ec13e01891",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb1e-8134-7191-b934-64baa627d4a5",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "1071e3a665ab7c9245c3769e1402739451f06acf7c696b7d29d3f0bdb4087ddc",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb21-3898-76d3-b893-2a75885028dd",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b244e513974aea0597d441f532c40464698e770a26cbff07480cf87887ad842a",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb27-6d89-74b2-b642-5c047bccc397",
+        "label": "author-3-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "84a84baaba3fa5307acdaed74b7c211dc7e32044092856bd6cbf3a1d51484648",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "9cc7263b8cd54afaacd91a5d1f6df1b001345ef438a8efad580acde6cbf6cd0c",
+          "output_sha256": "56e70758078adbee5ffa5e49eb136728b44d57eaece3285fef5930dc5995e2df",
+          "author": "gpt-6.1-terra / 01a1eb1a-2ba2-74a2-a171-2b7e61f7cfd0",
+          "reviewer": "gpt-6.1-terra / 01a1eb1c-dca2-76a1-913b-2e0fe9913452",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29926,
+              "reason": "The printed statement says coolant may be replaced with water in urgent need, but the explanation and accessible Ford evidence establish only adding water to an existing system temporarily. They do not establish complete replacement; clarify the intended scope with authoritative evidence while preserving the printed verdict. The second cited Ford online link could not be fetched for independent verification."
+            },
+            {
+              "number": 29933,
+              "reason": "The cited HELLA fan guide describes temperature-based activation, and the Ford manual describes varying fan speed with cooling demand, but neither specifically establishes operation with outside air below 0 °C. Supply an authoritative example or technical source that addresses subzero ambient operation, and retain the qualified wording."
+            }
+          ]
+        },
+        {
+          "task_sha256": "0a45172a1cb02ece9b46b632a3a42af0bcc82b4ee55570f899c676497057a602",
+          "output_sha256": "de785faafc4d8123095041735b231e03e6b094077e3a5d3967df3a8c2b06d0d7",
+          "author": "gpt-6.1-terra / 01a1eb1a-2ba2-74a2-a171-2b7e61f7cfd0",
+          "reviewer": "gpt-6.1-terra / 01a1eb1c-dca2-76a1-913b-2e0fe9913452",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29926,
+              "reason": "The printed statement says coolant may be replaced with water in urgent need, but the explanation and accessible Ford evidence establish only adding water to an existing system temporarily. They do not establish complete replacement; clarify the intended scope with authoritative evidence while preserving the printed verdict. The second cited Ford online link could not be fetched for independent verification."
+            },
+            {
+              "number": 29933,
+              "reason": "The cited HELLA fan guide describes temperature-based activation, and the Ford manual describes varying fan speed with cooling demand, but neither specifically establishes operation with outside air below 0 °C. Supply an authoritative example or technical source that addresses subzero ambient operation, and retain the qualified wording."
+            }
+          ]
+        },
+        {
+          "task_sha256": "a0fe9967ca2d4b01d55d62a4f9f49310e9fc5f7f1ad670e6d279f92ff733d6d1",
+          "output_sha256": "1e83da1b35025f5d83857cca41d4133b63b583824ab68beff819bb23cc349c07",
+          "author": "gpt-6.1-terra / 01a1eb1a-2ba2-74a2-a171-2b7e61f7cfd0",
+          "reviewer": "gpt-6.1-terra / 01a1eb1c-dca2-76a1-913b-2e0fe9913452",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29926,
+              "reason": "The printed statement says coolant may be replaced with water in urgent need, but the explanation and accessible Ford evidence establish only adding water to an existing system temporarily. They do not establish complete replacement; clarify the intended scope with authoritative evidence while preserving the printed verdict. The second cited Ford online link could not be fetched for independent verification."
+            },
+            {
+              "number": 29933,
+              "reason": "The cited HELLA fan guide describes temperature-based activation, and the Ford manual describes varying fan speed with cooling demand, but neither specifically establishes operation with outside air below 0 °C. Supply an authoritative example or technical source that addresses subzero ambient operation, and retain the qualified wording."
+            }
+          ]
+        },
+        {
+          "task_sha256": "1a1d856212b08ae42fbcc3033f56d0a01eccf902b83372443d3d450b53183efb",
+          "output_sha256": "815d4a66b6babfdcaef16d5f054f62ae3d779751827c18ac9b1f5a019a3c9eff",
+          "author": "gpt-6.1-terra / 01a1eb1a-2ba2-74a2-a171-2b7e61f7cfd0",
+          "reviewer": "gpt-6.1-terra / 01a1eb1c-dca2-76a1-913b-2e0fe9913452",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29926,
+              "reason": "The printed statement says coolant may be replaced with water in urgent need, but the explanation and accessible Ford evidence establish only adding water to an existing system temporarily. They do not establish complete replacement; clarify the intended scope with authoritative evidence while preserving the printed verdict. The second cited Ford online link could not be fetched for independent verification."
+            },
+            {
+              "number": 29933,
+              "reason": "The cited HELLA fan guide describes temperature-based activation, and the Ford manual describes varying fan speed with cooling demand, but neither specifically establishes operation with outside air below 0 °C. Supply an authoritative example or technical source that addresses subzero ambient operation, and retain the qualified wording."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "9cc7263b8cd54afaacd91a5d1f6df1b001345ef438a8efad580acde6cbf6cd0c",
+          "output_sha256": "108375a66950b134e1d5aa644dcae5cb0a3832cbe3b6b86d3bdd7f081ddcb164",
+          "author": "gpt-6.1-terra / 01a1eb1e-8134-7191-b934-64baa627d4a5",
+          "reviewer": "gpt-6.1-terra / 01a1eb1f-8d54-7573-866b-9d5038b2c76a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29913,
+              "reason": "The text categorically excludes radiator pressure from instrumentation; the cited Volvo example demonstrates a coolant temperature gauge but does not establish that pressure gauges cannot exist. Qualify the statement as the usual temperature indication rather than a universal instrumentation claim."
+            },
+            {
+              "number": 29925,
+              "reason": "The cited Pierburg centrifugal pump is a supplementary or special-purpose electric circulating pump; its cited applications do not establish that the principal engine-to-radiator coolant pump described here is centrifugal. Provide authoritative evidence for that application and its impeller."
+            },
+            {
+              "number": 29934,
+              "reason": "The Ford manual says fan speed can increase at high speed but gives no actual road speed. It does not independently establish operation above the specific 80 km/h threshold; cite a quantified counterexample or an authoritative source supporting the absence of this cutoff."
+            }
+          ]
+        },
+        {
+          "task_sha256": "0a45172a1cb02ece9b46b632a3a42af0bcc82b4ee55570f899c676497057a602",
+          "output_sha256": "ee9b5a24ae3fec0a464e2a47122026676a17acd8f7d996984baf9b8ab1545fc0",
+          "author": "gpt-6.1-terra / 01a1eb1e-8134-7191-b934-64baa627d4a5",
+          "reviewer": "gpt-6.1-terra / 01a1eb1f-8d54-7573-866b-9d5038b2c76a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29913,
+              "reason": "The text categorically excludes radiator pressure from instrumentation; the cited Volvo example demonstrates a coolant temperature gauge but does not establish that pressure gauges cannot exist. Qualify the statement as the usual temperature indication rather than a universal instrumentation claim."
+            },
+            {
+              "number": 29925,
+              "reason": "The cited Pierburg centrifugal pump is a supplementary or special-purpose electric circulating pump; its cited applications do not establish that the principal engine-to-radiator coolant pump described here is centrifugal. Provide authoritative evidence for that application and its impeller."
+            },
+            {
+              "number": 29934,
+              "reason": "The Ford manual says fan speed can increase at high speed but gives no actual road speed. It does not independently establish operation above the specific 80 km/h threshold; cite a quantified counterexample or an authoritative source supporting the absence of this cutoff."
+            }
+          ]
+        },
+        {
+          "task_sha256": "a0fe9967ca2d4b01d55d62a4f9f49310e9fc5f7f1ad670e6d279f92ff733d6d1",
+          "output_sha256": "ea43be070695ed8a6690b4f1c11f0cbb4a8853ab5d3c9a89087db681030d6c14",
+          "author": "gpt-6.1-terra / 01a1eb1e-8134-7191-b934-64baa627d4a5",
+          "reviewer": "gpt-6.1-terra / 01a1eb1f-8d54-7573-866b-9d5038b2c76a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29913,
+              "reason": "The text categorically excludes radiator pressure from instrumentation; the cited Volvo example demonstrates a coolant temperature gauge but does not establish that pressure gauges cannot exist. Qualify the statement as the usual temperature indication rather than a universal instrumentation claim."
+            },
+            {
+              "number": 29925,
+              "reason": "The cited Pierburg centrifugal pump is a supplementary or special-purpose electric circulating pump; its cited applications do not establish that the principal engine-to-radiator coolant pump described here is centrifugal. Provide authoritative evidence for that application and its impeller."
+            },
+            {
+              "number": 29934,
+              "reason": "The Ford manual says fan speed can increase at high speed but gives no actual road speed. It does not independently establish operation above the specific 80 km/h threshold; cite a quantified counterexample or an authoritative source supporting the absence of this cutoff."
+            }
+          ]
+        },
+        {
+          "task_sha256": "1a1d856212b08ae42fbcc3033f56d0a01eccf902b83372443d3d450b53183efb",
+          "output_sha256": "7a58d8611c87e39239f45a440440d1a58a7c04105e96a37199b74f2801dddc81",
+          "author": "gpt-6.1-terra / 01a1eb1e-8134-7191-b934-64baa627d4a5",
+          "reviewer": "gpt-6.1-terra / 01a1eb1f-8d54-7573-866b-9d5038b2c76a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29913,
+              "reason": "The text categorically excludes radiator pressure from instrumentation; the cited Volvo example demonstrates a coolant temperature gauge but does not establish that pressure gauges cannot exist. Qualify the statement as the usual temperature indication rather than a universal instrumentation claim."
+            },
+            {
+              "number": 29925,
+              "reason": "The cited Pierburg centrifugal pump is a supplementary or special-purpose electric circulating pump; its cited applications do not establish that the principal engine-to-radiator coolant pump described here is centrifugal. Provide authoritative evidence for that application and its impeller."
+            },
+            {
+              "number": 29934,
+              "reason": "The Ford manual says fan speed can increase at high speed but gives no actual road speed. It does not independently establish operation above the specific 80 km/h threshold; cite a quantified counterexample or an authoritative source supporting the absence of this cutoff."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "9cc7263b8cd54afaacd91a5d1f6df1b001345ef438a8efad580acde6cbf6cd0c",
+          "output_sha256": "586209b8424047c450c982fa09154aaf51cc6a266dd2d6c8f3a58f43e8115e32",
+          "author": "gpt-6.1-terra / 01a1eb21-3898-76d3-b893-2a75885028dd",
+          "reviewer": "gpt-6.1-terra / 01a1eb23-a0ad-76a3-a556-880dd8ba7bdb",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29925,
+              "reason": "The cited Cummins engine-parts catalog could not be inspected: its PDF exceeds the browsing fetch limit. The independently inspected Hitachi source supports a centrifugal pump, but the Cummins citation and attributed claim remain unverified; replace it with an inspectable source or verify it directly."
+            },
+            {
+              "number": 29933,
+              "reason": "The cited Mack cold-weather manual could not be inspected in full: its PDF exceeds the browsing fetch limit. Its indexed passage states that some viscous fans rotate in cold weather but does not verify the cited below-zero table or an actual example below 0 °C. Supply an inspectable authoritative source explicitly establishing operation below 0 °C and verify its cited details."
+            },
+            {
+              "number": 29934,
+              "reason": "The cited Peterbilt manual establishes that this viscous fan never completely stops with the engine running, but the question specifically says the fan cannot start operating above 80 km/h. Continuous rotation does not establish activation or engagement above that speed. Cite authoritative evidence demonstrating activation at that speed and explain that distinction, preserving the printed FALSO verdict."
+            }
+          ]
+        },
+        {
+          "task_sha256": "0a45172a1cb02ece9b46b632a3a42af0bcc82b4ee55570f899c676497057a602",
+          "output_sha256": "82bd5863b72075176f911537a6b8c37ac9d4f3e73b98a763609b782f48a7c5d3",
+          "author": "gpt-6.1-terra / 01a1eb21-3898-76d3-b893-2a75885028dd",
+          "reviewer": "gpt-6.1-terra / 01a1eb23-a0ad-76a3-a556-880dd8ba7bdb",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29925,
+              "reason": "The cited Cummins engine-parts catalog could not be inspected: its PDF exceeds the browsing fetch limit. The independently inspected Hitachi source supports a centrifugal pump, but the Cummins citation and attributed claim remain unverified; replace it with an inspectable source or verify it directly."
+            },
+            {
+              "number": 29933,
+              "reason": "The cited Mack cold-weather manual could not be inspected in full: its PDF exceeds the browsing fetch limit. Its indexed passage states that some viscous fans rotate in cold weather but does not verify the cited below-zero table or an actual example below 0 °C. Supply an inspectable authoritative source explicitly establishing operation below 0 °C and verify its cited details."
+            },
+            {
+              "number": 29934,
+              "reason": "The cited Peterbilt manual establishes that this viscous fan never completely stops with the engine running, but the question specifically says the fan cannot start operating above 80 km/h. Continuous rotation does not establish activation or engagement above that speed. Cite authoritative evidence demonstrating activation at that speed and explain that distinction, preserving the printed FALSO verdict."
+            }
+          ]
+        },
+        {
+          "task_sha256": "a0fe9967ca2d4b01d55d62a4f9f49310e9fc5f7f1ad670e6d279f92ff733d6d1",
+          "output_sha256": "7a67e44ae0032930f25dedde05dd0ec592f9ecd13e8d367e6ac8cb0751e54cd0",
+          "author": "gpt-6.1-terra / 01a1eb21-3898-76d3-b893-2a75885028dd",
+          "reviewer": "gpt-6.1-terra / 01a1eb23-a0ad-76a3-a556-880dd8ba7bdb",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29925,
+              "reason": "The cited Cummins engine-parts catalog could not be inspected: its PDF exceeds the browsing fetch limit. The independently inspected Hitachi source supports a centrifugal pump, but the Cummins citation and attributed claim remain unverified; replace it with an inspectable source or verify it directly."
+            },
+            {
+              "number": 29933,
+              "reason": "The cited Mack cold-weather manual could not be inspected in full: its PDF exceeds the browsing fetch limit. Its indexed passage states that some viscous fans rotate in cold weather but does not verify the cited below-zero table or an actual example below 0 °C. Supply an inspectable authoritative source explicitly establishing operation below 0 °C and verify its cited details."
+            },
+            {
+              "number": 29934,
+              "reason": "The cited Peterbilt manual establishes that this viscous fan never completely stops with the engine running, but the question specifically says the fan cannot start operating above 80 km/h. Continuous rotation does not establish activation or engagement above that speed. Cite authoritative evidence demonstrating activation at that speed and explain that distinction, preserving the printed FALSO verdict."
+            }
+          ]
+        },
+        {
+          "task_sha256": "1a1d856212b08ae42fbcc3033f56d0a01eccf902b83372443d3d450b53183efb",
+          "output_sha256": "9a91e0faa32a7d8e9d1442fb7d199132c92bf165de45c8ef54eed759c9ba279c",
+          "author": "gpt-6.1-terra / 01a1eb21-3898-76d3-b893-2a75885028dd",
+          "reviewer": "gpt-6.1-terra / 01a1eb23-a0ad-76a3-a556-880dd8ba7bdb",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29925,
+              "reason": "The cited Cummins engine-parts catalog could not be inspected: its PDF exceeds the browsing fetch limit. The independently inspected Hitachi source supports a centrifugal pump, but the Cummins citation and attributed claim remain unverified; replace it with an inspectable source or verify it directly."
+            },
+            {
+              "number": 29933,
+              "reason": "The cited Mack cold-weather manual could not be inspected in full: its PDF exceeds the browsing fetch limit. Its indexed passage states that some viscous fans rotate in cold weather but does not verify the cited below-zero table or an actual example below 0 °C. Supply an inspectable authoritative source explicitly establishing operation below 0 °C and verify its cited details."
+            },
+            {
+              "number": 29934,
+              "reason": "The cited Peterbilt manual establishes that this viscous fan never completely stops with the engine running, but the question specifically says the fan cannot start operating above 80 km/h. Continuous rotation does not establish activation or engagement above that speed. Cite authoritative evidence demonstrating activation at that speed and explain that distinction, preserving the printed FALSO verdict."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "9cc7263b8cd54afaacd91a5d1f6df1b001345ef438a8efad580acde6cbf6cd0c",
+          "output_sha256": "5cce4b16203ade2bff35169895802db04f3cc4de8dfd888eab6951620c079f19",
+          "author": "gpt-6.1-terra / 01a1eb27-6d89-74b2-b642-5c047bccc397",
+          "reviewer": "gpt-6.1-terra / 01a1eb29-45cd-7901-8eb2-dadb193d698a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29918,
+              "reason": "The explanation only gives the pressurized-cap burn hazard and does not explain the specific risk of introducing cold liquid into a very hot engine. Toyota OM07001U p. 420 states that adding cool coolant to a hot engine too quickly can damage the engine; include that distinction and cite a source supporting it in all four languages."
+            }
+          ]
+        },
+        {
+          "task_sha256": "0a45172a1cb02ece9b46b632a3a42af0bcc82b4ee55570f899c676497057a602",
+          "output_sha256": "7db549f503b5c48b1b14691bcfbfc999ac5ea7ae4795ec55fef72bde25897eee",
+          "author": "gpt-6.1-terra / 01a1eb27-6d89-74b2-b642-5c047bccc397",
+          "reviewer": "gpt-6.1-terra / 01a1eb29-45cd-7901-8eb2-dadb193d698a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29918,
+              "reason": "The explanation only gives the pressurized-cap burn hazard and does not explain the specific risk of introducing cold liquid into a very hot engine. Toyota OM07001U p. 420 states that adding cool coolant to a hot engine too quickly can damage the engine; include that distinction and cite a source supporting it in all four languages."
+            }
+          ]
+        },
+        {
+          "task_sha256": "a0fe9967ca2d4b01d55d62a4f9f49310e9fc5f7f1ad670e6d279f92ff733d6d1",
+          "output_sha256": "0e0fef501628447c4963671e34a24884018111ff658816db842fa42756ed1972",
+          "author": "gpt-6.1-terra / 01a1eb27-6d89-74b2-b642-5c047bccc397",
+          "reviewer": "gpt-6.1-terra / 01a1eb29-45cd-7901-8eb2-dadb193d698a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29918,
+              "reason": "The explanation only gives the pressurized-cap burn hazard and does not explain the specific risk of introducing cold liquid into a very hot engine. Toyota OM07001U p. 420 states that adding cool coolant to a hot engine too quickly can damage the engine; include that distinction and cite a source supporting it in all four languages."
+            }
+          ]
+        },
+        {
+          "task_sha256": "1a1d856212b08ae42fbcc3033f56d0a01eccf902b83372443d3d450b53183efb",
+          "output_sha256": "aa361546a38e1cffdcc19ae76ce737df025c7da26b6d8d46c407e4784d769adf",
+          "author": "gpt-6.1-terra / 01a1eb27-6d89-74b2-b642-5c047bccc397",
+          "reviewer": "gpt-6.1-terra / 01a1eb29-45cd-7901-8eb2-dadb193d698a",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29911,
+            29912,
+            29913,
+            29914,
+            29915,
+            29916,
+            29917,
+            29918,
+            29919,
+            29920,
+            29921,
+            29922,
+            29923,
+            29924,
+            29925,
+            29926,
+            29927,
+            29928,
+            29929,
+            29930,
+            29931,
+            29932,
+            29933,
+            29934,
+            29935
+          ],
+          "issues": [
+            {
+              "number": 29918,
+              "reason": "The explanation only gives the pressurized-cap burn hazard and does not explain the specific risk of introducing cold liquid into a very hot engine. Toyota OM07001U p. 420 states that adding cool coolant to a hot engine too quickly can damage the engine; include that distinction and cite a source supporting it in all four languages."
+            }
+          ]
+        }
+      ],
+      {
+        "task_sha256": "0a45172a1cb02ece9b46b632a3a42af0bcc82b4ee55570f899c676497057a602",
+        "output_sha256": "3caa4055265a86d24f5a9b3343c672617201e128247047b9009c9de22d5c741e",
+        "author": "gpt-6.1-terra /root/terra_author (recovery); ",
+        "reviewer": "gpt-6.1-terra /root/terra_runner independent collaboration review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          29911,
+          29912,
+          29913,
+          29914,
+          29915,
+          29916,
+          29917,
+          29918,
+          29919,
+          29920,
+          29921,
+          29922,
+          29923,
+          29924,
+          29925,
+          29926,
+          29927,
+          29928,
+          29929,
+          29930,
+          29931,
+          29932,
+          29933,
+          29934,
+          29935
+        ],
+        "issues": [
+          {
+            "number": 29924,
+            "reason": "The explanation repeats the activation condition with a sensor but does not explain why the fan starts: it increases airflow through the radiator to help remove heat. Add that causal reason in all languages."
+          }
+        ]
+      }
+    ]
+  }
+}

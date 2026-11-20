@@ -1,0 +1,49 @@
+{
+  "batch": "148",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ff89f0924f88dfc626794e7071ce6ceeefb6fd34d710c063febfbcaf45c5c715",
+  "source_sha256": "5309c6e19dc9b537b62b810d2283fddcd1fd53dad08472505d691ae343b78cd4",
+  "corrections": [
+    {
+      "id": "c389181c75e59d5840b07427cc59f97df6708f35e936da3641423893b8f247fb",
+      "before": "12##tipología12 CQC",
+      "after": "12##tipologia12 CQC",
+      "reason": "Code label must keep Italian tipologia spelling"
+    },
+    {
+      "id": "c3bf2d8402ba054332f2cb250a7172335f42d5db9bef3784b08416844844352b",
+      "before": "Por territorio aduanero italiano se entiende todo el territorio italiano, pero no el de la isla de Pantelaria",
+      "after": "Por territorio aduanero italiano se entiende todo el territorio italiano, pero no el de la isla de Pantelleria",
+      "reason": "Place name spelling: Pantelleria"
+    },
+    {
+      "id": "c3f98fb2277dcde2eda0aed32c36f04fe66a71d85a01eeb8da3e6342b222450c",
+      "before": "Durante la detención, el conductor siempre debe adoptar las precauciones necesarias para evitar accidentes",
+      "after": "Durante la parada, el conductor siempre debe adoptar las precauciones necesarias para evitar accidentes",
+      "reason": "Fermata indica parada temporal."
+    },
+    {
+      "id": "c427d0df4d68549b7a0fee6485230c21295850ff8f78a490ddd22452a6480a14",
+      "before": "Antes de partir, el conductor del autobús debe comprobar el estado de la correa de la bomba de agua",
+      "after": "Antes de partir, el conductor del autobús debe comprobar el funcionamiento de la correa de la bomba de agua",
+      "reason": "Efficienza se refiere al funcionamiento, no únicamente al estado."
+    },
+    {
+      "id": "c43bf9eb19797f989abe8a50088ff10a53c10459cfec0b7479761c094d19dd44",
+      "before": "Según el CMR, el destinatario de la mercancía no puede sustituirse por otros destinatarios",
+      "after": "Según el CMR, el destinatario de la mercancía no puede sustituir a otros destinatarios por sí mismo",
+      "reason": "Negated Italian statement: consignee may not substitute other consignees for himself; draft reversed the subject"
+    }
+  ],
+  "reviewed_file_sha256": "9793aa9cd9748ab14d832063314f5b111ba304653f18ea5201c15935e222ea0d"
+}

@@ -1,0 +1,73 @@
+{
+  "batch": "005",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "f3e05b0153814a1e2ac5b5deaf2a9863200ec693a2563dbb5b998e7ca15851fb",
+  "source_sha256": "97ad59a3b5773eb467dd630c04cc50abdeac97c63cd813df67bf9cab2e4c252a",
+  "corrections": [
+    {
+      "id": "0700d48e01006df53edd09f95cc81ac671109d808270ecfa35f2a1c9dde0e528",
+      "before": "Según el código de la UE, las declaraciones aduaneras deben redactarse mediante acta notarial",
+      "after": "Según el código de la UE, las declaraciones aduaneras deben redactarse mediante declaración jurada",
+      "reason": "'atto notorio' is a sworn declaration; 'acta notarial' (notarial deed) is a different instrument"
+    },
+    {
+      "id": "0712358ef7199e82a743cd307c8c27a3c98d998f862a3885eec674c321e9954d",
+      "before": "El embrague multidisco es especialmente adecuado para vehículos de gran masa o potencia",
+      "after": "El embrague multidisco es especialmente adecuado para vehículos de gran masa y/o potencia",
+      "reason": "Conserva la conjunción y/o que aparece en la frase italiana."
+    },
+    {
+      "id": "072a9846bbd6b045d0998cf1a9722edeb5e450b2efd21973a55ea0fcd4cfb411",
+      "before": "09##tipología9 CQC",
+      "after": "09##tipologia9 CQC",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original."
+    },
+    {
+      "id": "073489736d4293cb5975a919b49cf2e02baa56b2793960e1c5bed5e4992f4b4f",
+      "before": "Según el CMR, el transportista es responsable directa e inmediatamente por el trabajo de todas las personas que desempeñan una función relacionada con la ejecución del transporte",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista es responsable directa e inmediatamente por el trabajo de todas las personas que desempeñan una función relacionada con la ejecución del transporte",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    },
+    {
+      "id": "0798530fe9c5f0559b9efbca7b2a0a719b2cc60d4c2a643220e9fef646a08a50",
+      "before": "Si el vehículo queda atascado en nieve o arena y no se puede mover, es aconsejable colocar bajo la rueda que patina algún material que genere fricción, como trozos de madera o tapetes del vehículo",
+      "after": "Si el vehículo queda atascado en nieve o arena y no se puede mover, es aconsejable colocar bajo la rueda que patina algún material que genere fricción, como trozos de madera, tapetes del vehículo, etc.",
+      "reason": "'ecc.' (etc.) dropped, turning an open list of examples into a closed one"
+    },
+    {
+      "id": "07d410756519829c7c5f77f2bda70848bf7c96c8f1dcbae87f71015b5b3d39f7",
+      "before": "Según el CMR, existe un impedimento absoluto para realizar el viaje cuando el transportista pierde la carta de porte",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), existe un impedimento absoluto para realizar el viaje cuando el transportista pierde la carta de porte",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    },
+    {
+      "id": "07d78e003c48cd74cb2aed253104350a3a3d0e948f6812909105465883958d63",
+      "before": "Los elementos de freno de los vehículos de carretera pueden ser de tambor y zapatas con revestimiento de fricción",
+      "after": "Los elementos de freno de los vehículos de carretera pueden ser de tambor y zapatas con revestimiento de fricción (ferodo)",
+      "reason": "Restored the '(ferodo)' term from the Italian, which was omitted"
+    },
+    {
+      "id": "07ecbd7b5a457fe031fcbb6f9b1b42f12e55fc0ce616bba1a79ed30cbfab8313",
+      "before": "Según el CMR, el transportista que no puede ejecutar las instrucciones del remitente debe interrumpir el viaje",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista que no puede ejecutar las instrucciones del remitente debe interrumpir el viaje",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    },
+    {
+      "id": "0832538906570eab7921fb0b36fdad58d73a2f71884bbe150fc6b8c4cea835d8",
+      "before": "Si hay que cambiar una rueda, se debe detener el vehículo, si es posible, en un tramo recto y llano y señalizar la detención en los casos previstos con la señal móvil de peligro correspondiente, el triángulo",
+      "after": "Si hay que cambiar una rueda, se debe detener el vehículo, si es posible, en un tramo recto y llano y señalizar el estacionamiento en los casos previstos con la señal móvil de peligro correspondiente, el triángulo",
+      "reason": "Conserva la distinción entre la detención inicial y la sosta, estacionamiento, que debe señalizarse."
+    }
+  ],
+  "reviewed_file_sha256": "9aa7972340aab03cac6e50d75f8ac7480c82c119312cbf9553adf62598001a48"
+}

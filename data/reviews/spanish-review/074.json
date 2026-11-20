@@ -1,0 +1,31 @@
+{
+  "batch": "074",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "540da107008cf87fa4de606c280a28a72b8bd5fe13d62f6740cb63c7d6db4dbf",
+  "source_sha256": "a1bf761e0b9d42c9b91e9211067bfa2373480b36aa8cb4a26ad219db465dead4",
+  "corrections": [
+    {
+      "id": "623fb3a04bf795bbb915d28832533b3aac0ec1b9880e1e5ea7bc84ab6cd88dcb",
+      "before": "Por servicio ocasional de transporte de personas en autobús de «circuito cerrado» se entiende un servicio que conecta solo dos localidades sin paradas intermedias",
+      "after": "Por servicio ocasional de transporte de personas en autobús a «puertas cerradas» se entiende un servicio que conecta solo dos localidades sin paradas intermedias",
+      "reason": "'a porte chiuse' is the closed-door service type, not a 'circuito cerrado'"
+    },
+    {
+      "id": "627841aa37e4f24c6dd167686bae9a17bc8a2e99e05c50c7aba5286ef60351f7",
+      "before": "La señal mostrada indica un área de estacionamiento para casas rodantes",
+      "after": "La señal mostrada indica un área de estacionamiento para remolques vivienda",
+      "reason": "Se precisa que caravan designa un remolque vivienda, evitando la ambigüedad de casa rodante."
+    }
+  ],
+  "reviewed_file_sha256": "96d6f23074ae4a62d17f79d52ed6a3d8df18432699068c5ac2ff44272341a34e"
+}

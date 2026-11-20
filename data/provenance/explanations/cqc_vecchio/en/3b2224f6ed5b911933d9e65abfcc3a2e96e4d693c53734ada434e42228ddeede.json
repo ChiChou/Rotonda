@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed60-94a8-73b0-acf7-864cac2d965a"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 15763,
+          "quesito_id": 3308,
+          "text_it": "Devono essere in possesso di licenza comunitaria le imprese che intendono effettuare trasporti internazionali effettuati in tutti i paesi che hanno aderito alla CEMT (Conferenza europea dei Ministri dei trasporti)",
+          "answer": 1,
+          "page": 36,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cf9bbf2d84bf22404b42ff76230340f1eb5fd73752c2d3faa18bbaf204823052",
+        "italian": "Il quiz indica VERO, ma la licenza comunitaria non autorizza automaticamente trasporti in tutti i Paesi CEMT: il suo ambito riguarda i percorsi UE previsti dal regolamento; per Paesi terzi possono servire titoli diversi.",
+        "italian_sha256": "18c6a3e9e9d000c438d57641c69febff90ed2b733160dfc176edb2fdfb23e87a"
+      },
+      {
+        "source": {
+          "number": 15770,
+          "quesito_id": 3310,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti postali",
+          "answer": 1,
+          "page": 36,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8e5a6da8857ff83144213f39aa37f226eb3c45cfbf0383e14b4c822025ba1ea8",
+        "italian": "Il quiz indica VERO: sono esenti i trasporti postali svolti nel servizio universale. La sola natura postale non basta a esentare qualsiasi trasporto.",
+        "italian_sha256": "4be21cb9bae7a35827853ea18ac9cedd2913a8fb8dfede95208226218f57dd77"
+      },
+      {
+        "source": {
+          "number": 15771,
+          "quesito_id": 3310,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti di veicoli danneggiati o da riparare",
+          "answer": 1,
+          "page": 36,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9a49c192ebb8c13e29be10f5ebd96f6acea8fce9580317a2d66825be463e0bbf",
+        "italian": "Il trasporto di veicoli danneggiati o da riparare rientra fra le categorie esenti dalla licenza comunitaria.",
+        "italian_sha256": "e1e2bab8c821443adb1bde1656d6d123ac61e9b16a86533379427bc4f330b1b9"
+      },
+      {
+        "source": {
+          "number": 15772,
+          "quesito_id": 3310,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti di medicinali",
+          "answer": 1,
+          "page": 36,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "26476c1233439ed048fdf20ffb38b89860411727aff8984ef2505abf1d4ce37a",
+        "italian": "Il quiz indica VERO: l’esenzione riguarda medicinali e altri beni necessari per cure mediche urgenti, non qualsiasi trasporto ordinario di medicinali.",
+        "italian_sha256": "73b3d6a8686c6451d87d639a3c653b00dd625ea5576fd8878bce5b649da86b90"
+      },
+      {
+        "source": {
+          "number": 15773,
+          "quesito_id": 3310,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti di merci con autoveicoli il cui peso totale a carico autorizzato, compreso quello dei rimorchi, non supera 6 tonnellate o il cui carico utile autorizzato, compreso quello dei rimorchi, non supera 3,5 tonnellate",
+          "answer": 1,
+          "page": 36,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e387f14229d6bb8930ca5d9b0c612fbde47684e201c8881eac63609a6689e63a",
+        "italian": "Il quiz indica VERO secondo la vecchia disciplina: l’esenzione comprendeva questi limiti di massa o carico utile. La norma è stata sostituita e tali soglie non descrivono il regime attuale.",
+        "italian_sha256": "6e9da125a86bc4cd07d05cc730586a41c91930cb3056dfb64f2cb397579ebe89"
+      },
+      {
+        "source": {
+          "number": 15774,
+          "quesito_id": 3310,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti di animali",
+          "answer": 0,
+          "page": 36,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6ae303755d44d6e32dd4713c611ad6058ae09b85b6b3e7bc3d2dfa55a61d01e2",
+        "italian": "È falso che il trasporto di animali sia esente per la sola natura del carico: quando è un trasporto internazionale per conto terzi soggetto alla disciplina occorre la licenza, salvo esenzioni applicabili.",
+        "italian_sha256": "88795a1b92e3d151eef4d3275d4dd323b983f288aafb5863cc84455d0c3455db"
+      },
+      {
+        "source": {
+          "number": 15775,
+          "quesito_id": 3310,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di traslochi",
+          "answer": 0,
+          "page": 36,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b0f1b05f6413bc016f6c75f1622228a0b640e8176bec3f1afdb6653d90d1925e",
+        "italian": "È falso che i traslochi siano sempre esenti: un trasloco internazionale per conto terzi soggetto al regolamento richiede la licenza, salvo specifiche esenzioni.",
+        "italian_sha256": "a3baa3f74fde6ad0c0a38587cbc2605bab08ea8a857b248256cba2bcd001d40a"
+      },
+      {
+        "source": {
+          "number": 15776,
+          "quesito_id": 3310,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti di persone",
+          "answer": 0,
+          "page": 36,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d44e365c560498196f7efbfce09637d31d2a8156f065ac2baf4234a87b029819",
+        "italian": "È falso che il trasporto di persone sia sempre esente: per il trasporto internazionale di passeggeri con autobus per conto terzi è prevista una specifica licenza comunitaria.",
+        "italian_sha256": "88e27f1706d08a139fe000fdb8dfb71a810126cb9c85b777b36c4e56736e779f"
+      },
+      {
+        "source": {
+          "number": 15782,
+          "quesito_id": 3312,
+          "text_it": "Il trasporto internazionale di cose per conto terzi in ambito UE è liberalizzato per alcune tipologie di trasporto e soggetto solo al possesso della licenza comunitaria per le altre",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "405986f477f3b1fb8738173957549d5b21f010f0f53254d3509ea77fcf473af0",
+        "italian": "Il quiz indica VERO: alcune categorie sono esenti dalla licenza, mentre per i trasporti internazionali per conto terzi soggetti al regolamento serve la licenza comunitaria. «Solo» non esclude gli altri documenti richiesti nel caso concreto.",
+        "italian_sha256": "6493fdb9804751d9f1c851235593affbcedde88c43a7d5df46214c0997312371"
+      },
+      {
+        "source": {
+          "number": 15783,
+          "quesito_id": 3312,
+          "text_it": "Il trasporto internazionale di cose per conto terzi in ambito UE è totalmente liberalizzato e non occorre alcun documento per esercitarlo",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "30709499e1673e971aacd50f5fbb7053326816e434057438d1eaa00e1d08be42",
+        "italian": "È falso che tutti i trasporti siano liberi e senza documenti: per quelli internazionali per conto terzi soggetti al regolamento occorre la licenza comunitaria, con esenzioni specifiche.",
+        "italian_sha256": "c7e8a0f60e8854ea97717fb39742afc11d7fdcf422b3374124a31d269ed1a874"
+      },
+      {
+        "source": {
+          "number": 15784,
+          "quesito_id": 3312,
+          "text_it": "Il trasporto internazionale di cose per conto terzi in ambito UE è liberalizzato solo per alcune specifiche tipologie di trasporto e assoggettato ad autorizzazione bilaterale per le altre",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4681e76be5db7ce7cc109bbc85c380a725959b6c5f6e693e0e08810c1fe87cca",
+        "italian": "È falso che gli altri trasporti UE richiedano un’autorizzazione bilaterale: quelli soggetti al regolamento richiedono la licenza comunitaria; alcune categorie sono esenti.",
+        "italian_sha256": "714b4b0a9cc679c6aa43c60d5a89b106cf37f238f3011ea0f06ef1d3d468cbe4"
+      },
+      {
+        "source": {
+          "number": 15785,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria è valida nei Paesi dell’Unione europea, dello Spazio economico europeo e nella Svizzera",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "34ae19da1c1f1d03723d7fff8351e29f02b5adc97979bce369f3eee477d085c0",
+        "italian": "La licenza abilita ai trasporti nel quadro previsto tra Stati UE e anche con Paesi SEE e Svizzera, secondo gli accordi applicabili.",
+        "italian_sha256": "5b092e3e17f3c90b8f9c1cfb88963658f40ec630649af1ab2c939738947af8a0"
+      },
+      {
+        "source": {
+          "number": 15786,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria è rilasciata dalla Direzione generale per il trasporto stradale e per l’intermodalità del Dipartimento per i trasporti, la navigazione ed i sistemi informativi e statistici",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1c0592829633ea8b893f5f869c0df7f3f1830b7c4102fbd2c220145397e9a94c",
+        "italian": "Il quiz usa la denominazione ministeriale dell’epoca: il rilascio era attribuito alla Direzione generale per il trasporto stradale e per l’intermodalità. La denominazione degli uffici è stata successivamente aggiornata.",
+        "italian_sha256": "8cdc5d3ff825b8066f54850d0e8902c23cba78794945c85ec60834845e268d3e"
+      },
+      {
+        "source": {
+          "number": 15787,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria ha una durata di5 anni",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e3773981b4dc4110d2a2f7c7dad866b534bd0f0c3a126fb11bcb9cbfaa95545c",
+        "italian": "Per le imprese italiane la licenza comunitaria merci è rilasciata per cinque anni ed è rinnovabile.",
+        "italian_sha256": "a0230acc069c867428bda4383683d38eacbadd97c126beb862368282b1632662"
+      },
+      {
+        "source": {
+          "number": 15788,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria è valida nei Paesi dell’Unione europea, con eccezione della Spagna",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "25cfc649f62011579181c057ebb04ce64b787384df1e0ae9d87cb707b2351df5",
+        "italian": "È falsa l’esclusione della Spagna: la licenza vale per i trasporti disciplinati tra gli Stati UE, Spagna compresa.",
+        "italian_sha256": "41f15a68f784a96412ca436a8b9922d91b05a811b382d2864592f992603b9d1f"
+      },
+      {
+        "source": {
+          "number": 15789,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria è rilasciata dagli Uffici motorizzazione civile",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bf0db224c5c5243f6e622000097b261eb20dc9793edcc266af08329e2cff575c",
+        "italian": "Il quiz considera falso il rilascio della licenza da parte degli Uffici motorizzazione: nella disciplina richiamata la competenza per la licenza era della Direzione generale ministeriale; le copie conformi sono distinte dalla licenza originale.",
+        "italian_sha256": "8fdd43babb281cf20b7d736fc93acb42e66690042bb1970627764dae6470ef31"
+      },
+      {
+        "source": {
+          "number": 15790,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria è rilasciata dalle Regioni",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "140567c2c66d250ff40b8fea978020e3e5960c2979b1d1a754bd3e24c6e02b46",
+        "italian": "È falso che la licenza fosse rilasciata dalle Regioni: nella disciplina richiamata la competenza spettava alla Direzione generale ministeriale.",
+        "italian_sha256": "df1baa0e13023e1b0d7abafca6f17ea347320fc68968ae3f9f51292a75c7dbb5"
+      },
+      {
+        "source": {
+          "number": 15791,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria è rilasciata dalle Province",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6193046b6f6c62adbb5d440deebee78f2b5c7db0f4a2b0301e0baf7f08baf4ec",
+        "italian": "È falso che la licenza fosse rilasciata dalle Province: nella disciplina richiamata la competenza spettava alla Direzione generale ministeriale.",
+        "italian_sha256": "0577b9f873c778c643eac4f57d9e68cab6dae4d5d3928ab6fa305b74151bac67"
+      },
+      {
+        "source": {
+          "number": 15792,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria ha una durata di1 anno",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2161222109bc13a374c1fbf25fabdafdd09e0ea4191b7934302ba4a8ab28eb1e",
+        "italian": "È falso che la durata ordinaria italiana sia un anno: la licenza merci è rilasciata per cinque anni, rinnovabili.",
+        "italian_sha256": "21138aa4dec40f80eafe7e5ccabe294ab1641b27134c29d211f6a7bae170bdb2"
+      },
+      {
+        "source": {
+          "number": 15793,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria non ha scadenza",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8adc496a1d6e9577b0239d8f5457733df1213e7ee2c9aea249d201af3b408ef0",
+        "italian": "È falso che la licenza sia senza scadenza: quella italiana per le merci dura cinque anni ed è rinnovabile.",
+        "italian_sha256": "2b78e524176251782be032ce7fdee93949df0623ec483c652073577956dfa7d1"
+      },
+      {
+        "source": {
+          "number": 15794,
+          "quesito_id": 3313,
+          "text_it": "La licenza comunitaria deve essere rinnovata solo quando si sostituisce o si aggiunge un veicolo al parco veicolare dell’impresa",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "998af087cb3dfa29207d2206aba922ddc983f30ddbe893e03e354c718fbe6b40",
+        "italian": "È falso che il rinnovo dipenda solo da cambiamenti del parco veicoli: la licenza italiana ha una durata di cinque anni e può essere rinnovata alla scadenza.",
+        "italian_sha256": "5c9ab8be5a2e0dc5120cec61cc1b435948ff71a4dcceaf38bcab2205196fe4dc"
+      },
+      {
+        "source": {
+          "number": 15795,
+          "quesito_id": 3314,
+          "text_it": "Per un trasporto di merci tra Italia e Polonia è necessaria la licenza comunitaria",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "51904514e130827d52c8dc7450d1d6cbaeb86d41d632b49ca34f48fd857a77fb",
+        "italian": "Il quiz indica VERO per il trasporto internazionale di merci per conto terzi soggetto alla disciplina: Italia e Polonia sono nell’UE e occorre la licenza comunitaria, salvo esenzioni specifiche.",
+        "italian_sha256": "2bf43b9d339e88540fb3333557097ac8f8b91f1ffbe84e17be4df08981f5f41a"
+      },
+      {
+        "source": {
+          "number": 15796,
+          "quesito_id": 3314,
+          "text_it": "Per un trasporto di merci tra Italia e Polonia non serve nessuna autorizzazione",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9f5c0fcd133b734f72d01eae18368e467d984dcc70c97eb9fadfc9ce745b43bc",
+        "italian": "È falso che non serva mai un titolo: per il trasporto internazionale per conto terzi tra Italia e Polonia soggetto al regolamento occorre la licenza comunitaria, salvo esenzioni specifiche.",
+        "italian_sha256": "3a8240f7d11ff9180fbf830b4f773877b6f24378e9063ecc9b9a780869d1b0c1"
+      },
+      {
+        "source": {
+          "number": 15797,
+          "quesito_id": 3314,
+          "text_it": "Per un trasporto di merci tra Italia e Polonia è necessaria un’autorizzazione bilaterale",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8b181caaef29e2e1a6e67381150e794ff33807d03e5af3974847f74ed466b0ad",
+        "italian": "Italia e Polonia sono Stati UE: per il trasporto internazionale per conto terzi soggetto al regolamento si usa la licenza comunitaria, non un’autorizzazione bilaterale.",
+        "italian_sha256": "67e2874e46d1c47e61ca685fba6ee6367722ec7a391f428af4d93b728fee6a38"
+      },
+      {
+        "source": {
+          "number": 15798,
+          "quesito_id": 3314,
+          "text_it": "Per un trasporto di merci tra Italia e Polonia è necessaria un’autorizzazione CEMT",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e0389e7b55629ae00c7809265080be036e442d22e43cc40c4d21aad9c5a3b7cd",
+        "italian": "Tra Italia e Polonia non è necessaria un’autorizzazione CEMT: per il trasporto internazionale per conto terzi soggetto al regolamento si usa la licenza comunitaria.",
+        "italian_sha256": "72b790d377cb57aba6c9d9ccf66e8fa303e8353e25b577d561d5677e641e5689"
+      },
+      {
+        "source": {
+          "number": 15799,
+          "quesito_id": 3315,
+          "text_it": "La licenza comunitaria è un documento che permette al titolare di effettuare i trasporti internazionali nei paesi dell’UE",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5c960e47f7818cbaea018977cf0df9e1db35e9f25e02efe096eaf31ff4b7a71e",
+        "italian": "La licenza comunitaria abilita il titolare a effettuare trasporti internazionali di merci per conto terzi nell’UE, alle condizioni previste.",
+        "italian_sha256": "578d431d4a9e5811611f6baadf46c14d4feec32739eb22e7d8ab5198db2c6982"
+      },
+      {
+        "source": {
+          "number": 15800,
+          "quesito_id": 3315,
+          "text_it": "La licenza comunitaria se il veicolo a motore ed il rimorchio sono immatricolati in Stati diversi, è necessaria solo per il veicolo a motore",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "86205ac5e2d7df9a68605be47190e1d670ad5c7c263b3b455a10bd489dd42214",
+        "italian": "La copia conforme accompagna il veicolo a motore e vale per l’intero complesso, anche se il rimorchio è immatricolato in un altro Stato.",
+        "italian_sha256": "dad7cd78982272402d508e780d3679f00790f239420f9ea46c269290103578bc"
+      },
+      {
+        "source": {
+          "number": 15802,
+          "quesito_id": 3315,
+          "text_it": "La licenza comunitaria è rilasciata alle imprese europee abilitate alla professione di trasportatore dalle autorità competenti dello Stato di stabilimento dell’impresa",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d8d95c125c34245b22be37b894f9ca683f17fce623a82759776426e12acb5371",
+        "italian": "La rilascia l’autorità competente dello Stato membro di stabilimento al trasportatore che soddisfa le condizioni di accesso alla professione e al trasporto internazionale.",
+        "italian_sha256": "643ba3dd603e1a1dcedf0aeb0a2350d09bb87f8cec1fe8efbc8b145b3637ac96"
+      },
+      {
+        "source": {
+          "number": 15807,
+          "quesito_id": 3315,
+          "text_it": "La licenza comunitaria è rilasciata dalla Camera di Commercio",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fd63797504eb54c74b885bb6f6d7e8930b29dd85e797c9d6a008e069c2e62754",
+        "italian": "Non è la Camera di commercio a rilasciarla: provvede l’autorità competente dello Stato membro di stabilimento.",
+        "italian_sha256": "44c941caa630b4348112cb7f7f6715658841d69f907b81e76c9cec2ec9dae3a3"
+      },
+      {
+        "source": {
+          "number": 15809,
+          "quesito_id": 3316,
+          "text_it": "La copia certificata conforme della licenza è rilasciata in tanti esemplari quanti sono i veicoli a motore",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b512167fb69b45e0fbfe64ca7d2276fa55b4f3a23eb02d5025cd86a32f1790ba",
+        "italian": "Le copie conformi sono rapportate ai veicoli di cui il titolare dispone; ciascuna accompagna il veicolo a motore utilizzato.",
+        "italian_sha256": "570d3e248bda84d3589dc085de6091f0f5b8b23a9de7606afee6eae267ffad32"
+      },
+      {
+        "source": {
+          "number": 15810,
+          "quesito_id": 3316,
+          "text_it": "La copia certificata conforme della licenza comunitaria è rilasciata anche per veicoli in leasing",
+          "answer": 1,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "260a61197998d631b6e52063524aba0fb6a34895f9fe8b56735aaf15eeaef562",
+        "italian": "Anche un veicolo in leasing è nella disponibilità dell’impresa e può avere la propria copia certificata conforme.",
+        "italian_sha256": "a59377a946d87c39ab341c9940a77e0b47c2bdb45556cedea4760517fb0d2421"
+      },
+      {
+        "source": {
+          "number": 15811,
+          "quesito_id": 3316,
+          "text_it": "La copia certificata conforme della licenza è rilasciata in unico originale per l’impresa",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c276e9b6dc3d8b8e4e9866a07ca9931cbd34d2963a8f191de9936bc4980e4c82",
+        "italian": "L’unico originale è la licenza conservata dall’impresa; le copie certificate conformi sono rapportate ai veicoli disponibili.",
+        "italian_sha256": "3220b85d250ff3fe03b79fd4595c91a266af5c8bb1070113886c24a7a4c5ac09"
+      },
+      {
+        "source": {
+          "number": 15812,
+          "quesito_id": 3316,
+          "text_it": "La copia certificata conforme della licenza è rilasciata in tanti esemplari quanti sono gli autisti",
+          "answer": 0,
+          "page": 53,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "119cba457ef59ef7cbd13c37c5cf3fb956a0f094624f7833af9ca59e38403ca3",
+        "italian": "Il numero delle copie non dipende dagli autisti, ma dai veicoli di cui il titolare dispone.",
+        "italian_sha256": "240301da8cc497bb6958ef17985ac0f3ec06f419e17743f99e49af3d4716e287"
+      },
+      {
+        "source": {
+          "number": 15813,
+          "quesito_id": 3316,
+          "text_it": "La copia certificata conforme della licenza è rilasciata in due originali, uno per l’impresa e uno per il conducente",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "680716e1d9e0fc4dbd9b31ec2ddf57ba1cc3f8cca6d1fb93ba41a8052dfa2d15",
+        "italian": "Non sono previsti due originali: l’impresa conserva l’originale e sul veicolo viaggia una copia certificata conforme.",
+        "italian_sha256": "360c310c49cbeb78e5be2e1b4092e32f210816717b9990bc48a8737fd02e22db"
+      },
+      {
+        "source": {
+          "number": 15814,
+          "quesito_id": 3316,
+          "text_it": "La copia certificata conforme della licenza comunitaria è rilasciata solo per veicoli in proprietà",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6a3b60eab5bb5559160b7dcc5fab1a7eee16c8feb59fbcd164f111285c7333e1",
+        "italian": "Non sono ammessi solo i veicoli di proprietà: contano anche quelli disponibili, per esempio, in leasing o a noleggio.",
+        "italian_sha256": "557ee8ae924548c62d99fe0637a6237e769f7d8725f57c167ded3d73ff1d9365"
+      },
+      {
+        "source": {
+          "number": 15815,
+          "quesito_id": 3316,
+          "text_it": "La copia certificata conforme della licenza comunitaria è rilasciata solo per veicoli a noleggio",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bc05974b0ca5570d868e3f67a15cc788faf2258d9a987e36f27b9a892df6d00f",
+        "italian": "Non sono ammessi solo i veicoli a noleggio: contano anche quelli di proprietà o disponibili, per esempio, in leasing.",
+        "italian_sha256": "295965686c8f5666d7b187d9a3fe299a8fa9abc944681971a3063b532532ce34"
+      },
+      {
+        "source": {
+          "number": 15816,
+          "quesito_id": 3317,
+          "text_it": "Per circolare nell’ambito dell’Unione europea, un veicolo che effettua trasporto per conto di terzi deve avere a bordo una copia conforme della licenza comunitaria",
+          "answer": 1,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "55d9dc4ee37ed6a7f7862b8c3b7a45f752b7ca0a79a20a4e401e71e1ceef1f91",
+        "italian": "Per i trasporti internazionali per conto terzi soggetti alla licenza, a bordo deve esserci una copia certificata conforme. La formulazione è generale: il regolamento prevede anche trasporti esenti.",
+        "italian_sha256": "1e13a6f79773972a6675c637da50623aa80e11f73d4b5c2d91670f8428c94c5e"
+      },
+      {
+        "source": {
+          "number": 15817,
+          "quesito_id": 3317,
+          "text_it": "Per circolare nell’ambito dell’Unione europea, un veicolo che effettua trasporto per conto di terzi deve avere a bordo una fotocopia della licenza comunitaria",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ca32680715bbe9866f808d56fce1ebc2f4fd35c799688e18c0fd510736949d84",
+        "italian": "Una semplice fotocopia non basta: per i trasporti soggetti alla licenza deve trovarsi a bordo una copia certificata conforme.",
+        "italian_sha256": "5c0cc3302bcabaf0f3e035d1cc816519991dd02f6d6273ad5b75e3c3f4984d87"
+      },
+      {
+        "source": {
+          "number": 15818,
+          "quesito_id": 3317,
+          "text_it": "Per circolare in ambito nell’ambito dell’Unione europea, un veicolo che effettua trasporto per conto di terzi deve avere a bordo una autorizzazione CEMT",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5bfaeb506b7d0ff2bd19199a99ff203f3ac6cbf3c2f841da2503b58f11004937",
+        "italian": "L’autorizzazione CEMT non è il documento generalmente richiesto per il trasporto internazionale nell’UE: nei casi soggetti al regolamento occorre la copia conforme della licenza comunitaria.",
+        "italian_sha256": "609015b8a8a539ecc8d59651325260e445cc4f40ed532fa41940fc103072d855"
+      },
+      {
+        "source": {
+          "number": 15819,
+          "quesito_id": 3317,
+          "text_it": "Per circolare nell’ambito dell’Unione europea, un veicolo che effettua trasporto per conto di terzi deve avere a bordo un certificato che attesti la categoria d’inquinamento del veicolo (EURO 1, 2, 3 ecc.)",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "01bbe6d452e4a6977231f406bac6610cda64401b574efe6d97ed42aaa8c9329f",
+        "italian": "Il certificato EURO non è un requisito generale di bordo previsto per la licenza comunitaria: nei trasporti soggetti alla licenza occorre la copia certificata conforme. Possono applicarsi obblighi specifici diversi.",
+        "italian_sha256": "b3e6acd8fdaa6117051c4b1e561ceb5c10c37e1459a71d8c25c3a6c03f6ce9a3"
+      },
+      {
+        "source": {
+          "number": 15820,
+          "quesito_id": 3317,
+          "text_it": "Per circolare nell’ambito dell’Unione europea, un veicolo che effettua trasporto per conto di terzi deve avere a bordo la licenza comunitaria in originale",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b9ce48f1c8483c684d52b0b07d0da56c78d15c51522edf4efedb3795a92d0d45",
+        "italian": "L’originale resta presso l’impresa; sul veicolo deve trovarsi una copia certificata conforme.",
+        "italian_sha256": "03ecd2bfa246d7f208db88ac63f2fb6dc60764374ee8362e1924e2ffdcad94c4"
+      },
+      {
+        "source": {
+          "number": 15821,
+          "quesito_id": 3318,
+          "text_it": "L’impresa di autotrasporto deve richiedere copie certificate conformi della licenza comunitaria in numero di una per ogni veicolo che intende utilizzare nei viaggi all’interno dell’Unione europea",
+          "answer": 1,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ccc4df5cbefc5d9a0ff552f08439277fa663f68908f41bff3d897b9e6e2d8574",
+        "italian": "Per ogni veicolo impiegato nei trasporti internazionali soggetti a licenza occorre una copia certificata conforme a bordo.",
+        "italian_sha256": "3a1a197f8d7de5648675ae99b102b3d0ab67737c312c97c631be81205af41d7c"
+      },
+      {
+        "source": {
+          "number": 15822,
+          "quesito_id": 3318,
+          "text_it": "L’impresa di autotrasporto deve richiedere copie certificate conformi della licenza comunitaria in numero di una per ogni autista",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "76dc8f10ca7aa254e26b8e3685465a6b89099a6588682d577cb04eb29111b541",
+        "italian": "Le copie non si richiedono in base al numero degli autisti: sono rapportate ai veicoli disponibili.",
+        "italian_sha256": "6cced308ffe4a103ec465eca743fe0bb3358010a092f3b8e5d348ac73302b1a0"
+      },
+      {
+        "source": {
+          "number": 15823,
+          "quesito_id": 3318,
+          "text_it": "L’impresa di autotrasporto deve richiedere copie certificate conformi della licenza comunitaria in numero di una per ogni viaggio all’interno dell’Unione europea",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e46b8b2c4f29c4170f7636a807e7b0637232e94c354d3d7245906550bae50938",
+        "italian": "La copia non è rilasciata per ogni viaggio: è rapportata al veicolo disponibile e accompagna il veicolo nei trasporti soggetti alla licenza.",
+        "italian_sha256": "a388dd42dad999025f62925288035cabcdd4dce843e573e41951e1e852f148c4"
+      },
+      {
+        "source": {
+          "number": 15824,
+          "quesito_id": 3318,
+          "text_it": "L’impresa di autotrasporto deve richiedere copie certificate conformi della licenza comunitaria in numero di una per ogni autista essendo la stessa intestata a quest’ultimo",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3b2c97ab6b48c4753c5c2eee4fc44bcf6b39be4704172aa5202ea451cdc8de50",
+        "italian": "La copia non è intestata a ogni autista: la licenza è personale del trasportatore e le copie sono rapportate ai veicoli disponibili.",
+        "italian_sha256": "fb2bc796055f628caf4838c3edca92c052cb2bfd3b381591c82bb037310e49b3"
+      },
+      {
+        "source": {
+          "number": 15825,
+          "quesito_id": 3318,
+          "text_it": "L’impresa di autotrasporto deve richiedere copie certificate conformi della licenza comunitaria in numero di una per ogni Paese comunitario in cui si transita durante il viaggio",
+          "answer": 0,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bf7c8bce339e5d36e6a3b824d3b4877bd5f94b333b4fe0d436b54be41b8aea88",
+        "italian": "Non serve una copia per ogni Paese attraversato: le copie sono rapportate ai veicoli disponibili e accompagnano il veicolo.",
+        "italian_sha256": "3d79de0135f386f089f9c7cbddd9d0ac04bb01a347346230dcb30a7b865af840"
+      },
+      {
+        "source": {
+          "number": 15826,
+          "quesito_id": 3319,
+          "text_it": "Le copie della licenza comunitaria vengono rilasciate in numero corrispondente ai veicoli in disponibilità",
+          "answer": 1,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7d0ea048349223f8c76e988866ad41058a66f30aae9f116471b102edc066429e",
+        "italian": "Il numero delle copie certificate conformi corrisponde ai veicoli di cui il titolare dispone, anche a titolo diverso dalla proprietà.",
+        "italian_sha256": "8366015807dfa96d5a7b39b2cc655c4d3dc525a74df16439d41ab369fcf9be73"
+      },
+      {
+        "source": {
+          "number": 15827,
+          "quesito_id": 3319,
+          "text_it": "Le copie della licenza comunitaria vengono rilasciate dall’UMC di competenza",
+          "answer": 1,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "32f6c672cc706e001c0788598c36ccd80d69f3f47aee5def7738cec4ce5198a1",
+        "italian": "In Italia le copie certificate conformi sono richieste all’Ufficio motorizzazione competente per territorio.",
+        "italian_sha256": "aaadd7960af75fe2a332c517f551f0d06dbf9c842c2cc418fa9fc91f35ee68bc"
+      },
+      {
+        "source": {
+          "number": 15828,
+          "quesito_id": 3319,
+          "text_it": "Le copie della licenza comunitaria devono essere tenute a bordo dei veicoli in disponibilità dell’impresa",
+          "answer": 1,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5413837c30db9093c847f05a8356b86e06d14389d7f4ed7ba0d5464130068f59",
+        "italian": "Una copia certificata conforme della licenza deve trovarsi a bordo di ciascun veicolo del trasportatore.",
+        "italian_sha256": "43270461e02d867eac0a5717e037ee71ea66faf21ec1201f92eb8c8522096c1a"
+      },
+      {
+        "source": {
+          "number": 15829,
+          "quesito_id": 3319,
+          "text_it": "Le copie della licenza comunitaria devono essere conformi all’originale",
+          "answer": 1,
+          "page": 54,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8ca9a3fea4a79a784494f719e0cf16ab3f1c70f2d8fad061cfc937627dd59dbd",
+        "italian": "Le copie sono certificate conformi alla licenza e rilasciate dall’autorità competente.",
+        "italian_sha256": "56031afadd7e412e8a9a97b86a2d008d25976c6aa9afe68e886bd0a117bdf473"
+      }
+    ],
+    "task_sha256": "cd338023e3331b16699d76ad858e05774c854ea886b5e4ae42db0005eb020a82"
+  },
+  "rows": [
+    {
+      "number": 15763,
+      "text": "The quiz marks this VERO, but the Community licence does not automatically authorize transport in every ECMT country: its scope covers the EU routes specified by the regulation; different permits may be needed for non-EU countries."
+    },
+    {
+      "number": 15770,
+      "text": "The quiz marks this VERO: postal transport carried out as part of the universal service is exempt. The fact that a transport operation is postal is not enough on its own to exempt it."
+    },
+    {
+      "number": 15771,
+      "text": "The transport of damaged vehicles or vehicles needing repair is among the categories exempt from the Community licence."
+    },
+    {
+      "number": 15772,
+      "text": "The quiz marks this VERO: the exemption applies to medicines and other goods needed for urgent medical care, not to all ordinary transport of medicines."
+    },
+    {
+      "number": 15773,
+      "text": "The quiz marks this VERO under the old rules: the exemption included these mass or payload limits. The rule has been replaced and these thresholds do not describe the current system."
+    },
+    {
+      "number": 15774,
+      "text": "It is false that the transport of animals is exempt solely because of the nature of the load: a licence is required when it is international transport for hire or reward subject to the rules, unless an exemption applies."
+    },
+    {
+      "number": 15775,
+      "text": "It is false that removals are always exempt: an international removal for hire or reward subject to the regulation requires a licence, unless a specific exemption applies."
+    },
+    {
+      "number": 15776,
+      "text": "It is false that passenger transport is always exempt: a specific Community licence is required for international passenger transport by bus or coach for hire or reward."
+    },
+    {
+      "number": 15782,
+      "text": "The quiz marks this VERO: some categories are exempt from the licence, while international transport for hire or reward subject to the regulation requires a Community licence. ‘Only’ does not exclude other documents required in a particular case."
+    },
+    {
+      "number": 15783,
+      "text": "It is false that all transport is unrestricted and requires no documents: international transport for hire or reward subject to the regulation requires a Community licence, with specific exemptions."
+    },
+    {
+      "number": 15784,
+      "text": "It is false that other EU transport requires a bilateral authorization: operations subject to the regulation require a Community licence; some categories are exempt."
+    },
+    {
+      "number": 15785,
+      "text": "The licence authorizes transport within the framework provided for between EU states and also with EEA countries and Switzerland, under the applicable agreements."
+    },
+    {
+      "number": 15786,
+      "text": "The quiz uses the ministry's name for the office at the time: issuing the licence was assigned to the Directorate General for Road Transport and Intermodality. The names of the offices were later updated."
+    },
+    {
+      "number": 15787,
+      "text": "For Italian businesses, the Community licence for goods is issued for five years and is renewable."
+    },
+    {
+      "number": 15788,
+      "text": "The exclusion of Spain is false: the licence is valid for regulated transport between EU states, including Spain."
+    },
+    {
+      "number": 15789,
+      "text": "The quiz considers it false that the licence is issued by the Motor Vehicle Offices: under the rules referred to, the ministry's Directorate General was responsible for the licence; certified copies are distinct from the original licence."
+    },
+    {
+      "number": 15790,
+      "text": "It is false that the licence was issued by the Regions: under the rules referred to, responsibility lay with the ministry's Directorate General."
+    },
+    {
+      "number": 15791,
+      "text": "It is false that the licence was issued by the Provinces: under the rules referred to, responsibility lay with the ministry's Directorate General."
+    },
+    {
+      "number": 15792,
+      "text": "It is false that the standard Italian validity period is one year: the goods licence is issued for five years and is renewable."
+    },
+    {
+      "number": 15793,
+      "text": "It is false that the licence has no expiry date: the Italian goods licence lasts five years and is renewable."
+    },
+    {
+      "number": 15794,
+      "text": "It is false that renewal depends only on changes to the vehicle fleet: the Italian licence lasts five years and can be renewed when it expires."
+    },
+    {
+      "number": 15795,
+      "text": "The quiz marks this VERO for international goods transport for hire or reward subject to the rules: Italy and Poland are in the EU and a Community licence is required, unless a specific exemption applies."
+    },
+    {
+      "number": 15796,
+      "text": "It is false that a permit is never needed: international transport for hire or reward between Italy and Poland that is subject to the regulation requires a Community licence, unless a specific exemption applies."
+    },
+    {
+      "number": 15797,
+      "text": "Italy and Poland are EU states: international transport for hire or reward subject to the regulation uses a Community licence, not a bilateral authorization."
+    },
+    {
+      "number": 15798,
+      "text": "An ECMT authorization is not required between Italy and Poland: international transport for hire or reward subject to the regulation uses a Community licence."
+    },
+    {
+      "number": 15799,
+      "text": "The Community licence authorizes its holder to carry out international goods transport for hire or reward in the EU, under the specified conditions."
+    },
+    {
+      "number": 15800,
+      "text": "The certified copy accompanies the motor vehicle and is valid for the entire vehicle combination, even if the trailer is registered in another state."
+    },
+    {
+      "number": 15802,
+      "text": "The competent authority of the member state of establishment issues it to a carrier that meets the conditions for access to the profession and to international transport."
+    },
+    {
+      "number": 15807,
+      "text": "It is not issued by the Chamber of Commerce: the competent authority of the member state of establishment issues it."
+    },
+    {
+      "number": 15809,
+      "text": "The number of certified copies corresponds to the vehicles available to the holder; each copy accompanies the motor vehicle used."
+    },
+    {
+      "number": 15810,
+      "text": "A leased vehicle is also available to the business and can have its own certified copy."
+    },
+    {
+      "number": 15811,
+      "text": "The licence kept by the business is the sole original; the number of certified copies corresponds to the vehicles available."
+    },
+    {
+      "number": 15812,
+      "text": "The number of copies depends on the vehicles available to the holder, not on the drivers."
+    },
+    {
+      "number": 15813,
+      "text": "There are not two originals: the business keeps the original and a certified copy travels in the vehicle."
+    },
+    {
+      "number": 15814,
+      "text": "Owned vehicles are not the only ones permitted: vehicles available under other arrangements, such as leasing or rental, also count."
+    },
+    {
+      "number": 15815,
+      "text": "Rental vehicles are not the only ones permitted: owned vehicles and those available under other arrangements, such as leasing, also count."
+    },
+    {
+      "number": 15816,
+      "text": "For international transport for hire or reward subject to the licence, a certified copy must be on board. The wording is general: the regulation also provides for exempt transport."
+    },
+    {
+      "number": 15817,
+      "text": "An ordinary photocopy is not enough: a certified copy must be on board for transport subject to the licence."
+    },
+    {
+      "number": 15818,
+      "text": "An ECMT authorization is not the document generally required for international transport in the EU: in cases subject to the regulation, a certified copy of the Community licence is required."
+    },
+    {
+      "number": 15819,
+      "text": "The EURO certificate is not a general document required on board under the Community licence: a certified copy is required for transport subject to the licence. Other specific obligations may apply."
+    },
+    {
+      "number": 15820,
+      "text": "The original remains with the business; a certified copy must be on board the vehicle."
+    },
+    {
+      "number": 15821,
+      "text": "A certified copy must be on board each vehicle used for international transport subject to a licence."
+    },
+    {
+      "number": 15822,
+      "text": "Copies are not requested according to the number of drivers: their number corresponds to the vehicles available."
+    },
+    {
+      "number": 15823,
+      "text": "A copy is not issued for each trip: it corresponds to an available vehicle and accompanies it during transport subject to the licence."
+    },
+    {
+      "number": 15824,
+      "text": "The copy is not issued in each driver's name: the licence is personal to the carrier and the number of copies corresponds to the vehicles available."
+    },
+    {
+      "number": 15825,
+      "text": "A copy is not needed for each country crossed: the number of copies corresponds to the vehicles available, and the copies accompany the vehicles."
+    },
+    {
+      "number": 15826,
+      "text": "The number of certified copies corresponds to the vehicles available to the holder, including those available under arrangements other than ownership."
+    },
+    {
+      "number": 15827,
+      "text": "In Italy, certified copies are requested from the Motor Vehicle Office responsible for the area."
+    },
+    {
+      "number": 15828,
+      "text": "A certified copy of the licence must be on board each of the carrier's vehicles."
+    },
+    {
+      "number": 15829,
+      "text": "The copies are certified as true copies of the licence and issued by the competent authority."
+    }
+  ],
+  "output_sha256": "6d17a1e8a4c078d0f31802abe7046e04b53166b05988ab02662eea3a0e18b5cc"
+}

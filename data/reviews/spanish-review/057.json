@@ -1,0 +1,73 @@
+{
+  "batch": "057",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "49213e14644de482b02821b94741db3e0e15f762ab528007693cc93b4abe3717",
+  "source_sha256": "7ef67a0523b82bde1cfbae4067298855d3daa1f3e4ed2af837f4d6d3afa97781",
+  "corrections": [
+    {
+      "id": "4b9da98f01a658c9ea4a73b7c9ed3f012913db1c30fdc1bc4f7704d136f19240",
+      "before": "Las válvulas de admisión y escape se encuentran tanto en motores de gasolina como diésel",
+      "after": "Las válvulas de admisión y escape se encuentran tanto en motores de explosión como diésel",
+      "reason": "Motori a scoppio no se limita a motores de gasolina."
+    },
+    {
+      "id": "4ba48fe3a082d6d41ae5a87daa5197e72442ca9136cc0cd96bf4d0ceb6df12ec",
+      "before": "El sistema logístico es la flota de vehículos de la empresa de transporte",
+      "after": "Por sistema logístico se entiende la flota de vehículos de la empresa de transporte",
+      "reason": "Definition ('si intende') rendered as a plain statement; restored the definitional form"
+    },
+    {
+      "id": "4be5da91b743860b38fc9300ec9a5cbe1eeffa1f8d1ef9baf1953a039e283a03",
+      "before": "Un servicio ocasional a puertas cerradas transporta a un grupo en un viaje que no empieza ni termina en el Estado de establecimiento del transportista; los pasajeros no suben ni bajan allí",
+      "after": "Se entiende por servicio ocasional a puertas cerradas el transporte de un grupo de viajeros que no empieza ni termina en el Estado donde está establecido el transportista; es decir, los viajeros no suben ni bajan en ese Estado",
+      "reason": "Se traduce a porte chiuse como servicio de circuito cerrado.; 'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit; definition kept"
+    },
+    {
+      "id": "4c0af464d6931fbb337fb28ee15c30494f6ef19aa35d2201fce9bca0b5f46a36",
+      "before": "La masa máxima autorizada es la diferencia entre la capacidad de carga y la tara",
+      "after": "La masa total a plena carga es la diferencia entre la capacidad de carga y la tara",
+      "reason": "Se conserva masa total a plena carga sin convertirla en masa máxima autorizada."
+    },
+    {
+      "id": "4c29807e891a1dc7ab22833495e8d520a460052fdebbf61c6ebbe836bfb1d5b9",
+      "before": "La señal mostrada permite que vehículos de uso especial de masa máxima autorizada superior a 3,5 toneladas adelanten a vehículos de motor",
+      "after": "La señal mostrada permite que vehículos de uso especial de masa total a plena carga superior a 3,5 toneladas adelanten a vehículos de motor",
+      "reason": "Se conserva masa total a plena carga sin convertirla en masa máxima autorizada."
+    },
+    {
+      "id": "4c404f680dd326ce790e73e1d10c0e972732a144ca0fa7884d2d43266ecc74f4",
+      "before": "Para transportar mercancías por cuenta de terceros dentro de la UE con vehículos de capacidad superior a 3,5 toneladas, la empresa debe estar inscrita en el Registro de Transportistas y tener autorización",
+      "after": "Para realizar transporte por cuenta de terceros dentro de la UE con vehículos de capacidad superior a 3,5 toneladas, la empresa debe estar inscrita en el Registro de Transportistas y tener autorización",
+      "reason": "El original no limita el transporte a mercancías."
+    },
+    {
+      "id": "4c85a73dce393d66f6f7d6440b0c74b82f1c5c6715a8d3db2b3365a6bb5c5f27",
+      "before": "La autorización CEMT para transportes no liberalizados fuera de la UE o el EEE debe ir acompañada de los certificados técnicos del vehículo",
+      "after": "La autorización CEMT para transporte de mercancías por cuenta de terceros no liberalizado fuera de la UE o el EEE debe ir acompañada de los certificados técnicos del vehículo",
+      "reason": "Se recuperan mercancías y transporte por cuenta de terceros omitidos."
+    },
+    {
+      "id": "4c945e69bb58758c13d90ee623008a6304deba32f3133a1532f1987131e408f2",
+      "before": "06##tipología6 CQC",
+      "after": "06##tipologia6 CQC",
+      "reason": "Se conserva el marcador estructural 06##tipologia6."
+    },
+    {
+      "id": "4c9c4980f6b2d0a2b2f7e434d71aa05cfe9996c594ecf7b98ac528453ad6d64e",
+      "before": "La regulación electrónica de la inyección solo puede aplicarse a motores de gasolina porque el diésel tarda demasiado en encenderse",
+      "after": "La regulación electrónica de la inyección solo puede aplicarse a motores de explosión porque el diésel tarda demasiado en encenderse",
+      "reason": "Motori a scoppio no se limita a motores de gasolina."
+    }
+  ],
+  "reviewed_file_sha256": "8148ed7db13fe3da56e57039cf2a59965247021003139a474ae8598097145cb5"
+}

@@ -1,0 +1,75 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1f676-8a39-7b70-9c5b-0febe4e4f0f9"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 31161,
+          "quesito_id": 7007,
+          "text_it": "Grazie al CDC (sistema di controllo continuo dei sobbalzi), che regola continuamente gli ammortizzatori, vengono garantiti la stabilità del veicolo e il contenimento dei sobbalzi in frenata, nelle curve, nei dossi, ecc.",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "68eddc0db9b12298eca80dda75b244386693b6b552c9c6e3fbf4a05a58535430",
+        "italian": "Il CDC varia continuamente lo smorzamento degli ammortizzatori secondo la marcia, contribuendo a contenere i movimenti della carrozzeria e a mantenere stabilità e comfort.",
+        "italian_sha256": "4e96a99c6afd6aea70dc60cde6d885b8154b7a19de614202e94c0ef3f4f18837"
+      },
+      {
+        "source": {
+          "number": 31748,
+          "quesito_id": 7045,
+          "text_it": "La segnalazione di pericolo tramite il segnale di veicolo fermo è vietata nei dossi",
+          "answer": 0,
+          "page": 21,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d767ee6d8ea3aeb940dbe8837acc4f29c67fa0387cc399aff67596ffdbba8606",
+        "italian": "Un dosso non vieta la presegnalazione: se limita la visibilità dell’ostacolo il triangolo va collocato in modo da essere visibile a chi arriva.",
+        "italian_sha256": "8d5ba7c40733f3731f187eb77d689afc099576c7c57d94c492ab5bc3ccff978e"
+      },
+      {
+        "source": {
+          "number": 31961,
+          "quesito_id": 7060,
+          "text_it": "In base alla normativa relativa al tachigrafo, mentre il conducente fruisce del periodo di interruzione di 45 minuti della guida, dopo aver guidato per 4 ore e mezza non può svolgere nessuna attività lavorativa",
+          "answer": 1,
+          "page": 29,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "04397437c6e136ff54364dc429428b0ff87b9c612ac7ca4da65596a9e2852e6b",
+        "italian": "La pausa serve esclusivamente al recupero: durante essa il conducente non può guidare né svolgere altre mansioni.",
+        "italian_sha256": "734af6cec6ff9ac22b80c41bcf6a93199fb7996d0440309d5f46fc00cbb4ae08"
+      }
+    ],
+    "task_sha256": "ef1cb7cee7d732f9ad3869c89b437abfee5736116827a5506d201849ae493ebc"
+  },
+  "rows": [
+    {
+      "number": 31161,
+      "text": "CDC continuously adjusts the damping of the shock absorbers according to driving conditions, helping to limit body movement and maintain stability and comfort."
+    },
+    {
+      "number": 31748,
+      "text": "A crest does not prohibit advance warning: if it limits visibility of the obstruction, the warning triangle must be placed where approaching road users can see it."
+    },
+    {
+      "number": 31961,
+      "text": "The break is solely for rest: during it, the driver may neither drive nor perform other duties."
+    }
+  ],
+  "output_sha256": "b1951ee6e37510b179f56d0449b735943425e496a666ad291adb4d258731cd7a"
+}

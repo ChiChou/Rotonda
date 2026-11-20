@@ -1,0 +1,31 @@
+{
+  "batch": "152",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "8798c11402682600ce9313300f27c50acde091cbfa6fa4553015e28fbe5fb685",
+  "source_sha256": "0aac6f53c766ae841d8f72a6975cb2f1b8a54fb2cc763bad2c03d43115f0b26f",
+  "corrections": [
+    {
+      "id": "c870acc08ea0ca2c9cf4c7a05e1720f56876d366aa71a4bd4a0c738d276670b8",
+      "before": "Para evitar ruidos molestos durante la circulación se debe, entre otras cosas, comprobar que el silenciador funcione bien y sea de tipo aprobado",
+      "after": "Para evitar ruidos molestos durante la circulación se debe, entre otras cosas, hacer revisar que el silenciador funcione bien y sea de tipo aprobado",
+      "reason": "Far controllare indica mandar revisar el silenciador."
+    },
+    {
+      "id": "c98d24bdad3d3fd31161be4b91c7e5dc4ed13a1446dace84ce9b2fc1ca795d11",
+      "before": "En un motor diésel, la inyección de combustible con control electrónico permite regular tanto la cantidad inyectada como el momento de la inyección",
+      "after": "En un motor diésel, la inyección de diésel con control electrónico permite regular tanto la cantidad inyectada como el momento de la inyección",
+      "reason": "Especifica el diésel indicado por gasolio."
+    }
+  ],
+  "reviewed_file_sha256": "fdc412c4da66e2ae8ce5f2575a7fae69d2d8d7a69dacba1e370ff8980f62be78"
+}

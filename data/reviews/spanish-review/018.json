@@ -1,0 +1,43 @@
+{
+  "batch": "018",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "93f6bee77a333100e5063eaec0146dd2c4ffa489a992babbeae84ef9b7db32d4",
+  "source_sha256": "2368abfc10a1ccf662bc5b02e3e862e397545b6425a239cb4f3dbdee136ec58f",
+  "corrections": [
+    {
+      "id": "1867b91dba9c82d61c50e4aec54048634f4f2b412c905ca50822dced1bebb4e1",
+      "before": "Según el CMR, en caso de retraso el titular del derecho puede reclamar una indemnización por pérdida de la mercancía renunciando a la indemnización por retraso",
+      "after": "Según el CMR, en caso de retraso el titular del derecho puede reclamar el resarcimiento o la indemnización por pérdida de la mercancía renunciando a la indemnización por retraso",
+      "reason": "Restituye las dos alternativas de resarcimiento o indemnización expresadas en el original."
+    },
+    {
+      "id": "196db3e27982a84c59d099585a60c187b384cf05cf35f681066422321c61bed9",
+      "before": "Según el CMR, el transportista que después de comunicar al remitente la imposibilidad de terminar el viaje acordado no recibe instrucciones no tiene ninguna obligación",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista que después de comunicar al remitente la imposibilidad de terminar el viaje acordado no recibe instrucciones no tiene ninguna obligación",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "196fb6b3a5e4a5960184416ca4f487f5e7014514a7251d194f6f773e9795b6eb",
+      "before": "Los llamados neumáticos de invierno no deben montarse en vehículos equipados con el sistema de estabilidad ESP",
+      "after": "Los llamados neumáticos de invierno no deben montarse en vehículos equipados con el sistema antipatinaje ESP",
+      "reason": "Conserva la denominación antipattinamento del original, incluida su asociación con ESP."
+    },
+    {
+      "id": "197f328b2dc08f22b81440fca1ae3547d93744fa079278308484643e4eaab9a6",
+      "before": "En las autopistas y carreteras principales fuera de poblado está prohibida la circulación de peatones y animales, excepto en las áreas de servicio y de descanso",
+      "after": "En las autopistas y carreteras principales fuera de poblado está prohibida la circulación de peatones y animales, excepto en las áreas de servicio y las áreas de estacionamiento",
+      "reason": "Área de sosta no implica necesariamente instalaciones de descanso.; Italian 'aree di sosta' are parking areas (sosta), not stopping areas"
+    }
+  ],
+  "reviewed_file_sha256": "359bca73eb20ca947248923d25e684fe3438d0315a2d170e49a11369d8ad2c2b"
+}

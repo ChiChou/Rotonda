@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1eda1-444a-7cd0-b5e5-adcc5fa43748"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 18053,
+          "quesito_id": 3616,
+          "text_it": "Il biglietto (documento di trasporto) deve essere necessariamente pagato dal viaggiatore prima di salire sull’autobus",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "062b5bc74f911e168084d2398b3374bd002f28d2b9f6c0667840b62884d3e8c3",
+        "italian": "Falso. Il pagamento prima della salita non è sempre necessario: le condizioni del servizio possono prevedere l’acquisto a bordo.",
+        "italian_sha256": "47ac71990df53334176092899eee0a438f4395a10525abefd5f81d86cd716553"
+      },
+      {
+        "source": {
+          "number": 18054,
+          "quesito_id": 3617,
+          "text_it": "Il biglietto (documento di trasporto) non deve riportare nome e cognome del viaggiatore",
+          "answer": 1,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a0c9df42732a2340ca00a86171ec3c1b7c311838ab7086c922c4366caef88ccb",
+        "italian": "Vero nel senso che il nome non è un dato obbligatorio del documento previsto per i servizi regolari non specializzati; ciò non vieta biglietti nominativi.",
+        "italian_sha256": "4139927d6d9ab9d73660f537b9e90be8c3e467817af1c72a71d315f9b7253b24"
+      },
+      {
+        "source": {
+          "number": 18055,
+          "quesito_id": 3617,
+          "text_it": "Il biglietto (documento di trasporto) non deve essere esibito ad ogni richiesta degli agenti preposti al controllo",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b2dc375533b8251707627fde785468d9cd8fd43cba01f273b22ee3134e4fe6dc",
+        "italian": "Falso. Il documento di trasporto deve essere esibito quando lo richiedono gli agenti preposti al controllo.",
+        "italian_sha256": "980a271e5df927633f25ac506e8447fec51b9c135ea3ff4221d63ba4dbb8ecac"
+      },
+      {
+        "source": {
+          "number": 18056,
+          "quesito_id": 3617,
+          "text_it": "Il biglietto (documento di trasporto) non deve riportare il prezzo del trasporto",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "44b8a785efe0217732265a11cbb55ca5a722fe70509c153517bae4f1013ed0c5",
+        "italian": "Falso. Il documento del servizio regolare non specializzato deve riportare la tariffa del trasporto.",
+        "italian_sha256": "43a121201091aa83091fe4dec1f07f2a536f863bb3adb97553df298f7e41a324"
+      },
+      {
+        "source": {
+          "number": 18057,
+          "quesito_id": 3617,
+          "text_it": "Il biglietto (documento di trasporto) non deve riportare la durata di validità dello stesso biglietto",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ec6d35ccf0ba82af8d92a28449ccd2b5eac8177b3d79d541b887e34cfb0c4d26",
+        "italian": "Falso. Il documento deve riportare la durata della sua validità.",
+        "italian_sha256": "e43c1754819884fca456793ce90afc649256e5916b0d1497dfb511cd7477c5c8"
+      },
+      {
+        "source": {
+          "number": 18058,
+          "quesito_id": 3617,
+          "text_it": "Il biglietto (documento di trasporto) non deve indicare le località di partenza ed arrivo del viaggiatore o il tipo di corsa (urbana, interurbana ecc.)",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "af422b5b10de3ad63a0038187b6083b322a5b51350828ff9667ff1cd6ad4be5b",
+        "italian": "Falso. Nel servizio regolare internazionale non specializzato il documento indica i punti di partenza e di arrivo; la sola indicazione del tipo di corsa non sostituisce tale requisito.",
+        "italian_sha256": "ceff19a5f70f1419b2d8529734f399c103dbd3ad9a345fe038e8c01599ac8351"
+      },
+      {
+        "source": {
+          "number": 18059,
+          "quesito_id": 3618,
+          "text_it": "Lo svolgimento dei servizi occasionali internazionali per il trasporto di persone su strada tra l’Italia e la Romania è disciplinato dalla normativa comunitaria in materia e dalla normativa UE del noleggio di autobus con conducente",
+          "answer": 1,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9b06eda6bead921d5efe20b0fc2e61892dac9088289b6625bf62c6754624539e",
+        "italian": "Vero. Il trasporto occasionale internazionale tra Italia e Romania, Stati membri dell’UE, rientra nella disciplina comune UE dei trasporti internazionali in autobus.",
+        "italian_sha256": "9915b971b80eccc42f5ddebef74c27a2b92220b5efdd7e7fe3756a9bf8b40973"
+      },
+      {
+        "source": {
+          "number": 18060,
+          "quesito_id": 3618,
+          "text_it": "Lo svolgimento dei servizi occasionali internazionali per il trasporto di persone su strada tra l’Italia e la Romania richiede di tenere a bordo dell’autobus esclusivamente la copia conforme della licenza comunitaria",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a9e1df8a8ccfc220801d18a2e7c91f1ed65f2a6849b0c41f467de428a557be0f",
+        "italian": "Falso. Per un servizio occasionale ordinario servono, oltre alla copia conforme della licenza comunitaria, il foglio di viaggio e gli altri documenti eventualmente richiesti.",
+        "italian_sha256": "bc70869e0f286a7595a372e4c57d852e2d8cefa5eecb6815879e0cbb7bd22a8d"
+      },
+      {
+        "source": {
+          "number": 18061,
+          "quesito_id": 3618,
+          "text_it": "Lo svolgimento dei servizi occasionali internazionali per il trasporto di persone su strada tra l’Italia e la Romania richiede una specifica autorizzazione",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4e8130ea0a50d320eca27d383124e9a6a1b1075979f825122ae3aba763babc25",
+        "italian": "Falso. Il servizio occasionale ordinario non richiede una specifica autorizzazione, ferma la licenza comunitaria; esistono eccezioni per servizi paralleli o temporanei comparabili a quelli regolari.",
+        "italian_sha256": "3a98fccfd5be321afd8be225dafb14379f18e2ffcd314ef31b6e51e6f90c5cd2"
+      },
+      {
+        "source": {
+          "number": 18062,
+          "quesito_id": 3618,
+          "text_it": "Lo svolgimento dei servizi occasionali internazionali per il trasporto di persone su strada tra l’Italia e la Romania non è disciplinato da alcuna fonte normativa internazionale",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c48d5947186b5397663b0e5ede3767e3179ca0869f029894432ffa493da17249",
+        "italian": "Falso. Il servizio internazionale tra Italia e Romania è disciplinato dal regolamento UE sui trasporti internazionali di passeggeri con autobus.",
+        "italian_sha256": "01b3384e3e2a423901bbb862800bce79dae12831b4d2c345118970a39a3ce129"
+      },
+      {
+        "source": {
+          "number": 18063,
+          "quesito_id": 3619,
+          "text_it": "In ambito UE, i servizi occasionali di trasporto persone con autobus sono tutti regolamentati in modo uniforme",
+          "answer": 1,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a28150820547d3c7e86a522aa9a54a5291fb19048e11d731916d1ec317fc0550",
+        "italian": "Vero nel senso della disciplina comune UE dei servizi occasionali internazionali. La regola ammette però eccezioni, fra cui i servizi paralleli o temporanei comparabili a quelli regolari.",
+        "italian_sha256": "d4da8f0169e77b40f588b1b48ade51708ed2bad002d19d8e8f7e0f7a20abae24"
+      },
+      {
+        "source": {
+          "number": 18064,
+          "quesito_id": 3619,
+          "text_it": "In ambito UE, i servizi occasionali di trasporto persone con autobus seguono una diversa disciplina. Per quelli a porte chiuse serve l’autorizzazione",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f79eccbcee38c57629d30099803db5dbdb1bf1ee561bbba72d9a00eed74b8cb2",
+        "italian": "Falso. Un ordinario servizio occasionale a porte chiuse non richiede una specifica autorizzazione; resta necessaria la licenza comunitaria.",
+        "italian_sha256": "3a60da54e2aabeb8a1805e62a7d6c2ead57cb579e2214a25249e08657cedbe24"
+      },
+      {
+        "source": {
+          "number": 18065,
+          "quesito_id": 3619,
+          "text_it": "In ambito UE, i servizi occasionali di trasporto persone con autobus seguono una diversa disciplina. Per quelli che prevedono l’ingresso a vuoto e l’uscita a carico serve l’autorizzazione",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c19ce0dab69cae8472f40de300798d6562bc14143d4137e62ee02f26cd460f06",
+        "italian": "Falso. Per un ordinario servizio occasionale internazionale l’ingresso a vuoto e l’uscita a carico non comportano di per sé una specifica autorizzazione.",
+        "italian_sha256": "710299471d75b2fc325eb9590c6ef6bb9c38cc94781ee2cbc8283269d3ac9ab5"
+      },
+      {
+        "source": {
+          "number": 18066,
+          "quesito_id": 3619,
+          "text_it": "In ambito UE, i servizi occasionali di trasporto persone con autobus seguono una diversa disciplina. Per quelli che prevedono l’ingresso a carico e l’uscita a vuoto serve l’autorizzazione",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3195aaea9c1a212c2c742261449ca8da86f2e88c99e4914fb83066cf0f238006",
+        "italian": "Falso. Per un ordinario servizio occasionale internazionale l’ingresso a carico e l’uscita a vuoto non comportano di per sé una specifica autorizzazione.",
+        "italian_sha256": "a0dad482f39dbe537f299692530393516e8958c703e80c1154d36e4db80625f8"
+      },
+      {
+        "source": {
+          "number": 18067,
+          "quesito_id": 3620,
+          "text_it": "Per servizio occasionale di trasporto di persone con autobus a \"porte chiuse\" s’intende un servizio di trasporto che prevede il trasporto di uno stesso gruppo di persone sia nel viaggio di andata che in quello di ritorno",
+          "answer": 1,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b90e49532e45db238d3049abb62126ea8dc01ddaf3dd724615d04d93989de5e7",
+        "italian": "Vero. Nel circuito a porte chiuse lo stesso gruppo viaggia per l’intero percorso e viene ricondotto al luogo di partenza.",
+        "italian_sha256": "7e6f0d80cdc2272777acd4d07507165df61fe364a3aafe9b975da0e7564290cf"
+      },
+      {
+        "source": {
+          "number": 18068,
+          "quesito_id": 3620,
+          "text_it": "Per servizio occasionale di trasporto di persone con autobus a \"porte chiuse\" s’intende un servizio di trasporto che collega due sole località senza soste intermedie",
+          "answer": 0,
+          "page": 41,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "25d8bcbd182175081baa9ab011e421bf291c2b72e4e218ebcbbb88f40b8a86e2",
+        "italian": "FALSO. Le porte chiuse non indicano un collegamento senza soste: il circuito trasporta lo stesso gruppo con lo stesso autobus e lo riporta al punto di partenza.",
+        "italian_sha256": "488cc00ca50ebdf271cb52c974740e649a6617456a90a0d20dcc4d6fcd578294"
+      },
+      {
+        "source": {
+          "number": 18069,
+          "quesito_id": 3620,
+          "text_it": "Per servizio occasionale di trasporto di persone con autobus a \"porte chiuse\" s’intende un servizio di trasporto che non consente all’impresa di offrire ai propri clienti escursioni locali nel territorio dello Stato di destinazione del servizio",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9a7d0e8750a9920b107dda55c7d96564e7668a98c137dc6bf8c04f3f1e618c2b",
+        "italian": "FALSO. Il servizio a porte chiuse non esclude le escursioni locali: nell'ambito di un servizio occasionale internazionale sono ammesse alle condizioni previste, per i viaggiatori già trasportati dal vettore.",
+        "italian_sha256": "ff4dbc8efe343f08f7b808a7046e93aea20370cc7b95b898113e04489328ba79"
+      },
+      {
+        "source": {
+          "number": 18070,
+          "quesito_id": 3620,
+          "text_it": "Per servizio occasionale di trasporto di persone con autobus a \"porte chiuse\" s’intende un servizio di trasporto che è offerto dall’impresa ai soli viaggiatori in possesso della prenotazione",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "352fd3741f02fdf8bafca00c9df95c6a308ac5d62b8da92f2406b18d80076c91",
+        "italian": "FALSO. La prenotazione non definisce il servizio a porte chiuse: conta il trasporto dello stesso gruppo con lo stesso veicolo lungo il circuito, fino al ritorno al luogo di partenza.",
+        "italian_sha256": "8e4e450ab0fa11fc3cfdcea2722fc6dab70adda49b03be9ebb48ad245def21d3"
+      },
+      {
+        "source": {
+          "number": 18071,
+          "quesito_id": 3621,
+          "text_it": "Per effettuare un servizio occasionale internazionale tra l’Italia e la Svezia, un’impresa italiana necessita del solo documento di controllo - foglio di viaggio rilasciato dalle competenti autorità italiane, oltre alla licenza comunitaria",
+          "answer": 1,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "eb71b1138cbc47724060e1bfad1bafcc3bbf76f83bc2a2c275019a704cb2610c",
+        "italian": "VERO. Per un normale servizio occasionale internazionale tra Stati membri bastano la licenza comunitaria e il foglio di viaggio valido per l'intero percorso. È prevista un'eccezione per servizi paralleli o temporanei comparabili a linee regolari e rivolti alla stessa clientela, soggetti ad autorizzazione.",
+        "italian_sha256": "6da1a87bf802922767d2b549f3987f6aecdf1948d62a770826953f623e934d4a"
+      },
+      {
+        "source": {
+          "number": 18072,
+          "quesito_id": 3621,
+          "text_it": "Per effettuare un servizio occasionale internazionale tra l’Italia e la Svezia, un’impresa italiana necessita delle autorizzazioni rilasciate da tutti i paesi interessati dal percorso",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e60f6d4650cf032a38bbf8ecd67570733b74cf673066c9f9a0e59b6d07c49764",
+        "italian": "FALSO. Non occorrono autorizzazioni di tutti i Paesi attraversati: il normale servizio occasionale tra Stati membri è svolto con licenza comunitaria e foglio di viaggio valido per tutto il percorso. Alcuni servizi paralleli a linee regolari sono soggetti ad autorizzazione.",
+        "italian_sha256": "6c192ad00fe2e81e79fbee3fb05591565c177e62142b0e8d4ae8c855bbf89638"
+      },
+      {
+        "source": {
+          "number": 18073,
+          "quesito_id": 3621,
+          "text_it": "Per effettuare un servizio occasionale internazionale tra l’Italia e la Svezia, un’impresa italiana necessita del documento di controllo - foglio di viaggio rilasciato dalle competenti autorità italiane e dell’autorizzazione rilasciata dalle competenti autorità svedesi",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "af1a8cbedc676ed5c2418658b6fc4c654139ae2e57be1be8c28e40e8cf47cd40",
+        "italian": "FALSO. Per il normale servizio occasionale Italia-Svezia non serve una distinta autorizzazione svedese: occorrono licenza comunitaria e foglio di viaggio. Un'eccezione riguarda alcuni servizi paralleli a linee regolari.",
+        "italian_sha256": "4d766888689056588dcc40902050aa23501c9a2b037c73cd524022aeece25481"
+      },
+      {
+        "source": {
+          "number": 18074,
+          "quesito_id": 3621,
+          "text_it": "Per effettuare un servizio occasionale internazionale tra l’Italia e la Svezia, un’impresa italiana necessita dei documenti di controllo - foglio di viaggio rilasciati dalle competenti autorità italiane e svedesi, nonché dei paesi di transito attraversati",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8cfeadae472f01493df9e98b5944b05621c030405540fae92cafe2cfd6bbba3c",
+        "italian": "FALSO. Non si richiede un foglio di viaggio per ciascuno Stato: il foglio compilato per il servizio è valido per tutto il percorso, insieme alla licenza comunitaria.",
+        "italian_sha256": "542a2fb0141d40f78d67e68ae924ba8aa5ee4b0f7e204b031c89576b25731bb2"
+      },
+      {
+        "source": {
+          "number": 18079,
+          "quesito_id": 3623,
+          "text_it": "I servizi occasionali sono quei servizi di trasporto di persone che si caratterizzano principalmente dal fatto di trasportare gruppi costituiti su richiesta di un committente o del vettore stesso",
+          "answer": 1,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4eee61846d71cb1ebc601af70674cef78c5af022189dd5083f96bb927f79ecff",
+        "italian": "VERO. Il servizio occasionale si distingue dai servizi regolari e consiste principalmente nel trasporto di gruppi costituiti su iniziativa del committente o del vettore.",
+        "italian_sha256": "45dc961b656bede429d0c77305271c80a24ece46da6664202142f6912166c27e"
+      },
+      {
+        "source": {
+          "number": 18080,
+          "quesito_id": 3623,
+          "text_it": "I servizi occasionali sono quei servizi di trasporto di persone che si rivolgono ad un’utenza indifferenziata",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9419d66d3de25b7b6b335d801d9a668778cacf86a3e4a4494c43ed9bd784412e",
+        "italian": "FALSO. L'apertura a un'utenza indifferenziata caratterizza il servizio regolare; quello occasionale trasporta principalmente gruppi costituiti su iniziativa del committente o del vettore.",
+        "italian_sha256": "c831ad6f335d6a01d6150ffa753c2cf99e2e557462b499ddcea974f76487fa6a"
+      },
+      {
+        "source": {
+          "number": 18081,
+          "quesito_id": 3623,
+          "text_it": "I servizi occasionali sono quei servizi di trasporto di persone che hanno un itinerario predeterminato dall’Autorità",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "627123d259e8c410b11d9173aa20c178b7a35a7c3a06339a9d9706a689fff429",
+        "italian": "FALSO. Un itinerario predeterminato dall'autorità non definisce il servizio occasionale, caratterizzato principalmente dal trasporto di gruppi costituiti su iniziativa del committente o del vettore.",
+        "italian_sha256": "3bb078218b6f98adbe1e5e7c849af9d11866d53061ebd2310b72199e1d8d1acc"
+      },
+      {
+        "source": {
+          "number": 18082,
+          "quesito_id": 3623,
+          "text_it": "I servizi occasionali sono quei servizi di trasporto di persone che sono espletati con una frequenza costante e predeterminata in una autorizzazione",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e236fc716e532e52e6b39c054babf2ea72143adf253a37547a59d142169cdecc",
+        "italian": "FALSO. Una frequenza costante fissata nell'autorizzazione non definisce il servizio occasionale. Anche un servizio occasionale può ripetersi con una certa frequenza senza perdere tale carattere.",
+        "italian_sha256": "cda58195730f0e27081475824cf109688d8040e37422dfe94c1ce1303cb9e0a7"
+      },
+      {
+        "source": {
+          "number": 18083,
+          "quesito_id": 3623,
+          "text_it": "I servizi occasionali sono quei servizi di trasporto di persone che vengono effettuati principalmente mediante noleggio con conducente di autobus",
+          "answer": 1,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6b20be10ffdbb449e62bbdf2aead333db5cbfb7003090ab8c143ed3f836c2918",
+        "italian": "VERO. Il noleggio di autobus con conducente è una modalità tipica del trasporto occasionale: l'impresa mette il veicolo a disposizione di un'utenza specifica per esigenze di mobilità.",
+        "italian_sha256": "79f42463d2a2aaffcd74e59c3613a30bc167a23174be0ab825352f0a76f556c1"
+      },
+      {
+        "source": {
+          "number": 18084,
+          "quesito_id": 3624,
+          "text_it": "Si intende per servizio occasionale a porte chiuse quel trasporto effettuato mediante lo stesso autobus, di un gruppo di viaggiatori, poi ricondotto al luogo di partenza",
+          "answer": 1,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6784e6c518e4e9367a2cf4801c6f430e40594794329b73a035e84ee80455845b",
+        "italian": "VERO. Nel circuito a porte chiuse lo stesso autobus trasporta lo stesso gruppo lungo il percorso e lo riconduce al luogo di partenza.",
+        "italian_sha256": "12d67aafaaf742fcba66ba9168818774e9930d25104099ee6a54b37dd63c9eac"
+      },
+      {
+        "source": {
+          "number": 18085,
+          "quesito_id": 3624,
+          "text_it": "Si intende per servizio occasionale a porte chiuse quel trasporto di un gruppo di viaggiatori in uscita da uno Stato, effettuato mediante un autobus che in precedenza è entrato nel medesimo Stato senza il gruppo in seguito trasportato",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c194774ef8f6c91274172f83b0904301e38fe3466620a12b87fb72e2b4728635",
+        "italian": "FALSO. Entrare senza il gruppo e uscire trasportandolo descrive un'entrata a vuoto e uscita a carico. A porte chiuse, invece, lo stesso gruppo è riportato al luogo di partenza con lo stesso autobus.",
+        "italian_sha256": "9f39a5702a8da6efcfdbb17f9bb6a8f4cb1f65957ffacc7b70dd4530d45a5b0c"
+      },
+      {
+        "source": {
+          "number": 18086,
+          "quesito_id": 3624,
+          "text_it": "Si intende per servizio occasionale a porte chiuse quel trasporto di un gruppo di viaggiatori in entrata in uno Stato, effettuato mediante un autobus che in seguito esce dal medesimo Stato senza il gruppo in precedenza trasportato",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "12e4a4e8cdffec32c7f23493074e88f8f4cfe1b077f90aa623e1f21a4950111c",
+        "italian": "FALSO. Entrare con il gruppo e uscire senza di esso descrive un'entrata a carico e uscita a vuoto. Nel circuito a porte chiuse il gruppo ritorna al luogo di partenza con lo stesso autobus.",
+        "italian_sha256": "f676ad6c3c25c574c9d4c68504caacf8807b4609801f02028f9c5122e0136a0d"
+      },
+      {
+        "source": {
+          "number": 18087,
+          "quesito_id": 3624,
+          "text_it": "Si intende per servizio occasionale a porte chiuse quel trasporto di un gruppo di viaggiatori, che non inizia e non finisce nello Stato in cui è stabilito il vettore, cioè i viaggiatori non scendono né salgono in predetto Stato",
+          "answer": 0,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3130799f3b43f6fbec68241629aab6ffc4bd252644a1b1386a7b801d9e31b7c4",
+        "italian": "FALSO. Il mancato inizio e termine nello Stato del vettore non definisce le porte chiuse: il criterio è trasportare lo stesso gruppo con lo stesso veicolo e riportarlo al luogo di partenza.",
+        "italian_sha256": "dbec8d6bfa9cd85fee4cd37d491826a6dcf3b0a03023f64959b8c0721aa1b048"
+      },
+      {
+        "source": {
+          "number": 18089,
+          "quesito_id": 3625,
+          "text_it": "Si intende per servizio occasionale con entrata a carico ed uscita a vuoto quel trasporto effettuato mediante lo stesso autobus, di un gruppo di viaggiatori, poi ricondotto al luogo di partenza",
+          "answer": 0,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0a172c2a3ed5d9f415f687f2e1d7f24d1713d23b2ceb20ec827ad93dc989fde5",
+        "italian": "FALSO. Riportare lo stesso gruppo al luogo di partenza con lo stesso autobus descrive un circuito a porte chiuse. Nell'entrata a carico e uscita a vuoto il gruppo entra nello Stato ma non ne esce sullo stesso viaggio.",
+        "italian_sha256": "07ee3fa5121f4b49a31c8334cb7a652b7b829c8f91fa8779d48a41726ec613eb"
+      },
+      {
+        "source": {
+          "number": 18093,
+          "quesito_id": 3626,
+          "text_it": "Si intende per servizio occasionale con entrata a vuoto ed uscita a carico quel trasporto effettuato mediante lo stesso veicolo, di un gruppo di viaggiatori, poi ricondotto al luogo di partenza",
+          "answer": 0,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a45c4096f7007dd64afaa5c7bd74224da3c7302214197a8911e57e42c3f50dfc",
+        "italian": "FALSO. Riportare il gruppo al punto di partenza con lo stesso veicolo descrive un circuito a porte chiuse. Nell'entrata a vuoto e uscita a carico il gruppo viene preso a bordo dopo l'ingresso nello Stato.",
+        "italian_sha256": "e8e40998bbdcd18e3d2a3e8715173ba8c78d1d68b1afc5b881851a6eb7e151a9"
+      },
+      {
+        "source": {
+          "number": 18096,
+          "quesito_id": 3627,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori a porte chiuse, tra l’Italia e la Francia, è necessario avere a bordo dell’autobus l’originale del foglio di viaggio comunitario oltre alla copia conforme della licenza comunitaria",
+          "answer": 1,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5aeb697c807f712167a3ad24e74bb11ea57fcf38a7c320150c64a180c3986a2e",
+        "italian": "VERO. Per il servizio occasionale internazionale l'originale del foglio di viaggio resta a bordo per tutta la durata del viaggio, insieme alla copia certificata conforme della licenza comunitaria.",
+        "italian_sha256": "ba9ab40edf4c1ff85a5b679048ced679832973cd1ef91b343e5822ab5200490e"
+      },
+      {
+        "source": {
+          "number": 18097,
+          "quesito_id": 3627,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori a porte chiuse, tra l’Italia e la Francia, è necessario avere a bordo dell’autobus l’originale del foglio di viaggio comunitario oltre all’originale della licenza comunitaria",
+          "answer": 0,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1450f5a83e7ae6cbc1f48c6d19125eb8fdf2f5be4461772be796908a7816cbc6",
+        "italian": "È falsa la richiesta dell’originale della licenza a bordo: il vettore conserva l’originale e sul veicolo tiene una copia certificata conforme, insieme all’originale del foglio di viaggio.",
+        "italian_sha256": "f21efca79a8857b4f0a2e97a2f651df32f1c9884eaccb34f984641aa4b2fb0eb"
+      },
+      {
+        "source": {
+          "number": 18098,
+          "quesito_id": 3627,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori a porte chiuse, tra l’Italia e la Francia, è necessario avere a bordo dell’autobus la copia conforme del foglio di viaggio comunitario oltre alla copia conforme della licenza comunitaria",
+          "answer": 0,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1827da6ebc02e4081a85f5980e783fcb97d1d8dc13159eca8481900cc11194bc",
+        "italian": "È falsa la richiesta della copia conforme del foglio: a bordo occorre l’originale del foglio di viaggio, insieme alla copia conforme della licenza.",
+        "italian_sha256": "2411db906cd28cce2942ebc0c471056e61df6d755670b75f5d12d58fd58e8d14"
+      },
+      {
+        "source": {
+          "number": 18099,
+          "quesito_id": 3627,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori a porte chiuse, tra l’Italia e la Francia, è necessario avere a bordo dell’autobus la copia conforme del foglio di viaggio comunitario oltre all’originale della licenza comunitaria",
+          "answer": 0,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3fc0c5aeefeda74e0d8d78a746f54a2ebeb2b8f08ba4cd4523c3b31380fb8ffc",
+        "italian": "Sono sbagliati entrambi i documenti indicati: a bordo vanno l’originale del foglio di viaggio e la copia conforme della licenza, il cui originale resta al vettore.",
+        "italian_sha256": "69ef71c51ac44f9f6d2293de38188ee1a47d7004a1b7c74261a4b9c67e0a778a"
+      },
+      {
+        "source": {
+          "number": 18100,
+          "quesito_id": 3628,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a carico ed uscita a vuoto, tra l’Italia e la Slovenia, è necessario avere a bordo dell’autobus l’originale del foglio di viaggio comunitario oltre alla copia conforme della licenza comunitaria",
+          "answer": 1,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e430ffeef36c40ece56a303262273e7467938903d37b2c627f4da78f43b52130",
+        "italian": "Per il servizio occasionale indicato, a bordo si tengono l’originale del foglio di viaggio e la copia certificata conforme della licenza comunitaria.",
+        "italian_sha256": "b99f793863fa90d7756a77be9fd45905eefffca49172105e9de3227c8acae2e3"
+      },
+      {
+        "source": {
+          "number": 18101,
+          "quesito_id": 3628,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a carico ed uscita a vuoto, tra l’Italia e la Slovenia, è necessario avere a bordo dell’autobus l’originale del foglio di viaggio comunitario oltre all’originale della licenza comunitaria",
+          "answer": 0,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4392e3e04120fc7081dae0b876e4d8d1c7203161984dfbf44451dc3db9c8c0a5",
+        "italian": "È falsa la richiesta dell’originale della licenza a bordo: serve la sua copia conforme, insieme all’originale del foglio di viaggio.",
+        "italian_sha256": "32805cb8819a7b76b106e5f870ff358fca6018df3c126b77185c11ec06ce270d"
+      },
+      {
+        "source": {
+          "number": 18102,
+          "quesito_id": 3628,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a carico ed uscita a vuoto, tra l’Italia e la Slovenia, è necessario avere a bordo dell’autobus la copia conforme del foglio di viaggio comunitario oltre alla copia conforme della licenza comunitaria",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3c2e27ab72df59bb1f969dd7d9e42460c4cde04a6dbdfe14953a547da8a132a1",
+        "italian": "È falsa la richiesta della copia conforme del foglio: a bordo va il foglio di viaggio originale, insieme alla copia conforme della licenza.",
+        "italian_sha256": "0a78337afe9d3d3bb9da352dcfd4ddb98f34d587731b6006eb135d785d7a8616"
+      },
+      {
+        "source": {
+          "number": 18103,
+          "quesito_id": 3628,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a carico ed uscita a vuoto, tra l’Italia e la Slovenia, è necessario avere a bordo dell’autobus la copia conforme del foglio di viaggio comunitario oltre all’originale della licenza comunitaria",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8f54f835b3373ed50badf6c5a24237c332a933c04821d84958885baa8fb1bce2",
+        "italian": "Sono invertiti i documenti: a bordo servono l’originale del foglio di viaggio e la copia conforme della licenza comunitaria.",
+        "italian_sha256": "2c08241678b6f6ef0e289ca3df75f18991e9de929ce5c5a3c02bbf741f50464f"
+      },
+      {
+        "source": {
+          "number": 18104,
+          "quesito_id": 3629,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a vuoto ed uscita a carico, tra l’Italia e l’Austria, è necessario avere a bordo dell’autobus l’originale del foglio di viaggio comunitario oltre alla copia conforme della licenza comunitaria",
+          "answer": 1,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2f2e22ca3ba6e863889c4f49b49498914a87128c35524630f36468580b088687",
+        "italian": "Per il servizio occasionale indicato, a bordo si tengono l’originale del foglio di viaggio e la copia certificata conforme della licenza comunitaria.",
+        "italian_sha256": "b99f793863fa90d7756a77be9fd45905eefffca49172105e9de3227c8acae2e3"
+      },
+      {
+        "source": {
+          "number": 18105,
+          "quesito_id": 3629,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a vuoto ed uscita a carico, tra l’Italia e l’Austria, è necessario avere a bordo dell’autobus l’originale del foglio di viaggio comunitario oltre all’originale della licenza comunitaria",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7a08d8c342d50680c6eac1920eb5ae6e9e04d61bd7ff7e2cd5bbd33a7219793f",
+        "italian": "È falsa la richiesta dell’originale della licenza a bordo: serve la sua copia conforme, insieme all’originale del foglio di viaggio.",
+        "italian_sha256": "32805cb8819a7b76b106e5f870ff358fca6018df3c126b77185c11ec06ce270d"
+      },
+      {
+        "source": {
+          "number": 18106,
+          "quesito_id": 3629,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a vuoto ed uscita a carico, tra l’Italia e l’Austria, è necessario avere a bordo dell’autobus la copia conforme del foglio di viaggio comunitario oltre alla copia conforme della licenza comunitaria",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "88780164f63006ec34828bac42c77d7d7719346956cd0c5782ea7e4549ece15b",
+        "italian": "È falsa la richiesta della copia conforme del foglio: a bordo va il foglio di viaggio originale, insieme alla copia conforme della licenza.",
+        "italian_sha256": "0a78337afe9d3d3bb9da352dcfd4ddb98f34d587731b6006eb135d785d7a8616"
+      },
+      {
+        "source": {
+          "number": 18107,
+          "quesito_id": 3629,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a vuoto ed uscita a carico, tra l’Italia e l’Austria, è necessario avere a bordo dell’autobus la copia conforme del foglio di viaggio comunitario oltre all’originale della licenza comunitaria",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f49cbeca5b3376ced2b15b1ac32503feb683fc8a9e057127d10a311dd27e1f5a",
+        "italian": "Sono invertiti i documenti: a bordo servono l’originale del foglio di viaggio e la copia conforme della licenza comunitaria.",
+        "italian_sha256": "2c08241678b6f6ef0e289ca3df75f18991e9de929ce5c5a3c02bbf741f50464f"
+      },
+      {
+        "source": {
+          "number": 18108,
+          "quesito_id": 3629,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a vuoto ed uscita a carico, tra l’Italia e l’Austria, è sufficiente avere a bordo dell’autobus solo il foglio di viaggio comunitario",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ca0486852cf739a620f5d8e7e6cddee353690c83e45aa074e0b93d23da970268",
+        "italian": "Il solo foglio di viaggio non basta: a bordo occorre anche la copia certificata conforme della licenza comunitaria.",
+        "italian_sha256": "22e4d613770892a3c4d0d57796a0d4ed7890fc4f0092a360510c8358c64e239d"
+      },
+      {
+        "source": {
+          "number": 18109,
+          "quesito_id": 3629,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori con entrata a vuoto ed uscita a carico, tra l’Italia e l’Austria, è necessario avere a bordo dell’autobus l’originale della licenza comunitaria",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "15977ee08a4945be0dda59b25f74c2e3af938a62ed70022a9ac009fde95a1417",
+        "italian": "È errata la richiesta dell’originale della licenza a bordo: serve la copia conforme, oltre all’originale del foglio di viaggio.",
+        "italian_sha256": "a739004d0d967ba24f3ebacfcf4fb3ecde1b0820f0b61e061865f2d20b00f9f6"
+      },
+      {
+        "source": {
+          "number": 18110,
+          "quesito_id": 3630,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori a porte chiuse, tra l’Italia e la Confederazione Svizzera, è necessario avere a bordo dell’autobus l’originale dei fogli di viaggio comunitari oltre alla copia conforme della licenza comunitaria",
+          "answer": 1,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e75acdf5045e50bb0e989dd1b7cbacb6220c1a75d3d79d09e2eb059ec4b6cd96",
+        "italian": "Per un vettore UE, sul veicolo occorrono il foglio di viaggio originale e la copia conforme della licenza comunitaria. La formulazione al plurale non significa che servano più fogli per un unico viaggio; per un vettore svizzero vale la licenza svizzera analoga.",
+        "italian_sha256": "c49c8436a973edd08a323c665e09bf8b56ed9eb34069a0d81af5685d179d7293"
+      },
+      {
+        "source": {
+          "number": 18111,
+          "quesito_id": 3630,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori a porte chiuse, tra l’Italia e la Confederazione Svizzera, è sufficiente avere a bordo dell’autobus solo gli originali dei fogli di viaggio comunitari",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d1b92646eee93c1c24946fcee581d02f4880177380c82cc9eaa052ea579bb704",
+        "italian": "I soli fogli di viaggio non bastano: per un vettore UE serve anche a bordo la copia conforme della licenza comunitaria; per un vettore svizzero vale la licenza analoga.",
+        "italian_sha256": "ed709a46889a17668a474cd3a0d440862cb7e32d17bc7e7725f76d9fe76c8bcd"
+      },
+      {
+        "source": {
+          "number": 18112,
+          "quesito_id": 3630,
+          "text_it": "Per svolgere un servizio occasionale di viaggiatori a porte chiuse, tra l’Italia e la Confederazione Svizzera, è necessario avere a bordo dell’autobus l’originale della licenza comunitaria",
+          "answer": 0,
+          "page": 44,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d1da0b2051d7b76799659203e7e48ce9bbfe23b18fd01d8da23edbe5fe945e6e",
+        "italian": "È errata la richiesta dell’originale della licenza a bordo: per il vettore UE occorre la copia conforme, oltre al foglio di viaggio; per il vettore svizzero vale la licenza analoga.",
+        "italian_sha256": "866f7a8d8acb05c990a6d1cb811ae4989ab539aafca714cfbd63a6b1cb1696df"
+      }
+    ],
+    "task_sha256": "b072416bb70ef54e7bf8b8eef78463d8878b3b889430a1180064a773ea6db981"
+  },
+  "rows": [
+    {
+      "number": 18053,
+      "text": "错误。并非一定要在上车前付款：服务条件可能允许在车上购票。"
+    },
+    {
+      "number": 18054,
+      "text": "正确，意思是非专门定期服务的运输凭证不强制要求填写姓名；这并不禁止使用实名车票。"
+    },
+    {
+      "number": 18055,
+      "text": "错误。检查人员要求时，必须出示运输凭证。"
+    },
+    {
+      "number": 18056,
+      "text": "错误。非专门定期服务的运输凭证必须注明运费。"
+    },
+    {
+      "number": 18057,
+      "text": "错误。凭证必须注明其有效期限。"
+    },
+    {
+      "number": 18058,
+      "text": "错误。在国际非专门定期服务中，凭证须注明出发地和目的地；仅注明班次类型不能代替这一要求。"
+    },
+    {
+      "number": 18059,
+      "text": "正确。意大利和罗马尼亚都是欧盟成员国，两国之间的国际临时客运受欧盟国际公共汽车运输共同规则管辖。"
+    },
+    {
+      "number": 18060,
+      "text": "错误。普通临时服务除了需要欧共体许可证的经认证副本外，还需要行程单和可能要求的其他文件。"
+    },
+    {
+      "number": 18061,
+      "text": "错误。普通临时服务无需专门许可，但仍须持有欧共体许可证；与定期服务类似的平行或临时服务存在例外。"
+    },
+    {
+      "number": 18062,
+      "text": "错误。意大利与罗马尼亚之间的国际服务受欧盟国际公共汽车旅客运输条例管辖。"
+    },
+    {
+      "number": 18063,
+      "text": "正确，指的是欧盟对国际临时服务的共同规定。不过这一规则允许例外，包括与定期服务类似的平行或临时服务。"
+    },
+    {
+      "number": 18064,
+      "text": "错误。普通的闭门临时服务无需专门许可；仍须持有欧共体许可证。"
+    },
+    {
+      "number": 18065,
+      "text": "错误。对于普通国际临时服务，空车入境、载客出境本身并不意味着需要专门许可。"
+    },
+    {
+      "number": 18066,
+      "text": "错误。对于普通国际临时服务，载客入境、空车出境本身并不意味着需要专门许可。"
+    },
+    {
+      "number": 18067,
+      "text": "正确。在闭门环行服务中，同一团体乘车完成全程，并被送回出发地。"
+    },
+    {
+      "number": 18068,
+      "text": "错误。闭门服务并不表示途中不停站：这种环行服务使用同一辆公共汽车运送同一团体，并将其送回出发地。"
+    },
+    {
+      "number": 18069,
+      "text": "错误。闭门服务不排除当地游览：在国际临时服务中，已由承运人运送的旅客可以按照规定条件参加当地游览。"
+    },
+    {
+      "number": 18070,
+      "text": "错误。预订并不能定义闭门服务：关键是在环行途中使用同一车辆运送同一团体，直至返回出发地。"
+    },
+    {
+      "number": 18071,
+      "text": "正确。成员国之间的普通国际临时服务只需欧共体许可证和全程有效的行程单。与定期线路类似且面向相同客户的平行或临时服务属于例外，需要获得许可。"
+    },
+    {
+      "number": 18072,
+      "text": "错误。无需取得所有途经国家的许可：成员国之间的普通临时服务凭欧共体许可证和全程有效的行程单运营。某些与定期线路平行的服务需要许可。"
+    },
+    {
+      "number": 18073,
+      "text": "错误。意大利与瑞典之间的普通临时服务无需另行取得瑞典许可，但需要欧共体许可证和行程单。某些与定期线路平行的服务属于例外。"
+    },
+    {
+      "number": 18074,
+      "text": "错误。不需要为每个国家分别准备行程单：为该服务填写的行程单全程有效，同时还需欧共体许可证。"
+    },
+    {
+      "number": 18079,
+      "text": "正确。临时服务有别于定期服务，主要运送由委托人或承运人发起组成的团体。"
+    },
+    {
+      "number": 18080,
+      "text": "错误。面向不特定公众是定期服务的特点；临时服务主要运送由委托人或承运人发起组成的团体。"
+    },
+    {
+      "number": 18081,
+      "text": "错误。主管机关预先确定的路线并不能定义临时服务；临时服务的主要特点是运送由委托人或承运人发起组成的团体。"
+    },
+    {
+      "number": 18082,
+      "text": "错误。许可中规定的固定频率并不能定义临时服务。临时服务也可以按一定频率重复进行，而不失去其临时性质。"
+    },
+    {
+      "number": 18083,
+      "text": "正确。带驾驶员租用公共汽车是临时运输的典型形式：企业向特定用户提供车辆，以满足出行需求。"
+    },
+    {
+      "number": 18084,
+      "text": "正确。在闭门环行服务中，同一辆公共汽车沿途运送同一团体，并将其送回出发地。"
+    },
+    {
+      "number": 18085,
+      "text": "错误。不载该团体入境、载该团体出境，描述的是空车入境、载客出境。闭门服务则使用同一辆公共汽车将同一团体送回出发地。"
+    },
+    {
+      "number": 18086,
+      "text": "错误。载该团体入境、不载该团体出境，描述的是载客入境、空车出境。在闭门环行服务中，该团体乘坐同一辆公共汽车返回出发地。"
+    },
+    {
+      "number": 18087,
+      "text": "错误。行程不在承运人所在国开始和结束，并不能定义闭门服务：其标准是使用同一车辆运送同一团体，并将其送回出发地。"
+    },
+    {
+      "number": 18089,
+      "text": "错误。使用同一辆公共汽车将同一团体送回出发地，描述的是闭门环行服务。在载客入境、空车出境的服务中，该团体进入该国，但不在同一行程中离境。"
+    },
+    {
+      "number": 18093,
+      "text": "错误。使用同一车辆将团体送回出发地，描述的是闭门环行服务。在空车入境、载客出境的服务中，团体在车辆入境后上车。"
+    },
+    {
+      "number": 18096,
+      "text": "正确。国际临时服务的整个行程中，行程单原件和欧共体许可证的经认证副本都须留在车上。"
+    },
+    {
+      "number": 18097,
+      "text": "要求车上携带许可证原件的说法错误：承运人保管原件，车上携带经认证副本以及行程单原件。"
+    },
+    {
+      "number": 18098,
+      "text": "要求携带行程单认证副本的说法错误：车上需要行程单原件以及许可证的认证副本。"
+    },
+    {
+      "number": 18099,
+      "text": "所列两份文件都不对：车上应携带行程单原件和许可证的认证副本，许可证原件由承运人保管。"
+    },
+    {
+      "number": 18100,
+      "text": "对于所述临时服务，车上携带行程单原件和欧共体许可证的经认证副本。"
+    },
+    {
+      "number": 18101,
+      "text": "要求车上携带许可证原件的说法错误：需要携带许可证的认证副本以及行程单原件。"
+    },
+    {
+      "number": 18102,
+      "text": "要求携带行程单认证副本的说法错误：车上应携带行程单原件以及许可证的认证副本。"
+    },
+    {
+      "number": 18103,
+      "text": "两份文件的原件和副本弄反了：车上需要行程单原件和欧共体许可证的认证副本。"
+    },
+    {
+      "number": 18104,
+      "text": "对于所述临时服务，车上携带行程单原件和欧共体许可证的经认证副本。"
+    },
+    {
+      "number": 18105,
+      "text": "要求车上携带许可证原件的说法错误：需要携带许可证的认证副本以及行程单原件。"
+    },
+    {
+      "number": 18106,
+      "text": "要求携带行程单认证副本的说法错误：车上应携带行程单原件以及许可证的认证副本。"
+    },
+    {
+      "number": 18107,
+      "text": "两份文件的原件和副本弄反了：车上需要行程单原件和欧共体许可证的认证副本。"
+    },
+    {
+      "number": 18108,
+      "text": "仅有行程单不够：车上还需要欧共体许可证的经认证副本。"
+    },
+    {
+      "number": 18109,
+      "text": "要求车上携带许可证原件的说法错误：除了行程单原件，还需要许可证的认证副本。"
+    },
+    {
+      "number": 18110,
+      "text": "对于欧盟承运人，车上需要行程单原件和欧共体许可证的认证副本。复数表述并不意味着一次行程需要多张行程单；瑞士承运人适用相应的瑞士许可证。"
+    },
+    {
+      "number": 18111,
+      "text": "仅有行程单不够：欧盟承运人的车上还需要欧共体许可证的认证副本；瑞士承运人适用相应的许可证。"
+    },
+    {
+      "number": 18112,
+      "text": "要求车上携带许可证原件的说法错误：欧盟承运人除了行程单，还需要许可证的认证副本；瑞士承运人适用相应的许可证。"
+    }
+  ],
+  "output_sha256": "f79649d143c1fc59b47e1734b176af1a15ca2420d686049251e37997509d5bd3"
+}

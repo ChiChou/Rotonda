@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1edc0-1d37-7a12-b72a-cee43a260cde"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "revisione_cqc_merci",
+    "language": "es-419",
+    "records": [
+      {
+        "source": {
+          "number": 15195,
+          "quesito_id": 3219,
+          "text_it": "Il carico utile di un veicolo è individuato dalla sua portata",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "22ad2c5bd5ad67eb11dfc5b08b0c56110d1b7c7a4e05106bae9b0ee1a4125e6f",
+        "italian": "La portata indica il carico utile che il veicolo può trasportare, entro la massa massima ammessa.",
+        "italian_sha256": "3b01684282989e36644a3484be587f5882229df55837e4aaf3be3f147b20df70"
+      },
+      {
+        "source": {
+          "number": 15196,
+          "quesito_id": 3219,
+          "text_it": "Il carico utile si ricava sottraendo dalla massa complessiva a pieno carico del veicolo la sua massa in ordine di marcia",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "50901b18043a001c593a83057790ca938fdb1bfa85ac9f0f2668fa244d089058",
+        "italian": "Nel calcolo semplificato del quiz, il carico utile è la differenza tra la massa massima a pieno carico e quella in ordine di marcia. Eventuali passeggeri e dotazioni aggiuntive riducono il margine per le merci.",
+        "italian_sha256": "d562101600858bac604db6c6bfb80a795ffd2091431365efd2451eaa3d029382"
+      },
+      {
+        "source": {
+          "number": 15197,
+          "quesito_id": 3219,
+          "text_it": "Il carico di un veicolo non deve causare il superamento della sua massa complessiva a pieno carico",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "35d504726af7f18fc6efe6c49039414e4d19191e3bf2d4c9db159bedcb0cdd87",
+        "italian": "Veicolo e carico insieme devono restare entro la massa complessiva a pieno carico autorizzata; occorre rispettare anche i limiti sugli assi.",
+        "italian_sha256": "7db632a9a48ad32b43b1c7a71106ffcfd996169c7e444e090c4a61195e8548be"
+      },
+      {
+        "source": {
+          "number": 15198,
+          "quesito_id": 3219,
+          "text_it": "La massa massima a carico tecnicamente ammissibile degli autocarri è indicata sulla carta di circolazione",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "40973f0f44a8dd8e6128a6416f082ef41d50df63cb2623e161ab752b57325c45",
+        "italian": "La massa massima a carico tecnicamente ammissibile è riportata nel campo F.1 della carta di circolazione.",
+        "italian_sha256": "c9bb783062aeddba7c5508de49d9c93ffaff3ef5e8e719c627c588a0f51a88b8"
+      },
+      {
+        "source": {
+          "number": 15201,
+          "quesito_id": 3219,
+          "text_it": "La massa complessiva a pieno carico è la differenza tra la portata e la tara",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b3fd54078b1d083aa408e7f7f71d1812b3bc2a3a5a985f9e33e90a94289857de",
+        "italian": "Non è una differenza: nel calcolo semplificato, la massa complessiva a pieno carico è la somma della tara e della portata.",
+        "italian_sha256": "3190ac9a6323cba304d4b81a61cc2e1552baf8c135a832c9d868f070ebeeea73"
+      },
+      {
+        "source": {
+          "number": 15202,
+          "quesito_id": 3219,
+          "text_it": "La portata di un veicolo aumenta all’aumentare della tara del veicolo",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "bb033f5ad0eca293176d9930de79189e9f29b8c4e95a24d7f06fda49b7c76037",
+        "italian": "A parità di massa massima ammessa, una tara maggiore lascia meno margine per il carico utile: la portata diminuisce.",
+        "italian_sha256": "9291ef41ac0261a7bfbdd4afe511a4297d9fa70ce860ecbef31fe5af74fc8b23"
+      },
+      {
+        "source": {
+          "number": 15203,
+          "quesito_id": 3219,
+          "text_it": "Il carico utile del rimorchio corrisponde alla sua massa massima a pieno carico",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "9a4f792f44ad0c52afc195102f1fb1300bf1f67e20bce031c7cf9de786ba9c11",
+        "italian": "Il carico utile del rimorchio non è la sua massa totale a pieno carico: questa comprende anche la massa del rimorchio stesso.",
+        "italian_sha256": "d767f204c6b6e550934b125c38000bab3fbf3310f988d04644d57c0cb60a43a8"
+      },
+      {
+        "source": {
+          "number": 15204,
+          "quesito_id": 3219,
+          "text_it": "Il carico utile di un autoveicolo coincide con la sua massa complessiva a pieno carico",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "dbebaaefd380ac76c3327a9edfeac42d3848083b6535eee3b661fe69742c2b9d",
+        "italian": "Il carico utile è solo la massa trasportabile; la massa complessiva a pieno carico comprende anche il veicolo.",
+        "italian_sha256": "935190de754ae07207f2a7d48ea213f764ff591db00fd674fa07ebbd1d799407"
+      },
+      {
+        "source": {
+          "number": 15211,
+          "quesito_id": 3221,
+          "text_it": "Un errato posizionamento del carico può compromettere la stabilità di marcia del veicolo",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "e64592b55330c28c5748265eccbffda97ce04d25f431d40ec7185ff49b6f8b45",
+        "italian": "Un carico sistemato male può spostare il baricentro o muoversi, rendendo il veicolo meno stabile in marcia.",
+        "italian_sha256": "49a8bfa7f2e749e966f9189e6170b9e02f11d87311ca919b5dc36508f22f67e5"
+      },
+      {
+        "source": {
+          "number": 15212,
+          "quesito_id": 3221,
+          "text_it": "Un errato posizionamento del carico può determinare sovraccarico di uno o più assi",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "981bcff43a296401f4195cc90a7cb534db345470f8ab9bdab4b2ad82e3d11b53",
+        "italian": "Se il peso è concentrato in una zona, un asse può essere sovraccaricato anche senza superare la massa totale ammessa.",
+        "italian_sha256": "273e80f68fdd8eea4153cdd146248685415eccd8bb94467e608638cc6e2e5c04"
+      },
+      {
+        "source": {
+          "number": 15213,
+          "quesito_id": 3221,
+          "text_it": "Un errato posizionamento del carico può diminuire il rendimento del motore",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b150518e14561f29dd8da44de6e5b37e1c63c737c0e62dee92fa7f2f0a77069e",
+        "italian": "Il quiz considera falsa la diminuzione del rendimento del motore: il rischio diretto della cattiva sistemazione riguarda soprattutto stabilità e carichi sugli assi. Il consumo del veicolo può comunque dipendere dalle condizioni di marcia.",
+        "italian_sha256": "1dcc3598af9b1f0e54ac3c5e622e8b53e5f1285c236a2a2c1e58f6b1e5ec5bb1"
+      },
+      {
+        "source": {
+          "number": 15214,
+          "quesito_id": 3221,
+          "text_it": "Un errato posizionamento del carico non incide sulla stabilità di marcia del veicolo",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "9f5e30ff19ad127f95547b86322b5fb0062ffa71ce4fa4dc5f3f47f609266aac",
+        "italian": "È falso che la posizione del carico non conti: una distribuzione squilibrata può compromettere la stabilità del veicolo.",
+        "italian_sha256": "593cf8ab373eb7e49d6ac95ec17ffe0ec936bfbf59b7520cbc70940b057dd7b9"
+      },
+      {
+        "source": {
+          "number": 15216,
+          "quesito_id": 3222,
+          "text_it": "E’ prevista la decurtazione dei punti della carta di qualificazione del conducente alla guida di un veicolo per trasporto professionale il cui peso a pieno carico è superiore di oltre il 5% rispetto a quella indicata sulla carta di circolazione",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6f4d44ab887e9fc10e14f4a18987bbefdb90c0116696e5b757dc0e2e4575ab5d",
+        "italian": "La risposta è vera nel caso ordinario di violazione sanzionabile: durante il servizio per cui serve la CQC, la decurtazione prevista colpisce la CQC. La soglia va letta tenendo conto delle specifiche eccezioni di legge.",
+        "italian_sha256": "06f7665b9eb1506db3f3a1d4a8f50e0e5891611398830b7f78d4365d6fcb3210"
+      },
+      {
+        "source": {
+          "number": 15217,
+          "quesito_id": 3222,
+          "text_it": "Del sovraccarico di un veicolo sono responsabili il conducente, il proprietario del veicolo ed il committente.",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "ebf74da5da1a0c49133cc61b680583dff72654c646201d0013d501434559c35e",
+        "italian": "La sanzione riguarda conducente e proprietario; il committente risponde quando il trasporto è eseguito per suo conto esclusivo.",
+        "italian_sha256": "35a86b770fe76ce59f46a0016eedf4709abb4754abdaf153e7926f3fe7bd4a79"
+      },
+      {
+        "source": {
+          "number": 15218,
+          "quesito_id": 3222,
+          "text_it": "E’ consentito un sovraccarico massimo del 15% rispetto alla massa complessiva a pieno carico ammissibile del veicolo",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f04c0d2e58fd9b7fcd1f28ddc62225ee5162018df4e2dd2faeecce26a6fff5e4",
+        "italian": "Non esiste un permesso generale di sovraccarico del 15%: occorre rispettare la massa autorizzata e applicare le eventuali tolleranze previste per il caso specifico.",
+        "italian_sha256": "ee516f171f85c2b386e7fc6d19913ef4aba5ee09d588fca036627601db41c614"
+      },
+      {
+        "source": {
+          "number": 15219,
+          "quesito_id": 3222,
+          "text_it": "Il sovraccarico del veicolo fino al 15% della massa complessiva a pieno carico ammissibile non comporta sanzioni",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "14b15cc96c035d9ae14f259efe56f72e69b2ac23e1fa1b993f4f6429e3f02916",
+        "italian": "È falso che fino al 15% non vi siano sanzioni: nel caso ordinario l’eccedenza oltre la tolleranza prevista è sanzionabile, secondo la fascia applicabile.",
+        "italian_sha256": "e6ef3742affd89bd50b621b30555e73ffdbcc2ee13c5a71fe34546d4e27afafd"
+      },
+      {
+        "source": {
+          "number": 15220,
+          "quesito_id": 3222,
+          "text_it": "Il sovraccarico del veicolo di oltre il 5% della massa complessiva a pieno carico ammissibile comporta il sanzionamento del proprietario del veicolo ma non del conducente",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "468e916c986803aa89c1f5f9e407a856147fdcb514a42d860a9b21fe5cb92e45",
+        "italian": "Non è sanzionato solo il proprietario: per la violazione risponde anche il conducente, fatte salve le condizioni e le eccezioni previste dalla legge.",
+        "italian_sha256": "0c91d4ae1e2949c1f0bfe2fcc9c2d2207b4558dd33f215d60c8300d8689f1506"
+      },
+      {
+        "source": {
+          "number": 15221,
+          "quesito_id": 3223,
+          "text_it": "Nel disporre più colli in un vano di carico bisogna distribuire il peso in maniera il più possibile uniforme",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7391abc37b9ed7426f4b5c62b0fe36e339df94a304c8d7ba8dccb6d73cc74b0e",
+        "italian": "Distribuire il peso in modo equilibrato aiuta a rispettare i limiti sugli assi e a mantenere stabile il veicolo.",
+        "italian_sha256": "397f5f76fb36653842105f452f158e9110e7ae06ad792a6316926b801e91518f"
+      },
+      {
+        "source": {
+          "number": 15222,
+          "quesito_id": 3223,
+          "text_it": "Più colli di piccole dimensioni devono essere distribuiti nel modo più omogeneo possibile sul piano di carico",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "481d8d6a34d02a024fd4655d7aae1fb402c6345e8cb2dbc8bdbee3fd38043880",
+        "italian": "I colli vanno distribuiti in modo omogeneo, verificando comunque i carichi ammessi sugli assi e il fissaggio.",
+        "italian_sha256": "f8e9d6ea813f7f3334a46198e1e2645797693f81cdfdc3b5d02b5e4035922ca8"
+      },
+      {
+        "source": {
+          "number": 15223,
+          "quesito_id": 3223,
+          "text_it": "Un unico collo molto pesante deve essere posizionato nella parte centrale del piano di carico, all’interno dell’interasse",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b0db10b344676d9b9657fe77767070a17f46b85dbca6d8b87fc02f821909b8c0",
+        "italian": "Come criterio generale, il collo pesante va collocato tra gli assi, in posizione equilibrata; la posizione effettiva deve rispettare i limiti dei singoli assi.",
+        "italian_sha256": "dc9d79ae038232f7a76ac2e7e8a81be7110ae27107f414e4b5178e4dfecf35d0"
+      },
+      {
+        "source": {
+          "number": 15224,
+          "quesito_id": 3223,
+          "text_it": "Un unico collo molto pesante deve essere sistemato sul piano di carico utilizzando, ove possibile, lunghe travi di appoggio",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "ff280bbb37e39045b4b31c1a0061737593c2c4c74620600f287bb79631a32470",
+        "italian": "Lunghe travi di appoggio, dove utilizzabili e adeguate, aiutano a ripartire il peso del collo sulla struttura del piano di carico.",
+        "italian_sha256": "311779ee8a439c1b6ab01887fa96ba4a0d343f94005ec6e96d54687067bff2f9"
+      },
+      {
+        "source": {
+          "number": 15225,
+          "quesito_id": 3223,
+          "text_it": "Un collo molto pesante deve essere adeguatamente ancorato",
+          "answer": 1,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "94882de3878676ab4044aee7af7973fa5dc51129d09d997fb54626b2ac6e01f5",
+        "italian": "Anche un collo pesante deve essere ancorato: il suo peso da solo non impedisce spostamenti durante frenate o curve.",
+        "italian_sha256": "eed49c7fb51b4bf9144d9a2dd288480caeace07ccda37b27e22eccc83827497c"
+      },
+      {
+        "source": {
+          "number": 15226,
+          "quesito_id": 3223,
+          "text_it": "Più colli di piccole dimensioni devono essere concentrati nella parte anteriore del piano di carico",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "174265968c53d12a85ee7f17afa95b5b97ef88f55266eb4b6deb5f2520fe1c72",
+        "italian": "Non bisogna concentrare tutti i colli davanti: si distribuisce il peso in modo equilibrato, rispettando i limiti sugli assi.",
+        "italian_sha256": "1138e6c5067835b8840674fcf3ab6eb1125ab195074463930f45a902d10c7798"
+      },
+      {
+        "source": {
+          "number": 15227,
+          "quesito_id": 3223,
+          "text_it": "Più colli di piccole dimensioni devono essere concentrati nella parte posteriore del piano di carico",
+          "answer": 0,
+          "page": 0,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "80e72678e3bf1795fcbcef048cf8e1603fa1fe6dd36ced5b0f6cae150e8a8bde",
+        "italian": "Non bisogna concentrare tutti i colli dietro: si distribuisce il peso in modo equilibrato, rispettando i limiti sugli assi.",
+        "italian_sha256": "9583a0730e198cc5f8090cde58ccdcaa03cf1c7cf2d9856a6f6ee2e8fd5706c9"
+      },
+      {
+        "source": {
+          "number": 15228,
+          "quesito_id": 3223,
+          "text_it": "Un unico collo molto pesante deve essere posizionato all’estremità anteriore del piano di carico",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c9dc8289c8ed5211de9f77324a798198943b677701d034d52af67bfcb03b5c45",
+        "italian": "L’estremità anteriore non è una posizione obbligata e può sovraccaricare un asse: il collo va collocato in posizione equilibrata, verificando i limiti sugli assi.",
+        "italian_sha256": "bb3d97af46ac7a3efac830e9ebbe454c418376740b031d3f73ec045edd21c41b"
+      },
+      {
+        "source": {
+          "number": 15229,
+          "quesito_id": 3223,
+          "text_it": "Un unico collo molto pesante può essere posizionato indifferentemente all’estremità anteriore o all’estremità posteriore del piano di carico",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "ccb01b22b51a0502064030fe6556f52edaad23ccb88881cd44cc7f6993da1a0a",
+        "italian": "Falso. La posizione non è indifferente: va scelta in funzione della distribuzione delle masse e dei limiti sugli assi, evitando di concentrare il peso a un’estremità.",
+        "italian_sha256": "b461ebaf5c68c186e16bc7aaafb8a7bccd11a2ac7434ecadd4de71972a53845c"
+      },
+      {
+        "source": {
+          "number": 15230,
+          "quesito_id": 3223,
+          "text_it": "Un unico collo molto pesante deve essere posizionato nell’estremità posteriore del piano di carico",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "bd00ea471b5c09941d95bcebb2939738feac4dbcfcd33b8c3f48de605192a5dc",
+        "italian": "Falso. Il collo non va necessariamente all’estremità posteriore: la posizione va scelta rispettando i carichi ammessi sugli assi e la stabilità del veicolo.",
+        "italian_sha256": "60296211c401a09fbd73063ba0cca36e748f21b14ecd3716be0b46afec9925d8"
+      },
+      {
+        "source": {
+          "number": 15231,
+          "quesito_id": 3224,
+          "text_it": "Un’errata sistemazione del carico può avere conseguenze sulla stabilità di marcia di un autocarro",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "316fc0f7c5ed39168801a17a452618e29eb95644b52c5ed9a1237f3b4f2ab652",
+        "italian": "Vero. Un carico mal distribuito o libero di spostarsi può alterare l’equilibrio del veicolo e ridurne la stabilità in marcia.",
+        "italian_sha256": "a98c147aefe535730fdcb133540180aed448716be141008fff19132856b324e5"
+      },
+      {
+        "source": {
+          "number": 15232,
+          "quesito_id": 3224,
+          "text_it": "Un’errata sistemazione del carico può sbilanciare il veicolo",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "e00c7f72352f705b8f84011762b754daece08fd78adfa08d39fdf1b03b5012fe",
+        "italian": "Vero. Una distribuzione disuguale o lo spostamento delle merci può sbilanciare il veicolo e compromettere la guida.",
+        "italian_sha256": "5c158d9dae66fab8224574d7d647433a8507e973c5a954fc6af73b8ee78c6faa"
+      },
+      {
+        "source": {
+          "number": 15233,
+          "quesito_id": 3224,
+          "text_it": "Un’errata sistemazione del carico può causarne la caduta",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "dde17d10060b1344622212052136586b7ba6207b639cd4f9426bd41ea714f504",
+        "italian": "Vero. Se non è sistemato e trattenuto correttamente, il carico può spostarsi e cadere dal veicolo.",
+        "italian_sha256": "3904d520543eeb6aaf1c041b5d4d172a32f608b8921f9149bc46df4184aab8ae"
+      },
+      {
+        "source": {
+          "number": 15234,
+          "quesito_id": 3224,
+          "text_it": "Un’errata sistemazione del carico può provocare una frenata squilibrata",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "533c0a418693eb3a30f35bb02bafc4d86373f7d04c019050edfeca044cf8d74a",
+        "italian": "Vero. Se il peso è distribuito male, le ruote possono frenare con forze diverse, rendendo la frenata squilibrata.",
+        "italian_sha256": "c80d61562bf4e16ad6ecdbb8c39b7df2b0bddc3ccdf01eedbe5d380af00b33c3"
+      },
+      {
+        "source": {
+          "number": 15235,
+          "quesito_id": 3224,
+          "text_it": "Un’errata sistemazione del carico può provocare danni all’impianto elettrico del veicolo",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8e5c2e916d5b7d1a897bae26cec85bfcacff11bf0780ab08c6e5f9ec6b942b7a",
+        "italian": "Falso, nel senso previsto dal quiz: la cattiva sistemazione agisce soprattutto su stabilità e sicurezza del carico, non direttamente sull’impianto elettrico. Un danno indiretto resta possibile se la merce urta cavi o componenti.",
+        "italian_sha256": "bc4c50ac589004e7a05d2169a5436c501cf0d70cb5fee112ab0b522179906d05"
+      },
+      {
+        "source": {
+          "number": 15236,
+          "quesito_id": 3224,
+          "text_it": "Un’errata sistemazione del carico può provocare malfunzionamento del cronotachigrafo",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "55e584ed167c8e3728c2623bef6eeb9b74d4ec65dbc5d577a5795aedc6f566a9",
+        "italian": "Falso, nel senso previsto dal quiz: una cattiva distribuzione del carico compromette soprattutto la stabilità, non il funzionamento del cronotachigrafo. Un urto contro il dispositivo o i suoi collegamenti potrebbe però danneggiarlo indirettamente.",
+        "italian_sha256": "e590a25498afb02b10fba90376b9a368c459fdb5a5df17491e72abfca77a64f0"
+      },
+      {
+        "source": {
+          "number": 15237,
+          "quesito_id": 3224,
+          "text_it": "Un’errata sistemazione del carico è sanzionata con il sequestro del veicolo",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "56a5560e94aefa4e1437d514f827684e2c5438cc0876c9c2bac89289d8da568b",
+        "italian": "Falso. Per la violazione delle norme sulla sistemazione del carico è prevista una sanzione pecuniaria; il veicolo non può proseguire finché il carico non sia sistemato e sono ritirati i documenti indicati dalla legge.",
+        "italian_sha256": "a8153e3fb97c29bc3b91ad6315c4a05702716dcf8739fd0d56994a51a61c54ba"
+      },
+      {
+        "source": {
+          "number": 15238,
+          "quesito_id": 3225,
+          "text_it": "Il sovraccarico del veicolo incide sull’efficienza delle sospensioni",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "351ea974418726a93bf6ef2c0907b34e6938b906cb02dc8fb2f2cd2a049f4f51",
+        "italian": "Vero. Il sovraccarico sollecita oltre misura le sospensioni e può danneggiarle, compromettendone l’efficienza.",
+        "italian_sha256": "df7f5632d196ff68dede7bd620cbdd05c1eb905d7aa7358eebd36280fb5e9b3e"
+      },
+      {
+        "source": {
+          "number": 15239,
+          "quesito_id": 3225,
+          "text_it": "Il sovraccarico del veicolo incide sull’efficienza dell’impianto frenante",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "cab232115f06fa58d17850c84672b8b7ee6691fedd19edba856d74c6a37275b9",
+        "italian": "Vero. Una massa eccessiva richiede uno sforzo maggiore ai freni, aumenta lo spazio di arresto e può portare al loro cedimento.",
+        "italian_sha256": "2609d417c21678dc904db81db50d140f2605791c448093633b8d3e2bbaae98ea"
+      },
+      {
+        "source": {
+          "number": 15240,
+          "quesito_id": 3225,
+          "text_it": "Il sovraccarico del veicolo incide sulla stabilità di marcia",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "fa97d896240c490915f4d2880c3ace6c5ef61d25aebf649c812bb2de2c3985cc",
+        "italian": "Vero. Il sovraccarico può peggiorare stabilità, sterzata e frenata, aumentando il rischio di perdere il controllo.",
+        "italian_sha256": "47226d57be4dde41adfe200b70265a4b7acc5c07e547ff12d2ef8c5e2e5c8f53"
+      },
+      {
+        "source": {
+          "number": 15241,
+          "quesito_id": 3225,
+          "text_it": "Il sovraccarico del veicolo incide sull’efficienza dei dispositivi di illuminazione e segnalazione visiva",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8cd0e065249a1347754cb5ea619cb0da6d49ecad895ef54d90aff503ce5c2846",
+        "italian": "Falso, nel senso previsto dal quiz: il sovraccarico non riduce di per sé il funzionamento delle luci. La variazione dell’assetto può però modificare l’orientamento dei fari, e il carico non deve coprire i dispositivi.",
+        "italian_sha256": "c6fc58adf8a5c4b29cb65b544d54b88727c41d7bb78677ce31950dcb934e1df5"
+      },
+      {
+        "source": {
+          "number": 15242,
+          "quesito_id": 3225,
+          "text_it": "Il sovraccarico del veicolo incide sull’efficienza del limitatore di velocità",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "e9b06ecd8159c9ddc13e1efa1ba57a6c94b62452cbdf83e5f9866c2253e00bdb",
+        "italian": "Falso. Il sovraccarico influisce sulla sicurezza di marcia e sulla frenata, ma non è una causa diretta di malfunzionamento del limitatore di velocità.",
+        "italian_sha256": "2884702a4397fc42ca4d9f4e62eb4fbac7506453a788a01aebfda8150a6f53bf"
+      },
+      {
+        "source": {
+          "number": 15243,
+          "quesito_id": 3225,
+          "text_it": "Il sovraccarico del veicolo incide sul corretto funzionamento del cronotachigrafo",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c38808763e26296561061ad82aa221a6de3045438ffdc594a0012c8d884be0d4",
+        "italian": "Falso. Il sovraccarico può alterare stabilità e frenata; non modifica di per sé il funzionamento del cronotachigrafo.",
+        "italian_sha256": "8dbca222d36b6e3d80a822cb4b59c33cd4a27bd240bb7e6a6abcd9850ed22b1c"
+      },
+      {
+        "source": {
+          "number": 15261,
+          "quesito_id": 3229,
+          "text_it": "Il carico deve essere sistemato in modo da evitare il sovraccarico su uno dei due assi",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "80cc581fb29426f9ee29a9a5fe641aa6e5ca6fea1a412d5fa58a79c005fbbef5",
+        "italian": "Vero. La distribuzione va scelta rispettando i limiti di massa di ciascun asse, oltre a quello complessivo del veicolo.",
+        "italian_sha256": "2f92e04913d0754b0d85b762c920604d6ca7c1d66add73334fb767a88429fff0"
+      },
+      {
+        "source": {
+          "number": 15262,
+          "quesito_id": 3229,
+          "text_it": "Il carico deve essere sistemato in modo da distribuire il più uniformemente possibile la massa sulle strutture portanti",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "ff987a7088bd470ac821e3921ec6552b5cf90941e22f49f62ba4a49f2e2f281e",
+        "italian": "Vero. Distribuire il peso sul piano di carico evita concentrazioni sulle strutture portanti, rispettando anche i limiti sugli assi.",
+        "italian_sha256": "a2a610a030dbb3814f63f0d3dfaed24a62c434c29ff0c714d43a71098c5d1ef6"
+      },
+      {
+        "source": {
+          "number": 15263,
+          "quesito_id": 3229,
+          "text_it": "Il carico deve essere sistemato in modo da mantenerne basso il baricentro",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "32c79d824b4984e5d0ab579bfda743b8ab4f9fd044de18a8f2223ba625975d53",
+        "italian": "Vero. Un baricentro basso migliora la stabilità del veicolo e riduce il rischio di ribaltamento.",
+        "italian_sha256": "01136b85c1ceafa594aad36b7c8d3bc447c350754539b0f9642a03e4dd248d80"
+      },
+      {
+        "source": {
+          "number": 15264,
+          "quesito_id": 3229,
+          "text_it": "Il carico deve essere sistemato in modo da disporre i colli più pesanti sullo sbalzo posteriore",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d645c72ba82e5c3ee36cdd2a6e4d39f5b47fa2d7b362ebae3a9027042c3e6894",
+        "italian": "Falso. Concentrare i colli pesanti sullo sbalzo posteriore può scaricare l’asse anteriore e peggiorare la sterzata; occorre distribuire la massa rispettando i limiti sugli assi.",
+        "italian_sha256": "fe5dcc436302c7617b4508bdca900bc170204c8536954a73a9900692303ae6c8"
+      },
+      {
+        "source": {
+          "number": 15265,
+          "quesito_id": 3229,
+          "text_it": "Il carico deve essere sistemato in modo da mantenere il baricentro del carico il più in alto possibile",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "749cf0a2ef95a5a7623b6bba8b40b62e8bff8dc9cff6143ea5bffe450f4f702c",
+        "italian": "Falso. Il baricentro va mantenuto il più basso possibile: un baricentro alto rende il veicolo meno stabile.",
+        "italian_sha256": "ec257937e4d5398b1f6246847fe0adf014d95a43d160704990f23bef073fd664"
+      },
+      {
+        "source": {
+          "number": 15266,
+          "quesito_id": 3229,
+          "text_it": "Il carico deve essere sistemato in modo da disporre i colli pesanti il più in alto possibile",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "cfd61f539c5f929c34d38bf6c272b44d6f6ed915aa33af04b43839ab589829fd",
+        "italian": "Falso. I colli pesanti vanno sistemati in basso, sotto quelli più leggeri, per mantenere basso il baricentro.",
+        "italian_sha256": "8d3f43d8e5e7fe8877c7a59f8bc93ef2257d78e7287b4f5b1f568753cff7b7be"
+      },
+      {
+        "source": {
+          "number": 15267,
+          "quesito_id": 3230,
+          "text_it": "Per evitare lo spostamento del carico durante la marcia del veicolo è opportuno agire su sterzo, freni ed acceleratore con gradualità",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6a7d207d8ce522fa616733af5e041a42e41ebfc94152baa8d07f523c4ee8c815",
+        "italian": "Vero. Manovre graduali limitano le sollecitazioni sulle merci; occorre comunque fissare il carico in modo che resista anche alle frenate di emergenza.",
+        "italian_sha256": "b72a69e8cc224ccc8cc8af185a310d2473070a300088eb164c214677f6382301"
+      },
+      {
+        "source": {
+          "number": 15268,
+          "quesito_id": 3230,
+          "text_it": "Per evitare lo spostamento del carico durante la marcia del veicolo si devono ancorare saldamente le merci al piano di carico",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "aa5333f30eeb1c4079caef3afcdd23e265576616355124f1a249204fcbd39598",
+        "italian": "Vero. Merci adeguatamente ancorate o altrimenti trattenute sono meno soggette a spostarsi nelle manovre e nelle frenate.",
+        "italian_sha256": "151f437015bd23fa97acdf6c05100732f58ab2d92f77ebc58d81a42bbb22ecd8"
+      },
+      {
+        "source": {
+          "number": 15269,
+          "quesito_id": 3230,
+          "text_it": "I colli si devono sistemare in modo che non si spostino durante la marcia del veicolo",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8604013bc20d6bfd209aee3a7df0d15c2a3aa3e108de035b6b41e8457104f678",
+        "italian": "Vero. I colli vanno sistemati e trattenuti affinché non si spostino, compromettendo la stabilità o cadendo dal veicolo.",
+        "italian_sha256": "f611b1ea42c339b292091cb0e02e5f2fee4f5cb86126b8cf34f9ccb3387fce9c"
+      },
+      {
+        "source": {
+          "number": 15270,
+          "quesito_id": 3230,
+          "text_it": "Per evitare lo spostamento del carico durante la marcia del veicolo è indispensabile controllare frequentemente la pressione degli pneumatici",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c63c730650936f190773cb4bb7d8c1a4b8af38fce867959e3710be70d574f250",
+        "italian": "Falso. La pressione corretta degli pneumatici è importante per la sicurezza, ma per impedire lo spostamento delle merci occorre soprattutto sistemarle e fissarle adeguatamente.",
+        "italian_sha256": "42852679c59d675dc6387bc4323dda10011581171ad828a34a1cfa958defd26f"
+      }
+    ],
+    "task_sha256": "c8f11ad184a9f79a4f38a32a79db6244bff697b1855b75bd589343d3731a22cf"
+  },
+  "rows": [
+    {
+      "number": 15195,
+      "text": "La capacidad de carga indica la carga útil que el vehículo puede transportar sin superar la masa máxima autorizada."
+    },
+    {
+      "number": 15196,
+      "text": "En el cálculo simplificado del cuestionario, la carga útil es la diferencia entre la masa máxima a plena carga y la masa en orden de marcha. Los pasajeros y equipos adicionales reducen el margen disponible para las mercancías."
+    },
+    {
+      "number": 15197,
+      "text": "El vehículo y la carga juntos deben mantenerse dentro de la masa total autorizada a plena carga; también deben respetarse los límites por eje."
+    },
+    {
+      "number": 15198,
+      "text": "La masa máxima técnicamente admisible en carga figura en el campo F.1 del documento de circulación."
+    },
+    {
+      "number": 15201,
+      "text": "No es una diferencia: en el cálculo simplificado, la masa total a plena carga es la suma de la tara y la capacidad de carga."
+    },
+    {
+      "number": 15202,
+      "text": "Si la masa máxima autorizada es la misma, una tara mayor deja menos margen para la carga útil: la capacidad de carga disminuye."
+    },
+    {
+      "number": 15203,
+      "text": "La carga útil del remolque no es su masa total a plena carga: esta también incluye la masa del propio remolque."
+    },
+    {
+      "number": 15204,
+      "text": "La carga útil es solo la masa que puede transportarse; la masa total a plena carga también incluye el vehículo."
+    },
+    {
+      "number": 15211,
+      "text": "Una carga mal colocada puede desplazar el centro de gravedad o moverse, haciendo que el vehículo sea menos estable en marcha."
+    },
+    {
+      "number": 15212,
+      "text": "Si el peso se concentra en una zona, un eje puede sobrecargarse incluso sin superar la masa total autorizada."
+    },
+    {
+      "number": 15213,
+      "text": "El cuestionario considera falsa la disminución del rendimiento del motor: el riesgo directo de una mala colocación afecta principalmente la estabilidad y las cargas sobre los ejes. El consumo del vehículo, sin embargo, puede depender de las condiciones de circulación."
+    },
+    {
+      "number": 15214,
+      "text": "Es falso que la posición de la carga no importe: una distribución desequilibrada puede comprometer la estabilidad del vehículo."
+    },
+    {
+      "number": 15216,
+      "text": "La respuesta es verdadera en el caso ordinario de una infracción sancionable: durante el servicio para el que se requiere la CQC, la reducción de puntos prevista afecta a la CQC. El umbral debe interpretarse teniendo en cuenta las excepciones específicas previstas por la ley."
+    },
+    {
+      "number": 15217,
+      "text": "La sanción afecta al conductor y al propietario; el contratante responde cuando el transporte se realiza exclusivamente por su cuenta."
+    },
+    {
+      "number": 15218,
+      "text": "No existe un permiso general para sobrecargar el vehículo en un 15 %: se debe respetar la masa autorizada y aplicar las tolerancias que correspondan al caso específico."
+    },
+    {
+      "number": 15219,
+      "text": "Es falso que no haya sanciones hasta un 15 %: en el caso ordinario, el exceso por encima de la tolerancia prevista es sancionable según el tramo aplicable."
+    },
+    {
+      "number": 15220,
+      "text": "No se sanciona solo al propietario: el conductor también responde por la infracción, sin perjuicio de las condiciones y excepciones previstas por la ley."
+    },
+    {
+      "number": 15221,
+      "text": "Distribuir el peso de manera equilibrada ayuda a respetar los límites por eje y a mantener estable el vehículo."
+    },
+    {
+      "number": 15222,
+      "text": "Los bultos deben distribuirse de manera uniforme, verificando también las cargas permitidas por eje y su sujeción."
+    },
+    {
+      "number": 15223,
+      "text": "Como criterio general, el bulto pesado debe colocarse entre los ejes, en una posición equilibrada; la posición real debe respetar los límites de cada eje."
+    },
+    {
+      "number": 15224,
+      "text": "Las vigas largas de apoyo, cuando pueden utilizarse y son adecuadas, ayudan a distribuir el peso del bulto sobre la estructura de la plataforma de carga."
+    },
+    {
+      "number": 15225,
+      "text": "Incluso un bulto pesado debe sujetarse: su peso por sí solo no impide que se desplace durante las frenadas o en las curvas."
+    },
+    {
+      "number": 15226,
+      "text": "No se deben concentrar todos los bultos en la parte delantera: el peso se distribuye de manera equilibrada, respetando los límites por eje."
+    },
+    {
+      "number": 15227,
+      "text": "No se deben concentrar todos los bultos en la parte trasera: el peso se distribuye de manera equilibrada, respetando los límites por eje."
+    },
+    {
+      "number": 15228,
+      "text": "El extremo delantero no es una posición obligatoria y puede sobrecargar un eje: el bulto debe colocarse en una posición equilibrada, verificando los límites por eje."
+    },
+    {
+      "number": 15229,
+      "text": "Falso. La posición sí importa: debe elegirse en función de la distribución de las masas y de los límites por eje, evitando concentrar el peso en un extremo."
+    },
+    {
+      "number": 15230,
+      "text": "Falso. El bulto no tiene que colocarse necesariamente en el extremo trasero: la posición debe elegirse respetando las cargas permitidas por eje y la estabilidad del vehículo."
+    },
+    {
+      "number": 15231,
+      "text": "Verdadero. Una carga mal distribuida o que puede desplazarse libremente puede alterar el equilibrio del vehículo y reducir su estabilidad en marcha."
+    },
+    {
+      "number": 15232,
+      "text": "Verdadero. Una distribución desigual o el desplazamiento de las mercancías puede desequilibrar el vehículo y comprometer la conducción."
+    },
+    {
+      "number": 15233,
+      "text": "Verdadero. Si no está colocada y sujeta correctamente, la carga puede desplazarse y caer del vehículo."
+    },
+    {
+      "number": 15234,
+      "text": "Verdadero. Si el peso está mal distribuido, las ruedas pueden frenar con fuerzas diferentes y producir una frenada desequilibrada."
+    },
+    {
+      "number": 15235,
+      "text": "Falso, en el sentido previsto por el cuestionario: una mala colocación afecta principalmente la estabilidad y la seguridad de la carga, no directamente el sistema eléctrico. Sin embargo, puede producirse un daño indirecto si la mercancía golpea cables o componentes."
+    },
+    {
+      "number": 15236,
+      "text": "Falso, en el sentido previsto por el cuestionario: una mala distribución de la carga compromete principalmente la estabilidad, no el funcionamiento del tacógrafo. Sin embargo, un golpe contra el dispositivo o sus conexiones podría dañarlo indirectamente."
+    },
+    {
+      "number": 15237,
+      "text": "Falso. La infracción de las normas sobre la colocación de la carga se sanciona con una multa; el vehículo no puede continuar hasta que se acomode la carga y se retiran los documentos indicados por la ley."
+    },
+    {
+      "number": 15238,
+      "text": "Verdadero. La sobrecarga somete las suspensiones a un esfuerzo excesivo y puede dañarlas, reduciendo su eficacia."
+    },
+    {
+      "number": 15239,
+      "text": "Verdadero. Una masa excesiva exige un mayor esfuerzo a los frenos, aumenta la distancia de detención y puede provocar que fallen."
+    },
+    {
+      "number": 15240,
+      "text": "Verdadero. La sobrecarga puede empeorar la estabilidad, la dirección y el frenado, aumentando el riesgo de perder el control."
+    },
+    {
+      "number": 15241,
+      "text": "Falso, en el sentido previsto por el cuestionario: la sobrecarga no reduce por sí sola el funcionamiento de las luces. Sin embargo, el cambio en la posición del vehículo puede modificar la orientación de los faros, y la carga no debe cubrir los dispositivos."
+    },
+    {
+      "number": 15242,
+      "text": "Falso. La sobrecarga afecta la seguridad en marcha y el frenado, pero no es una causa directa de fallas en el limitador de velocidad."
+    },
+    {
+      "number": 15243,
+      "text": "Falso. La sobrecarga puede alterar la estabilidad y el frenado; no modifica por sí sola el funcionamiento del tacógrafo."
+    },
+    {
+      "number": 15261,
+      "text": "Verdadero. La distribución debe elegirse respetando los límites de masa de cada eje, además del límite total del vehículo."
+    },
+    {
+      "number": 15262,
+      "text": "Verdadero. Distribuir el peso sobre la plataforma de carga evita que se concentre en las estructuras de soporte y permite respetar también los límites por eje."
+    },
+    {
+      "number": 15263,
+      "text": "Verdadero. Un centro de gravedad bajo mejora la estabilidad del vehículo y reduce el riesgo de vuelco."
+    },
+    {
+      "number": 15264,
+      "text": "Falso. Concentrar los bultos pesados en el voladizo trasero puede reducir la carga sobre el eje delantero y empeorar la dirección; es necesario distribuir la masa respetando los límites por eje."
+    },
+    {
+      "number": 15265,
+      "text": "Falso. El centro de gravedad debe mantenerse lo más bajo posible: un centro de gravedad alto hace que el vehículo sea menos estable."
+    },
+    {
+      "number": 15266,
+      "text": "Falso. Los bultos pesados deben colocarse abajo, debajo de los más ligeros, para mantener bajo el centro de gravedad."
+    },
+    {
+      "number": 15267,
+      "text": "Verdadero. Las maniobras graduales limitan los esfuerzos sobre las mercancías; aun así, la carga debe sujetarse de modo que resista también las frenadas de emergencia."
+    },
+    {
+      "number": 15268,
+      "text": "Verdadero. Las mercancías adecuadamente sujetas o retenidas de otra manera tienen menos probabilidades de desplazarse durante las maniobras y las frenadas."
+    },
+    {
+      "number": 15269,
+      "text": "Verdadero. Los bultos deben colocarse y sujetarse para que no se desplacen, comprometan la estabilidad o caigan del vehículo."
+    },
+    {
+      "number": 15270,
+      "text": "Falso. La presión correcta de los neumáticos es importante para la seguridad, pero para impedir que las mercancías se desplacen es necesario, sobre todo, colocarlas y sujetarlas adecuadamente."
+    }
+  ],
+  "output_sha256": "7690bf3a3b5b540fc24ade3539fb2baa5c995176b120fca1c2c2c0973003b24c"
+}

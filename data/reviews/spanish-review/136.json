@@ -1,0 +1,25 @@
+{
+  "batch": "136",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "79fae3cadbfdb323faaf2206a71cfba42c91141880b07221ac419205b9aaad3d",
+  "source_sha256": "f5a5f0250e41bb48f714a171703fe781aa8f1ff09958567052d274541262f552",
+  "corrections": [
+    {
+      "id": "b4b7a0fc10c25109676ee397cb201f4a488203d761c306e746d271a83795f358",
+      "before": "La zona de estacionamiento está anunciada por señales verticales específicas",
+      "after": "El apartadero está anunciado por señales verticales específicas",
+      "reason": "Piazzola di sosta indica un apartadero vial."
+    }
+  ],
+  "reviewed_file_sha256": "b4a75f3dc85e9748e748b0877dffb9e7767eb80bcc65c106317c4bffa722c691"
+}

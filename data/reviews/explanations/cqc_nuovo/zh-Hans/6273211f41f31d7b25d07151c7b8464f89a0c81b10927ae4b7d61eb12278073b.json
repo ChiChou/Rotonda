@@ -1,0 +1,671 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31524,
+          "quesito_id": 7030,
+          "text_it": "Su strade a forte pendenza, in caso di incrocio malagevole, il veicolo che procede in salita, se dispone di una piazzola di sosta, ha la precedenza",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "15bc5160801f9bf898b616bfe837ec70c4ab55bb8b459ca0e1a340367dd32354",
+        "localized_text": "在陡坡道路上会车困难时，上坡车辆如果附近有避车处，享有优先通行权。"
+      },
+      {
+        "source": {
+          "number": 31525,
+          "quesito_id": 7030,
+          "text_it": "Se sulle strade di montagna l'incrocio tra un veicolo di m.m.c. inferiore a 3,5 t con altro di m.m.c. superiore a 3,5 t è malagevole, la retromarcia deve essere effettuata dal veicolo più leggero",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "603ec9bd398ad96aea311dda047e660977dd4b7c7ddacc3cfb9839cb04ed5d02",
+        "localized_text": "在山区道路上，最大核定总质量低于3.5吨的车辆与超过3.5吨的车辆会车困难时，较轻车辆必须倒车。"
+      },
+      {
+        "source": {
+          "number": 31526,
+          "quesito_id": 7030,
+          "text_it": "Se un autotreno ed un autobus si incrociano su una strada in pendenza dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia compete all'autobus",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5554a4094d4254113dd714777c042d6a95e3d143ab693f93a04291748cba14cb",
+        "localized_text": "汽车列车与公交车在无法同时通过的坡道上会车时，公交车必须倒车。"
+      },
+      {
+        "source": {
+          "number": 31527,
+          "quesito_id": 7030,
+          "text_it": "Se un autocarro o un autobus si incrociano su strade di montagna dove non sia possibile il loro transito contemporaneo, l'eventuale manovra di retromarcia compete all'autocarro",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "84f636cd07a57af888059e55f7a440432e92407c0056489163101e9fad3a7d60",
+        "localized_text": "卡车与公交车在无法同时通过的山区道路上会车时，如需倒车，应由卡车倒车。"
+      },
+      {
+        "source": {
+          "number": 31528,
+          "quesito_id": 7030,
+          "text_it": "Se due autobus si incrociano su strade a forte pendenza, dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia, se necessaria, compete al veicolo che procede in discesa",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "62dccd2b01b74bfcf13b1106d0ad865fa293b2d0f7526c7806af9ecb9618ca37",
+        "localized_text": "两辆公交车在无法同时通过的陡坡道路上会车时，如需倒车，应由下坡车辆倒车。"
+      },
+      {
+        "source": {
+          "number": 31529,
+          "quesito_id": 7031,
+          "text_it": "Se un'autovettura e un autotreno si incrociano su strade di montagna dove non sia possibile il loro transito contemporaneo, l'eventuale manovra di retromarcia compete all'autovettura",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "513574d315a85256696b4c2b4720658afc52f37f01095053b786700740682f44",
+        "localized_text": "小汽车与汽车列车在无法同时通过的山区道路上会车时，如需倒车，应由小汽车倒车。"
+      },
+      {
+        "source": {
+          "number": 31530,
+          "quesito_id": 7031,
+          "text_it": "Se due autobus si incrociano su strade forte pendenza, dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia, se necessaria, compete al veicolo che procede in salita",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b944e9c99d7462f303f57a68e76625f82bd1a39d2c3a13bc33e2b88b9455fa9f",
+        "localized_text": "两辆公交车在无法同时通过的陡坡道路上会车时，如需倒车，应由上坡车辆倒车。"
+      },
+      {
+        "source": {
+          "number": 31531,
+          "quesito_id": 7031,
+          "text_it": "Se due autobus si incrociano su strade a forte pendenza, dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia, se necessaria, compete al veicolo che lo ritiene opportuno",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e1d1bc4bf3205fa37c6a66d3b047977a522a82aef366fccf515eeec6fba91f5b",
+        "localized_text": "两辆公交车在无法同时通过的陡坡道路上会车时，如需倒车，应由认为合适的车辆倒车。"
+      },
+      {
+        "source": {
+          "number": 31532,
+          "quesito_id": 7031,
+          "text_it": "Se sulle strade di montagna l'incrocio tra un veicolo di massa massima complessiva è inferiore al 3,5 t con altro di massa massima complessiva superiore a 3,5 t sia malagevole, la retromarcia deve essere effettuata dal veicolo più pesante",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7f9346dfb8c16b413f6ba74b18f143c85cf7254045189c4edd11e0e1bfd4a0c3",
+        "localized_text": "在山区道路上，最大核定总质量低于3.5吨的车辆与超过3.5吨的车辆会车困难时，较重车辆必须倒车。"
+      },
+      {
+        "source": {
+          "number": 31533,
+          "quesito_id": 7031,
+          "text_it": "Se un'autovettura e un autotreno si incrociano su strade di montagna dove non sia possibile il loro transito contemporaneo, l'eventuale manovra di retromarcia compete all'autotreno",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a350d134e3dbc58b91e50aecae69f42015208bd8b365d59f3153bbd6190300ed",
+        "localized_text": "小汽车与汽车列车在无法同时通过的山区道路上会车时，如需倒车，应由汽车列车倒车。"
+      },
+      {
+        "source": {
+          "number": 31534,
+          "quesito_id": 7031,
+          "text_it": "Se un autotreno ed un autobus si incrociano su una strada in pendenza dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia compete all'autotreno",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8b4b9e75290cd2f07784ee479be23e88fd74cdd236e999c90a1816b80024108c",
+        "localized_text": "汽车列车与公交车在无法同时通过的坡道上会车时，汽车列车必须倒车。"
+      },
+      {
+        "source": {
+          "number": 31535,
+          "quesito_id": 7031,
+          "text_it": "Se un autocarro o un autobus si incrociano su strade di montagna dove non sia possibile il loro transito contemporaneo, l'eventuale manovra di retromarcia compete all'autobus",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f09acdeaf82e45fc9f8f3a152b5b56b259b2410538d108beffa6be11a761e74e",
+        "localized_text": "卡车与公交车在无法同时通过的山区道路上会车时，如需倒车，应由公交车倒车。"
+      },
+      {
+        "source": {
+          "number": 31536,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di incidente stradale conviene allontanarsi per non farsi identificare",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d4291b7dd4b2c0e16d7dff9c55f8ce5a901f867b09bfdf483e541be1b6f07986",
+        "localized_text": "发生道路事故后，宜离开现场以免身份被确认。"
+      },
+      {
+        "source": {
+          "number": 31537,
+          "quesito_id": 7032,
+          "text_it": "Il conducente deve prestare il soccorso solo ai passeggeri infortunati del proprio autoveicolo",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c68ac590e39ed606641fb0288c8b5c6e5accced5772f890c781f08904a4943ff",
+        "localized_text": "驾驶人只须救助自己车辆上的受伤乘客。"
+      },
+      {
+        "source": {
+          "number": 31538,
+          "quesito_id": 7032,
+          "text_it": "È sempre necessario soccorrere un infortunato della strada",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e20efd5e5cee9c0c1ec28d12ba495fb3f4fc703bac48e526bebcd77381bfccd8",
+        "localized_text": "必须始终救助道路上的伤者。"
+      },
+      {
+        "source": {
+          "number": 31539,
+          "quesito_id": 7032,
+          "text_it": "In caso di grosse perdite di materie pericolose occorre avvisare l'autorità fornendo tutte le indicazioni possibili sulla materia fuoriuscita",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fffaf14e3ec2db2379b2dc5f577b5138be09e526276e8c47b6fd37fa085be602",
+        "localized_text": "危险物质大量泄漏时，必须通知有关部门并尽可能提供泄漏物质的全部信息。"
+      },
+      {
+        "source": {
+          "number": 31540,
+          "quesito_id": 7032,
+          "text_it": "Negli incidenti stradali una situazione può essere di emergenza anche se non vi sono feriti",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3e47b8a4f39fbfc089dcfe79328b88003745f930069e9ad949c5e793f18ba4cd",
+        "localized_text": "道路事故即使没有人员受伤也可能构成紧急情况。"
+      },
+      {
+        "source": {
+          "number": 31541,
+          "quesito_id": 7032,
+          "text_it": "Una delle cose da fare in situazioni di emergenza e di cercare di evitare che altri conducenti vengano coinvolti",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4d8c57706370c12eabef6c1f0601478414c2e7ef0580d3075a5dc1b7b14b4c43",
+        "localized_text": "紧急情况下应采取的措施之一是尽量避免其他驾驶人卷入。"
+      },
+      {
+        "source": {
+          "number": 31542,
+          "quesito_id": 7032,
+          "text_it": "L'unica eccezione all'obbligo di soccorrere un infortunato è costituita dalle cause di forza maggiore",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fcd4e268f2d5a8449b8a1ff3dd044c2b77b42e926197538065ccf9855b3b1f02",
+        "localized_text": "不可抗力是救助伤者义务的唯一例外。"
+      },
+      {
+        "source": {
+          "number": 31543,
+          "quesito_id": 7032,
+          "text_it": "L'autorità deve essere avvisata se la caduta di materiale sulla strada è avvenuta di notte e non se è avvenuta di giorno",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ec9585969b48152acf7fccd83673d3581b78868c5734f00df41c883b67aab919",
+        "localized_text": "物料夜间落到道路上时必须通知有关部门，白天则不必。"
+      },
+      {
+        "source": {
+          "number": 31544,
+          "quesito_id": 7032,
+          "text_it": "Una situazione è considerata di emergenza solo quando l'incidente stradale ha provocato più di due feriti",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c101a8520199b66a5143155a4ed1f00b6f058ac3820a0a3955a0335bf340219c",
+        "localized_text": "只有道路事故造成两人以上受伤时才算紧急情况。"
+      },
+      {
+        "source": {
+          "number": 31545,
+          "quesito_id": 7032,
+          "text_it": "In situazioni di emergenza, nel caso di elevato valore del veicolo o della merce trasportata, il conducente può occuparsi prima delle cose e dopo dei feriti",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "db360e4c9bf1abed68efa4367aac415c5c95c02dc81f2fa7da3bc492f65027d9",
+        "localized_text": "紧急情况下，如果车辆或货物价值高，驾驶人可以先处理财物再处理伤者。"
+      },
+      {
+        "source": {
+          "number": 31546,
+          "quesito_id": 7032,
+          "text_it": "Può fornire il primo soccorso a un infortunato solo chi abbia frequentato un corso da soccorritore e abbia superato il relativo esame",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d242fe3ae08d6ec3668af435596e2e913c146a91e962ad8f47c58bf6ce2b53d0",
+        "localized_text": "只有参加过救护员课程并通过相关考试的人才能提供急救。"
+      },
+      {
+        "source": {
+          "number": 31547,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di incidente stradale il conducente deve prima di tutto assicurarsi della propria incolumità",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0d46cd493eeea2324f18d181ff3e5c4a7e84f878dcaedd506488b35bece58801",
+        "localized_text": "发生道路事故时，驾驶人首先必须确保自身安全。"
+      },
+      {
+        "source": {
+          "number": 31548,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di infortunio o malore non si debbono somministrare bevande al soggetto in stato di incoscienza",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4d1e1407312ea146e1d0adbc9261f877270c164dcfd4082b6666fc3e6c833c5f",
+        "localized_text": "发生受伤或突发疾病时，不得给失去意识的人饮料。"
+      }
+    ],
+    "task_sha256": "6273211f41f31d7b25d07151c7b8464f89a0c81b10927ae4b7d61eb12278073b"
+  },
+  "rows": [
+    {
+      "number": 31524,
+      "text": "如果不使用避车处就必须倒车，上坡车辆应驶入避车处停车。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31525,
+      "text": "需要倒车时，不超过3.5吨的车辆通常应让超过3.5吨的车辆先行；还须单独考虑车辆组合相对于其他类别的优先权。",
+      "evidence": [
+        "Codice della strada art. 150(3), https://aci.gov.it/codice-della-strada/art-150/ — hierarchy when reversing is necessary separately gives vehicle combinations priority over other categories; lighter vehicles up to 3.5 t yield to those above 3.5 t."
+      ]
+    },
+    {
+      "number": 31526,
+      "text": "需要倒车时，车辆组合比其他车辆享有优先权，因此公共汽车应倒车。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31527,
+      "text": "需要倒车时，公共汽车比货车享有优先权，因此货车应倒车。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31528,
+      "text": "同类车辆相遇时，通常由下坡车辆倒车，除非上坡车辆倒车明显更容易。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31529,
+      "text": "需要倒车时，车辆组合享有优先权，因此小客车应倒车。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31530,
+      "text": "同类车辆相遇时，通常由下坡而非上坡车辆倒车；如果上坡车辆倒车明显更容易，则是例外。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31531,
+      "text": "这不是随意决定的：同类车辆相遇时通常由下坡车辆倒车，除非上坡车辆倒车明显更容易。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31532,
+      "text": "需要倒车时，不超过3.5吨的车辆通常应让超过3.5吨的车辆先行；还须单独考虑车辆组合相对于其他类别的优先权。",
+      "evidence": [
+        "Codice della strada art. 150(3), https://aci.gov.it/codice-della-strada/art-150/ — hierarchy when reversing is necessary separately gives vehicle combinations priority over other categories; lighter vehicles up to 3.5 t yield to those above 3.5 t."
+      ]
+    },
+    {
+      "number": 31533,
+      "text": "需要倒车时由小客车倒车：车辆组合比其他车辆享有优先权。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31534,
+      "text": "需要倒车时由公共汽车倒车：车辆组合比其他车辆享有优先权。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31535,
+      "text": "需要倒车时由货车倒车：公共汽车比货车享有优先权。",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31536,
+      "text": "涉及与自身行为有关的事故时，必须停车并提供身份信息，必要时还应提供救助。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità."
+      ]
+    },
+    {
+      "number": 31537,
+      "text": "应向受伤人员提供必要的帮助，而不仅限于自己车辆上的乘客。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità."
+      ]
+    },
+    {
+      "number": 31538,
+      "text": "受伤人员需要帮助：发现伤者的人应提供必要的救助或立即通知有关部门。",
+      "evidence": [
+        "Codice penale art. 593, Gazzetta ufficiale, legge 9 aprile 2003 n. 72, nota all’art. 1: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&atto.tipoProvvedimento=LEGGE — finder of injured person provides necessary assistance or immediately informs authority; historical text cited for duty, not current penalties."
+      ]
+    },
+    {
+      "number": 31539,
+      "text": "救援人员需要知道涉及何种物质才能选择适当措施；在ADR运输中，应在可行且安全时尽可能向他们提供相关信息。",
+      "evidence": [
+        "United Nations ADR 2025 vol. II, §5.4.3.4, printed p. 274, https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf — written instructions for an accident or emergency while carrying dangerous goods: notify appropriate emergency services with information about incident and substances, warn others and move away; inspected indexed full text and local exact PDF /tmp/rotonda-adr-2025-vol-ii.pdf."
+      ]
+    },
+    {
+      "number": 31540,
+      "text": "即使没有伤者，危险货物泄漏也可能造成紧急情况，需要救援人员介入。",
+      "evidence": [
+        "United Nations ADR 2025 vol. II, §5.4.3.4, printed p. 274, https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf — written instructions for an accident or emergency while carrying dangerous goods: notify appropriate emergency services with information about incident and substances, warn others and move away; inspected indexed full text and local exact PDF /tmp/rotonda-adr-2025-vol-ii.pdf."
+      ]
+    },
+    {
+      "number": 31541,
+      "text": "在安全可行的范围内警示危险并保障交通安全，有助于防止发生更多事故。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità.",
+        "Codice della strada, art. 161, commi 1–3, https://aci.gov.it/codice-della-strada/art-161/ : ingombro, segnalazione e avviso a ente proprietario o polizia.",
+        "Croce Rossa Italiana, regole di base del primo soccorso, https://cri.it/cosa-facciamo/salute/primo-soccorso/pillole-di-primo-soccorso/ : valutare sicurezza della scena e chiamare soccorsi."
+      ]
+    },
+    {
+      "number": 31542,
+      "text": "题库标为正确，但不可抗力并非所有可能排除法律责任的事由。因自身行为与事故有关的道路使用者必须停车并提供协助。如果实际障碍使直接救助无法进行，应在可能且安全时呼叫急救。",
+      "evidence": [
+        "Official CQC question 31542, source PDF, printed VERO: says force majeure is the sole exception; the quiz does not identify a specific impediment.",
+        "Codice della strada art. 189(1), https://aci.gov.it/codice-della-strada/art-189/ — stop and assist persons injured when the accident is attributable to one’s conduct. Genuine inability to approach does not by itself make an available safe emergency call unnecessary.",
+        "Codice penale art. 54, government legal database: https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+54&codiceOrdinamento=0000000000000540000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B2B29384C-338C-4788-98D2-5AB09937FE07%7D — verified exact one-page PDF /tmp/rotonda-criminal-54.pdf, SHA-256 fe2f4aa31520ea46cb7bdb22b8fb90d9987add4c4154f640f3ec2a671b1fa4c1. Necessity requires present serious danger to a person, not voluntarily caused or otherwise avoidable, and proportionality, with a special-duty exception; applicability depends on facts. Previous 1998 Gazzetta citation was based on indexed extraction whose page in the downloaded file could not be confirmed; it is withdrawn."
+      ]
+    },
+    {
+      "number": 31543,
+      "text": "必须警示危险或障碍，并通知道路管理机构或警方：该规则不取决于时间。",
+      "evidence": [
+        "Codice della strada, art. 161, commi 1–3, https://aci.gov.it/codice-della-strada/art-161/ : ingombro, segnalazione e avviso a ente proprietario o polizia."
+      ]
+    },
+    {
+      "number": 31544,
+      "text": "紧急情况并无伤者人数下限：即使无人受伤，危险货物泄漏也可能需要紧急处置。",
+      "evidence": [
+        "United Nations ADR 2025 vol. II, §5.4.3.4, printed p. 274, https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf — written instructions for an accident or emergency while carrying dangerous goods: notify appropriate emergency services with information about incident and substances, warn others and move away; inspected indexed full text and local exact PDF /tmp/rotonda-adr-2025-vol-ii.pdf."
+      ]
+    },
+    {
+      "number": 31545,
+      "text": "财物价值不能免除对与自身行为有关的事故中伤者提供必要救助的义务。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità."
+      ]
+    },
+    {
+      "number": 31546,
+      "text": "帮助伤者不需要通过课程考试：发现伤者的人可以提供必要救助或立即通知有关部门。",
+      "evidence": [
+        "Codice penale art. 593, Gazzetta ufficiale, legge 9 aprile 2003 n. 72, nota all’art. 1: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&atto.tipoProvvedimento=LEGGE — finder of injured person provides necessary assistance or immediately informs authority; historical text cited for duty, not current penalties."
+      ]
+    },
+    {
+      "number": 31547,
+      "text": "施救前应评估现场安全：让自己置身危险可能增加伤者并妨碍救援。",
+      "evidence": [
+        "Croce Rossa Italiana, regole di base del primo soccorso, https://cri.it/cosa-facciamo/salute/primo-soccorso/pillole-di-primo-soccorso/ : valutare sicurezza della scena e chiamare soccorsi."
+      ]
+    },
+    {
+      "number": 31548,
+      "text": "不要给昏迷者喝水：液体可能进入呼吸道。",
+      "evidence": [
+        "South Tees Hospitals NHS Foundation Trust, Hypoglycaemia, https://www.southtees.nhs.uk/resources/hypoglycaemia-hypo/ : non somministrare cibo o bevande a chi è incosciente."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "6273211f41f31d7b25d07151c7b8464f89a0c81b10927ae4b7d61eb12278073b",
+    "output_sha256": "1bded6c5839d307d807d914f1dd7ee0bc92acaf7405526638c890333ce1289ed",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31524,
+      31525,
+      31526,
+      31527,
+      31528,
+      31529,
+      31530,
+      31531,
+      31532,
+      31533,
+      31534,
+      31535,
+      31536,
+      31537,
+      31538,
+      31539,
+      31540,
+      31541,
+      31542,
+      31543,
+      31544,
+      31545,
+      31546,
+      31547,
+      31548
+    ],
+    "issues": [],
+    "review_evidence": "Reviewed all 25 Italian sources/verdicts and four-language texts, no figures. ACI art150,161,189 and Gazzetta 2003 reproduction criminal code593 directly inspected; ADR2025 vol II exact local PDF p284 printed274 directly inspected; Italian Red Cross and NHS sources checked. Exact 1998 Gazzetta art54 PDF accessible locally but no searchable passage; requested author page. Art150(3) vehicle-combination and mass categories both apply; generic lighter-vehicle explanation overlooks combination-priority scope. Fresh re-review: all four 31525/31532 now qualify weight rule with separate vehicle-combination precedence under art150(3); exact government art54 one-page local PDF SHA256 fe2f4aa31520ea46cb7bdb22b8fb90d9987add4c4154f640f3ec2a671b1fa4c1 directly inspected and prior uncertain GU reference withdrawn.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb8c-d002-7772-abf5-6bebe1bd2ecf",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4bc22f8e3f232441148c054f42a916c051939b0d3627a1d06ce6b7d180416214",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb8c-d002-7772-abf5-6bebe1bd2ecf",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31542,
+              "reason": "Il verdetto VERO afferma che la forza maggiore è l’unica eccezione; le fonti controllate non stabiliscono questa esclusività né chiariscono il rapporto con le altre cause di giustificazione. Serve adjudicazione della portata della frase.",
+              "checked_sources": [
+                "Codice penale art. 593, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15 : chi trova un ferito presta assistenza occorrente o avvisa subito autorità.",
+                "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità.",
+                "Codice penale art. 54, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1930-10-26&atto.codiceRedazionale=030U1398 : stato di necessità come causa di non punibilità a condizioni specifiche."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4bc22f8e3f232441148c054f42a916c051939b0d3627a1d06ce6b7d180416214",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "6273211f41f31d7b25d07151c7b8464f89a0c81b10927ae4b7d61eb12278073b",
+        "output_sha256": "e45e79e09de98eac98b76bbc56a0650129b7d752b59376a98a45f3230729ce7c",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31524,
+          31525,
+          31526,
+          31527,
+          31528,
+          31529,
+          31530,
+          31531,
+          31532,
+          31533,
+          31534,
+          31535,
+          31536,
+          31537,
+          31538,
+          31539,
+          31540,
+          31541,
+          31542,
+          31543,
+          31544,
+          31545,
+          31546,
+          31547,
+          31548
+        ],
+        "issues": [
+          {
+            "number": 31525,
+            "reason": "This categorical mass-based priority omits that CdS art.150(3) separately gives vehicle combinations precedence over other vehicles. The generic quiz wording does not exclude a lighter combination meeting a heavier single vehicle; qualify the mass rule and preserve the printed verdict."
+          },
+          {
+            "number": 31532,
+            "reason": "This categorical mass-based priority omits that CdS art.150(3) separately gives vehicle combinations precedence over other vehicles. The generic quiz wording does not exclude a lighter combination meeting a heavier single vehicle; qualify the mass rule and preserve the printed verdict."
+          },
+          {
+            "number": 31542,
+            "reason": "The exact 1998 Gazzetta PDF is locally accessible but contains no searchable article 54 text; the cited page has not been located. Provide the exact inspected page or an accessible primary reproduction of article 54. The visible distinction between necessity and force majeure and the safe-help instruction are substantively appropriate, subject to source verification."
+          }
+        ],
+        "review_evidence": "Reviewed all 25 Italian sources/verdicts and four-language texts, no figures. ACI art150,161,189 and Gazzetta 2003 reproduction criminal code593 directly inspected; ADR2025 vol II exact local PDF p284 printed274 directly inspected; Italian Red Cross and NHS sources checked. Exact 1998 Gazzetta art54 PDF accessible locally but no searchable passage; requested author page. Art150(3) vehicle-combination and mass categories both apply; generic lighter-vehicle explanation overlooks combination-priority scope."
+      }
+    ]
+  }
+}

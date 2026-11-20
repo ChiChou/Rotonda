@@ -1,0 +1,162 @@
+{
+  "batch": "123",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_late",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "97d5972699103c58ee9ce29ae417390b651f836606b70a47fcac7d4d07816aef",
+  "rows": 100,
+  "verified_ids": [
+    "613ed4bf3532457f8d7d0a88c7d54b570ffe69eb5c0ae92eb421feb3ed261d2b",
+    "07c98fe88467c2a7a02d4881520300bcbb558f97e23f7a2e5393ee9f43084d27",
+    "4c54206ad2e41646211c4b4f3dc44822d2c4107c83c5ff87d75666cdc3846c44",
+    "98b3729fa0a4ca1ebcdeebf2b5ac4a28fa15fcce700ad189d1cd46abe8609932",
+    "b23ddd5021d244f49197131f3fbc225ad49f5a66b9ca8d37d00882263fa168bb",
+    "e4e6019285d191fdefe491f69dd4e4f68a6b975e0a1daf051f1e429bc3f28d71",
+    "e475ccb6b639c2b5277a35e66d150995e1b1e0c33d6b8c0db901afee5e8f3ce6",
+    "b99ed00d8bcff9cbc42136e40f4fb9d7c183376e31fe7b43d0a443fec97e9392",
+    "65598e7b151b2e465a0576db67dedeca735b4d66da4f578e8330f4fee7c60c83",
+    "24b5ecdb1d54571bb29477a5159d2aee9a1498f67db03071e979e19de0a92a58",
+    "17087eb1ce8fbeafa84de6bb905fc1baed9dfb9c89eba45cbd898fb731bdb292",
+    "c632d2965fe3e6777029133412c074c8b8a490708364ba1657759eb126f4e7d7",
+    "e8a77a77bcb13d0b914350004d496acf27595dffdadd6c3e0b960ec4e1aeba86",
+    "e1c9dfef14ee3088133e011ba86cf4ebe83ef4498fb34efbcfef75d4c7e2f056",
+    "9cfec0f3449631893e1f6637dddffaebbb18f6a4be2876cef7af9dcafd7d0b5a",
+    "a9887e6798b823ed798e262c52a5e44a8c7b89a8d1f071fa4bfb6a850b1f3130",
+    "8bcac5823eb7ec7feddc08c6be91a611894278eb484206d83cfd55a3eade0d18",
+    "f80873dc3c402578d2840b8e2bb5ad656f7f624c9d4549741f637c60910fea02",
+    "eba98005d534070a066ffd27a70ba1ad1b3d46c8ae621c6ff6d903fc8bf484e4",
+    "bacbfe2cddff98f60732ad370014912520aed8418df2b8885b96362497a43e6e",
+    "12c242296fc471b520040430b451ac857ffe1f0f7841feb07ef69a4517a88e3e",
+    "4e6b0513d060505b73b1e0f32d9a7bfb22036ab5f50633e35ebf1c727833ec48",
+    "0c7f53f6b037a81ca16118050ca5336ef2c1a0e1b88ffa82544e84aef8b41856",
+    "718a70f5a08a692b33e4c422e6285743f6fa05fd3ac2a9455542af41dd21d9ab",
+    "6e348d1619190baaec055d4915b6c0f0310620dbb1e28faa40d815d73c9cc16d",
+    "08a2e57f972de630bde0a967cef36d74079af111459087c2f03bf545d3612aed",
+    "67710f554ee04e5814b255c2a674fe2558409962666af0d28a1e37c7473973c4",
+    "0b01f7d9b820b89b99b8232b5974db3f1b2dca53619b6459fe377a3d25f0fa9d",
+    "614635a1e5d42f784c43fc54c75649da68685b4a6757a295b7721fdf4e5d619a",
+    "9b1a9de4b69ad2d506d93c92e54f0675f95f6ba8d93925bec06221793cc931d3",
+    "93aa4fad47336f4e73027ec22959de13fc26dd57887de2732d549bd4319e3261",
+    "447b5cbccd3b29fcca248a49de0792428f837f259a7026ff38057ed9ec34c101",
+    "81bbfe674245c7dd12ee2ace757b9fd34f8916168514fb5923cdfde7fd95c71c",
+    "2b3d7496e9bbd83226485770c41c12e42a6c3d16c4b6083fcba14daf4adcb2ae",
+    "1b313e61b6c942de1cf74e7fbb65acf0a01b3878c309cc3f425d4b923169f72a",
+    "0d24d45257bda008e6fe7ded90a160aa96f5daff9af2dcfc5ac0674dca3bfb93",
+    "5e808c4234a19d448485f563e6ada74c2cf9d1b6564c31dab4800a3e2905c6da",
+    "7167bb7bd33def4484ddfa72ae666d6f7991763fb565dde32ad18ab811709acc",
+    "bacf53c135f3d72955bf345c3c0e6d19b4a7ceccb72bc61aafd1535fe7ad5b3a",
+    "70755c8b48df6baf34046b89e72604974be98766a97fc34778d1098040e6098f",
+    "34fe2146a6151d9c7b8a7df1441a12794e719271d81016f8eaed18a000d3b772",
+    "d0b2d645b9ce755109d1daadcdfe2fedb5809d278a8a2874781a3908061a9241",
+    "c1cc1bac5f382a20732c4ecf729bf78b37796dc9cf54a7cc32d276967c771153",
+    "eebec3fbfba10a15761d1bda29277d7fca5e0508a7bd80ca701c25db012d9cb3",
+    "8bb536d1ac57d52616268e9fd62ef0b3ffe09e52deae45aad5f9a8ba0209b508",
+    "35074bc8261ad545db179b3455316d0e1023870993fd2f01f5b6c8ea90e6df8e",
+    "81a2e34c958f192d9730cdb580c0207c4161706767847594392a77e248c96ac7",
+    "9d8c5874ebc643cacb8b2cfee06725520dacc80dc65837fb39f61b08add6385b",
+    "63c9b2e7e098eb33fa394a61e182921441c597a0c903566cd63bd0222a015ded",
+    "fd003c77f8380efc28e41f25a825d1e89ec4f05b6f03521747b6915caf35fe12",
+    "c889de4f0bd101df123b123ecbf5e8ea64f3512842da63c8916705a0e51f8858",
+    "2c494122be9e94e20f6a33eb224412e52d9e0aac6d0d3b7b03b718b73dfb4635",
+    "a9e5abf6439adb6835d343c1145c81b3ac7893470c9d37f1388a15c451236318",
+    "c5757e0fb51cacf0cd51de4b1b97bf10a68a67405c596f20958918b67231f51a",
+    "d99b33ec3345db93e0abfd04db731b6e399f6256087e4c6cb7cbbb0d1f438b60",
+    "d7afd7d89c7a354b5305d13c46f06d325ae0ba25b1f4c0767ef1a944d9e985a3",
+    "497afeca2c3bdcbd0314f77a02f74a8ed361f9222bf0b808f95d301e916b70e0",
+    "6399cb82811c4741d11534109e5e68ec874ac5013a2bec04f3d5407de89d4d6a",
+    "f1ae8588915ea2063beebcde187e1edae7f3430180457ead626e2b98095b6abf",
+    "7d261b9d27bac6b5ddd1739ccf9ad11c88d0616b0f027094cf217aa74fae79dd",
+    "997f47b2e57b5ab179821055661d7812795c68f8e6441be76e0ff86062b8c7fe",
+    "8e81888e8df47407babc4bec63862cae0446cca1cbe481ece281371550cc97df",
+    "0767dbfa8591b8db38970f16530755903cf75c42aea1ac235a1c85164428fa1c",
+    "2c6dc0d6c79ef91b79f0599da053ddbb8b188ad7ce192ac1842af9a9e180b254",
+    "3c1ccd465fc39489e74cccc1334c53a9e6b1ece0ede24e18891397b87ddfeec2",
+    "1ba80ffbb9db8a122d5c0759a6c2e8833d0dd7c1438a85f47d5cde9862e71663",
+    "ef902722981bce5da69f647d9aae8440fd39ba9b01fe32670351d3dea165d35a",
+    "9a5659ead21504ad15346710fed81a8ce8f181426c3c6fa5f5280d333ba69e48",
+    "19dc4b1e487ad50598c5b631fc6a5dc92a6e976fb7e7a2cbdb240ac66f42121f",
+    "e20eb17c251fc3da352b72a08dec8522519217cb588c26c7fcfdf05c61441c24",
+    "45962d5aa80eb000514cafe23644f0cc618eecc5b2b1e65748cec9365a52e383",
+    "4bfe840c01b67b64a856c079122a3a1a1a3765678fc64d49a18c52a11d63ac39",
+    "c142c73c89728d838c80984878ea09c184b3b4c3cf411113cfa5f9ed0e7922b0",
+    "d536b36862d3ab51df79d7fa8dc9aee0743be00ad21016aab44359dcfc68fd68",
+    "7d62160ce205cbca453014017eb7975b91968a418ac92566846a742f11800dcb",
+    "aa1b3f04f4652d6b16d772c8179decacdec8198f0c3a253ece95a20cb018ecdb",
+    "caf95a9f4ed3491b31c8202079e6e80734e9e8e795c0490629808f42892830c1",
+    "6a2367b64c6c6fedb538b11d0c840d0257b78b3bb20fca284e47fc49ec720bde",
+    "1efe0b0ba0952b050abb6dc55d56b9736ed19c6f9932d98c31c9a576bd8e857e",
+    "541e0a84790c7dd55db31ba36ffd75a372bebcdda807277cbf21bfc842a062e2",
+    "ee75577aa24b4631b12f7353dc6224fde97236f5aeb28a6d0d7e8d22a35399ec",
+    "1e803ded56ae7c5cb1967835ff5cfcc313afc8c2f246987455d7d6bfc5dc9224",
+    "5ea8872279db236ba712e869a50878d9b6076382768a063fb2f3085c1f4b2502",
+    "d31b0bcaddb859c967cee3db3fd12592dfb24b66ba300ced432e38e03d349953",
+    "7f91c7bc89eb15a551658bbd0cf911d916bbb8324cf639fcecb39c312f489b02",
+    "fab7661840188382a7dafbb9c30e1cc095ec670875f6a5aa133a1c8a85fc5a82",
+    "61fffcf7a1fbc854ce6426052ffa0f3e5d88417170f7cd6c6b2fae10b44d4ac7",
+    "7cb6ff4200f9bce8ad9c530f8dfc04a7eaf408731af4faeba9526dc10233957d",
+    "25b63d204cbf671e7491086a32f6e7cea97f52866083eec3ac319cd89509fb4f",
+    "c29a71399434ccedacc97a671beefb055e25852d008ddfcf3e9078ab40776c44",
+    "0a5025e23eedd8e66e298cbeaa6ffded2cc5eb63098865d37b91bde66e2ecbf4",
+    "e6d264356713e19f249e82da379dd25ff2779152fa9939b10ca8175f9af41629",
+    "43cf09f881901a31236ec469e07838363a16e95294cc7e606dccc21759902a7b",
+    "ce03e2f9e197d980d6142db209543000b45e4749f2f2751f4f2579ebcc0c9177",
+    "5f46eb6e3729194f2457e97d3d93b5daaf375dca64d3e63c0b33ba6da1c64ac4",
+    "35cb94ffdf2ea799ac6bd4def6167199412fae54fa721d43d247f38638e94e3b",
+    "e302b15b1134f734f592aa94c2b1899c613cd90bd5dd4b7f16ffe3fffbf316ca",
+    "e8489b100698773312a679f122dbab4bc83232403394e80d5f10a4179e676a01",
+    "b9cbf3e202f29285a340749298265c202e387a4449694433ebd8f70730ac3505",
+    "5ac08519ef73ba530084212c8943f0b96aaf81f9badf2e740315d381394328a9"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "3c1ccd465fc39489e74cccc1334c53a9e6b1ece0ede24e18891397b87ddfeec2",
+      "reason": "'Si definisce sovrasterzante' is a definition; the English stated a bare property instead of the definitional form.; 'Si definisce' is a definition; the Chinese stated a bare property instead of a definitional form (是指).",
+      "changes": {
+        "en": {
+          "before": "An oversteering vehicle tends to turn too sharply.",
+          "after": "An oversteering vehicle is one that tends to tighten the bend excessively."
+        },
+        "zh": {
+          "before": "转向过度的车辆倾向于过分收紧弯道轨迹。",
+          "after": "转向过度的车辆是指倾向于过分收紧弯道轨迹的车辆。"
+        }
+      }
+    },
+    {
+      "id": "1ba80ffbb9db8a122d5c0759a6c2e8833d0dd7c1438a85f47d5cde9862e71663",
+      "reason": "'Si definisce' is a definition; render as a definition, not a bare generic statement.; 'Si definisce' is a definition; render as a definitional form (是指), not a bare generic statement.",
+      "changes": {
+        "en": {
+          "before": "An oversteering vehicle tends to turn more than the driver's steering input calls for.",
+          "after": "An oversteering vehicle is one that turns more than the driver's steering input calls for."
+        },
+        "zh": {
+          "before": "转向过度的车辆倾向于比驾驶员方向盘操作要求的转得更多。",
+          "after": "转向过度的车辆是指转向幅度超过驾驶员方向盘操作要求的车辆。"
+        }
+      }
+    },
+    {
+      "id": "c142c73c89728d838c80984878ea09c184b3b4c3cf411113cfa5f9ed0e7922b0",
+      "reason": "'Si definisce sottosterzante' is a definition; render in definitional form.; 'Si definisce' is a definition; render in definitional form (是指), keeping the Italian claim.",
+      "changes": {
+        "en": {
+          "before": "An understeering vehicle tends to tighten its path through a bend.",
+          "after": "An understeering vehicle is one that tends to tighten its path through a bend."
+        },
+        "zh": {
+          "before": "转向不足的车辆倾向于收紧弯道轨迹。",
+          "after": "转向不足的车辆是指倾向于收紧弯道轨迹的车辆。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "7016147aa219570f6416e1c52818e404a0cb84dde18287d6eee7197a04767fec"
+}

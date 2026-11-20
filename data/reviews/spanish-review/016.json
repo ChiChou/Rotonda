@@ -1,0 +1,37 @@
+{
+  "batch": "016",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "5029e49185a92ebbc318f6916f64d574140049efdb1ea2be9252a60b26e56860",
+  "source_sha256": "820a1b038d90f116427b382b87564eb949a77ef05fd335f1903d65b5521f9033",
+  "corrections": [
+    {
+      "id": "15da1b52b86c9110956da18eac2630a42571501b2f27fcb9b4b3d8f063233b23",
+      "before": "Según el CMR, los daños derivados de la omisión y la inexactitud de los datos de los documentos de transporte no corren a cargo de nadie",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), los daños derivados de la omisión y la inexactitud de los datos de los documentos de transporte no corren a cargo de nadie",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "1664f4038be718c4cc6370632e4803aec633f5ff6fc52415e5e1511de4137630",
+      "before": "Según el CMR, la duración del transporte debe indicarse solo en la carta de porte",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), la duración del transporte debe indicarse solo en la carta de porte",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "1671bbd775a31c1092423f1fb2481fd9132cdbdbc40c4bb5fdd871e325edc0a8",
+      "before": "La señal mostrada advierte de un área de descanso",
+      "after": "La señal mostrada advierte de un área de estacionamiento",
+      "reason": "Área de sosta es un lugar para detener el vehículo, sin implicar necesariamente instalaciones de descanso.; Italian 'area di sosta' is a parking area (sosta), not a stopping area (fermata)"
+    }
+  ],
+  "reviewed_file_sha256": "939c84d629d6483d0400cdda422767c7c2b92629cb9cd0ce4175d2217d7fc7d2"
+}

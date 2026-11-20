@@ -1,0 +1,49 @@
+{
+  "batch": "090",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "0847d219067638a974589fe10915c67edee9cad76771b0507f83389ec1d8b9ec",
+  "source_sha256": "fb1bc8bd078999c162d8e8fec6e53d4fdfac065a4888482f452f8f1a52f4caaa",
+  "corrections": [
+    {
+      "id": "777117705824cbc609677ba582de902b9bdad6bed6480f52f51fcfdeb2718f19",
+      "before": "Los almacenes y recintos aduaneros de depósito temporal suelen estar situados a menos de 50 km de la frontera",
+      "after": "Los almacenes y recintos aduaneros de depósito temporal suelen estar situados a una distancia de hasta 50 km de la frontera",
+      "reason": "Hasta 50 km conserva el límite inclusivo de entro 50 km."
+    },
+    {
+      "id": "77fd68fbbc0970c3c0003e608158c02b7bab3b0c2f7b9e2a718f99a101f9c2fe",
+      "before": "La normativa vigente sobre duración máxima de conducción no se aplica a los conductores de vehículos de masa máxima superior a 3,5 t que llevan remolque",
+      "after": "La normativa vigente sobre duración máxima de conducción no se aplica a los conductores de vehículos de masa máxima superior a 3,5 t que remolcan un remolque",
+      "reason": "'trainano' means tow; 'llevan remolque' (carry a trailer) changes the meaning"
+    },
+    {
+      "id": "783719a68743f40bea63a0c287e73e6fc856bc7da1bd971aba91ad0449386b68",
+      "before": "Según el CMR, la recepción de la mercancía es un acto complejo que comprende su carga y el traslado de su posesión del remitente al transportista",
+      "after": "Según el CMR, la toma en carga de la mercancía es un acto complejo que comprende su carga y el traslado de su posesión del remitente al transportista",
+      "reason": "'presa in carico' is taking charge of the goods, not receipt"
+    },
+    {
+      "id": "78844221ee34720638a6d0cf1758384c301c2b3de4b6592c17dea738ba9806c7",
+      "before": "El transporte por carretera garantiza mayor rapidez del servicio",
+      "after": "El transporte por carretera garantiza un servicio más oportuno",
+      "reason": "Tempestività alude a la oportunidad del servicio, no solo a su rapidez."
+    },
+    {
+      "id": "788486007077e583d45f9ac3f6b7ea11d660bf798e8e9ff21a63f4c82231e2e8",
+      "before": "El transporte de mercancías por carretera garantiza, en ciertos casos, mayor rapidez del servicio",
+      "after": "El transporte de mercancías por carretera garantiza, en ciertos casos, un servicio más oportuno",
+      "reason": "Se conserva la oportunidad del servicio expresada por tempestività, no solo su rapidez."
+    }
+  ],
+  "reviewed_file_sha256": "1d1a0c2004f7a96e02cd3f10b7deea292979dc080a571481cb9b21dfb2b0a321"
+}

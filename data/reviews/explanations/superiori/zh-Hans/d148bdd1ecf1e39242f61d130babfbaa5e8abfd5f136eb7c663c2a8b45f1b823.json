@@ -1,0 +1,638 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29457,
+          "quesito_id": 6170,
+          "text_it": "Il metano, per essere usato quale combustibile per autoveicoli, deve essere compresso a circa 4 bar",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "90d2df7d2dd01dedc4f163bb7ce0594b19a074d18cdb2f51263cc18e288ad52f",
+        "localized_text": "甲烷用作机动车燃料时必须压缩至约4巴。"
+      },
+      {
+        "source": {
+          "number": 29458,
+          "quesito_id": 6170,
+          "text_it": "A parità di volume del serbatoio di un autoveicolo, il \"pieno\" di metano compresso garantisce una maggior autonomia di viaggio rispetto alla benzina",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1970583a2df0eae3636dcbd5da3d92cc1d3eb7073c8aac625f46e35a074d313c",
+        "localized_text": "机动车油箱容积相同时，加满压缩甲烷的续航里程比汽油更长。"
+      },
+      {
+        "source": {
+          "number": 29459,
+          "quesito_id": 6170,
+          "text_it": "Il metano si miscela male con l’aria e quindi brucia emettendo maggiori residui inquinanti",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0515d52ab4c86b880ca857672bf42038b7323066c11868c1b7d18e34afe90dfb",
+        "localized_text": "甲烷与空气混合不良，因此燃烧时产生更多污染残留物。"
+      },
+      {
+        "source": {
+          "number": 29460,
+          "quesito_id": 6171,
+          "text_it": "Non è opportuno sostituire un fusibile con uno di amperaggio diverso",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bb90bdf1e3da80ba1161eb09b37565f068cc10e10b96e9daf5e84f3a527a0df5",
+        "localized_text": "不宜用额定电流不同的保险丝更换原保险丝。"
+      },
+      {
+        "source": {
+          "number": 29461,
+          "quesito_id": 6171,
+          "text_it": "Tutti i fusibili sono raccolti in uno o più contenitori facilmente accessibili",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f33fb5b7c9ed04c3d814e95aa3474a06d9471fe2b68d6441bc1fb818c5d5639c",
+        "localized_text": "所有保险丝集中在一个或多个容易接触的盒子中。"
+      },
+      {
+        "source": {
+          "number": 29462,
+          "quesito_id": 6171,
+          "text_it": "Ogni fusibile è distinto dagli altri per il colore e per il numero scritto sulla sua parte in plastica",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e610cdff1c3abd59220ca92ceba78ca189ef10b68dda14a9a0aa9eec56cace92",
+        "localized_text": "每个保险丝通过颜色和塑料部分上的数字与其他保险丝区分。"
+      },
+      {
+        "source": {
+          "number": 29463,
+          "quesito_id": 6171,
+          "text_it": "Il fusibile è un dispositivo in grado di interrompere il flusso di corrente a un apparato se questa supera una soglia prefissata",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a750c116faad13abaa2339e9be91dff63e06e001063ec947bc5f1b2a2c8400fe",
+        "localized_text": "当电流超过预设阈值时，保险丝会切断流向装置的电流。"
+      },
+      {
+        "source": {
+          "number": 29464,
+          "quesito_id": 6171,
+          "text_it": "I fusibili sono costituiti da un contenitore al cui interno è presente un filo metallico dimensionato in modo tale da fondere se la corrente che lo attraversa supera un valore limite",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3c98d9d7368fd43f48c1ad59044a66dec2c92557b399c5502cb345d8248134e0",
+        "localized_text": "保险丝由壳体和内部金属丝组成，金属丝按电流超过限值时熔断的要求设计。"
+      },
+      {
+        "source": {
+          "number": 29465,
+          "quesito_id": 6171,
+          "text_it": "La posizione della scatola dei fusibili è indicata sul libretto di uso e manutenzione",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7a3f05bc777720dd9d1a5e1b324178b637c3d9dce3be69e64f56ae75738c893a",
+        "localized_text": "保险丝盒的位置载于使用和维护手册中。"
+      },
+      {
+        "source": {
+          "number": 29466,
+          "quesito_id": 6171,
+          "text_it": "La parte isolante dei fusibili ha in genere colori differenti a seconda del loro amperaggio",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b33dfb2773482b4562679a6f4c128edd7b1622ca830e758d33291d73f3405277",
+        "localized_text": "保险丝绝缘部分通常根据额定电流采用不同颜色。"
+      },
+      {
+        "source": {
+          "number": 29467,
+          "quesito_id": 6171,
+          "text_it": "Sui fusibili si trova scritto il valore del loro amperaggio",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cd47cd93a331849382144cd3a02b800d9017c5f619104f59ad105d9b1ff7cf8f",
+        "localized_text": "保险丝上标有其额定电流值。"
+      },
+      {
+        "source": {
+          "number": 29468,
+          "quesito_id": 6171,
+          "text_it": "Il valore dell’amperaggio di un fusibile è un numero seguito dalla lettera A maiuscola",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8d9f76c0b6250f5ed5d6ba2e4191a34b74b0e37c96331a3d1a80c760ee168c59",
+        "localized_text": "保险丝额定电流以数字后接大写字母A表示。"
+      },
+      {
+        "source": {
+          "number": 29469,
+          "quesito_id": 6171,
+          "text_it": "L’impianto elettrico di un autoveicolo è suddiviso in sezioni, ciascuna protetta dal proprio fusibile",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5fbdecdbad7a323a2a39f684fc04de0ed08eb77cc12db0bfec08de51e2b26982",
+        "localized_text": "机动车电气系统分为多个部分，每部分由自己的保险丝保护。"
+      },
+      {
+        "source": {
+          "number": 29470,
+          "quesito_id": 6171,
+          "text_it": "I circuiti elettrici dell’autoveicolo sono raramente protetti da un fusibile",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "89df9a4619fdd602606adb59bac92698e7a2da8f6f964f4f7d0c891f2142458c",
+        "localized_text": "机动车电路很少受保险丝保护。"
+      },
+      {
+        "source": {
+          "number": 29471,
+          "quesito_id": 6171,
+          "text_it": "I fusibili sono sostituibili solo in officina",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8772b1f04b3cabd49363f7734ec4df9424725b189aeacb0e4a0b35ec045d2274",
+        "localized_text": "保险丝只能在维修厂更换。"
+      },
+      {
+        "source": {
+          "number": 29472,
+          "quesito_id": 6171,
+          "text_it": "Se non si dispone di un fusibile sostitutivo uguale, occorre sostituire quello guasto con uno di amperaggio minore",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ea0d4b1648dc5be60f937348bea216522a3fdb6a2b5afecf2bca54083432f75f",
+        "localized_text": "如果没有相同的备用保险丝，必须用额定电流较低的保险丝替换故障保险丝。"
+      },
+      {
+        "source": {
+          "number": 29473,
+          "quesito_id": 6171,
+          "text_it": "Tutti i fusibili vanno sostituiti ogni volta che si effettua la revisione periodica del veicolo",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "677e650a8f824e064ca8151c306a1a3480f878af9252976200f333bfdc57868a",
+        "localized_text": "每次车辆进行定期检验时必须更换所有保险丝。"
+      },
+      {
+        "source": {
+          "number": 29474,
+          "quesito_id": 6171,
+          "text_it": "Il fusibile è un dispositivo idraulico che è in grado di proteggere l'impianto di lubrificazione da eventuali sovrappressioni",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5befca67a786267ee53acb011ddf385c5476fa3e150b98e344eb7dfef1d77f3a",
+        "localized_text": "保险丝是一种保护润滑系统免受超压的液压装置。"
+      },
+      {
+        "source": {
+          "number": 29475,
+          "quesito_id": 6171,
+          "text_it": "Sui fusibili si trova scritto il valore del loro voltaggio",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "220a3f2232cf597430c99bd1b5dbca37c69843cb3024ecab1405fca964d9a70e",
+        "localized_text": "保险丝上标有其电压值。"
+      },
+      {
+        "source": {
+          "number": 29476,
+          "quesito_id": 6171,
+          "text_it": "Il valore del voltaggio di un fusibile è un numero seguito dalla lettera V maiuscola",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "487d3fea5e04583be269c4e50786f2fa44dedee590f0b112d757aa887b51535f",
+        "localized_text": "保险丝电压以数字后接大写字母V表示。"
+      },
+      {
+        "source": {
+          "number": 29477,
+          "quesito_id": 6171,
+          "text_it": "I fusibili di colore rosso possono essere sostituiti solo da addetti delle officine specializzate",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ce84c6f476cdbd4b60c7c3ebcd325177244c678748dc7ef171deb2f69bb65b63",
+        "localized_text": "红色保险丝只能由专业维修厂人员更换。"
+      },
+      {
+        "source": {
+          "number": 29478,
+          "quesito_id": 6171,
+          "text_it": "Se lo stesso fusibile brucia spesso è bene sostituirlo con uno di amperaggio inferiore",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8449cbf00ef4045d7381e274d7b830aac5262c67998431a9ceabe62145e1bd28",
+        "localized_text": "如果同一保险丝经常熔断，宜换用额定电流较低的保险丝。"
+      },
+      {
+        "source": {
+          "number": 29479,
+          "quesito_id": 6171,
+          "text_it": "Se lo stesso fusibile brucia spesso è bene sostituirlo con un cavallotto di filo elettrico",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2a1b918bc889a717ececfa6b842415ca120af969ba8c84c27818ea4b7a63ad5a",
+        "localized_text": "如果同一保险丝经常熔断，宜用电线跨接代替。"
+      },
+      {
+        "source": {
+          "number": 29480,
+          "quesito_id": 6171,
+          "text_it": "La sostituzione di un fusibile va fatta con la chiave del quadro inserita, in modo da vedere subito se si è operato correttamente",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4deac42e043feb8c7c882f3ec0dc7b7eb420232ece4252982a5c5dab50f657a0",
+        "localized_text": "更换保险丝时应插入点火钥匙，以便立即检查操作是否正确。"
+      },
+      {
+        "source": {
+          "number": 29481,
+          "quesito_id": 6171,
+          "text_it": "Nei veicoli pesanti, tutti i fusibili hanno di norma il medesimo amperaggio",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "263f12198363468cf2cedd6be73571efd384b2875c0f4a42830179c6b621bbd9",
+        "localized_text": "在重型车辆中，所有保险丝通常具有相同额定电流。"
+      }
+    ],
+    "task_sha256": "d148bdd1ecf1e39242f61d130babfbaa5e8abfd5f136eb7c663c2a8b45f1b823"
+  },
+  "rows": [
+    {
+      "number": 29457,
+      "text": "压缩天然气以远高于4巴的压力储存，以便车上携带足够的燃料。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/natural-gas-filling-tanks: pressione nominale tipica 3.600 psi, circa 248 bar."
+      ]
+    },
+    {
+      "number": 29458,
+      "text": "压缩天然气的单位体积能量密度低于汽油，因此相同容积的满箱并不能保证更长的续航里程。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/natural-gas: minore densità energetica e autonomia generalmente inferiore ai veicoli a benzina comparabili.",
+        "https://afdc.energy.gov/fuels/natural-gas-basics: consumo comparabile per equivalente energetico di benzina."
+      ]
+    },
+    {
+      "number": 29459,
+      "text": "天然气主要由甲烷组成，能迅速与空气混合。排放还取决于发动机及其调校，不一定因为混合不良而增加。",
+      "evidence": [
+        "https://www.sciencedirect.com/science/article/pii/S1364032114004055: miscelazione rapida e possibilità di riduzione di diversi inquinanti.",
+        "https://afdc.energy.gov/vehicles/natural-gas-emissions: emissioni variabili con veicolo, impiego e calibrazione."
+      ]
+    },
+    {
+      "number": 29460,
+      "text": "应使用规定类型和额定电流的替换件：额定值不同可能导致不必要的熔断或保护不足。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29461,
+      "text": "保险丝通常集中在盒内；车辆手册说明盒子的位置和打开方法。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29462,
+      "text": "常见的片式保险丝通过颜色和数字表示额定电流，因此额定电流相同的保险丝可以有相同的颜色和数字。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo.",
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego."
+      ]
+    },
+    {
+      "number": 29463,
+      "text": "过电流使保险丝内部元件熔断并切断电流，从而保护电路。",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego.",
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29464,
+      "text": "内部金属元件设计为在过电流时熔断，从而断开电路。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo.",
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego."
+      ]
+    },
+    {
+      "number": 29465,
+      "text": "使用手册说明保险丝盒的位置，帮助找到相关电路的保险丝。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29466,
+      "text": "常见片式保险丝绝缘部分的颜色有助于识别额定电流；还应核对标示的数值。",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego.",
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29467,
+      "text": "保险丝上的数字表示额定电流，有助于选择规格相同的替换件。",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego.",
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29468,
+      "text": "额定电流以安培表示，符号为A；数字表示保险丝的额定电流。",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego.",
+        "https://www.bipm.org/en/measurement-units/si-base-units: ampere, simbolo A, unità SI di corrente elettrica."
+      ]
+    },
+    {
+      "number": 29469,
+      "text": "不同电路由各自的保险丝保护，因此故障可以只切断受影响的电路，而不必切断其他所有电路。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29470,
+      "text": "保险丝保护很常见：各电路分别由适合其负载的保险丝保护。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29471,
+      "text": "可以按照手册更换容易接触到的保险丝，使用规格相同的替换件。如果故障反复出现，应检查电气系统。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29472,
+      "text": "不能把较低额定电流作为必须的替代选择：应使用该电路规定的保险丝类型和额定值。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29473,
+      "text": "不必在每次定期检验时更换所有保险丝：应找出并更换熔断的保险丝；如果问题反复出现，应查找原因。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29474,
+      "text": "保险丝是电气保护装置：它在过电流时断开电路，而不控制机油压力。",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego."
+      ]
+    },
+    {
+      "number": 29475,
+      "text": "试题标为 FALSO：常见汽车熔断器上用于选择保护规格的数字表示额定电流，单位为安培。熔断器也有额定电压，可能标在上面，不能一概排除。",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: tensione nominale 32 V e gamme di corrente; la marcatura fisica non è stata risolta visivamente.",
+        "https://www.fuseco.com.au/fuses/products/auto — Fuseco: tra le possibili marcature sono elencati tensione e corrente nominali."
+      ]
+    },
+    {
+      "number": 29476,
+      "text": "试题标为 FALSO：选择熔断器时应核对额定电流，单位为安培（A）。熔断器也有额定电压，V 是伏特的正确符号；试题答案并不否定这一单位。",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse: tensione nominale 32 V e correnti nominali in A.",
+        "https://www.fuseco.com.au/fuses/products/auto — Fuseco: tra le possibili marcature sono elencati tensione e corrente nominali."
+      ]
+    },
+    {
+      "number": 29477,
+      "text": "颜色表示保险丝的额定电流，并不意味着只能在维修厂更换。应遵循车辆说明并使用相同规格的替换件。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo.",
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego."
+      ]
+    },
+    {
+      "number": 29478,
+      "text": "保险丝反复熔断可能表示存在故障：应检查电路并使用规定的额定值，而不是选择较低的额定值。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29479,
+      "text": "用电线代替保险丝会失去过电流保护。如果保险丝反复熔断，应检查电路。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29480,
+      "text": "更换保险丝前应关闭点火开关和用电设备，然后使用规格相同的替换件。",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29481,
+      "text": "重型车辆也使用不同额定电流的保险丝，按所保护的电路选择。",
+      "evidence": [
+        "https://www.littelfuse.com/assetdocs/passenger-commercial-vehicle-aftermarket-products-catalog?assetguid=4b565fce-3f7e-4c34-95ce-d1f2a4f88d84: fusibili per camion e autobus e tabella di correnti nominali differenti."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "d148bdd1ecf1e39242f61d130babfbaa5e8abfd5f136eb7c663c2a8b45f1b823",
+    "output_sha256": "b96d2682199a55e8c84329a395890f933c96a532de9eeb4c91403a388df42426",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / rail-fuel-fuses-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29457,
+      29458,
+      29459,
+      29460,
+      29461,
+      29462,
+      29463,
+      29464,
+      29465,
+      29466,
+      29467,
+      29468,
+      29469,
+      29470,
+      29471,
+      29472,
+      29473,
+      29474,
+      29475,
+      29476,
+      29477,
+      29478,
+      29479,
+      29480,
+      29481
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Independent browser access to cited Ford c346 PDF failed due to 24 MB extraction limit; inspected instead indexed manufacturer manual https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/F250.pdf with matching-rating replacement, ignition/equipment off, and fuse color/current chart. Littelfuse FKS ATO data and Fuseco physical markings guidance independently inspected. Littelfuse commercial catalog browser response exceeded extraction limit; no independent read claimed.",
+      "Subsequently inspected complete local exact Ford c346 manual /tmp/rotonda-ford-c346.pdf SHA-256 d2731782ea6b1ce7d0819fc66cd5210379c163ad16b9563eb3bc574135cf3dcc, PDF page 150 / printed p.149: ignition and electrical equipment off, matching rating; high-current fuse replacement by trained technician. Exact source https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaf5-1ab2-7181-a125-543c572f6105",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "8998943615ba3cedb41404fdfc6a8349d3d12be65fc2e267b27b10e6dea09976",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaf5-1ab2-7181-a125-543c572f6105",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29475,
+              "reason": "La risposta stampata è FALSO, ma un fusibile automobilistico reale porta anche la marcatura della tensione; la formulazione non limita la domanda al solo valore usualmente mostrato.",
+              "checked_sources": [
+                "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf: scheda Littelfuse FKS-32, fotografia del fusibile contrassegnato 40A/32V.",
+                "https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/automotive-aftermarket-products-fuses/blade-fuses-shunts-automotive-aftermarket/ato: corrente nominale marcata e tensione massima di 32 V."
+              ]
+            },
+            {
+              "number": 29476,
+              "reason": "La risposta stampata è FALSO, ma la tensione nominale di un fusibile si esprime in volt, con simbolo V; il testo non dice che V indichi la corrente.",
+              "checked_sources": [
+                "https://www.littelfuse.com/assetdocs/north-america-automotive-aftermarket-catalog?assetguid=13ad227a-4401-4c48-9fc7-35f9733c6d29: fusibili automobilistici con tensione nominale 32 VDC.",
+                "https://www.bipm.org/en/measurement-units/si-derived-units: volt, simbolo V, unità SI della tensione elettrica."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "8998943615ba3cedb41404fdfc6a8349d3d12be65fc2e267b27b10e6dea09976",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "batch": "151",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "22c8ae2c7784b6ba3bf5a91a242fb2bdbcfa0c53cb77d729a369c56934929715",
+  "source_sha256": "012216fef813595b28172dfae20db3ed73e885d7d71521cdf18f51c33dccfb9b",
+  "corrections": [
+    {
+      "id": "c7592c8fa1e34c539ea5bcc08a64d4c51a689aac4983da1ecffc7cc51222c253",
+      "before": "Si se enciende el testigo de lubricación, significa que hay que cambiar el aceite antes de cinco mil kilómetros",
+      "after": "Si se enciende el testigo de lubricación, significa que hay que cambiar el aceite dentro de cinco mil kilómetros",
+      "reason": "Dentro de conserva el plazo máximo indicado por entro."
+    },
+    {
+      "id": "c7ce836aded2ce4079f5e6d9f76efc2513cb6035937181cf4f40f6f4d48ee22b",
+      "before": "Según la normativa ADR, un vehículo entoldado es un vehículo que también puede tener arcos, es decir, estar provisto de arcos y una lona",
+      "after": "Según la normativa ADR, se entiende por vehículo entoldado un vehículo que también puede tener arcos, es decir, estar provisto de arcos y una lona",
+      "reason": "Definition marker: Italian 'si intende' should read 'se entiende por'"
+    },
+    {
+      "id": "c82df9d71f9973671c8f97da38a34390becceaf4ead9e82a5c3bb785450a3195",
+      "before": "En los autobuses, las puertas de servicio se usan en condiciones normales para el ascenso y descenso de pasajeros",
+      "after": "En los autobuses, las salidas de servicio se usan en condiciones normales para el ascenso y descenso de pasajeros",
+      "reason": "Uscite indica salidas de servicio, no necesariamente puertas."
+    }
+  ],
+  "reviewed_file_sha256": "4c5d1f30786a9a0c4644d6bd3137b6faccab9ede2f827b65054c3b4ca20c4baa"
+}

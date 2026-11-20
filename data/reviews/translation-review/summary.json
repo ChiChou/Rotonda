@@ -1,0 +1,51 @@
+{
+  "reviewed_on": "2026-11-14",
+  "reviewer_model": "gpt-6.1-terra",
+  "scope": "All newly generated English and Simplified Chinese translations; inherited A/B translations left unchanged",
+  "bilingual_rows_reviewed": 12623,
+  "target_translations_reviewed": 25246,
+  "batches_reviewed": 127,
+  "corrected_bilingual_rows": 209,
+  "corrected_target_values": {
+    "en": 139,
+    "zh": 196
+  },
+  "unresolved_rows": 0,
+  "reviewer_agents": {
+    "/root/review_early": 4300,
+    "/root/review_middle": 4200,
+    "/root/review_late": 4123
+  },
+  "additional_peer_check": {
+    "batches": [
+      "077",
+      "081"
+    ],
+    "bilingual_rows": 200,
+    "additional_findings_corrected": 14
+  },
+  "evidence": "Per-row reviewed-content SHA-256 and per-batch verified IDs, exact file hashes, correction reasons and before/after wording",
+  "source_data_unchanged": true,
+  "source_data_sha256": {
+    "exam_banks": "4d1ffee38e0e02e86af858f966b1e4b7b0e844d90e6357e0eee43628a6bdfc4d",
+    "source_documents": "7e962d0d0338197d456761cc548f345e5176bbddff6cfed91b8e537913d7440a",
+    "content_texts": "0ac4d0ecc30fb0e388aaaa65afcea80a0a382f64cb6a24e5ee2ef4c50721ef08",
+    "chapters": "e33631ca9f737fa5274ed00ee7def9def617221a8415c3f32554d742928c7bf8",
+    "question_groups": "432a94a2ac8976f99a2029f0d98160d1c9f0d40b94669f5b5a61ea1356a2a66a",
+    "questions": "0acaf73b284118b09746e64c970fb68f5675dfb697f45f91728a87dec323c119",
+    "assets": "8333658e6f9cd3e6b1f798bd37bd845a25461eee84dde63e3e0b6637cdbacc3a",
+    "question_assets": "404b1c16c072340a94287a5f38303ef85c491818bc4573357eaa81e565072784"
+  },
+  "content_version_before": "2026-11-14+b280599f15c2",
+  "content_version_after": "2026-11-14+e42725b0a363",
+  "validation": {
+    "strict_review_gate": "passed",
+    "source_data_unchanged": "passed",
+    "database_integrity": "passed",
+    "foreign_keys": "passed",
+    "reviewed_database_values_match_files": "passed",
+    "complete_exports": "passed",
+    "legacy_ab_unchanged": "passed",
+    "tests_passed": 8
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "batch": "083",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "b031548b04cc5aef6844be608f9a19ea909c2a44b34c0f13408da604bc8e0a84",
+  "rows": 100,
+  "verified_ids": [
+    "d2c3f3827b36496d007dc0c306ebc734d4c33d06be093dcc3d35387b2bc55c01",
+    "6ee5a112a6d28062d433771362438293ee84a4da19f9f377e5e8c533e7761b1d",
+    "e197d605e68869fefebb086b5752f6388846d460177cb8f08468b4eaeba95189",
+    "576fc50e97d82169edf4096fdf440ac6b394daea45e24178609d3db893ceec71",
+    "08363e0b62ee59ed307d4daad15b6f6ea2ab325ffb0836daf2d75f8188c066db",
+    "2ee9db41268e1f277ec9e073fad620b16fea7a1ec1d5d3fccd8722cca214772f",
+    "0bdecf55f82ed7ee0e84a9df677c7eb3c46f87cfdc0dfaacf7aea8b402cab309",
+    "3f3a25632709d3a4594c2ec4356aa0fecc7c224b93d70af3e3f9701b92e84ed4",
+    "358e86406c477797e70c038b93f0f030d451df62f681ecab748c0867efe4d9f3",
+    "bdafe857ba171277ed8cd0607aa3b5e8a64a6faa39823304b6a69b3fcbfe60dc",
+    "ab102ed30efb45f1215222e8c4edbb168ec1d035474ae7955641a81e4220f0e5",
+    "7cfcc368ce63d43279b7530b6b6408b24d0e4d812415dac0fba7079519f6b29b",
+    "17e29e826c0016bb57670d5b6309936a75e2338da32172b01e018e5ad32c1959",
+    "bbb7ab83c9d7450bd0e0a8497b77bc2fea3262a0758842c62e6b808905b9873a",
+    "6fddb6d2d753c7a8c38336d14dc89e7e1bf35414c5031b016083e40127d2b2aa",
+    "b6943e192565564bd50ea28f4b08e7ab60b5c1dd5357418b948bafb9d856f9c3",
+    "937047185bb0167e78eee3f4b604bf40018dfc93471ff987c3cfd904bfa2e5c6",
+    "f781c6a78260c013a2e99b31ee7b57d8a5e1731c1d0495d94113eb3dc817e1a9",
+    "ec8e48066abd7f9cdec59d80caa24b40b421acf25ef01decd5c5540e106ddfeb",
+    "a3846680675520e7b7f35de66006e5349a0d052444d57100467b531dbd06d8c7",
+    "d6de360bc2f38afcc12e9c79f835a67b0e4c76a20747eb13b9e1ceb19e36e9e8",
+    "4422b72b750fb7df3a5755a81fd705370795f1c404157740748f7a31d0d1694d",
+    "143a55f6c01e732dc0d7312509838460f2db71ba0e6dbc7088f3ebed3f5ae78c",
+    "5efa0aea19eac5e4ad31d0730070d067fe6797d1ecdaa2aeba85bf970911fb03",
+    "b7c6206ef7b325e5eaeacb0fd0c23ee1c33d3e6314562b14e9998701250962f8",
+    "d1f306ba7f5929c94e80fb3ac0f9b0b1c123086cf780f1d6cc3c392a410ea799",
+    "610052321d67b71927291ace8ffbeaf4fe6122a9ef5ffda1d1e9428e4f25ae34",
+    "3c048241acc3adee52f2f0d12aae6ad75d99a517d79d6f802494313dce7da35c",
+    "264344e7807b43fde09af182d21cbe733b968b85117e8208e21b84c7b9509a9e",
+    "9c2edebdd52a039af6f6e6c60e47367a4319933a3927e6da58349322a41097e3",
+    "f8b8d97a44758fb0e67f52e16d8a992eb3ea175ab03e7cfe95d84d3c35ea1ca4",
+    "59c104fc7e80a5fda273c9187789546eda367fcc8bcc0e0f2891d4db82d9cb0f",
+    "820d31f1f7b24dac926045da18f7ec7aaeab96c13f75d58a5ec9fb42537f7554",
+    "99b3eda7ba8ea29f6df2ae100e36fc5c7457b1a3dae3bad3440f283c801ae691",
+    "6bb22af97511eca47f68d924870dca84350e394f9802c76f62c75daf79728b06",
+    "ad2f028ee463e4982584c4af79b8723cf7ccbd2f48b39245ad310f92ae958cf4",
+    "382f8ec35faa4db1d44409971b7b1e3316d3ed46b1a13f9f3788a7ae4ddafd33",
+    "ecfa99ca081ee6dc3ad00d1a20de0deb13bb37cd526f0dea94f34d39643894e9",
+    "91e37fb2c309f874c586edf975f6b71c36f5f4bf6a1df7a8ebe231ee812a0662",
+    "73c2749b22e733ff4ca372cb5284de27fc08e2ccfbfe5722afd8a438cc1f5603",
+    "5586bc937812b858a1265aa6429d5be0cc2038f79a615ca5899a53da6498e98a",
+    "7f910c71d01a53091f01f70f4177da995774103fbcfae8024b3f955780a3e5ca",
+    "cf4cc804c6f842d85d1716e4581b78267533552b79fe988dd9a97ca52d068428",
+    "e7227e63e72c5c3efee2abc2bd461cf19d18dd053781cf47d0e2c3cdac178d18",
+    "cd0a230657ceeae35556b0306f00db7f815c204ba6ed59ec4a8268f95309c128",
+    "628ce8575b3ec578714722f6273b675ce4f92a25ffbd7be5d1fe7873c351e052",
+    "16f6c8ad4b0a695b4f584b123bcd11a80fbd5045a876171df8c631c9b9ef9b7d",
+    "650afbaf672583382d99308d93202874930e7bc60b8ede3e4f05b886e047b846",
+    "343bb8382ea44437fdb9356d89926b63d1eb24da91034b82c21e5a70abb38c97",
+    "6d147ed42a1829e4556c477439f16c38f4e68bb180243eced0c9aa938795b51a",
+    "bbaa88e4b0d1219259e717a96d1909d01e74969e8eec9146b2567f8150e2c8b5",
+    "0db01293f374a67d268e414d86b61706f59ac297bf03454200f5d4fd56e00187",
+    "e6f49f4a2aef3bdeaa5081723d3e8ab5fbdc0c23cc3f41ac56555eeec62eefc0",
+    "c8c02c0ed30464f9a3e3e1bdc5a41e2df4949d35a40124f4590e1be06fd3ad61",
+    "bf9ccc7c1490d35b9b0795c0bc61bd848d69eb1a6529d6f860765e51a3c65346",
+    "ca9bb04d226d7d61c67e83c755c4901a691d139f91276ba1c5b67bb82e9cb30b",
+    "c2fccdb97de36a9f6213d8ba42e51ce4cd32275370dfdeb43cf418719db9d389",
+    "a2ac74727f86c9e48cc191e3b25e5b1a104cd3ab2b7b46c7b5ab468355a781d2",
+    "68f8c15befd560fe18047d9ace40bde970c5c5c2d7d94dc2780c8da124f0a425",
+    "84a39ab173a89dad6abd5b8eebc8b36a4b3d20cf083ab68917d95229bb94b811",
+    "fe48f56fcc7fa845e35d8784c6f93917e0cbb40d0bd78f0d1ffdd8b2890dd5c2",
+    "d825c2c0e9d2407204100d7dc48b0902c909ea5247ef8ff1ef06d06ce8ba1236",
+    "cdd786f7b80e8f3d2c7ca3f7d293536c6e2de98063c016cc1d73f6c188242045",
+    "8d40a68ed744ff101f10c65f47217eecc5ae807c938f1eab974b18a7256d928c",
+    "60bdb77bdf5bb0d03ab69819ed764bbcd8d54f5a10b46ccce32d3de59f3e14f7",
+    "e3874a9ad5798e11feb29f49817ef3fada243ea81d82563caafd7c5cba49b1bc",
+    "b6b24817de76fb36f154dc2836a0f1ac38e5315599a086cee60df74e3ce44744",
+    "b1cb6cd999b51c2aaa87e656d91ba0f8f075377d38ab36a84e39087b0aed31bf",
+    "908a5939f1c28671e3ff8ec0f11f66b87428365ecc957d54a617e81b4e846faf",
+    "57860b5becf9f74aa5b06655a0d06f0b42e216fe89f7b1cf740e6e2c5bfe9356",
+    "81a598ad493e5a57c1c99f65555e517981cc5faa113fe37df725901db60d306f",
+    "cbdd64d903f6fe07dbb6b5eb60735b4704618ea1c2dc4f583e0e4f4aaa98385f",
+    "a2043dc71258f2046b0cb98e9db96571d092d9603ed1f4a912fc03b2ae139146",
+    "3a43e628a80f435d1de59e2c210a4c687d6018252a1aaae8b23c33fb0f09d96e",
+    "1e6986f8fbf25a69fad610081ca7ea874520ba69b7177e5ca63cbd1c9d7ba4fa",
+    "ebec668a949f40f6a931b0cf2626c370f800a35584ba93d0199d502ed19f9ccd",
+    "c7be4a7c46f62ae4d382d36114bc5967a31c5720a833360a99d0f81a7b59053f",
+    "d8f60428110cacfee950f1a1f75f255a584ace11601c7b7890f64f375f45437b",
+    "8efdeb1dfa6a021f25df6922c53b2b0fdbeb48ad3d0fb661687e3e9ea358e6b8",
+    "b545f51dc161fdc2b45dc7cc0143dc98398b6eb7a04a36c63f6676e6251bfba7",
+    "d7361795ed1181e783b61f028c8c8b0bb6975ccf7d0e0294565031e7a492448f",
+    "d71b6de928e6d066e3764c52bce1e7c1e47f255ba85fb65a3480d61131527f8d",
+    "6c29f55529e3f35974add2d03083a7d25ea5c40fcd56cc3466a6c27ad1f74f57",
+    "ec9843f901ae932f82f561f5493cc15be25e07ce80f03bbfdd01d939c3271afc",
+    "9d42db7af4da726ff0f7ee19525d335bd9114eee0127331744ea49edf1a4cafa",
+    "4c495f2708b6da6a9d37271979df74fe6ccd2ac0668a21e8431bfd6c0a0648f4",
+    "71888943c22ed9b29d214488eba7f5c7b1c66016380301db0f613434e6928ab8",
+    "e65d1e7d6ee2868b74929a0dbd0c62fc3e49c7f35fb26a3d6a1461a94389cd54",
+    "0aa6da421337cfbae7d0dc9e83e48ac85951ef8357c9b621c5b943d54d214a7f",
+    "e3ac7d3609152fd5506a3d13d19c23b8e3a6b06736c736f01e7efffb4297981d",
+    "307d250b8bd29b75f5b8e3e3a84959e4d45c80a5491c41d7a8f548e26eed2d44",
+    "9d826c54faee6a25a64073d0f3e35062302a64f036529eed4f49cee1a6a26781",
+    "ad0f236f63c7d6eac5caa70c183b9abd8f2ee9c41e2653ab6fc53917fdec802c",
+    "5db07a0d4062ea26132ed1cd88c8f8e50bdbb810daf460f3a42f29cd3e9cc600",
+    "7807bcb2fe89abab8f9d4aba41559f5cedc4a2ee5c69e9a62c03f41866dd6732",
+    "1b569e248984b038261edb4462713be867bf7e13f190c335c72a2ddeddfe9035",
+    "5b13353abcaad2e2fea783763669f359bf11f397c1e6aa872012cc7d9572c366",
+    "fab7fd395488ac8397a4e81dcfe4d85f42c573ddb6c98ccb8224259473d2e881",
+    "f9d4ecd7ede4dc5b9b911a16659e158add86cafe2813eed2f1cf7bd7b98fd316",
+    "9119883cabc9ed5034ead83169a63e381462365d33f4bb09a17518aaed2a9834"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "08363e0b62ee59ed307d4daad15b6f6ea2ab325ffb0836daf2d75f8188c066db",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The logistics system allows only certain goods to be transferred.",
+          "after": "The logistics system allows certain goods to be transferred."
+        },
+        "zh": {
+          "before": "物流系统只允许转移特定货物。",
+          "after": "物流系统可以转移特定货物。"
+        }
+      }
+    },
+    {
+      "id": "0bdecf55f82ed7ee0e84a9df677c7eb3c46f87cfdc0dfaacf7aea8b402cab309",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "In moving and distributing goods, logistics platforms do not normally provide a complete range of logistics services.",
+          "after": "Logistics platforms do not normally provide a complete range of logistics services."
+        },
+        "zh": {
+          "before": "在货物转移和配送中，物流平台通常不提供完整的物流服务。",
+          "after": "物流平台通常不提供完整的物流服务。"
+        }
+      }
+    },
+    {
+      "id": "3f3a25632709d3a4594c2ec4356aa0fecc7c224b93d70af3e3f9701b92e84ed4",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "The Galileo satellite navigation system can check the pressure of containers used to transport goods.",
+          "after": "The Galileo satellite navigation system can check the pressure of containers."
+        },
+        "zh": {
+          "before": "伽利略卫星导航系统可以检查货运容器的压力。",
+          "after": "伽利略卫星导航系统可以检查容器的压力。"
+        }
+      }
+    },
+    {
+      "id": "ab102ed30efb45f1215222e8c4edbb168ec1d035474ae7955641a81e4220f0e5",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under international ADR regulations, a transport unit is a truck with or without a trailer.",
+          "after": "A transport unit is a truck with or without a trailer."
+        },
+        "zh": {
+          "before": "根据国际ADR规定，运输单元是指带或不带挂车的卡车。",
+          "after": "运输单元是指带或不带挂车的卡车。"
+        }
+      }
+    },
+    {
+      "id": "7cfcc368ce63d43279b7530b6b6408b24d0e4d812415dac0fba7079519f6b29b",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under international ADR regulations, a transport unit is a vehicle combination consisting of a tractor and semi-trailer.",
+          "after": "A transport unit is a vehicle combination consisting of a tractor and semi-trailer."
+        },
+        "zh": {
+          "before": "根据国际ADR规定，运输单元是指由牵引车和半挂车组成的车辆组合。",
+          "after": "运输单元是指由牵引车和半挂车组成的车辆组合。"
+        }
+      }
+    },
+    {
+      "id": "a3846680675520e7b7f35de66006e5349a0d052444d57100467b531dbd06d8c7",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, an open vehicle means a vehicle with a bare platform without sides.",
+          "after": "An open vehicle means a vehicle with a bare platform without sides."
+        },
+        "zh": {
+          "before": "根据ADR规定，敞篷车辆是指具有裸露平板且没有侧板的车辆。",
+          "after": "敞篷车辆是指具有裸露平板且没有侧板的车辆。"
+        }
+      }
+    },
+    {
+      "id": "d6de360bc2f38afcc12e9c79f835a67b0e4c76a20747eb13b9e1ceb19e36e9e8",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, an open vehicle means a vehicle with a bare platform or one fitted with sides.",
+          "after": "An open vehicle means a vehicle with a bare platform or one fitted with sides."
+        },
+        "zh": {
+          "before": "根据ADR规定，敞篷车辆是指具有裸露平板或装有侧板的车辆。",
+          "after": "敞篷车辆是指具有裸露平板或装有侧板的车辆。"
+        }
+      }
+    },
+    {
+      "id": "4422b72b750fb7df3a5755a81fd705370795f1c404157740748f7a31d0d1694d",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, an open vehicle means a vehicle with a platform fitted with sides.",
+          "after": "An open vehicle means a vehicle with a platform fitted with sides."
+        },
+        "zh": {
+          "before": "根据ADR规定，敞篷车辆是指平板装有侧板的车辆。",
+          "after": "敞篷车辆是指平板装有侧板的车辆。"
+        }
+      }
+    },
+    {
+      "id": "143a55f6c01e732dc0d7312509838460f2db71ba0e6dbc7088f3ebed3f5ae78c",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a closed vehicle means a vehicle with a load compartment having rigid walls and a rigid roof.",
+          "after": "A closed vehicle means a vehicle with a load compartment having rigid walls and a rigid roof."
+        },
+        "zh": {
+          "before": "根据ADR规定，封闭车辆是指货舱具有刚性壁和刚性顶盖的车辆。",
+          "after": "封闭车辆是指货舱具有刚性壁和刚性顶盖的车辆。"
+        }
+      }
+    },
+    {
+      "id": "5efa0aea19eac5e4ad31d0730070d067fe6797d1ecdaa2aeba85bf970911fb03",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a sheeted vehicle means a vehicle whose bare platform or platform with sides is covered by a tarpaulin to protect the goods carried.",
+          "after": "A sheeted vehicle means a vehicle whose bare platform or platform with sides is covered by a tarpaulin to protect the goods carried."
+        },
+        "zh": {
+          "before": "根据ADR规定，篷布车辆是指用篷布覆盖裸露平板或带侧板平板以保护所运货物的车辆。",
+          "after": "篷布车辆是指用篷布覆盖裸露平板或带侧板平板以保护所运货物的车辆。"
+        }
+      }
+    },
+    {
+      "id": "b7c6206ef7b325e5eaeacb0fd0c23ee1c33d3e6314562b14e9998701250962f8",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a sheeted vehicle means an open vehicle fitted with a tarpaulin to protect the goods carried.",
+          "after": "A sheeted vehicle means an open vehicle fitted with a tarpaulin to protect the goods carried."
+        },
+        "zh": {
+          "before": "根据ADR规定，篷布车辆是指配有篷布以保护所运货物的敞篷车辆。",
+          "after": "篷布车辆是指配有篷布以保护所运货物的敞篷车辆。"
+        }
+      }
+    },
+    {
+      "id": "d1f306ba7f5929c94e80fb3ac0f9b0b1c123086cf780f1d6cc3c392a410ea799",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a sheeted vehicle also means a vehicle fitted with hoops and a tarpaulin.",
+          "after": "A sheeted vehicle also means a vehicle fitted with hoops and a tarpaulin."
+        },
+        "zh": {
+          "before": "根据ADR规定，篷布车辆也包括配有篷架和篷布的车辆。",
+          "after": "篷布车辆也包括配有篷架和篷布的车辆。"
+        }
+      }
+    },
+    {
+      "id": "610052321d67b71927291ace8ffbeaf4fe6122a9ef5ffda1d1e9428e4f25ae34",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, an open vehicle means a tank vehicle without insulation.",
+          "after": "An open vehicle means a tank vehicle without insulation."
+        },
+        "zh": {
+          "before": "根据ADR规定，敞篷车辆是指没有隔热层的罐车。",
+          "after": "敞篷车辆是指没有隔热层的罐车。"
+        }
+      }
+    },
+    {
+      "id": "3c048241acc3adee52f2f0d12aae6ad75d99a517d79d6f802494313dce7da35c",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, an open vehicle means a vehicle whose platform is covered with a tarpaulin.",
+          "after": "An open vehicle means a vehicle whose platform is covered with a tarpaulin."
+        },
+        "zh": {
+          "before": "根据ADR规定，敞篷车辆是指平板覆盖篷布的车辆。",
+          "after": "敞篷车辆是指平板覆盖篷布的车辆。"
+        }
+      }
+    },
+    {
+      "id": "264344e7807b43fde09af182d21cbe733b968b85117e8208e21b84c7b9509a9e",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, an open vehicle means a vehicle with a van body.",
+          "after": "An open vehicle means a vehicle with a van body."
+        },
+        "zh": {
+          "before": "根据ADR规定，敞篷车辆是指具有厢式车身的车辆。",
+          "after": "敞篷车辆是指具有厢式车身的车辆。"
+        }
+      }
+    },
+    {
+      "id": "9c2edebdd52a039af6f6e6c60e47367a4319933a3927e6da58349322a41097e3",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a closed vehicle means a vehicle whose platform has sides.",
+          "after": "A closed vehicle means a vehicle whose platform has sides."
+        },
+        "zh": {
+          "before": "根据ADR规定，封闭车辆是指平板装有侧板的车辆。",
+          "after": "封闭车辆是指平板装有侧板的车辆。"
+        }
+      }
+    },
+    {
+      "id": "f8b8d97a44758fb0e67f52e16d8a992eb3ea175ab03e7cfe95d84d3c35ea1ca4",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a closed vehicle means a vehicle whose platform is covered with a tarpaulin.",
+          "after": "A closed vehicle means a vehicle whose platform is covered with a tarpaulin."
+        },
+        "zh": {
+          "before": "根据ADR规定，封闭车辆是指平板覆盖篷布的车辆。",
+          "after": "封闭车辆是指平板覆盖篷布的车辆。"
+        }
+      }
+    },
+    {
+      "id": "59c104fc7e80a5fda273c9187789546eda367fcc8bcc0e0f2891d4db82d9cb0f",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a closed vehicle means a vehicle with removable hoops and tarpaulin.",
+          "after": "A closed vehicle means a vehicle with removable hoops and tarpaulin."
+        },
+        "zh": {
+          "before": "根据ADR规定，封闭车辆是指带有可拆卸篷架和篷布的车辆。",
+          "after": "封闭车辆是指带有可拆卸篷架和篷布的车辆。"
+        }
+      }
+    },
+    {
+      "id": "820d31f1f7b24dac926045da18f7ec7aaeab96c13f75d58a5ec9fb42537f7554",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a sheeted vehicle means a closed vehicle with rigid walls and roof.",
+          "after": "A sheeted vehicle means a closed vehicle with rigid walls and roof."
+        },
+        "zh": {
+          "before": "根据ADR规定，篷布车辆是指具有刚性壁和刚性顶盖的封闭车辆。",
+          "after": "篷布车辆是指具有刚性壁和刚性顶盖的封闭车辆。"
+        }
+      }
+    },
+    {
+      "id": "99b3eda7ba8ea29f6df2ae100e36fc5c7457b1a3dae3bad3440f283c801ae691",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a sheeted vehicle means a battery vehicle covered with fireproof tarpaulin.",
+          "after": "A sheeted vehicle means a battery vehicle covered with fireproof tarpaulin."
+        },
+        "zh": {
+          "before": "根据ADR规定，篷布车辆是指覆盖防火篷布的电池车辆。",
+          "after": "篷布车辆是指覆盖防火篷布的管束式车辆。"
+        }
+      }
+    },
+    {
+      "id": "6bb22af97511eca47f68d924870dca84350e394f9802c76f62c75daf79728b06",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under ADR regulations, a sheeted vehicle means a tank vehicle insulated with canvas.",
+          "after": "A sheeted vehicle means a tank vehicle insulated with canvas."
+        },
+        "zh": {
+          "before": "根据ADR规定，篷布车辆是指使用帆布隔热的罐车。",
+          "after": "篷布车辆是指使用帆布隔热的罐车。"
+        }
+      }
+    },
+    {
+      "id": "ad2f028ee463e4982584c4af79b8723cf7ccbd2f48b39245ad310f92ae958cf4",
+      "reason": "'cassonati' means box-body vehicles, not drop-side (栏板) vehicles.; 'cassonati' means box-body vehicles, not drop-side vehicles.",
+      "changes": {
+        "en": {
+          "before": "The registration certificate of drop-side vehicles used to transport benzene (class 3) in packages must contain no entry concerning suitability of the means of transport.",
+          "after": "The registration certificate of box-body vehicles used to transport benzene in packages must contain no entry concerning suitability of the means of transport."
+        },
+        "zh": {
+          "before": "用于以包装件运输苯（第3类）的栏板车辆，其登记证不得载有任何关于运输工具适用性的注记。",
+          "after": "用于以包装件运输苯的箱式车身车辆，其登记证不得载有任何关于运输工具适用性的注记。"
+        }
+      }
+    },
+    {
+      "id": "91e37fb2c309f874c586edf975f6b71c36f5f4bf6a1df7a8ebe231ee812a0662",
+      "reason": "Added 'including the load' qualifier (包括货物在内) not present in the Italian.; Added 'including the load' qualifier not present in the Italian.",
+      "changes": {
+        "en": {
+          "before": "Transporting a beam on a truck is considered exceptional in dimensions when the vehicle length including the load exceeds the maximum length limits set by the Highway Code.",
+          "after": "Transporting a beam on a truck is considered exceptional in dimensions when it exceeds the maximum length limits set by the Highway Code."
+        },
+        "zh": {
+          "before": "卡车运输横梁时，如果包括货物在内的车辆长度超过道路交通法规规定的最大长度限制，该运输被视为尺寸超限运输。",
+          "after": "卡车运输横梁时，如果超过道路交通法规规定的最大长度限制，该运输被视为尺寸超限运输。"
+        }
+      }
+    },
+    {
+      "id": "d7361795ed1181e783b61f028c8c8b0bb6975ccf7d0e0294565031e7a492448f",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "A segregated tramway is a suitably bounded part of the road where wheeled vehicles are prohibited.",
+          "after": "A segregated tramway is a suitably bounded part of the road where rubber-tyred vehicles are prohibited."
+        }
+      }
+    },
+    {
+      "id": "ec9843f901ae932f82f561f5493cc15be25e07ce80f03bbfdd01d939c3271afc",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Restricted traffic zones always coincide with the city centre.",
+          "after": "Restricted traffic zones coincide with the city centre."
+        },
+        "zh": {
+          "before": "限制交通区始终与市中心重合。",
+          "after": "限制交通区与市中心重合。"
+        }
+      }
+    },
+    {
+      "id": "9d42db7af4da726ff0f7ee19525d335bd9114eee0127331744ea49edf1a4cafa",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Restricted traffic zones are always reserved only for pedestrians and bicycles.",
+          "after": "Restricted traffic zones are reserved for pedestrians and bicycles."
+        },
+        "zh": {
+          "before": "限制交通区始终只供行人和自行车使用。",
+          "after": "限制交通区供行人和自行车通行。"
+        }
+      }
+    },
+    {
+      "id": "4c495f2708b6da6a9d37271979df74fe6ccd2ac0668a21e8431bfd6c0a0648f4",
+      "reason": "'ecc.' was dropped from the English list.",
+      "changes": {
+        "en": {
+          "before": "Using dedicated facilities such as stopping areas and bus stations brings economic benefits and improves traffic safety.",
+          "after": "Using dedicated facilities (stopping areas, bus stations, etc.) brings economic benefits and improves traffic safety."
+        }
+      }
+    },
+    {
+      "id": "e65d1e7d6ee2868b74929a0dbd0c62fc3e49c7f35fb26a3d6a1461a94389cd54",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Bus stop areas can never be used by other vehicles.",
+          "after": "Other vehicles cannot pass through bus stop areas."
+        },
+        "zh": {
+          "before": "其他车辆在任何情况下都不能通过公共汽车停靠区。",
+          "after": "其他车辆不能通过公共汽车停靠区。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "5b9955754e33b42578e106b3afbe0d547b2e210298904fb06cd01f2fb9f40285"
+}

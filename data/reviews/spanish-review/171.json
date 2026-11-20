@@ -1,0 +1,43 @@
+{
+  "batch": "171",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "a2bc0ea988f16d76ab7395ef387054e8b087aa9d04209fbb6f395dcc9bcc6b5c",
+  "source_sha256": "3a37f81c6d3b2c52d15508e4fca1ec3c5c6eaab2a9abd2bf3a28d87a93baed8f",
+  "corrections": [
+    {
+      "id": "e26dd8d6845b46f9717db207948b45ffb0d9832600405bf59532a04433255529",
+      "before": "En autopistas y vías interurbanas principales está prohibida la circulación de peatones y animales, incluso en las áreas de servicio y de descanso",
+      "after": "En autopistas y vías interurbanas principales está prohibida la circulación de peatones y animales, incluso en las áreas de servicio y de estacionamiento",
+      "reason": "'aree di sosta' are parking areas, not rest areas"
+    },
+    {
+      "id": "e2a0f13e1416eedc1bcaac7437c07619536487a6841645ab4c11a13c41c335ec",
+      "before": "Las marcas de la figura obligan a los conductores a detenerse y ceder el paso a los peatones que se disponen a cruzar",
+      "after": "La señalización de la figura obliga a los conductores a detenerse y ceder el paso a los peatones que se disponen a cruzar",
+      "reason": "'segnaletica' is signage in general, not road markings"
+    },
+    {
+      "id": "e2b2933cae70fca0bb869fc6b962ddd0bce2c72215e8b31313eaa6c2ed5981a3",
+      "before": "Si una persona lesionada en la vía ha sufrido un traumatismo torácico, hay que mantenerla de pie para disminuir la pérdida de sangre",
+      "after": "Si una persona lesionada en la vía ha sufrido un traumatismo torácico, hay que mantenerla incorporada para disminuir la pérdida de sangre",
+      "reason": "'farlo stare alzato' means keeping the injured person upright or raised, not standing"
+    },
+    {
+      "id": "e33423322407ea968c97037f57606847656adb8d0f8a4a822f1fb4276b104bc3",
+      "before": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), la recepción es un acto complejo que comprende la carga, el paso de la posesión al transportista y la verificación del estado aparente de la mercancía y el embalaje y de la exactitud de los datos de la carta de porte",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), la toma en carga es un acto complejo que comprende la carga, el paso de la posesión al transportista y la verificación del estado aparente de la mercancía y el embalaje y de la exactitud de los datos de la carta de porte",
+      "reason": "'presa in carico' is the CMR taking-over of the goods, not receipt"
+    }
+  ],
+  "reviewed_file_sha256": "9c99047f7a83cbe836ccf7f69b55ee69b4bc3dff44512db6120e605d2e2bca36"
+}

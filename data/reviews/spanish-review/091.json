@@ -1,0 +1,31 @@
+{
+  "batch": "091",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "11d767f454f8f3e067a1c9607e4206cc8fef69c57e67af6ee082f7f3afcbba28",
+  "source_sha256": "595e092e65bed35cf2fa68c03bad15a57fc187b8cc43c4120b8cc5f1dd27870c",
+  "corrections": [
+    {
+      "id": "78b0d1d4048c06ee69c80152f59b46f033bf79facda0b887f178f11f7568e205",
+      "before": "Para circular dentro de la UE, un vehículo que transporta mercancías por cuenta de terceros debe llevar un certificado que acredite su categoría de emisiones (EURO 1, 2, 3, etc.)",
+      "after": "Para circular dentro de la UE, un vehículo que realiza transporte por cuenta de terceros debe llevar un certificado que acredite su categoría de emisiones (EURO 1, 2, 3, etc.)",
+      "reason": "El original no limita el transporte por cuenta de terceros a mercancías."
+    },
+    {
+      "id": "79585731f5ff10f411e7757eb177fc7b265a877f9c2a9c0e44dead857f3b8b33",
+      "before": "La calzada comprende las zonas de parada",
+      "after": "La calzada comprende las plazoletas de estacionamiento",
+      "reason": "Apartaderos conserva el sentido de piazzole di sosta como espacios junto a la vía.; 'piazzole di sosta' are lay-by parking bays, not passing bays (apartaderos)"
+    }
+  ],
+  "reviewed_file_sha256": "2a5ac10858c9c4e04a24063ddc7be6388950c78c561e0ce721363487507abd67"
+}

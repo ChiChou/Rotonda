@@ -1,0 +1,1366 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31499,
+          "quesito_id": 7029,
+          "text_it": "Lo spazio di frenatura è inversamente proporzionale al quadrato della velocità",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fc7a5703b217878d480e5677546725bf2f372a7fe33e19b779b59937b64f3a2a",
+        "localized_text": "制动距离与速度的平方成反比。"
+      },
+      {
+        "source": {
+          "number": 31500,
+          "quesito_id": 7029,
+          "text_it": "A parità di forza frenante, lo spazio di frenatura è maggiore con l'aumentare dell'inerzia del veicolo",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ac36400702b0fed959721037f7fe3d58e44115d60e0080d0f16660f02c8e68fc",
+        "localized_text": "制动力相同时，车辆惯性越大，制动距离越长。"
+      },
+      {
+        "source": {
+          "number": 31501,
+          "quesito_id": 7029,
+          "text_it": "A parità di forza frenante, lo spazio di frenatura è maggiore con l'aumentare della massa del veicolo",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "db2957b37d61fb99f86c27b98a34a81be4e30b69c84b23c08937f712e936ca1d",
+        "localized_text": "制动力相同时，车辆质量越大，制动距离越长。"
+      },
+      {
+        "source": {
+          "number": 31502,
+          "quesito_id": 7029,
+          "text_it": "Quando si entra in una galleria autostradale occorre accendere tutte le luci interne della cabina",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5cf4d9f367faf6572fcb7681ec12e6f45ba0be936cc31841d68f03ceb2723b6a",
+        "localized_text": "进入高速公路隧道时，必须打开驾驶室内所有灯光。"
+      },
+      {
+        "source": {
+          "number": 31503,
+          "quesito_id": 7029,
+          "text_it": "Quando si entra in una galleria occorre aver preso nota delle disposizioni particolari previste dall'Ente proprietario",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b89542a0ce3b023437d54f01f058fe06357c00ac6bc6309f29caf3aa31baf00f",
+        "localized_text": "进入隧道时，必须事先记下道路管理机构规定的特殊要求。"
+      },
+      {
+        "source": {
+          "number": 31504,
+          "quesito_id": 7029,
+          "text_it": "Il conducente di un veicolo pesante, superando pedoni e ciclisti deve tenersi ad adeguata distanza laterale da essi",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "eb1411be49cc68e04cdee345a8d561536f6ce5b95af3053f9629228d2dc913ba",
+        "localized_text": "重型车辆驾驶人超越行人和骑车人时必须保持足够的侧向距离。"
+      },
+      {
+        "source": {
+          "number": 31505,
+          "quesito_id": 7029,
+          "text_it": "Percorrendo le rotatorie a due corsie, i veicoli pesanti devono circolare sulla corsia di sinistra e non possono mai impegnare la corsia di destra",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dd910714880cb2c296469d63de4321242b854408740f60bc821ba9da6d288193",
+        "localized_text": "在双车道环岛上，重型车辆必须使用左侧车道，绝不能进入右侧车道。"
+      },
+      {
+        "source": {
+          "number": 31506,
+          "quesito_id": 7029,
+          "text_it": "La manovra di svolta dei veicoli alle intersezioni è condizionata dalla lunghezza del loro passo e del loro sbalzo",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "79d3a917cb7d8ec5b6d2a9b28c6bfc8f0f7413977359780f029d3c008a3ec076",
+        "localized_text": "车辆在交叉路口的转弯操作受其轴距和悬长影响。"
+      },
+      {
+        "source": {
+          "number": 31507,
+          "quesito_id": 7029,
+          "text_it": "Nelle svolte a destra è consentito salire sul marciapiede con la ruota posteriore interna a bassa velocità",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0ad2613ca313a5635b6e8d122b63f97f300eae5063b1938d62a2b64e3ff9b47c",
+        "localized_text": "右转时允许内侧后轮低速驶上人行道。"
+      },
+      {
+        "source": {
+          "number": 31508,
+          "quesito_id": 7029,
+          "text_it": "Lo sbalzo di un veicolo a due assi è la distanza fra gli assi stessi",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d48fe67610a46e19b07a6a74c5baee2a54b6dc903a6f2ddc6ba5309cf28bc0c2",
+        "localized_text": "两轴车辆的悬长是两根车轴之间的距离。"
+      },
+      {
+        "source": {
+          "number": 31509,
+          "quesito_id": 7029,
+          "text_it": "Lo sbalzo posteriore di un veicolo a due assi è la distanza tra il centro dell'asse posteriore e il limite della sagoma posteriore del veicolo",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "716c77322405bc307b6d4fca6ed8a6ee51ca6dc16ef014012c6c978c4f2ae558",
+        "localized_text": "两轴车辆的后悬是后轴中心到车辆最后端轮廓的距离。"
+      },
+      {
+        "source": {
+          "number": 31510,
+          "quesito_id": 7029,
+          "text_it": "Per i veicoli di lunghezza superiore a 7 metri, nella svolta a destra, è obbligatorio spostarsi sul lato sinistro della carreggiata",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "640f921f2b60a634be63d77501719c564308a32180542e026de9746cb99134b4",
+        "localized_text": "长度超过7米的车辆右转时必须移至车行道左侧。"
+      },
+      {
+        "source": {
+          "number": 31511,
+          "quesito_id": 7029,
+          "text_it": "Per svoltare in corrispondenza di un'intersezione è opportuno che il conducente dell'autobus attenda che sia libera l'area dell'intersezione",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1b63aa4203155b2af37523a5aa4db57741b20adbf876d5ab7b4feb901b3fa600",
+        "localized_text": "在交叉路口转弯时，公交车驾驶人宜等待路口区域空闲。"
+      },
+      {
+        "source": {
+          "number": 31512,
+          "quesito_id": 7029,
+          "text_it": "Il rischio di interferenza tra la parte posteriore della carrozzeria e il piano stradale al termine di una rampa percorsa in discesa aumenta con la lunghezza dello sbalzo anteriore",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9cfdd5d17e25959cf1b6a3ed5e283863f69f914fbda904dc7b573471dd6359db",
+        "localized_text": "驶下坡道末端时，车身后部与路面接触的风险随前悬长度增加而增加。"
+      },
+      {
+        "source": {
+          "number": 31513,
+          "quesito_id": 7030,
+          "text_it": "Il rischio di interferenza tra la parte posteriore della carrozzeria e il piano stradale, al termine di una rampa percorsa in discesa, aumenta con la lunghezza dello sbalzo posteriore",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "161f52c3b681cd002c2799518754ba4aee4d173d5a6592102de0c50885b9803f",
+        "localized_text": "驶下坡道末端时，车身后部与路面接触的风险随后悬长度增加而增加。"
+      },
+      {
+        "source": {
+          "number": 31514,
+          "quesito_id": 7030,
+          "text_it": "Il rischio di interferenza tra la parte posteriore della carrozzeria e il piano stradale all'inizio di una rampa percorsa in salita aumenta con la lunghezza del passo",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5236d3ce02bbbb28952885e092f831feb47edef03197fde94fbe802b15f2a620",
+        "localized_text": "驶上坡道起点时，车身后部与路面接触的风险随轴距增加而增加。"
+      },
+      {
+        "source": {
+          "number": 31515,
+          "quesito_id": 7030,
+          "text_it": "Il rischio di interferenza tra la parte posteriore della carrozzeria e il piano stradale all'inizio di una rampa percorsa in salita aumenta con la lunghezza dello sbalzo posteriore",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6832d9963c0f3e126566e1e23f930899c66b0d4943e20526e46faf476e20fb2e",
+        "localized_text": "驶上坡道起点时，车身后部与路面接触的风险随后悬长度增加而增加。"
+      },
+      {
+        "source": {
+          "number": 31516,
+          "quesito_id": 7030,
+          "text_it": "Aumentando lo sbalzo posteriore aumenta l'effetto sottosterzante del veicolo",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ce298af09346d968e61fb5c9cabc58fd391ef90bc62483600f0786339ce89d36",
+        "localized_text": "增加后悬会增加车辆转向不足的倾向。"
+      },
+      {
+        "source": {
+          "number": 31517,
+          "quesito_id": 7030,
+          "text_it": "Quando l'incrocio tra due veicoli non sia possibile per la presenza di un ostacolo, il conducente la cui marcia è ostacolata, deve dare la precedenza ai veicoli provenienti in senso opposto",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f95c2e88b64daf2151174b77e19a6b232220d44719ddc77937d1fa136068ca71",
+        "localized_text": "障碍物使两车无法会车时，行驶受阻的驾驶人必须给对向来车让行。"
+      },
+      {
+        "source": {
+          "number": 31518,
+          "quesito_id": 7030,
+          "text_it": "Quando l'incrocio tra due veicoli non sia possibile per la presenza di un ostacolo, il conducente la cui marcia è ostacolata, ha la precedenza nei confronti dei veicoli provenienti in senso opposto",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "20551d697332f93262b19a9a13beee7468d10833163c2541f201b9e0890f6a89",
+        "localized_text": "障碍物使两车无法会车时，行驶受阻的驾驶人优先于对向来车。"
+      },
+      {
+        "source": {
+          "number": 31519,
+          "quesito_id": 7030,
+          "text_it": "Il conducente la cui marcia è ostacolata da un cantiere, ha la precedenza nei confronti dei veicoli che prevengono in senso opposto",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "05d1d1ca33395f409daccc03bbd375ee4c0950ab51412156b2fe18138d141bdc",
+        "localized_text": "道路施工使行驶受阻的驾驶人优先于对向来车。"
+      },
+      {
+        "source": {
+          "number": 31520,
+          "quesito_id": 7030,
+          "text_it": "Il conducente la cui marcia è ostacolata da un cantiere, deve dare la precedenza ai veicoli che prevengono in senso opposto",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c288b523c44275e1730ed71fdbf8071f645afb5e284ece995cce25c5b5f3a2db",
+        "localized_text": "道路施工使行驶受阻的驾驶人必须给对向来车让行。"
+      },
+      {
+        "source": {
+          "number": 31521,
+          "quesito_id": 7030,
+          "text_it": "Su strade a forte pendenza, in caso di incrocio malagevole, il veicolo che procede in salita, deve di regola arrestarsi e dare la precedenza",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f86eebe8eba8505c8f7dcc50f996e394dd664350252667caaff098389ca4a1d1",
+        "localized_text": "在陡坡道路上会车困难时，上坡车辆通常必须停车让行。"
+      },
+      {
+        "source": {
+          "number": 31522,
+          "quesito_id": 7030,
+          "text_it": "Su strade a forte pendenza, in caso di incrocio malagevole, il veicolo che procede in salita, se dispone di una piazzola di sosta, deve dare la precedenza",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "eb7a9ee9722b53ecc5bf6f196505f04b11c343d90e7553d41d52f23223b3ec34",
+        "localized_text": "在陡坡道路上会车困难时，上坡车辆如果附近有避车处，必须让行。"
+      },
+      {
+        "source": {
+          "number": 31523,
+          "quesito_id": 7030,
+          "text_it": "Su strade a forte pendenza, in caso di incrocio malagevole, il veicolo che procede in discesa, deve di regola arrestarsi e dare la precedenza",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cda9ce92a5f51d45edf389481e37461001f188b3c957422d7e2a512168811751",
+        "localized_text": "在陡坡道路上会车困难时，下坡车辆通常必须停车让行。"
+      }
+    ],
+    "task_sha256": "e860fccd7472c693fccda1fd1bef2d1c5c819b1cb6ade5c2232f13f269c125ce"
+  },
+  "rows": [
+    {
+      "number": 31499,
+      "text": "在质量相同、制动力恒定时，制动距离与速度的平方成正比：速度加倍，制动距离变为四倍。",
+      "evidence": [
+        "https://openstax.org/books/physics/pages/9-1-work-power-and-the-work-energy-theorem — lavoro della forza e energia cinetica ½mv²; a forza frenante costante su piano, Fd=½mv²."
+      ]
+    },
+    {
+      "number": 31500,
+      "text": "在初速度相同、制动力恒定时，质量越大，惯性和需要消散的能量越大，制动距离也越长。",
+      "evidence": [
+        "https://openstax.org/books/physics/pages/9-1-work-power-and-the-work-energy-theorem — lavoro della forza e energia cinetica ½mv²; a forza frenante costante su piano, Fd=½mv²."
+      ]
+    },
+    {
+      "number": 31501,
+      "text": "在初速度相同、制动力恒定时，质量越大，动能越大，需要的制动距离越长。",
+      "evidence": [
+        "https://openstax.org/books/physics/pages/9-1-work-power-and-the-work-energy-theorem — lavoro della forza e energia cinetica ½mv²; a forza frenante costante su piano, Fd=½mv²."
+      ]
+    },
+    {
+      "number": 31502,
+      "text": "在隧道内应开启规定的车外灯光，包括近光灯；并不要求打开驾驶室内所有灯。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-153/ — art. 153, comma 1: in galleria anche di giorno sono prescritte luci di posizione, targa, ingombro se previste e anabbaglianti."
+      ]
+    },
+    {
+      "number": 31503,
+      "text": "进入前应了解该隧道的具体规定，例如通行限制、车速和车距要求，以便按该隧道的规则进入和行驶。",
+      "evidence": [
+        "https://www.tunnelmb.net/public/files/301/01-carta-dei-servizi-ita-2026.pdf — Traforo del Monte Bianco, Carta dei servizi 2026, printed pp.15–16 (PDF pp.15–16): vehicle access restrictions and prior authorisation, speed and spacing rules, and metered departures. These are examples for this tunnel, not universal numerical limits."
+      ]
+    },
+    {
+      "number": 31504,
+      "text": "超越行人和骑车人时需要留出适当侧向距离。道路条件允许时，超越骑车人须至少保持1.5米，并根据车速和车辆尺寸保持适当距离。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-148/ — Article 148(3) requires adequate lateral distance; 148(9-bis) specifies at least 1.5 m when road conditions permit while overtaking cyclists, accounting for speed and vehicle width."
+      ]
+    },
+    {
+      "number": 31505,
+      "text": "重型车辆在环岛内并无必须始终使用左车道的一般规定。遵守标志并确保操作条件允许时，可以使用右车道。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-143/ — art. 143, comma 5: su carreggiate con più corsie per senso di marcia si usa la corsia libera più a destra salvo diversa segnalazione."
+      ]
+    },
+    {
+      "number": 31506,
+      "text": "轴距影响车轮的行驶轨迹，悬伸影响车身两端占用的空间：判断转弯所需空间时两者都很重要。",
+      "evidence": [
+        "https://www.fhwa.dot.gov/policy/otps/truck/wusr/chap06.cfm — Chapter 6, Offtracking: la distanza fra gli assi influenza la differenza tra le traiettorie delle ruote in curva.",
+        "https://rosap.ntl.bts.gov/view/dot/14445/dot_14445_DS1.pdf — Large School Bus Design Vehicle Dimensions: lo sbalzo posteriore consente all’angolo posteriore esterno di uscire dalla traiettoria delle ruote all’inizio della svolta."
+      ]
+    },
+    {
+      "number": 31507,
+      "text": "不能因为车速低就让后轮驶上人行道。应考虑后轮轨迹和可用空间来安排转弯。",
+      "evidence": [
+        "https://www.gov.uk/guidance/guidance-for-driving-examiners-carrying-out-driving-tests-dt1/3-vocational-driving-tests — evitare che la ruota posteriore invada il marciapiede nella svolta; https://aci.gov.it/codice-della-strada/art-3/ — definizione di marciapiede come parte destinata ai pedoni."
+      ]
+    },
+    {
+      "number": 31508,
+      "text": "两轴之间的距离称为轴距。悬伸则是车辆从车轴向前端或后端伸出的部分。",
+      "evidence": [
+        "https://www.gov.uk/government/publications/extending-a-vehicles-length-behind-its-rear-axle/extending-a-vehicles-length-behind-its-rear-axle — definisce il passo come distanza fra assi e lo sbalzo posteriore come estensione oltre l’asse posteriore."
+      ]
+    },
+    {
+      "number": 31509,
+      "text": "后悬衡量车辆从后轴向后伸出到最后端的距离。",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32021R0535 — Regolamento (UE) 2021/535, allegato I, punto 1.30: distanza orizzontale fra il piano dell’ultimo asse posteriore e il punto più arretrato; specifica anche il caso del dispositivo di traino non amovibile."
+      ]
+    },
+    {
+      "number": 31510,
+      "text": "车长超过七米并不要求驶向左侧。右转时应尽可能靠近右边缘，并确保操作不会造成危险。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-154/ — Codice della strada art. 154, commi 1 e 3: manovra senza pericolo e, per svolta a destra, vicinanza al margine destro."
+      ]
+    },
+    {
+      "number": 31511,
+      "text": "等待交叉口区域空出来，有助于驾驶人有足够空间完成转弯，同时不危及或妨碍其他道路使用者。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-154/ — Codice della strada art. 154, commi 1 e 3: manovra senza pericolo e, per svolta a destra, vicinanza al margine destro."
+      ]
+    },
+    {
+      "number": 31512,
+      "text": "坡度变化时，车尾触地风险主要与后悬长度及其离地高度有关；前悬并不衡量车尾向后伸出的距离。坡道形状也有影响。",
+      "evidence": [
+        "https://patents.google.com/patent/CN115909779B/en — descrizione, caso quattro e figura 6: la coda può toccare la rampa quando la ruota posteriore raggiunge il piede della discesa.",
+        "https://static.nhtsa.gov/odi/inv/2024/INRD-PE24023-21075.pdf — Ford General Body Builders Layout Book 2025, Ground Clearance, figura 37: l’angolo di uscita è formato dal suolo e dalla linea verso un punto dietro lo pneumatico posteriore; a pari altezza del punto, aumentando la distanza orizzontale l’angolo della linea diminuisce geometricamente."
+      ]
+    },
+    {
+      "number": 31513,
+      "text": "离地高度相同时，后轴后方车尾越长，离去角越小，在坡度变化处可能触地。",
+      "evidence": [
+        "https://patents.google.com/patent/CN115909779B/en — descrizione, caso quattro e figura 6: la coda può toccare la rampa quando la ruota posteriore raggiunge il piede della discesa.",
+        "https://static.nhtsa.gov/odi/inv/2024/INRD-PE24023-21075.pdf — Ford General Body Builders Layout Book 2025, Ground Clearance, figura 37: l’angolo di uscita è formato dal suolo e dalla linea verso un punto dietro lo pneumatico posteriore; a pari altezza del punto, aumentando la distanza orizzontale l’angolo della linea diminuisce geometricamente."
+      ]
+    },
+    {
+      "number": 31514,
+      "text": "题库判为错误：前部上坡时，车尾可能向地面下降。后悬、其离地高度及坡度都有关；轴距则是前后轴之间的距离。轴距可能影响车身俯仰，但仅凭轴距长度不能证明风险增大。",
+      "evidence": [
+        "https://www.vvfcarate.it/Documenti/MANUALE%20Guida%20in%20fuoristrada.pdf — §2.2.2, PDF p.8: departure angle is constrained by the rear point and tyre, and rear projection at fixed clearance changes ramp clearance; §2.2.3 separately discusses wheelbase and underbody geometry.",
+        "https://patents.google.com/patent/CN115909779B/en — case two models rear contact at an uphill ramp with rear axle at ramp foot using tail length, height and angle; this is an idealised geometry, not evidence for an installed production system. During transition pitch can depend on wheelbase and ramp profile; the model does not prove that wheelbase has no influence.",
+        "https://topix.landrover.jlrext.com/topix/service/archive/71213/technical%20data.pdf — Land Rover technical data PDF p.10, printed p.248: 2557 mm wheelbase and different departure angles with and without towbar. Text table inspected; diagram screenshot could not be retrieved and was not visually inspected."
+      ]
+    },
+    {
+      "number": 31515,
+      "text": "离地高度相同时，后悬越长，离去角越小，进入坡道时车尾触地的风险越大。",
+      "evidence": [
+        "https://www.vvfcarate.it/Documenti/MANUALE%20Guida%20in%20fuoristrada.pdf — § 2.2.2, angolo di uscita: a pari altezza uno sbalzo posteriore maggiore riduce la capacità di superare la rampa senza contatto."
+      ]
+    },
+    {
+      "number": 31516,
+      "text": "后悬更长本身并不一定会增加转向不足：转弯表现还取决于载荷分布和轮胎特性。",
+      "evidence": [
+        "https://research.chalmers.se/publication/501552/file/501552_Fulltext.pdf — analisi del sottosterzo: distribuzione dei carichi e rigidezza laterale degli pneumatici influenzano il comportamento; la sola lunghezza dello sbalzo non determina il risultato."
+      ]
+    },
+    {
+      "number": 31517,
+      "text": "如果障碍物使会车无法进行，也无法靠近右侧边缘行驶，受阻一方必须停车让对向车辆通过。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-150/ — Codice della strada art. 150, commi 1 e 2: ostacoli, arresto e precedenza in pendenza; la piazzola in salita rileva quando altrimenti occorrerebbe retromarcia."
+      ]
+    },
+    {
+      "number": 31518,
+      "text": "受阻一方没有优先权：如果无法会车且不能靠近右侧边缘，应停车让对向车辆通过。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-150/ — Codice della strada art. 150, commi 1 e 2: ostacoli, arresto e precedenza in pendenza; la piazzola in salita rileva quando altrimenti occorrerebbe retromarcia."
+      ]
+    },
+    {
+      "number": 31519,
+      "text": "道路施工不会使受阻一方获得优先权：如果无法会车且不能靠近右侧边缘，应停车让其他车辆通过。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-150/ — Codice della strada art. 150, commi 1 e 2: ostacoli, arresto e precedenza in pendenza; la piazzola in salita rileva quando altrimenti occorrerebbe retromarcia."
+      ]
+    },
+    {
+      "number": 31520,
+      "text": "如果施工使会车无法进行，也无法靠近右侧边缘行驶，受阻一方必须停车让对向车辆通过。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-150/ — Codice della strada art. 150, commi 1 e 2: ostacoli, arresto e precedenza in pendenza; la piazzola in salita rileva quando altrimenti occorrerebbe retromarcia."
+      ]
+    },
+    {
+      "number": 31521,
+      "text": "通常应由下坡车辆停车，而不是上坡车辆。但如果上坡车辆有避车处，且不停车就需要倒车，则应在避车处停车。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-150/ — Codice della strada art. 150, commi 1 e 2: ostacoli, arresto e precedenza in pendenza; la piazzola in salita rileva quando altrimenti occorrerebbe retromarcia."
+      ]
+    },
+    {
+      "number": 31522,
+      "text": "如果道路狭窄到不这样做就需要倒车，上坡驾驶人必须在可用的避车处停车。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-150/ — Codice della strada art. 150, commi 1 e 2: ostacoli, arresto e precedenza in pendenza; la piazzola in salita rileva quando altrimenti occorrerebbe retromarcia."
+      ]
+    },
+    {
+      "number": 31523,
+      "text": "通常由下坡驾驶人停车并靠右或驶入避车处。如果上坡驾驶人有避车处，且不停车就需要倒车，则由上坡驾驶人停车。",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-150/ — Codice della strada art. 150, commi 1 e 2: ostacoli, arresto e precedenza in pendenza; la piazzola in salita rileva quando altrimenti occorrerebbe retromarcia."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "e860fccd7472c693fccda1fd1bef2d1c5c819b1cb6ade5c2232f13f269c125ce",
+    "output_sha256": "3ccbd1ef6307d4a88368f56a6d5d0cb88313f6b601dcbedfe90dd8d6c71f48ba",
+    "author": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31499,
+      31500,
+      31501,
+      31502,
+      31503,
+      31504,
+      31505,
+      31506,
+      31507,
+      31508,
+      31509,
+      31510,
+      31511,
+      31512,
+      31513,
+      31514,
+      31515,
+      31516,
+      31517,
+      31518,
+      31519,
+      31520,
+      31521,
+      31522,
+      31523
+    ],
+    "issues": [],
+    "review_evidence": "Independent review all 25 questions/verdicts and four-language texts; no quiz figures. ACI CdS148(3),(9-bis),143,150,153,154 directly checked; 1.5m cycle overtaking is conditional on road conditions. Monte Bianco 2026 charter pp15–16 directly checked tunnel-specific access, spacing and speed. Ford body-builder text p40 departure geometry, VVF offroad guide §2.2.2, CN115909779B idealised case4, Chalmers thesis p25 and Land Rover printed p248 dimension table inspected; Land Rover diagram was not visually inspected and no claim otherwise. OpenStax work-energy, FHWA turning and EU2021/535 rear-overhang definition inspected.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb8c-5741-7051-9fcd-689681347cf0",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b0d92636f8af827fa6a5b5c1878a3dfa86c935a48eee18d458459aa025f77f65",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb8f-e410-7661-8d96-f3ed732d5027",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "70dad4fbb90417e1006445c573a3434db2636e2d59fe6b17812053debfba5799",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb92-a113-7af1-bbbe-0a9a4352b410",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b37dc53c22abfc94ba11ca43cd4496673820c99e7b2c4873cb7b6c6a66fa85db",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb94-7f66-7092-879c-1518c7545695",
+        "label": "author-3-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "53930ebbc791c35c67b6597250254fe2281df6f4bbf9f2497111e02e3c79aa4c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "f552e5f381f06955a8698184591b86750d60fe8c214264ec07b6d79d90e0938d",
+          "output_sha256": "031036b8d791fdadaf831126fe336ddace42e11cce6a427b1087cc1d74d5a948",
+          "author": "gpt-6.1-terra / 01a1eb8c-5741-7051-9fcd-689681347cf0",
+          "reviewer": "gpt-6.1-terra / 01a1eb8e-afb7-7683-bf1d-0d8b3dd2b67b",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            "31509: The cited UNECE document returned HTTP 403, so its claimed Annex 4 definition could not be checked. EU Regulation 2021/535, Annex I, point 1.30 (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02021R0535-20240411) independently supports the basic definition; replace or supplement the inaccessible citation with verifiable evidence.",
+            "31512, 31513: The cited fire-service manual section 2.2.2 describes departure angle when entering an upward ramp from level ground; it does not establish the asserted rear-contact geometry at the end of a descending ramp. Supply an authoritative source addressing that specific transition, or refer for adjudication; do not infer verification from the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "b387328372145cb3960c6f0f826bee17db332755d41d37d8e2580e405dd74b3f",
+          "output_sha256": "dd99b9c8cd578153832f9aba24bbd92bdd3f6c64a42923270410b631ef756773",
+          "author": "gpt-6.1-terra / 01a1eb8c-5741-7051-9fcd-689681347cf0",
+          "reviewer": "gpt-6.1-terra / 01a1eb8e-afb7-7683-bf1d-0d8b3dd2b67b",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            "31509: The cited UNECE document returned HTTP 403, so its claimed Annex 4 definition could not be checked. EU Regulation 2021/535, Annex I, point 1.30 (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02021R0535-20240411) independently supports the basic definition; replace or supplement the inaccessible citation with verifiable evidence.",
+            "31512, 31513: The cited fire-service manual section 2.2.2 describes departure angle when entering an upward ramp from level ground; it does not establish the asserted rear-contact geometry at the end of a descending ramp. Supply an authoritative source addressing that specific transition, or refer for adjudication; do not infer verification from the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "e860fccd7472c693fccda1fd1bef2d1c5c819b1cb6ade5c2232f13f269c125ce",
+          "output_sha256": "a935e176b2c3f49bcff1e36b9965bb64942bc8ccd79b96e87e0058f894f66683",
+          "author": "gpt-6.1-terra / 01a1eb8c-5741-7051-9fcd-689681347cf0",
+          "reviewer": "gpt-6.1-terra / 01a1eb8e-afb7-7683-bf1d-0d8b3dd2b67b",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            "31509: The cited UNECE document returned HTTP 403, so its claimed Annex 4 definition could not be checked. EU Regulation 2021/535, Annex I, point 1.30 (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02021R0535-20240411) independently supports the basic definition; replace or supplement the inaccessible citation with verifiable evidence.",
+            "31512, 31513: The cited fire-service manual section 2.2.2 describes departure angle when entering an upward ramp from level ground; it does not establish the asserted rear-contact geometry at the end of a descending ramp. Supply an authoritative source addressing that specific transition, or refer for adjudication; do not infer verification from the printed verdict.",
+            "31500: 停车距离 means stopping distance, which can include reaction distance; the Italian and other drafts specify distance needed to stop under constant braking force. Use 制动距离 to preserve the braking-distance distinction."
+          ]
+        },
+        {
+          "task_sha256": "ab0b7eeb184f579e9d1c071bc37313a3c137097c440148b5f88613cfef31b14c",
+          "output_sha256": "37607005738766b9f890d3787af96ae967fb7f4fc77538a5960cd0de7fee9c0e",
+          "author": "gpt-6.1-terra / 01a1eb8c-5741-7051-9fcd-689681347cf0",
+          "reviewer": "gpt-6.1-terra / 01a1eb8e-afb7-7683-bf1d-0d8b3dd2b67b",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            "31509: The cited UNECE document returned HTTP 403, so its claimed Annex 4 definition could not be checked. EU Regulation 2021/535, Annex I, point 1.30 (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02021R0535-20240411) independently supports the basic definition; replace or supplement the inaccessible citation with verifiable evidence.",
+            "31512, 31513: The cited fire-service manual section 2.2.2 describes departure angle when entering an upward ramp from level ground; it does not establish the asserted rear-contact geometry at the end of a descending ramp. Supply an authoritative source addressing that specific transition, or refer for adjudication; do not infer verification from the printed verdict."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "f552e5f381f06955a8698184591b86750d60fe8c214264ec07b6d79d90e0938d",
+          "output_sha256": "9635ec12b6c4a96e204a6c2285ee1bd0aededf878bb05184c29c49aac6138e63",
+          "author": "gpt-6.1-terra / 01a1eb8f-e410-7661-8d96-f3ed732d5027",
+          "reviewer": "gpt-6.1-terra / 01a1eb91-0ea7-7662-875b-c05e01689df9",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            {
+              "number": 31506,
+              "reason": "Cited DVSA guidance does not identify the stated rear-wheel trajectory or overhang relationship; HSE describes general manoeuvrability but does not establish how wheelbase changes wheel paths. Supply an authoritative source supporting the specific relationships."
+            },
+            {
+              "number": 31512,
+              "reason": "The cited UNECE document returns HTTP 403, so its claimed section and departure-angle diagram could not be independently verified. Supply an accessible authoritative citation or remove this unsupported citation; the cited patent does describe the downhill tail-contact scenario."
+            },
+            {
+              "number": 31513,
+              "reason": "The cited UNECE document returns HTTP 403, so its claimed section and departure-angle diagram could not be independently verified. Supply an accessible authoritative citation or remove this unsupported citation; the cited patent does describe the downhill tail-contact scenario."
+            }
+          ]
+        },
+        {
+          "task_sha256": "b387328372145cb3960c6f0f826bee17db332755d41d37d8e2580e405dd74b3f",
+          "output_sha256": "0887d5e732f063a1bf5f29e6f7dbd9af7a0f7ea41214b19d3a542bc879b44cfb",
+          "author": "gpt-6.1-terra / 01a1eb8f-e410-7661-8d96-f3ed732d5027",
+          "reviewer": "gpt-6.1-terra / 01a1eb91-0ea7-7662-875b-c05e01689df9",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            {
+              "number": 31506,
+              "reason": "Cited DVSA guidance does not identify the stated rear-wheel trajectory or overhang relationship; HSE describes general manoeuvrability but does not establish how wheelbase changes wheel paths. Supply an authoritative source supporting the specific relationships."
+            },
+            {
+              "number": 31512,
+              "reason": "The cited UNECE document returns HTTP 403, so its claimed section and departure-angle diagram could not be independently verified. Supply an accessible authoritative citation or remove this unsupported citation; the cited patent does describe the downhill tail-contact scenario."
+            },
+            {
+              "number": 31513,
+              "reason": "The cited UNECE document returns HTTP 403, so its claimed section and departure-angle diagram could not be independently verified. Supply an accessible authoritative citation or remove this unsupported citation; the cited patent does describe the downhill tail-contact scenario."
+            }
+          ]
+        },
+        {
+          "task_sha256": "e860fccd7472c693fccda1fd1bef2d1c5c819b1cb6ade5c2232f13f269c125ce",
+          "output_sha256": "467a2ba0fada04e3d418910a9b8074668dfad2f5d52482167cc3142e5c23af11",
+          "author": "gpt-6.1-terra / 01a1eb8f-e410-7661-8d96-f3ed732d5027",
+          "reviewer": "gpt-6.1-terra / 01a1eb91-0ea7-7662-875b-c05e01689df9",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            {
+              "number": 31506,
+              "reason": "Cited DVSA guidance does not identify the stated rear-wheel trajectory or overhang relationship; HSE describes general manoeuvrability but does not establish how wheelbase changes wheel paths. Supply an authoritative source supporting the specific relationships."
+            },
+            {
+              "number": 31512,
+              "reason": "The cited UNECE document returns HTTP 403, so its claimed section and departure-angle diagram could not be independently verified. Supply an accessible authoritative citation or remove this unsupported citation; the cited patent does describe the downhill tail-contact scenario."
+            },
+            {
+              "number": 31513,
+              "reason": "The cited UNECE document returns HTTP 403, so its claimed section and departure-angle diagram could not be independently verified. Supply an accessible authoritative citation or remove this unsupported citation; the cited patent does describe the downhill tail-contact scenario."
+            }
+          ]
+        },
+        {
+          "task_sha256": "ab0b7eeb184f579e9d1c071bc37313a3c137097c440148b5f88613cfef31b14c",
+          "output_sha256": "381f06655580b37c2575949e3edd260a875cb1b5954bb58fabc86a6807e0744b",
+          "author": "gpt-6.1-terra / 01a1eb8f-e410-7661-8d96-f3ed732d5027",
+          "reviewer": "gpt-6.1-terra / 01a1eb91-0ea7-7662-875b-c05e01689df9",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            {
+              "number": 31506,
+              "reason": "Cited DVSA guidance does not identify the stated rear-wheel trajectory or overhang relationship; HSE describes general manoeuvrability but does not establish how wheelbase changes wheel paths. Supply an authoritative source supporting the specific relationships."
+            },
+            {
+              "number": 31512,
+              "reason": "The cited UNECE document returns HTTP 403, so its claimed section and departure-angle diagram could not be independently verified. Supply an accessible authoritative citation or remove this unsupported citation; the cited patent does describe the downhill tail-contact scenario."
+            },
+            {
+              "number": 31513,
+              "reason": "The cited UNECE document returns HTTP 403, so its claimed section and departure-angle diagram could not be independently verified. Supply an accessible authoritative citation or remove this unsupported citation; the cited patent does describe the downhill tail-contact scenario."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "f552e5f381f06955a8698184591b86750d60fe8c214264ec07b6d79d90e0938d",
+          "output_sha256": "9752adb4ae3215f9ae2a162f44b56c20bfdaa73ff47653dda4ce64aaef94c757",
+          "author": "gpt-6.1-terra / 01a1eb92-a113-7af1-bbbe-0a9a4352b410",
+          "reviewer": "gpt-6.1-terra / 01a1eb93-7db8-7320-b95c-f3f5ca3347ac",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            {
+              "number": 31506,
+              "reason": "The cited Massachusetts intersection design source returns HTTP 403, so its stated support for the overhang swept-space claim could not be independently verified. Supply an accessible authoritative source and check the claim."
+            },
+            {
+              "number": 31512,
+              "reason": "The cited Australian design rule § 7.3.2 refers to ISO 612 and does not contain the claimed departure-angle diagram. The patent describes the specific geometry, but the cited evidence must accurately identify its support; correct the erroneous citation."
+            },
+            {
+              "number": 31513,
+              "reason": "The cited Australian design rule § 7.3.2 refers to ISO 612 and does not contain the claimed departure-angle diagram. Correct the erroneous citation and provide accessible support for the angle claim."
+            }
+          ]
+        },
+        {
+          "task_sha256": "b387328372145cb3960c6f0f826bee17db332755d41d37d8e2580e405dd74b3f",
+          "output_sha256": "fa5c77b536c506a21a7fdbf9347c31e12e03f8de2db12cd24d9a6ac744199878",
+          "author": "gpt-6.1-terra / 01a1eb92-a113-7af1-bbbe-0a9a4352b410",
+          "reviewer": "gpt-6.1-terra / 01a1eb93-7db8-7320-b95c-f3f5ca3347ac",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            {
+              "number": 31506,
+              "reason": "The cited Massachusetts intersection design source returns HTTP 403, so its stated support for the overhang swept-space claim could not be independently verified. Supply an accessible authoritative source and check the claim."
+            },
+            {
+              "number": 31512,
+              "reason": "The cited Australian design rule § 7.3.2 refers to ISO 612 and does not contain the claimed departure-angle diagram. The patent describes the specific geometry, but the cited evidence must accurately identify its support; correct the erroneous citation."
+            },
+            {
+              "number": 31513,
+              "reason": "The cited Australian design rule § 7.3.2 refers to ISO 612 and does not contain the claimed departure-angle diagram. Correct the erroneous citation and provide accessible support for the angle claim."
+            }
+          ]
+        },
+        {
+          "task_sha256": "e860fccd7472c693fccda1fd1bef2d1c5c819b1cb6ade5c2232f13f269c125ce",
+          "output_sha256": "8618115730ff6fd38d22bcb870a9926fac8f1f4ee25ccab77b4ac5d4f7a54b54",
+          "author": "gpt-6.1-terra / 01a1eb92-a113-7af1-bbbe-0a9a4352b410",
+          "reviewer": "gpt-6.1-terra / 01a1eb93-7db8-7320-b95c-f3f5ca3347ac",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            {
+              "number": 31506,
+              "reason": "The cited Massachusetts intersection design source returns HTTP 403, so its stated support for the overhang swept-space claim could not be independently verified. Supply an accessible authoritative source and check the claim."
+            },
+            {
+              "number": 31512,
+              "reason": "The cited Australian design rule § 7.3.2 refers to ISO 612 and does not contain the claimed departure-angle diagram. The patent describes the specific geometry, but the cited evidence must accurately identify its support; correct the erroneous citation."
+            },
+            {
+              "number": 31513,
+              "reason": "The cited Australian design rule § 7.3.2 refers to ISO 612 and does not contain the claimed departure-angle diagram. Correct the erroneous citation and provide accessible support for the angle claim."
+            }
+          ]
+        },
+        {
+          "task_sha256": "ab0b7eeb184f579e9d1c071bc37313a3c137097c440148b5f88613cfef31b14c",
+          "output_sha256": "0a836e431647eddf3da0ead3153f568aba47135580da2c120fc80a24f2aad300",
+          "author": "gpt-6.1-terra / 01a1eb92-a113-7af1-bbbe-0a9a4352b410",
+          "reviewer": "gpt-6.1-terra / 01a1eb93-7db8-7320-b95c-f3f5ca3347ac",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            {
+              "number": 31506,
+              "reason": "The cited Massachusetts intersection design source returns HTTP 403, so its stated support for the overhang swept-space claim could not be independently verified. Supply an accessible authoritative source and check the claim."
+            },
+            {
+              "number": 31512,
+              "reason": "The cited Australian design rule § 7.3.2 refers to ISO 612 and does not contain the claimed departure-angle diagram. The patent describes the specific geometry, but the cited evidence must accurately identify its support; correct the erroneous citation."
+            },
+            {
+              "number": 31513,
+              "reason": "The cited Australian design rule § 7.3.2 refers to ISO 612 and does not contain the claimed departure-angle diagram. Correct the erroneous citation and provide accessible support for the angle claim."
+            },
+            {
+              "number": 31508,
+              "reason": "The first sentence is tautological: “La distancia entre los dos ejes es la distancia entre ejes.” It does not teach the distinction as the Italian does; use a clear definition of distancia entre ejes (or batalla)."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "f552e5f381f06955a8698184591b86750d60fe8c214264ec07b6d79d90e0938d",
+          "output_sha256": "a8910c65c00e62118e15d412702a0fc99ba639bf9092eadf07f32e1b5c92fe64",
+          "author": "gpt-6.1-terra / 01a1eb94-7f66-7092-879c-1518c7545695",
+          "reviewer": "gpt-6.1-terra / 01a1eb95-5414-7040-9726-f9431af094f3",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            "31503: The explanation merely advises attention to tunnel signs and instructions; the cited ACI leaflet does not establish the specific owner-prescribed provisions or explain why knowing them before entry is necessary. Supply authoritative support and an explanation tied to the printed statement.",
+            "31514: The explanation says wheelbase is a different dimension but does not explain why it does not establish the claimed rear-contact risk at the start of an ascent. The cited departure-angle definition supports rear-overhang geometry, but does not independently resolve the asserted wheelbase relationship; provide a source addressing that geometry and a specific explanation."
+          ]
+        },
+        {
+          "task_sha256": "b387328372145cb3960c6f0f826bee17db332755d41d37d8e2580e405dd74b3f",
+          "output_sha256": "d1d5c1897b7e10eb2253e9c10653ba4b4a078688aa4ddcdc10d1cc09f3241f5d",
+          "author": "gpt-6.1-terra / 01a1eb94-7f66-7092-879c-1518c7545695",
+          "reviewer": "gpt-6.1-terra / 01a1eb95-5414-7040-9726-f9431af094f3",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            "31503: The explanation merely advises attention to tunnel signs and instructions; the cited ACI leaflet does not establish the specific owner-prescribed provisions or explain why knowing them before entry is necessary. Supply authoritative support and an explanation tied to the printed statement.",
+            "31514: The explanation says wheelbase is a different dimension but does not explain why it does not establish the claimed rear-contact risk at the start of an ascent. The cited departure-angle definition supports rear-overhang geometry, but does not independently resolve the asserted wheelbase relationship; provide a source addressing that geometry and a specific explanation."
+          ]
+        },
+        {
+          "task_sha256": "e860fccd7472c693fccda1fd1bef2d1c5c819b1cb6ade5c2232f13f269c125ce",
+          "output_sha256": "437b4080bdca872f87faef1b6f710bffe464077bb2e134806835ae53769896df",
+          "author": "gpt-6.1-terra / 01a1eb94-7f66-7092-879c-1518c7545695",
+          "reviewer": "gpt-6.1-terra / 01a1eb95-5414-7040-9726-f9431af094f3",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            "31503: The explanation merely advises attention to tunnel signs and instructions; the cited ACI leaflet does not establish the specific owner-prescribed provisions or explain why knowing them before entry is necessary. Supply authoritative support and an explanation tied to the printed statement.",
+            "31514: The explanation says wheelbase is a different dimension but does not explain why it does not establish the claimed rear-contact risk at the start of an ascent. The cited departure-angle definition supports rear-overhang geometry, but does not independently resolve the asserted wheelbase relationship; provide a source addressing that geometry and a specific explanation."
+          ]
+        },
+        {
+          "task_sha256": "ab0b7eeb184f579e9d1c071bc37313a3c137097c440148b5f88613cfef31b14c",
+          "output_sha256": "28e7c904e158776fa8e5e24cc0d209c64afd65ebc3ae0d810b27bd26d347f17b",
+          "author": "gpt-6.1-terra / 01a1eb94-7f66-7092-879c-1518c7545695",
+          "reviewer": "gpt-6.1-terra / 01a1eb95-5414-7040-9726-f9431af094f3",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31499,
+            31500,
+            31501,
+            31502,
+            31503,
+            31504,
+            31505,
+            31506,
+            31507,
+            31508,
+            31509,
+            31510,
+            31511,
+            31512,
+            31513,
+            31514,
+            31515,
+            31516,
+            31517,
+            31518,
+            31519,
+            31520,
+            31521,
+            31522,
+            31523
+          ],
+          "issues": [
+            "31503: The explanation merely advises attention to tunnel signs and instructions; the cited ACI leaflet does not establish the specific owner-prescribed provisions or explain why knowing them before entry is necessary. Supply authoritative support and an explanation tied to the printed statement.",
+            "31514: The explanation says wheelbase is a different dimension but does not explain why it does not establish the claimed rear-contact risk at the start of an ascent. The cited departure-angle definition supports rear-overhang geometry, but does not independently resolve the asserted wheelbase relationship; provide a source addressing that geometry and a specific explanation."
+          ]
+        }
+      ],
+      {
+        "task_sha256": "e860fccd7472c693fccda1fd1bef2d1c5c819b1cb6ade5c2232f13f269c125ce",
+        "output_sha256": "437b4080bdca872f87faef1b6f710bffe464077bb2e134806835ae53769896df",
+        "author": "",
+        "reviewer": "RUN_ID_TO_BE_RECORDED",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31499,
+          31500,
+          31501,
+          31502,
+          31503,
+          31504,
+          31505,
+          31506,
+          31507,
+          31508,
+          31509,
+          31510,
+          31511,
+          31512,
+          31513,
+          31514,
+          31515,
+          31516,
+          31517,
+          31518,
+          31519,
+          31520,
+          31521,
+          31522,
+          31523
+        ],
+        "issues": [
+          "31503: The explanation merely advises attention to tunnel signs and instructions; the cited ACI leaflet does not establish the specific owner-prescribed provisions or explain why knowing them before entry is necessary. Supply authoritative support and an explanation tied to the printed statement.",
+          "31514: The explanation says wheelbase is a different dimension but does not explain why it does not establish the claimed rear-contact risk at the start of an ascent. The cited departure-angle definition supports rear-overhang geometry, but does not independently resolve the asserted wheelbase relationship; provide a source addressing that geometry and a specific explanation."
+        ]
+      }
+    ]
+  }
+}

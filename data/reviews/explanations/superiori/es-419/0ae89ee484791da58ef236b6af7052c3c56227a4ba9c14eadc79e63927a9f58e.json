@@ -1,0 +1,638 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29457,
+          "quesito_id": 6170,
+          "text_it": "Il metano, per essere usato quale combustibile per autoveicoli, deve essere compresso a circa 4 bar",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "90d2df7d2dd01dedc4f163bb7ce0594b19a074d18cdb2f51263cc18e288ad52f",
+        "localized_text": "Para usarlo como combustible en vehículos automotores, el metano debe comprimirse a aproximadamente 4 bar"
+      },
+      {
+        "source": {
+          "number": 29458,
+          "quesito_id": 6170,
+          "text_it": "A parità di volume del serbatoio di un autoveicolo, il \"pieno\" di metano compresso garantisce una maggior autonomia di viaggio rispetto alla benzina",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1970583a2df0eae3636dcbd5da3d92cc1d3eb7073c8aac625f46e35a074d313c",
+        "localized_text": "Con igual volumen de depósito, un tanque lleno de metano comprimido proporciona mayor autonomía que la gasolina"
+      },
+      {
+        "source": {
+          "number": 29459,
+          "quesito_id": 6170,
+          "text_it": "Il metano si miscela male con l’aria e quindi brucia emettendo maggiori residui inquinanti",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0515d52ab4c86b880ca857672bf42038b7323066c11868c1b7d18e34afe90dfb",
+        "localized_text": "El metano se mezcla mal con el aire y por eso se quema emitiendo más residuos contaminantes"
+      },
+      {
+        "source": {
+          "number": 29460,
+          "quesito_id": 6171,
+          "text_it": "Non è opportuno sostituire un fusibile con uno di amperaggio diverso",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bb90bdf1e3da80ba1161eb09b37565f068cc10e10b96e9daf5e84f3a527a0df5",
+        "localized_text": "No conviene sustituir un fusible por otro de amperaje diferente"
+      },
+      {
+        "source": {
+          "number": 29461,
+          "quesito_id": 6171,
+          "text_it": "Tutti i fusibili sono raccolti in uno o più contenitori facilmente accessibili",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f33fb5b7c9ed04c3d814e95aa3474a06d9471fe2b68d6441bc1fb818c5d5639c",
+        "localized_text": "Todos los fusibles están agrupados en uno o más compartimentos de fácil acceso"
+      },
+      {
+        "source": {
+          "number": 29462,
+          "quesito_id": 6171,
+          "text_it": "Ogni fusibile è distinto dagli altri per il colore e per il numero scritto sulla sua parte in plastica",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e610cdff1c3abd59220ca92ceba78ca189ef10b68dda14a9a0aa9eec56cace92",
+        "localized_text": "Cada fusible se distingue de los demás por el color y el número escrito en su parte de plástico"
+      },
+      {
+        "source": {
+          "number": 29463,
+          "quesito_id": 6171,
+          "text_it": "Il fusibile è un dispositivo in grado di interrompere il flusso di corrente a un apparato se questa supera una soglia prefissata",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a750c116faad13abaa2339e9be91dff63e06e001063ec947bc5f1b2a2c8400fe",
+        "localized_text": "El fusible es un dispositivo capaz de interrumpir el flujo de corriente a un aparato si esta supera un umbral establecido"
+      },
+      {
+        "source": {
+          "number": 29464,
+          "quesito_id": 6171,
+          "text_it": "I fusibili sono costituiti da un contenitore al cui interno è presente un filo metallico dimensionato in modo tale da fondere se la corrente che lo attraversa supera un valore limite",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3c98d9d7368fd43f48c1ad59044a66dec2c92557b399c5502cb345d8248134e0",
+        "localized_text": "Los fusibles consisten en una carcasa que contiene un hilo metálico dimensionado para fundirse si la corriente que lo atraviesa supera un valor límite"
+      },
+      {
+        "source": {
+          "number": 29465,
+          "quesito_id": 6171,
+          "text_it": "La posizione della scatola dei fusibili è indicata sul libretto di uso e manutenzione",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7a3f05bc777720dd9d1a5e1b324178b637c3d9dce3be69e64f56ae75738c893a",
+        "localized_text": "La ubicación de la caja de fusibles se indica en el manual de uso y mantenimiento"
+      },
+      {
+        "source": {
+          "number": 29466,
+          "quesito_id": 6171,
+          "text_it": "La parte isolante dei fusibili ha in genere colori differenti a seconda del loro amperaggio",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b33dfb2773482b4562679a6f4c128edd7b1622ca830e758d33291d73f3405277",
+        "localized_text": "La parte aislante de los fusibles suele tener distintos colores según su amperaje"
+      },
+      {
+        "source": {
+          "number": 29467,
+          "quesito_id": 6171,
+          "text_it": "Sui fusibili si trova scritto il valore del loro amperaggio",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cd47cd93a331849382144cd3a02b800d9017c5f619104f59ad105d9b1ff7cf8f",
+        "localized_text": "En los fusibles está escrito su valor de amperaje"
+      },
+      {
+        "source": {
+          "number": 29468,
+          "quesito_id": 6171,
+          "text_it": "Il valore dell’amperaggio di un fusibile è un numero seguito dalla lettera A maiuscola",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8d9f76c0b6250f5ed5d6ba2e4191a34b74b0e37c96331a3d1a80c760ee168c59",
+        "localized_text": "El amperaje de un fusible es un número seguido de la letra mayúscula A"
+      },
+      {
+        "source": {
+          "number": 29469,
+          "quesito_id": 6171,
+          "text_it": "L’impianto elettrico di un autoveicolo è suddiviso in sezioni, ciascuna protetta dal proprio fusibile",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5fbdecdbad7a323a2a39f684fc04de0ed08eb77cc12db0bfec08de51e2b26982",
+        "localized_text": "El sistema eléctrico de un vehículo se divide en secciones, cada una protegida por su propio fusible"
+      },
+      {
+        "source": {
+          "number": 29470,
+          "quesito_id": 6171,
+          "text_it": "I circuiti elettrici dell’autoveicolo sono raramente protetti da un fusibile",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "89df9a4619fdd602606adb59bac92698e7a2da8f6f964f4f7d0c891f2142458c",
+        "localized_text": "Los circuitos eléctricos del vehículo automotor rara vez están protegidos por un fusible"
+      },
+      {
+        "source": {
+          "number": 29471,
+          "quesito_id": 6171,
+          "text_it": "I fusibili sono sostituibili solo in officina",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8772b1f04b3cabd49363f7734ec4df9424725b189aeacb0e4a0b35ec045d2274",
+        "localized_text": "Los fusibles solo pueden cambiarse en un taller"
+      },
+      {
+        "source": {
+          "number": 29472,
+          "quesito_id": 6171,
+          "text_it": "Se non si dispone di un fusibile sostitutivo uguale, occorre sostituire quello guasto con uno di amperaggio minore",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ea0d4b1648dc5be60f937348bea216522a3fdb6a2b5afecf2bca54083432f75f",
+        "localized_text": "Si no se dispone de un fusible de reemplazo igual, hay que sustituir el averiado por uno de menor amperaje"
+      },
+      {
+        "source": {
+          "number": 29473,
+          "quesito_id": 6171,
+          "text_it": "Tutti i fusibili vanno sostituiti ogni volta che si effettua la revisione periodica del veicolo",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "677e650a8f824e064ca8151c306a1a3480f878af9252976200f333bfdc57868a",
+        "localized_text": "Todos los fusibles deben reemplazarse cada vez que se realiza la inspección periódica del vehículo"
+      },
+      {
+        "source": {
+          "number": 29474,
+          "quesito_id": 6171,
+          "text_it": "Il fusibile è un dispositivo idraulico che è in grado di proteggere l'impianto di lubrificazione da eventuali sovrappressioni",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5befca67a786267ee53acb011ddf385c5476fa3e150b98e344eb7dfef1d77f3a",
+        "localized_text": "El fusible es un dispositivo hidráulico que protege el sistema de lubricación de posibles sobrepresiones"
+      },
+      {
+        "source": {
+          "number": 29475,
+          "quesito_id": 6171,
+          "text_it": "Sui fusibili si trova scritto il valore del loro voltaggio",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "220a3f2232cf597430c99bd1b5dbca37c69843cb3024ecab1405fca964d9a70e",
+        "localized_text": "En los fusibles está escrito el valor de su voltaje"
+      },
+      {
+        "source": {
+          "number": 29476,
+          "quesito_id": 6171,
+          "text_it": "Il valore del voltaggio di un fusibile è un numero seguito dalla lettera V maiuscola",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "487d3fea5e04583be269c4e50786f2fa44dedee590f0b112d757aa887b51535f",
+        "localized_text": "El valor del voltaje de un fusible es un número seguido de la letra V mayúscula"
+      },
+      {
+        "source": {
+          "number": 29477,
+          "quesito_id": 6171,
+          "text_it": "I fusibili di colore rosso possono essere sostituiti solo da addetti delle officine specializzate",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ce84c6f476cdbd4b60c7c3ebcd325177244c678748dc7ef171deb2f69bb65b63",
+        "localized_text": "Los fusibles rojos solo pueden ser sustituidos por personal de talleres especializados"
+      },
+      {
+        "source": {
+          "number": 29478,
+          "quesito_id": 6171,
+          "text_it": "Se lo stesso fusibile brucia spesso è bene sostituirlo con uno di amperaggio inferiore",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8449cbf00ef4045d7381e274d7b830aac5262c67998431a9ceabe62145e1bd28",
+        "localized_text": "Si el mismo fusible se quema con frecuencia conviene sustituirlo por uno de menor amperaje"
+      },
+      {
+        "source": {
+          "number": 29479,
+          "quesito_id": 6171,
+          "text_it": "Se lo stesso fusibile brucia spesso è bene sostituirlo con un cavallotto di filo elettrico",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2a1b918bc889a717ececfa6b842415ca120af969ba8c84c27818ea4b7a63ad5a",
+        "localized_text": "Si el mismo fusible se quema con frecuencia conviene sustituirlo por un puente de cable eléctrico"
+      },
+      {
+        "source": {
+          "number": 29480,
+          "quesito_id": 6171,
+          "text_it": "La sostituzione di un fusibile va fatta con la chiave del quadro inserita, in modo da vedere subito se si è operato correttamente",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4deac42e043feb8c7c882f3ec0dc7b7eb420232ece4252982a5c5dab50f657a0",
+        "localized_text": "Un fusible debe cambiarse con la llave de encendido puesta para comprobar inmediatamente si se hizo bien"
+      },
+      {
+        "source": {
+          "number": 29481,
+          "quesito_id": 6171,
+          "text_it": "Nei veicoli pesanti, tutti i fusibili hanno di norma il medesimo amperaggio",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "263f12198363468cf2cedd6be73571efd384b2875c0f4a42830179c6b621bbd9",
+        "localized_text": "En los vehículos pesados, todos los fusibles suelen tener el mismo amperaje"
+      }
+    ],
+    "task_sha256": "0ae89ee484791da58ef236b6af7052c3c56227a4ba9c14eadc79e63927a9f58e"
+  },
+  "rows": [
+    {
+      "number": 29457,
+      "text": "El gas natural comprimido se almacena a presiones mucho mayores que 4 bar para llevar suficiente combustible a bordo.",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/natural-gas-filling-tanks: pressione nominale tipica 3.600 psi, circa 248 bar."
+      ]
+    },
+    {
+      "number": 29458,
+      "text": "El gas natural comprimido tiene menor densidad energética por volumen que la gasolina, por lo que un tanque lleno de igual volumen no garantiza mayor autonomía.",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/natural-gas: minore densità energetica e autonomia generalmente inferiore ai veicoli a benzina comparabili.",
+        "https://afdc.energy.gov/fuels/natural-gas-basics: consumo comparabile per equivalente energetico di benzina."
+      ]
+    },
+    {
+      "number": 29459,
+      "text": "El gas natural, compuesto principalmente de metano, se mezcla rápidamente con el aire. Las emisiones también dependen del motor y su calibración; no son necesariamente mayores por una mala mezcla.",
+      "evidence": [
+        "https://www.sciencedirect.com/science/article/pii/S1364032114004055: miscelazione rapida e possibilità di riduzione di diversi inquinanti.",
+        "https://afdc.energy.gov/vehicles/natural-gas-emissions: emissioni variabili con veicolo, impiego e calibrazione."
+      ]
+    },
+    {
+      "number": 29460,
+      "text": "Usa un repuesto del tipo y amperaje especificados: uno diferente puede fundirse innecesariamente o proteger mal el circuito.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29461,
+      "text": "Los fusibles suelen agruparse en cajas; el manual del vehículo indica dónde encontrarlas y cómo acceder a ellas.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29462,
+      "text": "En los fusibles de lámina comunes, el color y el número identifican la corriente nominal. Por eso, los fusibles del mismo amperaje pueden tener igual color y número.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo.",
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego."
+      ]
+    },
+    {
+      "number": 29463,
+      "text": "El fusible protege el circuito al interrumpir la corriente cuando una sobrecorriente funde su elemento interno.",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego.",
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29464,
+      "text": "El elemento metálico interno está diseñado para fundirse ante una sobrecorriente y abrir el circuito.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo.",
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego."
+      ]
+    },
+    {
+      "number": 29465,
+      "text": "El manual de uso indica dónde están las cajas y permite identificar el fusible del circuito correspondiente.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29466,
+      "text": "En los fusibles de lámina comunes, el color de la parte aislante ayuda a identificar la corriente nominal; también hay que comprobar el valor indicado.",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego.",
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29467,
+      "text": "El número del fusible indica su corriente nominal y ayuda a elegir un repuesto con las mismas características.",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego.",
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29468,
+      "text": "La corriente nominal se expresa en amperios, cuyo símbolo es A; el número identifica la corriente del fusible.",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego.",
+        "https://www.bipm.org/en/measurement-units/si-base-units: ampere, simbolo A, unità SI di corrente elettrica."
+      ]
+    },
+    {
+      "number": 29469,
+      "text": "Los distintos circuitos tienen fusibles propios, de modo que una falla puede interrumpir el circuito afectado sin cortar la alimentación de todos los demás.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29470,
+      "text": "La protección con fusibles es común: los circuitos se dividen y se protegen con fusibles elegidos para sus respectivas cargas.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29471,
+      "text": "Los fusibles accesibles pueden cambiarse siguiendo el manual y usando un repuesto de iguales características. Si la falla se repite, haz revisar el sistema.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29472,
+      "text": "No se debe elegir obligatoriamente un amperaje menor: se necesita el tipo y valor de fusible especificados para el circuito.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29473,
+      "text": "No se cambian todos los fusibles en cada inspección periódica: se identifica y reemplaza el fundido y, si el problema se repite, se busca la causa.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29474,
+      "text": "El fusible es una protección eléctrica: abre un circuito ante una sobrecorriente; no controla la presión del aceite.",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego."
+      ]
+    },
+    {
+      "number": 29475,
+      "text": "El cuestionario marca FALSO: en fusibles automotrices comunes, el número usado para elegir la protección indica la corriente nominal en amperios. El fusible también tiene tensión nominal y puede llevarla marcada; no se puede descartar siempre.",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: tensione nominale 32 V e gamme di corrente; la marcatura fisica non è stata risolta visivamente.",
+        "https://www.fuseco.com.au/fuses/products/auto — Fuseco: tra le possibili marcature sono elencati tensione e corrente nominali."
+      ]
+    },
+    {
+      "number": 29476,
+      "text": "El cuestionario marca FALSO: al elegir un fusible se comprueba la corriente nominal en amperios (A). También existe una tensión nominal y V es el símbolo correcto del voltio; la respuesta no invalida esa unidad.",
+      "evidence": [
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse: tensione nominale 32 V e correnti nominali in A.",
+        "https://www.fuseco.com.au/fuses/products/auto — Fuseco: tra le possibili marcature sono elencati tensione e corrente nominali."
+      ]
+    },
+    {
+      "number": 29477,
+      "text": "El color indica la corriente nominal, no que el cambio esté reservado al taller. Sigue las instrucciones del vehículo y usa un repuesto igual.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo.",
+        "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf — Littelfuse FKS ATO: correnti nominali e tensione di impiego."
+      ]
+    },
+    {
+      "number": 29478,
+      "text": "Un fusible que se funde con frecuencia indica una posible falla: haz revisar el circuito y usa el valor especificado, sin elegir uno menor.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29479,
+      "text": "Un cable en lugar del fusible eliminaría la protección contra sobrecorriente. Si el fusible se funde repetidamente, haz revisar el circuito.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29480,
+      "text": "Antes de cambiar un fusible, apaga el encendido y los equipos eléctricos; después usa un repuesto de iguales características.",
+      "evidence": [
+        "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf — Ford, sezione Fuses: ubicazione, tabelle, sostituzione a quadro spento con pari valore; esempio di veicolo."
+      ]
+    },
+    {
+      "number": 29481,
+      "text": "Los vehículos pesados también usan fusibles de distintas corrientes nominales, elegidas según los circuitos que protegen.",
+      "evidence": [
+        "https://www.littelfuse.com/assetdocs/passenger-commercial-vehicle-aftermarket-products-catalog?assetguid=4b565fce-3f7e-4c34-95ce-d1f2a4f88d84: fusibili per camion e autobus e tabella di correnti nominali differenti."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "0ae89ee484791da58ef236b6af7052c3c56227a4ba9c14eadc79e63927a9f58e",
+    "output_sha256": "84d6d2aa7a781812565228ba2895bcd826fba7508bbf57657df512b3e5469db8",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / rail-fuel-fuses-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29457,
+      29458,
+      29459,
+      29460,
+      29461,
+      29462,
+      29463,
+      29464,
+      29465,
+      29466,
+      29467,
+      29468,
+      29469,
+      29470,
+      29471,
+      29472,
+      29473,
+      29474,
+      29475,
+      29476,
+      29477,
+      29478,
+      29479,
+      29480,
+      29481
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Independent browser access to cited Ford c346 PDF failed due to 24 MB extraction limit; inspected instead indexed manufacturer manual https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/F250.pdf with matching-rating replacement, ignition/equipment off, and fuse color/current chart. Littelfuse FKS ATO data and Fuseco physical markings guidance independently inspected. Littelfuse commercial catalog browser response exceeded extraction limit; no independent read claimed.",
+      "Subsequently inspected complete local exact Ford c346 manual /tmp/rotonda-ford-c346.pdf SHA-256 d2731782ea6b1ce7d0819fc66cd5210379c163ad16b9563eb3bc574135cf3dcc, PDF page 150 / printed p.149: ignition and electrical equipment off, matching rating; high-current fuse replacement by trained technician. Exact source https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/c346.pdf."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaf5-1ab2-7181-a125-543c572f6105",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "8998943615ba3cedb41404fdfc6a8349d3d12be65fc2e267b27b10e6dea09976",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaf5-1ab2-7181-a125-543c572f6105",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29475,
+              "reason": "La risposta stampata è FALSO, ma un fusibile automobilistico reale porta anche la marcatura della tensione; la formulazione non limita la domanda al solo valore usualmente mostrato.",
+              "checked_sources": [
+                "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7318/littelfuse-blade-fuse-fks-ato-32v.pdf: scheda Littelfuse FKS-32, fotografia del fusibile contrassegnato 40A/32V.",
+                "https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/automotive-aftermarket-products-fuses/blade-fuses-shunts-automotive-aftermarket/ato: corrente nominale marcata e tensione massima di 32 V."
+              ]
+            },
+            {
+              "number": 29476,
+              "reason": "La risposta stampata è FALSO, ma la tensione nominale di un fusibile si esprime in volt, con simbolo V; il testo non dice che V indichi la corrente.",
+              "checked_sources": [
+                "https://www.littelfuse.com/assetdocs/north-america-automotive-aftermarket-catalog?assetguid=13ad227a-4401-4c48-9fc7-35f9733c6d29: fusibili automobilistici con tensione nominale 32 VDC.",
+                "https://www.bipm.org/en/measurement-units/si-derived-units: volt, simbolo V, unità SI della tensione elettrica."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "8998943615ba3cedb41404fdfc6a8349d3d12be65fc2e267b27b10e6dea09976",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

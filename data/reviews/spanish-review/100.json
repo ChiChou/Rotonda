@@ -1,0 +1,25 @@
+{
+  "batch": "100",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2eadda6a65807eb43b26b96ec94d0336eebbf9d6a70dfcaef86a518a970efe14",
+  "source_sha256": "d4720628ce38959a2f84fbfe08cac0813a1ef4c39f196c4c8358d16dab35368a",
+  "corrections": [
+    {
+      "id": "8504fa1636e4dfe42ffb6332e6b5c72124e4683568747cc04dbf5b1705b49553",
+      "before": "Remolcar en vías con subidas pronunciadas aumenta la temperatura del líquido refrigerante del motor",
+      "after": "Remolcar un remolque en vías con subidas pronunciadas aumenta la temperatura del líquido refrigerante del motor",
+      "reason": "Se precisa que se remolca un remolque, como establece el original."
+    }
+  ],
+  "reviewed_file_sha256": "0b9533d37e430364ca69903dfb0008649759383a206604d9fafd4533da222086"
+}

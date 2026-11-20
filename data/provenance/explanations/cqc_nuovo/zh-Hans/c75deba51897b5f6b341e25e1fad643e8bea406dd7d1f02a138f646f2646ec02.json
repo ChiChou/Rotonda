@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed74-e225-71a1-80a3-e932f7ff6fee"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 33552,
+          "quesito_id": 7186,
+          "text_it": "Il trasporto di merci per conto di terzi oltre i confini nazionali è da considerarsi trasporto combinato",
+          "answer": 0,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "304bff92b4044a88c39b1367d67d9c139b0a4a169dacc636e2703cada1edf3bb",
+        "italian": "Attraversare una frontiera non rende automaticamente combinato il trasporto: questo associa una tratta stradale a una tratta ferroviaria, navigabile o marittima alle condizioni previste.",
+        "italian_sha256": "9bf550808aa58ac353e3e4f707c4c3f9c32cce752329dab35e015d0b204acd2f"
+      },
+      {
+        "source": {
+          "number": 33553,
+          "quesito_id": 7186,
+          "text_it": "Il trasporto di merci per conto di terzi oltre i confini nazionali è da considerarsi trasporto in regime di cabotaggio",
+          "answer": 0,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6e64a685e5f6fa02e0d850b3edd014daa502400ac86c55de4c888263b0d0da45",
+        "italian": "Un trasporto oltre frontiera è internazionale, non per ciò stesso cabotaggio. Il cabotaggio è un trasporto nazionale per conto terzi svolto temporaneamente in uno Stato ospitante da un vettore non residente.",
+        "italian_sha256": "8ddf1590c3c59b9ee0a5120a1867d63b2697638e8a06a65bf1012b3e6fa027cd"
+      },
+      {
+        "source": {
+          "number": 33554,
+          "quesito_id": 7186,
+          "text_it": "Il trasporto di merci per conto di terzi oltre i confini nazionali è da considerarsi trasporto internazionale, solo se per il trasporto delle merci in uno degli Stati membri UE è necessario attraversare uno Stato non UE",
+          "answer": 0,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4ffcff66b5e18cf47ec1ad71984535613aaed1ded5699215bacbfb5539204a8e",
+        "italian": "FALSO. Un trasporto tra due Stati membri è internazionale anche senza attraversare uno Stato extra UE.",
+        "italian_sha256": "62e16e13a2f7ead39f23cdf77aeb8d7af64097d822572b890f9d2715792b33ae"
+      },
+      {
+        "source": {
+          "number": 33555,
+          "quesito_id": 7186,
+          "text_it": "Il trasporto di merci per conto di terzi oltre i confini nazionali è da considerarsi trasporto internazionale, solo se la merce deve essere trasportata al di fuori degli Stati membri UE",
+          "answer": 0,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "35386e4e4d5dc5d45de9a0c904c82060f896cf2827bef66bc925239bee236178",
+        "italian": "FALSO. Anche un trasporto con partenza e arrivo in due diversi Stati membri è internazionale; non occorre uscire dall’UE.",
+        "italian_sha256": "a25128e8555d1759e0f26c901e138736a9bcd16a50f73dbcb4529de426f41178"
+      },
+      {
+        "source": {
+          "number": 33556,
+          "quesito_id": 7186,
+          "text_it": "Per effettuare il trasporto internazionale di merci su strada per conto di terzi tra Francia e Spagna è necessario rifarsi agli accordi bilaterali o multilaterali",
+          "answer": 0,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "02d0b74b6545daccf808d56a04d2492b46266daed4da0400e538aa6cded41cda",
+        "italian": "FALSO. Per il trasporto tra Francia e Spagna si applicano le norme comuni UE sull’accesso al mercato, non occorre ricorrere a un accordo bilaterale o multilaterale.",
+        "italian_sha256": "1699cb5e0df085fa713547042d0a13e4cf0932044058e0787474748cbf02bbf7"
+      },
+      {
+        "source": {
+          "number": 33557,
+          "quesito_id": 7186,
+          "text_it": "Per effettuare il trasporto internazionale di merci su strada per conto di terzi tra uno Stato membro dell'UE e uno Stato terzo, è necessario rifarsi agli accordi bilaterali o multilaterali",
+          "answer": 1,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f02830056c48725b22d60c8cc7fdbdb5148b79159d3af8e485985b437b11fd83",
+        "italian": "VERO. Nei trasporti con uno Stato terzo occorre verificare gli accordi applicabili. Il regime concreto dipende dal Paese e dal percorso: possono rilevare accordi UE, bilaterali o multilaterali.",
+        "italian_sha256": "200647537ecd39029ae2ee55040ab16a3c0919a229308525a29221f6516e79ef"
+      },
+      {
+        "source": {
+          "number": 33558,
+          "quesito_id": 7186,
+          "text_it": "Per effettuare il trasporto internazionale di merci su strada per conto di terzi è necessario esclusivamente che i due Stati abbiano firmato un accordo bilaterale",
+          "answer": 0,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "29dc03dd46962ee9f356cffdcc993e025f004bceb9f438e425c50d7315276b67",
+        "italian": "FALSO. Un accordo bilaterale non è l’unica base possibile: nell’UE operano le norme comuni e, nei rapporti con Paesi terzi, possono applicarsi anche altri accordi.",
+        "italian_sha256": "eb73cb50fcdfe8a7e7b1a697d27935e2c6b0105ffba4adac6ffdf708dce83894"
+      },
+      {
+        "source": {
+          "number": 33559,
+          "quesito_id": 7186,
+          "text_it": "Un veicolo adibito al trasporto merci per conto terzi, in ambito UE, non deve essere munito della copia conforme della licenza comunitaria qualora abbia una massa complessiva di 7,5 t",
+          "answer": 0,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9e313700ab0afdaca82eca6f458fd5123eefd432fc55a6628d487f28de81d80e",
+        "italian": "FALSO. La massa di 7,5 t non esenta dalla licenza comunitaria: per il trasporto internazionale soggetto a licenza una copia conforme deve accompagnare il veicolo.",
+        "italian_sha256": "4f16c53172c5539f79a4cdd275fb2dd98c967ade3182f91ad6bdeda63263501b"
+      },
+      {
+        "source": {
+          "number": 33560,
+          "quesito_id": 7186,
+          "text_it": "Per effettuare il trasporto internazionale di merci su strada per conto di terzi con un veicolo a motore e un rimorchio, è necessario essere in possesso della licenza comunitaria per il veicolo a motore e di quella per il rimorchio",
+          "answer": 0,
+          "page": 82,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "53c6d162c5a41e3765a593626f7b47286d67a5faa492405ea0df0822fe481056",
+        "italian": "FALSO. Non serve una licenza distinta per il rimorchio: la copia conforme accompagna il veicolo a motore e copre l’intero complesso.",
+        "italian_sha256": "f20124fb1d391c7301bf9b15b2d8b98a93d02911d98e414ce000cd5648d096b5"
+      },
+      {
+        "source": {
+          "number": 33561,
+          "quesito_id": 7186,
+          "text_it": "Un veicolo adibito al trasporto merci per conto terzi, in ambito UE, non deve mai essere munito della copia conforme della licenza comunitaria qualora la portata utile non superi 7,5 t",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7b0ae0774e2b9e74740d1d9fcda3dcc36a2dc2caa6707082617691d10f9cb2ff",
+        "italian": "FALSO. La portata utile non è il criterio di esenzione indicato dalla norma: un veicolo con portata fino a 7,5 t può richiedere la copia conforme, in base alla massa massima autorizzata e al trasporto svolto.",
+        "italian_sha256": "ac527e1e4f7048de6b40ce7565f221b21d98f4f4bc65e39365c3541396691fa4"
+      },
+      {
+        "source": {
+          "number": 33562,
+          "quesito_id": 7186,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di traslochi",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "810db6b05714c13a91d3ec1dede73ef497beb71ce0ccd7987c142f63507d9aab",
+        "italian": "FALSO. Il trasloco non è esente in quanto tale: se effettuato per conto terzi in un trasporto internazionale soggetto al regolamento, occorre la licenza comunitaria.",
+        "italian_sha256": "216c74de1334abec377742dce32766ce2de94565d5d9a8ebb591b026b448bb36"
+      },
+      {
+        "source": {
+          "number": 33563,
+          "quesito_id": 7186,
+          "text_it": "Un'impresa di autotrasporto, per poter effettuare trasporti conto terzi con veicoli di portata superiore a 3,5 t all'interno della UE occorre che si doti della licenza comunitaria",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2a0f6f07363c578d7b4ed7641d9d78503f4e25939153636006c40e35727e6243",
+        "italian": "VERO. Per i trasporti internazionali UE per conto terzi soggetti al regolamento occorre la licenza comunitaria. Attenzione: la soglia normativa riguarda la massa massima autorizzata, non la portata utile indicata nel quesito.",
+        "italian_sha256": "94cb7953f2046dd4141f84965d65570b081d29faa84fd5d7cac1e3f3327c7222"
+      },
+      {
+        "source": {
+          "number": 33564,
+          "quesito_id": 7186,
+          "text_it": "Un veicolo adibito al trasporto merci per conto terzi, in ambito UE, non deve mai essere munito della copia conforme della licenza comunitaria qualora la portata utile non superi le 6 t",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1342dc7eb3e6298b3a82976629741266de2c422bfc05c12439aa8cc25c4a92ff",
+        "italian": "FALSO. Una portata utile fino a 6 t non esclude sempre l’obbligo: conta la massa massima autorizzata del veicolo o complesso e il tipo di trasporto.",
+        "italian_sha256": "75187cc98d02cb7fa715c2c2b49ec1b7083ceb0636cbe88b1161ae4407c27f38"
+      },
+      {
+        "source": {
+          "number": 33565,
+          "quesito_id": 7186,
+          "text_it": "La licenza comunitaria è il titolo abilitativo necessario per effettuare trasporti in ambito extra UE",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b0d5b34cd3a156a7c81fb056aadd4348a8fde0dd90baa2d99d5cba4520e304b2",
+        "italian": "FALSO. La licenza comunitaria riguarda i trasporti internazionali disciplinati dalle norme UE; per il percorso verso un Paese extra UE possono servire titoli previsti dagli accordi applicabili.",
+        "italian_sha256": "1928da7ee24fc1a4c6d58ead87e58f6c4b5913c67f404b7441da67f9d4d951b3"
+      },
+      {
+        "source": {
+          "number": 33566,
+          "quesito_id": 7186,
+          "text_it": "Un'impresa di autotrasporto, per poter effettuare trasporti conto terzi con veicoli di portata superiore a 3,5 t all'interno della UE deve effettuare il trasporto con veicoli di classe d'inquinamento minima EURO 3",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b6e34bf75f73bad651f8c6bf99c71c4a41c73e6126fa5571adecc40da164da1f",
+        "italian": "FALSO. La licenza comunitaria non richiede in generale una classe minima Euro 3. Occorrono invece i requisiti di accesso alla professione e al trasporto internazionale.",
+        "italian_sha256": "431943763cc9fcc3ce5351e9560a75a9c9c714cf8d6687e90beb4a76f8ad761b"
+      },
+      {
+        "source": {
+          "number": 33567,
+          "quesito_id": 7186,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti di veicoli danneggiati o da riparare",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e4173a4185ec870e6734660231e28b3556ea96800a6af506e71d363e4b914f2d",
+        "italian": "VERO. I trasporti di veicoli danneggiati o in panne sono esenti dalla licenza comunitaria.",
+        "italian_sha256": "329e430ecaab9a8df65fa52d080ee40781a3fc8ace903f6ea27e8565df229577"
+      },
+      {
+        "source": {
+          "number": 33568,
+          "quesito_id": 7187,
+          "text_it": "Sono liberi da ogni regime di licenza comunitaria i trasporti in ambito UE di merci per conto terzi",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "889f488fcd598a31b461a0e00838d288571f468e78d9ddb326774abc31ba2d54",
+        "italian": "FALSO. I trasporti internazionali UE per conto terzi sono in generale soggetti a licenza comunitaria, salvo le esenzioni previste.",
+        "italian_sha256": "167ab5aa6e3686ca0e2ff0cb3718a0a27d78c4ebd3cc8e5cb07d7bef5a08e72e"
+      },
+      {
+        "source": {
+          "number": 33569,
+          "quesito_id": 7187,
+          "text_it": "Sono liberi da ogni regime di licenza comunitaria i trasporti in ambito UE di merci in conto proprio",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2cf3c8ef5b03f6334aa2a2b7cfa498887bd029a4b9885a478292c5cd0006cedf",
+        "italian": "VERO. Il trasporto in conto proprio è esente dalla licenza comunitaria quando rispetta le condizioni previste, tra cui il carattere accessorio rispetto all’attività dell’impresa.",
+        "italian_sha256": "0923c670c73c87eb0be1586ab33bbeb72fc3a02a744d32cfed8e8be5ae5c79a3"
+      },
+      {
+        "source": {
+          "number": 33570,
+          "quesito_id": 7187,
+          "text_it": "Un'impresa di autotrasporto, per poter effettuare trasporti conto terzi con veicoli di portata superiore a 3,5 tonnellate all'interno della UE occorre che sia iscritta all'Albo degli autotrasportatori, sia già titolare di autorizzazione, ma non è necessario che abbia la licenza comunitaria",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ef38aa0e9c50edc36e3bc17766803fc3dbbf3b154978562367fd09d59130cc48",
+        "italian": "FALSO. Per i trasporti internazionali UE per conto terzi soggetti al regolamento serve anche la licenza comunitaria: iscrizione e autorizzazione nazionale non la sostituiscono.",
+        "italian_sha256": "add619b177392d8e4543bd3baffd6d9fc147c90094a98dae636f2125a4d5da84"
+      },
+      {
+        "source": {
+          "number": 33571,
+          "quesito_id": 7187,
+          "text_it": "Un'impresa di autotrasporto, per poter effettuare trasporti conto terzi con veicoli di portata superiore a 3,5 t all'interno UE occorre che sia iscritta all'Albo degli autotrasportatori, già titolare di autorizzazione nazionale ed abilitata per i trasporti internazionali",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5da9d8a2192fd7fc99254d3fccfb6af2468762a9208f53275a839d5a20b9562b",
+        "italian": "VERO. L’impresa deve essere abilitata all’attività e al trasporto internazionale; per il trasporto UE soggetto al regolamento occorre la licenza comunitaria. La norma usa la massa massima autorizzata, non la portata utile.",
+        "italian_sha256": "8c823c4e9b682fe05c0bad85386a39f33527e9aaf8cf832ad309a929afa4a1c5"
+      },
+      {
+        "source": {
+          "number": 33572,
+          "quesito_id": 7187,
+          "text_it": "Un'impresa di autotrasporto, per poter effettuare trasporti conto terzi con veicoli di portata superiore a 3,5 t all'interno della UE non deve possedere alcun requisito particolare in quanto il trasporto nell'ambito della UE è libero",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "42f83d042c4724592c23d78bbc698931180e4315fabebbd54f52f70ba52d0726",
+        "italian": "FALSO. La libertà di prestazione nell’UE non elimina i requisiti: per il trasporto internazionale per conto terzi soggetto al regolamento occorrono abilitazione e licenza comunitaria.",
+        "italian_sha256": "1175fc868d4eaec72dbe8d927df3f21b25c9cbf952fe35dd478726b7ac5fae47"
+      },
+      {
+        "source": {
+          "number": 33573,
+          "quesito_id": 7187,
+          "text_it": "Sono liberi da ogni regime di licenza comunitaria i trasporti in ambito UE di veicoli danneggiati o da riparare",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c9fc2b0640573bed9273fa0ac10a15b2474984c73458947754083fd38956e399",
+        "italian": "VERO. Il trasporto di veicoli danneggiati o in panne è esente dalla licenza comunitaria.",
+        "italian_sha256": "65c9798a58ce35ffcc77c9778d3e3ad636de3168d5996d0a01ad3c1b1be0261c"
+      },
+      {
+        "source": {
+          "number": 33574,
+          "quesito_id": 7187,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti di medicinali",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0b93dfa0ba2c1170e315cca22d8843c075840d5d3e6c6e8b038037686c209470",
+        "italian": "VERO, con una precisazione: l’esenzione riguarda medicinali e altri beni necessari per cure mediche urgenti; non vale automaticamente per ogni trasporto di medicinali.",
+        "italian_sha256": "01cdfa150cc9c9027782b96bfb916ef8a1c23b1bb5819e01e84b69546d9dcd4e"
+      },
+      {
+        "source": {
+          "number": 33575,
+          "quesito_id": 7187,
+          "text_it": "Per effettuare il trasporto internazionale di merci su strada per conto di terzi tra l'Italia e la Romania, è necessario rifarsi all'accordo Interbus",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7ded4414010afdb1de0ce4c7c3b2bd59a282c532ee737cb67a234c28db35f2f7",
+        "italian": "FALSO. Interbus riguarda il trasporto internazionale di viaggiatori in autobus, non il trasporto di merci; tra Italia e Romania si applicano le norme UE sulle merci.",
+        "italian_sha256": "f9729a50848aa3e9713d1899c7c546837025a827b1af5fb5222b2e246f346800"
+      },
+      {
+        "source": {
+          "number": 33576,
+          "quesito_id": 7187,
+          "text_it": "All'interno dell'UE è garantita la libertà di prestazione del servizio di trasporto attraverso il rilascio della licenza CEMT",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "29cb3512ccd7b6b0db67edd3cb69cce84610ac89f93b9a67c843ad43c69b2ca0",
+        "italian": "FALSO. Nel mercato UE il titolo previsto per il trasporto internazionale di merci per conto terzi è la licenza comunitaria; la licenza CEMT non la sostituisce come regola generale.",
+        "italian_sha256": "00fe5badcfd2264a82cfb058329858ba78431620b6238b9f6e356871aa7d9edd"
+      },
+      {
+        "source": {
+          "number": 33577,
+          "quesito_id": 7187,
+          "text_it": "Sono liberi da ogni regime di licenza comunitaria i trasporti in ambito UE di effetti postali nell'ambito di un regime di pubblico servizio",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2eb77a82fcab0183921b56786ff69bb9f9b5b67414598a014336a605e54b512e",
+        "italian": "VERO. Sono esenti dalla licenza comunitaria i trasporti postali effettuati nell’ambito del servizio universale.",
+        "italian_sha256": "dbdeab2d7602580386c161da52f7fdbe8fc0418edbdbe00c998b9e8b5b1231a4"
+      },
+      {
+        "source": {
+          "number": 33578,
+          "quesito_id": 7187,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti postali",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "279b422bd56cac4ab0c998e38fced1a33de39067bf27cc9cc75bdee484242ecb",
+        "italian": "VERO, con una precisazione: l’esenzione riguarda i trasporti postali svolti nell’ambito del servizio universale, non necessariamente ogni trasporto postale.",
+        "italian_sha256": "0715b105a750c52ae04f1242d843a7ebbc25637842b0218a405b5b26a82cfa34"
+      },
+      {
+        "source": {
+          "number": 33579,
+          "quesito_id": 7187,
+          "text_it": "All'interno dell'UE per tutti i conducenti è obbligatorio l'attestato di conducente",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0c9a017a9650c10d08a65b23ce5bf8ffc77d65c5cabeb12cdeba8040e351af35",
+        "italian": "FALSO. L'attestato di conducente non è richiesto a tutti: accompagna la licenza comunitaria quando il conducente è cittadino di un paese terzo, alle condizioni previste dal regolamento.",
+        "italian_sha256": "0e6774fd5d4c966a892f50c1b22fa3b531beb8719ef021d0a5386faf801f8275"
+      },
+      {
+        "source": {
+          "number": 33580,
+          "quesito_id": 7187,
+          "text_it": "La licenza comunitaria non è necessaria nel caso di trasporti di animali",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c2cde299947a362395263858c4149cd11314d08c029752a83eca29cf74471388",
+        "italian": "FALSO. Il trasporto di animali non è esente dalla licenza comunitaria per il solo tipo di carico: se il trasporto internazionale per conto terzi rientra nel regolamento, la licenza è richiesta.",
+        "italian_sha256": "94b13bdb6cf6262277c7a07dbfdc03858cec3177a90316c9ca9aac0cfb3171e8"
+      },
+      {
+        "source": {
+          "number": 33581,
+          "quesito_id": 7187,
+          "text_it": "Un'impresa di autotrasporto, per poter effettuare trasporti conto terzi con veicoli di portata superiore a 3,5 t all'interno della UE è sufficiente che sia iscritta all'Albo degli autotrasportatori",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e31823c7725248cf3ce03d66f17afb8afab4db17d5632d6426e3e7d67fbca6bb",
+        "italian": "FALSO. L'iscrizione all'Albo da sola non basta: per il trasporto internazionale per conto terzi soggetto al regolamento occorre anche la licenza comunitaria.",
+        "italian_sha256": "a69412de5cb7e0b9900ceae2a1fc0d21cc1b9f3a429590637fc7fc3fdc88b257"
+      },
+      {
+        "source": {
+          "number": 33582,
+          "quesito_id": 7187,
+          "text_it": "Sono liberi da ogni regime di licenza comunitaria i trasporti in ambito UE, ad eccezione di quelli esenti per massa, per portata o per particolare tipologia",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e128a51e26c8bf1e38fd8212b59d4656e2f5ff8b6fc922f272466d8e22581cce",
+        "italian": "FALSO. La frase inverte la regola: i trasporti internazionali per conto terzi soggetti al regolamento richiedono la licenza comunitaria, mentre le categorie espressamente esenti ne sono dispensate.",
+        "italian_sha256": "43abbb731af47ce0b53ef6b7083c80b7b49e36f37e8e6e01c4519782db544261"
+      },
+      {
+        "source": {
+          "number": 33583,
+          "quesito_id": 7187,
+          "text_it": "Il trasporto stradale di merci è completamente liberalizzato in tutto il continente europeo, a seguito dell'abbattimento delle frontiere",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b0d5d74b3f2bdffa2323c866eb1af6771f90923e8b196951b5b8a26bb395cbe7",
+        "italian": "FALSO. L'abbattimento delle frontiere non ha liberalizzato completamente il trasporto merci in tutto il continente: nell'UE, per esempio, i trasporti internazionali per conto terzi non esenti richiedono la licenza comunitaria.",
+        "italian_sha256": "8a48bcde77e99d86f3cfe92413daf174c4cdfb1ce705e3b7aa28a6a4929d1c4b"
+      },
+      {
+        "source": {
+          "number": 33584,
+          "quesito_id": 7188,
+          "text_it": "All'interno dell'UE il trasporto cose tra stati membri avviene attraverso la licenza CEMT",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a18b37933b37f83ab6d3a3581ab55be4bf8488c92a9c6f347706dd99686fb096",
+        "italian": "FALSO. Per il trasporto internazionale di merci per conto terzi tra Stati UE, quando non esente, si usa la licenza comunitaria; la licenza CEMT appartiene a un diverso sistema multilaterale.",
+        "italian_sha256": "e17801d73b34a77bf9bf4826123652df88d85b2b49cfc192864a9096df99781f"
+      },
+      {
+        "source": {
+          "number": 33585,
+          "quesito_id": 7188,
+          "text_it": "Devono essere in possesso di licenza comunitaria le imprese che intendono effettuare trasporti internazionali in tutti gli Stati che hanno aderito alla CEMT (Conferenza europea dei Ministri dei trasporti)",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "26c102591388c4ca36bb3ae11bc8ba2d951965d62daaf4149d64a7a4de51736b",
+        "italian": "VERO secondo il quiz, ma la formulazione è imprecisa: la licenza comunitaria abilita ai trasporti nell'UE e in alcuni paesi convenzionati, non automaticamente in tutti gli Stati CEMT. Per i trasporti con altri paesi CEMT può occorrere un'autorizzazione diversa.",
+        "italian_sha256": "d3929963f354c2e6961ff24794778436cbd5331587fcf5c7f5e01b0148726cee"
+      },
+      {
+        "source": {
+          "number": 33586,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria è valida negli Stati dell'UE, con eccezione della Spagna",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "921f9fca00edef4030872fa2626ae2f53c33fad8ed4a9604a57dd2b6d7280192",
+        "italian": "FALSO. La Spagna è uno Stato membro dell'UE e non è esclusa dalla validità territoriale della licenza comunitaria.",
+        "italian_sha256": "1f0f6724d66d65209aa99846e4a87037c0b240fa47ea5f6d03fceab9a6b8021c"
+      },
+      {
+        "source": {
+          "number": 33587,
+          "quesito_id": 7188,
+          "text_it": "Per un trasporto di merci tra Italia e Polonia è necessaria la licenza comunitaria",
+          "answer": 1,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5f48a333484ef477ef9bfc1ae6be053cf9d630fe2ad98073aab1e7f6da23fc11",
+        "italian": "VERO nel caso ordinario di trasporto internazionale per conto terzi soggetto al regolamento: Italia e Polonia sono Stati membri e occorre la licenza comunitaria. Restano salve le categorie esenti.",
+        "italian_sha256": "78ab71e48e732b33284d23c689154a6659531b95d341de57c0de03f1e6c5e56c"
+      },
+      {
+        "source": {
+          "number": 33588,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria è intestata al singolo autista",
+          "answer": 0,
+          "page": 83,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "17a96f286a0c75661028bd7cb5d3e975b48b1c33ff6fcf2d01b7b4165349b97b",
+        "italian": "FALSO. La licenza comunitaria è intestata al trasportatore, cioè all'impresa titolare, non al singolo autista; è personale e non trasferibile.",
+        "italian_sha256": "52b37cdf5ef3a0bbdd080be3930cc182a02870dc6dbdf3e95928751d4de3947b"
+      },
+      {
+        "source": {
+          "number": 33589,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria è intestata a più autotrasportatori se trattasi di cooperativa",
+          "answer": 0,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6b90108979b236d362aa9d7fbb5601f5e5f8b10896b1600a5dd58ebf61d9a7b2",
+        "italian": "FALSO. Anche nel caso di una cooperativa, la licenza è intestata al trasportatore titolare, non congiuntamente a più autotrasportatori.",
+        "italian_sha256": "6186d05f478431818c322271925211927fd853ee396b03ed95de53d08045ede1"
+      },
+      {
+        "source": {
+          "number": 33590,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria è rinnovabile",
+          "answer": 1,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e645eb274a18388bab36adaf2e48571fad83fe54bc0cb3b46eeffe12455a371b",
+        "italian": "VERO. La licenza comunitaria ha una durata determinata e può essere rinnovata; per quella italiana relativa alle merci il periodo è di cinque anni.",
+        "italian_sha256": "245d2f9c0232664b9dab79c054cdcf238d33c031dd71a78774c6d2a6dc21ce0a"
+      },
+      {
+        "source": {
+          "number": 33591,
+          "quesito_id": 7188,
+          "text_it": "Per un trasporto di merci tra Italia e Polonia non serve nessuna autorizzazione",
+          "answer": 0,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cfd247442563979672302a7fb0a8e17caddebed4fdc05ed01551b4fc004828f4",
+        "italian": "FALSO. Non è vero che non serva mai un'autorizzazione: per il trasporto internazionale per conto terzi tra Italia e Polonia soggetto al regolamento è richiesta la licenza comunitaria, salvo esenzioni.",
+        "italian_sha256": "f1072b0bb098da5597b3fe445736a4e39cc5f5753aafa5047ac2ddf0171a72b4"
+      },
+      {
+        "source": {
+          "number": 33592,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria è rilasciata dalle Province",
+          "answer": 0,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "20e080c6e75334f7989c843c6133dc6b7fb2b5f3d4cd87df737ab9b8e704331a",
+        "italian": "FALSO. In Italia la licenza comunitaria per il trasporto merci è rilasciata dal Ministero competente, non dalle Province.",
+        "italian_sha256": "d4bf640c6cff6cf2d8e874749c06a471582f000468f5223301a955d8df9dd0e5"
+      },
+      {
+        "source": {
+          "number": 33593,
+          "quesito_id": 7188,
+          "text_it": "Il trasporto internazionale di cose per conto terzi in ambito UE è liberalizzato per alcune tipologie di trasporto e soggetto solo al possesso della licenza comunitaria per le altre",
+          "answer": 1,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "df9d2574720af2f4b0c933f2c1b5c4f1e71e11d002e5442afcf6e39de4a5afc1",
+        "italian": "VERO nel quadro dell'accesso al mercato: alcuni trasporti sono esenti dalla licenza comunitaria, mentre per gli altri trasporti internazionali per conto terzi soggetti al regolamento essa è richiesta. Possono comunque essere necessari altri documenti, come l'attestato del conducente nei casi previsti.",
+        "italian_sha256": "2a8d8cd0766f188c164727cf92e40f42e1a4bc9776146ba68cbf634700b009ed"
+      },
+      {
+        "source": {
+          "number": 33594,
+          "quesito_id": 7188,
+          "text_it": "All'interno dell'UE è garantita la libertà di prestazione del servizio di trasporto attraverso il rilascio della licenza comunitaria",
+          "answer": 1,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "50be5824bd8e0b3430d7b7646de424d1ed2dcd1e899690a3d00c6ebfc877420d",
+        "italian": "VERO. La licenza comunitaria consente all'impresa autorizzata di effettuare trasporti internazionali di merci per conto terzi nell'UE, secondo le condizioni del regolamento.",
+        "italian_sha256": "8e8fc96a66cb04ef5b40ae46cbf152c80e6e45762f97440955ab9898d22d16fa"
+      },
+      {
+        "source": {
+          "number": 33595,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria deve essere rinnovata solo quando si sostituisce o si aggiunge un veicolo al parco veicolare dell'impresa",
+          "answer": 0,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "670a3e0b2aef75dffa08d53ab1ce80635a72965a805a6532057d4c2c49e34452",
+        "italian": "FALSO. Il rinnovo dipende dalla scadenza della licenza, non soltanto dalle variazioni del parco veicoli; le copie conformi corrispondono invece ai veicoli a disposizione dell'impresa.",
+        "italian_sha256": "2d228d7f840849e1d7fe36190bccadf7f1ec1abc637ef59d18feafc2f097d973"
+      },
+      {
+        "source": {
+          "number": 33596,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria non ha scadenza",
+          "answer": 0,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b7556e87e5b2c7fe441ef6e492e422c127f19546c221883f4d8e87d91f947513",
+        "italian": "FALSO. La licenza ha una scadenza: quella italiana per il trasporto internazionale di merci dura cinque anni ed è rinnovabile.",
+        "italian_sha256": "7f8742d2828430142f4d3891ec6768f2367da9028633e1a2e017af14106332c9"
+      },
+      {
+        "source": {
+          "number": 33597,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria è intestata ad un solo autotrasportatore",
+          "answer": 1,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "03aca8520f60020740c978fe9785515d1da824b4f1afdcaeab0599953b9f457a",
+        "italian": "VERO. La licenza comunitaria è intestata al trasportatore titolare e non può essere trasferita a un altro trasportatore.",
+        "italian_sha256": "df2703218dbdafe4ca02c56dce6f5b00896b5ce795b1dc17c5b9627856eaadb3"
+      },
+      {
+        "source": {
+          "number": 33598,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria è necessaria per il trasporto all'interno dell'UE di merci in conto proprio",
+          "answer": 0,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bba2f5c1df8e854f2a9d64355937314fc56852399ce7346d4158a4b9560ce9f3",
+        "italian": "FALSO. Il trasporto in conto proprio che rispetta le condizioni previste dal regolamento è esente dalla licenza comunitaria; questa riguarda il trasporto internazionale per conto terzi soggetto alla disciplina.",
+        "italian_sha256": "cdd9d172dae79c370d19f00bc2dbcf047798b4aa78736233e446ce3cc9966423"
+      },
+      {
+        "source": {
+          "number": 33599,
+          "quesito_id": 7188,
+          "text_it": "La licenza comunitaria ha una durata di 5 anni",
+          "answer": 1,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6dc760625f9063dfb8f8bfde83de50d3f3c92774f66d4030f465a945de71545a",
+        "italian": "VERO per la licenza rilasciata in Italia: la sua durata è di cinque anni ed è rinnovabile. Il regolamento UE consente agli Stati membri di fissare periodi fino a dieci anni.",
+        "italian_sha256": "2b0bfedaa7317bc43baf365538a4f6ac2f69767192afba9b6819f4b1b2c1e94f"
+      },
+      {
+        "source": {
+          "number": 33600,
+          "quesito_id": 7189,
+          "text_it": "La licenza comunitaria è rilasciata dagli Uffici motorizzazione civile",
+          "answer": 0,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a60392cea585fd50660ee164a417d7dc2dc044dd5da60049894514b57878c638",
+        "italian": "FALSO. In Italia la licenza comunitaria per il trasporto merci è rilasciata dal Ministero competente, tramite la direzione generale, non dagli Uffici della motorizzazione civile.",
+        "italian_sha256": "2d2cb277152eb645fe2efdf8100d47497e4778f1c53b57eddaf46f74ae608a1f"
+      },
+      {
+        "source": {
+          "number": 33601,
+          "quesito_id": 7189,
+          "text_it": "Per effettuare il trasporto internazionale di merci su strada per conto di terzi in ambito UE per ogni veicolo con eventuale rimorchio è sufficiente avere a bordo la copia conforme della licenza comunitaria",
+          "answer": 1,
+          "page": 84,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "604381ec97e7f964485eeb8480995fa3d2a29fcc588c5a4dbdc87cc8ca35d805",
+        "italian": "VERO quanto alla documentazione della licenza: una copia conforme accompagna il veicolo a motore e copre anche l'eventuale rimorchio. La sola copia non esclude altri documenti richiesti, come l'attestato del conducente quando previsto.",
+        "italian_sha256": "d8b295410a403a17778bbdf1bb25b15dddeaef9863001b5f7644a2d0cc298909"
+      }
+    ],
+    "task_sha256": "ff425fd54f5c33aee756e8c8b7df48327db5951db805a1a2af07a738a101d481"
+  },
+  "rows": [
+    {
+      "number": 33552,
+      "text": "跨越国境并不会自动使运输成为联合运输：联合运输是在规定条件下，将一段公路运输与一段铁路、内河水运或海运相结合。"
+    },
+    {
+      "number": 33553,
+      "text": "跨境运输属于国际运输，但并不因此就是境内运输。境内运输是指非居民承运人在东道国内临时开展的、为他人服务的国内运输。"
+    },
+    {
+      "number": 33554,
+      "text": "FALSO. 两个成员国之间的运输即使不经过非欧盟国家，也属于国际运输。"
+    },
+    {
+      "number": 33555,
+      "text": "FALSO. 起点和终点分别位于两个不同成员国的运输也属于国际运输；无需离开欧盟。"
+    },
+    {
+      "number": 33556,
+      "text": "FALSO. 法国与西班牙之间的运输适用欧盟统一的市场准入规则，无需援引双边或多边协议。"
+    },
+    {
+      "number": 33557,
+      "text": "VERO. 涉及第三国的运输需要核查适用的协议。具体制度取决于国家和路线：欧盟协议、双边协议或多边协议都可能适用。"
+    },
+    {
+      "number": 33558,
+      "text": "FALSO. 双边协议并非唯一可能的依据：欧盟内部适用统一规则，与第三国之间的运输也可能适用其他协议。"
+    },
+    {
+      "number": 33559,
+      "text": "FALSO. 7.5吨的质量不能免除共同体许可证要求：对于需要许可证的国际运输，车辆必须随车携带一份经核证的副本。"
+    },
+    {
+      "number": 33560,
+      "text": "FALSO. 挂车无需单独的许可证：经核证的副本随机动车携带，并涵盖整个车辆组合。"
+    },
+    {
+      "number": 33561,
+      "text": "FALSO. 有效载荷不是法规规定的豁免标准：有效载荷不超过7.5吨的车辆，可能需要携带经核证的副本，具体取决于最大允许质量和所进行的运输。"
+    },
+    {
+      "number": 33562,
+      "text": "FALSO. 搬家运输本身并不享受豁免：如果是为他人进行且受该条例约束的国际运输，就需要共同体许可证。"
+    },
+    {
+      "number": 33563,
+      "text": "VERO. 受该条例约束的欧盟境内为他人提供的国际运输需要共同体许可证。注意：法规门槛涉及最大允许质量，而不是题目中所说的有效载荷。"
+    },
+    {
+      "number": 33564,
+      "text": "FALSO. 有效载荷不超过6吨并不总能免除这一义务：关键是车辆或车辆组合的最大允许质量以及运输类型。"
+    },
+    {
+      "number": 33565,
+      "text": "FALSO. 共同体许可证适用于受欧盟规则管辖的国际运输；前往欧盟以外国家的路程可能需要适用协议规定的许可文件。"
+    },
+    {
+      "number": 33566,
+      "text": "FALSO. 共同体许可证通常不要求车辆至少达到欧3排放等级。但必须满足从事该职业和国际运输的准入要求。"
+    },
+    {
+      "number": 33567,
+      "text": "VERO. 运输受损或故障车辆可免于持有共同体许可证。"
+    },
+    {
+      "number": 33568,
+      "text": "FALSO. 欧盟境内为他人提供的国际运输一般需要共同体许可证，规定的豁免情况除外。"
+    },
+    {
+      "number": 33569,
+      "text": "VERO. 自营运输符合规定条件时可免于持有共同体许可证，其中包括运输须从属于企业的经营活动。"
+    },
+    {
+      "number": 33570,
+      "text": "FALSO. 受该条例约束的欧盟境内为他人提供的国际运输还需要共同体许可证：登记和国家许可不能替代它。"
+    },
+    {
+      "number": 33571,
+      "text": "VERO. 企业必须取得从事该业务和国际运输的资格；受该条例约束的欧盟境内运输需要共同体许可证。法规采用的是最大允许质量，而非有效载荷。"
+    },
+    {
+      "number": 33572,
+      "text": "FALSO. 欧盟境内提供服务的自由并不免除相关要求：受该条例约束的为他人提供的国际运输需要相应资格和共同体许可证。"
+    },
+    {
+      "number": 33573,
+      "text": "VERO. 运输受损或故障车辆可免于持有共同体许可证。"
+    },
+    {
+      "number": 33574,
+      "text": "VERO，但需说明：豁免适用于紧急医疗所需的药品和其他物品，并不自动适用于所有药品运输。"
+    },
+    {
+      "number": 33575,
+      "text": "FALSO. Interbus协议涉及国际公共汽车旅客运输，而非货物运输；意大利与罗马尼亚之间适用欧盟货运规则。"
+    },
+    {
+      "number": 33576,
+      "text": "FALSO. 在欧盟市场，为他人提供国际货物运输所需的许可文件是共同体许可证；一般而言，CEMT许可证不能替代它。"
+    },
+    {
+      "number": 33577,
+      "text": "VERO. 在普遍服务范围内开展的邮政运输可免于持有共同体许可证。"
+    },
+    {
+      "number": 33578,
+      "text": "VERO，但需说明：豁免适用于在普遍服务范围内开展的邮政运输，并非必然适用于所有邮政运输。"
+    },
+    {
+      "number": 33579,
+      "text": "FALSO. 并非所有驾驶员都需要驾驶员证明：当驾驶员是第三国公民时，该证明按照条例规定的条件与共同体许可证一同使用。"
+    },
+    {
+      "number": 33580,
+      "text": "FALSO. 运输动物不会仅因货物种类而免除共同体许可证要求：如果为他人提供的国际运输属于该条例的适用范围，就需要许可证。"
+    },
+    {
+      "number": 33581,
+      "text": "FALSO. 仅在名册中登记并不够：受该条例约束的为他人提供的国际运输还需要共同体许可证。"
+    },
+    {
+      "number": 33582,
+      "text": "FALSO. 这句话颠倒了规则：受该条例约束的为他人提供的国际运输需要共同体许可证，而明确获得豁免的类别则无需持有。"
+    },
+    {
+      "number": 33583,
+      "text": "FALSO. 边界的取消并未使整个欧洲大陆的货物运输完全自由化：例如，在欧盟，未获豁免的为他人提供的国际运输需要共同体许可证。"
+    },
+    {
+      "number": 33584,
+      "text": "FALSO. 欧盟国家之间为他人提供的国际货物运输，在未获豁免时使用共同体许可证；CEMT许可证属于另一套多边制度。"
+    },
+    {
+      "number": 33585,
+      "text": "VERO，按题库答案如此，但表述不够准确：共同体许可证允许在欧盟及部分协议国家开展运输，并不自动适用于所有CEMT国家。与其他CEMT国家之间的运输可能需要其他许可。"
+    },
+    {
+      "number": 33586,
+      "text": "FALSO. 西班牙是欧盟成员国，并未被排除在共同体许可证的地域有效范围之外。"
+    },
+    {
+      "number": 33587,
+      "text": "VERO，适用于受该条例约束的普通为他人提供的国际运输：意大利和波兰都是成员国，因此需要共同体许可证。豁免类别仍然适用。"
+    },
+    {
+      "number": 33588,
+      "text": "FALSO. 共同体许可证以承运人，即持证企业的名义签发，而非以某个驾驶员的名义签发；它专属于持有人，不可转让。"
+    },
+    {
+      "number": 33589,
+      "text": "FALSO. 即使是合作社，许可证也以持证承运人的名义签发，而不是由多名公路承运人共同持有。"
+    },
+    {
+      "number": 33590,
+      "text": "VERO. 共同体许可证有固定期限，可以续期；意大利签发的货运许可证期限为五年。"
+    },
+    {
+      "number": 33591,
+      "text": "FALSO. 并非任何情况下都不需要许可：受该条例约束的意大利与波兰之间为他人提供的国际运输需要共同体许可证，豁免情况除外。"
+    },
+    {
+      "number": 33592,
+      "text": "FALSO. 在意大利，货运共同体许可证由主管部委签发，而非由省级机构签发。"
+    },
+    {
+      "number": 33593,
+      "text": "VERO，在市场准入方面：某些运输可免于持有共同体许可证，而其他受该条例约束的为他人提供的国际运输则需要该许可证。但仍可能需要其他文件，例如规定情况下的驾驶员证明。"
+    },
+    {
+      "number": 33594,
+      "text": "VERO. 共同体许可证允许获得授权的企业按照条例规定的条件，在欧盟境内为他人提供国际货物运输。"
+    },
+    {
+      "number": 33595,
+      "text": "FALSO. 续期取决于许可证的到期时间，而不仅仅取决于车队的变化；经核证的副本则对应企业可使用的车辆。"
+    },
+    {
+      "number": 33596,
+      "text": "FALSO. 许可证有到期日：意大利签发的国际货运许可证有效期为五年，可以续期。"
+    },
+    {
+      "number": 33597,
+      "text": "VERO. 共同体许可证以持证承运人的名义签发，不能转让给其他承运人。"
+    },
+    {
+      "number": 33598,
+      "text": "FALSO. 符合条例规定条件的自营运输可免于持有共同体许可证；该许可证适用于受相关规定约束的为他人提供的国际运输。"
+    },
+    {
+      "number": 33599,
+      "text": "VERO，适用于意大利签发的许可证：其有效期为五年，可以续期。欧盟条例允许成员国规定最长十年的期限。"
+    },
+    {
+      "number": 33600,
+      "text": "FALSO. 在意大利，货运共同体许可证由主管部委通过其总司签发，而不是由民用机动车管理办公室签发。"
+    },
+    {
+      "number": 33601,
+      "text": "VERO，就许可证文件而言：一份经核证的副本随机动车携带，也涵盖可能连接的挂车。仅有该副本并不免除携带其他必需文件的要求，例如规定情况下的驾驶员证明。"
+    }
+  ],
+  "output_sha256": "09e0b730879bc8d62a12f78f96801db1e65105257712a32f9d8ff55e00f8c2e6"
+}

@@ -1,0 +1,49 @@
+{
+  "batch": "146",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "c3f670fc4e339cc1167c5da825cf449860815e00b135d8c02720083644166192",
+  "source_sha256": "5ef7113cdc1b4d9631be58a15ca34bccc02c528ef4063a178682a4abd412fe1d",
+  "corrections": [
+    {
+      "id": "c183f8735e3445ed5ec4e649239518f4998fc611ca7a3ed3d83a8f363d327675",
+      "before": "Según el CMR, el destinatario de la mercancía puede sustituirse por otros destinatarios",
+      "after": "Según el CMR, el destinatario de la mercancía puede sustituir a otros destinatarios por sí mismo",
+      "reason": "Italian says the consignee may substitute other consignees for himself; draft reversed the subject (consignee becomes the substituted party)"
+    },
+    {
+      "id": "c18be7cd82d91ddfd10bedbd1271fd62b2f3a3cb098f101dab189dccac03c4a9",
+      "before": "Tanto el estacionamiento como la detención están prohibidos frente a los contenedores de residuos urbanos",
+      "after": "Tanto el estacionamiento como la parada están prohibidos frente a los contenedores de residuos urbanos",
+      "reason": "Distingue sosta (estacionamiento) de fermata (parada temporal)."
+    },
+    {
+      "id": "c1b7a22a228e8c07b554c8d2584947f8efc54396029119ba103ff12c17690318",
+      "before": "En las estaciones de autobuses, los andenes rectos y paralelos se utilizan cuando la parada es de larga duración",
+      "after": "En las estaciones de autobuses, los andenes rectos y paralelos se utilizan cuando el estacionamiento es de larga duración",
+      "reason": "Sosta se refiere al estacionamiento, no a una parada temporal."
+    },
+    {
+      "id": "c1bdfd51458b76da35e34af7e8563a00d9bfa6d03efb7bad24cb554e991118ab",
+      "before": "La detención está prohibida frente a los surtidores de combustible solo durante las horas de funcionamiento",
+      "after": "La parada está prohibida frente a los surtidores de combustible solo durante las horas de funcionamiento",
+      "reason": "Fermata se refiere a la parada temporal."
+    },
+    {
+      "id": "c23491e64ea0e59cd2984dde472348a851c4ad69687d74ac5d7fb59e4aa411dd",
+      "before": "La línea blanca lateral discontinua de la figura delimita una zona de estacionamiento",
+      "after": "La línea blanca lateral discontinua de la figura delimita un apartadero",
+      "reason": "Piazzola di sosta indica un apartadero vial."
+    }
+  ],
+  "reviewed_file_sha256": "bdd4f7c97b7c46711dc7385ca37aae54311bc1d2fa57bd52460d7d7e3503366a"
+}

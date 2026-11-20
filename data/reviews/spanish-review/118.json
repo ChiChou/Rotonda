@@ -1,0 +1,31 @@
+{
+  "batch": "118",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "b50800a54e9f2319093d1c3a7d1abfbbc1f9f84d5bc10a6917353794c9f14d6d",
+  "source_sha256": "4ec2593b7a1e871841a2045ca886be10b8122e3ee16ed6774f82a64fb45703e3",
+  "corrections": [
+    {
+      "id": "9dcb27f8cc6e6cb2cfa32692010022cd981c432fe1398c94c2528eea687af9bf",
+      "before": "04##tipología4 CQC",
+      "after": "04##tipologia4 CQC",
+      "reason": "Se preserva el marcador estructural 04##tipologia4 sin cambios."
+    },
+    {
+      "id": "9dce498e60f6e0235a4ef64cf6ef19d537bd4abbfdc9398e874fb58653887bcf",
+      "before": "El distribuidor manual del sistema de frenos envía aire al cilindro de doble cámara para realizar el frenado de estacionamiento",
+      "after": "El distribuidor manual del sistema de frenos envía aire al cilindro de freno para realizar el frenado de estacionamiento",
+      "reason": "Unsupported detail 'de doble cámara' is not in the Italian; bielemento frenante is the brake cylinder"
+    }
+  ],
+  "reviewed_file_sha256": "26b452050b10be369cff2491f25cdf4b4d27e9db33a5055df781b579d95fbdcd"
+}

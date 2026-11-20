@@ -1,0 +1,31 @@
+{
+  "batch": "009",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "58ac3d482963f9458713e7cfa9e1d6d5ec68e531826def5e048e5ef8174fb4a8",
+  "source_sha256": "d04b54dc6fb8a429fc577f6b466f74b98c0c7313f5a9df9bfd220049cafe5561",
+  "corrections": [
+    {
+      "id": "0d63b63ae860239bb2520d2dfa61bb459ceaa13c58ebe876386279fd3f8924aa",
+      "before": "El conductor que excede el tiempo máximo de conducción para llegar a un lugar de parada adecuado debe anotar los motivos en la hoja de registro o al dorso de la impresión diaria",
+      "after": "El conductor que excede el tiempo máximo de conducción para llegar a un lugar de estacionamiento adecuado debe anotar los motivos en la hoja de registro o al dorso de la impresión diaria (ticket)",
+      "reason": "Conserva sosta como estacionamiento y recupera la referencia al ticket de la impresión diaria."
+    },
+    {
+      "id": "0d94445ca9a5a06650d33480f78f1f3d26b2c6a66bb6b4095041648d32606680",
+      "before": "Los gastos judiciales relacionados con el accidente de tránsito pueden ser indemnizados por el seguro de responsabilidad civil automotor",
+      "after": "Los gastos judiciales relacionados con el accidente de tránsito pueden ser indemnizados por el seguro de responsabilidad civil automotor (RCA)",
+      "reason": "Restored the RCA acronym from the Italian, which was omitted"
+    }
+  ],
+  "reviewed_file_sha256": "0f4232c0030ac7ad344be1a59d47323f4783968934ec3f3ed010a3a9712f756c"
+}

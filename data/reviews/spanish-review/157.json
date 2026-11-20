@@ -1,0 +1,31 @@
+{
+  "batch": "157",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "d5ec58fa78212d5178886af864f26d2b137e0690c51491638d366a3453377b93",
+  "source_sha256": "7d05ceb7b0ca42d6baa6af9615f612af582dc305b1ff3e183edae4793b5988dc",
+  "corrections": [
+    {
+      "id": "cf66055f329b487e6e22a520c6b662e105f8fb2a6c0e24b5ac3e51924d62164f",
+      "before": "La detención no debe obstaculizar la circulación",
+      "after": "La parada no debe obstaculizar la circulación",
+      "reason": "Fermata indica la parada temporal del vehículo."
+    },
+    {
+      "id": "d04857e4d48bf2e14403d72471e4509077a0aa9244928a4d4a6bb629d42a2e24",
+      "before": "La señal mostrada es válida solo en días laborables",
+      "after": "La señal mostrada es válida solo en días no festivos",
+      "reason": "Feriali incluye el sábado salvo festivo; días no festivos evita excluirlo."
+    }
+  ],
+  "reviewed_file_sha256": "a396b36c61bdd76e892bd98a01b66bf2e624490b7b478bf01067a1c9f681e5b4"
+}

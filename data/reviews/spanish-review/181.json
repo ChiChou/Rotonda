@@ -1,0 +1,49 @@
+{
+  "batch": "181",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "f1f4935f0b8bc3ce2b84497540fe16cabcbd39ffd1062caa17f650f987b1186b",
+  "source_sha256": "746e6894120b8f5096e0ce2be0103d21c918b8ee402a92f52c563352a20a28e5",
+  "corrections": [
+    {
+      "id": "ef925eda1b1b215fc2677308c5cd56c4f9c1a12e364b81dc3c72e2556319ff97",
+      "before": "Según la normativa ADR, un vehículo cerrado tiene un compartimiento de carga con paredes y cubierta rígidas",
+      "after": "Según la normativa ADR, por vehículo cerrado se entiende un vehículo con un compartimiento de carga con paredes y cubierta rígidas",
+      "reason": "Definition ('s'intende') was turned into a statement; restore the definition form"
+    },
+    {
+      "id": "ef9d4f3112f20c9e22d6baa400de194f3daf411fac4e5a87011d57bd01f00e5f",
+      "before": "La señal mostrada advierte de la presencia de una comandancia de Carabineros",
+      "after": "La señal mostrada advierte de la presencia de un puesto de los Carabinieri",
+      "reason": "Carabineros is another country's police; use the Italian Carabinieri"
+    },
+    {
+      "id": "efdecf7affa2a9e0399070106a1aa1a71244705f4c19b90e8ef9bed15b8e0ab0",
+      "before": "La plataforma exclusiva del tranvía está destinada exclusivamente a su circulación",
+      "after": "La plataforma exclusiva del tranvía está destinada exclusivamente a la circulación de tranvías",
+      "reason": "Explicita que la circulación exclusiva corresponde a los tranvías."
+    },
+    {
+      "id": "f039377ef7a6acb7446225cee8a7349b2a423ed21cbe986de527bd4bd1dea444",
+      "before": "Para renovar el certificado de formación profesional ADR hay que asistir a un curso sin obligación de aprobar un examen final",
+      "after": "Para renovar el certificado de formación profesional ADR hay que asistir a un curso sin obligación de rendir un examen final",
+      "reason": "'sostenere un esame' means sit, not pass ('aprobar')"
+    },
+    {
+      "id": "f086b3c20150f58e71e2e1d30d37f10d1a092b0cd56b070f53ab6ff369a7580a",
+      "before": "La iluminación interior puede estar presente en algunos tipos de autobuses",
+      "after": "La iluminación interior de los autobuses puede estar presente en algunos tipos de autobuses",
+      "reason": "Restituye que se refiere específicamente a autobuses."
+    }
+  ],
+  "reviewed_file_sha256": "ccaf316dc1d4f61166d8419d41bf43b07991b3f968d775ab6855cc18012c4d5a"
+}

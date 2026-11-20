@@ -1,0 +1,852 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26510,
+          "quesito_id": 5172,
+          "text_it": "E' vietato il sorpasso di veicoli fermatisi per consentire ai pedoni di attraversare la carreggiata",
+          "answer": 1,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "53afe5682c436dfa3f515964ffa32f711fa957472a3fe133a494c7db26730862",
+        "localized_text": "禁止超越为让行人横穿车行道而停下的车辆。"
+      },
+      {
+        "source": {
+          "number": 26511,
+          "quesito_id": 5172,
+          "text_it": "E' vietato il sorpasso nelle strade a senso unico",
+          "answer": 0,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b7476f91c9ba149e4f9ea191789de2ab488cad542bceee1085cb0f1fb80d75aa",
+        "localized_text": "单行道上禁止超车"
+      },
+      {
+        "source": {
+          "number": 26512,
+          "quesito_id": 5172,
+          "text_it": "E' vietato il sorpasso quando il veicolo che ci precede ha azionato l'indicatore destro per fermarsi",
+          "answer": 0,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "3abc6565d9f568be4bbdfea8e87190f63df842744b6bc1a405d0871f7d288c35",
+        "localized_text": "前车已打开右转向灯准备停车时禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26513,
+          "quesito_id": 5172,
+          "text_it": "E' vietato il sorpasso quando il veicolo da superare è un ciclomotore",
+          "answer": 0,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9fdc665464ccd04dae6e22a2654d5aa0cca3ae83a3151bcf4b1c3264d9fd3970",
+        "localized_text": "被超越车辆是轻便摩托车时禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26514,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nelle curve, su strade con due corsie e a doppio senso di circolazione",
+          "answer": 1,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "14d896d6b0b6f05b5308cb83ede7cfe18fc18d9783074f708ec00610c5f3cbb9",
+        "localized_text": "在双向两车道道路的弯道处禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26515,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nei passaggi a livello senza barriere e senza semaforo",
+          "answer": 1,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "95cd5cdfedbadc785dbb8e33abb4a2f7b87bd41589787957556f087e99a4c6cf",
+        "localized_text": "在没有栏杆和交通信号灯的铁路平交道口禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26516,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso di veicoli fermi al semaforo quando si deve superare la linea continua",
+          "answer": 1,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "21a584c1f749dfcbe6e1c8ff3ca7f48fa0c79887bf3d06a17c2c6757b4b54d13",
+        "localized_text": "需要跨越实线时，禁止超越在交通信号灯前停下的车辆。"
+      },
+      {
+        "source": {
+          "number": 26517,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nelle strade a carreggiate separate",
+          "answer": 0,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ff63388f4729b3635269592ed2d1634755b454fd085dd1e3359068f03ec67869",
+        "localized_text": "在分隔车行道的道路上禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26518,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nei centri abitati",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "49e5c48cc4f95c71c7d22ffcd4e20f29c6d31ffa08b70c66ae3b3053f4b2c205",
+        "localized_text": "在建成区内禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26519,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nelle ore notturne",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4579c5371e3211ba30aa8ac6e3c2112d2d7967e919fc8e7ff5bd489e6ae31fd0",
+        "localized_text": "夜间禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26520,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso quando il veicolo che precede ha segnalato di voler iniziare il sorpasso",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a999b55fdd993153863685eec9e7347a96051dd4e1bf7a0f1ee5504ad2422ff0",
+        "localized_text": "前车已发出准备超车的信号时禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26521,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso a destra di un tram fermo per la salita e discesa dei passeggeri, se non c'è il salvagente",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b79712828a9ade6105832580887af12d2ccb12a1fca684cc1515c2f8832a181b",
+        "localized_text": "没有安全岛时，禁止从因乘客上下车而停靠的有轨电车右侧超越。"
+      },
+      {
+        "source": {
+          "number": 26522,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso su strade a due corsie e a doppio senso, quando la visibilità è limitata",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "884825627805acfbf9a78eb9b20a392bb2d5748cd8ced9e8afee5c7fb9cd953d",
+        "localized_text": "视距受限时，在双向两车道道路上禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26523,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso quando piove",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7d5825f004f7ceff0f3e65a73dfdf7dd414b67f69ba779b4feac138453b2cda1",
+        "localized_text": "下雨时禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26524,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso nelle curve, su strade a due corsie per ogni senso di marcia",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5c9bf6ab3aab58d84e56160284f0c4b39c7e80825833dc9c9f45d8296e95dba7",
+        "localized_text": "在每个方向有两条车道的道路弯道处禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26525,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso nei dossi, su strade a senso unico di circolazione",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "95323b3c16c3730654197b970871ec03ef22dabec7743a1f16bd176f87aaa8e7",
+        "localized_text": "在单行道的坡顶处禁止超车。"
+      },
+      {
+        "source": {
+          "number": 26526,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso bisogna segnalare la manovra azionando l'indicatore di direzione",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c0602ec7bf2c7a73891911e794e4bbc30c8979968a34def4abe99106979f3bb5",
+        "localized_text": "超车时必须使用转向灯发出信号。"
+      },
+      {
+        "source": {
+          "number": 26527,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso bisogna affiancare il veicolo sulla sua sinistra lasciando un adeguato margine di sicurezza",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9952455aaa8c26baf95b7030483f98119b1b3e42a344a75b29bf0eba893b1f66",
+        "localized_text": "超车时必须从被超车辆左侧驶过，留出足够的安全间距。"
+      },
+      {
+        "source": {
+          "number": 26528,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso bisogna assicurarsi che si disponga di uno spazio libero sufficiente",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7462ba4541e63967a9cfac790049ef6a7c291fb459b3b821ca515d1056c64bfb",
+        "localized_text": "超车时必须确认有足够的空余空间。"
+      },
+      {
+        "source": {
+          "number": 26529,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso occorre tener presente che sulle strade provinciali il sorpasso è ammesso solo di giorno",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "72e75cc12c00654bd3473a08ea3ac9e27221181d5b429cb0a0e392eb5169ad69",
+        "localized_text": "超车时必须记住，在省级道路上只允许白天超车。"
+      },
+      {
+        "source": {
+          "number": 26530,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso dei motocicli, si può effettuare la manovra sia a destra che a sinistra",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "003cbd6cfcc9a91f1caa95d17ed3a79b9f97c4886d52d8cdd18afa4d6f547532",
+        "localized_text": "超越摩托车时，可以从右侧或左侧进行。"
+      },
+      {
+        "source": {
+          "number": 26531,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso in curva si deve sempre suonare il clacson",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "8a1602c9f6d5e3112d38c86944a19cb492d2765d93b3716acc9d3ae09cd47745",
+        "localized_text": "在弯道超车时必须始终鸣喇叭。"
+      },
+      {
+        "source": {
+          "number": 26532,
+          "quesito_id": 5176,
+          "text_it": "Non si può sorpassare quando si deve oltrepassare una striscia longitudinale bianca continua, singola o doppia",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7d6b27c5e56d586bfb219b570e62aab875a321ec3a3fc716f55b26a62a263b01",
+        "localized_text": "需要跨越单条或双条白色纵向实线时，不得超车。"
+      },
+      {
+        "source": {
+          "number": 26533,
+          "quesito_id": 5176,
+          "text_it": "Non si può sorpassare in prossimità o in corrispondenza dei passaggi a livello senza barriere e senza semaforo",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ba64d00127506daeeb068dc2e473900bc832ebd063a270a6fbe21dba06923c9a",
+        "localized_text": "在没有栏杆和交通信号灯的铁路平交道口附近或道口处不得超车。"
+      },
+      {
+        "source": {
+          "number": 26534,
+          "quesito_id": 5176,
+          "text_it": "Non si può sorpassare un veicolo che si sia fermato per dare la precedenza ad altri veicoli",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ea9b6b05d5b53a01cb298655991639285fb57611044f373e6a404e2f1745ba4d",
+        "localized_text": "不得超越为给其他车辆让行而停下的车辆。"
+      }
+    ],
+    "task_sha256": "54ab60bb6d5152f86c1bd91c5d7c9d1c9cfd4f9b4b2b922e0068b9945614b0e3"
+  },
+  "rows": [
+    {
+      "number": 26510,
+      "text": "为让行人过街而停下的车辆可能挡住视线：超越它可能撞上行人。应等待行人安全通过。",
+      "evidence": [
+        "PDF ufficiale AM assegnato, data/inputs/official/2026-11-14/conseguimento-am-it.pdf, SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30: il quesito è classificato VERO nella situazione descritta. Quesito 26510, pagina PDF 122.",
+        "Codice della strada, art. 148 comma 13: divieto espresso di sorpassare un veicolo fermo o rallentato per lasciare attraversare i pedoni in corrispondenza di un attraversamento pedonale; https://aci.gov.it/codice-della-strada/art-148/",
+        "Codice della strada, art. 191 comma 2: sulle strade prive di attraversamenti pedonali, consentire a chi ha già impegnato la carreggiata di raggiungere l’altro lato in sicurezza; https://aci.gov.it/codice-della-strada/art-191/"
+      ]
+    },
+    {
+      "number": 26511,
+      "text": "单行道本身并不禁止超车，但仍须遵守标志标线，并确保视野和空间充足。",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 10: richiedono condizioni di sicurezza e contemplano il sorpasso su carreggiata a senso unico; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 38, commi 1 e 2: la segnaletica comprende segnali verticali e orizzontali e le relative prescrizioni devono essere rispettate; https://aci.gov.it/codice-della-strada/art-38/"
+      ]
+    },
+    {
+      "number": 26512,
+      "text": "前车亮右转向灯准备停车，并不自动禁止超车；通常应从左侧超越，且只能在安全时进行。",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2, 3 e 7: prescrivono verifiche e sorpasso a sinistra, con specifiche eccezioni; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26513,
+      "text": "可以超越轻便摩托车，但必须允许超车、确保安全并保持足够的侧向距离。",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 3: richiedono sicurezza e adeguata distanza laterale nel sorpasso; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26514,
+      "text": "在双向单幅道路的弯道上，每个方向只有一条车道时，视线可能不足以观察对向车辆。禁令有例外，包括具有规定标线的分隔车行道。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 10: vieta il sorpasso in curva e prevede eccezioni per particolari carreggiate o corsie; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26515,
+      "text": "在没有栏杆和交通信号灯的铁路道口附近禁止超车，应保持可能有火车驶来的区域畅通。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 13: vieta il sorpasso presso passaggi a livello senza barriere, salvo regolazione semaforica; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26516,
+      "text": "即使车辆停在信号灯前，也不能为了超越它们而跨越纵向实线。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 11: limita il superamento di veicoli fermi al semaforo quando occorre invadere la parte destinata al senso opposto; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 40, commi 3 e 8: le strisce longitudinali continue non si possono oltrepassare; https://www.aci.it/fileadmin/cds/art-40.php"
+      ]
+    },
+    {
+      "number": 26517,
+      "text": "分隔的车行道并不意味着全面禁止超车，仍须遵守标志标线并满足安全条件。",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 10: prevedono condizioni di sicurezza e contemplano il sorpasso su carreggiate separate; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26518,
+      "text": "建成区本身并不禁止超车：例如在直线路段、视线和空间充足时可以允许超车，但仍须遵守标志、标线和交叉路口规则。",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 12: prescrivono condizioni di sicurezza e limitano il sorpasso presso le intersezioni; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26519,
+      "text": "天黑并不自动禁止超车；必须有足够的视野和空间，才能安全完成超车。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettere a e d: richiede visibilità e spazio libero sufficienti; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26520,
+      "text": "同车道前车已示意准备超车时，应当等待：它可能驶入你打算占用的空间。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettera b: impone di verificare che il veicolo davanti nella stessa corsia non abbia segnalato analoga manovra; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26521,
+      "text": "没有安全岛时，乘客在车行道上上下车；不得从为乘客停车的有轨电车右侧超越。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 9: vieta il sorpasso a destra del tram fermo in mezzo alla carreggiata per i viaggiatori senza salvagente; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26522,
+      "text": "双向单幅道路每个方向只有一条车道时，视线不良会使对向车辆难以观察。法律规定了例外，包括具有规定标线的分隔车行道。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 10: vieta il sorpasso con scarsa visibilità salvo specifiche condizioni di carreggiata e segnaletica; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26523,
+      "text": "下雨本身不禁止超车，但如果视野或其他条件不允许安全超车，就应放弃。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettera a: richiede visibilità adeguata e manovra senza pericolo o intralcio; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26524,
+      "text": "弯道上，如果同一方向至少有两条车道并有适当标线，可以允许超车；但仍须满足安全条件。",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 10: richiedono sicurezza e ammettono l’eccezione con almeno due corsie nello stesso senso e apposita segnaletica; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26525,
+      "text": "在单向车行道上，隆起路段附近可以允许超车，但仍须有足够视野并遵守交通标志和标线。",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 10: richiedono visibilità adeguata e prevedono un’eccezione per carreggiata a senso unico; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 38, commi 1 e 2: la segnaletica comprende segnali verticali e orizzontali e le relative prescrizioni devono essere rispettate; https://aci.gov.it/codice-della-strada/art-38/"
+      ]
+    },
+    {
+      "number": 26526,
+      "text": "转向灯提醒其他人注意车辆移动，应在开始操作前发出信号。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 3: prescrive la segnalazione prima dello spostamento per sorpassare; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 154, commi 1 e 2: segnalazione preventiva dei cambiamenti di direzione o corsia con gli indicatori; https://www.aci.it/fileadmin/cds/art-154.php"
+      ]
+    },
+    {
+      "number": 26527,
+      "text": "正常从左侧超车时，应保持足够的侧向距离，避免并行时发生碰撞。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 3: prescrive il passaggio a sinistra e una distanza laterale adeguata; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26528,
+      "text": "必须有足够的空余空间完成整个超车过程，同时考虑前方车辆和对向来车。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettera d: richiede spazio libero per completare il sorpasso considerando anche gli altri utenti; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26529,
+      "text": "省道上没有夜间超车的一般禁令，但仍须有足够的视野和空间。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettere a e d: richiede visibilità e spazio sufficienti senza limitare la manovra alle ore diurne; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26530,
+      "text": "超越摩托车通常也应从左侧进行；只有特定情况下才允许从右侧超越。",
+      "evidence": [
+        "Codice della strada, art. 148, commi 3 e 7: stabiliscono la regola del sorpasso a sinistra e le eccezioni a destra; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26531,
+      "text": "在弯道上不必总是鸣笛：应为安全适度使用喇叭，鸣笛不能使禁止的超车变为合法。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 10: disciplina il divieto di sorpasso in curva e le eccezioni; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 156, commi 1 e 2: uso moderato del segnale acustico per sicurezza, anche durante il sorpasso quando necessario fuori dai centri abitati; https://www.aci.it/fileadmin/cds/art-156.php"
+      ]
+    },
+    {
+      "number": 26532,
+      "text": "不得跨越纵向实线；如果超车需要跨越实线，就不能进行该操作。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 3: il sorpasso richiede lo spostamento a sinistra nel rispetto delle regole; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 40, commi 3 e 8: le strisce longitudinali continue non si possono oltrepassare; https://www.aci.it/fileadmin/cds/art-40.php"
+      ]
+    },
+    {
+      "number": 26533,
+      "text": "接近没有栏杆和交通信号灯的铁路道口时不要超车：必须能够观察是否有火车驶来，并在必要时于铁轨前停车。",
+      "evidence": [
+        "Codice della strada, art. 148, comma 13: vieta il sorpasso in prossimità o in corrispondenza di passaggi a livello senza barriere, salvo regolazione semaforica; https://aci.gov.it/codice-della-strada/art-148/",
+        "Codice della strada, art. 147, comma 2: prima di impegnare un passaggio a livello senza barriere o semibarriere né segnalazioni luminose o acustiche occorre verificare l’arrivo dei treni e fermarsi secondo la segnaletica; https://aci.gov.it/codice-della-strada/art-147/"
+      ]
+    },
+    {
+      "number": 26534,
+      "text": "为让其他车辆先行而停下的车辆可能挡住正在通过的车辆：超越它可能与这些车辆的路线交叉。应等待并遵守让行规定。",
+      "evidence": [
+        "PDF ufficiale AM assegnato, data/inputs/official/2026-11-14/conseguimento-am-it.pdf, SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30: il quesito è classificato VERO nella situazione descritta. Quesito 26534, pagina PDF 123.",
+        "Codice della strada, art. 148 comma 2: il sorpasso richiede visibilità e spazio sufficienti e deve avvenire senza pericolo o intralcio; comma 12: divieto presso le intersezioni con eccezioni specificate. Queste norme non stabiliscono un divieto illimitato per ogni veicolo fermo per dare precedenza; https://aci.gov.it/codice-della-strada/art-148/",
+        "Codice della strada, art. 145: regole di precedenza alle intersezioni; https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "54ab60bb6d5152f86c1bd91c5d7c9d1c9cfd4f9b4b2b922e0068b9945614b0e3",
+    "output_sha256": "e9358523b999f5faf31b3dff8f14fef22e0ad0fe38315c5ddc6354b4faaea09c",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-26510-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      26510,
+      26511,
+      26512,
+      26513,
+      26514,
+      26515,
+      26516,
+      26517,
+      26518,
+      26519,
+      26520,
+      26521,
+      26522,
+      26523,
+      26524,
+      26525,
+      26526,
+      26527,
+      26528,
+      26529,
+      26530,
+      26531,
+      26532,
+      26533,
+      26534
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1e9e8-6694-7900-b4d2-8908498b882b",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "c1707e514d697263900be30e45eac8513b1d45856288775cbf489af0bf69f0da",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+        "label": "author-0-1",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b38cf8ed9b08fa0ec69bebc1bfaf7670130dcdf7c6e0923bf5b5907301966156",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9ed-cc7b-7281-8973-bcf20c7280e9",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "34e8547847d0b9ebc8254d745087eb05b5c00d58ebf6cfbfe08ab496f4e321a0",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9ef-987c-7873-9573-f7e604e977b0",
+        "label": "author-1-1",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3be634cf35c74661b8f1836fffa7457ffefed21ed1cb520ebcec312370406659",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9f0-f502-7403-9744-d5d4a9c87b1d",
+        "label": "author-1-2",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3be634cf35c74661b8f1836fffa7457ffefed21ed1cb520ebcec312370406659",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9f1-e338-7583-ae81-c755c669c028",
+        "label": "author-1-3",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3be634cf35c74661b8f1836fffa7457ffefed21ed1cb520ebcec312370406659",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "9f6cf2f4cee29537fbcd321978b196dc8100d92ae2152a4a2b636909e52a8d5d",
+          "output_sha256": "d53bd9a0076e354c771ec5bcf168693330957bed2467eb23a1f1b5c601fda6e9",
+          "author": "gpt-6.1-terra / 01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+          "reviewer": "gpt-6.1-terra / 01a1e9ec-902c-7401-b74f-fcba1edb6068",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26510,
+            26511,
+            26512,
+            26513,
+            26514,
+            26515,
+            26516,
+            26517,
+            26518,
+            26519,
+            26520,
+            26521,
+            26522,
+            26523,
+            26524,
+            26525,
+            26526,
+            26527,
+            26528,
+            26529,
+            26530,
+            26531,
+            26532,
+            26533,
+            26534
+          ],
+          "issues": [
+            "26510: The cited art. 148(13) explicitly prohibits passing a vehicle stopped or slowed at a pedestrian crossing; the question has no crossing qualifier. The draft gives a plausible hazard but supplies no authority establishing the full unqualified printed VERO. Verify scope and adjudicate any conflict without changing the verdict.",
+            "26533: The explanation merely restates that the prohibition also covers the approach; it does not explain why overtaking there is prohibited. Add a specific reason supported by evidence.",
+            "26534: Articles 145(2),(4) and 148(2) establish conditional priority and safety duties, not an unconditional ban on passing every vehicle stopped to yield. The explanation's collision risk does not establish that broad rule. The cited official quiz PDF timed out when inspected; independently verify the citation and obtain authoritative support or adjudicate the wording while preserving the printed VERO."
+          ]
+        },
+        {
+          "task_sha256": "7b1870f20ccd77f550b121d2bc81066f4a61ae5121dcc5ff9108928474bacc59",
+          "output_sha256": "f730c5071dc80b5954e222a4359b1acd8bff58ff3fcdf16aca877e365879ddbf",
+          "author": "gpt-6.1-terra / 01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+          "reviewer": "gpt-6.1-terra / 01a1e9ec-902c-7401-b74f-fcba1edb6068",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26510,
+            26511,
+            26512,
+            26513,
+            26514,
+            26515,
+            26516,
+            26517,
+            26518,
+            26519,
+            26520,
+            26521,
+            26522,
+            26523,
+            26524,
+            26525,
+            26526,
+            26527,
+            26528,
+            26529,
+            26530,
+            26531,
+            26532,
+            26533,
+            26534
+          ],
+          "issues": [
+            "26510: The cited art. 148(13) explicitly prohibits passing a vehicle stopped or slowed at a pedestrian crossing; the question has no crossing qualifier. The draft gives a plausible hazard but supplies no authority establishing the full unqualified printed VERO. Verify scope and adjudicate any conflict without changing the verdict.",
+            "26533: The explanation merely restates that the prohibition also covers the approach; it does not explain why overtaking there is prohibited. Add a specific reason supported by evidence.",
+            "26534: Articles 145(2),(4) and 148(2) establish conditional priority and safety duties, not an unconditional ban on passing every vehicle stopped to yield. The explanation's collision risk does not establish that broad rule. The cited official quiz PDF timed out when inspected; independently verify the citation and obtain authoritative support or adjudicate the wording while preserving the printed VERO.",
+            "26511: The wording says that signs/signalling are required, rather than that applicable road signs and markings must be obeyed, changing the Italian meaning.",
+            "26525: The translation narrows Italian segnaletica (traffic signs and markings) to road markings alone; preserve the complete requirement."
+          ]
+        },
+        {
+          "task_sha256": "54ab60bb6d5152f86c1bd91c5d7c9d1c9cfd4f9b4b2b922e0068b9945614b0e3",
+          "output_sha256": "0f04746a69419a81e084b0064bdb39e4c8e271612e3a3d09bc021e58e0c3c1cc",
+          "author": "gpt-6.1-terra / 01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+          "reviewer": "gpt-6.1-terra / 01a1e9ec-902c-7401-b74f-fcba1edb6068",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26510,
+            26511,
+            26512,
+            26513,
+            26514,
+            26515,
+            26516,
+            26517,
+            26518,
+            26519,
+            26520,
+            26521,
+            26522,
+            26523,
+            26524,
+            26525,
+            26526,
+            26527,
+            26528,
+            26529,
+            26530,
+            26531,
+            26532,
+            26533,
+            26534
+          ],
+          "issues": [
+            "26510: The cited art. 148(13) explicitly prohibits passing a vehicle stopped or slowed at a pedestrian crossing; the question has no crossing qualifier. The draft gives a plausible hazard but supplies no authority establishing the full unqualified printed VERO. Verify scope and adjudicate any conflict without changing the verdict.",
+            "26533: The explanation merely restates that the prohibition also covers the approach; it does not explain why overtaking there is prohibited. Add a specific reason supported by evidence.",
+            "26534: Articles 145(2),(4) and 148(2) establish conditional priority and safety duties, not an unconditional ban on passing every vehicle stopped to yield. The explanation's collision risk does not establish that broad rule. The cited official quiz PDF timed out when inspected; independently verify the citation and obtain authoritative support or adjudicate the wording while preserving the printed VERO.",
+            "26525: The translation narrows Italian segnaletica (traffic signs and markings) to road markings alone; preserve the complete requirement."
+          ]
+        },
+        {
+          "task_sha256": "20f1820db337e8220ac435ed779f8048e718a28b34de0f3477357fbcc0ed00af",
+          "output_sha256": "219bb5dc8f7b8020d583dc01cb8e107a9363e8fad4640c3aa2213e0c8cfd0f8e",
+          "author": "gpt-6.1-terra / 01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+          "reviewer": "gpt-6.1-terra / 01a1e9ec-902c-7401-b74f-fcba1edb6068",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26510,
+            26511,
+            26512,
+            26513,
+            26514,
+            26515,
+            26516,
+            26517,
+            26518,
+            26519,
+            26520,
+            26521,
+            26522,
+            26523,
+            26524,
+            26525,
+            26526,
+            26527,
+            26528,
+            26529,
+            26530,
+            26531,
+            26532,
+            26533,
+            26534
+          ],
+          "issues": [
+            "26510: The cited art. 148(13) explicitly prohibits passing a vehicle stopped or slowed at a pedestrian crossing; the question has no crossing qualifier. The draft gives a plausible hazard but supplies no authority establishing the full unqualified printed VERO. Verify scope and adjudicate any conflict without changing the verdict.",
+            "26533: The explanation merely restates that the prohibition also covers the approach; it does not explain why overtaking there is prohibited. Add a specific reason supported by evidence.",
+            "26534: Articles 145(2),(4) and 148(2) establish conditional priority and safety duties, not an unconditional ban on passing every vehicle stopped to yield. The explanation's collision risk does not establish that broad rule. The cited official quiz PDF timed out when inspected; independently verify the citation and obtain authoritative support or adjudicate the wording while preserving the printed VERO.",
+            "26511: The wording says that signs/signalling are required, rather than that applicable road signs and markings must be obeyed, changing the Italian meaning."
+          ]
+        }
+      ],
+      {
+        "task_sha256": "54ab60bb6d5152f86c1bd91c5d7c9d1c9cfd4f9b4b2b922e0068b9945614b0e3",
+        "output_sha256": "ed975d33e6a73fba181fc0d89313f1e55bc2bf3e433573f0c957214f15b8ff12",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-26510-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          26510,
+          26511,
+          26512,
+          26513,
+          26514,
+          26515,
+          26516,
+          26517,
+          26518,
+          26519,
+          26520,
+          26521,
+          26522,
+          26523,
+          26524,
+          26525,
+          26526,
+          26527,
+          26528,
+          26529,
+          26530,
+          26531,
+          26532,
+          26533,
+          26534
+        ],
+        "issues": [
+          "26514: The text asserts that any two-lane two-way road lacks the separation needed for the exception. Article 148(10) also allows a separate-carriageway exception; qualify the common single-carriageway case and acknowledge that exception, as in the corrected 26508 explanation.",
+          "26522: The text assumes that a two-lane two-way road necessarily requires entering the opposing-traffic area. Article 148(10) also provides an exception for separate carriageways; explain the common single-carriageway scenario and preserve that exception.",
+          "26518: The text simply reverses the assertion and mentions unspecified restrictions; add a concrete condition or example explaining why overtaking may be allowed in a built-up area while still respecting safety and intersection rules."
+        ]
+      }
+    ]
+  }
+}

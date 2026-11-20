@@ -1,0 +1,335 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31065,
+          "quesito_id": 7001,
+          "text_it": "La coppia motrice è generata dalla forza con la quale il pistone mette in rotazione l'albero motore attraverso la manovella",
+          "answer": 1,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2e50e96aa255f6efbcb7c0c3c73862f9addec8ab2fa085e15f3975a7f86d8944",
+        "localized_text": "驱动转矩由活塞通过曲柄使曲轴旋转的力产生。"
+      },
+      {
+        "source": {
+          "number": 31066,
+          "quesito_id": 7001,
+          "text_it": "La coppia di un motore endotermico è il prodotto tra la forza che spinge il pistone e il braccio di manovella",
+          "answer": 1,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "25421a2df191bdf8741d64c72950455dc2f62f3ff87ac57105a600bbfe13c82c",
+        "localized_text": "内燃机转矩是推动活塞的力与曲柄臂的乘积。"
+      },
+      {
+        "source": {
+          "number": 31067,
+          "quesito_id": 7001,
+          "text_it": "La coppia motrice è generata dalla forza applicata dal sistema frenante sui mozzi delle ruote",
+          "answer": 0,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ce9d75d20ef095a2ad1de6e958a687be522f6eaa1f5041f806da5cb6e6df7bb3",
+        "localized_text": "驱动转矩由制动系统施加在轮毂上的力产生。"
+      },
+      {
+        "source": {
+          "number": 31068,
+          "quesito_id": 7001,
+          "text_it": "L'andamento delle curve di coppia e di potenza di un motore a combustione interna è legato al numero di giri del motore",
+          "answer": 1,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7eb2cbd80b499f3b254bda033771ae91e9262cd057e4233c5e1b9c3f47be56a3",
+        "localized_text": "内燃机转矩曲线和功率曲线的变化与发动机转速有关。"
+      },
+      {
+        "source": {
+          "number": 31069,
+          "quesito_id": 7001,
+          "text_it": "Il regime di rotazione di coppia massima di un motore a combustione interna corrisponde a quello di potenza massima",
+          "answer": 0,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "31415a0af5fd3f1f299dd96652768b69085bf282a80af62d5d9b9c7f0db1d94e",
+        "localized_text": "内燃机最大转矩时的转速等于最大功率时的转速。"
+      },
+      {
+        "source": {
+          "number": 31070,
+          "quesito_id": 7001,
+          "text_it": "La curva di coppia di un motore endotermico descrive il valore della coppia al variare del numero di giri",
+          "answer": 1,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1d5b855001d3d51ffd89ae3d1309df3017463bd751417187c575d2ba396fc480",
+        "localized_text": "内燃机转矩曲线描述转矩随转速的变化。"
+      },
+      {
+        "source": {
+          "number": 31071,
+          "quesito_id": 7001,
+          "text_it": "Il rendimento ottimale del motore si ha in corrispondenza di un numero di giri vicino a quello della coppia massima",
+          "answer": 1,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4786407e500712336724662978c9d27060e120f5f6e44cd033f0bb96b6df690a",
+        "localized_text": "发动机转速接近最大转矩转速时效率最佳。"
+      },
+      {
+        "source": {
+          "number": 31072,
+          "quesito_id": 7001,
+          "text_it": "Il miglior compromesso tra velocità e consumo di carburante si ha in corrispondenza di un numero di giri del motore a combustione interna vicino a quello della coppia massima",
+          "answer": 1,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1bdb9eb5a4bc6ecfdfd7b4b2795c59d3f9068f52cfa550c37b2abefd11e6ee18",
+        "localized_text": "内燃机转速接近最大转矩转速时，速度与油耗达到最佳折中。"
+      },
+      {
+        "source": {
+          "number": 31073,
+          "quesito_id": 7001,
+          "text_it": "Nelle curve di potenza e di coppia di un motore a combustione interna il numero di giri corrispondente alla coppia massima è inferiore a quello di potenza massima",
+          "answer": 1,
+          "page": 0,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dcbc3934a0fc81b6f840b79f2d588901c5dc2d1c806d125e534c1a1e5c55331e",
+        "localized_text": "在内燃机功率和转矩曲线上，最大转矩转速低于最大功率转速。"
+      }
+    ],
+    "task_sha256": "4403d56aa4150d7203702bfe6420eb8aac4d016572cebf60e26573e72ef06ccb"
+  },
+  "rows": [
+    {
+      "number": 31065,
+      "text": "活塞上的推力通过连杆传到曲轴的曲柄，产生转动作用。",
+      "evidence": [
+        "U.S. DOE, Diesel Engine Fundamentals, Connecting Rod, https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1018-93_VOL1.pdf: la biella collega pistone e albero motore.",
+        "OpenStax, University Physics 1, §10.6, https://openstax.org/books/university-physics-volume-1/pages/10-6-torque: momento uguale a forza per distanza perpendicolare dalla sua linea d’azione all’asse."
+      ]
+    },
+    {
+      "number": 31066,
+      "text": "转矩衡量力的转动作用：用力乘以其有效力臂，即转轴到力作用线的垂直距离。",
+      "evidence": [
+        "U.S. DOE, Diesel Engine Fundamentals, Connecting Rod, https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1018-93_VOL1.pdf: la biella collega pistone e albero motore.",
+        "OpenStax, University Physics 1, §10.6, https://openstax.org/books/university-physics-volume-1/pages/10-6-torque: momento uguale a forza per distanza perpendicolare dalla sua linea d’azione all’asse."
+      ]
+    },
+    {
+      "number": 31067,
+      "text": "制动器产生阻碍转动的转矩；发动机的驱动转矩则来自传到曲轴的活塞推力。",
+      "evidence": [
+        "U.S. DOE, Diesel Engine Fundamentals, Connecting Rod, https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1018-93_VOL1.pdf: la biella collega pistone e albero motore.",
+        "OpenStax, University Physics 1, §10.6, https://openstax.org/books/university-physics-volume-1/pages/10-6-torque: momento uguale a forza per distanza perpendicolare dalla sua linea d’azione all’asse."
+      ]
+    },
+    {
+      "number": 31068,
+      "text": "曲线显示转矩和功率如何随转速变化：功率取决于转矩和转速。",
+      "evidence": [
+        "U.S. DOE, Development of the High-Pressure Direct-Injected Ultra Low-NOx Natural Gas Engine, fig. 78, https://afdc.energy.gov/files/u/publication/35911.pdf: esempio di curva di coppia misurata in funzione dei giri.",
+        "U.S. DOE, Improving Motor and Drive System Performance, Motor Operating Characteristics, https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_sourcebook_web.pdf: potenza proporzionale al prodotto di coppia e velocità angolare; DOE Low Emissions Potential, grafico delle curve, https://www.energy.gov/sites/prod/files/2014/03/f9/2002_deer_khair.pdf: esempio di picchi a regimi diversi."
+      ]
+    },
+    {
+      "number": 31069,
+      "text": "两个峰值不一定出现在同一转速：功率也取决于转速，因此可能在转矩达到峰值后继续上升。",
+      "evidence": [
+        "U.S. DOE, Improving Motor and Drive System Performance, Motor Operating Characteristics, https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_sourcebook_web.pdf: potenza proporzionale al prodotto di coppia e velocità angolare; DOE Low Emissions Potential, grafico delle curve, https://www.energy.gov/sites/prod/files/2014/03/f9/2002_deer_khair.pdf: esempio di picchi a regimi diversi."
+      ]
+    },
+    {
+      "number": 31070,
+      "text": "曲线显示扭矩如何随发动机转速变化：例如，可以找出扭矩较大的转速区间，以便选择适合负载的挡位。",
+      "evidence": [
+        "U.S. DOE, Development of the High-Pressure Direct-Injected Ultra Low-NOx Natural Gas Engine, fig. 78, https://afdc.energy.gov/files/u/publication/35911.pdf: esempio di curva di coppia misurata in funzione dei giri.",
+        "Volvo D13TC brochure https://www.volvotrucks.com/content/dam/volvo-trucks/markets/master/home/trucks/brochure-gallery/Volvo-trucks-volvo-fh-i-save-product-brochure.pdf — torque-vs-rpm graph illustrates identifying the high-torque range for the illustrated engine."
+      ]
+    },
+    {
+      "number": 31071,
+      "text": "题库标为正确。例如，Volvo D13TC 在低转速提供较大扭矩并注重效率；这不能证明最高效率总与最大扭矩重合。最佳点取决于发动机和负载。",
+      "evidence": [
+        "Volvo D13TC example https://www.volvotrucks.com/content/dam/volvo-trucks/markets/master/home/trucks/brochure-gallery/Volvo-trucks-volvo-fh-i-save-product-brochure.pdf — low-rpm torque and efficiency in a specified engine; exact optimum depends on engine/load, not a universal mathematical equality.",
+        "Volvo efficiency guidance https://www.volvotrucks.com/en-en/news-stories/insights/articles/2019/nov/engine-technology-a-look-at-the-fundamentals.html — low rpm and fuel use in described engine."
+      ]
+    },
+    {
+      "number": 31072,
+      "text": "题库标为正确：在扭矩充足的高效转速区运行可在保持车速的同时控制油耗。具体权衡取决于发动机、载荷和道路，而不只取决于最大扭矩转速。",
+      "evidence": [
+        "Volvo D13TC example https://www.volvotrucks.com/content/dam/volvo-trucks/markets/master/home/trucks/brochure-gallery/Volvo-trucks-volvo-fh-i-save-product-brochure.pdf — low-rpm torque and efficiency in a specified engine; exact optimum depends on engine/load, not a universal mathematical equality.",
+        "Volvo efficiency guidance https://www.volvotrucks.com/en-en/news-stories/insights/articles/2019/nov/engine-technology-a-look-at-the-fundamentals.html — low rpm and fuel use in described engine."
+      ]
+    },
+    {
+      "number": 31073,
+      "text": "在典型发动机曲线中，转矩峰值先于功率峰值：转速增加时，即使转矩已达最大值，功率仍可能继续上升。",
+      "evidence": [
+        "U.S. DOE, Improving Motor and Drive System Performance, Motor Operating Characteristics, https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_sourcebook_web.pdf: potenza proporzionale al prodotto di coppia e velocità angolare; DOE Low Emissions Potential, grafico delle curve, https://www.energy.gov/sites/prod/files/2014/03/f9/2002_deer_khair.pdf: esempio di picchi a regimi diversi."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "4403d56aa4150d7203702bfe6420eb8aac4d016572cebf60e26573e72ef06ccb",
+    "output_sha256": "17044bb1eef7af5b7d0eb9b287133afc2f87eed52b755a28441cd2a6eb0aef2a",
+    "author": "gpt-6.1-terra /root/terra_author",
+    "reviewer": "gpt-6.1-terra /root/terra_runner independent collaboration review",
+    "status": "accepted",
+    "checked_numbers": [
+      31065,
+      31066,
+      31067,
+      31068,
+      31069,
+      31070,
+      31071,
+      31072,
+      31073
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb71-0f8c-74b0-9307-d19f4e2693a6",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "a67c3fb7786b8bf4c52753e8f71e9379e3d59167322c8ecbf50164fb51d7d6e1",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb71-0f8c-74b0-9307-d19f4e2693a6",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 30999,
+              "reason": "Il quiz dichiara VERO un obbligo generale di firma del conducente prima della partenza per ogni documento di trasporto; le fonti controllate non stabiliscono tale obbligo generale e il chiarimento ministeriale esclude la firma originale dagli elementi essenziali del DDT alle condizioni indicate. Il tipo di documento e il fondamento dell’obbligo non sono precisati.",
+              "checked_sources": [
+                "D.P.R. 14 agosto 1996 n. 472, art. 1 comma 3, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=096G0487&atto.dataPubblicazioneGazzetta=1996-09-12&tipoDettaglio=originario: elenca gli elementi del DDT fiscale senza prescrivere la firma del conducente.",
+                "Ministero dell’Interno, circolare 15 giugno 2010 n. 8616, punto 9, https://www.asaps.it/downloads/files/2010-SERV_POLST%28Parere-n_08616_del_15_06_2010-Autotrasporto_di_merci_persome_Quesiti_chiarimenti%29.pdf: la sottoscrizione originale non è elemento essenziale della validità del DDT alle condizioni indicate.",
+                "D.P.R. 6 ottobre 1978 n. 627, art. 2, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=078U0627&atto.dataPubblicazioneGazzetta=1978-10-20: prevedeva firma al ritiro per successivi vettori, ma tale disciplina non dimostra un obbligo generale per ogni DDT attuale."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "a67c3fb7786b8bf4c52753e8f71e9379e3d59167322c8ecbf50164fb51d7d6e1",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "4403d56aa4150d7203702bfe6420eb8aac4d016572cebf60e26573e72ef06ccb",
+        "output_sha256": "82a5a130830ad53cb085e2e37f12be2c48c6c9b4e8795973730afe4fa9c985fd",
+        "author": "gpt-6.1-terra /root/terra_author",
+        "reviewer": "gpt-6.1-terra /root/terra_runner independent collaboration review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31065,
+          31066,
+          31067,
+          31068,
+          31069,
+          31070,
+          31071,
+          31072,
+          31073
+        ],
+        "issues": [
+          {
+            "number": 31070,
+            "reason": "The explanation merely restates the source definition without explaining the curve’s use or interpreting how torque changes with engine speed. Add a concrete source-supported educational reason or example."
+          },
+          {
+            "number": 31071,
+            "reason": "The cited Volvo source describes specific engines and low-speed efficiency but does not substantiate the claim about many engines or locate general maximum efficiency near maximum torque. Scope the example to the inspected engine and make the limit explicit."
+          }
+        ]
+      },
+      {
+        "task_sha256": "359f24d0143a3309aacb7edf41952fca25728d5d48d2932ac75ba107315555ff",
+        "output_sha256": "471d2af170c91dd40ba50034725349a925c5d5580d8faf8b1a7424a697a4dc87",
+        "author": "gpt-6.1-terra /root/terra_author",
+        "reviewer": "gpt-6.1-terra /root/terra_runner independent collaboration review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          30995,
+          30996,
+          30997,
+          30998,
+          30999,
+          31000,
+          31001,
+          31002,
+          31003,
+          31004,
+          31005,
+          31006,
+          31007,
+          31008,
+          31009,
+          31010
+        ],
+        "issues": [
+          {
+            "number": 30995,
+            "reason": "The cited CMR articles concern carrier liability and delivery, and the civil-code citation does not establish the specific dangerous-goods driver precaution claimed. Provide a directly applicable accessible ADR source for the example or narrow it to the verified evidence."
+          },
+          {
+            "number": 31007,
+            "reason": "The learner text states the fiscal DDT signature is not essential without qualifying the 2010 circular’s historical identified-preparer/equivalence context. The source does not establish an unrestricted current rule for every DDT. Qualify the context and distinguish documents, consistent with 30999."
+          }
+        ]
+      }
+    ]
+  }
+}

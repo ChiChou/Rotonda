@@ -1,0 +1,25 @@
+{
+  "batch": "099",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ff76694305e39629d511b49d14b0b97753682c3729de44769755a9585447b4b8",
+  "source_sha256": "90817321bf2afa83a6ceb4741ba1e573feaa2b5e1cc8bc339cc228364d249ae5",
+  "corrections": [
+    {
+      "id": "83cbbf2e0c2865c5933648068aceb1004f46b0f8e0876793ace0149f8b6be2a6",
+      "before": "Según el CMR, la recepción de la mercancía es un acto complejo que comprende la exactitud de las indicaciones de la carta de porte sobre el número de bultos",
+      "after": "Según el CMR, la toma en carga de la mercancía es un acto complejo que comprende la exactitud de las indicaciones de la carta de porte sobre el número de bultos",
+      "reason": "'presa in carico' is taking charge of the goods, not receipt"
+    }
+  ],
+  "reviewed_file_sha256": "4c13c6927272ae618dad4fd881a1f44a05a3df4939f3b3e079b4f10a36e18099"
+}

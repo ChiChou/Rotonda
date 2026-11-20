@@ -1,0 +1,31 @@
+{
+  "batch": "080",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "77dacb29015c0fca3278e63345ac89b7184aec3d6c43ae8d7c12c1dd402ac432",
+  "source_sha256": "fbbfb8b2fc6bfc8934058215dcbd46375f6e446cff3d77a1adf68c5f8bb09a1f",
+  "corrections": [
+    {
+      "id": "6a9ee71a8e50be95c7044096d75bd5f2dc697d6250ab5f67bbd97102c127cc28",
+      "before": "El titular de una licencia de categoría A2 también puede conducir máquinas agrícolas que estén dentro de los límites de dimensiones y masa de los vehículos de motor de dos o tres ruedas",
+      "after": "El titular de una licencia de categoría A2 también puede conducir máquinas agrícolas que estén dentro de los límites de dimensiones y masa de los motovehículos",
+      "reason": "Se conserva la categoría motoveicoli sin limitarla mediante un número de ruedas que no figura en el original."
+    },
+    {
+      "id": "6ad943c931785961e0aa62a9e5842f51869e70e2c341facb5c1d2ef3323f2641",
+      "before": "Los servicios ocasionales de pasajeros en países con los que no existe ningún acuerdo internacional requieren autorización incluso si se trata de un servicio de circuito cerrado",
+      "after": "Los servicios ocasionales de pasajeros en países con los que no existe ningún acuerdo internacional requieren autorización incluso si se trata de un servicio de puertas cerradas",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    }
+  ],
+  "reviewed_file_sha256": "601e93e958fc0897a93ee0974005f4c774fd0d111296d57d11e9704e80f1c231"
+}

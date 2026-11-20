@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23501" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="launch-controller">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23500"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="launch-scene">
+            <objects>
+                <viewController id="launch-controller" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="launch-view">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.85" contentMode="scaleAspectFit" image="LaunchHills" translatesAutoresizingMaskIntoConstraints="NO" id="hills">
+                                <rect key="frame" x="224" y="675" width="177" height="118"/>
+                                <color key="tintColor" name="LaunchSketchInk"/>
+                                <accessibility key="accessibilityConfiguration" identifier="hills"><bool key="isElement" value="NO"/></accessibility>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="1" contentMode="scaleAspectFit" image="LaunchRome" translatesAutoresizingMaskIntoConstraints="NO" id="rome">
+                                <rect key="frame" x="-8" y="713" width="196.5" height="131"/>
+                                <color key="tintColor" name="LaunchSketchInk"/>
+                                <accessibility key="accessibilityConfiguration" identifier="rome"><bool key="isElement" value="NO"/></accessibility>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="1" contentMode="scaleAspectFit" image="LaunchCoast" translatesAutoresizingMaskIntoConstraints="NO" id="coast">
+                                <rect key="frame" x="204.5" y="713" width="196.5" height="131"/>
+                                <color key="tintColor" name="LaunchSketchInk"/>
+                                <accessibility key="accessibilityConfiguration" identifier="coast"><bool key="isElement" value="NO"/></accessibility>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="brand">
+                                <rect key="frame" x="157.2" y="386.7" width="78.6" height="78.6"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="LaunchEmblem" translatesAutoresizingMaskIntoConstraints="NO" id="emblem">
+                                        <rect key="frame" x="0.0" y="0.0" width="78.6" height="78.6"/>
+                                        <accessibility key="accessibilityConfiguration"><bool key="isElement" value="NO"/></accessibility>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="96" id="emblem-max"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="emblem-min"/>
+                                            <constraint firstAttribute="height" secondItem="emblem" secondAttribute="width" id="emblem-square"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="safe-area"/>
+                        <color key="backgroundColor" name="LaunchBackground"/>
+                        <constraints>
+                            <constraint firstItem="rome" firstAttribute="leading" secondItem="launch-view" secondAttribute="leading" constant="-8" id="rome-edge"/>
+                            <constraint firstItem="rome" firstAttribute="bottom" secondItem="launch-view" secondAttribute="bottom" constant="0" id="rome-bottom"/>
+                            <constraint firstItem="rome" firstAttribute="width" secondItem="launch-view" secondAttribute="width" multiplier="0.5" priority="999" id="rome-width"/>
+                            <constraint firstItem="rome" firstAttribute="width" relation="lessThanOrEqual" constant="540" id="rome-max-width"/>
+                            <constraint firstItem="rome" firstAttribute="height" secondItem="rome" secondAttribute="width" id="rome-aspect"/>
+                            <constraint firstItem="rome" firstAttribute="height" relation="lessThanOrEqual" secondItem="launch-view" secondAttribute="height" multiplier="0.44" id="rome-max-height"/>
+                            <constraint firstItem="coast" firstAttribute="trailing" secondItem="launch-view" secondAttribute="trailing" constant="8" id="coast-edge"/>
+                            <constraint firstItem="coast" firstAttribute="bottom" secondItem="launch-view" secondAttribute="bottom" constant="0" id="coast-bottom"/>
+                            <constraint firstItem="coast" firstAttribute="width" secondItem="launch-view" secondAttribute="width" multiplier="0.5" priority="999" id="coast-width"/>
+                            <constraint firstItem="coast" firstAttribute="width" relation="lessThanOrEqual" constant="540" id="coast-max-width"/>
+                            <constraint firstItem="coast" firstAttribute="height" secondItem="coast" secondAttribute="width" id="coast-aspect"/>
+                            <constraint firstItem="coast" firstAttribute="height" relation="lessThanOrEqual" secondItem="launch-view" secondAttribute="height" multiplier="0.44" id="coast-max-height"/>
+                            <constraint firstItem="hills" firstAttribute="leading" secondItem="rome" secondAttribute="centerX" constant="-30" id="hills-leading"/>
+                            <constraint firstItem="hills" firstAttribute="trailing" secondItem="coast" secondAttribute="centerX" constant="30" id="hills-trailing"/>
+                            <constraint firstItem="hills" firstAttribute="bottom" secondItem="launch-view" secondAttribute="bottom" id="hills-bottom"/>
+                            <constraint firstItem="hills" firstAttribute="height" secondItem="hills" secondAttribute="width" multiplier="1:3" id="hills-aspect"/>
+                            <constraint firstItem="brand" firstAttribute="centerX" secondItem="safe-area" secondAttribute="centerX" id="brand-center-x"/>
+                            <constraint firstItem="brand" firstAttribute="centerY" secondItem="launch-view" secondAttribute="centerY" id="brand-center-y"/>
+                            <constraint firstItem="brand" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="safe-area" secondAttribute="leading" constant="24" id="brand-margin"/>
+                            <constraint firstItem="emblem" firstAttribute="width" secondItem="launch-view" secondAttribute="width" multiplier="0.2" priority="999" id="emblem-responsive"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="launch-responder" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchRome" width="1280" height="1280"/>
+        <image name="LaunchCoast" width="1280" height="1280"/>
+        <image name="LaunchHills" width="2208" height="736"/>
+        <namedColor name="LaunchSketchInk"><color red="0.4" green="0.486275" blue="0.552941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/></namedColor>
+        <image name="LaunchEmblem" width="96" height="96"/>
+        <namedColor name="LaunchBackground"><color red="0.972549" green="0.976471" blue="0.960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/></namedColor>
+    </resources>
+</document>

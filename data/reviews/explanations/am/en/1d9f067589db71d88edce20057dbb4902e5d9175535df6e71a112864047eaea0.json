@@ -1,0 +1,958 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26309,
+          "quesito_id": 5143,
+          "text_it": "La striscia trasversale continua sulla pavimentazione stradale mostrata in figura, indica il punto in cui bisogna fermarsi ad un incrocio regolato da semaforo con luce rossa",
+          "answer": 1,
+          "page": 116,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927.png",
+              "sha256": "a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927",
+              "page": 116,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "6cac244babdc6390a555bb401a0f5087c2634c5358c886028aba0e5eb79ee957",
+        "localized_text": "The solid transverse line on the road surface shown indicates where one must stop at a junction controlled by a red traffic light."
+      },
+      {
+        "source": {
+          "number": 26310,
+          "quesito_id": 5143,
+          "text_it": "La striscia trasversale continua sulla pavimentazione stradale mostrata in figura, se integrata con l'iscrizione STOP e il relativo segnale verticale, indica il punto di arresto",
+          "answer": 1,
+          "page": 116,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927.png",
+              "sha256": "a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927",
+              "page": 116,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "14cd529381ac1640c1e0a83a3ea88a83a7e7636dba5801259b989b1a1c8aa3b8",
+        "localized_text": "When supplemented by a STOP marking and the corresponding upright sign, the solid transverse line shown indicates the stopping point."
+      },
+      {
+        "source": {
+          "number": 26311,
+          "quesito_id": 5143,
+          "text_it": "La striscia trasversale continua sulla pavimentazione stradale mostrata in figura, indica il punto in cui dobbiamo fermarci ad un incrocio, anche se non regolato",
+          "answer": 0,
+          "page": 116,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927.png",
+              "sha256": "a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927",
+              "page": 116,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8c390609883bba8601538403dfd757c4342cb3e66d29911c6608b5e4d986b629",
+        "localized_text": "The solid transverse line shown indicates where we must stop at a junction even if it is uncontrolled."
+      },
+      {
+        "source": {
+          "number": 26312,
+          "quesito_id": 5143,
+          "text_it": "La striscia trasversale continua sulla pavimentazione stradale mostrata in figura, indica l'obbligo di dare la precedenza ai veicoli provenienti da destra e da sinistra",
+          "answer": 0,
+          "page": 116,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927.png",
+              "sha256": "a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927",
+              "page": 116,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "3b10b64b03b2616b26affb77af7327a3b0bd9160ccea04c16fd26098de489e89",
+        "localized_text": "The solid transverse line shown indicates an obligation to give way to vehicles coming from right and left."
+      },
+      {
+        "source": {
+          "number": 26313,
+          "quesito_id": 5143,
+          "text_it": "La striscia trasversale continua sulla pavimentazione stradale mostrata in figura, indica che siamo in prossimità di un incrocio dove è presente il segnale di DARE PRECEDENZA",
+          "answer": 0,
+          "page": 116,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927.png",
+              "sha256": "a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927",
+              "page": 116,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4e1e601e7a523796927e09bfe3241c6214604eaed818e8c9bb917d2a57f36fff",
+        "localized_text": "The solid transverse line shown indicates that we are near a junction with a GIVE WAY sign."
+      },
+      {
+        "source": {
+          "number": 26314,
+          "quesito_id": 5144,
+          "text_it": "La segnaletica raffigurata obbliga i conducenti a dare precedenza ai ciclisti che hanno iniziato l'attraversamento",
+          "answer": 1,
+          "page": 112,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+              "sha256": "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+              "page": 112,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c3fa43ee7213ebccda1305d4c6e11d94970bccbc4fb697c2066c9424f48a4561",
+        "localized_text": "The markings shown require drivers to give way to cyclists who have begun crossing."
+      },
+      {
+        "source": {
+          "number": 26315,
+          "quesito_id": 5144,
+          "text_it": "La segnaletica raffigurata delimita un attraversamento ciclabile",
+          "answer": 1,
+          "page": 112,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+              "sha256": "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+              "page": 112,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "29a5c907e115b8e98806e218b68c82963762792899c194afe73621213607691a",
+        "localized_text": "The markings shown mark the boundaries of a cycle crossing."
+      },
+      {
+        "source": {
+          "number": 26316,
+          "quesito_id": 5144,
+          "text_it": "La segnaletica raffigurata delimita una zona in cui i ciclisti hanno precedenza sui veicoli in assenza di semaforo o vigile",
+          "answer": 1,
+          "page": 113,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+              "sha256": "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+              "page": 113,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "413e932ee136213b871eacae94d738b8db337b9d266a02cb08cfa06734a2238b",
+        "localized_text": "The markings shown mark an area where cyclists have priority over vehicles in the absence of traffic lights or a traffic officer."
+      },
+      {
+        "source": {
+          "number": 26317,
+          "quesito_id": 5144,
+          "text_it": "La segnaletica raffigurata indica un attraversamento per motocicli e ciclomotori",
+          "answer": 0,
+          "page": 113,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+              "sha256": "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+              "page": 113,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "fb8f181a4e3cc029789a3e055494d8fc222993764352fe609cbcdea8d9c1611a",
+        "localized_text": "The markings shown indicate a crossing for motorcycles and mopeds."
+      },
+      {
+        "source": {
+          "number": 26318,
+          "quesito_id": 5144,
+          "text_it": "La segnaletica raffigurata serve a delimitare le zone escluse dal transito pedonale",
+          "answer": 0,
+          "page": 113,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+              "sha256": "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+              "page": 113,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "12eae447ecf775ff04031c266bfe6dca53fd3ac911e88b8b860a2c45c9383c64",
+        "localized_text": "The markings shown mark the boundaries of areas closed to pedestrians."
+      },
+      {
+        "source": {
+          "number": 26319,
+          "quesito_id": 5144,
+          "text_it": "La segnaletica raffigurata indica un attraversamento pedonale in un centro abitato",
+          "answer": 0,
+          "page": 113,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+              "sha256": "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+              "page": 113,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "86f0f7da7742cdf89804d44881ad4722ce45f2f12c9f3181bcba98600c581e03",
+        "localized_text": "The markings shown indicate a pedestrian crossing in a built-up area."
+      },
+      {
+        "source": {
+          "number": 26320,
+          "quesito_id": 5145,
+          "text_it": "Nella situazione raffigurata il veicolo B ha il diritto di precedenza",
+          "answer": 1,
+          "page": 12,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+              "sha256": "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+              "page": 12,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "218972aed16cf0b57ab6e1437000465cbd6f72aaad0b088d2379aff870441263",
+        "localized_text": "In the situation shown, vehicle B has priority."
+      },
+      {
+        "source": {
+          "number": 26321,
+          "quesito_id": 5145,
+          "text_it": "Nella situazione raffigurata il veicolo H passa per secondo",
+          "answer": 1,
+          "page": 12,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+              "sha256": "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+              "page": 12,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "add84a523849b77274ad2f19f7d33909cf6adf2681c47f7c52a1ed2a15a27684",
+        "localized_text": "In the situation shown, vehicle H goes second."
+      },
+      {
+        "source": {
+          "number": 26323,
+          "quesito_id": 5145,
+          "text_it": "Nella situazione raffigurata il veicolo B passa per primo",
+          "answer": 1,
+          "page": 12,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+              "sha256": "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+              "page": 12,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "64487f1cc54dd83b84c14466ce362b4fa1e785d5f5e3095272681e336548ba96",
+        "localized_text": "In the situation shown, vehicle B goes first."
+      },
+      {
+        "source": {
+          "number": 26324,
+          "quesito_id": 5145,
+          "text_it": "Nella situazione raffigurata il veicolo C dà la precedenza al veicolo H",
+          "answer": 1,
+          "page": 12,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+              "sha256": "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+              "page": 12,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "e6d4ea7b856920b7a31c32b03242778984cbe4c7b44f67181d2b49aa6980129a",
+        "localized_text": "In the situation shown, vehicle C gives way to vehicle H."
+      },
+      {
+        "source": {
+          "number": 26325,
+          "quesito_id": 5145,
+          "text_it": "Nella situazione raffigurata il veicolo H passa per primo",
+          "answer": 0,
+          "page": 12,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+              "sha256": "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+              "page": 12,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "1128cb3752ce6f2b3bd89c77e3f7dcc809dd941e49a0efe1db3fc3632ab203b1",
+        "localized_text": "In the situation shown, vehicle H goes first."
+      },
+      {
+        "source": {
+          "number": 26326,
+          "quesito_id": 5145,
+          "text_it": "Nella situazione raffigurata i veicoli B e C passano per primi",
+          "answer": 0,
+          "page": 12,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+              "sha256": "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+              "page": 12,
+              "bbox": [
+                465.63,
+                453.0,
+                545.63,
+                533.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "cb4ffb39e38c3cc8361a455dca81f96d62099e9ebda83917c0fcd61028705669",
+        "localized_text": "In the situation shown, vehicles B and C go first."
+      },
+      {
+        "source": {
+          "number": 26327,
+          "quesito_id": 5145,
+          "text_it": "Nella situazione raffigurata il veicolo H ha la precedenza perché è un autobus",
+          "answer": 0,
+          "page": 12,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+              "sha256": "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+              "page": 12,
+              "bbox": [
+                465.63,
+                539.0,
+                545.63,
+                619.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "1b756f499ef375b5c07ce5d29c993d77ae07954459e156ffd684d25ea97308cd",
+        "localized_text": "In the situation shown, vehicle H has priority because it is a bus."
+      },
+      {
+        "source": {
+          "number": 26328,
+          "quesito_id": 5145,
+          "text_it": "Nella situazione raffigurata il veicolo C passa per primo",
+          "answer": 0,
+          "page": 12,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+              "sha256": "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+              "page": 12,
+              "bbox": [
+                465.63,
+                625.0,
+                545.63,
+                705.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "1ffc7ebb714f7cf12077daf877ad200dbf2a2477afa60115011c730647efcb2a",
+        "localized_text": "In the situation shown, vehicle C goes first."
+      },
+      {
+        "source": {
+          "number": 26329,
+          "quesito_id": 5146,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo N passa per ultimo",
+          "answer": 1,
+          "page": 13,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+              "sha256": "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+              "page": 13,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "bcdc920c621e04695a6b4f452974582676b124a1c1402804406a1cd25663757c",
+        "localized_text": "According to the priority rules, vehicle N goes last at the junction shown."
+      },
+      {
+        "source": {
+          "number": 26330,
+          "quesito_id": 5146,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo B passa dopo il veicolo P",
+          "answer": 1,
+          "page": 13,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+              "sha256": "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+              "page": 13,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "18bad3b0e07c60d49ff2bb259d3246bfddf01cf00118fa13e58c3c38d9e17d57",
+        "localized_text": "According to the priority rules, vehicle B goes after vehicle P at the junction shown."
+      },
+      {
+        "source": {
+          "number": 26331,
+          "quesito_id": 5146,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo D passa prima degli altri veicoli",
+          "answer": 1,
+          "page": 13,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+              "sha256": "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+              "page": 13,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "2fa94975dd6de5c7fb1f1254b318449bf369373a2491c6a869a3de325246108b",
+        "localized_text": "According to the priority rules, vehicle D goes before the other vehicles at the junction shown."
+      },
+      {
+        "source": {
+          "number": 26332,
+          "quesito_id": 5146,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo P passa prima del veicolo B",
+          "answer": 1,
+          "page": 13,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+              "sha256": "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+              "page": 13,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "198784ee66a4787f19af6cbbcd43aec3bc282537cc790b81c7f0c15844d8231f",
+        "localized_text": "According to the priority rules, vehicle P goes before vehicle B at the junction shown."
+      },
+      {
+        "source": {
+          "number": 26333,
+          "quesito_id": 5146,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato i veicoli D e N passano contemporaneamente",
+          "answer": 0,
+          "page": 13,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+              "sha256": "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+              "page": 13,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "39f71b7f1afd793cc387263277e0201540b315c1391e8d153c259d8f179601c6",
+        "localized_text": "According to the priority rules, vehicles D and N pass at the same time at the junction shown."
+      },
+      {
+        "source": {
+          "number": 26334,
+          "quesito_id": 5146,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato i veicoli D e B passano contemporaneamente",
+          "answer": 0,
+          "page": 13,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+              "sha256": "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+              "page": 13,
+              "bbox": [
+                465.63,
+                453.0,
+                545.63,
+                533.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "fb6f3560623486ed682e7209e785c9ff4eaf18b4fe6b4f40506ef966d274c1fc",
+        "localized_text": "According to the priority rules, vehicles D and B pass at the same time at the junction shown."
+      }
+    ],
+    "task_sha256": "1d9f067589db71d88edce20057dbb4902e5d9175535df6e71a112864047eaea0"
+  },
+  "rows": [
+    {
+      "number": 26309,
+      "text": "At a red traffic light, stop before the solid transverse line, which marks the stopping limit.",
+      "evidence": [
+        "Codice della strada, art. 40 commi 5-6, https://www.aci.it/fileadmin/cds/art-40.php: linea continua di arresto e linea discontinua per dare precedenza.",
+        "Codice della strada, art. 145 commi 4-5, https://www.aci.it/fileadmin/cds/art-145.php: precedenza e arresto prescritti da segnale."
+      ]
+    },
+    {
+      "number": 26310,
+      "text": "With the STOP sign and marking, the solid line marks the limit before which to stop, even if no vehicles are approaching.",
+      "evidence": [
+        "Codice della strada, art. 40 commi 5-6, https://www.aci.it/fileadmin/cds/art-40.php: linea continua di arresto e linea discontinua per dare precedenza.",
+        "Codice della strada, art. 145 commi 4-5, https://www.aci.it/fileadmin/cds/art-145.php: precedenza e arresto prescritti da segnale."
+      ]
+    },
+    {
+      "number": 26311,
+      "text": "The line shows where to stop for a requirement, such as a red light or STOP sign; it does not require a stop at every uncontrolled junction.",
+      "evidence": [
+        "Codice della strada, art. 40 commi 5-6, https://www.aci.it/fileadmin/cds/art-40.php: linea continua di arresto e linea discontinua per dare precedenza.",
+        "Codice della strada, art. 145 commi 4-5, https://www.aci.it/fileadmin/cds/art-145.php: precedenza e arresto prescritti da segnale."
+      ]
+    },
+    {
+      "number": 26312,
+      "text": "The solid line marks the stopping limit; by itself it does not establish priority from both directions. At STOP, you must stop and give way.",
+      "evidence": [
+        "Codice della strada, art. 40 commi 5-6, https://www.aci.it/fileadmin/cds/art-40.php: linea continua di arresto e linea discontinua per dare precedenza.",
+        "Codice della strada, art. 145 commi 4-5, https://www.aci.it/fileadmin/cds/art-145.php: precedenza e arresto prescritti da segnale."
+      ]
+    },
+    {
+      "number": 26313,
+      "text": "The solid line is a stop line, used for example with STOP. A broken transverse line is used for GIVE WAY.",
+      "evidence": [
+        "Codice della strada, art. 40 commi 5-6, https://www.aci.it/fileadmin/cds/art-40.php: linea continua di arresto e linea discontinua per dare precedenza.",
+        "Codice della strada, art. 145 commi 4-5, https://www.aci.it/fileadmin/cds/art-145.php: precedenza e arresto prescritti da segnale."
+      ]
+    },
+    {
+      "number": 26314,
+      "text": "The two rows of squares mark a cycle crossing: drivers must give way to cyclists who have begun crossing.",
+      "evidence": [
+        "D.P.R. 495/1992, regolamento, artt. 145-146, https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf: strisce pedonali e due strisce discontinue degli attraversamenti ciclabili.",
+        "Codice della strada, art. 40 comma 11, https://www.aci.it/fileadmin/cds/art-40.php: precedenza ai ciclisti sugli attraversamenti."
+      ]
+    },
+    {
+      "number": 26315,
+      "text": "The two rows of white squares mark the space used by cyclists to cross.",
+      "evidence": [
+        "D.P.R. 495/1992, regolamento, artt. 145-146, https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf: strisce pedonali e due strisce discontinue degli attraversamenti ciclabili.",
+        "Codice della strada, art. 40 comma 11, https://www.aci.it/fileadmin/cds/art-40.php: precedenza ai ciclisti sugli attraversamenti."
+      ]
+    },
+    {
+      "number": 26316,
+      "text": "The two rows of squares mark a cycle crossing: in the absence of other control, give way to cyclists crossing.",
+      "evidence": [
+        "D.P.R. 495/1992, regolamento, artt. 145-146, https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf: strisce pedonali e due strisce discontinue degli attraversamenti ciclabili.",
+        "Codice della strada, art. 40 comma 11, https://www.aci.it/fileadmin/cds/art-40.php: precedenza ai ciclisti sugli attraversamenti."
+      ]
+    },
+    {
+      "number": 26317,
+      "text": "The two rows of squares mark a cycle crossing, intended for bicycles, not motorcycles or mopeds.",
+      "evidence": [
+        "D.P.R. 495/1992, regolamento, artt. 145-146, https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf: strisce pedonali e due strisce discontinue degli attraversamenti ciclabili.",
+        "Codice della strada, art. 40 comma 11, https://www.aci.it/fileadmin/cds/art-40.php: precedenza ai ciclisti sugli attraversamenti."
+      ]
+    },
+    {
+      "number": 26318,
+      "text": "The two rows of squares mark a cycle crossing, not an area closed to pedestrians.",
+      "evidence": [
+        "D.P.R. 495/1992, regolamento, artt. 145-146, https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf: strisce pedonali e due strisce discontinue degli attraversamenti ciclabili.",
+        "Codice della strada, art. 40 comma 11, https://www.aci.it/fileadmin/cds/art-40.php: precedenza ai ciclisti sugli attraversamenti."
+      ]
+    },
+    {
+      "number": 26319,
+      "text": "The two rows of squares mark a cycle crossing; a pedestrian crossing is marked by parallel white stripes.",
+      "evidence": [
+        "D.P.R. 495/1992, regolamento, artt. 145-146, https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf: strisce pedonali e due strisce discontinue degli attraversamenti ciclabili.",
+        "Codice della strada, art. 40 comma 11, https://www.aci.it/fileadmin/cds/art-40.php: precedenza ai ciclisti sugli attraversamenti."
+      ]
+    },
+    {
+      "number": 26320,
+      "text": "B goes first: H must give way to B approaching from the right; C must wait for H.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26321,
+      "text": "H lets B on its right pass and then goes before C, which must give way to H.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26323,
+      "text": "B goes first: H must give way to B approaching from the right; C must wait for H.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26324,
+      "text": "C must give way to H, approaching from its right. B passes before H.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26325,
+      "text": "H does not go first: it must give way to B on its right. H then goes, followed by C.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26326,
+      "text": "B goes first, but C must wait for H on its right: the order is B, H, C.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26327,
+      "text": "Being a bus does not give H this priority: H waits for B on its right and goes before C, which has H on its right.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26328,
+      "text": "C does not go first: it must wait for H on its right. B goes first, then H and finally C.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26329,
+      "text": "D turns without crossing N’s path and goes first; P and B follow, and N must wait for B. N goes last.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26330,
+      "text": "B must give way to P approaching from its right. D goes before P and N waits for B.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26331,
+      "text": "D turns right without crossing N’s path; it goes first, followed by P, B and N.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26332,
+      "text": "B must give way to P approaching from its right. D goes before P and N waits for B.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26333,
+      "text": "D goes first; N must wait for B, which in turn follows P. Therefore D and N do not go together.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    },
+    {
+      "number": 26334,
+      "text": "D goes first, then P; B must wait for P on its right and goes later, not together with D.",
+      "evidence": [
+        "Codice della strada, art. 145 comma 2, https://www.aci.it/fileadmin/cds/art-145.php: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione.",
+        "Ministero delle infrastrutture e dei trasporti, quiz AM quesiti 5145-5146, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BRevisione%2BAM%2Bitaliano%2B04%2B04%2B2025/4f244772-9daf-4ffd-91e4-a60707127f98: figure, traiettorie e risposte ufficiali."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "1d9f067589db71d88edce20057dbb4902e5d9175535df6e71a112864047eaea0",
+    "output_sha256": "e4fd98fd3e0f90a04043f3e0802de96a467b2c205d6dcc916bece84405733ede",
+    "author": "gpt-6.1-terra / 01a1e9d9-1c2b-73c0-9505-2cd6f2b939be",
+    "reviewer": "gpt-6.1-terra / 01a1e9da-fd33-7e22-b14e-acec79dcbc91",
+    "status": "accepted",
+    "checked_numbers": [
+      26309,
+      26310,
+      26311,
+      26312,
+      26313,
+      26314,
+      26315,
+      26316,
+      26317,
+      26318,
+      26319,
+      26320,
+      26321,
+      26323,
+      26324,
+      26325,
+      26326,
+      26327,
+      26328,
+      26329,
+      26330,
+      26331,
+      26332,
+      26333,
+      26334
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "39a04b9db7779d58cbc1c2f38493fd33c6f34adb96d87ebbb14a81ff1276737f",
+        "attached_image_paths": [
+          "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+          "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+          "source/images/a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927.png",
+          "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png"
+        ],
+        "attached_image_sha256": [
+          "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+          "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+          "a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927",
+          "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "7d8732dd9cb535416826328dc4286d941ace5ff19371d40933ca2df3eaa9b970",
+        "attached_image_paths": [
+          "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+          "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+          "source/images/a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927.png",
+          "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png"
+        ],
+        "attached_image_sha256": [
+          "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+          "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+          "a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927",
+          "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413"
+        ]
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1e9d9-1c2b-73c0-9505-2cd6f2b939be",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "39a04b9db7779d58cbc1c2f38493fd33c6f34adb96d87ebbb14a81ff1276737f",
+          "attached_image_paths": [
+            "source/images/21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00.png",
+            "source/images/995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359.png",
+            "source/images/a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927.png",
+            "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png"
+          ],
+          "attached_image_sha256": [
+            "21f8194e42703d4ad1d4da30a8f63816ddb75d881e631974860aca40bc388d00",
+            "995dafad4ad024243bd2d3464e8077fb649bd93ba55993172393243530503359",
+            "a9379ecc01191f08060965e233f98a12fc270a0bb0d5bc6b5d3a6ffc3ad67927",
+            "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

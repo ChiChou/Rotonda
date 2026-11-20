@@ -1,0 +1,1278 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28093,
+          "quesito_id": 6064,
+          "text_it": "Il segnale raffigurato preannuncia un parcheggio per autocarri ed autotreni",
+          "answer": 0,
+          "page": 23,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c.png",
+              "sha256": "775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c",
+              "page": 23,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "efc66ce1e147395c28a68770e39af791bdeac121e8d5f2b191868350a1cdb5e6",
+        "localized_text": "图中所示标志预告货车和铰接列车停车场"
+      },
+      {
+        "source": {
+          "number": 28094,
+          "quesito_id": 6064,
+          "text_it": "Il segnale raffigurato vieta il transito agli autosnodati",
+          "answer": 0,
+          "page": 23,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c.png",
+              "sha256": "775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c",
+              "page": 23,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "f12ef4885168ba84014a9beafd2f8cf3560361f225a0ddfe53070a82ec83a5e2",
+        "localized_text": "图示标志禁止铰接式巴士通行。"
+      },
+      {
+        "source": {
+          "number": 28095,
+          "quesito_id": 6065,
+          "text_it": "Il segnale raffigurato preannuncia una svolta obbligatoria a destra per gli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate",
+          "answer": 1,
+          "page": 0,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+              "sha256": "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+              "page": 0,
+              "bbox": [
+                465.63,
+                726.0,
+                545.63,
+                806.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c79f7b838fdf4d94d9ab1dc2843bb9b15e0effdad1a587940ba988fefe4803eb",
+        "localized_text": "图示标志预告满载总质量超过3.5吨的卡车必须右转。"
+      },
+      {
+        "source": {
+          "number": 28096,
+          "quesito_id": 6065,
+          "text_it": "Il segnale raffigurato vieta agli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate di proseguire diritto",
+          "answer": 1,
+          "page": 1,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+              "sha256": "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+              "page": 1,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8a891e9722ad6e4c11f369a0957fb051ddba896b5ba55befb85c9cb9a565721a",
+        "localized_text": "图示标志禁止满载总质量超过3.5吨的卡车直行。"
+      },
+      {
+        "source": {
+          "number": 28097,
+          "quesito_id": 6065,
+          "text_it": "Il segnale raffigurato preannuncia un divieto di svolta a sinistra per gli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate",
+          "answer": 1,
+          "page": 1,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+              "sha256": "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+              "page": 1,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "bedb5acdab73095e9a009b6b6b664633ebf203d9f82e99107d4d54b047341cdf",
+        "localized_text": "图示标志预告满载总质量超过3.5吨的卡车禁止左转。"
+      },
+      {
+        "source": {
+          "number": 28098,
+          "quesito_id": 6065,
+          "text_it": "Il segnale raffigurato preannuncia una svolta obbligatoria per i veicoli rappresentati nel segnale stesso",
+          "answer": 1,
+          "page": 1,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+              "sha256": "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+              "page": 1,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "44c315e90fb5a0a8a672da98670ca3c71aaa708276216ad44d827552793028d6",
+        "localized_text": "图中所示标志预告标志中所示的车辆必须转弯"
+      },
+      {
+        "source": {
+          "number": 28099,
+          "quesito_id": 6065,
+          "text_it": "Il segnale raffigurato preannuncia che per gli autocarri è consigliato svoltare a destra",
+          "answer": 0,
+          "page": 1,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+              "sha256": "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+              "page": 1,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "9ae1401f6c0e78f6a45c42262d87e2db8d40894dce08d33115ee21381c349835",
+        "localized_text": "图中所示标志预告建议货车右转"
+      },
+      {
+        "source": {
+          "number": 28100,
+          "quesito_id": 6065,
+          "text_it": "Il segnale raffigurato preannuncia il divieto di svoltare a destra per i veicoli rappresentati in figura",
+          "answer": 0,
+          "page": 1,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+              "sha256": "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+              "page": 1,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "207004d6bc3a9fb2e717da1aede664fcfc78b997c7b40782331b0e67c518c9eb",
+        "localized_text": "图中所示标志预告禁止图中所示的车辆右转"
+      },
+      {
+        "source": {
+          "number": 28101,
+          "quesito_id": 6065,
+          "text_it": "Il segnale raffigurato preannuncia un'area di parcheggio riservata agli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate",
+          "answer": 0,
+          "page": 1,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+              "sha256": "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+              "page": 1,
+              "bbox": [
+                465.63,
+                453.0,
+                545.63,
+                533.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "2188bd403484ce1b29a35906dd36366d3893de4b3801f954b5fa941e93c9bed5",
+        "localized_text": "图示标志预告供满载总质量超过3.5吨的卡车专用的停车区。"
+      },
+      {
+        "source": {
+          "number": 28102,
+          "quesito_id": 6065,
+          "text_it": "Il segnale raffigurato preannuncia una curva pericolosa a destra per gli autocarri in transito",
+          "answer": 0,
+          "page": 1,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+              "sha256": "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+              "page": 1,
+              "bbox": [
+                465.63,
+                539.0,
+                545.63,
+                619.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "d7dae6199d5492c422ad7fb988c4ab21f754427fc9337fbe5eabf641d9e044db",
+        "localized_text": "图中所示标志预告通行货车前方有向右的危险弯道"
+      },
+      {
+        "source": {
+          "number": 28103,
+          "quesito_id": 6066,
+          "text_it": "Il segnale in figura permette il transito solo agli autobus",
+          "answer": 1,
+          "page": 60,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100.png",
+              "sha256": "35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100",
+              "page": 60,
+              "bbox": [
+                471.71,
+                23.0,
+                539.55,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "62f894ed173e3cc8181238e72ec20df4f455e82ac639011b8cd71cc0498eb642",
+        "localized_text": "图示标志只允许巴士通行。"
+      },
+      {
+        "source": {
+          "number": 28104,
+          "quesito_id": 6066,
+          "text_it": "Il segnale in figura indica che possono parcheggiare tutti i veicoli tranne gli autobus",
+          "answer": 1,
+          "page": 60,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af.png",
+              "sha256": "79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af",
+              "page": 60,
+              "bbox": [
+                479.0,
+                109.0,
+                532.24,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4bb1a48aa335597544ea3bf1e4b633226e1cbe0eb15218027291d3d013f469b8",
+        "localized_text": "图中所示标志表示除公共汽车外所有车辆均可泊车"
+      },
+      {
+        "source": {
+          "number": 28105,
+          "quesito_id": 6066,
+          "text_it": "Il pannello integrativo in figura può essere abbinato ad un segnale di obbligo",
+          "answer": 1,
+          "page": 60,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa.png",
+              "sha256": "944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa",
+              "page": 60,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "cc29c69785a5f4c0f477d1109b871bcd08067441c6d4adcd83a833417f8b2f37",
+        "localized_text": "图中所示附加牌可与强制性标志配套使用"
+      },
+      {
+        "source": {
+          "number": 28106,
+          "quesito_id": 6066,
+          "text_it": "Il pannello integrativo in figura può essere abbinato ad un segnale di divieto",
+          "answer": 1,
+          "page": 60,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa.png",
+              "sha256": "944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa",
+              "page": 60,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "712aa2b6aa17e804e30b42e912776bc223aacad0c7e6dfa436fcf9593cc13b60",
+        "localized_text": "图中所示附加牌可与禁令标志配套使用"
+      },
+      {
+        "source": {
+          "number": 28107,
+          "quesito_id": 6066,
+          "text_it": "Il segnale in figura vieta l’accesso agli autobus",
+          "answer": 0,
+          "page": 60,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100.png",
+              "sha256": "35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100",
+              "page": 60,
+              "bbox": [
+                471.71,
+                367.0,
+                539.55,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4aff3284f1c405707242bb874494d9e29a670582a7779ffdbd1a07f275e15387",
+        "localized_text": "图中所示标志禁止公共汽车进入"
+      },
+      {
+        "source": {
+          "number": 28108,
+          "quesito_id": 6066,
+          "text_it": "Il segnale in figura vieta la sosta agli autobus",
+          "answer": 0,
+          "page": 60,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137.png",
+              "sha256": "713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137",
+              "page": 60,
+              "bbox": [
+                472.92,
+                453.0,
+                538.34,
+                533.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "664f0fcb77fcd89ec409bafaca528b24411157fa8f350f0fc02edf6a6509ca91",
+        "localized_text": "图示标志禁止巴士停车。"
+      },
+      {
+        "source": {
+          "number": 28109,
+          "quesito_id": 6066,
+          "text_it": "Il pannello integrativo può indicare la categoria di veicoli cui si applica un divieto",
+          "answer": 0,
+          "page": 60,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa.png",
+              "sha256": "944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa",
+              "page": 60,
+              "bbox": [
+                465.63,
+                539.0,
+                545.63,
+                619.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "1aa986e6d7911b93c80a3f8f9553f39446785bfa54b74fc6eaf0f869d3710325",
+        "localized_text": "辅助标牌可以标明禁令适用的车辆类别。"
+      },
+      {
+        "source": {
+          "number": 28110,
+          "quesito_id": 6066,
+          "text_it": "Il pannello integrativo in figura non vale per gli autobus extraurbani",
+          "answer": 0,
+          "page": 60,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa.png",
+              "sha256": "944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa",
+              "page": 60,
+              "bbox": [
+                465.63,
+                625.0,
+                545.63,
+                705.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8fe4d430840b2094f7da6d64c801f925457e7a878552e9eba639fea50373ce3c",
+        "localized_text": "图示辅助标牌不适用于城际巴士。"
+      },
+      {
+        "source": {
+          "number": 28111,
+          "quesito_id": 6067,
+          "text_it": "Il segnale raffigurato consiglia ai veicoli rappresentati nel pannello di seguire la direzione indicata",
+          "answer": 1,
+          "page": 2,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+              "sha256": "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+              "page": 2,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "19a4a17d25710fc328afdcb31c6db10029edfbdac62a13e41fc1c7be151a7146",
+        "localized_text": "图中所示标志建议标志牌上所画的车辆按所示方向行驶"
+      },
+      {
+        "source": {
+          "number": 28112,
+          "quesito_id": 6067,
+          "text_it": "Il segnale raffigurato preavvisa una deviazione consigliata per gli autotreni ed autoarticolati in transito",
+          "answer": 1,
+          "page": 2,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+              "sha256": "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+              "page": 2,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "96285992d71fa2d73ba297b373bbd7f53a6582e8041a516b61fc1b0a0aaffe66",
+        "localized_text": "图中所示标志预告为途经的全挂列车和铰接式货车推荐的绕行路线"
+      },
+      {
+        "source": {
+          "number": 28113,
+          "quesito_id": 6067,
+          "text_it": "Il segnale raffigurato non è un segnale di obbligo",
+          "answer": 1,
+          "page": 2,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+              "sha256": "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+              "page": 2,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8c8748a780577d0ac6589b4961b231ae0f8773671c9df4a17f94ea46c59db2dd",
+        "localized_text": "图中所示标志不是强制性标志"
+      },
+      {
+        "source": {
+          "number": 28114,
+          "quesito_id": 6067,
+          "text_it": "Il segnale raffigurato consiglia agli autotreni e agli autoarticolati la direzione per non attraversare il centro abitato",
+          "answer": 1,
+          "page": 3,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+              "sha256": "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+              "page": 3,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ccaf7c1ea957540e248c7458500148698d3d95c4039f9a37bf4534cd9241cd02",
+        "localized_text": "图中所示标志为全挂列车和铰接式货车建议避开穿越市中心的行驶方向"
+      },
+      {
+        "source": {
+          "number": 28115,
+          "quesito_id": 6067,
+          "text_it": "Il segnale raffigurato vieta la svolta a destra agli autotreni ed autoarticolati",
+          "answer": 0,
+          "page": 3,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+              "sha256": "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+              "page": 3,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "a3688932aceefc06cac3c60535bb7dadb9f07a16e0804f39e90a8709c1d5b488",
+        "localized_text": "图中所示标志禁止全挂列车和铰接式货车向右转弯"
+      },
+      {
+        "source": {
+          "number": 28116,
+          "quesito_id": 6067,
+          "text_it": "Il segnale raffigurato indica agli autocarri la direzione per il centro cittadino",
+          "answer": 0,
+          "page": 3,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+              "sha256": "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+              "page": 3,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "3826a0535d1709bff91490ec2aac09d33d55c1d0938ee852058a3bcc064bb085",
+        "localized_text": "图中所示标志为货车指示前往市中心的方向"
+      },
+      {
+        "source": {
+          "number": 28117,
+          "quesito_id": 6067,
+          "text_it": "Il segnale raffigurato preannuncia l’obbligo di svoltare subito a destra per i veicoli rappresentati",
+          "answer": 0,
+          "page": 3,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+              "sha256": "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+              "page": 3,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "dea2ca6f68d8dd251572edda0a009016d98f0d85dc3173e57cb30f07bcda1f43",
+        "localized_text": "图中所示标志预告所画车辆必须立即向右转弯"
+      }
+    ],
+    "task_sha256": "37bfec54143d21ea17e43c035216115a3c3a6d947c6e8f12876f94128f0814a1"
+  },
+  "rows": [
+    {
+      "number": 28093,
+      "text": "红圈和两个车辆图形表示禁止全挂列车和铰接式货车通行，并非表示停车场。",
+      "evidence": [
+        "Agenzia formativa della Provincia di Varese, Opuscolo semplificato patente B, cap. 11: divieto per autotreni e autoarticolati, https://agenziaformativa.va.it/wp-content/uploads/OPUSCOLO-SEMPLIFICATO-PATENTE-B-da-pubblicare.pdf",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    },
+    {
+      "number": 28094,
+      "text": "图形表示全挂列车和铰接式货车，并非铰接式巴士；后者属于公共汽车。",
+      "evidence": [
+        "Agenzia formativa della Provincia di Varese, Opuscolo semplificato patente B, cap. 11: divieto per autotreni e autoarticolati, https://agenziaformativa.va.it/wp-content/uploads/OPUSCOLO-SEMPLIFICATO-PATENTE-B-da-pubblicare.pdf",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    },
+    {
+      "number": 28095,
+      "text": "蓝色圆盘内的白箭头预告图示货车必须右转，适用于最大允许总质量超过3.5吨的货车。",
+      "evidence": [
+        "Camera di commercio di Torino, Materiale informativo per esame trasporto pubblico non di linea, p. 167, segnale 150: percorso obbligatorio a destra per autocarri oltre 3,5 t; esclude diritto e sinistra, https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+      ]
+    },
+    {
+      "number": 28096,
+      "text": "必须右转意味着图示最大允许总质量超过3.5吨的货车不能直行。",
+      "evidence": [
+        "Camera di commercio di Torino, Materiale informativo per esame trasporto pubblico non di linea, p. 167, segnale 150: percorso obbligatorio a destra per autocarri oltre 3,5 t; esclude diritto e sinistra, https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+      ]
+    },
+    {
+      "number": 28097,
+      "text": "必须右转也意味着图示最大允许总质量超过3.5吨的货车不能左转。",
+      "evidence": [
+        "Camera di commercio di Torino, Materiale informativo per esame trasporto pubblico non di linea, p. 167, segnale 150: percorso obbligatorio a destra per autocarri oltre 3,5 t; esclude diritto e sinistra, https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+      ]
+    },
+    {
+      "number": 28098,
+      "text": "带右箭头的蓝色圆盘预告下方所示类别必须按指定路线行驶，即超过3.5吨的货车。",
+      "evidence": [
+        "Camera di commercio di Torino, Materiale informativo per esame trasporto pubblico non di linea, p. 167, segnale 150: percorso obbligatorio a destra per autocarri oltre 3,5 t; esclude diritto e sinistra, https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+      ]
+    },
+    {
+      "number": 28099,
+      "text": "这不是建议：蓝色圆盘内的白箭头预告图示货车必须右转。",
+      "evidence": [
+        "Camera di commercio di Torino, Materiale informativo per esame trasporto pubblico non di linea, p. 167, segnale 150: percorso obbligatorio a destra per autocarri oltre 3,5 t; esclude diritto e sinistra, https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+      ]
+    },
+    {
+      "number": 28100,
+      "text": "蓝色圆盘中的箭头要求图示车辆向右行驶，并非禁止右转。",
+      "evidence": [
+        "Camera di commercio di Torino, Materiale informativo per esame trasporto pubblico non di linea, p. 167, segnale 150: percorso obbligatorio a destra per autocarri oltre 3,5 t; esclude diritto e sinistra, https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+      ]
+    },
+    {
+      "number": 28101,
+      "text": "带箭头的蓝色圆盘预告图示货车必须向右行驶，并非预告停车场。",
+      "evidence": [
+        "Camera di commercio di Torino, Materiale informativo per esame trasporto pubblico non di linea, p. 167, segnale 150: percorso obbligatorio a destra per autocarri oltre 3,5 t; esclude diritto e sinistra, https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+      ]
+    },
+    {
+      "number": 28102,
+      "text": "蓝色圆盘中的箭头预告图示货车必须向右行驶，并非预告危险弯道。",
+      "evidence": [
+        "Camera di commercio di Torino, Materiale informativo per esame trasporto pubblico non di linea, p. 167, segnale 150: percorso obbligatorio a destra per autocarri oltre 3,5 t; esclude diritto e sinistra, https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+      ]
+    },
+    {
+      "number": 28103,
+      "text": "禁止驶入标志禁止从标志所在一侧进入；“eccetto”附加牌将公共汽车排除在禁令之外。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 83 commi 1 e 7, modello II.4/b: «eccetto» indica deroga per la categoria raffigurata, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "D.P.R. 495/1992, art. 116, comma 1, fig. II.47: senso vietato dal lato di accesso; regolamento nel documento citato."
+      ]
+    },
+    {
+      "number": 28104,
+      "text": "P表示停车场，“eccetto”附加牌将公共汽车排除在该标示之外：停车场供其他车辆使用。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 83 commi 1 e 7, modello II.4/b: «eccetto» indica deroga per la categoria raffigurata, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "D.P.R. 495/1992, art. 120, comma 1, lett. c, fig. II.76: parcheggio; regolamento nel documento citato."
+      ]
+    },
+    {
+      "number": 28105,
+      "text": "“eccetto”附加牌可与强制标志配合使用，使图示类别的公共汽车免受该义务约束。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 83 commi 1 e 7, modello II.4/b: «eccetto» indica deroga per la categoria raffigurata, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318"
+      ]
+    },
+    {
+      "number": 28106,
+      "text": "“eccetto”附加牌可与禁令标志配合使用，使图示类别的公共汽车不受禁令约束。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 83 commi 1 e 7, modello II.4/b: «eccetto» indica deroga per la categoria raffigurata, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318"
+      ]
+    },
+    {
+      "number": 28107,
+      "text": "“eccetto”附加牌使公共汽车不受禁止驶入的限制，因此它们可以从标志所在一侧进入。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 83 commi 1 e 7, modello II.4/b: «eccetto» indica deroga per la categoria raffigurata, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "D.P.R. 495/1992, art. 116, comma 1, fig. II.47: senso vietato dal lato di accesso; regolamento nel documento citato."
+      ]
+    },
+    {
+      "number": 28108,
+      "text": "禁止停车标志附有“公共汽车除外”的附加牌：公共汽车不受该禁令约束。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 83 commi 1 e 7, modello II.4/b: «eccetto» indica deroga per la categoria raffigurata, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "D.P.R. 495/1992, art. 120, comma 1, lett. a, fig. II.74: divieto di sosta; regolamento nel documento citato."
+      ]
+    },
+    {
+      "number": 28109,
+      "text": "此附加牌写有“eccetto”（除外），表示不受禁令约束的类别，而非禁令适用的类别。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 83 commi 1 e 7, modello II.4/b: «eccetto» indica deroga per la categoria raffigurata, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318"
+      ]
+    },
+    {
+      "number": 28110,
+      "text": "图形表示公共汽车，没有区分城市和城际公共汽车，因此城际公共汽车也属于例外。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 83 commi 1 e 7, modello II.4/b: «eccetto» indica deroga per la categoria raffigurata, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318"
+      ]
+    },
+    {
+      "number": 28111,
+      "text": "箭头为图示类别，即全挂列车和铰接式货车，指示建议向右绕行的路线。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 135 comma 26, fig. II.350: itinerario consigliato per evitare il centro abitato o parte di esso, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    },
+    {
+      "number": 28112,
+      "text": "两个图形表示全挂列车和铰接式货车；箭头为它们指示建议向右行驶的路线。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 135 comma 26, fig. II.350: itinerario consigliato per evitare il centro abitato o parte di esso, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    },
+    {
+      "number": 28113,
+      "text": "黑箭头为图示车辆指示建议绕行路线；它不是表示强制方向的蓝色圆盘。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 135 comma 26, fig. II.350: itinerario consigliato per evitare il centro abitato o parte di esso, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    },
+    {
+      "number": 28114,
+      "text": "建议绕行路线用于避开整个或部分建成区；车辆图形表示全挂列车和铰接式货车。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 135 comma 26, fig. II.350: itinerario consigliato per evitare il centro abitato o parte di esso, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    },
+    {
+      "number": 28115,
+      "text": "箭头为全挂列车和铰接式货车指示建议向右绕行，并非禁止转弯。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 135 comma 26, fig. II.350: itinerario consigliato per evitare il centro abitato o parte di esso, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    },
+    {
+      "number": 28116,
+      "text": "箭头建议图示车辆绕行以避开整个或部分建成区，并非指示通往市中心的方向。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 135 comma 26, fig. II.350: itinerario consigliato per evitare il centro abitato o parte di esso, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    },
+    {
+      "number": 28117,
+      "text": "箭头为图示车辆指示建议绕行路线，并不要求立即右转。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 135 comma 26, fig. II.350: itinerario consigliato per evitare il centro abitato o parte di esso, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318",
+        "Codice della strada, art. 54, comma 1, lettere h, i, l: definizioni di autotreno, autoarticolato e autosnodato, https://aci.gov.it/codice-della-strada/art-54/"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "37bfec54143d21ea17e43c035216115a3c3a6d947c6e8f12876f94128f0814a1",
+    "output_sha256": "23ae0c420883176e6a40977df4059002656b3f858a78a4582761de56c8980c75",
+    "author": "gpt-6.1-terra / 01a1ea93-9ccf-74c2-8ec2-8a51ef050cc1",
+    "reviewer": "gpt-6.1-terra / 01a1ea94-97b4-78f3-b48c-736ccb53bf8f",
+    "status": "accepted",
+    "checked_numbers": [
+      28093,
+      28094,
+      28095,
+      28096,
+      28097,
+      28098,
+      28099,
+      28100,
+      28101,
+      28102,
+      28103,
+      28104,
+      28105,
+      28106,
+      28107,
+      28108,
+      28109,
+      28110,
+      28111,
+      28112,
+      28113,
+      28114,
+      28115,
+      28116,
+      28117
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "88e3130b9058eba4576de70b3b607cb1b8537a33553628a0d1a86b941fe5065b",
+        "attached_image_paths": [
+          "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+          "source/images/35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100.png",
+          "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+          "source/images/713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137.png",
+          "source/images/775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c.png",
+          "source/images/79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af.png",
+          "source/images/944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa.png"
+        ],
+        "attached_image_sha256": [
+          "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+          "35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100",
+          "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+          "713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137",
+          "775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c",
+          "79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af",
+          "944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "bbeb9be0ff37d66d4784b9ae23ff8ad30a7da021cc22d59ba39b797b368c2244",
+        "attached_image_paths": [
+          "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+          "source/images/35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100.png",
+          "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+          "source/images/713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137.png",
+          "source/images/775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c.png",
+          "source/images/79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af.png",
+          "source/images/944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa.png"
+        ],
+        "attached_image_sha256": [
+          "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+          "35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100",
+          "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+          "713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137",
+          "775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c",
+          "79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af",
+          "944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa"
+        ]
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1ea8a-f3ff-7f63-acc5-ac6edce2512f",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "a8200df1d1ad6db05a69204ce68ededabb59ed230ad1201fd292a4504f62faef",
+          "attached_image_paths": [
+            "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+            "source/images/35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100.png",
+            "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+            "source/images/713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137.png",
+            "source/images/775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c.png",
+            "source/images/79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af.png",
+            "source/images/944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa.png"
+          ],
+          "attached_image_sha256": [
+            "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+            "35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100",
+            "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+            "713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137",
+            "775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c",
+            "79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af",
+            "944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa"
+          ]
+        }
+      },
+      {
+        "run_id": "01a1ea93-9ccf-74c2-8ec2-8a51ef050cc1",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "88e3130b9058eba4576de70b3b607cb1b8537a33553628a0d1a86b941fe5065b",
+          "attached_image_paths": [
+            "source/images/0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03.png",
+            "source/images/35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100.png",
+            "source/images/50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0.png",
+            "source/images/713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137.png",
+            "source/images/775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c.png",
+            "source/images/79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af.png",
+            "source/images/944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa.png"
+          ],
+          "attached_image_sha256": [
+            "0dbb6c0a30e009086e117b73816e547a62657e41c56f09972f83703df3d21e03",
+            "35d180ae3b76b89e39a4b9ed57c09a5b0149be5b73b1339a01ab79ed65481100",
+            "50af88ddb03a818752cbfe8c02a5de25eca6b7c6bc32a31f422f19881dafefe0",
+            "713fb11598d12a582941e5de3d7b3380d13827628b5e13cf8e4f941c0e4fa137",
+            "775535384dbbd5deba72e13def8bacb30beae7f64c6101d9820506173e827e8c",
+            "79cd867428ccfb6e6d66d96c3649f2b32db0b7abf2b547cc97cc1a5742d750af",
+            "944ead92703b7121299fce05e377e8f98a0f1d876e36b0da62774f9a510d11fa"
+          ]
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "f385565233a2639df7aa8c650a65f9583f93fc1524284afd439eea63871ed09b",
+          "output_sha256": "fc8f85a4499134be26f7155a59ee11dcb37b3c55b4231a2cda02ca95256c9740",
+          "author": "gpt-6.1-terra / 01a1ea8a-f3ff-7f63-acc5-ac6edce2512f",
+          "reviewer": "gpt-6.1-terra / 01a1ea8d-361f-7a11-a4c6-fc44cf3049de",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28093,
+            28094,
+            28095,
+            28096,
+            28097,
+            28098,
+            28099,
+            28100,
+            28101,
+            28102,
+            28103,
+            28104,
+            28105,
+            28106,
+            28107,
+            28108,
+            28109,
+            28110,
+            28111,
+            28112,
+            28113,
+            28114,
+            28115,
+            28116,
+            28117
+          ],
+          "issues": [
+            {
+              "number": 28095,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28096,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28097,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28098,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28099,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28100,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28101,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28102,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            }
+          ]
+        },
+        {
+          "task_sha256": "687e469204ad9b9fe5f9dd960804fff5606f08e1e0daa591a4481f11f72f592b",
+          "output_sha256": "f75f6798fec53d44306c8a63b7319e919b0bc349cee1af3032bc10d6c6312df3",
+          "author": "gpt-6.1-terra / 01a1ea8a-f3ff-7f63-acc5-ac6edce2512f",
+          "reviewer": "gpt-6.1-terra / 01a1ea8d-361f-7a11-a4c6-fc44cf3049de",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28093,
+            28094,
+            28095,
+            28096,
+            28097,
+            28098,
+            28099,
+            28100,
+            28101,
+            28102,
+            28103,
+            28104,
+            28105,
+            28106,
+            28107,
+            28108,
+            28109,
+            28110,
+            28111,
+            28112,
+            28113,
+            28114,
+            28115,
+            28116,
+            28117
+          ],
+          "issues": [
+            {
+              "number": 28095,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28096,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28097,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28098,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28099,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28100,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28101,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28102,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28114,
+              "reason": "The existing localized question says town/city centre (town centre / 市中心), whereas centro abitato means the built-up area. This narrows the source and conflicts with the explanation and DPR 495/1992 art. 135(26), which describes avoiding the built-up area or part of it. Correct the localized question through the translation-correction workflow and regenerate the bound task."
+            }
+          ]
+        },
+        {
+          "task_sha256": "37bfec54143d21ea17e43c035216115a3c3a6d947c6e8f12876f94128f0814a1",
+          "output_sha256": "bcbb1b42f6fd14f899c6a6e7563632594a0eb782c3c82b0475f30ede2706d022",
+          "author": "gpt-6.1-terra / 01a1ea8a-f3ff-7f63-acc5-ac6edce2512f",
+          "reviewer": "gpt-6.1-terra / 01a1ea8d-361f-7a11-a4c6-fc44cf3049de",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28093,
+            28094,
+            28095,
+            28096,
+            28097,
+            28098,
+            28099,
+            28100,
+            28101,
+            28102,
+            28103,
+            28104,
+            28105,
+            28106,
+            28107,
+            28108,
+            28109,
+            28110,
+            28111,
+            28112,
+            28113,
+            28114,
+            28115,
+            28116,
+            28117
+          ],
+          "issues": [
+            {
+              "number": 28093,
+              "reason": "The existing Chinese question renders autotreni as 铰接列车 (articulated train), while the explanation uses 全挂列车 and distinguishes it from 铰接式货车 (autoarticolati). Correct the vehicle category in the localized question through the translation-correction workflow and regenerate the bound task."
+            },
+            {
+              "number": 28095,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28096,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28097,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28098,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28099,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28100,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28101,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28102,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28114,
+              "reason": "The existing localized question says town/city centre (town centre / 市中心), whereas centro abitato means the built-up area. This narrows the source and conflicts with the explanation and DPR 495/1992 art. 135(26), which describes avoiding the built-up area or part of it. Correct the localized question through the translation-correction workflow and regenerate the bound task."
+            }
+          ]
+        },
+        {
+          "task_sha256": "c81a0da0d624bc27880f128335f625eec444ba12249a5fa57975082488d6fa89",
+          "output_sha256": "8647976958bc586d22a8cb35dd742e0bc8688b85f8c12f7f79cf16d6a577be0a",
+          "author": "gpt-6.1-terra / 01a1ea8a-f3ff-7f63-acc5-ac6edce2512f",
+          "reviewer": "gpt-6.1-terra / 01a1ea8d-361f-7a11-a4c6-fc44cf3049de",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28093,
+            28094,
+            28095,
+            28096,
+            28097,
+            28098,
+            28099,
+            28100,
+            28101,
+            28102,
+            28103,
+            28104,
+            28105,
+            28106,
+            28107,
+            28108,
+            28109,
+            28110,
+            28111,
+            28112,
+            28113,
+            28114,
+            28115,
+            28116,
+            28117
+          ],
+          "issues": [
+            {
+              "number": 28095,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28096,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28097,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28098,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28099,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28100,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28101,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            },
+            {
+              "number": 28102,
+              "reason": "The cited Torino Chamber of Commerce manual locates sign 150 on printed page 167, not page 97; 97 is the adjacent sign number. Correct the exact evidence reference for independent verification: https://www.to.camcom.it/sites/default/files/imprese-artigiane/manualetaxi.pdf"
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

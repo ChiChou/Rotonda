@@ -1,0 +1,971 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 30668,
+          "quesito_id": 6270,
+          "text_it": "La barra stabilizzatrice frena il coricamento dell'autoveicolo dovuto alla forza centrifuga in curva o a un dislivello stradale trasversale",
+          "answer": 1,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "75127c295b1e9c9d039bc9c55b2a5f68ec232d1f99a94e05ee082d1737fd7641",
+        "localized_text": "The anti-roll bar limits body lean caused by centrifugal force on bends or transverse road level differences."
+      },
+      {
+        "source": {
+          "number": 30669,
+          "quesito_id": 6270,
+          "text_it": "Le sospensioni degli autoveicoli servono ad attutire il rumore prodotto dalla combustione del carburante",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c735b677ee997a45828856beccbd1aa28209a5490ded85a2d4e904c9c3bf42ec",
+        "localized_text": "Vehicle suspension muffles noise produced by fuel combustion."
+      },
+      {
+        "source": {
+          "number": 30670,
+          "quesito_id": 6270,
+          "text_it": "Le sospensioni ad acqua devono essere integrate con liquido antigelo durante la stagione fredda",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2d46ca5995c02f292cb921f959298bc194a226a7b844e8260a3c065df2afeb11",
+        "localized_text": "Water suspension must be topped up with antifreeze in cold weather."
+      },
+      {
+        "source": {
+          "number": 30671,
+          "quesito_id": 6270,
+          "text_it": "Sui veicoli pesanti dotati di doppio assale posteriore, l’asse anteriore non è dotato di sospensioni",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d6535d130952946469c6c674294d7cc346bae107b8479c52a4e86cb5b4871601",
+        "localized_text": "On heavy vehicles with two rear axles, the front axle has no suspension."
+      },
+      {
+        "source": {
+          "number": 30672,
+          "quesito_id": 6270,
+          "text_it": "Le sospensioni pneumatiche non possono essere comandate manualmente",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "324de611fea1b1c8686c6c19ea647cae7a7859bdd9c64283bfab83bf42b2bf91",
+        "localized_text": "Air suspension cannot be controlled manually."
+      },
+      {
+        "source": {
+          "number": 30673,
+          "quesito_id": 6270,
+          "text_it": "Le sospensioni pneumatiche non possono essere utilizzate su veicoli di massa complessiva a pieno carico superiore a 3,5 tonnellate",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0d2df189152bb4c79e15052ca4848fd83a058b24d991eb784d4a0410958730e3",
+        "localized_text": "Air suspension cannot be used on vehicles with a fully laden total mass over 3.5 tonnes."
+      },
+      {
+        "source": {
+          "number": 30674,
+          "quesito_id": 6270,
+          "text_it": "Le sospensioni pneumatiche non possono essere utilizzate su veicoli atti al traino",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "83db1dfd7025b23b9e318ffc6e0c97beb7cbbfc25c59f804ed9fa21bff6c9f15",
+        "localized_text": "Air suspension cannot be used on vehicles capable of towing."
+      },
+      {
+        "source": {
+          "number": 30675,
+          "quesito_id": 6270,
+          "text_it": "Se si rompe una sospensione a balestra, per circolare in sicurezza è sufficiente gonfiare gli pneumatici del relativo asse di 0,5 bar oltre il valore normale",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "24d940cef980d69e00206a29679ad15de972c293113bf01f2e5df212fb7953cd",
+        "localized_text": "If a leaf-spring suspension breaks, inflating the tyres on that axle 0.5 bar above normal is sufficient for safe travel."
+      },
+      {
+        "source": {
+          "number": 30676,
+          "quesito_id": 6270,
+          "text_it": "La sospensione a balestra è autolubrificante e non necessita di manutenzione",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "013107506233e5efe584a898afa52970fdd5d57cefe7e186f621d8885db08261",
+        "localized_text": "Leaf-spring suspension is self-lubricating and requires no maintenance."
+      },
+      {
+        "source": {
+          "number": 30677,
+          "quesito_id": 6271,
+          "text_it": "L’ammortizzatore ha la funzione di smorzare le oscillazioni delle molle delle sospensioni",
+          "answer": 1,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "99c31b836ebd490a4adbffaa06aacb45ddeaac9d533f1a7ed259e52c2274a604",
+        "localized_text": "A shock absorber damps oscillations of suspension springs."
+      },
+      {
+        "source": {
+          "number": 30678,
+          "quesito_id": 6271,
+          "text_it": "In genere gli ammortizzatori sono di tipo idraulico o a gas",
+          "answer": 1,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ec2f3e14f9cf4429cb6abaf184df69b93cd018c90e031b2661ec3cfc0f95edd9",
+        "localized_text": "Shock absorbers are generally hydraulic or gas type."
+      },
+      {
+        "source": {
+          "number": 30679,
+          "quesito_id": 6271,
+          "text_it": "Gli ammortizzatori idraulici sono in genere del tipo a doppio effetto",
+          "answer": 1,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "763bd6eac18c15240812026592c5895554d3519959d4b84b5caac2cddd2df76d",
+        "localized_text": "Hydraulic shock absorbers are generally double-acting."
+      },
+      {
+        "source": {
+          "number": 30680,
+          "quesito_id": 6271,
+          "text_it": "Gli ammortizzatori idraulici utilizzano uno speciale liquido resistente alle alte temperature",
+          "answer": 1,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7ad6c4610d5eb13a852f8a0f52ee2e0d6905d08d5e7ca690a9e52e6fa2d31edb",
+        "localized_text": "Hydraulic shock absorbers use a special high-temperature-resistant fluid."
+      },
+      {
+        "source": {
+          "number": 30681,
+          "quesito_id": 6271,
+          "text_it": "Gli ammortizzatori sono collegati da una parte al telaio e dall’altra all’asse delle ruote",
+          "answer": 1,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "50d3c5e0217fa652e135f2e445b791eb46754cb7c17839269b80a33922b94b35",
+        "localized_text": "Shock absorbers are connected to the chassis at one end and the wheel axle at the other."
+      },
+      {
+        "source": {
+          "number": 30682,
+          "quesito_id": 6271,
+          "text_it": "Gli ammortizzatori non sono utilizzati su veicoli di massa complessiva a pieno carico superiore a 7 tonnellate",
+          "answer": 0,
+          "page": 144,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2c33ba63de6ea8d52bf8958d07300382178ba2b530a89bf3ca1d541537a51a9f",
+        "localized_text": "Shock absorbers are not used on vehicles with a fully laden total mass over 7 tonnes."
+      },
+      {
+        "source": {
+          "number": 30683,
+          "quesito_id": 6271,
+          "text_it": "Il liquido degli ammortizzatori idraulici deve essere rabboccato dall’autista ogni tremila chilometri circa",
+          "answer": 0,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9d164f597d4f53b3b86c9fedf2c047af60360e9b37df2590c8db412deb9ed0d7",
+        "localized_text": "The driver must top up hydraulic shock absorber fluid approximately every three thousand kilometres."
+      },
+      {
+        "source": {
+          "number": 30684,
+          "quesito_id": 6272,
+          "text_it": "L’inefficienza degli ammortizzatori rende la guida di un autoveicolo poco sicura",
+          "answer": 1,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8e5ee76228cd293d598642cb5843f9d3c712f56c50a3718127d7cc3c224a5349",
+        "localized_text": "Ineffective shock absorbers make driving a motor vehicle unsafe."
+      },
+      {
+        "source": {
+          "number": 30685,
+          "quesito_id": 6272,
+          "text_it": "L’inefficienza degli ammortizzatori allunga la distanza di frenatura",
+          "answer": 1,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f0c915d3b2933f0c546aa4a7340c2e26a265fad1f97fa93ae0ab619a47238298",
+        "localized_text": "Ineffective shock absorbers increase braking distance."
+      },
+      {
+        "source": {
+          "number": 30686,
+          "quesito_id": 6272,
+          "text_it": "L’inefficienza degli ammortizzatori aumenta il pericolo di sbandamento in curva",
+          "answer": 1,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cb16e9a1b81f2f61957abbfc688829a4ccbd881915294df2eeb2cfd7a5f43ac7",
+        "localized_text": "Ineffective shock absorbers increase the risk of skidding on bends."
+      },
+      {
+        "source": {
+          "number": 30687,
+          "quesito_id": 6272,
+          "text_it": "L’inefficienza degli ammortizzatori aumenta il pericolo di aquaplaning",
+          "answer": 1,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d47e6ad24e9dfbdbe5b23f1bb10cf74e2e7fa97b03a2cf6321510067b11bc53c",
+        "localized_text": "Ineffective shock absorbers increase the risk of aquaplaning."
+      },
+      {
+        "source": {
+          "number": 30688,
+          "quesito_id": 6272,
+          "text_it": "L’inefficienza degli ammortizzatori aumenta l’affaticamento del conducente alla guida",
+          "answer": 1,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c0e5f212b287fe5f4f22f8e8a48699bfcda5e231a126ce4e983dc500a07b7f42",
+        "localized_text": "Ineffective shock absorbers increase driver fatigue."
+      },
+      {
+        "source": {
+          "number": 30689,
+          "quesito_id": 6272,
+          "text_it": "L’inefficienza degli ammortizzatori peggiora la visibilità notturna a causa dell’eccessiva oscillazione del fascio luminoso dei proiettori",
+          "answer": 1,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4827c63adced9e69673329b18c7aac9e25110c35badeb708ff1f717441ac1bc1",
+        "localized_text": "Ineffective shock absorbers worsen night visibility because headlamp beams oscillate excessively."
+      },
+      {
+        "source": {
+          "number": 30690,
+          "quesito_id": 6272,
+          "text_it": "L’inefficienza degli ammortizzatori aumenta il pericolo di abbagliamento dei conducenti provenienti dalla direzione opposta a causa dell’oscillazione del fascio luminoso dei proiettori",
+          "answer": 1,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "231cc0ef352226e62368d96e66b189a38be3c7346ef9ef51560a6c30579866a2",
+        "localized_text": "Ineffective shock absorbers increase the risk of dazzling oncoming drivers because headlamp beams oscillate."
+      },
+      {
+        "source": {
+          "number": 30691,
+          "quesito_id": 6272,
+          "text_it": "L’efficienza degli ammortizzatori migliora la sicurezza del veicolo durante la marcia",
+          "answer": 1,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3f1a418ed585f61eff65785ef62c22c74dfeae018c6a2f92a7b29308983bd780",
+        "localized_text": "Effective shock absorbers improve vehicle safety while travelling."
+      },
+      {
+        "source": {
+          "number": 30692,
+          "quesito_id": 6272,
+          "text_it": "L’inefficienza degli ammortizzatori può essere compensata dall’irrigidimento delle sospensioni",
+          "answer": 0,
+          "page": 145,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ad2071817956a593a56ca7a2bef5f720de88d98501178b0f261e79f9a7975849",
+        "localized_text": "Ineffective shock absorbers can be compensated for by stiffening the suspension."
+      }
+    ],
+    "task_sha256": "7c1b87d947f125504446e0addb4da9c2b2e4b8e7a49db4c4ebe70306e231f4eb"
+  },
+  "rows": [
+    {
+      "number": 30668,
+      "text": "The bar connects the two sides of the suspension and resists differences in their movement, limiting body roll in bends and over transverse level differences.",
+      "evidence": [
+        "ZF, Electromechanical Roll Control, funzione: barre stabilizzatrici e rollio in curva e su irregolarità, https://www.zf.com/products/en/cars/products_64236.html?pageLink=gallery_divider658792",
+        "MOOG, Vehicle check: anti-roll bar connects opposite wheels, https://www.moogparts.com/en-eu/support/the-problem-solver/technical-support/educational-articles/front-end-assembly-check.html"
+      ]
+    },
+    {
+      "number": 30669,
+      "text": "Suspension cushions impacts from uneven roads; combustion noise is dealt with by the exhaust and its silencer.",
+      "evidence": [
+        "ZF Aftermarket, Shock Absorbers & Dampers, sezioni Truck Dampers e Bus Dampers: le molle assorbono le irregolarità; gli ammortizzatori smorzano le oscillazioni e favoriscono il contatto con la strada, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/",
+        "Walker, Exhaust system: muffler reduces engine noise, https://www.walkerexhaust.com/support/exhaust-101/what-does-the-exhaust-system-do.html"
+      ]
+    },
+    {
+      "number": 30670,
+      "text": "Do not add antifreeze to the suspension just because cold weather arrives. For example, the water-based Hydrolastic system uses a specific fluid already protected against freezing; maintenance follows the system specification.",
+      "evidence": [
+        "Penrite, Hydrolastic Suspension Fluid, bollettino tecnico luglio 2015: il fluido Hydrolastic contiene già acqua e componenti antigelo; indica una miscela sostitutiva specifica, https://penriteoil.com.au/assets/tech_pdfs/Hydrolastic%20Suspension%20Fluid%20-%20July%202015.pdf",
+        "Hydrolastic Suspension, manuale di manutenzione, Checking/Adjusting the System Pressure e Checking the Vehicle Ride Height: controllo e regolazione della pressione secondo assetto e specifiche, con apposita attrezzatura; non prescrive aggiunta stagionale di antigelo, https://www.reizendemoke.be/techniek/manual/rearsusp/8.htm"
+      ]
+    },
+    {
+      "number": 30671,
+      "text": "Even with two rear axles a vehicle can have front suspension: the two rear axles do not remove the need to suspend the front axle.",
+      "evidence": [
+        "Scania Long-haulage trucks, Air suspension e configurazioni 6x4: sospensione anteriore e posteriori, https://www.scania.com/content/dam/scanianoe/market/au/products-and-services/trucks/specification-documents/SCA0447-Longhaul-Brochure_8PP_WEB.pdf"
+      ]
+    },
+    {
+      "number": 30672,
+      "text": "Some air suspension systems have a manual control for raising or lowering the chassis as well as automatic adjustment.",
+      "evidence": [
+        "Scania, Chassis air suspension, The operation unit, p. 21: comando manuale di altezza, https://www.scania.com/content/dam/scanianoe/market/master/pdf/rescue-information/w_wsm000108en-GB05.pdf"
+      ]
+    },
+    {
+      "number": 30673,
+      "text": "Air suspension is also used on heavy vehicles: exceeding 3.5 tonnes does not prohibit its use.",
+      "evidence": [
+        "Scania Long-haulage trucks, Air suspension e configurazioni 6x4: sospensione anteriore e posteriori, https://www.scania.com/content/dam/scanianoe/market/au/products-and-services/trucks/specification-documents/SCA0447-Longhaul-Brochure_8PP_WEB.pdf",
+        "Scania R 540 6x4 specification: air suspension and unladen weight 9,789 kg, https://www.scania.com/content/dam/scanianoe/market/au/products-and-services/trucks/specification-documents/SpecSheet_R540%286x4%29_SCA0762_WEB.pdf"
+      ]
+    },
+    {
+      "number": 30674,
+      "text": "A vehicle approved for towing can have air suspension: for example, road tractors exist with rear air suspension.",
+      "evidence": [
+        "Scania Long-haulage trucks, Air suspension e configurazioni 6x4: sospensione anteriore e posteriori, https://www.scania.com/content/dam/scanianoe/market/au/products-and-services/trucks/specification-documents/SCA0447-Longhaul-Brochure_8PP_WEB.pdf"
+      ]
+    },
+    {
+      "number": 30675,
+      "text": "Increasing tyre pressure does not repair the leaf spring or restore the suspension. The break must be repaired before driving.",
+      "evidence": [
+        "DVSA, Heavy Goods Vehicle Inspection Manual, sezione 48: balestra fratturata e attacchi difettosi sono difetti, https://assets.publishing.service.gov.uk/media/69c501a923fcbcd838a6f6f9/hgv-inspection-manual.pdf"
+      ]
+    },
+    {
+      "number": 30676,
+      "text": "A leaf spring and its mountings need inspection and maintenance according to the manufacturer’s instructions: wear or breaks do not fix themselves.",
+      "evidence": [
+        "DVSA, Heavy Goods Vehicle Inspection Manual, sezione 48: balestra fratturata e attacchi difettosi sono difetti, https://assets.publishing.service.gov.uk/media/69c501a923fcbcd838a6f6f9/hgv-inspection-manual.pdf"
+      ]
+    },
+    {
+      "number": 30677,
+      "text": "The spring absorbs impacts but then continues to oscillate; the shock absorber damps these movements and helps the wheels stay in contact with the road.",
+      "evidence": [
+        "ZF Aftermarket, Shock Absorbers & Dampers, sezioni Truck Dampers e Bus Dampers: le molle assorbono le irregolarità; gli ammortizzatori smorzano le oscillazioni e favoriscono il contatto con la strada, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/"
+      ]
+    },
+    {
+      "number": 30678,
+      "text": "Hydraulic and gas-charged shock absorbers are common. Gas-charged units also use oil to provide damping; the gas helps prevent aeration.",
+      "evidence": [
+        "ZF, Shock Absorbers and Dampers, Compression stage e Rebound stage: resistenza dell’olio nelle due fasi, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/passenger-cars/products/shock-absorbers-dampers/",
+        "Monroe, Low Gas vs Non-Gas Shocks: pressione del gas e aerazione, https://aftermarket.monroe.com/technical-resources/servicegrams/understanding-no-or-slow-rod-extension-shocks-struts.html"
+      ]
+    },
+    {
+      "number": 30679,
+      "text": "Double-acting means that the shock absorber resists movement both during compression and rebound, controlling both stages.",
+      "evidence": [
+        "ZF, Shock Absorbers and Dampers, Compression stage e Rebound stage: resistenza dell’olio nelle due fasi, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/passenger-cars/products/shock-absorbers-dampers/"
+      ]
+    },
+    {
+      "number": 30680,
+      "text": "Shock absorber oil is formulated to retain suitable properties despite the heat generated in operation, keeping damping more consistent.",
+      "evidence": [
+        "Sinopec, Automotive Lubricants, Shock Absorber Oils p. 63: olio specifico e stabilità alle temperature, https://sinopecenergy.com/wp-content/uploads/2016/04/Technical_Specification_Automotive_Lubricants.pdf"
+      ]
+    },
+    {
+      "number": 30681,
+      "text": "The shock absorber works between the sprung part connected to the chassis and the part following the wheel, connected to the axle or suspension. It damps their relative movement.",
+      "evidence": [
+        "DVSA, MOT inspection manual 5.3.2: attacchi a telaio o asse e smorzamento insufficiente, https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/5-axles-wheels-tyres-and-suspension",
+        "ZF, Shock Absorbers and Dampers, Compression stage e Rebound stage: resistenza dell’olio nelle due fasi, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/passenger-cars/products/shock-absorbers-dampers/"
+      ]
+    },
+    {
+      "number": 30682,
+      "text": "Shock absorbers are also used on heavy vehicles: they do not cease to be useful above 7 tonnes.",
+      "evidence": [
+        "ZF Aftermarket, Shock Absorbers & Dampers, sezioni Truck Dampers e Bus Dampers: le molle assorbono le irregolarità; gli ammortizzatori smorzano le oscillazioni e favoriscono il contatto con la strada, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/",
+        "DVSA, Heavy Goods Vehicle Inspection Manual, sezione 48: balestra fratturata e attacchi difettosi sono difetti, https://assets.publishing.service.gov.uk/media/69c501a923fcbcd838a6f6f9/hgv-inspection-manual.pdf",
+        "Scania G 460 6x4 specification: 41,000 kg gross vehicle weight and front shock absorbers, https://www.scania.com/content/dam/scanianoe/market/my/products-and-services/trucks/truck_specifications_sheets/SCN0046_G460_EHZ.pdf"
+      ]
+    },
+    {
+      "number": 30683,
+      "text": "Seals retain the oil in the shock absorber; the driver does not routinely top it up every 3,000 km. A leak requires inspection.",
+      "evidence": [
+        "Monroe, Understanding commercial vehicle shocks: tenuta trattiene olio, funzionamento e valvole, https://www.monroe.com/en-eu/support/technical-tips/cv/basics-of-commercial-vehicle-shocks.html",
+        "DVSA, MOT inspection manual 5.3.2: attacchi a telaio o asse e smorzamento insufficiente, https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/5-axles-wheels-tyres-and-suspension"
+      ]
+    },
+    {
+      "number": 30684,
+      "text": "With insufficient damping, the wheels follow the road less effectively and vehicle control deteriorates, particularly when manoeuvring and braking.",
+      "evidence": [
+        "ZF Aftermarket, Shock Absorbers & Dampers, sezioni Truck Dampers e Bus Dampers: le molle assorbono le irregolarità; gli ammortizzatori smorzano le oscillazioni e favoriscono il contatto con la strada, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/",
+        "Monroe, Consequences of driving with worn shocks: frenata, oscillazioni e controllo in curva, https://www.monroe.com/technical-resources/shocks-101/consequences-driving-worn-shocks-struts.html"
+      ]
+    },
+    {
+      "number": 30685,
+      "text": "Worn shock absorbers can make tyre contact with the road less consistent, reducing braking effectiveness and increasing the distance needed to stop.",
+      "evidence": [
+        "Monroe, Safety indicators: frenata, aquaplaning e fatica con ammortizzatori usurati, https://www.monroe.com/en-eu/support/technical-tips/lv/shock-absorbers/safety-indicators.html"
+      ]
+    },
+    {
+      "number": 30686,
+      "text": "If the shock absorbers do not control suspension movement well, the vehicle can sway more in a bend and lose grip more easily.",
+      "evidence": [
+        "Monroe, Consequences of driving with worn shocks: frenata, oscillazioni e controllo in curva, https://www.monroe.com/technical-resources/shocks-101/consequences-driving-worn-shocks-struts.html",
+        "Monroe, Signs of bad shocks: oscillazioni dopo un dosso e rollio in curva, https://www.monroe.com/technical-resources/shocks-101/symptoms-worn-shock-struts.html"
+      ]
+    },
+    {
+      "number": 30687,
+      "text": "On a wet road worn shock absorbers maintain less effective tyre contact with the surface, increasing the risk of aquaplaning.",
+      "evidence": [
+        "Monroe, Safety indicators: frenata, aquaplaning e fatica con ammortizzatori usurati, https://www.monroe.com/en-eu/support/technical-tips/lv/shock-absorbers/safety-indicators.html"
+      ]
+    },
+    {
+      "number": 30688,
+      "text": "The bouncing and less precise handling require more corrections and attention, increasing driver fatigue.",
+      "evidence": [
+        "Monroe, Safety indicators: frenata, aquaplaning e fatica con ammortizzatori usurati, https://www.monroe.com/en-eu/support/technical-tips/lv/shock-absorbers/safety-indicators.html"
+      ]
+    },
+    {
+      "number": 30689,
+      "text": "With ineffective shock absorbers the vehicle bounces for longer: the headlights move too and illuminate the road less steadily, reducing visibility.",
+      "evidence": [
+        "Egaf, Manutenzione veicoli, § 1003.2.5, p. 5 (2016): ammortizzatori inefficienti non smorzano le oscillazioni e l’eccessiva oscillazione del fascio luminoso peggiora la visibilità notturna, https://www.trevisocarmobility.it/portaleconftvimg/userfiles/file/MANUTENZIONE%20VEICOLI.pdf",
+        "SIA, Sécurité, Role of the shock absorber: le oscillazioni della carrozzeria impediscono al fascio di rimanere orizzontale e riducono la visibilità notturna, https://www.sia-am.com/en/securite/"
+      ]
+    },
+    {
+      "number": 30690,
+      "text": "Vehicle oscillation changes the direction of the headlights; when the beam rises it can dazzle oncoming drivers.",
+      "evidence": [
+        "Monroe, Signs of bad shocks: oscillazioni dopo un dosso e rollio in curva, https://www.monroe.com/technical-resources/shocks-101/symptoms-worn-shock-struts.html",
+        "HELLA, Headlamp adjustment: fascio troppo alto abbaglia, https://www.hella.com/techworld/en/technical/automotive-lighting/headlight-adjustment/"
+      ]
+    },
+    {
+      "number": 30691,
+      "text": "Effective shock absorbers limit oscillations and help the wheels maintain contact with the road, improving stability and braking.",
+      "evidence": [
+        "ZF Aftermarket, Shock Absorbers & Dampers, sezioni Truck Dampers e Bus Dampers: le molle assorbono le irregolarità; gli ammortizzatori smorzano le oscillazioni e favoriscono il contatto con la strada, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/"
+      ]
+    },
+    {
+      "number": 30692,
+      "text": "Stiffening the springs does not replace damping: an ineffective shock absorber must be inspected and repaired or replaced.",
+      "evidence": [
+        "ZF Aftermarket, Shock Absorbers & Dampers, sezioni Truck Dampers e Bus Dampers: le molle assorbono le irregolarità; gli ammortizzatori smorzano le oscillazioni e favoriscono il contatto con la strada, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/",
+        "DVSA, MOT inspection manual 5.3.2: attacchi a telaio o asse e smorzamento insufficiente, https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/5-axles-wheels-tyres-and-suspension"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "7c1b87d947f125504446e0addb4da9c2b2e4b8e7a49db4c4ebe70306e231f4eb",
+    "output_sha256": "a91ab933e0a6b732cfaf05b23e15264a1210c210d120a414892365ece36ffd47",
+    "author": "gpt-6.1-terra / 01a1eb63-dded-7d43-ae84-43f9e94070e8",
+    "reviewer": "gpt-6.1-terra / 01a1eb64-c951-7593-be96-468669a10aff",
+    "status": "accepted",
+    "checked_numbers": [
+      30668,
+      30669,
+      30670,
+      30671,
+      30672,
+      30673,
+      30674,
+      30675,
+      30676,
+      30677,
+      30678,
+      30679,
+      30680,
+      30681,
+      30682,
+      30683,
+      30684,
+      30685,
+      30686,
+      30687,
+      30688,
+      30689,
+      30690,
+      30691,
+      30692
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "cbf41255d8d866a35fe257db1f42187e0312349e1b8355b273aa7651f9a6765b",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "5efbe3756bc6978d840e1f74ee787e5f31ca214b386a07bb81bb48438c47eac9",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1eb5d-cc85-70b0-aee6-990879304499",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ad1f2e067662c62d43fd059ae4ea1bfaa31d854be29e45553bdc6caa1c5b9034",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb61-a8bf-7aa2-b015-421a5fff0f9f",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "9d0134328e4dd84e8983087d77585fac6bbeed92a47382208061be05acb6de6b",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb63-dded-7d43-ae84-43f9e94070e8",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "cbf41255d8d866a35fe257db1f42187e0312349e1b8355b273aa7651f9a6765b",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "b3122c4b528edb7492ebe648b9ef0ebe2cd536375123fb37ebae6ab566f9c240",
+          "output_sha256": "3eef34fc6ab9753a75c801cfab876bfd44e0198283f6ab83f25f09d8061ad535",
+          "author": "gpt-6.1-terra / 01a1eb5d-cc85-70b0-aee6-990879304499",
+          "reviewer": "gpt-6.1-terra / 01a1eb5f-f93a-7622-9245-7a1c772c2947",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30668,
+            30669,
+            30670,
+            30671,
+            30672,
+            30673,
+            30674,
+            30675,
+            30676,
+            30677,
+            30678,
+            30679,
+            30680,
+            30681,
+            30682,
+            30683,
+            30684,
+            30685,
+            30686,
+            30687,
+            30688,
+            30689,
+            30690,
+            30691,
+            30692
+          ],
+          "issues": [
+            "30670: The categorical statement that antifreeze is not used to top up suspension is too broad. Penrite's Hydrolastic Suspension Fluid technical bulletin describes water/alcohol-filled suspension and a recommended water/antifreeze substitute (https://penriteoil.com.au/assets/tech_pdfs/Hydrolastic%20Suspension%20Fluid%20-%20July%202015.pdf). The Volvo cooling-system citation does not establish the universal exclusion. Preserve the printed FALSO, address the alleged seasonal requirement, and substantiate a suitably scoped correction.",
+            "30669, 30670, 30677, 30682, 30684, 30691, 30692: The cited ZF Axle Dampers page could not be fetched (cache miss), so its cited content could not be independently verified. Supply an accessible exact reference; related technical claims are supported by ZF's commercial-vehicle dampers page https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/ but it does not validate the unavailable citation itself."
+          ]
+        },
+        {
+          "task_sha256": "7c1b87d947f125504446e0addb4da9c2b2e4b8e7a49db4c4ebe70306e231f4eb",
+          "output_sha256": "8dd8eb16ddd5c0f80a515fab7ac50a1c759970181fc7228b0bcdc7b118d63f96",
+          "author": "gpt-6.1-terra / 01a1eb5d-cc85-70b0-aee6-990879304499",
+          "reviewer": "gpt-6.1-terra / 01a1eb5f-f93a-7622-9245-7a1c772c2947",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30668,
+            30669,
+            30670,
+            30671,
+            30672,
+            30673,
+            30674,
+            30675,
+            30676,
+            30677,
+            30678,
+            30679,
+            30680,
+            30681,
+            30682,
+            30683,
+            30684,
+            30685,
+            30686,
+            30687,
+            30688,
+            30689,
+            30690,
+            30691,
+            30692
+          ],
+          "issues": [
+            "30670: The categorical statement that antifreeze is not used to top up suspension is too broad. Penrite's Hydrolastic Suspension Fluid technical bulletin describes water/alcohol-filled suspension and a recommended water/antifreeze substitute (https://penriteoil.com.au/assets/tech_pdfs/Hydrolastic%20Suspension%20Fluid%20-%20July%202015.pdf). The Volvo cooling-system citation does not establish the universal exclusion. Preserve the printed FALSO, address the alleged seasonal requirement, and substantiate a suitably scoped correction.",
+            "30669, 30670, 30677, 30682, 30684, 30691, 30692: The cited ZF Axle Dampers page could not be fetched (cache miss), so its cited content could not be independently verified. Supply an accessible exact reference; related technical claims are supported by ZF's commercial-vehicle dampers page https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/ but it does not validate the unavailable citation itself."
+          ]
+        },
+        {
+          "task_sha256": "ddfcc7ede99622195fdd84d8f9b12cea19373e004245d93b36f879a132b09984",
+          "output_sha256": "e4bcc62463efaab470505bdf4d5405946aa5588955201c4c30247bc16355e0cd",
+          "author": "gpt-6.1-terra / 01a1eb5d-cc85-70b0-aee6-990879304499",
+          "reviewer": "gpt-6.1-terra / 01a1eb5f-f93a-7622-9245-7a1c772c2947",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30668,
+            30669,
+            30670,
+            30671,
+            30672,
+            30673,
+            30674,
+            30675,
+            30676,
+            30677,
+            30678,
+            30679,
+            30680,
+            30681,
+            30682,
+            30683,
+            30684,
+            30685,
+            30686,
+            30687,
+            30688,
+            30689,
+            30690,
+            30691,
+            30692
+          ],
+          "issues": [
+            "30670: The categorical statement that antifreeze is not used to top up suspension is too broad. Penrite's Hydrolastic Suspension Fluid technical bulletin describes water/alcohol-filled suspension and a recommended water/antifreeze substitute (https://penriteoil.com.au/assets/tech_pdfs/Hydrolastic%20Suspension%20Fluid%20-%20July%202015.pdf). The Volvo cooling-system citation does not establish the universal exclusion. Preserve the printed FALSO, address the alleged seasonal requirement, and substantiate a suitably scoped correction.",
+            "30669, 30670, 30677, 30682, 30684, 30691, 30692: The cited ZF Axle Dampers page could not be fetched (cache miss), so its cited content could not be independently verified. Supply an accessible exact reference; related technical claims are supported by ZF's commercial-vehicle dampers page https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/ but it does not validate the unavailable citation itself."
+          ]
+        },
+        {
+          "task_sha256": "bafb70386c5bf6a8669d73518f262ffcb08c5c637289cc101c700629afa2f2ab",
+          "output_sha256": "46782177bff3d63df1d546acda2dfc210f15baa3211e0243187cb3ddd90331d1",
+          "author": "gpt-6.1-terra / 01a1eb5d-cc85-70b0-aee6-990879304499",
+          "reviewer": "gpt-6.1-terra / 01a1eb5f-f93a-7622-9245-7a1c772c2947",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30668,
+            30669,
+            30670,
+            30671,
+            30672,
+            30673,
+            30674,
+            30675,
+            30676,
+            30677,
+            30678,
+            30679,
+            30680,
+            30681,
+            30682,
+            30683,
+            30684,
+            30685,
+            30686,
+            30687,
+            30688,
+            30689,
+            30690,
+            30691,
+            30692
+          ],
+          "issues": [
+            "30670: The categorical statement that antifreeze is not used to top up suspension is too broad. Penrite's Hydrolastic Suspension Fluid technical bulletin describes water/alcohol-filled suspension and a recommended water/antifreeze substitute (https://penriteoil.com.au/assets/tech_pdfs/Hydrolastic%20Suspension%20Fluid%20-%20July%202015.pdf). The Volvo cooling-system citation does not establish the universal exclusion. Preserve the printed FALSO, address the alleged seasonal requirement, and substantiate a suitably scoped correction.",
+            "30669, 30670, 30677, 30682, 30684, 30691, 30692: The cited ZF Axle Dampers page could not be fetched (cache miss), so its cited content could not be independently verified. Supply an accessible exact reference; related technical claims are supported by ZF's commercial-vehicle dampers page https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/trucks-trailers-buses/products/shock-absorbers-dampers/ but it does not validate the unavailable citation itself."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "b3122c4b528edb7492ebe648b9ef0ebe2cd536375123fb37ebae6ab566f9c240",
+          "output_sha256": "b52a8c78107932361b1b95ba0590255a6b43ea01dd792e9f8a1817dd14e7ae43",
+          "author": "gpt-6.1-terra / 01a1eb61-a8bf-7aa2-b015-421a5fff0f9f",
+          "reviewer": "gpt-6.1-terra / 01a1eb62-a329-71f1-a1c9-8c2b52b7c31c",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30668,
+            30669,
+            30670,
+            30671,
+            30672,
+            30673,
+            30674,
+            30675,
+            30676,
+            30677,
+            30678,
+            30679,
+            30680,
+            30681,
+            30682,
+            30683,
+            30684,
+            30685,
+            30686,
+            30687,
+            30688,
+            30689,
+            30690,
+            30691,
+            30692
+          ],
+          "issues": [
+            {
+              "number": 30670,
+              "reason": "The cited Penrite bulletin describes one Hydrolastic system and a replacement mixture; it does not establish the general claim that no seasonal antifreeze top-up rule applies to all water suspensions. Provide authoritative maintenance evidence for the correction, clearly identify the relevant system and preserve the printed FALSO verdict."
+            },
+            {
+              "number": 30689,
+              "reason": "The cited Monroe pages describe bouncing and separately reduced visibility from a lowered beam; they do not establish that oscillating headlights reduce night visibility. Supply authoritative evidence for that specific causal claim."
+            }
+          ]
+        },
+        {
+          "task_sha256": "7c1b87d947f125504446e0addb4da9c2b2e4b8e7a49db4c4ebe70306e231f4eb",
+          "output_sha256": "874fc6d3288a147ebff1f209990c8bbf50e9a517ce71841f09ee6722d83a987e",
+          "author": "gpt-6.1-terra / 01a1eb61-a8bf-7aa2-b015-421a5fff0f9f",
+          "reviewer": "gpt-6.1-terra / 01a1eb62-a329-71f1-a1c9-8c2b52b7c31c",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30668,
+            30669,
+            30670,
+            30671,
+            30672,
+            30673,
+            30674,
+            30675,
+            30676,
+            30677,
+            30678,
+            30679,
+            30680,
+            30681,
+            30682,
+            30683,
+            30684,
+            30685,
+            30686,
+            30687,
+            30688,
+            30689,
+            30690,
+            30691,
+            30692
+          ],
+          "issues": [
+            {
+              "number": 30670,
+              "reason": "The cited Penrite bulletin describes one Hydrolastic system and a replacement mixture; it does not establish the general claim that no seasonal antifreeze top-up rule applies to all water suspensions. Provide authoritative maintenance evidence for the correction, clearly identify the relevant system and preserve the printed FALSO verdict."
+            },
+            {
+              "number": 30689,
+              "reason": "The cited Monroe pages describe bouncing and separately reduced visibility from a lowered beam; they do not establish that oscillating headlights reduce night visibility. Supply authoritative evidence for that specific causal claim."
+            }
+          ]
+        },
+        {
+          "task_sha256": "ddfcc7ede99622195fdd84d8f9b12cea19373e004245d93b36f879a132b09984",
+          "output_sha256": "5c95c7d6bd5b49cf4ca730cae9b8768ff13fa0a361fd3d17a7dc11cde2924eb9",
+          "author": "gpt-6.1-terra / 01a1eb61-a8bf-7aa2-b015-421a5fff0f9f",
+          "reviewer": "gpt-6.1-terra / 01a1eb62-a329-71f1-a1c9-8c2b52b7c31c",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30668,
+            30669,
+            30670,
+            30671,
+            30672,
+            30673,
+            30674,
+            30675,
+            30676,
+            30677,
+            30678,
+            30679,
+            30680,
+            30681,
+            30682,
+            30683,
+            30684,
+            30685,
+            30686,
+            30687,
+            30688,
+            30689,
+            30690,
+            30691,
+            30692
+          ],
+          "issues": [
+            {
+              "number": 30670,
+              "reason": "The cited Penrite bulletin describes one Hydrolastic system and a replacement mixture; it does not establish the general claim that no seasonal antifreeze top-up rule applies to all water suspensions. Provide authoritative maintenance evidence for the correction, clearly identify the relevant system and preserve the printed FALSO verdict. The Chinese 水力悬架 means hydraulic suspension, broader than the Italian water suspension; align the wording with the actual system."
+            },
+            {
+              "number": 30689,
+              "reason": "The cited Monroe pages describe bouncing and separately reduced visibility from a lowered beam; they do not establish that oscillating headlights reduce night visibility. Supply authoritative evidence for that specific causal claim."
+            }
+          ]
+        },
+        {
+          "task_sha256": "bafb70386c5bf6a8669d73518f262ffcb08c5c637289cc101c700629afa2f2ab",
+          "output_sha256": "23276a8a2dc8497c8357fcfe548aa5dbebcfa9c27e235de111a1880849709ac2",
+          "author": "gpt-6.1-terra / 01a1eb61-a8bf-7aa2-b015-421a5fff0f9f",
+          "reviewer": "gpt-6.1-terra / 01a1eb62-a329-71f1-a1c9-8c2b52b7c31c",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30668,
+            30669,
+            30670,
+            30671,
+            30672,
+            30673,
+            30674,
+            30675,
+            30676,
+            30677,
+            30678,
+            30679,
+            30680,
+            30681,
+            30682,
+            30683,
+            30684,
+            30685,
+            30686,
+            30687,
+            30688,
+            30689,
+            30690,
+            30691,
+            30692
+          ],
+          "issues": [
+            {
+              "number": 30670,
+              "reason": "The cited Penrite bulletin describes one Hydrolastic system and a replacement mixture; it does not establish the general claim that no seasonal antifreeze top-up rule applies to all water suspensions. Provide authoritative maintenance evidence for the correction, clearly identify the relevant system and preserve the printed FALSO verdict."
+            },
+            {
+              "number": 30689,
+              "reason": "The cited Monroe pages describe bouncing and separately reduced visibility from a lowered beam; they do not establish that oscillating headlights reduce night visibility. Supply authoritative evidence for that specific causal claim."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

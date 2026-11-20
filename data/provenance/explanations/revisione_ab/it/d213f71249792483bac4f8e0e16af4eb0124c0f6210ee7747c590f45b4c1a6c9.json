@@ -1,0 +1,38 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed30-535d-70e0-8e07-e899dede12ac"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "revisione_ab",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 24135,
+          "quesito_id": 4569,
+          "text_it": "In caso di rottura degli organi di traino di un veicolo, gli stessi possono essere riparati tramite saldatura presso officina specializzata",
+          "answer": 0,
+          "page": 109,
+          "bank": "revisione_ab",
+          "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+          "figures": []
+        },
+        "source_sha256": "a0f15ba413129e5dcf6ce36911c7dd78a0f7a370f911d1c7594dd4e7d944564b"
+      }
+    ],
+    "task_sha256": "4b544517f5e3e04d01882dffdd166f7cad6de57ee3b2c2ddac52e0f4189bccef"
+  },
+  "rows": [
+    {
+      "number": 24135,
+      "text": "FALSO. Un organo di traino rotto non va riparato mediante saldatura, neppure in un’officina specializzata: il componente danneggiato va sostituito con uno idoneo. La saldatura può alterare la struttura e compromettere la sicurezza del dispositivo.",
+      "evidence": [
+        "TS Next, istruzioni dispositivo di traino 29053, sezione Garanzia, https://www.umbrarimorchi.it/tech/DOCS/UNIFIED/DONE/29053.TextMark.pdf: vieta modifiche alla struttura e saldature sul gancio; prescrive la sostituzione dopo una collisione."
+      ]
+    }
+  ],
+  "output_sha256": "c811d560321491d8263f054d339c33cb92dc321f5ed630f19aaeed7be1f79c5c"
+}

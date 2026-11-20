@@ -1,0 +1,37 @@
+{
+  "batch": "137",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "566ce69c480ebcc7f090e3d5f99719d9cd7d0ac24c9406bd2da4cbf18e7cbd80",
+  "source_sha256": "563e66f2dd73d2cab46c37aec589550d63b819deb69b3f6ab869a2c84b32c6ed",
+  "corrections": [
+    {
+      "id": "b6863d35777d3fdf1cb92efc7d51b2b492cd45eee96bfc56cb122643368b71a6",
+      "before": "La señal mostrada puede colocarse en los vehículos de mantenimiento vial detenidos en la calzada",
+      "after": "La señal mostrada puede colocarse en los vehículos de mantenimiento vial estacionados en la calzada",
+      "reason": "El original dice sosta (estacionamiento), no fermata (parada temporal)."
+    },
+    {
+      "id": "b6ba69ff8631b14cfe3f83fab4b4260b0741cb8849c198fa53995890800d4f71",
+      "before": "La señal mostrada indica una zona de parada de uso exclusivo para taxis en servicio",
+      "after": "La señal mostrada indica una zona de estacionamiento de uso exclusivo para taxis en servicio",
+      "reason": "El original dice sosta (estacionamiento), no fermata (parada temporal)."
+    },
+    {
+      "id": "b7009beb198e5970eecbb5d7c197d1d4dea2752da23ecafd5e99f53756785300",
+      "before": "Las flechas direccionales de la figura indican que se está cerca de un carril de parada de emergencia",
+      "after": "Las flechas direccionales de la figura indican que se está cerca de un carril para detenciones de emergencia",
+      "reason": "En este contexto de emergencia, detenciones expresa el uso del carril con mayor naturalidad."
+    }
+  ],
+  "reviewed_file_sha256": "9a570a3d2c69309437cf7a990f306f0bbe58b84ec131ddc1ec5e812a2b1a09fc"
+}

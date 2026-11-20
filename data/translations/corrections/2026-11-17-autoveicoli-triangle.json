@@ -1,0 +1,95 @@
+{
+  "draft": {
+    "status": "draft_unreviewed",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "rows": [
+      {
+        "id": "64c9ea2259c1ce0019e7966ecf54d7a1000826fbe428db23f60c5cdee6ed9285",
+        "it": "Il segnale mobile triangolare di pericolo fa parte dell'equipaggiamento obbligatorio degli autoveicoli",
+        "question_numbers": [
+          28329
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "The movable triangular danger sign is part of the mandatory equipment of motor vehicles",
+            "proposed": "The movable triangular warning sign is mandatory equipment for vehicles in the Italian autoveicoli category, such as cars, buses and trucks"
+          },
+          "zh-Hans": {
+            "current": "移动式三角形危险警告标志属于机动车的必备装备",
+            "proposed": "移动式三角形危险警告标志属于意大利汽车类（autoveicoli）车辆的必备装备，例如轿车、公共汽车和卡车"
+          },
+          "es-419": {
+            "current": "La señal móvil triangular de peligro forma parte del equipo obligatorio de los vehículos automotores",
+            "proposed": "La señal móvil triangular de peligro forma parte del equipo obligatorio de los vehículos de la categoría italiana autoveicoli, como automóviles, autobuses y camiones"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/inputs/official/2026-11-14/conseguimento-superiori-it.pdf, PDF index 67, SHA-256 a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+            "support": "Question 28329 uses autoveicoli and prints VERO; original page inspected with PDFKit."
+          },
+          {
+            "reference": "https://aci.gov.it/codice-della-strada/art-54/",
+            "support": "Article 54 defines autoveicoli and lists classes including passenger cars, buses and goods vehicles; it excludes motoveicoli."
+          },
+          {
+            "reference": "https://aci.gov.it/codice-della-strada/art-162/",
+            "support": "Article 162(1) provides the triangle equipment obligation for autoveicoli, distinct from motorcycles."
+          }
+        ],
+        "reason": "Replace the broader motor-vehicle category with the Italian autoveicoli category and non-exhaustive examples, preserving the mandatory-equipment assertion and VERO.",
+        "ambiguity": "Autoveicoli has no exact everyday equivalent in these languages. The Italian label with representative examples avoids equating the class with all motor vehicles; examples are non-exhaustive."
+      }
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "draft_sha256": "41bd3678e49e4d97e30cc93ab06925e46b5027b97e22b5c56589c79bdae51a99",
+    "draft_sha256_method": "SHA256 UTF-8 canonical JSON of inner draft, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_file_sha256": "34a439c160494cae6956ec852118e3bcdd0983a8891a1eb0501d9adf55f1a06f",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "checked_pairs": [
+      [
+        "64c9ea2259c1ce0019e7966ecf54d7a1000826fbe428db23f60c5cdee6ed9285",
+        "en"
+      ],
+      [
+        "64c9ea2259c1ce0019e7966ecf54d7a1000826fbe428db23f60c5cdee6ed9285",
+        "es-419"
+      ],
+      [
+        "64c9ea2259c1ce0019e7966ecf54d7a1000826fbe428db23f60c5cdee6ed9285",
+        "zh-Hans"
+      ]
+    ],
+    "issues": [],
+    "pair_assessments": [
+      {
+        "id": "64c9ea2259c1ce0019e7966ecf54d7a1000826fbe428db23f60c5cdee6ed9285",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Identifies the Italian legal class with non-exhaustive examples and retains the mandatory triangular warning device assertion without adding a use condition or explanation."
+      },
+      {
+        "id": "64c9ea2259c1ce0019e7966ecf54d7a1000826fbe428db23f60c5cdee6ed9285",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Identifies the Italian legal class with non-exhaustive examples and retains the mandatory triangular warning device assertion without adding a use condition or explanation."
+      },
+      {
+        "id": "64c9ea2259c1ce0019e7966ecf54d7a1000826fbe428db23f60c5cdee6ed9285",
+        "language": "es-419",
+        "result": "accepted",
+        "finding": "Identifies the Italian legal class with non-exhaustive examples and retains the mandatory triangular warning device assertion without adding a use condition or explanation."
+      }
+    ],
+    "source_checks": [
+      "Independently checked original superiori PDF physical page 68 (index 67), question 28329 and printed VERO; SHA-256 a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234. No linked figure.",
+      "Recomputed Italian source hash via prepare_bank_translations.text_id; verified English and Chinese baselines in reused_ab.jsonl and Spanish baseline in es-419/075.csv.",
+      "https://aci.gov.it/codice-della-strada/art-54/ art. 54(1): autoveicoli category excludes motoveicoli and includes passenger cars, buses and goods vehicles.",
+      "https://aci.gov.it/codice-della-strada/art-162/ art. 162(1): warning-device equipment and use rules specify vehicles, with named exclusions; the provision does not literally name autoveicoli."
+    ]
+  }
+}

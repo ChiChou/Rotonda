@@ -1,0 +1,873 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29482,
+          "quesito_id": 6171,
+          "text_it": "I fusibili hanno una specifica polarità e vanno pertanto infilati nella loro sede con un verso preciso",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "78066afcc9aac2ccacb196b7afb7d3c098c3af3292e299cb6df34591c30d64e8",
+        "localized_text": "Fuses have a specific polarity and must be inserted in a precise direction."
+      },
+      {
+        "source": {
+          "number": 29483,
+          "quesito_id": 6171,
+          "text_it": "I veicoli dotati di motore Diesel non hanno fusibili perché non necessitano di impianto di accensione",
+          "answer": 0,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c72ca3147487b61744cf003918c77053b5e8aad7f0ddab3955d3cd95ed6ef7de",
+        "localized_text": "Diesel vehicles have no fuses because they do not need an ignition system."
+      },
+      {
+        "source": {
+          "number": 29484,
+          "quesito_id": 6172,
+          "text_it": "In molti casi la stessa cinghia trapezoidale che comanda l’alternatore mette in movimento anche la pompa centrifuga del liquido di raffreddamento",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "96c8388590486512f51a080b5b96e67aa3084b7d19d10efe17e31025f3f382a0",
+        "localized_text": "Often the same V-belt driving the alternator also drives the coolant centrifugal pump."
+      },
+      {
+        "source": {
+          "number": 29485,
+          "quesito_id": 6172,
+          "text_it": "L’alternatore viene azionato da una o più cinghie trapezoidali",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7241ee30a63f9e99bfa04f2d4d07698aa1200531678fdef5660ca2dff0bc0977",
+        "localized_text": "The alternator is driven by one or more V-belts."
+      },
+      {
+        "source": {
+          "number": 29486,
+          "quesito_id": 6172,
+          "text_it": "L’alternatore è un generatore di corrente alternata",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cee00426a75f5bc18db18bfba19cb6f9f7d7e3cf619bddccdb90409fd5278dd3",
+        "localized_text": "An alternator generates alternating current."
+      },
+      {
+        "source": {
+          "number": 29487,
+          "quesito_id": 6172,
+          "text_it": "Se l’alternatore è guasto si accende una spia rossa situata sul cruscotto",
+          "answer": 1,
+          "page": 107,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6a9187a220396f68919c7f047f92c82e19f732cdaad4a37c440705df0dde2c55",
+        "localized_text": "If the alternator fails, a red dashboard warning light comes on."
+      },
+      {
+        "source": {
+          "number": 29488,
+          "quesito_id": 6172,
+          "text_it": "Se l’alternatore genera poca corrente è possibile che la cinghia trapezoidale si sia allentata",
+          "answer": 1,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5fb92a6b9facb8f2219dfeb7866de091cf771997f9ef68438bb31e1bb7038106",
+        "localized_text": "If the alternator generates little current, the V-belt may have loosened."
+      },
+      {
+        "source": {
+          "number": 29489,
+          "quesito_id": 6172,
+          "text_it": "La corrente generata dall’alternatore, per essere accumulata dalla batteria, deve venire raddrizzata, cioè trasformata in corrente continua",
+          "answer": 1,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "93dfe50a5e025f4056b9aaeca30dc26e2bd369408a9966952525f887329e04fa",
+        "localized_text": "For the battery to store alternator current, it must be rectified into direct current."
+      },
+      {
+        "source": {
+          "number": 29490,
+          "quesito_id": 6172,
+          "text_it": "Il buon funzionamento dell’alternatore si controlla per mezzo di una spia luminosa posta sul cruscotto, che deve rimanere spenta",
+          "answer": 1,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "01fc5b2baa16b469ba565e6482248842256538fb3b7f02f3a7b6c5f561105d4a",
+        "localized_text": "Alternator operation is checked using a dashboard warning light that should remain off."
+      },
+      {
+        "source": {
+          "number": 29491,
+          "quesito_id": 6172,
+          "text_it": "I moderni alternatori hanno incorporato un raddrizzatore che rende continua la corrente in uscita",
+          "answer": 1,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e46ad1f670ec1514fe6a3c7079c412c01729c7c41e4728e8af1aea1cc50208ff",
+        "localized_text": "Modern alternators contain a rectifier that converts output into direct current."
+      },
+      {
+        "source": {
+          "number": 29492,
+          "quesito_id": 6172,
+          "text_it": "L’autista deve verificare periodicamente lo stato di carica dell’alternatore",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d47c0a36a55f0a3ee4894e6fb2dd8ab7a7f626e35606477fe9c21d931c80b0e0",
+        "localized_text": "The driver must periodically check the alternator's charge level."
+      },
+      {
+        "source": {
+          "number": 29493,
+          "quesito_id": 6172,
+          "text_it": "Alcuni motori Diesel sono privi di alternatore",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4cff16ca2b9c8b7cd13de05d7d30d5d8c12ddb29257ed99eeca5ad5ad3a7b9b6",
+        "localized_text": "Some diesel engines have no alternator."
+      },
+      {
+        "source": {
+          "number": 29494,
+          "quesito_id": 6172,
+          "text_it": "Nei motori a scoppio o Diesel, l’alternatore sostituisce la batteria",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7a60da81c6a6e369bb2f0c62f42a8c3c2833e5e636a7fa7991cf8c3c5c9556e1",
+        "localized_text": "In spark-ignition or diesel engines, the alternator replaces the battery."
+      },
+      {
+        "source": {
+          "number": 29495,
+          "quesito_id": 6172,
+          "text_it": "Nei motori a scoppio o Diesel, l’alternatore fornisce la corrente per il motore, mentre la batteria produce quella per le luci e per i servizi",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0de2bf22f0a7caae3207a69937cab0757273331ffbf205657a7632192e4f1097",
+        "localized_text": "In spark-ignition or diesel engines, the alternator supplies the engine while the battery produces current for lights and auxiliary services."
+      },
+      {
+        "source": {
+          "number": 29496,
+          "quesito_id": 6172,
+          "text_it": "Se l’alternatore è guasto si accende una spia arancione situata sul cruscotto",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b04fb961efd83a14babb9d4f673ceb17e36a4fbda56ef76636103e8772e3c3f1",
+        "localized_text": "If the alternator fails, an orange dashboard warning light comes on."
+      },
+      {
+        "source": {
+          "number": 29497,
+          "quesito_id": 6172,
+          "text_it": "Quando l’alternatore si guasta, il motore si spegne di colpo",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a71eea06555cfbcbfa00e508b14bde74d42d8b6b645593e46fd748ce7d384e35",
+        "localized_text": "When the alternator fails, the engine stops suddenly."
+      },
+      {
+        "source": {
+          "number": 29498,
+          "quesito_id": 6172,
+          "text_it": "L’alternatore fornisce corrente alternativamente al motore o alla batteria",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3b8459051e91ae0465953eded9e1d6fe15fa10e3f0b33ca4022a086c90732fae",
+        "localized_text": "The alternator supplies current alternately to the engine or the battery."
+      },
+      {
+        "source": {
+          "number": 29499,
+          "quesito_id": 6172,
+          "text_it": "Mediante un pulsante situato sul cruscotto, l’autista decide se l’alternatore deve fornire corrente al motore o alla batteria",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "05fb79d764fcecfcc8bbd82e9a53fe344492ea208c4c9fbe066bd7943b947d39",
+        "localized_text": "Using a dashboard button, the driver decides whether the alternator supplies the engine or battery."
+      },
+      {
+        "source": {
+          "number": 29500,
+          "quesito_id": 6172,
+          "text_it": "L’alternatore funziona anche a motore spento",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7ee65fbaec17a87f18d6eddfb94b5935d920154ea31932c65d8cdede2eda63eb",
+        "localized_text": "The alternator works even when the engine is off."
+      },
+      {
+        "source": {
+          "number": 29501,
+          "quesito_id": 6173,
+          "text_it": "Sia il motore a scoppio che quello Diesel sono dotati del motorino d’avviamento",
+          "answer": 1,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "af6866b4ca27edcb42d3f68d98aca49ab8323f652c254536420b095c3963c5fb",
+        "localized_text": "Both spark-ignition and diesel engines have a starter motor."
+      },
+      {
+        "source": {
+          "number": 29502,
+          "quesito_id": 6173,
+          "text_it": "Il motorino d’avviamento viene alimentato dalla corrente fornita dalla batteria",
+          "answer": 1,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d5b08cb2a0f6a94445a65558c0c0d70e879ae8ad216aafaf94d06866eac107a9",
+        "localized_text": "The starter motor is powered by current from the battery."
+      },
+      {
+        "source": {
+          "number": 29503,
+          "quesito_id": 6173,
+          "text_it": "Se il motorino di avviamento non funziona, ciò può dipendere dal fatto che la batteria è scarica",
+          "answer": 1,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c0cb7495f2b9c91c12283cf5b68985f28cf1288ced81fb44d8d078299f55c57b",
+        "localized_text": "If the starter motor does not work, the battery may be flat."
+      },
+      {
+        "source": {
+          "number": 29504,
+          "quesito_id": 6173,
+          "text_it": "Se il motorino di avviamento funziona, ma il motore non gira, può darsi che il pignoncino o il suo cuscinetto reggi-spinta si siano rotti",
+          "answer": 1,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "98a50d10b09038aef807a47374ec8f3ad805fb6d737425361c6805b045950a41",
+        "localized_text": "If the starter motor works but the engine does not turn, the pinion or its thrust bearing may be broken."
+      },
+      {
+        "source": {
+          "number": 29505,
+          "quesito_id": 6173,
+          "text_it": "Su alcuni veicoli a motore Diesel, il motorino di avviamento è alimentato dal gasolio proveniente dal serbatoio",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "73626ab87c67a27d43f5acb3098b586f0f66903366fdb9d30eb12d6bd8e43b38",
+        "localized_text": "On some diesel vehicles, the starter motor is powered by diesel from the tank."
+      },
+      {
+        "source": {
+          "number": 29506,
+          "quesito_id": 6173,
+          "text_it": "In caso di emergenza, il motorino d’avviamento può essere azionato con apposita manovella",
+          "answer": 0,
+          "page": 108,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "88bc8c3afb4071c9fa61b819044c6527e8e573a3951a3111939eb82f15597e36",
+        "localized_text": "In an emergency, the starter motor can be operated with a special crank."
+      }
+    ],
+    "task_sha256": "9d12deef77db47e497974529c71acae0ba012536d1c158ae48442a4f118a2b44"
+  },
+  "rows": [
+    {
+      "number": 29482,
+      "text": "An ordinary blade fuse breaks the circuit under excess current and has no polarity. Use the specified type and current rating.",
+      "evidence": [
+        "OptiFuse, Fuses, https://www.optifuse.com/fuses/: un fusibile fonde e interrompe il circuito in sovracorrente; la sezione sulle polarità indica che può essere inserito nei due versi.",
+        "Littelfuse, Passenger and Commercial Vehicle Aftermarket Catalog, Circuit Protection, https://www.tti.com/content/dam/ttiinc/manufacturers/littelfuse/Resources/littelfuse-aftermarket-product-catalog.pdf: fusibili automobilistici a lama e scelta del valore corretto."
+      ]
+    },
+    {
+      "number": 29483,
+      "text": "Diesel vehicles also have electrical circuits protected by fuses. The absence of spark ignition does not eliminate the electrical system.",
+      "evidence": [
+        "Ford, Owner Manual, Fuse Specification Chart, p. 397, https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/CG3784en-202012-20201221153253.pdf: il circuito della pompa carburante Diesel e quello della centralina Diesel sono protetti da fusibili.",
+        "US Department of Energy, https://afdc.energy.gov/vehicles/how-do-diesel-cars-work: il Diesel usa accensione per compressione invece che a scintilla e possiede componenti elettrici."
+      ]
+    },
+    {
+      "number": 29484,
+      "text": "In some layouts the accessory belt drives both the alternator and coolant pump, circulating coolant while the engine turns.",
+      "evidence": [
+        "https://navigates-ws.gates.com/Images/ProductReferences/Gates%20Technical%20Service%20Bulletin%20%28TSB_0054%29.pdf — Gates TSB 054: cinghia accessori serpentina aziona alternatore e pompa acqua in alcune configurazioni."
+      ]
+    },
+    {
+      "number": 29485,
+      "text": "The belt transfers engine movement to the alternator pulley, allowing it to generate electricity.",
+      "evidence": [
+        "HELLA https://www.hella.com/partnerworld/assets/documents/1694_SA_Brochure_HELLA_EN.pdf: alternatori azionati dal motore tramite cinghie trapezoidali o scanalate."
+      ]
+    },
+    {
+      "number": 29486,
+      "text": "The alternator initially generates alternating voltage; a rectifier converts it for the vehicle electrical system.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/sg/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/: produzione di tensione alternata e conversione mediante raddrizzatore."
+      ]
+    },
+    {
+      "number": 29487,
+      "text": "The red charging light signals a charging system problem, possibly an alternator fault. The light alone does not identify the exact cause.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/sg/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/: spia di carica accesa tra i sintomi e più possibili cause; Volkswagen https://www.volkswagen.co.uk/en/owners-and-services/my-car/warning-light/vehicle-charging-system.html: spia rossa del sistema elettrico/alternatore."
+      ]
+    },
+    {
+      "number": 29488,
+      "text": "A loose belt can slip and fail to drive the alternator properly, causing insufficient charging. It is one possible cause.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/sg/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/: cinghia troppo lenta tra le cause di carica insufficiente."
+      ]
+    },
+    {
+      "number": 29489,
+      "text": "The alternator produces alternating voltage, while the battery charges with direct current: the rectifier converts it.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/sg/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/: raddrizzamento della tensione alternata per l'impianto e ricarica della batteria."
+      ]
+    },
+    {
+      "number": 29490,
+      "text": "With the engine running, the charging light normally goes out. If it stays on, a possible charging problem requires investigation; the light alone does not certify every component.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/sg/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/: spia di carica e diagnosi delle anomalie; Volkswagen https://www.volkswagen.co.uk/en/owners-and-services/my-car/warning-light/vehicle-charging-system.html: spia di carica durante la marcia."
+      ]
+    },
+    {
+      "number": 29491,
+      "text": "The alternator’s diode rectifier converts alternating voltage into direct voltage for the electrical system and charging.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/sg/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/: raddrizzatore e diodi dell'alternatore."
+      ]
+    },
+    {
+      "number": 29492,
+      "text": "The battery has a state of charge: the alternator generates energy for the system and recharges the battery; it does not store energy like a battery.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/us/technical/car-electronics-and-electrics/starting-and-charging-system/checking-an-alternator-regulator/: controllo dello stato di carica della batteria; HELLA https://www.hella.com/techworld/au/passenger-car-parts/vehicle-electrics/starters-and-alternators/: alternatore alimenta le utenze e carica la batteria."
+      ]
+    },
+    {
+      "number": 29493,
+      "text": "The quiz marks this FALSO, but diesel engines without an alternator exist, for example with mechanical starting. In road vehicles equipped with a charging system, the alternator supplies the electrical system and recharges the battery.",
+      "evidence": [
+        "Quiz ufficiale superiori, pagina 108 (zero-based): risposta stampata FALSO; il testo dice alcuni motori Diesel senza limitare il campo ai veicoli stradali.",
+        "Kineteco, Springstarter brochure, https://atlanticdiesel.com/pdfs/KinetecoBrochure.pdf: alcuni Diesel possono essere avviati senza batteria né alternatore, ad esempio nelle applicazioni citate. Questo contraddice la risposta stampata se il testo è letto senza limitazioni.",
+        "HELLA, Starters and alternators, https://www.hella.com/techworld/au/passenger-car-parts/vehicle-electrics/starters-and-alternators/: l’alternatore alimenta il sistema elettrico e ricarica la batteria; funzione del sistema di ricarica nei veicoli dotati di alternatore."
+      ]
+    },
+    {
+      "number": 29494,
+      "text": "The alternator and battery have complementary roles: the former powers electrical loads and charges the latter, which stores energy for starting, for example.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/au/passenger-car-parts/vehicle-electrics/starters-and-alternators/: alternatore alimenta utenze e carica batteria di avviamento; HELLA https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/: alimentazione del motorino dalla batteria."
+      ]
+    },
+    {
+      "number": 29495,
+      "text": "The proposed division is wrong: with the engine running, the alternator powers electrical loads, including lights, and charges the battery. The battery also supplies energy for starting.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/au/passenger-car-parts/vehicle-electrics/starters-and-alternators/: alternatore alimenta utenze e contemporaneamente ricarica batteria; HELLA https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/: circuito di avviamento alimentato dalla batteria."
+      ]
+    },
+    {
+      "number": 29496,
+      "text": "In the quiz the charging fault light is red, not orange. It can indicate a problem with the alternator or another charging system component.",
+      "evidence": [
+        "Volkswagen https://www.volkswagen.co.uk/en/owners-and-services/my-car/warning-light/vehicle-charging-system.html: spia rossa del sistema elettrico/alternatore; HELLA https://www.hella.com/techworld/sg/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/: possibili cause della spia di carica."
+      ]
+    },
+    {
+      "number": 29497,
+      "text": "An alternator fault does not necessarily stop the engine immediately: the battery can temporarily power the system, but discharges if not recharged.",
+      "evidence": [
+        "HELLA https://www.hella.com/forvia-us/assets/documents/BI_Alternators_2026.pdf, Alternator testing: dopo la perdita di funzionalità la batteria non viene caricata e l'elettronica cessa di funzionare dopo un certo tempo."
+      ]
+    },
+    {
+      "number": 29498,
+      "text": "The alternator powers the system and charges the battery simultaneously: alternating current describes the kind of current generated, not alternating recipients.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/au/passenger-car-parts/vehicle-electrics/starters-and-alternators/: alimentazione delle utenze e carica simultanea; HELLA https://www.hella.com/techworld/sg/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/: generazione e raddrizzamento."
+      ]
+    },
+    {
+      "number": 29499,
+      "text": "No button is needed to select between engine and battery: the charging system powers electrical loads and charges the battery, regulating output according to conditions.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/au/passenger-car-parts/vehicle-electrics/starters-and-alternators/: utenze e ricarica simultanee; HELLA https://www.hella.com/techworld/us/technical/car-electronics-and-electrics/starting-and-charging-system/checking-an-alternator-regulator/: regolazione della carica secondo condizioni operative."
+      ]
+    },
+    {
+      "number": 29500,
+      "text": "In the quiz system, the engine drives the alternator by belt: when the engine stops it generates no current and loads draw on the battery.",
+      "evidence": [
+        "HELLA https://www.hella.com/partnerworld/assets/documents/1694_SA_Brochure_HELLA_EN.pdf: azionamento mediante cinghia dal motore; HELLA https://www.hella.com/techworld/au/passenger-car-parts/vehicle-electrics/starters-and-alternators/: ruolo della batteria e dell'alternatore."
+      ]
+    },
+    {
+      "number": 29501,
+      "text": "In the quiz vehicles, both gasoline and diesel engines use an electric starter to turn the engine initially so it can start.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/: motorino elettrico avvia il motore a combustione; HELLA https://www.hella.com/techworld/uk/bi/renault-master-starter-motor-defective-ignition-lock-defective/: esempio Diesel. Ambito: veicoli del quiz."
+      ]
+    },
+    {
+      "number": 29502,
+      "text": "The starter is an electric motor: it receives energy from the battery and turns the combustion engine through the pinion.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/: circuito batteria, motorino e ingranamento del pignone."
+      ]
+    },
+    {
+      "number": 29503,
+      "text": "A discharged battery may not supply the current needed by the starter. Faulty connections or components can also prevent starting.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/: batteria scarica e collegamenti fra le possibili cause del mancato avviamento."
+      ]
+    },
+    {
+      "number": 29504,
+      "text": "The pinion must mesh with the flywheel ring gear to turn the engine. If damaged, it may fail to engage properly, leaving the starter spinning without cranking. The quiz also mentions its thrust bearing; that specific cause is not confirmed by the checked source.",
+      "evidence": [
+        "https://www.densoautoparts.com/reference-starter-troubleshooting/ — DENSO: pignone o corona usurati possono causare problemi di innesto; non identifica il cuscinetto reggispinta specifico.",
+        "https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/ — HELLA: innesto del pignone e diagnosi del motorino."
+      ]
+    },
+    {
+      "number": 29505,
+      "text": "The starter is electric and receives current from the battery; diesel fuel instead feeds combustion in the diesel engine.",
+      "evidence": [
+        "HELLA https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/: motorino elettrico e circuito batteria; Bosch https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-piezo/: sistema di iniezione del carburante Diesel."
+      ]
+    },
+    {
+      "number": 29506,
+      "text": "The starter motor is electric: the relay engages the pinion and closes the circuit supplying it. A hand crank does not operate this motor.",
+      "evidence": [
+        "HELLA, Checking the starter, Function, https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/: il relè innesta il pignone e chiude il circuito principale del motorino elettrico."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "9d12deef77db47e497974529c71acae0ba012536d1c158ae48442a4f118a2b44",
+    "output_sha256": "f516eba77e441e5dc153c07cb94a2daba83fabab064553410cb17839ba0dfdd1",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      29482,
+      29483,
+      29484,
+      29485,
+      29486,
+      29487,
+      29488,
+      29489,
+      29490,
+      29491,
+      29492,
+      29493,
+      29494,
+      29495,
+      29496,
+      29497,
+      29498,
+      29499,
+      29500,
+      29501,
+      29502,
+      29503,
+      29504,
+      29505,
+      29506
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaf7-2922-7233-b905-773729a59db1",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "072c59de05800204338ff72993e9a8c2f8b368ecab83620586ce3fcdde76f895",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eafc-8545-7ff1-a412-b4c97feee443",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3eacd0800f17603af292f4bb82f563426134d34290e443b448e9b706aba7dc3d",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eafc-8545-7ff1-a412-b4c97feee443",
+        "label": "author-1-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29504,
+              "reason": "La risposta VERO include in alternativa la rottura del cuscinetto reggispinta del pignone come causa del mancato trascinamento; le fonti tecniche consultate non verificano questo specifico componente o meccanismo. Serve un accertamento indipendente della terminologia e del guasto nella configurazione prevista.",
+              "checked_sources": [
+                "HELLA, Checking the starter, Symptoms and Cause of failure, https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-starter/: conferma motorino udibile senza trascinamento e danni al pignone o ruota libera come cause, ma non la rottura del suo cuscinetto reggispinta.",
+                "MAHLE, Starter damage brochure, section 2.4, https://www.mahle-aftermarket.com/media/homepage/facelift/media-center/workshop/schadensbroschuere_starter_2020_en_final_low_.pdf: rottura del pignone per corpi estranei; cita un reggispinta della frizione nella riparazione, non il cuscinetto del pignone come causa del sintomo."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3eacd0800f17603af292f4bb82f563426134d34290e443b448e9b706aba7dc3d",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "701530cd9e4b5903164e2a47c1a7843272d811520107ed2ae5295bae351bffc5",
+          "output_sha256": "ea67681d9191085cb7f6c7513abe8f7df1b50c1e4b52bdcd26b172260847f6ed",
+          "author": "gpt-6.1-terra / 01a1eaf7-2922-7233-b905-773729a59db1",
+          "reviewer": "gpt-6.1-terra / 01a1eafa-d25e-76a3-bc20-9d6d280bd8b7",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29482,
+            29483,
+            29484,
+            29485,
+            29486,
+            29487,
+            29488,
+            29489,
+            29490,
+            29491,
+            29492,
+            29493,
+            29494,
+            29495,
+            29496,
+            29497,
+            29498,
+            29499,
+            29500,
+            29501,
+            29502,
+            29503,
+            29504,
+            29505,
+            29506
+          ],
+          "issues": [
+            {
+              "number": 29482,
+              "reason": "The cited blade-fuse product page has no readable content, and the ATO datasheet gives AC/DC ratings but does not explicitly establish the claimed absence of polarity or the overcurrent interruption mechanism. Supply accessible manufacturer evidence for both claims."
+            },
+            {
+              "number": 29483,
+              "reason": "The cited fuse product page has no readable content; the cited Renault starter example establishes a diesel electrical starter but does not establish fuse protection in a diesel vehicle. Provide accessible authoritative evidence for the specific claim."
+            },
+            {
+              "number": 29484,
+              "reason": "The cited Gates technical bulletin returns 404, and the other cited Gates page does not identify an alternator and coolant pump driven by the same belt. Provide a verifiable authoritative source establishing the shared drive and circulation."
+            },
+            {
+              "number": 29493,
+              "reason": "The cited diesel example confirms that one diesel vehicle has an alternator; it does not establish that none of the diesel engines within the intended scope can lack one. The source statement says some engines, while the draft assumes a vehicle scope. Independently adjudicate the scope and printed verdict with suitable evidence; do not infer the universal claim from one example."
+            },
+            {
+              "number": 29504,
+              "reason": "The cited HELLA source supports a damaged pinion as a possible cause, but does not establish the alternative broken thrust bearing mentioned in the printed statement; the draft omits that alternative. Verify this specific mechanism and explain it or escalate the unsupported part of the printed verdict."
+            },
+            {
+              "number": 29506,
+              "reason": "The cited HELLA starter source describes the electrical starter but does not establish the claim about older vehicles’ hand cranks directly turning the combustion engine. Cite an authoritative source for this historical mechanism or remove the unsupported detail in all languages."
+            }
+          ]
+        },
+        {
+          "task_sha256": "9d12deef77db47e497974529c71acae0ba012536d1c158ae48442a4f118a2b44",
+          "output_sha256": "a1d33145a097489e13f602ba9ad7514ce13ea854c57f8d6cdb7b7142a9f15fef",
+          "author": "gpt-6.1-terra / 01a1eaf7-2922-7233-b905-773729a59db1",
+          "reviewer": "gpt-6.1-terra / 01a1eafa-d25e-76a3-bc20-9d6d280bd8b7",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29482,
+            29483,
+            29484,
+            29485,
+            29486,
+            29487,
+            29488,
+            29489,
+            29490,
+            29491,
+            29492,
+            29493,
+            29494,
+            29495,
+            29496,
+            29497,
+            29498,
+            29499,
+            29500,
+            29501,
+            29502,
+            29503,
+            29504,
+            29505,
+            29506
+          ],
+          "issues": [
+            {
+              "number": 29482,
+              "reason": "The cited blade-fuse product page has no readable content, and the ATO datasheet gives AC/DC ratings but does not explicitly establish the claimed absence of polarity or the overcurrent interruption mechanism. Supply accessible manufacturer evidence for both claims."
+            },
+            {
+              "number": 29483,
+              "reason": "The cited fuse product page has no readable content; the cited Renault starter example establishes a diesel electrical starter but does not establish fuse protection in a diesel vehicle. Provide accessible authoritative evidence for the specific claim."
+            },
+            {
+              "number": 29484,
+              "reason": "The cited Gates technical bulletin returns 404, and the other cited Gates page does not identify an alternator and coolant pump driven by the same belt. Provide a verifiable authoritative source establishing the shared drive and circulation."
+            },
+            {
+              "number": 29493,
+              "reason": "The cited diesel example confirms that one diesel vehicle has an alternator; it does not establish that none of the diesel engines within the intended scope can lack one. The source statement says some engines, while the draft assumes a vehicle scope. Independently adjudicate the scope and printed verdict with suitable evidence; do not infer the universal claim from one example."
+            },
+            {
+              "number": 29504,
+              "reason": "The cited HELLA source supports a damaged pinion as a possible cause, but does not establish the alternative broken thrust bearing mentioned in the printed statement; the draft omits that alternative. Verify this specific mechanism and explain it or escalate the unsupported part of the printed verdict."
+            },
+            {
+              "number": 29506,
+              "reason": "The cited HELLA starter source describes the electrical starter but does not establish the claim about older vehicles’ hand cranks directly turning the combustion engine. Cite an authoritative source for this historical mechanism or remove the unsupported detail in all languages."
+            }
+          ]
+        },
+        {
+          "task_sha256": "d87b539256da89204809386421bbe38af3f07135b07dc481e65f421b4a24d7cf",
+          "output_sha256": "8e6251fbfdfe7c95c43d836fabb3e5af2c75da0ceb5eb577ba0dca74a940d80e",
+          "author": "gpt-6.1-terra / 01a1eaf7-2922-7233-b905-773729a59db1",
+          "reviewer": "gpt-6.1-terra / 01a1eafa-d25e-76a3-bc20-9d6d280bd8b7",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29482,
+            29483,
+            29484,
+            29485,
+            29486,
+            29487,
+            29488,
+            29489,
+            29490,
+            29491,
+            29492,
+            29493,
+            29494,
+            29495,
+            29496,
+            29497,
+            29498,
+            29499,
+            29500,
+            29501,
+            29502,
+            29503,
+            29504,
+            29505,
+            29506
+          ],
+          "issues": [
+            {
+              "number": 29482,
+              "reason": "The cited blade-fuse product page has no readable content, and the ATO datasheet gives AC/DC ratings but does not explicitly establish the claimed absence of polarity or the overcurrent interruption mechanism. Supply accessible manufacturer evidence for both claims."
+            },
+            {
+              "number": 29483,
+              "reason": "The cited fuse product page has no readable content; the cited Renault starter example establishes a diesel electrical starter but does not establish fuse protection in a diesel vehicle. Provide accessible authoritative evidence for the specific claim."
+            },
+            {
+              "number": 29484,
+              "reason": "The cited Gates technical bulletin returns 404, and the other cited Gates page does not identify an alternator and coolant pump driven by the same belt. Provide a verifiable authoritative source establishing the shared drive and circulation."
+            },
+            {
+              "number": 29493,
+              "reason": "The cited diesel example confirms that one diesel vehicle has an alternator; it does not establish that none of the diesel engines within the intended scope can lack one. The source statement says some engines, while the draft assumes a vehicle scope. Independently adjudicate the scope and printed verdict with suitable evidence; do not infer the universal claim from one example."
+            },
+            {
+              "number": 29504,
+              "reason": "The cited HELLA source supports a damaged pinion as a possible cause, but does not establish the alternative broken thrust bearing mentioned in the printed statement; the draft omits that alternative. Verify this specific mechanism and explain it or escalate the unsupported part of the printed verdict."
+            },
+            {
+              "number": 29506,
+              "reason": "The cited HELLA starter source describes the electrical starter but does not establish the claim about older vehicles’ hand cranks directly turning the combustion engine. Cite an authoritative source for this historical mechanism or remove the unsupported detail in all languages."
+            }
+          ]
+        },
+        {
+          "task_sha256": "517192e03dd0b7500d57c35ff80a4cd325f9a5a53a270e65dbb336707d30d3f1",
+          "output_sha256": "4af0379d77d3884af6c4d097bfd964062060e48f4376864e06925ebafda7b825",
+          "author": "gpt-6.1-terra / 01a1eaf7-2922-7233-b905-773729a59db1",
+          "reviewer": "gpt-6.1-terra / 01a1eafa-d25e-76a3-bc20-9d6d280bd8b7",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29482,
+            29483,
+            29484,
+            29485,
+            29486,
+            29487,
+            29488,
+            29489,
+            29490,
+            29491,
+            29492,
+            29493,
+            29494,
+            29495,
+            29496,
+            29497,
+            29498,
+            29499,
+            29500,
+            29501,
+            29502,
+            29503,
+            29504,
+            29505,
+            29506
+          ],
+          "issues": [
+            {
+              "number": 29482,
+              "reason": "The cited blade-fuse product page has no readable content, and the ATO datasheet gives AC/DC ratings but does not explicitly establish the claimed absence of polarity or the overcurrent interruption mechanism. Supply accessible manufacturer evidence for both claims."
+            },
+            {
+              "number": 29483,
+              "reason": "The cited fuse product page has no readable content; the cited Renault starter example establishes a diesel electrical starter but does not establish fuse protection in a diesel vehicle. Provide accessible authoritative evidence for the specific claim."
+            },
+            {
+              "number": 29484,
+              "reason": "The cited Gates technical bulletin returns 404, and the other cited Gates page does not identify an alternator and coolant pump driven by the same belt. Provide a verifiable authoritative source establishing the shared drive and circulation."
+            },
+            {
+              "number": 29493,
+              "reason": "The cited diesel example confirms that one diesel vehicle has an alternator; it does not establish that none of the diesel engines within the intended scope can lack one. The source statement says some engines, while the draft assumes a vehicle scope. Independently adjudicate the scope and printed verdict with suitable evidence; do not infer the universal claim from one example."
+            },
+            {
+              "number": 29504,
+              "reason": "The cited HELLA source supports a damaged pinion as a possible cause, but does not establish the alternative broken thrust bearing mentioned in the printed statement; the draft omits that alternative. Verify this specific mechanism and explain it or escalate the unsupported part of the printed verdict."
+            },
+            {
+              "number": 29506,
+              "reason": "The cited HELLA starter source describes the electrical starter but does not establish the claim about older vehicles’ hand cranks directly turning the combustion engine. Cite an authoritative source for this historical mechanism or remove the unsupported detail in all languages."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

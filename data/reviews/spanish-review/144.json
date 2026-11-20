@@ -1,0 +1,25 @@
+{
+  "batch": "144",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "6ba648547a32bcf445efa701398fb2ecd9f19e982d941a9bb63d4cb49ae33220",
+  "source_sha256": "389a9ddb6aebb2f3455816d466b3dfdc1f825b51496dd9c0eab283d498306fe6",
+  "corrections": [
+    {
+      "id": "bf4011e027162316c0ccf82e70edc6d4239841c5d00e0a62c696541993445ff2",
+      "before": "En los motores diésel, el avance automático sirve para adelantar el suministro de combustible a los inyectores",
+      "after": "En los motores diésel, el avance automático sirve para adelantar el suministro de diésel a los inyectores",
+      "reason": "Especifica el diésel indicado por gasolio, en lugar de combustible genérico."
+    }
+  ],
+  "reviewed_file_sha256": "76af06fae1f24e7e04257bade07684f3c67d643547d2c658fb89e544a17af6a2"
+}

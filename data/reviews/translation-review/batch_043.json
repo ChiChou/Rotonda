@@ -1,0 +1,160 @@
+{
+  "batch": "043",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "9172ef5a32d9f723223614c8756e02cf6216b11330495f218d4b158b323a63d7",
+  "rows": 100,
+  "verified_ids": [
+    "ac7a61b89752301e12f20ce67103a1902b45782c8ea1ea32ccc9b3b1d47761aa",
+    "95a77edeb42a42d9e49cecc57e86c3fe9014855ae3354cc573c154018e5553ac",
+    "3789438dbec76995a1383774eb553c4672a7880ff95df7b9952f73e02b989b4c",
+    "a2ad09f80ea561020f612198b5fb93748b2ebb6f6661674da61d6131b5f8a67a",
+    "e7e0e06c16f9026deda4411f1c3b546ef67bd02cbab0c93c0006be4789f43945",
+    "6fb998a74a9fb02574f92fcd7a1c5ceeb59422a11aa6dbdf79d3c5824cbf9aea",
+    "ed51b767361fb26fef2b5617d77f783b861eba973fcb1927bc94c788ffe7a8a7",
+    "afba9f8d346c1740848b53668eee63e6bbad945ea1a8e679c49617028087a4de",
+    "8a22e10ea9a1beadcfd8a9f3006321f4d1522171635c3d218b41bd73a7944d11",
+    "b68585479552f9cd1a68f26221d99caca76e18aeef6facd502d33563555cc5de",
+    "4e556c0b5caf985f5f8582bf2164b5901822b2ad8c3a7c4660d4960815a23db9",
+    "1c5e456c87df63c45e52c745f4da1d72f51669bf9a139a5759f2f6fa9c9d14f4",
+    "ab98b8dd686e173f1fd772e3fc5041a6690d64a104f51270f065d74437b54d81",
+    "d608e85183a96ee566ea44746dde0934182b209cf12bcf3441b85a0b7a340fe6",
+    "936a0f38f3a1f62d2e0e9e86778b31b4a5b37e82400decd0f5fc2b402d86fa70",
+    "e42cc19ad613635a515d2b31dfd3074b7f093b6b522beeb940b1089612cc8a31",
+    "71887dd9369e4ee32a787b2b590de150a96afb324a97cf814c7376d72ba0cba8",
+    "5c83bd49c357c8b388abea0cf66fafa49eb2350ccb360d9fbd318acce4582dbb",
+    "cc87ee854990a966bbd626d2c03c90a93aee27b0c95f6c68f2cd195f64547448",
+    "ec36f530fd697db967df4419f79bd19318ecbd411aec067437487a147e8b1c37",
+    "b8d6c5c7f373e4996785c67677b4bfdb48baec4473c8a6e65b70602a2746057e",
+    "81eeee879ad7ecc359f0fdce9adcc977c7bfe8c3d3ba1acde47d2c561fc400d6",
+    "45088200d03bb594c51402c6345c7e329b33f12055585c1e2a6ea5f0b3f1b770",
+    "8291e0e8e6b375e701e61634afd48fa4b49a2fe11e39da3cdeb0ab29d9d43073",
+    "ab8cab16198ea0c06476e7843c67ad9d4150b38a8fba40ca359ff5b18d9d50b4",
+    "98ede5c68250027d43fc8c9715fad72b887a03ff693396ae525a761078449e43",
+    "6fbabd440c150bbf83c4cad4b509d063c3aaa2cf578d70e1b0900da6342fddf6",
+    "c4e323a0a8773d799bf2c31dbedd481ed7791226e89f02186735198df06afdb6",
+    "05adc85d125c157eb96070429778e5c201797e7b6831a2d2dd96f855193420ae",
+    "3e1c903a8fa6d92e7ec7cc2345287a285bcf3a550493fc69b61dd83d6572cf37",
+    "903e973784ede7db0a4d92835d78f96f768085a1d077d9ee1fe751f18d347e37",
+    "980592edc8627e0980fe20b537aaa91451252bab0c4d2398f42cac8dea7eb336",
+    "ab6bf47ff49415ed90cfd49a2d91d7a5a54cb03665eacc041726b5618876e67d",
+    "dd3b67af05bea0a478b5f90f01b300cfae2d26375c2bef3cc00ae4862ff88875",
+    "0ff4a192318e10c721cba2611c7cbac815c293dac41ed748246a4a0a071ea246",
+    "c3a533cf2b194d46f7e54ec7cdc4ac01a3d3aa11e8e2a9f425301d9cd1978220",
+    "9ca2bdc16dd3a48d6a356ecdcbde1be7930216c8c9a4b0011e74c27c5b5635d3",
+    "fce6f7a94cb5a6e65c118fa53efaa459b4269794c7b2fb2cade38d5d35afa225",
+    "0246e187073f637060478571d57b34bfc042cbe7ebdb8f1879473396057666f8",
+    "1f228327139df76adb484736ea68791383649bcef416f711d99b2754d243a21c",
+    "f515ae159847bff768fdb357d934a6f8b7d4106ebd8cd2a0fe0c2fe6533bdca8",
+    "3e50031a2abe5df316cb7e34dc1632371100b090476c8146ba08562dcdecfeff",
+    "c7503f4c52c994a538d93fc645726b61060d6606b2a7d4cb3d8a3e2169c17161",
+    "f3551d0721e195c48a5e8a84da1a46deedf59b9cf2b19772ab58e78aed65b830",
+    "ac089465d69864d8b91aa036cafbf6bdc1272f8db341e5fe11044d177921b4b9",
+    "57ce2a7f4a64589b71e165ad62eba2fcbd5b733b5e1910fac2b04384dc3a411e",
+    "42854939d29628275f97ce814867b81ba8432a87992150633a5558f2faf2b783",
+    "ac97e341fecf6a48fb04d9f721be1968b8a632d0f371d5b9edb106530bb26d13",
+    "d4caa7ba228c58cc21ab27780c006dadb65170116619b15866788b1021245f87",
+    "b5d71493f7cd6b4ba85f88e62635d0c6819c7182401c15bfc2caaa17f36f0779",
+    "ad606a56e2925e7e1527dbfb0f8344629d1435729899dc256000cf52a36f9a7a",
+    "5a1731f7a3bfbc8c114a1d011b0414c80a12cdd8095601683e4b098995a9c9f3",
+    "a4f74f59bafbda2b2b5f73e73951cee38667febbc9ed884042382661065d3f10",
+    "96154d1c93b87c8d1be35b1d7548e7015aa5cd14b8590a3b57a798430c08a3c3",
+    "7047b4c1c75038559663803a3c8581fd05e332a8bf18d11b2466e93d610a47f0",
+    "439ad16b83c2f5f99da3c9d0a9ba39458c66afeae5d84f40d952ed594bee988d",
+    "31e0769f0b57adbe89f6f27df98e2a0ff57c678572711f8a293782df07b54ea5",
+    "7a8f3b274cdc2924672a8b2a7c7ff69e79fc140e69d3de662ba2aabedec38a6c",
+    "8844f99d228a444b94a86cf90e1d2fa5ba70630c298c70717ea202402cee0dbf",
+    "6e3521bea6a0ceef96ed0df01150dde98f3fadc9135eb0b02a712673473c3054",
+    "134b0b013255931aceaf028dc0956d3c0de24741951f2c0aaedb461cb9942e73",
+    "c0a154662901b393bfd5f24d65d983a4b9d60d665b4877dab2bd79b8b71b12fe",
+    "7921f35ee5f548e8670adad45f31042ab6476295f5758cbb82d1411f8a6938f3",
+    "61aaf564776b3df2cb265c05a261dc83d1f9929def8ab6163a335eb4473d362d",
+    "3a987c74f2190d16d9dbb83bbd8d562a078a4b60e059159957a0b8ebe67180f0",
+    "e3297b318dff9f14396686f3a7abc5d3e31f625eefdbb2bcf2724f5d8859da67",
+    "0b908be77e1f068643bcd4b479867e0397ca5203c9c5dc8ee4894b634848e2ec",
+    "1883fa8b4a1abf13a0715154436d361cbf21a5943338961116c7aaafe81d1561",
+    "0dacf17bb438f11c5bd5a91820a488068c405ce6a98fa3305780969b65f80c4f",
+    "ba45a71663a6b8e436f7e04fac0eb476bc26c415925d62cefdfdc831d361b995",
+    "bab4642fa64b2e84611dfab0555a8b4c65800568b01e349bc49b2d1c8140650c",
+    "127c9e748a3492bad6120b2302e2afbe9a860ed4a32152d672523b66f60c1818",
+    "089933a10830bd45da37630efd8e9486d1e571fe132c04f898c029240b9cec11",
+    "25bcdf786573035006ce6eacc773a5b905a47ed649a563d688ddf918bc4001b4",
+    "c260700dbc1cf4def9e7ef85b561d97ae1d6c89715e6db244a4ec12da951ab06",
+    "5102716ed1925ae1bb4ed4e835a93c6d707a47a1fd75bb9d9617f591264ee9bc",
+    "03fca482655a522deed718ec41306b9436c5b2bcfa93495b9190c2123eb68e06",
+    "9f4d8a1dae5790dd5a0e2a96c884f877b7c11bfd6499c41fe9b8e27e124cf012",
+    "e7f2929885916bb9dedff59efcb2fc134b3ea5e53af860292dafa09916b8b5ab",
+    "d8ad153ec569215a0b305b4ae8f7462fb71f8c594ac685608bfbef1f81949c46",
+    "ae0bfbf2f8de22d41e87a57afaf7c5e779675123384a43298973eb499164b599",
+    "72557585c307cba354ab247000dbc5005d6c475a25a37cd1d13ea18b1f6ef7e6",
+    "c0dc4c45b5a14ce934a36244959d905e861f1ef9f9db4ca876cef2c3f9bed2df",
+    "13763c4f23ef48e4811bf695f1a74f14d928c12c4ebfc4d9aaa51389d7308a76",
+    "36e099bb514c186e50ae4aa914828d2678ba31a3a8191f758a9f9adb9a6a25cf",
+    "e949e2eef364cbc7f7fafb404f440f1d977b834fedbcda76d194ab2fb926f95b",
+    "e7d493a294365ce66177d6f3bcaead4770f291d1c20186817551cbc0f98146e2",
+    "0de103e174fda9676afc29551a4ef05e5832ac3596d49bf8c0304e1465bb8ce6",
+    "7cb2f0870f59e896ac9bf619b82439b00bbcb1bb19639c1900c994ec9c818b7f",
+    "0d653d18c4075d5f1f592d2787880bb09293b29395860c34c7849de3268dc2df",
+    "69495aea1a8fbaf82ccbd19430f9c62f41bd611c10c512fa8453aed1c4d29078",
+    "effd3368a5ff5e0b1f33f50b4fa664d851b63acdb54782a2c3ff848db2b25070",
+    "f73aa60ac731f94c94bcb5bc53a5d35a85cfb77755586343d25f11869f959f46",
+    "5a33755f1a13c1ff41365c20b07d49513f52576c9e722277ea19814944c949b4",
+    "af743370cad429e2d3c8e1f9f026dfcd6de78edcb6dbcf14dd37a7144852145a",
+    "fed6fe08ecb880120099c2e4be9ab523bc802738dbfb52722fb7d98299f34efc",
+    "32d13234584dea5032bcdec849b2f73e27893071051c0656f7f1bb84dd8e5cf1",
+    "f02aad1d35bca75164b7058d957a031258003c8d00ca65ec12361627811fbd51",
+    "7af1f3ca93ba5b7a96770a2f2e8ea7354fe64af39c1733e17c32e8179d54a4e9",
+    "768b48a32a803347c187d35754129f1ed9fad96a3673c31a048a13789decc5cb"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "0b908be77e1f068643bcd4b479867e0397ca5203c9c5dc8ee4894b634848e2ec",
+      "reason": "Grammar error \"need meet\"; the Italian says no particular requirement is needed",
+      "changes": {
+        "en": {
+          "before": "A road haulage company wishing to transport goods for hire or reward within the EU using vehicles with a payload exceeding 3.5 t need meet no special requirements because transport within the EU is unrestricted.",
+          "after": "A road haulage company wishing to transport goods for hire or reward within the EU using vehicles with a payload exceeding 3.5 t need not meet any special requirements because transport within the EU is unrestricted."
+        }
+      }
+    },
+    {
+      "id": "bab4642fa64b2e84611dfab0555a8b4c65800568b01e349bc49b2d1c8140650c",
+      "reason": "Keep acronym CEMT as in the Italian source, not ECMT",
+      "changes": {
+        "en": {
+          "before": "Within the EU, freedom to provide transport services is guaranteed through the issue of an ECMT licence.",
+          "after": "Within the EU, freedom to provide transport services is guaranteed through the issue of a ECMT licence."
+        }
+      }
+    },
+    {
+      "id": "e7f2929885916bb9dedff59efcb2fc134b3ea5e53af860292dafa09916b8b5ab",
+      "reason": "Keep acronym CEMT as in the Italian source, not ECMT",
+      "changes": {
+        "en": {
+          "before": "Within the EU, goods transport between member states takes place under an ECMT licence.",
+          "after": "Within the EU, goods transport between member states takes place under a ECMT licence."
+        }
+      }
+    },
+    {
+      "id": "fed6fe08ecb880120099c2e4be9ab523bc802738dbfb52722fb7d98299f34efc",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "在欧盟境内开展受雇或收取报酬的国际公路货运，每辆车及其可能牵引的挂车只需随车携带共同体许可证的核证副本即可。",
+          "after": "在欧盟境内开展受雇或收取报酬的国际公路货运，每辆车（包括其可能牵引的挂车）只需随车携带一份共同体许可证的核证副本即可。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "a77dc031ae4ad31a7127fbb171c46405d9df380ad6201d887390a6231c8eea67"
+}

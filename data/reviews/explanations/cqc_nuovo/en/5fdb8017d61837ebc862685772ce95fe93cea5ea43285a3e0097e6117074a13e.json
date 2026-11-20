@@ -1,0 +1,618 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31149,
+          "quesito_id": 7006,
+          "text_it": "Il sistema di assistenza della frenata (BAS o BDC o EBS o EBA o AFU) è un sistema elettronico che riconosce una frenata improvvisa e applica la pressione minima sull'impianto frenante",
+          "answer": 0,
+          "page": 2,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e104617a521aef7a6b861de4e8131acd53285cf89a860823cbfbd40c9ac34b4f",
+        "localized_text": "Brake assist (BAS, BDC, EBS, EBA or AFU) electronically detects sudden braking and applies minimum pressure to the braking system."
+      },
+      {
+        "source": {
+          "number": 31150,
+          "quesito_id": 7006,
+          "text_it": "L'AAS (sistema di controllo delle sospensioni) è un sistema elettronico che controlla l'effetto ammortizzante delle sospensioni del veicolo per ottimizzare la tenuta di strada e il comfort di marcia",
+          "answer": 1,
+          "page": 2,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7b551e93783e3368612c9eb808270408e923a7afb81ae5870a7e30e276523a4a",
+        "localized_text": "AAS suspension control electronically controls suspension damping to optimise road holding and ride comfort."
+      },
+      {
+        "source": {
+          "number": 31151,
+          "quesito_id": 7006,
+          "text_it": "L'AAS (sistema di controllo delle sospensioni) è un sistema elettronico che, per agire, non ha bisogno di rilevare la velocità del veicolo",
+          "answer": 0,
+          "page": 2,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "529a1c56f21b1a59581cd0cb13c972ca5fdb6ecb9d4685469253ea8c95c2500f",
+        "localized_text": "AAS suspension control does not need to detect vehicle speed in order to operate."
+      },
+      {
+        "source": {
+          "number": 31152,
+          "quesito_id": 7006,
+          "text_it": "L'ELC (regolazione elettronica del livello) è un sistema elettronico che controlla e regola l'accelerazione dei veicoli",
+          "answer": 0,
+          "page": 2,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e9567b5fc92831dc3fd2ac1bef0b7b5146447ecced165f6ef94d2d2ca7c49f68",
+        "localized_text": "ELC electronic level control electronically controls and regulates vehicle acceleration."
+      },
+      {
+        "source": {
+          "number": 31153,
+          "quesito_id": 7006,
+          "text_it": "L'ELC (regolazione elettronica del livello) può essere utilizzato anche per l'abbassamento del piano di carico degli autobus",
+          "answer": 1,
+          "page": 2,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7b8d611ebda37fc7c89fb495ed248d52c1f7e5d1df7e1151b2f5c2e0b966ad62",
+        "localized_text": "ELC electronic level control can also be used to lower the floor of buses."
+      },
+      {
+        "source": {
+          "number": 31154,
+          "quesito_id": 7006,
+          "text_it": "Il LDWS (sistema di avviso di deviazione dalla corsia di marcia) è un sistema elettronico che avvisa il conducente ogni volta che deve svoltare ad un incrocio",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7289edae41bba71e568873002ec9c5ec90823ddc31ababb2e007da481022ea07",
+        "localized_text": "LDWS lane departure warning electronically warns the driver whenever a turn at a junction is required."
+      },
+      {
+        "source": {
+          "number": 31155,
+          "quesito_id": 7006,
+          "text_it": "Il LDWS (sistema di avviso di deviazione dalla corsia di marcia) è un sistema costituito da una centralina elettronica e sensori installati nel paraurti posteriore",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "130c21b13b6c8b603a52b1d3ad0c8566972e6d7071f251c8b4a353d80648ef28",
+        "localized_text": "LDWS lane departure warning consists of an electronic control unit and sensors installed in the rear bumper."
+      },
+      {
+        "source": {
+          "number": 31156,
+          "quesito_id": 7007,
+          "text_it": "L'ESP (programma elettronico di stabilità) è un sistema elettronico che serve a stabilizzare il veicolo sulla traiettoria prescelta",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "272d1eee1e2f8bd24f4a0887b712499173ee3b1b136c1dfc30916ddc024c72c3",
+        "localized_text": "ESP electronic stability programme electronically stabilises the vehicle on the selected path."
+      },
+      {
+        "source": {
+          "number": 31157,
+          "quesito_id": 7007,
+          "text_it": "L'ESP (programma elettronico di stabilità) interviene quando la centralina rileva una discordanza tra la traiettoria impostata dal conducente e la traiettoria effettiva del veicolo",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cd077d579804491249417a673a756601a8fd4dcbead4f7376985107eaeb9fc99",
+        "localized_text": "ESP intervenes when its control unit detects a difference between the driver's intended path and the vehicle's actual path."
+      },
+      {
+        "source": {
+          "number": 31158,
+          "quesito_id": 7007,
+          "text_it": "Il CBC (sistema elettronico controllo imbardata) è un sistema elettronico che favorisce i fenomeni di imbardata durante la marcia dei veicoli",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8cb9f281c35d9e343a03e3acd743c8c49f150edcaba379365467aab18e7556b6",
+        "localized_text": "CBC electronic yaw control promotes yaw during vehicle travel."
+      },
+      {
+        "source": {
+          "number": 31159,
+          "quesito_id": 7007,
+          "text_it": "L'HHC (hill holder control - sistema di assistenza alla partenza in salita) è un sistema elettronico che blocca i freni quando il veicolo è fermo in salita, impedendo che arretri",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cab1dc9650d8d4f27eae325522e0bf9c5c882237ea9fe41af52c16c63611df16",
+        "localized_text": "HHC hill holder control holds the brakes when a vehicle is stationary uphill, preventing it from rolling backwards."
+      },
+      {
+        "source": {
+          "number": 31160,
+          "quesito_id": 7007,
+          "text_it": "L'HHC (hill holder control - sistema di assistenza alla partenza in salita) è un sistema elettronico che entra in funzione solo quando il veicolo è fermo in salita su una strada con pendenza maggiore del 15%",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a5b47c386777e939df975d0b8f5e1116c27663df319bd9e3869797f29cf0758a",
+        "localized_text": "HHC hill holder control operates only when a vehicle is stationary uphill on a gradient exceeding 15%."
+      },
+      {
+        "source": {
+          "number": 31161,
+          "quesito_id": 7007,
+          "text_it": "Grazie al CDC (sistema di controllo continuo dei sobbalzi), che regola continuamente gli ammortizzatori, vengono garantiti la stabilità del veicolo e il contenimento dei sobbalzi in frenata, nelle curve, nei dossi, ecc.",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "68eddc0db9b12298eca80dda75b244386693b6b552c9c6e3fbf4a05a58535430",
+        "localized_text": "CDC continuous damping control continually adjusts shock absorbers to ensure stability and limit pitching under braking, on bends and humps, and so on."
+      },
+      {
+        "source": {
+          "number": 31162,
+          "quesito_id": 7007,
+          "text_it": "Il CDC (sistema di controllo continuo dei sobbalzi), garantisce condizioni ottimali di aderenza delle ruote e comfort di marcia, intervenendo continuamente sull'accelerazione del veicolo",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "80c61850a67f2c3a20c0f957ffaf5a2ba3c7dfa6771a054044f17b93313cd95c",
+        "localized_text": "CDC continuous damping control ensures optimal wheel grip and ride comfort by continuously adjusting vehicle acceleration."
+      },
+      {
+        "source": {
+          "number": 31163,
+          "quesito_id": 7007,
+          "text_it": "L'APA (active park assist) è un sistema elettronico che coadiuva il conducente a stabilizzare il veicolo nella traiettoria scelta",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bbb2a78925dc7f99523f47eee51980626d6b541139956ea9fb65d82cceccbab1",
+        "localized_text": "APA active park assist electronically helps the driver stabilise the vehicle on the chosen path."
+      },
+      {
+        "source": {
+          "number": 31164,
+          "quesito_id": 7007,
+          "text_it": "Il sistema APA (sistema che coadiuva il conducente nella manovra di parcheggio) è munito di sensori installati sui paraurti anteriori e posteriori che rilevano la distanza dagli ostacoli presenti vicino al veicolo (altri veicoli, marciapiede, ecc.)",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f1b0233b7c0b311a8e9b23b61a232cfb09a2c7e671dcb6f17afdf41803b3d75c",
+        "localized_text": "APA parking assistance has front and rear bumper sensors that detect distances to nearby obstacles such as vehicles and pavements."
+      },
+      {
+        "source": {
+          "number": 31165,
+          "quesito_id": 7007,
+          "text_it": "L'EBD (distribuzione elettronica della frenata) è un sistema elettronico che ripartisce l'azione frenante sulle ruote evitando il bloccaggio delle ruote più scariche",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9fff623565f850000240bb86369a07558d8f1617f42d7504de0213a41da2170a",
+        "localized_text": "EBD electronic brakeforce distribution distributes braking among the wheels to avoid locking less-loaded wheels."
+      },
+      {
+        "source": {
+          "number": 31166,
+          "quesito_id": 7007,
+          "text_it": "L'EBD (distribuzione elettronica della frenata) è un sistema elettronico che ripartisce l'azione frenante, trasferendo pertanto maggiore forza frenante sulle ruote più scariche",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fe1a16d4f1dc205ed5b4b4498bc55039f3270fd793ac66d3573355023209ca83",
+        "localized_text": "EBD electronic brakeforce distribution distributes braking by applying greater force to less-loaded wheels."
+      },
+      {
+        "source": {
+          "number": 31167,
+          "quesito_id": 7007,
+          "text_it": "Il TMPS o TPMS (sistema monitoraggio pressione pneumatici) indica in tempo reale al conducente tramite un indicatore o una spia di segnalazione se la pressione dei pneumatici si abbassa",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "12b2f911a9e72e32a241983c0755fda6ee754ca9d88d83119bd8fa3a275b4fc0",
+        "localized_text": "TMPS or TPMS tyre pressure monitoring indicates in real time by a gauge or warning light if tyre pressure falls."
+      },
+      {
+        "source": {
+          "number": 31168,
+          "quesito_id": 7007,
+          "text_it": "I fari adattivi sono proiettori che adattano il fascio di luce per mantenere la strada sempre correttamente illuminata",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a6fab8a7f81acc490e91ce3ef9edd597cb47e89aa3393f1f0963a5934f038abb",
+        "localized_text": "Adaptive headlights adjust their beam to keep the road properly illuminated."
+      },
+      {
+        "source": {
+          "number": 31169,
+          "quesito_id": 7007,
+          "text_it": "I pneumatici PAX system in caso di perdita di pressione evitano che il pneumatico si stacchi del cerchio e consente di percorrere, a velocità ridotta, circa 2.000 km di strada",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a22ec4446c1ac4d860e91bd295fe0175b89092d28c1c33a9e7fa9c2ae11e2607",
+        "localized_text": "PAX system tyres prevent the tyre separating from the rim after pressure loss and allow about 2,000 km at reduced speed."
+      },
+      {
+        "source": {
+          "number": 31170,
+          "quesito_id": 7007,
+          "text_it": "Il sistema di avviso di disattenzione e stanchezza del conducente (DDAW) è previsto per l'omologazione dei veicoli a motore delle categorie M e N con una velocità massima di progetto che supera i 200 km/h",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f08394459c51a5810b237b677c47af1b81c504542bebc44b816a4307ef0ad27d",
+        "localized_text": "Driver drowsiness and attention warning (DDAW) is required for type approval of M and N motor vehicles with a design speed over 200 km/h."
+      },
+      {
+        "source": {
+          "number": 31171,
+          "quesito_id": 7007,
+          "text_it": "Il sistema di avviso di disattenzione e stanchezza del conducente (DDAW) analizza altri sistemi del veicolo per il rilevamento degli indicatori di guida in condizioni di stanchezza",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5b7c2402649cfdf9d4dc347a905f49a364b93c0a1516044a4900412a3af18144",
+        "localized_text": "Driver drowsiness and attention warning (DDAW) analyses other vehicle systems to detect indicators of fatigued driving."
+      },
+      {
+        "source": {
+          "number": 31172,
+          "quesito_id": 7008,
+          "text_it": "Gli ADAS (sistemi avanzati di assistenza alla guida) possono adattare la marcia del veicolo alle variazioni delle condizioni della strada e dell'ambiente esterno ma, in caso di emergenza, non possono intervenire in maniera autonoma per evitare una collisione",
+          "answer": 0,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b3db85f6e24b4e038b7be58b72bbd300159cf961cad449f8346b82aa025d386d",
+        "localized_text": "ADAS can adapt vehicle travel to changing road and external conditions but cannot intervene autonomously to prevent a collision in an emergency."
+      },
+      {
+        "source": {
+          "number": 31173,
+          "quesito_id": 7008,
+          "text_it": "Un veicolo connesso è, in generale, un veicolo che usa un insieme di tecnologie di comunicazione per scambiare informazioni direttamente con altri veicoli o con l'infrastruttura, o mediante il Cloud",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b0f2553af8f9123035d41ff76d045e32130bf07f50aa02df71e2cdb07720bab0",
+        "localized_text": "A connected vehicle generally uses communication technologies to exchange information directly with other vehicles or infrastructure, or through the cloud."
+      }
+    ],
+    "task_sha256": "5fdb8017d61837ebc862685772ce95fe93cea5ea43285a3e0097e6117074a13e"
+  },
+  "rows": [
+    {
+      "number": 31149,
+      "text": "Emergency brake assist increases the available braking force; it does not apply minimum pressure.",
+      "evidence": [
+        "https://global.toyota/en/newsroom/toyota/24451631.html — Toyota: brake assist adds braking force in emergencies"
+      ]
+    },
+    {
+      "number": 31150,
+      "text": "Adaptive suspension electronically adjusts damping to driving conditions, balancing road holding and comfort.",
+      "evidence": [
+        "https://www.zf.com/products/en/cars/stories/systematic_damping.html — ZF: adaptive damping adjusts each wheel using sensor data for comfort and handling"
+      ]
+    },
+    {
+      "number": 31151,
+      "text": "Speed is among the inputs adaptive suspension can use to choose damping, so it cannot be ruled out.",
+      "evidence": [
+        "https://www.zf.com/products/en/cars/stories/systematic_damping.html — ZF: adaptive damping takes vehicle speed into account"
+      ]
+    },
+    {
+      "number": 31152,
+      "text": "ELC regulates suspension height against the desired level, not vehicle acceleration.",
+      "evidence": [
+        "https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_suspension_maintenance_manuals/MM1315_web_2.pdf — WABCO ECAS manual, Setting Vehicle Suspension Height Levels: controls chassis height"
+      ]
+    },
+    {
+      "number": 31153,
+      "text": "Level control can lower the entrance side of a stationary bus, making boarding and alighting easier.",
+      "evidence": [
+        "https://driverguide.volvobuses.com/lang/en/chassi/VOLVO790042/topic/254344 — Volvo Buses driver guide, Kneeling KNEEL-S: door side can lower to facilitate boarding and alighting; conditions include speed below 5 km/h. https://www.zf.com/products/media/automotive/cv/literature_downloads_wna/truck_solutions/air_suspension_sales_publications/SP9941_web.pdf — ZF WABCO OptiRide bus suspension, kneeling when stationary aids entry and exit."
+      ]
+    },
+    {
+      "number": 31154,
+      "text": "LDWS warns of unintentional lane departure, not every turn at an intersection.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/assistance-systems/lane-departure-warning/ — Bosch: warns of unintended lane departure, not an indicated turn"
+      ]
+    },
+    {
+      "number": 31155,
+      "text": "LDWS typically uses a forward-facing camera to recognize lane markings; rear bumper sensors do not describe this function.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/assistance-systems/lane-departure-warning/ — Bosch: forward-looking video camera detects lane markings"
+      ]
+    },
+    {
+      "number": 31156,
+      "text": "ESP compares actual movement with the intended direction and counteracts skidding, helping maintain the path within physical limits.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/braking-systems/electronic-stability-program/ — Bosch: compares desired and actual movement and counteracts skidding within physical limits"
+      ]
+    },
+    {
+      "number": 31157,
+      "text": "If actual movement differs from the intended direction, ESP can reduce power and brake individual wheels to counteract a skid.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/braking-systems/electronic-stability-program/ — Bosch: mismatch triggers engine power reduction and individual wheel braking"
+      ]
+    },
+    {
+      "number": 31158,
+      "text": "CBC counters instability when braking in a bend by varying brake pressure between wheels; it does not promote uncontrolled rotation.",
+      "evidence": [
+        "https://www.bmw.com.cy/content/dam/bmw/common/cs/Topics/pricelists-brochures/brochures/BMW_Catalogue_X_Series_X1.pdf.asset.1483342338516.pdf — BMW X1 brochure, safety section, PDF p. 14: CBC applies braking pressure asymmetrically in bends to assist the driver."
+      ]
+    },
+    {
+      "number": 31159,
+      "text": "When starting uphill, HHC temporarily keeps the brakes applied after pedal release, preventing rollback while the driver moves to the accelerator.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/braking-systems/esp-value-added-functions/ — Bosch, Hill hold control: holds brakes briefly after pedal release to prevent rollback"
+      ]
+    },
+    {
+      "number": 31160,
+      "text": "There is no universal 15% gradient threshold for HHC: it can assist on gentler slopes, subject to manufacturer conditions.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/braking-systems/esp-value-added-functions/ — Bosch, Hill hold control: assists inclines without specifying a 15% threshold",
+        "https://www.eatoncummins.com/content/dam/eaton-cummins/products/fulleradvantageautomated/ecjv-fuller-advantage-automated-transmission-driver-instructions-trdr0980-en-us.pdf p. 23, Hill Start Aid: example defaults to 1% and is configurable to 2% or 3%."
+      ]
+    },
+    {
+      "number": 31161,
+      "text": "CDC continuously varies damper action according to driving conditions, helping control body movement and maintain stability and comfort.",
+      "evidence": [
+        "https://www.zf.com/products/de/cv/products_64198.html — ZF CDC: continuous damper force adjustment improves stability and ride comfort"
+      ]
+    },
+    {
+      "number": 31162,
+      "text": "CDC adjusts shock absorber damping force; it does not continuously regulate vehicle acceleration.",
+      "evidence": [
+        "https://www.zf.com/products/de/cv/products_64198.html — ZF CDC: controls damping force, not propulsion"
+      ]
+    },
+    {
+      "number": 31163,
+      "text": "APA assists parking, for example by steering into a detected space; ESP stabilizes the path while driving.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/parking/parking-assist/ — Bosch park assist: identifies a space and steers during parking; ESP source describes stability control: https://www.bosch-mobility.com/en/solutions/braking-systems/electronic-stability-program/"
+      ]
+    },
+    {
+      "number": 31164,
+      "text": "Parking sensors can measure distances to obstacles in front of and behind the vehicle; the assistance system uses this information during the maneuver.",
+      "evidence": [
+        "https://www.toyota.com/content/dam/toyotaowners/digital-owners-manual-v2/en/om0r160u/chapter/ch04se050418.html — Toyota Parking Assist-Sensor manual: front and rear sensors detect objects and indicate position and distance."
+      ]
+    },
+    {
+      "number": 31165,
+      "text": "EBD distributes braking force according to load and conditions, limiting braking on less-loaded wheels to reduce their risk of locking.",
+      "evidence": [
+        "https://pressroom.toyota.com/toyota-features-star-safety-system-in-new-advertising-campaign/ — Toyota EBD description: during braking wheels with less braking effectiveness receive less force, helping prevent lockup; additional load improves rear-wheel effectiveness and permits more rear brake pressure."
+      ]
+    },
+    {
+      "number": 31166,
+      "text": "Less-loaded wheels can transmit less braking force: EBD limits their braking rather than automatically assigning them more force.",
+      "evidence": [
+        "https://pressroom.toyota.com/toyota-features-star-safety-system-in-new-advertising-campaign/ — Toyota EBD description: during braking wheels with less braking effectiveness receive less force, helping prevent lockup; additional load improves rear-wheel effectiveness and permits more rear brake pressure."
+      ]
+    },
+    {
+      "number": 31167,
+      "text": "TPMS monitors pressure and warns with a light or indicator when it detects low pressure. The warning may not be immediate and does not replace regular checks.",
+      "evidence": [
+        "https://www.nhtsa.gov/vehicle-safety/tires — NHTSA TPMS guidance: low-pressure warning is not a substitute for regular manual checks. https://static.nhtsa.gov/odi/ctr/9999/TRTR-646523-2020-003.pdf — NHTSA Mitsubishi Eclipse Cross TPMS test, PDF p. 7: detection phase may require driving after deflation; scope is the tested vehicle."
+      ]
+    },
+    {
+      "number": 31168,
+      "text": "Adaptive headlights change beam distribution to suit conditions, improving road illumination and limiting glare for others.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/assistance-systems/intelligent-headlight-control/ — Bosch: adaptive high beam adjusts light distribution to traffic"
+      ]
+    },
+    {
+      "number": 31169,
+      "text": "PAX retains the tire on the rim and uses a support ring after pressure loss. Michelin specifies up to about 200 km under stated conditions, far less than 2,000 km.",
+      "evidence": [
+        "https://www.michelin.ca/en/auto/assistance/faq — Michelin Canada FAQ, PAX System: tire retention, support ring, and up to 201 km at 89 km/h under stated conditions. This is a manufacturer example, not an unconditional range."
+      ]
+    },
+    {
+      "number": 31170,
+      "text": "The quiz marks this FALSE: 200 km/h is not the relevant threshold. Article 1 of EU Regulation 2021/1341 covers M and N vehicles with a maximum design speed above 70 km/h. A vehicle above 200 km/h also exceeds that threshold; this is not the speed at which the system activates.",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021R1341 — Regulation (EU) 2021/1341, Article 1, original 2021 edition: M and N vehicles with maximum design speed exceeding 70 km/h. Inspected original official PDF page 2, local SHA-256 37f5ed87e27745e1f2bc3a697d2865170ca470b93cc4e4d7acc08a26adb7c6ad. The quiz treats 200 km/h as the proposed threshold; this interpretation does not imply that faster vehicles are exempt."
+      ]
+    },
+    {
+      "number": 31171,
+      "text": "DDAW assesses alertness by analyzing vehicle systems, such as driving or steering patterns, and warns the driver when needed.",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32021R1341 — Regulation (EU) 2021/1341, recital 6 and Annex Part 1: DDAW assesses driver state indirectly, for example using driving or steering patterns, and warns the driver."
+      ]
+    },
+    {
+      "number": 31172,
+      "text": "Some ADAS can intervene autonomously: automatic emergency braking can brake when it detects a collision risk. Results depend on conditions and system limits.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/sensors/sensor-data-fusion/ — Bosch, AEB rear pedestrian: sensing may trigger automatic emergency braking"
+      ]
+    },
+    {
+      "number": 31173,
+      "text": "A connected vehicle exchanges data with other vehicles or infrastructure directly or through network services: information exchange is the defining feature.",
+      "evidence": [
+        "https://www.bosch.com/stories/v2x-collision-prevention-bosch-research/ — Bosch V2X: vehicle communication exchanges information with other road users and infrastructure"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "5fdb8017d61837ebc862685772ce95fe93cea5ea43285a3e0097e6117074a13e",
+    "output_sha256": "eab89c4fa129145b8ad6d5eed57c5bf7df7dbd0e2ab53b2989ae3bae7c9aff2e",
+    "author": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31149,
+      31150,
+      31151,
+      31152,
+      31153,
+      31154,
+      31155,
+      31156,
+      31157,
+      31158,
+      31159,
+      31160,
+      31161,
+      31162,
+      31163,
+      31164,
+      31165,
+      31166,
+      31167,
+      31168,
+      31169,
+      31170,
+      31171,
+      31172,
+      31173
+    ],
+    "issues": [],
+    "review_evidence": "Reviewed 25 Italian questions, verdicts and four-language explanations; no figures. Official Regulation 2021/1341 original local PDF SHA256 37f5ed87e27745e1f2bc3a697d2865170ca470b93cc4e4d7acc08a26adb7c6ad Article 1, recital 6 and Annex 3.1.4/3.3.2 independently inspected; distinguishes design-speed scope from activation, and >200 also falls within >70 scope. ZF OptiRide brochure p2 kneeling, BMW X1 brochure PDF p14 CBC, Toyota EBD exact locally retrieved page SHA256 c56a0fe3d94b5dbc74f811d960754eb61a03583e8dafe09615217e6b02008b0a, Toyota parking assist, NHTSA TPMS and Michelin PAX inspected; Toyota web endpoint returned 403 locally.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb79-75d9-7ea1-8d69-25f2c692b2a7",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "0593337c9b9a2726368f750c7d9c9b2bbe7e98de7f81831f6e4d209c2e0fcc2b",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb79-75d9-7ea1-8d69-25f2c692b2a7",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31170,
+              "reason": "The printed answer is FALSO, but the assertion says DDAW type approval is provided for M and N vehicles with maximum design speed above 200 km/h; it does not say only those vehicles or identify 200 km/h as the minimum. Such vehicles also exceed the actual 70 km/h threshold. Whether the printed wording tests an implied exclusive threshold requires independent adjudication.",
+              "checked_sources": [
+                "Regulation (EU) 2021/1341 Article 1, https://eur-lex.europa.eu/eli/reg_del/2021/1341/oj: scope includes M and N vehicles with maximum design speed above 70 km/h.",
+                "Regulation (EU) 2019/2144 Articles 6 and 19, https://eur-lex.europa.eu/eli/reg/2019/2144/oj: equipment requirement and application dates; no 200 km/h exclusion.",
+                "Assigned official source 31170, PDF page index 3: printed answer FALSO and wording does not say only or minimum."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "0593337c9b9a2726368f750c7d9c9b2bbe7e98de7f81831f6e4d209c2e0fcc2b",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

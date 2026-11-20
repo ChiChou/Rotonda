@@ -1,0 +1,49 @@
+{
+  "batch": "008",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "fdc37b6e754ef9b60f5bddff2c079faac66d5dde9a014d771a8a4c7b651a5de8",
+  "source_sha256": "0a2a6c8b054b83140fdde21ca2911ecbd8b73a7b20557fb553c40545b7cb6330",
+  "corrections": [
+    {
+      "id": "0b778550e1e1d640285927106fbce7a9303be4a08e848f11ebcf89291df302e9",
+      "before": "Según el CMR, en el transporte combinado la responsabilidad del transportista también incluye los daños causados por otros transportistas no carreteros si la carga partió en el vehículo de carretera",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), en el transporte combinado la responsabilidad del transportista también incluye los daños causados por otros transportistas no carreteros si la carga partió en el vehículo de carretera",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    },
+    {
+      "id": "0b908be77e1f068643bcd4b479867e0397ca5203c9c5dc8ee4894b634848e2ec",
+      "before": "Una empresa de transporte por carretera no necesita cumplir ningún requisito especial para transportar mercancías por cuenta de terceros dentro de la UE con vehículos de capacidad de carga superior a 3,5 t, porque el transporte en la UE es libre",
+      "after": "Una empresa de transporte por carretera no necesita cumplir ningún requisito especial para realizar transportes por cuenta de terceros dentro de la UE con vehículos de capacidad de carga superior a 3,5 t, porque el transporte en la UE es libre",
+      "reason": "El original no especifica mercancías en este enunciado."
+    },
+    {
+      "id": "0bb483135cce981e7c58f0103f6b16f2a8eed2ba02ee0a85faee2e6e435404f7",
+      "before": "Después de un viaje vacío desde el Reino Unido o desde la UE no se permiten operaciones de intercambio entre dos Estados miembros de la UE ni de cabotaje en el territorio de la otra parte",
+      "after": "Después de un viaje vacío desde el Reino Unido o desde la UE no se permiten transportes de tipo «cross-trade» (operaciones de intercambio cruzado entre dos Estados miembros de la UE), ni de cabotaje, en el territorio de la otra Parte",
+      "reason": "The term 'cross-trade' was dropped and the gloss was reduced; restored the Italian term and the 'né di cabotaje' clause structure"
+    },
+    {
+      "id": "0bc38962d6dd751d62d9fab7158d0b38c305b18a1c6c2e0002076f660bdeb4fc",
+      "before": "Los ADAS pueden adaptar la marcha del vehículo a los cambios de la vía y del entorno, pero en una emergencia no pueden intervenir de forma autónoma para evitar una colisión",
+      "after": "Los ADAS (sistemas avanzados de asistencia a la conducción) pueden adaptar la marcha del vehículo a los cambios de la vía y del entorno, pero en una emergencia no pueden intervenir de forma autónoma para evitar una colisión",
+      "reason": "Restituye el desarrollo de la sigla ADAS que figura en el original."
+    },
+    {
+      "id": "0c8b5a19fcac089ee099d06cbbd6d2786e02e8be53c4b8a8ba0a66d60683f2f1",
+      "before": "El panel mostrado indica la primera de una serie de curvas cerradas de radio reducido",
+      "after": "El panel mostrado indica la primera de una serie de curvas de herradura (curvas de radio reducido)",
+      "reason": "Tornanti son curvas de herradura; conserva también la explicación del radio reducido."
+    }
+  ],
+  "reviewed_file_sha256": "13d0ec2697d48ef39b52a5bb5d40610791b157335df7eb293b322c76eeca368f"
+}

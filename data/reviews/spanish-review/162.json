@@ -1,0 +1,43 @@
+{
+  "batch": "162",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "6abac2f5fa22db66607b97191bd303348da7696e7af21030f621bb6a5a8191e1",
+  "source_sha256": "66513d1e981f18f09e50ef24e4a8d8bdaf622e43b78dfc21b85dc574e60cdaa1",
+  "corrections": [
+    {
+      "id": "d5ec621d79d0047220609035cf3b9cd5809610545d2847ac9c73b3d274bb87fa",
+      "before": "El DUA (Documento Administrativo Único) no puede utilizarse para mercancías procedentes de terceros Estados",
+      "after": "El DAU (Documento Administrativo Único) no puede utilizarse para mercancías procedentes de terceros Estados",
+      "reason": "Keep the Italian code DAU instead of DUA"
+    },
+    {
+      "id": "d5f538641892820e1de1ce444c02529a318ec57cc715aa994ba66ee43e429e3f",
+      "before": "La detención del vehículo siempre está prohibida frente a los contenedores de residuos urbanos",
+      "after": "La parada del vehículo siempre está prohibida frente a los contenedores de residuos urbanos",
+      "reason": "Fermata indica la parada temporal."
+    },
+    {
+      "id": "d62737e9f3fde39c41bc36dd40c0bcaf88c3393b45c0385ef8af195ca4dfdd50",
+      "before": "No todos los motores diésel tienen la misma forma de encendido del combustible",
+      "after": "No todos los motores diésel tienen la misma forma de encendido del diésel",
+      "reason": "Gasolio especifica el combustible diésel."
+    },
+    {
+      "id": "d6e66a16dff62e5fcb49180aab82d04905713f49412f26e7cfacfc4e6005f4fd",
+      "before": "Es reglamentario encontrar la palabra ALTO en el pavimento como complemento de la señal vertical correspondiente",
+      "after": "Es reglamentario encontrar la palabra STOP en el pavimento como complemento de la señal vertical correspondiente",
+      "reason": "Conserva la inscripción literal que el original indica en el pavimento."
+    }
+  ],
+  "reviewed_file_sha256": "778d79c394149ef4daf434b2404930c579e4afa341166f5861c33c22db296a12"
+}

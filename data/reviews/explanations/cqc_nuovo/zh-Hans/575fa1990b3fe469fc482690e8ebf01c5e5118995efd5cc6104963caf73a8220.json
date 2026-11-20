@@ -1,0 +1,798 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31099,
+          "quesito_id": 7003,
+          "text_it": "Su un tratto di strada pianeggiante, a parità di velocità, il consumo di carburante è inferiore se si usa una marcia bassa",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "450a231938fcb9c850a37ef5c31b743ba2c5f9c2b5c638ad82854430be552e9a",
+        "localized_text": "在平路上以相同速度行驶时，使用低挡燃油消耗更低。"
+      },
+      {
+        "source": {
+          "number": 31100,
+          "quesito_id": 7003,
+          "text_it": "Il consumo di carburante dipende dalla velocità del veicolo ma è indipendente dal numero di giri del motore",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "324f7a9786b1d599c63b0004c5549035202d661feacceb207a9d2909974f99ea",
+        "localized_text": "燃油消耗取决于车辆速度，但与发动机转速无关。"
+      },
+      {
+        "source": {
+          "number": 31101,
+          "quesito_id": 7003,
+          "text_it": "Marciare a velocità costante consente di risparmiare sul consumo di carburante",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1e80597e610ea5ad87b462f5f49ba52f729bc057cdbe0f05bafefad8cc7da462",
+        "localized_text": "匀速行驶可以节省燃油。"
+      },
+      {
+        "source": {
+          "number": 31102,
+          "quesito_id": 7003,
+          "text_it": "La riduzione delle emissioni inquinanti non dipende dall'aerodinamica del veicolo",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d6e7a2b974d0e35b0d546161dee318292a69313d2ebde1650c59ff2b61e2ef10",
+        "localized_text": "减少污染物排放与车辆空气动力性能无关。"
+      },
+      {
+        "source": {
+          "number": 31103,
+          "quesito_id": 7003,
+          "text_it": "Con il motore in regime di \"fuori giri\" si determina un consumo eccessivo di carburante",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fb419596b50bb790c332eb8e2797b86a8b65410840e80fc6d840d205f2fde126",
+        "localized_text": "发动机超转会导致燃油消耗过多。"
+      },
+      {
+        "source": {
+          "number": 31104,
+          "quesito_id": 7003,
+          "text_it": "L'uso frequente del cambio di velocità comporta un minor consumo di carburante",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f4b42d63340e724d443b24660d88b06d151eccee8f63353ab5b2f3a8f0e42132",
+        "localized_text": "频繁换挡会降低燃油消耗。"
+      },
+      {
+        "source": {
+          "number": 31105,
+          "quesito_id": 7003,
+          "text_it": "Il cambio è un componente della trasmissione",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f5ced0085a6e6638fcefeecca5458f24a7b28620e5c49f1a9c3a8d2a6dd94e33",
+        "localized_text": "变速箱是传动系统的组成部分。"
+      },
+      {
+        "source": {
+          "number": 31106,
+          "quesito_id": 7003,
+          "text_it": "La scelta di una marcia appropriata al carico del veicolo consente di diminuire il consumo di carburante",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "94e5e1611dbd2383680083921ae19b0529e3fb129ca20bd9773e6890765c15b9",
+        "localized_text": "选择适合车辆载荷的挡位可以降低燃油消耗。"
+      },
+      {
+        "source": {
+          "number": 31107,
+          "quesito_id": 7003,
+          "text_it": "L'ampiezza del campo di stabilità del motore endotermico è legata all'andamento delle curve di coppia e di potenza",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "adee5bb49ff225e5460d5066032ef7446a8a5d039077dcf37e50ddef20d9dff9",
+        "localized_text": "内燃机稳定范围的宽度与转矩和功率曲线的变化有关。"
+      },
+      {
+        "source": {
+          "number": 31108,
+          "quesito_id": 7003,
+          "text_it": "L'ampiezza del campo di stabilità del motore endotermico è l'intervallo tra il numero di giri della coppia massima e quello della potenza minima",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d0f7ad76942973cd95899fb5cc2c8b5f1749b3b58d0f2f73b41c37cadd1d86e8",
+        "localized_text": "内燃机稳定范围的宽度是最大转矩转速与最小功率转速之间的区间。"
+      },
+      {
+        "source": {
+          "number": 31109,
+          "quesito_id": 7003,
+          "text_it": "Nelle salite percorse con il veicolo carico occorre fare attenzione a non superare il regime di coppia massima",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8a8e1c33afb31f7aa185d18111d7403d273209565315069c3a4b59565a28de39",
+        "localized_text": "载重车辆上坡时，必须注意不要超过最大转矩转速。"
+      },
+      {
+        "source": {
+          "number": 31110,
+          "quesito_id": 7003,
+          "text_it": "Il cambio di velocità consente di equilibrare forza di trazione e resistenza totale all'avanzamento del veicolo",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5ac14f92784b33352d5da0f7b7e7585737e661c1061ec5bde36b0db55dadd05e",
+        "localized_text": "变速箱使牵引力与车辆总行驶阻力相平衡。"
+      },
+      {
+        "source": {
+          "number": 31111,
+          "quesito_id": 7003,
+          "text_it": "Il campo di stabilità del motore endotermico è la zona nella quale il motore non consuma carburante",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "efef89226b73bba0dc3c535bf4f90b01312f0e5f69f5ae949a83b81e08b46da7",
+        "localized_text": "内燃机稳定范围是发动机不消耗燃油的区域。"
+      },
+      {
+        "source": {
+          "number": 31112,
+          "quesito_id": 7003,
+          "text_it": "Il campo di stabilità del motore endotermico è la zona nella quale il conducente è obbligato ad intervenire sul cambio di velocità",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cda8491404e508f431701361e6495767b8ad50079a3c0d9c2ac7e29f1324a02d",
+        "localized_text": "内燃机稳定范围是驾驶人必须换挡的区域。"
+      },
+      {
+        "source": {
+          "number": 31113,
+          "quesito_id": 7004,
+          "text_it": "Il cambio di velocità serve a modificare il rapporto di trasmissione tra motore e ruote motrici",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "19a5491595891f3088a81b608b026e270c5cea361d4e752aeaaa93b8cfe8f508",
+        "localized_text": "变速箱用于改变发动机与驱动轮之间的传动比。"
+      },
+      {
+        "source": {
+          "number": 31114,
+          "quesito_id": 7004,
+          "text_it": "La corretta scelta del rapporto del cambio consente di mantenere il motore endotermico nel campo di stabilità",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ef0448cfdf94125e2be9f63f717ff7d2564375396710393b9678ceaeeedb56d0",
+        "localized_text": "正确选择变速比可使内燃机保持在稳定范围内。"
+      },
+      {
+        "source": {
+          "number": 31115,
+          "quesito_id": 7004,
+          "text_it": "L'uso del cambio consente di adeguare la velocità alle variazioni di pendenza della strada",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ad92f6029415908d34280c39b19155b1618795c34ab3b830d45d96546e6e1cdf",
+        "localized_text": "使用变速箱可以使速度适应道路坡度的变化。"
+      },
+      {
+        "source": {
+          "number": 31116,
+          "quesito_id": 7004,
+          "text_it": "L'ampiezza del campo di stabilità definisce l'elasticità del motore endotermico",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5152df52ba2b90ec3c2af63323f0824d3e983580bf1ba7632227062270d09894",
+        "localized_text": "稳定范围的宽度决定内燃机的弹性。"
+      },
+      {
+        "source": {
+          "number": 31117,
+          "quesito_id": 7004,
+          "text_it": "L'ampiezza del campo di stabilità del motore endotermico determina l'\"elasticità del motore\"",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "71d7384cb19de67589e8976a6d55b97d8736fe13c1db3ee8ef16ee725164f123",
+        "localized_text": "内燃机稳定范围的宽度决定“发动机弹性”。"
+      },
+      {
+        "source": {
+          "number": 31118,
+          "quesito_id": 7004,
+          "text_it": "Il campo di stabilità del motore endotermico è l'intervallo tra il numero di giri della coppia massima e il numero di giri della potenza massima",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3d37c0bc2c809108c1df60740d904ae7b00d3e7316bbb4cf67190c4e60e8e5b4",
+        "localized_text": "内燃机稳定范围是最大转矩转速与最大功率转速之间的区间。"
+      },
+      {
+        "source": {
+          "number": 31119,
+          "quesito_id": 7004,
+          "text_it": "In salita deve aumentare la forza di trazione",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7cf5608fec22b332b14737ff610e07b201a97687b0399ab95ac1705f43a55505",
+        "localized_text": "上坡时牵引力必须增加。"
+      },
+      {
+        "source": {
+          "number": 31120,
+          "quesito_id": 7004,
+          "text_it": "La forza di trazione aumenta se inseriamo marce sempre più alte",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f2977ee66ac8bedfdfac188f150a7c9e549d38f275dcde5a1f10bf77598c1e2a",
+        "localized_text": "逐渐换入更高挡位时牵引力会增加。"
+      },
+      {
+        "source": {
+          "number": 31121,
+          "quesito_id": 7004,
+          "text_it": "L'aumento della forza di trazione si ottiene inserendo marce sempre più basse",
+          "answer": 1,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f344c2f42ca30e3a9b43b713e5d486401001e3e73b377cf48e3031aacf4708f2",
+        "localized_text": "逐渐换入更低挡位可以增加牵引力。"
+      },
+      {
+        "source": {
+          "number": 31122,
+          "quesito_id": 7004,
+          "text_it": "L'aumento della forza di trazione si ottiene inserendo marce sempre più alte",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dcc6738de73a0f4b18dd15fec0007e3d850bfa8a1a55cf26fa2a841dacffd124",
+        "localized_text": "逐渐换入更高挡位可以增加牵引力。"
+      },
+      {
+        "source": {
+          "number": 31123,
+          "quesito_id": 7004,
+          "text_it": "Percorrendo le discese è necessaria una maggiore forza di trazione",
+          "answer": 0,
+          "page": 1,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "030f65dfbba53bec225d0bd70afafb8d99f6b4ae434ea8740c6351c2008e2822",
+        "localized_text": "下坡行驶需要更大的牵引力。"
+      }
+    ],
+    "task_sha256": "575fa1990b3fe469fc482690e8ebf01c5e5118995efd5cc6104963caf73a8220"
+  },
+  "rows": [
+    {
+      "number": 31099,
+      "text": "车速相同时，低挡使发动机转速更高。在平路上，只要发动机能平稳运转，较高挡位通常更省油。",
+      "evidence": [
+        "ACI, Guida ecologica, regole 2-3, https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/guida-sicura-su-strada/guida-ecologica-o-eco-driving/: velocità regolare e marce alte compatibili con il funzionamento riducono i consumi; marce basse ad alti giri li aumentano."
+      ]
+    },
+    {
+      "number": 31100,
+      "text": "油耗也取决于发动机转速和负荷：车速相同时，换挡会改变转速，也可能改变油耗。",
+      "evidence": [
+        "ACI, Guida ecologica, regole 2-3, https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/guida-sicura-su-strada/guida-ecologica-o-eco-driving/: velocità regolare e marce alte compatibili con il funzionamento riducono i consumi; marce basse ad alti giri li aumentano.",
+        "UK Vehicle Certification Agency, Fuel efficient driving tips, https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/: il rapporto appropriato dipende da carico e pendenza; passare alla marcia superiore quando il motore la sostiene regolarmente."
+      ]
+    },
+    {
+      "number": 31101,
+      "text": "保持匀速可以避免不必要的加速和制动，这些操作会消耗能量并增加油耗。",
+      "evidence": [
+        "ACI, Guida ecologica, regole 2-3, https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/guida-sicura-su-strada/guida-ecologica-o-eco-driving/: velocità regolare e marce alte compatibili con il funzionamento riducono i consumi; marce basse ad alti giri li aumentano."
+      ]
+    },
+    {
+      "number": 31102,
+      "text": "更好的空气动力性能可减少空气阻力和发动机所需做的功。这可能降低油耗，也可能减少氮氧化物等污染物的排放，具体取决于发动机和行驶条件。",
+      "evidence": [
+        "US Department of Energy, Heavy-Duty Engines and Vehicles, chapter 10, Transmission and Aerodynamics, https://www.energy.gov/documents/chapter10-hdengines-vehiclespdf: una migliore aerodinamica riduce la resistenza e il consumo di carburante.",
+        "Bachman et al., SAE Technical Paper 2006-01-3474, https://doi.org/10.4271/2006-01-3474, abstract: nei camion diesel studiati la riduzione delle resistenze aerodinamica e al rotolamento è stata associata a minori emissioni di ossidi di azoto (NOx); il risultato dipende dal motore e dalle condizioni."
+      ]
+    },
+    {
+      "number": 31103,
+      "text": "发动机转速过高会增加油耗；条件允许时应升挡。",
+      "evidence": [
+        "ACI, Guida ecologica, regole 2-3, https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/guida-sicura-su-strada/guida-ecologica-o-eco-driving/: velocità regolare e marce alte compatibili con il funzionamento riducono i consumi; marce basse ad alti giri li aumentano."
+      ]
+    },
+    {
+      "number": 31104,
+      "text": "频繁换挡本身并不省油：关键是选择合适挡位并平稳驾驶，避免不必要的换挡和加速。",
+      "evidence": [
+        "ACI, Guida ecologica, regole 2-3, https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/guida-sicura-su-strada/guida-ecologica-o-eco-driving/: velocità regolare e marce alte compatibili con il funzionamento riducono i consumi; marce basse ad alti giri li aumentano.",
+        "UK Vehicle Certification Agency, Fuel efficient driving tips, https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/: il rapporto appropriato dipende da carico e pendenza; passare alla marcia superiore quando il motore la sostiene regolarmente."
+      ]
+    },
+    {
+      "number": 31105,
+      "text": "变速箱是传动系统的一部分，它改变发动机运动传到驱动轮的传动比。",
+      "evidence": [
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza.",
+        "US Department of Energy, Heavy-Duty Engines and Vehicles, cap. 10, Transmission and Aerodynamics, https://www.energy.gov/documents/chapter10-hdengines-vehiclespdf: rapporti corti aumentano la capacità di coppia per le pendenze; aerodinamica migliore riduce le perdite e i consumi."
+      ]
+    },
+    {
+      "number": 31106,
+      "text": "选挡也要考虑负荷：在发动机能够平稳运转的前提下，使用足够高的挡位可以降低油耗。",
+      "evidence": [
+        "UK Vehicle Certification Agency, Fuel efficient driving tips, https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/: il rapporto appropriato dipende da carico e pendenza; passare alla marcia superiore quando il motore la sostiene regolarmente."
+      ]
+    },
+    {
+      "number": 31107,
+      "text": "稳定工作范围由最大扭矩转速和最大功率转速限定，这两个转速可从相应曲线上找到。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio."
+      ]
+    },
+    {
+      "number": 31108,
+      "text": "上限是最大功率转速，而不是最小功率转速；另一端是最大扭矩转速。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio."
+      ]
+    },
+    {
+      "number": 31109,
+      "text": "最大扭矩转速并非不可超过的上限：上坡时选择合适挡位，发动机也可在其以上的稳定工作范围内运转。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio.",
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza."
+      ]
+    },
+    {
+      "number": 31110,
+      "text": "变速箱通过改变传动比来改变车轮可用的驱动力，使其适应车辆遇到的阻力。",
+      "evidence": [
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza.",
+        "US Department of Energy, Heavy-Duty Engines and Vehicles, cap. 10, Transmission and Aerodynamics, https://www.energy.gov/documents/chapter10-hdengines-vehiclespdf: rapporti corti aumentano la capacità di coppia per le pendenze; aerodinamica migliore riduce le perdite e i consumi."
+      ]
+    },
+    {
+      "number": 31111,
+      "text": "稳定工作范围是最大扭矩转速与最大功率转速之间的范围，并不意味着运转中的发动机不耗油。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio.",
+        "ACI, Guida ecologica, regole 2-3, https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/guida-sicura-su-strada/guida-ecologica-o-eco-driving/: velocità regolare e marce alte compatibili con il funzionamento riducono i consumi; marce basse ad alti giri li aumentano."
+      ]
+    },
+    {
+      "number": 31112,
+      "text": "在稳定工作范围内，发动机可以适应负荷变化，不一定需要换挡。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio."
+      ]
+    },
+    {
+      "number": 31113,
+      "text": "变速箱改变发动机与驱动轮转速之间的传动比，从而调整传递的转速和扭矩。",
+      "evidence": [
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza.",
+        "US Department of Energy, Heavy-Duty Engines and Vehicles, cap. 10, Transmission and Aerodynamics, https://www.energy.gov/documents/chapter10-hdengines-vehiclespdf: rapporti corti aumentano la capacità di coppia per le pendenze; aerodinamica migliore riduce le perdite e i consumi."
+      ]
+    },
+    {
+      "number": 31114,
+      "text": "选择适合车速和负荷的挡位，可以使发动机转速保持在最大扭矩转速与最大功率转速之间。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio."
+      ]
+    },
+    {
+      "number": 31115,
+      "text": "坡度会改变行驶阻力：选择合适挡位可为所选车速提供所需的驱动力或发动机制动。",
+      "evidence": [
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza.",
+        "UK DVSA, examiner guidance §7.06, https://www.gov.uk/guidance/guidance-for-driving-examiners-carrying-out-driving-tests-dt1/7-particular-types-of-vehicle-and-adaptations: un rapporto può fornire freno motore in discesa."
+      ]
+    },
+    {
+      "number": 31116,
+      "text": "稳定工作范围越宽，发动机无需换挡就能适应的转速变化越大，也就越有弹性。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio."
+      ]
+    },
+    {
+      "number": 31117,
+      "text": "稳定工作范围越宽，发动机无需换挡就能适应的转速变化越大，也就越有弹性。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio."
+      ]
+    },
+    {
+      "number": 31118,
+      "text": "在发动机曲线图上，这一范围从最大扭矩转速延伸到最大功率转速；在此范围内发动机可以适应负荷变化。",
+      "evidence": [
+        "University of Bologna, Angelini, tesi, fig. 8 e p. 15, https://amslaurea.unibo.it/id/eprint/13037/1/Angelini_Lorenzo_tesi.pdf: campo di stabilità tra coppia e potenza massime, elasticità e scelta del cambio."
+      ]
+    },
+    {
+      "number": 31119,
+      "text": "上坡时，沿坡向下的重力分量增加了行驶阻力，因此保持车速需要更大的驱动力。",
+      "evidence": [
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza."
+      ]
+    },
+    {
+      "number": 31120,
+      "text": "较高挡位对扭矩的放大作用较小。适当时使用较低挡位，可在车轮上获得更大的驱动力。",
+      "evidence": [
+        "US Department of Energy, Heavy-Duty Engines and Vehicles, cap. 10, Transmission and Aerodynamics, https://www.energy.gov/documents/chapter10-hdengines-vehiclespdf: rapporti corti aumentano la capacità di coppia per le pendenze; aerodinamica migliore riduce le perdite e i consumi.",
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza."
+      ]
+    },
+    {
+      "number": 31121,
+      "text": "较低挡位对发动机扭矩的放大作用更大，使驱动轮获得更大的驱动力。",
+      "evidence": [
+        "US Department of Energy, Heavy-Duty Engines and Vehicles, cap. 10, Transmission and Aerodynamics, https://www.energy.gov/documents/chapter10-hdengines-vehiclespdf: rapporti corti aumentano la capacità di coppia per le pendenze; aerodinamica migliore riduce le perdite e i consumi.",
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza."
+      ]
+    },
+    {
+      "number": 31122,
+      "text": "较高挡位对扭矩的放大作用较小；较低挡位才能使车轮获得更大的驱动力。",
+      "evidence": [
+        "US Department of Energy, Heavy-Duty Engines and Vehicles, cap. 10, Transmission and Aerodynamics, https://www.energy.gov/documents/chapter10-hdengines-vehiclespdf: rapporti corti aumentano la capacità di coppia per le pendenze; aerodinamica migliore riduce le perdite e i consumi.",
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza."
+      ]
+    },
+    {
+      "number": 31123,
+      "text": "下坡时，沿坡方向的重力分量有助于车辆前进，因此无需增加驱动力来克服坡度；但可能需要发动机制动来控制车速。",
+      "evidence": [
+        "University of Texas, Speed Vehicle Grades, cap. 2, https://library.ctr.utexas.edu/digitized/texasarchive/phase1/20-1f-ctr.pdf: la trazione alle ruote dipende dalla trasmissione e deve vincere le resistenze, inclusa quella della pendenza.",
+        "UK DVSA, examiner guidance §7.06, https://www.gov.uk/guidance/guidance-for-driving-examiners-carrying-out-driving-tests-dt1/7-particular-types-of-vehicle-and-adaptations: rapporto selezionato per freno motore in discesa."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "575fa1990b3fe469fc482690e8ebf01c5e5118995efd5cc6104963caf73a8220",
+    "output_sha256": "a57559de75a9e82e033e18d3ab3c99318eea329e041cc694e9f3738ad65185ca",
+    "author": "gpt-6.1-terra / 01a1eb79-b977-7721-b31b-ce01f1dbdf5e",
+    "reviewer": "gpt-6.1-terra / 01a1eb7b-4579-7133-af4d-ea9e18b40acc",
+    "status": "accepted",
+    "checked_numbers": [
+      31099,
+      31100,
+      31101,
+      31102,
+      31103,
+      31104,
+      31105,
+      31106,
+      31107,
+      31108,
+      31109,
+      31110,
+      31111,
+      31112,
+      31113,
+      31114,
+      31115,
+      31116,
+      31117,
+      31118,
+      31119,
+      31120,
+      31121,
+      31122,
+      31123
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "e3c03412d47de9b5f80b9e7dd7d9c90b09ad6d29286760e94786db9a7218b66a",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "a4e98af1c5dcc0b3c1d051a43f3daf8e1721f1d58796c03b281d68ac023dbb07",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1eb76-fff0-7211-aba7-048b79900805",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "2cac3082b97e35235b1c34c0c9e1decae6d78d31c51ce870f0db49dfb25a1e0c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb79-b977-7721-b31b-ce01f1dbdf5e",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "e3c03412d47de9b5f80b9e7dd7d9c90b09ad6d29286760e94786db9a7218b66a",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "45529f8ddac167912787d70853588371af09a18e2a966f6ca605dc07e0d3f09f",
+          "output_sha256": "42fb836895cf8caac28caf3ccd349af4c465bf5f9ad9c83302fa36aab1a0eb0a",
+          "author": "gpt-6.1-terra / 01a1eb76-fff0-7211-aba7-048b79900805",
+          "reviewer": "gpt-6.1-terra / 01a1eb78-c690-7ef0-aa67-1a8db5afcdc2",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31099,
+            31100,
+            31101,
+            31102,
+            31103,
+            31104,
+            31105,
+            31106,
+            31107,
+            31108,
+            31109,
+            31110,
+            31111,
+            31112,
+            31113,
+            31114,
+            31115,
+            31116,
+            31117,
+            31118,
+            31119,
+            31120,
+            31121,
+            31122,
+            31123
+          ],
+          "issues": [
+            {
+              "number": 31102,
+              "reason": "The question concerns polluting emissions, but the explanation only identifies CO₂. The cited DOE chapter supports lower aerodynamic losses and fuel use, not the claimed reduction of the air pollutants tested by the question. Provide authoritative evidence and explain the relationship without treating CO₂ as a substitute for pollutant emissions."
+            }
+          ]
+        },
+        {
+          "task_sha256": "9f75a7709a8b07afdb00cdc888890c46c438f3bedb93e296608b5065d1a0b220",
+          "output_sha256": "3b69cb18b8f77e1585007db3f1065923220d2f29877fbcbc3195bac828e36b96",
+          "author": "gpt-6.1-terra / 01a1eb76-fff0-7211-aba7-048b79900805",
+          "reviewer": "gpt-6.1-terra / 01a1eb78-c690-7ef0-aa67-1a8db5afcdc2",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31099,
+            31100,
+            31101,
+            31102,
+            31103,
+            31104,
+            31105,
+            31106,
+            31107,
+            31108,
+            31109,
+            31110,
+            31111,
+            31112,
+            31113,
+            31114,
+            31115,
+            31116,
+            31117,
+            31118,
+            31119,
+            31120,
+            31121,
+            31122,
+            31123
+          ],
+          "issues": [
+            {
+              "number": 31102,
+              "reason": "The question concerns polluting emissions, but the explanation only identifies CO₂. The cited DOE chapter supports lower aerodynamic losses and fuel use, not the claimed reduction of the air pollutants tested by the question. Provide authoritative evidence and explain the relationship without treating CO₂ as a substitute for pollutant emissions."
+            },
+            {
+              "number": 31116,
+              "reason": "“A larger change in speed” is ambiguous between vehicle speed and engine rotational speed; the Italian specifies engine regime. State engine speed or revs."
+            },
+            {
+              "number": 31117,
+              "reason": "“A larger change in speed” is ambiguous between vehicle speed and engine rotational speed; the Italian specifies engine regime. State engine speed or revs."
+            }
+          ]
+        },
+        {
+          "task_sha256": "575fa1990b3fe469fc482690e8ebf01c5e5118995efd5cc6104963caf73a8220",
+          "output_sha256": "8629aaa41e166799640dfa00485e0629d02b9df15fc48f6827351b5a67a06a80",
+          "author": "gpt-6.1-terra / 01a1eb76-fff0-7211-aba7-048b79900805",
+          "reviewer": "gpt-6.1-terra / 01a1eb78-c690-7ef0-aa67-1a8db5afcdc2",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31099,
+            31100,
+            31101,
+            31102,
+            31103,
+            31104,
+            31105,
+            31106,
+            31107,
+            31108,
+            31109,
+            31110,
+            31111,
+            31112,
+            31113,
+            31114,
+            31115,
+            31116,
+            31117,
+            31118,
+            31119,
+            31120,
+            31121,
+            31122,
+            31123
+          ],
+          "issues": [
+            {
+              "number": 31102,
+              "reason": "The question concerns polluting emissions, but the explanation only identifies CO₂. The cited DOE chapter supports lower aerodynamic losses and fuel use, not the claimed reduction of the air pollutants tested by the question. Provide authoritative evidence and explain the relationship without treating CO₂ as a substitute for pollutant emissions."
+            }
+          ]
+        },
+        {
+          "task_sha256": "afb09c33ec30e8f0461157982d547f6d975636bdb2c3a3a4c8aad5b703bbe3cb",
+          "output_sha256": "1c7abe65ef68af72865ee8c12cd04f5096c4456ab6399e5ab7b1c1de00a1c0bd",
+          "author": "gpt-6.1-terra / 01a1eb76-fff0-7211-aba7-048b79900805",
+          "reviewer": "gpt-6.1-terra / 01a1eb78-c690-7ef0-aa67-1a8db5afcdc2",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31099,
+            31100,
+            31101,
+            31102,
+            31103,
+            31104,
+            31105,
+            31106,
+            31107,
+            31108,
+            31109,
+            31110,
+            31111,
+            31112,
+            31113,
+            31114,
+            31115,
+            31116,
+            31117,
+            31118,
+            31119,
+            31120,
+            31121,
+            31122,
+            31123
+          ],
+          "issues": [
+            {
+              "number": 31102,
+              "reason": "The question concerns polluting emissions, but the explanation only identifies CO₂. The cited DOE chapter supports lower aerodynamic losses and fuel use, not the claimed reduction of the air pollutants tested by the question. Provide authoritative evidence and explain the relationship without treating CO₂ as a substitute for pollutant emissions."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

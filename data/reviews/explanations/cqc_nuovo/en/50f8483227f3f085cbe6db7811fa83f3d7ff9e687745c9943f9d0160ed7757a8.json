@@ -1,0 +1,687 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31825,
+          "quesito_id": 7050,
+          "text_it": "L'infortunio occorso ad un turista a bordo di un autobus durante il trasporto è considerato infortunio sul lavoro",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0aaa34ccc39f205e6d5ec470a1efd630ec560d4474525ad0c4c004103ab857df",
+        "localized_text": "An injury to a tourist aboard a bus during transport is considered an occupational accident."
+      },
+      {
+        "source": {
+          "number": 31826,
+          "quesito_id": 7050,
+          "text_it": "Non costituisce infortunio sul lavoro la lesione subita dal lavoratore nel caso in cui non utilizzi, per negligenza, i dispositivi di protezione individuale imposti dal datore di lavoro",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e5916fe761d0495898e18d9834b05bdeddd5e5d98702c428c228affaa9656006",
+        "localized_text": "An injury to a worker who negligently fails to use employer-required personal protective equipment is not an occupational accident."
+      },
+      {
+        "source": {
+          "number": 31827,
+          "quesito_id": 7051,
+          "text_it": "Gli elementi che caratterizzano gli infortuni sul lavoro sono: l'occasione di lavoro, la causa violenta e la lesione invalidante",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "45486048e6e0ee91711619aae181404f3d3c51d610a8a358c4eab224d8d6e3ba",
+        "localized_text": "Occupational accidents are characterised by a work connection, a violent cause and disabling injury."
+      },
+      {
+        "source": {
+          "number": 31828,
+          "quesito_id": 7051,
+          "text_it": "Ogni danneggiamento organico o funzionale del lavoratore conseguente all'attività lavorativa costituisce infortunio sul lavoro",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fcc786ec2d92d1a294e43da64cf731b1456996ad429d22c05dd0c0bda6ec0193",
+        "localized_text": "Any organic or functional damage to a worker resulting from work constitutes an occupational accident."
+      },
+      {
+        "source": {
+          "number": 31829,
+          "quesito_id": 7051,
+          "text_it": "Il danno fisico subito dal conducente che cade accidentalmente nella cisterna costituisce infortunio sul lavoro",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3901458c1175a09e5b9b2de85116934695bbf75e13778c19fa6dec1e74be917b",
+        "localized_text": "Physical injury to a driver who accidentally falls into a tank constitutes an occupational accident."
+      },
+      {
+        "source": {
+          "number": 31830,
+          "quesito_id": 7051,
+          "text_it": "L'assunzione eccessiva di alcool durante i periodi di riposo obbligatorio costituisce infortunio sul lavoro",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c69c5f4ed07aa1ad528ec930c97134ba43568813c3bb9170154ae85c9c5e8f37",
+        "localized_text": "Excessive alcohol consumption during mandatory rest periods constitutes an occupational accident."
+      },
+      {
+        "source": {
+          "number": 31831,
+          "quesito_id": 7051,
+          "text_it": "La lesione alla vista determinata dall'accidentale contatto con il materiale corrosivo trasportato costituisce infortunio sul lavoro",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b93452b7292a7465647149f7cc5227e0a0556f4e37ead8807605cf8debcd7167",
+        "localized_text": "Eye injury caused by accidental contact with corrosive cargo constitutes an occupational accident."
+      },
+      {
+        "source": {
+          "number": 31832,
+          "quesito_id": 7051,
+          "text_it": "Durante l'attività professionale, il conducente è esposto a lesioni conseguenti a incendio",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1e15358b4e25dc8dc00fab38d014bd3092fe5b783ec63a2021de577be8450020",
+        "localized_text": "During professional activity, a driver is exposed to injuries resulting from fire."
+      },
+      {
+        "source": {
+          "number": 31833,
+          "quesito_id": 7051,
+          "text_it": "La maggior parte degli incidenti stradali è attribuibile a comportamenti scorretti del conducente",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ad4964634d09f4ce0be2c22f4f8f744c497198878b4ba45eddb0992a49b78a59",
+        "localized_text": "Most road accidents are attributable to incorrect driver behaviour."
+      },
+      {
+        "source": {
+          "number": 31834,
+          "quesito_id": 7051,
+          "text_it": "Una velocità non adeguata è tra le cause più ricorrenti di incidenti stradali",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e37261cf15de45c1f91b6b990665315a5f5db7272810b0f2a16505aa2f8aa72e",
+        "localized_text": "Inappropriate speed is among the most frequent causes of road accidents."
+      },
+      {
+        "source": {
+          "number": 31835,
+          "quesito_id": 7051,
+          "text_it": "Il mancato rispetto delle norme sulla precedenza è tra le cause più ricorrenti di incidenti stradali",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0af09bbaa9496f0a1eee02db86fdb5ea360996facb2ae0a16ee11f28bd519f9d",
+        "localized_text": "Failure to obey priority rules is among the most frequent causes of road accidents."
+      },
+      {
+        "source": {
+          "number": 31836,
+          "quesito_id": 7051,
+          "text_it": "La distrazione alla guida è tra le cause più ricorrenti di incidenti stradali",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b0d7a9c81e76beb9754284ccbcfd4173bbbfd0f1b14d72c6a69b19f1c97dba27",
+        "localized_text": "Driver distraction is among the most frequent causes of road accidents."
+      },
+      {
+        "source": {
+          "number": 31837,
+          "quesito_id": 7051,
+          "text_it": "Il mancato rispetto della distanza di sicurezza è tra le cause più ricorrenti di incidenti stradali",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "58ce5fd25fe04467158b48d62518c4be26a851c39e28ad3553b332106e095582",
+        "localized_text": "Failure to maintain a safety distance is among the most frequent causes of road accidents."
+      },
+      {
+        "source": {
+          "number": 31838,
+          "quesito_id": 7051,
+          "text_it": "La stanchezza del conducente aumenta il rischio di incidente stradale",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "489127c6874cb4c8bdba9b8538bb5ea86f0b570a6af7b3d4c385e0f355ff4a7d",
+        "localized_text": "Driver fatigue increases the risk of a road accident."
+      },
+      {
+        "source": {
+          "number": 31839,
+          "quesito_id": 7051,
+          "text_it": "Il malfunzionamento delle sospensioni è tra le cause di incidenti stradali",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ebcbd1322c062661ea47a2f44d19e6884d9c5ffacbac3f04414b5738ef919dd4",
+        "localized_text": "Suspension malfunction is among the causes of road accidents."
+      },
+      {
+        "source": {
+          "number": 31840,
+          "quesito_id": 7051,
+          "text_it": "I pneumatici con battistrada usurato aumentano il rischio di incidenti stradali",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2ce2187470a4cf76c356b6c7fa03a10603a57b0223c4900ac41213d59a3f15ea",
+        "localized_text": "Tyres with worn tread increase the risk of road accidents."
+      },
+      {
+        "source": {
+          "number": 31841,
+          "quesito_id": 7051,
+          "text_it": "Il malfunzionamento dei freni è tra le cause di incidenti stradali",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "60c396021056ebeb011fa9b6317c709ee084cf6c4cdf8f971f26f9fb38150b0a",
+        "localized_text": "Brake malfunction is among the causes of road accidents."
+      },
+      {
+        "source": {
+          "number": 31842,
+          "quesito_id": 7051,
+          "text_it": "Il guasto del tachigrafo è tra le cause più ricorrenti di incidenti stradali",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bc16b8c1ed2cf1cfe7f9524dbcdb831641c688c330b0b4f8d935750c6a632344",
+        "localized_text": "Tachograph failure is among the most frequent causes of road accidents."
+      },
+      {
+        "source": {
+          "number": 31843,
+          "quesito_id": 7052,
+          "text_it": "Il malfunzionamento della pompa di iniezione è tra le cause più ricorrenti di incidenti stradali",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5d41bb17c1f4a2b34d89927473b16663f2beb0ee6ca266ce2da7994e2a5b968a",
+        "localized_text": "Injection pump malfunction is among the most frequent causes of road accidents."
+      },
+      {
+        "source": {
+          "number": 31844,
+          "quesito_id": 7052,
+          "text_it": "La mancanza di estintori a bordo del veicolo aumenta il rischio di incidenti stradali",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "23c5340f9b5df6ce6936e445478b6a45f7065f0cbaf1449d50f9b9f8fcc84f6e",
+        "localized_text": "Lack of fire extinguishers aboard increases the risk of road accidents."
+      },
+      {
+        "source": {
+          "number": 31845,
+          "quesito_id": 7052,
+          "text_it": "L'avaria alla pompa dell'acqua aumenta il rischio di incidenti stradali",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5c79d8412f749f5ac7680f9ffea29454c00a8e8766d97a2b0f2e6b2021639549",
+        "localized_text": "Water pump failure increases the risk of road accidents."
+      },
+      {
+        "source": {
+          "number": 31846,
+          "quesito_id": 7052,
+          "text_it": "Il filtro dell'aria intasato aumenta il rischio di incidente stradale",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "60310b97c52c5e248e26e286ba11f4141922bfecc40983b02832cfa60f26546a",
+        "localized_text": "A clogged air filter increases the risk of a road accident."
+      },
+      {
+        "source": {
+          "number": 31847,
+          "quesito_id": 7052,
+          "text_it": "La tipologia di combustibile (gasolio, GPL, metano) aumenta il rischio di incidente stradale",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6900017a1ca7b590198ea8953a09c77bc0b79eb451039cc0645104cb5c043b62",
+        "localized_text": "The type of fuel, diesel, LPG or methane, increases the risk of a road accident."
+      },
+      {
+        "source": {
+          "number": 31848,
+          "quesito_id": 7053,
+          "text_it": "La psicologia del traffico riguarda anche lo studio dei fattori umani e sociali associati alla promozione di condotte di guida sicure e mobilità sostenibile",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6c3af5abc86294993727b1b099a94f5e9b1ffc82ab8b5e1087daba079c050231",
+        "localized_text": "Traffic psychology also studies human and social factors associated with safe driving and sustainable mobility."
+      },
+      {
+        "source": {
+          "number": 31849,
+          "quesito_id": 7053,
+          "text_it": "La concentrazione del conducente è tra i fattori cognitivi che sembrano influire maggiormente sulle condotte di guida",
+          "answer": 1,
+          "page": 25,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a3214d7488d3c498f42890a032b01ca7cc340657ad49426aea5b1e51cb957bd4",
+        "localized_text": "Driver concentration is among the cognitive factors that appear to influence driving behaviour most."
+      }
+    ],
+    "task_sha256": "50f8483227f3f085cbe6db7811fa83f3d7ff9e687745c9943f9d0160ed7757a8"
+  },
+  "rows": [
+    {
+      "number": 31825,
+      "text": "The tourist is travelling as a passenger, not doing the driver’s work. An accident does not become a workplace accident merely because it occurs on the bus.",
+      "evidence": [
+        "https://www.inail.it/portale/assicurazione/it/lassicurazione-inail/La-tutela-assicurativa-nell-ue/Incidenti-e-infortuni-sul-lavoro.html — definizione: causa violenta, occasione di lavoro e conseguenze lesive."
+      ]
+    },
+    {
+      "number": 31826,
+      "text": "Negligence in using protective equipment does not automatically rule out a workplace accident. The connection with work matters, except in particular cases of voluntary risk unrelated to the work.",
+      "evidence": [
+        "https://www.inail.it/portale/assicurazione/it/lassicurazione-inail/La-tutela-assicurativa-nell-ue/Incidenti-e-infortuni-sul-lavoro.html — definizione: causa violenta, occasione di lavoro e conseguenze lesive.",
+        "https://www.inail.it/content/dam/inail-hub-site/documenti/2020/02/Bozza3%20Riv%20Inf%201%202017.pdf — occasione di lavoro comprende anche negligenza; distingue il rischio elettivo."
+      ]
+    },
+    {
+      "number": 31827,
+      "text": "There must be a sudden injurious cause connected with work, producing an injury with disabling consequences. An event at the workplace alone is not enough.",
+      "evidence": [
+        "https://www.inail.it/portale/assicurazione/it/lassicurazione-inail/La-tutela-assicurativa-nell-ue/Incidenti-e-infortuni-sul-lavoro.html — definizione: causa violenta, occasione di lavoro e conseguenze lesive."
+      ]
+    },
+    {
+      "number": 31828,
+      "text": "The quiz marks this TRUE: work-related harm to the body or its function can be an occupational accident. The insurance definition also requires a violent cause and a connection with work; a slowly developing occupational disease is distinct.",
+      "evidence": [
+        "Official CQC 31828 printed VERO; broad wording omits conditions rather than necessarily asserting that no conditions apply.",
+        "INAIL https://www.inail.it/portale/assicurazione/it/lassicurazione-inail/La-tutela-assicurativa-nell-ue/Incidenti-e-infortuni-sul-lavoro.html — violent cause and work occasion; INAIL coauthored research article 2013 printed p.405, PDF p.7 https://www.inail.it/content/dam/inail-hub-site/documenti/2016/01/ILRISCHIOBIOLOGICO,1.pdf — gradual occupational disease distinguished."
+      ]
+    },
+    {
+      "number": 31829,
+      "text": "If the fall into the tank occurs during work, it is a sudden event connected with work; the resulting injury can be a workplace accident.",
+      "evidence": [
+        "https://www.inail.it/portale/assicurazione/it/lassicurazione-inail/La-tutela-assicurativa-nell-ue/Incidenti-e-infortuni-sul-lavoro.html — definizione: causa violenta, occasione di lavoro e conseguenze lesive."
+      ]
+    },
+    {
+      "number": 31830,
+      "text": "Drinking too much during rest is not in itself a workplace accident: it is not an injury caused by a sudden event in connection with work.",
+      "evidence": [
+        "https://www.inail.it/portale/assicurazione/it/lassicurazione-inail/La-tutela-assicurativa-nell-ue/Incidenti-e-infortuni-sul-lavoro.html — definizione: causa violenta, occasione di lavoro e conseguenze lesive."
+      ]
+    },
+    {
+      "number": 31831,
+      "text": "Accidental contact with corrosive material during transport is a sudden event connected with work; the resulting eye injury can be a workplace accident.",
+      "evidence": [
+        "https://www.inail.it/portale/assicurazione/it/lassicurazione-inail/La-tutela-assicurativa-nell-ue/Incidenti-e-infortuni-sul-lavoro.html — definizione: causa violenta, occasione di lavoro e conseguenze lesive.",
+        "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=309284479 — caso documentato di ustioni chimiche a un conducente durante operazioni su cisterna."
+      ]
+    },
+    {
+      "number": 31832,
+      "text": "A fire during transport operations can expose the driver to burns and other injuries.",
+      "evidence": [
+        "https://www.osha.gov/ords/imis/accidentsearch.accident_detail?id=202614442 — caso documentato di autista ustionato in un incendio durante un intervento su un camion."
+      ]
+    },
+    {
+      "number": 31833,
+      "text": "Driving errors occur in many crashes: distraction, speed and failure to yield are examples. Road and vehicle factors can also contribute.",
+      "evidence": [
+        "https://www.istat.it/wp-content/uploads/2025/07/REPORT_INCIDENTI_STRADALI_2024.pdf, prospetto 9 e sezione sulle circostanze — distrazione, precedenza, velocità e distanza tra le circostanze più frequenti degli incidenti rilevati."
+      ]
+    },
+    {
+      "number": 31834,
+      "text": "Excessive or inappropriate speed leaves less room to react and stop; excessive speed is among the most frequent circumstances recorded in crashes.",
+      "evidence": [
+        "https://www.istat.it/wp-content/uploads/2025/07/REPORT_INCIDENTI_STRADALI_2024.pdf, prospetto 9 e sezione sulle circostanze — distrazione, precedenza, velocità e distanza tra le circostanze più frequenti degli incidenti rilevati."
+      ]
+    },
+    {
+      "number": 31835,
+      "text": "Failing to yield can cause paths to cross without the necessary clearance; it is among the most frequent circumstances recorded in crashes.",
+      "evidence": [
+        "https://www.istat.it/wp-content/uploads/2025/07/REPORT_INCIDENTI_STRADALI_2024.pdf, prospetto 9 e sezione sulle circostanze — distrazione, precedenza, velocità e distanza tra le circostanze più frequenti degli incidenti rilevati."
+      ]
+    },
+    {
+      "number": 31836,
+      "text": "Distraction takes attention away from the road and can delay recognition of danger; it is among the most frequent circumstances recorded in crashes.",
+      "evidence": [
+        "https://www.istat.it/wp-content/uploads/2025/07/REPORT_INCIDENTI_STRADALI_2024.pdf, prospetto 9 e sezione sulle circostanze — distrazione, precedenza, velocità e distanza tra le circostanze più frequenti degli incidenti rilevati.",
+        "https://road-safety.transport.ec.europa.eu/european-road-safety-observatory/statistics-and-analysis-archive/young-people/impairment_en — la guida richiede attenzione al traffico."
+      ]
+    },
+    {
+      "number": 31837,
+      "text": "Following too closely can leave too little room to stop when the vehicle ahead slows down. Insufficient distance is a significant recorded crash circumstance.",
+      "evidence": [
+        "https://www.istat.it/wp-content/uploads/2025/07/REPORT_INCIDENTI_STRADALI_2024.pdf, prospetto 9 e sezione sulle circostanze — distrazione, precedenza, velocità e distanza tra le circostanze più frequenti degli incidenti rilevati."
+      ]
+    },
+    {
+      "number": 31838,
+      "text": "Fatigue reduces alertness and can lengthen reaction times, increasing crash risk.",
+      "evidence": [
+        "https://road-safety.transport.ec.europa.eu/document/download/09dca415-306c-401a-9c97-8afd174ca36e_en?filename=road_safety_thematic_report_fatigue_tc_final.pdf — la stanchezza aumenta il rischio di incidente; https://road-safety.transport.ec.europa.eu/european-road-safety-observatory/statistics-and-analysis-archive/fatigue/driving-behaviour_en — riduce vigilanza e rallenta le reazioni."
+      ]
+    },
+    {
+      "number": 31839,
+      "text": "Defective suspension can impair control of the vehicle and contribute to a crash.",
+      "evidence": [
+        "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security — guasti ai freni e ammortizzatori usurati compromettono sicurezza e funzionamento.",
+        "https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/5-axles-wheels-tyres-and-suspension — una molla mancante che compromette il controllo direzionale è difetto pericoloso."
+      ]
+    },
+    {
+      "number": 31840,
+      "text": "Worn tread provides less grip, especially on wet roads, increasing the risk of losing control.",
+      "evidence": [
+        "https://www.nhtsa.gov/vehicle-safety/tires — il battistrada dà aderenza e contrasta lo slittamento, soprattutto sul bagnato."
+      ]
+    },
+    {
+      "number": 31841,
+      "text": "If the brakes malfunction, stopping can become difficult or impossible, potentially causing a crash.",
+      "evidence": [
+        "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security — guasti ai freni e ammortizzatori usurati compromettono sicurezza e funzionamento."
+      ]
+    },
+    {
+      "number": 31842,
+      "text": "The tachograph records journey data and driver activity; its failure is not among the most frequent crash causes. Common circumstances include distraction, failure to yield and speed.",
+      "evidence": [
+        "https://eur-lex.europa.eu/eli/reg/2014/165/oj/eng, art. 2 e allegato I — il tachigrafo registra movimento e periodi di attività del conducente.",
+        "https://www.istat.it/wp-content/uploads/2025/07/REPORT_INCIDENTI_STRADALI_2024.pdf, prospetto 9 e sezione sulle circostanze — distrazione, precedenza, velocità e distanza tra le circostanze più frequenti degli incidenti rilevati."
+      ]
+    },
+    {
+      "number": 31843,
+      "text": "An injection pump failure is not among the most frequent recorded crash causes; common errors include distraction, failure to yield and excessive speed.",
+      "evidence": [
+        "https://www.istat.it/wp-content/uploads/2025/07/REPORT_INCIDENTI_STRADALI_2024.pdf, prospetto 9 e sezione sulle circostanze — distrazione, precedenza, velocità e distanza tra le circostanze più frequenti degli incidenti rilevati."
+      ]
+    },
+    {
+      "number": 31844,
+      "text": "An extinguisher is used to tackle a fire in its early stages. Its absence concerns fire response and is not a direct cause of a road collision.",
+      "evidence": [
+        "https://www.hse.gov.uk/cdg/faqs.htm — dotazione di estintori per il trasporto di merci pericolose; https://assets.publishing.service.gov.uk/media/69d7a17369de22b2bf86f6af/JSP_317_Defence_fuels_policy__organisation_and_safety_regulations_-_Part_2_-_Guidance.pdf — uso degli estintori su piccoli incendi iniziali quando sicuro."
+      ]
+    },
+    {
+      "number": 31845,
+      "text": "The quiz marks this FALSE, but that does not mean there is no risk: the pump circulates coolant, and a failure can cause overheating and engine stalling. In some cases loss of propulsion can increase crash risk.",
+      "evidence": [
+        "Official CQC 31845 printed FALSO; wording gives no qualification of risk mechanism or frequency.",
+        "Mercedes-Benz recall 2019090019, NHTSA 19V605 https://static.nhtsa.gov/odi/rcl/2019/RCMN-19V605-7125.pdf p.2 — pump electrical supply fault can cause coolant temperature increase, engine stall and increased crash risk; specific configuration, no claim all pump failures produce stalls."
+      ]
+    },
+    {
+      "number": 31846,
+      "text": "The quiz marks this FALSE. A clogged air filter restricts engine air and can cause irregular operation: check and replace it according to the manufacturer’s instructions. The question specifies neither the severity of the fault nor evidence that every blockage increases crash risk.",
+      "evidence": [
+        "Official CQC 31846 printed FALSO: question does not specify severity; source below does not quantify crashes or establish a universal risk.",
+        "Audi service bulletin 01 17 20 https://static.nhtsa.gov/odi/tsbs/2017/MC-10127741-9999.pdf p.2 — clogged air filter can restrict airflow and contribute to misfire and fault codes; manufacturer example, no claimed established collision statistic.",
+        "Oak Ridge National Laboratory 2015 presentation, backup slide 26, https://www.energy.gov/sites/prod/files/2015/06/f24/ti057_west_2015_o.pdf — controlled study of five gasoline and three diesel vehicles: clogged intake filters reduced full-power acceleration; no collision rates measured."
+      ]
+    },
+    {
+      "number": 31847,
+      "text": "The quiz marks this FALSE: fuel type alone does not automatically increase crash risk. Vehicle condition and driving also matter, and fuel systems require safety measures appropriate to the fuel.",
+      "evidence": [
+        "Official CQC 31847 printed FALSO; no causal mechanism or fuel comparison is specified.",
+        "NHTSA FMVSS 303 laboratory procedure appendix D https://www.nhtsa.gov/sites/nhtsa.gov/files/tp-303-00.pdf p.79 — CNG fuel-system integrity requirements reduce fire injury from leakage during or after crashes, for specified vehicle categories; safety provisions are not proof of equal collision rates for all fuel types.",
+        "SWANA and NGVAmerica, Natural Gas: A Clean, Safe and Smart Choice for the Waste and Recycling Industry, p.2, DOE-hosted https://afdc.energy.gov/files/u/publication/Natural-Gas-A-Clean-Safe-and-Smart-Choice-for-the-Waste-Recycling-Industry.pdf — industry authors say properly operated and maintained natural-gas vehicles can be as safe as gasoline or diesel; all vehicles have risks. This is not a universal collision-rate comparison."
+      ]
+    },
+    {
+      "number": 31848,
+      "text": "Traffic psychology studies how personal and social factors influence travel and driving choices, including to promote safety and sustainable mobility.",
+      "evidence": [
+        "Primary study, The Role of Infrastructural and Psychological Factors in Sustainable Transportation Mode Choices (2025) https://duepublico2.uni-due.de/servlets/MCRFileNodeServlet/duepublico_derivate_00083843/applsci_2025_15_5953.pdf — transport-mode choices, psychological factors and sustainability; empirical study, not proof of all traffic-psychology results.",
+        "Opinion article Patterns of Drivers Traffic Behavior in Three Countries (2022) https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.869029/pdf?isPublishedV2=false — individual and social features of safe/risky driving behaviour."
+      ]
+    },
+    {
+      "number": 31849,
+      "text": "Concentration helps a driver observe traffic and recognize hazards. If attention moves elsewhere, driving decisions and reactions can deteriorate.",
+      "evidence": [
+        "https://road-safety.transport.ec.europa.eu/european-road-safety-observatory/statistics-and-analysis-archive/young-people/impairment_en — il compito di guida richiede attenzione continua al traffico; la distrazione la sposta altrove."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "50f8483227f3f085cbe6db7811fa83f3d7ff9e687745c9943f9d0160ed7757a8",
+    "output_sha256": "869c9d056f915ba92ea01675abd4e24265f1553a82d32e524b0046838d0b13e8",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / work-injury-water-pump-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      31825,
+      31826,
+      31827,
+      31828,
+      31829,
+      31830,
+      31831,
+      31832,
+      31833,
+      31834,
+      31835,
+      31836,
+      31837,
+      31838,
+      31839,
+      31840,
+      31841,
+      31842,
+      31843,
+      31844,
+      31845,
+      31846,
+      31847,
+      31848,
+      31849
+    ],
+    "issues": [],
+    "source_access_notes": [
+      "Independently inspected Mercedes-Benz 19V605 actual recall p.2–3, Audi 01 17 20 actual p.2, ORNL vehicle research presentation, SWANA/NGVA industry publication, INAIL accident definitions and case materials, and ISTAT 2024 crash report. Water pump and fuel claims correctly retain model/source scope and non-universality; no crash rate extrapolation.",
+      "Rechecked Audi actual bulletin identifier 01 17 20 across all languages and English 31827 removes unsupported externality condition; prior reviewer findings resolved."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb9e-423d-7782-8a9d-859210cf3da0",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4b9d347c5f5696baa6c90245122c473620149ca52f2f2d6636311dd357e75544",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb9e-423d-7782-8a9d-859210cf3da0",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31828,
+              "reason": "La risposta stampata VERO afferma che ogni danno organico o funzionale conseguente al lavoro è un infortunio. La definizione distingue invece gli eventi a causa violenta dalle malattie professionali a causa lenta; il testo non limita il danno a eventi improvvisi.",
+              "checked_sources": [
+                "https://www.inail.it/portale/assicurazione/it/lassicurazione-inail/La-tutela-assicurativa-nell-ue/Incidenti-e-infortuni-sul-lavoro.html — richiede causa violenta e occasione di lavoro.",
+                "https://www.inail.it/portale/assicurazione/it/Datore-di-Lavoro/Impresa-Settore-Navigazione/denunce-infortuni-e-malattie-professionali-impresa-settore-navigazione/denuncia-malattia-professionale-impresa-settore-navigazione.html — malattia professionale con causa lenta e progressiva."
+              ]
+            },
+            {
+              "number": 31845,
+              "reason": "La risposta stampata FALSO esclude senza qualificazioni che un guasto alla pompa dell’acqua aumenti il rischio di incidente; un richiamo documenta invece che il malfunzionamento della pompa del refrigerante del motore può causare arresto e aumentare il rischio. Non è esplicitato se il quesito intenda soltanto una causa diretta o frequente.",
+              "checked_sources": [
+                "https://static.nhtsa.gov/odi/rcl/2019/RCMN-19V605-7125.pdf — richiamo Mercedes-Benz 2019: malfunzionamento della pompa refrigerante motore, possibile arresto e aumento del rischio di incidente.",
+                "https://www.istat.it/wp-content/uploads/2025/07/REPORT_INCIDENTI_STRADALI_2024.pdf, prospetto 9 — elenca le circostanze più frequenti, ma non risolve la formulazione generale del quesito."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4b9d347c5f5696baa6c90245122c473620149ca52f2f2d6636311dd357e75544",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "50f8483227f3f085cbe6db7811fa83f3d7ff9e687745c9943f9d0160ed7757a8",
+        "output_sha256": "7fb243940f6cde9defe0ee3f84bb02f9371ea543fa1c435a9bfa9e8d5b6b3bb0",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / work-injury-water-pump-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31825,
+          31826,
+          31827,
+          31828,
+          31829,
+          31830,
+          31831,
+          31832,
+          31833,
+          31834,
+          31835,
+          31836,
+          31837,
+          31838,
+          31839,
+          31840,
+          31841,
+          31842,
+          31843,
+          31844,
+          31845,
+          31846,
+          31847,
+          31848,
+          31849
+        ],
+        "issues": [
+          {
+            "number": 31846,
+            "reason": "Evidence identifies the linked Audi bulletin as 24 17 88, but the actual PDF is 01 17 20 (2029233/4, 9 June 2017). Correct the identifier; p.2 supports the stated clogging/misfire mechanism."
+          },
+          {
+            "number": 31827,
+            "reason": "Sudden external cause adds an externality condition absent from Italian and can mislead about compensable work-related physical exertion. INAIL jurisprudence recognizes qualifying physical effort as causa violenta; avoid the extra qualifier."
+          }
+        ],
+        "source_access_notes": [
+          "Independently inspected Mercedes-Benz 19V605 actual recall p.2–3, Audi 01 17 20 actual p.2, ORNL vehicle research presentation, SWANA/NGVA industry publication, INAIL accident definitions and case materials, and ISTAT 2024 crash report. Water pump and fuel claims correctly retain model/source scope and non-universality; no crash rate extrapolation."
+        ]
+      }
+    ]
+  }
+}

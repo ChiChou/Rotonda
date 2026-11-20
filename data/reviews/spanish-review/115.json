@@ -1,0 +1,43 @@
+{
+  "batch": "115",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9fbff7c66fd1485d03482a0db8f64b73918818c0d84098ab875e5a1103011aa0",
+  "source_sha256": "d77a7d70240129051fc26cc7585909021e09a0251d04bac37de880a6591be6f4",
+  "corrections": [
+    {
+      "id": "99a91b5e5916be3fe32b61e1344b7916c6d30f11b0f9c2604353d6216e3246ef",
+      "before": "Según el acuerdo UE-Reino Unido, el territorio del Reino Unido también incluye Irlanda del Norte",
+      "after": "Según el acuerdo UE-Reino Unido, por territorio del Reino Unido también se entiende el de Irlanda del Norte",
+      "reason": "Definition (si intende) rendered as inclusion (incluye)"
+    },
+    {
+      "id": "99ae1ec07cd862ad1c9df21c984adfe3df5e3473829a2d8b0c8e57200fdf9892",
+      "before": "La licencia de categoría BE, salvo otra limitación indicada en el documento o ajuste a la fecha de cumpleaños del titular, tiene validez de diez años si se expide o renueva a una persona que no ha cumplido 50 años",
+      "after": "La licencia de categoría BE, salvo otra limitación indicada en el documento o ajuste a la fecha de cumpleaños del titular, tiene validez de diez años si se expide o renueva a una persona que no ha superado los 50 años",
+      "reason": "El original incluye a quienes tienen 50 años; la traducción previa los excluía."
+    },
+    {
+      "id": "99c4b6741d48ae97f73b7b6ddd357c63333b68a0b7aa1dae408d6a75ebd03dd5",
+      "before": "12##tipología12 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "12##tipologia12 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Se conserva el marcador estructural 12##tipologia12."
+    },
+    {
+      "id": "99e91357a46108717caa24c27ab0bd1abf0478d7b88520e1b9eb82af16578bbc",
+      "before": "A un conductor de vehículo automotor le resulta fácil evaluar la distancia que lo separa de un ciclomotorista que frena bruscamente para girar hacia una vía insuficientemente señalizada",
+      "after": "A un conductor de vehículo automotor le resulta fácil evaluar la distancia que lo separa de un ciclomotorista que reduce bruscamente la velocidad para girar hacia una vía insuficientemente señalizada",
+      "reason": "Rallenta indica reducir la velocidad y no necesariamente accionar el freno."
+    }
+  ],
+  "reviewed_file_sha256": "7bc94af8a58080a5093c3c6fdd3a78580e48b6a0c8aa6c57209ff5e121d2b7c2"
+}

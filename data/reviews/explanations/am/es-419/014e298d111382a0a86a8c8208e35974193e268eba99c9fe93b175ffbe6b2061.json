@@ -1,0 +1,862 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 27507,
+          "quesito_id": 5333,
+          "text_it": "Se sulla strada si trovano degli oggetti pericolosi (bottiglie di vetro, sassi o pezzi di legno), occorre prevedere il possibile rischio di cadere, passandovi sopra con la ruota del ciclomotore",
+          "answer": 1,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "1d9bdb2c495206f7a24800d53fac4b8cf4793875615bca57052aaa0acf8f0881",
+        "localized_text": "Si hay objetos peligrosos en la vía, como botellas de vidrio, piedras o trozos de madera, hay que prever el riesgo de caer al pasar sobre ellos con la rueda del ciclomotor"
+      },
+      {
+        "source": {
+          "number": 27508,
+          "quesito_id": 5333,
+          "text_it": "Se sulla strada si trovano degli oggetti pericolosi (bottiglie di vetro, sassi o pezzi di legno), occorre lasciarli nella posizione in cui si trovano, senza fare nulla",
+          "answer": 0,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "dddd5f26d0a9c53dd2a7f301983d6d1dc18b38f71232b9e09a5cbeb543368323",
+        "localized_text": "Si se encuentran objetos peligrosos en la vía, como botellas de vidrio, piedras o trozos de madera, hay que dejarlos donde están sin hacer nada"
+      },
+      {
+        "source": {
+          "number": 27509,
+          "quesito_id": 5333,
+          "text_it": "Se sulla strada si trovano degli oggetti pericolosi (bottiglie di vetro, sassi o pezzi di legno), occorre trascinarli fuori dalla strada, ma solo nelle ore notturne",
+          "answer": 0,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c7fcf2a6bd76e21954c9d9fdb77e5a8bc39f99fbe71e6b24c19aebf21a098dc3",
+        "localized_text": "Si hay objetos peligrosos en la vía, como botellas de vidrio, piedras o trozos de madera, hay que arrastrarlos fuera, pero solo de noche"
+      },
+      {
+        "source": {
+          "number": 27510,
+          "quesito_id": 5333,
+          "text_it": "Se sulla strada si trovano degli oggetti pericolosi (bottiglie di vetro, sassi o pezzi di legno), occorre spostarli verso il centro della carreggiata per essere notati a distanza dai veicoli in transito",
+          "answer": 0,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "af4f53ca66b1f2818cb009f04fdfae6f2644120af8430a35872952e594b66b37",
+        "localized_text": "Si hay objetos peligrosos en la vía (botellas de vidrio, piedras o trozos de madera), hay que moverlos hacia el centro de la calzada para que los vehículos que circulan los vean desde lejos"
+      },
+      {
+        "source": {
+          "number": 27511,
+          "quesito_id": 5334,
+          "text_it": "Se su una strada si nota la presenza di un cedimento del fondo stradale o un tombino scoperchiato, occorre avvisare gli addetti alla manutenzione della strada",
+          "answer": 1,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9acf3af4ae6c06c0619125173ec27f21c07c996d82a1e2a1e939578975e2553b",
+        "localized_text": "Si en una vía se observa un hundimiento del pavimento o una alcantarilla sin tapa, hay que avisar a los responsables del mantenimiento de la vía"
+      },
+      {
+        "source": {
+          "number": 27512,
+          "quesito_id": 5334,
+          "text_it": "Se su una strada si nota la presenza di un cedimento del fondo stradale o un tombino scoperchiato, occorre avvisare del possibile pericolo gli altri utenti",
+          "answer": 1,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "244ae84960577a991f69a9b8a5cba0222a49ac7c5b1065ba461970f8c32d2b67",
+        "localized_text": "Si se observa un hundimiento de la superficie de la vía o una alcantarilla destapada, hay que advertir a los demás usuarios del posible peligro"
+      },
+      {
+        "source": {
+          "number": 27513,
+          "quesito_id": 5334,
+          "text_it": "Se su una strada si nota la presenza di un cedimento del fondo stradale o un tombino scoperchiato, occorre ridurre la velocità del veicolo che si conduce",
+          "answer": 1,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "92b558ffd19f2c3a8f420e380f11eb09d7a8fa26dcfa876d004da4b932e391e9",
+        "localized_text": "Si se observa un hundimiento del pavimento o una alcantarilla destapada, hay que reducir la velocidad"
+      },
+      {
+        "source": {
+          "number": 27514,
+          "quesito_id": 5334,
+          "text_it": "Se su una strada si nota la presenza di un cedimento del fondo stradale o un tombino scoperchiato, occorre spostarsi dalla zona cedevole, invadendo la corsia destinata al senso opposto",
+          "answer": 0,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e31025ecec58f7f86cddd054530435058a3a435e1eefde02fd1c931e61de965c",
+        "localized_text": "Si se observa un hundimiento del pavimento o una alcantarilla sin tapa, hay que apartarse de la zona inestable invadiendo el carril contrario"
+      },
+      {
+        "source": {
+          "number": 27515,
+          "quesito_id": 5334,
+          "text_it": "Se su una strada si nota la presenza di un cedimento del fondo stradale o un tombino scoperchiato, occorre calarsi all’interno del tombino per verificare l’eventuale presenza di operai",
+          "answer": 0,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e03967d611effa0fcd7dd77263d6223e490a19567947252f3268c827b3be5dad",
+        "localized_text": "Si en una vía se observa un hundimiento del pavimento o una alcantarilla sin tapa, hay que bajar a la alcantarilla para verificar si hay trabajadores"
+      },
+      {
+        "source": {
+          "number": 27516,
+          "quesito_id": 5334,
+          "text_it": "Se su una strada si nota la presenza di un cedimento del fondo stradale o un tombino scoperchiato, occorre avvisare le autorità solo se si tratta di un tombino di gas, luce e acqua",
+          "answer": 0,
+          "page": 157,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a534d9810224b320b6da105ef6ca85268a2131ead1814503fa89be88ca3e837c",
+        "localized_text": "Si se observa un hundimiento de la vía o una alcantarilla destapada, hay que avisar a las autoridades solo si corresponde a gas, electricidad o agua"
+      }
+    ],
+    "task_sha256": "014e298d111382a0a86a8c8208e35974193e268eba99c9fe93b175ffbe6b2061"
+  },
+  "rows": [
+    {
+      "number": 27507,
+      "text": "Una rueda que pasa sobre objetos o una superficie irregular puede perder estabilidad; en un vehículo de dos ruedas esto puede causar una caída.",
+      "evidence": [
+        "https://assets.publishing.service.gov.uk/media/5fa19888e90e07042c1e10f0/Transaidetal-2020-InstructorsManualCBCMotorcycleRiderTraining-Generic-AfCAP-RAF2114A-190524__1_.pdf, p. 58: superfici irregolari possono compromettere il controllo della moto."
+      ]
+    },
+    {
+      "number": 27508,
+      "text": "No ignores el peligro: intenta despejar la calzada de inmediato si es posible sin ponerte en riesgo. Además, advierte del obstáculo a los demás usuarios y avisa al organismo vial o a la policía.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-161.php, commi 1 e 3: liberare sollecitamente per quanto possibile; nei casi previsti segnalare pericolo o intralcio agli utenti e informare ente proprietario o polizia."
+      ]
+    },
+    {
+      "number": 27509,
+      "text": "No hay que esperar a la noche: intenta retirar el obstáculo de inmediato si es posible sin ponerte en riesgo. Además, advierte del peligro a los demás usuarios y avisa al organismo vial o a la policía.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-161.php, commi 1 e 3: liberare sollecitamente per quanto possibile; nei casi previsti segnalare pericolo o intralcio agli utenti e informare ente proprietario o polizia."
+      ]
+    },
+    {
+      "number": 27510,
+      "text": "Mover los objetos hacia el centro puede obstruir el tránsito o ponerlo en peligro. En cambio, despeja la calzada en la medida de lo posible y advierte a los demás del peligro.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-161.php, commi 1 e 3: liberare il transito e segnalare il pericolo."
+      ]
+    },
+    {
+      "number": 27511,
+      "text": "Avisar a quien administra la vía permite intervenir ante el peligro: el organismo propietario de la vía se encarga de su mantenimiento y control.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-14.php, comma 1: manutenzione e controllo tecnico spettano all’ente proprietario."
+      ]
+    },
+    {
+      "number": 27512,
+      "text": "Un hundimiento o una alcantarilla abierta puede sorprender a quienes se acercan; advertirles ayuda a que conozcan el peligro.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-161.php, comma 3: in caso di ingombro si segnala il pericolo agli utenti; https://www.aci.it/fileadmin/cds/art-14.php, comma 1: manutenzione e segnaletica spettano all’ente."
+      ]
+    },
+    {
+      "number": 27513,
+      "text": "Reducir la velocidad da más margen para controlar el vehículo y detenerse ante un peligro previsible.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-141.php, commi 1 e 2: velocità adeguata alla strada e arresto davanti a ostacoli prevedibili."
+      ]
+    },
+    {
+      "number": 27514,
+      "text": "No invadas automáticamente el carril contrario: reduce la velocidad y, si no puedes rodear el peligro sin riesgos, detente.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-141.php, commi 1 e 2: controllo e arresto sicuro; https://www.aci.it/fileadmin/cds/art-143.php, comma 1: circolazione a destra."
+      ]
+    },
+    {
+      "number": 27515,
+      "text": "No bajes a la alcantarilla: puede ser un espacio confinado peligroso. Informa del problema a quien administra la vía.",
+      "evidence": [
+        "https://www.hse.gov.uk/pubns/priced/hsg150.pdf, p. 100, paragrafi 510-513: tombini e spazi confinati possono contenere gas e richiedono un sistema di lavoro sicuro; https://www.aci.it/fileadmin/cds/art-14.php, comma 1: manutenzione all’ente proprietario."
+      ]
+    },
+    {
+      "number": 27516,
+      "text": "Se debe informar de un hundimiento o una alcantarilla abierta por el peligro para la circulación, cualquiera que sea el servicio al que pertenezca.",
+      "evidence": [
+        "https://www.aci.it/fileadmin/cds/art-14.php, comma 1: l’ente proprietario cura manutenzione e controllo tecnico delle strade."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "014e298d111382a0a86a8c8208e35974193e268eba99c9fe93b175ffbe6b2061",
+    "output_sha256": "28a7a368e080d233c46c12fa32efef44dc5dcd8d50561d0054f823511ae07071",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / road-obstruction-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      27507,
+      27508,
+      27509,
+      27510,
+      27511,
+      27512,
+      27513,
+      27514,
+      27515,
+      27516
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1ea61-5c99-72f3-a75e-929c0a03f7bb",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b1f8f22577841577934397d8442f0578b95f1e9755718283dd8d30e81795970b",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea65-6ee7-7980-8d57-7026e72914b3",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "2d8336fbaa068f50abc1d685a9aa1fc925f885cdec31372ed1a1dfcf636855a4",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea68-f0a5-7752-8c6f-56bc901cdee0",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "873d2f696fa0af1a79cb450eb3c19c1e6838d288def75921324e004f5411bf0a",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea6b-8565-7431-968a-c1ce6546b518",
+        "label": "author-3-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "897dfac9dfc2624f6cbf5aefa8535c1b3a69fab362817ec876e4f3f466cc1f74",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "05fbb3ac1b9b356a3bc3bd827482fe903148910a690734e1c54bf7b925a2c87e",
+          "output_sha256": "7540cad23fcf5452a7559ce532c55a037c5a3152f67e56772a3d00ddc8ad16a6",
+          "author": "gpt-6.1-terra / 01a1ea61-5c99-72f3-a75e-929c0a03f7bb",
+          "reviewer": "gpt-6.1-terra / 01a1ea63-bbd6-7332-9f76-39839be9ad83",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27518,
+              "reason": "The explanation says breaks interrupt driving and repeats the penalty, but does not explain the rule or why it applies. Add a substantive, sourced explanation, such as the applicable driving-period and break requirement."
+            },
+            {
+              "number": 27520,
+              "reason": "Merely stating that rest differs from a driving break and that violations are penalized does not explain the minimum rest requirement or its purpose; add a substantive sourced explanation."
+            },
+            {
+              "number": 27521,
+              "reason": "Saying breaks and rest have their own functions and durations without stating either function or a relevant requirement repeats the verdict rather than explaining it."
+            },
+            {
+              "number": 27523,
+              "reason": "The text presents a single 45-minute break after 4½ hours as invariably required unless rest begins, omitting the permitted split break taken during the driving period. Clarify that the requirement may already have been met in prescribed parts; see Regulation 561/2006 Article 7 and https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en."
+            },
+            {
+              "number": 27524,
+              "reason": "The wording implies a fresh break is always required after reaching 4½ hours, even where the qualifying break was already taken in permitted parts. Explain the threshold and split-break option accurately under Regulation 561/2006 Article 7."
+            }
+          ]
+        },
+        {
+          "task_sha256": "6a3a49237c0696617baafe512303adf9d9b2647d5fb987f0d3feb0af40294629",
+          "output_sha256": "f1b093065a0016afbd58766c939a3cf58490bbf4113a337d70be7a677516ffd1",
+          "author": "gpt-6.1-terra / 01a1ea61-5c99-72f3-a75e-929c0a03f7bb",
+          "reviewer": "gpt-6.1-terra / 01a1ea63-bbd6-7332-9f76-39839be9ad83",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27518,
+              "reason": "The explanation says breaks interrupt driving and repeats the penalty, but does not explain the rule or why it applies. Add a substantive, sourced explanation, such as the applicable driving-period and break requirement."
+            },
+            {
+              "number": 27520,
+              "reason": "Merely stating that rest differs from a driving break and that violations are penalized does not explain the minimum rest requirement or its purpose; add a substantive sourced explanation."
+            },
+            {
+              "number": 27521,
+              "reason": "Saying breaks and rest have their own functions and durations without stating either function or a relevant requirement repeats the verdict rather than explaining it."
+            },
+            {
+              "number": 27523,
+              "reason": "The text presents a single 45-minute break after 4½ hours as invariably required unless rest begins, omitting the permitted split break taken during the driving period. Clarify that the requirement may already have been met in prescribed parts; see Regulation 561/2006 Article 7 and https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en."
+            },
+            {
+              "number": 27524,
+              "reason": "The wording implies a fresh break is always required after reaching 4½ hours, even where the qualifying break was already taken in permitted parts. Explain the threshold and split-break option accurately under Regulation 561/2006 Article 7."
+            }
+          ]
+        },
+        {
+          "task_sha256": "930faa1e1b784b5db424349cd55b7e87100064d43e437b51b4fffc13a8bc92e3",
+          "output_sha256": "36e84035df44a3ac7a5fc7f145d0c9068ef9ecc84e37015da11485ee9ca4ee70",
+          "author": "gpt-6.1-terra / 01a1ea61-5c99-72f3-a75e-929c0a03f7bb",
+          "reviewer": "gpt-6.1-terra / 01a1ea63-bbd6-7332-9f76-39839be9ad83",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27518,
+              "reason": "The explanation says breaks interrupt driving and repeats the penalty, but does not explain the rule or why it applies. Add a substantive, sourced explanation, such as the applicable driving-period and break requirement."
+            },
+            {
+              "number": 27520,
+              "reason": "Merely stating that rest differs from a driving break and that violations are penalized does not explain the minimum rest requirement or its purpose; add a substantive sourced explanation."
+            },
+            {
+              "number": 27521,
+              "reason": "Saying breaks and rest have their own functions and durations without stating either function or a relevant requirement repeats the verdict rather than explaining it."
+            },
+            {
+              "number": 27523,
+              "reason": "The text presents a single 45-minute break after 4½ hours as invariably required unless rest begins, omitting the permitted split break taken during the driving period. Clarify that the requirement may already have been met in prescribed parts; see Regulation 561/2006 Article 7 and https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en."
+            },
+            {
+              "number": 27524,
+              "reason": "The wording implies a fresh break is always required after reaching 4½ hours, even where the qualifying break was already taken in permitted parts. Explain the threshold and split-break option accurately under Regulation 561/2006 Article 7."
+            }
+          ]
+        },
+        {
+          "task_sha256": "3854c7a49b8f9d94ad0fef9cceb3f1505b0da382d340b7c7a5602a330f1e99d5",
+          "output_sha256": "6354aac1089a14bb8a86edaad40fd6768c19bf2fd4f75ad5263a8b27c66e192c",
+          "author": "gpt-6.1-terra / 01a1ea61-5c99-72f3-a75e-929c0a03f7bb",
+          "reviewer": "gpt-6.1-terra / 01a1ea63-bbd6-7332-9f76-39839be9ad83",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27518,
+              "reason": "The explanation says breaks interrupt driving and repeats the penalty, but does not explain the rule or why it applies. Add a substantive, sourced explanation, such as the applicable driving-period and break requirement."
+            },
+            {
+              "number": 27520,
+              "reason": "Merely stating that rest differs from a driving break and that violations are penalized does not explain the minimum rest requirement or its purpose; add a substantive sourced explanation."
+            },
+            {
+              "number": 27521,
+              "reason": "Saying breaks and rest have their own functions and durations without stating either function or a relevant requirement repeats the verdict rather than explaining it."
+            },
+            {
+              "number": 27523,
+              "reason": "The text presents a single 45-minute break after 4½ hours as invariably required unless rest begins, omitting the permitted split break taken during the driving period. Clarify that the requirement may already have been met in prescribed parts; see Regulation 561/2006 Article 7 and https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en."
+            },
+            {
+              "number": 27524,
+              "reason": "The wording implies a fresh break is always required after reaching 4½ hours, even where the qualifying break was already taken in permitted parts. Explain the threshold and split-break option accurately under Regulation 561/2006 Article 7."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "05fbb3ac1b9b356a3bc3bd827482fe903148910a690734e1c54bf7b925a2c87e",
+          "output_sha256": "e0fe5cca083bc6d8cca83fb54b5a652cf6623ae9878fe084856c42bf0fd6ffbc",
+          "author": "gpt-6.1-terra / 01a1ea65-6ee7-7980-8d57-7026e72914b3",
+          "reviewer": "gpt-6.1-terra / 01a1ea67-a9bc-7ee1-8bad-7f3d1dba9480",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27524,
+              "reason": "The wording requires or implies completion of the 45-minute break by the instant 4.5 hours is reached (especially zh-Hans 须已完成); Article 7 permits the uninterrupted break to start after 4.5 hours, before further driving. Also the stated alternatives omit the additional split permitted for occasional passenger services (Article 7, third paragraph). Clarify the normal rule and applicable exception consistently in all four languages. See https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:02006R0561-20240522 and https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en."
+            }
+          ]
+        },
+        {
+          "task_sha256": "6a3a49237c0696617baafe512303adf9d9b2647d5fb987f0d3feb0af40294629",
+          "output_sha256": "592f4fba30ad50b36fd643fba40be515b437a3dc6b42bb83da404ccad83468e8",
+          "author": "gpt-6.1-terra / 01a1ea65-6ee7-7980-8d57-7026e72914b3",
+          "reviewer": "gpt-6.1-terra / 01a1ea67-a9bc-7ee1-8bad-7f3d1dba9480",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27524,
+              "reason": "The wording requires or implies completion of the 45-minute break by the instant 4.5 hours is reached (especially zh-Hans 须已完成); Article 7 permits the uninterrupted break to start after 4.5 hours, before further driving. Also the stated alternatives omit the additional split permitted for occasional passenger services (Article 7, third paragraph). Clarify the normal rule and applicable exception consistently in all four languages. See https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:02006R0561-20240522 and https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en."
+            }
+          ]
+        },
+        {
+          "task_sha256": "930faa1e1b784b5db424349cd55b7e87100064d43e437b51b4fffc13a8bc92e3",
+          "output_sha256": "87fa71641a9555480becfcf940b43e03f5397d6c52f4ff66067a4eb01f8a964b",
+          "author": "gpt-6.1-terra / 01a1ea65-6ee7-7980-8d57-7026e72914b3",
+          "reviewer": "gpt-6.1-terra / 01a1ea67-a9bc-7ee1-8bad-7f3d1dba9480",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27524,
+              "reason": "The wording requires or implies completion of the 45-minute break by the instant 4.5 hours is reached (especially zh-Hans 须已完成); Article 7 permits the uninterrupted break to start after 4.5 hours, before further driving. Also the stated alternatives omit the additional split permitted for occasional passenger services (Article 7, third paragraph). Clarify the normal rule and applicable exception consistently in all four languages. See https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:02006R0561-20240522 and https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en."
+            }
+          ]
+        },
+        {
+          "task_sha256": "3854c7a49b8f9d94ad0fef9cceb3f1505b0da382d340b7c7a5602a330f1e99d5",
+          "output_sha256": "979cdef5c773d6bdfcd52191219c6f9c7d3519e48394d32e8c959d5cded18969",
+          "author": "gpt-6.1-terra / 01a1ea65-6ee7-7980-8d57-7026e72914b3",
+          "reviewer": "gpt-6.1-terra / 01a1ea67-a9bc-7ee1-8bad-7f3d1dba9480",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27524,
+              "reason": "The wording requires or implies completion of the 45-minute break by the instant 4.5 hours is reached (especially zh-Hans 须已完成); Article 7 permits the uninterrupted break to start after 4.5 hours, before further driving. Also the stated alternatives omit the additional split permitted for occasional passenger services (Article 7, third paragraph). Clarify the normal rule and applicable exception consistently in all four languages. See https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:02006R0561-20240522 and https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "05fbb3ac1b9b356a3bc3bd827482fe903148910a690734e1c54bf7b925a2c87e",
+          "output_sha256": "31a3cb247612e9b4a803932d495a2d4b8e3bdb6d7d3692751d6e793b3c10c8cc",
+          "author": "gpt-6.1-terra / 01a1ea68-f0a5-7752-8c6f-56bc901cdee0",
+          "reviewer": "gpt-6.1-terra / 01a1ea6a-1407-7451-b57d-f5b22fcab7d6",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27519,
+              "reason": "The explanation says the service-register extract records activity periods, but Regulation 561/2006 Article 16(2) describes a duty roster showing the schedule laid down in advance for driving, other work, breaks and availability. Clarify that the extract concerns the planned schedule; do not imply that it records actual activities. https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:02006R0561-20240522"
+            }
+          ]
+        },
+        {
+          "task_sha256": "6a3a49237c0696617baafe512303adf9d9b2647d5fb987f0d3feb0af40294629",
+          "output_sha256": "005c648eb6e049ff117b65165a501956bf5e375bbd3df689e40e4c4b03c8c584",
+          "author": "gpt-6.1-terra / 01a1ea68-f0a5-7752-8c6f-56bc901cdee0",
+          "reviewer": "gpt-6.1-terra / 01a1ea6a-1407-7451-b57d-f5b22fcab7d6",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27519,
+              "reason": "The explanation says the service-register extract records activity periods, but Regulation 561/2006 Article 16(2) describes a duty roster showing the schedule laid down in advance for driving, other work, breaks and availability. Clarify that the extract concerns the planned schedule; do not imply that it records actual activities. https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:02006R0561-20240522"
+            }
+          ]
+        },
+        {
+          "task_sha256": "930faa1e1b784b5db424349cd55b7e87100064d43e437b51b4fffc13a8bc92e3",
+          "output_sha256": "2a289c4c6865d88520eba5efc5d9751deacf90d08228dfb9587effa68cb19cef",
+          "author": "gpt-6.1-terra / 01a1ea68-f0a5-7752-8c6f-56bc901cdee0",
+          "reviewer": "gpt-6.1-terra / 01a1ea6a-1407-7451-b57d-f5b22fcab7d6",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27519,
+              "reason": "The explanation says the service-register extract records activity periods, but Regulation 561/2006 Article 16(2) describes a duty roster showing the schedule laid down in advance for driving, other work, breaks and availability. Clarify that the extract concerns the planned schedule; do not imply that it records actual activities. https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:02006R0561-20240522"
+            }
+          ]
+        },
+        {
+          "task_sha256": "3854c7a49b8f9d94ad0fef9cceb3f1505b0da382d340b7c7a5602a330f1e99d5",
+          "output_sha256": "7102ca635ed60f6bf58841b31f47831b5f163bef5dedf639413df981703a34f0",
+          "author": "gpt-6.1-terra / 01a1ea68-f0a5-7752-8c6f-56bc901cdee0",
+          "reviewer": "gpt-6.1-terra / 01a1ea6a-1407-7451-b57d-f5b22fcab7d6",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27517,
+            27518,
+            27519,
+            27520,
+            27521,
+            27522,
+            27523,
+            27524,
+            27525,
+            27526,
+            27527,
+            27528,
+            27529,
+            27530,
+            27531
+          ],
+          "issues": [
+            {
+              "number": 27519,
+              "reason": "The explanation says the service-register extract records activity periods, but Regulation 561/2006 Article 16(2) describes a duty roster showing the schedule laid down in advance for driving, other work, breaks and availability. Clarify that the extract concerns the planned schedule; do not imply that it records actual activities. https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:02006R0561-20240522"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "87159de3f8b0d69f752dbe791a7bdebc87dbd4f66270d7a5677d189fb73b3505",
+          "output_sha256": "b5af4de2ae496d675436cf1b18197051fa5050a4a91cbb553294a208d27c9c81",
+          "author": "gpt-6.1-terra / 01a1ea6b-8565-7431-968a-c1ce6546b518",
+          "reviewer": "gpt-6.1-terra / 01a1ea6d-3b88-7942-ac8a-a0d67b0311cf",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27507,
+            27508,
+            27509,
+            27510,
+            27511,
+            27512,
+            27513,
+            27514,
+            27515,
+            27516
+          ],
+          "issues": [
+            {
+              "number": 27508,
+              "reason": "The explanation makes warning users and informing the road authority or police conditional on being unable to clear the obstruction. Article 161(3) requires these measures in the cases covered by the article, not only as an alternative to removal. State the safe actions without presenting notification as conditional on non-removal. https://www.aci.it/fileadmin/cds/art-161.php"
+            },
+            {
+              "number": 27509,
+              "reason": "The explanation presents signaling and informing the road authority or police as an alternative to removal, whereas Article 161(3) requires these measures in the cases covered by the article. Clarify their relationship to removal. https://www.aci.it/fileadmin/cds/art-161.php"
+            }
+          ]
+        },
+        {
+          "task_sha256": "a6d6de1a0eb1832efde1e32376cd353a56a2e7608c78332f5d8ac18b4971ff95",
+          "output_sha256": "56abea6f78c23477f28d16feea1c7e44fbeb46f62538771d9fc3a8b6c3b50ac4",
+          "author": "gpt-6.1-terra / 01a1ea6b-8565-7431-968a-c1ce6546b518",
+          "reviewer": "gpt-6.1-terra / 01a1ea6d-3b88-7942-ac8a-a0d67b0311cf",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27507,
+            27508,
+            27509,
+            27510,
+            27511,
+            27512,
+            27513,
+            27514,
+            27515,
+            27516
+          ],
+          "issues": [
+            {
+              "number": 27508,
+              "reason": "The explanation makes warning users and informing the road authority or police conditional on being unable to clear the obstruction. Article 161(3) requires these measures in the cases covered by the article, not only as an alternative to removal. State the safe actions without presenting notification as conditional on non-removal. https://www.aci.it/fileadmin/cds/art-161.php"
+            },
+            {
+              "number": 27509,
+              "reason": "The explanation presents signaling and informing the road authority or police as an alternative to removal, whereas Article 161(3) requires these measures in the cases covered by the article. Clarify their relationship to removal. https://www.aci.it/fileadmin/cds/art-161.php"
+            }
+          ]
+        },
+        {
+          "task_sha256": "b34146a7312d11c8e90da2b9b2a2a8ae2c94c3e99a9d45d17b8de3878c6d9d0f",
+          "output_sha256": "24b199ae000f667749ddf0db39c846fde62833e044a8c12333e247233eb8acf9",
+          "author": "gpt-6.1-terra / 01a1ea6b-8565-7431-968a-c1ce6546b518",
+          "reviewer": "gpt-6.1-terra / 01a1ea6d-3b88-7942-ac8a-a0d67b0311cf",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27507,
+            27508,
+            27509,
+            27510,
+            27511,
+            27512,
+            27513,
+            27514,
+            27515,
+            27516
+          ],
+          "issues": [
+            {
+              "number": 27508,
+              "reason": "The explanation makes warning users and informing the road authority or police conditional on being unable to clear the obstruction. Article 161(3) requires these measures in the cases covered by the article, not only as an alternative to removal. State the safe actions without presenting notification as conditional on non-removal. https://www.aci.it/fileadmin/cds/art-161.php"
+            },
+            {
+              "number": 27509,
+              "reason": "The explanation presents signaling and informing the road authority or police as an alternative to removal, whereas Article 161(3) requires these measures in the cases covered by the article. Clarify their relationship to removal. https://www.aci.it/fileadmin/cds/art-161.php"
+            }
+          ]
+        },
+        {
+          "task_sha256": "ea6c50a937973acedb29a70a41e72298c623811563294ce4f1025e6cd37bb9ce",
+          "output_sha256": "de51a6a4cfee8700874fb34a85ab1c1b4076ab70c0bfc40c69adabd321417291",
+          "author": "gpt-6.1-terra / 01a1ea6b-8565-7431-968a-c1ce6546b518",
+          "reviewer": "gpt-6.1-terra / 01a1ea6d-3b88-7942-ac8a-a0d67b0311cf",
+          "status": "needs_changes",
+          "checked_numbers": [
+            27507,
+            27508,
+            27509,
+            27510,
+            27511,
+            27512,
+            27513,
+            27514,
+            27515,
+            27516
+          ],
+          "issues": [
+            {
+              "number": 27508,
+              "reason": "The explanation makes warning users and informing the road authority or police conditional on being unable to clear the obstruction. Article 161(3) requires these measures in the cases covered by the article, not only as an alternative to removal. State the safe actions without presenting notification as conditional on non-removal. https://www.aci.it/fileadmin/cds/art-161.php"
+            },
+            {
+              "number": 27509,
+              "reason": "The explanation presents signaling and informing the road authority or police as an alternative to removal, whereas Article 161(3) requires these measures in the cases covered by the article. Clarify their relationship to removal. https://www.aci.it/fileadmin/cds/art-161.php"
+            }
+          ]
+        }
+      ],
+      {
+        "task_sha256": "ea6c50a937973acedb29a70a41e72298c623811563294ce4f1025e6cd37bb9ce",
+        "output_sha256": "0a65fa13bdb1c148434424b9fbaf771eb3e01d4999b80a81d62124ece68c06b4",
+        "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / road-obstruction-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          27507,
+          27508,
+          27509,
+          27510,
+          27511,
+          27512,
+          27513,
+          27514,
+          27515,
+          27516
+        ],
+        "issues": [
+          "27510: Moving objects toward the center can obstruct or endanger traffic, but does not necessarily increase the obstruction in every starting position. Qualify this causal claim.",
+          "27509: The localized source says botellas, omitting the original bottiglie di vetro (glass bottles). Correct and independently review the source translation before rebinding the task."
+        ]
+      }
+    ]
+  }
+}

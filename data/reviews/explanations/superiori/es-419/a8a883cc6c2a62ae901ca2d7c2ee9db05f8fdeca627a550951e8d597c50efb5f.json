@@ -1,0 +1,863 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 30036,
+          "quesito_id": 6207,
+          "text_it": "L’indice di capacità di carico di uno pneumatico è un numero di due o tre cifre seguito dalle lettere km/h, riportato sul suo fianco",
+          "answer": 0,
+          "page": 124,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "500ff73b6f096c027fabb32b23c9eda21f25619f6568def36bdafcde93273d82",
+        "localized_text": "El índice de capacidad de carga de un neumático es un número de dos o tres cifras seguido de las letras km/h que figura en su costado"
+      },
+      {
+        "source": {
+          "number": 30037,
+          "quesito_id": 6207,
+          "text_it": "L’indice di velocità di uno pneumatico non viene indicato nel caso di pneumatici da utilizzare solo in gemello",
+          "answer": 0,
+          "page": 124,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b76c8d656d89fc3d723ac5f7a858a5f30898686fe77e1f32908acf2e33e0c67d",
+        "localized_text": "El índice de velocidad no se indica en neumáticos que solo se usan en montaje gemelo"
+      },
+      {
+        "source": {
+          "number": 30038,
+          "quesito_id": 6208,
+          "text_it": "Sul fianco dello pneumatico viene indicato se si tratta di uno pneumatico da utilizzare senza camera d’aria",
+          "answer": 1,
+          "page": 124,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5aa083764601fe9f924d3e734f40be1b299e4bc12aa6f754d08e033f31dfbb48",
+        "localized_text": "En el costado del neumático se indica si debe utilizarse sin cámara de aire"
+      },
+      {
+        "source": {
+          "number": 30039,
+          "quesito_id": 6208,
+          "text_it": "Se sul fianco dello pneumatico compare la scritta M+S, significa che lo pneumatico è omologato a percorsi innevati o fangosi",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ec8a124d30b201b3fb758fcaca1158ecd1e2a857cf3e25384fe1cdfcd56cb638",
+        "localized_text": "Si en el costado del neumático aparece M+S significa que está homologado para recorridos con nieve o lodo"
+      },
+      {
+        "source": {
+          "number": 30040,
+          "quesito_id": 6208,
+          "text_it": "Sul fianco dello pneumatico viene indicato se si tratta di uno pneumatico da utilizzare con camera d’aria",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "00b963236d0da6799efea7a384d929c3b649337bd3d4d17092f55dd987c063a7",
+        "localized_text": "En el costado del neumático se indica si debe utilizarse con cámara de aire"
+      },
+      {
+        "source": {
+          "number": 30041,
+          "quesito_id": 6208,
+          "text_it": "Dalle scritte che compaiono sul fianco dello pneumatico è possibile ricavare la settimana e l’anno di produzione dello pneumatico",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6608af6bb172f31af1d9a2157dc0b71f58692a15a7ed638fc0549b0d03e47a05",
+        "localized_text": "Las inscripciones en el costado del neumático permiten conocer su semana y año de fabricación"
+      },
+      {
+        "source": {
+          "number": 30042,
+          "quesito_id": 6208,
+          "text_it": "Sul fianco dello pneumatico si può trovare la sigla TWI",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e0d2eb51a6ebaebe994c137868938934db880d43ced2d78b15d03e74ca4c530e",
+        "localized_text": "En el costado del neumático puede encontrarse la sigla TWI"
+      },
+      {
+        "source": {
+          "number": 30043,
+          "quesito_id": 6208,
+          "text_it": "La sigla TWI, posta sul fianco dello pneumatico, si trova in corrispondenza degli indicatori di usura",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a4d0a61529cd4347eb923004067a3ea741700937e59c6fe74941881b13c5094a",
+        "localized_text": "La sigla TWI en el costado del neumático se encuentra a la altura de los indicadores de desgaste"
+      },
+      {
+        "source": {
+          "number": 30044,
+          "quesito_id": 6208,
+          "text_it": "Il diametro di calettamento del cerchio su cui montare lo pneumatico è in genere indicato in millimetri",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2a11d94aaf78f37d23b63a5bf4df53af38e25b419a6babca2c5a479e14304411",
+        "localized_text": "El diámetro de montaje del rin en que se instala el neumático suele indicarse en milímetros"
+      },
+      {
+        "source": {
+          "number": 30045,
+          "quesito_id": 6208,
+          "text_it": "La larghezza nominale di sezione di uno pneumatico è in genere indicata in pollici",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "da940c74237446885037bee638f87af26793f45312a67ec4f9fa5f024d44ec02",
+        "localized_text": "El ancho nominal de sección de un neumático suele indicarse en pulgadas"
+      },
+      {
+        "source": {
+          "number": 30046,
+          "quesito_id": 6208,
+          "text_it": "Se sul fianco dello pneumatico compare la scritta M+S, significa che lo pneumatico è da utilizzarsi su veicoli che trainano un rimorchio",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "510e3daa41fc26b5c504b0bc513b1946d1fda0ec6679b4ea652f356c4e19e509",
+        "localized_text": "Si en el costado del neumático aparece la inscripción M+S significa que debe utilizarse en vehículos que llevan remolque"
+      },
+      {
+        "source": {
+          "number": 30047,
+          "quesito_id": 6208,
+          "text_it": "Sul fianco dello pneumatico si può trovare la sigla MCTC se è stato omologato in Italia",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9cd1ee27bc6bbcb3aa2bd67b560924a4bfcfdfcf68dd8fc430ba85d55d382a2f",
+        "localized_text": "En el costado del neumático puede aparecer la sigla MCTC si fue homologado en Italia"
+      },
+      {
+        "source": {
+          "number": 30048,
+          "quesito_id": 6208,
+          "text_it": "La sigla TWI, posta sul fianco dello pneumatico, si trova in corrispondenza della valvola di gonfiaggio",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4c2cbef54ddb660716406a23c60ef7e4b82182099eba3f676a95234ce077add9",
+        "localized_text": "La sigla TWI, situada en el costado del neumático, se encuentra junto a la válvula de inflado"
+      },
+      {
+        "source": {
+          "number": 30049,
+          "quesito_id": 6208,
+          "text_it": "La sigla TWI posta sul fianco dello pneumatico indica che si tratta di uno pneumatico da usare in gemello",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "55fc4fa6db753f98a984ab27a7d0c8242911783e64d01d0fcd123fea2b7a42cd",
+        "localized_text": "La sigla TWI en el costado del neumático indica que es un neumático para usar en ruedas gemelas"
+      },
+      {
+        "source": {
+          "number": 30051,
+          "quesito_id": 6208,
+          "text_it": "Dalle scritte che compaiono sul fianco dello pneumatico non è possibile ricavarne la marca",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e4c07532a28bc3d27660404458f7f76048b2818e58a45ebe111e15ab083230a4",
+        "localized_text": "Las inscripciones en el costado del neumático no permiten conocer su marca"
+      },
+      {
+        "source": {
+          "number": 30052,
+          "quesito_id": 6209,
+          "text_it": "I tipi di pneumatici utilizzabili sul veicolo sono indicati sulla carta di circolazione",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "84975a55aac264bafdeca3f8bfc5421bdefebbcf7a70806b95cb56ffdf260707",
+        "localized_text": "Los tipos de neumáticos que pueden utilizarse en el vehículo se indican en el documento de circulación"
+      },
+      {
+        "source": {
+          "number": 30053,
+          "quesito_id": 6209,
+          "text_it": "Gli pneumatici dello stesso asse devono essere dello stesso tipo",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d3b288b1e0204c110f86fc66df2469d94d56e16c2df1b626238329378580ebef",
+        "localized_text": "Los neumáticos de un mismo eje deben ser del mismo tipo"
+      },
+      {
+        "source": {
+          "number": 30054,
+          "quesito_id": 6209,
+          "text_it": "Gli pneumatici del veicolo possono essere di tipi differenti, purché uguali sullo stesso asse",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "51bacce3f04b0f13726ec176af1fd0873a21e92e8f43fa5de0226c7ec6ea8a72",
+        "localized_text": "Los neumáticos del vehículo pueden ser de distintos tipos siempre que sean iguales en un mismo eje"
+      },
+      {
+        "source": {
+          "number": 30055,
+          "quesito_id": 6209,
+          "text_it": "Due ruote che montano cerchi diversi possono avere la stessa circonferenza di rotolamento",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "622995255ee38740965c2214e0a4fc0e13403b7459992fd4af691bcd4e464e37",
+        "localized_text": "Dos ruedas con rines diferentes pueden tener la misma circunferencia de rodadura"
+      },
+      {
+        "source": {
+          "number": 30056,
+          "quesito_id": 6209,
+          "text_it": "Il complesso pneumatico-cerchio non deve sporgere lateralmente dalla sagoma originale del veicolo",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d340ff39a9d3c8f69e6238d7881feece29e1df1ec101ac0e390e3a3a35eecfde",
+        "localized_text": "El conjunto de neumático y rin no debe sobresalir lateralmente de la silueta original del vehículo"
+      },
+      {
+        "source": {
+          "number": 30057,
+          "quesito_id": 6209,
+          "text_it": "Le caratteristiche dimensionali degli pneumatici che sono montati sul veicolo non possono essere diverse da quelle riportate sulla carta di circolazione",
+          "answer": 1,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f67fb74127ac5ec47c27dae481d40664ad964b90bc12043aaef3312e8749c55b",
+        "localized_text": "Las dimensiones de los neumáticos montados en el vehículo no pueden ser distintas de las indicadas en el permiso de circulación"
+      },
+      {
+        "source": {
+          "number": 30058,
+          "quesito_id": 6209,
+          "text_it": "Su ogni veicolo può essere utilizzato un solo tipo di pneumatico",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a24370adca2c4b908bff5aadbf0dec9b4657aa8971c4d87824912ec185b36fd4",
+        "localized_text": "En cada vehículo solo puede utilizarse un tipo de neumático"
+      },
+      {
+        "source": {
+          "number": 30059,
+          "quesito_id": 6209,
+          "text_it": "La marca di pneumatici utilizzabili sul veicolo è indicata sulla carta di circolazione",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c6f83ce19f5c1d2143bf5159e74ba3e82c0c276f7e9c0ac4697163ff53cdcdfa",
+        "localized_text": "La marca de neumáticos que se pueden usar en el vehículo está indicada en el permiso de circulación"
+      },
+      {
+        "source": {
+          "number": 30060,
+          "quesito_id": 6209,
+          "text_it": "Gli pneumatici montati sullo stesso asse devono essere di tipo diverso",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6a0449f8ae01bb7625592d3cf975ee675c9f7cf74d82c2e47e63bd924e174645",
+        "localized_text": "Los neumáticos montados en un mismo eje deben ser de diferente tipo"
+      },
+      {
+        "source": {
+          "number": 30061,
+          "quesito_id": 6209,
+          "text_it": "Gli pneumatici dell’asse motore sono contraddistinti dalla sigla TRACT",
+          "answer": 0,
+          "page": 125,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "82b3d17e9599af01ef9fecf1de3345a7481090a552eb625f9740e795717eddc8",
+        "localized_text": "Los neumáticos del eje motriz se identifican con la sigla TRACT"
+      }
+    ],
+    "task_sha256": "a8a883cc6c2a62ae901ca2d7c2ee9db05f8fdeca627a550951e8d597c50efb5f"
+  },
+  "rows": [
+    {
+      "number": 30036,
+      "text": "El índice de carga es un código numérico que corresponde a una capacidad de carga; la velocidad se indica con otro símbolo, no con km/h después del índice.",
+      "evidence": [
+        "UNECE Regulation 54 §§2.27–2.28, 3.1 and Annex 3, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: load indices, speed symbols, size, snow, tubeless, date and manufacturer markings."
+      ]
+    },
+    {
+      "number": 30037,
+      "text": "También se indica el símbolo de categoría de velocidad para montaje doble; los índices de carga distinguen las condiciones de montaje.",
+      "evidence": [
+        "UNECE Regulation 54 §§2.27–2.28, 3.1 and Annex 3, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: load indices, speed symbols, size, snow, tubeless, date and manufacturer markings."
+      ]
+    },
+    {
+      "number": 30038,
+      "text": "La marca TUBELESS identifica un neumático diseñado para usarse sin cámara de aire.",
+      "evidence": [
+        "UNECE Regulation 54 §§2.27–2.28, 3.1 and Annex 3, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: load indices, speed symbols, size, snow, tubeless, date and manufacturer markings."
+      ]
+    },
+    {
+      "number": 30039,
+      "text": "M+S identifica un neumático de nieve: está diseñado para mejorar la tracción sobre nieve frente a un neumático normal.",
+      "evidence": [
+        "UNECE Regulation No. 54 §§2.2 and 3.1.5, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: defines snow tyre by performance in snow and requires the M+S inscription for a snow tyre."
+      ]
+    },
+    {
+      "number": 30040,
+      "text": "El costado puede indicar el tipo: por ejemplo, TUBE TYPE identifica un neumático diseñado para usarse con cámara de aire.",
+      "evidence": [
+        "Nexxus, Truck and Bus Tire Basics, Sidewall Marking Guide item 7, https://nexxustires.com/nexxus-truck-and-bus-tire-basics/: TUBE TYPE (TT) on the illustrated truck tyre identifies a tyre designed for an inner tube; example, not a universal mandatory marking."
+      ]
+    },
+    {
+      "number": 30041,
+      "text": "El código de fabricación indica la semana y el año: en el código de cuatro cifras, las dos primeras indican la semana y las dos últimas el año.",
+      "evidence": [
+        "UNECE Regulation 54 §§2.27–2.28, 3.1 and Annex 3, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: load indices, speed symbols, size, snow, tubeless, date and manufacturer markings."
+      ]
+    },
+    {
+      "number": 30042,
+      "text": "TWI puede aparecer en el costado para ayudar a localizar los indicadores de desgaste de la banda de rodadura.",
+      "evidence": [
+        "Michelin, Motorcycle tyre tread depth, https://africa.michelin.com/en/motorbike/advice-motorbike/tyre-basics/motorcycle-tyre-tread-depth-legal-limit: TWI can mark the position of tread wear indicators."
+      ]
+    },
+    {
+      "number": 30043,
+      "text": "TWI señala dónde encontrar en la banda de rodadura los indicadores que muestran el desgaste de las ranuras.",
+      "evidence": [
+        "Michelin, Motorcycle tyre tread depth, https://africa.michelin.com/en/motorbike/advice-motorbike/tyre-basics/motorcycle-tyre-tread-depth-legal-limit: TWI can mark the position of tread wear indicators."
+      ]
+    },
+    {
+      "number": 30044,
+      "text": "En la marcación habitual, el diámetro nominal del rin se expresa generalmente en pulgadas, no en milímetros.",
+      "evidence": [
+        "Continental, Tire markings, https://www.continental-tires.com/tire-knowledge/tire-markings/: section width in mm, aspect ratio and rim diameter in inches."
+      ]
+    },
+    {
+      "number": 30045,
+      "text": "En la marcación habitual, el ancho nominal de sección se expresa generalmente en milímetros, no en pulgadas.",
+      "evidence": [
+        "Continental, Tire markings, https://www.continental-tires.com/tire-knowledge/tire-markings/: section width in mm, aspect ratio and rim diameter in inches."
+      ]
+    },
+    {
+      "number": 30046,
+      "text": "M+S identifica un neumático de nieve, no una indicación sobre el arrastre de un remolque.",
+      "evidence": [
+        "UNECE Regulation 54 §§2.27–2.28, 3.1 and Annex 3, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: load indices, speed symbols, size, snow, tubeless, date and manufacturer markings."
+      ]
+    },
+    {
+      "number": 30047,
+      "text": "La homologación internacional se indica con una E dentro de un círculo y el número del país, no con MCTC; el número de Italia es 3.",
+      "evidence": [
+        "UN Regulation 54 §4.4 and Annex 2, https://eur-lex.europa.eu/eli/reg/2008/54%282%29/oj/eng: approval mark is circled E and country number, plus approval number; Italy is 3."
+      ]
+    },
+    {
+      "number": 30048,
+      "text": "TWI localiza los indicadores de desgaste de la banda de rodadura, no la válvula de inflado.",
+      "evidence": [
+        "Michelin, Motorcycle tyre tread depth, https://africa.michelin.com/en/motorbike/advice-motorbike/tyre-basics/motorcycle-tyre-tread-depth-legal-limit: TWI can mark the position of tread wear indicators."
+      ]
+    },
+    {
+      "number": 30049,
+      "text": "TWI se refiere a los indicadores de desgaste de la banda de rodadura; no indica montaje doble.",
+      "evidence": [
+        "Michelin, Motorcycle tyre tread depth, https://africa.michelin.com/en/motorbike/advice-motorbike/tyre-basics/motorcycle-tyre-tread-depth-legal-limit: TWI can mark the position of tread wear indicators."
+      ]
+    },
+    {
+      "number": 30051,
+      "text": "El nombre comercial o la marca del fabricante figura entre las marcas del costado, por lo que se puede identificar la marca.",
+      "evidence": [
+        "UNECE Regulation 54 §§2.27–2.28, 3.1 and Annex 3, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: load indices, speed symbols, size, snow, tubeless, date and manufacturer markings."
+      ]
+    },
+    {
+      "number": 30052,
+      "text": "La tarjeta de circulación indica las medidas permitidas, incluidas las alternativas: hay que compararlas con las marcas del neumático.",
+      "evidence": [
+        "MIT circular 25978, 22 October 2013, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Circolare_protocollo_25978_22-10-2013_all_1.pdf: alternative tyre sizes can be recorded on registration document."
+      ]
+    },
+    {
+      "number": 30053,
+      "text": "Los neumáticos normalmente montados en un mismo eje deben ser del mismo tipo, no elegirse por separado para cada lado.",
+      "evidence": [
+        "UN Regulation 142 §§5.2.1.1–5.2.1.2, https://eur-lex.europa.eu/eli/reg/2021/1366/oj/eng: normal tyres on one axle same type; all normal tyres same structure."
+      ]
+    },
+    {
+      "number": 30054,
+      "text": "Distintos ejes pueden llevar tipos diferentes, siempre que los del mismo eje sean del mismo tipo; los neumáticos normalmente montados deben conservar la misma estructura.",
+      "evidence": [
+        "UN Regulation 142 §§5.2.1.1–5.2.1.2, https://eur-lex.europa.eu/eli/reg/2021/1366/oj/eng: normal tyres on one axle same type; all normal tyres same structure."
+      ]
+    },
+    {
+      "number": 30055,
+      "text": "El diámetro del rin por sí solo no determina la circunferencia de rodadura: una altura diferente del costado puede compensar la diferencia del rin.",
+      "evidence": [
+        "Continental, Tire markings, https://www.continental-tires.com/tire-knowledge/tire-markings/: section width in mm, aspect ratio and rim diameter in inches.",
+        "Directive 97/24/EC, consolidated Annex II §1.34, https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A01997L0024-20060908: theoretical rolling circumference depends on tyre overall diameter; section height can offset rim diameter."
+      ]
+    },
+    {
+      "number": 30056,
+      "text": "El cuestionario marca VERDADERO. Para neumáticos alternativos, una circular ministerial de 1996 exigía comprobar que las dimensiones máximas del vehículo no cambiaran y que los neumáticos más anchos no sobresalieran de la carrocería. Elige medidas admitidas y verifica las normas aplicables: esta fuente no establece una regla universal para cada parte del rin y todo contorno original.",
+      "evidence": [
+        "Official superiori bank question 30056, p. 125, printed VERO, asserts tyre-rim assembly must not protrude laterally past original outline.",
+        "Italian Ministry circular 94/96, 20 June 1996, https://www.automotoradriatica.com/wp-content/2011/Download/circolare-94_96.PDF — historical inspection of certain alternative tyres: unchanged maximum vehicle dimensions; wider tyres not beyond body; M3/N3 expressly distinguished for rim-diameter condition. Its scope does not establish a blanket prohibition on every rim edge beyond the original silhouette.",
+        "Commission Implementing Regulation (EU) 2021/535 Annex V Part 2, https://eur-lex.europa.eu/eli/reg_impl/2021/535/oj/eng — type-approval wheel-guard geometry within specified scope, not independent proof of a universal whole-wheel original-outline rule."
+      ]
+    },
+    {
+      "number": 30057,
+      "text": "Las medidas montadas deben corresponder a las autorizadas para el vehículo y registradas en su documentación; una medida diferente requiere el trámite de autorización aplicable.",
+      "evidence": [
+        "MIT circular 25978, 22 October 2013, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Circolare_protocollo_25978_22-10-2013_all_1.pdf: alternative tyre sizes can be recorded on registration document."
+      ]
+    },
+    {
+      "number": 30058,
+      "text": "No necesariamente se permite un solo tipo: pueden admitirse medidas alternativas y tipos distintos en diferentes ejes, respetando los requisitos de montaje.",
+      "evidence": [
+        "UN Regulation 142 §§5.2.1.1–5.2.1.2, https://eur-lex.europa.eu/eli/reg/2021/1366/oj/eng: normal tyres on one axle same type; all normal tyres same structure.",
+        "MIT circular 25978, 22 October 2013, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Circolare_protocollo_25978_22-10-2013_all_1.pdf: alternative tyre sizes can be recorded on registration document."
+      ]
+    },
+    {
+      "number": 30059,
+      "text": "La tarjeta de circulación indica características como las medidas permitidas, no una marca obligatoria de neumáticos; la marca aparece en el costado.",
+      "evidence": [
+        "MIMS, Quesiti Ispettore Revisioni Modulo B, 17 February 2022, question B1E264, https://www.dgtno.it/wp-content/uploads/2022/05/Quesiti_IspettoreRevisioni_Mod_B_MIMS_17_02_2022.pdf: EU rules do not prescribe the tyre maker’s brand on the registration document.",
+        "MIT circular 25978, 22 October 2013, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Circolare_protocollo_25978_22-10-2013_all_1.pdf: alternative tyre sizes can be recorded on the document.",
+        "UNECE Regulation No. 54 §3.1.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: manufacturer name or trade mark is marked on the tyre."
+      ]
+    },
+    {
+      "number": 30060,
+      "text": "Los neumáticos normalmente montados en el mismo eje deben ser del mismo tipo, no de tipos diferentes.",
+      "evidence": [
+        "UN Regulation 142 §§5.2.1.1–5.2.1.2, https://eur-lex.europa.eu/eli/reg/2021/1366/oj/eng: normal tyres on one axle same type; all normal tyres same structure."
+      ]
+    },
+    {
+      "number": 30061,
+      "text": "TRACT no es una sigla que identifique todos los neumáticos del eje motriz. Por ejemplo, Michelin usa D para un dibujo diseñado para los esfuerzos de los ejes motrices, que transmiten el par del motor y el de frenado.",
+      "evidence": [
+        "Michelin, Truck and bus tyre marking and basics, drive axle section, https://b2b.middle-east.michelin.com/help-advice/truck/truck-bus-tyre-marking-and-basics: Michelin D tread patterns are designed for drive-axle stresses including engine and braking torque; Z patterns can also be fitted on drive axles.",
+        "UNECE Regulation No. 54 §3.1, https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/r054r2e.pdf: prescribed markings do not specify TRACT as a universal drive-axle marking."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "a8a883cc6c2a62ae901ca2d7c2ee9db05f8fdeca627a550951e8d597c50efb5f",
+    "output_sha256": "d469ec640f8f734a9b1f9f229820c85386247aff6c696ce5d5a938ab5b7af91e",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / sidewall-wheel-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      30036,
+      30037,
+      30038,
+      30039,
+      30040,
+      30041,
+      30042,
+      30043,
+      30044,
+      30045,
+      30046,
+      30047,
+      30048,
+      30049,
+      30051,
+      30052,
+      30053,
+      30054,
+      30055,
+      30056,
+      30057,
+      30058,
+      30059,
+      30060,
+      30061
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Independently inspected Ministry circular 94/96 https://www.automotoradriatica.com/wp-content/2011/Download/circolare-94_96.PDF: historical alternative tyre approval, unchanged dimensions and tyre within body; 30056 correctly states source limitations. UN R142 https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2021%3A293%3AFULL&uri=uriserv%3AOJ.L_.2021.293.01.0034.01.ENG indexed §§5.2.1.1–2 inspected. UNECE R54 direct legacy host returned 403; independently inspected official EU 2008 publication https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:42008X0711(01)."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb2e-eb60-7f42-9e98-7921850247d4",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "43b013fb00ac4b9f3d5670bdc97a3d72161d6c12cf62f48861f00d28ad34454c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb33-6af6-73b1-9ec7-b6c6ee8c7c91",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "6ae47e21181742916105fe58a7225beceec5e8903a005a124ceaa96d356d3a63",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb33-6af6-73b1-9ec7-b6c6ee8c7c91",
+        "label": "author-1-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 30056,
+              "reason": "The official question asserts that the whole tyre-and-rim assembly must not project laterally beyond the original vehicle outline, for the superior-licence bank. The located specific original-outline provision applies to replacement wheel systems on passenger cars and refers to tyres, so it does not establish that full statement for heavier vehicles and rims. The wheel-guard rules establish coverage in a specified sector, not that original-outline limit. An applicable authority or adjudication of the intended scope is needed.",
+              "checked_sources": [
+                "Official Domande Superiori, question 30056, https://www.ilportaledellautomobilista.it/documents/56611/85457073/DomandeSuperiori.pdf/7725566d-e40f-4583-ad74-db4395d103cf: prints VERO for the entire assembly and original vehicle outline.",
+                "Decreto 10 gennaio 2013 n. 20, Annex C §2.2.2.1, https://www.pneus.it/images/ruote-in-lega/decreto-10-gennaio-2013-n20.pdf: tyres must not protrude beyond original body profile in specified replacement wheel approval tests, limited to passenger cars.",
+                "Commission Implementing Regulation (EU) 2021/535 Annex V Part 2 §§2.1–2.2, https://eur-lex.europa.eu/eli/reg_impl/2021/535/oj/eng: wheel-guard coverage in a specified sector, not a general original-outline rule."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "6ae47e21181742916105fe58a7225beceec5e8903a005a124ceaa96d356d3a63",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "902f8406ed1ba6b2e316e315ab9e1ece26a6f920ca66ea93cdde597604dbd39a",
+          "output_sha256": "531451c0927e8273ce2e9beb19fb47e64644a95b0058642f4a9bd3cf9b4a29c2",
+          "author": "gpt-6.1-terra / 01a1eb2e-eb60-7f42-9e98-7921850247d4",
+          "reviewer": "gpt-6.1-terra / 01a1eb31-d8a0-7dc2-a8aa-080b7521b085",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30036,
+            30037,
+            30038,
+            30039,
+            30040,
+            30041,
+            30042,
+            30043,
+            30044,
+            30045,
+            30046,
+            30047,
+            30048,
+            30049,
+            30051,
+            30052,
+            30053,
+            30054,
+            30055,
+            30056,
+            30057,
+            30058,
+            30059,
+            30060,
+            30061
+          ],
+          "issues": [
+            {
+              "number": 30039,
+              "reason": "The cited Regulation 54 defines the snow tyre by better performance in snow, not the asserted comparative performance in mud, and the cited provisions do not support the severe-snow test distinction. Cite applicable authority for both claims or correct them in all languages."
+            },
+            {
+              "number": 30040,
+              "reason": "The cited TT example is specifically for motorcycle tyres; it does not establish how the relevant commercial-vehicle tyre is marked for tube use. Supply an applicable authoritative source or qualify the explanation to avoid implying this example establishes a universal marking."
+            },
+            {
+              "number": 30056,
+              "reason": "The cited wheel-guard provisions are in Annex V Part 2, not Annex IV. They concern coverage in a specified sector and do not establish the assertion about projection beyond the original vehicle outline for this bank; the explanation does not resolve that distinction. Cite applicable authority and explain the tested limit accurately."
+            },
+            {
+              "number": 30059,
+              "reason": "The cited ministry circular establishes that alternative sizes may be recorded for imported vehicles, but does not establish the asserted general absence of a mandatory brand from registration documents. Provide an authoritative source for that claim."
+            },
+            {
+              "number": 30061,
+              "reason": "The cited Michelin passage establishes FRT restrictions, not the asserted TRACT rule or a general requirement to follow the tyre manufacturer’s specified position. Regulation 54’s listed markings alone do not establish the latter. Provide an applicable source and explain what the drive-axle designation actually signifies."
+            }
+          ]
+        },
+        {
+          "task_sha256": "184f13ff77280f399704866f320a9068cd273ed642d331a50d85f9e4b8359e4b",
+          "output_sha256": "7df1bde1b76f8e760c4f3925b46b361bbd7f624e9036c9bb450fb2c9a5f55881",
+          "author": "gpt-6.1-terra / 01a1eb2e-eb60-7f42-9e98-7921850247d4",
+          "reviewer": "gpt-6.1-terra / 01a1eb31-d8a0-7dc2-a8aa-080b7521b085",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30036,
+            30037,
+            30038,
+            30039,
+            30040,
+            30041,
+            30042,
+            30043,
+            30044,
+            30045,
+            30046,
+            30047,
+            30048,
+            30049,
+            30051,
+            30052,
+            30053,
+            30054,
+            30055,
+            30056,
+            30057,
+            30058,
+            30059,
+            30060,
+            30061
+          ],
+          "issues": [
+            {
+              "number": 30039,
+              "reason": "The cited Regulation 54 defines the snow tyre by better performance in snow, not the asserted comparative performance in mud, and the cited provisions do not support the severe-snow test distinction. Cite applicable authority for both claims or correct them in all languages."
+            },
+            {
+              "number": 30040,
+              "reason": "The cited TT example is specifically for motorcycle tyres; it does not establish how the relevant commercial-vehicle tyre is marked for tube use. Supply an applicable authoritative source or qualify the explanation to avoid implying this example establishes a universal marking."
+            },
+            {
+              "number": 30056,
+              "reason": "The cited wheel-guard provisions are in Annex V Part 2, not Annex IV. They concern coverage in a specified sector and do not establish the assertion about projection beyond the original vehicle outline for this bank; the explanation does not resolve that distinction. Cite applicable authority and explain the tested limit accurately."
+            },
+            {
+              "number": 30059,
+              "reason": "The cited ministry circular establishes that alternative sizes may be recorded for imported vehicles, but does not establish the asserted general absence of a mandatory brand from registration documents. Provide an authoritative source for that claim."
+            },
+            {
+              "number": 30061,
+              "reason": "The cited Michelin passage establishes FRT restrictions, not the asserted TRACT rule or a general requirement to follow the tyre manufacturer’s specified position. Regulation 54’s listed markings alone do not establish the latter. Provide an applicable source and explain what the drive-axle designation actually signifies."
+            }
+          ]
+        },
+        {
+          "task_sha256": "c0491ddb075e8bb18d2ba69c4bc770b80ce7768deb6cacf51070f20ca8b69a42",
+          "output_sha256": "dbc5724c0a7c0f3a473cc47e5caf3541c2e628a7a7bc8c82d91394bbc3cbdeb4",
+          "author": "gpt-6.1-terra / 01a1eb2e-eb60-7f42-9e98-7921850247d4",
+          "reviewer": "gpt-6.1-terra / 01a1eb31-d8a0-7dc2-a8aa-080b7521b085",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30036,
+            30037,
+            30038,
+            30039,
+            30040,
+            30041,
+            30042,
+            30043,
+            30044,
+            30045,
+            30046,
+            30047,
+            30048,
+            30049,
+            30051,
+            30052,
+            30053,
+            30054,
+            30055,
+            30056,
+            30057,
+            30058,
+            30059,
+            30060,
+            30061
+          ],
+          "issues": [
+            {
+              "number": 30039,
+              "reason": "The cited Regulation 54 defines the snow tyre by better performance in snow, not the asserted comparative performance in mud, and the cited provisions do not support the severe-snow test distinction. Cite applicable authority for both claims or correct them in all languages."
+            },
+            {
+              "number": 30040,
+              "reason": "The cited TT example is specifically for motorcycle tyres; it does not establish how the relevant commercial-vehicle tyre is marked for tube use. Supply an applicable authoritative source or qualify the explanation to avoid implying this example establishes a universal marking."
+            },
+            {
+              "number": 30056,
+              "reason": "The cited wheel-guard provisions are in Annex V Part 2, not Annex IV. They concern coverage in a specified sector and do not establish the assertion about projection beyond the original vehicle outline for this bank; the explanation does not resolve that distinction. Cite applicable authority and explain the tested limit accurately."
+            },
+            {
+              "number": 30059,
+              "reason": "The cited ministry circular establishes that alternative sizes may be recorded for imported vehicles, but does not establish the asserted general absence of a mandatory brand from registration documents. Provide an authoritative source for that claim."
+            },
+            {
+              "number": 30061,
+              "reason": "The cited Michelin passage establishes FRT restrictions, not the asserted TRACT rule or a general requirement to follow the tyre manufacturer’s specified position. Regulation 54’s listed markings alone do not establish the latter. Provide an applicable source and explain what the drive-axle designation actually signifies."
+            }
+          ]
+        },
+        {
+          "task_sha256": "a8a883cc6c2a62ae901ca2d7c2ee9db05f8fdeca627a550951e8d597c50efb5f",
+          "output_sha256": "9facb458ce14149f9da6ac2b9b357aa4a1cbd0f387ef0adf1adc76a9683ea415",
+          "author": "gpt-6.1-terra / 01a1eb2e-eb60-7f42-9e98-7921850247d4",
+          "reviewer": "gpt-6.1-terra / 01a1eb31-d8a0-7dc2-a8aa-080b7521b085",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30036,
+            30037,
+            30038,
+            30039,
+            30040,
+            30041,
+            30042,
+            30043,
+            30044,
+            30045,
+            30046,
+            30047,
+            30048,
+            30049,
+            30051,
+            30052,
+            30053,
+            30054,
+            30055,
+            30056,
+            30057,
+            30058,
+            30059,
+            30060,
+            30061
+          ],
+          "issues": [
+            {
+              "number": 30039,
+              "reason": "The cited Regulation 54 defines the snow tyre by better performance in snow, not the asserted comparative performance in mud, and the cited provisions do not support the severe-snow test distinction. Cite applicable authority for both claims or correct them in all languages."
+            },
+            {
+              "number": 30040,
+              "reason": "The cited TT example is specifically for motorcycle tyres; it does not establish how the relevant commercial-vehicle tyre is marked for tube use. Supply an applicable authoritative source or qualify the explanation to avoid implying this example establishes a universal marking."
+            },
+            {
+              "number": 30056,
+              "reason": "The cited wheel-guard provisions are in Annex V Part 2, not Annex IV. They concern coverage in a specified sector and do not establish the assertion about projection beyond the original vehicle outline for this bank; the explanation does not resolve that distinction. Cite applicable authority and explain the tested limit accurately."
+            },
+            {
+              "number": 30059,
+              "reason": "The cited ministry circular establishes that alternative sizes may be recorded for imported vehicles, but does not establish the asserted general absence of a mandatory brand from registration documents. Provide an authoritative source for that claim."
+            },
+            {
+              "number": 30061,
+              "reason": "The cited Michelin passage establishes FRT restrictions, not the asserted TRACT rule or a general requirement to follow the tyre manufacturer’s specified position. Regulation 54’s listed markings alone do not establish the latter. Provide an applicable source and explain what the drive-axle designation actually signifies."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,958 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31474,
+          "quesito_id": 7027,
+          "text_it": "Tra i sensori automatici per il rilievo del traffico, le spire induttive trovano applicazione per il rilievo della velocità del veicolo, ma non della lunghezza e numero di assi",
+          "answer": 0,
+          "page": 12,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "64664a26b8db2118fbdd5034b67ffc45b65e92501bddcea81b752941b3dc44ab",
+        "localized_text": "在自动交通传感器中，感应线圈用于测量车速，但不测量长度和车轴数量。"
+      },
+      {
+        "source": {
+          "number": 31475,
+          "quesito_id": 7027,
+          "text_it": "Nell'ambito dei sistemi di diagnosi e previsioni del traffico, la stima delle condizioni di traffico attuali - o diagnosi - consiste nell'identificazione, qualitativa o quantitativa, della situazione di traffico",
+          "answer": 1,
+          "page": 12,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "baa56dc8987055969daae4b282eae64b064e4ac5a4b725a69cac45e2ad58cef0",
+        "localized_text": "在交通诊断和预测系统中，当前交通状况估计或诊断是对交通情况进行定性或定量识别。"
+      },
+      {
+        "source": {
+          "number": 31476,
+          "quesito_id": 7027,
+          "text_it": "Nell'ambito dei sistemi di diagnosi e previsioni del traffico, la stima delle condizioni di traffico attuali - o diagnosi - è necessaria per fornire le informazioni agli utenti",
+          "answer": 1,
+          "page": 12,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7fe5ac2422186d91e8943c04f28ba7105ab45a75c2f7fac76e4ccf3625968fc0",
+        "localized_text": "在交通诊断和预测系统中，需要估计或诊断当前交通状况以向用户提供信息。"
+      },
+      {
+        "source": {
+          "number": 31477,
+          "quesito_id": 7027,
+          "text_it": "Nell'ambito dei sistemi di diagnosi e previsioni del traffico, la prognosi, o previsione delle condizioni di traffico, consiste nell'identificazione, qualitativa o quantitativa, della situazione di traffico attuale",
+          "answer": 0,
+          "page": 12,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1260677c3a57919df13c490fbe22c79b3a35bda4a142127be6890d0a7ebcd8dd",
+        "localized_text": "在交通诊断和预测系统中，预报或交通状况预测是对当前交通情况进行定性或定量识别。"
+      },
+      {
+        "source": {
+          "number": 31478,
+          "quesito_id": 7027,
+          "text_it": "Nell'ambito dei sistemi di diagnosi e previsioni del traffico, i metodi statistici di analisi dei dati hanno lo svantaggio di essere complessi e richiedono tempi di elaborazione molto lunghi",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f2a7b0bc95067fc20210329a8a425c0d033ff2f72f8afb2459de2b480bbb1383",
+        "localized_text": "在交通诊断和预测系统中，统计数据分析方法的缺点是复杂且处理时间很长。"
+      },
+      {
+        "source": {
+          "number": 31479,
+          "quesito_id": 7027,
+          "text_it": "Nell'ambito dei sistemi di diagnosi e previsioni del traffico, lo sviluppo di tecnologie di identificazione dei veicoli consente la misura diretta dei tempi di percorrenza di un campione di veicoli",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c9d56134d34ae132ef2d56c9edd169ddd4a369c640e5f85111dffcb1940c9d6e",
+        "localized_text": "在交通诊断和预测系统中，车辆识别技术使直接测量车辆样本的行程时间成为可能。"
+      },
+      {
+        "source": {
+          "number": 31480,
+          "quesito_id": 7027,
+          "text_it": "I modelli di simulazione del traffico, riproducendo il fenomeno fisico, forniscono stime attendibili ed accurate in situazioni anomale",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1d8ec637f46a29bcd91bbb2e55334aaf755b5ed5259ef8af25fd22415777b412",
+        "localized_text": "交通仿真模型通过再现物理现象，在异常情况下提供可靠准确的估计。"
+      },
+      {
+        "source": {
+          "number": 31481,
+          "quesito_id": 7027,
+          "text_it": "I modelli di simulazione del traffico, richiedendo la simulazione della rete o di una parte di essa, hanno tempi di elaborazione rapidi e non necessitano di un accurato processo di calibrazione",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "064b7aaab038ba2ed8eda56f0a22c6f529222ea54c992f8c1c794e2df7c0248a",
+        "localized_text": "交通仿真模型需要模拟整个或部分路网，但处理迅速且无需仔细校准。"
+      },
+      {
+        "source": {
+          "number": 31482,
+          "quesito_id": 7027,
+          "text_it": "L'obiettivo dei metodi diagnostici per il riconoscimento automatico degli incidenti è di individuare, prontamente e senza la necessità dell'intervento di un operatore, il verificarsi di incidenti veicolari",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a763e79a9f1d33239a9d67a7ef9a71a2c9d4eda48c6f93d4bdea6ac86c190710",
+        "localized_text": "自动事故识别诊断方法旨在无需操作人员干预的情况下迅速发现车辆事故。"
+      },
+      {
+        "source": {
+          "number": 31483,
+          "quesito_id": 7027,
+          "text_it": "I benefici attesi dai sistemi di riconoscimento automatico degli incidenti riguardano sia la riduzione della congestione che la sicurezza",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "373863b7bcf44d3e3decaecbc751dbd3a49a4d2c573dd8b1b0e8d20f62149a24",
+        "localized_text": "自动事故识别系统的预期收益包括减少拥堵和提高安全性。"
+      },
+      {
+        "source": {
+          "number": 31484,
+          "quesito_id": 7027,
+          "text_it": "Un pronto e affidabile riconoscimento degli incidenti non consente di attuare una rapida rimozione degli intralci alla circolazione",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "af113d223062a3ba473f3cc5b055917d148dd53cc74b4ffb13c42f2c4c122e54",
+        "localized_text": "迅速可靠地识别事故无法实现快速清除交通障碍。"
+      },
+      {
+        "source": {
+          "number": 31485,
+          "quesito_id": 7027,
+          "text_it": "Il sistema di sorveglianza con riconoscimento automatico degli incidenti, per essere efficace, deve possedere i requisiti di rapidità, accuratezza e automatismo",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8e9c0f03374d1da16348a626fc6a9f79154f7b995c005d22f5a5027f2523cbce",
+        "localized_text": "自动事故识别监控系统要有效，必须具备快速、准确和自动化的特点。"
+      },
+      {
+        "source": {
+          "number": 31486,
+          "quesito_id": 7027,
+          "text_it": "Le prestazioni del sistema di sorveglianza con riconoscimento automatico degli incidenti non dipendono dalla qualità e quantità di informazioni fornite dal sistema di sorveglianza",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "db64b82bf6037ba59220cf1a41e6fd19fc4e0cb9cbc8d8e1add6ef16fe3ecaed",
+        "localized_text": "自动事故识别监控系统的性能不取决于监控系统提供信息的质量或数量。"
+      },
+      {
+        "source": {
+          "number": 31487,
+          "quesito_id": 7027,
+          "text_it": "L'ITS (sistemi intelligenti nei trasporti) è costituito da un sistema di controllo e regolazione (ATMS - sistema avanzato di gestione del traffico) e da un sistema di informazione agli utenti (ATIS - sistema avanzato di informazione sul traffico)",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0687cf79c209b1fa6466ffd2727d3905b0140b28c5c79a6d539386e6362e786e",
+        "localized_text": "智能交通系统（ITS）由控制和调节系统（ATMS先进交通管理系统）及用户信息系统（ATIS先进交通信息系统）组成。"
+      },
+      {
+        "source": {
+          "number": 31488,
+          "quesito_id": 7027,
+          "text_it": "Nel sistema ATMS (sistema avanzato di gestione del traffico) il sistema di monitoraggio acquisisce, mediante la rete di sensori, informazioni sull'ambiente circostante",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6134db8480639dfe2bf4d4fa26a4d552469ea0ad5cea58deb070535a077e1bd4",
+        "localized_text": "在ATMS系统中，监测系统通过传感器网络获取周围环境信息。"
+      },
+      {
+        "source": {
+          "number": 31489,
+          "quesito_id": 7028,
+          "text_it": "Il sistema ATMS si caratterizza e si distingue per un sistema di monitoraggio ma non è caratterizzato da un sistema di sorveglianza",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "042228a21c1dc23a0d761f2c8aec6155d4d84698a76d14b658fe075375e4e7f3",
+        "localized_text": "ATMS的特点是有监测系统，但没有监控系统。"
+      },
+      {
+        "source": {
+          "number": 31490,
+          "quesito_id": 7028,
+          "text_it": "Tra le applicazioni dei sistemi di trasporto \"intelligenti\" al controllo del traffico autostradale non è previsto il controllo degli accessi alle rampe",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5789454e94c7efaa4de7c97f4bb16eed59cff17f31f0fba7b325b560bb0058c4",
+        "localized_text": "智能交通系统的高速公路交通控制应用不包括匝道入口控制。"
+      },
+      {
+        "source": {
+          "number": 31491,
+          "quesito_id": 7028,
+          "text_it": "Tra le applicazioni dei sistemi di trasporto \"intelligenti\" al controllo del traffico autostradale, il controllo delle corsie può essere integrato con i sistemi di informazione agli utenti",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "37663fbbf040667365e2781a36042540b1644a4bc01df83545ec0a45bb14b0cc",
+        "localized_text": "在智能交通系统的高速公路交通控制应用中，车道控制可与用户信息系统集成。"
+      },
+      {
+        "source": {
+          "number": 31492,
+          "quesito_id": 7028,
+          "text_it": "Tra le applicazioni dei sistemi di trasporto \"intelligenti\" al controllo del traffico autostradale, lo scopo del controllo degli accessi alle rampe è la verifica degli incassi dei pedaggi",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dbe6b8b21b4da73bf89d3069148b67e5a0bfb8ec5723ea845ace648b90c8442f",
+        "localized_text": "在智能交通系统的高速公路交通控制应用中，匝道入口控制旨在核查通行费收入。"
+      },
+      {
+        "source": {
+          "number": 31493,
+          "quesito_id": 7028,
+          "text_it": "Nell'ambito della gestione dinamica delle corsie, il controllo delle corsie ha l'obiettivo di indicare conducente la corsia da tenere, quando le condizioni di traffico, di viabilità o ambientali non gli consentono o gli rendono difficile la scelta corretta",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3c70c1e685cae9a104d11f1ee2768152b66cd09aa8f5b25da17a0fd27f15cd4e",
+        "localized_text": "动态车道管理中的车道控制在交通、道路或环境条件使驾驶人无法或难以正确选择时，指示其应使用的车道。"
+      },
+      {
+        "source": {
+          "number": 31494,
+          "quesito_id": 7028,
+          "text_it": "Il controllo dinamico del flusso sulle corsie autostradali è una forma di regolazione del traffico autostradale che avviene senza disposizioni o indicazioni appropriate ai conducenti",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4666c91c35122713ccb4cb170ccb1569dad506d79ba97b498c1f04522882fce2",
+        "localized_text": "高速公路车道流量动态控制是一种不向驾驶人提供适当规定或指示的交通调节方式。"
+      },
+      {
+        "source": {
+          "number": 31495,
+          "quesito_id": 7028,
+          "text_it": "Nei sistemi di regolazione dinamica delle reti semaforiche, la successione e la durata delle diverse fasi è predeterminata in funzione di osservazioni statistiche dei flussi di traffico delle diverse correnti",
+          "answer": 0,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "36a4453f51cd0195b92aa01620fefe7c364a7c60e168c06a56680f14e2d64295",
+        "localized_text": "在信号灯网络动态调节系统中，各阶段的顺序和持续时间根据不同交通流的统计观察预先确定。"
+      },
+      {
+        "source": {
+          "number": 31496,
+          "quesito_id": 7028,
+          "text_it": "Con la gestione dinamica delle corsie in una rete stradale urbana è possibile proteggere i veicoli adibiti al trasporto pubblico dai ritardi dovuti alla congestione",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6b4fedfae5f240235ef14e39ac4c07c2dea7700e6daa54aefbd29b070cd85830",
+        "localized_text": "城市道路网络中的动态车道管理可以使公共交通车辆免受拥堵延误。"
+      },
+      {
+        "source": {
+          "number": 31497,
+          "quesito_id": 7029,
+          "text_it": "Entro i limiti di aderenza lo spazio di frenata non dipende dal peso del veicolo",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "15c315455bb795e91a9709ce1600b2389a87c4e063fb1a9923e5ceac2d8f1889",
+        "localized_text": "在附着力极限内，制动距离与车辆重量无关。"
+      },
+      {
+        "source": {
+          "number": 31498,
+          "quesito_id": 7029,
+          "text_it": "Lo spazio di frenatura è proporzionale al quadrato della velocità",
+          "answer": 1,
+          "page": 13,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "421e3bc5388434afd62b7b426f057b49893372a3abff7d02083d9eb3d668aa96",
+        "localized_text": "制动距离与速度的平方成正比。"
+      }
+    ],
+    "task_sha256": "55251843b6c0e83192c65eb443ee83ec396d1981b3156b51501977107fa3b5ea"
+  },
+  "rows": [
+    {
+      "number": 31474,
+      "text": "感应线圈也能检测车长和车轴：适当的布设及处理设备可从车辆经过时获取这些信息。",
+      "evidence": [
+        "https://www.fhwa.dot.gov/publications/research/operations/its/06108/06108.pdf, cap. 2, sensori di classificazione induttivi: lunghezza, velocità e numero di assi"
+      ]
+    },
+    {
+      "number": 31475,
+      "text": "诊断描述当前状态，例如使用速度或拥堵程度；预测则涉及未来状况。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/freewaymgmt/publications/frwy_mgmt_handbook/chapter13_01.htm, §13.1: dati elaborati per informazioni sulle condizioni presenti e future"
+      ]
+    },
+    {
+      "number": 31476,
+      "text": "要向用户提供当前状况信息，首先需要采集和处理交通数据，以描述他们会遇到的情况。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/freewaymgmt/publications/frwy_mgmt_handbook/chapter13_01.htm, §13.1: dati attuali da sensori e sorveglianza alimentano informazioni ai viaggiatori"
+      ]
+    },
+    {
+      "number": 31477,
+      "text": "预测涉及未来状况；识别当前状况是诊断的任务。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/freewaymgmt/publications/frwy_mgmt_handbook/chapter13_01.htm, §13.1: distingue informazioni sulle condizioni presenti e future"
+      ]
+    },
+    {
+      "number": 31478,
+      "text": "并非所有统计方法都需要复杂、耗时的计算：例如，预测可以采用近期观测值的平均数。计算量取决于所选方法。",
+      "evidence": [
+        "https://www.bts.gov/archive/publications/journal_of_transportation_and_statistics/volume_05_number_01/paper_03/index, Summary of Forecasting Methods Used, Long-Term Memory Model, eq. (4): prevede il flusso mediante la media aritmetica di quattro osservazioni, esempio di calcolo semplice."
+      ]
+    },
+    {
+      "number": 31479,
+      "text": "在两个地点识别同一辆车，比较其经过时间，两者之差就是该车通过该路段的行程时间。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop21058/chap2.htm, Vehicle Re-Identification Technologies: confronto dei tempi di rilevazione dello stesso veicolo"
+      ]
+    },
+    {
+      "number": 31480,
+      "text": "模型可以表示事故等异常事件并估计其对路网的影响，但可靠性取决于数据、校准和情景表示。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop18036/chapter5.htm, Chapter 5, Identify Representative Days and Calibrate Model Variant: la microsimulazione rappresenta scenari con incidenti e confronta i risultati con dati osservati; https://ops.fhwa.dot.gov/trafficanalysistools/tat_vol4/sec5.htm, §5: la calibrazione migliora la riproduzione delle condizioni locali."
+      ]
+    },
+    {
+      "number": 31481,
+      "text": "仿真需要根据当地数据仔细校准；不能认为它总是快速，或默认参数总是足够。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/trafficanalysistools/tat_vol4/sec5.htm, §5: calibrazione necessaria per riprodurre le condizioni locali"
+      ]
+    },
+    {
+      "number": 31482,
+      "text": "算法自动分析传感器数据并提示可能的异常，无须等待操作员发现，就能帮助快速识别事故。",
+      "evidence": [
+        "https://tmcpfs.ops.fhwa.dot.gov/cfprojects/uploaded_files/texas_operations_manual.pdf, pp. 7-27–7-28: algoritmo valuta dati e genera automaticamente un allarme"
+      ]
+    },
+    {
+      "number": 31483,
+      "text": "及时发现有助于更早启动响应并通知用户，从而可能减少事故造成的排队和风险。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop10050/ch2.htm, rilevazione rapida permette risposta più tempestiva; https://ops.fhwa.dot.gov/tim/technologies/isti.htm, informazioni sugli incidenti riducono impatto sul traffico"
+      ]
+    },
+    {
+      "number": 31484,
+      "text": "迅速可靠地发现事故可使核实和响应更早开始，有助于清除障碍，但仅靠发现本身并不能保证清除。",
+      "evidence": [
+        "https://tmcpfs.ops.fhwa.dot.gov/cfprojects/uploaded_files/tms_pmer_handbook.pdf, §4, figura 4-3: rilevazione precede verifica, risposta e rimozione"
+      ]
+    },
+    {
+      "number": 31485,
+      "text": "及早发现事故可以更早启动响应。减少漏报和误报有助于避免忽视真实事故和浪费资源；自动报警不依赖人工电话报告。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop08059/31.htm, Incident Detection: individuare prima un evento consente di inviare prima le risorse; il rilevamento automatico non dipende da una segnalazione umana.",
+        "https://tmcpfs.ops.fhwa.dot.gov/cfprojects/uploaded_files/tms_pmer_handbook.pdf, §4, p. 60: il tasso di rilevazione confronta gli eventi rilevati con quelli avvenuti; il tasso di falsi allarmi misura le segnalazioni erronee."
+      ]
+    },
+    {
+      "number": 31486,
+      "text": "数据质量和传感器覆盖范围影响事件识别能力：数据不准确或传感器间距过大都可能降低性能。",
+      "evidence": [
+        "https://tmcpfs.ops.fhwa.dot.gov/cfprojects/uploaded_files/texas_operations_manual.pdf, p. 7-27, §§1.0 Electronic Surveillance e 1.1 Detection Algorithms: una distanza eccessiva tra rilevatori può peggiorare la rilevazione; informazioni inesatte dei rilevatori causano errori."
+      ]
+    },
+    {
+      "number": 31487,
+      "text": "在智能交通系统中，先进交通管理使用路网数据和控制措施，先进信息系统则使这些信息为出行者所用。两种功能相互补充。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop13047/sec2.htm, §2: sistemi raccolgono dati, gestiscono la rete e forniscono informazioni ai viaggiatori"
+      ]
+    },
+    {
+      "number": 31488,
+      "text": "传感器采集交通流、事故或环境状况等数据，系统利用这些数据监测和管理路网。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop13047/sec2.htm, §2: dispositivi raccolgono dati su traffico, incidenti e meteo per la gestione"
+      ]
+    },
+    {
+      "number": 31489,
+      "text": "先进管理也包括监控：检测器和摄像头观察路网，为管理决策提供信息。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop14022/chapter5.htm, caso MnDOT: rilevatori e telecamere sorvegliano la rete gestita"
+      ]
+    },
+    {
+      "number": 31490,
+      "text": "匝道入口控制是一种应用：信号灯调节进入高速公路的车辆数量。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop14020/sec1.htm, §1: ramp metering regola gli ingressi autostradali"
+      ]
+    },
+    {
+      "number": 31491,
+      "text": "车道信号可向用户传达车道开放、关闭等信息，将控制与信息服务结合起来。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop14022/chapter5.htm, caso MnDOT: pannelli integrano controllo corsie e informazioni"
+      ]
+    },
+    {
+      "number": 31492,
+      "text": "匝道控制通过调节车辆进入来管理车流和拥堵，并非核查通行费收入。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop14020/sec1.htm, §1.10: il dosaggio regola gli ingressi in base alle condizioni del traffico"
+      ]
+    },
+    {
+      "number": 31493,
+      "text": "车道关闭或状况变化时，动态标志提醒驾驶人并引导他们驶向可用车道。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop17056/chap1.htm, §1.2: segnali avvisano della chiusura e guidano verso corsie adiacenti"
+      ]
+    },
+    {
+      "number": 31494,
+      "text": "动态控制通过向驾驶人提供指示来调节车流，例如用信号显示车道开放或关闭。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/publications/fhwahop17056/chap1.htm, §1.2: segnali dinamici indicano apertura e chiusura delle corsie"
+      ]
+    },
+    {
+      "number": 31495,
+      "text": "动态调节根据当前数据调整信号灯时间；根据历史数据预先确定顺序和时长则是预设方案。",
+      "evidence": [
+        "https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm: controllo adattivo modifica i tempi in base ai dati correnti, a differenza dei piani preprogrammati"
+      ]
+    },
+    {
+      "number": 31496,
+      "text": "管理措施可以临时为公共交通预留空间，使其绕过部分车队并减少延误。",
+      "evidence": [
+        "https://ops.fhwa.dot.gov/atdm/resources/glossary.htm, Dynamic Shoulder Lanes: uso dinamico anche riservato al trasporto pubblico; https://ops.fhwa.dot.gov/Publications/fhwahop18072/context5.htm: corsie bus evitano code"
+      ]
+    },
+    {
+      "number": 31497,
+      "text": "在理想模型中，附着条件相同且制动力与重量成正比时，制动力也随质量增大，质量的影响便相互抵消。实际中制动器、轮胎和载荷也有影响。",
+      "evidence": [
+        "https://openstax.org/books/college-physics/pages/7-2-kinetic-energy-and-the-work-energy-theorem, §7.2: energia cinetica e lavoro; https://openstax.org/books/university-physics-volume-1/pages/9-4-types-of-collisions, esempio: la massa si semplifica nel modello di attrito costante. Applicazione idealizzata con forza frenante proporzionale al peso"
+      ]
+    },
+    {
+      "number": 31498,
+      "text": "减速度相同时，制动距离与速度的平方成正比：速度加倍，距离变为四倍。这里不包括反应距离。",
+      "evidence": [
+        "https://openstax.org/books/college-physics-ap-courses/pages/7-2-kinetic-energy-and-the-work-energy-theorem, §7.2: relazione v²=v₀²+2ad per accelerazione costante"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "55251843b6c0e83192c65eb443ee83ec396d1981b3156b51501977107fa3b5ea",
+    "output_sha256": "c6d27fa61f5b478080fe7b56efdfadd9e254f4e5ff11f89a015e84951d8b2013",
+    "author": "gpt-6.1-terra / 01a1eb90-4b66-7371-93ee-9da7790d71b0",
+    "reviewer": "gpt-6.1-terra / 01a1eb91-4c6e-7cb1-83d7-095b5a9a21e5",
+    "status": "accepted",
+    "checked_numbers": [
+      31474,
+      31475,
+      31476,
+      31477,
+      31478,
+      31479,
+      31480,
+      31481,
+      31482,
+      31483,
+      31484,
+      31485,
+      31486,
+      31487,
+      31488,
+      31489,
+      31490,
+      31491,
+      31492,
+      31493,
+      31494,
+      31495,
+      31496,
+      31497,
+      31498
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "bc019f1abc89251672abc0382ad2e3b75d68cd57dc033b5ffe60b1b8d1423885",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "b9e442808223ff91161898e20b5d29d05841c100b7e268435ac12be7fa85cc5b",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1eb8a-9746-74e0-9cc9-cfdda2bb46d7",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "6899ea252647b226f4efc3607a678ccd3e79b97082b32c0b52e3b5e9944a0dc5",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb8e-68a9-7bd1-a8e9-c9774f7e3e70",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "871fc5653a215e293391ac1425a453da690e4eb2faba27446c754595f5dc7199",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb90-4b66-7371-93ee-9da7790d71b0",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "bc019f1abc89251672abc0382ad2e3b75d68cd57dc033b5ffe60b1b8d1423885",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "f71eb1a27813264b4cea1a440288a551cd2117460816906a667d9eed93017ec3",
+          "output_sha256": "7e81dc43b78c1f15ab9df34aca8315031a943cc5b78f0c5421b8894a1728cac8",
+          "author": "gpt-6.1-terra / 01a1eb8a-9746-74e0-9cc9-cfdda2bb46d7",
+          "reviewer": "gpt-6.1-terra / 01a1eb8c-d2e1-73a0-8557-920c8035f0ba",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31474,
+            31475,
+            31476,
+            31477,
+            31478,
+            31479,
+            31480,
+            31481,
+            31482,
+            31483,
+            31484,
+            31485,
+            31486,
+            31487,
+            31488,
+            31489,
+            31490,
+            31491,
+            31492,
+            31493,
+            31494,
+            31495,
+            31496,
+            31497,
+            31498
+          ],
+          "issues": [
+            {
+              "number": 31480,
+              "reason": "The cited FHWA tsmo_subarea_pln.pdf could not be inspected because it exceeds the browser fetch limit. The model capability is supported independently by https://ops.fhwa.dot.gov/publications/fhwahop16037/fhwahop16037.pdf, but replace or supplement the inaccessible citation with a directly verifiable exact reference."
+            },
+            {
+              "number": 31486,
+              "reason": "The cited Texas manual p. 7-27 supports inaccurate detector data, but its discussion of spacing concerns vehicles upstream and downstream, not sensors too far apart. Supply an authoritative exact reference supporting the sensor-spacing example, or revise the example and evidence."
+            }
+          ]
+        },
+        {
+          "task_sha256": "de473a8398d4312c601fab109bd838088e04da43710a6d9a78e266592b12e988",
+          "output_sha256": "5765ad12237ce5c6be39300191bf1c37e55adf776f59401d5bd30f64b3517a58",
+          "author": "gpt-6.1-terra / 01a1eb8a-9746-74e0-9cc9-cfdda2bb46d7",
+          "reviewer": "gpt-6.1-terra / 01a1eb8c-d2e1-73a0-8557-920c8035f0ba",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31474,
+            31475,
+            31476,
+            31477,
+            31478,
+            31479,
+            31480,
+            31481,
+            31482,
+            31483,
+            31484,
+            31485,
+            31486,
+            31487,
+            31488,
+            31489,
+            31490,
+            31491,
+            31492,
+            31493,
+            31494,
+            31495,
+            31496,
+            31497,
+            31498
+          ],
+          "issues": [
+            {
+              "number": 31480,
+              "reason": "The cited FHWA tsmo_subarea_pln.pdf could not be inspected because it exceeds the browser fetch limit. The model capability is supported independently by https://ops.fhwa.dot.gov/publications/fhwahop16037/fhwahop16037.pdf, but replace or supplement the inaccessible citation with a directly verifiable exact reference."
+            },
+            {
+              "number": 31486,
+              "reason": "The cited Texas manual p. 7-27 supports inaccurate detector data, but its discussion of spacing concerns vehicles upstream and downstream, not sensors too far apart. Supply an authoritative exact reference supporting the sensor-spacing example, or revise the example and evidence."
+            }
+          ]
+        },
+        {
+          "task_sha256": "55251843b6c0e83192c65eb443ee83ec396d1981b3156b51501977107fa3b5ea",
+          "output_sha256": "a7e3e01bcd9af1155e1c9320ab7d53c2c86faf3b984a9289d5cb4b7412c8586e",
+          "author": "gpt-6.1-terra / 01a1eb8a-9746-74e0-9cc9-cfdda2bb46d7",
+          "reviewer": "gpt-6.1-terra / 01a1eb8c-d2e1-73a0-8557-920c8035f0ba",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31474,
+            31475,
+            31476,
+            31477,
+            31478,
+            31479,
+            31480,
+            31481,
+            31482,
+            31483,
+            31484,
+            31485,
+            31486,
+            31487,
+            31488,
+            31489,
+            31490,
+            31491,
+            31492,
+            31493,
+            31494,
+            31495,
+            31496,
+            31497,
+            31498
+          ],
+          "issues": [
+            {
+              "number": 31480,
+              "reason": "The cited FHWA tsmo_subarea_pln.pdf could not be inspected because it exceeds the browser fetch limit. The model capability is supported independently by https://ops.fhwa.dot.gov/publications/fhwahop16037/fhwahop16037.pdf, but replace or supplement the inaccessible citation with a directly verifiable exact reference."
+            },
+            {
+              "number": 31486,
+              "reason": "The cited Texas manual p. 7-27 supports inaccurate detector data, but its discussion of spacing concerns vehicles upstream and downstream, not sensors too far apart. Supply an authoritative exact reference supporting the sensor-spacing example, or revise the example and evidence."
+            }
+          ]
+        },
+        {
+          "task_sha256": "e3878c30b35ed83206b99b3c40826a7d4ebd9933f73ad597ddc620a33f876952",
+          "output_sha256": "d9630f594facb0830175f3561d98afc10361180811e4db60d393c97cb1f75c80",
+          "author": "gpt-6.1-terra / 01a1eb8a-9746-74e0-9cc9-cfdda2bb46d7",
+          "reviewer": "gpt-6.1-terra / 01a1eb8c-d2e1-73a0-8557-920c8035f0ba",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31474,
+            31475,
+            31476,
+            31477,
+            31478,
+            31479,
+            31480,
+            31481,
+            31482,
+            31483,
+            31484,
+            31485,
+            31486,
+            31487,
+            31488,
+            31489,
+            31490,
+            31491,
+            31492,
+            31493,
+            31494,
+            31495,
+            31496,
+            31497,
+            31498
+          ],
+          "issues": [
+            {
+              "number": 31480,
+              "reason": "The cited FHWA tsmo_subarea_pln.pdf could not be inspected because it exceeds the browser fetch limit. The model capability is supported independently by https://ops.fhwa.dot.gov/publications/fhwahop16037/fhwahop16037.pdf, but replace or supplement the inaccessible citation with a directly verifiable exact reference."
+            },
+            {
+              "number": 31486,
+              "reason": "The cited Texas manual p. 7-27 supports inaccurate detector data, but its discussion of spacing concerns vehicles upstream and downstream, not sensors too far apart. Supply an authoritative exact reference supporting the sensor-spacing example, or revise the example and evidence."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "f71eb1a27813264b4cea1a440288a551cd2117460816906a667d9eed93017ec3",
+          "output_sha256": "b9ead7f36b4c9067c7526a9393fe56d4229008827d3da0e26c796f94bc1e7f6f",
+          "author": "gpt-6.1-terra / 01a1eb8e-68a9-7bd1-a8e9-c9774f7e3e70",
+          "reviewer": "gpt-6.1-terra / 01a1eb8f-2712-7eb3-b095-3555c7a52828",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31474,
+            31475,
+            31476,
+            31477,
+            31478,
+            31479,
+            31480,
+            31481,
+            31482,
+            31483,
+            31484,
+            31485,
+            31486,
+            31487,
+            31488,
+            31489,
+            31490,
+            31491,
+            31492,
+            31493,
+            31494,
+            31495,
+            31496,
+            31497,
+            31498
+          ],
+          "issues": [
+            "31478: The cited Berkeley PDF returned HTTP 403, so its specific claim about the structural statistical model could not be independently inspected. Provide an accessible authoritative source and exact supporting passage; a separate U.S. Bureau of Transportation Statistics paper describes a simple four-observation traffic forecast (https://www.bts.gov/archive/publications/journal_of_transportation_and_statistics/volume_05_number_01/paper_03/index).",
+            "31485: The explanation merely restates rapidity, accuracy and automatic alerts in different words. Explain why quick detection, fewer missed events and false alarms, and automatic alerts make incident surveillance effective, in all four languages."
+          ]
+        },
+        {
+          "task_sha256": "de473a8398d4312c601fab109bd838088e04da43710a6d9a78e266592b12e988",
+          "output_sha256": "65e3ad01131bb273d777cd0d2620f450ae17a207cb8f9979eb3eb2055438aa6a",
+          "author": "gpt-6.1-terra / 01a1eb8e-68a9-7bd1-a8e9-c9774f7e3e70",
+          "reviewer": "gpt-6.1-terra / 01a1eb8f-2712-7eb3-b095-3555c7a52828",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31474,
+            31475,
+            31476,
+            31477,
+            31478,
+            31479,
+            31480,
+            31481,
+            31482,
+            31483,
+            31484,
+            31485,
+            31486,
+            31487,
+            31488,
+            31489,
+            31490,
+            31491,
+            31492,
+            31493,
+            31494,
+            31495,
+            31496,
+            31497,
+            31498
+          ],
+          "issues": [
+            "31478: The cited Berkeley PDF returned HTTP 403, so its specific claim about the structural statistical model could not be independently inspected. Provide an accessible authoritative source and exact supporting passage; a separate U.S. Bureau of Transportation Statistics paper describes a simple four-observation traffic forecast (https://www.bts.gov/archive/publications/journal_of_transportation_and_statistics/volume_05_number_01/paper_03/index).",
+            "31485: The explanation merely restates rapidity, accuracy and automatic alerts in different words. Explain why quick detection, fewer missed events and false alarms, and automatic alerts make incident surveillance effective, in all four languages."
+          ]
+        },
+        {
+          "task_sha256": "55251843b6c0e83192c65eb443ee83ec396d1981b3156b51501977107fa3b5ea",
+          "output_sha256": "b8a831ef409fd5b09608e66a373550cb82ea5617d89514646c2d33e5ec19c686",
+          "author": "gpt-6.1-terra / 01a1eb8e-68a9-7bd1-a8e9-c9774f7e3e70",
+          "reviewer": "gpt-6.1-terra / 01a1eb8f-2712-7eb3-b095-3555c7a52828",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31474,
+            31475,
+            31476,
+            31477,
+            31478,
+            31479,
+            31480,
+            31481,
+            31482,
+            31483,
+            31484,
+            31485,
+            31486,
+            31487,
+            31488,
+            31489,
+            31490,
+            31491,
+            31492,
+            31493,
+            31494,
+            31495,
+            31496,
+            31497,
+            31498
+          ],
+          "issues": [
+            "31478: The cited Berkeley PDF returned HTTP 403, so its specific claim about the structural statistical model could not be independently inspected. Provide an accessible authoritative source and exact supporting passage; a separate U.S. Bureau of Transportation Statistics paper describes a simple four-observation traffic forecast (https://www.bts.gov/archive/publications/journal_of_transportation_and_statistics/volume_05_number_01/paper_03/index).",
+            "31485: The explanation merely restates rapidity, accuracy and automatic alerts in different words. Explain why quick detection, fewer missed events and false alarms, and automatic alerts make incident surveillance effective, in all four languages."
+          ]
+        },
+        {
+          "task_sha256": "e3878c30b35ed83206b99b3c40826a7d4ebd9933f73ad597ddc620a33f876952",
+          "output_sha256": "b91a928516a298117130ae163721e5a66a79b2ddae8133878860db62141d1106",
+          "author": "gpt-6.1-terra / 01a1eb8e-68a9-7bd1-a8e9-c9774f7e3e70",
+          "reviewer": "gpt-6.1-terra / 01a1eb8f-2712-7eb3-b095-3555c7a52828",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31474,
+            31475,
+            31476,
+            31477,
+            31478,
+            31479,
+            31480,
+            31481,
+            31482,
+            31483,
+            31484,
+            31485,
+            31486,
+            31487,
+            31488,
+            31489,
+            31490,
+            31491,
+            31492,
+            31493,
+            31494,
+            31495,
+            31496,
+            31497,
+            31498
+          ],
+          "issues": [
+            "31478: The cited Berkeley PDF returned HTTP 403, so its specific claim about the structural statistical model could not be independently inspected. Provide an accessible authoritative source and exact supporting passage; a separate U.S. Bureau of Transportation Statistics paper describes a simple four-observation traffic forecast (https://www.bts.gov/archive/publications/journal_of_transportation_and_statistics/volume_05_number_01/paper_03/index).",
+            "31485: The explanation merely restates rapidity, accuracy and automatic alerts in different words. Explain why quick detection, fewer missed events and false alarms, and automatic alerts make incident surveillance effective, in all four languages."
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,941 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28220,
+          "quesito_id": 6075,
+          "text_it": "La carta tachigrafica scade quando scade la patente",
+          "answer": 0,
+          "page": 62,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5cde690aa784a1cdbd3fdde0c4822f933beeecc21b45dda80eb1656f380708e3",
+        "localized_text": "行车记录仪卡在驾驶证到期时到期。"
+      },
+      {
+        "source": {
+          "number": 28221,
+          "quesito_id": 6075,
+          "text_it": "La patente di guida è rilasciata dal Prefetto",
+          "answer": 0,
+          "page": 62,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d9cd6b3317a97d8dc66ed126c9be1e6d1243006f45e1f2a0ee328098e19d2506",
+        "localized_text": "驾驶证由省督签发。"
+      },
+      {
+        "source": {
+          "number": 28222,
+          "quesito_id": 6076,
+          "text_it": "Un autobus che effettua servizi regolari nel territorio di Stati UE deve avere a bordo l’originale o una copia conforme certificata dell’autorizzazione rilasciata dallo Stato membro sul cui territorio si trova il punto di partenza",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "775c156bd5703a8081ff7090ca6a07e26c344e487a14592f2c31894360fa804f",
+        "localized_text": "在欧盟国家境内提供定期服务的巴士必须随车携带出发点所在成员国签发的许可原件或核证副本。"
+      },
+      {
+        "source": {
+          "number": 28223,
+          "quesito_id": 6076,
+          "text_it": "Quando si effettua un servizio di noleggio con conducente in ambito UE (servizio occasionale), a bordo dell’autobus che lo effettua deve trovarsi l’originale del foglio di viaggio compilato dall’impresa o dall’autista",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bd0cbe009b62f8e971a7cf180b0f867dfd5fe14e9fc1a1a2d609cd52bd68c029",
+        "localized_text": "在欧盟境内提供带司机租赁服务（不定期服务）时，巴士必须随车携带由企业或司机填写的行车单原件。"
+      },
+      {
+        "source": {
+          "number": 28224,
+          "quesito_id": 6076,
+          "text_it": "Sul foglio di viaggio di un servizio di noleggio con conducente in ambito UE (servizio occasionale) deve figurare il tipo di servizio svolto",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ca9a2b64ccd79e4d07443effbd0d3cd5e384e0bc8c9d4c53852aad3de3bbf423",
+        "localized_text": "欧盟境内带司机租赁服务（不定期服务）的行车单必须注明所提供服务的类型。"
+      },
+      {
+        "source": {
+          "number": 28225,
+          "quesito_id": 6076,
+          "text_it": "Sul foglio di viaggio di un servizio di noleggio con conducente in ambito UE (servizio occasionale) deve figurare l’itinerario principale del servizio svolto",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "dd5b2b9225bd85e7749873d28e0505e008a6e1cd97f56fc14706c65756c96285",
+        "localized_text": "欧盟境内带司机租赁服务（不定期服务）的行车单必须注明服务的主要路线。"
+      },
+      {
+        "source": {
+          "number": 28226,
+          "quesito_id": 6076,
+          "text_it": "Sul foglio di viaggio di un servizio di noleggio con conducente in ambito UE (servizio occasionale) deve figurare la denominazione dell’impresa che svolge il servizio",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "79603197872acf09e725f01fd8574646f6ad797adddfc88f05184916f6fca015",
+        "localized_text": "欧盟境内带司机租赁服务（不定期服务）的行车单必须注明提供服务的企业名称。"
+      },
+      {
+        "source": {
+          "number": 28227,
+          "quesito_id": 6076,
+          "text_it": "I trasporti di cabotaggio in Paesi UE, svolti sotto forma di servizi occasionali, sono effettuati in base a un documento di controllo, il foglio di viaggio, che deve trovarsi a bordo del veicolo in originale ed essere esibito su richiesta degli agenti preposti al controllo",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "31ea6b62ee29582207988ddd243526036286aceeee415e055a92ba0152b8a8a7",
+        "localized_text": "在欧盟国家以内以不定期服务形式进行的境内运输使用行车单作为控制文件，其原件必须随车携带并应检查人员要求出示。"
+      },
+      {
+        "source": {
+          "number": 28228,
+          "quesito_id": 6076,
+          "text_it": "I trasporti di cabotaggio in Paesi UE, svolti sotto forma di servizi occasionali, sono effettuati in base a un documento di controllo, il foglio di viaggio, che deve contenere i luoghi di partenza e di destinazione del servizio",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "34ccca5947394ba0a0a6ba9086f6c9d4ff46140be141a46039f72470767425e2",
+        "localized_text": "在欧盟国家以内以不定期服务形式进行境内运输时，作为控制文件的行车单必须注明出发地和目的地。"
+      },
+      {
+        "source": {
+          "number": 28229,
+          "quesito_id": 6076,
+          "text_it": "I trasporti di cabotaggio in Paesi UE, svolti sotto forma di servizi occasionali, sono effettuati in base a un documento di controllo, il foglio di viaggio, che deve contenere le date di partenza e di fine servizio",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c515475860d313ba5032eaf4cd7d53a7e1603e65ead641440cc979bb33fc0e72",
+        "localized_text": "在欧盟国家以内以不定期服务形式进行境内运输时，作为控制文件的行车单必须注明出发日期和服务结束日期。"
+      },
+      {
+        "source": {
+          "number": 28230,
+          "quesito_id": 6076,
+          "text_it": "I trasporti di cabotaggio in Paesi UE, svolti sotto forma di servizi occasionali, sono effettuati in base a un documento di controllo, il foglio di viaggio, che deve trovarsi a bordo del veicolo in copia ed essere esibito su richiesta degli agenti preposti al controllo",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7a60726eadbebce92c90c264400f4c9b63abadb3b018c7d752bec6a056c334e8",
+        "localized_text": "在欧盟国家以内以不定期服务形式进行的境内运输使用行车单作为控制文件，其副本必须随车携带并应检查人员要求出示。"
+      },
+      {
+        "source": {
+          "number": 28231,
+          "quesito_id": 6076,
+          "text_it": "Sul foglio di viaggio di un servizio di noleggio con conducente in ambito UE (servizio occasionale) deve figurare il numero e tipo di patenteCQC dell’autista",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "717880a9a811b7aa50b386176a544f2d7950c38a1beb50a83f6ae3bf5d16959f",
+        "localized_text": "欧盟境内带司机租赁服务（不定期服务）的行车单必须注明司机驾驶证及CQC的号码和类型。"
+      },
+      {
+        "source": {
+          "number": 28232,
+          "quesito_id": 6076,
+          "text_it": "Quando si effettua un servizio di noleggio con conducente in ambito UE (servizio occasionale), a bordo dell’autobus che lo effettua deve trovarsi copia autenticata dell’esito dell’ultima revisione tecnica del veicolo",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "439d91bdca7948dc9983ed7ea3e64b36bbc7ecfbc4055c5bb8ab4023aa289451",
+        "localized_text": "在欧盟境内提供带司机租赁服务（不定期服务）时，巴士必须随车携带最近一次车辆技术检验结果的核证副本。"
+      },
+      {
+        "source": {
+          "number": 28233,
+          "quesito_id": 6076,
+          "text_it": "I trasporti di cabotaggio in Paesi UE, svolti sotto forma di servizi occasionali, sono effettuati in base a un documento di controllo, il foglio di viaggio, che deve contenere l’elenco dei passeggeri trasportati",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c6b8c11eabb7e614e9a3bfb2bc84874183d6327e752a787b036553d778c589dc",
+        "localized_text": "在欧盟国家以内以不定期服务形式进行境内运输时，作为控制文件的行车单必须列出所载乘客。"
+      },
+      {
+        "source": {
+          "number": 28234,
+          "quesito_id": 6076,
+          "text_it": "Un autobus che effettua servizi regolari nel territorio di Stati UE deve avere a bordo l’originale del documento di controllo che riporti orari e prezzi del servizio",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a5030e082f52a5e59ff586827ca21abeac1e53ee226b449e795ca263ebc5b466",
+        "localized_text": "在欧盟国家境内提供定期服务的巴士必须随车携带注明服务时间和价格的控制文件原件。"
+      },
+      {
+        "source": {
+          "number": 28235,
+          "quesito_id": 6076,
+          "text_it": "Un autobus che effettua servizi regolari nel territorio di Stati UE deve avere a bordo l’originale del documento di controllo che riporti l’elenco dei passeggeri trasportati",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7b492c3cb5f536f94ec83c27d02374b3c6f23a54e3b2ea6df70c6376426f360d",
+        "localized_text": "在欧盟国家境内提供定期服务的巴士必须随车携带列出所载乘客的控制文件原件。"
+      },
+      {
+        "source": {
+          "number": 28236,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata per la caduta del carico, il conducente deve cercare, per quanto possibile, di liberare il transito",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d8550b475f3b2375e5bd5c53b76689c3f5bc81fc84c33f877f3de41ca1cfa8c9",
+        "localized_text": "货物掉落阻塞车行道时，驾驶员必须尽可能设法恢复通行。"
+      },
+      {
+        "source": {
+          "number": 28237,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata per avaria del veicolo che non possa essere spostato, il conducente deve segnalare il pericolo agli altri conducenti",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d2275b98d0384854734938ca780e56fbe10d23455ba5582e77721a5321579f3d",
+        "localized_text": "故障车辆阻塞车行道且无法移动时，驾驶员必须提醒其他驾驶员注意危险。"
+      },
+      {
+        "source": {
+          "number": 28238,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata per avaria del veicolo, fuori dei centri abitati il conducente deve posizionare sulla carreggiata il segnale mobile triangolare di pericolo",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bb9d1331368fe48c495d3f6e0024808252d6b624a34453739f4032b03241328c",
+        "localized_text": "在建成区外，故障车辆阻塞车行道时，驾驶员必须在车行道上放置移动式三角危险警告牌。"
+      },
+      {
+        "source": {
+          "number": 28239,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata con perdite di materie pericolose, il conducente deve, tra l'altro, cercare di bloccare la perdita",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d04fda8b9b85169f61d8d9f7775e733815f2011df8583558f86e7a0cb5b1cebd",
+        "localized_text": "危险物质泄漏并阻塞车行道时，驾驶员除其他措施外必须设法止漏。"
+      },
+      {
+        "source": {
+          "number": 28240,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata con perdite di acidi o sostanze infiammabili, il conducente deve comportarsi come indicato dalle istruzioni di sicurezza",
+          "answer": 1,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6e7d79702dbde0549a3ac4db3366564a3c077e46da0f052c2c255d37a4a6d831",
+        "localized_text": "酸或易燃物质泄漏并阻塞车行道时，驾驶员必须按照安全指示行动。"
+      },
+      {
+        "source": {
+          "number": 28241,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata per la caduta del carico, il conducente si libera da ogni obbligo telefonando agli organi di polizia",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "223b4a401313e13e17c9ab9e4bc19a6637798be29246611402696cb0c35c6b4d",
+        "localized_text": "货物掉落阻塞车行道时，驾驶员只需致电警方即可免除所有义务。"
+      },
+      {
+        "source": {
+          "number": 28242,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata per avaria del veicolo, il conducente deve riparare subito il veicolo",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "625107bd43e044960bd2e0ad61b7f532864d7d0a37d61d99fe694d14385ba0c6",
+        "localized_text": "故障车辆阻塞车行道时，驾驶员必须立即修理车辆。"
+      },
+      {
+        "source": {
+          "number": 28243,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata per avaria del veicolo, nei centri abitati il conducente deve sempre posizionare sulla carreggiata il segnale mobile triangolare di pericolo",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8ded52e620a008c384e786d3913c9f070b1fcbdc1a16f94c0d26f4a09f4a603c",
+        "localized_text": "在建成区内，故障车辆阻塞车行道时，驾驶员必须始终在车行道上放置移动式三角危险警告牌。"
+      },
+      {
+        "source": {
+          "number": 28244,
+          "quesito_id": 6077,
+          "text_it": "In caso di ingombro della carreggiata con perdite di materie pericolose bisogna, se possibile, incanalarle verso una fognatura",
+          "answer": 0,
+          "page": 63,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b729179e2832e3a1d8bc52fbf4802d198955c721ca80f6686e13d541c1affff7",
+        "localized_text": "危险物质泄漏并阻塞车行道时，应尽可能将其引入下水道。"
+      }
+    ],
+    "task_sha256": "1682d42bc5f04b2b2f2df7295e940405cd788342f3e677a5f4d62834a1b241ae"
+  },
+  "rows": [
+    {
+      "number": 28220,
+      "text": "驾驶员卡有自己的到期日：通常自签发之日起有效五年。驾驶证有各自的有效期，因此两者到期日不一定相同。",
+      "evidence": [
+        "Camera di commercio di Bergamo, carta del conducente, https://www.bg.camcom.it/registri/strumenti-digitali/carte-tachigrafiche/carta-del-conducente: validità cinque anni dall’emissione.",
+        "Portale dell’Automobilista, rinnovo patente, https://www.ilportaledellautomobilista.it/web/portale-automobilista/patenti_rinnovo-patente: scadenze secondo categoria ed età."
+      ]
+    },
+    {
+      "number": 28221,
+      "text": "意大利驾驶证由主管的机动车管理部门签发，而不是由省督签发。",
+      "evidence": [
+        "Codice della strada, art. 116 comma 1, https://aci.gov.it/codice-della-strada/art-116/: rilascio da parte del competente ufficio del Dipartimento per i trasporti."
+      ]
+    },
+    {
+      "number": 28222,
+      "text": "对于需要许可的国际定期服务，许可由出发国主管机关签发。车辆须携带原件或经认证的副本，以备检查。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, artt. 6, 7 e 19, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: autorità dello Stato di partenza e autorizzazione a bordo per il servizio regolare internazionale."
+      ]
+    },
+    {
+      "number": 28223,
+      "text": "行车单记录临时服务：企业或驾驶员在出发前填写，原件在旅途中留在车上。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, art. 12, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio per servizi occasionali, con tipo, itinerario principale e vettori.",
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri."
+      ]
+    },
+    {
+      "number": 28224,
+      "text": "服务类型是行车单上用于识别临时运输服务的信息之一。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, art. 12, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio per servizi occasionali, con tipo, itinerario principale e vettori.",
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri."
+      ]
+    },
+    {
+      "number": 28225,
+      "text": "主要行程用于识别临时服务的路线，须填写在行车单上。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, art. 12, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio per servizi occasionali, con tipo, itinerario principale e vettori.",
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri."
+      ]
+    },
+    {
+      "number": 28226,
+      "text": "行车单须识别提供服务的一家或多家承运企业；企业名称用于这一目的。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, art. 12, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio per servizi occasionali, con tipo, itinerario principale e vettori.",
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri."
+      ]
+    },
+    {
+      "number": 28227,
+      "text": "临时性境内运输须随车携带行车单原件，并应检查人员要求出示。",
+      "evidence": [
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri.",
+        "Reg. (CE) 1073/2009, art. 17, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio a bordo per cabotaggio occasionale, luoghi e date di partenza e arrivo."
+      ]
+    },
+    {
+      "number": 28228,
+      "text": "临时性境内运输的行车单须注明出发地点和到达地点，以识别服务路线。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, art. 17, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio a bordo per cabotaggio occasionale, luoghi e date di partenza e arrivo."
+      ]
+    },
+    {
+      "number": 28229,
+      "text": "临时性境内运输须填写出发日期和服务结束日期，以确定所记录的行程。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, art. 17, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio a bordo per cabotaggio occasionale, luoghi e date di partenza e arrivo."
+      ]
+    },
+    {
+      "number": 28230,
+      "text": "仅携带副本不够：临时服务须将行车单原件留在车上以备检查，副本留在企业。",
+      "evidence": [
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri.",
+        "Reg. (CE) 1073/2009, art. 17, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio a bordo per cabotaggio occasionale, luoghi e date di partenza e arrivo."
+      ]
+    },
+    {
+      "number": 28231,
+      "text": "行车单格式用于识别驾驶员，但不要求填写驾驶证或CQC的号码和类别；它记录的是服务及其行程。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, art. 12, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio per servizi occasionali, con tipo, itinerario principale e vettori.",
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri."
+      ]
+    },
+    {
+      "number": 28232,
+      "text": "临时服务的专用控制文件是行车单。规定并非必须携带最近一次检验结果的认证副本：技术路检规则允许在有证书时携带证书或其副本。",
+      "evidence": [
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri.",
+        "Direttiva 2014/47/UE, art. 7 par. 1, https://eur-lex.europa.eu/eli/dir/2014/47/oj: certificato dell’ultima revisione o copia a bordo quando disponibile; possibile prova elettronica."
+      ]
+    },
+    {
+      "number": 28233,
+      "text": "临时性境内运输的行车单记录服务、地点和日期，但其格式不要求列出乘客姓名。",
+      "evidence": [
+        "Reg. (UE) 361/2014, artt. 1-2 e allegato I, https://eur-lex.europa.eu/eli/reg/2014/361/oj: modello del foglio, compilazione e originale a bordo; il modello indica i conducenti ma non numero e categoria della patente o CQC né elenco passeggeri.",
+        "Reg. (CE) 1073/2009, art. 17, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: foglio di viaggio a bordo per cabotaggio occasionale, luoghi e date di partenza e arrivo."
+      ]
+    },
+    {
+      "number": 28234,
+      "text": "国际定期服务须随车携带许可或经认证的副本，其中也列有停靠站和时刻表。题目要求携带同时载有时刻表和票价的控制文件原件，这一说法是错误的；票价须向乘客提供。",
+      "evidence": [
+        "Regolamento (CE) 1073/2009, artt. 6(3)(d), 11(2), 19(1), https://eur-lex.europa.eu/eli/reg/2009/1073/oj: autorizzazione con fermate e orari, informazioni sulle tariffe disponibili agli utenti e autorizzazione o documento di controllo a bordo.",
+        "Regolamento (UE) 361/2014, art. 8(2) e allegato IV, https://eur-lex.europa.eu/eli/reg/2014/361/oj: copia conforme dell’autorizzazione a bordo; art. 12 del regolamento 1073/2009: foglio di viaggio per servizi occasionali."
+      ]
+    },
+    {
+      "number": 28235,
+      "text": "国际定期服务须随车携带许可原件或经认证的副本，而不是列有乘客名单的控制文件。",
+      "evidence": [
+        "Reg. (CE) 1073/2009, artt. 6, 7 e 19, https://eur-lex.europa.eu/eli/reg/2009/1073/oj: autorità dello Stato di partenza e autorizzazione a bordo per il servizio regolare internazionale."
+      ]
+    },
+    {
+      "number": 28236,
+      "text": "掉落的货物可能阻碍交通：驾驶员须尽可能移除障碍并恢复通行。",
+      "evidence": [
+        "Codice della strada, art. 161 commi 1-3, https://aci.gov.it/codice-della-strada/art-161/: liberare per quanto possibile il transito, segnalare e informare la strada o la polizia."
+      ]
+    },
+    {
+      "number": 28237,
+      "text": "如果车辆无法移开，障碍物仍会危及驶近的车辆，须向其他道路使用者示警。",
+      "evidence": [
+        "Codice della strada, art. 161 commi 1-3, https://aci.gov.it/codice-della-strada/art-161/: liberare per quanto possibile il transito, segnalare e informare la strada o la polizia."
+      ]
+    },
+    {
+      "number": 28238,
+      "text": "在建成区外，符合规定条件时须用三角警示牌预告停车，例如后方车辆无法从足够远处看到它时。无论如何都须对障碍示警。",
+      "evidence": [
+        "Codice della strada, artt. 161 e 162 comma 1, https://aci.gov.it/codice-della-strada/art-162/: segnalazione dell’ingombro e condizioni del triangolo fuori dai centri abitati."
+      ]
+    },
+    {
+      "number": 28239,
+      "text": "对于少量泄漏，可以在不使自己面临危险的情况下，按照该物质的相关指示尝试阻止泄漏；也可以用合适的容器收集泄漏物。如果泄漏量大且无法控制，应通知有关部门。",
+      "evidence": [
+        "Ministero della Difesa, Aeronautica Militare, DUVRI, § 10 Interventi di emergenza, https://www.aeronautica.difesa.it/wp-content/uploads/Bandidigara/CIG_90851116C4/CIG_90851116C4_DUVRI.pdf: per piccole perdite cercare di bloccare la perdita se non vi è pericolo per sé o contenerla con recipienti idonei; per perdite ingenti non contenibili avvisare le autorità. § 9 richiama le istruzioni di sicurezza relative alle situazioni di pericolo.",
+        "Ministero delle infrastrutture e dei trasporti, quiz autotrasporto merci, domanda MHN040, risposta 4, https://cloud.municipiumapp.it/s3/20236/allegati/novita/avvisi/quiz-merci-ordinario-2026.pdf: dopo DPI e consultazione delle istruzioni specifiche, per piccole perdite tentare di bloccarle o contenerle; per perdite grosse non contenibili avvisare le autorità. È materiale didattico, non una disposizione ADR generale."
+      ]
+    },
+    {
+      "number": 28240,
+      "text": "安全指示有助于根据物质和情况选择适当措施。应遵照指示，避免采取造成额外风险的行动。",
+      "evidence": [
+        "ADR, istruzioni scritte 5.4.3; guida dell’autorità britannica https://www.gov.uk/government/publications/adr/adr-instructions-in-writing: contenere perdite e proteggere le fognature solo quando sicuro e appropriato; le istruzioni guidano la risposta."
+      ]
+    },
+    {
+      "number": 28241,
+      "text": "打电话给警方并不能免除所有义务：还须尽可能恢复通行并对障碍示警。",
+      "evidence": [
+        "Codice della strada, art. 161 commi 1-3, https://aci.gov.it/codice-della-strada/art-161/: liberare per quanto possibile il transito, segnalare e informare la strada o la polizia."
+      ]
+    },
+    {
+      "number": 28242,
+      "text": "当务之急是尽可能恢复通行并对障碍示警；并没有要求立即在现场修好车辆。",
+      "evidence": [
+        "Codice della strada, art. 161 commi 1-3, https://aci.gov.it/codice-della-strada/art-161/: liberare per quanto possibile il transito, segnalare e informare la strada o la polizia."
+      ]
+    },
+    {
+      "number": 28243,
+      "text": "在建成区内并非总是必须放置三角警示牌，但仍须根据情况以适当方式对障碍示警。",
+      "evidence": [
+        "Codice della strada, artt. 161 e 162 comma 1, https://aci.gov.it/codice-della-strada/art-162/: segnalazione dell’ingombro e condizioni del triangolo fuori dai centri abitati."
+      ]
+    },
+    {
+      "number": 28244,
+      "text": "不得将危险物质引入下水道；在安全且适当时，应阻止其进入并控制泄漏。",
+      "evidence": [
+        "ADR, istruzioni scritte 5.4.3; guida dell’autorità britannica https://www.gov.uk/government/publications/adr/adr-instructions-in-writing: contenere perdite e proteggere le fognature solo quando sicuro e appropriato; le istruzioni guidano la risposta."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "1682d42bc5f04b2b2f2df7295e940405cd788342f3e677a5f4d62834a1b241ae",
+    "output_sha256": "8d86006b21c5043c3288b8da497008566911f9d038fab9e856bdfcc9857690d4",
+    "author": "gpt-6.1-terra / 01a1ea9d-9c80-7602-8a0d-500cba35e3af",
+    "reviewer": "gpt-6.1-terra / 01a1ea9e-5c3b-7d00-952f-7615626a3af3",
+    "status": "accepted",
+    "checked_numbers": [
+      28220,
+      28221,
+      28222,
+      28223,
+      28224,
+      28225,
+      28226,
+      28227,
+      28228,
+      28229,
+      28230,
+      28231,
+      28232,
+      28233,
+      28234,
+      28235,
+      28236,
+      28237,
+      28238,
+      28239,
+      28240,
+      28241,
+      28242,
+      28243,
+      28244
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "91492040dcdaf51fa6658c4f4bc34edaad417f95b5b43aa45abe84876020b0c6",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "32c8a0ac4a78eb053db2cfdf06ce6368220c7a6f6f2fb648660703d3c600cfad",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1ea97-9e58-7f21-8cdf-17cf33b80fb1",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b1383cfcaf5e12d714c83ff1ab223e64b4bfe836354f0c3a7a4de086f4445b8a",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea9b-4e0f-71e1-a029-ed8ece48ccf3",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ff0a1ecb612cb9bb34e93924d5de3678e98aa7ed97d6ee683317639822e6c400",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea9d-9c80-7602-8a0d-500cba35e3af",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "91492040dcdaf51fa6658c4f4bc34edaad417f95b5b43aa45abe84876020b0c6",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "ec9674e6ee0395bd28236450344d89fab65efb6e77be5cdc1f1fb9d4eac24234",
+          "output_sha256": "f63857a128af25e377b5bdd450482ba720073786802666fc656a09b865bbe3b6",
+          "author": "gpt-6.1-terra / 01a1ea97-9e58-7f21-8cdf-17cf33b80fb1",
+          "reviewer": "gpt-6.1-terra / 01a1ea99-e4d5-7f62-98ca-3b699266569f",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28220,
+            28221,
+            28222,
+            28223,
+            28224,
+            28225,
+            28226,
+            28227,
+            28228,
+            28229,
+            28230,
+            28231,
+            28232,
+            28233,
+            28234,
+            28235,
+            28236,
+            28237,
+            28238,
+            28239,
+            28240,
+            28241,
+            28242,
+            28243,
+            28244
+          ],
+          "issues": [
+            "28239: The question says to try to stop the leak at its source, whereas the draft says to contain it; ADR 5.4.3's written instructions support containing spilled material and protecting drains when safe, but do not establish a general duty to stop the leak. Verify an authoritative source for stopping the leak, or escalate the discrepancy; preserve the printed verdict.",
+            "28234: The contrast can suggest that timetables are not carried in a document on board, although Regulation (EC) 1073/2009 Article 6(3)(d) requires the authorisation carried on the vehicle to specify the timetable. Clarify that the false claim concerns an original control document containing both timetable and fares, without implying the authorisation lacks the timetable."
+          ]
+        },
+        {
+          "task_sha256": "8548fd1fe4425bb0b87fd4065e101a138a7cac77092aac33d6870af3dd1f0b82",
+          "output_sha256": "dc3d832a796ec935473ad5ad9fbf456c54ce9d80cb249456a964ec3e47170ce1",
+          "author": "gpt-6.1-terra / 01a1ea97-9e58-7f21-8cdf-17cf33b80fb1",
+          "reviewer": "gpt-6.1-terra / 01a1ea99-e4d5-7f62-98ca-3b699266569f",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28220,
+            28221,
+            28222,
+            28223,
+            28224,
+            28225,
+            28226,
+            28227,
+            28228,
+            28229,
+            28230,
+            28231,
+            28232,
+            28233,
+            28234,
+            28235,
+            28236,
+            28237,
+            28238,
+            28239,
+            28240,
+            28241,
+            28242,
+            28243,
+            28244
+          ],
+          "issues": [
+            "28239: The question says to try to stop the leak at its source, whereas the draft says to contain it; ADR 5.4.3's written instructions support containing spilled material and protecting drains when safe, but do not establish a general duty to stop the leak. Verify an authoritative source for stopping the leak, or escalate the discrepancy; preserve the printed verdict.",
+            "28234: The contrast can suggest that timetables are not carried in a document on board, although Regulation (EC) 1073/2009 Article 6(3)(d) requires the authorisation carried on the vehicle to specify the timetable. Clarify that the false claim concerns an original control document containing both timetable and fares, without implying the authorisation lacks the timetable."
+          ]
+        },
+        {
+          "task_sha256": "1682d42bc5f04b2b2f2df7295e940405cd788342f3e677a5f4d62834a1b241ae",
+          "output_sha256": "f3ebb892915785803fcacf23136b0c93cb4147541d75c6477c3e053874c2e542",
+          "author": "gpt-6.1-terra / 01a1ea97-9e58-7f21-8cdf-17cf33b80fb1",
+          "reviewer": "gpt-6.1-terra / 01a1ea99-e4d5-7f62-98ca-3b699266569f",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28220,
+            28221,
+            28222,
+            28223,
+            28224,
+            28225,
+            28226,
+            28227,
+            28228,
+            28229,
+            28230,
+            28231,
+            28232,
+            28233,
+            28234,
+            28235,
+            28236,
+            28237,
+            28238,
+            28239,
+            28240,
+            28241,
+            28242,
+            28243,
+            28244
+          ],
+          "issues": [
+            "28239: The question says to try to stop the leak at its source, whereas the draft says to contain it; ADR 5.4.3's written instructions support containing spilled material and protecting drains when safe, but do not establish a general duty to stop the leak. Verify an authoritative source for stopping the leak, or escalate the discrepancy; preserve the printed verdict.",
+            "28234: The contrast can suggest that timetables are not carried in a document on board, although Regulation (EC) 1073/2009 Article 6(3)(d) requires the authorisation carried on the vehicle to specify the timetable. Clarify that the false claim concerns an original control document containing both timetable and fares, without implying the authorisation lacks the timetable."
+          ]
+        },
+        {
+          "task_sha256": "8336f873cbff4cd34ca18b8d636a3a43b09d6bbf5b902758d1c4dd19b4b8932d",
+          "output_sha256": "0090483f6e6bcf060e83f0ac1357b240b2c4766ad2ea11e153039a8ff27ce88f",
+          "author": "gpt-6.1-terra / 01a1ea97-9e58-7f21-8cdf-17cf33b80fb1",
+          "reviewer": "gpt-6.1-terra / 01a1ea99-e4d5-7f62-98ca-3b699266569f",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28220,
+            28221,
+            28222,
+            28223,
+            28224,
+            28225,
+            28226,
+            28227,
+            28228,
+            28229,
+            28230,
+            28231,
+            28232,
+            28233,
+            28234,
+            28235,
+            28236,
+            28237,
+            28238,
+            28239,
+            28240,
+            28241,
+            28242,
+            28243,
+            28244
+          ],
+          "issues": [
+            "28239: The question says to try to stop the leak at its source, whereas the draft says to contain it; ADR 5.4.3's written instructions support containing spilled material and protecting drains when safe, but do not establish a general duty to stop the leak. Verify an authoritative source for stopping the leak, or escalate the discrepancy; preserve the printed verdict.",
+            "28234: The contrast can suggest that timetables are not carried in a document on board, although Regulation (EC) 1073/2009 Article 6(3)(d) requires the authorisation carried on the vehicle to specify the timetable. Clarify that the false claim concerns an original control document containing both timetable and fares, without implying the authorisation lacks the timetable."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "ec9674e6ee0395bd28236450344d89fab65efb6e77be5cdc1f1fb9d4eac24234",
+          "output_sha256": "5d0e8a616ed4392d4f05dfc088ddd6533ee4f3f21bc320b1ff972cd150f85517",
+          "author": "gpt-6.1-terra / 01a1ea9b-4e0f-71e1-a029-ed8ece48ccf3",
+          "reviewer": "gpt-6.1-terra / 01a1ea9c-a295-7330-946d-7b6e889289ee",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28220,
+            28221,
+            28222,
+            28223,
+            28224,
+            28225,
+            28226,
+            28227,
+            28228,
+            28229,
+            28230,
+            28231,
+            28232,
+            28233,
+            28234,
+            28235,
+            28236,
+            28237,
+            28238,
+            28239,
+            28240,
+            28241,
+            28242,
+            28243,
+            28244
+          ],
+          "issues": [
+            "28239: The explanation advises stopping a leak at its source for dangerous substances generally, but the cited PHMSA guide 126 applies only to substances in that guide. The cited ADR written instructions address containment and sewer protection where safe, not stopping the leak at its source. Verify an authoritative rule covering the scope of the assertion or narrow the explanation and reconcile it with the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "8548fd1fe4425bb0b87fd4065e101a138a7cac77092aac33d6870af3dd1f0b82",
+          "output_sha256": "46b9333c2399e7dc75de9b68637112dc6e7dc0ea29d950847161975eb5eca758",
+          "author": "gpt-6.1-terra / 01a1ea9b-4e0f-71e1-a029-ed8ece48ccf3",
+          "reviewer": "gpt-6.1-terra / 01a1ea9c-a295-7330-946d-7b6e889289ee",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28220,
+            28221,
+            28222,
+            28223,
+            28224,
+            28225,
+            28226,
+            28227,
+            28228,
+            28229,
+            28230,
+            28231,
+            28232,
+            28233,
+            28234,
+            28235,
+            28236,
+            28237,
+            28238,
+            28239,
+            28240,
+            28241,
+            28242,
+            28243,
+            28244
+          ],
+          "issues": [
+            "28239: The explanation advises stopping a leak at its source for dangerous substances generally, but the cited PHMSA guide 126 applies only to substances in that guide. The cited ADR written instructions address containment and sewer protection where safe, not stopping the leak at its source. Verify an authoritative rule covering the scope of the assertion or narrow the explanation and reconcile it with the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "1682d42bc5f04b2b2f2df7295e940405cd788342f3e677a5f4d62834a1b241ae",
+          "output_sha256": "ef459c6769c96c043bb7885210f66e607e22a9c167c81e1ab99db3183ab56183",
+          "author": "gpt-6.1-terra / 01a1ea9b-4e0f-71e1-a029-ed8ece48ccf3",
+          "reviewer": "gpt-6.1-terra / 01a1ea9c-a295-7330-946d-7b6e889289ee",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28220,
+            28221,
+            28222,
+            28223,
+            28224,
+            28225,
+            28226,
+            28227,
+            28228,
+            28229,
+            28230,
+            28231,
+            28232,
+            28233,
+            28234,
+            28235,
+            28236,
+            28237,
+            28238,
+            28239,
+            28240,
+            28241,
+            28242,
+            28243,
+            28244
+          ],
+          "issues": [
+            "28239: The explanation advises stopping a leak at its source for dangerous substances generally, but the cited PHMSA guide 126 applies only to substances in that guide. The cited ADR written instructions address containment and sewer protection where safe, not stopping the leak at its source. Verify an authoritative rule covering the scope of the assertion or narrow the explanation and reconcile it with the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "8336f873cbff4cd34ca18b8d636a3a43b09d6bbf5b902758d1c4dd19b4b8932d",
+          "output_sha256": "8e889d80511ca89ebc483ba8210d2b56b3385b70336dd7060dbcd3d8b78a9f16",
+          "author": "gpt-6.1-terra / 01a1ea9b-4e0f-71e1-a029-ed8ece48ccf3",
+          "reviewer": "gpt-6.1-terra / 01a1ea9c-a295-7330-946d-7b6e889289ee",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28220,
+            28221,
+            28222,
+            28223,
+            28224,
+            28225,
+            28226,
+            28227,
+            28228,
+            28229,
+            28230,
+            28231,
+            28232,
+            28233,
+            28234,
+            28235,
+            28236,
+            28237,
+            28238,
+            28239,
+            28240,
+            28241,
+            28242,
+            28243,
+            28244
+          ],
+          "issues": [
+            "28239: The explanation advises stopping a leak at its source for dangerous substances generally, but the cited PHMSA guide 126 applies only to substances in that guide. The cited ADR written instructions address containment and sewer protection where safe, not stopping the leak at its source. Verify an authoritative rule covering the scope of the assertion or narrow the explanation and reconcile it with the printed verdict."
+          ]
+        }
+      ]
+    ]
+  }
+}

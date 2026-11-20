@@ -1,0 +1,104 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "revisione_ab",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/revisione-ab-it.pdf",
+    "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 20439,
+          "quesito_id": 4187,
+          "text_it": "Il segnale raffigurato obbliga a rallentare per essere pronti a fermarsi in caso di segnalazione da parte degli agenti",
+          "answer": 0,
+          "page": 51,
+          "bank": "revisione_ab",
+          "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+          "figures": [
+            {
+              "path": "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png",
+              "sha256": "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f",
+              "page": 51,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4d3f2ebb4ee753f1c083302ad2914c40a0171d4806b437d1646ddbf19b14a7b0",
+        "localized_text": "图中所示标志强制减速，以便在警员示意时随时停车"
+      },
+      {
+        "source": {
+          "number": 22283,
+          "quesito_id": 4374,
+          "text_it": "Il conducente deve regolare la velocità in relazione alla propria abilità alla guida",
+          "answer": 0,
+          "page": 86,
+          "bank": "revisione_ab",
+          "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+          "figures": []
+        },
+        "source_sha256": "658509ae1b8167c38312f82b094c8a91ec5a672f39fe94ea834b2bf3e959efe3",
+        "localized_text": "驾驶人必须根据自己的驾驶能力调整车速"
+      }
+    ],
+    "task_sha256": "48fb0a522c1005a0e7193a011bedc18e63a030c0b51c1e502367bbcac143cf1c"
+  },
+  "rows": [
+    {
+      "number": 20439,
+      "text": "ALT POLIZIA 标志表示前方有警察设立的检查站，必须停车，即使警员没有另外示意也是如此。仅仅减速并准备停车是不够的。",
+      "evidence": [
+        "D.P.R. 16 dicembre 1992 n. 495, art. 123, comma 3, figura II.98: ALT POLIZIA segnala un posto di blocco al quale è obbligatorio fermarsi; il segnale è ripetuto al punto di arresto. https://olympus.uniurb.it/index.php?option=com_content&view=article&id=15022%3Adpr49592"
+      ]
+    },
+    {
+      "number": 22283,
+      "text": "车速必须适应道路通行条件，例如交通和天气状况，以便能够在视线内没有障碍的路段内停下。不能根据自己认为的驾驶能力来选择车速。",
+      "evidence": [
+        "D.M. 12 marzo 2015 n. 46, allegato, punto 9.3.7: adeguamento della velocità alle condizioni di traffico e climatiche e arresto entro il tratto visibile e libero. https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=15G00059&atto.dataPubblicazioneGazzetta=2015-04-22&tipoDettaglio=originario"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "48fb0a522c1005a0e7193a011bedc18e63a030c0b51c1e502367bbcac143cf1c",
+    "output_sha256": "7b0c125a07c2909b8faa55a231bdae06e644bc423f359674e5b9c693220f7f16",
+    "reviewer": "gpt-6.1-terra / 01a1e988-a3ba-7a21-9889-8caf272ea20f",
+    "status": "accepted",
+    "checked_numbers": [
+      20439,
+      22283
+    ],
+    "issues": [],
+    "author": "gpt-6.1-terra / 01a1e987-aeef-7661-a442-0e83eb17ad37",
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "430b9efbf87f00be1340649dc65ee40486646b5e1011bccf1ae3881015f5e0ba",
+        "attached_image_paths": [
+          "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png"
+        ],
+        "attached_image_sha256": [
+          "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "9c199b6d203cd73dacb929ed91ea6d0e36e6af8148077a8e8543df8280d0072e",
+        "attached_image_paths": [
+          "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png"
+        ],
+        "attached_image_sha256": [
+          "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f"
+        ]
+      }
+    }
+  }
+}

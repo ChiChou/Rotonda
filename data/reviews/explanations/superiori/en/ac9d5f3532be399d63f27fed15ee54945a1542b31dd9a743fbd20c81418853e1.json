@@ -1,0 +1,661 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29256,
+          "quesito_id": 6152,
+          "text_it": "I cilindri sono elementi mobili del motore che scorrono in apposite sedi ricavate nel monoblocco",
+          "answer": 0,
+          "page": 99,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "aa9730811871afa1fdff074f9ab44e61a14a5b402ac5d2d740a7c23eed8fbe2b",
+        "localized_text": "Cylinders are moving engine components that slide in dedicated housings in the engine block."
+      },
+      {
+        "source": {
+          "number": 29257,
+          "quesito_id": 6153,
+          "text_it": "Un motore a combustione interna ha lo scopo di trasformare l'energia termica in energia meccanica",
+          "answer": 1,
+          "page": 99,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "92241a5556d72f634dca20d58689aec77feaca9ba37e52b775fa2c90ff35737e",
+        "localized_text": "An internal combustion engine converts heat energy into mechanical energy."
+      },
+      {
+        "source": {
+          "number": 29258,
+          "quesito_id": 6153,
+          "text_it": "La fumosità di un motore a gasolio è indicativa di una cattiva combustione e può essere causata da incrostazioni presenti sugli iniettori, che impediscono la corretta nebulizzazione del combustibile",
+          "answer": 1,
+          "page": 99,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d6f6be41c31ddcfd18689008cefddb53ace37f73538b807173168205154a53a0",
+        "localized_text": "Diesel engine smoke indicates poor combustion and may be caused by injector deposits preventing correct fuel atomization."
+      },
+      {
+        "source": {
+          "number": 29259,
+          "quesito_id": 6153,
+          "text_it": "Durante il funzionamento di un motore, il calore che non viene trasformato in energia meccanica viene ceduto all'esterno, tramite l'impianto di raffreddamento, per evitarne il surriscaldamento",
+          "answer": 1,
+          "page": 99,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2d8e9c846dfbae35c0fdf2a615fed2477d09259e7758a55020af0ed9e30e2247",
+        "localized_text": "During engine operation, heat not converted into mechanical energy is released externally through the cooling system to prevent overheating."
+      },
+      {
+        "source": {
+          "number": 29260,
+          "quesito_id": 6153,
+          "text_it": "Il motore a quattro tempi è un tipo di motore termico in grado di utilizzare vari tipi di combustibili, come benzina, gasolio, metano, gpl, alcool",
+          "answer": 1,
+          "page": 99,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1cb1284903e8d8082e0c55e25171925fb5cb063ea2b7674af0b019cb6141ef3d",
+        "localized_text": "A four-stroke engine is a heat engine capable of using various fuels such as petrol, diesel, methane, LPG and alcohol."
+      },
+      {
+        "source": {
+          "number": 29261,
+          "quesito_id": 6153,
+          "text_it": "I veicoli equipaggiati con motori a combustione interna trasformano l’energia termica prodotta dalla combustione in energia meccanica disponibile alle ruote",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c91d0eead6c2719e8ccd976ec0874bd755df49bdb546412d77b62426d9caafd4",
+        "localized_text": "Vehicles with internal combustion engines convert combustion heat into mechanical energy available at the wheels."
+      },
+      {
+        "source": {
+          "number": 29262,
+          "quesito_id": 6153,
+          "text_it": "In un motore a gasolio, la pompa di iniezione ha il compito di prelevare il gasolio dal serbatoio e inviarlo a bassa pressione agli iniettori",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "196ecca2a828664e6c65d009dcb041f1d1186e418d781bfbe428fea3dc0aeee2",
+        "localized_text": "In a diesel engine, the injection pump draws diesel from the tank and sends it to injectors at low pressure."
+      },
+      {
+        "source": {
+          "number": 29263,
+          "quesito_id": 6153,
+          "text_it": "Un motore a gasolio può funzionare bene anche a benzina, ma in tal caso è meglio non percorrere tragitti oltre i duecento chilometri",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8e2404ce958e359cfe00195253d44b17b71f76cfe7c3384d883418875ecb34d7",
+        "localized_text": "A diesel engine can also run well on petrol, but it is better not to travel more than two hundred kilometres in that case."
+      },
+      {
+        "source": {
+          "number": 29264,
+          "quesito_id": 6153,
+          "text_it": "A differenza di quello a scoppio, il motore Diesel non necessita di filtro dell'aria",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b6472576eccb92b32684fa6a2d428daf8cc8986353c9fd368f433564c1403487",
+        "localized_text": "Unlike a spark-ignition engine, a diesel engine does not need an air filter."
+      },
+      {
+        "source": {
+          "number": 29265,
+          "quesito_id": 6153,
+          "text_it": "A differenza di quello a scoppio, il motore Diesel non necessita di filtro del combustibile",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "aca7a6ec947885b7b3a504809d8a7a7d6cb8e0189f464c4addc2dad1da6621f0",
+        "localized_text": "Unlike a spark-ignition engine, a diesel engine does not need a fuel filter."
+      },
+      {
+        "source": {
+          "number": 29266,
+          "quesito_id": 6153,
+          "text_it": "Il motore Diesel è in genere più silenzioso di quello a scoppio",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3f204bec08b53117f70693bbb95ad168d1c61949f84902161b928432e3414838",
+        "localized_text": "A diesel engine is generally quieter than a spark-ignition engine."
+      },
+      {
+        "source": {
+          "number": 29267,
+          "quesito_id": 6154,
+          "text_it": "In un motore a gasolio, il turbocompressore, sfruttando i gas di scarico, consente di aumentare la quantità di aria immessa nella camera di combustione al fine di migliorare la combustione ed aumentare la potenza erogata, a parità di consumo",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "983f83fd27d98c3335b18343907437717d8743084cd15d6b0a071459cdc6056d",
+        "localized_text": "In a diesel engine, the turbocharger uses exhaust gases to increase air supplied to the combustion chamber, improving combustion and power at the same consumption."
+      },
+      {
+        "source": {
+          "number": 29268,
+          "quesito_id": 6154,
+          "text_it": "A parità di potenza erogata, un motore turbocompresso consuma meno combustibile",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f212490bc7b864053f9e489bd92bde2c04ab58d9ac4e816ba250dca16f34eb48",
+        "localized_text": "For the same power output, a turbocharged engine consumes less fuel."
+      },
+      {
+        "source": {
+          "number": 29269,
+          "quesito_id": 6154,
+          "text_it": "I motori turbocompressi consentono di recuperare parte dell'energia che va normalmente dispersa attraverso i gas di scarico",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "743a3f13c9d514a429dcb8d82bc2404414e81dd59ac5f457613333df3753d28a",
+        "localized_text": "Turbocharged engines recover part of the energy normally lost through exhaust gases."
+      },
+      {
+        "source": {
+          "number": 29270,
+          "quesito_id": 6154,
+          "text_it": "La sovralimentazione aumenta la densità dell'aria immessa nei cilindri",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9b20cbcab6c47bbef7ad9445b332aa6a32b282778ec619d8fc4e25ae8264369f",
+        "localized_text": "Supercharging increases the density of air entering the cylinders."
+      },
+      {
+        "source": {
+          "number": 29271,
+          "quesito_id": 6154,
+          "text_it": "Compito dell'intercooler è quello di abbassare la temperatura dell'aria in uscita dal turbocompressore, in modo da aumentare il rendimento del motore",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "aa05fe2fd7d2ca7493b63930f5b52e27fbc05c17a77388f5b48fdcbc6380634b",
+        "localized_text": "The intercooler lowers the temperature of air leaving the turbocharger to improve engine efficiency."
+      },
+      {
+        "source": {
+          "number": 29272,
+          "quesito_id": 6154,
+          "text_it": "I motori dotati di turbocompressore necessitano di un doppio silenziatore (marmitta potenziata)",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2d4681d520b12b01802f39096dfba1bbe2ab3fc0d1e2e7da9efb7a55942f1e23",
+        "localized_text": "Turbocharged engines require a double silencer, an enhanced exhaust."
+      },
+      {
+        "source": {
+          "number": 29273,
+          "quesito_id": 6154,
+          "text_it": "Il turbocompressore aumenta la potenza del motore, ma ne peggiora il rendimento",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5cce660f86fb0b76a94cc009c487ffbe9c80a3926ea5108dfb198bf65d064fb3",
+        "localized_text": "A turbocharger increases engine power but worsens efficiency."
+      },
+      {
+        "source": {
+          "number": 29274,
+          "quesito_id": 6154,
+          "text_it": "Il turbocompressore aumenta la potenza del motore, ma ne aumenta il consumo specifico",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "958ab3ff1ab95608065b186f97dfb889ba21dbcd7abc876574c19d70e487bf60",
+        "localized_text": "A turbocharger increases engine power but also increases specific consumption."
+      },
+      {
+        "source": {
+          "number": 29275,
+          "quesito_id": 6154,
+          "text_it": "Compito dell'intercooler è quello di abbassare la temperatura del liquido di raffreddamento del motore, soprattutto nelle zone con climi caldi",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e7f3185ecc5e874f72ad8f91e66fb39c3c4046d316e00afeb1e2d9288dace51b",
+        "localized_text": "The intercooler lowers engine coolant temperature, especially in hot climates."
+      },
+      {
+        "source": {
+          "number": 29276,
+          "quesito_id": 6154,
+          "text_it": "Il turbocompressore può essere utilizzato solo su motori di piccola cilindrata (massimo 2000 cm3)",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "385163bd2a145c7a4a542379e3c6440e7ff81a38df0febf23decbebe9991210c",
+        "localized_text": "A turbocharger may be used only on small-displacement engines, maximum 2,000 cm3."
+      },
+      {
+        "source": {
+          "number": 29277,
+          "quesito_id": 6155,
+          "text_it": "Compito degli organi di scarico di un veicolo è quello di convogliare i gas di scarico verso l'esterno",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "be4497f81d33c89f2539090ca196f5acd3f1a0919eedfe074643609b87d933bb",
+        "localized_text": "A vehicle's exhaust components carry exhaust gases outside."
+      },
+      {
+        "source": {
+          "number": 29278,
+          "quesito_id": 6155,
+          "text_it": "Compito degli organi di scarico di un veicolo è quello di abbassare la temperatura dei gas di scarico convogliati verso l'esterno",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a1a153384bc5552a0d0210fabe6ede1b12e3401f222e37a1e82c35dfd07b3b37",
+        "localized_text": "A vehicle's exhaust components lower the temperature of exhaust gases carried outside."
+      },
+      {
+        "source": {
+          "number": 29279,
+          "quesito_id": 6155,
+          "text_it": "Compito degli organi di scarico di un veicolo è quello di abbassare la pressione dei gas di scarico convogliati verso l'esterno, in modo da ridurre il rumore",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3c9d214d4ac09b47b4d59be974002d80b252ce8273acb2a2da3c4e9d9c0738c1",
+        "localized_text": "A vehicle's exhaust components lower the pressure of exhaust gases carried outside to reduce noise."
+      },
+      {
+        "source": {
+          "number": 29280,
+          "quesito_id": 6155,
+          "text_it": "La marmitta deve essere sempre sostituita quando presenta crepe o rotture, anche se piccole",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a2b7f9c329a8f76962c1a783617f096456ce6b3513c3818b5aae22c42be88114",
+        "localized_text": "The exhaust silencer must always be replaced if it has cracks or breaks, however small."
+      }
+    ],
+    "task_sha256": "ac9d5f3532be399d63f27fed15ee54945a1542b31dd9a743fbd20c81418853e1"
+  },
+  "rows": [
+    {
+      "number": 29256,
+      "text": "The cylinder is fixed in the engine block; the piston moves inside it.",
+      "evidence": [
+        "US Department of Energy, Internal Combustion Engine Basics, https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — fixed cylinder, moving piston, combustion, four strokes, fuels and drivetrain."
+      ]
+    },
+    {
+      "number": 29257,
+      "text": "Combustion produces hot gases that push the piston; the movement is converted into mechanical work.",
+      "evidence": [
+        "US Department of Energy, Internal Combustion Engine Basics, https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — fixed cylinder, moving piston, combustion, four strokes, fuels and drivetrain."
+      ]
+    },
+    {
+      "number": 29258,
+      "text": "Deposits on injector tips can disrupt atomization: combustion deteriorates and exhaust smoke may increase.",
+      "evidence": [
+        "Bosch, IAT 004/2015, difetto 3.3.2, p. 24, https://am.bcs-portal.boschaftermarket.com/ar/media/pdf/productos/iat_04-2015_catlogo_de_fallos_no_considerados_como_garantia_para_cr.pdf — carbonizzazione della tobera, polverizzazione errata e fumosità."
+      ]
+    },
+    {
+      "number": 29259,
+      "text": "The cooling system carries some waste heat away and prevents the engine from overheating; other heat leaves with the exhaust gases.",
+      "evidence": [
+        "US DOE, Fundamentals Handbook ME-01, p. 12, https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1018-93_VOL1.pdf — coolant removes waste heat; US DOE, Catalog of CHP Technologies, p. 2-8, https://www.energy.gov/sites/default/files/2016/09/f33/catalog_of_chp_technologies.pdf — separate exhaust and coolant heat losses."
+      ]
+    },
+    {
+      "number": 29260,
+      "text": "Four-stroke describes the engine cycle, not a single fuel: engines designed for different fuels can use this cycle.",
+      "evidence": [
+        "US Department of Energy, Internal Combustion Engine Basics, https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — fixed cylinder, moving piston, combustion, four strokes, fuels and drivetrain."
+      ]
+    },
+    {
+      "number": 29261,
+      "text": "Combustion gases push the pistons and turn the crankshaft; the transmission carries the movement to the wheels.",
+      "evidence": [
+        "US Department of Energy, Internal Combustion Engine Basics, https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — fixed cylinder, moving piston, combustion, four strokes, fuels and drivetrain."
+      ]
+    },
+    {
+      "number": 29262,
+      "text": "Low pressure applies to the supply to the pump; the high-pressure pump delivers diesel to the injection system at the required pressure.",
+      "evidence": [
+        "Bosch Mobility, Common-rail system with solenoid injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-solenoid/ — pre-supply pump, high-pressure pump, rail and injectors."
+      ]
+    },
+    {
+      "number": 29263,
+      "text": "Petrol is not the fuel intended for a conventional diesel engine: it can damage the fuel system well before 200 km.",
+      "evidence": [
+        "RAC, Wrong fuel in your car, https://www.rac.co.uk/drive/advice/know-how/wrong-fuel-recovery/ — petrol reduces diesel fuel lubrication and can damage pump; even short journeys should be avoided."
+      ]
+    },
+    {
+      "number": 29264,
+      "text": "A diesel engine also draws in air that must be filtered: the filter traps impurities that can wear engine parts.",
+      "evidence": [
+        "MAHLE, Heavy Duty Filtration Insights, https://www.mahle-aftermarket.com/eu/en/automechanika/heavy_duty_filtration_insights/ — intake air filtration protects engine parts."
+      ]
+    },
+    {
+      "number": 29265,
+      "text": "A diesel engine also uses a fuel filter, which traps impurities and protects the injection system.",
+      "evidence": [
+        "MAHLE, Fuel filters, https://www.mahle-aftermarket.com/na/en/products-and-services/filters/fuel-filters/ — diesel fuel filters remove contaminants and separate water."
+      ]
+    },
+    {
+      "number": 29266,
+      "text": "A diesel is not generally quieter: compression ignition can produce pronounced noise, although insulation and technology vary.",
+      "evidence": [
+        "US DOE, Just the Basics: Diesel Engine, https://www1.eere.energy.gov/vehiclesandfuels/pdfs/basics/jtb_diesel_engine.pdf — diesel compression ignition and historically loud operation; modern engines have improved."
+      ]
+    },
+    {
+      "number": 29267,
+      "text": "Exhaust gases drive a turbine connected to a compressor: more air enters the engine, promoting combustion and power with better use of fuel.",
+      "evidence": [
+        "Garrett Motion, Turbocharging Facts, https://www.garrettmotion.com/news/newsroom/article/turbocharging-facts-from-garrett-motion/ — exhaust drives compressor; downsizing can improve efficiency at comparable performance. Bosch Mobility, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-solenoid/ — fuel quantity matched to intake air for efficient combustion."
+      ]
+    },
+    {
+      "number": 29268,
+      "text": "By recovering exhaust energy, turbocharging allows a smaller engine to deliver comparable performance using less fuel; the result depends on design and conditions.",
+      "evidence": [
+        "Garrett Motion, Turbocharging Facts, https://www.garrettmotion.com/news/newsroom/article/turbocharging-facts-from-garrett-motion/ — exhaust drives compressor; downsizing can improve efficiency at comparable performance."
+      ]
+    },
+    {
+      "number": 29269,
+      "text": "The turbine uses some of the exhaust gas energy to drive the intake air compressor.",
+      "evidence": [
+        "Garrett Motion, Turbocharging Facts, https://www.garrettmotion.com/news/newsroom/article/turbocharging-facts-from-garrett-motion/ — exhaust drives compressor; downsizing can improve efficiency at comparable performance."
+      ]
+    },
+    {
+      "number": 29270,
+      "text": "Compressing air can put a greater mass of air into the cylinders; cooling the compressed air increases its density further.",
+      "evidence": [
+        "Garrett Motion, How a Turbocharger Works, https://www.garrettmotion.com/ko/turbocharger-technology/how-a-turbo-works/basic/ — compressor supplies air; intercooler cools compressed air, increasing density."
+      ]
+    },
+    {
+      "number": 29271,
+      "text": "The intercooler cools air compressed by the turbo: the denser air allows more air into the cylinders and helps efficiency.",
+      "evidence": [
+        "Garrett Motion, How a Turbocharger Works, https://www.garrettmotion.com/ko/turbocharger-technology/how-a-turbo-works/basic/ — compressor supplies air; intercooler cools compressed air, increasing density."
+      ]
+    },
+    {
+      "number": 29272,
+      "text": "A turbo does not require two silencers: the exhaust configuration depends on the vehicle design.",
+      "evidence": [
+        "Volvo Trucks, Where engines are born, https://www.volvotrucks.com/en-en/news-stories/stories/2014/mar/inside-volvo-where-engines-are-born.html — Euro 6 aftertreatment packaged in one silencer instead of two; Volvo Trucks FL product guide https://www.volvotrucks.com/content/dam/volvo-trucks/markets/master/home/trucks/brochure-gallery/volvo-trucks-volvo-fl-product-guide.pdf — variable geometry turbo engine."
+      ]
+    },
+    {
+      "number": 29273,
+      "text": "The turbo recovers energy from exhaust gases and can improve efficiency as well as increasing power; the result depends on the design.",
+      "evidence": [
+        "Garrett Motion, Turbocharging Facts, https://www.garrettmotion.com/news/newsroom/article/turbocharging-facts-from-garrett-motion/ — exhaust drives compressor; downsizing can improve efficiency at comparable performance."
+      ]
+    },
+    {
+      "number": 29274,
+      "text": "The turbo can reduce fuel consumption per unit of work produced by recovering exhaust energy; it does not necessarily increase it.",
+      "evidence": [
+        "Garrett Motion, Turbocharging Facts, https://www.garrettmotion.com/news/newsroom/article/turbocharging-facts-from-garrett-motion/ — exhaust drives compressor; downsizing can improve efficiency at comparable performance."
+      ]
+    },
+    {
+      "number": 29275,
+      "text": "The intercooler cools the boost air, not the engine coolant.",
+      "evidence": [
+        "Garrett Motion, How a Turbocharger Works, https://www.garrettmotion.com/ko/turbocharger-technology/how-a-turbo-works/basic/ — compressor supplies air; intercooler cools compressed air, increasing density."
+      ]
+    },
+    {
+      "number": 29276,
+      "text": "Turbochargers are also used on engines much larger than 2,000 cm³, such as truck engines.",
+      "evidence": [
+        "Garrett Motion, Commercial Vehicle DAVNT, https://www.garrettmotion.com/turbocharger-technology/commercial-vehicle-turbochargers/commercial-vehicle-davnt-turbocharger/ — turbo applications include 3, 8 and 13 litre engines."
+      ]
+    },
+    {
+      "number": 29277,
+      "text": "Exhaust pipes collect gases expelled by the engine and carry them outside the vehicle.",
+      "evidence": [
+        "Garrett Motion, How a Turbocharger Works, https://www.garrettmotion.com/ko/turbocharger-technology/how-a-turbo-works/basic/ — compressor supplies air; intercooler cools compressed air, increasing density. US DOE, How Do Diesel Vehicles Work, https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — exhaust aftertreatment system handles engine exhaust."
+      ]
+    },
+    {
+      "number": 29278,
+      "text": "The quiz marks this TRUE, but reducing gas temperature has not been established as a general purpose of the exhaust system. Gases can lose heat along the path, while catalyst reactions can increase temperature locally; the system directs gases and treats noise and emissions.",
+      "evidence": [
+        "DieselNet, Exhaust Gas Thermal Management, https://dieselnet.com/tech/engine_thermal-management.php — exhaust gas heat losses; Walker, Simple Diagnostic Testing, https://www.walkerexhaust.com/support/tech-tips/simple-diagnostic-testing.html — catalyst reactions can increase temperature locally.",
+        "Official superiori question 29278 prints VERO and attributes a purpose of lowering exhaust-gas temperature; general design purpose not independently established. Heat transfer alone is not proof of that purpose."
+      ]
+    },
+    {
+      "number": 29279,
+      "text": "The silencer dampens pressure pulsations and sound waves in the exhaust gases, reducing noise.",
+      "evidence": [
+        "Walker Exhaust, Containing Sound, https://www.walkerexhaust.com/support/tech-tips/containing-sound.html — muffler chambers and absorptive elements reduce sound and exhaust pulsation noise."
+      ]
+    },
+    {
+      "number": 29280,
+      "text": "The quiz marks this TRUE, but not every small crack necessarily requires replacement. Have the component assessed: replacement may be needed, or a suitable durable repair may be possible where permitted and compliant with noise and emissions requirements.",
+      "evidence": [
+        "Official superiori 29280 prints VERO for replacement even for small cracks.",
+        "Northern Ireland DVA https://www.infrastructure-ni.gov.uk/articles/exhaust-system accepts certain structurally sound durable repairs; inspection guidance is not Italian law and does not establish a universal right to repair. UK DVSA https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/8-nuisance concerns exhaust noise/emissions inspection."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "ac9d5f3532be399d63f27fed15ee54945a1542b31dd9a743fbd20c81418853e1",
+    "output_sha256": "9b299c30c6fcd5da967c96a3c57e872f62edda0ff97a4b29ddd7a523adb9a04b",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / engine-batches-round2-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29256,
+      29257,
+      29258,
+      29259,
+      29260,
+      29261,
+      29262,
+      29263,
+      29264,
+      29265,
+      29266,
+      29267,
+      29268,
+      29269,
+      29270,
+      29271,
+      29272,
+      29273,
+      29274,
+      29275,
+      29276,
+      29277,
+      29278,
+      29279,
+      29280
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Walker https://www.walkerexhaust.com/support/tech-tips/simple-diagnostic-testing.html explains conversion can heat exhaust at a catalyst; revised 29278 distinguishes physical heat transfer from an unverified general exhaust purpose. Northern Ireland DVA https://www.infrastructure-ni.gov.uk/articles/exhaust-system allows certain durable repairs subject to structural conditions, not a statement of Italian law."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaea-06f6-7ea1-bc46-c7cee98f21e7",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "e6eb93cda86182c7635ac5e0dee59d24b3f9ddef79f041ab3397835191dc6716",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaea-06f6-7ea1-bc46-c7cee98f21e7",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29280,
+              "reason": "La risposta stampata VERO richiede sempre la sostituzione della marmitta anche per piccole crepe o rotture. La fonte tecnica pubblica consultata ammette riparazioni durevoli e alcune perdite minori: non è stata trovata un’autorità italiana specifica che confermi l’obbligo assoluto di sostituzione o ne chiarisca il campo. Serve adjudicazione indipendente.",
+              "checked_sources": [
+                "Department for Infrastructure, Exhaust System, DVT 932 issue 6, https://www.infrastructure-ni.gov.uk/articles/exhaust-system — ammette riparazioni durevoli che eliminino perdite e non respinge alcune perdite minori; non definisce la regola italiana.",
+                "UK DVSA, MOT inspection manual, 8.1, https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/8-nuisance — valuta rumore e integrità, senza stabilire la sostituzione obbligatoria per ogni piccola crepa; non è normativa italiana."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "e6eb93cda86182c7635ac5e0dee59d24b3f9ddef79f041ab3397835191dc6716",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "ac9d5f3532be399d63f27fed15ee54945a1542b31dd9a743fbd20c81418853e1",
+        "output_sha256": "2dcc436024099cd2963fc3e3b719d1850619d007bf9081529b7392302414f19d",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / engine-batches-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          29256,
+          29257,
+          29258,
+          29259,
+          29260,
+          29261,
+          29262,
+          29263,
+          29264,
+          29265,
+          29266,
+          29267,
+          29268,
+          29269,
+          29270,
+          29271,
+          29272,
+          29273,
+          29274,
+          29275,
+          29276,
+          29277,
+          29278,
+          29279,
+          29280
+        ],
+        "issues": [
+          "29278: The source marks true an assertion that an exhaust system’s task is to lower exhaust-gas temperature. The explanation only says heat can be lost in transit and temperature varies; incidental possible heat loss does not establish cooling as a design purpose. The cited Walker technical guide shows a catalytic converter can increase gas temperature, and DieselNet describes keeping catalysts hot. Explain the scope and visible uncertainty rather than presenting an incidental effect as a verified purpose."
+        ],
+        "reviewer_evidence": [
+          "Northern Ireland DVA https://www.infrastructure-ni.gov.uk/articles/exhaust-system expressly permits durable, leak-preventing repairs where the system remains structurally sound. It does not state Italian law. Walker https://www.walkerexhaust.com/support/tech-tips/simple-diagnostic-testing.html says converter outlet gas can be hotter because conversion produces heat."
+        ]
+      }
+    ]
+  }
+}

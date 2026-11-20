@@ -1,0 +1,55 @@
+{
+  "batch": "025",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "5fc3a93f854a6dd880c40dcde0830f1996b2d294728a1f0e6d88ded3feb9f6b6",
+  "source_sha256": "d16a8d2f4fe639febb29fc18e709f51eb438c404ff6cce4aaf5ddac568b9ec47",
+  "corrections": [
+    {
+      "id": "214c9bd6ac3e6c883944f09806e55db12ae3e4cfc5f3c301aa80cea7edcf0af5",
+      "before": "La solicitud del cuaderno debe dirigirse a la Cámara de Comercio territorial competente o a organizaciones similares adheridas a la cadena internacional de garantía ATA para la importación temporal de mercancías",
+      "after": "La solicitud del cuaderno debe dirigirse a la Cámara de Comercio territorial competente o a organizaciones similares adheridas a la cadena internacional de garantía ATA (convenio aduanero para la importación temporal de mercancías)",
+      "reason": "Conserva la descripción del convenio aduanero ATA."
+    },
+    {
+      "id": "21a00c8bee0bf8be0d04546420328bf502185bd9129d252a01917defff56117b",
+      "before": "Los datos almacenados por el cronotacógrafo digital pueden imprimirse en comprobantes de papel",
+      "after": "Los datos almacenados por el cronotacógrafo digital pueden imprimirse en comprobantes de papel (tickets)",
+      "reason": "Restituye el término ticket incluido en el original."
+    },
+    {
+      "id": "21dc57767053ad2bfd27faac36cec04a50c1440689883ff6abbfd2d207f63361",
+      "before": "Cuando el conductor encuentra una manifestación en una zona poblada, conviene que no cambie de sentido si eso obstaculiza la circulación",
+      "after": "Cuando el conductor encuentra un cortejo en una zona poblada, conviene que no cambie de sentido si eso obstaculiza la circulación",
+      "reason": "Corteo es un cortejo y no necesariamente una manifestación."
+    },
+    {
+      "id": "21e691194fe1b404e2476dc873e0cd07a7778f5cf65d593751db937fd2f8d14f",
+      "before": "Se permiten detenciones breves en las zonas peatonales urbanas",
+      "after": "Se permite estacionar por poco tiempo en las zonas peatonales urbanas",
+      "reason": "Soste son estacionamientos, aun cuando sean de corta duración."
+    },
+    {
+      "id": "21ef71354d68d955c0a413351a514f55a514347f78460bd9131781093195a7e3",
+      "before": "El robo del vehículo puede ser indemnizado por el seguro de responsabilidad civil automotor",
+      "after": "El robo del vehículo puede ser indemnizado por el seguro RCA (responsabilidad civil automotor)",
+      "reason": "Restituye la sigla RCA junto con su explicación."
+    },
+    {
+      "id": "21fb9121e1e133613c2fe216b852fc0f6eb91a99d7001a23d55009c4b4c5bf9a",
+      "before": "Según el CMR, existe un impedimento absoluto para realizar el viaje cuando el plazo previsto para entregar la mercancía es un 10 % inferior al real",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), existe un impedimento absoluto para realizar el viaje cuando el plazo previsto para entregar la mercancía es un 10 % inferior al real",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "febae6330c59e9e07e189e5034232b1b1f58fcbc5dd0f24d21593e37000accd2"
+}

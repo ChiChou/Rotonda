@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed57-77db-7eb1-a956-0902dc4375ce"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 13731,
+          "quesito_id": 3042,
+          "text_it": "Passando dalla terza alla quarta marcia aumenta lo sforzo di trazione",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e4ef5ffa1ee5d3ff6bd46b507e30f03adcbf10608ccf7259dd9808f78658a398",
+        "italian": "FALSO. La quarta è più alta della terza: a parità di coppia motrice moltiplica meno la coppia alle ruote e riduce la forza di trazione disponibile.",
+        "italian_sha256": "daa1f6e2651662a0c29dc87c464fd730248e779ded79f1245b1507b0d3d4dbab"
+      },
+      {
+        "source": {
+          "number": 13732,
+          "quesito_id": 3043,
+          "text_it": "Il funzionamento dei motori è descrivibile attraverso le curve caratteristiche di coppia e di potenza",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "48d90e8c1560a2fad364f31e186076ece761c31a4772cb78e1ec78c16cb6e8e2",
+        "italian": "VERO. Le curve caratteristiche mostrano come coppia e potenza disponibili variano al variare del regime del motore.",
+        "italian_sha256": "057c75eeec504013547f62a1917221e75c0cdfe964738bf3226986b0564371a6"
+      },
+      {
+        "source": {
+          "number": 13733,
+          "quesito_id": 3043,
+          "text_it": "L’andamento delle curve di coppia e di potenza è legato al numero di giri del motore",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cbf901d18c4e717748bc0c675703b15a20803f8552d177c693107289fb455a2c",
+        "italian": "VERO. Le curve riportano coppia e potenza in funzione del numero di giri del motore.",
+        "italian_sha256": "77bc4f279de6df5bec863edf582da464e7ffd1557125ddd23c2158dcc5a9e355"
+      },
+      {
+        "source": {
+          "number": 13734,
+          "quesito_id": 3043,
+          "text_it": "Il rendimento ottimale del motore si ha in corrispondenza della coppia massima",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c5ef9bc1947c308c85d6154af70626db5ad99ce916e22e43914916072b92b2a5",
+        "italian": "VERO secondo il quiz: la zona di coppia massima è spesso favorevole al rendimento. Non è però una coincidenza garantita per ogni motore e carico: il rendimento dipende anche dal punto di funzionamento.",
+        "italian_sha256": "fa065aa7b212f877893d1ade243fe210ac0d480b301e0e6aaafd02c750640fb1"
+      },
+      {
+        "source": {
+          "number": 13735,
+          "quesito_id": 3043,
+          "text_it": "Il miglior compromesso tra velocità e consumo di carburante si ha in corrispondenza della coppia massima",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8dbb72112db4c7ce37027b4e5d14763e38a942b0c5145b78ee78d70f6a9601f4",
+        "italian": "VERO secondo il quiz: la zona di coppia massima può offrire buona ripresa con consumi contenuti. Il compromesso effettivo dipende però da veicolo, velocità, carico e percorso.",
+        "italian_sha256": "fad1ee0cc816a003823409448146e155397413408758982fda0ca1de0e4d3d83"
+      },
+      {
+        "source": {
+          "number": 13736,
+          "quesito_id": 3043,
+          "text_it": "Il consumo di carburante dipende dalla velocità del veicolo ma è indipendente dal numero di giri del motore",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0f40a0695a68f6b707b711146b57730507141a25af18560c19c07e8656528c63",
+        "italian": "FALSO. Il consumo non è indipendente dai giri: oltre alla velocità del veicolo contano il regime e il carico del motore, anche in relazione alla marcia scelta.",
+        "italian_sha256": "c0c40b3598780704a1160381cbf776117e69af9fcb4f9a8d0f850ebfe2b2ea5e"
+      },
+      {
+        "source": {
+          "number": 13737,
+          "quesito_id": 3043,
+          "text_it": "Il regime di rotazione di coppia massima corrisponde a quello di potenza massima",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e0886e1cb5d97eb1cd4c08f118b6f401bbb72a271b9cf8c8823cd411e294376d",
+        "italian": "FALSO. Il regime di coppia massima non coincide necessariamente con quello di potenza massima: la potenza dipende sia dalla coppia sia dalla velocità di rotazione.",
+        "italian_sha256": "aa6001935bac82a1571997f25114f1404a8847490141fc52cd8f0e3c9d4fb3f9"
+      },
+      {
+        "source": {
+          "number": 13738,
+          "quesito_id": 3043,
+          "text_it": "Su un tratto di strada pianeggiante, a parità di velocità, il consumo di carburante è inferiore se si usa una marcia bassa",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8bbbff06f9a9b6317145181c6fc8caff33ff18235d111e764cb5a9e88acbb735",
+        "italian": "FALSO. A pari velocità una marcia bassa mantiene generalmente il motore a più giri; una marcia più alta adatta alle condizioni può ridurre il consumo.",
+        "italian_sha256": "2f2877383cc4155c55ba7c7d47cdbb92537988f88d99e42d4bc9558b2aea45bb"
+      },
+      {
+        "source": {
+          "number": 13739,
+          "quesito_id": 3044,
+          "text_it": "L’inerzia è la forza che si oppone alla variazione del moto del veicolo",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "25ce4361333f30407662bb581ba940e2a0bdd4d2014c29dacb3cd013ab6f7502",
+        "italian": "VERO nel senso del quiz: l’inerzia è la tendenza a conservare lo stato di moto. Più precisamente è una proprietà della massa, non una forza.",
+        "italian_sha256": "c90f8e61a1051f7bc8e101f67a21bd825c243b93000158b616936d332c93e53f"
+      },
+      {
+        "source": {
+          "number": 13740,
+          "quesito_id": 3044,
+          "text_it": "L’inerzia del veicolo può essere utilmente sfruttata per raggiungere il punto d’arresto",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6c536dc99b43b2bd82e9f4f31e69cd237888dc47138349976d26ab244ad6f738",
+        "italian": "VERO. Anticipando l’arresto si può rilasciare l’acceleratore e sfruttare il moto residuo, frenando quando necessario.",
+        "italian_sha256": "368908d0d3a4c6ecc2920e223cf4465e5c0f7bd677b98c0026cd4da2d621e4f6"
+      },
+      {
+        "source": {
+          "number": 13741,
+          "quesito_id": 3044,
+          "text_it": "Il corretto utilizzo dell’inerzia del veicolo consente un minor consumo di carburante e freni",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d706f237dd60bbe3fa5edf7c411d0473d7c0ffdce38860defd5aa26096fa34df",
+        "italian": "VERO. Anticipare i rallentamenti e sfruttare il moto residuo riduce accelerazioni e frenate inutili, con possibile risparmio di carburante e minore usura dei freni.",
+        "italian_sha256": "7e88ce17bd5aaee9649334da07e5479c1a17dc8c37abd4056454827b10145a57"
+      },
+      {
+        "source": {
+          "number": 13742,
+          "quesito_id": 3044,
+          "text_it": "Marciare a velocità costante consente di risparmiare sul consumo di carburante",
+          "answer": 1,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f825adcaab49b147f5c41a34eb6ac22ee77afddf9f95c604fae1597eaaf57c06",
+        "italian": "VERO. Mantenere una velocità regolare, quando le condizioni lo consentono, evita accelerazioni e frenate ripetute che aumentano i consumi.",
+        "italian_sha256": "edc4339d88a850307f3b028ad5dd3d7270f242555e7eacd14647ab95cdcb1b96"
+      },
+      {
+        "source": {
+          "number": 13743,
+          "quesito_id": 3044,
+          "text_it": "Un veicolo a pieno carico ha minor inerzia dello stesso veicolo scarico",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bd09c28e1096bedaa1424d411df42becbb7dbb5690d984055e5533262e85e9d2",
+        "italian": "Falso. A pieno carico la massa è maggiore, quindi aumenta anche l’inerzia: il veicolo si oppone di più alle variazioni del moto.",
+        "italian_sha256": "65a15e3cc3747c342b2cec036cca55a19e38ae05ed21311e180db59a78614bfe"
+      },
+      {
+        "source": {
+          "number": 13744,
+          "quesito_id": 3044,
+          "text_it": "La maggiore inerzia consente di arrestare il veicolo in uno spazio più breve",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8fa6bdcc8ca9b2ed925c98c243859a1d266c68855477d00ae114f3dcb518e14d",
+        "italian": "Falso. Una maggiore inerzia si oppone maggiormente alla diminuzione della velocità; a parità di velocità iniziale e forza frenante, occorre più spazio per fermarsi.",
+        "italian_sha256": "5a898e1439ee6276edb23f00db598db3b248a1f5afc1877caffe396041e9c487"
+      },
+      {
+        "source": {
+          "number": 13745,
+          "quesito_id": 3044,
+          "text_it": "Un veicolo ha maggiore inerzia in salita che in discesa",
+          "answer": 0,
+          "page": 144,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3d0ccfc0aca16e692b885a2abf197c5446ea65120830521ef1756b0d46c64222",
+        "italian": "Falso. L’inerzia dipende dalla massa, non dalla pendenza. Salita e discesa modificano invece l’effetto della gravità sul movimento.",
+        "italian_sha256": "abb17d25580f7b36fd132ccdca4d519a684c40c63dcfece3f8e768e8e61c04e3"
+      },
+      {
+        "source": {
+          "number": 13746,
+          "quesito_id": 3044,
+          "text_it": "L’utilizzo di una marcia bassa consente di sfruttare meglio l’inerzia del veicolo",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d1dde7b0afb56892cad33789e98f39cd29d5477c1dcf64ec8934f2e0d4a0329f",
+        "italian": "Falso. Una marcia bassa accentua il freno motore e rallenta il veicolo; per mantenere il moto si usa una marcia adatta, normalmente più alta quando le condizioni lo permettono.",
+        "italian_sha256": "25af8ae8b2eb19eea114b138e2861d5e23b95b345633db65a5ac194854f73927"
+      },
+      {
+        "source": {
+          "number": 13747,
+          "quesito_id": 3045,
+          "text_it": "Prima della partenza va controllato che gli pneumatici non siano sgonfi",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "eb0dbb1469ad46979a6a4590143f46c802ba02905b7c0f77147219362f5a3f86",
+        "italian": "Vero. Prima di partire si controlla che gli pneumatici siano correttamente gonfiati; una pressione insufficiente può compromettere la sicurezza.",
+        "italian_sha256": "598965c375414397e6b6710b8bbfc6f269b95cb64696c798c0b94d34addb2d97"
+      },
+      {
+        "source": {
+          "number": 13748,
+          "quesito_id": 3045,
+          "text_it": "Prima della partenza vanno controllate le condizioni degli pneumatici",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6449b1573f709a8c57f07f48ea76fa30292239abb6887f456ef8f10aa165b9e5",
+        "italian": "Vero. Prima della partenza si verificano gonfiaggio, usura e possibili danni degli pneumatici.",
+        "italian_sha256": "2997a188efdba1acb7dca872a43dc8083c1e7d3813e901e4044a63a005dc0872"
+      },
+      {
+        "source": {
+          "number": 13749,
+          "quesito_id": 3045,
+          "text_it": "La pressione degli pneumatici va controllata periodicamente",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b4336bc87f3086642f74b69ae6519a3df49f72ae23d11e1f0aaf82c641570fff",
+        "italian": "Vero. La pressione va verificata periodicamente con un manometro e riportata al valore prescritto per il veicolo.",
+        "italian_sha256": "1add5970ce51028bc913367ad4e9448eb1f38299394a40db194044b4aebe7f3e"
+      },
+      {
+        "source": {
+          "number": 13750,
+          "quesito_id": 3045,
+          "text_it": "La pressione degli pneumatici va controllata con pneumatici freddi",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "359426f041e309cb8101df520ec8cf5a255cb3e7d6fb5f2e67dc49f1292324c1",
+        "italian": "Vero. Il controllo a freddo consente di confrontare la pressione con il valore prescritto, senza l’aumento dovuto al riscaldamento durante la marcia.",
+        "italian_sha256": "cc22b4e93bd79592387b1ab9ce101f50e64f5650989df8fd3f5be48eda4a125f"
+      },
+      {
+        "source": {
+          "number": 13751,
+          "quesito_id": 3045,
+          "text_it": "Nel periodo estivo è preferibile che gli pneumatici siano gonfiati a pressione leggermente superiore, piuttosto che inferiore, rispetto al dato indicato dal costruttore",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "529b50e9ba2d95c268941bdaf7e559c32d619643a3d6493bc8287cdd7ef095bd",
+        "italian": "Vero secondo il quiz, che considera preferibile evitare una pressione insufficiente. La formulazione è però ambigua: anche d’estate si deve regolare la pressione a freddo al valore indicato dal costruttore, senza aumentarla arbitrariamente.",
+        "italian_sha256": "fb2d7085bb1344ca1711071b27690b7c30153264cbbdb41c85c506460d35b873"
+      },
+      {
+        "source": {
+          "number": 13752,
+          "quesito_id": 3045,
+          "text_it": "È ammissibile lo spessore del battistrada degli pneumatici inferiore a 1,6 mm, ma soltanto sulle ruote posteriori",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5295793af8ff6adb57807fb172906eee6c6391b454eeace1e039a2b6b88f55b7",
+        "italian": "Falso. Per gli autoveicoli la profondità degli intagli principali deve essere almeno 1,6 mm anche sulle ruote posteriori.",
+        "italian_sha256": "de2fb4eeeb8633064bd4515db636f32c787e99242bff958be6a8d925cf1806b5"
+      },
+      {
+        "source": {
+          "number": 13753,
+          "quesito_id": 3045,
+          "text_it": "È consentito montare sullo stesso asse pneumatici di disegno diverso, purché lo spessore del battistrada sia superiore a 1,6 mm",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "51a837a84c61e9802d534db9fddfa3cce328a58bbcc2f80605d5256bbc8eb517",
+        "italian": "Falso secondo il quiz: il solo spessore non basta a garantire un montaggio equilibrato; sullo stesso asse è raccomandata una coppia con lo stesso disegno. La formulazione è ambigua perché una raccomandazione tecnica non equivale di per sé a un divieto legale generale.",
+        "italian_sha256": "6facb2f5c7acb628eedd081bdd4ff6a62a0822b697ba9fe54a993c02b4f87a41"
+      },
+      {
+        "source": {
+          "number": 13754,
+          "quesito_id": 3045,
+          "text_it": "La pressione degli pneumatici deve essere controllata una volta l’anno",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "60056206b52b21d688edee3bf7833776a83925af17be9da6599531b912818352",
+        "italian": "Falso. Una sola verifica annuale non è sufficiente: la pressione va controllata periodicamente, preferibilmente ogni mese e a freddo.",
+        "italian_sha256": "3b9f0a9226264907319a35b7f79ef10e84ed44ef145ef42012e342b6ec6d7093"
+      },
+      {
+        "source": {
+          "number": 13755,
+          "quesito_id": 3045,
+          "text_it": "La corretta pressione di gonfiaggio degli pneumatici è indipendente dal carico del veicolo",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d4e2fb2cadda7cf2bc2ec85792eb283334e75d7a691f3adb7ad99c886a9dccce",
+        "italian": "Falso. La pressione prescritta può variare con il carico: occorre seguire i valori indicati dal costruttore per le condizioni di utilizzo.",
+        "italian_sha256": "851ae2f32869024c88b055c835e4178bd777bc1d6efa41d51c0b9a6d5e066e3e"
+      },
+      {
+        "source": {
+          "number": 13756,
+          "quesito_id": 3046,
+          "text_it": "Prima della partenza è opportuno controllare il corretto funzionamento dell’impianto di illuminazione",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "266a941ef28ddeda2af1bf2a52f6a487e16a177a150d915b4f84bde89b182b17",
+        "italian": "Vero. Prima di partire è opportuno verificare che le luci funzionino, per vedere ed essere visibili.",
+        "italian_sha256": "2fe6b77f05927dc57f5c32531951bbb992a355c2c238c5f9ab820aed6db4d86b"
+      },
+      {
+        "source": {
+          "number": 13757,
+          "quesito_id": 3046,
+          "text_it": "Prima della partenza il conducente deve controllare il funzionamento dell’apertura delle porte dell’autobus",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1917ed4992b20788ccd5a2c2761ad0435fca9916f12e6587d0781e92b06d0045",
+        "italian": "Vero. Il controllo delle porte dell’autobus comprende l’apertura completa e la corretta chiusura, per la sicurezza dei passeggeri.",
+        "italian_sha256": "888e8a7c2fa5f168394e28b344f113cd465702b8ad5900de2a90b7a087d799ea"
+      },
+      {
+        "source": {
+          "number": 13758,
+          "quesito_id": 3046,
+          "text_it": "Prima della partenza è opportuno verificare il funzionamento delle luci di corridoio degli autobus",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d4a4660bd295cbc913d0fd079c8b9ff17c8679d30f74c1039688b9773d954d77",
+        "italian": "Vero. Le luci interne, comprese quelle del corridoio, vanno controllate perché i passeggeri possano muoversi in sicurezza.",
+        "italian_sha256": "c9350390bdfee4afab54feefb26d67e7fa5350999a1d0520ba4ed9538367067b"
+      },
+      {
+        "source": {
+          "number": 13759,
+          "quesito_id": 3046,
+          "text_it": "Prima della partenza è opportuno verificare che le spie che indicano il malfunzionamento di un organo del veicolo siano spente",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "876e9e36d29a6b7415f7dc69224df1b968a6c0f0e4f5e3416c74ccf9d0417ca9",
+        "italian": "Vero. Prima di partire si verificano le spie di avaria: dopo i normali controlli iniziali non devono rimanere accese segnalazioni di guasto non risolto.",
+        "italian_sha256": "348da8ed26369c26d0cf786e40e40d9a009bbbe17783e3385b8026310e0568bc"
+      },
+      {
+        "source": {
+          "number": 13760,
+          "quesito_id": 3046,
+          "text_it": "Prima della partenza è opportuno verificare il corretto serraggio dei morsetti dei due poli della batteria",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "468d8e9d28ff855dc60f2e63a49d2fd615d57e45ae83c86dacdefdff23eb5a8e",
+        "italian": "Vero. Morsetti ben fissati assicurano un buon collegamento elettrico. Il controllo va eseguito in sicurezza e secondo le indicazioni di manutenzione del veicolo.",
+        "italian_sha256": "7585da86396f9627b0bcd6c96ac9e7393fa331efb3bd7f4ac960b6635f7d8eda"
+      },
+      {
+        "source": {
+          "number": 13761,
+          "quesito_id": 3046,
+          "text_it": "E’ opportuno verificare periodicamente le condizioni delle cinghie di trasmissione",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8c431fbdf037314199316356dd0652fa834c7b7f842c769e1c82e9b2ec7565e9",
+        "italian": "Vero. Controlli periodici permettono di rilevare usura o screpolature delle cinghie prima che compromettano la trasmissione.",
+        "italian_sha256": "5d206d1596ebbeb832ef2d704d3a9ea55a9812dec5c3b105b293859f5d673ff1"
+      },
+      {
+        "source": {
+          "number": 13762,
+          "quesito_id": 3046,
+          "text_it": "L’alternatore genera corrente alternata ed il suo malfunzionamento impedisce che la batteria si ricarichi",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5d49f6054d6165a2fbd0d8db1846b709bbeed4b746bfb88fbbdd6d54073c243c",
+        "italian": "Vero nel principio. L’alternatore genera corrente alternata, poi raddrizzata per alimentare l’impianto e ricaricare la batteria. Un guasto alla ricarica può impedirla; non ogni possibile difetto dell’alternatore la interrompe necessariamente.",
+        "italian_sha256": "1b02763bad364aec070f15732819848e4ef1e9975725372708ef6162bade6ff1"
+      },
+      {
+        "source": {
+          "number": 13763,
+          "quesito_id": 3046,
+          "text_it": "Prima della partenza il conducente deve controllare la dispersione di corrente elettrica del veicolo",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d4cefbb47298bb6b486c9a21af976c86542fe3abd6d02144ef14003bc8814bb1",
+        "italian": "Falso. La misurazione della dispersione di corrente non è un controllo ordinario prima di ogni partenza: in caso di sospetto guasto si fa verificare l’impianto; il conducente controlla invece le spie e i dispositivi essenziali.",
+        "italian_sha256": "7affdcd27af858b18f3675ef39dcec9ce7695b607166395146e8fc20db62712f"
+      },
+      {
+        "source": {
+          "number": 13764,
+          "quesito_id": 3046,
+          "text_it": "Il controllo della corretta accensione dell’impianto di illuminazione può essere svolto solo da elettrauto",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4a7eb4bb96b2a7ea8a24a39c0bd4fcba98ee7cff2399a876ef2af2f2b8854ae4",
+        "italian": "Falso. Il conducente può controllare l’accensione delle luci prima della partenza; un elettrauto interviene per diagnosticare o riparare eventuali guasti.",
+        "italian_sha256": "94e26a098d8891456e36634f6cc6352dfd0d7c895777463c6949483e84d074bd"
+      },
+      {
+        "source": {
+          "number": 13765,
+          "quesito_id": 3046,
+          "text_it": "Il raddrizzatore è incorporato nell’alternatore e compensa gli squilibri di peso nel veicolo",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "88a0285c6cfe4a3430d5645a9e2785b31523fefc28c7864c3a1d942973a148be",
+        "italian": "Falso. Il raddrizzatore dell’alternatore trasforma la corrente alternata in corrente continua per l’impianto elettrico; non corregge la distribuzione del peso.",
+        "italian_sha256": "51f84625d8e36172494b821f40cd1c2650705b49e0ad905bb7f079f2d6e0089b"
+      },
+      {
+        "source": {
+          "number": 13766,
+          "quesito_id": 3046,
+          "text_it": "L’alternatore è collegato direttamente ai proiettori",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3dcd0e4e910d6158d9c6df815cdc30261d541d081feffcd92672365ede0ab9f4",
+        "italian": "Falso nel senso del quiz. L’alternatore alimenta la rete elettrica del veicolo, di cui fanno parte anche i proiettori; non è destinato soltanto a essi. Il termine «direttamente» non descrive con precisione tutti i possibili collegamenti.",
+        "italian_sha256": "5ba3abd0d4e6cb8b264dc80422ac4209a724f954bae3d46972d32cd3b68baba1"
+      },
+      {
+        "source": {
+          "number": 13767,
+          "quesito_id": 3046,
+          "text_it": "Se il veicolo stenta ad avviarsi si devono collegare tra loro, con un cavo, i due poli della batteria",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ce56976e2bbb85a09c683f0b2adce778651837dc7dc25b4d8555d377ae4e3b39",
+        "italian": "Falso. Collegare tra loro i due poli della stessa batteria provoca un cortocircuito pericoloso. Se l’avviamento è difficoltoso, occorre verificare la batteria e seguire la procedura prevista dal costruttore.",
+        "italian_sha256": "de36faa737d8a8ae639cddc7d6a9b11cb8d71fe033a37044f8b05a7ba502d9b4"
+      },
+      {
+        "source": {
+          "number": 13768,
+          "quesito_id": 3047,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio del motore per evitare gravi danni di quest’ultimo",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a41dec511cc2a37aac38444adb43ea4e84f07aeaff6d576d72894973b2288abe",
+        "italian": "Il livello corretto assicura la lubrificazione del motore: se manca olio, le parti possono subire gravi danni.",
+        "italian_sha256": "b4780e63856411d2a2337a4ea91a9065f02d766f67c8f17e6f76075c2c1f8066"
+      },
+      {
+        "source": {
+          "number": 13769,
+          "quesito_id": 3047,
+          "text_it": "Periodicamente deve essere controllato il livello del liquido dei freni per consentire il corretto funzionamento dell’impianto frenante",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "33b895b624f51e8afbd3010fd6ba766210f446588685768b4a480dbd780143a6",
+        "italian": "Negli impianti idraulici il liquido dei freni va controllato periodicamente: un livello insufficiente può compromettere la frenatura.",
+        "italian_sha256": "69c9cec7a1b49351ccaca380e6743f5ca8626108ad32a178f3259b41a9edc503"
+      },
+      {
+        "source": {
+          "number": 13770,
+          "quesito_id": 3047,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio del cambio di velocità per garantire il corretto funzionamento degli ingranaggi",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1015fb329dac4c7512b07218113df8856903065e50abdcfad2eb36e170ae24f1",
+        "italian": "L’olio del cambio lubrifica gli ingranaggi; il livello va verificato secondo la manutenzione prevista per il veicolo.",
+        "italian_sha256": "fa1d348eafa0b9f68ee5ad4d831b3a7aa75553bbaa0ed7360abc94aaf09721e8"
+      },
+      {
+        "source": {
+          "number": 13772,
+          "quesito_id": 3047,
+          "text_it": "E’ opportuno controllare periodicamente il liquido di raffreddamento del motore per evitare il surriscaldamento del motore",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "932704eee1f551af1973d94138403dc1b1d21ad6e6cc5f76bf09d574166e5634",
+        "italian": "Il liquido di raffreddamento asporta calore dal motore: un livello insufficiente può favorire il surriscaldamento.",
+        "italian_sha256": "16c715cd2e853e5e704627f3de23065c6deb4d316122d942efba8bed665863c8"
+      },
+      {
+        "source": {
+          "number": 13773,
+          "quesito_id": 3047,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio del motore per evitare che esso vada in fuorigiri",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7966d1283ff07b0a8bdd3bd514ee02cfa70fefe42fd98d725beaed2bf990128e",
+        "italian": "Il controllo dell’olio serve a proteggere il motore dalla lubrificazione insufficiente, non a impedire il fuorigiri.",
+        "italian_sha256": "eefc32b1b5be7ea84393c2d3b973ed040200aedc431d19ff4df46473ae9cc3a2"
+      },
+      {
+        "source": {
+          "number": 13775,
+          "quesito_id": 3047,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio del cambio di velocità per garantire una maggiore scorrevolezza della frizione",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "73fb61d937460f8ed6a468a9b5e23c3faa00f653a614a997734eee7ac65bf7aa",
+        "italian": "L’olio del cambio serve alla lubrificazione del cambio, non a rendere più scorrevole la frizione.",
+        "italian_sha256": "55c4fcb76e69c738b9abb036ef8b2a9356e89cd510a55c37bb01e576f12dfa96"
+      },
+      {
+        "source": {
+          "number": 13777,
+          "quesito_id": 3047,
+          "text_it": "E’opportuno controllare periodicamente il liquido di raffreddamento del motore per evitare che si abbassi eccessivamente la temperatura dell’olio del motore",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "94dca24b0d4d6058b5c0898c275894a155bf5a3efcc745d476e97080d9f4d006",
+        "italian": "Il livello del liquido si controlla per proteggere il motore dal surriscaldamento, non per evitare un eccessivo raffreddamento dell’olio.",
+        "italian_sha256": "e30039055a77576e031f153260ff0ea65da364e9b01ab7a06d47d412c6f3d216"
+      },
+      {
+        "source": {
+          "number": 13778,
+          "quesito_id": 3048,
+          "text_it": "Aggiungendo acqua al liquido antigelo aumenta il rischio di congelamento",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2acf7141de02702610fa332308d0186755a6ac68ac5903e1651b58b431b1c993",
+        "italian": "Il quiz considera una miscela già utilizzabile: aggiungere troppa acqua riduce la protezione dal gelo. La proporzione va comunque scelta secondo le indicazioni del prodotto: il concentrato richiede diluizione.",
+        "italian_sha256": "a16632eebc46939a3f41a89cefd97b307018ccbf6e8fe58801cef0d6648aa537"
+      },
+      {
+        "source": {
+          "number": 13779,
+          "quesito_id": 3048,
+          "text_it": "Periodicamente deve essere controllato il livello del liquido detergente del parabrezza",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4d3cf1fc9d64425696949b2e03252ea7154ae1714b2ca2b775223dea489dd991",
+        "italian": "Il livello del liquido lavaparabrezza va verificato e ripristinato, per poter pulire il vetro quando necessario.",
+        "italian_sha256": "cfbaf8cd2d4528558c95e23f2934a3d2c96a00d76984e058139e7ba2b3ede313"
+      },
+      {
+        "source": {
+          "number": 13780,
+          "quesito_id": 3048,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio del servosterzo",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fedff6f5ff6d92946ed247ccfaef025f23cc3010ca60db069c9625c53019fa4c",
+        "italian": "Se il servosterzo è idraulico, si controlla il livello del suo liquido secondo il manuale; un servosterzo elettrico non ha questo serbatoio.",
+        "italian_sha256": "7e4837d150c799ef5700e3416512ebdf145fde0a610241f11b6394bcb4ac7888"
+      },
+      {
+        "source": {
+          "number": 13782,
+          "quesito_id": 3048,
+          "text_it": "Il codice della strada impone di verificare periodicamente il livello dell’olio di lubrificazione del motore",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d708523027976f0acea3e2473f55855ff002b2b7390ea14033721fde52091352",
+        "italian": "È errato attribuire al Codice questo specifico controllo periodico: l’articolo 79 richiede in generale l’efficienza del veicolo. Il livello dell’olio va comunque controllato secondo la manutenzione prevista.",
+        "italian_sha256": "495379b50329cc3ed64d3a66887831341d375a9c335ee80a351c1d34934fb766"
+      },
+      {
+        "source": {
+          "number": 13783,
+          "quesito_id": 3048,
+          "text_it": "E’ necessario controllare periodicamente il livello dell’olio lubrificante ma non il livello dell’olio dei freni",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fbc8865735d5518fe5ecf524dee877855b29ded21782ec4954b69fbcfc688197",
+        "italian": "È sbagliato escludere il liquido dei freni: nei sistemi idraulici si controlla periodicamente anche il suo livello, oltre a quello dell’olio motore.",
+        "italian_sha256": "bd6f25df1268968005ce82bd63a39c246957d6b59e22c75f58f2d1061e1757a3"
+      },
+      {
+        "source": {
+          "number": 13784,
+          "quesito_id": 3048,
+          "text_it": "Nel periodo invernale è opportuno aggiungere acqua all’olio del differenziale per renderlo più scorrevole",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c0e9f03673789edcf61dc9d474a8a6e4a724a9372061ea291ab24c413b01f381",
+        "italian": "FALSO. L’acqua contamina il lubrificante e non va aggiunta al differenziale: si usa l’olio previsto dal costruttore, adatto alle temperature di esercizio.",
+        "italian_sha256": "6c87b1da2b863a134aeb73deeca79494b55b7b2261d26fecee3082e63bcebad2"
+      }
+    ],
+    "task_sha256": "2fcb5cd9ee1048dde42697e203f25d984d2114a0512d86bd406abcc2daab1856"
+  },
+  "rows": [
+    {
+      "number": 13731,
+      "text": "FALSO. Fourth gear is higher than third: for the same engine torque, it multiplies torque at the wheels less and reduces the available tractive force."
+    },
+    {
+      "number": 13732,
+      "text": "VERO. The characteristic curves show how available torque and power vary with engine speed."
+    },
+    {
+      "number": 13733,
+      "text": "VERO. The curves show torque and power as a function of engine speed."
+    },
+    {
+      "number": 13734,
+      "text": "VERO according to the quiz: the maximum torque range is often favorable for efficiency. However, the two are not guaranteed to coincide for every engine and load: efficiency also depends on the operating point."
+    },
+    {
+      "number": 13735,
+      "text": "VERO according to the quiz: the maximum torque range can offer good acceleration with moderate fuel consumption. The actual compromise, however, depends on the vehicle, speed, load and route."
+    },
+    {
+      "number": 13736,
+      "text": "FALSO. Fuel consumption is not independent of engine speed: besides vehicle speed, engine speed and load also matter, including in relation to the gear selected."
+    },
+    {
+      "number": 13737,
+      "text": "FALSO. The engine speed at maximum torque does not necessarily coincide with that at maximum power: power depends on both torque and rotational speed."
+    },
+    {
+      "number": 13738,
+      "text": "FALSO. At the same vehicle speed, a low gear generally keeps the engine at higher revs; a higher gear suited to the conditions can reduce fuel consumption."
+    },
+    {
+      "number": 13739,
+      "text": "VERO in the sense intended by the quiz: inertia is the tendency to maintain the state of motion. More precisely, it is a property of mass, not a force."
+    },
+    {
+      "number": 13740,
+      "text": "VERO. By anticipating a stop, you can release the accelerator and use the vehicle's remaining momentum, braking when necessary."
+    },
+    {
+      "number": 13741,
+      "text": "VERO. Anticipating slowdowns and using the vehicle's remaining momentum reduces unnecessary acceleration and braking, potentially saving fuel and reducing brake wear."
+    },
+    {
+      "number": 13742,
+      "text": "VERO. Maintaining a steady speed, when conditions allow, avoids repeated acceleration and braking that increase fuel consumption."
+    },
+    {
+      "number": 13743,
+      "text": "Falso. When fully loaded, the vehicle has greater mass and therefore greater inertia: it resists changes in motion more."
+    },
+    {
+      "number": 13744,
+      "text": "Falso. Greater inertia offers more resistance to a reduction in speed; given the same initial speed and braking force, more distance is needed to stop."
+    },
+    {
+      "number": 13745,
+      "text": "Falso. Inertia depends on mass, not the slope. Going uphill or downhill changes the effect of gravity on motion."
+    },
+    {
+      "number": 13746,
+      "text": "Falso. A low gear increases engine braking and slows the vehicle; to maintain motion, use a suitable gear, normally a higher one when conditions permit."
+    },
+    {
+      "number": 13747,
+      "text": "Vero. Before setting off, check that the tires are properly inflated; insufficient pressure can compromise safety."
+    },
+    {
+      "number": 13748,
+      "text": "Vero. Before setting off, check tire inflation, wear and possible damage."
+    },
+    {
+      "number": 13749,
+      "text": "Vero. Tire pressure should be checked periodically with a pressure gauge and adjusted to the value prescribed for the vehicle."
+    },
+    {
+      "number": 13750,
+      "text": "Vero. Checking when the tires are cold allows the pressure to be compared with the prescribed value without the increase caused by heating while driving."
+    },
+    {
+      "number": 13751,
+      "text": "Vero according to the quiz, which considers it preferable to avoid insufficient pressure. The wording is ambiguous, however: even in summer, cold tire pressure must be set to the value specified by the manufacturer, without increasing it arbitrarily."
+    },
+    {
+      "number": 13752,
+      "text": "Falso. For motor vehicles, the main tread grooves must be at least 1.6 mm deep on the rear wheels as well."
+    },
+    {
+      "number": 13753,
+      "text": "Falso according to the quiz: tread depth alone is not enough to ensure a balanced fit; a pair with the same tread pattern is recommended on the same axle. The wording is ambiguous because a technical recommendation does not in itself amount to a general legal prohibition."
+    },
+    {
+      "number": 13754,
+      "text": "Falso. One check a year is not enough: tire pressure should be checked periodically, preferably every month and when the tires are cold."
+    },
+    {
+      "number": 13755,
+      "text": "Falso. The prescribed pressure can vary with the load: follow the manufacturer's specified values for the conditions of use."
+    },
+    {
+      "number": 13756,
+      "text": "Vero. Before setting off, it is advisable to check that the lights work, so you can see and be seen."
+    },
+    {
+      "number": 13757,
+      "text": "Vero. Checking the bus doors includes making sure they open fully and close properly, for passenger safety."
+    },
+    {
+      "number": 13758,
+      "text": "Vero. The interior lights, including the aisle lights, should be checked so passengers can move around safely."
+    },
+    {
+      "number": 13759,
+      "text": "Vero. Before setting off, check the malfunction warning lights: after the normal initial checks, no warning of an unresolved fault should remain lit."
+    },
+    {
+      "number": 13760,
+      "text": "Vero. Securely fastened terminals ensure a good electrical connection. The check must be performed safely and according to the vehicle's maintenance instructions."
+    },
+    {
+      "number": 13761,
+      "text": "Vero. Periodic checks can reveal wear or cracks in the belts before they compromise the drive system."
+    },
+    {
+      "number": 13762,
+      "text": "Vero in principle. The alternator generates alternating current, which is then rectified to power the electrical system and recharge the battery. A charging fault can prevent the battery from recharging; not every possible alternator defect necessarily stops it from charging."
+    },
+    {
+      "number": 13763,
+      "text": "Falso. Measuring current leakage is not a routine check before every departure: if a fault is suspected, have the electrical system checked; the driver instead checks the warning lights and essential devices."
+    },
+    {
+      "number": 13764,
+      "text": "Falso. The driver can check that the lights come on before setting off; an auto electrician diagnoses or repairs any faults."
+    },
+    {
+      "number": 13765,
+      "text": "Falso. The alternator's rectifier converts alternating current into direct current for the electrical system; it does not correct weight distribution."
+    },
+    {
+      "number": 13766,
+      "text": "Falso in the sense intended by the quiz. The alternator supplies the vehicle's electrical system, which includes the headlights; it is not intended solely for them. The term ‘directly’ does not accurately describe all possible connections."
+    },
+    {
+      "number": 13767,
+      "text": "Falso. Connecting the two terminals of the same battery to each other causes a dangerous short circuit. If the vehicle is difficult to start, check the battery and follow the manufacturer's prescribed procedure."
+    },
+    {
+      "number": 13768,
+      "text": "The correct oil level ensures engine lubrication: if there is not enough oil, parts can suffer serious damage."
+    },
+    {
+      "number": 13769,
+      "text": "In hydraulic systems, brake fluid should be checked periodically: an insufficient level can compromise braking."
+    },
+    {
+      "number": 13770,
+      "text": "Gearbox oil lubricates the gears; its level should be checked according to the vehicle's prescribed maintenance schedule."
+    },
+    {
+      "number": 13772,
+      "text": "Coolant carries heat away from the engine: an insufficient level can contribute to overheating."
+    },
+    {
+      "number": 13773,
+      "text": "Checking the oil protects the engine from insufficient lubrication, not from over-revving."
+    },
+    {
+      "number": 13775,
+      "text": "Gearbox oil lubricates the gearbox; it does not make the clutch operate more smoothly."
+    },
+    {
+      "number": 13777,
+      "text": "The coolant level is checked to protect the engine from overheating, not to prevent the oil from cooling excessively."
+    },
+    {
+      "number": 13778,
+      "text": "The quiz assumes a mixture that is already ready for use: adding too much water reduces frost protection. The proportion should nevertheless be chosen according to the product instructions: concentrate requires dilution."
+    },
+    {
+      "number": 13779,
+      "text": "The windshield washer fluid level should be checked and topped up so the windshield can be cleaned when necessary."
+    },
+    {
+      "number": 13780,
+      "text": "If the power steering is hydraulic, its fluid level is checked according to the manual; electric power steering does not have this reservoir."
+    },
+    {
+      "number": 13782,
+      "text": "It is incorrect to attribute this specific periodic check to the Highway Code: Article 79 generally requires the vehicle to be in proper working order. The oil level should still be checked according to the prescribed maintenance schedule."
+    },
+    {
+      "number": 13783,
+      "text": "It is wrong to exclude brake fluid: in hydraulic systems, its level is also checked periodically, along with the engine oil level."
+    },
+    {
+      "number": 13784,
+      "text": "FALSO. Water contaminates the lubricant and must not be added to the differential: use the oil specified by the manufacturer, suitable for the operating temperatures."
+    }
+  ],
+  "output_sha256": "83d2f64c6264335bacfe9d7af05effbd3881022b0007e6094141e8a43302b2a6"
+}

@@ -1,0 +1,75 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1f676-8a39-7480-8d78-cca3c9a58b76"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 31161,
+          "quesito_id": 7007,
+          "text_it": "Grazie al CDC (sistema di controllo continuo dei sobbalzi), che regola continuamente gli ammortizzatori, vengono garantiti la stabilità del veicolo e il contenimento dei sobbalzi in frenata, nelle curve, nei dossi, ecc.",
+          "answer": 1,
+          "page": 3,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "68eddc0db9b12298eca80dda75b244386693b6b552c9c6e3fbf4a05a58535430",
+        "italian": "Il CDC varia continuamente lo smorzamento degli ammortizzatori secondo la marcia, contribuendo a contenere i movimenti della carrozzeria e a mantenere stabilità e comfort.",
+        "italian_sha256": "4e96a99c6afd6aea70dc60cde6d885b8154b7a19de614202e94c0ef3f4f18837"
+      },
+      {
+        "source": {
+          "number": 31544,
+          "quesito_id": 7032,
+          "text_it": "Una situazione è considerata di emergenza solo quando l'incidente stradale ha provocato più di due feriti",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c101a8520199b66a5143155a4ed1f00b6f058ac3820a0a3955a0335bf340219c",
+        "italian": "Non serve un numero minimo di feriti: anche una perdita di merci pericolose senza feriti può richiedere un intervento di emergenza.",
+        "italian_sha256": "e913792e9eaef2e16b5cfee0abed590ed66ac402fc342e8f054669584122fe06"
+      },
+      {
+        "source": {
+          "number": 31748,
+          "quesito_id": 7045,
+          "text_it": "La segnalazione di pericolo tramite il segnale di veicolo fermo è vietata nei dossi",
+          "answer": 0,
+          "page": 21,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d767ee6d8ea3aeb940dbe8837acc4f29c67fa0387cc399aff67596ffdbba8606",
+        "italian": "Un dosso non vieta la presegnalazione: se limita la visibilità dell’ostacolo il triangolo va collocato in modo da essere visibile a chi arriva.",
+        "italian_sha256": "8d5ba7c40733f3731f187eb77d689afc099576c7c57d94c492ab5bc3ccff978e"
+      }
+    ],
+    "task_sha256": "59a7b3e4b2e2ae332554b4a5d0b17d406e14e3f19e5e9483bbc6971bbdb25940"
+  },
+  "rows": [
+    {
+      "number": 31161,
+      "text": "CDC 根据行驶状况持续调整减震器的阻尼，有助于抑制车身运动，保持车辆的稳定性和舒适性。"
+    },
+    {
+      "number": 31544,
+      "text": "没有最低受伤人数要求：即使危险货物泄漏未造成人员受伤，也可能需要采取紧急措施。"
+    },
+    {
+      "number": 31748,
+      "text": "道路隆起处并不禁止提前设置警示标志：如果隆起影响对障碍物的视线，应将三角警示牌放在驶来车辆的驾驶人能够看到的位置。"
+    }
+  ],
+  "output_sha256": "653459faf76aa4b345c2a0c844c84b5fe8c1ccddd92ef29c35ca1c06d4cf879e"
+}

@@ -1,0 +1,230 @@
+{
+  "batch": "124",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_late",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "10781e8f48e902a326687e2267f81359e9955618fa812826ae7669833f004453",
+  "rows": 100,
+  "verified_ids": [
+    "5b361f4ae7b02232695b397140d4e96d1f1c59850823db296dd93c986e6ca180",
+    "a4de2a2e207aebe9ff2eb8ff359af38783bd572c290c79a3723d333e1d9e6dc9",
+    "b841386fac33e0039e660b2dac04a977ef3f39478ae188ecbb2b3dc6ab397ed9",
+    "512473d1fcfbebd4a8de3ed79ac6fda34f4147109f38bb2fc3ab1a2c5696f364",
+    "25f0630a3d82a3bdee8341d9ccada657e0d97ff0ea43f95a8f59e430cb50a074",
+    "d4efb7d776ccdcec92e307d1de25648e40a5aaddb7ff245ac02e75e82abe34f7",
+    "d21581d75ae04f817780a4e3c8d2b1c91dd0984670b5fca249f3e7bded1a44ea",
+    "9d8541abc43b9089fa44aa609b89336f2e36391ab40e544a7b19a5171dca2f51",
+    "75cb597dfd97bcd19dc2dbbf54a4f68eb1acd2c7e84a0d96da2a70d153ce0b0f",
+    "e6efd19d0d94d107f64180aafce21ce5b7ac64cc49d30c73134b61f898e0fc1c",
+    "61e99bcb268ccc6852a146bfae8eede3acaf089dd3bb938aa3e7e6eeca6b6baf",
+    "b238b37dc209a35b7e22cb1115891efff4e7869eeb452c72af1db8db179717a8",
+    "8e68e010920fb563163a4e8915828a4b4d33859a9d0c69aed1169b91e068f729",
+    "30600db1fef070f694b538dd939580ef09d8415e4f95933dae8c3c54f8ded200",
+    "53d1f14130face30f0dc5741629a35310e5e69d47a60e6b1de8e63674accb527",
+    "5b3ab3d005ce081b2b055318aaf6943c9546f392ad43409f75b150dd698621b1",
+    "89e3b0590bc1fe5b90ce7dfc1f61630066038cf64739e29a0d3ca21e21727b01",
+    "7518d25f6425a4a4c8f085b6eb1589976b060e9cd430efb8979bde2319075441",
+    "c49917d27986ed09a5cc7e02fd915536ea2d375d56e37725b6ab8ff227f282c4",
+    "cb2ca8d6479ff6206711298f11f02cdfca0c7f79a87143476ebc7b7bef9c4cfd",
+    "86e82703005db5bee508148b2107f5705a2888c5bf6a869e8ac0a1742d98c216",
+    "8c12395dfc9e2ae510482764b99460c852b5fc044cde66d570be3a6234fa9b80",
+    "2e20c0a53a03c95392ae81e5b0ec1f611306af219c4469b6472cb234a90dacb3",
+    "b5e743ac0a6e3d2b03de5d7290468f06e294d774bdf7b3ee22cd8c08cd070546",
+    "06ac9cf5c1df556bd5e0d44aaddd11a96055b6eb2f07bc8564fcf20434efd89d",
+    "4d401870a6a4fafd9e38a376baa5bb37f6ac41d44ebee48e766a97943a0634fc",
+    "0e59802272210ffe3aa229c0e8e23fac1fa4b60e420b2807e11ebce3cf33bbc7",
+    "de05adbfa46ce0f4d315234f537c9612c8aa39286eb835c3510bf4c91589ceae",
+    "de82aac73fddf599c7d6550f271009ddd6db896cb50ba055566fbd1fc70432c4",
+    "d05c9c0b70c2a45e3eb3d1e4be46c67578e18d2577f6c46e4ee182f16bf9dcd0",
+    "e35a804e237677135afd127290a6498e7ec67270accc6bdf0ad8ab3cfd1e06d7",
+    "aaa638f15c8836548e71241bbdd4d18e2d89601ac8dfa9dae19727ae2f5be229",
+    "7919167b7e72b8c7626870915915026e479b94ea0432ce82a2984f882de85eed",
+    "5b2421b513e980a2f00ff42a539d5df761b4f2cf257b853c4e13cc57fd1ba711",
+    "9a9a669326211c2ebe4a2f9669e76fbd8220bb3619b8b49b468037b4e2637739",
+    "60a20ed704633b5c0f3e770a54fadee7c91569fa6ddd2f1bc4597926b87645d3",
+    "8cf7e1d1bdca89745f0838cd36eedee821dd8829bdbf429da2b781b74287c7d8",
+    "22b38de6905584c1b487e59a93c5b3adafe45b3aee767a24f5f0cf49fa0fb5eb",
+    "0769b11b32b819ca2cdddaa486c908ccf03c3a18f83df88f74e8619012e88135",
+    "1a419e1b7efca82788fa2c0af67ddafb0f9577ea8a48ca64f4043672ff8d8748",
+    "845029935c44af5336fce33c0d8285844c2ad47ffe45167f219e120de2b8adee",
+    "c6100994206054559322e555cb89f328c63efe3c02df75583c5b024011806941",
+    "709d858b90dacc8ae055d3d1804e5cfdad0fff1c189ef78e6c21582252daf598",
+    "995a84c0d15200f74b0321c46ce4a11179a3bd03f508be134b78b66d286c4d96",
+    "7810d27d49d9da6e156b66dcb2e4d91450a29a97579fee11a3f8aa2de01611eb",
+    "2a066273f4947722d866aa4fe5051dac34a527ff1a075ab7fa095cda980f4b4c",
+    "75b3a8eaa337c6f58422c056f5027ade6387f777a433ef2bbce4e0e10342da0d",
+    "eaaadf673c18d6be4155ac65aed67ee3b9594706a6cf97468d8951dfdee094f6",
+    "dc7d6a692eb4edd28a267c1df7139c75f93b0bcb82c7ca319eaaee8c2164f59e",
+    "702cfbc261fdd7b0b4f0d918c6b265399fddf525cfe64f74443eeebee1761afa",
+    "1b99b4a1d09641ab666e5661e4e0e17312fa323aa37fdf34785aafe8167554ed",
+    "163db73debd6771a9cf3a4b83bc399c49e86ebc8d60c2cb820a25d0fd00f033f",
+    "6480c0824cb6c33acd62572cc2319a77a7860b8bef39034e266552c5dedf0700",
+    "4ec4a7506e8519361ca88f4144ecb6edd189999ec256f6fdd96fee58478a3fb9",
+    "75fe7bb1a8081ef932d898137483b474c8249a9e01da0ab685d85650dc17ee1e",
+    "f1fb5784ee23789a3ceeeb93601868feb5c2cd5ac33384616b5fb6c36eb2b84a",
+    "9fd57fcf979a7f4196d4644c8ec872e388191c53a2ae938c52bb43d71cdeabaa",
+    "a6088262264af7b0a32c29bf4fba93abb8cac94f23e915d34b8854b288fd2aa6",
+    "15b592eb45a6d57b03bd6a170652e264d89af34f86e4372c06ff5c846c5d7b1b",
+    "a06932c3a83a848e8bd1bc9c3386c5c0fb5593b4c7681181a7b0170f110cdc33",
+    "b98717024cb3e3f449189a488582da8aea4d8159014f9d4eae910c01eeb28dcb",
+    "959d861f24f6fb0b1e7901229028531b1d4e4e8316904c57a0e6e6f72007a76d",
+    "8aa448506b382cbe4f812f25921481049db817302723321d193527693bbd7c00",
+    "e26ff981028cffeb872690b3e92cfa2575b7e5f733a17daf0c32792d55bd318f",
+    "f2130b55dfc8467eeebedd2008884bac1ed4e8ebbae5fdd40995f7f80b3e413e",
+    "cf678cd4b3d8b4fe07094149402a5fa9f717cf2313db418685595b4cded198cf",
+    "9d5496e7c3c74be6f28eb0bdbebd5c015ae2c630c3fd8ec4a367ea03f3eae726",
+    "a02b6ecab2565a2a63fdfe7d6d4162169d8159fa78fe267c10f19c79cf68daac",
+    "5866df231bc24682a1250f38b2b40d26703c1848c26e3c31ecaae65a364309a8",
+    "af062d332a3410e44b325c9e9e543cbd4643f602f837b278a3791e060fab0324",
+    "6e2818e724769a7a31e3bbf74af6e2fea9a2b0cbd95cb0c066b6b33530c20d38",
+    "abb8829228faba4c3be1bb231fcb409d129003f0a624a0f37f75c4fb568e9b1f",
+    "9169ed11c0c0eeba8a81fefa734b6614bed1f7fbae121cd51bb08f70e4191c8a",
+    "5cc2acd0eab3efba53c1660d92ae4c61fd80ffe19c3e66342b8f5f30d2c5e71e",
+    "12722cbeacfd04742991017933edc7fced813e457b45ad5b0fa22dee2566d074",
+    "e9065a221e3bd9bc47b797e39ced8951c653df65f2c9b64663c637b5334a474a",
+    "22716f264dca8f1a79df9b8ce2780037bddc5b9b97db20d139976f59eb3777e1",
+    "a87d89ec55345865b930adf4ce347dc51b5a1b6b2b9ad9158665f667467b0fdd",
+    "bc2fad7019c913e5b9979d7696364357adce68256106b953f41f7d8484358321",
+    "8ff1e4bf26b94f38f92bc74e86aaf6d96a37f3bc894e979ebff682073d3878d9",
+    "1ab61ac5bb6ad7c2b2fbb335a6468d78280108fd81e387f2271dfedde80be45d",
+    "48344ddfb69c0eb12c162b393f327cdbad0134c3ad80f8407f4c6e92b9723676",
+    "8befd9821bb693df43b52a72cbb8829b540f3f5bbb12c8201bf852ec320d59fb",
+    "b59b59c86a3298069554c7468d2d497881d6423309de5377f28078179032d90d",
+    "42916958e4b674ae7bacd02b5c661b6fdcb3cf0d9423533e3723f9f8303323e2",
+    "e6bdaf01026175d08a1c924c577d461997715bb5942b25e92a759368acc1b103",
+    "60fedb602119796d373d9242e1f06360f50f438f234a370eaa8b33337e91c52a",
+    "19c21aef85a3245f81099b6793069766aefe9c79784ac9e074ad6d98fadd2d5d",
+    "59565868cb8b878539ca48286ca65661101ea7affdf6c3025ea2ac3bba621539",
+    "180f6a004ac0c992b852f106e665f63827032c382451801b9911407888e0f5d6",
+    "32cdd9bb1c45e735d90e4a72852c5e5dee148541c01544dafac979137372bffb",
+    "f2a02a2f438053fc049e15ff8f983339be36469d3cc7f1460910f3192ed21703",
+    "d28104195b14a3d7b975e13c5a16a785ad226ad6bcceb656ee639ac3e7ca635b",
+    "b00d467e2f93dd0af950caa9874cf8a6990fa4cdd808e81df0c8e3dd09747791",
+    "ed2911018054eb255f405f0fe671c1100db41d3cf5cbf9498a467286c8e2acf2",
+    "8aed5f36bd8a98899be153aa0f6f5563a1068f2b8889dcb813d57bf367f601f9",
+    "dd2e87edcab9301fd3553c6c7377c962ba2be2cc08e0345dd7163fbf8aa7b170",
+    "00b022418ced41455e7cb0690eb815c22bbaae27fc86631c12b062d83efa5122",
+    "f2cd29332579eeb3ad54d25ff58fd277c9c73a174c5669d275aba961c251807e",
+    "eb58e641783416cc14f91624db7dbca7a5cfa4d8843bb1708b55d69c8378fce8"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "30600db1fef070f694b538dd939580ef09d8415e4f95933dae8c3c54f8ded200",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效使机动车驾驶不安全。",
+          "after": "减震器效能不足使机动车驾驶不安全。"
+        }
+      }
+    },
+    {
+      "id": "53d1f14130face30f0dc5741629a35310e5e69d47a60e6b1de8e63674accb527",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效会延长制动距离。",
+          "after": "减震器效能不足会延长制动距离。"
+        }
+      }
+    },
+    {
+      "id": "5b3ab3d005ce081b2b055318aaf6943c9546f392ad43409f75b150dd698621b1",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效会增加弯道侧滑风险。",
+          "after": "减震器效能不足会增加弯道侧滑风险。"
+        }
+      }
+    },
+    {
+      "id": "89e3b0590bc1fe5b90ce7dfc1f61630066038cf64739e29a0d3ca21e21727b01",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效会增加水滑风险。",
+          "after": "减震器效能不足会增加水滑风险。"
+        }
+      }
+    },
+    {
+      "id": "7518d25f6425a4a4c8f085b6eb1589976b060e9cd430efb8979bde2319075441",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效会增加驾驶人疲劳。",
+          "after": "减震器效能不足会增加驾驶人疲劳。"
+        }
+      }
+    },
+    {
+      "id": "c49917d27986ed09a5cc7e02fd915536ea2d375d56e37725b6ab8ff227f282c4",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效会因前照灯光束过度晃动而降低夜间视野。",
+          "after": "减震器效能不足会因前照灯光束过度晃动而降低夜间视野。"
+        }
+      }
+    },
+    {
+      "id": "cb2ca8d6479ff6206711298f11f02cdfca0c7f79a87143476ebc7b7bef9c4cfd",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效会因前照灯光束晃动而增加使对向驾驶人眩目的风险。",
+          "after": "减震器效能不足会因前照灯光束晃动而增加使对向驾驶人眩目的风险。"
+        }
+      }
+    },
+    {
+      "id": "8c12395dfc9e2ae510482764b99460c852b5fc044cde66d570be3a6234fa9b80",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效可以通过加硬悬架来弥补。",
+          "after": "减震器效能不足可以通过加硬悬架来弥补。"
+        }
+      }
+    },
+    {
+      "id": "b5e743ac0a6e3d2b03de5d7290468f06e294d774bdf7b3ee22cd8c08cd070546",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效会降低车辆重心，因此有利于行驶稳定性。",
+          "after": "减震器效能不足会降低车辆重心，因此有利于行驶稳定性。"
+        }
+      }
+    },
+    {
+      "id": "de05adbfa46ce0f4d315234f537c9612c8aa39286eb835c3510bf4c91589ceae",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "仪表板上特定的红色警示灯亮起表示一个或多个减震器失效。",
+          "after": "仪表板上特定的红色警示灯亮起表示一个或多个减震器效能不足。"
+        }
+      }
+    },
+    {
+      "id": "de82aac73fddf599c7d6550f271009ddd6db896cb50ba055566fbd1fc70432c4",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "减震器失效时不能正确衰减钢板弹簧的振荡。",
+          "after": "减震器效能不足时不能正确衰减钢板弹簧的振荡。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "10a6a32a0815addfa09270a6fec40cbc4774d75be2cbb74ed9ffe99506d05d61"
+}

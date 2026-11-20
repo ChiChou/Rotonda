@@ -1,0 +1,55 @@
+{
+  "draft": {
+    "status": "draft_unreviewed",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "rows": [
+      {
+        "id": "1a6858ac7bfcaeb008397914de276fdfa0d8f09c78a3549f7bd4c3a6d05d03db",
+        "it": "Gli pneumatici radiali sono più resistenti di quelli tradizionali",
+        "question_numbers": [
+          30118
+        ],
+        "answer": 0,
+        "translations": {
+          "zh-Hans": {
+            "current": "子午线轮胎比传统轮胎更耐用。",
+            "proposed": "子午线轮胎比传统轮胎的抵抗能力更强。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/inputs/official/2026-11-14/conseguimento-superiori-it.pdf, physical PDF page 128, SHA256 a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+            "support": "Personally inspected page: 30118 is printed FALSO and specifies no resistance criterion; no figure."
+          },
+          {
+            "reference": "data/translations/multibank/batch_119.jsonl",
+            "support": "Verified exact source ID, Italian text and reviewed zh baseline."
+          },
+          {
+            "reference": "https://www.treccani.it/vocabolario/resistente/",
+            "support": "Resistente can concern resistance to immediate adverse forces or long-term wear; its type is not fixed by the unqualified adjective."
+          },
+          {
+            "reference": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=56385&la=0&powerMode=0",
+            "support": "The education ministry dictionary defines 耐用 through sustained use, illustrating its ordinary durability emphasis; it can convey robustness but tends to select endurance in use."
+          }
+        ],
+        "reason": "The current phrasing is intelligible and can suggest robustness, but 耐用 foregrounds lasting use and tends to narrow the unqualified comparison. 抵抗能力更强 retains an unspecified comparative resistance, including but not limited to durability, without adding an answer or criterion. Independent review should assess whether the more abstract phrase remains natural to learners."
+      }
+    ]
+  },
+  "review": {
+    "draft_sha256": "5b62f70e8ce117c7bbcc10b10735a5ac8d8a70c461fea6e611cf728270b3edf2",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / zh-30118-review-2026-11-17",
+    "status": "accepted",
+    "checked_pairs": [
+      [
+        "1a6858ac7bfcaeb008397914de276fdfa0d8f09c78a3549f7bd4c3a6d05d03db",
+        "zh-Hans"
+      ]
+    ],
+    "issues": [],
+    "notes": "抵抗能力更强 is abstract but grammatical and understandable for learners; it preserves the Italian’s unspecified kind of resistance. 耐用 foregrounds durability in use. The source leaves the criterion unspecified, so no specific load, impact or mileage has been added."
+  }
+}

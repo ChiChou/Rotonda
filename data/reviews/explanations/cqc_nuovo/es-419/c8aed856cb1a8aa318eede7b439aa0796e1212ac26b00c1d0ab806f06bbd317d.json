@@ -1,0 +1,625 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31800,
+          "quesito_id": 7048,
+          "text_it": "In caso di incidente senza feriti, i conducenti devono annotare nome della compagnia assicurativa e numero dell'assicurazione degli altri conducenti coinvolti",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "04bd1968745d4f7a8faf98f26f5e76d2ac6eaef2cc344b8e7f266f10c761043b",
+        "localized_text": "En caso de accidente sin personas heridas, los conductores deben anotar el nombre de la aseguradora y el número de seguro de los demás conductores involucrados"
+      },
+      {
+        "source": {
+          "number": 31801,
+          "quesito_id": 7048,
+          "text_it": "In caso di incidente senza feriti, il modulo di constatazione amichevole di incidente deve essere sottoscritto dagli agenti di polizia municipale",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bf3f6958103194d6821584bcd61810b5d4171d57177b3bc27cdd004430cc1b23",
+        "localized_text": "En caso de accidente sin heridos, el formulario de declaración amistosa de accidente debe ser firmado por los agentes de la policía municipal"
+      },
+      {
+        "source": {
+          "number": 31802,
+          "quesito_id": 7048,
+          "text_it": "In caso di incidente senza feriti in Italia, se è coinvolto un veicolo immatricolato in Stato non UE, i conducenti devono annotare anche il numero della carta verde, le generalità del conducente e del proprietario del mezzo",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "08b889b4536c162a4fe02be801a145fb74338c2ca1eaa50a4cf4541418566134",
+        "localized_text": "En un accidente sin heridos en Italia con un vehículo matriculado fuera de la UE, los conductores también deben anotar el número de la carta verde y los datos del conductor y propietario"
+      },
+      {
+        "source": {
+          "number": 31803,
+          "quesito_id": 7048,
+          "text_it": "Per compilare il modulo di constatazione amichevole di incidente correttamente, è necessario riportare i dati della carta tachigrafica",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "378d9d5d19456eb489510129c15f794d9bad0bc71757053b72395b26e13c3b28",
+        "localized_text": "Para completar correctamente el formulario de declaración amistosa de accidente es necesario indicar los datos de la tarjeta del tacógrafo"
+      },
+      {
+        "source": {
+          "number": 31804,
+          "quesito_id": 7048,
+          "text_it": "La Convenzione indennizzo diretto (CID) può essere attivata se non sono coinvolti motocicli",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9daa90be8acd86dbb14ff43902ab0b6185a5190b191974eb2b5a01cbee59c148",
+        "localized_text": "El convenio de indemnización directa CID puede activarse si no hay motocicletas involucradas"
+      },
+      {
+        "source": {
+          "number": 31805,
+          "quesito_id": 7048,
+          "text_it": "In caso di incidente senza feriti, i conducenti devono prendere nota degli estremi di patente, veicolo e assicurazione dell'altro conducente coinvolto",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b9435fe4cd089de27831adc92ec84d5e4af2d0c91f1b5abea2385689de3d4cef",
+        "localized_text": "En caso de accidente sin personas heridas, los conductores deben anotar los datos de la licencia, el vehículo y el seguro del otro conductor involucrado"
+      },
+      {
+        "source": {
+          "number": 31806,
+          "quesito_id": 7048,
+          "text_it": "Per compilare correttamente il modulo CID (Convenzione indennizzo diretto) è necessario riportare i nomi degli assicurati",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "78e864d79ddec1949f5b3d7d728bec9547b6983baba09ae2f0c2c447a4452078",
+        "localized_text": "Para llenar correctamente el formulario CID (Convenio de indemnización directa) es necesario indicar los nombres de los asegurados"
+      },
+      {
+        "source": {
+          "number": 31807,
+          "quesito_id": 7048,
+          "text_it": "In caso di incidente senza feriti, i conducenti devono compilare il modulo di constatazione amichevole di incidente e, se possibile, farla sottoscrivere dalla controparte",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5f4bfeb93804c4e273684ffd78ba0c9e8617011ce6bc5db56f1b6fd7adea2249",
+        "localized_text": "En caso de accidente sin heridos, los conductores deben completar el formulario de declaración amistosa de accidente y, si es posible, hacerlo firmar por la otra parte"
+      },
+      {
+        "source": {
+          "number": 31808,
+          "quesito_id": 7049,
+          "text_it": "In caso di incidente senza feriti, i conducenti devono annotare il numero dei chilometri percorsi dai veicoli",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3691c90cbcd766c0ec0577c26073651cbf2b5eb776c56e186304597c8df92909",
+        "localized_text": "En un accidente sin heridos, los conductores deben anotar el número de kilómetros recorridos por los vehículos"
+      },
+      {
+        "source": {
+          "number": 31809,
+          "quesito_id": 7049,
+          "text_it": "La Convenzione indennizzo diretto (CID) può essere attivata se non sono coinvolti autobus",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3a952686afb0700760f489e94d00ea8b0dd2fad184a28f98748d764cacde3a75",
+        "localized_text": "El Convenio de indemnización directa (CID) puede activarse si no hay autobuses involucrados"
+      },
+      {
+        "source": {
+          "number": 31810,
+          "quesito_id": 7049,
+          "text_it": "Per compilare correttamente il modulo CID (Convenzione indennizzo diretto) è necessario riportare una descrizione accurata dell'incidente",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d712e7b9b477de70759c224ecd3c65bf8f9aed87ef2c1a313119e7e656cbe870",
+        "localized_text": "Para llenar correctamente el formulario CID de indemnización directa hay que describir el accidente con precisión"
+      },
+      {
+        "source": {
+          "number": 31811,
+          "quesito_id": 7050,
+          "text_it": "Non costituisce infortunio sul lavoro la lesione subita dal lavoratore nel caso di mancato rispetto delle norme di sicurezza comunicategli dal datore di lavoro",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "20b023a9d1978560630b94ca4e84cfdfe7e9bc2045d49332dd96cb41a5f14a79",
+        "localized_text": "No constituye accidente laboral la lesión sufrida por un trabajador que incumplió las normas de seguridad comunicadas por el empleador"
+      },
+      {
+        "source": {
+          "number": 31812,
+          "quesito_id": 7050,
+          "text_it": "Il Codice delle assicurazioni private prevede il risarcimento di tutti i danni da parte dell'INAIL",
+          "answer": 0,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d9845741d8d591735c325c3ab2e8d71ae5f4d93c731b24f25f6cd699220f9525",
+        "localized_text": "El Código de Seguros Privados prevé que el INAIL indemnice todos los daños"
+      },
+      {
+        "source": {
+          "number": 31813,
+          "quesito_id": 7050,
+          "text_it": "È considerato infortunio sul lavoro la lesione che subisce il conducente durante le operazioni di carico e scarico delle merci",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9ec6d8c9d9fcc88ae21fec924f1fa6a92461d5189451f99478d6f967cd9e7069",
+        "localized_text": "La lesión que sufre el conductor durante la carga y descarga se considera accidente de trabajo"
+      },
+      {
+        "source": {
+          "number": 31814,
+          "quesito_id": 7050,
+          "text_it": "Il danneggiamento all'apparato muscolo scheletrico durante l'operazione di sostituzione di un pneumatico costituisce infortunio sul lavoro",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "78b59659880056c1156c5ed4f1f16a6e38c0727a97aaa6924bf59de66ef728a6",
+        "localized_text": "Una lesión musculoesquelética durante el cambio de un neumático constituye un accidente de trabajo"
+      },
+      {
+        "source": {
+          "number": 31815,
+          "quesito_id": 7050,
+          "text_it": "Durante l'attività lavorativa la frattura riportata dal conducente che scivoli nel salire sulla cabina sull'autocarro costituisce infortunio sul lavoro",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "67688a5f56bdc4f59e34e80bcf2c3d07deb6ded4f2f178a7ee0f0764c1cc7beb",
+        "localized_text": "La fractura sufrida durante el trabajo por el conductor que resbala al subir a la cabina del camión constituye un accidente de trabajo"
+      },
+      {
+        "source": {
+          "number": 31816,
+          "quesito_id": 7050,
+          "text_it": "La lesione ad una mano subita dal conducente durante l'operazione di aggancio del rimorchio è considerata infortunio sul lavoro",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c5f904ae8ec9eee71810fce711720b9c588c82dcb406b1e858a502a6d1442e06",
+        "localized_text": "Una lesión en la mano sufrida por el conductor al enganchar el remolque se considera accidente de trabajo"
+      },
+      {
+        "source": {
+          "number": 31817,
+          "quesito_id": 7050,
+          "text_it": "La lesione subita dal conducente in conseguenza di cadute accidentali dal piano di carico dell'autocarro costituisce infortunio sul lavoro",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4dda3a993f3c99cec70d4ae9b693bca5bdad354a04413c9f6c4dadba2cdfc86a",
+        "localized_text": "La lesión sufrida por el conductor al caer accidentalmente de la plataforma del camión es un accidente laboral"
+      },
+      {
+        "source": {
+          "number": 31818,
+          "quesito_id": 7050,
+          "text_it": "L' incidente che coinvolge il conducente professionale, avvenuto all'interno della rimessa al termine del turno di lavoro, non è considerato infortunio sul lavoro",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "425bf125205894818ab9757e189685d3a721f5346d193f70ad09061cd3a8b620",
+        "localized_text": "El accidente que sufre un conductor profesional dentro de la cochera al finalizar su turno no se considera accidente de trabajo"
+      },
+      {
+        "source": {
+          "number": 31819,
+          "quesito_id": 7050,
+          "text_it": "Sono considerati infortuni sul lavoro dei conducenti professionali solo quelli che accadono con veicolo in movimento",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5ab33aba2d75db07746ee045a9fe8c4034629872d6a4e797004558e0d1d37f69",
+        "localized_text": "Solo se consideran accidentes laborales de conductores profesionales los que ocurren con el vehículo en movimiento"
+      },
+      {
+        "source": {
+          "number": 31820,
+          "quesito_id": 7050,
+          "text_it": "Una lesione fisica che si verifica durante la manutenzione del veicolo è un infortunio sul lavoro",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6c0d26cf12bd72523c3701958d90bb2e6789948af7b26374f4a58fa7f0306e73",
+        "localized_text": "Una lesión física que ocurre durante el mantenimiento del vehículo es un accidente de trabajo"
+      },
+      {
+        "source": {
+          "number": 31821,
+          "quesito_id": 7050,
+          "text_it": "L'incidente stradale che ha provocato lesioni all'autista durante la sua attività professionale è considerato infortunio sul lavoro",
+          "answer": 1,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6f67d7a0853127485a67cd071ac615ca038d3f84b6ace9fe2abd6d2932a4edcf",
+        "localized_text": "El accidente de tránsito que causó lesiones al conductor durante su actividad profesional se considera accidente de trabajo"
+      },
+      {
+        "source": {
+          "number": 31822,
+          "quesito_id": 7050,
+          "text_it": "Il danno occorso alla merce trasportata a bordo di un veicolo è considerato infortunio sul lavoro",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c9f223cacabd2065bb7374b4b000a3d4356c054ebff14a9527c2c2c42c610ee2",
+        "localized_text": "El daño a la mercancía transportada a bordo de un vehículo se considera accidente de trabajo"
+      },
+      {
+        "source": {
+          "number": 31823,
+          "quesito_id": 7050,
+          "text_it": "La caduta del conducente dal pianale di carico non rientra tra i rischi professionali",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b78c65fabdc238cd9faa8726c9c9e41287e17d824035c26784a61494f739dc60",
+        "localized_text": "La caída del conductor desde la plataforma de carga no es un riesgo profesional"
+      },
+      {
+        "source": {
+          "number": 31824,
+          "quesito_id": 7050,
+          "text_it": "Gli infortuni derivanti dalla movimentazione del carico non rientrano tra i rischi professionali del conducente",
+          "answer": 0,
+          "page": 24,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b7a5ed48e1a4b9c304fa5e88227b37dce326e660c4b506f21f3dd6399f3ce53d",
+        "localized_text": "Las lesiones derivadas de la manipulación de la carga no se incluyen entre los riesgos profesionales del conductor"
+      }
+    ],
+    "task_sha256": "c8aed856cb1a8aa318eede7b439aa0796e1212ac26b00c1d0ab806f06bbd317d"
+  },
+  "rows": [
+    {
+      "number": 31800,
+      "text": "Los datos de la aseguradora y la póliza identifican la cobertura de la otra parte y ayudan a denunciar el siniestro y pedir indemnización.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti."
+      ]
+    },
+    {
+      "number": 31801,
+      "text": "Los conductores llenan el formulario; sus firmas conjuntas documentan la versión acordada. No se exige la firma de la policía municipal.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti."
+      ]
+    },
+    {
+      "number": 31802,
+      "text": "El cuestionario la marca VERDADERA: anota los datos del conductor y del propietario, la matrícula y la aseguradora; si se presenta una Carta Verde, anota también su número. Estos datos ayudan a identificar a la aseguradora y tramitar el reclamo. No todos los vehículos matriculados fuera de la UE deben necesariamente presentar una Carta Verde.",
+      "evidence": [
+        "Official CQC 31802 printed VERO: non-EU registered vehicle and Green Card number; wording does not distinguish availability.",
+        "UCI, claims involving foreign vehicles in Italy https://ucimi.it/sinistri/incidenti-in-italia-con-veicoli-esteri/ — nationality and plate among requested data; insurer, driver and owner details and copy of Green Card if available help expedite claim and insurer identification.",
+        "UCI FAQ https://ucimi.it/domande-frequenti/ — some countries participate in presumed coverage based on registration; no inference that all non-EU vehicles must present a Green Card or that its absence alone establishes lack of coverage."
+      ]
+    },
+    {
+      "number": 31803,
+      "text": "El formulario trata de las personas, los vehículos, los seguros y la dinámica del siniestro; no exige datos de la tarjeta del tacógrafo.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti."
+      ]
+    },
+    {
+      "number": 31804,
+      "text": "La ausencia de motocicletas por sí sola no basta: la indemnización directa exige otras condiciones, entre ellas dos vehículos identificados y asegurados. Una motocicleta también puede estar incluida.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti.",
+        "IVASS, R.C. auto, risarcimento del sinistro: https://www.ivass.it/consumatori/quesiti/r.c.auto/index.html — presupposti del risarcimento diretto e dati del modulo."
+      ]
+    },
+    {
+      "number": 31805,
+      "text": "Recoger los datos de licencia, vehículo y seguro permite identificar al conductor, el vehículo y la cobertura para denunciar el siniestro.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti."
+      ]
+    },
+    {
+      "number": 31806,
+      "text": "Los nombres de los asegurados identifican a las partes de las respectivas coberturas y deben figurar en el formulario.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti."
+      ]
+    },
+    {
+      "number": 31807,
+      "text": "El formulario sirve para denunciar el siniestro a la propia aseguradora. Si ambos conductores lo firman, la versión acordada goza de una presunción que admite prueba en contrario; si no hay acuerdo, pueden llenarlo por separado.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti.",
+        "Codice assicurazioni private, d.lgs. 209/2005 art. 143: https://www.ivass.it/normativa/nazionale/primaria/cap.pdf — denuncia e presunzione relativa con firma congiunta."
+      ]
+    },
+    {
+      "number": 31808,
+      "text": "El kilometraje no es un dato exigido para la denuncia: se necesitan los datos identificatorios de las partes, vehículos y seguros y las circunstancias del siniestro.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti."
+      ]
+    },
+    {
+      "number": 31809,
+      "text": "La ausencia de autobuses no basta para activar la indemnización directa: también deben cumplirse las condiciones relativas a vehículos, cobertura y siniestro.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti.",
+        "IVASS, R.C. auto, risarcimento del sinistro: https://www.ivass.it/consumatori/quesiti/r.c.auto/index.html — presupposti del risarcimento diretto e dati del modulo."
+      ]
+    },
+    {
+      "number": 31810,
+      "text": "Las circunstancias y el dibujo ayudan a reconstruir el siniestro y evaluar las responsabilidades.",
+      "evidence": [
+        "IVASS, regolamento 56/2025, allegato modulo CAI, campi e istruzioni: https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf — dati delle parti, veicoli, assicurazioni e circostanze; firma dei conducenti.",
+        "IVASS, R.C. auto, risarcimento del sinistro: https://www.ivass.it/consumatori/quesiti/r.c.auto/index.html — presupposti del risarcimento diretto e dati del modulo."
+      ]
+    },
+    {
+      "number": 31811,
+      "text": "Incumplir una regla de seguridad no excluye automáticamente el accidente de trabajo: la culpa del trabajador puede ser compatible con la protección si existe relación con el trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali.",
+        "INAIL Casellario, infortunio in itinere https://casellario.inail.it/cs/Satellite%3Fc%3DCCINews%26cid%3D6443085741558%26d%3DTouch%26pagename%3DCasellario/CCINews/cci_dettaglio_news — qualifying commuting injuries can be compensable regardless of worker fault; this example supports the absence of an automatic exclusion, not coverage of every deliberate or disconnected act."
+      ]
+    },
+    {
+      "number": 31812,
+      "text": "El INAIL protege frente a accidentes de trabajo conforme al seguro obligatorio; no indemniza todos los daños contemplados por el Código de seguros privados.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31813,
+      "text": "La carga y descarga son operaciones relacionadas con el trabajo del conductor: una lesión causada por un evento súbito durante ellas puede ser un accidente de trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31814,
+      "text": "Si el neumático se cambia por trabajo, una lesión musculoesquelética causada por un evento súbito durante la operación puede ser un accidente de trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31815,
+      "text": "Subir a la cabina durante el trabajo está relacionado con las tareas; una caída que causa una fractura es un evento súbito que puede constituir un accidente de trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31816,
+      "text": "Acoplar el remolque es una operación relacionada con el trabajo: una lesión de mano causada por un evento súbito durante el acoplamiento puede ser un accidente de trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31817,
+      "text": "Una caída desde la plataforma de carga durante el trabajo es un evento súbito relacionado con este; la lesión resultante puede ser un accidente de trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31818,
+      "text": "Estar en la cochera al final del turno no excluye por sí solo la protección: una lesión causada por un evento súbito puede ser un accidente de trabajo si existe relación laboral.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31819,
+      "text": "La relación con el trabajo no exige que el vehículo esté en movimiento: una lesión durante tareas laborales con el vehículo detenido también puede ser un accidente de trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31820,
+      "text": "Durante el mantenimiento realizado por trabajo, una lesión causada por un evento súbito puede ser un accidente de trabajo; importa la relación con la actividad.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31821,
+      "text": "Circular durante el servicio implica un riesgo relacionado con el trabajo: una lesión por un accidente de tránsito puede ser por ello un accidente de trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31822,
+      "text": "El daño a la mercancía afecta a un bien; el accidente de trabajo se refiere a una lesión personal causada por un evento relacionado con el trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31823,
+      "text": "Subir y trabajar sobre la plataforma de carga expone al conductor al riesgo profesional de caída cuando la actividad está relacionada con el trabajo.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    },
+    {
+      "number": 31824,
+      "text": "Manipular la carga puede exponer al conductor a lesiones durante una operación relacionada con sus tareas: por tanto, es un riesgo profesional.",
+      "evidence": [
+        "INAIL, riconoscimento dell’infortunio: https://www.inail.it/portale/assicurazione/it/Soggetti_tutelati/Lavoratore-Dipendente-Industria-Artigianato-Terziario-Altre-Attivita/infortunio-sul-lavoro/riconoscimento-dell-infortunio-lavoratore-dipendente.html — causa violenta e occasione di lavoro; INAIL, definizioni: https://dati.inail.it/portale/it/dataset/infortuni-sul-lavoro/dati-con-cadenza-mensile/altro.html — attività connesse, prodromiche o strumentali."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "c8aed856cb1a8aa318eede7b439aa0796e1212ac26b00c1d0ab806f06bbd317d",
+    "output_sha256": "1087c17afb1244597632e5c978af0d64fad7bc4c87213bada8284e0b096d4d64",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / green-card-availability-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      31800,
+      31801,
+      31802,
+      31803,
+      31804,
+      31805,
+      31806,
+      31807,
+      31808,
+      31809,
+      31810,
+      31811,
+      31812,
+      31813,
+      31814,
+      31815,
+      31816,
+      31817,
+      31818,
+      31819,
+      31820,
+      31821,
+      31822,
+      31823,
+      31824
+    ],
+    "issues": [],
+    "source_access_notes": [
+      "Independently inspected IVASS Regulation 56/2025 exact 12-page PDF and current IVASS claims guidance, UCI foreign vehicle claim instructions and FAQ, and INAIL employment/commuting guidance. Drafts cite current 56/2025, not repealed 13/2008. 31802 correctly qualifies green-card availability; 31811 worker-fault example does not imply coverage for every intentional or unrelated act."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb9c-8d95-7a10-b7fd-6ee0465b24a9",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "e40a79f8be4512be9cfaaf1d8ba1db6183fe580e31260b62dc1cc7b39378c79e",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb9c-8d95-7a10-b7fd-6ee0465b24a9",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31802,
+              "reason": "Il quesito afferma senza eccezioni che per ogni veicolo immatricolato fuori UE si debba annotare il numero della carta verde, ma alcuni Stati non UE sono esenti e il documento può non esistere. Il verdetto stampato VERO richiede adjudicazione indipendente.",
+              "checked_sources": [
+                "UCI, https://ucimi.it/sinistri/ — indica veicoli SEE e di Svizzera, Serbia, Andorra, Bosnia Erzegovina, Montenegro e Regno Unito con targa valida e distingue i paesi che richiedono carta verde.",
+                "UCI, https://ucimi.it/sinistri/incidenti-in-italia-con-veicoli-esteri/ — richiede copia della carta verde esibita, se disponibile."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "e40a79f8be4512be9cfaaf1d8ba1db6183fe580e31260b62dc1cc7b39378c79e",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

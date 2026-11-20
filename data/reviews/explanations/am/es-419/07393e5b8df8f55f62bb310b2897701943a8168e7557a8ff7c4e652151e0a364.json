@@ -1,0 +1,964 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26335,
+          "quesito_id": 5146,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato i veicoli B e D passano per primi",
+          "answer": 0,
+          "page": 13,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+              "sha256": "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+              "page": 13,
+              "bbox": [
+                465.63,
+                539.0,
+                545.63,
+                619.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ba171bb1cd6ac4e0650770836aebd71fe8e927f15c68c19471c2aca0dc7cbd55",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada los vehículos B y D pasan primero"
+      },
+      {
+        "source": {
+          "number": 26336,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato il veicolo A ha la destra occupata in relazione alla sua direzione",
+          "answer": 1,
+          "page": 13,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 13,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "a18677bc8135213eaecc6e93707e48421944a12a99a78b47a15976a2dc62379a",
+        "localized_text": "En la intersección mostrada el vehículo A tiene su derecha ocupada respecto de su dirección"
+      },
+      {
+        "source": {
+          "number": 26337,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato il veicolo H ha la destra occupata",
+          "answer": 1,
+          "page": 14,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 14,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "d408d672250f981de482157dc72a3928eb9c216c1b56b7edf60ab43ee561ebb2",
+        "localized_text": "En la intersección mostrada, el vehículo H tiene su derecha ocupada"
+      },
+      {
+        "source": {
+          "number": 26338,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato il veicolo C ha la destra occupata",
+          "answer": 1,
+          "page": 14,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 14,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c1ddbd0081936d2d230d341ea7ede3630731c2b6ceb2e60e5a40d866b00b90d4",
+        "localized_text": "En la intersección mostrada, el vehículo C tiene ocupada la derecha"
+      },
+      {
+        "source": {
+          "number": 26339,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato il veicolo D ha diritto di precedenza sul veicolo C",
+          "answer": 1,
+          "page": 14,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 14,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "b48c6dffe7b0faac42c31da30c9a4c4672d934e70034b40f02e845731141d907",
+        "localized_text": "En la intersección mostrada, el vehículo D tiene prioridad sobre el vehículo C"
+      },
+      {
+        "source": {
+          "number": 26340,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato il veicolo D è il primo ad attraversare l'incrocio",
+          "answer": 1,
+          "page": 14,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 14,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c68642a8881ebf9347c88e1d2e3d2260d204440488cead028333f90d7e5459a9",
+        "localized_text": "En la intersección mostrada el vehículo D es el primero en cruzar"
+      },
+      {
+        "source": {
+          "number": 26341,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato il veicolo D dà la precedenza al veicolo C",
+          "answer": 0,
+          "page": 14,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 14,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "951d3723dd69044511cf7c4ea651ee4677fefb6db03b4b1abee6ba63d3dd0eb4",
+        "localized_text": "En la intersección mostrada, el vehículo D cede el paso al vehículo C"
+      },
+      {
+        "source": {
+          "number": 26342,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato il veicolo C attraversa per primo",
+          "answer": 0,
+          "page": 14,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 14,
+              "bbox": [
+                465.63,
+                453.0,
+                545.63,
+                533.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "763f5163ea4bba0e1c798b2f49e17b8d43d3b588de7b57f7eae83a7126d98751",
+        "localized_text": "En la intersección mostrada, el vehículo C cruza primero"
+      },
+      {
+        "source": {
+          "number": 26343,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato il veicolo A attraversa l'incrocio prima del veicolo C",
+          "answer": 0,
+          "page": 14,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 14,
+              "bbox": [
+                465.63,
+                539.0,
+                545.63,
+                619.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "f95066fe4ea9d66b06b806d1f06ff5576d8ab2d55525f8b037125306b10486fe",
+        "localized_text": "En la intersección mostrada, el vehículo A la cruza antes que el vehículo C"
+      },
+      {
+        "source": {
+          "number": 26344,
+          "quesito_id": 5147,
+          "text_it": "Nell'incrocio raffigurato i veicoli C e H passano per primi",
+          "answer": 0,
+          "page": 14,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+              "sha256": "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+              "page": 14,
+              "bbox": [
+                465.63,
+                625.0,
+                545.63,
+                705.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "f4d8d3efce7c4b3867f73d369073cf8739dcd8c24209723c1aa59db20c5edcd9",
+        "localized_text": "En la intersección mostrada, los vehículos C y H pasan primero"
+      },
+      {
+        "source": {
+          "number": 26345,
+          "quesito_id": 5148,
+          "text_it": "Nell'attraversare l'incrocio raffigurato il veicolo L passa per primo",
+          "answer": 1,
+          "page": 15,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png",
+              "sha256": "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2",
+              "page": 15,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "14270b3d88564c7be8dc224314ba1d04e1396bc44f375252a0691694c663c880",
+        "localized_text": "Al atravesar la intersección mostrada, el vehículo L pasa primero"
+      },
+      {
+        "source": {
+          "number": 26346,
+          "quesito_id": 5148,
+          "text_it": "Nell'attraversare l'incrocio raffigurato il veicolo A ha diritto di precedenza sul veicolo D",
+          "answer": 1,
+          "page": 15,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png",
+              "sha256": "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2",
+              "page": 15,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "01242c7ce022e6125ec30498f78356f693dfe47f5f034ffff8c8fda6b8685ea6",
+        "localized_text": "Al cruzar la intersección mostrada, el vehículo A tiene prioridad sobre el vehículo D"
+      },
+      {
+        "source": {
+          "number": 26347,
+          "quesito_id": 5148,
+          "text_it": "Nell'attraversare l'incrocio raffigurato il veicolo L ha la destra libera",
+          "answer": 1,
+          "page": 15,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png",
+              "sha256": "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2",
+              "page": 15,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4ef9912ae0c42cbc10a9f429977f299fd171799193b265276103d7c77ea41122",
+        "localized_text": "Al atravesar la intersección mostrada, el vehículo L tiene libre su derecha"
+      },
+      {
+        "source": {
+          "number": 26348,
+          "quesito_id": 5148,
+          "text_it": "Nell'attraversare l'incrocio raffigurato il veicolo C ha la destra occupata",
+          "answer": 1,
+          "page": 15,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png",
+              "sha256": "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2",
+              "page": 15,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ca9e634a9f71b59849d24bb5599ee55b4a6a7fa3155328c605e5a9cb787a4e11",
+        "localized_text": "Al cruzar la intersección mostrada, el vehículo C tiene ocupada la derecha"
+      },
+      {
+        "source": {
+          "number": 26349,
+          "quesito_id": 5148,
+          "text_it": "Nell'attraversare l'incrocio raffigurato il veicolo A passa per ultimo",
+          "answer": 0,
+          "page": 15,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png",
+              "sha256": "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2",
+              "page": 15,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "2d5d1610120b69c63d9ca87941fa003da3ea9c99bf78c7df275365ceefd0d0aa",
+        "localized_text": "Al cruzar la intersección mostrada, el vehículo A pasa último"
+      },
+      {
+        "source": {
+          "number": 26350,
+          "quesito_id": 5148,
+          "text_it": "Nell'attraversare l'incrocio raffigurato il veicolo A ha la destra libera",
+          "answer": 0,
+          "page": 15,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png",
+              "sha256": "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2",
+              "page": 15,
+              "bbox": [
+                465.63,
+                453.0,
+                545.63,
+                533.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "d1fd17eff6baf0af3b7b2881842f2d1ce3039641e044dd13a3b00e89eda25b4b",
+        "localized_text": "Al cruzar la intersección mostrada, el vehículo A tiene libre la derecha"
+      },
+      {
+        "source": {
+          "number": 26351,
+          "quesito_id": 5148,
+          "text_it": "Nell'attraversare l'incrocio raffigurato i veicoli A e C passano per primi",
+          "answer": 0,
+          "page": 15,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png",
+              "sha256": "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2",
+              "page": 15,
+              "bbox": [
+                465.63,
+                539.0,
+                545.63,
+                619.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8074045932a6b586fec3c275ee524c59c07592883c4a75c3aed1f0feb0f3438b",
+        "localized_text": "Al cruzar la intersección mostrada, los vehículos A y C pasan primero"
+      },
+      {
+        "source": {
+          "number": 26352,
+          "quesito_id": 5149,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato i veicoli L e H passano contemporaneamente per primi",
+          "answer": 1,
+          "page": 15,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+              "sha256": "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+              "page": 15,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "7f71d612193711c1b92a8136e07abbba51e61fb316b0228ce4824c1fb71b54de",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada los vehículos L y H pasan primero al mismo tiempo"
+      },
+      {
+        "source": {
+          "number": 26353,
+          "quesito_id": 5149,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato i veicoli L e H hanno diritto di precedenza",
+          "answer": 1,
+          "page": 16,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+              "sha256": "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+              "page": 16,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "9c231422d8b8a8de67b431ad3fe6b0c30f6ea00affa1cfba4997d03642cc3328",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada los vehículos L y H tienen derecho de prioridad"
+      },
+      {
+        "source": {
+          "number": 26354,
+          "quesito_id": 5149,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo B transita dopo il veicolo L",
+          "answer": 1,
+          "page": 16,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+              "sha256": "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+              "page": 16,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "788b2e9162b0c6c5e4a48c7d843778d6bb870f141c3b4c10203d9bada469b28e",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada B pasa después de L"
+      },
+      {
+        "source": {
+          "number": 26355,
+          "quesito_id": 5149,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo O dà la precedenza a tutti gli altri veicoli",
+          "answer": 1,
+          "page": 16,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+              "sha256": "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+              "page": 16,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "5f16adee7d3c31d821bf65f932c740daf98fc834002b6aaa6614f91cebbb3bbb",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada el vehículo O cede el paso a todos los demás vehículos"
+      },
+      {
+        "source": {
+          "number": 26356,
+          "quesito_id": 5149,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo B transita per primo",
+          "answer": 0,
+          "page": 16,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+              "sha256": "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+              "page": 16,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "bc7c35061905a8e527f7c05150d3befa04a66bba7b13a63a582e72f144a3034a",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada el vehículo B pasa primero"
+      },
+      {
+        "source": {
+          "number": 26357,
+          "quesito_id": 5149,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo H transita dopo il veicolo O",
+          "answer": 0,
+          "page": 16,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+              "sha256": "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+              "page": 16,
+              "bbox": [
+                465.63,
+                367.0,
+                545.63,
+                447.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "287bac58752d2ae01ca42be023d9a8bb10430ddccfd5009eb7b1782709e5eddd",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada el vehículo H pasa después del vehículo O"
+      },
+      {
+        "source": {
+          "number": 26358,
+          "quesito_id": 5150,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo T transita per primo",
+          "answer": 1,
+          "page": 16,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258.png",
+              "sha256": "6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258",
+              "page": 16,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "3c67c431fbc6f5a13b4361f42c6e7f95cb602525fc7df7d617bf2b605c2bb230",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada el vehículo T pasa primero"
+      },
+      {
+        "source": {
+          "number": 26359,
+          "quesito_id": 5150,
+          "text_it": "Secondo le norme di precedenza, nell'incrocio raffigurato il veicolo A dà la precedenza al veicolo O",
+          "answer": 1,
+          "page": 16,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258.png",
+              "sha256": "6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258",
+              "page": 16,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "1ae0e8c4a8e592a859a4161ffa5f7d8f97ff3e5c7236d31ca2c52429847bc75e",
+        "localized_text": "Según las normas de prioridad, en la intersección mostrada el vehículo A cede el paso al vehículo O"
+      }
+    ],
+    "task_sha256": "07393e5b8df8f55f62bb310b2897701943a8168e7557a8ff7c4e652151e0a364"
+  },
+  "rows": [
+    {
+      "number": 26335,
+      "text": "D gira a la derecha sin cruzarse con vehículos que vienen de su derecha y pasa primero. B debe esperar a P, que a su vez espera a D.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26335, figura source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26336,
+      "text": "Según el sentido de marcha de A, C viene por la derecha, por lo que A debe esperar a C.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26336, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26337,
+      "text": "Según el sentido de marcha de H, A viene por la derecha, por lo que H debe esperar a A.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26337, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26338,
+      "text": "Según el sentido de marcha de C, D viene por la derecha, por lo que C debe esperar a D.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26338, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26339,
+      "text": "D viene por la derecha de C y sus trayectorias se cruzan, por lo que C debe esperar a D.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26339, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26340,
+      "text": "D gira a la derecha y no encuentra vehículos por la derecha en su trayectoria. Los demás deben esperar a un vehículo situado a su derecha.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26340, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26341,
+      "text": "C debe esperar a D, que viene por su derecha y cruza su trayectoria.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26341, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26342,
+      "text": "C no pasa primero: debe ceder el paso a D, que viene por su derecha.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26342, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26343,
+      "text": "A debe esperar a C, que viene por su derecha, por lo que C cruza antes que A.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26343, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26344,
+      "text": "D pasa primero; C debe esperar a D y H debe esperar a A, situado a su derecha.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26344, figura source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26345,
+      "text": "L tiene libre la derecha y pasa primero. A y C deben esperar a L; D debe esperar a A.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26345, figura source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26346,
+      "text": "A viene por la derecha de D y sus trayectorias se cruzan. Después de L, A pasa antes que D.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26346, figura source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26347,
+      "text": "Para L, que avanza hacia la izquierda en el dibujo, no llega ningún vehículo por la derecha, así que puede cruzar primero.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26347, figura source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26348,
+      "text": "L viene por la derecha de C y cruza su trayectoria. C debe esperar a que pase L.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26348, figura source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26349,
+      "text": "A no pasa al último: después de L puede pasar junto con C porque sus trayectorias no se cruzan; D espera a A.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26349, figura source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26350,
+      "text": "A tiene a L a su derecha y debe esperar a que pase antes de cruzar.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26350, figura source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26351,
+      "text": "L pasa primero porque tiene libre la derecha. A y C esperan a L y luego pueden cruzar juntos porque sus trayectorias no se cruzan.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26351, figura source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26352,
+      "text": "B y O tienen señales de ceda el paso. L y H circulan en sentidos opuestos por la vía con prioridad, sin cruzar sus trayectorias, y pueden pasar juntos.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26352, figura source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26353,
+      "text": "B y O encuentran señales de ceda el paso; L y H circulan por la vía con prioridad y pasan primero.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26353, figura source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26354,
+      "text": "B encuentra una señal de ceda el paso y debe esperar a L, que circula por la vía con prioridad.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26354, figura source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26355,
+      "text": "O debe esperar a L y H por la señal de ceda el paso; también debe esperar a B, que viene por su derecha y está sujeto a la misma señal.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26355, figura source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26356,
+      "text": "B no pasa primero: su señal de ceda el paso lo obliga a esperar a L y H en la vía con prioridad.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26356, figura source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26357,
+      "text": "H pasa antes que O: O encuentra una señal de ceda el paso, mientras H circula por la vía con prioridad.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26357, figura source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26358,
+      "text": "T es un tranvía y cruza primero: al atravesar vías de tranvía se cede el paso a los vehículos sobre rieles, salvo señalización distinta.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, commi 2 e 3: precedenza a destra e ai veicoli su rotaia, salvo diversa segnalazione.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26358, figura source/images/6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    },
+    {
+      "number": 26359,
+      "text": "Después del tranvía T, A debe esperar a O, que viene por su derecha y cruza su trayectoria.",
+      "evidence": [
+        "https://aci.gov.it/codice-della-strada/art-145/ — art. 145, comma 2: precedenza a destra quando le traiettorie si intersecano, salvo diversa segnalazione; comma 4: rispettare il segnale di precedenza.",
+        "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3 — quesito 26359, figura source/images/6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258.png e gruppi di quesiti contigui: configurazione e ordine di attraversamento rappresentati."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "07393e5b8df8f55f62bb310b2897701943a8168e7557a8ff7c4e652151e0a364",
+    "output_sha256": "fdf5f8612c98d9fa52690d5d51c1a0b8c798e3ecf06112efa810be563de0a836",
+    "author": "gpt-6.1-terra / 01a1e9db-e8d9-7d53-944a-1e66a3198250",
+    "reviewer": "gpt-6.1-terra / 01a1e9dd-bc91-7b80-a799-fc88702f5e2f",
+    "status": "accepted",
+    "checked_numbers": [
+      26335,
+      26336,
+      26337,
+      26338,
+      26339,
+      26340,
+      26341,
+      26342,
+      26343,
+      26344,
+      26345,
+      26346,
+      26347,
+      26348,
+      26349,
+      26350,
+      26351,
+      26352,
+      26353,
+      26354,
+      26355,
+      26356,
+      26357,
+      26358,
+      26359
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "7c520a5b767788ea890c2e44c958673e072b10e585f09ec7f80eb6b3526fe216",
+        "attached_image_paths": [
+          "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+          "source/images/6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258.png",
+          "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+          "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+          "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png"
+        ],
+        "attached_image_sha256": [
+          "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+          "6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258",
+          "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+          "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+          "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "6832e975034cb5371f6fde32c264155f0e6001930f3aa66918a7e2f4864565fc",
+        "attached_image_paths": [
+          "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+          "source/images/6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258.png",
+          "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+          "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+          "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png"
+        ],
+        "attached_image_sha256": [
+          "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+          "6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258",
+          "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+          "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+          "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2"
+        ]
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1e9db-e8d9-7d53-944a-1e66a3198250",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7c520a5b767788ea890c2e44c958673e072b10e585f09ec7f80eb6b3526fe216",
+          "attached_image_paths": [
+            "source/images/03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0.png",
+            "source/images/6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258.png",
+            "source/images/9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7.png",
+            "source/images/d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413.png",
+            "source/images/eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2.png"
+          ],
+          "attached_image_sha256": [
+            "03d56bb042a86d4caf8071a695ced2277004a72e717fe0e4e9faf07efdd42ab0",
+            "6b3e4da2f319f6460d6e866105c76119ade49461c8420ca9a2a937f613797258",
+            "9615997736e682b17acf29336daf139ac645ab2032f30a6020158541a1f1bcf7",
+            "d9417d7907bfebf6035a7c8483741de57f44e002d5cd87e8d4ecf24b4a323413",
+            "eac8dddb816e2b0864e3629ad105977d08d7d403c612e3a3a09ebf5fb0bf39e2"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

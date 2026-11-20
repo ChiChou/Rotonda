@@ -1,0 +1,37 @@
+{
+  "batch": "120",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "6be702f2e9ec043bd40d08df6e93f4f3afb7b191227fb2f7a1a4f674bacffa36",
+  "source_sha256": "1e3cb8ca07831c6ed1c6fa9b8da6cd44c4b580afab058d9226550d1f94d22631",
+  "corrections": [
+    {
+      "id": "9febf5c5ed98e68b82f304202402ac3b8ab575cf2edf5e3abd4b04e5dffcf02f",
+      "before": "La pena por alterar el tacógrafo dos veces en dos años es establecida por el tribunal",
+      "after": "La pena por alterar el tacógrafo dos veces dentro de un plazo de dos años es establecida por el tribunal",
+      "reason": "Restores the 'entro due anni' time limit (within two years)"
+    },
+    {
+      "id": "a06f42befe59ea866d0dbde3fd0788b8189b721d478cf93511f5eba2fb350351",
+      "before": "La señal mostrada indica el número de zonas de parada",
+      "after": "La señal mostrada indica el número de apartaderos",
+      "reason": "Piazzola di sosta designa un apartadero vial, no una zona genérica de parada o estacionamiento."
+    },
+    {
+      "id": "a07230de785d6620b08d4a9702754d6860aeea497bc101f4c1a9d549e92e0f40",
+      "before": "La licencia de categoría B con código armonizado 96 autoriza a conducir autobuses articulados de masa máxima autorizada superior a 4.250 kilogramos pero no superior a 7.500 kilogramos",
+      "after": "La licencia de categoría B con código armonizado 96 autoriza a conducir vehículos articulados de masa máxima autorizada superior a 4.250 kilogramos pero no superior a 7.500 kilogramos",
+      "reason": "Italian autosnodati are articulated vehicles in general, not only buses"
+    }
+  ],
+  "reviewed_file_sha256": "68851d557bec5f8a9da8f8f6f6f22f6339e038a454abb2b4c4f7d581937d6877"
+}

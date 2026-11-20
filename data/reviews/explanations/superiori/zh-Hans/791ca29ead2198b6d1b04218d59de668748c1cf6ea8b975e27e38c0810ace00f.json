@@ -1,0 +1,642 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29180,
+          "quesito_id": 6143,
+          "text_it": "Un veicolo ibrido è molto economico, ma è più inquinante degli altri veicoli",
+          "answer": 0,
+          "page": 96,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bab71516721970ce9d2cbda05117ef1b9f7e04fd6fc59284b1dc0a8bd8157f91",
+        "localized_text": "混合动力车辆非常经济，但比其他车辆污染更大。"
+      },
+      {
+        "source": {
+          "number": 29181,
+          "quesito_id": 6143,
+          "text_it": "I veicoli ibridi hanno motori adatti a funzionare solo con temperature esterne elevate",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0e998f60478ccf7fd908d5e68b060a7e3d53033362bbfe0a16a2e41ca60b3b70",
+        "localized_text": "混合动力车辆的动力装置只适合在高外界温度下工作。"
+      },
+      {
+        "source": {
+          "number": 29182,
+          "quesito_id": 6143,
+          "text_it": "I veicoli ibridi devono avere trazione a quattro ruote motrici",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "df027814e8fd1aab29d1f5d672b161eb95514a7a69f21a66a355c4b3705f5b66",
+        "localized_text": "混合动力车辆必须采用四轮驱动。"
+      },
+      {
+        "source": {
+          "number": 29183,
+          "quesito_id": 6144,
+          "text_it": "Il motore elettrico non è un motore a combustione interna",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "33e03a82a2ebc45269b2d436e8f09d3a90e863aa0b024da013daa0e8475383d2",
+        "localized_text": "电动机不是内燃机。"
+      },
+      {
+        "source": {
+          "number": 29184,
+          "quesito_id": 6144,
+          "text_it": "Il motore elettrico viene in genere raffreddato ad aria",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ff2147f62b827d62f246cdfea82c1b581d359da4ad09f8979e31d3dba7d80972",
+        "localized_text": "电动机通常采用风冷。"
+      },
+      {
+        "source": {
+          "number": 29185,
+          "quesito_id": 6144,
+          "text_it": "Un motore elettrico trasforma energia elettromagnetica in forza motrice",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "420968fc5bddc49b30940bfeba547cc8ba2bb35b3232550ed5f1fdf0a4376971",
+        "localized_text": "电动机将电磁能转化为驱动力。"
+      },
+      {
+        "source": {
+          "number": 29186,
+          "quesito_id": 6144,
+          "text_it": "I filobus sono veicoli con motore elettrico, alimentati da una rete di distribuzione di elettricità installata sulla strada",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2aa5253647bdfc5354e919b840c62941107fbc883850e5423ff9e8b68972db7a",
+        "localized_text": "无轨电车是由安装在道路上的供电网络供电的电动机车辆。"
+      },
+      {
+        "source": {
+          "number": 29187,
+          "quesito_id": 6144,
+          "text_it": "Un autoveicolo con trazione elettrica alimentato da accumulatori, rispetto ad uno a combustione interna, è generalmente meno veloce, meno potente, con un’autonomia più limitata",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "22b4ed8ee8150316652d6b00e572b78f32555fbe56884b3971d5981ec86cccdf",
+        "localized_text": "与内燃机车辆相比，蓄电池供电的电动车辆通常速度较低、功率较小且续航里程较短。"
+      },
+      {
+        "source": {
+          "number": 29188,
+          "quesito_id": 6144,
+          "text_it": "Il motore elettrico è un motore a combustione esterna",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3480c9a56bbfa95386ae370e202272885a8211051fc009a5604ab20a0f809180",
+        "localized_text": "电动机是外燃机。"
+      },
+      {
+        "source": {
+          "number": 29189,
+          "quesito_id": 6144,
+          "text_it": "Un motore elettrico trasforma la forza motrice in energia elettromagnetica",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "adba5fd6b3e474832ef1f2913abd93a86d9eb03d5d1ae90df7fd5631e2c292fa",
+        "localized_text": "电动机将驱动力转化为电磁能。"
+      },
+      {
+        "source": {
+          "number": 29190,
+          "quesito_id": 6144,
+          "text_it": "I pistoni sono organi tipici dei motori elettrici",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6ef27cbfdfece600b4620deedc5959b390c4eb75dbae4881b219817363db77e5",
+        "localized_text": "活塞是电动机的典型部件。"
+      },
+      {
+        "source": {
+          "number": 29191,
+          "quesito_id": 6144,
+          "text_it": "I motori elettrici sono dotati di cambio di velocità a tre marce",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c6ae73294eadbf28b08c47de9800cb024b06047ce0cf5bcbe88a26a3c9ca6d62",
+        "localized_text": "电动机配有三挡变速箱。"
+      },
+      {
+        "source": {
+          "number": 29192,
+          "quesito_id": 6144,
+          "text_it": "I motori elettrici sono motori ad accensione spontanea",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "52b8f25892d853ce72560b5b00b1a8256f655f98940f8257bb4e2c28c84cf803",
+        "localized_text": "电动机是压燃式发动机。"
+      },
+      {
+        "source": {
+          "number": 29193,
+          "quesito_id": 6145,
+          "text_it": "Il motore a combustione interna che fornisce potenza agli autoveicoli, trasforma l’energia termica ricavata dal combustibile, in energia meccanica disponibile alle ruote",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1481a419d3bb5175007c96a2a46b7782b4433f41f88a862c71649061ece42c0a",
+        "localized_text": "为机动车提供动力的内燃机将燃料产生的热能转化为车轮可用的机械能。"
+      },
+      {
+        "source": {
+          "number": 29194,
+          "quesito_id": 6145,
+          "text_it": "I cilindri di un motore sono raggruppati in un unico blocco metallico di fusione che prende il nome di monoblocco",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f00f3a08675b7ae8fa68b65abb8d152a5df5acbeab1c95ac92ce1fcdf317fa8f",
+        "localized_text": "发动机气缸集中在一个称为缸体的整体铸造金属块中。"
+      },
+      {
+        "source": {
+          "number": 29195,
+          "quesito_id": 6145,
+          "text_it": "I cilindri di un motore hanno la funzione di camera di espansione dei gas e di guida per i pistoni",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "95936619ea03456a2f8be6bfa4814e7132602a5a53d49bc56d4ffedde08fab49",
+        "localized_text": "发动机气缸充当气体膨胀室和活塞导向部件。"
+      },
+      {
+        "source": {
+          "number": 29196,
+          "quesito_id": 6145,
+          "text_it": "Il motore a scoppio è detto anche \"ad accensione comandata\"",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5e1f3be3e33222af6c82dc3c2d44c0af67daed3fa72ad2349856668007c87521",
+        "localized_text": "点火式发动机也称为强制点火发动机。"
+      },
+      {
+        "source": {
+          "number": 29197,
+          "quesito_id": 6145,
+          "text_it": "Il motore Diesel è detto anche \"ad accensione spontanea\"",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "97ce0324d1736a0737e511f0fadf06b314bd9230b3df45a88ae09340f637e1cf",
+        "localized_text": "柴油发动机也称为压燃式发动机。"
+      },
+      {
+        "source": {
+          "number": 29198,
+          "quesito_id": 6145,
+          "text_it": "Il motore a scoppio funziona aspirando e comprimendo una miscela di aria e benzina",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "45645a45113411b690859b10a81b979152c98b52d8455098ceb711bc60444db8",
+        "localized_text": "点火式发动机通过吸入并压缩空气与汽油混合物工作。"
+      },
+      {
+        "source": {
+          "number": 29199,
+          "quesito_id": 6145,
+          "text_it": "Il motore Diesel funziona aspirando e comprimendo solo aria",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "02967d4ad626662e9a77a2211bec8a53c46b606d5dc05d79375ecc9a80ae6daf",
+        "localized_text": "柴油发动机通过只吸入并压缩空气工作。"
+      },
+      {
+        "source": {
+          "number": 29200,
+          "quesito_id": 6145,
+          "text_it": "Il motore a combustione interna che fornisce potenza agli autoveicoli, trasforma l’energia meccanica in energia termica",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ac589014a52ed2c43b6f07de0f7e2e06ac3335a0f9507c33dc4e81879ca181c1",
+        "localized_text": "为机动车提供动力的内燃机将机械能转化为热能。"
+      },
+      {
+        "source": {
+          "number": 29201,
+          "quesito_id": 6145,
+          "text_it": "Il motore a scoppio funziona aspirando e comprimendo solo aria",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "374954105c39c9b30da501c93881a9b1d17d945aa01d9cded8799a04966f6f96",
+        "localized_text": "点火式发动机通过只吸入并压缩空气工作。"
+      },
+      {
+        "source": {
+          "number": 29202,
+          "quesito_id": 6145,
+          "text_it": "Il motore Diesel funziona aspirando e comprimendo una miscela di aria e gasolio",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7780321ecc9af3d4a1f01f6a9b51c1aa4ac5e5f31a81af85e421a6f17a0d21dd",
+        "localized_text": "柴油发动机通过吸入并压缩空气与柴油混合物工作。"
+      },
+      {
+        "source": {
+          "number": 29203,
+          "quesito_id": 6145,
+          "text_it": "Il motore Diesel è detto anche motore \"ad accensione comandata\"",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "893cfa6200c70aa82c265433ebdb14e407afa2a0c985a948a995831120c252ab",
+        "localized_text": "柴油发动机也称为强制点火发动机。"
+      },
+      {
+        "source": {
+          "number": 29204,
+          "quesito_id": 6145,
+          "text_it": "Il motore a scoppio è detto anche \"ad accensione spontanea\"",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "487ac50e8ec308c0047788960f1aab22c1b38e8ad242c185d4883ff37e1a1892",
+        "localized_text": "点火式发动机也称为压燃式发动机。"
+      }
+    ],
+    "task_sha256": "791ca29ead2198b6d1b04218d59de668748c1cf6ea8b975e27e38c0810ace00f"
+  },
+  "rows": [
+    {
+      "number": 29180,
+      "text": "混合动力车不一定污染更严重：与传统车辆相比，能量回收和电动辅助可以降低油耗及尾气排放。实际结果取决于车辆和使用方式。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/electric-basics-hev — Gli ibridi combinano motore termico ed elettrico e hanno in genere basse emissioni allo scarico.",
+        "https://afdc.energy.gov/vehicles/electric-emissions — Le emissioni allo scarico degli ibridi sono tipicamente inferiori; quelle complessive dipendono anche dalla produzione energetica."
+      ]
+    },
+    {
+      "number": 29181,
+      "text": "混合动力系统并非只能在较高的室外温度下工作。寒冷可能影响油耗和电池性能，但不决定其是否为混合动力。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/electric-basics-hev — Gli ibridi combinano motore termico ed elettrico e hanno in genere basse emissioni allo scarico.",
+        "https://afdc.energy.gov/files/u/publication/impact_battery_phev.pdf — Analizza il funzionamento di ibridi plug-in al freddo e gli effetti sui consumi."
+      ]
+    },
+    {
+      "number": 29182,
+      "text": "混合动力指内燃动力与电动力的结合，并非指驱动轮的数量。也有前轮驱动的混合动力车。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/electric-basics-hev — Gli ibridi combinano motore termico ed elettrico e hanno in genere basse emissioni allo scarico.",
+        "https://pressroom.toyota.com/2025-toyota-prius-gets-a-moody-vibe-with-new-nightshade-grade/ — La Prius ibrida è proposta con trazione anteriore o integrale."
+      ]
+    },
+    {
+      "number": 29183,
+      "text": "电动机利用磁场产生运动；它不像内燃机那样在气缸内燃烧燃料。",
+      "evidence": [
+        "https://www.energy.gov/documents/fcm08r0pdf, modulo 8, § 8.2.1 — Il motore elettrico converte energia elettrica in moto tramite campi magnetici; può operare da generatore.",
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione."
+      ]
+    },
+    {
+      "number": 29184,
+      "text": "试题标为 VERO：有些电动机用空气散热，也有液冷系统；哪种更常见取决于电机、用途和时代。",
+      "evidence": [
+        "https://saemobilus.sae.org/papers/a-review-state-art-electric-traction-motors-cooling-techniques-2018-01-0057 — rassegna, abstract: raffreddamento ad aria e a liquido.",
+        "https://www.energy.gov/cmei/vehicles/thermal-control-system-integration — sistemi ibridi con circuito di raffreddamento a liquido."
+      ]
+    },
+    {
+      "number": 29185,
+      "text": "作为电动机运行时，电能产生磁场，进而产生用于驱动的机械运动。",
+      "evidence": [
+        "https://www.energy.gov/documents/fcm08r0pdf, modulo 8, § 8.2.1 — Il motore elettrico converte energia elettrica in moto tramite campi magnetici; può operare da generatore."
+      ]
+    },
+    {
+      "number": 29186,
+      "text": "无轨电车从道路上方的架空线取电，用于驱动使车辆行驶的电动机。",
+      "evidence": [
+        "https://metro.kingcounty.gov/up/projects/trolleyevaluation.html — King County Metro: il filobus preleva energia dai fili elettrificati aerei per azionare il motore elettrico."
+      ]
+    },
+    {
+      "number": 29187,
+      "text": "试题标为 VERO，但速度、功率和续航取决于所比较的车辆及时代。电池续航可能限制某些用途，但也有高性能电动车，因此不能适用于每辆车。",
+      "evidence": [
+        "https://www.energy.gov/cmei/femp/articles/electric-vehicle-technology-overview-federal-fleet-training — autonomia, tipi e prestazioni variabili degli elettrici.",
+        "https://newsroom.porsche.com/dam/jcr%3Adb7be217-7b2a-44a6-b2b3-3493b5baf1c1/pag-taycan-turbo-gt-td-en.pdf — dati Porsche Taycan Turbo GT 2024: esempio di vettura elettrica ad alte prestazioni, non prova statistica."
+      ]
+    },
+    {
+      "number": 29188,
+      "text": "电动机不是外燃机：它利用磁场产生运动，无需燃烧燃料来驱动电动机。",
+      "evidence": [
+        "https://www.energy.gov/documents/fcm08r0pdf, modulo 8, § 8.2.1 — Il motore elettrico converte energia elettrica in moto tramite campi magnetici; può operare da generatore."
+      ]
+    },
+    {
+      "number": 29189,
+      "text": "作为电动机运行时，能量从电能转变为运动；作为发电机运行时，转换方向相反。",
+      "evidence": [
+        "https://www.energy.gov/documents/fcm08r0pdf, modulo 8, § 8.2.1 — Il motore elettrico converte energia elettrica in moto tramite campi magnetici; può operare da generatore."
+      ]
+    },
+    {
+      "number": 29190,
+      "text": "活塞是常见往复式内燃机的部件；电动机则通过磁场产生运动。",
+      "evidence": [
+        "https://www.energy.gov/documents/fcm08r0pdf, modulo 8, § 8.2.1 — Il motore elettrico converte energia elettrica in moto tramite campi magnetici; può operare da generatore.",
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione."
+      ]
+    },
+    {
+      "number": 29191,
+      "text": "三挡变速箱并非电动机的必备特征。传动装置是独立部件，可以采用不同结构。",
+      "evidence": [
+        "https://www.energy.gov/sites/prod/files/2015/04/f21/uev_tech_specs.pdf — Specifica per veicolo elettrico ammette trasmissione automatica a una o più velocità.",
+        "https://www.energy.gov/documents/fcm08r0pdf, modulo 8, § 8.2.1 — Il motore elettrico converte energia elettrica in moto tramite campi magnetici; può operare da generatore."
+      ]
+    },
+    {
+      "number": 29192,
+      "text": "自燃点火是柴油机中燃料的点火方式。电动机通过磁场产生运动，无需点燃燃料。",
+      "evidence": [
+        "https://www.energy.gov/documents/fcm08r0pdf, modulo 8, § 8.2.1 — Il motore elettrico converte energia elettrica in moto tramite campi magnetici; può operare da generatore.",
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione."
+      ]
+    },
+    {
+      "number": 29193,
+      "text": "燃烧释放燃料中的能量；膨胀的气体推动活塞，传动系统将运动传至车轮。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione."
+      ]
+    },
+    {
+      "number": 29194,
+      "text": "在整体式发动机中，气缸集中在铸造的缸体内，缸体构成发动机的支撑结构。",
+      "evidence": [
+        "https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1018-93_VOL1.pdf, Diesel Engine Fundamentals, p. 6 — Il blocco cilindri è generalmente un pezzo fuso; cilindro o camicia confinano i gas e guidano il pistone."
+      ]
+    },
+    {
+      "number": 29195,
+      "text": "气缸容纳燃烧后膨胀的气体，并引导活塞运动。",
+      "evidence": [
+        "https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1018-93_VOL1.pdf, Diesel Engine Fundamentals, p. 6 — Il blocco cilindri è generalmente un pezzo fuso; cilindro o camicia confinano i gas e guidano il pistone.",
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione."
+      ]
+    },
+    {
+      "number": 29196,
+      "text": "在常见汽油机中，火花塞的火花控制点火，使压缩后的混合气开始燃烧。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione.",
+        "https://www1.eere.energy.gov/vehiclesandfuels/pdfs/diesel_technical_primer.pdf, figura 2 — Nel ciclo convenzionale a benzina si comprimono aria e carburante; nel Diesel si comprime aria e poi si inietta gasolio."
+      ]
+    },
+    {
+      "number": 29197,
+      "text": "在柴油机中，喷入经压缩而变热的空气中的柴油会自行点燃，无需受控火花。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione.",
+        "https://www1.eere.energy.gov/vehiclesandfuels/pdfs/diesel_technical_primer.pdf, figura 2 — Nel ciclo convenzionale a benzina si comprimono aria e carburante; nel Diesel si comprime aria e poi si inietta gasolio."
+      ]
+    },
+    {
+      "number": 29198,
+      "text": "试题标为 VERO：预混系统中空气和汽油一起进入并被压缩。但直喷时汽油直接进入气缸，并非总是吸入已配好的混合气。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-propane-cars-work — iniezione nel condotto oppure nella camera di combustione.",
+        "https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work — DOE: benzina iniettata nel condotto o direttamente nella camera di combustione."
+      ]
+    },
+    {
+      "number": 29199,
+      "text": "在传统柴油机循环中，吸入并压缩的是空气；随后柴油被喷入高温压缩空气中。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione.",
+        "https://www1.eere.energy.gov/vehiclesandfuels/pdfs/diesel_technical_primer.pdf, figura 2 — Nel ciclo convenzionale a benzina si comprimono aria e carburante; nel Diesel si comprime aria e poi si inietta gasolio."
+      ]
+    },
+    {
+      "number": 29200,
+      "text": "有用的能量转换方向相反：燃烧释放热能，膨胀的气体产生机械功。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione."
+      ]
+    },
+    {
+      "number": 29201,
+      "text": "试题标为 FALSO：传统预混系统会一起吸入空气和汽油。但在直喷系统中，空气可以单独进入，燃料则喷入气缸。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-propane-cars-work — iniezione nel condotto oppure nella camera di combustione.",
+        "https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work — DOE: benzina iniettata nel condotto o direttamente nella camera di combustione."
+      ]
+    },
+    {
+      "number": 29202,
+      "text": "在传统柴油机循环中，压缩的是空气；柴油被喷入高温压缩空气中并在那里点燃。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione.",
+        "https://www1.eere.energy.gov/vehiclesandfuels/pdfs/diesel_technical_primer.pdf, figura 2 — Nel ciclo convenzionale a benzina si comprimono aria e carburante; nel Diesel si comprime aria e poi si inietta gasolio."
+      ]
+    },
+    {
+      "number": 29203,
+      "text": "柴油机采用压缩点火：喷入的柴油在高温压缩空气中自行点燃，无需受控火花。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione.",
+        "https://www1.eere.energy.gov/vehiclesandfuels/pdfs/diesel_technical_primer.pdf, figura 2 — Nel ciclo convenzionale a benzina si comprimono aria e carburante; nel Diesel si comprime aria e poi si inietta gasolio."
+      ]
+    },
+    {
+      "number": 29204,
+      "text": "常见汽油机采用受控点火：火花塞点燃混合气。压缩自燃则是柴油机的特点。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — La combustione espande gas che muovono il pistone; distingue accensione a scintilla e per compressione.",
+        "https://www1.eere.energy.gov/vehiclesandfuels/pdfs/diesel_technical_primer.pdf, figura 2 — Nel ciclo convenzionale a benzina si comprimono aria e carburante; nel Diesel si comprime aria e poi si inietta gasolio."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "791ca29ead2198b6d1b04218d59de668748c1cf6ea8b975e27e38c0810ace00f",
+    "output_sha256": "f2ebf82d12e888275e80f71c602455c2c8330cd76a41ff9b5cb16773e6ea2884",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      29180,
+      29181,
+      29182,
+      29183,
+      29184,
+      29185,
+      29186,
+      29187,
+      29188,
+      29189,
+      29190,
+      29191,
+      29192,
+      29193,
+      29194,
+      29195,
+      29196,
+      29197,
+      29198,
+      29199,
+      29200,
+      29201,
+      29202,
+      29203,
+      29204
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eae3-7d8e-7fe1-9204-19e6b68e3ee6",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "f18e8386ce74d39e5d1710865ae92706381d40030e6506fd9df5f1d083d06b3f",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eae3-7d8e-7fe1-9204-19e6b68e3ee6",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29184,
+              "reason": "La risposta stampata VERO afferma che il motore elettrico è in genere raffreddato ad aria, ma il quesito non delimita tipo o periodo e la fonte DOE descrive come tipico un circuito a liquido per le macchine elettriche dei sistemi ibridi attuali. Non è verificata la generalizzazione per il campo del quesito.",
+              "checked_sources": [
+                "https://www.energy.gov/cmei/vehicles/thermal-control-system-integration — i sistemi ibridi attuali usano tipicamente un circuito di refrigerante dedicato per elettronica e macchine elettriche.",
+                "https://saemobilus.sae.org/papers/a-review-state-art-electric-traction-motors-cooling-techniques-2018-01-0057 — esamina raffreddamento ad aria forzata e circuiti a liquido per motori di trazione."
+              ]
+            },
+            {
+              "number": 29187,
+              "reason": "La risposta stampata VERO generalizza simultaneamente velocità, potenza e autonomia dei veicoli elettrici rispetto a quelli a combustione senza definire popolazione o periodo. Le fonti mostrano autonomia tipica inferiore ma anche modelli elettrici di elevata potenza e velocità; non verificano la generalizzazione complessiva.",
+              "checked_sources": [
+                "https://www.energy.gov/cmei/femp/articles/electric-vehicle-technology-overview-federal-fleet-training — confronta autonomie tipiche delle diverse motorizzazioni.",
+                "https://www.tesla.com/models?design=new — specifica potenza e velocità elevate per una vettura elettrica a batteria; non stabilisce la distribuzione generale delle prestazioni.",
+                "https://www.energy.gov/documents/fcm08r0pdf, § 8.2.1 — distingue potenza continua e massima dei motori elettrici, avvertendo che il confronto delle potenze può essere fuorviante."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "f18e8386ce74d39e5d1710865ae92706381d40030e6506fd9df5f1d083d06b3f",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

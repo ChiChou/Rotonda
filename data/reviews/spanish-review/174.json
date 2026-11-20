@@ -1,0 +1,43 @@
+{
+  "batch": "174",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "f119c1ed2d35e97d7322b10678f87eeda72164ab0db85c00d653be79fe58e249",
+  "source_sha256": "11eeabd7db2e8cf6b1dcfc27abccd195dac34db0c0bdac2f32d4854f3ef056d0",
+  "corrections": [
+    {
+      "id": "e68bf07fc226f1b45f5ece193fb9d0c4f75c6d3738f687ba576f544a7c60fc57",
+      "before": "El sistema de alimentación del motor diésel se encarga de controlar el suministro de combustible",
+      "after": "El sistema de alimentación del motor diésel se encarga de controlar el suministro de diésel",
+      "reason": "Gasolio especifica el combustible diésel."
+    },
+    {
+      "id": "e6a23faade3900673503011b7cc3a6d11006a8fbcbc6bfce48001a73e79fd81a",
+      "before": "A bordo de los autobuses utilizados para servicios ocasionales internacionales en la UE se necesitan la copia certificada de la licencia comunitaria y la autorización expedida por las autoridades competentes del Estado de destino",
+      "after": "A bordo de los autobuses utilizados para servicios ocasionales internacionales en la UE se necesitan copias certificadas de la licencia comunitaria y de la autorización expedida por las autoridades competentes del Estado de destino",
+      "reason": "El original exige copia conforme de ambos documentos."
+    },
+    {
+      "id": "e70d326c91aa7801f93cc934f42d7f650f68520049f74bb2339f8b9adc6021b5",
+      "before": "Las bujías de precalentamiento de un motor diésel permiten los primeros encendidos del combustible en los cilindros cuando el motor está frío",
+      "after": "Las bujías de precalentamiento de un motor diésel permiten los primeros encendidos del diésel en los cilindros cuando el motor está frío",
+      "reason": "Gasolio especifica el combustible diésel."
+    },
+    {
+      "id": "e747e867c4931b86522a409cc1564565dae898f5886a1bc7c66f71a271a6ecd3",
+      "before": "Siempre están prohibidos el estacionamiento y la detención sobre los cruces peatonales",
+      "after": "Siempre están prohibidos el estacionamiento y la parada sobre los cruces peatonales",
+      "reason": "Distingue la parada temporal del estacionamiento."
+    }
+  ],
+  "reviewed_file_sha256": "874459c7fd10374af0d5208ae5f5ec261587ce50a75799b5a24d7b9c2f7fee32"
+}

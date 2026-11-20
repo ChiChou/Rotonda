@@ -1,0 +1,690 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 27300,
+          "quesito_id": 5300,
+          "text_it": "La responsabilità civile derivante dall’incidente stradale è di ciascuno dei conducenti coinvolti, finché non sia dimostrato il contrario",
+          "answer": 1,
+          "page": 149,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "84bb9a29b414068eae4b31c5b0b06edcc1d083f4b148d8e03bed3ab89e9cfb26",
+        "localized_text": "在证明相反情况之前，道路事故涉及的每位驾驶人都承担民事责任。"
+      },
+      {
+        "source": {
+          "number": 27301,
+          "quesito_id": 5300,
+          "text_it": "La responsabilità civile derivante dall’incidente stradale si limita al risarcimento dei danni alle sole cose",
+          "answer": 0,
+          "page": 149,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "bbec21905c93b99c8e8e1a11f2c941f3fdcfbbe72daa58aad7d9bd633cefcee8",
+        "localized_text": "道路事故产生的民事责任仅限于赔偿财产损害。"
+      },
+      {
+        "source": {
+          "number": 27302,
+          "quesito_id": 5300,
+          "text_it": "La responsabilità civile derivante dall’incidente stradale è esclusa per danni di lieve entità",
+          "answer": 0,
+          "page": 149,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "83544f7c724541d4e648ef91c94d80a877a504791ad1cf12dad9ba261f8e1b86",
+        "localized_text": "道路事故造成轻微损害时不承担民事责任。"
+      },
+      {
+        "source": {
+          "number": 27303,
+          "quesito_id": 5300,
+          "text_it": "La responsabilità civile derivante dall’incidente stradale è a carico dell'impresa assicuratrice anche per danni superiori ai massimali",
+          "answer": 0,
+          "page": 149,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e46edf01b4caf759372cddc91c8a605d7bbfcd25448ebea37d294bb3389aa60d",
+        "localized_text": "道路事故产生的民事责任即使超过保险限额也由保险公司承担。"
+      },
+      {
+        "source": {
+          "number": 27304,
+          "quesito_id": 5300,
+          "text_it": "La responsabilità civile derivante dall’incidente stradale consiste nell’obbligo di assistere gli eventuali feriti",
+          "answer": 0,
+          "page": 149,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "2f0a8f9e1c7c566344553722d85d27fe5dd82555513baa3905adb3439d5114a8",
+        "localized_text": "道路事故产生的民事责任是救助伤者的义务。"
+      },
+      {
+        "source": {
+          "number": 27305,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale sorge qualora esso provochi lesioni gravi a persone",
+          "answer": 1,
+          "page": 149,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "042c38817fb79ef2e83777f9544852d0b5f1887661d590a4b30fa693ae28793a",
+        "localized_text": "道路事故造成严重人身伤害时会产生刑事责任。"
+      },
+      {
+        "source": {
+          "number": 27306,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale sorge in caso di omicidio colposo",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "42a2c278ab48434f6c98233185bd440c58b71dc7b5862cd82e730b9a292b9176",
+        "localized_text": "道路事故造成过失致人死亡时会产生刑事责任。"
+      },
+      {
+        "source": {
+          "number": 27307,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale sorge allorché vengano violate norme contemplate dal codice penale",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "190c825245796b8957b1cd9988eb35a0150a7000fa340566fa2cfe4ebe741670",
+        "localized_text": "道路事故违反刑法所规定的规则时会产生刑事责任。"
+      },
+      {
+        "source": {
+          "number": 27308,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale è personale",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "efb0f2e499753a1e10504be9f84acfbf9e59d1ede1fe3cf7fa6aaf49842bc8b3",
+        "localized_text": "道路事故产生的刑事责任由个人承担。"
+      },
+      {
+        "source": {
+          "number": 27309,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale è di chi ha causato l’incidente",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "63ef102415db671320f548bbeb60bee6085d2f9ebc679db7f5d066e935b9ad89",
+        "localized_text": "道路事故产生的刑事责任由造成事故的人承担。"
+      },
+      {
+        "source": {
+          "number": 27310,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale sorge qualora esso provochi lesioni di qualsiasi entità",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "57a48cbd540763ac773caf591b43b6d20f9f20f2766224341891d4dbb08afbc2",
+        "localized_text": "道路事故造成任何程度的伤害都会产生刑事责任。"
+      },
+      {
+        "source": {
+          "number": 27311,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale sorge in ogni caso in cui sia violato il codice della strada",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e05a5fc51a88aeed4f4cbf12c61802e0ca8f260fa0c83afe44fce073d81dbf28",
+        "localized_text": "道路事故中只要违反道路交通法规就会产生刑事责任。"
+      },
+      {
+        "source": {
+          "number": 27312,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale ricade sempre nei confronti del genitore, nel caso in cui il conducente sia minorenne",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "21b2b7c4a80d304653d08b2364f2d82b138cabb4ed01dd6f4ee79426bed50d9a",
+        "localized_text": "驾驶人未成年时，道路事故产生的刑事责任始终由父母承担。"
+      },
+      {
+        "source": {
+          "number": 27313,
+          "quesito_id": 5301,
+          "text_it": "La responsabilità penale derivante da incidente stradale è esclusa quando si sia prestato soccorso alla vittima",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c54a897351c114d5a3bdee9dce8b906700c1ae280688c90957804202da426863",
+        "localized_text": "如果已救助受害者，道路事故产生的刑事责任就被免除。"
+      },
+      {
+        "source": {
+          "number": 27314,
+          "quesito_id": 5302,
+          "text_it": "Dopo un incidente stradale senza danni alle persone occorre, se possibile, spostare il ciclomotore almeno sul margine destro della carreggiata",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5150bd751e9a1f9e193c34c37a73852d0b03c43c4fe9e59c4cdde0eb81a72267",
+        "localized_text": "道路事故没有人员受伤时，如有可能，应至少将轻便摩托车移至车行道右边缘。"
+      },
+      {
+        "source": {
+          "number": 27315,
+          "quesito_id": 5302,
+          "text_it": "Dopo un incidente stradale senza danni alle persone occorre, non potendo spostare il ciclomotore, segnalarne la presenza sulla strada",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "8f9e396d04c7a33bf5bba8a464173572554aa5a95d5378b3ef77e023693c41ba",
+        "localized_text": "道路事故没有人员受伤时，如果无法移动车辆，必须警示道路上有轻便摩托车。"
+      },
+      {
+        "source": {
+          "number": 27316,
+          "quesito_id": 5302,
+          "text_it": "Dopo un incidente stradale senza danni alle persone occorre, non potendo spostare il ciclomotore, chiamare il soccorso stradale e rimanere sul posto in attesa",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "bf333bc03ff620b8c80dbf220bdfd3bf16d0b2c0db4647a338d1a667dd643003",
+        "localized_text": "道路事故没有人员受伤时，如果无法移动轻便摩托车，必须呼叫道路救援并留在现场等候。"
+      },
+      {
+        "source": {
+          "number": 27317,
+          "quesito_id": 5302,
+          "text_it": "Dopo un incidente stradale senza danni alle persone occorre coprire il ciclomotore con un telo di plastica",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "54175dbed3982c756b7ec19578c1a68805213b4a4c782e5158a1458c83c7fb14",
+        "localized_text": "道路事故没有人员受伤时，必须用塑料布盖住轻便摩托车。"
+      },
+      {
+        "source": {
+          "number": 27318,
+          "quesito_id": 5302,
+          "text_it": "Dopo un incidente stradale senza danni alle persone occorre collocare subito il veicolo sul marciapiede",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "34bcf6fd7562b28eed0d9f62e5bc73657078a2e5816b54dfccc38fed18fb9169",
+        "localized_text": "道路事故没有人员受伤时，必须立即将车辆放在人行道上。"
+      },
+      {
+        "source": {
+          "number": 27319,
+          "quesito_id": 5302,
+          "text_it": "Dopo un incidente stradale senza danni alle persone occorre presentare in ogni caso denunzia al più vicino commissariato di polizia",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "3fd084cf9ed6ec5303c0ac218a6e3df271a09d23b9cbe6ecc79b395ddef19e9a",
+        "localized_text": "道路事故没有人员受伤时，在任何情况下都必须向最近的警察局报案。"
+      },
+      {
+        "source": {
+          "number": 27320,
+          "quesito_id": 5303,
+          "text_it": "Se, guidando un ciclomotore, si urta un veicolo in sosta, bisogna fare in modo di lasciare i propri dati",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7a9f98954f4bdb360dc067d59ab8c9858b296c74f33b4c604ed77064d85c3772",
+        "localized_text": "驾驶轻便摩托车撞到停放车辆时，必须设法留下自己的联系方式。"
+      },
+      {
+        "source": {
+          "number": 27321,
+          "quesito_id": 5303,
+          "text_it": "Se, guidando un ciclomotore, si urta un veicolo in sosta, occorre rintracciare il proprietario e lasciargli i propri dati",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ffd68b4ff31d61b4245b39c1bdb490bd848c686bd63a24f5fcf9ce2a83a03b04",
+        "localized_text": "驾驶轻便摩托车撞到停放车辆时，必须找到车主并留下自己的联系方式。"
+      },
+      {
+        "source": {
+          "number": 27322,
+          "quesito_id": 5303,
+          "text_it": "Se, guidando un ciclomotore, si urta un veicolo in sosta, si ha l’obbligo di risarcire il danno",
+          "answer": 1,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b4c0c9c46bcd91f6bd5df2cc3632053bd7001da2e7ff14da2c45e60de41734fb",
+        "localized_text": "驾驶轻便摩托车撞到停放车辆时，必须赔偿损失。"
+      },
+      {
+        "source": {
+          "number": 27323,
+          "quesito_id": 5303,
+          "text_it": "Se, guidando un ciclomotore, si urta un veicolo in sosta, si può andare via se nessuno ha visto",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "cc78b906f2fc5cd8044af146323755f4d16d5578a81aee44b34838f4a6ce3c74",
+        "localized_text": "驾驶轻便摩托车撞到停放车辆时，如果没有人看见就可以离开。"
+      },
+      {
+        "source": {
+          "number": 27324,
+          "quesito_id": 5303,
+          "text_it": "Se, guidando un ciclomotore, si urta un veicolo in sosta, non si ha alcuna responsabilità se si è minorenne",
+          "answer": 0,
+          "page": 150,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c6e5f42f757c32f829a40998c7edababdc28be41f18d84f01029e31cfae6aee1",
+        "localized_text": "驾驶轻便摩托车撞到停放车辆时，未成年人不承担任何责任。"
+      }
+    ],
+    "task_sha256": "5cb1dedceb7cc7ca929e4243f5e65dfcffac1bc750ecd361d8bc84ac718caa0e"
+  },
+  "rows": [
+    {
+      "number": 27300,
+      "text": "车辆相撞时，在有相反证据前，推定各驾驶人对损害的发生负有同等责任。事故事实的查明可以推翻这一推定。",
+      "evidence": [
+        "Codice civile art. 2054 commi 1–2: danni a persone o cose e presunzione nello scontro, salvo prova contraria; testo consultabile https://portalenormativo.it/articolo/codice-civile/art-2054"
+      ]
+    },
+    {
+      "number": 27301,
+      "text": "民事赔偿既可涉及财产损害，也可涉及人身伤害。",
+      "evidence": [
+        "Codice civile art. 2054 commi 1–2: danni a persone o cose e presunzione nello scontro, salvo prova contraria; testo consultabile https://portalenormativo.it/articolo/codice-civile/art-2054"
+      ]
+    },
+    {
+      "number": 27302,
+      "text": "损害轻微本身并不排除赔偿：须存在可赔偿的损害，并符合法定条件。",
+      "evidence": [
+        "Codice civile art. 2054 commi 1–2: danni a persone o cose e presunzione nello scontro, salvo prova contraria; testo consultabile https://portalenormativo.it/articolo/codice-civile/art-2054"
+      ]
+    },
+    {
+      "number": 27303,
+      "text": "保险限额是保险保障的上限，超出部分由责任人承担。",
+      "evidence": [
+        "IVASS, Assicurazione R.C. veicoli in Italia, copertura minima: massimale e quota eccedente; https://www.ivass.it/consumatori/rc-auto/assicurazione-veicoli-italia/index.html"
+      ]
+    },
+    {
+      "number": 27304,
+      "text": "民事责任涉及损害赔偿；救助伤者是事故后另一项独立义务。",
+      "evidence": [
+        "Codice civile art. 2054 commi 1–2: danni a persone o cose e presunzione nello scontro, salvo prova contraria; testo consultabile https://portalenormativo.it/articolo/codice-civile/art-2054",
+        "Codice della strada, art. 189, commi 1-4: fermarsi, sicurezza, evitare intralcio e comunicare i dati; https://aci.gov.it/codice-della-strada/art-189/"
+      ]
+    },
+    {
+      "number": 27305,
+      "text": "因违反交通规则过失造成重伤可能构成犯罪，还须查明个人责任的构成条件。",
+      "evidence": [
+        "Codice penale, art. 590-bis, primo comma, come sostituito dalla legge 138/2023, art. 1: lesioni gravi o gravissime causate per colpa con violazione delle norme stradali; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=23G00146&atto.dataPubblicazioneGazzetta=2023-10-10&tipoDettaglio=vigente",
+        "Costituzione, art. 27: la responsabilità penale è personale; https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-i/articolo-27"
+      ]
+    },
+    {
+      "number": 27306,
+      "text": "过失造成他人死亡可能构成犯罪；刑事责任须查明其构成条件。",
+      "evidence": [
+        "Codice penale, artt. 589 e 589-bis, introdotto dalla legge 41/2016, art. 1: omicidio colposo e omicidio stradale; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=16G00048&atto.dataPubblicazioneGazzetta=2016-03-24&tipoDettaglio=vigente",
+        "Costituzione, art. 27: la responsabilità penale è personale; https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-i/articolo-27"
+      ]
+    },
+    {
+      "number": 27307,
+      "text": "刑事责任要求行为被法律规定为犯罪且可归责于该人，例如过失造成道路交通重伤。",
+      "evidence": [
+        "Codice penale, art. 590-bis, primo comma, come sostituito dalla legge 138/2023, art. 1: lesioni gravi o gravissime causate per colpa con violazione delle norme stradali; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=23G00146&atto.dataPubblicazioneGazzetta=2023-10-10&tipoDettaglio=vigente",
+        "Costituzione, art. 27: la responsabilità penale è personale; https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-i/articolo-27"
+      ]
+    },
+    {
+      "number": 27308,
+      "text": "刑事责任由犯罪者个人承担，不会自动转移给他人。",
+      "evidence": [
+        "Costituzione, art. 27: la responsabilità penale è personale; https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-i/articolo-27"
+      ]
+    },
+    {
+      "number": 27309,
+      "text": "造成事故的人在犯罪各构成要件得到确认时承担刑事责任；仅涉及事故还不够。",
+      "evidence": [
+        "Codice penale, art. 590-bis, primo comma, come sostituito dalla legge 138/2023, art. 1: lesioni gravi o gravissime causate per colpa con violazione delle norme stradali; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=23G00146&atto.dataPubblicazioneGazzetta=2023-10-10&tipoDettaglio=vigente",
+        "Costituzione, art. 27: la responsabilità penale è personale; https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-i/articolo-27"
+      ]
+    },
+    {
+      "number": 27310,
+      "text": "测验将此题标为FALSO（错误），但题目没有说明刑事责任所需的条件。过失伤害须具备过失及犯罪的其他构成要件；轻伤也可能具有刑事意义，责任不能仅由伤势轻重决定。",
+      "evidence": [
+        "Official AM PDF, viewer page 151, question 27310: the statement is marked FALSO and has no figure. https://www.ilportaledellautomobilista.it/documents/56611/85457073/DomandeAM.pdf/112daa18-5efc-441d-8c15-640556a28ef4",
+        "Procura della Repubblica di Genova, directive on minor negligent injuries following a road collision under art. 590 c.p.: minor injuries are not categorically excluded from criminal relevance. https://procura-genova.giustizia.it/it/paginadettaglio.page?contentId=AEC9548&modelId=1503",
+        "D.Lgs. 150/2022 art. 1, reproduced in Gazzetta Ufficiale via Procura Generale Firenze, art. 590-bis c.p.: serious or very serious road injuries negligently caused in breach of traffic rules are addressed by that offence. https://pg-firenze.giustizia.it/cmsresources/cms/documents/D.lgs%20149%2C%20150%2C%20151%20G.U.17.10.2022%20S.O.%20n.%2038%20SO%2038.pdf",
+        "Editorial note: the question does not expressly state automatic liability or specify fault. The quiz FALSO is retained; citing required elements is a source-grounded qualification, not an asserted official interpretation or a claim that minor injuries are exempt."
+      ]
+    },
+    {
+      "number": 27311,
+      "text": "并非所有交通违法行为都是犯罪：有些只受行政处罚。刑事责任须符合犯罪构成要件。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 5 e 9: esempi di sanzioni amministrative; https://aci.gov.it/codice-della-strada/art-189/",
+        "Codice penale, art. 590-bis, primo comma, come sostituito dalla legge 138/2023, art. 1: lesioni gravi o gravissime causate per colpa con violazione delle norme stradali; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=23G00146&atto.dataPubblicazioneGazzetta=2023-10-10&tipoDettaglio=vigente"
+      ]
+    },
+    {
+      "number": 27312,
+      "text": "刑事责任由个人承担，不会因驾驶人未成年而自动转移给其父母。",
+      "evidence": [
+        "Costituzione, art. 27: la responsabilità penale è personale; https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-i/articolo-27"
+      ]
+    },
+    {
+      "number": 27313,
+      "text": "救助伤者是一项独立义务，不会自动免除事故可能产生的刑事责任。",
+      "evidence": [
+        "Codice della strada, art. 189 commi 1, 4 e 7: fermarsi, fornire i dati e prestare assistenza alle persone ferite; https://aci.gov.it/codice-della-strada/art-189/",
+        "Codice penale, art. 590-bis, primo comma, come sostituito dalla legge 138/2023, art. 1: lesioni gravi o gravissime causate per colpa con violazione delle norme stradali; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=23G00146&atto.dataPubblicazioneGazzetta=2023-10-10&tipoDettaglio=vigente"
+      ]
+    },
+    {
+      "number": 27314,
+      "text": "为避免妨碍交通，应尽可能清理车行道；无法将车辆移出时，应将其平行放在车行道右侧边缘。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1-4: fermarsi, sicurezza, evitare intralcio e comunicare i dati; https://aci.gov.it/codice-della-strada/art-189/",
+        "Codice della strada, art. 161, commi 1 e 3: liberare la carreggiata, segnalare intralcio e informare ente proprietario o polizia; https://aci.gov.it/codice-della-strada/art-161/"
+      ]
+    },
+    {
+      "number": 27315,
+      "text": "如果轻便摩托车占据道路且无法移走，应以适当方式警示危险，并通知道路管理机构或警方。",
+      "evidence": [
+        "Codice della strada, art. 161, commi 1 e 3: liberare la carreggiata, segnalare intralcio e informare ente proprietario o polizia; https://aci.gov.it/codice-della-strada/art-161/"
+      ]
+    },
+    {
+      "number": 27316,
+      "text": "如果无法移走轻便摩托车，呼叫救援并等待有助于安排移除；同时应警示障碍，并通知道路管理机构或警方。",
+      "evidence": [
+        "Codice della strada, art. 161, commi 1 e 3: liberare la carreggiata, segnalare intralcio e informare ente proprietario o polizia; https://aci.gov.it/codice-della-strada/art-161/",
+        "Codice della strada, art. 189, commi 1-4: fermarsi, sicurezza, evitare intralcio e comunicare i dati; https://aci.gov.it/codice-della-strada/art-189/",
+        "ACI, informazioni utili per turisti, soccorso stradale: servizio richiedibile in caso di necessità; https://aci.gov.it/app/uploads/2026/06/ITALIANO_INFORMAZIONI-UTILI-PER-TURISTI-STRANIERI.docx_22102026.pdf"
+      ]
+    },
+    {
+      "number": 27317,
+      "text": "塑料布不能消除障碍。应尽可能清理车行道并警示危险。",
+      "evidence": [
+        "Codice della strada, art. 161, commi 1 e 3: liberare la carreggiata, segnalare intralcio e informare ente proprietario o polizia; https://aci.gov.it/codice-della-strada/art-161/"
+      ]
+    },
+    {
+      "number": 27318,
+      "text": "人行道并非车辆当然应放置的地方：应清理车行道，同时避免造成新的危险或障碍。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1-4: fermarsi, sicurezza, evitare intralcio e comunicare i dati; https://aci.gov.it/codice-della-strada/art-189/",
+        "Codice della strada, art. 161, commi 1 e 3: liberare la carreggiata, segnalare intralcio e informare ente proprietario o polizia; https://aci.gov.it/codice-della-strada/art-161/",
+        "Codice della strada, art. 158, comma 1, lettera h: divieto di sosta e fermata sul marciapiede salvo diversa segnalazione; https://aci.gov.it/codice-della-strada/art-158/"
+      ]
+    },
+    {
+      "number": 27319,
+      "text": "并非每次都须向最近的警察局报案：应停车、确保安全，并向受损方提供有用信息。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1-4: fermarsi, sicurezza, evitare intralcio e comunicare i dati; https://aci.gov.it/codice-della-strada/art-189/"
+      ]
+    },
+    {
+      "number": 27320,
+      "text": "即使车主不在场，也应以可能的方式向其提供身份信息及其他有助于赔偿的信息。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1-4: fermarsi, sicurezza, evitare intralcio e comunicare i dati; https://aci.gov.it/codice-della-strada/art-189/"
+      ]
+    },
+    {
+      "number": 27321,
+      "text": "应寻找被撞车辆的车主，让受损方能够获得自己的身份信息及其他有用信息。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1-4: fermarsi, sicurezza, evitare intralcio e comunicare i dati; https://aci.gov.it/codice-della-strada/art-189/"
+      ]
+    },
+    {
+      "number": 27322,
+      "text": "符合民事责任条件时，应赔偿他人车辆的损害，即使该车当时停放着。",
+      "evidence": [
+        "Codice civile art. 2054 commi 1–2: danni a persone o cose e presunzione nello scontro, salvo prova contraria; testo consultabile https://portalenormativo.it/articolo/codice-civile/art-2054"
+      ]
+    },
+    {
+      "number": 27323,
+      "text": "没有目击者也不能免除义务：即使受损方不在场，也须停车并向其提供信息。",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1-4: fermarsi, sicurezza, evitare intralcio e comunicare i dati; https://aci.gov.it/codice-della-strada/art-189/"
+      ]
+    },
+    {
+      "number": 27324,
+      "text": "未成年不会自动免除损害责任：未成年人的辨识和行为能力，以及符合法定条件时父母的责任，都有关。",
+      "evidence": [
+        "Codice civile art. 2046: capacità di intendere o volere al momento del fatto e relativa eccezione; https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+2046&codiceOrdinamento=0000000000020460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D ; art. 2048: responsabilità dei genitori e tutori alle condizioni e con prova liberatoria previste, https://portalenormativo.it/articolo/codice-civile/art-2048",
+        "Codice civile art. 2054 commi 1–2: danni a persone o cose e presunzione nello scontro, salvo prova contraria; testo consultabile https://portalenormativo.it/articolo/codice-civile/art-2054"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "5cb1dedceb7cc7ca929e4243f5e65dfcffac1bc750ecd361d8bc84ac718caa0e",
+    "output_sha256": "9b53eb893375b2d4c264760752814a2ec74e5f92af7908437f6e91544497fa98",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / criminal-liability-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      27300,
+      27301,
+      27302,
+      27303,
+      27304,
+      27305,
+      27306,
+      27307,
+      27308,
+      27309,
+      27310,
+      27311,
+      27312,
+      27313,
+      27314,
+      27315,
+      27316,
+      27317,
+      27318,
+      27319,
+      27320,
+      27321,
+      27322,
+      27323,
+      27324
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1ea4e-3266-7411-8a58-32e140c2eb47",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "03938a2f8537305e4723499c77b5db67e3be57abec78f6cef7dd511b6a79f6f8",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea50-be46-7ff3-b203-eb1e49ed9c1a",
+        "label": "author-0-1",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "a95976b5629737b4c18e837349f52ac7722e9575e6379898fe79fd342f518e34",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea51-d45d-73f3-9b7a-b9b2f7d079bc",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "eca7a3d9b602d565a0cf5314c297936bc3d31c627f1ebc503b7876ac19ed594c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1ea51-d45d-73f3-9b7a-b9b2f7d079bc",
+        "label": "author-2-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 27310,
+              "reason": "The official AM assertion says criminal liability arises when the accident causes injuries of any severity, but its printed verdict is FALSO. Article 590 also covers negligent personal injuries without restricting them to serious injuries, while article 590-bis covers serious or very serious road injuries. The question does not specify whether it is asserting automatic liability without the required fault or other elements; reading that omission as a denial of those conditions is not established. Independent adjudication is needed to resolve the printed verdict without incorrectly teaching that minor injuries cannot give rise to criminal liability.",
+              "checked_sources": [
+                "Official AM task, question 27310, page 150 (zero-based), PDF SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30: exact Italian assertion and printed FALSO.",
+                "Codice penale, art. 590, first paragraph, as reproduced in notes to legge 11 gennaio 2018 n. 3, art. 12: negligent personal injury is an offence without a general requirement that it be serious; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=12&atto.articolo.sottoArticolo=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=18G00019&atto.dataPubblicazioneGazzetta=2018-01-31",
+                "Codice penale, art. 590-bis, first paragraph, reproduced in notes to legge 25 novembre 2024 n. 177: the specific road-injury offence applies to serious or very serious injuries negligently caused in violation of traffic rules; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=24G00199&atto.dataPubblicazioneGazzetta=2024-11-29&tipoDettaglio=vigente"
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "eca7a3d9b602d565a0cf5314c297936bc3d31c627f1ebc503b7876ac19ed594c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "5cb1dedceb7cc7ca929e4243f5e65dfcffac1bc750ecd361d8bc84ac718caa0e",
+        "output_sha256": "f5e187ad1659fb668f025de8ac978ffa3d934af8540c9eda55e2ee6d8a6751f8",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / criminal-liability-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          27300,
+          27301,
+          27302,
+          27303,
+          27304,
+          27305,
+          27306,
+          27307,
+          27308,
+          27309,
+          27310,
+          27311,
+          27312,
+          27313,
+          27314,
+          27315,
+          27316,
+          27317,
+          27318,
+          27319,
+          27320,
+          27321,
+          27322,
+          27323,
+          27324
+        ],
+        "issues": [
+          "27313: The explanation says assistance does not erase liability for “the offence that caused the accident.” The relevant offence may be negligent injury caused by the accident, rather than an offence causing the accident. State that assistance does not automatically eliminate liability arising from the accident, without reversing the causal relationship."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "batch": "062",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ed605074f3e1591f7a57d2ae9b331e9efa5fb50df206de6c58022e031f89b684",
+  "source_sha256": "7b1e85c9bb8984ffb29d3be7a774b2088201c9fc9d76166a4de062681dce266e",
+  "corrections": [
+    {
+      "id": "52b2998ce772803a88bd0433e5635da1cfbe1c42e25fa5cc8b5224f3e97dde5e",
+      "before": "Muchos autobuses escolares carecen de sistemas de retención o cinturones",
+      "after": "Muchos autobuses escolares carecen de sistemas de retención (cinturones de seguridad)",
+      "reason": "The parenthetical clarifies the term; Spanish used 'o' (or), changing the meaning"
+    },
+    {
+      "id": "52d8c4a7754bd84e68919ec3872e917c09738224853c796e31ee3c6eed2613ce",
+      "before": "Para reducir la contaminación de los ciclomotores, el conductor debe acelerar repetidamente detenido para mantener caliente el motor",
+      "after": "Para reducir la contaminación de los ciclomotores, el conductor debe acelerar repetidamente detenido para mantener caliente el motor y mejorar su rendimiento",
+      "reason": "Se recupera la finalidad de mejorar el rendimiento del motor."
+    },
+    {
+      "id": "52e44781f498cc9b126a551304d9ff4ad15ed96d527944c1c357cf7de2892802",
+      "before": "Antes de remolcar conviene comprobar que las luces y señales funcionen correctamente",
+      "after": "Antes de remolcar un remolque conviene comprobar que las luces y señales funcionen correctamente",
+      "reason": "Se especifica que el objeto remolcado es un remolque."
+    },
+    {
+      "id": "5365e0b58ce25cd314d22918ec64cdafa6bba1f26e665309f689cc9e03ec8e63",
+      "before": "El carril de desaceleración sirve para entrar en un área de parada",
+      "after": "El carril de desaceleración sirve para entrar en un apartadero",
+      "reason": "Piazzola di sosta designa un apartadero vial, no una zona genérica de parada o estacionamiento."
+    }
+  ],
+  "reviewed_file_sha256": "7443e62d03c60c6c9045e1033f456c3ad4e19e061e40da4b71a0eb878fdb2b3c"
+}

@@ -1,0 +1,85 @@
+{
+  "batch": "060",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "05cfb41dc2562e784be1fd716feca8264b001d10a89c149727da568922ea25dc",
+  "source_sha256": "1ac87262c2ef6914f747d34c2b17f0f525dfeac21c20dc3f6048b34a00a23e2b",
+  "corrections": [
+    {
+      "id": "4f71e96501f1fd8ac47fe9fe85dab8880c203d2419660badffe6e6ff87e8c110",
+      "before": "La señal mostrada prohíbe adelantar a vehículos de motor a los vehículos de masa máxima autorizada superior a 3,5 toneladas que no transportan personas",
+      "after": "La señal mostrada prohíbe a los vehículos de masa total a plena carga superior a 3,5 toneladas que no transportan personas adelantar a vehículos de motor",
+      "reason": "Se conserva masa total a plena carga, sin convertirla en masa máxima autorizada.; Subject and object reversed; the sign prohibits those heavy vehicles from overtaking motor vehicles"
+    },
+    {
+      "id": "4f8db41bb2dfcdf928e491c06de833ba485532d7929d304f559b22175c3263e6",
+      "before": "Ante la señal mostrada, los vehículos de mercancías de masa máxima autorizada superior a 3,5 toneladas no pueden adelantar motocicletas",
+      "after": "Ante la señal mostrada, los vehículos de mercancías de masa total a plena carga superior a 3,5 toneladas no pueden adelantar motocicletas",
+      "reason": "Se conserva masa total a plena carga, sin convertirla en masa máxima autorizada."
+    },
+    {
+      "id": "4f92ca93e6c8b2037180d75ac139ca8c85b9df8bdfbdf59e37fe077788df9269",
+      "before": "La señal mostrada indica una vía estrecha durante 2 kilómetros",
+      "after": "La señal mostrada indica una vía estrecha por 2 kilómetros",
+      "reason": "durante implies time; the Italian gives a distance"
+    },
+    {
+      "id": "5002e694a39555e93740ef8154c6a3d8099b7e34e18ff257cbe5ec84eb9623a1",
+      "before": "Con la misma cilindrada, el efecto de frenado del motor diésel suele ser mayor que el del motor de gasolina",
+      "after": "Con la misma cilindrada, el efecto de frenado del motor diésel suele ser mayor que el del motor de explosión",
+      "reason": "Motor a scoppio no se limita a gasolina."
+    },
+    {
+      "id": "50096a44ca4aea6fd1eb883b38b196d5d4cd458e6c36408e7de69ae029fd1082",
+      "before": "Para transportar mercancías por cuenta de terceros con vehículos de masa máxima autorizada superior a 3,5 t, las empresas deben demostrar honorabilidad, capacidad financiera y competencia profesional",
+      "after": "Para transportar mercancías por cuenta de terceros con vehículos de masa total a plena carga superior a 3,5 t, las empresas deben demostrar honorabilidad, capacidad financiera y competencia profesional",
+      "reason": "Se conserva masa total a plena carga, sin convertirla en masa máxima autorizada."
+    },
+    {
+      "id": "505cea50bf6c3db69a080ad6729a621a9d3362c054ff0a73f309160444950963",
+      "before": "Las mercancías de la UE son mercancías despachadas de aduana",
+      "after": "Por mercancías de la UE se entienden las mercancías despachadas de aduana",
+      "reason": "Italian is a definition (si intendono); Spanish turned it into a plain assertion"
+    },
+    {
+      "id": "507fbef8c3226d705a9256eb4bb25dccdfd05e9cd1045e5b84fb8ed6cd8e2e16",
+      "before": "En las áreas de parada de autobuses se permite detener automóviles, pero no estacionarlos",
+      "after": "En las áreas de parada de autobuses se permite a los automóviles detenerse, pero no estacionar",
+      "reason": "Se aclara que los automóviles pueden detenerse, no que pueden detener otros automóviles."
+    },
+    {
+      "id": "5085877fd283f37b1bc0f9dc09375f54556ec9169909fa3fd77a355d3e7e480b",
+      "before": "En teoría, el motor diésel tiene peor rendimiento que el de gasolina",
+      "after": "En teoría, el motor diésel tiene peor rendimiento que el motor de explosión",
+      "reason": "Motor a scoppio no se limita a gasolina."
+    },
+    {
+      "id": "50a84e3cf251e83a81fbeb25213630756949e9fe336030ae00197fb085743431",
+      "before": "Los semáforos de carril de la figura, con flecha roja encendida, obligan a detener a los vehículos que van en esa dirección",
+      "after": "Los semáforos de carril de la figura, con flecha roja encendida, obligan a detenerse a los vehículos que van en esa dirección",
+      "reason": "Se aclara que los vehículos deben detenerse."
+    },
+    {
+      "id": "50b71940c6abac02504bccb617bcd32c6ee04349abb31c77fe99a8ba8ee7e31b",
+      "before": "El área de parada está destinada a los usuarios de autobuses de línea",
+      "after": "El apartadero está destinado a los usuarios de autobuses de línea",
+      "reason": "Piazzola di sosta designa un apartadero vial, no una zona genérica de parada o estacionamiento."
+    },
+    {
+      "id": "5102716ed1925ae1bb4ed4e835a93c6d707a47a1fd75bb9d9617f591264ee9bc",
+      "before": "Para transportar mercancías por cuenta de terceros dentro de la UE con vehículos de capacidad superior a 3,5 t basta con que la empresa esté inscrita en el Registro de Transportistas",
+      "after": "Para realizar transporte por cuenta de terceros dentro de la UE con vehículos de capacidad superior a 3,5 t basta con que la empresa esté inscrita en el Registro de Transportistas",
+      "reason": "El original no limita el transporte a mercancías."
+    }
+  ],
+  "reviewed_file_sha256": "48148489be177e8cfe18043af2a9d708384b43298b758b2cbaf1a9bff6f304e2"
+}

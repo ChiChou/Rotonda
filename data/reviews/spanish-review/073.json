@@ -1,0 +1,31 @@
+{
+  "batch": "073",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "73063942cb89fcc805f4ad8e22009bb336adada178284115ba1fbd30da2b36e4",
+  "source_sha256": "79591cc1f4d3998e3f3f3072d8deb712116dac49f3e1a42d3cffe2343d35a61d",
+  "corrections": [
+    {
+      "id": "61402181b8c5996b01c74f51194c5b44e27a7bd60db2a8cd29d58452d88a524b",
+      "before": "La señal mostrada indica una zona destinada al estacionamiento de casas rodantes y autocaravanas y a acampar",
+      "after": "La señal mostrada indica una zona destinada al estacionamiento de remolques vivienda y autocaravanas y a acampar",
+      "reason": "Se distingue el remolque vivienda de la autocaravana, vehículo autopropulsado."
+    },
+    {
+      "id": "6145fcd920a154fcd0736791f8aef1bd6e438e220f01e50ddfb3c0c5f5251636",
+      "before": "Para realizar un servicio ocasional de pasajeros de circuito cerrado entre Italia y la Confederación Suiza es necesario llevar a bordo del autobús el original de la hoja de ruta comunitaria, además de la copia conforme de la licencia comunitaria",
+      "after": "Para realizar un servicio ocasional de pasajeros a puertas cerradas entre Italia y la Confederación Suiza es necesario llevar a bordo del autobús el original de la hoja de ruta comunitaria, además de la copia conforme de la licencia comunitaria",
+      "reason": "'a porte chiuse' is the closed-door service type, not a 'circuito cerrado'"
+    }
+  ],
+  "reviewed_file_sha256": "f234d643627c0b1b40a9a588bda704851354614ed54f82e036e00f0f0b2dbfc7"
+}

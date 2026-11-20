@@ -1,0 +1,37 @@
+{
+  "batch": "105",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "911436b75228fa1dd5aac0b20e32a629d566adaf14354274044c0eafd6c02687",
+  "source_sha256": "eaef642efcd78b07c2f297b83ad3ec9d5113b945c1eb1bcac1f3c17bee7b3e99",
+  "corrections": [
+    {
+      "id": "8c31683c6ebd65a298a758bab2ee10ceae5dc956d03986087d6a0c5cdd84a3c9",
+      "before": "Se puede permanecer dentro de una casa rodante durante la circulación siempre que todos los pasajeros se abrochen el cinturón",
+      "after": "Se puede permanecer dentro de un remolque vivienda durante la circulación siempre que todos los pasajeros se abrochen el cinturón",
+      "reason": "Se identifica caravan como remolque vivienda, no una autocaravana."
+    },
+    {
+      "id": "8c550aa659b444f4a764baef659e442763ab9f7d3da75e511aeea1fa3f2f43b6",
+      "before": "Para circular dentro de la Unión Europea, un vehículo que transporta mercancías por cuenta de terceros debe llevar una autorización CEMT",
+      "after": "Para circular dentro de la Unión Europea, un vehículo que realiza transporte por cuenta de terceros debe llevar una autorización CEMT",
+      "reason": "Se elimina la restricción a mercancías ausente del original."
+    },
+    {
+      "id": "8caab84dae027c1a4202a488c63a5d13f67d6552a879544e274bbc1fd2f6e733",
+      "before": "Para realizar un servicio ocasional de pasajeros de circuito cerrado entre Italia y la Confederación Suiza es necesario llevar a bordo del autobús la copia conforme de la licencia comunitaria, pero no las hojas de ruta",
+      "after": "Para realizar un servicio ocasional de pasajeros de puertas cerradas entre Italia y la Confederación Suiza es necesario llevar a bordo del autobús la copia conforme de la licencia comunitaria, pero no las hojas de ruta",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    }
+  ],
+  "reviewed_file_sha256": "3080c94663a20b74e2c7b34f915651f9174c5b798cf964a7d2de64cfd2b4aa49"
+}

@@ -1,0 +1,942 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28043,
+          "quesito_id": 6056,
+          "text_it": "In presenza del segnale raffigurato è consentito il transito ad un autocarro che traina un rimorchio per imbarcazione",
+          "answer": 0,
+          "page": 17,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/c2a0b582187198376c771ae3e96a28fd9606913802274026501ca77783d16acc.png",
+              "sha256": "c2a0b582187198376c771ae3e96a28fd9606913802274026501ca77783d16acc",
+              "page": 17,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c1fe74475c1a348d32d028393aea359da85c6eb036d05bfd566dd549fce12ae3",
+        "localized_text": "看到图示标志时，牵引船用挂车的卡车可以通行。"
+      },
+      {
+        "source": {
+          "number": 28044,
+          "quesito_id": 6057,
+          "text_it": "Il segnale raffigurato vieta il transito ai veicoli che trasportano merci pericolose",
+          "answer": 1,
+          "page": 22,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1.png",
+              "sha256": "58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1",
+              "page": 22,
+              "bbox": [
+                465.63,
+                157.0,
+                545.63,
+                237.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "2ad7f26f14d1c40d4726b928b4fa9b46541a59207090d5c4b6ad89f3ec1c3d19",
+        "localized_text": "图中所示标志禁止运输危险货物的车辆通行"
+      },
+      {
+        "source": {
+          "number": 28045,
+          "quesito_id": 6057,
+          "text_it": "Il segnale raffigurato vieta il transito alle autocisterne che trasportano benzina",
+          "answer": 1,
+          "page": 22,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1.png",
+              "sha256": "58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1",
+              "page": 22,
+              "bbox": [
+                465.63,
+                243.0,
+                545.63,
+                323.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "35aacf6a596771412b606f95cbf55668a41be137f855808d8798e0d5ba90b185",
+        "localized_text": "图中所示标志禁止运输汽油的罐式货车通行"
+      },
+      {
+        "source": {
+          "number": 28046,
+          "quesito_id": 6057,
+          "text_it": "Il segnale raffigurato vieta il transito agli autocarri telonati",
+          "answer": 0,
+          "page": 22,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1.png",
+              "sha256": "58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1",
+              "page": 22,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "0c1400c12a1decb0292ebcbdfb597c0a289a218df618541e56c4248a3ce4f36b",
+        "localized_text": "图中所示标志禁止带篷布的货车通行"
+      },
+      {
+        "source": {
+          "number": 28047,
+          "quesito_id": 6057,
+          "text_it": "Il segnale raffigurato vieta il transito ai veicoli che trasportano merci deperibili",
+          "answer": 0,
+          "page": 22,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1.png",
+              "sha256": "58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1",
+              "page": 22,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "478ea81bb601a20ef16d2c16bced724cca2585b032f17b8490dd77c0c9413214",
+        "localized_text": "图中所示标志禁止运输易腐货物的车辆通行"
+      },
+      {
+        "source": {
+          "number": 28048,
+          "quesito_id": 6057,
+          "text_it": "Il segnale raffigurato vieta il transito ai veicoli con furgone frigorifero",
+          "answer": 0,
+          "page": 22,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1.png",
+              "sha256": "58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1",
+              "page": 22,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "1abfea66aa14c2015ff3c4212f8178ad578729ad0b38cf8a17c558a748f13fd9",
+        "localized_text": "图中所示标志禁止带冷藏车厢的车辆通行"
+      },
+      {
+        "source": {
+          "number": 28049,
+          "quesito_id": 6058,
+          "text_it": "Il segnale raffigurato vieta il transito ai veicoli che trasportano esplosivi",
+          "answer": 1,
+          "page": 17,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6.png",
+              "sha256": "f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6",
+              "page": 17,
+              "bbox": [
+                465.63,
+                157.0,
+                545.63,
+                237.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ca9511be6876488eb3fd99b5b0b25dff2a59baf23bb7ae3f299c1e0f91cf9b7a",
+        "localized_text": "图中所示标志禁止运输爆炸品的车辆通行"
+      },
+      {
+        "source": {
+          "number": 28050,
+          "quesito_id": 6058,
+          "text_it": "Il segnale raffigurato vieta il transito ai veicoli che trasportano prodotti facilmente infiammabili",
+          "answer": 1,
+          "page": 17,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6.png",
+              "sha256": "f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6",
+              "page": 17,
+              "bbox": [
+                465.63,
+                243.0,
+                545.63,
+                323.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "f21c4c76d07955a47dbcd9ee92619b927dd1b507a2d4ac82fb4b830584e9420a",
+        "localized_text": "图中所示标志禁止运输易燃产品的车辆通行"
+      },
+      {
+        "source": {
+          "number": 28051,
+          "quesito_id": 6058,
+          "text_it": "Il segnale raffigurato prescrive di fare attenzione al transito di veicoli che trasportano esplosivo",
+          "answer": 0,
+          "page": 17,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6.png",
+              "sha256": "f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6",
+              "page": 17,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4a96897a626921d85ee3f5b1b67da2005ab250dbd2278a5dc8662f3ee933dcb4",
+        "localized_text": "图中所示标志要求注意运输爆炸品的车辆通行"
+      },
+      {
+        "source": {
+          "number": 28052,
+          "quesito_id": 6058,
+          "text_it": "In presenza del segnale raffigurato è consentito il transito ai veicoli che trasportano prodotti facilmente infiammabili, purché non esplosivi",
+          "answer": 0,
+          "page": 17,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6.png",
+              "sha256": "f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6",
+              "page": 17,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "81b36ce4e06169f89f9bbb39c2ec8464be2353d069bc91f686ea4c4d17cc0e79",
+        "localized_text": "设有图中所示标志处，允许运输易燃产品（非爆炸品）的车辆通行"
+      },
+      {
+        "source": {
+          "number": 28053,
+          "quesito_id": 6058,
+          "text_it": "In presenza del segnale raffigurato è consentito il traino di veicoli che trasportano prodotti facilmente infiammabili",
+          "answer": 0,
+          "page": 17,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6.png",
+              "sha256": "f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6",
+              "page": 17,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "2f8aa94a53b871c9da8fe168b466dd9955b83d0979580771fd2e9bd958c33965",
+        "localized_text": "设有图中所示标志处，允许牵引运输易燃产品的车辆"
+      },
+      {
+        "source": {
+          "number": 28054,
+          "quesito_id": 6059,
+          "text_it": "Il segnale raffigurato vieta il transito ai veicoli che trasportano sostanze che possono contaminare l'acqua",
+          "answer": 1,
+          "page": 17,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+              "sha256": "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+              "page": 17,
+              "bbox": [
+                465.63,
+                635.0,
+                545.63,
+                715.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "dbacea9fe13d4c3cfccca37e599872fec85d4156c1a66510075404b5af354a92",
+        "localized_text": "图示标志禁止运输可能污染水的物质的车辆通行。"
+      },
+      {
+        "source": {
+          "number": 28055,
+          "quesito_id": 6059,
+          "text_it": "In presenza del segnale raffigurato è consentito il transito di autoveicoli che trasportano merci pericolose che non contaminino l’acqua",
+          "answer": 1,
+          "page": 17,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+              "sha256": "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+              "page": 17,
+              "bbox": [
+                465.63,
+                721.0,
+                545.63,
+                801.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "919d095a77b2fb2d7467d1856203c3978423e0830763767fae78420ed7052bf4",
+        "localized_text": "看到图示标志时，运输不会污染水的危险货物的机动车可以通行。"
+      },
+      {
+        "source": {
+          "number": 28056,
+          "quesito_id": 6059,
+          "text_it": "In presenza del segnale raffigurato è consentito il transito alle autocisterne che trasportano acqua",
+          "answer": 1,
+          "page": 18,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+              "sha256": "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+              "page": 18,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "0092048be46e2c67f053a45416ff66218a2565f0d679c303cacfe1dfd1456382",
+        "localized_text": "设有图中所示标志处，允许运输水的罐式货车通行"
+      },
+      {
+        "source": {
+          "number": 28057,
+          "quesito_id": 6059,
+          "text_it": "In presenza del segnale raffigurato è consentito il transito di rimorchi che trasportano sostanze che possono contaminare l'acqua, purché la motrice sia scarica",
+          "answer": 0,
+          "page": 18,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+              "sha256": "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+              "page": 18,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8b22e14f26850ed1a9ca2f5cac236608f8e310bb1bc5530f24d6c9726290de83",
+        "localized_text": "看到图示标志时，运输可能污染水的物质的挂车可以通行，前提是牵引车空载。"
+      },
+      {
+        "source": {
+          "number": 28058,
+          "quesito_id": 6059,
+          "text_it": "Il segnale raffigurato preannuncia una zona soggetta ad allagamento",
+          "answer": 0,
+          "page": 18,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+              "sha256": "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+              "page": 18,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "d375138f99ce5f1a606b70052db38985e2103f0013de417bcdcc2b8e0f4ed9a9",
+        "localized_text": "图中所示标志预告前方为易积水区域"
+      },
+      {
+        "source": {
+          "number": 28059,
+          "quesito_id": 6059,
+          "text_it": "Il segnale raffigurato vieta il transito alle autocisterne vuote",
+          "answer": 0,
+          "page": 18,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+              "sha256": "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+              "page": 18,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "024eaaa1392bd093afffe338e1ce44912903dfa26cc44cd44ccab9fcf3d256aa",
+        "localized_text": "图示标志禁止空罐车通行。"
+      },
+      {
+        "source": {
+          "number": 28060,
+          "quesito_id": 6060,
+          "text_it": "Il segnale raffigurato vieta il transito a veicoli di lunghezza superiore a quella indicata",
+          "answer": 1,
+          "page": 19,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+              "sha256": "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+              "page": 19,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "9d46c1bc80b041cfdf7d8bdffc4120788af26ef7748340f6da38332227a95963",
+        "localized_text": "图中所示标志禁止长度超过所示数值的车辆通行"
+      },
+      {
+        "source": {
+          "number": 28061,
+          "quesito_id": 6060,
+          "text_it": "Il segnale raffigurato deve essere rispettato anche dai conducenti di autobus",
+          "answer": 1,
+          "page": 19,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+              "sha256": "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+              "page": 19,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "66a66d992eb6aa8c6b4ea847486b7d47099b92b3f6c44d73193f3ed36ea2a6d2",
+        "localized_text": "公共汽车驾驶员也必须遵守图中所示标志"
+      },
+      {
+        "source": {
+          "number": 28062,
+          "quesito_id": 6060,
+          "text_it": "Il segnale raffigurato vige anche di notte",
+          "answer": 1,
+          "page": 19,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+              "sha256": "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+              "page": 19,
+              "bbox": [
+                465.63,
+                281.0,
+                545.63,
+                361.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "9f372a36305839d72c64b33de524052dc35c6614211317258df9918b7f36ab87",
+        "localized_text": "图中所示标志在夜间同样有效"
+      },
+      {
+        "source": {
+          "number": 28063,
+          "quesito_id": 6060,
+          "text_it": "Il segnale raffigurato deve essere rispettato anche dai conducenti di complessi di veicoli",
+          "answer": 1,
+          "page": 18,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+              "sha256": "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+              "page": 18,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c295635dd3f81aff94a7f67f5faa8afd71e65a9e4fc54f2959a7072a6984cd09",
+        "localized_text": "组合车辆（汽车列车）的驾驶员也必须遵守图中所示标志"
+      },
+      {
+        "source": {
+          "number": 28064,
+          "quesito_id": 6060,
+          "text_it": "Il segnale raffigurato deve essere rispettato solo dai conducenti di veicoli adibiti al trasporto di cose",
+          "answer": 0,
+          "page": 18,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+              "sha256": "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+              "page": 18,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "85407ad612b259563dccfa58cf5510c73d91fb8dc7310adc74f48276270d6fd3",
+        "localized_text": "图中所示标志仅需货运车辆驾驶员遵守"
+      },
+      {
+        "source": {
+          "number": 28065,
+          "quesito_id": 6060,
+          "text_it": "Il segnale raffigurato obbliga un veicolo a distanziare quello che lo segue di almeno 10 metri",
+          "answer": 0,
+          "page": 18,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+              "sha256": "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+              "page": 18,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "890ef06d1aa44ada1bf13d713fce629c4d5e108d611e5cfa0ff1862ca3d35964",
+        "localized_text": "图中所示标志要求车辆与跟随其后的车辆保持至少10米的距离"
+      },
+      {
+        "source": {
+          "number": 28066,
+          "quesito_id": 6060,
+          "text_it": "In presenza del segnale raffigurato è consentito il transito di un autocarro lungo 9 metri che traina un rimorchio leggero, anche se agganciati superano la lunghezza di 10 metri",
+          "answer": 0,
+          "page": 18,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+              "sha256": "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+              "page": 18,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "073646297b5909413242434f66d8f1263f629b915cd406f3fb1d5055f04fb3ca",
+        "localized_text": "看到图示标志时，长9米的卡车牵引轻型挂车时可以通行，即使组合长度超过10米。"
+      },
+      {
+        "source": {
+          "number": 28067,
+          "quesito_id": 6060,
+          "text_it": "In presenza del segnale raffigurato è consentito il transito a tutti gli autosnodati per trasporto di persone",
+          "answer": 0,
+          "page": 19,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+              "sha256": "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+              "page": 19,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "9e21b5693036f1965b6169f2ca7b5843e06575077c047a2b78efd9a970f23987",
+        "localized_text": "设有图中所示标志处，允许所有载客铰接式客车通行"
+      }
+    ],
+    "task_sha256": "909ee78c518c511c8218c6639fafbdc24124e75259f2b300fdbb4e9ee63d01b9"
+  },
+  "rows": [
+    {
+      "number": 28043,
+      "text": "该标志禁止机动车牵引挂车通行；挂车运载船只不会改变这一禁令。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. l), fig. II.61: vieta i veicoli a motore trainanti un rimorchio; deroghe mediante pannello. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28044,
+      "text": "车辆上的橙色标牌表示禁止运输危险货物的车辆通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. n), fig. II.63: vieta i veicoli che trasportano merci pericolose. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28045,
+      "text": "汽油属于危险货物，因此运输汽油的罐车属于橙色标牌所示禁令的范围。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. n), fig. II.63: vieta i veicoli che trasportano merci pericolose. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "UNECE, ADR 2015, capitolo 4.1, UN 1203: benzina (gasoline/petrol), classe 3. https://unece.org/DAM/trans/danger/publi/adr/adr2015/ADR_2015_track_files/09adr2015E_Chap4-1_track.pdf"
+      ]
+    },
+    {
+      "number": 28046,
+      "text": "该标志针对运输的危险货物，是否使用篷布并非禁行依据。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. n), fig. II.63: vieta i veicoli che trasportano merci pericolose. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28047,
+      "text": "禁令针对危险货物，货物仅因易腐而运输并不属于该禁令。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. n), fig. II.63: vieta i veicoli che trasportano merci pericolose. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28048,
+      "text": "该标志针对危险货物运输；车辆带冷藏车厢本身并不是禁行的依据。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. n), fig. II.63: vieta i veicoli che trasportano merci pericolose. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28049,
+      "text": "火焰符号表示禁止运输爆炸品或易燃产品的车辆通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/a: vieta veicoli che trasportano esplosivi o prodotti facilmente infiammabili. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28050,
+      "text": "火焰符号表示禁令既包括爆炸品，也包括易燃产品。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/a: vieta veicoli che trasportano esplosivi o prodotti facilmente infiammabili. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28051,
+      "text": "这不只是警告：标志禁止运输爆炸品或易燃产品的车辆通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/a: vieta veicoli che trasportano esplosivi o prodotti facilmente infiammabili. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28052,
+      "text": "禁令也包括易燃产品，不要求这些产品同时具有爆炸性。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/a: vieta veicoli che trasportano esplosivi o prodotti facilmente infiammabili. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28053,
+      "text": "禁令针对运输易燃产品的车辆通行；牵引载有这些产品的车辆不能免除禁令。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/a: vieta veicoli che trasportano esplosivi o prodotti facilmente infiammabili. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28054,
+      "text": "罐体下方的波纹表示禁止运输可能污染水的产品的车辆通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/b: vieta veicoli che trasportano prodotti suscettibili di contaminare l’acqua. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28055,
+      "text": "该标志针对可能污染水的产品，并非所有危险货物。仍须遵守其他适用的禁令。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/b: vieta veicoli che trasportano prodotti suscettibili di contaminare l’acqua. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28056,
+      "text": "禁令针对可能污染水的产品，而非所有罐车：运输水不属于此禁令。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/b: vieta veicoli che trasportano prodotti suscettibili di contaminare l’acqua. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28057,
+      "text": "禁令针对运输可能污染水的产品的车辆；牵引车空载不能使载货挂车免受禁令约束。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/b: vieta veicoli che trasportano prodotti suscettibili di contaminare l’acqua. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28058,
+      "text": "波纹表示禁止运输可能污染水的产品，并非警告前方易发生水淹。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/b: vieta veicoli che trasportano prodotti suscettibili di contaminare l’acqua. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28059,
+      "text": "禁令取决于运输的产品，空罐车这一条件本身并不构成禁行理由。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 117, comma 1, lett. o), fig. II.64/b: vieta veicoli che trasportano prodotti suscettibili di contaminare l’acqua. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28060,
+      "text": "标示数值是实际长度限制：超过10米的车辆禁止通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 118, commi 1 lett. c) e 3, fig. II.67: limite di lunghezza per veicoli e complessi riferito alle dimensioni effettive. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28061,
+      "text": "该限制按车辆长度适用，也适用于公共汽车：超过10米的公共汽车不得通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 118, commi 1 lett. c) e 3, fig. II.67: limite di lunghezza per veicoli e complessi riferito alle dimensioni effettive. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28062,
+      "text": "长度禁令夜间也有效：图示标志没有标明时间限制。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 118, commi 1 lett. c) e 3, fig. II.67: limite di lunghezza per veicoli e complessi riferito alle dimensioni effettive. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf",
+        "D.P.R. 495/1992, art. 83, commi 1 lett. c) e 3: i pannelli integrativi possono limitare la validità a determinati periodi. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28063,
+      "text": "限制也适用于车辆组合：要将组合的实际总长度与标示的10米比较。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 118, commi 1 lett. c) e 3, fig. II.67: limite di lunghezza per veicoli e complessi riferito alle dimensioni effettive. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28064,
+      "text": "该限制按长度适用于车辆和车辆组合，并非仅适用于货运车辆。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 118, commi 1 lett. c) e 3, fig. II.67: limite di lunghezza per veicoli e complessi riferito alle dimensioni effettive. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28065,
+      "text": "数字表示车辆或车辆组合允许的最大长度，而不是与后车的距离。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 118, commi 1 lett. c) e 3, fig. II.67: limite di lunghezza per veicoli e complessi riferito alle dimensioni effettive. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28066,
+      "text": "应计算整个车辆组合的长度：卡车与挂车连接后超过10米就禁止通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 118, commi 1 lett. c) e 3, fig. II.67: limite di lunghezza per veicoli e complessi riferito alle dimensioni effettive. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    },
+    {
+      "number": 28067,
+      "text": "禁令对铰接式客车也取决于实际长度：超过10米的不得通行。",
+      "evidence": [
+        "D.P.R. 495/1992, art. 118, commi 1 lett. c) e 3, fig. II.67: limite di lunghezza per veicoli e complessi riferito alle dimensioni effettive. https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "909ee78c518c511c8218c6639fafbdc24124e75259f2b300fdbb4e9ee63d01b9",
+    "output_sha256": "f344ee7e85d236f917f8a7283a10f208f3c9265735fccfc30a3e5fa1c23b7f66",
+    "author": "gpt-6.1-terra / 01a1ea87-b591-71f3-9435-efe9772d9a6c",
+    "reviewer": "gpt-6.1-terra / 01a1ea89-8321-7501-9867-e3741c2514c1",
+    "status": "accepted",
+    "checked_numbers": [
+      28043,
+      28044,
+      28045,
+      28046,
+      28047,
+      28048,
+      28049,
+      28050,
+      28051,
+      28052,
+      28053,
+      28054,
+      28055,
+      28056,
+      28057,
+      28058,
+      28059,
+      28060,
+      28061,
+      28062,
+      28063,
+      28064,
+      28065,
+      28066,
+      28067
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "819630927398898bc06676f56860f9eff49004d9aefeedc119ed3f75b9ba2b56",
+        "attached_image_paths": [
+          "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+          "source/images/58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1.png",
+          "source/images/c2a0b582187198376c771ae3e96a28fd9606913802274026501ca77783d16acc.png",
+          "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+          "source/images/f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6.png"
+        ],
+        "attached_image_sha256": [
+          "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+          "58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1",
+          "c2a0b582187198376c771ae3e96a28fd9606913802274026501ca77783d16acc",
+          "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+          "f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "fea7fb915f01a1f47561cc11a066866e43ddbc636b16b34978152bc196b7df96",
+        "attached_image_paths": [
+          "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+          "source/images/58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1.png",
+          "source/images/c2a0b582187198376c771ae3e96a28fd9606913802274026501ca77783d16acc.png",
+          "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+          "source/images/f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6.png"
+        ],
+        "attached_image_sha256": [
+          "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+          "58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1",
+          "c2a0b582187198376c771ae3e96a28fd9606913802274026501ca77783d16acc",
+          "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+          "f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6"
+        ]
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1ea87-b591-71f3-9435-efe9772d9a6c",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "819630927398898bc06676f56860f9eff49004d9aefeedc119ed3f75b9ba2b56",
+          "attached_image_paths": [
+            "source/images/3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192.png",
+            "source/images/58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1.png",
+            "source/images/c2a0b582187198376c771ae3e96a28fd9606913802274026501ca77783d16acc.png",
+            "source/images/cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29.png",
+            "source/images/f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6.png"
+          ],
+          "attached_image_sha256": [
+            "3666645e06bda98eb9ccdedd7e7cad94bc70e1c219ca43cf2174e2baa706e192",
+            "58b5ffd73f4b4bda099f26900dc90fc6ec7ab1fe367d8cfd8a3317bc0ada0ed1",
+            "c2a0b582187198376c771ae3e96a28fd9606913802274026501ca77783d16acc",
+            "cd41e07fb4d789c57b1b004af920ca1bcb4947caac9d36e11a949ae08cf88c29",
+            "f7260d2c198a210b57f1db33c3c64a4f8b31e5754534f076bae04edbbe2157d6"
+          ]
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": []
+  }
+}

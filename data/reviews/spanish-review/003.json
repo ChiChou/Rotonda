@@ -1,0 +1,55 @@
+{
+  "batch": "003",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "437a2fac572864c81aeecd40ffb8a67269230ece1a3303e2a3616b75aec12d73",
+  "source_sha256": "38e46638c96786cad026b82f8f63b875444a158a0dee7e1ca2ba66da710c6e75",
+  "corrections": [
+    {
+      "id": "0445e9f880edd8fd8440e9184fd40844be3bee256d15b146423491dfb7f5d5af",
+      "before": "La responsabilidad contractual no surge por un incumplimiento debido a causas de fuerza mayor y no está cubierta por el seguro obligatorio de responsabilidad civil automotor",
+      "after": "La responsabilidad contractual no surge por un incumplimiento debido a causas de fuerza mayor y no está cubierta por el seguro de responsabilidad civil automotor (RCA)",
+      "reason": "'obligatorio' added; the Italian names the RCA policy itself, not a generic compulsory insurance"
+    },
+    {
+      "id": "046a15c9282ff59b61198b61182d6746bc0249210bdae2e2c2dab2c6191b1426",
+      "before": "El consumo de alcohol puede causar un aumento del tiempo de reacción",
+      "after": "El consumo de alcohol puede retrasar los tiempos de reacción",
+      "reason": "'rallentamento' (slowing) was rendered as 'aumento' (increase), reversing the effect"
+    },
+    {
+      "id": "047422dfbc0724ddd3b233083dc84f50b89c9cdb3b44e1a71edc69cec5087f02",
+      "before": "Si un vehículo policial con la sirena encendida te adelanta, se coloca delante de ti y lleva en el techo una pantalla con la inscripción luminosa «ACCOSTARE» (orillarse), significa que estás obligado a girar",
+      "after": "Si un vehículo policial con la sirena encendida te adelanta, se coloca delante de ti y lleva en el techo una pantalla con la inscripción luminosa «ACCOSTARE», significa que estás obligado a girar",
+      "reason": "Removed the added Spanish gloss in parentheses, which is not in the Italian"
+    },
+    {
+      "id": "04b83931c194885525fb6c66a6feb1bc58b346f7a2576e93c465c05756004f27",
+      "before": "La aptitud para conducir puede verse afectada por el consumo de alucinógenos como LSD o éxtasis",
+      "after": "La aptitud para conducir puede verse afectada por el consumo de alucinógenos como LSD, éxtasis, etc.",
+      "reason": "'ecc.' (etc.) was dropped, turning an open list of examples into a closed one"
+    },
+    {
+      "id": "04f466a5af2e3261fc17ea35df561fdf33c519747c737df0827c5666a6fb8607",
+      "before": "Para conducir trolebuses es necesario ser titular de la tarjeta de cualificación del conductor",
+      "after": "Para conducir vehículos eléctricos sin rieles alimentados por línea aérea es necesario ser titular de la tarjeta de calificación del conductor",
+      "reason": "Filoveicoli abarca vehículos eléctricos sin rieles alimentados por línea aérea; calificación es una denominación adecuada en español latinoamericano."
+    },
+    {
+      "id": "059fdc895a6ad73fb8e858e4430086369912c2bbb2c6f0f8812cb225cf145561",
+      "before": "Según el CMR, el transportista que después de comunicar al remitente la imposibilidad de terminar el viaje acordado no recibe instrucciones descarga la mercancía en el primer lugar adecuado",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista que después de comunicar al remitente la imposibilidad de terminar el viaje acordado no recibe instrucciones descarga la mercancía en el primer lugar adecuado",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    }
+  ],
+  "reviewed_file_sha256": "f6bdd16e6605096fa38208ddd0a14dd6ee4f7fee280408d469ee216c37d015a9"
+}

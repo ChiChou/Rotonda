@@ -1,0 +1,25 @@
+{
+  "batch": "067",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ac7398c445b48529103fd699f2da664cd66bc52a7cc6bc9c68945c3334a549f9",
+  "source_sha256": "125aa7ed1dcf88fb07907ecde96fb3da7272db5c1a30328d7907973b8c976997",
+  "corrections": [
+    {
+      "id": "593d37b77ced42fbce38e390ed037b8bb308c6a433232b44bb3d1c95e395e255",
+      "before": "El Reglamento 561/2006/CE establece que el período de descanso semanal normal no puede ser inferior a 90 horas",
+      "after": "El Reglamento 561/2006/CE establece que el período de descanso semanal regular no puede ser inferior a 90 horas",
+      "reason": "Term changed: Italian 'regolare' (regular weekly rest) was rendered as 'normal'"
+    }
+  ],
+  "reviewed_file_sha256": "c5b604e5a974f6ce079d3f03905afd339050b38efe9205c12acc898fb86db753"
+}

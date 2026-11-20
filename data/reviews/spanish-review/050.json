@@ -1,0 +1,55 @@
+{
+  "batch": "050",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2cdce824d2948aedef202d7a4fe40640fd4141dc8417ce0805a3eb13c6b9b66d",
+  "source_sha256": "bb8d8e00ba90b2c3094a2864653711d08d81b3fb0b608fd2499fae00893ccecb",
+  "corrections": [
+    {
+      "id": "42b4d13842fe9b2761854d3932f525556d10bbe0ae32fe5c74c3c7d8ac2efa93",
+      "before": "Los daños por actos vandálicos pueden ser indemnizados por el seguro de responsabilidad civil automotor",
+      "after": "Los daños por actos vandálicos pueden ser indemnizados por el seguro RCA (responsabilidad civil automotor)",
+      "reason": "Restituye la sigla RCA junto con su explicación."
+    },
+    {
+      "id": "42c51eed916a7c7d853187e76e39e1252b2a9ac027d99d75c79798dc045c0aa5",
+      "before": "En vehículos de dos ruedas, el interruptor de emergencia está conectado a la alarma antirrobo",
+      "after": "En vehículos de motor de dos ruedas, el interruptor de emergencia está conectado a la alarma antirrobo",
+      "reason": "Restituye que se refiere a vehículos de motor."
+    },
+    {
+      "id": "42f1ee485ecb2d52ed445db18718e888218be0d53b3c0093386ce89ab8b1e1b5",
+      "before": "Fuera de poblado, incluso de día, es opcional señalizar una carga caída que no puede verse claramente a 100 metros, siempre que ocupe un solo carril",
+      "after": "Fuera de poblado, incluso de día, es opcional señalizar mediante la señal de peligro una carga caída accidentalmente en la calzada que no puede verse claramente a 100 metros, siempre que ocupe un solo carril",
+      "reason": "Restituye la caída accidental en la calzada y la señal de peligro."
+    },
+    {
+      "id": "4322fcdda1dcc86e82406d38f35deb7482921d26486ff1fdbfa5286cf0ac5748",
+      "before": "El boleto no debe presentarse cada vez que lo soliciten los agentes de control",
+      "after": "El boleto (documento de transporte) no debe presentarse cada vez que lo soliciten los agentes de control",
+      "reason": "Restituye la explicación del boleto incluida en el original."
+    },
+    {
+      "id": "43539547a223c718e0b7ac003252bf3b1b602550793ea0397f0a5d3c94e47686",
+      "before": "Los vehículos excepcionales que superan el ancho permitido deben señalizarse con dos paneles cuadrados amarillos retrorreflectantes, fijados en ambos lados, con la inscripción negra «TRANSPORTE EXCEPCIONAL»",
+      "after": "Los vehículos excepcionales que superan el ancho permitido deben señalizarse con dos paneles cuadrados amarillos retrorreflectantes, fijados en ambos lados, con la inscripción negra «TRASPORTO ECCEZIONALE» (transporte excepcional)",
+      "reason": "Conserva la inscripción literal del panel y explica su significado."
+    },
+    {
+      "id": "437e64e42b2b74555da5a4e2895fd0e50209b12e7c7c5181fc93d69ade1d9902",
+      "before": "Antes de iniciar el viaje, el conductor debe escribir el número de la tarjeta del tacógrafo en la hoja de registro de un aparato analógico",
+      "after": "Antes del inicio del viaje, en la hoja de registro de un cronotacógrafo analógico, el conductor debe anotar el número de la tarjeta del cronotacógrafo",
+      "reason": "Conserva la sigla NCC y explica su significado.; Row text described a different sentence (NCC bus class); replaced with the tachograph registration-sheet statement from the Italian"
+    }
+  ],
+  "reviewed_file_sha256": "1a44a5e79c6cb558c89f0af0078e0f373fb412e1679a4171aee2ac6bcc97a1c8"
+}

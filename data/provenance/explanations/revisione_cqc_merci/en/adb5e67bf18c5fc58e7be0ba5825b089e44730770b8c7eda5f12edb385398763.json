@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed51-57d7-7073-bb1a-e30adb6e123c"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "revisione_cqc_merci",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 16013,
+          "quesito_id": 3342,
+          "text_it": "Nella CMR, il vettore che non ha la possibilità di eseguire le disposizioni del mittente deve riconsegnare la merce al mittente",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "34cdf2657b44cd038cc957895bcce4e2a5bff72c1832f5031b576f3481bd376f",
+        "italian": "Falso. L’impossibilità di eseguire le istruzioni non impone automaticamente la restituzione: il vettore deve avvisare subito chi le ha impartite.",
+        "italian_sha256": "7f4d7d262e830ee933a5802fe63289ece0b595b2a52c105b4484faf2dedcd742"
+      },
+      {
+        "source": {
+          "number": 16016,
+          "quesito_id": 3342,
+          "text_it": "Nella CMR, nel caso di impossibilità a proseguire il viaggio, il vettore deve darne comunicazione solo al mittente",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f16b669c6e35b33b4afa961208ed7e90ad945ff836d7b0b4c409a2c77a7d94ae",
+        "italian": "Falso. Non sempre si contatta solo il mittente: prima dell’arrivo il vettore chiede istruzioni a chi ha diritto di disporre della merce, che può essere il destinatario.",
+        "italian_sha256": "f92139c02fa72a76616788b7ff00d95e9808713a72a7641186e049146a025b14"
+      },
+      {
+        "source": {
+          "number": 16017,
+          "quesito_id": 3342,
+          "text_it": "Nella CMR, nel caso di impossibilità a proseguire il viaggio, il vettore non è necessario che ne dia comunicazione al mittente e neppure al destinatario",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "500a8d6f5ad37e4bea0e9e3c29c382b8bb197bf836add5036f1168bb4016845d",
+        "italian": "Falso. Se il trasporto non può proseguire secondo la lettera di vettura, il vettore deve chiedere istruzioni a chi ha diritto di disporre della merce, mittente o destinatario secondo il caso.",
+        "italian_sha256": "7d33b506bcd65ba14742898b3e79f3e0f9287554244c8b32657884772478131f"
+      },
+      {
+        "source": {
+          "number": 16018,
+          "quesito_id": 3342,
+          "text_it": "Nella CMR, nel caso di impossibilità a proseguire il viaggio, il vettore deve darne comunicazione all’ambasciata italiana presso lo Stato nel cui territorio si verifica l’impedimento",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "76ed0161126c02d37b3c610600a6def74360f1d9453c836fe500fab24066495d",
+        "italian": "Falso. La CMR non impone di avvisare l’ambasciata: prima dell’arrivo il vettore deve chiedere istruzioni a chi ha diritto di disporre della merce.",
+        "italian_sha256": "c84984976481c1f876cf49dabbeb1cfd59d8d4822626eb091cd7393c9fa6fc69"
+      },
+      {
+        "source": {
+          "number": 16035,
+          "quesito_id": 3345,
+          "text_it": "Nella CMR, il mittente è responsabile verso il vettore per l’imperfezione dell’imballaggio della merce se il vettore ha tempestivamente proposto riserve in proposito nel caso la circostanza sia apparente o quanto meno nota",
+          "answer": 1,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4928cea896bc1922253400593c6cf7f066f0ae261a1d118054debccd5c6d4f0f",
+        "italian": "Vero. Il mittente risponde dei danni e delle spese dovuti all’imballaggio difettoso; se il difetto era apparente o noto alla presa in carico, la responsabilità permane quando il vettore ha formulato riserve.",
+        "italian_sha256": "8d50a443fbfe6d4c56d26d6b3954690472aa75803289ca8494b8fea39c883283"
+      },
+      {
+        "source": {
+          "number": 16036,
+          "quesito_id": 3345,
+          "text_it": "Nella CMR, il mittente può rispondere verso il vettore per l’imperfezione dell’imballaggio",
+          "answer": 1,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d5a8cc9852aa24729299d1d9f0ff9051e737282f00bc624be200210bf54105bc",
+        "italian": "Vero. Il mittente può rispondere verso il vettore dei danni e delle spese causati da un imballaggio difettoso, con l’eccezione prevista per il difetto apparente o noto accettato senza riserve.",
+        "italian_sha256": "04f711743539e1d06bfa605fd77b9beffeb247812aa1ee1de8f3486974a7d2a8"
+      },
+      {
+        "source": {
+          "number": 16037,
+          "quesito_id": 3345,
+          "text_it": "Nella CMR, i danni che derivano dall’omissione e dall’inesattezza delle indicazioni dei documenti di trasporto sono a carico del mittente",
+          "answer": 1,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "eef1e04fbbfefa755d0f232002e9d6fce7712975bc69dcc60fcd37359d001a85",
+        "italian": "Vero. Il mittente risponde verso il vettore dei danni dovuti a indicazioni inesatte o insufficienti che gli competono. La regola non copre indistintamente ogni omissione: alcune responsabilità spettano al vettore.",
+        "italian_sha256": "776ecf74d13dde92f1e14dbf373d69871f27fcf32ee8f8b258cdc024294bf6e8"
+      },
+      {
+        "source": {
+          "number": 16039,
+          "quesito_id": 3345,
+          "text_it": "Nella CMR, il mittente non è responsabile verso il vettore per lo stato dell’imballo della merce",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "a1eefd926113bca11175419b93440be77314616e1deeda4a216aaa7628bf88ba",
+        "italian": "Falso. Il mittente può rispondere dei danni e delle spese causati da imballaggio difettoso, salvo che il difetto fosse apparente o noto al vettore e questi non abbia formulato riserve.",
+        "italian_sha256": "50d1b757dcde34f0a53bd69d9c55eff6af28a710bfa253cd3a23c26aa680b5c1"
+      },
+      {
+        "source": {
+          "number": 16044,
+          "quesito_id": 3345,
+          "text_it": "Nella CMR, i danni che derivano dall’omissione e dall’inesattezza delle indicazioni dei documenti di trasporto sono a carico del vettore",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3f4783062151a1f23502d14ab0c67300e07e8d48e4fc90aac514fa2b748e69c6",
+        "italian": "Falso. Per le indicazioni che competono al mittente, questi risponde verso il vettore dei danni da inesattezza o insufficienza. La CMR prevede però anche specifiche responsabilità del vettore.",
+        "italian_sha256": "b3d94ff94aecc61fcaa0c7c4ee9693817fc213ab6679622994143f2ce69a843e"
+      },
+      {
+        "source": {
+          "number": 16045,
+          "quesito_id": 3345,
+          "text_it": "Nella CMR, i danni che derivano dall’omissione e dall’inesattezza delle indicazioni dei documenti di trasporto sono a carico del destinatario",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4da8bee87e0771e75d4a5c7fcf8921ef266452c82b1297e8096fc1c74d588312",
+        "italian": "Falso. Per le indicazioni che competono al mittente, è questi a rispondere verso il vettore dei danni da inesattezza o insufficienza; non sono automaticamente a carico del destinatario.",
+        "italian_sha256": "652f89531a9db029e42eb80265560dc3165ca63bf21c147cbd6b1bb7ba8f9a77"
+      },
+      {
+        "source": {
+          "number": 16063,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, la responsabilità del vettore inizia con la presa incarico della merce e termina con la riconsegna a destinazione",
+          "answer": 1,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "65eeaf109c2c63f73fc6ccb03fb6c8a2817781af9cb6c2b8abd80ec5dee72562",
+        "italian": "Vero. Per perdita o avaria la responsabilità del vettore riguarda il periodo dalla presa in carico alla riconsegna, ferme le cause di esonero previste dalla CMR.",
+        "italian_sha256": "9b5555a79b90db2ce60124ca2c1c437de6b0151fb6fd0e3ae64217e7b9404bde"
+      },
+      {
+        "source": {
+          "number": 16064,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, il vettore è responsabile per il lavoro di tutti quelli che intervengono nell’esecuzione del trasporto, senza tenere in alcun conto il rapporto che intercorre fra essi e il vettore medesimo",
+          "answer": 1,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "adda042061a21b84466712d522509eff19217f98b9520946945f824fda4baec0",
+        "italian": "Vero nel senso che il rapporto contrattuale non limita la responsabilità ai soli dipendenti: il vettore risponde anche delle persone di cui si avvale per il trasporto, quando agiscono nell’esercizio delle loro funzioni.",
+        "italian_sha256": "94c7c0ba99ec4bef212afa14128f2baf4a22cb63cec9e0bce2e0962537f64d3a"
+      },
+      {
+        "source": {
+          "number": 16065,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, il vettore è responsabile in modo diretto ed immediato per il lavoro di tutti coloro che esplicano una funzione relativa all’esecuzione del trasporto",
+          "answer": 1,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4a0a0310662c7b5d99e7a2eaf84a2cfb5991fda9f4c10e29f4bfa1a5e74cfee6",
+        "italian": "Vero con una precisazione: il vettore risponde degli atti e delle omissioni dei dipendenti e delle altre persone di cui si avvale per il trasporto, quando agiscono nell’esercizio delle loro funzioni.",
+        "italian_sha256": "430188204a5d5fa450f77a9803e581f4acf294be4d513be1464a431d0b33cc8e"
+      },
+      {
+        "source": {
+          "number": 16068,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, la responsabilità del vettore inizia dal momento nel quale il veicolo comincia di fatto il trasporto e termina quando il veicolo entra nel luogo di destinazione della merce",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "28decb1c7340fa2adb886f2e2f5ff71167e8fb074308ce91c57f34ad0e5840b5",
+        "italian": "Falso. Per perdita o avaria conta il periodo dalla presa in carico della merce alla sua riconsegna, non il solo tragitto del veicolo fino all’ingresso nel luogo di destinazione.",
+        "italian_sha256": "97bf5b0b28d494f1a60bb62f234d37f18b62c7c70685f561838567b23bf9e2ed"
+      },
+      {
+        "source": {
+          "number": 16072,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, il vettore è responsabile soltanto per il lavoro del personale addetto al carico della merce",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1e1e8571901731244edcd9dfb07ef107e239fd4ad92f129daa2896c481f03dc3",
+        "italian": "Falso. La responsabilità non riguarda soltanto il personale addetto al carico: comprende gli atti e le omissioni dei dipendenti e delle altre persone di cui il vettore si avvale per il trasporto, nell’esercizio delle loro funzioni.",
+        "italian_sha256": "96eaed879e53177665d57d20469c4a4be8637fb9fd1fe03cf1674464ec47bab5"
+      },
+      {
+        "source": {
+          "number": 16073,
+          "quesito_id": 3348,
+          "text_it": "Nella CMR, il vettore è responsabile soltanto per il lavoro dell’autista",
+          "answer": 0,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d05dcfb4b527108f6191a9bc8f966eccee1d481bb8aaa3450b3a30d7ead17b8b",
+        "italian": "Falso. Il vettore non risponde soltanto dell’autista, ma anche degli altri dipendenti e delle persone di cui si avvale per il trasporto, quando agiscono nell’esercizio delle loro funzioni.",
+        "italian_sha256": "dcabe704792dd11b263cc91896106d3196e641dc484c513d8f60070b85f41530"
+      },
+      {
+        "source": {
+          "number": 16188,
+          "quesito_id": 3362,
+          "text_it": "Le merci comunitarie sono definite \"in libera pratica\"",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "66d406c52fba80765b2c0bc6dbde3a8305ee57370aee6174f7408b53e7e88db2",
+        "italian": "Vero secondo il quiz: le merci immesse in libera pratica acquistano la posizione doganale di merci unionali. La categoria comprende anche merci ottenute nell’Unione: non tutte sono state importate e sdoganate.",
+        "italian_sha256": "120ccc9fbfc4ee5c1e57400a9647fe95114b307edc2ec7316705a46adbd1158e"
+      },
+      {
+        "source": {
+          "number": 16189,
+          "quesito_id": 3362,
+          "text_it": "Per merci comunitarie si intendono merci sdoganate",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b31568b755c5a300da4ef6edbca41863aea3a1b9127de0f77ab47ed8c3489b6c",
+        "italian": "Vero secondo il quiz, con una precisazione: le merci importate e immesse in libera pratica sono merci unionali, ma la categoria comprende anche merci ottenute nell’Unione.",
+        "italian_sha256": "4032438d3df45bacd31d454ad6017187f5e1d4549f2c1764545d01b5e5f8040c"
+      },
+      {
+        "source": {
+          "number": 16190,
+          "quesito_id": 3362,
+          "text_it": "Per merci comunitarie si intendono merci interamente ottenute nel territorio doganale della Comunità",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "98e379a02dba6c9e3216ffe3f1ed941d7cb07043a61ef308cd215d1d7f04fb5c",
+        "italian": "Vero. Tra le merci unionali rientrano quelle interamente ottenute nel territorio doganale dell’Unione senza incorporare merci importate da fuori di esso, fatte salve le eccezioni previste.",
+        "italian_sha256": "3b713355dd892e166eee13fa3f72c817505e379e7993bf3d1cb5ad1fc410bf35"
+      },
+      {
+        "source": {
+          "number": 16191,
+          "quesito_id": 3362,
+          "text_it": "All’uscita delle merci da una zona o deposito franco per il controllo doganale occorre esibire le fatture delle merci",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6561a1947a4114cad74ed9b1c36f84834e035ed15534eff5ca583ada0c0ae519",
+        "italian": "Falso nel contesto della disciplina richiamata dal quiz: per il controllo era prevista la copia del documento di trasporto, non una generale esibizione delle fatture. La norma citata è storica; oggi si applica il codice doganale dell’Unione.",
+        "italian_sha256": "e1b88619730ee3142c915b0d7c9fe8a9353e0982eef44e7313109a40d23153f5"
+      },
+      {
+        "source": {
+          "number": 16194,
+          "quesito_id": 3362,
+          "text_it": "Per merci comunitarie si intendono merci dette \"in libera pratica\", se sono originarie di paesi membri",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "9bf23ac3f90afa457e09bdcb6a650fc410b0565e1511093baa94927c1a49be4e",
+        "italian": "Il verdetto ufficiale è FALSO, ma la frase è ambigua: merci ottenute nell’UE possono essere unionali. «In libera pratica» riguarda propriamente merci non unionali immesse nel mercato UE dopo le formalità previste, non una categoria definita dalla sola origine.",
+        "italian_sha256": "f0cdc87f1ba95402df17880b589da8ea95ef88da750c128e7f396baed08831fa"
+      },
+      {
+        "source": {
+          "number": 16195,
+          "quesito_id": 3362,
+          "text_it": "Per merci comunitarie si intendono merci dette \"non in libera pratica\", se sono originarie di paesi membri",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "e596539d51d632d89fff970cdc02ee3db6d9cfd09547f8d8703cf31d27a20d78",
+        "italian": "Le merci unionali non sono dette «non in libera pratica» per il solo fatto di essere originarie di un paese membro: la posizione unionale comprende anche le merci non unionali immesse in libera pratica.",
+        "italian_sha256": "710d0742a2775ac13b766ace40d86d95c792ae6663f055d8a41c37deef2f2dc5"
+      },
+      {
+        "source": {
+          "number": 16196,
+          "quesito_id": 3362,
+          "text_it": "Per merci comunitarie si intendono merci dette \"in libera pratica nell’UE\", se non sono ancora stati pagati i dazi",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "12cc6711e5ceb75f9696e51d44f8145bf9a06df6ed0aff72cbcb8e33d3cc48de",
+        "italian": "Non basta che i dazi siano ancora da pagare: l’immissione in libera pratica richiede la riscossione dei dazi dovuti e l’adempimento delle altre formalità applicabili.",
+        "italian_sha256": "84b30d5721aa692c44e8fbb69021b23c70798b9c0ff44e921d162ab30ae734c7"
+      },
+      {
+        "source": {
+          "number": 16218,
+          "quesito_id": 3365,
+          "text_it": "All’arrivo in dogana della merce vincolata a T1, la Guardia di finanza appone il visto entrare negli spazi doganali, controlla i piombi se applicati e consegna il documento alla dogana",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4e4372820c0763ff189f59d1e95c67eda416880aeb7e52cb2a76bfbd5f4e4c63",
+        "italian": "Nel procedimento descritto dal quiz, all’ingresso la Guardia di finanza appone il visto entrare, controlla gli eventuali piombi e trasmette il documento alla dogana.",
+        "italian_sha256": "26582c7cc66f1cf28345ac729c6fb78a7e300d18eb7f0c2aa5ac5ad56341144e"
+      },
+      {
+        "source": {
+          "number": 16219,
+          "quesito_id": 3365,
+          "text_it": "Il documento DAU T1, all’ingresso degli spazi doganali, va presentato alla Guardia di finanza",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "15918661242e29d133f056a611af9a3b0781ed6cac9b86113c5e98b3c0bb0b15",
+        "italian": "Nel procedimento descritto dal quiz, il documento T1 accompagna la merce e viene presentato alla Guardia di finanza all’ingresso degli spazi doganali.",
+        "italian_sha256": "33ff08d75ac1764c858d15ca83908cfa916a387f420800b88dda58d895adab27"
+      },
+      {
+        "source": {
+          "number": 16220,
+          "quesito_id": 3365,
+          "text_it": "All’arrivo in dogana in Italia, la merce vincolata al T1, deve essere presentata al posto di guardia della Guardia di finanza al varco di entrata della dogana, la quale controlla i suggelli ed appone il visto entrare sul documento T1",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "aada5d26969d2e2ed1d35a5af6c67df2ba63ec0d6448783a2b17da86520eb599",
+        "italian": "Nel procedimento descritto dal quiz, la merce e il T1 sono presentati al posto di guardia: la Guardia di finanza controlla i suggelli e appone il visto entrare.",
+        "italian_sha256": "ced3efa573e148d40a26e064dcbfd04a927bc4de211df04709fb3905ed44fc58"
+      },
+      {
+        "source": {
+          "number": 16221,
+          "quesito_id": 3365,
+          "text_it": "All’arrivo in dogana della merce vincolata a T1, la Guardia di finanza non vista nessun documento",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "bc74e875870022c21bd54c0987eeefbb17258ff3b1605f06d9039a63f8bc8d22",
+        "italian": "È errato dire che non viene vistato alcun documento: nella procedura descritta dal quiz la Guardia di finanza appone il visto entrare sul T1.",
+        "italian_sha256": "3dc48f90e0a8bf5ee6b950c59f7450da8e56a74443f81b046c9cff4a89c04ba6"
+      },
+      {
+        "source": {
+          "number": 16228,
+          "quesito_id": 3365,
+          "text_it": "All’arrivo in dogana in Italia, la merce vincolata al T1, deve essere presentata allo spedizioniere doganale",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8b6d98426ed2b93a49e0d66591fff2b176175013ef6640b9cb6e8b4286777da2",
+        "italian": "Non è allo spedizioniere che si presenta la merce al varco: nella procedura del quiz la presentazione è al posto di guardia della Guardia di finanza.",
+        "italian_sha256": "5476a6796d47f31638f33915060f110eb7c844112d46609ce598cf86f938f486"
+      },
+      {
+        "source": {
+          "number": 16229,
+          "quesito_id": 3365,
+          "text_it": "All’arrivo in dogana in Italia, la merce vincolata al T1, deve essere presentata al Ministero delle infrastrutture e dei trasporti",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "93848935a20cb4465c2fa4d1e3538721bb26a7089e096dbd85742aae77be8ba0",
+        "italian": "Non si presenta la merce al Ministero: nella procedura del quiz la merce in T1 è presentata al posto di guardia della Guardia di finanza all’ingresso della dogana.",
+        "italian_sha256": "d5fd28f813259a60d28f529666cc2db19b3cf17155cddceafa4cab1fb49e9d62"
+      },
+      {
+        "source": {
+          "number": 16240,
+          "quesito_id": 3367,
+          "text_it": "Al momento dell’introduzione della merce estera nel territorio UE, la persona responsabile della immediata presentazione all’ufficio doganale designato è chiunque provveda al trasporto",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "44187ad2cd8c3663435c06c0b303fe19ef4c4390a9893d876ab89ab85c844fc6",
+        "italian": "Il trasportatore che introduce le merci può essere tenuto a presentarle senza indugio in dogana. La formulazione è generale: la normativa individua anche altri soggetti e prevede casi particolari.",
+        "italian_sha256": "5826c4951f33ac1aef84cb60f05b33de2c6f483b5eb6b56204b9d0e38b08a492"
+      },
+      {
+        "source": {
+          "number": 16241,
+          "quesito_id": 3367,
+          "text_it": "La dichiarazione doganale negli uffici doganali può essere presentata dallo spedizioniere doganale",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "565b99005a5848734ae6351d13c4a9741cea70787ae211dd5585b53878b1c97b",
+        "italian": "Lo spedizioniere doganale può agire come rappresentante doganale e presentare la dichiarazione per conto di un’altra persona, alle condizioni previste.",
+        "italian_sha256": "172eac5931ae383c56356e6e3ecc5786c2dc4feda7479e8b53a69a8345aa0287"
+      },
+      {
+        "source": {
+          "number": 16243,
+          "quesito_id": 3367,
+          "text_it": "Al momento dell’introduzione della merce estera nel territorio UE, la persona responsabile della immediata presentazione all’ufficio doganale designato è il destinatario della merce",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "51dabde2b464fa1e2ac1031bb7e38811da116e64433f01f65cd51ac8a2472f63",
+        "italian": "Il destinatario non è automaticamente responsabile della presentazione per il solo fatto di essere destinatario: l’obbligo riguarda i soggetti indicati dalla normativa, tra cui chi introduce o trasporta le merci dopo l’introduzione.",
+        "italian_sha256": "0b4847a8da2ea28fd323c874819e327fb5adefab6d0ecb8f31d5fa9180754c8f"
+      },
+      {
+        "source": {
+          "number": 16244,
+          "quesito_id": 3367,
+          "text_it": "Al momento dell’introduzione della merce estera nel territorio UE, la persona responsabile della immediata presentazione all’ufficio doganale designato è il mittente",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c9ddd21158453ff74068158fed830cb53d894bcc94ea75e64cb3c07331f864b0",
+        "italian": "Il mittente non è automaticamente responsabile della presentazione per il solo fatto di essere mittente: la normativa individua, tra gli altri, chi introduce le merci o assume il trasporto dopo l’introduzione.",
+        "italian_sha256": "dc0e437ad255cff2cd9a33cbce0a6a7aabcc92033b3b535807e2db8207476da5"
+      },
+      {
+        "source": {
+          "number": 16267,
+          "quesito_id": 3370,
+          "text_it": "Il Carnet TIR è un documento internazionale",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "e4362fab14cf2c0b8364e2f0fc7d6ed20b815eec4027270a4ef278c7e1c0e8e9",
+        "italian": "Il Carnet TIR è un documento usato nel transito internazionale secondo la Convenzione TIR tra i territori delle parti contraenti.",
+        "italian_sha256": "b84787cf65405701082979ee5035ed2c2e6736a344ed78f673b2e0db04f7b22b"
+      },
+      {
+        "source": {
+          "number": 16268,
+          "quesito_id": 3370,
+          "text_it": "Il Carnet TIR è previsto dalla Convenzione TIR cui aderiscono l’Unione Europea e molti Stati extracomunitari",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "90006f1bd04ed0b6bf16a3932e65967a0d0ad508dad78444d3e767c68f20619b",
+        "italian": "La Convenzione disciplina il regime TIR tra le parti contraenti, tra cui l’Unione europea e numerosi paesi extra UE.",
+        "italian_sha256": "e0bf50587655e95686f2ac6e54dd03df48b5966c74e37d639a98234a37082d0f"
+      },
+      {
+        "source": {
+          "number": 16269,
+          "quesito_id": 3370,
+          "text_it": "Il Carnet TIR permette di trasportare merce senza che il trasportatore si debba fermare per controlli tassativi alle dogane",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3f666aebb2af23717f574e406e4735da4af8e3fa3b94782ca06380599a64e6f1",
+        "italian": "Il regime TIR evita di norma visite sistematiche del carico alle dogane di passaggio. Il verdetto non significa che il veicolo possa evitare ogni fermata o controllo: le autorità possono effettuare verifiche.",
+        "italian_sha256": "0bdc590d98ea750d976b20b48d8e99b57f6f2c8e424b014a7d19653718e5473e"
+      },
+      {
+        "source": {
+          "number": 16270,
+          "quesito_id": 3370,
+          "text_it": "Il Carnet TIR è assegnato al singolo veicolo e al singolo container",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "296e25368fa80310021a847540319d650a2c3516fde4571d27a23b50026aafcd",
+        "italian": "Di regola si redige un Carnet per ciascun veicolo o container. La regola ammette però un unico Carnet per un insieme di veicoli o per più container caricati su un solo veicolo o insieme di veicoli.",
+        "italian_sha256": "784466db112f8b611be37af236e73275e2439f49c54bb7906dc4721fe8341d6f"
+      },
+      {
+        "source": {
+          "number": 16273,
+          "quesito_id": 3370,
+          "text_it": "Il Carnet TIR è stampato in inglese",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4d48d856e4fcccee6565c7574ec4e45d1e778e6e933a283e2afa7dda41ca7f03",
+        "italian": "Il modello ordinario è stampato in francese, con alcune parti anche in inglese; non è semplicemente un documento stampato in inglese. Esistono modelli per catene regionali in altre lingue ufficiali ONU.",
+        "italian_sha256": "5ef6c0a11ceb3e7210844ca8b31ffb4da2db6bce5361803238dcf263e341a8a7"
+      },
+      {
+        "source": {
+          "number": 16274,
+          "quesito_id": 3370,
+          "text_it": "Il Carnet TIR ha durata annuale, dal momento in cui viene acceso",
+          "answer": 0,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "cde601922f9936abb1f1489e9c35ba59bf3b5afa3ed3ec79339a70ec1ff6920f",
+        "italian": "Non ha una durata annuale dal momento dell’apertura: il Carnet vale per un solo viaggio e deve essere accettato dalla dogana di partenza entro il termine fissato dall’associazione emittente.",
+        "italian_sha256": "f82be4dc5e0848ab8a37b3426d1c51d6ab320c675e845cb9b0fdf806908ee46b"
+      },
+      {
+        "source": {
+          "number": 16287,
+          "quesito_id": 3372,
+          "text_it": "Il carnet TIR può essere impiegato anche se il trasporto prevede l’attraversamento di paesi terzi",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "faaf8159ac8ca42602b99606e926d838c4f6bc306dfda987f62097e7805f5f66",
+        "italian": "Il Carnet TIR può coprire un trasporto che attraversa paesi terzi aderenti al regime, purché siano rispettate le condizioni della Convenzione e del percorso.",
+        "italian_sha256": "328b6aad90ee22a8f18eb771eb92422587bbf236a18b031355a6ef42ad004907"
+      },
+      {
+        "source": {
+          "number": 16288,
+          "quesito_id": 3372,
+          "text_it": "Il carnet TIR è applicabile ai percorsi combinati",
+          "answer": 1,
+          "page": 11,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7d0c9220b35b339abf21ac211dfaee1a2f7f291fd0ac630c95b7d75e17b894ed",
+        "italian": "Il regime ammette percorsi combinati: una parte del tragitto deve essere effettuata su strada, mentre altre tratte possono usare modalità diverse.",
+        "italian_sha256": "04488a929a6bec6f14671b8c73d23f603f5c5f8db40b0b8cc30db181122f41ea"
+      },
+      {
+        "source": {
+          "number": 16289,
+          "quesito_id": 3372,
+          "text_it": "Il carnet TIR può essere utilizzato solo per trasporti effettuati \"senza rottura di carico\"",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b3450819657d3af8cf6705f17fd81940c67b661802dcc94a60f19f4a5f4d0d92",
+        "italian": "Nel trasporto TIR ordinario la merce viaggia senza trasbordo del carico tra la dogana di partenza e quella di destinazione. La Convenzione disciplina anche misure specifiche in caso di incidente.",
+        "italian_sha256": "b84b8a1ed3caf68d3d13428560f132f2a1eebd0485604297864684e728bbe45a"
+      },
+      {
+        "source": {
+          "number": 16290,
+          "quesito_id": 3372,
+          "text_it": "Il carnet TIR può essere utilizzato solo dalle imprese residenti in paesi che aderiscono alla Convenzione TIR",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c2fa75e150eb63f3af95f4aacb6b5d2d6d4753972570df7dbaa1d2f71934ef78",
+        "italian": "L’accesso al regime richiede autorizzazione e requisiti previsti dalla Convenzione. La frase del quiz è semplificata: la disciplina fa riferimento alla residenza o alla sede e alle autorità competenti delle parti contraenti, non alla sola residenza dell’impresa.",
+        "italian_sha256": "5a470ecd8f33f82f1f46f871ffb906ee8b2729ff42e53366ef70e253198c2c3f"
+      },
+      {
+        "source": {
+          "number": 16292,
+          "quesito_id": 3372,
+          "text_it": "Il carnet TIR può essere utilizzato solo per trasporti effettuati \"senza rottura di carico\", cioè solo nel caso in cui non si verifichino incidenti",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "807ecdfca44809deb4ac09eb98fe817d647c7fd64364a3bae73acf738f4f8a69",
+        "italian": "«Senza rottura di carico» non significa senza incidenti: indica che le merci non vengono trasbordate durante il trasporto ordinario. In caso di incidente la Convenzione prevede apposite misure doganali.",
+        "italian_sha256": "0e455e85778999ac0735e536d81c74a2413585ad110ec794a0017eae20cfab24"
+      },
+      {
+        "source": {
+          "number": 16293,
+          "quesito_id": 3372,
+          "text_it": "Il carnet TIR non è applicabile ai percorsi combinati in quanto presuppongono sempre una \"rottura di carico\"",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "efba691e0cf76714bddf8b500fc2b3bd9a3b437d2adb91ba9f8480c8cba76c46",
+        "italian": "Il trasporto combinato non comporta necessariamente il trasbordo delle merci: può essere trasferito il veicolo o il container. Il TIR è ammesso se almeno una parte del tragitto avviene su strada.",
+        "italian_sha256": "f579c623d6475659b5b9054eb508ec5f9bf94cac9f0c985a682c70d726328d0f"
+      },
+      {
+        "source": {
+          "number": 16294,
+          "quesito_id": 3372,
+          "text_it": "Il carnet TIR non può essere impiegato se il trasporto prevede l’attraversamento di Paesi terzi",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "fd240b73d88a24297205906bf25174129865e597e87711dc9a674471ab32c32a",
+        "italian": "Il divieto è errato: il carnet TIR serve al transito internazionale e può coprire l’attraversamento di Paesi terzi aderenti al sistema.",
+        "italian_sha256": "165d712b5e72f6000fb08cb934adf5dd200772cd1bdba3b6c168da820cf3d29e"
+      },
+      {
+        "source": {
+          "number": 16295,
+          "quesito_id": 3372,
+          "text_it": "Il carnet TIR può essere impiegato solo per trasporti infracomunitari",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "31c817da01e9dc8649218836e207c03e23445b100f758e63a8c77e28ab2fc0df",
+        "italian": "Non è limitato ai trasporti infracomunitari: il regime TIR riguarda il transito internazionale attraverso frontiere doganali, anche con Paesi terzi.",
+        "italian_sha256": "809101a148a62405b691365feaa35c8e0ccb1d8e980dadb9b8b755325d807c4b"
+      },
+      {
+        "source": {
+          "number": 16328,
+          "quesito_id": 3377,
+          "text_it": "La dichiarazione doganale per l’assoggettamento ad un regime doganale di transito o sdoganamento deve essere fatta per iscritto avvalendosi anche di sistemi informatici",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "643a39feefc6c3f62c0625aefdc0b46cd4a3c05828ff321e6bc83aff1944829a",
+        "italian": "La dichiarazione doganale è normalmente presentata con procedimenti informatici. La formulazione del quiz è generale: la normativa ammette modalità diverse in casi specifici.",
+        "italian_sha256": "df3c9c209261a5f71e62da6f79819e5824e351370f127c30c82d9666d78e1026"
+      },
+      {
+        "source": {
+          "number": 16329,
+          "quesito_id": 3377,
+          "text_it": "Il servizio doganale di riscontro è esercitato da militari della Guardia di finanza",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4ae49e1d714f5a96c7006113b7293176e40621e8ca595fbf934d64ab9d2ba9d6",
+        "italian": "Il riscontro è svolto dalla Guardia di finanza: consiste nel controllo sommario ed esterno della corrispondenza delle merci ai documenti di scorta.",
+        "italian_sha256": "f2ee95478650311dfca47780439e15ae47808cf3396b350f4becf0f49ba20935"
+      },
+      {
+        "source": {
+          "number": 16330,
+          "quesito_id": 3377,
+          "text_it": "La dichiarazione doganale per l’assoggettamento ad un regime doganale di transito o sdoganamento deve essere fatta anche verbalmente",
+          "answer": 0,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d2833f571bfa784bf50070009510b29adab5c6589e89b7df3539c9077cf535de",
+        "italian": "Non è obbligatorio fare anche una dichiarazione verbale: di regola si usano procedimenti informatici. Per alcune merci sono comunque previste dichiarazioni verbali.",
+        "italian_sha256": "41266c5655a9a30a843279639325e3fa22cd8820536ca91f50f9dd9f509751cb"
+      }
+    ],
+    "task_sha256": "b0bd2e0f559528f9d9af4c258a493ff79c1161d5bc67ce5f1c4c1ced4ac7209d"
+  },
+  "rows": [
+    {
+      "number": 16013,
+      "text": "False. Being unable to carry out the instructions does not automatically require the goods to be returned: the carrier must immediately notify the person who gave them."
+    },
+    {
+      "number": 16016,
+      "text": "False. The sender is not always the only person contacted: before arrival, the carrier asks for instructions from the person entitled to dispose of the goods, who may be the consignee."
+    },
+    {
+      "number": 16017,
+      "text": "False. If carriage cannot continue under the consignment note, the carrier must ask for instructions from the person entitled to dispose of the goods, either the sender or the consignee, as appropriate."
+    },
+    {
+      "number": 16018,
+      "text": "False. The CMR does not require the embassy to be notified: before arrival, the carrier must ask for instructions from the person entitled to dispose of the goods."
+    },
+    {
+      "number": 16035,
+      "text": "True. The sender is liable for damage and expenses caused by defective packaging; if the defect was apparent or known when the goods were taken over, liability remains when the carrier has made reservations."
+    },
+    {
+      "number": 16036,
+      "text": "True. The sender may be liable to the carrier for damage and expenses caused by defective packaging, subject to the exception for an apparent or known defect accepted without reservation."
+    },
+    {
+      "number": 16037,
+      "text": "True. The sender is liable to the carrier for damage caused by inaccurate or insufficient particulars that the sender is responsible for providing. The rule does not cover every omission indiscriminately: some responsibilities lie with the carrier."
+    },
+    {
+      "number": 16039,
+      "text": "False. The sender may be liable for damage and expenses caused by defective packaging, unless the defect was apparent or known to the carrier and the carrier made no reservations."
+    },
+    {
+      "number": 16044,
+      "text": "False. For particulars the sender is responsible for providing, the sender is liable to the carrier for damage caused by inaccuracies or insufficiencies. The CMR also provides for specific responsibilities of the carrier."
+    },
+    {
+      "number": 16045,
+      "text": "False. For particulars the sender is responsible for providing, the sender is liable to the carrier for damage caused by inaccuracies or insufficiencies; these are not automatically the consignee's responsibility."
+    },
+    {
+      "number": 16063,
+      "text": "True. For loss or damage, the carrier's liability covers the period from taking over the goods until delivery, subject to the grounds for exemption provided by the CMR."
+    },
+    {
+      "number": 16064,
+      "text": "True in the sense that the contractual relationship does not limit liability to employees alone: the carrier is also liable for people whose services it uses for carriage, when they act in the course of their duties."
+    },
+    {
+      "number": 16065,
+      "text": "True, with a clarification: the carrier is liable for the acts and omissions of employees and other people whose services it uses for carriage, when they act in the course of their duties."
+    },
+    {
+      "number": 16068,
+      "text": "False. For loss or damage, the relevant period runs from taking over the goods until their delivery, not merely the vehicle's journey up to its entry into the place of destination."
+    },
+    {
+      "number": 16072,
+      "text": "False. Liability does not concern loading staff alone: it includes the acts and omissions of employees and other people whose services the carrier uses for carriage, in the course of their duties."
+    },
+    {
+      "number": 16073,
+      "text": "False. The carrier is liable not only for the driver, but also for other employees and people whose services it uses for carriage, when they act in the course of their duties."
+    },
+    {
+      "number": 16188,
+      "text": "True according to the quiz: goods released for free circulation acquire the customs status of Union goods. The category also includes goods obtained in the Union: not all have been imported and cleared through customs."
+    },
+    {
+      "number": 16189,
+      "text": "True according to the quiz, with a clarification: imported goods released for free circulation are Union goods, but the category also includes goods obtained in the Union."
+    },
+    {
+      "number": 16190,
+      "text": "True. Union goods include those wholly obtained in the customs territory of the Union without incorporating goods imported from outside it, subject to the exceptions provided for."
+    },
+    {
+      "number": 16191,
+      "text": "False in the context of the rules cited by the quiz: a copy of the transport document was required for the check, not a general presentation of invoices. The rule cited is historical; the Union Customs Code applies today."
+    },
+    {
+      "number": 16194,
+      "text": "The official verdict is FALSO, but the statement is ambiguous: goods obtained in the EU can be Union goods. ‘In free circulation’ properly refers to non-Union goods released onto the EU market after the required formalities, not to a category defined by origin alone."
+    },
+    {
+      "number": 16195,
+      "text": "Union goods are not described as ‘not in free circulation’ solely because they originate in a member country: Union status also includes non-Union goods released for free circulation."
+    },
+    {
+      "number": 16196,
+      "text": "It is not enough that duties are still to be paid: release for free circulation requires collection of the duties due and completion of the other applicable formalities."
+    },
+    {
+      "number": 16218,
+      "text": "In the procedure described by the quiz, at entry the Guardia di Finanza stamps the entry authorisation, checks any seals and forwards the document to customs."
+    },
+    {
+      "number": 16219,
+      "text": "In the procedure described by the quiz, the T1 document accompanies the goods and is presented to the Guardia di Finanza at the entrance to the customs area."
+    },
+    {
+      "number": 16220,
+      "text": "In the procedure described by the quiz, the goods and the T1 are presented at the guard post: the Guardia di Finanza checks the seals and stamps the entry authorisation."
+    },
+    {
+      "number": 16221,
+      "text": "It is incorrect to say that no document is endorsed: in the procedure described by the quiz, the Guardia di Finanza stamps the entry authorisation on the T1."
+    },
+    {
+      "number": 16228,
+      "text": "The goods are not presented to the customs agent at the entrance: in the quiz's procedure they are presented at the Guardia di Finanza guard post."
+    },
+    {
+      "number": 16229,
+      "text": "The goods are not presented to the Ministry: in the quiz's procedure, goods under T1 are presented at the Guardia di Finanza guard post at the customs entrance."
+    },
+    {
+      "number": 16240,
+      "text": "The carrier bringing the goods in may be required to present them to customs without delay. The wording is general: the rules also identify other parties and provide for special cases."
+    },
+    {
+      "number": 16241,
+      "text": "A customs agent may act as a customs representative and submit the declaration on another person's behalf, subject to the prescribed conditions."
+    },
+    {
+      "number": 16243,
+      "text": "The consignee is not automatically responsible for presentation merely by being the consignee: the obligation applies to the parties specified by the rules, including the person who brings in or carries the goods after their introduction."
+    },
+    {
+      "number": 16244,
+      "text": "The sender is not automatically responsible for presentation merely by being the sender: the rules identify, among others, the person who brings in the goods or takes over their carriage after their introduction."
+    },
+    {
+      "number": 16267,
+      "text": "The TIR Carnet is a document used in international transit under the TIR Convention between the territories of the contracting parties."
+    },
+    {
+      "number": 16268,
+      "text": "The Convention governs the TIR procedure between the contracting parties, including the European Union and many non-EU countries."
+    },
+    {
+      "number": 16269,
+      "text": "The TIR procedure generally avoids systematic cargo inspections at customs offices en route. The verdict does not mean that the vehicle can avoid every stop or check: the authorities may carry out inspections."
+    },
+    {
+      "number": 16270,
+      "text": "As a rule, one Carnet is drawn up for each vehicle or container. However, the rule allows a single Carnet for a combination of vehicles or for several containers loaded on one vehicle or combination of vehicles."
+    },
+    {
+      "number": 16273,
+      "text": "The standard form is printed in French, with some parts also in English; it is not simply a document printed in English. Forms for regional chains exist in other official UN languages."
+    },
+    {
+      "number": 16274,
+      "text": "It is not valid for one year from opening: the Carnet is valid for a single journey and must be accepted by the customs office of departure within the deadline set by the issuing association."
+    },
+    {
+      "number": 16287,
+      "text": "The TIR Carnet can cover carriage through third countries participating in the procedure, provided the conditions of the Convention and the route are met."
+    },
+    {
+      "number": 16288,
+      "text": "The procedure allows combined routes: part of the journey must be by road, while other legs may use different modes of transport."
+    },
+    {
+      "number": 16289,
+      "text": "In ordinary TIR carriage, the goods travel without transshipment of the load between the customs offices of departure and destination. The Convention also provides for specific measures in the event of an accident."
+    },
+    {
+      "number": 16290,
+      "text": "Access to the procedure requires authorisation and compliance with the requirements set out in the Convention. The quiz statement is simplified: the rules refer to residence or establishment and to the competent authorities of the contracting parties, not solely to the company's residence."
+    },
+    {
+      "number": 16292,
+      "text": "‘Without breaking bulk’ does not mean without accidents: it means that the goods are not transshipped during ordinary carriage. The Convention provides for specific customs measures in the event of an accident."
+    },
+    {
+      "number": 16293,
+      "text": "Combined transport does not necessarily involve transshipment of the goods: the vehicle or container can be transferred. TIR is allowed if at least part of the journey is by road."
+    },
+    {
+      "number": 16294,
+      "text": "The prohibition is incorrect: the TIR Carnet is used for international transit and can cover passage through third countries participating in the system."
+    },
+    {
+      "number": 16295,
+      "text": "It is not limited to transport within the Community: the TIR procedure concerns international transit across customs borders, including with third countries."
+    },
+    {
+      "number": 16328,
+      "text": "A customs declaration is normally submitted electronically. The quiz wording is general: the rules allow different methods in specific cases."
+    },
+    {
+      "number": 16329,
+      "text": "The Guardia di Finanza carries out the verification: it consists of a brief external check that the goods match the accompanying documents."
+    },
+    {
+      "number": 16330,
+      "text": "It is not compulsory to also make an oral declaration: electronic procedures are generally used. Oral declarations are nevertheless provided for certain goods."
+    }
+  ],
+  "output_sha256": "abae832cdde59e510644cc529f6783fab48dc00d23ecf52e7fb1cf1874b33f0f"
+}

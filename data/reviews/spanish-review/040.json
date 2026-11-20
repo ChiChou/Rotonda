@@ -1,0 +1,31 @@
+{
+  "batch": "040",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "7b47cacc12951835db8dc94fac2d78b6cc9aca2b9a84a5988e533c66f16ee512",
+  "source_sha256": "fe2f8bffe0c5e4943703ba5782078cab6144c9c24602eee2e3a2260d9e2d4c0a",
+  "corrections": [
+    {
+      "id": "35454ae437273c05a0edf039f604ad261eadab04fd0fe471da370c3d67fd69da",
+      "before": "Para reducir el riesgo de robos a los conductores se permite incumplir los tiempos de conducción y descanso para llegar cuanto antes al destino",
+      "after": "Para reducir el riesgo de asaltos a los conductores se permite incumplir los tiempos de conducción y descanso para llegar cuanto antes al destino",
+      "reason": "Rapine se refiere a asaltos, no a robos en general."
+    },
+    {
+      "id": "363ac0920a09961e64731b20035675acb6bb7a67a9a9e2327e9d31281cd9c735",
+      "before": "Los daños por actos vandálicos pueden ser indemnizados por el seguro de responsabilidad civil automotor",
+      "after": "Los daños por actos vandálicos pueden ser indemnizados por el seguro RCA",
+      "reason": "Conserva la sigla RCA e incorpora su significado.; Added an expansion of RCA that is not in the Italian; keep the acronym as in the source"
+    }
+  ],
+  "reviewed_file_sha256": "b0580144fbf7d261d9129c33c54e0f074faa47dd9c730567f97059999e94c54e"
+}

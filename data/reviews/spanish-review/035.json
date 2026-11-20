@@ -1,0 +1,49 @@
+{
+  "batch": "035",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2b21b0afe350fbb1f25848c6b16562ae48e1be09053d827f213437dc80241912",
+  "source_sha256": "69d4fb72e98f55893d2a04c722bb55f12cbfd2e87c401f11c133ab41991ca1cf",
+  "corrections": [
+    {
+      "id": "2e5244a8d2ce6b14495f4a6f3c6d426055f6e307b84fe32cb04ff81519b95d67",
+      "before": "Cuando la licencia de transporte por cuenta propia se expide para vehículos de capacidad útil superior a 3 t, debe emitirse un documento de acompañamiento para todas las mercancías en cada transporte",
+      "after": "Cuando la licencia de transporte de mercancías por cuenta propia se expide para vehículos de capacidad útil superior a 3 t, debe emitirse un documento de acompañamiento para todas las mercancías en cada transporte",
+      "reason": "Restituye que la licencia se refiere al transporte de mercancías."
+    },
+    {
+      "id": "2e6dc7f1f6eb9c4ad881b58b58ae4c9ae68174258fba98bd1d71d92833d7476a",
+      "before": "El CDC, sistema de control continuo de los movimientos de la suspensión, regula constantemente los amortiguadores para garantizar la estabilidad y limitar los movimientos al frenar, en curvas y cambios de rasante",
+      "after": "Gracias al CDC (sistema de control continuo de los rebotes), que regula constantemente los amortiguadores, se garantizan la estabilidad del vehículo y la limitación de los rebotes al frenar, en curvas, cambios de rasante, etc.",
+      "reason": "Conserva los rebotes mencionados en el original y la formulación de garantía."
+    },
+    {
+      "id": "2ef68c0d1c3a9a3793addb13838d1297d99b61a65173e491e757550e938850bc",
+      "before": "Los transportes gratuitos están exentos de la aplicación del CMR",
+      "after": "Los transportes gratuitos están exentos de la aplicación del CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera)",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "2f5a11742c0b7c177fae97248051464bb1e591d753c9b9e7ed109037d8b605c2",
+      "before": "Un transportista británico puede realizar, antes de regresar al Reino Unido, un solo viaje de intercambio entre países de la UE además de uno interior posterior a la descarga en el país de llegada",
+      "after": "Un transportista británico puede realizar, antes de regresar al Reino Unido, un solo viaje de tipo cross-trade (operación de intercambio cruzado) además de uno interior posterior a la descarga en el país de la UE de llegada",
+      "reason": "Conserva el término y la explicación del original sin limitar el intercambio cruzado a países de la UE."
+    },
+    {
+      "id": "2f6332ee68dbbe40d7edfa35a56a7a6357be3e27a3b8db5ae796a8532ea0a139",
+      "before": "El Reglamento (CE) 561/2006 prevé una conducción diaria de 9 horas que puede ampliarse a 10 horas como máximo tres veces por semana",
+      "after": "El Reglamento (CE) 561/2006 sobre tiempos de conducción y descanso prevé una conducción diaria de 9 horas que puede ampliarse a 10 horas como máximo tres veces por semana",
+      "reason": "Restituye la referencia a los tiempos de conducción y descanso."
+    }
+  ],
+  "reviewed_file_sha256": "0a5683fcd969f4a0a594771f80ff8d0984abf3262e07edf4ebe198498b45caeb"
+}

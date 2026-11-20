@@ -1,0 +1,43 @@
+{
+  "batch": "055",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2c625f9fd7c4a77b42399371ad804875f934582bb06f6f7d5644c4346d2adaab",
+  "source_sha256": "ba2d562af5040a23febccc7409a184f5ccaa33842cf53139b3a97dbe9773f81a",
+  "corrections": [
+    {
+      "id": "495e7adced9e588237ba27a101a2e30f47ac86ee0e742c285170b1b2830fe54b",
+      "before": "Un servicio ocasional con entrada vacía y salida con pasajeros transporta a un grupo en un viaje que no empieza ni termina en el Estado de establecimiento del transportista; los pasajeros no suben ni bajan allí",
+      "after": "Se entiende por servicio ocasional con entrada vacía y salida con pasajeros el transporte de un grupo de viajeros que no empieza ni termina en el Estado donde está establecido el transportista; es decir, los viajeros no suben ni bajan en ese Estado",
+      "reason": "Definition ('si intendono') rendered as a plain statement; restored the definitional form ('se entiende por') with the same meaning"
+    },
+    {
+      "id": "498253606a445aefaaf006ebff408cf8f879ef81a91f3951a555ae02dc046fbb",
+      "before": "El acuerdo Interbus es un acuerdo bilateral que regula servicios ocasionales a puertas cerradas entre Italia y la Confederación Suiza",
+      "after": "El acuerdo Interbus es un acuerdo bilateral que regula servicios ocasionales de puertas cerradas entre Italia y la Confederación Suiza",
+      "reason": "Se traduce el término de transporte a porte chiuse como circuito cerrado, no como puertas físicamente cerradas.; 'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    },
+    {
+      "id": "49f7b73f797d2615aaf5f9b64ae96441382678319045c261724295b69b09449e",
+      "before": "Para conducir trolebuses es necesario que el vehículo tenga certificado ATP",
+      "after": "Para conducir vehículos eléctricos sin rieles alimentados por línea aérea es necesario que el vehículo tenga certificado ATP",
+      "reason": "Filoveicoli abarca vehículos eléctricos sin rieles alimentados por línea aérea, no solo trolebuses."
+    },
+    {
+      "id": "4a3458e976c9a382b08ad973bae13a8f58598e5e9fb0e97e9944b0656399a367",
+      "before": "Para conducir trolebuses se necesita el certificado de aptitud expedido por la USTIF",
+      "after": "Para conducir vehículos eléctricos sin rieles alimentados por línea aérea se necesita el certificado de aptitud expedido por la USTIF",
+      "reason": "Filoveicoli abarca vehículos eléctricos sin rieles alimentados por línea aérea, no solo trolebuses."
+    }
+  ],
+  "reviewed_file_sha256": "8fd34586f34a892b5d9fbdd89675336f1d456570a4e2691581e702008a280af4"
+}

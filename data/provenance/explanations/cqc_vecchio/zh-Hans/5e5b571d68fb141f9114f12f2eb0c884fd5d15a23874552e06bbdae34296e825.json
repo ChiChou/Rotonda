@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed8c-ba93-79c3-8632-c894e4fc3473"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 13470,
+          "quesito_id": 3020,
+          "text_it": "L’autostrada è una strada a carreggiate separate prive di intersezioni a raso",
+          "answer": 1,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2700275303fc66292493c50a9de885d4cb0f112d17476d6d2c6cd0734091ba57",
+        "italian": "L'autostrada ha carreggiate indipendenti o separate da uno spartitraffico invalicabile e non ha intersezioni a raso.",
+        "italian_sha256": "e101073463c45d1a9f3762c8ce2eb97654edb7fbe8a90621712187b00773bef5"
+      },
+      {
+        "source": {
+          "number": 13471,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane principali sono prive di intersezione a raso",
+          "answer": 1,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d22152d3513089ff0541c093b02f9fd40fe03266cd1413769b66ea18eb7d5573",
+        "italian": "La strada extraurbana principale non ha intersezioni a raso: gli incroci sono risolti senza attraversamenti allo stesso livello.",
+        "italian_sha256": "840ab527cfa79605fc9cd54578420685e195bd3ec446c4dc17bbd5f3940bd786"
+      },
+      {
+        "source": {
+          "number": 13472,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane principali sono percorribili solo da alcune categorie di veicoli",
+          "answer": 1,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2d067d05081db2a3aedf539bcb84eec43d01c681e9346a14e20103292d7e8078",
+        "italian": "La circolazione è riservata a determinate categorie di veicoli a motore; per gli altri utenti eventualmente ammessi sono previsti spazi opportuni.",
+        "italian_sha256": "0c30577c368adaceb5e67f1cbd95b3dd1478ec805c449459ac391716d1e2312a"
+      },
+      {
+        "source": {
+          "number": 13473,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane principali hanno carreggiate indipendenti",
+          "answer": 1,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "80e767fb841002844f264b667f0012c8293b6b20632409c2cf6ad2e66dbe80f3",
+        "italian": "Il quiz indica VERO, ma la formulazione è incompleta: le carreggiate possono essere indipendenti oppure separate da uno spartitraffico invalicabile.",
+        "italian_sha256": "b3f8aae6d6fc151d1bfbf6e02496494c10a01edcc1e6d7a93c344d437726a0bb"
+      },
+      {
+        "source": {
+          "number": 13474,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane principali debbono essere attrezzate con apposite aree di servizio",
+          "answer": 1,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ccb3ba3d235f6edc5356b6f5f93913f2c61068891d8c7b7564c1586eb12ce82c",
+        "italian": "La strada extraurbana principale deve avere aree di servizio con spazi di sosta e accessi dotati di corsie di accelerazione e decelerazione.",
+        "italian_sha256": "94f7e2cc0660259c55db0b24c4176c635b852ddd97c9d89454c69e7bc09f61e0"
+      },
+      {
+        "source": {
+          "number": 13475,
+          "quesito_id": 3020,
+          "text_it": "Si definisce \"strada\" qualunque area sulla quale possono transitare pedoni, veicoli, animali",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "226431aafc5fe65c8e3b2fadd6e2fcdea6cc52695db4a80e97ab330a110c60b8",
+        "italian": "Non basta che un'area sia transitabile: per la definizione del Codice deve essere a uso pubblico e destinata alla circolazione.",
+        "italian_sha256": "8fcf209833fc02c4e21fb3a8f7464a9e843f4de19c641109f25d8ffe4fe380b4"
+      },
+      {
+        "source": {
+          "number": 13476,
+          "quesito_id": 3020,
+          "text_it": "L’autostrada ha almeno tre corsie per senso di marcia",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7afe08453e9ce119c4646e05ab3102de29e43d337bdf6d4d6e16baa8e562a75f",
+        "italian": "Non sono obbligatorie tre corsie per senso di marcia: il minimo previsto è di due corsie di marcia per ciascuna carreggiata.",
+        "italian_sha256": "d24c13612d5d84f20582dcf3b5642808172a9e0ac777cb0974848b858df74754"
+      },
+      {
+        "source": {
+          "number": 13477,
+          "quesito_id": 3020,
+          "text_it": "L’autostrada è percorribile da qualsiasi tipo di veicoli a motore",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7951b2b5d2ed2cfd5cb943c82322c150da5e2acdcacbf40da6aa7131f936bab7",
+        "italian": "Non tutti i veicoli a motore sono ammessi in autostrada: per esempio, la circolazione dei ciclomotori è vietata.",
+        "italian_sha256": "5cf632008966288a35faa3e58c97ffc0b39617d35638b048bba115883036bc9c"
+      },
+      {
+        "source": {
+          "number": 13478,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane principali hanno intersezioni a raso",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "db2be44442fd6d06b1fe7f7c064e1775a6bb45c1bc6e5ffcb11900b2048dfa0a",
+        "italian": "Le intersezioni a raso non sono una caratteristica delle strade extraurbane principali: queste strade ne devono essere prive.",
+        "italian_sha256": "99937f29c1f567823ad884259d4985e4946c5b78ee7f1472f3b9f451ccbd9f51"
+      },
+      {
+        "source": {
+          "number": 13479,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane principali sono percorribili da tutte le categorie di veicoli",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8c67b766992e02f0aea9d6e46ab5599d39cbe324c02346cdd0a9302245077d0f",
+        "italian": "Non tutte le categorie di veicoli sono ammesse: sulle extraurbane principali sono vietati, per esempio, i ciclomotori.",
+        "italian_sha256": "f8cded0c9d9867d6690848c17549f0fbe376bb79baf32c6cbdb3d81b80bb010f"
+      },
+      {
+        "source": {
+          "number": 13480,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane principali sono tutte strade statali",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1259ae784fa2e3cfb8f41eaa31724b1b2d8b8effed6b7a1def2b151956a3ebd9",
+        "italian": "Extraurbana principale indica una categoria tecnica, non necessariamente una strada statale: la classificazione amministrativa dipende anche dall'uso e dai collegamenti.",
+        "italian_sha256": "076cebaac2240aa17ccaa7846a72dbb10cef27832bca438815afb1d52699879a"
+      },
+      {
+        "source": {
+          "number": 13481,
+          "quesito_id": 3020,
+          "text_it": "La strada extraurbana principali collegano esclusivamente capoluoghi di provincia",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d926cc675ac9e95bb61826e035f0785957eddea634bb145befb043f7f918a1d3",
+        "italian": "La categoria extraurbana principale non impone collegamenti esclusivamente tra capoluoghi di provincia: è definita dalle caratteristiche della strada, non da quei soli collegamenti.",
+        "italian_sha256": "214a7489827658de329db6b2752dc3dccc365fd215277afaaa9b1e5b1775b0f0"
+      },
+      {
+        "source": {
+          "number": 13482,
+          "quesito_id": 3020,
+          "text_it": "E’ vietato il trasporto di merci pericolose sulle strade extraurbane principali",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "35fe55faa5ed0b153a63cef531a20f0ba69b6fb3aa785a295bf67c00d16ec2d6",
+        "italian": "Non esiste un divieto generale per tutte le merci pericolose su queste strade: quelle ammesse possono essere trasportate rispettando le condizioni previste e le eventuali restrizioni specifiche.",
+        "italian_sha256": "4e25016565d1c29b3d56eb6fa76ddd2eaa1c873ff72654693df7b55faf90d4f7"
+      },
+      {
+        "source": {
+          "number": 13483,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane secondarie debbono essere a carreggiate separate",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4b42f7d790ce642e840a39b9c3d106c3cc7000b42a45ee36321f5e603bee0997",
+        "italian": "Le carreggiate separate non sono richieste: la strada extraurbana secondaria è definita come strada a carreggiata unica.",
+        "italian_sha256": "607c936aab2d51c05883f62b87ca8aa5ad1f7ca641fb7188056d15bca8a0d2a3"
+      },
+      {
+        "source": {
+          "number": 13484,
+          "quesito_id": 3020,
+          "text_it": "Sulle strade extraurbane secondarie non sussiste l’obbligo delle banchine",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ba4daa97cc2e1d19456f9e23ff305e0e6b6837485dc711ad2f4f69de9f889a6a",
+        "italian": "È falso che le banchine non siano obbligatorie: la definizione della strada extraurbana secondaria le prevede.",
+        "italian_sha256": "b70536a748568c2e9a81617acc3bf521e6c60a903ff429fc66387ff1007d6f9c"
+      },
+      {
+        "source": {
+          "number": 13485,
+          "quesito_id": 3020,
+          "text_it": "Le strade extraurbane secondarie sono prive di intersezioni a raso",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a4fdb4d30cfffd7c4d2a8726e35fbe6537f59b39ffd2054a8e67c052453c13c4",
+        "italian": "Non è richiesto che le extraurbane secondarie siano prive di intersezioni a raso: queste possono quindi essere presenti.",
+        "italian_sha256": "4cf94ca55c0b96427c95a80ecf12c91e723f5de6af9afdfd72cdd7df39759c24"
+      },
+      {
+        "source": {
+          "number": 13486,
+          "quesito_id": 3021,
+          "text_it": "Gli accessi alle proprietà laterali di una strada extraurbana principale, sono coordinati",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8db89cbf33fe6163a74f61b70af950175aaecd13faf21b87163ed8c79d24a346",
+        "italian": "Sulla strada extraurbana principale gli accessi alle proprietà laterali devono essere coordinati.",
+        "italian_sha256": "42f24c71c0b6dd8876f47e34c3ac4e0b108a744ee8ee6e69457ef5da347503aa"
+      },
+      {
+        "source": {
+          "number": 13487,
+          "quesito_id": 3021,
+          "text_it": "Le strade extraurbane secondarie hanno almeno una corsia per senso di marcia",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "67e46c5006ff879d926366286e0ff0cee9742ef6d9be4ff609e22d61bfaf3dd4",
+        "italian": "La strada extraurbana secondaria ha un'unica carreggiata con almeno una corsia per ciascun senso di marcia.",
+        "italian_sha256": "e3c0d5b4086801e9b82f7c9291e49bd3bba0011b75f5e01c640d83da9fa9fae8"
+      },
+      {
+        "source": {
+          "number": 13488,
+          "quesito_id": 3021,
+          "text_it": "Le strade extraurbane secondarie sono munite di banchine",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "34d046b9e1d7e661b0110135b1bdd7541e4b32d3e2b69fa2f26cc9db500fd375",
+        "italian": "Le banchine sono previste tra le caratteristiche della strada extraurbana secondaria.",
+        "italian_sha256": "635739274d81d217f67abf5594ebf2169bd56d003305aff3ca7352b881bd78a9"
+      },
+      {
+        "source": {
+          "number": 13489,
+          "quesito_id": 3021,
+          "text_it": "Le intersezioni a raso sono presenti sulle strade extraurbane secondarie",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "783b72bae72c44c54c800b52423c15056bedea31efcb645bfcba20c602c9fff1",
+        "italian": "Il quiz indica VERO: sulle extraurbane secondarie le intersezioni a raso possono essere presenti, ma non sono obbligatorie su ogni strada.",
+        "italian_sha256": "0d7f281b646df2659815396530903baa9a93d555497b85f3c2ca23c87f464a2c"
+      },
+      {
+        "source": {
+          "number": 13490,
+          "quesito_id": 3021,
+          "text_it": "Le strade urbane di scorrimento sono dotate di intersezioni a raso regolamentate da semaforo",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "347022c8d25b8059a386ba191ec9a41a26159d7f5599736473dcb0bc7417206e",
+        "italian": "Il quiz indica VERO: se una strada urbana di scorrimento ha intersezioni a raso, queste devono essere semaforizzate; la loro presenza non è obbligatoria.",
+        "italian_sha256": "d7f06cf6ec445a64b5163aadf9e207e645d6f79a16dd0ac74161556c848c604e"
+      },
+      {
+        "source": {
+          "number": 13491,
+          "quesito_id": 3021,
+          "text_it": "Dal punto di vista amministrativo le strade sono suddivise in statali, regionali provinciali comunali",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "52cd2ece65d07edf757dd51d843ba195bf4b85532e7367d6572a7150086b1692",
+        "italian": "La classificazione amministrativa distingue le strade in statali, regionali, provinciali e comunali, in base all'uso e ai collegamenti svolti.",
+        "italian_sha256": "d8dcd2f9722d5904d1acfa55449e8669b4e41a58fbd838e95273075325d0e979"
+      },
+      {
+        "source": {
+          "number": 13492,
+          "quesito_id": 3021,
+          "text_it": "Le strade statali possono congiungere fra loro capoluoghi di regione",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3ad4afe64601be02f357abfe31e34907c1b2a0d6066a9c4c93f926e5c4209053",
+        "italian": "Il collegamento tra capoluoghi di regione è uno dei criteri previsti per la classificazione di una strada extraurbana come statale.",
+        "italian_sha256": "3213fa207b75d68ef09c34e809da056eeab55813d47be76b8f152ba11ad81ed6"
+      },
+      {
+        "source": {
+          "number": 13493,
+          "quesito_id": 3021,
+          "text_it": "Le strade statali possono congiungere la rete viabile principale dello stato con quelle degli stati limitrofi",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "03f1531d00ed5b7aab5c29cb8baa5cc9ae5dd3d017ba62d00ed823c1ce946f47",
+        "italian": "Tra i criteri per classificare una strada extraurbana come statale c’è il collegamento della rete principale italiana con quella degli Stati confinanti.",
+        "italian_sha256": "1c887603e27424f30b9b4c87eeaadcc7bb2f34636f071997b0916cbb6d8fce36"
+      },
+      {
+        "source": {
+          "number": 13494,
+          "quesito_id": 3021,
+          "text_it": "Le strade regionali collegano i capoluoghi di provincia della stessa regione.",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bf9a619d7cc5f105ed6ff6bf407581b3ea358a2a43f381336bdfecba57ecf9bb",
+        "italian": "Il collegamento tra capoluoghi di provincia della stessa regione è uno dei criteri per classificare una strada extraurbana come regionale.",
+        "italian_sha256": "2adb2a271643be128c3196e0b87763b2abb8868065ba6749e32990c931dee0a9"
+      },
+      {
+        "source": {
+          "number": 13495,
+          "quesito_id": 3021,
+          "text_it": "Le strade provinciali allacciano al capoluogo di provincia capoluoghi dei singoli comuni di quella stessa provincia",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7c0404ac6f75851de406138506cbc0548b14497e41cf768ed16633805dc189b4",
+        "italian": "Una strada extraurbana può essere provinciale quando collega il capoluogo di provincia ai capoluoghi dei comuni della stessa provincia.",
+        "italian_sha256": "016f4b835e5d584116231da048925a17964454aa3388ea159bffdaf680da2492"
+      },
+      {
+        "source": {
+          "number": 13496,
+          "quesito_id": 3021,
+          "text_it": "Le strade comunali congiungono il capoluogo del comune con le sue frazioni",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bb2c17d8a33d9d4d6817d86a0f7185d196f4c0e649c61c69baeaa82ee2782081",
+        "italian": "Il collegamento del capoluogo comunale con le sue frazioni è uno dei criteri per classificare una strada extraurbana come comunale.",
+        "italian_sha256": "1f2df5458d8f596d1e1b0e50251a83a8c19159ffc1293f7b8629db39e82bd73c"
+      },
+      {
+        "source": {
+          "number": 13497,
+          "quesito_id": 3021,
+          "text_it": "Le strade urbane di scorrimento sono a carreggiata unica e doppio senso di marcia",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1b733360a25da135a370466045cf70aeb1021fce1f6094a4d4de1ad022a574ef",
+        "italian": "Non è a carreggiata unica: la strada urbana di scorrimento ha carreggiate indipendenti o separate da spartitraffico, ciascuna con almeno due corsie di marcia.",
+        "italian_sha256": "920494de823c781956b794062c31f8c970ea2e9878aed2519fb88040aa4fbafd"
+      },
+      {
+        "source": {
+          "number": 13498,
+          "quesito_id": 3021,
+          "text_it": "Dal punto di vista amministrativo le strade sono classificate in, autostrade, strade extraurbane principali, strade extraurbane secondarie e strade urbane di scorrimento",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "eefcd67651c420dbb0a8fb6bcaf27979dac60f215dd332d4a308c747fefbf78d",
+        "italian": "Quelli elencati sono tipi basati sulle caratteristiche tecniche e funzionali. La classificazione amministrativa distingue invece strade statali, regionali, provinciali e comunali.",
+        "italian_sha256": "2af5ce5712389240ec73b87515a40e8b84e7c921356b613399966408ce262542"
+      },
+      {
+        "source": {
+          "number": 13499,
+          "quesito_id": 3021,
+          "text_it": "Le strade statali sono di proprietà del comune",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5d2bd54f712fe3e2c6522ac022ff44c10b83483841bac9d862d4237b83ab9d70",
+        "italian": "Le strade statali non sono di proprietà del comune: il Codice indica lo Stato come ente proprietario delle strade statali.",
+        "italian_sha256": "317baa100a7afee07faf05da868359593801ccfa773a49e8b9686ea46bde2936"
+      },
+      {
+        "source": {
+          "number": 13500,
+          "quesito_id": 3021,
+          "text_it": "Le strade statali debbono attraversare almeno tre regioni",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "957a13a3536310f60e4dfbc0017d0ccc28753c06a9161c8d46addad7e7f3332c",
+        "italian": "Non è richiesto che una strada statale attraversi almeno tre regioni: tra i criteri basta, per esempio, che colleghi la rete principale italiana a quella di uno Stato confinante.",
+        "italian_sha256": "638908db08f51543bd7f3ac06b462a3d203555477435370f6d86af5cdef4d654"
+      },
+      {
+        "source": {
+          "number": 13501,
+          "quesito_id": 3021,
+          "text_it": "Le strade regionali collegano i capoluoghi di due regioni diverse",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3e2077cbe4931ea728bdd82659caf34a3d9b6faee1eacd7bfb505bf6b0773d81",
+        "italian": "Il collegamento fra capoluoghi di regioni diverse è un criterio per le strade statali; quello fra capoluoghi di provincia della stessa regione è un criterio per le regionali.",
+        "italian_sha256": "436a17e5bca7c280c55ea162d9515cad4497753d749edc88d1c93796bcf9f47b"
+      },
+      {
+        "source": {
+          "number": 13502,
+          "quesito_id": 3021,
+          "text_it": "Le strade provinciali non hanno intersezioni a raso",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1249c5be809f4cf6710a55f97b94e4006bbb67efc02c10fbef882596db2ec84a",
+        "italian": "La qualifica provinciale riguarda il ruolo amministrativo e i collegamenti, e non esclude le intersezioni a raso. Una strada urbana di scorrimento può averne, se semaforizzate.",
+        "italian_sha256": "3bfba66dcd5882246a035e811545382dbbf8b2be7bf9a661257fadc8bd181686"
+      },
+      {
+        "source": {
+          "number": 13503,
+          "quesito_id": 3021,
+          "text_it": "Le strade comunali sono riservate ai veicoli a motore",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5136f1e69a470cc7204eb966bb3c67a208ddcbab936ea52167ff94be98a61672",
+        "italian": "Comunale indica una classificazione amministrativa, non una riserva ai veicoli a motore: la strada è destinata alla circolazione anche di pedoni e animali, salvo specifiche limitazioni.",
+        "italian_sha256": "f8cc2e238a9c2a4f49df8ffc561783d2c7c5b9cc8021f9472e907ac1268e0647"
+      },
+      {
+        "source": {
+          "number": 13504,
+          "quesito_id": 3022,
+          "text_it": "I veicoli a motore debbono, di norma, circolare in prossimità del margine destro della carreggiata",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "55efdcc51721a8589af51182bb07e497f389f0038994ad576c88f2804de28a6b",
+        "italian": "Di norma i veicoli devono circolare sulla parte destra della carreggiata, vicino al margine destro, anche quando la strada è libera.",
+        "italian_sha256": "4905db03a9c6dd335f565514782be23b80c86bdf3d70919e0063989788b476a6"
+      },
+      {
+        "source": {
+          "number": 13505,
+          "quesito_id": 3022,
+          "text_it": "Su una carreggiata a tre corsie per senso di marcia si deve percorrere la corsia libera più a destra, salvo diversa segnalazione",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ad3b4f59fa406592832e4429aa076d71406c181537d7e4cffa9c01515f5d2329",
+        "italian": "Salvo diversa segnalazione, con più corsie per senso di marcia si usa la corsia libera più a destra; quelle a sinistra sono riservate al sorpasso.",
+        "italian_sha256": "119143e2339d64ead4e172166215720b85087478ec874b89fb7d910672b5bc1d"
+      },
+      {
+        "source": {
+          "number": 13506,
+          "quesito_id": 3022,
+          "text_it": "Nelle strade extraurbane principali, le corsie diverse da quella di destra sono destinate al sorpasso",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7690b73fbe780bfea9b093673c9da4d0805f3cf794f7aa03026b0898c6ff1555",
+        "italian": "Salvo diversa segnalazione, sulle carreggiate con più corsie per senso di marcia si usa quella libera più a destra e le corsie a sinistra sono riservate al sorpasso.",
+        "italian_sha256": "00ac12c17075c9269a905201724a9ea037ebe5ac323953ec22c400e964947193"
+      },
+      {
+        "source": {
+          "number": 13507,
+          "quesito_id": 3022,
+          "text_it": "Nelle strade extraurbane principali, tutti i veicoli devono ordinariamente marciare sulla corsia di destra",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c32bafed992f9ee25ee9d5851933042c5a7e967b767a3794470ba723606337fe",
+        "italian": "La regola ordinaria è usare la corsia libera più a destra; le corsie a sinistra servono per il sorpasso, salvo diversa segnalazione.",
+        "italian_sha256": "e57f81e4f50727a6e2181b60e2163a3832ee9c6ec3fa02cccef2b86306cf43d3"
+      },
+      {
+        "source": {
+          "number": 13508,
+          "quesito_id": 3022,
+          "text_it": "Su un’autostrada con tre corsie per senso di marcia è vietato, ad un autocarro di 7,5 tonnellate di massa a pieno carico, circolare sulla corsia più a sinistra",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8e7f32300c1a3feac162a2412c1f39e414d2b775b074de71ab2a4d2b195182b9",
+        "italian": "L’autocarro supera le 5 tonnellate: salvo diversa segnalazione, su un’autostrada con almeno tre corsie può impegnare solo le due più vicine al margine destro.",
+        "italian_sha256": "1e8a4c5776adc0ed568b5edcc436048bfefab179e45c3a1548491d1741fe164b"
+      },
+      {
+        "source": {
+          "number": 13509,
+          "quesito_id": 3022,
+          "text_it": "Su un’autostrada con tre corsie per senso di marcia è consentito ad un autobus lungo 6,5 m e di massa a pieno carico di 7,5 t. di circolare sulla corsia più a sinistra",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ad662390c0d63aa1ae7c5ae262d45e865d137e73f61bf62ae2db98ec7cbcfae8",
+        "italian": "L’autobus è lungo meno di 7 metri e la soglia di 5 tonnellate riguarda i veicoli adibiti al trasporto di merci. Può usare la corsia sinistra per sorpassare, salvo diversa segnalazione.",
+        "italian_sha256": "3fd55e4e730047f63413d17be9c1d4e4e9a58c53de67af3da392159d24e30727"
+      },
+      {
+        "source": {
+          "number": 13510,
+          "quesito_id": 3022,
+          "text_it": "Nei centri abitati la manovra di retromarcia è vietata ai veicoli di massa a pieno carico superiore a 3,5 tonnellate",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5a2eed18a8e1688c5703e4694d633efd83e8e60e578adc35474520936e9045cc",
+        "italian": "Non esiste un divieto generale di retromarcia nei centri abitati per i veicoli oltre 3,5 tonnellate. La manovra va eseguita senza pericolo o intralcio, dando precedenza ai veicoli in marcia normale.",
+        "italian_sha256": "55eb0e98b3783149d2383abce763ebf5c62e8645b6dab9fd8a5bdbace94247f2"
+      },
+      {
+        "source": {
+          "number": 13511,
+          "quesito_id": 3022,
+          "text_it": "Su un’autostrada con tre corsie per senso di marcia è consentito, ad un autobus lungo 8 metri e di massa a pieno carico inferiore a 5 tonnellate, di circolare sulla corsia più a sinistra",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f318fd40ae8a2681d6e3dbed32872620e0123757502fd162c537b597e1c4e64d",
+        "italian": "L’autobus è lungo più di 7 metri: salvo diversa segnalazione, in autostrada con almeno tre corsie può usare solo le due più vicine al margine destro, anche se pesa meno di 5 tonnellate.",
+        "italian_sha256": "280492398dad3934ed2efb6c7f2482c0f2b886b9e25aabf2bebf3e3ff87bae1f"
+      },
+      {
+        "source": {
+          "number": 13512,
+          "quesito_id": 3022,
+          "text_it": "Nei centri abitati è di regola vietata la circolazione dei veicoli di massa a pieno carico superiore a 7,5 t. sui binari tranviari a raso",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "45e89fe3ed5f694a8100f10260d70db595444dfe9fff5e1870fb680b54fa4517",
+        "italian": "Non c’è un divieto generale legato alle 7,5 tonnellate: sui binari a raso si può procedere senza ostacolare o rallentare i tram, compatibilmente con la circolazione e salvo diversa segnalazione.",
+        "italian_sha256": "f3af68d03c0aac7f50f5f63623f9c1301d2f893fb3834ce393aedb5c61d90f79"
+      },
+      {
+        "source": {
+          "number": 13513,
+          "quesito_id": 3022,
+          "text_it": "In presenza di isola salvagente alla fermata del tram, il passaggio dei veicoli è consentita a sinistra e vietata a destra",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "426adc8273c51c168b6997c074ff8b4fd1675a4b1a92ce209cd8243d4126037a",
+        "italian": "Non è vero che si debba sempre passare a sinistra: se il salvagente è a destra dell’asse stradale, salvo diversa segnalazione si può passare da entrambi i lati, restando nel proprio senso di marcia e senza intralciare i viaggiatori.",
+        "italian_sha256": "b8ef7e9f68b18661158696c83ca95ded414cd77fb4e4c6bd966f3c5f40716409"
+      },
+      {
+        "source": {
+          "number": 13514,
+          "quesito_id": 3022,
+          "text_it": "La marcia per file parallele è vietata ai veicoli di massa superiore a 12 tonnellate",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "64672aa6415c4cd99a977f2fdc37b7b3a946b07d3d84036078e1148d607bad33",
+        "italian": "Non c’è un divieto generale basato sulle 12 tonnellate. La marcia per file parallele è ammessa nelle condizioni di traffico previste o quando autorizzata dagli agenti.",
+        "italian_sha256": "deb5577de24c6bcfecd79cb787ba568a7d5b98e9fd6926d76cc4bc7cfc333151"
+      },
+      {
+        "source": {
+          "number": 13515,
+          "quesito_id": 3022,
+          "text_it": "La marcia per file parallele è vietata ai veicoli aventi lunghezza superiore a 12 metri",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fcb2a3f324b8a7d52594f705956fbadcfc7a4989afc329d35eaee000dc4ac2e6",
+        "italian": "Non c’è un divieto generale basato sui 12 metri. La marcia per file parallele è ammessa nelle condizioni di traffico previste o quando autorizzata dagli agenti.",
+        "italian_sha256": "228117b8b6a47ef7d0f62fe1f23e3ef7d7750e5557373ebeb15825353e25c2d6"
+      },
+      {
+        "source": {
+          "number": 13516,
+          "quesito_id": 3023,
+          "text_it": "Nei centri abitati è consentito impegnare la corsia più opportuna in relazione alla direzione che i veicoli intendono prendere alla successiva intersezione",
+          "answer": 1,
+          "page": 138,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f11b882803ef79c07fd2eee5c52debe45526b2741f530c14e0916b697fcb5375",
+        "italian": "Nei centri abitati si può scegliere la corsia più adatta alla direzione da prendere alla successiva intersezione, indipendentemente dall’intensità del traffico.",
+        "italian_sha256": "7d825853b3c4952e014e78f496e509e410a8a1205b4eed6e1e7a3ec74964f66f"
+      },
+      {
+        "source": {
+          "number": 13517,
+          "quesito_id": 3023,
+          "text_it": "All'interno dei centri abitati, salvo diversa segnalazione, quando una carreggiata è a due o più corsie per senso di marcia, si deve percorrere la corsia libera più a destra",
+          "answer": 1,
+          "page": 138,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3c47b72e643b934603f90a8bc3af8b26c1de3ea3bad85bedba6418afc57ae342",
+        "italian": "Nei centri abitati vale la corsia libera più a destra, salvo diversa segnalazione; è però possibile scegliere quella opportuna per la direzione da prendere alla successiva intersezione.",
+        "italian_sha256": "2c33a4f92a5961e65299a0d4af3346fcbc3110fdd1d175ada589c74744a230dc"
+      },
+      {
+        "source": {
+          "number": 13518,
+          "quesito_id": 3023,
+          "text_it": "Quando una strada è divisa in due carreggiate separate, è obbligatorio circolare su quella di destra",
+          "answer": 1,
+          "page": 138,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d3a304d44a9ee59daeeba449fcae886298c6126d57bb272a1cd13aa92bbdc8cb",
+        "italian": "Con due carreggiate separate si percorre quella di destra, destinata al proprio senso di marcia.",
+        "italian_sha256": "1f75223eaed41db1e1780f1e4d51ee20359e894c48d4574527000e8dd63e0ec5"
+      },
+      {
+        "source": {
+          "number": 13519,
+          "quesito_id": 3023,
+          "text_it": "La marcia per file parallele è vietata nelle carreggiate a due corsie a doppio senso di marcia",
+          "answer": 1,
+          "page": 138,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2977dcdd46e400a4a5c72756a079a4dd8e0ea895c658a27b145b6e0bd8b26e0f",
+        "italian": "Con una sola corsia per senso di marcia manca normalmente lo spazio per due file nello stesso senso. Il divieto non è assoluto: la legge prevede anche i casi autorizzati dagli agenti e il tratto che precede un’intersezione regolata.",
+        "italian_sha256": "49dd99b3134b1899e99e207000119f73fb336073a89a8d003a1cffa1f03f237b"
+      }
+    ],
+    "task_sha256": "1e144716b9ae4fa1166484eb8bc10504c721db164766fd5d0e2e3a4f683d7065"
+  },
+  "rows": [
+    {
+      "number": 13470,
+      "text": "高速公路的车行道相互独立，或由不可跨越的分隔带隔开，且没有平面交叉口。"
+    },
+    {
+      "number": 13471,
+      "text": "主要城外道路没有平面交叉口：交叉通行通过不同层面的道路实现。"
+    },
+    {
+      "number": 13472,
+      "text": "道路仅供特定类别的机动车通行；对于可能获准通行的其他道路使用者，设有适当的专用空间。"
+    },
+    {
+      "number": 13473,
+      "text": "题目的答案为 VERO，但表述不完整：车行道可以相互独立，也可以由不可跨越的分隔带隔开。"
+    },
+    {
+      "number": 13474,
+      "text": "主要城外道路必须设有服务区，其中有停车空间，出入口配有加速车道和减速车道。"
+    },
+    {
+      "number": 13475,
+      "text": "一个区域仅仅能够通行还不够：按照道路法规的定义，它必须供公众使用并用于通行。"
+    },
+    {
+      "number": 13476,
+      "text": "每个行驶方向并非必须有三条车道：规定的最低要求是每条车行道有两条行车道。"
+    },
+    {
+      "number": 13477,
+      "text": "并非所有机动车都获准驶入高速公路：例如，轻便摩托车禁止通行。"
+    },
+    {
+      "number": 13478,
+      "text": "平面交叉口不是主要城外道路的特征：这类道路必须没有平面交叉口。"
+    },
+    {
+      "number": 13479,
+      "text": "并非所有类别的车辆都获准通行：例如，轻便摩托车禁止驶入主要城外道路。"
+    },
+    {
+      "number": 13480,
+      "text": "主要城外道路是一种技术类别，不一定是国道：行政分类还取决于用途和连接的地点。"
+    },
+    {
+      "number": 13481,
+      "text": "主要城外道路这一类别并不要求道路只连接各省的省会：其定义依据道路特征，而非仅依据这些连接。"
+    },
+    {
+      "number": 13482,
+      "text": "这些道路并没有对所有危险货物实行普遍禁运：允许运输的危险货物可以在遵守规定条件及任何具体限制的情况下运输。"
+    },
+    {
+      "number": 13483,
+      "text": "不要求设置分隔的车行道：次要城外道路被定义为单一车行道的道路。"
+    },
+    {
+      "number": 13484,
+      "text": "说路肩不是强制设置的是错误的：次要城外道路的定义要求设有路肩。"
+    },
+    {
+      "number": 13485,
+      "text": "次要城外道路并不要求没有平面交叉口，因此可以设有平面交叉口。"
+    },
+    {
+      "number": 13486,
+      "text": "主要城外道路通往沿路地产的出入口必须统一协调设置。"
+    },
+    {
+      "number": 13487,
+      "text": "次要城外道路只有一条车行道，每个行驶方向至少有一条车道。"
+    },
+    {
+      "number": 13488,
+      "text": "路肩是次要城外道路规定具备的特征之一。"
+    },
+    {
+      "number": 13489,
+      "text": "题目的答案为 VERO：次要城外道路可以设有平面交叉口，但并非每条道路都必须设有。"
+    },
+    {
+      "number": 13490,
+      "text": "题目的答案为 VERO：城市快速道路如果设有平面交叉口，就必须以交通信号灯控制；但并非必须设有平面交叉口。"
+    },
+    {
+      "number": 13491,
+      "text": "行政分类根据道路的用途和连接的地点，将道路分为国道、大区道路、省道和市镇道路。"
+    },
+    {
+      "number": 13492,
+      "text": "连接各大区首府是将城外道路划为国道的标准之一。"
+    },
+    {
+      "number": 13493,
+      "text": "将城外道路划为国道的标准之一，是连接意大利主要道路网与邻国的主要道路网。"
+    },
+    {
+      "number": 13494,
+      "text": "连接同一大区内各省省会是将城外道路划为大区道路的标准之一。"
+    },
+    {
+      "number": 13495,
+      "text": "连接省会与同省各市镇行政中心的城外道路，可以被划为省道。"
+    },
+    {
+      "number": 13496,
+      "text": "连接市镇行政中心与其下属村镇是将城外道路划为市镇道路的标准之一。"
+    },
+    {
+      "number": 13497,
+      "text": "城市快速道路并非只有一条车行道：其车行道相互独立或由分隔带隔开，每条车行道至少有两条行车道。"
+    },
+    {
+      "number": 13498,
+      "text": "所列的是根据技术和功能特征划分的道路类型。行政分类则将道路分为国道、大区道路、省道和市镇道路。"
+    },
+    {
+      "number": 13499,
+      "text": "国道不归市镇所有：道路法规将国家列为国道的所有主体。"
+    },
+    {
+      "number": 13500,
+      "text": "国道不必穿过至少三个大区：例如，只要连接意大利主要道路网与一个邻国的道路网，就符合其中一项标准。"
+    },
+    {
+      "number": 13501,
+      "text": "连接不同大区的首府是国道的一项分类标准；连接同一大区内各省省会则是大区道路的一项分类标准。"
+    },
+    {
+      "number": 13502,
+      "text": "省道的称谓涉及行政职能和连接的地点，并不排除平面交叉口。城市快速道路可以设有平面交叉口，但必须由交通信号灯控制。"
+    },
+    {
+      "number": 13503,
+      "text": "市镇道路是一种行政分类，并不意味着道路仅供机动车使用：除非有特定限制，道路也供行人和动物通行。"
+    },
+    {
+      "number": 13504,
+      "text": "通常情况下，车辆必须在车行道右侧靠近右边缘行驶，即使道路空无一车也是如此。"
+    },
+    {
+      "number": 13505,
+      "text": "除非标志另有规定，在每个行驶方向有多条车道时，应使用最靠右的空闲车道；左侧车道专供超车使用。"
+    },
+    {
+      "number": 13506,
+      "text": "除非标志另有规定，在每个行驶方向有多条车道的车行道上，应使用最靠右的空闲车道，左侧车道专供超车使用。"
+    },
+    {
+      "number": 13507,
+      "text": "通常应使用最靠右的空闲车道；除非标志另有规定，左侧车道用于超车。"
+    },
+    {
+      "number": 13508,
+      "text": "这辆货车超过5吨：除非标志另有规定，在至少有三条车道的高速公路上，它只能使用最靠近右边缘的两条车道。"
+    },
+    {
+      "number": 13509,
+      "text": "这辆客车长度不足7米，而5吨的门槛适用于货运车辆。除非标志另有规定，它可以使用左侧车道超车。"
+    },
+    {
+      "number": 13510,
+      "text": "在居民区内，对超过3.5吨的车辆没有普遍的倒车禁令。倒车时不得造成危险或妨碍，并须让正常行驶的车辆先行。"
+    },
+    {
+      "number": 13511,
+      "text": "这辆客车长度超过7米：除非标志另有规定，在至少有三条车道的高速公路上，即使它的重量不足5吨，也只能使用最靠近右边缘的两条车道。"
+    },
+    {
+      "number": 13512,
+      "text": "没有针对7.5吨车辆的普遍禁令：在交通条件允许且标志没有另行规定的情况下，可以沿与路面齐平的轨道行驶，但不得妨碍有轨电车或使其减速。"
+    },
+    {
+      "number": 13513,
+      "text": "并非必须始终从左侧通过：如果安全岛位于道路中心线右侧，除非标志另有规定，可以从两侧通过，但须保持在自己的行驶方向内，且不得妨碍乘客。"
+    },
+    {
+      "number": 13514,
+      "text": "没有基于12吨这一重量的普遍禁令。在规定的交通条件下或经交通警察允许时，可以并排行驶。"
+    },
+    {
+      "number": 13515,
+      "text": "没有基于12米这一长度的普遍禁令。在规定的交通条件下或经交通警察允许时，可以并排行驶。"
+    },
+    {
+      "number": 13516,
+      "text": "在居民区内，可以根据下一个交叉口要行驶的方向选择最合适的车道，不受交通流量大小影响。"
+    },
+    {
+      "number": 13517,
+      "text": "在居民区内，除非标志另有规定，应使用最靠右的空闲车道；但也可以根据下一个交叉口要行驶的方向选择合适的车道。"
+    },
+    {
+      "number": 13518,
+      "text": "有两条分隔的车行道时，应使用右侧供自己行驶方向通行的车行道。"
+    },
+    {
+      "number": 13519,
+      "text": "每个行驶方向只有一条车道时，通常没有空间让同方向的车辆排成两列。禁令并非绝对：法律还规定了经交通警察允许的情况以及受管制交叉口之前的路段。"
+    }
+  ],
+  "output_sha256": "2eee540196e041b353960bb0b6d3ed2228ce5d0b83fc02d3ef376fb4dbad1152"
+}

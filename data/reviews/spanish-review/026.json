@@ -1,0 +1,49 @@
+{
+  "batch": "026",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "1e430c1c71c520090941822652f5c1547c9a6c9b124e61c45cdbc8a289e387e6",
+  "source_sha256": "35e00c21aa9ca56dff619fdb2ad5500c70e84447ba2b39ae0c9eb4c74f47b394",
+  "corrections": [
+    {
+      "id": "22780568f77e42ed98bbe9d8e2d9af32efb33360d50e1a006cacabc55f74fe9f",
+      "before": "A bordo de los vehículos que transportan sustancias peligrosas de forma distinta a la cisterna puede llevarse opcionalmente el certificado de aprobación modelo DTT 306 para vehículos EX/II, EX/III, FL, OX, AT y vehículos cisterna",
+      "after": "A bordo de los vehículos que transportan sustancias peligrosas de forma distinta a la cisterna puede llevarse opcionalmente el certificado de aprobación modelo DTT 306 (llamado «barrato rosa») para vehículos EX/II, EX/III, FL, OX, AT y vehículos cisterna",
+      "reason": "Restituye la denominación barrato rosa del certificado."
+    },
+    {
+      "id": "2297e43eb33c7cc6ffd48e5eb9a415bf6ca5d77c0655ef905feb692a7e59fc93",
+      "before": "La logística inversa genera una ventaja ambiental porque el producto devuelto puede reacondicionarse",
+      "after": "La reverse logistics (logística inversa) genera una ventaja ambiental porque el producto devuelto puede reacondicionarse",
+      "reason": "Restituye el término original y su explicación."
+    },
+    {
+      "id": "22ba0151c699842254daa2f915d71b461e358c9711ac6ba0e5356d66eaa3eeed",
+      "before": "El panel mostrado indica el número consecutivo de una curva cerrada dentro de una serie",
+      "after": "El panel mostrado indica el número consecutivo de una curva de herradura dentro de una serie",
+      "reason": "Tornanti son curvas de herradura, no cualquier curva cerrada."
+    },
+    {
+      "id": "22e77fcce65554f5ad92b49eb1e7f4b5ce12cc9dd944c4eeaca6ff4891e55257",
+      "before": "En los frenos de tambor, las zapatas están cubiertas con material de fricción",
+      "after": "En los frenos de tambor, las zapatas están cubiertas con revestimiento de fricción (ferodo)",
+      "reason": "Restituye el término ferodo incluido en el original."
+    },
+    {
+      "id": "23834070d101942616c4ac8d4af70053330548511671f9b8f2a318d89ccd272a",
+      "before": "La línea blanca transversal de la figura indica el punto donde los conductores deben detenerse ante la señal de ALTO Y CEDA EL PASO",
+      "after": "La línea blanca transversal de la figura indica el punto donde los conductores deben detenerse ante la señal de DETENERSE Y CEDER EL PASO (STOP)",
+      "reason": "Restituye la indicación STOP incluida en el original."
+    }
+  ],
+  "reviewed_file_sha256": "90b44c17560318fc070b361120ff4e37e7ba963923cca7ccc52e48d29c87b55d"
+}

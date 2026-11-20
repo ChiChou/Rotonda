@@ -1,0 +1,1327 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "it",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26410,
+          "quesito_id": 5156,
+          "text_it": "Dovendo attraversare l'incrocio raffigurato, il veicolo S passa subito dopo il veicolo T",
+          "answer": 0,
+          "page": 22,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93.png",
+              "sha256": "da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93",
+              "page": 22,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "08cf23476af1ec9f5b175cbad7e59713611c6dbc5b0cc3d54c7cc8b1213ec914",
+        "localized_text": "Dovendo attraversare l'incrocio raffigurato, il veicolo S passa subito dopo il veicolo T"
+      },
+      {
+        "source": {
+          "number": 26411,
+          "quesito_id": 5156,
+          "text_it": "Dovendo attraversare l'incrocio raffigurato, i veicoli A e S passano contemporaneamente dopo il passaggio del veicolo T",
+          "answer": 0,
+          "page": 22,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93.png",
+              "sha256": "da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93",
+              "page": 22,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "21def1c29581aea28429e71520299fdb61ada94a2504d3d1d95c83f1da7e08da",
+        "localized_text": "Dovendo attraversare l'incrocio raffigurato, i veicoli A e S passano contemporaneamente dopo il passaggio del veicolo T"
+      },
+      {
+        "source": {
+          "number": 26412,
+          "quesito_id": 5157,
+          "text_it": "Nell'incrocio raffigurato, il veicolo B ha il diritto di precedenza",
+          "answer": 1,
+          "page": 22,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+              "sha256": "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+              "page": 22,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "c459d6834f62ddfbe352c6961617f5b57b3488a21694a04cd2d5ac41a8317daa",
+        "localized_text": "Nell'incrocio raffigurato, il veicolo B ha il diritto di precedenza"
+      },
+      {
+        "source": {
+          "number": 26413,
+          "quesito_id": 5157,
+          "text_it": "Nell'incrocio raffigurato, i veicoli passano nel seguente ordine: B, T, S",
+          "answer": 1,
+          "page": 22,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+              "sha256": "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+              "page": 22,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "977478f9023e1a54e76a59691a526e5cfe86b846482db1eba8e2ea0fa4c3dd22",
+        "localized_text": "Nell'incrocio raffigurato, i veicoli passano nel seguente ordine: B, T, S"
+      },
+      {
+        "source": {
+          "number": 26414,
+          "quesito_id": 5157,
+          "text_it": "Nell'incrocio raffigurato, il veicolo S passa per ultimo",
+          "answer": 1,
+          "page": 22,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+              "sha256": "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+              "page": 22,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "da3754f647ffa66d9902ab693e0c60bf26b15aa244abc64e1af2fd229dc8e3ff",
+        "localized_text": "Nell'incrocio raffigurato, il veicolo S passa per ultimo"
+      },
+      {
+        "source": {
+          "number": 26415,
+          "quesito_id": 5157,
+          "text_it": "Nell'incrocio raffigurato, tutti i conducenti hanno l'obbligo di essere prudenti per evitare incidenti",
+          "answer": 1,
+          "page": 22,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+              "sha256": "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+              "page": 22,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8da4385eef57d3853090b1c792d8da8d9647dea1508f2c6cec9b6961bf63f7e1",
+        "localized_text": "Nell'incrocio raffigurato, tutti i conducenti hanno l'obbligo di essere prudenti per evitare incidenti"
+      },
+      {
+        "source": {
+          "number": 26416,
+          "quesito_id": 5157,
+          "text_it": "Nell'incrocio raffigurato, i veicoli passano nel seguente ordine: S, B, T",
+          "answer": 0,
+          "page": 22,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+              "sha256": "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+              "page": 22,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "506662c37e57146a7a431186dbf746903f5aeb1dcb4fb4f6d302e0c99560be57",
+        "localized_text": "Nell'incrocio raffigurato, i veicoli passano nel seguente ordine: S, B, T"
+      },
+      {
+        "source": {
+          "number": 26417,
+          "quesito_id": 5157,
+          "text_it": "Nell'incrocio raffigurato, il veicolo B dà la precedenza al veicolo T",
+          "answer": 0,
+          "page": 23,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+              "sha256": "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+              "page": 23,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "5fe53a280a473d8749ffb69470d62118a5287a3649d948a5999e1eaddf93827e",
+        "localized_text": "Nell'incrocio raffigurato, il veicolo B dà la precedenza al veicolo T"
+      },
+      {
+        "source": {
+          "number": 26418,
+          "quesito_id": 5157,
+          "text_it": "Nell'incrocio raffigurato, nessuno dei veicoli deve moderare la velocità",
+          "answer": 0,
+          "page": 23,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+              "sha256": "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+              "page": 23,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "6307b67ef4f23f144bb7f0c07554b99d2ec7873ffe493e53b8182b6b3ebd56a5",
+        "localized_text": "Nell'incrocio raffigurato, nessuno dei veicoli deve moderare la velocità"
+      },
+      {
+        "source": {
+          "number": 26419,
+          "quesito_id": 5157,
+          "text_it": "Nell'incrocio raffigurato, i veicoli B e S passano contemporaneamente",
+          "answer": 0,
+          "page": 23,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+              "sha256": "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+              "page": 23,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "17e3b7f3eeef3466e3f3cf0cc3e7446fad376835e798119a822d6a1f96303e15",
+        "localized_text": "Nell'incrocio raffigurato, i veicoli B e S passano contemporaneamente"
+      },
+      {
+        "source": {
+          "number": 26420,
+          "quesito_id": 5158,
+          "text_it": "Giungendo all'incrocio raffigurato, il veicolo P passa per primo",
+          "answer": 1,
+          "page": 23,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png",
+              "sha256": "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30",
+              "page": 23,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "9d5f6ebc4ccc9f4deecee7ed168cb66ed9e98014f18550d33563244cf2293638",
+        "localized_text": "Giungendo all'incrocio raffigurato, il veicolo P passa per primo"
+      },
+      {
+        "source": {
+          "number": 26421,
+          "quesito_id": 5158,
+          "text_it": "Giungendo all'incrocio raffigurato, il veicolo D dà la precedenza al veicolo P",
+          "answer": 1,
+          "page": 23,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png",
+              "sha256": "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30",
+              "page": 23,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "f2861d20d75fb749d83086b10b4c1e19213ca8bf5df24df5b2fe88fb2d71c4df",
+        "localized_text": "Giungendo all'incrocio raffigurato, il veicolo D dà la precedenza al veicolo P"
+      },
+      {
+        "source": {
+          "number": 26422,
+          "quesito_id": 5158,
+          "text_it": "Giungendo all'incrocio raffigurato, il veicolo B attende che siano passati i veicoli P e D",
+          "answer": 1,
+          "page": 23,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png",
+              "sha256": "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30",
+              "page": 23,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "845c347e26fe37c8faa6732e47a4f8f175d91c94298e7fa7f965c2ee3611b44e",
+        "localized_text": "Giungendo all'incrocio raffigurato, il veicolo B attende che siano passati i veicoli P e D"
+      },
+      {
+        "source": {
+          "number": 26423,
+          "quesito_id": 5158,
+          "text_it": "Giungendo all'incrocio raffigurato, il veicolo L dà la precedenza al veicolo B",
+          "answer": 1,
+          "page": 23,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png",
+              "sha256": "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30",
+              "page": 23,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4b687ad06b615845e490ecea9307c8aab623a7680edaea958362549c6caedd16",
+        "localized_text": "Giungendo all'incrocio raffigurato, il veicolo L dà la precedenza al veicolo B"
+      },
+      {
+        "source": {
+          "number": 26424,
+          "quesito_id": 5158,
+          "text_it": "Giungendo all'incrocio raffigurato, il veicolo P attende che siano transitati i veicoli D e B",
+          "answer": 0,
+          "page": 23,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png",
+              "sha256": "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30",
+              "page": 23,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "2fca18245cc777ed3f5eb258a732c5f40f295e52fb38d47520aa1e3c2326a24b",
+        "localized_text": "Giungendo all'incrocio raffigurato, il veicolo P attende che siano transitati i veicoli D e B"
+      },
+      {
+        "source": {
+          "number": 26425,
+          "quesito_id": 5158,
+          "text_it": "Giungendo all'incrocio raffigurato, il veicolo P attende il passaggio degli altri tre veicoli",
+          "answer": 0,
+          "page": 24,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png",
+              "sha256": "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30",
+              "page": 24,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "94b9842b38a109adcb72e66ee2d096b3085ae4c1ba359297738f39d801d5b0cb",
+        "localized_text": "Giungendo all'incrocio raffigurato, il veicolo P attende il passaggio degli altri tre veicoli"
+      },
+      {
+        "source": {
+          "number": 26426,
+          "quesito_id": 5158,
+          "text_it": "Giungendo all'incrocio raffigurato, il veicolo P ha la destra occupata in relazione alla sua direzione",
+          "answer": 0,
+          "page": 24,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png",
+              "sha256": "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30",
+              "page": 24,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "25509e742eeb3f90427d52b59f4a3c8cbfc6f3b9911921f9041fce1c46cd8ba9",
+        "localized_text": "Giungendo all'incrocio raffigurato, il veicolo P ha la destra occupata in relazione alla sua direzione"
+      },
+      {
+        "source": {
+          "number": 26427,
+          "quesito_id": 5158,
+          "text_it": "Giungendo all'incrocio raffigurato, i veicoli D e L passano per primi",
+          "answer": 0,
+          "page": 24,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png",
+              "sha256": "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30",
+              "page": 24,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "30b61587324c05fde916b15b58f5a4cf37c8982512c2e857c7b298cf5c317383",
+        "localized_text": "Giungendo all'incrocio raffigurato, i veicoli D e L passano per primi"
+      },
+      {
+        "source": {
+          "number": 26428,
+          "quesito_id": 5159,
+          "text_it": "Dovendo attraversare l'incrocio raffigurato, il veicolo E passa per primo",
+          "answer": 1,
+          "page": 24,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+              "sha256": "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+              "page": 24,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "6dc0e5ed818cc9c532c0cc06b133b64ae127edcf855ed32a44c45be90e39eec7",
+        "localized_text": "Dovendo attraversare l'incrocio raffigurato, il veicolo E passa per primo"
+      },
+      {
+        "source": {
+          "number": 26429,
+          "quesito_id": 5159,
+          "text_it": "Dovendo attraversare l'incrocio raffigurato, il veicolo C passa subito dopo il veicolo E",
+          "answer": 1,
+          "page": 24,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+              "sha256": "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+              "page": 24,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "b5b27786e5e3eba0b064d4e9e187773abe71c21dbb549caf825eaa93edfc455d",
+        "localized_text": "Dovendo attraversare l'incrocio raffigurato, il veicolo C passa subito dopo il veicolo E"
+      },
+      {
+        "source": {
+          "number": 26430,
+          "quesito_id": 5159,
+          "text_it": "Dovendo attraversare l'incrocio raffigurato, i veicoli passano nel seguente ordine: E, C, M",
+          "answer": 1,
+          "page": 24,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+              "sha256": "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+              "page": 24,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ab1587dc6b959069c25054fa9131c10a8788f5db9f4cdcd46eb6624a0baacd0c",
+        "localized_text": "Dovendo attraversare l'incrocio raffigurato, i veicoli passano nel seguente ordine: E, C, M"
+      },
+      {
+        "source": {
+          "number": 26431,
+          "quesito_id": 5159,
+          "text_it": "Dovendo attraversare l'incrocio raffigurato, il veicolo M ha la destra libera",
+          "answer": 0,
+          "page": 24,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+              "sha256": "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+              "page": 24,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "530a2d06ec56b3834d1c5b29434bff4f570ca62a61b57f0145295ced5a028a6a",
+        "localized_text": "Dovendo attraversare l'incrocio raffigurato, il veicolo M ha la destra libera"
+      },
+      {
+        "source": {
+          "number": 26432,
+          "quesito_id": 5159,
+          "text_it": "Dovendo attraversare l'incrocio raffigurato, il veicolo C attende il transito del veicolo M",
+          "answer": 0,
+          "page": 24,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+              "sha256": "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+              "page": 24,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "f859f484f8a75b5a5bc7d78a0c29c633574699b9ae57b2dc5441c1bcf1cbd5ac",
+        "localized_text": "Dovendo attraversare l'incrocio raffigurato, il veicolo C attende il transito del veicolo M"
+      },
+      {
+        "source": {
+          "number": 26433,
+          "quesito_id": 5159,
+          "text_it": "Dovendo attraversare l'incrocio raffigurato, i veicoli M e E passano contemporaneamente",
+          "answer": 0,
+          "page": 25,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+              "sha256": "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+              "page": 25,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "a5ca3da5f2b778e8308ebf0b45d16b7aff851eca3cfc2d19c7c6b5f1975325af",
+        "localized_text": "Dovendo attraversare l'incrocio raffigurato, i veicoli M e E passano contemporaneamente"
+      },
+      {
+        "source": {
+          "number": 26434,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il tram passa per primo",
+          "answer": 1,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                243.0,
+                545.63,
+                323.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "8ec2057a9a61b69e2c3b3f2fd3db495d7e111dbf1b94bcf2249db39dc175a3a4",
+        "localized_text": "Nella situazione raffigurata, il tram passa per primo"
+      }
+    ],
+    "task_sha256": "dd8aa9fe060fe31a8fff4c4ab9f2d93478ddb96bb9d8a345796bc0d64124da7c"
+  },
+  "rows": [
+    {
+      "number": 26410,
+      "text": "Il tram T passa per primo. Poi passa A: S svolta a sinistra e deve attendere anche A, che arriva dal senso opposto. S passa quindi per ultimo.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5156, domanda 26410, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 154, comma 1, lettera a: la manovra non deve creare pericolo o intralcio; MIT, quesito 5156, domanda 26405: A passa subito dopo il tram: https://aci.gov.it/codice-della-strada/art-154/"
+      ]
+    },
+    {
+      "number": 26411,
+      "text": "Il tram T passa per primo. A e S non passano insieme: S svolta a sinistra e deve attendere A, che arriva dal senso opposto. L’ordine è T, A, S.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5156, domanda 26411, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 154, comma 1, lettera a: la manovra non deve creare pericolo o intralcio; MIT, quesito 5156, domanda 26405: A passa subito dopo il tram: https://aci.gov.it/codice-della-strada/art-154/"
+      ]
+    },
+    {
+      "number": 26412,
+      "text": "B passa per primo: lungo la sua traiettoria non incontra veicoli provenienti da destra. T deve dare precedenza a B, che viene dalla sua destra; S deve a sua volta attendere T, che proviene dalla sua destra. L’ordine è B, T, S.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5157, domanda 26412, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26413,
+      "text": "B passa per primo: lungo la sua traiettoria non incontra veicoli provenienti da destra. T deve dare precedenza a B, che viene dalla sua destra; S deve a sua volta attendere T, che proviene dalla sua destra. L’ordine è B, T, S.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5157, domanda 26413, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26414,
+      "text": "B passa per primo: lungo la sua traiettoria non incontra veicoli provenienti da destra. T deve dare precedenza a B, che viene dalla sua destra; S deve a sua volta attendere T, che proviene dalla sua destra. L’ordine è B, T, S.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5157, domanda 26414, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26415,
+      "text": "Anche chi ha la precedenza deve affrontare l’incrocio con prudenza: la precedenza non elimina l’obbligo di evitare pericoli e incidenti.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5157, domanda 26415, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26416,
+      "text": "B passa per primo: lungo la sua traiettoria non incontra veicoli provenienti da destra. T deve dare precedenza a B, che viene dalla sua destra; S deve a sua volta attendere T, che proviene dalla sua destra. L’ordine è B, T, S.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5157, domanda 26416, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26417,
+      "text": "B passa per primo: lungo la sua traiettoria non incontra veicoli provenienti da destra. T deve dare precedenza a B, che viene dalla sua destra; S deve a sua volta attendere T, che proviene dalla sua destra. L’ordine è B, T, S.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5157, domanda 26417, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26418,
+      "text": "Tutti devono moderare la velocità in prossimità dell’incrocio, anche chi ha la precedenza, per poter affrontare in sicurezza le possibili interferenze.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5157, domanda 26418, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 141, comma 3: regolare la velocità in prossimità delle intersezioni: https://aci.gov.it/codice-della-strada/art-141/"
+      ]
+    },
+    {
+      "number": 26419,
+      "text": "B passa per primo: lungo la sua traiettoria non incontra veicoli provenienti da destra. T deve dare precedenza a B, che viene dalla sua destra; S deve a sua volta attendere T, che proviene dalla sua destra. L’ordine è B, T, S.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5157, domanda 26419, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26420,
+      "text": "P svolta a destra senza incrociare la traiettoria di L e passa per primo. D deve attendere P, B deve attendere D e L deve attendere B: ciascuno proviene dalla destra del conducente che gli dà precedenza. L’ordine è P, D, B, L.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5158, domanda 26420, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26421,
+      "text": "P svolta a destra senza incrociare la traiettoria di L e passa per primo. D deve attendere P, B deve attendere D e L deve attendere B: ciascuno proviene dalla destra del conducente che gli dà precedenza. L’ordine è P, D, B, L.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5158, domanda 26421, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26422,
+      "text": "P svolta a destra senza incrociare la traiettoria di L e passa per primo. D deve attendere P, B deve attendere D e L deve attendere B: ciascuno proviene dalla destra del conducente che gli dà precedenza. L’ordine è P, D, B, L.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5158, domanda 26422, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26423,
+      "text": "P svolta a destra senza incrociare la traiettoria di L e passa per primo. D deve attendere P, B deve attendere D e L deve attendere B: ciascuno proviene dalla destra del conducente che gli dà precedenza. L’ordine è P, D, B, L.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5158, domanda 26423, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26424,
+      "text": "P svolta a destra senza incrociare la traiettoria di L e passa per primo. D deve attendere P, B deve attendere D e L deve attendere B: ciascuno proviene dalla destra del conducente che gli dà precedenza. L’ordine è P, D, B, L.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5158, domanda 26424, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26425,
+      "text": "P svolta a destra senza incrociare la traiettoria di L e passa per primo. D deve attendere P, B deve attendere D e L deve attendere B: ciascuno proviene dalla destra del conducente che gli dà precedenza. L’ordine è P, D, B, L.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5158, domanda 26425, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26426,
+      "text": "P svolta a destra senza incrociare la traiettoria di L e passa per primo. D deve attendere P, B deve attendere D e L deve attendere B: ciascuno proviene dalla destra del conducente che gli dà precedenza. L’ordine è P, D, B, L.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5158, domanda 26426, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26427,
+      "text": "P svolta a destra senza incrociare la traiettoria di L e passa per primo. D deve attendere P, B deve attendere D e L deve attendere B: ciascuno proviene dalla destra del conducente che gli dà precedenza. L’ordine è P, D, B, L.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5158, domanda 26427, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    },
+    {
+      "number": 26428,
+      "text": "E svolta a destra e passa per primo. C, proveniente dal senso opposto, svolta a sinistra attraversando la traiettoria di E e deve attendere che passi; M deve dare precedenza a C, che proviene dalla sua destra. L’ordine è E, C, M.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5159, domanda 26428, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 154, comma 1, lettera a e comma 3, lettera b: la svolta va effettuata senza pericolo o intralcio e quella a sinistra segue la traiettoria prevista presso il centro dell’intersezione; la figura mostra il conflitto con E: https://www.aci.it/fileadmin/cds/art-154.php"
+      ]
+    },
+    {
+      "number": 26429,
+      "text": "E svolta a destra e passa per primo. C, proveniente dal senso opposto, svolta a sinistra attraversando la traiettoria di E e deve attendere che passi; M deve dare precedenza a C, che proviene dalla sua destra. L’ordine è E, C, M.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5159, domanda 26429, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 154, comma 1, lettera a e comma 3, lettera b: la svolta va effettuata senza pericolo o intralcio e quella a sinistra segue la traiettoria prevista presso il centro dell’intersezione; la figura mostra il conflitto con E: https://www.aci.it/fileadmin/cds/art-154.php"
+      ]
+    },
+    {
+      "number": 26430,
+      "text": "E svolta a destra e passa per primo. C, proveniente dal senso opposto, svolta a sinistra attraversando la traiettoria di E e deve attendere che passi; M deve dare precedenza a C, che proviene dalla sua destra. L’ordine è E, C, M.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5159, domanda 26430, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 154, comma 1, lettera a e comma 3, lettera b: la svolta va effettuata senza pericolo o intralcio e quella a sinistra segue la traiettoria prevista presso il centro dell’intersezione; la figura mostra il conflitto con E: https://www.aci.it/fileadmin/cds/art-154.php"
+      ]
+    },
+    {
+      "number": 26431,
+      "text": "E svolta a destra e passa per primo. C, proveniente dal senso opposto, svolta a sinistra attraversando la traiettoria di E e deve attendere che passi; M deve dare precedenza a C, che proviene dalla sua destra. L’ordine è E, C, M.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5159, domanda 26431, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 154, comma 1, lettera a e comma 3, lettera b: la svolta va effettuata senza pericolo o intralcio e quella a sinistra segue la traiettoria prevista presso il centro dell’intersezione; la figura mostra il conflitto con E: https://www.aci.it/fileadmin/cds/art-154.php"
+      ]
+    },
+    {
+      "number": 26432,
+      "text": "E svolta a destra e passa per primo. C, proveniente dal senso opposto, svolta a sinistra attraversando la traiettoria di E e deve attendere che passi; M deve dare precedenza a C, che proviene dalla sua destra. L’ordine è E, C, M.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5159, domanda 26432, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 154, comma 1, lettera a e comma 3, lettera b: la svolta va effettuata senza pericolo o intralcio e quella a sinistra segue la traiettoria prevista presso il centro dell’intersezione; la figura mostra il conflitto con E: https://www.aci.it/fileadmin/cds/art-154.php"
+      ]
+    },
+    {
+      "number": 26433,
+      "text": "E svolta a destra e passa per primo. C, proveniente dal senso opposto, svolta a sinistra attraversando la traiettoria di E e deve attendere che passi; M deve dare precedenza a C, che proviene dalla sua destra. L’ordine è E, C, M.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5159, domanda 26433, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, commi 1-3: prudenza, precedenza da destra alle traiettorie che si incrociano e precedenza ai veicoli su rotaie: https://aci.gov.it/codice-della-strada/art-145/",
+        "ACI, Codice della strada, art. 154, comma 1, lettera a e comma 3, lettera b: la svolta va effettuata senza pericolo o intralcio e quella a sinistra segue la traiettoria prevista presso il centro dell’intersezione; la figura mostra il conflitto con E: https://www.aci.it/fileadmin/cds/art-154.php"
+      ]
+    },
+    {
+      "number": 26434,
+      "text": "Il tram passa per primo perché, negli attraversamenti di linee ferroviarie e tramviarie, i veicoli su rotaie hanno la precedenza anche quando provengono da sinistra, salvo diversa segnalazione.",
+      "evidence": [
+        "MIT, quiz AM, quesito 5160, domanda 26434, figura e risposta: https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BAM%2Bitaliano%2B04%2B04%2B2025/ad547e38-92c7-4f92-850d-487be020ccc3?version=1.0",
+        "ACI, Codice della strada, art. 145, comma 3: negli attraversamenti di linee ferroviarie e tramviarie si dà precedenza ai veicoli su rotaie, salvo diversa segnalazione: https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "dd8aa9fe060fe31a8fff4c4ab9f2d93478ddb96bb9d8a345796bc0d64124da7c",
+    "output_sha256": "6973116bfa51e896198be5c2733a17a3abdce2c9bc4039c89156e0f33c666996",
+    "author": "gpt-6.1-terra / 01a1e9e6-335e-7062-ae3a-f25d4818b107",
+    "reviewer": "gpt-6.1-terra / 01a1e9e7-62b3-76c3-86ea-386a8ad6d14f",
+    "status": "accepted",
+    "checked_numbers": [
+      26410,
+      26411,
+      26412,
+      26413,
+      26414,
+      26415,
+      26416,
+      26417,
+      26418,
+      26419,
+      26420,
+      26421,
+      26422,
+      26423,
+      26424,
+      26425,
+      26426,
+      26427,
+      26428,
+      26429,
+      26430,
+      26431,
+      26432,
+      26433,
+      26434
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "8b335a8148e77921b7b4ee04c81f8b60238b92b6a00a3d469e72369cfb7e5239",
+        "attached_image_paths": [
+          "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+          "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+          "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+          "source/images/da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93.png",
+          "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png"
+        ],
+        "attached_image_sha256": [
+          "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+          "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+          "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+          "da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93",
+          "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "23681edb50bcebada1c7a10d936c0030aecdbbe1ee85945eff5c854884a56b99",
+        "attached_image_paths": [
+          "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+          "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+          "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+          "source/images/da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93.png",
+          "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png"
+        ],
+        "attached_image_sha256": [
+          "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+          "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+          "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+          "da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93",
+          "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30"
+        ]
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1e9e0-b1b0-7051-85c5-359665d4281e",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "788aa66b38d688b01c07ee75d1c14eb8673ccefc5e09e62945b3522c3a611a66",
+          "attached_image_paths": [
+            "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+            "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+            "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+            "source/images/da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93.png",
+            "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png"
+          ],
+          "attached_image_sha256": [
+            "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+            "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+            "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+            "da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93",
+            "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30"
+          ]
+        }
+      },
+      {
+        "run_id": "01a1e9e3-f704-7da2-a2d1-404b4119cfcb",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "55e7ebb52e889954c67faa4b857d98da7be3ab56194ea34202f32bf66c38d72e",
+          "attached_image_paths": [
+            "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+            "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+            "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+            "source/images/da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93.png",
+            "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png"
+          ],
+          "attached_image_sha256": [
+            "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+            "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+            "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+            "da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93",
+            "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30"
+          ]
+        }
+      },
+      {
+        "run_id": "01a1e9e6-335e-7062-ae3a-f25d4818b107",
+        "label": "author-2-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "8b335a8148e77921b7b4ee04c81f8b60238b92b6a00a3d469e72369cfb7e5239",
+          "attached_image_paths": [
+            "source/images/012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef.png",
+            "source/images/2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43.png",
+            "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+            "source/images/da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93.png",
+            "source/images/ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30.png"
+          ],
+          "attached_image_sha256": [
+            "012a05c397652fcec91048809f3cfdf5e6b6b216279c041660b933729a25c1ef",
+            "2d80c1540a38d1a0822ca69c6cdd9d8eca5f7b06ea9aae36e3f7bb8635534c43",
+            "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+            "da974fb2097ee78067a9d1ce97870725200e697af7b0e7024b1a0471407e4a93",
+            "ddd883890024545d85fbe4600a855b13d69019bf4ed04b5cf990c53f5231ef30"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "dd8aa9fe060fe31a8fff4c4ab9f2d93478ddb96bb9d8a345796bc0d64124da7c",
+          "output_sha256": "9bd5358245281889b26135d402dedc449ae6255dc51b2cacf0328fe766c88a29",
+          "author": "gpt-6.1-terra / 01a1e9e0-b1b0-7051-85c5-359665d4281e",
+          "reviewer": "gpt-6.1-terra / 01a1e9e2-c359-7371-bdae-6eb22f134fdc",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26410,
+            26411,
+            26412,
+            26413,
+            26414,
+            26415,
+            26416,
+            26417,
+            26418,
+            26419,
+            26420,
+            26421,
+            26422,
+            26423,
+            26424,
+            26425,
+            26426,
+            26427,
+            26428,
+            26429,
+            26430,
+            26431,
+            26432,
+            26433,
+            26434
+          ],
+          "issues": [
+            "26434: The explanation states priority for rail vehicles generally; the cited art. 145(3) limits this rule to crossings of railway and tram lines. Qualify the rule to that context while retaining the signage exception."
+          ]
+        },
+        {
+          "task_sha256": "241a4536f845d8828e15192116426a5fa4ed3ce79f2b6b2246722219277c2d2b",
+          "output_sha256": "eae6bb855427a938189e534e349f69c3e6a89c8c06e9e72260f4c432f8819ab1",
+          "author": "gpt-6.1-terra / 01a1e9e0-b1b0-7051-85c5-359665d4281e",
+          "reviewer": "gpt-6.1-terra / 01a1e9e2-c359-7371-bdae-6eb22f134fdc",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26410,
+            26411,
+            26412,
+            26413,
+            26414,
+            26415,
+            26416,
+            26417,
+            26418,
+            26419,
+            26420,
+            26421,
+            26422,
+            26423,
+            26424,
+            26425,
+            26426,
+            26427,
+            26428,
+            26429,
+            26430,
+            26431,
+            26432,
+            26433,
+            26434
+          ],
+          "issues": [
+            "26434: The explanation states priority for rail vehicles generally; the cited art. 145(3) limits this rule to crossings of railway and tram lines. Qualify the rule to that context while retaining the signage exception."
+          ]
+        },
+        {
+          "task_sha256": "963a098966c67b3b00cd5b2df1450ad670fbae52f4ebe8daff31ad28f8c171f4",
+          "output_sha256": "5b2b0f6271607acb60006b0ce841f8c5a9a336aa75bd84ca40c47160a64e2a24",
+          "author": "gpt-6.1-terra / 01a1e9e0-b1b0-7051-85c5-359665d4281e",
+          "reviewer": "gpt-6.1-terra / 01a1e9e2-c359-7371-bdae-6eb22f134fdc",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26410,
+            26411,
+            26412,
+            26413,
+            26414,
+            26415,
+            26416,
+            26417,
+            26418,
+            26419,
+            26420,
+            26421,
+            26422,
+            26423,
+            26424,
+            26425,
+            26426,
+            26427,
+            26428,
+            26429,
+            26430,
+            26431,
+            26432,
+            26433,
+            26434
+          ],
+          "issues": [
+            "26434: The explanation states priority for rail vehicles generally; the cited art. 145(3) limits this rule to crossings of railway and tram lines. Qualify the rule to that context while retaining the signage exception.",
+            "26418: 减速 requires a reduction in speed; the Italian says moderate speed, and art. 141(3) requires regulating speed near intersections. Use an equivalent that does not require slowing when already suitably slow."
+          ]
+        },
+        {
+          "task_sha256": "40ddd36776bfa1fa7a7073c15fdf728accc78879a85b7be5e7bb8b314553dd7f",
+          "output_sha256": "731caf8967aace2cd2e841fdb55c10f3a88945928b18c0f3ab5c173d96e4e41e",
+          "author": "gpt-6.1-terra / 01a1e9e0-b1b0-7051-85c5-359665d4281e",
+          "reviewer": "gpt-6.1-terra / 01a1e9e2-c359-7371-bdae-6eb22f134fdc",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26410,
+            26411,
+            26412,
+            26413,
+            26414,
+            26415,
+            26416,
+            26417,
+            26418,
+            26419,
+            26420,
+            26421,
+            26422,
+            26423,
+            26424,
+            26425,
+            26426,
+            26427,
+            26428,
+            26429,
+            26430,
+            26431,
+            26432,
+            26433,
+            26434
+          ],
+          "issues": [
+            "26434: The explanation states priority for rail vehicles generally; the cited art. 145(3) limits this rule to crossings of railway and tram lines. Qualify the rule to that context while retaining the signage exception."
+          ]
+        }
+      ],
+      [
+        {
+          "task_sha256": "dd8aa9fe060fe31a8fff4c4ab9f2d93478ddb96bb9d8a345796bc0d64124da7c",
+          "output_sha256": "c9f8cff4b46c34d96ed6d3a27275931c1194d1045adb1f9b990f4d8edd2cb6de",
+          "author": "gpt-6.1-terra / 01a1e9e3-f704-7da2-a2d1-404b4119cfcb",
+          "reviewer": "gpt-6.1-terra / 01a1e9e4-dd64-76b3-94d0-6bc6a4eb93f1",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26410,
+            26411,
+            26412,
+            26413,
+            26414,
+            26415,
+            26416,
+            26417,
+            26418,
+            26419,
+            26420,
+            26421,
+            26422,
+            26423,
+            26424,
+            26425,
+            26426,
+            26427,
+            26428,
+            26429,
+            26430,
+            26431,
+            26432,
+            26433,
+            26434
+          ],
+          "issues": [
+            "26412, 26413, 26414, 26416, 26417, 26419: The draft gives B, T, S and says T waits for B and S waits for T, but does not identify the right-hand priority relationships that explain those waits. Explain how the conflicting approaches determine the order, especially why T yields to B and S to T.",
+            "26420, 26421, 26422, 26423, 26424, 26425, 26426, 26427: The draft states D waits for P, B for D and L for B without explaining that each relevant vehicle comes from the other driver’s right. This leaves the tested priority rule, especially for 26421–26423, unexplained; tie those waits to the figure and article 145(2).",
+            "26428, 26429, 26430, 26431, 26432, 26433: The draft states C waits for E but does not explain the decisive opposing-traffic conflict: C turns left across E’s path, while E turns right. Explain why C yields to E as well as why M yields to C; cite authority supporting the turning manoeuvre."
+          ]
+        },
+        {
+          "task_sha256": "241a4536f845d8828e15192116426a5fa4ed3ce79f2b6b2246722219277c2d2b",
+          "output_sha256": "9ce07ac17ac1d8606383f6dd73fe217eae6c7ce5822f8894694f298bbb99eabb",
+          "author": "gpt-6.1-terra / 01a1e9e3-f704-7da2-a2d1-404b4119cfcb",
+          "reviewer": "gpt-6.1-terra / 01a1e9e4-dd64-76b3-94d0-6bc6a4eb93f1",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26410,
+            26411,
+            26412,
+            26413,
+            26414,
+            26415,
+            26416,
+            26417,
+            26418,
+            26419,
+            26420,
+            26421,
+            26422,
+            26423,
+            26424,
+            26425,
+            26426,
+            26427,
+            26428,
+            26429,
+            26430,
+            26431,
+            26432,
+            26433,
+            26434
+          ],
+          "issues": [
+            "26412, 26413, 26414, 26416, 26417, 26419: The draft gives B, T, S and says T waits for B and S waits for T, but does not identify the right-hand priority relationships that explain those waits. Explain how the conflicting approaches determine the order, especially why T yields to B and S to T.",
+            "26420, 26421, 26422, 26423, 26424, 26425, 26426, 26427: The draft states D waits for P, B for D and L for B without explaining that each relevant vehicle comes from the other driver’s right. This leaves the tested priority rule, especially for 26421–26423, unexplained; tie those waits to the figure and article 145(2).",
+            "26428, 26429, 26430, 26431, 26432, 26433: The draft states C waits for E but does not explain the decisive opposing-traffic conflict: C turns left across E’s path, while E turns right. Explain why C yields to E as well as why M yields to C; cite authority supporting the turning manoeuvre."
+          ]
+        },
+        {
+          "task_sha256": "963a098966c67b3b00cd5b2df1450ad670fbae52f4ebe8daff31ad28f8c171f4",
+          "output_sha256": "41e21363e065e0c8958fa8676e090b72ebda6725c21c5b14b868d1f3860953e2",
+          "author": "gpt-6.1-terra / 01a1e9e3-f704-7da2-a2d1-404b4119cfcb",
+          "reviewer": "gpt-6.1-terra / 01a1e9e4-dd64-76b3-94d0-6bc6a4eb93f1",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26410,
+            26411,
+            26412,
+            26413,
+            26414,
+            26415,
+            26416,
+            26417,
+            26418,
+            26419,
+            26420,
+            26421,
+            26422,
+            26423,
+            26424,
+            26425,
+            26426,
+            26427,
+            26428,
+            26429,
+            26430,
+            26431,
+            26432,
+            26433,
+            26434
+          ],
+          "issues": [
+            "26412, 26413, 26414, 26416, 26417, 26419: The draft gives B, T, S and says T waits for B and S waits for T, but does not identify the right-hand priority relationships that explain those waits. Explain how the conflicting approaches determine the order, especially why T yields to B and S to T.",
+            "26420, 26421, 26422, 26423, 26424, 26425, 26426, 26427: The draft states D waits for P, B for D and L for B without explaining that each relevant vehicle comes from the other driver’s right. This leaves the tested priority rule, especially for 26421–26423, unexplained; tie those waits to the figure and article 145(2).",
+            "26428, 26429, 26430, 26431, 26432, 26433: The draft states C waits for E but does not explain the decisive opposing-traffic conflict: C turns left across E’s path, while E turns right. Explain why C yields to E as well as why M yields to C; cite authority supporting the turning manoeuvre."
+          ]
+        },
+        {
+          "task_sha256": "40ddd36776bfa1fa7a7073c15fdf728accc78879a85b7be5e7bb8b314553dd7f",
+          "output_sha256": "adf3829883268fab99af61edaffcdbd9af3c95fc80f428da9a1ff079da1b027c",
+          "author": "gpt-6.1-terra / 01a1e9e3-f704-7da2-a2d1-404b4119cfcb",
+          "reviewer": "gpt-6.1-terra / 01a1e9e4-dd64-76b3-94d0-6bc6a4eb93f1",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26410,
+            26411,
+            26412,
+            26413,
+            26414,
+            26415,
+            26416,
+            26417,
+            26418,
+            26419,
+            26420,
+            26421,
+            26422,
+            26423,
+            26424,
+            26425,
+            26426,
+            26427,
+            26428,
+            26429,
+            26430,
+            26431,
+            26432,
+            26433,
+            26434
+          ],
+          "issues": [
+            "26412, 26413, 26414, 26416, 26417, 26419: The draft gives B, T, S and says T waits for B and S waits for T, but does not identify the right-hand priority relationships that explain those waits. Explain how the conflicting approaches determine the order, especially why T yields to B and S to T.",
+            "26420, 26421, 26422, 26423, 26424, 26425, 26426, 26427: The draft states D waits for P, B for D and L for B without explaining that each relevant vehicle comes from the other driver’s right. This leaves the tested priority rule, especially for 26421–26423, unexplained; tie those waits to the figure and article 145(2).",
+            "26428, 26429, 26430, 26431, 26432, 26433: The draft states C waits for E but does not explain the decisive opposing-traffic conflict: C turns left across E’s path, while E turns right. Explain why C yields to E as well as why M yields to C; cite authority supporting the turning manoeuvre."
+          ]
+        }
+      ]
+    ]
+  }
+}

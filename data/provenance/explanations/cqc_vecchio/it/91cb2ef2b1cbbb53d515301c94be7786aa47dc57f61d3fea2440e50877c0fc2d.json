@@ -1,0 +1,1524 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee4f-394f-7922-a153-aa52b3398c1a"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "cqc_vecchio",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 14949,
+          "quesito_id": 3178,
+          "text_it": "Al conducente viene richiesta la perfetta conoscenza di almeno quattro lingue",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0c6abaee7036dd7e4eeb8382e9a1dcb73dc2bd35aba6d4f719139838469e9976",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d78bbd673b926be8f64093fdcbb196b58a790e39852aa51f0f3d2a53eaf5baab",
+            "candidate": {
+              "number": 14949,
+              "text": "È falso che a ogni conducente sia richiesta la perfetta conoscenza di almeno quattro lingue: le competenze linguistiche eventualmente necessarie dipendono dal servizio e dall’incarico.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14949,
+              "text": "Non è richiesta a ogni conducente la perfetta conoscenza di quattro lingue. Le competenze linguistiche eventualmente necessarie dipendono dal servizio e dalle mansioni affidate.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14950,
+          "quesito_id": 3178,
+          "text_it": "Al conducente viene richiesto l’obbligo di stipulare un’assicurazione sulla vita",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3a9ddfee50a3afba5a8b69fd339303b71c35dc211e9afa12722902402c05210e",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d78bbd673b926be8f64093fdcbb196b58a790e39852aa51f0f3d2a53eaf5baab",
+            "candidate": {
+              "number": 14950,
+              "text": "È falso che il conducente debba stipulare un’assicurazione sulla vita in quanto tale: questa non è una normale mansione o un requisito generale della professione.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14950,
+              "text": "Il conducente non è obbligato, in quanto tale, a stipulare un’assicurazione sulla propria vita. Tale scelta è distinta dagli obblighi inerenti al servizio.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14953,
+          "quesito_id": 3178,
+          "text_it": "Tra gli obblighi del conducente, che non sia anche titolare dell’impresa, vi è quello di investire dei soldi propri all’interno dell’azienda",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "85c68474ee2cd0c696cc761610a1635bfcf474e61347d3c5396399f40f6d8b62",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d78bbd673b926be8f64093fdcbb196b58a790e39852aa51f0f3d2a53eaf5baab",
+            "candidate": {
+              "number": 14953,
+              "text": "È falso che il conducente debba investire denaro proprio nell’azienda per il solo fatto di lavorarvi: il suo compito è svolgere la prestazione affidata.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14953,
+              "text": "Essere conducente dipendente non comporta l’obbligo di investire denaro personale nell’azienda: la prestazione richiesta riguarda il lavoro affidato.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ],
+        "related_reasoning": {
+          "question": "Tra gli obblighi del conducente, che non sia anche titolare dell'impresa, vi è quello di investire dei soldi propri all'interno dell'azienda",
+          "text": "Il conducente dipendente non è tenuto, in quanto tale, a investire denaro proprio nell’azienda: il suo impegno riguarda la prestazione di lavoro.",
+          "evidence": [
+            "Codice civile, art. 2094, il lavoratore subordinato si obbliga a prestare il proprio lavoro alle dipendenze e sotto la direzione dell’imprenditore"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 14956,
+          "quesito_id": 3179,
+          "text_it": "Il conducente, per contribuire alla qualità del servizio, deve comunicare in azienda eventuali problemi che possono insorgere durante l’esecuzione del servizio",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "37e30ee79b4b1bbf0dc08fadbfa639bc9db325a64d3b8599aab441cfde4cc335",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d78bbd673b926be8f64093fdcbb196b58a790e39852aa51f0f3d2a53eaf5baab",
+            "candidate": {
+              "number": 14956,
+              "text": "Segnalare tempestivamente i problemi permette all’azienda di organizzare una risposta e limitare le conseguenze sul servizio.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14956,
+              "text": "Segnalare all’azienda i problemi emersi durante il servizio permette di coordinarne la gestione e limitarne le conseguenze.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14957,
+          "quesito_id": 3179,
+          "text_it": "Il conducente, per contribuire alla qualità del servizio, deve affrontare gli imprevisti, secondo le indicazione dell’azienda, al fine di assolvere agli obblighi contrattuali",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fdeefe1238ef08bfeba79eea677e77554613c42aad3338e6ad83d8e85301f487",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d78bbd673b926be8f64093fdcbb196b58a790e39852aa51f0f3d2a53eaf5baab",
+            "candidate": {
+              "number": 14957,
+              "text": "Di fronte a un imprevisto il conducente segue le indicazioni aziendali e collabora alla soluzione, così da favorire l’adempimento degli impegni verso il cliente.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14957,
+              "text": "Di fronte a un imprevisto il conducente segue le indicazioni aziendali per contribuire all’esecuzione del trasporto e degli impegni assunti.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14961,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente non deve intervenire perchè non è parte in causa",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "438001a59f75b376b2fb50230968f4392a68bd7930d431853c339d265f9f9423",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d78bbd673b926be8f64093fdcbb196b58a790e39852aa51f0f3d2a53eaf5baab",
+            "candidate": {
+              "number": 14961,
+              "text": "Il prezzo riguarda il rapporto tra vettore e cliente: normalmente il conducente non decide la controversia e la segnala all’azienda. Il verdetto non esclude che possa intervenire se espressamente incaricato.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14961,
+              "text": "La controversia sul prezzo riguarda il rapporto tra vettore e cliente: il conducente, se non incaricato, lascia la questione ai responsabili dell’impresa. Può comunque riferire i fatti utili.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14962,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente non è tenuto a prendere posizione a favore di una o dell’altra parte",
+          "answer": 1,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "543b227e23078e38e77f592ba315728cf4bc4e43b525b60882295b41ae2f06f6",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14962,
+              "text": "Il conducente non deve schierarsi nella controversia commerciale sul prezzo: la sua gestione spetta alle parti interessate e ai responsabili competenti.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14962,
+              "text": "La contestazione del prezzo riguarda il rapporto tra cliente e vettore: il conducente non deve schierarsi.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14965,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve svolgere la funzione di intermediario cercando di mettere d’accordo le parti",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "97f372feef208e6226c55d6067d72bc75bdaae76d190b95708d918a934fc7378",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14965,
+              "text": "Fare da intermediario nella trattativa non è un compito automatico del conducente: la controversia va gestita dalle parti o dai loro incaricati.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14965,
+              "text": "Il conducente non è tenuto a mediare sul prezzo: la controversia va rimessa al vettore e al cliente.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire prendendo le difese del datore di lavoro",
+          "text": "Il conducente non deve prendere le difese del datore nella controversia sul prezzo: deve mantenere un comportamento professionale e riferire la questione all’impresa."
+        }
+      },
+      {
+        "source": {
+          "number": 14966,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire e prendere contatti direttamente con il cliente se il problema riguarda un trasporto da lui effettuato",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7ee5eb7bfdb557e923e2645d5b80690a43e135754c65e7fd61ac9880080de162",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14966,
+              "text": "Aver effettuato il trasporto non obbliga il conducente a trattare direttamente con il cliente la disputa sul prezzo: la questione spetta ai responsabili competenti.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14966,
+              "text": "Aver effettuato il trasporto non obbliga il conducente a trattare direttamente la controversia economica: se ne occupano le parti competenti.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 14967,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente può intervenire se ritiene che il cliente abbia ragione",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2fbca60e5f925c84b7e0be2def5be12107a155cbbe1d4bc739907be236cbe90a",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14967,
+              "text": "Il solo convincimento che il cliente abbia ragione non autorizza il conducente a gestire di propria iniziativa la controversia commerciale. Il verdetto riguarda un intervento nella disputa, non la semplice comunicazione dei fatti ai responsabili.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14967,
+              "text": "Il conducente non deve prendere le parti del cliente in base alla propria opinione: la questione del prezzo riguarda il cliente e il vettore.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire prendendo le difese del datore di lavoro",
+          "text": "Il conducente non deve prendere le difese del datore nella controversia sul prezzo: deve mantenere un comportamento professionale e riferire la questione all’impresa."
+        }
+      },
+      {
+        "source": {
+          "number": 14968,
+          "quesito_id": 3180,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve assentarsi dal lavoro se è direttamente coinvolto",
+          "answer": 0,
+          "page": 8,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cb275bddf630303a08d9ae3d188e0ae45e232a55d315b207d00183281ca39095",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b91080c38dd94ab3bf53f886f591492c6c9d6838018ab96d519284dd41ac9f23",
+            "candidate": {
+              "number": 14968,
+              "text": "Il coinvolgimento nella vicenda non impone al conducente di assentarsi dal lavoro: deve continuare a svolgere le proprie mansioni e segnalare la questione ai responsabili.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": {
+              "number": 14968,
+              "text": "Il coinvolgimento nella contestazione non impone al conducente di assentarsi: deve continuare a comportarsi professionalmente e riferire la questione ai responsabili.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire prendendo le difese del datore di lavoro",
+          "text": "Il conducente non deve prendere le difese del datore nella controversia sul prezzo: deve mantenere un comportamento professionale e riferire la questione all’impresa."
+        }
+      },
+      {
+        "source": {
+          "number": 15006,
+          "quesito_id": 3184,
+          "text_it": "L’equilibratura non corretta dei freni può dipendere dal diverso consumo dei ferodi di uno stesso asse",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6c0dccab8f1448bc7886248cbf6fa3e0db462254f705c6758c77e5eb9a6a5483",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/5c6a633068c2c17e832a3dcdd4adf32c35496880c93584cfd768044aef90ab31",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata sul requisito specifico di rifasatura del motore."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata sul rapporto tra diagnosi personale dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata sul nesso specifico tra diversa usura dei ferodi e squilibrio."
+              },
+              {
+                "number": 15014,
+                "reason": "Fonte primaria non individuata sul nesso specifico tra bloccaggio unilaterale e inefficienza."
+              },
+              {
+                "number": 15015,
+                "reason": "Fonte primaria non individuata per distinguere il guasto dell’indicatore da quello del circuito."
+              },
+              {
+                "number": 15016,
+                "reason": "Fonte primaria non individuata sul rapporto specifico tra filtro antiparticolato e freni."
+              },
+              {
+                "number": 15017,
+                "reason": "Fonte primaria non individuata sul rapporto specifico tra olio motore e freni."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’equilibratura non corretta dei freni può dipendere da differente pressione di gonfiaggio dei pneumatici sullo stesso asse",
+          "text": "VERO. Una pressione diversa dei pneumatici sullo stesso asse può far deviare il veicolo in frenata. Il quesito usa «equilibratura dei freni» in senso ampio: la deviazione non prova da sola uno squilibrio delle forze prodotte dai freni.",
+          "evidence": [
+            "Department for Transport, Highway Code, allegato 6, https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security: deviazione in frenata associata anche a pneumatici gonfiati scorrettamente"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 15342,
+          "quesito_id": 3241,
+          "text_it": "L’uso dell’autotreno è indicato quando si trasportano imbarcazioni lunghe oltre dodici metri",
+          "answer": 0,
+          "page": 22,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "722c8c0d58a813028f151d2e7a6eefa071c92c298ba5f3cdfdb202dda393b0c5",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/0e38540d8d3cb18633ec0c3a731cb244a48fc5979216cdf7ef18763ba165fd9b",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15342,
+                "reason": "La normativa contempla autotreni per trasporto specifico di imbarcazioni; non è stato individuato un riferimento primario che spieghi il FALSO riferito alla lunghezza indicata."
+              },
+              {
+                "number": 15358,
+                "reason": "La norma verificata non collega l’esclusione all’iscrizione all’Albo; la frase può anche essere letta come semplice descrizione di un caso compreso nell’esenzione."
+              },
+              {
+                "number": 15359,
+                "reason": "Non è stata verificata una fonte primaria che giustifichi il FALSO per ogni trasporto occasionale, distinguendo merci trasportate e materiali connessi all’uso speciale."
+              },
+              {
+                "number": 15362,
+                "reason": "L’assenza di targa civile da sola non identifica le categorie e le condizioni richieste dall’art. 30, lettera a, per l’esclusione."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 15362,
+          "quesito_id": 3245,
+          "text_it": "I mezzi d’opera non muniti di targa civile, sono esentati dalla disciplina dell’autotrasporto di merci",
+          "answer": 1,
+          "page": 23,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "815ae10e406bf2695109af0f7963c3e661297f2b6b8c785477e73ac9ea960b0e",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/0e38540d8d3cb18633ec0c3a731cb244a48fc5979216cdf7ef18763ba165fd9b",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15342,
+                "reason": "La normativa contempla autotreni per trasporto specifico di imbarcazioni; non è stato individuato un riferimento primario che spieghi il FALSO riferito alla lunghezza indicata."
+              },
+              {
+                "number": 15358,
+                "reason": "La norma verificata non collega l’esclusione all’iscrizione all’Albo; la frase può anche essere letta come semplice descrizione di un caso compreso nell’esenzione."
+              },
+              {
+                "number": 15359,
+                "reason": "Non è stata verificata una fonte primaria che giustifichi il FALSO per ogni trasporto occasionale, distinguendo merci trasportate e materiali connessi all’uso speciale."
+              },
+              {
+                "number": 15362,
+                "reason": "L’assenza di targa civile da sola non identifica le categorie e le condizioni richieste dall’art. 30, lettera a, per l’esclusione."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/69efb9ba4f6e04ace63f6b41d403900d52ed0cc9a43687fcef7901db52139f05",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14998,
+                "reason": "Fonte primaria non individuata per i limiti delle competenze richieste al conducente."
+              },
+              {
+                "number": 14999,
+                "reason": "Fonte primaria non individuata per il rapporto tra diagnosi dei guasti e consumi."
+              },
+              {
+                "number": 15006,
+                "reason": "Fonte primaria non individuata per il nesso specifico tra usura differenziale dei ferodi e squilibrio."
+              },
+              {
+                "number": 15342,
+                "reason": "Fonte primaria non individuata per la scelta del veicolo rispetto alla lunghezza dell’imbarcazione."
+              },
+              {
+                "number": 15362,
+                "reason": "La sola assenza di targa civile non identifica con certezza la categoria esente; fonte primaria specifica non individuata."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "I mezzi d’opera non sono esenti dalla disciplina dell’autotrasporto di merci",
+          "text": "Il mezzo d’opera che trasporta merci è in generale soggetto alla disciplina dell’autotrasporto; esistono esclusioni per particolari veicoli e impieghi previsti dalla legge.",
+          "evidence": [
+            "Legge 298/1974, art. 30, https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+30&codiceOrdinamento=200003000000000&id=%7BC1BB1D3A-6B44-4C38-A8B7-B74A1BBEEAEF%7D: campo di applicazione ed esclusioni della disciplina del trasporto di cose"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16122,
+          "quesito_id": 3354,
+          "text_it": "La lettera di vettura internazionale CMR in Italia deve essere conservata dal destinatario per almeno 2 anni dalla data del trasporto",
+          "answer": 0,
+          "page": 65,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "48b95c686603ade8a78e87e69309a409fd6898d5ba9f8fb718a5794ba0265deb",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/08ce57528391f8e918fb952319272ddd4baf7510198897b0c49b92089baaa44e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 16122,
+                  "reason": "Non individuata una fonte primaria che chiarisca la regola italiana di conservazione applicabile al destinatario; il listato ufficiale indica FALSO ma non ne spiega il fondamento."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16155,
+          "quesito_id": 3358,
+          "text_it": "I dazi doganali sono sorti per motivi diversi da quelli fiscali",
+          "answer": 0,
+          "page": 66,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c04abba667ae6968355d371a642f480889ef53a7310251edf3e0d67bd8280a3b",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/767548542dcbc0aea0d17148e54f0e211a5906f195a118aaa320f63ee05600ea",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 16142,
+                  "reason": "La fonte primaria consultata non conferma specificamente la pattuizione del termine in un documento separato."
+                },
+                {
+                  "number": 16143,
+                  "reason": "La fonte primaria consultata non conferma specificamente la pattuizione verbale del termine."
+                },
+                {
+                  "number": 16147,
+                  "reason": "La fonte primaria consultata non conferma specificamente le forme alternative di pattuizione del termine."
+                },
+                {
+                  "number": 16148,
+                  "reason": "La fonte primaria consultata non conferma specificamente la pattuizione verbale del termine."
+                },
+                {
+                  "number": 16149,
+                  "reason": "La fonte primaria consultata non conferma specificamente la pattuizione del termine in un documento separato."
+                },
+                {
+                  "number": 16155,
+                  "reason": "Non è stata individuata una fonte primaria sul motivo storico dell'origine dei dazi."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16199,
+          "quesito_id": 3363,
+          "text_it": "Nelle zone franche o depositi franchi è di solito conveniente l’acquisto di alcoolici, tabacchi, profumi, zucchero e carburanti",
+          "answer": 1,
+          "page": 68,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0b48060b5d88dec5f248f9bfe7996e7a6c606444d7e80523257566cd6fd54f27",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c7555496f7590823fcc14e9407dc1ae1fc5ce14487544bdfbc1b59b8f40cefc4",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16199,
+                "reason": "Non è stata individuata una fonte primaria che sostenga la convenienza abituale di tutti i prodotti elencati; il prezzo dipende anche dalle condizioni di vendita e fiscali."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Nelle zone franche o depositi franchi è di solito conveniente l'acquisto di alcolici, tabacchi, profumi, zucchero e carburanti",
+          "text": "VERO nel senso del quiz: il regime franco può rendere convenienti alcuni acquisti grazie alla sospensione dei tributi. La convenienza effettiva dipende dai prezzi e dalle imposte applicabili quando la merce viene immessa sul mercato.",
+          "evidence": [
+            "Commissione europea, Access2Markets, Documenti e procedure di sdoganamento, https://trade.ec.europa.eu/access-to-markets/it/stories/documenti-e-procedure-di-sdoganamento, regime delle zone franche e sospensione degli oneri"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16322,
+          "quesito_id": 3376,
+          "text_it": "I magazzini di temporanea custodia sono solitamente gestiti dai trasportatori",
+          "answer": 0,
+          "page": 72,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "908d270e2de46b18dbc2f7c2c1b20e30b609921015984577d2f6bface97bfd5f",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ea18a3c90b2eb98b1716d8325b20857c927e2a342c531d85538e420ba3aa635b",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16320,
+                "reason": "Non reperita una fonte primaria che documenti quale soggetto gestisca solitamente i magazzini; la disciplina storica ammette anche gestori pubblici o privati autorizzati, senza dimostrarne la frequenza."
+              },
+              {
+                "number": 16322,
+                "reason": "Non reperita una fonte primaria che documenti quale soggetto gestisca solitamente i magazzini; la disciplina storica ammette anche gestori pubblici o privati autorizzati, senza dimostrarne la frequenza."
+              },
+              {
+                "number": 16323,
+                "reason": "Non reperita una fonte primaria che documenti quale soggetto gestisca solitamente i magazzini; la disciplina storica ammette anche gestori pubblici o privati autorizzati, senza dimostrarne la frequenza."
+              },
+              {
+                "number": 16324,
+                "reason": "Non reperita una fonte primaria che documenti quale soggetto gestisca solitamente i magazzini; la disciplina storica ammette anche gestori pubblici o privati autorizzati, senza dimostrarne la frequenza."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "I magazzini di cosiddetta temporanea custodia sono solitamente gestiti dai singoli trasportatori",
+          "text": "FALSO. Nel modello del quiz la gestione è attribuita alla Dogana, non ai singoli trasportatori. La disciplina ammette però anche gestori privati autorizzati: il ruolo indicato da solo non determina chi gestisce il deposito.",
+          "evidence": [
+            "Regolamento (UE) 952/2013, art. 148, https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32013R0952, la gestione può essere affidata a un operatore autorizzato oppure all’autorità doganale"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16349,
+          "quesito_id": 3379,
+          "text_it": "Per trasportare fiammiferi è necessario i avere un documento che certifichi la posizione delle merci in merito all’accisa",
+          "answer": 1,
+          "page": 73,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f3f97c1bbca4981d33e7f1e038be3a07c8f1056d57a39fbaf3aaa6604636df84",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/67bfba30c966efbe6fffc622406a3dbe5e97ad95da57429731e76ce1b2c82e87",
+            "candidate": null,
+            "blockers": {
+              "16349": "Non verificata una fonte primaria che colleghi i fiammiferi al documento sulla posizione rispetto all’accisa, distinto dall’imposta di consumo.",
+              "16350": "Non verificata una fonte primaria che imponga una dichiarazione di scorta o equivalente per tutti gli alimenti.",
+              "16353": "Non verificata una fonte primaria che confermi l’uso della fattura accompagnatoria nel senso del quesito.",
+              "16355": "Non verificata una fonte primaria sufficiente a individuare la regola applicabile alla lettera di vettura per petrolio.",
+              "16358": "Non reperita una fonte primaria sulle modalità di compilazione della scheda di circolazione ai due valichi.",
+              "16359": "Non reperita una fonte primaria sull’obbligo e sul colore della scheda ai due valichi.",
+              "16363": "Non reperita una fonte primaria sulle modalità di compilazione della scheda di circolazione ai due valichi.",
+              "16364": "Non reperita una fonte primaria sulle modalità di compilazione della scheda di circolazione ai due valichi.",
+              "16365": "Non reperita una fonte primaria sulle modalità di compilazione della scheda di circolazione ai due valichi.",
+              "16366": "Non reperita una fonte primaria che distingua il documento richiesto ai due valichi dal DDT."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Per trasportare fiammiferi è necessario un documento che certifichi la posizione delle merci in merito all'accisa",
+          "text": "La risposta ufficiale richiama la documentazione fiscale della circolazione dei fiammiferi. Più precisamente, per essi la legge parla di imposta di fabbricazione, non dell'accisa armonizzata sui tabacchi.",
+          "evidence": [
+            "D.P.R. 472/1996, articolo 1, eccezione per i fiammiferi; d.lgs. 504/1995, articolo 62-bis, imposta di fabbricazione: https://www.normattiva.it/eli/id/1996/09/12/096G0487/sg"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16350,
+          "quesito_id": 3379,
+          "text_it": "Per trasportare latte ed alimenti in genere è necessaria una dichiarazione di scorta o documento equipollente",
+          "answer": 1,
+          "page": 73,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "158a4fb27778828940190435a01a35bbbb38e423568a44be2a9f71d3dc451aca",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/67bfba30c966efbe6fffc622406a3dbe5e97ad95da57429731e76ce1b2c82e87",
+            "candidate": null,
+            "blockers": {
+              "16349": "Non verificata una fonte primaria che colleghi i fiammiferi al documento sulla posizione rispetto all’accisa, distinto dall’imposta di consumo.",
+              "16350": "Non verificata una fonte primaria che imponga una dichiarazione di scorta o equivalente per tutti gli alimenti.",
+              "16353": "Non verificata una fonte primaria che confermi l’uso della fattura accompagnatoria nel senso del quesito.",
+              "16355": "Non verificata una fonte primaria sufficiente a individuare la regola applicabile alla lettera di vettura per petrolio.",
+              "16358": "Non reperita una fonte primaria sulle modalità di compilazione della scheda di circolazione ai due valichi.",
+              "16359": "Non reperita una fonte primaria sull’obbligo e sul colore della scheda ai due valichi.",
+              "16363": "Non reperita una fonte primaria sulle modalità di compilazione della scheda di circolazione ai due valichi.",
+              "16364": "Non reperita una fonte primaria sulle modalità di compilazione della scheda di circolazione ai due valichi.",
+              "16365": "Non reperita una fonte primaria sulle modalità di compilazione della scheda di circolazione ai due valichi.",
+              "16366": "Non reperita una fonte primaria che distingua il documento richiesto ai due valichi dal DDT."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/171b5e104acb51401dcab0a4fa394837d3609db578668290546833402f1d1bc5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15505,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 15611,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16122,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16155,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16199,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16320,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16322,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16323,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16324,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16349,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              },
+              {
+                "number": 16350,
+                "reason": "Riferimento primario sufficiente non verificato per la specifica affermazione o per il verdetto storico."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16564,
+          "quesito_id": 3408,
+          "text_it": "Il trasporto stradale di merci è aumentato con l’abbattimento delle frontiere attuato dall’UE",
+          "answer": 1,
+          "page": 81,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a9eed1cf376e0850e77c24cdbeb7add48be47c36fe2c3f82025986d2b0a6d3a5",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/7681d7a79839bcc12c03f7a40c1a0ac3f43e92886414e965df39164ba78929f4",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16547,
+                "reason": "Non è stata individuata una fonte primaria che sostenga la specifica frammentazione europea del trasporto aereo merci."
+              },
+              {
+                "number": 16564,
+                "reason": "Non è stata individuata una fonte primaria che sostenga il nesso storico specifico tra abbattimento delle frontiere UE e aumento del trasporto stradale merci."
+              },
+              {
+                "number": 16565,
+                "reason": "Non è stata individuata una fonte primaria che dimostri il ruolo specifico del trasporto merci internazionale come causa principale della congestione dei grandi assi europei."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5b4a709eb35844dad6b40adbd709f866bb49642963f01f5edc54defa1924131",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16564,
+                "reason": "Non individuata una fonte primaria che documenti specificamente il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale."
+              },
+              {
+                "number": 17080,
+                "reason": "Non individuata una fonte primaria che confermi la relazione tra disposizione dei marciapiedi e durata della sosta."
+              },
+              {
+                "number": 17140,
+                "reason": "Non individuata una fonte primaria che sostenga la prescrizione di distribuzione omogenea dei passeggeri in piedi."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16719,
+          "quesito_id": 3427,
+          "text_it": "Ai fini dell’organizzazione di un’impresa di trasporto merci è rilevante la tipologia del trasporto",
+          "answer": 1,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0f46e3955b5337b305e9244dd5cbe9588d7da6af842782a0c7aec8827f8f7941",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5b4a709eb35844dad6b40adbd709f866bb49642963f01f5edc54defa1924131",
+            "candidate": {
+              "number": 16719,
+              "text": "Il tipo di trasporto conta nell’organizzazione: merci e servizi diversi richiedono mezzi, personale e procedure adeguati.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16564,
+                "reason": "Non individuata una fonte primaria che documenti specificamente il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale."
+              },
+              {
+                "number": 17080,
+                "reason": "Non individuata una fonte primaria che confermi la relazione tra disposizione dei marciapiedi e durata della sosta."
+              },
+              {
+                "number": 17140,
+                "reason": "Non individuata una fonte primaria che sostenga la prescrizione di distribuzione omogenea dei passeggeri in piedi."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/08979a97f98bbb551bf428898bbb775407e8514087ab7f91f22e256bc2c35a9c",
+            "candidate": {
+              "number": 16719,
+              "text": "Vero: la tipologia del trasporto influenza l’organizzazione, per esempio la scelta dei mezzi e delle risorse necessarie.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16723,
+          "quesito_id": 3427,
+          "text_it": "Ai fini dell’organizzazione di un’impresa di trasporto merci è rilevante il soggetto giuridico ma non il soggetto economico",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1a9b4705b1a9b735150f79490cc10148421e1a839795ff2d93b48ba8761dc071",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5b4a709eb35844dad6b40adbd709f866bb49642963f01f5edc54defa1924131",
+            "candidate": {
+              "number": 16723,
+              "text": "È falso escludere il soggetto economico: nell’impresa rilevano sia chi assume diritti e obblighi sia chi ne esercita il controllo e assume le decisioni economiche.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16564,
+                "reason": "Non individuata una fonte primaria che documenti specificamente il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale."
+              },
+              {
+                "number": 17080,
+                "reason": "Non individuata una fonte primaria che confermi la relazione tra disposizione dei marciapiedi e durata della sosta."
+              },
+              {
+                "number": 17140,
+                "reason": "Non individuata una fonte primaria che sostenga la prescrizione di distribuzione omogenea dei passeggeri in piedi."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/08979a97f98bbb551bf428898bbb775407e8514087ab7f91f22e256bc2c35a9c",
+            "candidate": {
+              "number": 16723,
+              "text": "Falso: nell’organizzazione contano sia il soggetto giuridico, cui fanno capo diritti e obblighi, sia il soggetto economico, che orienta le scelte dell’impresa.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16724,
+          "quesito_id": 3427,
+          "text_it": "Ai fini dell’organizzazione di un’impresa di trasporto merci è rilevante il soggetto economico ma non il soggetto giuridico",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "69a6e320de48d51535ff57b5ea5dcec731b7f33a9f6d907fa0bae5af6d0ef06c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5b4a709eb35844dad6b40adbd709f866bb49642963f01f5edc54defa1924131",
+            "candidate": {
+              "number": 16724,
+              "text": "È falso escludere il soggetto giuridico: nell’impresa rilevano sia chi assume diritti e obblighi sia chi ne esercita il controllo e assume le decisioni economiche.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16564,
+                "reason": "Non individuata una fonte primaria che documenti specificamente il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale."
+              },
+              {
+                "number": 17080,
+                "reason": "Non individuata una fonte primaria che confermi la relazione tra disposizione dei marciapiedi e durata della sosta."
+              },
+              {
+                "number": 17140,
+                "reason": "Non individuata una fonte primaria che sostenga la prescrizione di distribuzione omogenea dei passeggeri in piedi."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/08979a97f98bbb551bf428898bbb775407e8514087ab7f91f22e256bc2c35a9c",
+            "candidate": {
+              "number": 16724,
+              "text": "Falso: contano sia il soggetto economico, che orienta le scelte, sia il soggetto giuridico, cui fanno capo diritti e obblighi dell’impresa.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16725,
+          "quesito_id": 3427,
+          "text_it": "Ai fini dell’organizzazione di un’impresa di trasporto merci non è rilevante il profilo organizzativo dell’impresa",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d29d8054706939f4fe9c840532410900fc12efea2fe10817e2a99eb39ff573a3",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5b4a709eb35844dad6b40adbd709f866bb49642963f01f5edc54defa1924131",
+            "candidate": {
+              "number": 16725,
+              "text": "È falso che il profilo organizzativo sia irrilevante: la ripartizione di compiti e risorse serve a svolgere e coordinare il trasporto.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16564,
+                "reason": "Non individuata una fonte primaria che documenti specificamente il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale."
+              },
+              {
+                "number": 17080,
+                "reason": "Non individuata una fonte primaria che confermi la relazione tra disposizione dei marciapiedi e durata della sosta."
+              },
+              {
+                "number": 17140,
+                "reason": "Non individuata una fonte primaria che sostenga la prescrizione di distribuzione omogenea dei passeggeri in piedi."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/08979a97f98bbb551bf428898bbb775407e8514087ab7f91f22e256bc2c35a9c",
+            "candidate": {
+              "number": 16725,
+              "text": "Falso: il profilo organizzativo è rilevante, perché definisce come sono distribuiti compiti, risorse e responsabilità dell’impresa.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      }
+    ],
+    "task_sha256": "c2d9cf57fdb26437015b3f0588f25899f1a10c9e61766100ebc5861b8e4c4f07",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage."
+  },
+  "rows": [
+    {
+      "number": 14953,
+      "text": "Il conducente dipendente non deve investire denaro proprio nell’impresa per il solo fatto di lavorarvi: il suo impegno consiste nella prestazione di lavoro.",
+      "evidence": [
+        "Codice civile, art. 2094: il lavoratore subordinato si obbliga a prestare il proprio lavoro alle dipendenze e sotto la direzione dell’imprenditore."
+      ]
+    },
+    {
+      "number": 16155,
+      "text": "È falso che i dazi siano nati per ragioni diverse da quelle fiscali: inizialmente perseguivano uno scopo di entrata; successivamente hanno assunto anche una funzione protezionistica.",
+      "evidence": [
+        "Conclusioni dell’avvocato generale, causa C-284/05, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62005CC0284: origine fiscale dei dazi e successiva funzione protezionistica."
+      ]
+    },
+    {
+      "number": 16199,
+      "text": "Il regime franco può rendere convenienti alcuni acquisti perché sospende o esclude determinati oneri sulle merci. Il prezzo e le imposte eventualmente dovute all’uscita dipendono però dal caso: la convenienza non è automatica.",
+      "evidence": [
+        "Commissione europea, Free zones, https://taxation-customs.ec.europa.eu/customs/free-zones_en: le merci non unionali possono entrare senza dazi e altri oneri, dovuti in caso di immissione in libera pratica."
+      ]
+    },
+    {
+      "number": 16349,
+      "text": "Il verdetto richiama la documentazione fiscale che accompagna la circolazione dei fiammiferi. La formulazione è imprecisa: per i fiammiferi la legge parla di imposta di fabbricazione, non semplicemente di accisa.",
+      "evidence": [
+        "D.P.R. 472/1996, art. 1, https://www.normattiva.it/eli/id/1996/09/12/096G0487/sg: eccezione per la circolazione dei fiammiferi; d.lgs. 504/1995, art. 62-bis: imposta di fabbricazione sui fiammiferi."
+      ]
+    },
+    {
+      "number": 16564,
+      "text": "L’integrazione del mercato europeo senza frontiere ha favorito i trasporti transfrontalieri su strada, cresciuti nel tempo. La rimozione delle barriere è un fattore della crescita, non l’unica causa.",
+      "evidence": [
+        "Commissione europea, SWD(2023) 447, valutazione della direttiva 96/53/CE, https://transport.ec.europa.eu/system/files/2023-07/SWD_2023_447_evaluation.pdf: integrazione del mercato e aumento della quota del trasporto stradale internazionale dal 1995 al 2020."
+      ]
+    },
+    {
+      "number": 16723,
+      "text": "È falso escludere il soggetto economico: contano sia chi assume diritti e obblighi, sia chi orienta le decisioni economiche dell’impresa.",
+      "evidence": [
+        "Definizione: il soggetto giuridico è il titolare dei rapporti giuridici; il soggetto economico orienta le scelte dell’impresa."
+      ]
+    },
+    {
+      "number": 16724,
+      "text": "È falso escludere il soggetto giuridico: contano sia chi orienta le scelte economiche, sia chi assume diritti e obblighi dell’impresa.",
+      "evidence": [
+        "Definizione: il soggetto giuridico è il titolare dei rapporti giuridici; il soggetto economico orienta le scelte dell’impresa."
+      ]
+    }
+  ],
+  "output_sha256": "30d76e12e79ed808ebe59808abb4ff5cacb9ccaec3c2c5af2d49c5688bd7c32c"
+}

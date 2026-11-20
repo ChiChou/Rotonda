@@ -1,0 +1,25 @@
+{
+  "batch": "094",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "392a551c665ccdb0bf04fab13555ce646109d04802c19041f6104b4d03f4dab7",
+  "source_sha256": "5e8bbe54062a4204fd44eb488ce1859099820610fd00876351c95233027679e3",
+  "corrections": [
+    {
+      "id": "7df6f5ccd145a1c4c1c58ea958d095df3aa84037ca9c0e85204073ccc98ac9db",
+      "before": "Las casas rodantes deben llevar detrás franjas retrorreflectantes rojas o amarillas",
+      "after": "Los remolques vivienda deben llevar detrás franjas retrorreflectantes rojas o amarillas",
+      "reason": "Se identifica caravan como remolque vivienda, evitando confundirlo con una autocaravana."
+    }
+  ],
+  "reviewed_file_sha256": "8c2fc389f547651d49fa9a8c52056135946f7bbdb7890b78761dc49c41a127ea"
+}

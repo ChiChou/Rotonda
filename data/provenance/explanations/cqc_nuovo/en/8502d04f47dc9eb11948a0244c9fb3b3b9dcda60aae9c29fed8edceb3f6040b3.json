@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed47-2f66-74a0-b00b-67ab630b18cd"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 34745,
+          "quesito_id": 7261,
+          "text_it": "Per circolazione si intende il movimento, la fermata e la sosta dei soli pedoni sulla strada",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8dabe0b9a5b6c7e17ebd7b11bd4c25a3e0b2c15eff10fa77b4e0e62f0fe1543a",
+        "italian": "La circolazione non riguarda solo i pedoni: comprende movimento, fermata e sosta anche di veicoli e animali sulla strada.",
+        "italian_sha256": "9ae1a11ca20132d4bd08dd5d72d75082194cd10e38d47eeb3c9b3cbb7aa7f31f"
+      },
+      {
+        "source": {
+          "number": 34746,
+          "quesito_id": 7261,
+          "text_it": "Per circolazione si intende il movimento la fermata e la sosta dei soli veicoli sulla strada",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3ab66325b2ff35faccdc94ad750d0ba940c52be4a3d7f44d9e73228abde79201",
+        "italian": "La circolazione non riguarda solo i veicoli: comprende movimento, fermata e sosta anche di pedoni e animali sulla strada.",
+        "italian_sha256": "13ffc3543f52bbab13ca1f1fd6ce3a21febaf6a6d02a85524255e9620731aec9"
+      },
+      {
+        "source": {
+          "number": 34747,
+          "quesito_id": 7261,
+          "text_it": "Per circolazione sulla strada si intende anche il movimento de pedoni",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9ec69efc6cae1fe166506e05ebc4f8716ac0d5b7f2a1255236e0669abc49e5db",
+        "italian": "Il movimento dei pedoni sulla strada rientra nella circolazione, insieme a quello dei veicoli e degli animali.",
+        "italian_sha256": "7e4eb7e4243428df5218977fadc3e8ec35c71f449370c39638c8b8b40ca5cc7e"
+      },
+      {
+        "source": {
+          "number": 34748,
+          "quesito_id": 7261,
+          "text_it": "Per circolazione si intende il movimento, la fermata e la sosta dei pedoni, dei veicoli e degli animali sulla strada",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "17da033aff615b72fe066452e3f265ec146831b29ece0ca1ee650c1fd72a4fb8",
+        "italian": "La circolazione comprende movimento, fermata e sosta sulla strada di pedoni, veicoli e animali.",
+        "italian_sha256": "475d036a045e56345c354f84ee136cbdc3dc9d5a34551c0d61b9badf303233ef"
+      },
+      {
+        "source": {
+          "number": 34749,
+          "quesito_id": 7261,
+          "text_it": "Per circolazione si intende il movimento, la fermata e la sosta dei soli veicoli a motore sulla strada",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9c4443e5dcd5ee4f56b9b901e56b1ff43790cd20712b55e5088960bcd4e5f792",
+        "italian": "La circolazione non riguarda solo i veicoli a motore: include anche pedoni, animali e altri veicoli, in movimento, fermata o sosta.",
+        "italian_sha256": "2926fbe3ed581ff070fd5154a5d8a79f9626dd466298bae127ca7768701eea08"
+      },
+      {
+        "source": {
+          "number": 34750,
+          "quesito_id": 7261,
+          "text_it": "La corsia è una parte longitudinale della strada",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "981623b655c02b7ba59d929b5eaa44bd3e994f0e416e41a250e788a9448b4d0a",
+        "italian": "La corsia si sviluppa longitudinalmente lungo la strada ed è larga quanto basta per una fila di veicoli.",
+        "italian_sha256": "4aaabc2b5c9dc4755a4be78050cacdcb2a3aa7ee2932e5862842c2444b80e76b"
+      },
+      {
+        "source": {
+          "number": 34751,
+          "quesito_id": 7261,
+          "text_it": "La corsia è una parte trasversale della strada",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b17f9ff0e7321f8353465a658ef13cf1945d404aba3cba3a4f7ab5fff13d7ed1",
+        "italian": "La corsia non è trasversale: è una parte longitudinale della strada, idonea al transito di una fila di veicoli.",
+        "italian_sha256": "6196646cfa40ac84ab848998e055085f539d28e45e9deb39198095f275f2d4d4"
+      },
+      {
+        "source": {
+          "number": 34752,
+          "quesito_id": 7261,
+          "text_it": "La corsia può essere specializzata ovvero destinata a particolari manovre (sorpasso, svolte, ecc.)",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "39b12742f64154fca2d4cc230c3e54d982b26bbfdba45f421cea28a22985a85e",
+        "italian": "Una corsia specializzata è destinata a veicoli che compiono particolari manovre, tra cui svolta e sorpasso.",
+        "italian_sha256": "7991b1625dd0bc912fcaf91e906be1328e258b1b95f69e31c55acfd23a07b2ba"
+      },
+      {
+        "source": {
+          "number": 34753,
+          "quesito_id": 7261,
+          "text_it": "La corsia di marcia è larga a sufficienza per la circolazione di una fila di veicoli",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "45903d93223560184054112dac988c2d0cce5f194b5510adad1cf8a7a26486d8",
+        "italian": "La corsia di marcia, come ogni corsia, ha larghezza idonea al transito di una sola fila di veicoli.",
+        "italian_sha256": "36f1f1a7fa587ec87cea45e01ecf0b1250afa6a58c43994f89be760686fa6334"
+      },
+      {
+        "source": {
+          "number": 34754,
+          "quesito_id": 7261,
+          "text_it": "La corsia è una parte della strada destinata alla circolazione di una sola fila di veicoli",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "af515342420191e140e446295c7327747b5c5494e7d6379ab0367ab0ce728d04",
+        "italian": "La corsia è una parte longitudinale della strada idonea al passaggio di una sola fila di veicoli.",
+        "italian_sha256": "cc50e12e800f90b31afbff11b48231be020baf3412de8a0abfa20dfd4db61ee3"
+      },
+      {
+        "source": {
+          "number": 34755,
+          "quesito_id": 7261,
+          "text_it": "La corsia ha una larghezza idonea per il transito di una sola fila di veicoli",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ae680a3747ac84ef5304ee52cdb37d3c11e7123ee4d89faf795b239f538f7eb2",
+        "italian": "La larghezza della corsia è idonea al transito di una sola fila di veicoli.",
+        "italian_sha256": "b8e180fdd302b4cb7d831d13fd118837b8ae4858eb6cb06659975a586e694f11"
+      },
+      {
+        "source": {
+          "number": 34756,
+          "quesito_id": 7261,
+          "text_it": "La corsia è una parte longitudinale della strada ove circolano solamente i veicoli a motore",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a7dfc4be2f6ea598127e3fa095a10e5e0d3cd8b4d3d015a6f2ca74ac5487cf71",
+        "italian": "È errato dire che vi circolano solo veicoli a motore: anche veicoli senza motore, come le biciclette, possono usare la corsia secondo le regole applicabili.",
+        "italian_sha256": "e021c22dbe82881c509bd06d030658a90e4520c8a6f6d05275ce63078f08cb0e"
+      },
+      {
+        "source": {
+          "number": 34757,
+          "quesito_id": 7262,
+          "text_it": "La corsia può essere riservata ad alcune categorie di veicoli",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2e42e12ba3afca0675c99a8547d49d6cea8965fb209a2c6f9dba011b9b12c26a",
+        "italian": "Una corsia riservata può essere destinata esclusivamente a una o ad alcune categorie di veicoli.",
+        "italian_sha256": "eee18634c1f4e429aacb9e685bb1911a7f51721eaa9e76c0bb89c9639c44a90b"
+      },
+      {
+        "source": {
+          "number": 34758,
+          "quesito_id": 7262,
+          "text_it": "La corsia di accelerazione è una corsia specializzata",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c44c128c08737cf2943f0accf02e908b2cea65dd61ef464f1408e0577bddba53",
+        "italian": "La corsia di accelerazione è una corsia specializzata che facilita l’ingresso dei veicoli sulla carreggiata.",
+        "italian_sha256": "5a56ba343165f872ca7133594207d372affb0dcf767771fa03ca67a8a55e5e49"
+      },
+      {
+        "source": {
+          "number": 34759,
+          "quesito_id": 7262,
+          "text_it": "La corsia specializzata di accelerazione consente l'ingresso in autostrada",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9005d96c352d01178a4c28ee62c2669a427a38618306267b906fc12d453d4b04",
+        "italian": "La corsia di accelerazione facilita l’immissione dei veicoli nella carreggiata autostradale.",
+        "italian_sha256": "5fbd01fe912d182fc992047108ec6db001de110b462be23a870b05a30af13b30"
+      },
+      {
+        "source": {
+          "number": 34760,
+          "quesito_id": 7262,
+          "text_it": "La corsia specializzata di accelerazione consente l'uscita dall'autostrada",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4ec00427015230a737fc6ef4c6ca563efb95688d4d7cdb6d076bcc7263716c9f",
+        "italian": "La corsia di accelerazione serve a entrare nella carreggiata; per uscire si usa la corsia di decelerazione.",
+        "italian_sha256": "e7bb52e94546dee83d97bda53d14e63549a4e1b1e019b9da4576e004e07a9e43"
+      },
+      {
+        "source": {
+          "number": 34761,
+          "quesito_id": 7262,
+          "text_it": "La corsia di accelerazione consente ed agevola l'uscita dei veicoli da una carreggiata",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f1918ab1172290fb3e99c0f3f5a1b703d9f538d73724810b462e783a3ebc2d4d",
+        "italian": "La corsia di accelerazione agevola l’ingresso nella carreggiata; per uscirne si usa quella di decelerazione.",
+        "italian_sha256": "b01384059a513e5910096d346c1ff11ad17bce0d176edee401412c4150e38308"
+      },
+      {
+        "source": {
+          "number": 34762,
+          "quesito_id": 7262,
+          "text_it": "La corsia di accelerazione è destinata ai veicoli che stanno sorpassando",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "163cf3125631687991eefd775ceed6da6c1d83d9855b04077b36c6e4717faa13",
+        "italian": "Non è destinata al sorpasso: serve ad agevolare l’ingresso nella carreggiata.",
+        "italian_sha256": "4cb4f8f777269878caeed314fc7b53e7314cf5f1bb358dc01b90b4b2c49b200e"
+      },
+      {
+        "source": {
+          "number": 34763,
+          "quesito_id": 7262,
+          "text_it": "La corsia di accelerazione è destinata alla circolazione esclusiva di una o solo di alcune categorie di veicoli",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dc881ecfda695d978eba2ff3fff5179fb2d2cef482ec9af2c0349216264cfef6",
+        "italian": "Questa è la definizione di corsia riservata. Quella di accelerazione serve invece a facilitare l’ingresso nella carreggiata.",
+        "italian_sha256": "be151951397a173d88ef656a08c2b7eeff7d91a1e2ce624a334024393f4f656e"
+      },
+      {
+        "source": {
+          "number": 34764,
+          "quesito_id": 7262,
+          "text_it": "La corsia di accelerazione è una corsia specializzata sulla quale è vietato il sorpasso",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c19fc03c3fb7a0333ba747e0c3023000f1a9bf543fffc70b752caab3bc349f8c",
+        "italian": "È una corsia specializzata per l’ingresso e su di essa il sorpasso è vietato.",
+        "italian_sha256": "6ce83ff2305681a630598cb848828ba8f65aa7d360cea45eaeb9ef3e3480749d"
+      },
+      {
+        "source": {
+          "number": 34765,
+          "quesito_id": 7262,
+          "text_it": "La corsia di accelerazione è una corsia specializzata sulla quale è vietata la fermata",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ce0102dea626c3f8003a294480cef878c3941b2b10ff9294093ce76ff1117570",
+        "italian": "La risposta è vera nel normale uso: non ci si ferma nella corsia di immissione. In autostrada il divieto ammette l’eccezione dell’emergenza; il quesito non specifica il tipo di strada.",
+        "italian_sha256": "dddfc6b06e3eb59ba8887312a49d10cf0d001af885f1145469f7d0654061e4d5"
+      },
+      {
+        "source": {
+          "number": 34766,
+          "quesito_id": 7262,
+          "text_it": "La corsia di accelerazione consente ed agevola l'ingresso dei veicoli sulla carreggiata",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "807700312ec79e83392b8d11f9eaca6488262382965005b95195613edd190b22",
+        "italian": "È la corsia specializzata che facilita l’immissione dei veicoli nella carreggiata.",
+        "italian_sha256": "b18aaae6b889ca5411232298a3ca7a3deff0953bd30c57315e5fda82c5423429"
+      },
+      {
+        "source": {
+          "number": 34767,
+          "quesito_id": 7262,
+          "text_it": "La corsia di accelerazione è una corsia su cui sono vietati la sosta ed il sorpasso",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "08dca62763abf8eba2486996aaa86ad337a8c5bc20d2e7c99a41c18d625f2059",
+        "italian": "Su questa corsia il sorpasso è vietato. In autostrada è vietata anche la sosta, salvo emergenza; il quesito non specifica il tipo di strada.",
+        "italian_sha256": "3d484986f1edb0f0331e833add096ad69091542cff96b4dc3b003a5dfad92b6d"
+      },
+      {
+        "source": {
+          "number": 34768,
+          "quesito_id": 7262,
+          "text_it": "La corsia di decelerazione consente ed agevola l'ingresso dei veicoli sulla carreggiata",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "878da03fb1991a4d8000ad591ce01140b395106fb229db4fd369079b56af57f8",
+        "italian": "La decelerazione serve all’uscita dalla carreggiata; per l’ingresso è prevista la corsia di accelerazione.",
+        "italian_sha256": "a4864354d8420a922f2f80012b175f191cdf13b2d4ca8d54452125198b13575e"
+      },
+      {
+        "source": {
+          "number": 34769,
+          "quesito_id": 7262,
+          "text_it": "La corsia specializzata di decelerazione consente l'entrata in autostrada",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a48987294f78850caae8d51aeae4cafcd939b6a0bd5d700260286c01b45d5915",
+        "italian": "La corsia di decelerazione serve a uscire dall’autostrada; per entrare si usa quella di accelerazione.",
+        "italian_sha256": "6afab7d15cbd31164c93e475a9ea4c8b2ca092c489cf02734b18379fad93d474"
+      },
+      {
+        "source": {
+          "number": 34770,
+          "quesito_id": 7262,
+          "text_it": "La corsia di decelerazione consente l'uscita dei veicoli da una carreggiata senza provocare rallentamenti ai veicoli non interessati da tale manovra",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9a0804fb37ba412e4f585957e58cafc045c7adff8ec09a7d0713610dd4c0e750",
+        "italian": "Permette a chi esce di rallentare separatamente, evitando di rallentare i veicoli che proseguono.",
+        "italian_sha256": "8dc14d68b7212dafb270fbee691cd20926b111613fd594de4b67b22dd0e52b22"
+      },
+      {
+        "source": {
+          "number": 34771,
+          "quesito_id": 7262,
+          "text_it": "La corsia di decelerazione è una corsia specializzata",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0cb20bfbd11a92a6f500d7bf0f4dcca7297de9f4144290d59405b73a8c6c6adf",
+        "italian": "È specializzata perché destinata alla manovra di uscita dalla carreggiata.",
+        "italian_sha256": "bec251a5cb4ae47a15ca26c1fc652cf2ac8b4dfcdeef839e855818b0bc86c674"
+      },
+      {
+        "source": {
+          "number": 34772,
+          "quesito_id": 7262,
+          "text_it": "La corsia di decelerazione è una corsia su cui sono vietati la sosta ed il sorpasso",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5bb28dc2352a3861a879eb206358e7241913d9b5afd3974b4f96318cb1d7097e",
+        "italian": "Il sorpasso è vietato su questa corsia. In autostrada è vietata anche la sosta, salvo emergenza; il quesito non specifica il tipo di strada.",
+        "italian_sha256": "29750184ce4cd8d2987539aace693f9c8a7bfb2471cfd35aabc95521932df5a4"
+      },
+      {
+        "source": {
+          "number": 34773,
+          "quesito_id": 7263,
+          "text_it": "La corsia di decelerazione è destinata alla circolazione esclusiva di una o solo di alcune categorie di veicoli",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "53eb034dec0787cc3b81b2dd41213ecdee352a7ba31167e6a585fc9405ecbc55",
+        "italian": "La circolazione esclusiva di certe categorie caratterizza la corsia riservata. Quella di decelerazione serve invece all’uscita.",
+        "italian_sha256": "8a02968f7a2039331f46d4912fab65459334fb80806760478baabb3003d01c39"
+      },
+      {
+        "source": {
+          "number": 34774,
+          "quesito_id": 7263,
+          "text_it": "La corsia di decelerazione è una corsia specializzata sulla quale è vietata la fermata",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e0952b9b68823b36553a448dbd5af3ddcead75c5c30ac93a0bedced93af1a5e5",
+        "italian": "La risposta è vera nel normale uso: non ci si ferma nella corsia di uscita. In autostrada il divieto ammette l’eccezione dell’emergenza; il quesito non specifica il tipo di strada.",
+        "italian_sha256": "12c0a548db4ef4b20cfe620850320d90586c63e79cf048525e9ff60a6f180fca"
+      },
+      {
+        "source": {
+          "number": 34775,
+          "quesito_id": 7263,
+          "text_it": "La corsia specializzata di decelerazione consente l'uscita dall'autostrada",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0e453cf06ecabc5e44fa4ac157f9405972bbf25f66e70c45ef1045f1099300d2",
+        "italian": "La corsia di decelerazione consente ai veicoli di uscire dalla carreggiata autostradale.",
+        "italian_sha256": "60f205c5dd70db3d133fb933e0b51ee21b0df46f3787c645edcd5c546213de6d"
+      },
+      {
+        "source": {
+          "number": 34776,
+          "quesito_id": 7263,
+          "text_it": "La corsia di decelerazione è una corsia specializzata sulla quale è vietato il sorpasso",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "50109a77e57a1fec22c74d63d7c1ae378b82c959394cb091e6ce300a2bc94cee",
+        "italian": "È una corsia specializzata per l’uscita e su di essa il sorpasso è vietato.",
+        "italian_sha256": "ad271dd393a216850d9bd3527f64d7b82e4ab5186cb8efc50a244a9e077c32a5"
+      },
+      {
+        "source": {
+          "number": 34777,
+          "quesito_id": 7263,
+          "text_it": "La corsia di decelerazione è destinata ai veicoli in avaria",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b7598f481264dbd926c35c7dc6ead8d701aba8a4a04d3a2fec0f37ce3628275e",
+        "italian": "Non è destinata ai veicoli in avaria: serve a uscire dalla carreggiata. Per le soste di emergenza è prevista, ove presente, la corsia di emergenza.",
+        "italian_sha256": "0aaeb02e94b9f71c9816baa28cc117d941fd6c636384c6260ea4b07b93a95b43"
+      },
+      {
+        "source": {
+          "number": 34778,
+          "quesito_id": 7263,
+          "text_it": "La corsia di marcia consente la circolazione a tutti i veicoli a motore",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4a58be1272dd46672413d596a92428d66c4c6f7560019818445a9d50a7683fbb",
+        "italian": "La corsia di marcia serve allo scorrimento dei veicoli, anche a motore. Il verdetto vero va inteso in generale: singole strade o corsie possono escludere determinate categorie.",
+        "italian_sha256": "288ac63af9a9cffff93869ee7891a78f289ad750b34cd6caf65aac816286b5d1"
+      },
+      {
+        "source": {
+          "number": 34779,
+          "quesito_id": 7263,
+          "text_it": "La corsia di marcia è una corsia riservata ai soli veicoli a motore",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a0bc161e2fe2adba58fd4486f05c360b25d5a3d118c2fd68d908f440f8133ec7",
+        "italian": "Non è riservata ai soli veicoli a motore: la carreggiata è destinata allo scorrimento dei veicoli, nel rispetto delle eventuali restrizioni.",
+        "italian_sha256": "d940d57eb33c2392f32fb6716e6027eeee1d72de42d10b1381917a8d0a84ffb9"
+      },
+      {
+        "source": {
+          "number": 34780,
+          "quesito_id": 7263,
+          "text_it": "La corsia di marcia consente ed agevola l'ingresso dei veicoli sulla carreggiata",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "227debbd924526c3ef8602e0c837ea4b3af43623a2f6eb182a0371efed0fcb6c",
+        "italian": "La corsia di marcia fa parte della carreggiata; quella destinata ad agevolare l’ingresso è la corsia di accelerazione.",
+        "italian_sha256": "a50ea765fe27e6977c9c1f355f88b1317fd9e847c3e1d5fc57e32d29d87e842e"
+      },
+      {
+        "source": {
+          "number": 34781,
+          "quesito_id": 7263,
+          "text_it": "La corsia di marcia normalmente, è delimitata da segnaletica orizzontale",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "77bfc67cd667eec1254daf08e7c6bea861f846a00a76daf2bd346bf9fb037cab",
+        "italian": "La corsia di marcia fa parte della carreggiata ed è normalmente delimitata da segnaletica orizzontale.",
+        "italian_sha256": "97681473d7c70eb90b377bc356a4b52efb4048c4d5b9e5b7adf7e661fbf1c315"
+      },
+      {
+        "source": {
+          "number": 34782,
+          "quesito_id": 7263,
+          "text_it": "La corsia di marcia consente ed agevola l'uscita dei veicoli da una carreggiata",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b2316f2c7f9cbaa11261f237d35f83015654e15f2ae6c3f334da8c5e6837b9dc",
+        "italian": "La corsia di marcia fa parte della carreggiata; la corsia di decelerazione è quella destinata ad agevolarne l’uscita.",
+        "italian_sha256": "a480c050315582772087d76294e241715c0e623d025bf90a55c5c3839819b99b"
+      },
+      {
+        "source": {
+          "number": 34783,
+          "quesito_id": 7263,
+          "text_it": "La corsia di marcia è sempre delimitata da strisce continue",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ed0a68682a6468326b347ce4bdcdea04d369a54bc76a8d5f721912233f0b8681",
+        "italian": "Non è sempre delimitata da strisce continue: la segnaletica può comprendere anche strisce discontinue.",
+        "italian_sha256": "cb83226fe8dfcdd3a47d948badacee978cf88147044831a190768023651b9d39"
+      },
+      {
+        "source": {
+          "number": 34784,
+          "quesito_id": 7263,
+          "text_it": "La corsia di marcia è una parte della carreggiata destinata ai soli pedoni",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c9f9a239dc712d840f8ee30393e4d136dfea9d3b1ad3a438dd35ad966eca32a0",
+        "italian": "Non è riservata ai pedoni: la corsia di marcia fa parte della carreggiata, destinata allo scorrimento dei veicoli.",
+        "italian_sha256": "99104d5182d84bc456375fc212bf117e97cd45ac1e116f5fa108c1e7c827c311"
+      },
+      {
+        "source": {
+          "number": 34785,
+          "quesito_id": 7263,
+          "text_it": "La corsia di marcia fa parte della carreggiata",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b53f9e56c02b94aea17f64efbadcdb98f5103dd566fac1e41a38ba45f9fb25fd",
+        "italian": "La carreggiata è composta da una o più corsie di marcia.",
+        "italian_sha256": "717304cb0cc8ada0e4c488d94276b38bd63a46ca38f7814f11c90ce859d8503a"
+      },
+      {
+        "source": {
+          "number": 34786,
+          "quesito_id": 7263,
+          "text_it": "La corsia può essere riservata agli autobus in servizio pubblico",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "de98cd4880163eed15dbd24e37a951f080165c342324afeecb4b83c4b93f9944",
+        "italian": "Una corsia può essere destinata esclusivamente agli autobus in servizio pubblico.",
+        "italian_sha256": "e010e7c056bab81176ed9e80eef7ef51bef7a07102f9f21ce65fcb2bcd8f1d16"
+      },
+      {
+        "source": {
+          "number": 34787,
+          "quesito_id": 7263,
+          "text_it": "Le corsie riservate agli autobus possono essere percorse da tutti gli autobus",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "91f5ccfac894bbe34ad5e887b27aaa223737d1787065f67a2aac679926f10800",
+        "italian": "Non basta essere un autobus: la corsia è utilizzabile dagli autobus ammessi dalla specifica riserva, ad esempio quelli in servizio pubblico.",
+        "italian_sha256": "727d71d5ab9bb0aa2b7188a7f184b42ee5736ad32abfec57f70694191dfbc234"
+      },
+      {
+        "source": {
+          "number": 34788,
+          "quesito_id": 7263,
+          "text_it": "La corsia riservata è una corsia riservata al sorpasso",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "972cbd9d47d7ab7498b0b37161e78f6b29a95422a4e45d4df4c4ce06323d89f0",
+        "italian": "La corsia riservata è destinata a determinate categorie di veicoli; quella di sorpasso è invece una corsia specializzata per una manovra.",
+        "italian_sha256": "0147f97180e8f0b9af3783652cf43dc459d3794febf6e49b8742f7fb7b508631"
+      },
+      {
+        "source": {
+          "number": 34789,
+          "quesito_id": 7264,
+          "text_it": "Le corsie riservate agli autobus possono essere percorse a velocità sostenuta in quanto separate dalla sede stradale",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "db5f48c575fef5b2756ae8dc86222e5430e796e907757270750266fbeb7a25a9",
+        "italian": "La riserva non autorizza una velocità elevata e non implica che la corsia sia separata dalla sede stradale. La velocità va adeguata alle condizioni della strada e del traffico.",
+        "italian_sha256": "9edf5e4a2031b6ab1aa745de20ae18b28737ec7a466e70ee308353048632c318"
+      },
+      {
+        "source": {
+          "number": 34790,
+          "quesito_id": 7264,
+          "text_it": "Le corsie riservate agli autobus possono essere utilizzate dai velocipedi (biciclette)",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "96fa0b28de8808d212568f17653f1c2b4b181be7f76e078b1d1ac1f504748b0c",
+        "italian": "Il quiz considera falsa una facoltà generale per le biciclette: la corsia è riservata ai veicoli indicati. La formulazione è però ambigua, perché i velocipedi possono essere ammessi se la disciplina locale lo prevede.",
+        "italian_sha256": "1698f7f630badda74cde818715214d04ec937940f8135061767f8983daa5c304"
+      },
+      {
+        "source": {
+          "number": 34791,
+          "quesito_id": 7264,
+          "text_it": "La corsia riservata è destinata alla circolazione esclusiva di una o solo di alcune categorie di veicoli",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8a0ecd9ceb1baf8024b0d428759366c80abde3e880990e732a8221f0d1740cb2",
+        "italian": "La corsia riservata è una corsia di marcia destinata in esclusiva a una o ad alcune categorie di veicoli.",
+        "italian_sha256": "aff71dea526a838da5a9a1c787e7395b7c6333944dfc0344a41d4bacafef5ace"
+      },
+      {
+        "source": {
+          "number": 34792,
+          "quesito_id": 7264,
+          "text_it": "Le corsie riservate agli autobus possono essere delimitate da strisce gialle e bianche continue affiancate",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "511cbe60750010792116325896b5092ce6d239317d4cfbb6cbeed6ac58935088",
+        "italian": "La corsia riservata può essere separata dalle altre da due strisce continue affiancate, bianca e gialla; la gialla è sul lato della corsia riservata.",
+        "italian_sha256": "b7322d0af55416714f9e0f716087812cf5889874a1904aba76a9b221ce2c32b6"
+      },
+      {
+        "source": {
+          "number": 34793,
+          "quesito_id": 7264,
+          "text_it": "Le corsie riservate agli autobus possono essere utilizzate anche dai taxi se espressamente indicato",
+          "answer": 1,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0b2486d2d70bb223d40fa100e6564ab142b5695e367ac2ccb6cdafbe34942fb4",
+        "italian": "Anche i taxi possono usare la corsia quando sono compresi tra i veicoli autorizzati dalla segnaletica e dalla disciplina locale.",
+        "italian_sha256": "bcd65bdc0cf0cdd4fc507dc7463e8a99a7818676e86b6905e359c9b2d9046ac5"
+      },
+      {
+        "source": {
+          "number": 34794,
+          "quesito_id": 7264,
+          "text_it": "La corsia riservata consente ed agevola l'uscita dei veicoli dalla carreggiata",
+          "answer": 0,
+          "page": 124,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "981047c965276374ee49c7707a1605e45afb9ebe196d8f42b3aeaeb99484dd9c",
+        "italian": "Non è la funzione della corsia riservata: l'uscita dalla carreggiata è agevolata dalla corsia di decelerazione.",
+        "italian_sha256": "9b8bdc0a03384db23f496e3615662a603990835f608bd0c73ab2fbda11fc3cff"
+      }
+    ],
+    "task_sha256": "045a2803a812659253a046b3c1c423028dd1d90c666e7266f00c018dde9bd3fd"
+  },
+  "rows": [
+    {
+      "number": 34745,
+      "text": "Road traffic does not concern pedestrians alone: it also includes the movement, stopping and parking of vehicles and animals on the road."
+    },
+    {
+      "number": 34746,
+      "text": "Road traffic does not concern vehicles alone: it also includes the movement, stopping and parking of pedestrians and animals on the road."
+    },
+    {
+      "number": 34747,
+      "text": "The movement of pedestrians on the road is part of road traffic, along with that of vehicles and animals."
+    },
+    {
+      "number": 34748,
+      "text": "Road traffic includes the movement, stopping and parking of pedestrians, vehicles and animals on the road."
+    },
+    {
+      "number": 34749,
+      "text": "Road traffic does not concern motor vehicles alone: it also includes pedestrians, animals and other vehicles, whether moving, stopped or parked."
+    },
+    {
+      "number": 34750,
+      "text": "A lane runs lengthwise along the road and is wide enough for one line of vehicles."
+    },
+    {
+      "number": 34751,
+      "text": "A lane does not run across the road: it is a lengthwise part of the road suitable for one line of vehicles to travel along."
+    },
+    {
+      "number": 34752,
+      "text": "A specialized lane is intended for vehicles performing particular manoeuvres, including turning and overtaking."
+    },
+    {
+      "number": 34753,
+      "text": "A traffic lane, like any lane, is wide enough for only one line of vehicles to travel along."
+    },
+    {
+      "number": 34754,
+      "text": "A lane is a lengthwise part of the road suitable for only one line of vehicles to travel along."
+    },
+    {
+      "number": 34755,
+      "text": "A lane is wide enough for only one line of vehicles to travel along."
+    },
+    {
+      "number": 34756,
+      "text": "It is wrong to say that only motor vehicles travel in the lane: non-motorized vehicles, such as bicycles, can also use it in accordance with the applicable rules."
+    },
+    {
+      "number": 34757,
+      "text": "A reserved lane can be designated exclusively for one or more categories of vehicles."
+    },
+    {
+      "number": 34758,
+      "text": "An acceleration lane is a specialized lane that makes it easier for vehicles to enter the carriageway."
+    },
+    {
+      "number": 34759,
+      "text": "The acceleration lane makes it easier for vehicles to join the motorway carriageway."
+    },
+    {
+      "number": 34760,
+      "text": "The acceleration lane is used to enter the carriageway; the deceleration lane is used to exit."
+    },
+    {
+      "number": 34761,
+      "text": "The acceleration lane makes it easier to enter the carriageway; the deceleration lane is used to exit it."
+    },
+    {
+      "number": 34762,
+      "text": "It is not intended for overtaking: it helps vehicles enter the carriageway."
+    },
+    {
+      "number": 34763,
+      "text": "That is the definition of a reserved lane. An acceleration lane, on the other hand, helps vehicles enter the carriageway."
+    },
+    {
+      "number": 34764,
+      "text": "It is a specialized lane for entering the carriageway, and overtaking is prohibited on it."
+    },
+    {
+      "number": 34765,
+      "text": "The answer is true under normal use: you do not stop in the entry lane. On a motorway, the prohibition allows an exception for emergencies; the question does not specify the type of road."
+    },
+    {
+      "number": 34766,
+      "text": "It is the specialized lane that helps vehicles enter the carriageway."
+    },
+    {
+      "number": 34767,
+      "text": "Overtaking is prohibited on this lane. On a motorway, parking is also prohibited except in an emergency; the question does not specify the type of road."
+    },
+    {
+      "number": 34768,
+      "text": "The deceleration lane is used to exit the carriageway; the acceleration lane is provided for entering it."
+    },
+    {
+      "number": 34769,
+      "text": "The deceleration lane is used to exit the motorway; the acceleration lane is used to enter it."
+    },
+    {
+      "number": 34770,
+      "text": "It allows those exiting to slow down separately, avoiding slowing down vehicles that continue on their way."
+    },
+    {
+      "number": 34771,
+      "text": "It is specialized because it is intended for the manoeuvre of exiting the carriageway."
+    },
+    {
+      "number": 34772,
+      "text": "Overtaking is prohibited on this lane. On a motorway, parking is also prohibited except in an emergency; the question does not specify the type of road."
+    },
+    {
+      "number": 34773,
+      "text": "A reserved lane is characterized by exclusive use by certain categories of vehicles. A deceleration lane, on the other hand, is used for exiting."
+    },
+    {
+      "number": 34774,
+      "text": "The answer is true under normal use: you do not stop in the exit lane. On a motorway, the prohibition allows an exception for emergencies; the question does not specify the type of road."
+    },
+    {
+      "number": 34775,
+      "text": "The deceleration lane allows vehicles to exit the motorway carriageway."
+    },
+    {
+      "number": 34776,
+      "text": "It is a specialized lane for exiting the carriageway, and overtaking is prohibited on it."
+    },
+    {
+      "number": 34777,
+      "text": "It is not intended for broken-down vehicles: it is used to exit the carriageway. For emergency stops, the emergency lane is provided where available."
+    },
+    {
+      "number": 34778,
+      "text": "A traffic lane is intended for vehicles, including motor vehicles, to travel along. The true verdict should be understood generally: individual roads or lanes may exclude certain categories."
+    },
+    {
+      "number": 34779,
+      "text": "It is not reserved solely for motor vehicles: the carriageway is intended for vehicles to travel along, subject to any restrictions."
+    },
+    {
+      "number": 34780,
+      "text": "A traffic lane is part of the carriageway; the lane intended to help vehicles enter it is the acceleration lane."
+    },
+    {
+      "number": 34781,
+      "text": "A traffic lane is part of the carriageway and is normally marked out by road markings."
+    },
+    {
+      "number": 34782,
+      "text": "A traffic lane is part of the carriageway; the deceleration lane is intended to help vehicles exit it."
+    },
+    {
+      "number": 34783,
+      "text": "It is not always marked out by solid lines: the road markings may also include broken lines."
+    },
+    {
+      "number": 34784,
+      "text": "It is not reserved for pedestrians: a traffic lane is part of the carriageway, which is intended for vehicles to travel along."
+    },
+    {
+      "number": 34785,
+      "text": "The carriageway consists of one or more traffic lanes."
+    },
+    {
+      "number": 34786,
+      "text": "A lane can be designated exclusively for buses in public service."
+    },
+    {
+      "number": 34787,
+      "text": "Being a bus is not enough: the lane can be used by buses permitted under the specific restriction, such as those in public service."
+    },
+    {
+      "number": 34788,
+      "text": "A reserved lane is intended for certain categories of vehicles; an overtaking lane, on the other hand, is a lane specialized for a manoeuvre."
+    },
+    {
+      "number": 34789,
+      "text": "The reservation does not authorize high speeds and does not mean that the lane is separated from the road. Speed must be adjusted to road and traffic conditions."
+    },
+    {
+      "number": 34790,
+      "text": "The quiz considers a general right for bicycles to use the lane false: the lane is reserved for the vehicles indicated. The wording is ambiguous, however, because bicycles may be permitted if local rules provide for it."
+    },
+    {
+      "number": 34791,
+      "text": "A reserved lane is a traffic lane designated exclusively for one or more categories of vehicles."
+    },
+    {
+      "number": 34792,
+      "text": "A reserved lane may be separated from the others by two solid lines side by side, one white and one yellow; the yellow line is on the reserved lane side."
+    },
+    {
+      "number": 34793,
+      "text": "Taxis may also use the lane when they are among the vehicles authorized by the signs and local rules."
+    },
+    {
+      "number": 34794,
+      "text": "That is not the function of a reserved lane: the deceleration lane helps vehicles exit the carriageway."
+    }
+  ],
+  "output_sha256": "d47c28ba7b629cd73fec9bc0fc9b08e9ba112973e1cdf847f6dadb32e2ce9058"
+}

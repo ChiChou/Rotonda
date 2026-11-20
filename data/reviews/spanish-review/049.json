@@ -1,0 +1,79 @@
+{
+  "batch": "049",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "553eb5c43ea5dea2452693c842bfc3081371485d4f31f08cc6767a3b3936e368",
+  "source_sha256": "f18d54842b0f2e2db4e08244a1b905e6036cb89dbe1adb64d50230be6dce5294",
+  "corrections": [
+    {
+      "id": "40ccb9099d175666f768a673f70f4f6d511dabb381ca63c0dfa99da510efbab5",
+      "before": "Según el Reglamento 561/2006/CE, el descanso diario normal es de al menos nueve horas",
+      "after": "Según el Reglamento 561/2006/CE, el descanso diario regular es de al menos nueve horas",
+      "reason": "'periodo di riposo giornaliero regolare' is regular daily rest, not 'normal'"
+    },
+    {
+      "id": "40f1e73623da41f19eb3658454a10f539464ed1754ab4293e020801370eef07e",
+      "before": "El CDC garantiza adherencia óptima y comodidad interviniendo continuamente en la aceleración del vehículo",
+      "after": "El CDC (sistema de control continuo de los rebotes) garantiza condiciones óptimas de adherencia de las ruedas y comodidad de marcha interviniendo continuamente en la aceleración del vehículo",
+      "reason": "Restituye el desarrollo de CDC y que la adherencia es de las ruedas."
+    },
+    {
+      "id": "40fb1781d4e1b7943ca2aa3a58a270fbea394f3ac4586a9d4fe0735f8dde9b47",
+      "before": "La señal mostrada indica un área de descanso cercana",
+      "after": "La señal mostrada indica un área de estacionamiento cercana",
+      "reason": "Área di sosta no implica necesariamente instalaciones de descanso.; 'area di sosta' is a parking area; 'detenerse' misreads it"
+    },
+    {
+      "id": "412e5ab02011460ff42eb3ba8a8d7726ac0eb8a3e9b2f3dbf658b0226d02b6d0",
+      "before": "En Italia, el transporte ocasional de pasajeros por carretera hacia países extracomunitarios se rige por una normativa de carácter general",
+      "after": "En Italia, el transporte ocasional de pasajeros por carretera en países extracomunitarios se rige por una normativa de carácter general",
+      "reason": "El original se refiere a servicios en esos países, sin especificar que sean hacia ellos."
+    },
+    {
+      "id": "41456fe88e1f8c302b231c9a38e9906f8649a0e076ec77e21b714376b674c10b",
+      "before": "Según el CMR, el destinatario puede sustituirse por otros destinatarios después de descargar la mercancía",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el destinatario puede sustituir a otros destinatarios por sí mismo después de haber hecho descargar la mercancía",
+      "reason": "Restituye el nombre del convenio incluido en el original.; Reversed meaning: the consignee substitutes other consignees with himself"
+    },
+    {
+      "id": "414a1c23dc0495db13f0cbdc3b63925bd559a2d00bf0a8ff5c4f3a5eab6743f0",
+      "before": "Si una persona herida tiene un cuerpo extraño en un ojo, nunca hay que vendarle el ojo lesionado",
+      "after": "Si una persona herida tiene un cuerpo extraño en un ojo, no hay que vendarle nunca el ojo lesionado",
+      "reason": "Reversed meaning: the Italian says one must never bandage the injured eye"
+    },
+    {
+      "id": "417a4086c1faf83923e1aa057668be42db0456ccf5c3772f7839fdc8fb0fab5f",
+      "before": "El seguro de responsabilidad civil automotor puede indemnizar los costos de mantenimiento ordinario del vehículo",
+      "after": "El seguro RCA (responsabilidad civil automotor) puede indemnizar los costos de mantenimiento ordinario del vehículo",
+      "reason": "Restituye la sigla RCA junto con su explicación."
+    },
+    {
+      "id": "41910f421f34d3a03f2b05f98366cc2012a4b9116308492ff2643f65b65add1b",
+      "before": "09##tipología9 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "09##tipologia9 CQC - DL 30 JULIO 2021",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original.; Technical label should keep the source's 'DL' abbreviation; 'DECRETO LEY' expansion was added"
+    },
+    {
+      "id": "41e8b19a14e18decee18be7c25e945188cfcdd4ed9661ad9ae9cba2dd95eb723",
+      "before": "Ante la señal mostrada y en caso de lluvia hay que prever que pueda acumularse agua en la depresión",
+      "after": "Ante la señal mostrada y en caso de lluvia hay que prever que pueda acumularse agua en la cuneta",
+      "reason": "'cunetta' is a roadside gutter/ditch, not a depression"
+    },
+    {
+      "id": "4215263f6c433629a8635983a55076bf5f215c642a6a105a0918e599b82fff12",
+      "before": "Cuando las plazas no están delimitadas, se permite estacionar a menos de 15 metros de la señal de parada de autobús si se activan las luces de emergencia",
+      "after": "Cuando las plazas no están delimitadas, se permite estacionar a menos de 15 metros de la señal de parada de autobús si se activan las luces de emergencia (las cuatro direccionales intermitentes al mismo tiempo)",
+      "reason": "Restituye la explicación de las cuatro direccionales del original."
+    }
+  ],
+  "reviewed_file_sha256": "c611bf26494ebcc3a5885fa4e3927bf856689c92e354aaa8933b9e797c91c0da"
+}

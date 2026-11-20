@@ -1,0 +1,752 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29281,
+          "quesito_id": 6155,
+          "text_it": "Se la marmitta deve essere sostituita, quella nuova deve sempre essere di tipo omologato per lo specifico veicolo",
+          "answer": 1,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a8d0cf22436913d17e14ff25e4b66463484696c49554586c4eae851a2040ea0a",
+        "localized_text": "更换排气消声器时，新消声器必须始终为该特定车辆获批准的类型。"
+      },
+      {
+        "source": {
+          "number": 29282,
+          "quesito_id": 6155,
+          "text_it": "Se la marmitta deve essere sostituita, quella nuova può essere di qualunque tipo, purché la sua lunghezza sia uguale o inferiore a quella vecchia",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2fec171703d82b48fbcfd75047dd07681ffb6a986ca31384d5ee176dde5512c6",
+        "localized_text": "更换排气消声器时，新消声器可以是任何类型，只要长度不超过旧消声器。"
+      },
+      {
+        "source": {
+          "number": 29283,
+          "quesito_id": 6155,
+          "text_it": "La marmitta deve essere sostituita a ogni revisione del veicolo",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5f23543d0e81d36a5d18f0386293b2b130325f22891185605f1b005f0d86facf",
+        "localized_text": "每次车辆检验时都必须更换排气消声器。"
+      },
+      {
+        "source": {
+          "number": 29284,
+          "quesito_id": 6155,
+          "text_it": "In un motore Diesel, la marmitta deve essere sostituita ogni due anni o ogni 25000 chilometri, perché il nerofumo tende a intasarla",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "496e79be47f7dae99df3385dfc46536537cd1686e43041ca605118c03b2cbe99",
+        "localized_text": "柴油发动机的排气消声器必须每两年或每25,000公里更换一次，因为炭黑容易使其堵塞。"
+      },
+      {
+        "source": {
+          "number": 29285,
+          "quesito_id": 6155,
+          "text_it": "La marmitta forata può essere riparata con del silicone sigillante, senza che sia necessario sostituirla",
+          "answer": 0,
+          "page": 100,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a8e1348e71b6a7a0ed11fbb42803497d9ff8b623ec39266f07ad9a2bf9dbf7df",
+        "localized_text": "排气消声器穿孔时可以用硅酮密封剂修补，无需更换。"
+      },
+      {
+        "source": {
+          "number": 29286,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel ha il compito di gestire la mandata del gasolio",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f375892321ddc1afa212a7f8b5471d8857eddbcf24d16fe2237f14d4b3ba79a7",
+        "localized_text": "柴油发动机供油系统负责管理柴油供应。"
+      },
+      {
+        "source": {
+          "number": 29287,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel può comprendere iniettori pompa",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ede0efe2f2aa2d05587f369c32e4860d5b21be7a0f363b4d8985a9fedb8784a6",
+        "localized_text": "柴油发动机供油系统可以包括泵喷嘴。"
+      },
+      {
+        "source": {
+          "number": 29288,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel è dotato di un filtro del gasolio",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e2057ea0d9d82758ec02983a17ff588ed3cd16f67e59eb1ea9d12f847ee4d869",
+        "localized_text": "柴油发动机供油系统配有柴油滤清器。"
+      },
+      {
+        "source": {
+          "number": 29289,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel comprende anche degli iniettori che polverizzano il gasolio",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "43ca489473c45c61161be512ff12084ee34af77ef223e0e8d986aabc0c2dea1d",
+        "localized_text": "柴油发动机供油系统还包括将柴油雾化的喷油器。"
+      },
+      {
+        "source": {
+          "number": 29290,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel può essere dotato di una pompa di iniezione che invia gasolio ad alta pressione agli iniettori",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "299c948a95be2207005ca637cd32f0bae8af315e361ebd5ba433a7b686178b0e",
+        "localized_text": "柴油发动机供油系统可以配备喷油泵，将高压柴油送至喷油器。"
+      },
+      {
+        "source": {
+          "number": 29291,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel è dotato di una pompa di alimentazione che invia il gasolio ad alta pressione agli iniettori",
+          "answer": 0,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f457aa5fb3541baff2e87cd66f1e9ae1bc92a5e8cd6eb43fd6dbad462a3073a6",
+        "localized_text": "柴油发动机供油系统配有供油泵，将高压柴油送至喷油器。"
+      },
+      {
+        "source": {
+          "number": 29292,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel prevede un filtro a cartuccia che deve essere sostituito ad ogni rifornimento di carburante",
+          "answer": 0,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "06ec88aa8368c7d26578d906f9a528037f02446cfdc366a2a3f3156b4c2f7026",
+        "localized_text": "柴油发动机供油系统配有筒式滤清器，必须每次加油时更换。"
+      },
+      {
+        "source": {
+          "number": 29293,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel è dotato di pompa di iniezione che aspira gasolio dal serbatoio",
+          "answer": 0,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ce03a428e9a7332cefe9744e732010145f888560c658d4874c57a1d06c60b38e",
+        "localized_text": "柴油发动机供油系统配有从油箱抽取柴油的喷油泵。"
+      },
+      {
+        "source": {
+          "number": 29294,
+          "quesito_id": 6156,
+          "text_it": "L'impianto di alimentazione del motore Diesel è dotato di un filtro aria che deve essere sostituito ad ogni rifornimento di carburante",
+          "answer": 0,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fac9e18b4334904c174ed58b5f993f353babdbd767b5412c7578f60fb5cc0c1f",
+        "localized_text": "柴油发动机供油系统配有空气滤清器，必须每次加油时更换。"
+      },
+      {
+        "source": {
+          "number": 29295,
+          "quesito_id": 6156,
+          "text_it": "L’impianto di alimentazione del motore Diesel è regolato direttamente dal conducente per mezzo di appositi interruttori posti sul cruscotto",
+          "answer": 0,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "594e04871c27b039fd0e1cae07e22029aa8a3f09dd1c945f0ac63041708407c1",
+        "localized_text": "驾驶员通过仪表板上的专用开关直接调节柴油发动机供油系统。"
+      },
+      {
+        "source": {
+          "number": 29296,
+          "quesito_id": 6157,
+          "text_it": "I motori Diesel sono dotati di filtro dell’aria e filtro del gasolio",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "83a8672ffc4e7543bcf5712cb9a2eb87b26b32f11802e0813a6f9cffdbbf4282",
+        "localized_text": "柴油发动机配有空气滤清器和柴油滤清器。"
+      },
+      {
+        "source": {
+          "number": 29297,
+          "quesito_id": 6157,
+          "text_it": "Nei motori Diesel l’acceleratore regola la quantità di gasolio che viene iniettata nei cilindri",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "84820c15decf5ff4be8f7171ba12a16f1d3f0bc9e86d1fb87420fc67a673a54e",
+        "localized_text": "在柴油发动机中，加速踏板调节喷入气缸的柴油量。"
+      },
+      {
+        "source": {
+          "number": 29298,
+          "quesito_id": 6157,
+          "text_it": "Il filtro dell’aria di un motore Diesel deve periodicamente essere controllato, sostituendo se necessario la cartuccia filtrante",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e0225986954c25c15d27b70813b6ebb134eefc567c4bfadb71d926334eb77b6c",
+        "localized_text": "柴油发动机空气滤清器必须定期检查，必要时更换滤芯。"
+      },
+      {
+        "source": {
+          "number": 29299,
+          "quesito_id": 6157,
+          "text_it": "Il \"Common-rail\" è un sistema di iniezione a controllo elettronico per motori Diesel, che consente una altissima pressione di iniezione",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "08aeebc81181cd6c9384249dd8c2441c80db7b1d5f6cedab38763494b084f803",
+        "localized_text": "共轨是电子控制的柴油喷射系统，可实现极高的喷射压力。"
+      },
+      {
+        "source": {
+          "number": 29300,
+          "quesito_id": 6157,
+          "text_it": "La cartuccia dei filtri del gasolio deve essere sostituita periodicamente",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1ef8317366bc36e85b28b7173fc8cc7ca618330037f291d146a19299ae4bd41b",
+        "localized_text": "柴油滤清器滤芯必须定期更换。"
+      },
+      {
+        "source": {
+          "number": 29301,
+          "quesito_id": 6157,
+          "text_it": "Il motore Diesel può anche essere alimentato con BioDiesel",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "39534d150a36d6bf867f0412b13510647d828d01cb101308a94f3a19b044f278",
+        "localized_text": "柴油发动机也可以使用生物柴油。"
+      },
+      {
+        "source": {
+          "number": 29302,
+          "quesito_id": 6157,
+          "text_it": "Le candelette di un motore Diesel servono per permettere le prime accensioni del gasolio nei cilindri a motore freddo",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6f06f21b362fec5cb5ab0c7b86c6b7d8940abe4fdf1e47d233dc997e46580456",
+        "localized_text": "柴油发动机预热塞使冷机时气缸内柴油能够首次点燃。"
+      },
+      {
+        "source": {
+          "number": 29303,
+          "quesito_id": 6157,
+          "text_it": "In un motore Diesel la combustione del gasolio avviene grazie al suo surriscaldamento",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9fd6d1506423429f5276f575395577cf02515298c950276769c7694cffa3ee1a",
+        "localized_text": "在柴油发动机中，柴油因被加热到高温而燃烧。"
+      },
+      {
+        "source": {
+          "number": 29304,
+          "quesito_id": 6157,
+          "text_it": "In un motore Diesel a iniezione diretta, il gasolio è iniettato direttamente nel cilindro",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e8960ff0533cf42b14738ff8f54e797bcc7dc9fdddda3c26efa9e9bc1d449497",
+        "localized_text": "在直喷柴油发动机中，柴油直接喷入气缸。"
+      },
+      {
+        "source": {
+          "number": 29305,
+          "quesito_id": 6157,
+          "text_it": "In un motore Diesel a iniezione indiretta, il gasolio è iniettato in una precamera esterna al cilindro",
+          "answer": 1,
+          "page": 101,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a1550e593fab3509a529dc9a1cc5756bed81b2189e3d9e444ad0b8fd8ca5b28d",
+        "localized_text": "在间接喷射柴油发动机中，柴油喷入气缸外的预燃室。"
+      }
+    ],
+    "task_sha256": "a5ba3eb19da55ee61b2a1224ace79986772011da5e06fd697227db2d733e30db"
+  },
+  "rows": [
+    {
+      "number": 29281,
+      "text": "配备内燃机的意大利autoveicoli类别车辆，其排气系统须配备规定的消声器并保持有效、安装正确。替换件应适合车辆并符合适用要求；仅有兼容性不能保证合规。",
+      "evidence": [
+        "CdS art.72(1)(b), (8)–(10), https://aci.gov.it/codice-della-strada/art-72/ : silencing equipment and approval requirements; art.79(1),(4), https://aci.gov.it/codice-della-strada/art-79/ : effective operation and correct installation, noise. Avoid inferring a universal replacement-specific type-approval mechanism."
+      ]
+    },
+    {
+      "number": 29282,
+      "text": "仅凭长度不足以选择消声器：应选用适合车辆、符合适用要求并正确安装的消声器，以控制噪声。",
+      "evidence": [
+        "CdS art.72(1)(b), (8)–(10), https://aci.gov.it/codice-della-strada/art-72/ : silencing equipment and approval requirements; art.79(1),(4), https://aci.gov.it/codice-della-strada/art-79/ : effective operation and correct installation, noise. Avoid inferring a universal replacement-specific type-approval mechanism."
+      ]
+    },
+    {
+      "number": 29283,
+      "text": "车辆检验会检查排气系统的状况和工作情况，不会自动要求更换完好的消声器。",
+      "evidence": [
+        "Direttiva 2014/45/UE, allegato I, punti 6.1.2 e 8.1.1, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014L0045-20230520: la revisione controlla perdite e difetti del silenziatore; non prescrive la sostituzione a ogni controllo."
+      ]
+    },
+    {
+      "number": 29284,
+      "text": "消声器并无题目所说的固定年限或里程强制更换要求；应看其状况和是否有缺陷。",
+      "evidence": [
+        "Direttiva 2014/45/UE, allegato I, punti 6.1.2 e 8.1.1, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014L0045-20230520: la revisione controlla perdite e difetti del silenziatore; non prescrive la sostituzione a ogni controllo."
+      ]
+    },
+    {
+      "number": 29285,
+      "text": "穿孔可能造成泄漏和噪声；仅用普通硅酮不能保证排气系统恢复正常。有缺陷的消声器应正确修复或换成合适的部件。",
+      "evidence": [
+        "Direttiva 2014/45/UE, allegato I, punti 6.1.2 e 8.1.1, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014L0045-20230520: la revisione controlla perdite e difetti del silenziatore; non prescrive la sostituzione a ogni controllo.",
+        "Regolamento UNECE n. 59, punti 1, 2 e 6, https://eur-lex.europa.eu/eli/reg/2025/844/oj/eng: per le categorie M1 e N1 il silenziatore di ricambio è approvato per determinati tipi di veicolo e deve rispettare i requisiti di rumore."
+      ]
+    },
+    {
+      "number": 29286,
+      "text": "供油系统将柴油从油箱送往喷射系统，并根据发动机需求管理供油。",
+      "evidence": [
+        "Bosch, Common-rail system with solenoid injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-solenoid/: schema con pompa di prealimentazione, filtro, pompa ad alta pressione, rail e iniettori; gestione elettronica della mandata."
+      ]
+    },
+    {
+      "number": 29287,
+      "text": "有些柴油发动机使用泵喷嘴：每个单元都集成高压泵元件和喷油嘴。",
+      "evidence": [
+        "Bosch, Unit injector for large engines, https://www.bosch-mobility.com/en/solutions/injectors/unit-injector-ohw/: iniettore pompa integra pompa ad alta pressione e ugello; valvola controlla inizio e quantità."
+      ]
+    },
+    {
+      "number": 29288,
+      "text": "柴油滤清器截留杂质和水，保护精密的喷射部件。",
+      "evidence": [
+        "Bosch, Common-rail system with solenoid injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-solenoid/: schema con pompa di prealimentazione, filtro, pompa ad alta pressione, rail e iniettori; gestione elettronica della mandata.",
+        "Bosch, Filters: clean, filter and protect, https://www.boschaftermarket.com/gb/en/parts/products/filters/: i filtri aria e carburante trattengono contaminanti e vanno sostituiti regolarmente secondo le specifiche del costruttore."
+      ]
+    },
+    {
+      "number": 29289,
+      "text": "喷油器计量并雾化柴油，使其更易在燃烧室内与空气混合。",
+      "evidence": [
+        "Bosch, Diesel systems, https://www.boschaftermarket.com/gb/en/parts/products/diesel-systems/: gli iniettori dosano e polverizzano il carburante ad alta pressione nel cilindro."
+      ]
+    },
+    {
+      "number": 29290,
+      "text": "在某些系统中，泵产生高压并向喷油器供油，有时经过称为共轨的公共管路。",
+      "evidence": [
+        "Bosch, Common-rail system with piezo injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-piezo/: pompa ad alta pressione alimenta il rail e il controllo calcola quantità e tempi per ciascun cilindro."
+      ]
+    },
+    {
+      "number": 29291,
+      "text": "供油泵在低压回路中输送柴油；喷射压力由高压部件产生。",
+      "evidence": [
+        "Bosch, Common-rail system with solenoid injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-solenoid/: schema con pompa di prealimentazione, filtro, pompa ad alta pressione, rail e iniettori; gestione elettronica della mandata.",
+        "Bosch, Common-rail system with piezo injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-piezo/: pompa ad alta pressione alimenta il rail e il controllo calcola quantità e tempi per ciascun cilindro."
+      ]
+    },
+    {
+      "number": 29292,
+      "text": "柴油滤清器应按保养计划定期更换，而不是每次加油都换。",
+      "evidence": [
+        "Bosch, Filters: clean, filter and protect, https://www.boschaftermarket.com/gb/en/parts/products/filters/: i filtri aria e carburante trattengono contaminanti e vanno sostituiti regolarmente secondo le specifiche del costruttore.",
+        "Cummins, QSK38/QSK60 marine engines, https://mart.cummins.com/imagelibrary/data/assetfiles/0076817.pdf: esempio di sostituzione periodica dei filtri carburante."
+      ]
+    },
+    {
+      "number": 29293,
+      "text": "题库判为FALSO：常见系统中，供油泵低压输送柴油，喷射泵再提高压力。但功能可以集成：某些喷射泵内含从油箱吸油的叶片泵。",
+      "evidence": [
+        "Official superiori question 29293 prints FALSO. Bosch common rail https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-solenoid/ separates supply and high-pressure functions; Bosch distributor pump https://manualmachine.com/bosch/dieseldistributorfuelinjectionpumps/28650590-technical-instruction/ p.13 describes integrated vane feed. Do not infer separate housings universally."
+      ]
+    },
+    {
+      "number": 29294,
+      "text": "空气滤清器清洁进气；应根据保养计划和使用条件检查、更换，而不是每次加油都换。",
+      "evidence": [
+        "Bosch, Air Filters, https://ap.boschaftermarket.com/au/en/parts/products/filters/air-filters/: controllare il filtro a ogni manutenzione e sostituirlo secondo intervallo e condizioni."
+      ]
+    },
+    {
+      "number": 29295,
+      "text": "驾驶员通过加速踏板表达动力需求；喷射由控制系统调节，而不是由仪表板开关直接调节。",
+      "evidence": [
+        "Bosch, Air management, https://www.bosch-mobility.com/en/solutions/air-management/: il pedale trasmette la richiesta del conducente alla centralina; Bosch, common rail piezo: la centralina calcola quantità e tempi di iniezione.",
+        "Bosch, Common-rail system with piezo injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-piezo/: il sistema calcola e controlla quantità e tempi di iniezione per ciascun cilindro."
+      ]
+    },
+    {
+      "number": 29296,
+      "text": "空气滤清器清洁进气，柴油滤清器截留燃油杂质：两者保护发动机的不同部位。",
+      "evidence": [
+        "Bosch, Filters: clean, filter and protect, https://www.boschaftermarket.com/gb/en/parts/products/filters/: i filtri aria e carburante trattengono contaminanti e vanno sostituiti regolarmente secondo le specifiche del costruttore."
+      ]
+    },
+    {
+      "number": 29297,
+      "text": "加速踏板表达动力需求；控制系统据此调整喷入气缸的柴油量。",
+      "evidence": [
+        "Bosch, Air management, https://www.bosch-mobility.com/en/solutions/air-management/: il pedale trasmette la richiesta del conducente alla centralina; Bosch, common rail piezo: la centralina calcola quantità e tempi di iniezione.",
+        "Bosch, Common-rail system with piezo injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-piezo/: il sistema calcola e controlla quantità e tempi di iniezione per ciascun cilindro."
+      ]
+    },
+    {
+      "number": 29298,
+      "text": "脏污的空气滤清器会阻碍进气：应按保养计划定期检查，必要时更换滤芯。",
+      "evidence": [
+        "Bosch, Filters: clean, filter and protect, https://www.boschaftermarket.com/gb/en/parts/products/filters/: i filtri aria e carburante trattengono contaminanti e vanno sostituiti regolarmente secondo le specifiche del costruttore.",
+        "Bosch, Air Filters, https://ap.boschaftermarket.com/au/en/parts/products/filters/air-filters/: controllare il filtro a ogni manutenzione e sostituirlo secondo intervallo e condizioni."
+      ]
+    },
+    {
+      "number": 29299,
+      "text": "共轨系统中，泵使公共管路中的燃油保持高压；电子控制系统管理喷射时刻和喷油量。",
+      "evidence": [
+        "Bosch, Common-rail system with piezo injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-piezo/: pompa ad alta pressione alimenta il rail e il controllo calcola quantità e tempi per ciascun cilindro."
+      ]
+    },
+    {
+      "number": 29300,
+      "text": "滤清器截留杂质并可能堵塞；应按照制造商的规定定期更换滤芯。",
+      "evidence": [
+        "Bosch, Filters: clean, filter and protect, https://www.boschaftermarket.com/gb/en/parts/products/filters/: i filtri aria e carburante trattengono contaminanti e vanno sostituiti regolarmente secondo le specifiche del costruttore."
+      ]
+    },
+    {
+      "number": 29301,
+      "text": "柴油发动机可以使用生物柴油，包括其与普通柴油的混合燃料。应确认该发动机允许使用哪些混合比例。",
+      "evidence": [
+        "US DOE, Diesel Vehicle Availability, https://afdc.energy.gov/vehicles/diesels-availability: i diesel possono utilizzare miscele di biodiesel; verificare le miscele ammesse dal costruttore."
+      ]
+    },
+    {
+      "number": 29302,
+      "text": "预热塞加热燃烧区域，帮助柴油在冷启动时点燃。",
+      "evidence": [
+        "Bosch, Glow plugs, https://www.boschaftermarket.com/gb/en/parts/products/glow-plugs/: il preriscaldamento aiuta l’avviamento a freddo dei motori diesel."
+      ]
+    },
+    {
+      "number": 29303,
+      "text": "柴油发动机中的压缩使气缸内空气升温；喷入热空气的柴油会自行着火。",
+      "evidence": [
+        "US DOE, Internal Combustion Engine Basics, https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics: il gasolio spruzzato nell’aria riscaldata dalla compressione si accende spontaneamente."
+      ]
+    },
+    {
+      "number": 29304,
+      "text": "直喷时，喷油器将柴油直接喷入气缸燃烧室，不经过预燃室。",
+      "evidence": [
+        "US EPA, Particulate Control Technology and Particulate Emissions Standards for Heavy-Duty Diesel Engines, sezione 4, https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=940043QS.TXT: iniezione diretta nella camera del cilindro; indiretta nella precamera separata e collegata, dove il carburante si mescola con aria.",
+        "US EPA, Background Document AP-42 Section 3.4, https://www.epa.gov/sites/default/files/2020-10/documents/b03s04.pdf: nella precamera la combustione inizia e si espande nella camera principale."
+      ]
+    },
+    {
+      "number": 29305,
+      "text": "间接喷射时，柴油先进入与气缸相连的预燃室，在那里与空气混合，然后燃烧传播到气缸内。",
+      "evidence": [
+        "US EPA, Particulate Control Technology and Particulate Emissions Standards for Heavy-Duty Diesel Engines, sezione 4, https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=940043QS.TXT: iniezione diretta nella camera del cilindro; indiretta nella precamera separata e collegata, dove il carburante si mescola con aria.",
+        "US EPA, Background Document AP-42 Section 3.4, https://www.epa.gov/sites/default/files/2020-10/documents/b03s04.pdf: nella precamera la combustione inizia e si espande nella camera principale."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "a5ba3eb19da55ee61b2a1224ace79986772011da5e06fd697227db2d733e30db",
+    "output_sha256": "5adbdf640b30a5c7395185b6c7a601ee87755867e0495c5b6bb6063bf7b0ad9c",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / feed-pump-round4-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29281,
+      29282,
+      29283,
+      29284,
+      29285,
+      29286,
+      29287,
+      29288,
+      29289,
+      29290,
+      29291,
+      29292,
+      29293,
+      29294,
+      29295,
+      29296,
+      29297,
+      29298,
+      29299,
+      29300,
+      29301,
+      29302,
+      29303,
+      29304,
+      29305
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "Independently rechecked revised 29281 all languages against CdS article 72(1)(b), https://aci.gov.it/codice-della-strada/art-72/: silencer requirement applies when the vehicle has a thermal engine. Article 79 addresses equipment efficiency. Prior independent review of all 25 remains applicable."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaea-ba0a-7650-aa7f-d1336631e4fb",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "8e117fa79b49219f93538e573179508669d59e10847c340ea0ceb06b78b62a7b",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaea-ba0a-7650-aa7f-d1336631e4fb",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29293,
+              "reason": "Il quesito assegna FALSO alla pompa di iniezione che aspira dal serbatoio senza specificare il tipo di impianto; una pompa di alimentazione integrata nella pompa di iniezione può svolgere proprio tale funzione. Non è chiaro se il quesito intenda escludere questa configurazione o distinguere la funzione interna dal gruppo completo.",
+              "checked_sources": [
+                "Bosch, Diesel distributor fuel-injection pumps, sezione Fuel supply, https://manualmachine.com/bosch/dieseldistributorfuelinjectionpumps/28650590-technical-instruction/ : la pompa di alimentazione a palette nella pompa di iniezione può aspirare dal serbatoio.",
+                "Bosch, Common-rail system with solenoid injectors, https://www.bosch-mobility.com/en/solutions/powertrain/diesel/common-rail-system-solenoid/ : nello schema la pompa di prealimentazione è distinta dalla pompa ad alta pressione."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "8e117fa79b49219f93538e573179508669d59e10847c340ea0ceb06b78b62a7b",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "a5ba3eb19da55ee61b2a1224ace79986772011da5e06fd697227db2d733e30db",
+        "output_sha256": "14c9781b7fea1610d5c0f18581f55cf200039fd7aad6406491e72d1092c2b3e6",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / diesel-engines-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          29281,
+          29282,
+          29283,
+          29284,
+          29285,
+          29286,
+          29287,
+          29288,
+          29289,
+          29290,
+          29291,
+          29292,
+          29293,
+          29294,
+          29295,
+          29296,
+          29297,
+          29298,
+          29299,
+          29300,
+          29301,
+          29302,
+          29303,
+          29304,
+          29305
+        ],
+        "issues": [
+          "29281 and 29282: The cited UN R59 replacement-silencer component approval covers M1/N1, whereas the learner text states an unrestricted approval requirement and the source bank includes heavy vehicles. Supply authority for applicable heavy categories or qualify the statement to the verified category/scope without inventing a universal rule. In 29281 compatibility alone does not guarantee all exhaust requirements; identify approval and correct fit without that guarantee."
+        ],
+        "reviewer_evidence": [
+          "UN R59 https://eur-lex.europa.eu/eli/reg/2025/844/oj/eng is specific to M1/N1 replacement silencing systems. Bosch supply and injection roles are distinguished; integrated distributor feed requires keeping function separate from pump housing."
+        ]
+      },
+      {
+        "task_sha256": "a5ba3eb19da55ee61b2a1224ace79986772011da5e06fd697227db2d733e30db",
+        "output_sha256": "a7f3518959f7e11a2b59050629bb1233e5d07051c297db60389786e28b2c1c7e",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          29281,
+          29282,
+          29283,
+          29284,
+          29285,
+          29286,
+          29287,
+          29288,
+          29289,
+          29290,
+          29291,
+          29292,
+          29293,
+          29294,
+          29295,
+          29296,
+          29297,
+          29298,
+          29299,
+          29300,
+          29301,
+          29302,
+          29303,
+          29304,
+          29305
+        ],
+        "issues": [
+          {
+            "number": 29281,
+            "reason": "The printed source concerns replacement silencers generally, but the explanation and sole evidence only address UNECE R59 M1/N1; it leaves the question unresolved for heavy vehicle categories. CdS 72(1)(b),(8)-(10) and 79(1),(4) support broader equipment/conformity requirements but must not be presented as proof of every vehicle-type-specific approval detail."
+          },
+          {
+            "number": 29282,
+            "reason": "Length is not a sufficient criterion generally, yet the only legal support and concrete instruction cover M1/N1. Explain the broader need for proper silencing, condition and installation using applicable authority without misapplying R59 to heavy vehicles."
+          }
+        ]
+      },
+      {
+        "task_sha256": "a5ba3eb19da55ee61b2a1224ace79986772011da5e06fd697227db2d733e30db",
+        "output_sha256": "b3dc950246ef526bd853bf19fbaa8e28c647a1c4637c70d8fb4f841048dabe19",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / diesel-round3-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          29281,
+          29282,
+          29283,
+          29284,
+          29285,
+          29286,
+          29287,
+          29288,
+          29289,
+          29290,
+          29291,
+          29292,
+          29293,
+          29294,
+          29295,
+          29296,
+          29297,
+          29298,
+          29299,
+          29300,
+          29301,
+          29302,
+          29303,
+          29304,
+          29305
+        ],
+        "issues": [
+          "29281: Article 72(1)(b) requires silencing and exhaust equipment only when the vehicle has a thermal engine. The learner text instead states all autoveicoli must have a silencer, which includes electric vehicles. Add the thermal-engine condition in all languages."
+        ],
+        "reviewer_evidence": [
+          "CdS art.72(1)(b), https://aci.gov.it/codice-della-strada/art-72/ explicitly conditions silencers on a thermal engine. Article 79 requires applicable equipment to remain efficient."
+        ]
+      }
+    ]
+  }
+}

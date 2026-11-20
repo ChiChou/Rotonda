@@ -1,0 +1,43 @@
+{
+  "batch": "191",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "96e2c07233833ba36c0b495756fc4a21dc485e76e95b20f48f415114de380fb0",
+  "source_sha256": "124cc4b3a6094cdbb3e565d1355d12155e125d4c03664885d19461562a87d7b2",
+  "corrections": [
+    {
+      "id": "fc492b3122e46abd2538e77eb98a137b4e533547250ba596834963adcb8a2a38",
+      "before": "Los pasajeros tienen el deber de respetar al personal encargado de conducir y controlar el servicio y de seguir sus instrucciones",
+      "after": "Los pasajeros tienen el deber de respetar al personal de a bordo encargado de las funciones de conducción y control, y de acatar sus disposiciones",
+      "reason": "Conserva la etiqueta literal de la modalidad y explica su significado.; Text describes an unrelated sentence (digital tachograph OUT OF SCOPE); replace with the translation of the Italian passenger-duty sentence"
+    },
+    {
+      "id": "fd66edc6c3d02481b2ef5c02d34e83fb260d676e855d16bbe53bbf918001a9a9",
+      "before": "Reservar infraestructura específica a autobuses y trolebuses de transporte público permite reducir el desgaste de los vehículos",
+      "after": "Reservar infraestructura específica, como vías y carriles, a autobuses y trolebuses de transporte público permite reducir el desgaste de los vehículos",
+      "reason": "Restituye los ejemplos de infraestructura."
+    },
+    {
+      "id": "fd6e780321c72c45f2ac21b03dbe112923106aed0f004a8f82022a68eca9cc7c",
+      "before": "Al tomar una curva, los vehículos cisterna están sujetos a la dispersión de la carga por el movimiento lateral del líquido",
+      "after": "Al tomar una curva, los vehículos cisterna están sujetos a la dispersión de la carga por la agitación lateral del líquido",
+      "reason": "Sbattimento indica agitación del líquido."
+    },
+    {
+      "id": "fd8117e5d6a3cd0cb82d3483b51750c5067b361dbdbca9339a32bb383a383b58",
+      "before": "Cuando el vehículo se utiliza en actividades o servicios fuera del ámbito de la normativa social, el cronotacógrafo digital se ajusta automáticamente a la modalidad «fuera de ámbito»",
+      "after": "Cuando el vehículo se utiliza en actividades o servicios fuera del ámbito de la normativa social, el cronotacógrafo digital se ajusta automáticamente a la modalidad «OUT OF SCOPE» (fuera de ámbito)",
+      "reason": "Conserva la etiqueta literal de la modalidad y explica su significado."
+    }
+  ],
+  "reviewed_file_sha256": "e4b0e46a5a752247002fa656b43adf2fd6cd312fd8dc93b254a522b481c0278c"
+}

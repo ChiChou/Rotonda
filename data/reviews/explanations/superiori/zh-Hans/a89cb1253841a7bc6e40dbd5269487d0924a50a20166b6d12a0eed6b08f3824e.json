@@ -1,0 +1,708 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29332,
+          "quesito_id": 6159,
+          "text_it": "La regolazione elettronica dell’iniezione è applicabile solo ai motori a scoppio perché il gasolio è troppo lento ad incendiarsi",
+          "answer": 0,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "97f387a581c2e69d57abf70eab5586b9d376e8d49a6c52ccce5776c16695bb1e",
+        "localized_text": "电子喷射控制只适用于点火式发动机，因为柴油点燃太慢。"
+      },
+      {
+        "source": {
+          "number": 29333,
+          "quesito_id": 6159,
+          "text_it": "Gli iniettori pompa dei motori Diesel possono essere solo ad azionamento meccanico",
+          "answer": 0,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "29a691dddcd97ee98c69dc90e3e0f67195f3cc6aef4ecf11f8333d1f03d5625d",
+        "localized_text": "柴油泵喷嘴只能机械操作。"
+      },
+      {
+        "source": {
+          "number": 29334,
+          "quesito_id": 6159,
+          "text_it": "In un motore Diesel, gli iniettori sregolati causano un peggior comfort di marcia",
+          "answer": 0,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a441fa41ef0d3936a176184985be62b3236a3800b9e77ec218902a5427814da3",
+        "localized_text": "柴油喷油器调节不当会降低乘坐舒适度。"
+      },
+      {
+        "source": {
+          "number": 29335,
+          "quesito_id": 6159,
+          "text_it": "In un motore Diesel, gli iniettori sregolati sono segnalati da una spia verde che si accende sul cruscotto",
+          "answer": 0,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "43067900de1d8017746e10083a311031f349f0afdd4709aa22069b63d346f275",
+        "localized_text": "柴油喷油器调节不当由仪表板亮起的绿色警告灯提示。"
+      },
+      {
+        "source": {
+          "number": 29336,
+          "quesito_id": 6159,
+          "text_it": "In un motore Diesel, la pulizia degli iniettori sregolati può avvenire marciando in discesa a motore spento per poche centinaia di metri",
+          "answer": 0,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "12045760168a80c07cf6d9060cdf7887401839c8eb766a19071f572cb40bda84",
+        "localized_text": "柴油喷油器调节不当时，可以关闭发动机下坡滑行几百米来清洁。"
+      },
+      {
+        "source": {
+          "number": 29337,
+          "quesito_id": 6159,
+          "text_it": "In un motore Diesel, la quantità di gasolio iniettata può essere regolata manualmente dal conducente tramite manopola posta sul cruscotto",
+          "answer": 0,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5855a2b2392666ab3c4a6061c4014eb19bd7ffdf31670d86356e75b04253ce75",
+        "localized_text": "在柴油发动机中，驾驶员可以通过仪表板旋钮手动调节喷油量。"
+      },
+      {
+        "source": {
+          "number": 29338,
+          "quesito_id": 6159,
+          "text_it": "In un motore Diesel, la pulizia degli iniettori sregolati può avvenire con motore acceso, veicolo in folle e acceleratore premuto a fondo per una decina di secondi",
+          "answer": 0,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3f5b5dd1e5fd3e2559ecd2096fb1d2b9847fcab31caa1a665adaef4bcaf868a4",
+        "localized_text": "柴油喷油器调节不当时，可以在发动机运转、车辆空挡且加速踏板踩到底约十秒的情况下清洁。"
+      },
+      {
+        "source": {
+          "number": 29339,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea serve a inviare il gasolio agli iniettori, sotto forte pressione",
+          "answer": 1,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5be25ce0635a7756804455b74b501b39da67e27ccab12718d2b01682b6fb3060",
+        "localized_text": "在柴油发动机中，直列式喷油泵将高压柴油送至喷油器。"
+      },
+      {
+        "source": {
+          "number": 29340,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea, comandata dal pedale dell'acceleratore, permette di regolare la quantità di gasolio da inviare agli iniettori",
+          "answer": 1,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fc60e966469451c84fc67f3fe4a389fb5bb202e13af43a27526c6b635061521e",
+        "localized_text": "在柴油发动机中，由加速踏板控制的直列式喷油泵可以调节送至喷油器的柴油量。"
+      },
+      {
+        "source": {
+          "number": 29341,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea regola, fra l'altro, il momento opportuno per l'invio del gasolio agli iniettori",
+          "answer": 1,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9202675f5579299e7a35704fb736ce934401159cc5adc0337725794a1c722d60",
+        "localized_text": "在柴油发动机中，直列式喷油泵除其他功能外还调节向喷油器供油的适当时机。"
+      },
+      {
+        "source": {
+          "number": 29342,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea è dotata di elementi pompanti (uno per ogni cilindro)",
+          "answer": 1,
+          "page": 102,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "366dd2039463571f644ffc6a011dd48ba27dc844e4da1f33b5223710c78e9c09",
+        "localized_text": "在柴油发动机中，直列式喷油泵配有泵油元件，每个气缸一个。"
+      },
+      {
+        "source": {
+          "number": 29343,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea è dotata di un albero a camme",
+          "answer": 1,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "db4616c68f40c5503bee04b9eee5b2148d55dd9fb9577bcdd76c837dfa5373de",
+        "localized_text": "在柴油发动机中，直列式喷油泵配有凸轮轴。"
+      },
+      {
+        "source": {
+          "number": 29344,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea è dotata di un'asta a cremagliera che è comandata dal pedale dell'acceleratore",
+          "answer": 1,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bfa3878794dae4e9ca7b22e4fa34b32252e5cfd7fb3d79604c98523ca28ae530",
+        "localized_text": "在柴油发动机中，直列式喷油泵配有由加速踏板控制的齿条杆。"
+      },
+      {
+        "source": {
+          "number": 29345,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea è equipaggiata con un regolatore di giri",
+          "answer": 1,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "22fc28a955931560ca3c92649557da0b8d3ced2cd8ec581fd6b65094cfaf935e",
+        "localized_text": "在柴油发动机中，直列式喷油泵配有转速调节器。"
+      },
+      {
+        "source": {
+          "number": 29346,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea è dotata di un dispositivo di anticipo automatico",
+          "answer": 1,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "227d8eb5fb4716334711495f608ee77c9d9c3c35ee761f83f298998dcdbf333c",
+        "localized_text": "在柴油发动机中，直列式喷油泵配有自动提前装置。"
+      },
+      {
+        "source": {
+          "number": 29347,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea aspira il gasolio dal serbatoio",
+          "answer": 0,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a74a87ab1c706fbe66df1c40db99309ff93e7e3d3e38a163ee47c0e791d24d61",
+        "localized_text": "在柴油发动机中，直列式喷油泵从油箱抽取柴油。"
+      },
+      {
+        "source": {
+          "number": 29348,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea invia anche l'olio lubrificante alle parti in movimento del motore",
+          "answer": 0,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7d7ad73f9d02cbdead98ebdb16dfd6b3eb104fc3aff1ce7cc5cb8286a5ef31ad",
+        "localized_text": "在柴油发动机中，直列式喷油泵还向发动机运动部件输送润滑油。"
+      },
+      {
+        "source": {
+          "number": 29349,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea prende movimento dagli alberi della distribuzione",
+          "answer": 0,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f783a135c1227272bb78d13f6dd12f786a91348d16f7b7faaf65b7a059f60078",
+        "localized_text": "在柴油发动机中，直列式喷油泵由配气轴驱动。"
+      },
+      {
+        "source": {
+          "number": 29350,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea alimenta la portata dell'acqua di raffreddamento",
+          "answer": 0,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "aa74a09e3fcbb8a967d1afa47c08adb22d8701ce60d4b8016533413a4a0921c9",
+        "localized_text": "在柴油发动机中，直列式喷油泵提供冷却水流量。"
+      },
+      {
+        "source": {
+          "number": 29351,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea ha un solo elemento pompante",
+          "answer": 0,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "67b36735bc300a5431a316ef5e61f7913883b31e551491a6044d11af19e42e75",
+        "localized_text": "在柴油发动机中，直列式喷油泵只有一个泵油元件。"
+      },
+      {
+        "source": {
+          "number": 29352,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea serve ad inviare, sotto forte pressione, l'olio agli elementi frenanti delle ruote",
+          "answer": 0,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bd30a38a8d36846ef61c6dc379105ee0be7ed684ea37d9adcdefd66cd3fb164f",
+        "localized_text": "在柴油发动机中，直列式喷油泵将高压油液送至车轮制动部件。"
+      },
+      {
+        "source": {
+          "number": 29353,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea deve essere sostituita ogni 25000 chilometri circa",
+          "answer": 0,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a424c6eb13b5a31ee9897be20f14d7987683a266b0fde47988a29545db69f8ca",
+        "localized_text": "在柴油发动机中，直列式喷油泵必须约每25,000公里更换一次。"
+      },
+      {
+        "source": {
+          "number": 29354,
+          "quesito_id": 6160,
+          "text_it": "In un motore Diesel, la pompa di iniezione in linea è dotata di una candeletta di preaccensione per ciascun iniettore",
+          "answer": 0,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e7560062c8f9c41e8756ef0c784d780c8af6b8529a1b130c77293ca86c8665bf",
+        "localized_text": "在柴油发动机中，直列式喷油泵的每个喷油器都配有一个预热塞。"
+      },
+      {
+        "source": {
+          "number": 29355,
+          "quesito_id": 6161,
+          "text_it": "In un motore Diesel, gli elementi pompanti di una pompa di iniezione in linea prendono movimento dall'albero a camme della pompa",
+          "answer": 1,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d0f7fdabaf01cb8998590f60e5d7b73465458cca882f225e96dc8b19d16fb7f0",
+        "localized_text": "在柴油发动机中，直列式喷油泵的泵油元件由泵的凸轮轴驱动。"
+      },
+      {
+        "source": {
+          "number": 29356,
+          "quesito_id": 6161,
+          "text_it": "In un motore Diesel, gli elementi pompanti di una pompa di iniezione in linea sono in numero uguale ai cilindri",
+          "answer": 1,
+          "page": 103,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a1bfd987211daf2ec70c5ae2e8edffb85610953605528b1db4bb0c6d3acb9fd8",
+        "localized_text": "在柴油发动机中，直列式喷油泵的泵油元件数量与气缸数量相同。"
+      }
+    ],
+    "task_sha256": "a89cb1253841a7bc6e40dbd5269487d0924a50a20166b6d12a0eed6b08f3824e"
+  },
+  "rows": [
+    {
+      "number": 29332,
+      "text": "柴油发动机的喷射也可以由电子系统控制：控制单元管理喷油器和喷油量。",
+      "evidence": [
+        "Bosch, Modern diesel injection systems, Common Rail e Unit injector system, https://www.boschaftermarket.com/xrm/media/images/country_specific/sg/services_and_support_6/downloads_18/diesel_system_components.pdf — sistemi Diesel a controllo elettronico."
+      ]
+    },
+    {
+      "number": 29333,
+      "text": "泵喷嘴的喷射可以采用电子控制，尽管泵送动作由配气机构机械驱动。",
+      "evidence": [
+        "Bosch, Diesel fuel-injection systems: An overview, Unit-injector system, https://injectionpumps.co.uk/pdf/bosch_ve_pumps.pdf — gruppo pompa-iniettore azionato da camma; Bosch, Modern diesel injection systems, Unit injector system, https://www.boschaftermarket.com/xrm/media/images/country_specific/sg/services_and_support_6/downloads_18/diesel_system_components.pdf — controllo elettronico."
+      ]
+    },
+    {
+      "number": 29334,
+      "text": "题库判为FALSO，但这不排除喷油器故障或调整不当导致运转不稳和顿挫，影响乘坐舒适性。并非所有故障都会产生相同症状。",
+      "evidence": [
+        "Official superiori question 29334 prints FALSO. Delphi https://www.delphiautoparts.com/en-gb/products-and-technologies/gasoline-fuel-systems/fuel-injection-system/petrol-fuel-injection/best-practice-advice-for-servicing-common-rail-injectors describes faulty common-rail injectors causing surging; comfort effect is a practical inference, not proof every fault has that symptom."
+      ]
+    },
+    {
+      "number": 29335,
+      "text": "绿色指示灯通常表示某项功能正在工作，并不能指明喷油器调校失准。发动机管理系统故障可能由琥珀色警告灯显示，需要进行诊断。",
+      "evidence": [
+        "Volkswagen, Car Warning Lights e Diesel Engine Management Warning Light, https://www.volkswagen.co.uk/en/owners-and-services/my-car/warning-light.html e https://www.volkswagen.co.uk/en/owners-and-services/my-car/warning-light/diesel-engine-management-lamp.html — verde per sistemi attivi; ambra per gestione motore."
+      ]
+    },
+    {
+      "number": 29336,
+      "text": "熄火下坡并不是清洁或调整喷油器的方法。应查明故障，并使用合适的设备处理。",
+      "evidence": [
+        "Bosch Diesel Service, Diesel Component Testing & Repair, https://www.boschaftermarket.com/afr/en/services/workshop-concepts/bosch-diesel-service/ — prova e riparazione professionale dei componenti Diesel; Delphi, Best practice advice for servicing Common Rail injectors, https://www.delphiautoparts.com/en-gb/products-and-technologies/gasoline-fuel-systems/fuel-injection-system/petrol-fuel-injection/best-practice-advice-for-servicing-common-rail-injectors — diagnosi e pulizia con kit dedicato."
+      ]
+    },
+    {
+      "number": 29337,
+      "text": "喷射系统根据驾驶员的请求和发动机工况计量喷油量，而不是通过仪表板上的旋钮调节。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — regolatore e cremagliera dosano il carburante; Bosch, Modern diesel injection systems, https://www.boschaftermarket.com/xrm/media/images/country_specific/sg/services_and_support_6/downloads_18/diesel_system_components.pdf — gestione elettronica degli iniettori."
+      ]
+    },
+    {
+      "number": 29338,
+      "text": "空挡时将加速踏板踩到底并不是清洁或调整喷油器的方法。应诊断故障并使用合适的工具处理。",
+      "evidence": [
+        "Bosch Diesel Service, Diesel Component Testing & Repair, https://www.boschaftermarket.com/afr/en/services/workshop-concepts/bosch-diesel-service/ — prova e riparazione dei componenti; Delphi, Best practice advice for servicing Common Rail injectors, https://www.delphiautoparts.com/en-gb/products-and-technologies/gasoline-fuel-systems/fuel-injection-system/petrol-fuel-injection/best-practice-advice-for-servicing-common-rail-injectors — pulizia con kit specifico."
+      ]
+    },
+    {
+      "number": 29339,
+      "text": "直列泵计量并压缩柴油，通过高压管路将其送至喷油器。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — elementi pompanti e collegamenti ad alta pressione agli iniettori."
+      ]
+    },
+    {
+      "number": 29340,
+      "text": "在机械泵中，加速踏板的请求作用于调速器控制机构，调速器改变齿条位置，从而改变送往喷油器的油量。",
+      "evidence": [
+        "Bosch, Governors for In-line Injection Pumps, Fuel-delivery regulation, https://injectionpumps.co.uk/wp-content/uploads/2020/04/Bosch-Governors-for-Inline-Injection-Pumps.pdf — leva di comando, regolatore e cremagliera modificano la mandata."
+      ]
+    },
+    {
+      "number": 29341,
+      "text": "供油必须在发动机循环的正确时刻开始；提前装置可以根据转速改变供油开始的时刻。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — sincronizzazione della pompa e dispositivo di anticipo, se previsto."
+      ]
+    },
+    {
+      "number": 29342,
+      "text": "在直列泵中，每个发动机气缸都有一个与相应喷油器连接的泵油元件。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — un elemento pompante e una linea ad alta pressione per cilindro."
+      ]
+    },
+    {
+      "number": 29343,
+      "text": "在博世PE直列泵中，内部凸轮轴驱动泵油元件。其他设计也可使用发动机凸轮轴上的凸轮，具体取决于系统。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — albero a camme interno e azionamento degli elementi.",
+        "Volvo Penta marine workshop manual https://j109.org/docs/volvo_d1-30_workshop_manual.pdf p.48: another inline pump arrangement is actuated by the engine camshaft; marine example, not specific evidence for road vehicles."
+      ]
+    },
+    {
+      "number": 29344,
+      "text": "在机械泵中，加速踏板的请求经调速器传至齿条，齿条转动泵柱塞并改变供油量。",
+      "evidence": [
+        "Bosch, Governors for In-line Injection Pumps, Fuel-delivery regulation, https://injectionpumps.co.uk/wp-content/uploads/2020/04/Bosch-Governors-for-Inline-Injection-Pumps.pdf — comando del regolatore e asta dentata regolano la mandata."
+      ]
+    },
+    {
+      "number": 29345,
+      "text": "调速器通过调整柴油量来控制发动机转速，即使负载发生变化也如此。",
+      "evidence": [
+        "Bosch, Governors for In-line Injection Pumps, Introduction, https://injectionpumps.co.uk/wp-content/uploads/2020/04/Bosch-Governors-for-Inline-Injection-Pumps.pdf — regolatore modifica la dose per regolare i giri."
+      ]
+    },
+    {
+      "number": 29346,
+      "text": "在所述系统中，自动提前装置根据发动机转速调整供油开始时刻；泵的作用仍是计量柴油。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — dispositivo di anticipo, ove previsto, varia l’inizio della mandata in funzione dei giri; la presenza dipende dal sistema."
+      ]
+    },
+    {
+      "number": 29347,
+      "text": "在采用直列泵的系统中，输油泵将柴油从油箱送至喷射泵；喷射泵计量柴油并以高压将其送至喷油器。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — pompa di alimentazione dal serbatoio e linee ad alta pressione."
+      ]
+    },
+    {
+      "number": 29348,
+      "text": "喷射泵将柴油送至喷油器，而不是将机油送至发动机部件。润滑由机油循环系统提供。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — percorso gasolio; Bosch, Bosch pump elements, https://www.boschaftermarket.com/xrm/media/images/services/downloads/parts_14/diesel_spare_parts/diesel_spare_parts_brochurerreworked_en_91975.pdf — la pompa in linea è lubrificata dal circuito olio motore."
+      ]
+    },
+    {
+      "number": 29349,
+      "text": "题库判为FALSO。有些直列泵具有与发动机同步的独立凸轮轴；另一些设计则由发动机凸轮轴直接驱动。具体取决于系统。",
+      "evidence": [
+        "Official superiori question 29349 prints FALSO. Bosch PE https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf pp.16–17 describes pump camshaft; Volvo Penta https://j109.org/docs/volvo_d1-30_workshop_manual.pdf p.48 describes engine-camshaft actuation in a marine engine, not proof of a specific road-vehicle installation."
+      ]
+    },
+    {
+      "number": 29350,
+      "text": "喷射泵属于燃油系统并向喷油器供油；它不负责循环冷却液。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — pompa collegata alle tubazioni del gasolio e agli iniettori."
+      ]
+    },
+    {
+      "number": 29351,
+      "text": "直列泵每个气缸有一个泵油元件，而不是整个发动机共用一个。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — un elemento pompante per cilindro."
+      ]
+    },
+    {
+      "number": 29352,
+      "text": "喷射泵将送往喷油器的柴油加压；它不向制动回路供油。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — mandata di carburante agli iniettori mediante linee ad alta pressione."
+      ]
+    },
+    {
+      "number": 29353,
+      "text": "直列泵没有每行驶25,000公里就必须更换的通用要求：应遵循制造商的说明，并诊断可能存在的故障。",
+      "evidence": [
+        "Bosch, Bosch pump elements, https://www.boschaftermarket.com/xrm/media/images/services/downloads/parts_14/diesel_spare_parts/diesel_spare_parts_brochurerreworked_en_91975.pdf — manutenzione e controllo dei pompanti, durata prevista di centinaia di migliaia di miglia; Bosch Diesel Service, Diesel Component Testing & Repair, https://www.boschaftermarket.com/afr/en/services/workshop-concepts/bosch-diesel-service/ — verifica e riparazione secondo necessità."
+      ]
+    },
+    {
+      "number": 29354,
+      "text": "预热塞帮助加热燃烧室以便冷启动；它们不是喷射泵的部件。",
+      "evidence": [
+        "NGK https://www.ngkntk.com/products/glow-plugs/ : glow plugs heat the combustion area for diesel starting. Bosch PE https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf : inline injection-pump components."
+      ]
+    },
+    {
+      "number": 29355,
+      "text": "在博世PE泵中，内部凸轮轴的凸轮推动柱塞，弹簧使其复位。其他设计可使用发动机凸轮轴上的凸轮。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — albero a camme, punterie e ritorno a molla.",
+        "Volvo Penta marine workshop manual https://j109.org/docs/volvo_d1-30_workshop_manual.pdf p.48: another inline pump arrangement is actuated by the engine camshaft; marine example, not specific evidence for road vehicles."
+      ]
+    },
+    {
+      "number": 29356,
+      "text": "每个气缸由自己的泵油元件供油，因此元件数量与气缸数量相同。",
+      "evidence": [
+        "Bosch, PE standard in-line fuel-injection pumps, Design and construction and Method of operation, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — un gruppo pistoncino-cilindretto per ogni cilindro."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "a89cb1253841a7bc6e40dbd5269487d0924a50a20166b6d12a0eed6b08f3824e",
+    "output_sha256": "c816a5797b9db83c60183c7cfb6759f539baab84a04d3d3ac6004e69d5f03070",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / diesel-round3-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29332,
+      29333,
+      29334,
+      29335,
+      29336,
+      29337,
+      29338,
+      29339,
+      29340,
+      29341,
+      29342,
+      29343,
+      29344,
+      29345,
+      29346,
+      29347,
+      29348,
+      29349,
+      29350,
+      29351,
+      29352,
+      29353,
+      29354,
+      29355,
+      29356
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "NGK https://www.ngkntk.com/products/glow-plugs/ independently inspected. Bosch PE indexed text describes internal camshaft; Volvo Penta marine workshop PDF page 24, printed 22, describes inline pump operated by engine camshaft. Live Bosch PE PDF returned 3 pages; indexed construction section was inspected independently."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaed-790e-7fb1-9b1f-f236097a25ea",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7c3569aa03b334ef4141d53ef11a2cd4e5c04bd6890e9a5c48ef0c2f2733338a",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaed-790e-7fb1-9b1f-f236097a25ea",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29334,
+              "reason": "Il quesito attribuisce FALSO al peggior comfort di marcia causato da iniettori sregolati; le fonti tecniche indicano funzionamento irregolare e oscillazioni del motore per difetti di alimentazione degli iniettori, senza delimitare in modo sufficiente il significato di comfort di marcia per conciliare la risposta stampata. Occorre accertare il criterio tecnico inteso dal quesito.",
+              "checked_sources": [
+                "Delphi, Best practice advice for servicing Common Rail injectors, https://www.delphiautoparts.com/en-gb/products-and-technologies/gasoline-fuel-systems/fuel-injection-system/petrol-fuel-injection/best-practice-advice-for-servicing-common-rail-injectors — alimentazione insufficiente può causare minimo irregolare e un iniettore difettoso può causare oscillazioni del motore."
+              ]
+            },
+            {
+              "number": 29349,
+              "reason": "Il quesito esclude senza qualifiche che la pompa in linea prenda movimento dagli alberi della distribuzione. Un manuale del costruttore descrive una pompa in linea azionata dalle camme dell’albero del motore, mentre altre pompe hanno un albero proprio azionato dal motore; non è chiaro se il quesito intenda solo queste ultime.",
+              "checked_sources": [
+                "Volvo Penta, Workshop Manual D1-30, fuel system, https://j109.org/docs/volvo_d1-30_workshop_manual.pdf — pompa in linea flangiata azionata direttamente dalle camme dell’albero del motore.",
+                "Bosch, PE standard in-line fuel-injection pumps, https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf — la pompa PE standard ha un proprio albero a camme azionato dal motore."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7c3569aa03b334ef4141d53ef11a2cd4e5c04bd6890e9a5c48ef0c2f2733338a",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "a89cb1253841a7bc6e40dbd5269487d0924a50a20166b6d12a0eed6b08f3824e",
+        "output_sha256": "7063396acea76098cb901d92a2cf3b8ea68d1f2950ec67b9ea09ca7fc6d3510b",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / diesel-engines-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          29332,
+          29333,
+          29334,
+          29335,
+          29336,
+          29337,
+          29338,
+          29339,
+          29340,
+          29341,
+          29342,
+          29343,
+          29344,
+          29345,
+          29346,
+          29347,
+          29348,
+          29349,
+          29350,
+          29351,
+          29352,
+          29353,
+          29354,
+          29355,
+          29356
+        ],
+        "issues": [
+          "29343 and 29355: The explanations treat an internal pump camshaft as universal for all inline pumps, contradicting 29349. The Bosch PE example has its own shaft, but the Volvo Penta manual directly describes an inline pump driven by cams on the engine camshaft. Qualify as the PE arrangement and acknowledge other arrangements where needed; marine example is not proof of a specific road-vehicle installation."
+        ],
+        "reviewer_evidence": [
+          "Independently inspected indexed contiguous Bosch PE design section https://injectionpumps.co.uk/pdf/bosch_pe_pumps.pdf, which describes the internal camshaft and one plunger per cylinder. Live direct PDF response exposed only 3 pages, so full-section access is indexed, not live document download. Volvo Penta https://j109.org/docs/volvo_d1-30_workshop_manual.pdf PDF page 24 (printed page 22) identifies a flange-mounted inline pump actuated directly by engine camshaft; marine example."
+        ]
+      },
+      {
+        "task_sha256": "a89cb1253841a7bc6e40dbd5269487d0924a50a20166b6d12a0eed6b08f3824e",
+        "output_sha256": "7e76b758184a158212f840cf1062fde345e7712690fd59cdc3d710f782705e16",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          29332,
+          29333,
+          29334,
+          29335,
+          29336,
+          29337,
+          29338,
+          29339,
+          29340,
+          29341,
+          29342,
+          29343,
+          29344,
+          29345,
+          29346,
+          29347,
+          29348,
+          29349,
+          29350,
+          29351,
+          29352,
+          29353,
+          29354,
+          29355,
+          29356
+        ],
+        "issues": [
+          {
+            "number": 29354,
+            "reason": "The cited Bosch glow-plug brochure now returns a one-page revision notice, not the claimed technical content; replace with an accessible manufacturer reference."
+          }
+        ]
+      }
+    ]
+  }
+}

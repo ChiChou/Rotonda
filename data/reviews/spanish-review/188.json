@@ -1,0 +1,31 @@
+{
+  "batch": "188",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "b787cc9e9d1e8cd8eca9fb6464373cf52465f4a3527978063a7050289ee6bac5",
+  "source_sha256": "2f53ee19b86b97e34fd18ee92507ea473c02a6f737c5a8b96af4a850a93a215d",
+  "corrections": [
+    {
+      "id": "f8b756a07be63b769528f23a7a1fd6b488e3635f6c57baeee3d9a6f171b606b1",
+      "before": "La licencia de categoría A, salvo limitación indicada en el documento o ajuste a la fecha de cumpleaños del titular, tiene una validez de diez años si se expide o confirma a quien no ha cumplido 50 años",
+      "after": "La licencia de categoría A, salvo limitación indicada en el documento o ajuste a la fecha de cumpleaños del titular, tiene una validez de diez años si se expide o confirma a quien no ha superado los 50 años",
+      "reason": "El límite del original incluye a quienes tienen 50 años."
+    },
+    {
+      "id": "f957f4a65a97e146fa7257ae5938c2a19fa3bbab32fd498cd121d1a078421a09",
+      "before": "Quien esté obligado a registrar los períodos de conducción y conduzca un vehículo con el tacógrafo averiado está sujeto a la confiscación del vehículo",
+      "after": "Quien esté obligado a registrar los períodos de conducción conforme a las normas vigentes y conduzca un vehículo con el tacógrafo averiado está sujeto a la confiscación del vehículo",
+      "reason": "Restituye que la obligación deriva de las normas vigentes."
+    }
+  ],
+  "reviewed_file_sha256": "d93aadfebf32f9c6fc781a65129b50939af9f45bfde93da8ecd8587d13db209b"
+}

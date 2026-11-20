@@ -1,0 +1,49 @@
+{
+  "batch": "036",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "cb29d694155531d11e6411e6d8a1f6fc51db2064696f70aef330acedfff07eef",
+  "source_sha256": "dfa99c8b292c7dd32d9dbfb0983107d9f9cf8043b0474d17d4d787ef4fb100ef",
+  "corrections": [
+    {
+      "id": "2fbab8c46cee9e0a1fa1fe60c95b1200bc4942c7cdc96c5e12fcc13e04909ae8",
+      "before": "Todos los transportes realizados en la UE están exentos de la aplicación del CMR",
+      "after": "Todos los transportes realizados en la UE están exentos de la aplicación del CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera)",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "2fbdd75b36bca489385667f13f3c984fa1bb149061942ce8feabd14a5df23f1e",
+      "before": "La señal mostrada indica un área de parada",
+      "after": "La señal mostrada indica un apartadero",
+      "reason": "Piazzola di sosta designa un apartadero, no necesariamente una parada genérica."
+    },
+    {
+      "id": "305116ce15c62d4f043f290a3af1a6a87d932c0890ce831457db4a21d35867cc",
+      "before": "Para conducir trolebuses basta con tener una tarjeta de identidad",
+      "after": "Para conducir vehículos eléctricos sin rieles alimentados por línea aérea basta con tener una tarjeta de identidad",
+      "reason": "Filoveicoli abarca vehículos eléctricos sin rieles alimentados por línea aérea, no solo trolebuses."
+    },
+    {
+      "id": "30a7e347fbb72ba8d194d2373d27211afb6938d07985fba612995a386928033b",
+      "before": "La señal mostrada puede complementarse con un panel con la inscripción TRANVÍA",
+      "after": "La señal mostrada puede complementarse con un panel con la inscripción «TRAM» (tranvía)",
+      "reason": "Conserva la inscripción literal que aparece en el panel."
+    },
+    {
+      "id": "30d46085b7a3757ff0549fe2446d181cd67de9ec6ee43578a03f5bc15c2215a9",
+      "before": "Una empresa italiana de mudanzas que quiera transportar mercancías a un Estado miembro de la CEMT no está obligada a tener autorización porque las mudanzas están liberalizadas en el área CEMT",
+      "after": "Una empresa italiana de mudanzas que quiera realizar un transporte en un Estado miembro de la CEMT no está obligada a tener autorización porque las mudanzas están liberalizadas en el área CEMT",
+      "reason": "El original indica un transporte en el Estado, sin especificar que sea hacia él."
+    }
+  ],
+  "reviewed_file_sha256": "c1d40594fad1072481038f5699aab870bc4c59de0268235de70c1d639e6f54c9"
+}

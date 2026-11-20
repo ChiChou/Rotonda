@@ -1,0 +1,834 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 29205,
+          "quesito_id": 6145,
+          "text_it": "Il motore Diesel funziona ad un regime di giri più elevato di quello a scoppio",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3a72152a99679e81a479929adc77d7ff2474dfdc79688fa48de220ccece7cdc4",
+        "localized_text": "柴油发动机的工作转速高于点火式发动机。"
+      },
+      {
+        "source": {
+          "number": 29206,
+          "quesito_id": 6146,
+          "text_it": "La potenza rappresenta il lavoro compiuto nell’unità di tempo",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "66dcaf6e22d9c146ac79e2271c6d358d3e5cc50ae9850f6b2d105a597cec36af",
+        "localized_text": "功率表示单位时间内完成的功。"
+      },
+      {
+        "source": {
+          "number": 29207,
+          "quesito_id": 6146,
+          "text_it": "Il consumo specifico di un motore rappresenta la quantità di combustibile necessaria per la produzione di una unità di potenza",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "391b0c014cfc031976a6ec6d54ebd411ab4e87b7e417ed939dcd56794bc5480e",
+        "localized_text": "发动机比油耗表示产生一个单位功率所需的燃料量。"
+      },
+      {
+        "source": {
+          "number": 29208,
+          "quesito_id": 6146,
+          "text_it": "L’anticipo dell’iniezione del gasolio nei motori Diesel serve a favorire la completa combustione del gasolio stesso",
+          "answer": 1,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f43b753a11f62739dc2932dcda28db03eaa99d1de692c1a32c0def00c3fd1240",
+        "localized_text": "柴油发动机提前喷油有助于柴油完全燃烧。"
+      },
+      {
+        "source": {
+          "number": 29209,
+          "quesito_id": 6146,
+          "text_it": "Per un rendimento ottimale del motore occorre tenerlo sempre al massimo dei giri",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c09fea052c5b97965626f3118a48339da2b7a95d4c16caa6fdc7e3d09083c8b3",
+        "localized_text": "为使发动机效率最佳，必须始终保持最高转速。"
+      },
+      {
+        "source": {
+          "number": 29210,
+          "quesito_id": 6146,
+          "text_it": "Per un rendimento ottimale del motore occorre tenerlo sempre al minimo dei giri",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "07e9e90fdb4f76f13225a2d345965b05077cfce9b10fc715776985e8d69d7323",
+        "localized_text": "为使发动机效率最佳，必须始终保持最低转速。"
+      },
+      {
+        "source": {
+          "number": 29211,
+          "quesito_id": 6146,
+          "text_it": "La potenza di un motore si indica in Volt",
+          "answer": 0,
+          "page": 97,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8c8fbf3ecc5b685744ba712820f8a0aa9c01fe482d5d27932061971bb0999196",
+        "localized_text": "发动机功率以伏特表示。"
+      },
+      {
+        "source": {
+          "number": 29212,
+          "quesito_id": 6147,
+          "text_it": "Il motore Diesel è un motore ad accensione spontanea",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cf2d388ed52040d03dcc6bd368182741a3957e260280945188ae7511b1d27798",
+        "localized_text": "柴油发动机是压燃式发动机。"
+      },
+      {
+        "source": {
+          "number": 29213,
+          "quesito_id": 6147,
+          "text_it": "Il motore Diesel utilizza il gasolio come combustibile",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "91e55718bf1f7fb008a31b0f6f98c17c4191c3d053184999508b2542afd7f635",
+        "localized_text": "柴油发动机使用柴油作为燃料。"
+      },
+      {
+        "source": {
+          "number": 29214,
+          "quesito_id": 6147,
+          "text_it": "Il motore Diesel è alimentato solo per iniezione",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d3b1f729c86bfbb1b2e62c7e72688f853a54a9f8cc4bd869f51d5b4ab27ee881",
+        "localized_text": "柴油发动机只能通过喷射供油。"
+      },
+      {
+        "source": {
+          "number": 29215,
+          "quesito_id": 6147,
+          "text_it": "Nel motore Diesel la combustione avviene per autoaccensione",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0a8e114fcf107cb99d2585fd30146fb11225e87c1b886699002a549be16e3e2e",
+        "localized_text": "柴油发动机通过自行点燃进行燃烧。"
+      },
+      {
+        "source": {
+          "number": 29216,
+          "quesito_id": 6147,
+          "text_it": "Nel motore Diesel la combustione avviene grazie all’iniezione del gasolio in ambiente ad alta temperatura",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1b046279fd342e094e5ddd6b407e5cc93704213302bdefa4c0369e7413f74c26",
+        "localized_text": "柴油发动机将柴油喷入高温环境中，从而发生燃烧。"
+      },
+      {
+        "source": {
+          "number": 29217,
+          "quesito_id": 6147,
+          "text_it": "Il motore Diesel può funzionare indifferentemente a gasolio o a benzina",
+          "answer": 0,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "71aa96f8447f05bd837535c257f7155e5931c2b5c572226a24f1db878967ab45",
+        "localized_text": "柴油发动机可以同样使用柴油或汽油运行。"
+      },
+      {
+        "source": {
+          "number": 29218,
+          "quesito_id": 6147,
+          "text_it": "Il motore Diesel utilizza la miscela creata nel carburatore",
+          "answer": 0,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5e017af390af2e356da226b123cb21ed9b7233988898354089d8ede84b17a64c",
+        "localized_text": "柴油发动机使用化油器形成的混合物。"
+      },
+      {
+        "source": {
+          "number": 29219,
+          "quesito_id": 6147,
+          "text_it": "Il motore Diesel utilizza il gasolio perché è molto infiammabile a temperatura ambiente",
+          "answer": 0,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1da178bb8ddce22ffee34a895874127a83eaf478530bcea1e7b53699d51df22b",
+        "localized_text": "柴油发动机使用柴油，因为柴油在室温下极易燃。"
+      },
+      {
+        "source": {
+          "number": 29220,
+          "quesito_id": 6147,
+          "text_it": "Il motore Diesel è un motore in cui l'accensione del carburante avviene per mezzo della scintilla delle candele",
+          "answer": 0,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "433fc69f86606dfcdc2617b9917d08b56d2bc43c7125dcea64aebe58d725beca",
+        "localized_text": "柴油发动机中的燃料由火花塞的火花点燃。"
+      },
+      {
+        "source": {
+          "number": 29221,
+          "quesito_id": 6147,
+          "text_it": "Il motore Diesel è dotato di un impianto di accensione che genera la scintilla agli elettrodi delle candele",
+          "answer": 0,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "17770ee7f78bc3a1ccfc94d2ea39b68f223c74338db2ab3be4e7393428eed075",
+        "localized_text": "柴油发动机配有点火系统，在火花塞电极间产生火花。"
+      },
+      {
+        "source": {
+          "number": 29222,
+          "quesito_id": 6148,
+          "text_it": "Nel motore Diesel, le fasi di funzionamento si susseguono nell'ordine: aspirazione, compressione, combustione e scarico",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b919b4a69c2974e7188450492062aaebf26f700c20d5e53e8077d85beadc8e7e",
+        "localized_text": "柴油发动机的工作行程依次为进气、压缩、燃烧和排气。"
+      },
+      {
+        "source": {
+          "number": 29223,
+          "quesito_id": 6148,
+          "text_it": "Nel motore Diesel l'aspirazione, prodotta dalla discesa del pistone, permette l'ingresso nel cilindro della sola aria",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "edd0e735f93b3c0c980250522c4a1fb37aef4e9ed48a7afd2877a6eff6678b9b",
+        "localized_text": "柴油发动机中，活塞下行产生的进气只使空气进入气缸。"
+      },
+      {
+        "source": {
+          "number": 29224,
+          "quesito_id": 6148,
+          "text_it": "Nel motore Diesel la compressione, dovuta alla risalita del pistone, comprime fortemente l'aria facendola surriscaldare",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9e7ed2c73ff863166457c0e2e7548c316916870e5a3920bd7a6787c45ed6e460",
+        "localized_text": "柴油发动机中，活塞上行产生的压缩会强烈压缩空气并使其升温。"
+      },
+      {
+        "source": {
+          "number": 29225,
+          "quesito_id": 6148,
+          "text_it": "Nel motore Diesel, la combustione avviene per iniezione del gasolio in ambiente ad alta temperatura che ne provoca l'autoaccensione",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1be94c418f441e6df587a90f85219332e0ae3f49b6c04ebd7a8a6508b49cf901",
+        "localized_text": "柴油发动机中，柴油喷入高温环境后自行点燃并燃烧。"
+      },
+      {
+        "source": {
+          "number": 29226,
+          "quesito_id": 6148,
+          "text_it": "Nel motore Diesel, le fasi di funzionamento si susseguono nel seguente ordine: aspirazione, combustione, scarico e compressione",
+          "answer": 0,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "992055258e323ffea5bce693c58e53d3dc2042d87ac7179649499b5937d2dce7",
+        "localized_text": "柴油发动机的工作行程依次为进气、燃烧、排气和压缩。"
+      },
+      {
+        "source": {
+          "number": 29227,
+          "quesito_id": 6148,
+          "text_it": "Nel motore Diesel, la fase di aspirazione provoca l'ingresso della miscela nei cilindri",
+          "answer": 0,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ceb7a360e9188cdfe70acb43a47c5bb47206b586eb04b736d4a1f257b3b137f5",
+        "localized_text": "柴油发动机的进气行程使混合物进入气缸。"
+      },
+      {
+        "source": {
+          "number": 29228,
+          "quesito_id": 6148,
+          "text_it": "Nel motore Diesel, la combustione avviene a bassa temperatura per migliorare il rendimento",
+          "answer": 0,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "61b92d5e69c9bd574b929c6123c4d2e8ba584ffc16ec5bba6d61bd22c1e0ccfa",
+        "localized_text": "柴油发动机在低温下燃烧以提高效率。"
+      },
+      {
+        "source": {
+          "number": 29229,
+          "quesito_id": 6149,
+          "text_it": "Il motore Diesel può essere progettato con due diverse modalità di iniezione del combustibile",
+          "answer": 1,
+          "page": 98,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2e92194ed16c6a2b2488d16b60fe58a0264c0b7dfdf39f7ba2a4fbf61f4e85b3",
+        "localized_text": "柴油发动机可以采用两种不同的燃料喷射方式设计。"
+      }
+    ],
+    "task_sha256": "8c6794809b60724f4b69067610c1dcf0e062663e1d52fac8b55c05b86cb4190d"
+  },
+  "rows": [
+    {
+      "number": 29205,
+      "text": "一般来说，汽车柴油发动机达到的转速低于汽油发动机，但转速也取决于发动机设计。",
+      "evidence": [
+        "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P10004Y7.TXT — i motori Diesel tendono a raggiungere regimi inferiori."
+      ]
+    },
+    {
+      "number": 29206,
+      "text": "功率表示做功的快慢：等于所做的功除以所用时间。",
+      "evidence": [
+        "https://www.nist.gov/pml/special-publication-330/sp-330-appendix-1 — watt unità di potenza, volt unità di differenza di potenziale."
+      ]
+    },
+    {
+      "number": 29207,
+      "text": "比油耗比较燃料消耗与产生的功，例如用克每千瓦时表示。也可用燃料质量流量除以输出功率；题目隐含了时间基准。",
+      "evidence": [
+        "Official superiori 29207 prints VERO; a time basis is a technical clarification, not explicit source wording.",
+        "US DOE https://www.energy.gov/sites/prod/files/nepapub/nepa_documents/RedDont/EA-1834-FEA-2011.pdf : specific fuel consumption in g/kWh. ERAU https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/reciprocating-engine-propeller/ direct author access returned 403; independent adjudicator inspected."
+      ]
+    },
+    {
+      "number": 29208,
+      "text": "喷油要适当提前，因为燃料汽化、与空气混合并点燃需要时间；适当的喷油时刻有助于有效燃烧。",
+      "evidence": [
+        "https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1018-93_VOL1.pdf, Diesel Engine Fundamentals, Fuel Injection, p. 24 — ritardo di accensione e iniezione temporizzata prima del punto morto superiore nell’esempio."
+      ]
+    },
+    {
+      "number": 29209,
+      "text": "效率还取决于转速和负荷：始终保持最高转速不能保证处于效率最佳的工况。",
+      "evidence": [
+        "https://www.cappellieditore.it/backend/wp-content/uploads/MecMacEne-Vol03_Materiali_U41.pdf, Unità 41, pp. 15–16, figure 41.29 e 41.30 — le mappe di consumo specifico variano con regime e pressione media effettiva, mostrando un minimo in una zona di funzionamento.",
+        "https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines — esempi di mappe di efficienza in funzione di regime e carico del motore."
+      ]
+    },
+    {
+      "number": 29210,
+      "text": "效率还取决于转速和负荷：最低转速并不总是效率最佳的工况。",
+      "evidence": [
+        "https://www.cappellieditore.it/backend/wp-content/uploads/MecMacEne-Vol03_Materiali_U41.pdf, Unità 41, pp. 15–16, figure 41.29 e 41.30 — le mappe di consumo specifico variano con regime e pressione media effettiva, mostrando un minimo in una zona di funzionamento.",
+        "https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines — esempi di mappe di efficienza in funzione di regime e carico del motore."
+      ]
+    },
+    {
+      "number": 29211,
+      "text": "功率用瓦或千瓦表示；伏特则是电势差的单位。",
+      "evidence": [
+        "https://www.nist.gov/pml/special-publication-330/sp-330-appendix-1 — watt unità di potenza, volt unità di differenza di potenziale."
+      ]
+    },
+    {
+      "number": 29212,
+      "text": "柴油发动机中，喷入的柴油在压缩后变热的空气中自行点燃。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29213,
+      "text": "传统柴油发动机使用柴油，柴油被喷入气缸内高温压缩空气中。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29214,
+      "text": "传统柴油发动机通过喷射计量并供给燃料，而不是用化油器制备混合气。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — ciclo a quattro tempi, aria compressa e iniezione nel Diesel; confronto con accensione a scintilla.",
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29215,
+      "text": "压缩空气的温度升高到足以使喷入的柴油自行点燃。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29216,
+      "text": "压缩使气缸内空气升温；喷入其中的柴油自行点燃。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29217,
+      "text": "传统柴油发动机按使用柴油设计：汽油不能与柴油互换使用。",
+      "evidence": [
+        "https://www.epa.gov/greenvehicles/advanced-gasoline-and-diesel-vehicles — benzina e gasolio richiedono tecnologie diverse e non sono intercambiabili nei veicoli convenzionali."
+      ]
+    },
+    {
+      "number": 29218,
+      "text": "传统柴油发动机吸入空气并喷入柴油，不使用化油器制备的混合气。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — ciclo a quattro tempi, aria compressa e iniezione nel Diesel; confronto con accensione a scintilla.",
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29219,
+      "text": "选择柴油并非因为它在室温下极易燃：在柴油发动机中，它是在压缩加热的空气中点燃的。",
+      "evidence": [
+        "https://afdc.energy.gov/fuels/properties — confronto punti di infiammabilità del gasolio e della benzina.",
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29220,
+      "text": "柴油发动机中的柴油靠压缩空气的热量点燃，而不是靠火花塞的火花。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — ciclo a quattro tempi, aria compressa e iniezione nel Diesel; confronto con accensione a scintilla.",
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29221,
+      "text": "传统柴油发动机采用压燃，而不采用使火花塞产生火花的点火系统。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — ciclo a quattro tempi, aria compressa e iniezione nel Diesel; confronto con accensione a scintilla.",
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29222,
+      "text": "在四冲程柴油循环中，先吸入并压缩空气，随后燃烧和膨胀，最后排出废气。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — ciclo a quattro tempi, aria compressa e iniezione nel Diesel; confronto con accensione a scintilla."
+      ]
+    },
+    {
+      "number": 29223,
+      "text": "四冲程柴油发动机进气时活塞下行，空气进入气缸；柴油随后才喷入。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — ciclo a quattro tempi, aria compressa e iniezione nel Diesel; confronto con accensione a scintilla.",
+        "https://www.energy.gov/node/1056876, sezione 2 — discesa del pistone richiama aria; iniezione alla fine della compressione."
+      ]
+    },
+    {
+      "number": 29224,
+      "text": "压缩时活塞上行并压缩空气，使其温度升高到足以点燃喷入的燃料。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29225,
+      "text": "空气受压后升温，喷入其中的柴油自行点燃。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29226,
+      "text": "四冲程柴油发动机先吸气再压缩；燃烧和膨胀之后是排气。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — ciclo a quattro tempi, aria compressa e iniezione nel Diesel; confronto con accensione a scintilla."
+      ]
+    },
+    {
+      "number": 29227,
+      "text": "传统柴油发动机进气时吸入的是空气，而非预先制备的混合气；柴油随后才喷入。",
+      "evidence": [
+        "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics — ciclo a quattro tempi, aria compressa e iniezione nel Diesel; confronto con accensione a scintilla."
+      ]
+    },
+    {
+      "number": 29228,
+      "text": "传统柴油发动机中的柴油在压缩产生的高温空气中点燃；燃烧并非在低温下进行。",
+      "evidence": [
+        "https://afdc.energy.gov/vehicles/how-do-diesel-cars-work — gasolio iniettato e acceso dall’alta temperatura prodotta dalla compressione."
+      ]
+    },
+    {
+      "number": 29229,
+      "text": "柴油发动机有直接喷射和间接喷射两种方式。间接喷射时，燃料喷入与气缸相连的预燃室。",
+      "evidence": [
+        "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=940043QS.TXT, sezione 4.1 — iniezione diretta nella camera principale e indiretta in precamera collegata."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "8c6794809b60724f4b69067610c1dcf0e062663e1d52fac8b55c05b86cb4190d",
+    "output_sha256": "ef488b403842fa53efa6e653109c4f36d725be789767a6364561926fb130a2cd",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / engine-batches-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      29205,
+      29206,
+      29207,
+      29208,
+      29209,
+      29210,
+      29211,
+      29212,
+      29213,
+      29214,
+      29215,
+      29216,
+      29217,
+      29218,
+      29219,
+      29220,
+      29221,
+      29222,
+      29223,
+      29224,
+      29225,
+      29226,
+      29227,
+      29228,
+      29229
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "US DOE Transportation Energy Data Book https://afdc.energy.gov/files/u/publication/TEDB_Ed_40.pdf table B.15 identifies brake specific fuel consumption in kg/J, equivalent to fuel mass per unit work. The fuel mass flow / power equivalence is dimensional. ERAU source not independently accessed."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eae5-aeb1-7e22-9b9a-4609916f71f7",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "67f55bf506868a6e8a9873bd0e8726108b4abaf3cd50bb338feabdce495e7e14",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eae9-07e2-7650-8b24-f200f863628b",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b2a7a908b62db4f2dc2c341e8733da580ff4ca1931fee8ea1288679f5fc4f566",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eae9-07e2-7650-8b24-f200f863628b",
+        "label": "author-1-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 29207,
+              "reason": "Il quesito stampato assegna VERO alla quantità di combustibile per unità di potenza, senza specificare un intervallo di tempo o una portata. Le definizioni tecniche richiedono portata per unità di potenza oppure massa per unità di lavoro. Non è stata trovata un’adjudicazione della fonte del quiz che confermi quale base temporale sia sottintesa; occorre una verifica indipendente prima di attribuire tale interpretazione al quesito.",
+              "checked_sources": [
+                "Task superiore, quesito 29207, pagina PDF zero-based 97, SHA-256 a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234 — formulazione ufficiale e risposta stampata VERO, senza termine temporale.",
+                "https://www.cappellieditore.it/backend/wp-content/uploads/MecMacEne-Vol03_Materiali_U41.pdf, Unità 41, p. 15, equazione bsfc = portata combustibile / potenza — definizione tecnica che richiede una portata.",
+                "https://mae.osu.edu/media/document/2021-11-24/y_he_thesis.pdf, sezione 4.1, p. 49, equazione 4.1 — consumo specifico come portata massica divisa per potenza.",
+                "https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/reciprocating-engine-propeller/, sezione Brake Specific Fuel Consumption — combustibile per potenza e unità di tempo, normalmente un’ora; non adjudica il significato del quesito ufficiale."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b2a7a908b62db4f2dc2c341e8733da580ff4ca1931fee8ea1288679f5fc4f566",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "9e2358985886b2c99a787497baca8035a043665c39175972bcb83e732a91c0e8",
+          "output_sha256": "c002b7483a4c9d989d3b72b23f2e161e970914eaa24dd94685666f30344370fb",
+          "author": "gpt-6.1-terra / 01a1eae5-aeb1-7e22-9b9a-4609916f71f7",
+          "reviewer": "gpt-6.1-terra / 01a1eae7-94ad-7851-823e-c4a93797c1c5",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29205,
+            29206,
+            29207,
+            29208,
+            29209,
+            29210,
+            29211,
+            29212,
+            29213,
+            29214,
+            29215,
+            29216,
+            29217,
+            29218,
+            29219,
+            29220,
+            29221,
+            29222,
+            29223,
+            29224,
+            29225,
+            29226,
+            29227,
+            29228,
+            29229
+          ],
+          "issues": [
+            {
+              "number": 29207,
+              "reason": "The printed true statement says quantity of fuel per unit of power, without a time or fuel-flow term. The draft explains mass per unit of mechanical energy (g/kWh) but does not reconcile this dimensional distinction with the printed verdict. Its claim that the wording is an abbreviation is an unsupported interpretation; obtain source adjudication and explicitly explain the intended time basis while preserving the verdict. DOE Transportation Energy Data Book edition 40, table B.15, lists BSFC as kg/J: https://afdc.energy.gov/files/u/publication/TEDB_Ed_40.pdf. The specific cited 2007 report could not be opened (content too large), so its page 142 has not been verified."
+            },
+            {
+              "number": 29209,
+              "reason": "The cited 2008 Advanced Combustion Engine report could not be opened for independent inspection (content too large), so its claimed example and evidence remain unverified. Replace or supplement with a directly verifiable source; DOE engine efficiency maps support dependence on speed and load: https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines."
+            },
+            {
+              "number": 29210,
+              "reason": "The cited 2008 Advanced Combustion Engine report could not be opened for independent inspection (content too large), so its claimed example and evidence remain unverified. Replace or supplement with a directly verifiable source; DOE engine efficiency maps support dependence on speed and load: https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines."
+            }
+          ]
+        },
+        {
+          "task_sha256": "6d23b5e2dc6bf008cd0ecbd567a64a2d7edfec385cc0facccfe0dac5005ab828",
+          "output_sha256": "e687461e5210ed38a260db61e8259bc1c0097a806a62745b2f05af3530b8604b",
+          "author": "gpt-6.1-terra / 01a1eae5-aeb1-7e22-9b9a-4609916f71f7",
+          "reviewer": "gpt-6.1-terra / 01a1eae7-94ad-7851-823e-c4a93797c1c5",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29205,
+            29206,
+            29207,
+            29208,
+            29209,
+            29210,
+            29211,
+            29212,
+            29213,
+            29214,
+            29215,
+            29216,
+            29217,
+            29218,
+            29219,
+            29220,
+            29221,
+            29222,
+            29223,
+            29224,
+            29225,
+            29226,
+            29227,
+            29228,
+            29229
+          ],
+          "issues": [
+            {
+              "number": 29207,
+              "reason": "The printed true statement says quantity of fuel per unit of power, without a time or fuel-flow term. The draft explains mass per unit of mechanical energy (g/kWh) but does not reconcile this dimensional distinction with the printed verdict. Its claim that the wording is an abbreviation is an unsupported interpretation; obtain source adjudication and explicitly explain the intended time basis while preserving the verdict. DOE Transportation Energy Data Book edition 40, table B.15, lists BSFC as kg/J: https://afdc.energy.gov/files/u/publication/TEDB_Ed_40.pdf. The specific cited 2007 report could not be opened (content too large), so its page 142 has not been verified."
+            },
+            {
+              "number": 29209,
+              "reason": "The cited 2008 Advanced Combustion Engine report could not be opened for independent inspection (content too large), so its claimed example and evidence remain unverified. Replace or supplement with a directly verifiable source; DOE engine efficiency maps support dependence on speed and load: https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines."
+            },
+            {
+              "number": 29210,
+              "reason": "The cited 2008 Advanced Combustion Engine report could not be opened for independent inspection (content too large), so its claimed example and evidence remain unverified. Replace or supplement with a directly verifiable source; DOE engine efficiency maps support dependence on speed and load: https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines."
+            }
+          ]
+        },
+        {
+          "task_sha256": "8c6794809b60724f4b69067610c1dcf0e062663e1d52fac8b55c05b86cb4190d",
+          "output_sha256": "70fc370fd41ff2a8c6d028c7d8ff8ce9cd716814d857325375adfe47add1e614",
+          "author": "gpt-6.1-terra / 01a1eae5-aeb1-7e22-9b9a-4609916f71f7",
+          "reviewer": "gpt-6.1-terra / 01a1eae7-94ad-7851-823e-c4a93797c1c5",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29205,
+            29206,
+            29207,
+            29208,
+            29209,
+            29210,
+            29211,
+            29212,
+            29213,
+            29214,
+            29215,
+            29216,
+            29217,
+            29218,
+            29219,
+            29220,
+            29221,
+            29222,
+            29223,
+            29224,
+            29225,
+            29226,
+            29227,
+            29228,
+            29229
+          ],
+          "issues": [
+            {
+              "number": 29207,
+              "reason": "The printed true statement says quantity of fuel per unit of power, without a time or fuel-flow term. The draft explains mass per unit of mechanical energy (g/kWh) but does not reconcile this dimensional distinction with the printed verdict. Its claim that the wording is an abbreviation is an unsupported interpretation; obtain source adjudication and explicitly explain the intended time basis while preserving the verdict. DOE Transportation Energy Data Book edition 40, table B.15, lists BSFC as kg/J: https://afdc.energy.gov/files/u/publication/TEDB_Ed_40.pdf. The specific cited 2007 report could not be opened (content too large), so its page 142 has not been verified."
+            },
+            {
+              "number": 29209,
+              "reason": "The cited 2008 Advanced Combustion Engine report could not be opened for independent inspection (content too large), so its claimed example and evidence remain unverified. Replace or supplement with a directly verifiable source; DOE engine efficiency maps support dependence on speed and load: https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines."
+            },
+            {
+              "number": 29210,
+              "reason": "The cited 2008 Advanced Combustion Engine report could not be opened for independent inspection (content too large), so its claimed example and evidence remain unverified. Replace or supplement with a directly verifiable source; DOE engine efficiency maps support dependence on speed and load: https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines."
+            }
+          ]
+        },
+        {
+          "task_sha256": "34064edfb7a5b2a2031bc3dc3da17ace3b554626858334bf7160906fbcc22af4",
+          "output_sha256": "b510120b6dd772b4e4fe99b43a72962ae6a1968c431f1f3ed0bb7b792ef99b06",
+          "author": "gpt-6.1-terra / 01a1eae5-aeb1-7e22-9b9a-4609916f71f7",
+          "reviewer": "gpt-6.1-terra / 01a1eae7-94ad-7851-823e-c4a93797c1c5",
+          "status": "needs_changes",
+          "checked_numbers": [
+            29205,
+            29206,
+            29207,
+            29208,
+            29209,
+            29210,
+            29211,
+            29212,
+            29213,
+            29214,
+            29215,
+            29216,
+            29217,
+            29218,
+            29219,
+            29220,
+            29221,
+            29222,
+            29223,
+            29224,
+            29225,
+            29226,
+            29227,
+            29228,
+            29229
+          ],
+          "issues": [
+            {
+              "number": 29207,
+              "reason": "The printed true statement says quantity of fuel per unit of power, without a time or fuel-flow term. The draft explains mass per unit of mechanical energy (g/kWh) but does not reconcile this dimensional distinction with the printed verdict. Its claim that the wording is an abbreviation is an unsupported interpretation; obtain source adjudication and explicitly explain the intended time basis while preserving the verdict. DOE Transportation Energy Data Book edition 40, table B.15, lists BSFC as kg/J: https://afdc.energy.gov/files/u/publication/TEDB_Ed_40.pdf. The specific cited 2007 report could not be opened (content too large), so its page 142 has not been verified."
+            },
+            {
+              "number": 29209,
+              "reason": "The cited 2008 Advanced Combustion Engine report could not be opened for independent inspection (content too large), so its claimed example and evidence remain unverified. Replace or supplement with a directly verifiable source; DOE engine efficiency maps support dependence on speed and load: https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines."
+            },
+            {
+              "number": 29210,
+              "reason": "The cited 2008 Advanced Combustion Engine report could not be opened for independent inspection (content too large), so its claimed example and evidence remain unverified. Replace or supplement with a directly verifiable source; DOE engine efficiency maps support dependence on speed and load: https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

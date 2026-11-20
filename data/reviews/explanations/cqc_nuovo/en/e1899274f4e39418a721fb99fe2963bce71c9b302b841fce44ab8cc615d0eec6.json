@@ -1,0 +1,613 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31374,
+          "quesito_id": 7020,
+          "text_it": "In discesa l'uso di una marcia bassa (ridotta) fa aumentare il consumo delle pastiglie dei freni",
+          "answer": 0,
+          "page": 9,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "309198739270bfffa465331262591cd091e9fc9785a9e30e745214837dcfad74",
+        "localized_text": "Downhill, using a low gear increases brake pad wear."
+      },
+      {
+        "source": {
+          "number": 31375,
+          "quesito_id": 7020,
+          "text_it": "Occorre inserire una marcia più bassa se il numero di giri del motore scende troppo sotto quello di coppia massima",
+          "answer": 1,
+          "page": 9,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ac93e32a8ba4aacef2992bfb265702d1816d6f56e341f3fcd9225c7bcbfa31f7",
+        "localized_text": "A lower gear must be selected if engine speed falls too far below maximum-torque speed."
+      },
+      {
+        "source": {
+          "number": 31376,
+          "quesito_id": 7020,
+          "text_it": "In discesa l'uso di una marcia bassa (ridotta) consente di sfruttare l'effetto frenante del motore",
+          "answer": 1,
+          "page": 9,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "71e73895a6b1b2fa1ffb809d1576d4414aeec911672138f5d9993fc35bad4773",
+        "localized_text": "Downhill, using a low gear allows engine braking to be used."
+      },
+      {
+        "source": {
+          "number": 31377,
+          "quesito_id": 7021,
+          "text_it": "In generale, il conducente deve scegliere la marcia più alta possibile per la velocità alla quale ha deciso di viaggiare",
+          "answer": 1,
+          "page": 9,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bb7338e3859e2fc8ef16dd851d4c57d453cf799986fd0e365c5a601b0bb4ed9f",
+        "localized_text": "Generally, the driver should select the highest possible gear for the chosen travel speed."
+      },
+      {
+        "source": {
+          "number": 31378,
+          "quesito_id": 7021,
+          "text_it": "Se aumenta la pendenza della strada è opportuno innestare marce più alte",
+          "answer": 0,
+          "page": 9,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1e8fd56b768439934594d6d4678a54a93f70f565be675205b8876879b29f534d",
+        "localized_text": "If the road gradient increases, it is advisable to select higher gears."
+      },
+      {
+        "source": {
+          "number": 31379,
+          "quesito_id": 7021,
+          "text_it": "Occorre inserire una marcia più alta per affrontare lunghe discese e sfruttare l'effetto frenante del motore",
+          "answer": 0,
+          "page": 9,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "32d9ad45978e5370e5d1f7a07653e78de584828cc234926fdd91ed92c2f7f992",
+        "localized_text": "A higher gear must be selected on long descents to use engine braking."
+      },
+      {
+        "source": {
+          "number": 31380,
+          "quesito_id": 7021,
+          "text_it": "In generale, il conducente deve scegliere una marcia tale che mantenga i giri del motore nell'intervallo ottimale di minor consumo specifico indicato dal contagiri",
+          "answer": 1,
+          "page": 9,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7877f287b96bf6fa797357d521066ffa68391471089499a60eef6b2c8d9c9740",
+        "localized_text": "Generally, the driver should choose a gear that keeps engine speed in the tachometer's optimal range for lowest specific consumption."
+      },
+      {
+        "source": {
+          "number": 31381,
+          "quesito_id": 7021,
+          "text_it": "Se aumenta la pendenza della strada, può essere opportuno ridurre la marcia",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cc1c82fc426946356266af4da592fe78616aaf08e3f7b5531d0ef15c0b816e00",
+        "localized_text": "If road gradient increases, it may be advisable to change down."
+      },
+      {
+        "source": {
+          "number": 31382,
+          "quesito_id": 7021,
+          "text_it": "Occorre inserire una marcia più alta se il numero di giri del motore scende troppo sotto quello di coppia massima",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7f27631ac61436985b51faf3af68966291e9a2709ba1194e22c6c6541dd7df7f",
+        "localized_text": "A higher gear must be selected if engine speed falls too far below maximum-torque speed."
+      },
+      {
+        "source": {
+          "number": 31383,
+          "quesito_id": 7021,
+          "text_it": "Occorre sempre inserire una marcia più alta per affrontare salite con il veicolo carico",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "587924fb43bc59840b3b115f5dd7c41a4d2a57a112895a9cc6235f078a7d64ee",
+        "localized_text": "A higher gear must always be selected to climb with a loaded vehicle."
+      },
+      {
+        "source": {
+          "number": 31384,
+          "quesito_id": 7021,
+          "text_it": "Lo spessore del battistrada dei pneumatici non può essere inferiore a 1,6 mm, ma soltanto sulle ruote posteriori",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b20eae6745280cc80211943dd3ed2ed6b712b72de7a05ac9c0c70eb73f68662f",
+        "localized_text": "Tyre tread depth must not be less than 1.6 mm, but only on rear wheels."
+      },
+      {
+        "source": {
+          "number": 31385,
+          "quesito_id": 7021,
+          "text_it": "La pressione dei pneumatici va controllata periodicamente",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ac0ed5df3199699a8eb937f72ae52f82b964dddb9a5b1899a780c22d42e06dbb",
+        "localized_text": "Tyre pressure must be checked periodically."
+      },
+      {
+        "source": {
+          "number": 31386,
+          "quesito_id": 7021,
+          "text_it": "La diversa pressione di gonfiaggio dei pneumatici di uno stesso asse può comportare uno scostamento dalla traiettoria rettilinea",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f4613d8bf99d7e55b082aec46eec9c8ac90ec09a8dcc7cc794bf42b8c1eb29aa",
+        "localized_text": "Different inflation pressures in tyres on the same axle may cause deviation from a straight path."
+      },
+      {
+        "source": {
+          "number": 31387,
+          "quesito_id": 7021,
+          "text_it": "La corretta pressione di gonfiaggio dei pneumatici è indipendente dal carico del veicolo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "951dfd2b84d47fc52ef512c40169e179093af9eb8c0e84fd08118e063fc5a7ca",
+        "localized_text": "Correct tyre pressure is independent of vehicle load."
+      },
+      {
+        "source": {
+          "number": 31388,
+          "quesito_id": 7021,
+          "text_it": "I pneumatici, se montati su ruote gemellate, devono essere gonfiate ad una pressione inferiore da quella prevista dal costruttore",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "681bd8861ad8d60f4ec0de7fd30f9b4a8891b099beb05d2baf0d46b31b610c9c",
+        "localized_text": "Twin-mounted tyres must be inflated below the pressure specified by the manufacturer."
+      },
+      {
+        "source": {
+          "number": 31389,
+          "quesito_id": 7021,
+          "text_it": "La pressione dei pneumatici deve essere controllata una volta l'anno",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ecf99ef92ce5e18d1ab5b3e7cb0729ea5bfff46694e27ef5e2453200f840d4f7",
+        "localized_text": "Tyre pressure must be checked once a year."
+      },
+      {
+        "source": {
+          "number": 31390,
+          "quesito_id": 7021,
+          "text_it": "Prima della partenza vanno controllate le condizioni dei pneumatici",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5ebcfe3cf93b90281e53e4a445fb9a5d188479242d3cbf596ce32121c2280481",
+        "localized_text": "Tyre condition must be checked before departure."
+      },
+      {
+        "source": {
+          "number": 31391,
+          "quesito_id": 7021,
+          "text_it": "La pressione dei pneumatici va controllata con pneumatici freddi",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e3b336376a86b3d3cd3aec9822b9ebd7449b82edec0389dd53d0a2d6359ff677",
+        "localized_text": "Tyre pressure must be checked when tyres are cold."
+      },
+      {
+        "source": {
+          "number": 31392,
+          "quesito_id": 7021,
+          "text_it": "Prima della partenza va controllato che i pneumatici non siano sgonfi",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7fb410b4a8267e429cbab4e7cce8489a2c2e5c5c5593072848f441d8c58c1dcb",
+        "localized_text": "Before departure, check that tyres are not deflated."
+      },
+      {
+        "source": {
+          "number": 31393,
+          "quesito_id": 7022,
+          "text_it": "Le ruote gemellate, se sgonfie, possono deteriorarsi a causa del loro reciproco sfregamento",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "112fd43976183be6d73c407c9faa93883e492e4a2508fea27c8b43f77ac6e198",
+        "localized_text": "If underinflated, twin tyres may deteriorate due to rubbing against each other."
+      },
+      {
+        "source": {
+          "number": 31394,
+          "quesito_id": 7022,
+          "text_it": "L'insufficiente pressione dei pneumatici diminuisce la possibilità dell'insorgenza del fenomeno dell'aquaplaning",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "abbc070563fc30f757aaea15fe0b3d0af791fb3a9ff13aca79e579f7804858e9",
+        "localized_text": "Insufficient tyre pressure reduces the likelihood of aquaplaning."
+      },
+      {
+        "source": {
+          "number": 31395,
+          "quesito_id": 7022,
+          "text_it": "Un'insufficiente pressione di gonfiaggio dei pneumatici provoca un eccessivo consumo dei bordi del battistrada",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d93df6ff380f275444541c52fee9db8f14eca548f4aabf4e870b70de506e7744",
+        "localized_text": "Insufficient tyre pressure causes excessive wear at the edges of the tread."
+      },
+      {
+        "source": {
+          "number": 31396,
+          "quesito_id": 7022,
+          "text_it": "Un'insufficiente pressione di gonfiaggio dei pneumatici ne provoca un eccessivo consumo della parte centrale",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dc8533cdef203536be29336a46f897420747aa49edb5965bf9acbc2bf38e2783",
+        "localized_text": "Insufficient tyre pressure causes excessive wear in the centre of the tread."
+      },
+      {
+        "source": {
+          "number": 31397,
+          "quesito_id": 7022,
+          "text_it": "La mancata equilibratura del pneumatico può provocare un anomalo consumo del battistrada",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6c27f9c0569a6cfee6b0cb6ffb4732090e5112eac57c0a436debc562cf4862fe",
+        "localized_text": "Failure to balance a tyre can cause abnormal tread wear."
+      },
+      {
+        "source": {
+          "number": 31398,
+          "quesito_id": 7022,
+          "text_it": "L'eccessiva pressione di gonfiaggio dei pneumatici ne provoca un maggiore consumo della parte centrale",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "36650cc8d68cb23e92fd7e6e2b63fb5028da765ea8dcd3b6d5d6df0e0d763773",
+        "localized_text": "Excessive tyre pressure causes greater wear in the centre of the tread."
+      }
+    ],
+    "task_sha256": "e1899274f4e39418a721fb99fe2963bce71c9b302b841fce44ab8cc615d0eec6"
+  },
+  "rows": [
+    {
+      "number": 31374,
+      "text": "A low gear increases engine braking, so the service brakes are used less and the brake pads wear less.",
+      "evidence": [
+        "Oregon DMV Commercial Driver Manual §§ 2.3, 2.16, https://www.oregon.gov/odot/DMV/Pages/Online_CDL_Manual_2/Section_2.aspx — marcia bassa, regime e freno motore in discesa."
+      ]
+    },
+    {
+      "number": 31375,
+      "text": "Downshifting raises engine speed at the same road speed, bringing it back toward the useful range instead of leaving it too far below peak torque speed.",
+      "evidence": [
+        "Oregon DMV Commercial Driver Manual §§ 2.3, 2.16, https://www.oregon.gov/odot/DMV/Pages/Online_CDL_Manual_2/Section_2.aspx — marcia bassa, regime e freno motore in discesa.",
+        "Australian Government, Truck drivers manual, https://www.infrastructure.gov.au/sites/default/files/migrated/roads/safety/publications/1990/pdf/Edu_book_Truck.pdf — cambio, coppia e fascia economica del contagiri."
+      ]
+    },
+    {
+      "number": 31376,
+      "text": "A low gear increases engine braking, helping control downhill speed and reducing reliance on the service brakes.",
+      "evidence": [
+        "Oregon DMV Commercial Driver Manual §§ 2.3, 2.16, https://www.oregon.gov/odot/DMV/Pages/Online_CDL_Manual_2/Section_2.aspx — marcia bassa, regime e freno motore in discesa."
+      ]
+    },
+    {
+      "number": 31377,
+      "text": "A high gear suited to the road speed generally keeps engine speed and fuel consumption down, provided the engine is not labouring.",
+      "evidence": [
+        "GOV.UK, examiner guidance, control, https://www.gov.uk/guidance/guidance-for-driving-examiners-carrying-out-driving-tests-dt1/1-car-driving-test — marcia più alta possibile senza affaticare il motore."
+      ]
+    },
+    {
+      "number": 31378,
+      "text": "A steeper gradient does not necessarily call for a high gear: a lower gear may be needed for pulling power uphill or engine braking downhill.",
+      "evidence": [
+        "Oregon DMV Commercial Driver Manual §§ 2.3, 2.16, https://www.oregon.gov/odot/DMV/Pages/Online_CDL_Manual_2/Section_2.aspx — marcia bassa, regime e freno motore in discesa.",
+        "Australian Government, Truck drivers manual, https://www.infrastructure.gov.au/sites/default/files/migrated/roads/safety/publications/1990/pdf/Edu_book_Truck.pdf — cambio, coppia e fascia economica del contagiri."
+      ]
+    },
+    {
+      "number": 31379,
+      "text": "To use engine braking on a long descent, select a sufficiently low gear before starting down, rather than a higher one.",
+      "evidence": [
+        "Oregon DMV Commercial Driver Manual §§ 2.3, 2.16, https://www.oregon.gov/odot/DMV/Pages/Online_CDL_Manual_2/Section_2.aspx — marcia bassa, regime e freno motore in discesa."
+      ]
+    },
+    {
+      "number": 31380,
+      "text": "The economy band on the tachometer helps identify an operating speed that favours lower fuel consumption in normal conditions.",
+      "evidence": [
+        "Australian Government, Truck drivers manual, https://www.infrastructure.gov.au/sites/default/files/migrated/roads/safety/publications/1990/pdf/Edu_book_Truck.pdf — cambio, coppia e fascia economica del contagiri."
+      ]
+    },
+    {
+      "number": 31381,
+      "text": "On a steeper gradient, a lower gear can provide more driving force at the wheels uphill or more engine braking downhill.",
+      "evidence": [
+        "Oregon DMV Commercial Driver Manual §§ 2.3, 2.16, https://www.oregon.gov/odot/DMV/Pages/Online_CDL_Manual_2/Section_2.aspx — marcia bassa, regime e freno motore in discesa.",
+        "Australian Government, Truck drivers manual, https://www.infrastructure.gov.au/sites/default/files/migrated/roads/safety/publications/1990/pdf/Edu_book_Truck.pdf — cambio, coppia e fascia economica del contagiri."
+      ]
+    },
+    {
+      "number": 31382,
+      "text": "A higher gear would reduce engine speed further; downshifting brings it back toward the useful operating range.",
+      "evidence": [
+        "Oregon DMV Commercial Driver Manual §§ 2.3, 2.16, https://www.oregon.gov/odot/DMV/Pages/Online_CDL_Manual_2/Section_2.aspx — marcia bassa, regime e freno motore in discesa.",
+        "Australian Government, Truck drivers manual, https://www.infrastructure.gov.au/sites/default/files/migrated/roads/safety/publications/1990/pdf/Edu_book_Truck.pdf — cambio, coppia e fascia economica del contagiri."
+      ]
+    },
+    {
+      "number": 31383,
+      "text": "A loaded vehicle may need a lower gear on a climb to provide the necessary pulling force; shifting up is not always appropriate.",
+      "evidence": [
+        "Oregon DMV Commercial Driver Manual §§ 2.3, 2.16, https://www.oregon.gov/odot/DMV/Pages/Online_CDL_Manual_2/Section_2.aspx — marcia bassa, regime e freno motore in discesa.",
+        "Australian Government, Truck drivers manual, https://www.infrastructure.gov.au/sites/default/files/migrated/roads/safety/publications/1990/pdf/Edu_book_Truck.pdf — cambio, coppia e fascia economica del contagiri."
+      ]
+    },
+    {
+      "number": 31384,
+      "text": "The limit does not apply only to rear wheels. For Italian autoveicoli, including cars and trucks, as well as trolleybuses and trailers, the main grooves must be at least 1.6 mm deep on all wheels.",
+      "evidence": [
+        "Regolamento di esecuzione CdS, appendice VIII art. 237, punto 1, https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf — profondità minima degli intagli principali per categoria, senza distinzione tra assi."
+      ]
+    },
+    {
+      "number": 31385,
+      "text": "Tire pressure can fall over time: checking it periodically with a gauge helps maintain the recommended value.",
+      "evidence": [
+        "Michelin Truck & Bus Tire Maintenance Guide, https://business.michelinman.com/tips-suggestions/usage-tips — pressione a freddo secondo carico e condizioni, controlli e manutenzione.",
+        "NHTSA, TireWise, https://www.nhtsa.gov/vehicle-safety/tires — controllare la pressione regolarmente con manometro."
+      ]
+    },
+    {
+      "number": 31386,
+      "text": "Different pressures on the same axle can produce uneven handling and cause the vehicle to drift from a straight path.",
+      "evidence": [
+        "NHTSA, technical service bulletin, p. 5, https://static.nhtsa.gov/odi/tsbs/2013/MC-10090440-5448.pdf — pressioni basse o diverse possono causare deviazione verso il pneumatico meno gonfio."
+      ]
+    },
+    {
+      "number": 31387,
+      "text": "The correct pressure can vary with load. Follow the manufacturer’s values for the load and operating conditions.",
+      "evidence": [
+        "Michelin Truck & Bus Tire Maintenance Guide, https://business.michelinman.com/tips-suggestions/usage-tips — pressione a freddo secondo carico e condizioni, controlli e manutenzione."
+      ]
+    },
+    {
+      "number": 31388,
+      "text": "For dual tires too, use the pressure specified for that configuration and load, not an arbitrarily lower pressure.",
+      "evidence": [
+        "Michelin Truck & Bus Tire Maintenance Guide, https://business.michelinman.com/tips-suggestions/usage-tips — pressione a freddo secondo carico e condizioni, controlli e manutenzione."
+      ]
+    },
+    {
+      "number": 31389,
+      "text": "An annual check is not enough: pressure should be checked periodically because it can fall even without visible damage.",
+      "evidence": [
+        "Michelin Truck & Bus Tire Maintenance Guide, https://business.michelinman.com/tips-suggestions/usage-tips — pressione a freddo secondo carico e condizioni, controlli e manutenzione.",
+        "NHTSA, Checking and Maintaining Tires, https://static.nhtsa.gov/odi/inv/2022/INRD-PE22003-13199.pdf — controllo mensile e possibile perdita graduale."
+      ]
+    },
+    {
+      "number": 31390,
+      "text": "Before departure, inspect the tires for damage, wear or signs of pressure loss that require attention.",
+      "evidence": [
+        "Michelin Truck & Bus Tire Maintenance Guide, https://business.michelinman.com/tips-suggestions/usage-tips — pressione a freddo secondo carico e condizioni, controlli e manutenzione.",
+        "NHTSA, Checking and Maintaining Tires, https://static.nhtsa.gov/odi/inv/2022/INRD-PE22003-13199.pdf — ispezione giornaliera prima della guida."
+      ]
+    },
+    {
+      "number": 31391,
+      "text": "The reference pressure is measured cold: heat after driving raises the reading and can make the comparison misleading.",
+      "evidence": [
+        "Michelin Truck & Bus Tire Maintenance Guide, https://business.michelinman.com/tips-suggestions/usage-tips — pressione a freddo secondo carico e condizioni, controlli e manutenzione.",
+        "NHTSA, Checking and Maintaining Tires, https://static.nhtsa.gov/odi/inv/2022/INRD-PE22003-13199.pdf — la pressione aumenta a caldo."
+      ]
+    },
+    {
+      "number": 31392,
+      "text": "Before departure, check that the tires do not look flat; use a gauge to check the correct pressure.",
+      "evidence": [
+        "NHTSA, Checking and Maintaining Tires, https://static.nhtsa.gov/odi/inv/2022/INRD-PE22003-13199.pdf — osservazione giornaliera e misurazione con manometro."
+      ]
+    },
+    {
+      "number": 31393,
+      "text": "Underinflated dual tires can deform until they touch: friction between the sidewalls can damage them.",
+      "evidence": [
+        "Continental, Technical Data Book Material Handling Tires, Dual Fitment, https://www.continental-tyres.co.uk/content/dam/conti-tires-cms/continental/b2b/material-handling/brochures/Continental_Technical_Data_Book_Material_Handling_Tires.pdf.coredownload.pdf — distanza e pressione corrette evitano contatto e danni da sfregamento tra fianchi gemellati."
+      ]
+    },
+    {
+      "number": 31394,
+      "text": "Low pressure does not reduce the risk of hydroplaning: it can promote loss of road contact on water, especially as speed increases.",
+      "evidence": [
+        "NHTSA, Tire Pressure FMVSS 138, pp. V-56–57, https://www.nhtsa.gov/sites/nhtsa.gov/files/tirepressure-fmvss-138.pdf — pressione insufficiente può accrescere il rischio di aquaplaning; influiscono anche velocità e acqua."
+      ]
+    },
+    {
+      "number": 31395,
+      "text": "Pressure that is too low can increase wear on the tread shoulders instead of distributing it evenly.",
+      "evidence": [
+        "Michelin Wear Problems, https://www.michelinman.com/auto/auto-tips-and-advice/tire-damage/wear-problems — pressione insufficiente e spalle, pressione eccessiva e centro, squilibrio e usura irregolare."
+      ]
+    },
+    {
+      "number": 31396,
+      "text": "Low pressure tends to wear the shoulders most; centre wear is typically associated with excessive pressure.",
+      "evidence": [
+        "Michelin Wear Problems, https://www.michelinman.com/auto/auto-tips-and-advice/tire-damage/wear-problems — pressione insufficiente e spalle, pressione eccessiva e centro, squilibrio e usura irregolare."
+      ]
+    },
+    {
+      "number": 31397,
+      "text": "An unbalanced wheel can cause vibration and irregular tread wear; balancing corrects the imbalance.",
+      "evidence": [
+        "Michelin Wear Problems, https://www.michelinman.com/auto/auto-tips-and-advice/tire-damage/wear-problems — pressione insufficiente e spalle, pressione eccessiva e centro, squilibrio e usura irregolare."
+      ]
+    },
+    {
+      "number": 31398,
+      "text": "With excessive pressure, the centre can carry more load and wear faster than the edges.",
+      "evidence": [
+        "Michelin Wear Problems, https://www.michelinman.com/auto/auto-tips-and-advice/tire-damage/wear-problems — pressione insufficiente e spalle, pressione eccessiva e centro, squilibrio e usura irregolare."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "e1899274f4e39418a721fb99fe2963bce71c9b302b841fce44ab8cc615d0eec6",
+    "output_sha256": "77fd5b2c9099b15238a9da1f8dd7e468c92032c4833709de2ea37f27e0c1151b",
+    "author": "gpt-6.1-terra / 01a1eb87-49db-77f1-b77d-fe0b53d5ebc3",
+    "reviewer": "gpt-6.1-terra / 01a1eb89-4bea-7013-be95-be2ad232534e",
+    "status": "accepted",
+    "checked_numbers": [
+      31374,
+      31375,
+      31376,
+      31377,
+      31378,
+      31379,
+      31380,
+      31381,
+      31382,
+      31383,
+      31384,
+      31385,
+      31386,
+      31387,
+      31388,
+      31389,
+      31390,
+      31391,
+      31392,
+      31393,
+      31394,
+      31395,
+      31396,
+      31397,
+      31398
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "5345a2297c4f6b1be93b937703ff6508600865b415effc7ec4d72f5fa039601e",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "4fd1d6fc2a35d6a9af034fa53320a96c1f178d2b6ae6f60767bf5152405ce1e8",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1eb87-49db-77f1-b77d-fe0b53d5ebc3",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "5345a2297c4f6b1be93b937703ff6508600865b415effc7ec4d72f5fa039601e",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": []
+  }
+}

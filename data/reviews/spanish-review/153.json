@@ -1,0 +1,43 @@
+{
+  "batch": "153",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "c613c6806fef5628683cc4183b5a94716a1af95caa1328d631753c3455c2e132",
+  "source_sha256": "1dfdcaf4c4760aa88a7cadf23c1905467b3df30ecc0b1741c41ad18961fa94c7",
+  "corrections": [
+    {
+      "id": "c9b467dfa6583842676d07ef98638073ad76d08fc0a81ef2625d986cae3bc8f4",
+      "before": "La licencia de conducir de categoría B, salvo limitación indicada en el documento o ajuste a la fecha de cumpleaños del titular, tiene una validez de diez años si se expide o confirma a quien no ha cumplido 50 años",
+      "after": "La licencia de conducir de categoría B, salvo limitación indicada en el documento o ajuste a la fecha de cumpleaños del titular, tiene una validez de diez años si se expide o confirma a quien no ha superado los 50 años",
+      "reason": "El límite del original incluye a quienes tienen 50 años."
+    },
+    {
+      "id": "caf95a9f4ed3491b31c8202079e6e80734e9e8e795c0490629808f42892830c1",
+      "before": "El estado de los componentes de suspensión del vehículo influye en la comodidad de los pasajeros",
+      "after": "El buen funcionamiento de los componentes de suspensión del vehículo influye en la comodidad de los pasajeros",
+      "reason": "Efficienza indica funcionamiento eficaz, no solo estado."
+    },
+    {
+      "id": "cb138358f776a12b266e48c6962392f8fbb59c779fd4e054d3e1b8a199a42eee",
+      "before": "La señal mostrada se encuentra a diecinueve kilómetros de la estación de Carabineros más cercana",
+      "after": "La señal mostrada se encuentra a diecinueve kilómetros de la estación de Carabinieri más cercana",
+      "reason": "Keep the Italian force name Carabinieri; Carabineros is another country's police"
+    },
+    {
+      "id": "cb26d2d67301f63088d8d245f60336c952220c43a1bdc000dfaa0d6bee60aecf",
+      "before": "La detención siempre está prohibida en doble fila",
+      "after": "La parada siempre está prohibida en doble fila",
+      "reason": "Fermata indica una parada temporal."
+    }
+  ],
+  "reviewed_file_sha256": "dc4887e3b947e5d281e52647567cb6f87fae48e652ae960c631e27b6841c1b36"
+}

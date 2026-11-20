@@ -1,0 +1,162 @@
+{
+  "batch": "008",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_early",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "0ff2036810e14a88fca9e730523c8703896e0483866464072de2f66b73994516",
+  "rows": 100,
+  "verified_ids": [
+    "a75c6c5740bbe6323134a5d1d17636ca79d952b40e5470223c191f0ca9da0bbd",
+    "7038f502d274ac2a6eccde7e4208868a2831dbc27075b095d990b21a15529e5a",
+    "b3b0ecb18405e9767782f4ebd5ba5731d08fd62f3135f998dcb359975c524781",
+    "f7b0a2ead0f6a94f5f811931f04215228631d0c35442a9a01948b4632c5d7b1e",
+    "bf8c38130de199983bf84dc659073713e8e475ebfecfe89b4ebcf92e4e501ea9",
+    "7ed553713d8c8935a5ac17c4ba629288a3e5c7473d20e318510472b07563a59e",
+    "9e5d5653d7fc8913db2367d631bfcfb4bada17474d4261a3fdd74599cbc59f3c",
+    "8b4bafa0b88a167da040e2d621fbe37ad632295864c626ee1bbdb2354a9c45ab",
+    "38e615c06e8c176637d9235da21abb18f1c9ef7a26a91099f19218864ff363ee",
+    "5dd4b9e8bb04cd962bc00d8b831a6ec88a97b2fadb4c2ecdd65b7ca2c1d7b68c",
+    "aac0054627f18d3f5f7a4e64cd255086b5c00fa94c0c027697ce88f682a08d6c",
+    "5e1d5869141df46e430773b1c58010d91eec4ebf91dd9e339b00927e1634737f",
+    "867e3b930c72f4f56ff4f952e6bc87f7f369492febf89919e0286b3210032753",
+    "b2a324685cee926053bcb53e1a66291f06c75d3f539508d2ad0c9dbc8ba104fe",
+    "e6c3453f5c9011a3d593fb04337228aaa02e6558972151a8eeb28a8e5f54f883",
+    "1ac13da9f271334371161eea302def9c943c6118d13abb86c1d735694b7bf959",
+    "5aeef6a396f62e3537216351ea6d7e10a75b6d5eb478d1da79a16813557f763d",
+    "38f083441b6d5d0cd654f1a1da63e6e44aac2023ebd50a6a213e8eb432515ba1",
+    "fade4fa85b77628b54c360d69820d84599ce5913e4ce29cb2ef94b6e0a5afc23",
+    "3c724048df2d2de84d90a7858aa378d10d88dcfd4e5e8526e555772587ecf917",
+    "b0db5ec55aba921c7423f24beb6c82f556165e4a4108426fb6ae33ba7a1cbff5",
+    "f58d250c05514cd7df22dfad3cba4aadced50ef9504f9268d83028eb5e3a669f",
+    "4b713de936c6b55ab8e0afdcca041d40bbca05e8639c64f7a88815f5531aadd8",
+    "82cd896f33e858742b2b1caa0c0ece07fec15619e522835c4b09e8ab478de942",
+    "3b29001391e6c401d57596fe3dbe18dd554bb49cd7cf4f48dce39058487931a5",
+    "1bc70042f1f48f7754c727f63ed5264272e7f59447c75ae14524b7096f4775ce",
+    "86ef9b76b62ddb246b15f896a0293f7b6cb92d67b55c6f6ba4ea3686b5cbd661",
+    "3c3603156ae70569dfcfe697843c87841bf0119aa084cc1a9a07f2aed69a11e8",
+    "18dcae7586a10ffb3decc78ca9538aa012c3ed6c570c82e68d183fffb6698e01",
+    "144d02c4836b4f1f9419b15a5e5cbfe2b4ba69ad204a42dbf40f478fc75d136a",
+    "99023609e1cebab5927936df1b858079594b83f7d81f32194f2c21a0d45c4cb5",
+    "a43d3eddaa9629ebb7ea8dc5a01d59b84069a444fe9d41367a06e4ed0b9b06de",
+    "819b6e2469c1c3433e2dd7d3c954ec9b5f74232d876d3a2391d752a37e0a60f7",
+    "0a4df519c5c917000e8ff80e52049139b0b4d9423c79b16fb12d8dbe02fcfa03",
+    "94bd061113788205ed25e2cb4dc14e99b77e201fd8bb0ae22ae401e126e9857f",
+    "6d48ad57e6386f24e9943ea082137a6ffbe820fa1c0e2382ca4cfe15ca1acf22",
+    "f4c901e616ac43632e44d56234d97aaf0b012850f93b4ea4ea1be99608b4a274",
+    "8cb04a885ae7b5abe27223ebd2833bfc754405a342278cb11a392d85290957b3",
+    "13b0787a230c3ed1b43a0a2061e9bfc9b1bd96b02fdf39e18300d4715ec20f3a",
+    "355d96b88c4ab7dbabda396ec328e28041be351eb320226de6e2aedae3a770aa",
+    "a85e92f6ec6b9f70248e347fad80907763ebf8cb8ca310169c53133c018d19d1",
+    "8da186dcfab3027218b61d6f192a7f578a94d93b904c8d469410365e17017687",
+    "ec78f59e1a9ec5e4a601476d83c520e2301c73952c6a1b1c5dd44f06e7595bf5",
+    "b9fdf2b8f832ca8f10f87cd106bf0412ae5f9730cbc74a0105dd7a754fd0b9ca",
+    "e6e61f50e3bbddad371f371eaab1414e4187dce3cf2f30a255b7733c77bd9dae",
+    "532dbd95638da66e2091052e7b53c17455fa697bd07e6e10266e1750d235b525",
+    "f5b3c66822e9750e842eb99a71bbbdbe20b53c66f9ddaf146a1262d2b18c7c95",
+    "97eef65da83d74da65b080f7352661fd0f6ac7f9c1af4c4e26129db805876aab",
+    "4ff2380dbdbd73a67c4ba3d75451d799b414b7bbea6ab9a2f860babeb2edd0c7",
+    "66d4f98e8a2455504964c236c483aaf95aec73ee5f3d646c4da80075f2deb41f",
+    "fd478e9b2edf239c4c78ab5392874aea0f8d30415f8dea25bfc3f00a63e638d9",
+    "c19fbca942dd67b22e4ff817b5ee41a088b4e57863bff3ea684f1532ab6de952",
+    "9ac02ef8a5839b365ee41372d4fbf81e971af9c325a02c33fb4615b17ca4aa96",
+    "17278364d7016c438a8aa3c36aa989769e93baae579bd3bd6ec0e1f2bbbb89f8",
+    "d7783cc3c4e0769e923692990930ec10c781a068ca6898710e638a86af90c0e0",
+    "f15972b2548567b333a87a1d7973d58503b980bd189da5a1787a9952681f9564",
+    "b464d0f02c01880f18902ff4ea98fe40b999240d574ec61184c98a5439029bdd",
+    "f85172e760144d9bbca55f6bc4559261cdbdc6253c4c1cea840e732c6333dbd5",
+    "fa2f93e67ae544e73a968888cbe1bdebbfb6381b37ef45a1c84f520f4703d468",
+    "693d8ae6fbfde99945342642849a52ef8a0f3a924a14b425a4f61440893daea9",
+    "12ccfe5ef3347ac0b116eb69518038b4ac864a01dba167267cd58230574a1ba1",
+    "67fba64a3c33afbb187523d4be43e10304a4963cd17cf3a54b34294805628721",
+    "7d411054cd393e0ee88fd6f4ac9e2397d3f77b8f0e60df1d8d93ad14b8c12965",
+    "37c94f9ee62a4e4f9afe2a8856c6edb5c4711d0d74f320ef252bc8a44e163d05",
+    "d84a7c91c8cf11379a730b36572991583fadf079ca89e27413451f9c44315aee",
+    "89bd0b3d827ad4f00d321673c63624bf5e5e91dc223b23613f1c72fc44f8284d",
+    "f0766ca7c879ed30f7e972d18415a68ac5f9c2d36845bf6f194c6244dc4c6507",
+    "ccd99033a6db610e0e7bf67109588ce8c66e69402550f9bc27261f0b707dc9aa",
+    "b3b9d016fb123a8b9c54055910fc1ad15c74cf7f6c1d613254ec2aa2e267f141",
+    "d45d7fe5f5345d554d01e10f933d675314071224b79f5a68367d912de6429ba8",
+    "7d5c79a169162e136e204c4c6fb261d21021f0fb183993f35aab6337ac04ff81",
+    "45e9c731e6b8a29a29149f19d2d2c8d5027dbb59e622667d8fe4dc0bf571a6ba",
+    "d28aaa7d5155b140069931fc20736c225727d4afeda3ab07d42f6856343fb16e",
+    "c57570b6a0226554f8c8ec7d2d52958d76c84228102a737a9e64dc279bcd77d0",
+    "b022fe75362e1aab3ee09870da4865e8be8134d86277d41ea72c4653a28f87f1",
+    "2330e50deb8feb380fc7561ae4431ff15dd50b7c930fedac48efd5a0e53f3f6b",
+    "68028ce291ed3afbc7d41f9c5fb1188e572b80ab66769701eb59f6340f42a20b",
+    "d576538d9b1d3f09003b52200fdd9033691eb995ee31c30672c6f58344f6adea",
+    "4d3589e68b249f6d05ce0a9a0b1ca99683141823fcf4a25f16acb57d5c8bc4bf",
+    "89f05a85f88f969bf80cc77784d558474b6ac6d3ca3ca7e3926ce39a6bb3115f",
+    "0d867e4b874d089269883c1836f437aadfc538531cbc0a07840bdecad6ffb12e",
+    "c96b5d15e7abb2397f3e9278d9502e179b80ffce8aa42744f4ba45e12a756023",
+    "7fbf05093b30424e7a7584543cd526b093fb2afb9059b65ca7d55a7df973cef1",
+    "28351ef2dfee80b10ad30ae05718bd567c3b5d3a75b2ee305516b86f475df601",
+    "ce89513ad0c4f2506d67e1f6b4fc6c6e144c333baffccf194e92d38ae46de55e",
+    "eb2bb50794f9c7171e18b9b465f993d8ac67e39013088e57d89f22cb9fc21a9a",
+    "5a554b3692cc6ec2e51556e2d9f9bbd4c81533c98be6f87d1355d21f662ce123",
+    "7c27fb9390dbc14f82ba82a5adff9444328dac08fc24943298890fe17702fa7c",
+    "08df47b5ab0d6fb8c2d580dde93ae8cad3530cd169c4f21ab661021c1cc20770",
+    "fc17d63925a4d6335ed321aaf11a695a0dcabcfc2e19b08bb1789233c0d5cf5d",
+    "496d7ceff17217a08c302761051606e4c32871d02eb3215ffed51104f056b91c",
+    "2e7a97ae047809454e39ecca09cba90a0ddcc51eda9e59bee4f7d684f981ef8d",
+    "bf89e9e8c960da91cad9352e2fbeba5bc785f3958668257c4445c89221c1dd8c",
+    "57c06e00beb69dea8264933557a5fcf09f46ed68696762aa458be2ba8b0943ba",
+    "7ef8c60c0922d94ba47e9df29b140be89b3571b7e0ce701b1e933342cc209237",
+    "ce4339bee800e46a31a6cf1eb8edf3d8ad9c5a78cc84be738764de361290e69c",
+    "52424d73f8d75fe0f5d64a9b27c702c9f1f907ac1a1d20130817563381bb9ccd",
+    "40e307ae1caf0ed741234aa968b5482a642bc633a0c748928a08573feda306c1",
+    "75822a52df98f985016ac33b8a6b3eba3ed21cc53fb2a4a5e6468c891e101a49",
+    "9769edef4326036348d02a2e8b2afaa10aa6b30c7b3aa4e668943c6874adf882"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "12ccfe5ef3347ac0b116eb69518038b4ac864a01dba167267cd58230574a1ba1",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Speed must be adjusted especially only on public holidays.",
+          "after": "Speed must be adjusted especially only on Sundays and public holidays."
+        },
+        "zh": {
+          "before": "尤其仅在节假日必须调整速度。",
+          "after": "尤其仅在星期日和节假日必须调整速度。"
+        }
+      }
+    },
+    {
+      "id": "4d3589e68b249f6d05ce0a9a0b1ca99683141823fcf4a25f16acb57d5c8bc4bf",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "Overtaking is prohibited on humps on two-lane, two-way roads.",
+          "after": "Overtaking is prohibited on speed humps on two-lane, two-way roads."
+        },
+        "zh": {
+          "before": "在双向两车道道路的坡顶处禁止超车。",
+          "after": "在双向两车道道路的减速带处禁止超车。"
+        }
+      }
+    },
+    {
+      "id": "7ef8c60c0922d94ba47e9df29b140be89b3571b7e0ce701b1e933342cc209237",
+      "reason": "dosso is speed hump; dosso is speed hump per term list",
+      "changes": {
+        "en": {
+          "before": "Overtaking is prohibited on humps on one-way roads.",
+          "after": "Overtaking is prohibited on speed humps on one-way roads."
+        },
+        "zh": {
+          "before": "在单行道的坡顶处禁止超车。",
+          "after": "在单行道的减速带处禁止超车。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "5a48943ec00e6373b4727fb5a5e35a23bc38f69016cbe9a3a1210375e3b1119f"
+}

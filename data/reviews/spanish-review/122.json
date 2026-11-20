@@ -1,0 +1,31 @@
+{
+  "batch": "122",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "8ed30e17b1dd78f9542ad771aab4e17cafc44bb57e193fdcfcdcf4eefadc2010",
+  "source_sha256": "78c5950218ef23a4b5849c94c5f713a347b6a15d25bd4847963c07d130f40532",
+  "corrections": [
+    {
+      "id": "a2e82f4eec922cc07ab300fff6d66a3d826b28de5f5d5633f1f30726cdb103d1",
+      "before": "Entre las principales ventajas del transporte por carretera está la rapidez",
+      "after": "Entre las principales ventajas del transporte por carretera está la puntualidad del servicio",
+      "reason": "Se expresa tempestività como oportunidad del servicio, no solamente rapidez.; tempestivita means timeliness/punctuality, not opportunity"
+    },
+    {
+      "id": "a325378b10f5e9ca01ccc1480714cd771ace35288c71eec9951ab22b1c403ba7",
+      "before": "14##tipología14 CQC",
+      "after": "14##tipologia14 CQC",
+      "reason": "Se conserva el marcador estructural 14##tipologia14."
+    }
+  ],
+  "reviewed_file_sha256": "0dfad4989bf16fb2fb50594d9035fbe447f4841f4f0b100a4303dea855e8ca0c"
+}

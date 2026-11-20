@@ -1,0 +1,49 @@
+{
+  "batch": "014",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9dbce91c226536799fd3d69df56f4eae56fb08646efa9fe84dbc358362003e56",
+  "source_sha256": "c4f52377ddc4c2f017f51a4a8d6acc72d089a67b62011fc4a777649234b0b094",
+  "corrections": [
+    {
+      "id": "13264ccbe10c7674f34f48d8c6ad14d4ba44a6ca030bd620ad1d3ad88e2bd0c6",
+      "before": "La presencia de uno de los dos paneles complementarios de la figura puede indicar una o más curvas cerradas",
+      "after": "La presencia de uno de los dos paneles complementarios de la figura puede indicar una o más curvas de herradura",
+      "reason": "Tornanti son curvas de herradura, no cualquier curva cerrada."
+    },
+    {
+      "id": "134b0b013255931aceaf028dc0956d3c0de24741951f2c0aaedb461cb9942e73",
+      "before": "Para transportar mercancías por cuenta de terceros dentro de la UE con vehículos de capacidad de carga superior a 3,5 t, una empresa de transporte por carretera debe utilizar vehículos de categoría de emisiones mínima Euro 3",
+      "after": "Para realizar transportes por cuenta de terceros dentro de la UE con vehículos de capacidad de carga superior a 3,5 t, una empresa de transporte por carretera debe utilizar vehículos de categoría de emisiones mínima Euro 3",
+      "reason": "El original no limita el transporte a mercancías."
+    },
+    {
+      "id": "13e019cf6baddfc16751366ff86dfd7dd7047c15973aceca024d67129370973f",
+      "before": "El seguro de responsabilidad civil automotor también es válido para accidentes ocurridos en países de la Unión Europea",
+      "after": "El seguro de responsabilidad civil automotor (RCA) también es válido para accidentes ocurridos en países de la Unión Europea",
+      "reason": "Restituye la sigla RCA incluida en el original."
+    },
+    {
+      "id": "140ff2cdff9e4d864e6627e8c070a221cae0ba33726013bb33fba5793b14c5a1",
+      "before": "Los carriles reservados para autobuses pueden ser utilizados por todos los vehículos para detenciones breves",
+      "after": "Los carriles reservados para autobuses pueden ser utilizados por todos los vehículos para estacionamientos de corta duración",
+      "reason": "Soste se refiere al estacionamiento, aun cuando sea de corta duración."
+    },
+    {
+      "id": "146bd54609961456ffbde16584490ff8aa32baa552afd7337045bdba69a88a69",
+      "before": "Para transportar mercancías por cuenta de terceros dentro de la UE con vehículos de capacidad de carga superior a 3,5 toneladas, una empresa de transporte debe utilizar vehículos de categoría de emisiones mínima Euro 3",
+      "after": "Para realizar transportes por cuenta de terceros dentro de la UE con vehículos de capacidad de carga superior a 3,5 toneladas, una empresa de transporte por carretera debe utilizar vehículos de categoría de emisiones mínima Euro 3",
+      "reason": "El original no limita el transporte a mercancías."
+    }
+  ],
+  "reviewed_file_sha256": "a4f9a2b280246b135d662e63378144f9aa8362791b743c76748f49a544233403"
+}

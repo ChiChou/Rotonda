@@ -1,0 +1,701 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28447,
+          "quesito_id": 6092,
+          "text_it": "La lunghezza massima di un autosnodato o di un autobus con rimorchio è di 18,75 metri",
+          "answer": 1,
+          "page": 71,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bed51e99c670e457bb2aff71a9bee6a6e65c891af236b9f52634cb136d51c717",
+        "localized_text": "铰接式巴士或牵引挂车的巴士最大长度为18.75米。"
+      },
+      {
+        "source": {
+          "number": 28448,
+          "quesito_id": 6092,
+          "text_it": "La lunghezza massima di un autotreno è di 18,75 metri, purché il complesso dei veicoli abbia particolari misure",
+          "answer": 1,
+          "page": 71,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0c34fcddaf6e497f43242f8a99fa7a284c7ae6f3b6e0a4d0b9da777f7f4f1fc2",
+        "localized_text": "汽车列车最大长度为18.75米，前提是车辆组合满足特定尺寸要求。"
+      },
+      {
+        "source": {
+          "number": 28449,
+          "quesito_id": 6092,
+          "text_it": "Le bisarche (autoveicoli per trasporto di altri autoveicoli) possono avere lunghezza massima differente da quella prevista per altri veicoli",
+          "answer": 1,
+          "page": 71,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5871e0432c787fa1b941fefac85e92dc1e18eb48df98493ecd6f8b053b05a13f",
+        "localized_text": "汽车运输车的最大长度可以不同于其他车辆的规定长度。"
+      },
+      {
+        "source": {
+          "number": 28451,
+          "quesito_id": 6092,
+          "text_it": "La lunghezza massima di un autotreno è di 19,35 metri, se dotato di sospensioni pneumatiche sugli assi del rimorchio",
+          "answer": 0,
+          "page": 71,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6f79d00daead882b94070a82d65b2523280881da7f7dcc5eb0ac41714c1b3efe",
+        "localized_text": "如果挂车车轴配有空气悬架，汽车列车最大长度为19.35米。"
+      },
+      {
+        "source": {
+          "number": 28452,
+          "quesito_id": 6092,
+          "text_it": "Un rimorchio non deve mai avere lunghezza maggiore del 60% di quella della motrice",
+          "answer": 0,
+          "page": 71,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1d6d772d8ece86c7b522291bbd56f978908143946c9046bdc739dc74b9ef9b67",
+        "localized_text": "挂车长度绝不得超过牵引车长度的60%。"
+      },
+      {
+        "source": {
+          "number": 28453,
+          "quesito_id": 6092,
+          "text_it": "Un rimorchio non deve mai avere lunghezza maggiore di 9 metri",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e3e9a33eb2e5c6b70a61bfa99bd4c1eab96427d34602d289c116ade6bfdc3664",
+        "localized_text": "挂车长度绝不得超过9米。"
+      },
+      {
+        "source": {
+          "number": 28454,
+          "quesito_id": 6092,
+          "text_it": "Un semirimorchio non deve mai avere lunghezza maggiore di 10,75 metri",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "928c7dbac90b911e21d6d35b1eb66e77afe5b769178f27a7d32a561e47e2f1ed",
+        "localized_text": "半挂车长度绝不得超过10.75米。"
+      },
+      {
+        "source": {
+          "number": 28456,
+          "quesito_id": 6093,
+          "text_it": "Per interasse (passo) di un veicolo a due assi si intende la distanza fra i centri dei due assi",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a333323d4508976db3a8e75dc7f4a288d9ccadc645ece27045f70e18b9437c04",
+        "localized_text": "两轴车辆的轴距是两根车轴中心之间的距离。"
+      },
+      {
+        "source": {
+          "number": 28457,
+          "quesito_id": 6093,
+          "text_it": "Lo sbalzo di un veicolo è la parte che sporge anteriormente o posteriormente rispetto all’asse più estremo anteriore o posteriore rispettivamente",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "39ab970981bf55ba0bde9e7e5e50d19c917de329b96940481f8d34e2a33f4981",
+        "localized_text": "车辆的前悬和后悬分别是向最前轴前方或最后轴后方伸出的部分。"
+      },
+      {
+        "source": {
+          "number": 28458,
+          "quesito_id": 6093,
+          "text_it": "La carreggiata di un veicolo è la distanza fra un parafango e l’altro dello stesso asse",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "13c2a0f9dbdcec870ebd96297adcd77248f0cf04a2410ca14e73cbf8874ada76",
+        "localized_text": "车辆轮距是同一车轴两侧挡泥板之间的距离。"
+      },
+      {
+        "source": {
+          "number": 28459,
+          "quesito_id": 6093,
+          "text_it": "Per interasse (passo) di un veicolo a due assi si intende la distanza fra il centro delle ruote di uno stesso asse",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "03a8e7af9650c17d226b7fc8ad8004d30073a5c889d1efc6cc24fbb92166b7b7",
+        "localized_text": "两轴车辆的轴距是同一车轴上车轮中心之间的距离。"
+      },
+      {
+        "source": {
+          "number": 28460,
+          "quesito_id": 6093,
+          "text_it": "Per sbalzo di un veicolo si intende la pendenza massima che esso può superare quando circola a vuoto",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ecf176e924355e5a9658f2e7f5e5e90ebfb7674bf2299a75ad018c489ddd3a63",
+        "localized_text": "车辆悬伸是指车辆空载时可以通过的最大坡度。"
+      },
+      {
+        "source": {
+          "number": 28461,
+          "quesito_id": 6094,
+          "text_it": "I conducenti che si mettono alla guida di un mezzo pesante devono tenere presente che, generalmente, tali veicoli presentano sbalzi notevoli",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e67e4750db9c8d6f8d338ed95aaca4b6c296ab5cf142d1d66d26eedd7e9a0e57",
+        "localized_text": "重型车辆驾驶员必须记住，此类车辆通常有较大的前后悬。"
+      },
+      {
+        "source": {
+          "number": 28462,
+          "quesito_id": 6094,
+          "text_it": "Su un veicolo dotato di sbalzi notevoli, nell'affrontare una ripida salita o un forte dislivello stradale occorre conoscere l'angolo massimo di attacco che si può affrontare",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "98f0cc0fed272a804517eabb1b558afae57776eb3be9050a3f6401b8ce697a3c",
+        "localized_text": "悬伸较大的车辆遇到陡上坡或较大道路高差时，驾驶员必须知道车辆能够通过的最大接近角。"
+      },
+      {
+        "source": {
+          "number": 28463,
+          "quesito_id": 6094,
+          "text_it": "Su un veicolo dotato di sbalzi notevoli, nell'affrontare una salita o un dislivello stradale occorre moderare la velocità",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "17300edb89298ee880cd729b546114e49b344a6f5c9afa755a777c006298760d",
+        "localized_text": "悬伸较大的车辆遇到上坡或道路高差时，必须减速。"
+      },
+      {
+        "source": {
+          "number": 28464,
+          "quesito_id": 6094,
+          "text_it": "Su un veicolo dotato di sbalzi notevoli, nell'affrontare una discesa ripida o un forte dislivello stradale occorre conoscere l'angolo massimo di uscita che si può affrontare",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "043758e3ed670737b44c868ac949c1c04da8d3e6c2aa6e9418767fac27c4470f",
+        "localized_text": "悬伸较大的车辆遇到陡下坡或较大道路高差时，驾驶员必须知道车辆能够通过的最大离去角。"
+      },
+      {
+        "source": {
+          "number": 28465,
+          "quesito_id": 6094,
+          "text_it": "Su un veicolo dotato di sbalzi notevoli, nell'affrontare una discesa o un dislivello stradale occorre moderare la velocità",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "20ed713ee463a174f90d9ec175910c268b2fb705bbfb9963952463f426474688",
+        "localized_text": "悬伸较大的车辆遇到下坡或道路高差时，必须减速。"
+      },
+      {
+        "source": {
+          "number": 28466,
+          "quesito_id": 6094,
+          "text_it": "In un veicolo a motore, lo sbalzo anteriore aumenta la larghezza della fascia di ingombro",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7b9a3373b0efd7ea22da1422fc51d28ba634c7310f9af74c3090f51702121b09",
+        "localized_text": "机动车前悬会增加车辆扫掠通道的宽度。"
+      },
+      {
+        "source": {
+          "number": 28467,
+          "quesito_id": 6094,
+          "text_it": "Su un veicolo dotato di sbalzi notevoli, aumenta la difficoltà a mantenere la corretta traiettoria in curva e nelle svolte",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "61d5815279b6bf20f47630ad65d9279b36ba293d00b62b15c24b5fc921ceada0",
+        "localized_text": "悬伸较大的车辆在弯道和转弯时更难保持正确轨迹。"
+      },
+      {
+        "source": {
+          "number": 28468,
+          "quesito_id": 6094,
+          "text_it": "Se si effettua una svolta con un veicolo dotato di sbalzi notevoli, occorre tenere presente che, con le estremità anteriore o posteriore del veicolo, si potrebbe invadere il marciapiede",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1d575b726564a8b1bef22df88dc4587c28c706b4e7d26a95adf70d5f6834c34a",
+        "localized_text": "驾驶悬伸较大的车辆转弯时，必须注意车辆前端或后端可能侵入人行道。"
+      },
+      {
+        "source": {
+          "number": 28469,
+          "quesito_id": 6094,
+          "text_it": "Se si effettua una svolta con un veicolo dotato di sbalzi notevoli, occorre tenere presente che, con le estremità anteriore o posteriore del veicolo, si potrebbero urtare pedoni o ciclisti in transito nelle vicinanze",
+          "answer": 1,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c06459486afd4a8bef06f0a1fdd7998c3a6e00f3c03b45c46f3296467e8adb6b",
+        "localized_text": "驾驶悬伸较大的车辆转弯时，必须注意车辆前端或后端可能撞到附近行人或骑自行车者。"
+      },
+      {
+        "source": {
+          "number": 28470,
+          "quesito_id": 6094,
+          "text_it": "Il conducente alla guida di un mezzo pesante deve tenere presente che, generalmente, tali veicoli presentano sbalzi notevoli anteriormente, ma non posteriormente",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "52df0659b41a2b6b1dd8645ad5bc7293ec84fd9250106b9a4f3f436c7e56a1fb",
+        "localized_text": "重型车辆驾驶员必须记住，此类车辆通常前悬较大，但没有后悬。"
+      },
+      {
+        "source": {
+          "number": 28471,
+          "quesito_id": 6094,
+          "text_it": "Quando si è alla guida di un mezzo pesante dotato di sbalzi importanti, non si possono percorrere strade dove sono presenti dossi artificiali",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8edf56559993913c8628b28e97168aa7b14e4bfad2b353dd4fd07dba0bbccd35",
+        "localized_text": "悬伸较大的重型车辆不得在设有人工减速驼峰的道路上行驶。"
+      },
+      {
+        "source": {
+          "number": 28472,
+          "quesito_id": 6094,
+          "text_it": "Gli sbalzi di cui sono dotati i veicoli pesanti sono tra l'altro previsti per facilitare le manovre di parcheggio",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2d72a62e6e7f282076b08f32d6d1b8e549cc5b7eb1109f599726307ebc446b1b",
+        "localized_text": "重型车辆设置悬伸的目的之一是方便停车操作。"
+      },
+      {
+        "source": {
+          "number": 28473,
+          "quesito_id": 6094,
+          "text_it": "Gli autobus urbani non possono avere sbalzi superiori ai dieci centimetri per non rischiare di urtare i pedoni sul marciapiede",
+          "answer": 0,
+          "page": 72,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "baa9cdc9f3d20ff39393da44454e6c2b8778a67e99c886dc9159f910f2ba02cb",
+        "localized_text": "城市巴士的悬伸不得超过十厘米，以免撞到人行道上的行人。"
+      }
+    ],
+    "task_sha256": "1db614833a422dad2080ffab91c348d06f92c1f006dce22cf4e435eda60ad901"
+  },
+  "rows": [
+    {
+      "number": 28447,
+      "text": "两者的通常限长都是18.75米。部分快速公交铰接车在经批准的专用路线上有例外。",
+      "evidence": [
+        "Direttiva 96/53/CE, allegato I, punti 1.1, 1.7 e 1.8, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A01996L0053-20190814: lunghezze e misure dei complessi.",
+        "Codice della strada, art. 61 comma 2-bis, come modificato dalla legge 156/2021, https://www.mit.gov.it/nfsmitgov/files/media/notizia/2021-12/G.U.%20n.%20267%20del%209%20nov%202021.pdf: eccezione fino a 24 m per autosnodati di trasporto rapido su itinerari riservati autorizzati."
+      ]
+    },
+    {
+      "number": 28448,
+      "text": "18.75米的通常限值适用于整个车辆组合，同时还须符合装载区及其两端距离的规定尺寸。",
+      "evidence": [
+        "Direttiva 96/53/CE, allegato I, punti 1.1, 1.7 e 1.8, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A01996L0053-20190814: lunghezze e misure dei complessi."
+      ]
+    },
+    {
+      "number": 28449,
+      "text": "题库判为VERO：某些专门装备的汽车运输车适用特殊运输规则，并受路线和尺寸条件限制。在这些情况下，车辆连同载荷的总长度可在规定幅度内超过普通限值；这不是所有空载运输车自动享有的豁免。",
+      "evidence": [
+        "Official superiori quiz question 28449 prints VERO, without specifying laden envelope versus vehicle construction.",
+        "Codice della strada art. 10(3)(d), 10(6)(a), https://aci.gov.it/codice-della-strada/art-10/ : qualifying specially equipped vehicle carriers and conditional exceptional-transport treatment, including permitted increase up to 12% under the stated conditions; scope and routes matter.",
+        "Codice della strada art. 61(1), https://aci.gov.it/codice-della-strada/art-61/ : dimensional envelope includes the load; the rule is not an unconditional construction-length exemption for every empty carrier."
+      ]
+    },
+    {
+      "number": 28451,
+      "text": "空气悬架本身不会把汽车列车的通常限长提高到19.35米：组合车辆的通常限长为18.75米。",
+      "evidence": [
+        "Direttiva 96/53/CE, allegato I, punti 1.1, 1.7 e 1.8, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A01996L0053-20190814: lunghezze e misure dei complessi."
+      ]
+    },
+    {
+      "number": 28452,
+      "text": "没有按牵引车长度60%计算的一般性禁令；应遵守挂车及车辆组合适用的尺寸限值。",
+      "evidence": [
+        "Direttiva 96/53/CE, allegato I, punti 1.1, 1.7 e 1.8, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A01996L0053-20190814: lunghezze e misure dei complessi."
+      ]
+    },
+    {
+      "number": 28453,
+      "text": "9米不是普遍限值：挂车通常可长达12米，同时还须符合其他适用的尺寸规定。",
+      "evidence": [
+        "Direttiva 96/53/CE, allegato I, punti 1.1, 1.7 e 1.8, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A01996L0053-20190814: lunghezze e misure dei complessi."
+      ]
+    },
+    {
+      "number": 28454,
+      "text": "10.75米不是半挂车的普遍限值：规定允许更长，但须考虑前悬和车辆组合的尺寸。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi."
+      ]
+    },
+    {
+      "number": 28456,
+      "text": "轴距是两轴之间的纵向距离，并非同一轴上两轮之间的横向距离。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi."
+      ]
+    },
+    {
+      "number": 28457,
+      "text": "前悬是最前轴前方的部分，后悬是最后轴后方的部分；它们都伸出车轴支承位置。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi."
+      ]
+    },
+    {
+      "number": 28458,
+      "text": "轮距是按技术标准测量的同轴车轮之间的横向距离，并非挡泥板之间的距离。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi."
+      ]
+    },
+    {
+      "number": 28459,
+      "text": "轴距沿车辆纵向在两轴之间测量；同轴车轮之间的横向距离则属于轮距。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi."
+      ]
+    },
+    {
+      "number": 28460,
+      "text": "悬伸是最前轴前方或最后轴后方伸出的部分，不是车辆能爬越的坡度。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi."
+      ]
+    },
+    {
+      "number": 28461,
+      "text": "重型车辆可能有伸出车轴的部分。驾驶员应考虑这些部分，因为操作时车端也会占用空间。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi.",
+        "Manchester City Council, Waste storage and collection guidance, 2023, printed p. 14 (also Appendix p. 18), https://www.manchester.gov.uk/__data/assets/file/0020/123572/gd04_waste_storage_and_collection_guidance_for_new_developments_v7_sept_2023.pdf: esempio di oscillazione laterale dello sbalzo posteriore in manovra."
+      ]
+    },
+    {
+      "number": 28462,
+      "text": "接近角表示车辆驶上坡道时前部不触地所能通过的坡度；前悬较长可能减小这个余量。",
+      "evidence": [
+        "Transport for London, Road safety standards for construction, supply and waste sites, https://content.tfl.gov.uk/road-safety-standards-for-construction-supply-and-waste-sites.pdf: angolo di attacco e ingombro anteriore rispetto alla rampa."
+      ]
+    },
+    {
+      "number": 28463,
+      "text": "坡度变化处悬伸部分可能触地。减速有助于控制通过过程，但不会增加离地余量。",
+      "evidence": [
+        "Transport for London, Road safety standards for construction, supply and waste sites, https://content.tfl.gov.uk/road-safety-standards-for-construction-supply-and-waste-sites.pdf: angolo di attacco e ingombro anteriore rispetto alla rampa.",
+        "Codice della strada, art. 141, commi 1 e 3, https://www.mit.gov.it/normativa/decreto-legislativo-n-285-del-30041992-art-141: velocità adeguata alle caratteristiche e condizioni della strada."
+      ]
+    },
+    {
+      "number": 28464,
+      "text": "离去角关系到坡度变化时车尾与地面的余量；余量不足时后悬可能触地。",
+      "evidence": [
+        "Direttiva 92/53/CEE, allegato I, note definitorie sugli angoli, https://www.legislation.gov.uk/eudr/1992/53/pdfs/eudr_19920053_adopted_en.pdf: angoli di attacco e uscita rispetto alle estremità e al terreno."
+      ]
+    },
+    {
+      "number": 28465,
+      "text": "从下坡驶入平路时，后悬可能触地。适当减速有助于控制通过过程。",
+      "evidence": [
+        "Direttiva 92/53/CEE, allegato I, note definitorie sugli angoli, https://www.legislation.gov.uk/eudr/1992/53/pdfs/eudr_19920053_adopted_en.pdf: angoli di attacco e uscita rispetto alle estremità e al terreno.",
+        "Codice della strada, art. 141, commi 1 e 3, https://www.mit.gov.it/normativa/decreto-legislativo-n-285-del-30041992-art-141: velocità adeguata alle caratteristiche e condizioni della strada."
+      ]
+    },
+    {
+      "number": 28466,
+      "text": "转弯时车头端部沿更外侧的轨迹移动，因此前悬会增加车辆占用空间的宽度。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, allegato I, parte B, sezioni 7 e 8, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: ingombro in curva e sbalzo laterale per veicoli M e N."
+      ]
+    },
+    {
+      "number": 28467,
+      "text": "轴外的车端与车轮的轨迹不同。悬伸较大时，转弯需要观察更大的空间。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi.",
+        "Manchester City Council, Waste storage and collection guidance, 2023, printed p. 14 (also Appendix p. 18), https://www.manchester.gov.uk/__data/assets/file/0020/123572/gd04_waste_storage_and_collection_guidance_for_new_developments_v7_sept_2023.pdf: esempio di oscillazione laterale dello sbalzo posteriore in manovra."
+      ]
+    },
+    {
+      "number": 28468,
+      "text": "转弯时车端可能横向越过车轮轨迹并伸到人行道上：整个车身都需要足够空间。",
+      "evidence": [
+        "Manchester City Council, Waste storage and collection guidance, 2023, printed p. 14 (also Appendix p. 18), https://www.manchester.gov.uk/__data/assets/file/0020/123572/gd04_waste_storage_and_collection_guidance_for_new_developments_v7_sept_2023.pdf: esempio di oscillazione laterale dello sbalzo posteriore in manovra.",
+        "DVSA, Carrying out driving tests, 3. Vocational driving tests, https://www.gov.uk/guidance/guidance-for-driving-examiners-carrying-out-driving-tests-dt1/3-vocational-driving-tests: manovre dei veicoli lunghi, marciapiede e ciclisti."
+      ]
+    },
+    {
+      "number": 28469,
+      "text": "转弯时悬伸可能向侧面摆动，即使车轮离得较远也可能撞到附近的人。应观察车辆周围的空间。",
+      "evidence": [
+        "Manchester City Council, Waste storage and collection guidance, 2023, printed p. 14 (also Appendix p. 18), https://www.manchester.gov.uk/__data/assets/file/0020/123572/gd04_waste_storage_and_collection_guidance_for_new_developments_v7_sept_2023.pdf: esempio di oscillazione laterale dello sbalzo posteriore in manovra.",
+        "DVSA, Carrying out driving tests, 3. Vocational driving tests, https://www.gov.uk/guidance/guidance-for-driving-examiners-carrying-out-driving-tests-dt1/3-vocational-driving-tests: manovre dei veicoli lunghi, marciapiede e ciclisti."
+      ]
+    },
+    {
+      "number": 28470,
+      "text": "后轴后方也可能有较大的悬伸，操作时会向侧面摆动，因此不能只注意车头。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi.",
+        "Manchester City Council, Waste storage and collection guidance, 2023, printed p. 14 (also Appendix p. 18), https://www.manchester.gov.uk/__data/assets/file/0020/123572/gd04_waste_storage_and_collection_guidance_for_new_developments_v7_sept_2023.pdf: esempio di oscillazione laterale dello sbalzo posteriore in manovra."
+      ]
+    },
+    {
+      "number": 28471,
+      "text": "悬伸较大并不自动禁止车辆驶过有减速驼峰的道路，但应评估离地余量，以适当速度通过高差。",
+      "evidence": [
+        "Transport for London, Road safety standards for construction, supply and waste sites, https://content.tfl.gov.uk/road-safety-standards-for-construction-supply-and-waste-sites.pdf: angolo di attacco e ingombro anteriore rispetto alla rampa.",
+        "Codice della strada, art. 141, commi 1 e 3, https://www.mit.gov.it/normativa/decreto-legislativo-n-285-del-30041992-art-141: velocità adeguata alle caratteristiche e condizioni della strada."
+      ]
+    },
+    {
+      "number": 28472,
+      "text": "悬伸是车轴以外的车身部分；操作时它们反而可能横向摆动并需要更多空间，本身并不会方便停车。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, art. 2, punti 25-31 e allegato I, parte C, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: passo, carreggiata, sbalzi e dimensioni dei rimorchi.",
+        "Manchester City Council, Waste storage and collection guidance, 2023, printed p. 14 (also Appendix p. 18), https://www.manchester.gov.uk/__data/assets/file/0020/123572/gd04_waste_storage_and_collection_guidance_for_new_developments_v7_sept_2023.pdf: esempio di oscillazione laterale dello sbalzo posteriore in manovra."
+      ]
+    },
+    {
+      "number": 28473,
+      "text": "城市公交车的悬伸没有普遍适用的10厘米限值。操作时仍须考虑车端在行人附近扫过的空间。",
+      "evidence": [
+        "Regolamento (UE) 1230/2012, allegato I, parte B, sezioni 7 e 8, https://eur-lex.europa.eu/eli/reg/2012/1230/oj/eng/pdf: ingombro in curva e sbalzo laterale per veicoli M e N.",
+        "DVSA, Carrying out driving tests, 3. Vocational driving tests, https://www.gov.uk/guidance/guidance-for-driving-examiners-carrying-out-driving-tests-dt1/3-vocational-driving-tests: manovre dei veicoli lunghi, marciapiede e ciclisti."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "1db614833a422dad2080ffab91c348d06f92c1f006dce22cf4e435eda60ad901",
+    "output_sha256": "530db9ed9ce2017d1148cfa28052d67e46673c1018aaa379a4e87a38d6af3aeb",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      28447,
+      28448,
+      28449,
+      28451,
+      28452,
+      28453,
+      28454,
+      28456,
+      28457,
+      28458,
+      28459,
+      28460,
+      28461,
+      28462,
+      28463,
+      28464,
+      28465,
+      28466,
+      28467,
+      28468,
+      28469,
+      28470,
+      28471,
+      28472,
+      28473
+    ],
+    "issues": [],
+    "review_evidence": [
+      "EUR-Lex direct URLs presented a JavaScript challenge; checked the identical 2019 consolidated Directive 96/53/EC via legislation.gov.uk and original Regulation 1230/2012 via the indexed EUR-Lex HTML. Manchester guide directly inspected. TfL exact PDF was browser-size limited but its indexed exact document text was read.",
+      "Round 1 pinpoint corrections verified directly: article 10(6)(a) and Manchester printed pages 14 and 18. Reconstructed prior fingerprint confirms no other draft changes."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eaaa-dd17-7ea3-81b9-36c681c110d2",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "69f083cc75af73587542697fd92a913e462c0a414c689a24b4566fa51785d70f",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaaa-dd17-7ea3-81b9-36c681c110d2",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28449,
+              "reason": "Il quiz attribuisce VERO a una diversa lunghezza massima delle bisarche, senza specificare se intenda il veicolo oppure l’ingombro a carico; la fonte della Commissione distingue espressamente i due e attribuisce al veicolo il limite generale. Non è verificata una specifica deroga italiana alla lunghezza del veicolo che sostenga la formulazione.",
+              "checked_sources": [
+                "Portale dell’Automobilista, elenco superiori 2025, https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb: quesito 28449 e risposta VERO.",
+                "Commissione europea, SWD(2023) 445, sezione PMc5, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023SC0445: distingue il limite generale del veicolo di 18,75 m dalle maggiori lunghezze a carico consentite da deroghe nazionali.",
+                "Direttiva 96/53/CE, allegato I, punto 1.1, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A01996L0053-20190814: limiti ordinari differenziati per tipologia di veicolo o complesso."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "69f083cc75af73587542697fd92a913e462c0a414c689a24b4566fa51785d70f",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "1db614833a422dad2080ffab91c348d06f92c1f006dce22cf4e435eda60ad901",
+        "output_sha256": "46034a2422aa31ca0286735058a80aa68609730c26a4b1924f858166ea0a9a94",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          28447,
+          28448,
+          28449,
+          28451,
+          28452,
+          28453,
+          28454,
+          28456,
+          28457,
+          28458,
+          28459,
+          28460,
+          28461,
+          28462,
+          28463,
+          28464,
+          28465,
+          28466,
+          28467,
+          28468,
+          28469,
+          28470,
+          28471,
+          28472,
+          28473
+        ],
+        "issues": [
+          {
+            "number": 28449,
+            "reason": "Evidence cites CdS article 10(6-bis) for the car-carrier 12% provision, but the directly cited ACI article locates it at article 10(6)(a). Correct the pinpoint; the visible qualification is otherwise supported."
+          },
+          {
+            "number": 28461,
+            "reason": "Manchester waste collection guidance is cited as page 8 for rear overhang swing, but that example is on printed page 14 (also appendix page 18). Correct the pinpoint."
+          },
+          {
+            "number": 28467,
+            "reason": "Manchester waste collection guidance is cited as page 8 for rear overhang swing, but that example is on printed page 14 (also appendix page 18). Correct the pinpoint."
+          },
+          {
+            "number": 28468,
+            "reason": "Manchester waste collection guidance is cited as page 8 for rear overhang swing, but that example is on printed page 14 (also appendix page 18). Correct the pinpoint."
+          },
+          {
+            "number": 28469,
+            "reason": "Manchester waste collection guidance is cited as page 8 for rear overhang swing, but that example is on printed page 14 (also appendix page 18). Correct the pinpoint."
+          },
+          {
+            "number": 28470,
+            "reason": "Manchester waste collection guidance is cited as page 8 for rear overhang swing, but that example is on printed page 14 (also appendix page 18). Correct the pinpoint."
+          },
+          {
+            "number": 28472,
+            "reason": "Manchester waste collection guidance is cited as page 8 for rear overhang swing, but that example is on printed page 14 (also appendix page 18). Correct the pinpoint."
+          }
+        ],
+        "review_evidence": [
+          "EUR-Lex direct URLs presented a JavaScript challenge; checked the identical 2019 consolidated Directive 96/53/EC via legislation.gov.uk and original Regulation 1230/2012 via the indexed EUR-Lex HTML. Manchester guide directly inspected. TfL exact PDF was browser-size limited but its indexed exact document text was read."
+        ]
+      }
+    ]
+  }
+}

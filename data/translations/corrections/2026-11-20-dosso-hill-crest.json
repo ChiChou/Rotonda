@@ -1,0 +1,1203 @@
+{
+  "draft": {
+    "status": "draft_unreviewed",
+    "author": "claude-opus-5-5 / Claude Code session",
+    "rows": [
+      {
+        "id": "f330079e226c9792cfae176ac045c6525b0422f2fbfaf5bb775d87d7fcfb52aa",
+        "it": "Il segnale raffigurato è posto, di norma, 150 m prima del dosso",
+        "question_numbers": [
+          25467
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "The sign shown is normally placed 150 m before the speed hump.",
+            "proposed": "The sign shown is normally placed 150 m before the hill crest."
+          },
+          "zh-Hans": {
+            "current": "图示标志通常设置在减速带前150米处。",
+            "proposed": "图示标志通常设置在坡顶前150米处。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "83854df7d985f2f500100c2347df5d8c0902c890013303f715694af86faf6786",
+        "it": "Il segnale raffigurato preavvisa un dosso",
+        "question_numbers": [
+          25484
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "The sign shown warns of a speed hump.",
+            "proposed": "The sign shown warns of a hill crest."
+          },
+          "zh-Hans": {
+            "current": "图示标志预告前方有减速带。",
+            "proposed": "图示标志预告前方有坡顶。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "4d3589e68b249f6d05ce0a9a0b1ca99683141823fcf4a25f16acb57d5c8bc4bf",
+        "it": "E' vietato il sorpasso nei dossi, su strade con due corsie e a doppio senso di circolazione",
+        "question_numbers": [
+          26508
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "Overtaking is prohibited on speed humps on two-lane, two-way roads.",
+            "proposed": "Overtaking is prohibited on hill crests on two-lane, two-way roads."
+          },
+          "zh-Hans": {
+            "current": "在双向两车道道路的减速带处禁止超车。",
+            "proposed": "在双向两车道道路的坡顶处禁止超车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "7ef8c60c0922d94ba47e9df29b140be89b3571b7e0ce701b1e933342cc209237",
+        "it": "E' vietato il sorpasso nei dossi, su strade a senso unico di circolazione",
+        "question_numbers": [
+          26525
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "Overtaking is prohibited on speed humps on one-way roads.",
+            "proposed": "Overtaking is prohibited on hill crests on one-way roads."
+          },
+          "zh-Hans": {
+            "current": "在单行道的减速带处禁止超车。",
+            "proposed": "在单行道的坡顶处禁止超车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "2a60f9363abb19d4e31d871fd804740ef75cf2306fa5375e0ecb532e0943fc3a",
+        "it": "Non si può sorpassare in corrispondenza dei dossi su strade a senso unico a due corsie",
+        "question_numbers": [
+          26535
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "One may not overtake on speed humps on two-lane one-way roads.",
+            "proposed": "One may not overtake on hill crests on two-lane one-way roads."
+          },
+          "zh-Hans": {
+            "current": "在两车道单行道的减速带处不得超车。",
+            "proposed": "在两车道单行道的坡顶处不得超车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "9c44417deacf9644ceb6fd2bdd18c00245c95e2dfd74bff4a3ed1470efe50d38",
+        "it": "Sulle strade a senso unico, si può effettuare un sorpasso anche in presenza di un dosso",
+        "question_numbers": [
+          26544
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "On one-way roads, overtaking may be performed even on a speed hump.",
+            "proposed": "On one-way roads, overtaking may be performed even at a hill crest."
+          },
+          "zh-Hans": {
+            "current": "在单行道上，即使在减速带处也可以超车。",
+            "proposed": "在单行道上，即使在坡顶处也可以超车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "0e6ccd6efbc9cfb13022f89d529163200a6cf6275cd16bee1a7f32a82f8112ab",
+        "it": "Sulle strade a due carreggiate separate, si può effettuare un sorpasso anche in presenza di un dosso",
+        "question_numbers": [
+          26545
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "On roads with two separate carriageways, overtaking may be performed even on a speed hump.",
+            "proposed": "On roads with two separate carriageways, overtaking may be performed even at a hill crest."
+          },
+          "zh-Hans": {
+            "current": "在设有两条分隔车行道的道路上，即使在减速带处也可以超车。",
+            "proposed": "在设有两条分隔车行道的道路上，即使在坡顶处也可以超车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "63e37f314c06be382adf2a0be73ac443f0d506fa129e844b7dadac826b1edc1b",
+        "it": "In presenza di un dosso si può effettuare un sorpasso sul suo tratto in discesa, salvo diversa segnalazione",
+        "question_numbers": [
+          26546
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "On a speed hump, overtaking may be performed on the downhill section unless otherwise signposted.",
+            "proposed": "At a hill crest, overtaking may be performed on the downhill section unless otherwise signposted."
+          },
+          "zh-Hans": {
+            "current": "在减速带路段，除非另有标志规定，可以在下坡部分超车。",
+            "proposed": "在坡顶路段，除非另有标志规定，可以在下坡部分超车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "fcb8ee02654ebfea76ad634848c0d8373211b3b5a35c8b38889c66bebe8a685c",
+        "it": "In presenza di un dosso, si può sempre effettuare un sorpasso sul suo tratto in salita",
+        "question_numbers": [
+          26547
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "On a speed hump, overtaking may always be performed on the uphill section.",
+            "proposed": "At a hill crest, overtaking may always be performed on the uphill section."
+          },
+          "zh-Hans": {
+            "current": "在减速带路段，始终可以在上坡部分超车。",
+            "proposed": "在坡顶路段，始终可以在上坡部分超车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "a4561e059092f33d1cda919f1f06dc6631da303fc0c88b3578f603068633c954",
+        "it": "Il sorpasso è vietato quando si è in corrispondenza di una curva o di un dosso sulle strade a senso unico",
+        "question_numbers": [
+          26555
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "Overtaking is prohibited on a bend or speed hump on one-way roads.",
+            "proposed": "Overtaking is prohibited on a bend or hill crest on one-way roads."
+          },
+          "zh-Hans": {
+            "current": "在单行道的弯道或减速带处禁止超车。",
+            "proposed": "在单行道的弯道或坡顶处禁止超车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "3b60d281d3098c21944bc4f004577dff007fa49a19347ff488e95fb0f2ceae16",
+        "it": "La fermata del veicolo è sempre vietata nelle curve e sui dossi",
+        "question_numbers": [
+          26625
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "Stopping a vehicle is always prohibited on bends and speed humps.",
+            "proposed": "Stopping a vehicle is always prohibited on bends and hill crests."
+          },
+          "zh-Hans": {
+            "current": "在弯道和减速带处始终禁止车辆临时停车。",
+            "proposed": "在弯道和坡顶处始终禁止车辆临时停车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "779512c237ba6432dc1dc9985e4156da12f01444d5af6ea1191a027e4165b13a",
+        "it": "La fermata di un veicolo è consentita sui dossi",
+        "question_numbers": [
+          26646
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "A vehicle may stop on speed humps.",
+            "proposed": "A vehicle may stop on hill crests."
+          },
+          "zh-Hans": {
+            "current": "车辆可以在减速拱上临时停车。",
+            "proposed": "车辆可以在坡顶上临时停车。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "28b3da5bc6fa130a83c21c584f614d504d310a44680cd208e2b5b2ae8acccf52",
+        "it": "Su strada a due corsie a due sensi di marcia, i ciclomotori devono marciare il più possibile vicino al margine destro della strada quando percorrono un dosso",
+        "question_numbers": [
+          27130
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "On a two-lane, two-way road, mopeds must travel as close as possible to the right edge when crossing a speed hump.",
+            "proposed": "On a two-lane, two-way road, mopeds must travel as close as possible to the right edge when going over a hill crest."
+          },
+          "zh-Hans": {
+            "current": "在双向两车道道路上，轻便摩托车通过减速拱时必须尽量靠近道路右边缘。",
+            "proposed": "在双向两车道道路上，轻便摩托车通过坡顶时必须尽量靠近道路右边缘。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/am/questions.csv; data/source/banks/revisione_am/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "2a3ebfa5890f8be383e9b6c05a2aeb453e260ab8120e03d680219c4edd3a6446",
+        "it": "Il segnale raffigurato preannuncia una serie di dossi",
+        "question_numbers": [
+          18862
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "The sign shown warns of a series of speed bumps",
+            "proposed": "The sign shown warns of a series of hill crests"
+          },
+          "zh-Hans": {
+            "current": "图中所示标志预告前方有一系列减速丘",
+            "proposed": "图中所示标志预告前方有一连串坡顶"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/ab/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "5b22a5d5209c22ae50fb8e83bacd02a4fbbdabd6e2b5da786709f34dbd95e000",
+        "it": "Il segnale raffigurato preannuncia un dosso",
+        "question_numbers": [
+          18865,
+          18879,
+          18914
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "The sign shown warns of a speed bump",
+            "proposed": "The sign shown warns of a hill crest"
+          },
+          "zh-Hans": {
+            "current": "图中所示标志预告前方有减速丘",
+            "proposed": "图中所示标志预告前方有坡顶"
+          },
+          "es-419": {
+            "current": "La señal mostrada advierte de un resalto",
+            "proposed": "La señal mostrada advierte de un cambio de rasante"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/ab/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "b86063b0ba743288d3d022d07211774ec5fc4f748df6a59ebbbd40b2f23804e0",
+        "it": "Il segnale raffigurato preannuncia una cunetta o un dosso",
+        "question_numbers": [
+          18866
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "The sign shown warns of a dip or a speed bump",
+            "proposed": "The sign shown warns of a dip or a hill crest"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/ab/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "25ed681bf2cc17fd921ba016b3ccae1f0239c2aa89917e6df5e0b37e311dfe3a",
+        "it": "Il segnale raffigurato è posto, di norma, 150 metri prima di un dosso",
+        "question_numbers": [
+          18881
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "The sign shown is normally placed 150 metres before a speed bump",
+            "proposed": "The sign shown is normally placed 150 metres before a hill crest"
+          },
+          "zh-Hans": {
+            "current": "图中所示标志通常设在减速丘前150米处",
+            "proposed": "图中所示标志通常设在坡顶前150米处"
+          },
+          "es-419": {
+            "current": "La señal mostrada normalmente se coloca 150 metros antes de un resalto",
+            "proposed": "La señal mostrada normalmente se coloca 150 metros antes de un cambio de rasante"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/ab/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "08691cc384b47e624f80174a633363a40585a20522c3a6fd9495415376e94499",
+        "it": "In una strada a senso unico di circolazione con la segnaletica indicata in figura è consentito il sorpasso in vicinanza o in corrispondenza di dossi",
+        "question_numbers": [
+          20858
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "On a one-way road with the road markings shown in the figure, overtaking is permitted near or over speed bumps",
+            "proposed": "On a one-way road with the road markings shown in the figure, overtaking is permitted near or at hill crests"
+          },
+          "zh-Hans": {
+            "current": "在如图所示标线的单行道上，允许在减速带附近或减速带上超车",
+            "proposed": "在如图所示标线的单行道上，允许在坡顶附近或坡顶处超车"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/ab/questions.csv; data/source/banks/revisione_ab/questions.csv; data/source/banks/revisione_cqc_merci/questions.csv; data/source/banks/revisione_cqc_persone/questions.csv; data/source/banks/revisione_superiori/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "0179cd0456d032a37d749e63ae63511f088dfc99468d9d12ba4af0e2633c1012",
+        "it": "La striscia bianca discontinua in figura nelle strade a senso unico è posta nei dossi, per dividere i due sensi di marcia",
+        "question_numbers": [
+          20910
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "The broken white line shown in the figure, on one-way roads, is placed on speed bumps to divide the two directions of travel",
+            "proposed": "The broken white line shown in the figure, on one-way roads, is placed on hill crests to divide the two directions of travel"
+          },
+          "zh-Hans": {
+            "current": "图中所示的白色虚线在单行道上设置于减速带处，用于分隔两个行驶方向",
+            "proposed": "图中所示的白色虚线在单行道上设置于坡顶处，用于分隔两个行驶方向"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/ab/questions.csv; data/source/banks/revisione_ab/questions.csv; data/source/banks/revisione_cqc_merci/questions.csv; data/source/banks/revisione_cqc_persone/questions.csv; data/source/banks/revisione_superiori/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "a0f983eb680a91cc966109646e7d7a2ea23bef53ceebb9231865aa1115936ce4",
+        "it": "La segnalazione di pericolo è vietata nei dossi",
+        "question_numbers": [
+          14791
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "Danger warning is prohibited on speed humps.",
+            "proposed": "Danger warning is prohibited on hill crests."
+          },
+          "zh-Hans": {
+            "current": "减速带上禁止发出危险警示。",
+            "proposed": "坡顶处禁止发出危险警示。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/cqc_vecchio/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "c3589c30e7e133d26a03881454b8d15d6848e15a5a6b25d1f205bb74c941ec80",
+        "it": "Possono essere causa di pericolo una curva, un dosso, un incrocio, ecc.",
+        "question_numbers": [
+          17223
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "A bend, a speed hump, an intersection and similar features can cause danger.",
+            "proposed": "A bend, a hill crest, an intersection and similar features can cause danger."
+          },
+          "zh-Hans": {
+            "current": "弯道、减速带、交叉路口等可能造成危险。",
+            "proposed": "弯道、坡顶、交叉路口等可能造成危险。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/cqc_vecchio/questions.csv; data/source/banks/revisione_cqc_persone/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "2e6dc7f1f6eb9c4ad881b58b58ae4c9ae68174258fba98bd1d71d92833d7476a",
+        "it": "Grazie al CDC (sistema di controllo continuo dei sobbalzi), che regola continuamente gli ammortizzatori, vengono garantiti la stabilità del veicolo e il contenimento dei sobbalzi in frenata, nelle curve, nei dossi, ecc.",
+        "question_numbers": [
+          31161
+        ],
+        "answer": 1,
+        "translations": {
+          "en": {
+            "current": "CDC continuous damping control continually adjusts shock absorbers to ensure stability and limit bouncing under braking, on bends and on speed humps, and so on.",
+            "proposed": "CDC continuous damping control continually adjusts shock absorbers to ensure stability and limit bouncing under braking, on bends, over humps, and so on."
+          },
+          "zh-Hans": {
+            "current": "CDC连续减振控制系统持续调节减振器，确保车辆稳定并限制制动、转弯、经过减速拱等情况下的颠簸。",
+            "proposed": "CDC连续减振控制系统持续调节减振器，确保车辆稳定并限制制动、转弯、经过凸起路面等情况下的颠簸。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/cqc_nuovo/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "b3c1d049087ae863236f8b6b8be099a722849341a591514422134cc87ca73976",
+        "it": "La segnalazione di pericolo tramite il segnale di veicolo fermo è vietata nei dossi",
+        "question_numbers": [
+          31748
+        ],
+        "answer": 0,
+        "translations": {
+          "en": {
+            "current": "Using the stationary-vehicle warning sign to warn of danger is prohibited on speed humps.",
+            "proposed": "Using the stationary-vehicle warning sign to warn of danger is prohibited on hill crests."
+          },
+          "zh-Hans": {
+            "current": "禁止在减速带上使用故障车辆警告标志警示危险。",
+            "proposed": "禁止在坡顶处使用故障车辆警告标志警示危险。"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/cqc_nuovo/questions.csv",
+            "support": "Italian statement and printed answer FALSO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      },
+      {
+        "id": "1ad50e460a1d9951b4c36c490cd3ea48febe8e9f817ed91c65d04fe5475ab489",
+        "it": "La fermata è vietata sui dossi.",
+        "question_numbers": [
+          23669
+        ],
+        "answer": 1,
+        "translations": {
+          "es-419": {
+            "current": "Está prohibido detenerse en los resaltos",
+            "proposed": "Está prohibido detenerse en los cambios de rasante"
+          }
+        },
+        "evidence": [
+          {
+            "reference": "data/source/banks/ab/questions.csv; data/source/banks/revisione_ab/questions.csv; data/source/banks/revisione_cqc_merci/questions.csv; data/source/banks/revisione_cqc_persone/questions.csv; data/source/banks/revisione_superiori/questions.csv",
+            "support": "Italian statement and printed answer VERO read from the source bank; the text says dosso/dossi without 'artificiale'."
+          },
+          {
+            "reference": "Codice della strada (D.Lgs. 285/1992) art. 148 c. 10 and art. 158 c. 1; Regolamento (D.P.R. 495/1992) art. 85 (segnale Dosso) and art. 179 (dossi artificiali)",
+            "support": "Plain dosso is a road crest with limited visibility, where overtaking, stopping and parking are restricted; a speed bump is a separate device, dosso artificiale."
+          }
+        ],
+        "reason": "Plain dosso means a hill crest with limited visibility, not a speed bump (dosso artificiale); keep the assertion's scope and verdict unchanged."
+      }
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "draft_sha256": "59e613ce96fc8a78b555d1d8c9372352ff7ef836dbc75caa11e3bb9422b7346c",
+    "draft_sha256_method": "SHA256 UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "author": "claude-opus-5-5 / Claude Code session",
+    "reviewer": "claude-sonnet-5-5 / independent Claude subagent",
+    "checked_pairs": [
+      [
+        "0179cd0456d032a37d749e63ae63511f088dfc99468d9d12ba4af0e2633c1012",
+        "en"
+      ],
+      [
+        "0179cd0456d032a37d749e63ae63511f088dfc99468d9d12ba4af0e2633c1012",
+        "zh-Hans"
+      ],
+      [
+        "08691cc384b47e624f80174a633363a40585a20522c3a6fd9495415376e94499",
+        "en"
+      ],
+      [
+        "08691cc384b47e624f80174a633363a40585a20522c3a6fd9495415376e94499",
+        "zh-Hans"
+      ],
+      [
+        "0e6ccd6efbc9cfb13022f89d529163200a6cf6275cd16bee1a7f32a82f8112ab",
+        "en"
+      ],
+      [
+        "0e6ccd6efbc9cfb13022f89d529163200a6cf6275cd16bee1a7f32a82f8112ab",
+        "zh-Hans"
+      ],
+      [
+        "1ad50e460a1d9951b4c36c490cd3ea48febe8e9f817ed91c65d04fe5475ab489",
+        "es-419"
+      ],
+      [
+        "25ed681bf2cc17fd921ba016b3ccae1f0239c2aa89917e6df5e0b37e311dfe3a",
+        "en"
+      ],
+      [
+        "25ed681bf2cc17fd921ba016b3ccae1f0239c2aa89917e6df5e0b37e311dfe3a",
+        "es-419"
+      ],
+      [
+        "25ed681bf2cc17fd921ba016b3ccae1f0239c2aa89917e6df5e0b37e311dfe3a",
+        "zh-Hans"
+      ],
+      [
+        "28b3da5bc6fa130a83c21c584f614d504d310a44680cd208e2b5b2ae8acccf52",
+        "en"
+      ],
+      [
+        "28b3da5bc6fa130a83c21c584f614d504d310a44680cd208e2b5b2ae8acccf52",
+        "zh-Hans"
+      ],
+      [
+        "2a3ebfa5890f8be383e9b6c05a2aeb453e260ab8120e03d680219c4edd3a6446",
+        "en"
+      ],
+      [
+        "2a3ebfa5890f8be383e9b6c05a2aeb453e260ab8120e03d680219c4edd3a6446",
+        "zh-Hans"
+      ],
+      [
+        "2a60f9363abb19d4e31d871fd804740ef75cf2306fa5375e0ecb532e0943fc3a",
+        "en"
+      ],
+      [
+        "2a60f9363abb19d4e31d871fd804740ef75cf2306fa5375e0ecb532e0943fc3a",
+        "zh-Hans"
+      ],
+      [
+        "2e6dc7f1f6eb9c4ad881b58b58ae4c9ae68174258fba98bd1d71d92833d7476a",
+        "en"
+      ],
+      [
+        "2e6dc7f1f6eb9c4ad881b58b58ae4c9ae68174258fba98bd1d71d92833d7476a",
+        "zh-Hans"
+      ],
+      [
+        "3b60d281d3098c21944bc4f004577dff007fa49a19347ff488e95fb0f2ceae16",
+        "en"
+      ],
+      [
+        "3b60d281d3098c21944bc4f004577dff007fa49a19347ff488e95fb0f2ceae16",
+        "zh-Hans"
+      ],
+      [
+        "4d3589e68b249f6d05ce0a9a0b1ca99683141823fcf4a25f16acb57d5c8bc4bf",
+        "en"
+      ],
+      [
+        "4d3589e68b249f6d05ce0a9a0b1ca99683141823fcf4a25f16acb57d5c8bc4bf",
+        "zh-Hans"
+      ],
+      [
+        "5b22a5d5209c22ae50fb8e83bacd02a4fbbdabd6e2b5da786709f34dbd95e000",
+        "en"
+      ],
+      [
+        "5b22a5d5209c22ae50fb8e83bacd02a4fbbdabd6e2b5da786709f34dbd95e000",
+        "es-419"
+      ],
+      [
+        "5b22a5d5209c22ae50fb8e83bacd02a4fbbdabd6e2b5da786709f34dbd95e000",
+        "zh-Hans"
+      ],
+      [
+        "63e37f314c06be382adf2a0be73ac443f0d506fa129e844b7dadac826b1edc1b",
+        "en"
+      ],
+      [
+        "63e37f314c06be382adf2a0be73ac443f0d506fa129e844b7dadac826b1edc1b",
+        "zh-Hans"
+      ],
+      [
+        "779512c237ba6432dc1dc9985e4156da12f01444d5af6ea1191a027e4165b13a",
+        "en"
+      ],
+      [
+        "779512c237ba6432dc1dc9985e4156da12f01444d5af6ea1191a027e4165b13a",
+        "zh-Hans"
+      ],
+      [
+        "7ef8c60c0922d94ba47e9df29b140be89b3571b7e0ce701b1e933342cc209237",
+        "en"
+      ],
+      [
+        "7ef8c60c0922d94ba47e9df29b140be89b3571b7e0ce701b1e933342cc209237",
+        "zh-Hans"
+      ],
+      [
+        "83854df7d985f2f500100c2347df5d8c0902c890013303f715694af86faf6786",
+        "en"
+      ],
+      [
+        "83854df7d985f2f500100c2347df5d8c0902c890013303f715694af86faf6786",
+        "zh-Hans"
+      ],
+      [
+        "9c44417deacf9644ceb6fd2bdd18c00245c95e2dfd74bff4a3ed1470efe50d38",
+        "en"
+      ],
+      [
+        "9c44417deacf9644ceb6fd2bdd18c00245c95e2dfd74bff4a3ed1470efe50d38",
+        "zh-Hans"
+      ],
+      [
+        "a0f983eb680a91cc966109646e7d7a2ea23bef53ceebb9231865aa1115936ce4",
+        "en"
+      ],
+      [
+        "a0f983eb680a91cc966109646e7d7a2ea23bef53ceebb9231865aa1115936ce4",
+        "zh-Hans"
+      ],
+      [
+        "a4561e059092f33d1cda919f1f06dc6631da303fc0c88b3578f603068633c954",
+        "en"
+      ],
+      [
+        "a4561e059092f33d1cda919f1f06dc6631da303fc0c88b3578f603068633c954",
+        "zh-Hans"
+      ],
+      [
+        "b3c1d049087ae863236f8b6b8be099a722849341a591514422134cc87ca73976",
+        "en"
+      ],
+      [
+        "b3c1d049087ae863236f8b6b8be099a722849341a591514422134cc87ca73976",
+        "zh-Hans"
+      ],
+      [
+        "b86063b0ba743288d3d022d07211774ec5fc4f748df6a59ebbbd40b2f23804e0",
+        "en"
+      ],
+      [
+        "c3589c30e7e133d26a03881454b8d15d6848e15a5a6b25d1f205bb74c941ec80",
+        "en"
+      ],
+      [
+        "c3589c30e7e133d26a03881454b8d15d6848e15a5a6b25d1f205bb74c941ec80",
+        "zh-Hans"
+      ],
+      [
+        "f330079e226c9792cfae176ac045c6525b0422f2fbfaf5bb775d87d7fcfb52aa",
+        "en"
+      ],
+      [
+        "f330079e226c9792cfae176ac045c6525b0422f2fbfaf5bb775d87d7fcfb52aa",
+        "zh-Hans"
+      ],
+      [
+        "fcb8ee02654ebfea76ad634848c0d8373211b3b5a35c8b38889c66bebe8a685c",
+        "en"
+      ],
+      [
+        "fcb8ee02654ebfea76ad634848c0d8373211b3b5a35c8b38889c66bebe8a685c",
+        "zh-Hans"
+      ]
+    ],
+    "pair_assessments": [
+      {
+        "id": "f330079e226c9792cfae176ac045c6525b0422f2fbfaf5bb775d87d7fcfb52aa",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('The sign shown is normally placed 150 m before the hill crest.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "f330079e226c9792cfae176ac045c6525b0422f2fbfaf5bb775d87d7fcfb52aa",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('图示标志通常设置在坡顶前150米处。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "83854df7d985f2f500100c2347df5d8c0902c890013303f715694af86faf6786",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('The sign shown warns of a hill crest.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "83854df7d985f2f500100c2347df5d8c0902c890013303f715694af86faf6786",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('图示标志预告前方有坡顶。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "4d3589e68b249f6d05ce0a9a0b1ca99683141823fcf4a25f16acb57d5c8bc4bf",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('Overtaking is prohibited on hill crests on two-lane, two-way roads.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "4d3589e68b249f6d05ce0a9a0b1ca99683141823fcf4a25f16acb57d5c8bc4bf",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在双向两车道道路的坡顶处禁止超车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "7ef8c60c0922d94ba47e9df29b140be89b3571b7e0ce701b1e933342cc209237",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('Overtaking is prohibited on hill crests on one-way roads.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "7ef8c60c0922d94ba47e9df29b140be89b3571b7e0ce701b1e933342cc209237",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在单行道的坡顶处禁止超车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "2a60f9363abb19d4e31d871fd804740ef75cf2306fa5375e0ecb532e0943fc3a",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('One may not overtake on hill crests on two-lane one-way roads.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "2a60f9363abb19d4e31d871fd804740ef75cf2306fa5375e0ecb532e0943fc3a",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在两车道单行道的坡顶处不得超车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "9c44417deacf9644ceb6fd2bdd18c00245c95e2dfd74bff4a3ed1470efe50d38",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('On one-way roads, overtaking may be performed even at a hill crest.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "9c44417deacf9644ceb6fd2bdd18c00245c95e2dfd74bff4a3ed1470efe50d38",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在单行道上，即使在坡顶处也可以超车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "0e6ccd6efbc9cfb13022f89d529163200a6cf6275cd16bee1a7f32a82f8112ab",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('On roads with two separate carriageways, overtaking may be performed even at a hill crest.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "0e6ccd6efbc9cfb13022f89d529163200a6cf6275cd16bee1a7f32a82f8112ab",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在设有两条分隔车行道的道路上，即使在坡顶处也可以超车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "63e37f314c06be382adf2a0be73ac443f0d506fa129e844b7dadac826b1edc1b",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('At a hill crest, overtaking may be performed on the downhill section unless otherwise signposted.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "63e37f314c06be382adf2a0be73ac443f0d506fa129e844b7dadac826b1edc1b",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在坡顶路段，除非另有标志规定，可以在下坡部分超车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "fcb8ee02654ebfea76ad634848c0d8373211b3b5a35c8b38889c66bebe8a685c",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('At a hill crest, overtaking may always be performed on the uphill section.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "fcb8ee02654ebfea76ad634848c0d8373211b3b5a35c8b38889c66bebe8a685c",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在坡顶路段，始终可以在上坡部分超车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "a4561e059092f33d1cda919f1f06dc6631da303fc0c88b3578f603068633c954",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('Overtaking is prohibited on a bend or hill crest on one-way roads.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "a4561e059092f33d1cda919f1f06dc6631da303fc0c88b3578f603068633c954",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在单行道的弯道或坡顶处禁止超车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "3b60d281d3098c21944bc4f004577dff007fa49a19347ff488e95fb0f2ceae16",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('Stopping a vehicle is always prohibited on bends and hill crests.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "3b60d281d3098c21944bc4f004577dff007fa49a19347ff488e95fb0f2ceae16",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在弯道和坡顶处始终禁止车辆临时停车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "779512c237ba6432dc1dc9985e4156da12f01444d5af6ea1191a027e4165b13a",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('A vehicle may stop on hill crests.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "779512c237ba6432dc1dc9985e4156da12f01444d5af6ea1191a027e4165b13a",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('车辆可以在坡顶上临时停车。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "28b3da5bc6fa130a83c21c584f614d504d310a44680cd208e2b5b2ae8acccf52",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('On a two-lane, two-way road, mopeds must travel as close as possible to the right edge when going over a hill crest.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "28b3da5bc6fa130a83c21c584f614d504d310a44680cd208e2b5b2ae8acccf52",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在双向两车道道路上，轻便摩托车通过坡顶时必须尽量靠近道路右边缘。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "2a3ebfa5890f8be383e9b6c05a2aeb453e260ab8120e03d680219c4edd3a6446",
+        "language": "en",
+        "result": "accepted",
+        "finding": "'A series of hill crests' is faithful to 'una serie di dossi' and no longer reads as speed humps (revised from 'a series of humps' after first review)."
+      },
+      {
+        "id": "2a3ebfa5890f8be383e9b6c05a2aeb453e260ab8120e03d680219c4edd3a6446",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "一连串坡顶 is faithful and natural (revised from 一系列凸起路段 after first review)."
+      },
+      {
+        "id": "5b22a5d5209c22ae50fb8e83bacd02a4fbbdabd6e2b5da786709f34dbd95e000",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('The sign shown warns of a hill crest'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "5b22a5d5209c22ae50fb8e83bacd02a4fbbdabd6e2b5da786709f34dbd95e000",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('图中所示标志预告前方有坡顶'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "5b22a5d5209c22ae50fb8e83bacd02a4fbbdabd6e2b5da786709f34dbd95e000",
+        "language": "es-419",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('La señal mostrada advierte de un cambio de rasante'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "b86063b0ba743288d3d022d07211774ec5fc4f748df6a59ebbbd40b2f23804e0",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('The sign shown warns of a dip or a hill crest'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "25ed681bf2cc17fd921ba016b3ccae1f0239c2aa89917e6df5e0b37e311dfe3a",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('The sign shown is normally placed 150 metres before a hill crest'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "25ed681bf2cc17fd921ba016b3ccae1f0239c2aa89917e6df5e0b37e311dfe3a",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('图中所示标志通常设在坡顶前150米处'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "25ed681bf2cc17fd921ba016b3ccae1f0239c2aa89917e6df5e0b37e311dfe3a",
+        "language": "es-419",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('La señal mostrada normalmente se coloca 150 metros antes de un cambio de rasante'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "08691cc384b47e624f80174a633363a40585a20522c3a6fd9495415376e94499",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('On a one-way road with the road markings shown in the figure, overtaking is permitted near or at hill crests'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "08691cc384b47e624f80174a633363a40585a20522c3a6fd9495415376e94499",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('在如图所示标线的单行道上，允许在坡顶附近或坡顶处超车'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "0179cd0456d032a37d749e63ae63511f088dfc99468d9d12ba4af0e2633c1012",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('The broken white line shown in the figure, on one-way roads, is placed on hill crests to divide the two directions of travel'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "0179cd0456d032a37d749e63ae63511f088dfc99468d9d12ba4af0e2633c1012",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('图中所示的白色虚线在单行道上设置于坡顶处，用于分隔两个行驶方向'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "a0f983eb680a91cc966109646e7d7a2ea23bef53ceebb9231865aa1115936ce4",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('Danger warning is prohibited on hill crests.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "a0f983eb680a91cc966109646e7d7a2ea23bef53ceebb9231865aa1115936ce4",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('坡顶处禁止发出危险警示。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "c3589c30e7e133d26a03881454b8d15d6848e15a5a6b25d1f205bb74c941ec80",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('A bend, a hill crest, an intersection and similar features can cause danger.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "c3589c30e7e133d26a03881454b8d15d6848e15a5a6b25d1f205bb74c941ec80",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('弯道、坡顶、交叉路口等可能造成危险。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "2e6dc7f1f6eb9c4ad881b58b58ae4c9ae68174258fba98bd1d71d92833d7476a",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('CDC continuous damping control continually adjusts shock absorbers to ensure stability and limit bouncing under braking, on bends, over humps, and so on.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "2e6dc7f1f6eb9c4ad881b58b58ae4c9ae68174258fba98bd1d71d92833d7476a",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('CDC连续减振控制系统持续调节减振器，确保车辆稳定并限制制动、转弯、经过凸起路面等情况下的颠簸。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "b3c1d049087ae863236f8b6b8be099a722849341a591514422134cc87ca73976",
+        "language": "en",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('Using the stationary-vehicle warning sign to warn of danger is prohibited on hill crests.'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "b3c1d049087ae863236f8b6b8be099a722849341a591514422134cc87ca73976",
+        "language": "zh-Hans",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('禁止在坡顶处使用故障车辆警告标志警示危险。'); scope, negation, numbers and verdict unchanged."
+      },
+      {
+        "id": "1ad50e460a1d9951b4c36c490cd3ea48febe8e9f817ed91c65d04fe5475ab489",
+        "language": "es-419",
+        "result": "accepted",
+        "finding": "Plain dosso rendered as a crest term ('Está prohibido detenerse en los cambios de rasante'); scope, negation, numbers and verdict unchanged."
+      }
+    ],
+    "issues": [],
+    "source_checks": [
+      "Every Italian statement re-read: all 24 use plain dosso/dossi, none says artificiale.",
+      "First pass returned needs_changes for the una serie di dossi row (en, zh-Hans); the revised wording was re-reviewed and accepted."
+    ],
+    "assessment": "All 48 pairs replace a speed-bump rendering of plain dosso with a crest term while keeping each quiz claim, negation, numbers and road types unchanged."
+  }
+}

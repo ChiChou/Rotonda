@@ -1,0 +1,31 @@
+{
+  "batch": "154",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "5a4151437e9bf6f279fc4cc45b641ccb8cbd28fec28acc175dfe10ee01e7bd02",
+  "source_sha256": "8595ffd68b355ef134c65bccb6abaefa286cc083612579dd39ff59b4052d8a32",
+  "corrections": [
+    {
+      "id": "cb45ca5c5be3024778cb6efcce5d35df5fd987d71ce1de965a97ccee68e98eab",
+      "before": "Los vehículos cisterna están sujetos al movimiento lateral del líquido transportado durante cambios bruscos de trayectoria",
+      "after": "Los vehículos cisterna están sujetos a la agitación lateral del líquido transportado durante cambios bruscos de trayectoria",
+      "reason": "Sbattimento indica agitación o vaivén del líquido, no cualquier movimiento."
+    },
+    {
+      "id": "cb7f393ff5a7cc3a9f346689da2e1b19f8c64922fcf5effb82142059f2b499f4",
+      "before": "La señal mostrada permite detener vehículos sobre el cruce peatonal siempre que quede espacio suficiente para los peatones",
+      "after": "La señal mostrada permite la parada de vehículos sobre el cruce peatonal siempre que quede espacio suficiente para los peatones",
+      "reason": "Fermata designa la parada temporal."
+    }
+  ],
+  "reviewed_file_sha256": "3beecc68b0119da3fe4d77f5606853c157e7696a99af5417a886c24b09903dd1"
+}

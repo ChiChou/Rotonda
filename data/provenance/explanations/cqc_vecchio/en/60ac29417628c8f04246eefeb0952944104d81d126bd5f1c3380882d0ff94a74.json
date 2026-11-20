@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed5e-ff21-7440-8017-bf1fe9ea50b1"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 15199,
+          "quesito_id": 3219,
+          "text_it": "La massa del veicolo in ordine di marcia è pari alla massa a vuoto del veicolo, più il peso del conducente, più il peso del carburante con il serbatoio pieno al novanta per cento.",
+          "answer": 1,
+          "page": 17,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "048526f4f783886e034ab986b8cda7f461caf33a6b9edfe4668624f90d63500b",
+        "italian": "La massa in ordine di marcia comprende il veicolo con conducente, liquidi e carburante, con serbatoio almeno al 90%. La formula del quiz è sintetica: comprende anche le dotazioni standard previste.",
+        "italian_sha256": "5e5ae0a20dedba81f0b976860e3889493dfc7c2c6a896788b1fa8ccc704632af"
+      },
+      {
+        "source": {
+          "number": 15200,
+          "quesito_id": 3219,
+          "text_it": "La massa complessiva a pieno carico coincide con la massa del veicolo in ordine di marcia",
+          "answer": 0,
+          "page": 17,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5fc524c107feaae9f06c2f092ceaf206b4fe3ca38cde8abe773c6d0c40d0444a",
+        "italian": "La massa a pieno carico include il carico ammesso; quella in ordine di marcia descrive invece il veicolo con conducente e dotazioni previste, prima del carico utile.",
+        "italian_sha256": "2a59f792719dd3cfd5c482f5b086d0bc1744e7a525eb75b52bb516bba5d1948b"
+      },
+      {
+        "source": {
+          "number": 15205,
+          "quesito_id": 3219,
+          "text_it": "Il carico utile di un veicolo corrisponde alla sua massa in ordine di marcia",
+          "answer": 0,
+          "page": 17,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3ceade04a6f71c2bd7c9d718896d906caef6a4c4b6c03567b4308fad3e9e49dc",
+        "italian": "Il carico utile non è la massa del veicolo in ordine di marcia: è la massa disponibile per il carico, tenendo conto degli altri elementi previsti.",
+        "italian_sha256": "1b11ffacd84771aa372a438d069f6fb4955c3ef8ed65017f0a2db36997e272b8"
+      },
+      {
+        "source": {
+          "number": 15206,
+          "quesito_id": 3219,
+          "text_it": "Il carico utile è pari al peso della carrozzeria",
+          "answer": 0,
+          "page": 17,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cecb755dafcb9d11a5c63a7923943bafae82a9e8987ac8ac329f0399a0e1b901",
+        "italian": "Il carico utile non è il peso della carrozzeria: è la portata, cioè la differenza tra la massa complessiva ammessa e la tara del veicolo.",
+        "italian_sha256": "2f209b387091556e75bc52c268edf26a2dbcf96fdc0c16c36475ea9e4719e83e"
+      },
+      {
+        "source": {
+          "number": 15207,
+          "quesito_id": 3220,
+          "text_it": "La capacità di carico di una cisterna per merci non pericolose dipende dalla percentuale di vuoto ammesso",
+          "answer": 1,
+          "page": 17,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b8a9543ffe5842bb3b78888d119254526731db32ceede95ad34afc2df72d8f01",
+        "italian": "La quota di vuoto da rispettare limita il volume della cisterna che può essere occupato dal liquido e quindi la quantità caricabile.",
+        "italian_sha256": "fc60047814156bd714062282ac82b2aaf41dff8c1ff41d96a253575b20d00d5c"
+      },
+      {
+        "source": {
+          "number": 15208,
+          "quesito_id": 3220,
+          "text_it": "La capacità di carico di una autocisterna per merci non pericolose dipende dal peso specifico del liquido e dalla percentuale di vuoto ammesso",
+          "answer": 1,
+          "page": 17,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f70e65d7aa50b4e00e6871d1b26d72889fec52e834d9e06442328ae368ee9599",
+        "italian": "Il vuoto ammesso limita il volume riempibile; il peso specifico determina la massa del liquido in quel volume, da mantenere entro la portata del veicolo.",
+        "italian_sha256": "1c6cead638ad41c61b0c73cfbfdc1da752088917719c76961ef22e651af5e520"
+      },
+      {
+        "source": {
+          "number": 15209,
+          "quesito_id": 3220,
+          "text_it": "La capacità di carico di una cisterna per merci non pericolose dipende dalle prescrizioni delle norme ADR",
+          "answer": 0,
+          "page": 17,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "561b1e5e85f773c616f537232844ba92fb1902ed2b521ee2c08738cee8370bc4",
+        "italian": "L'ADR disciplina il trasporto di merci pericolose, non determina la capacità di carico di una cisterna adibita a merci non pericolose. Contano invece il volume utilizzabile e la portata del veicolo.",
+        "italian_sha256": "9ce66c4540ae0cac2865b97ba4b9d730aa88aaced790450c1b97c50710f315bc"
+      },
+      {
+        "source": {
+          "number": 15210,
+          "quesito_id": 3220,
+          "text_it": "La capacità di carico di una cisterna per merci non pericolose dipende dalla tipologia dell’impianto frenante",
+          "answer": 0,
+          "page": 17,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9f0234fbcbf4e6706b17e84a3d9749537e15d0cedeb3d9b5a89a8a265fe1647e",
+        "italian": "Il tipo di impianto frenante non determina la quantità caricabile nella cisterna: si considerano il volume utilizzabile, il peso specifico del liquido e la portata del veicolo.",
+        "italian_sha256": "ccc6d43b3914d8ec9916a04879a5710595bf40cd2f8fc617b1fb225c5e8d4c07"
+      },
+      {
+        "source": {
+          "number": 15215,
+          "quesito_id": 3222,
+          "text_it": "E’ prevista una sanzione amministrativa pecuniaria se la massa totale a pieno carico del veicolo è superiore di oltre il 5% rispetto a quella indicata sulla carta di circolazione",
+          "answer": 1,
+          "page": 18,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e73368232adc299670a655e950cc59c3aec4dd78399d5970a7dea8e733113c56",
+        "italian": "Nel trasporto di cose, superare di oltre il 5% la massa indicata nel documento di circolazione comporta una sanzione amministrativa. La tolleranza riguarda l'accertamento: non autorizza a caricare oltre la massa ammessa.",
+        "italian_sha256": "234323b1a5f29a486c31a99dc4f03cdde96c57cb6e63d7b5a5dcedc3a2781c30"
+      },
+      {
+        "source": {
+          "number": 15244,
+          "quesito_id": 3226,
+          "text_it": "Non è ammessa alcuna tolleranza di sovraccarico per il trasporto di bombole di gas GPL",
+          "answer": 1,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f405190adc97bf09babc477b0061af93fb4fda7cb281e017a17de75e0099d218",
+        "italian": "Il GPL in bombole è merce pericolosa: per il veicolo adibito al suo trasporto il superamento della massa indicata nel documento è sanzionato senza la tolleranza ordinaria del 5%.",
+        "italian_sha256": "a04df4eb827cd796aaef1af5fc2d3114a83a113f5c3f7aa630b066ee439e921e"
+      },
+      {
+        "source": {
+          "number": 15245,
+          "quesito_id": 3226,
+          "text_it": "Non è ammessa alcuna tolleranza di sovraccarico per il trasporto di acido cloridrico",
+          "answer": 1,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c0b2d1975b3f91e833e7a0a616d252f9406b46db2f1de0c362f390c67e1b6b5d",
+        "italian": "L'acido cloridrico è una merce pericolosa: per il veicolo adibito al suo trasporto il superamento della massa indicata nel documento è sanzionato senza la tolleranza ordinaria del 5%.",
+        "italian_sha256": "01ae5506b8033b1e384cf019895361580acab971797fba971eaaea560c9ec74f"
+      },
+      {
+        "source": {
+          "number": 15246,
+          "quesito_id": 3226,
+          "text_it": "E’ ammessa la tolleranza di sovraccarico del 5% della massa complessiva a pieno carico del veicolo, tranne che per il trasporto delle merci pericolose",
+          "answer": 1,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b69ce2cb30ae3d3ec770e3039d869696cef02a989850953671c0b593bb3ead2c",
+        "italian": "Nel trasporto ordinario di cose la tolleranza del 5% opera nell'accertamento della massa, ma non autorizza il sovraccarico. Per i veicoli adibiti al trasporto di merci pericolose si applica la disciplina più rigorosa dell'articolo 168.",
+        "italian_sha256": "9c6f6c57cd596ee3d23bb55f26a8024176134c83dd7991cb2fc5a6ec18344ae7"
+      },
+      {
+        "source": {
+          "number": 15247,
+          "quesito_id": 3226,
+          "text_it": "E’ ammessa la tolleranza di sovraccarico per il trasporto delle merci pericolose purchè nel limite del 5% della massa complessiva a pieno carico del veicolo",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7e973ecf7021bdb4ba2a9d1f8d9ded00bc87cdc20cd9c0527d408af3607654b1",
+        "italian": "Non basta rimanere entro il 5%: per un veicolo adibito al trasporto di merci pericolose è sanzionato già il superamento della massa indicata nel documento di circolazione.",
+        "italian_sha256": "c4eda705ee2eb7598c0758df3507ad9a171eaea596420ab41aaaa821900fd403"
+      },
+      {
+        "source": {
+          "number": 15248,
+          "quesito_id": 3226,
+          "text_it": "Per un autocarro mezzo d’opera non è consentito un sovraccarico del 3% della sua massa complessiva a pieno carico",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ef0d27b77ac2d8f6fd17cda0090a4dc8081730763e6e77b44f7da05d788cf3d8",
+        "italian": "Il quesito considera falso che un'eccedenza del 3% sia automaticamente sanzionabile: nella verifica della massa si applicano le tolleranze previste dalla disciplina pertinente. La tolleranza non autorizza a caricare oltre il limite.",
+        "italian_sha256": "730615566bf81d90290320d20417b9e2289201c0970e088f7de274238f3eeeb3"
+      },
+      {
+        "source": {
+          "number": 15249,
+          "quesito_id": 3226,
+          "text_it": "La tolleranza relativa al carico per un mezzo che effettua un trasporto eccezionale è pari al 5%",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6db712bea9ef793b2da7463ebef3daacd13ace64512e8c3c2982addf52d33084",
+        "italian": "Il verdetto ufficiale è FALSO, ma il quesito è ambiguo: per i trasporti eccezionali la tolleranza va riferita al limite e alla violazione considerati; l'articolo 10 prevede anche una tolleranza del 5% per la massa. Non si può dedurre una percentuale unica per ogni misura del carico.",
+        "italian_sha256": "cadc820393481ab56ff6735fc4b93ffd0fd7a16a3b31276c508d08257a3d7729"
+      },
+      {
+        "source": {
+          "number": 15250,
+          "quesito_id": 3226,
+          "text_it": "E’ ammessa la tolleranza di sovraccarico del 5% del peso complessivo a pieno carico ammissibile del veicolo per il trasporto dei rifiuti solidi urbani",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "67288254983e7c410402d2557d64b3f0ecf79791b11dfab3f6a473e9a62affb3",
+        "italian": "Il verdetto ufficiale è FALSO, ma richiede cautela: un successivo chiarimento ministeriale, rispondendo a un caso di rifiuti urbani, richiama la tolleranza ordinaria del 5% nell'accertamento. Questa non rende comunque regolare il sovraccarico.",
+        "italian_sha256": "34b085a05cfa16d4fdbba4a6a5d8e2224a177e9c96bbe6e6e40044c447a90f9b"
+      },
+      {
+        "source": {
+          "number": 15251,
+          "quesito_id": 3226,
+          "text_it": "E’ ammessa la tolleranza di sovraccarico per il trasporto di benzina purché nel limite del 5% della massa complessiva a pieno carico ammissibile del veicolo",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "55dff7f6ffc15828ebd4598574e944940d1001b5c871186f0f3831597be1417f",
+        "italian": "La benzina è merce pericolosa: non si applica la tolleranza ordinaria del 5% al veicolo adibito al suo trasporto; il superamento della massa indicata è sanzionato.",
+        "italian_sha256": "141e7285b2ff68f5faee116774080c0d9bcdd94808d98eedb6d63fae11e0d151"
+      },
+      {
+        "source": {
+          "number": 15252,
+          "quesito_id": 3227,
+          "text_it": "Ai fini della sicurezza occorre ripartire correttamente il carico per evitare il sovraccarico sugli assi",
+          "answer": 1,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "58c7d104dd7e97b4f7ba4214fd9e035fb97ac8efda864e42235e415f379a47b2",
+        "italian": "Il carico va distribuito in modo da rispettare le masse ammesse su ciascun asse, oltre al limite complessivo del veicolo.",
+        "italian_sha256": "425aa57793de31471d150a4803c472ca946f14b6e88afdd8c559d1fb29b8de25"
+      },
+      {
+        "source": {
+          "number": 15254,
+          "quesito_id": 3227,
+          "text_it": "Ai fini della sicurezza non si deve concentrare il carico sullo sbalzo posteriore del veicolo",
+          "answer": 1,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8e59095c51dbf0e8c6d69b6b89fb862c2d9086b53f734bed713bcd4641d4aef2",
+        "italian": "Concentrare il carico sullo sbalzo posteriore può sovraccaricare l'asse posteriore e alleggerire quello anteriore. Occorre distribuirlo rispettando i carichi sugli assi.",
+        "italian_sha256": "517290a568cc478b5fdbb09e5231e899ca03f378db7fd95a90118c49e6a05545"
+      },
+      {
+        "source": {
+          "number": 15255,
+          "quesito_id": 3227,
+          "text_it": "Ai fini della sicurezza bisogna evitare di agganciare un rimorchio alla motrice",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "aea7c247f8c768af5d67bda8d3bb8317ca5ff7e329ccfe6e1450aac129dd8a28",
+        "italian": "Non è necessario evitare sempre il rimorchio: può essere agganciato se il complesso è idoneo e la massa del rimorchio è compatibile con quella rimorchiabile della motrice.",
+        "italian_sha256": "94b6560f71a8ca9cded9c760dcf10ea9cdc2228d08f16ffe5800457253349206"
+      },
+      {
+        "source": {
+          "number": 15256,
+          "quesito_id": 3227,
+          "text_it": "Ai fini della sicurezza, il carico deve essere disposto verticalmente ed orizzontalmente",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4f3db3a67fd7e376181a817168b49b0b2c1e832b3c93a4718c6422abe93a16c1",
+        "italian": "Il verdetto è FALSO: la sola indicazione «verticalmente ed orizzontalmente» non stabilisce una sistemazione sicura. Il carico va invece distribuito e fissato tenendo conto della sua forma, dei limiti sugli assi e del rischio di spostamento. La formulazione del quesito è imprecisa.",
+        "italian_sha256": "f9371d4959af83853e0cfd00b54ca5a910645a8b0b5089fa17635ff551a6ec48"
+      },
+      {
+        "source": {
+          "number": 15257,
+          "quesito_id": 3228,
+          "text_it": "Innalzare il baricentro del veicolo ne favorisce il ribaltamento in curva",
+          "answer": 1,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b0e2af567923f953cb0d3e67e1a3ada327fa8de0428c8effc4cdda03f1feda0d",
+        "italian": "Un baricentro più alto aumenta il momento ribaltante dovuto alla forza laterale in curva e rende più probabile il ribaltamento.",
+        "italian_sha256": "49a08087c2a68b07ca885693c6b406eb3816f936ec72fc7774d1abc2cb4b4a6e"
+      },
+      {
+        "source": {
+          "number": 15258,
+          "quesito_id": 3228,
+          "text_it": "Innalzare il baricentro del veicolo può compromettere la stabilità di marcia",
+          "answer": 1,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "859f90abf72e8394909aa521b186abd1b587a85d0025fa9cc7dd721fc74371cc",
+        "italian": "Un baricentro più alto rende il veicolo più soggetto a inclinarsi e ribaltarsi nelle curve, compromettendo la stabilità.",
+        "italian_sha256": "b0cdeae4152019d63d32475321c6f55b978cc152c57e7c98fe044e22dd002503"
+      },
+      {
+        "source": {
+          "number": 15259,
+          "quesito_id": 3228,
+          "text_it": "Innalzare il baricentro del veicolo aumenta la stabilità di marcia",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "71c9de9644e41ae12cb60023b37f0e7aeded8ea806eef0d6c452d0c273dce638",
+        "italian": "Alzare il baricentro non aumenta la stabilità: accresce invece il rischio di ribaltamento in curva.",
+        "italian_sha256": "55e71599c97abddd37746a4234e8b3b72306be650ebb3fbf7882b70f52c06553"
+      },
+      {
+        "source": {
+          "number": 15260,
+          "quesito_id": 3228,
+          "text_it": "Innalzare il baricentro del veicolo diminuisce l’effetto della forza centrifuga",
+          "answer": 0,
+          "page": 19,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "699bcb010f79337b3be67ccdb81b9ebbea1e19e56a01be8c10cfc50b3801922b",
+        "italian": "Alzare il baricentro non diminuisce la forza centrifuga: a parità di massa, velocità e curva, aumenta il suo effetto ribaltante sul veicolo.",
+        "italian_sha256": "de93440b396937fb5b314ba09e7c12ee45e004b78f569f7070df2e216d5765dc"
+      },
+      {
+        "source": {
+          "number": 15278,
+          "quesito_id": 3232,
+          "text_it": "L’unità di carico può essere utilizzata per il trasporto intermodale delle merci",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "aed0521f876b2b5b7f05ec66637a5f784a7da6e2f69a65bc5ce5f61efd5ba519",
+        "italian": "Un'unità di carico idonea, come un container, può passare tra diversi modi di trasporto senza trasbordare ogni singola merce.",
+        "italian_sha256": "743840b91caf64fd686bfb745c0853b86bb74fc76d1fbaa09ebfaa33cc175040"
+      },
+      {
+        "source": {
+          "number": 15279,
+          "quesito_id": 3232,
+          "text_it": "L’unità di carico è una unità logistica per la movimentazione e lo stoccaggio delle merci",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f4562f8b8fbe1ca94edc3541135c986195f0f44db8d4dcf42d9ccae3f44b7b43",
+        "italian": "L'unità di carico raggruppa la merce in un insieme gestibile come un solo collo, facilitandone la movimentazione e lo stoccaggio.",
+        "italian_sha256": "1442478b5d079bf5897fce751240ff8f49997c053c59ff74e824cba765164b59"
+      },
+      {
+        "source": {
+          "number": 15280,
+          "quesito_id": 3232,
+          "text_it": "L’unità di carico può essere costituita da un container",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d0c024e32a1dc55dcf75b962598f7cbffa5c8f742bf95cd7d6ac48a671b27349",
+        "italian": "Un container può costituire un'unità di carico: contiene merci ed è progettato per essere movimentato e trasferito fra mezzi di trasporto.",
+        "italian_sha256": "9b857c93a5502aed7ad4809f940919d0c41ca38051867c2ca97e683aadddf6cb"
+      },
+      {
+        "source": {
+          "number": 15281,
+          "quesito_id": 3232,
+          "text_it": "L’unità di carico è a movimentazione manuale",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "467f9b03dffac1f5fceb6c152bcadc4c6bfff789a9ff71c2e0e0208f3f35696f",
+        "italian": "FALSO. Un’unità di carico non è necessariamente movimentata a mano: per esempio, i carichi su pallet possono essere movimentati con mezzi meccanici.",
+        "italian_sha256": "677f57c60e271ec9eaffc857dde3c5dc568a2f36d4e722a6639093aeda487ad0"
+      },
+      {
+        "source": {
+          "number": 15282,
+          "quesito_id": 3232,
+          "text_it": "L’unità di carico denominata pallet è un semirimorchio realizzato per il trasporto combinato strada-rotaia",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b52389e7757644a788362336108394837874d6708e737163272d0bcddb545c10",
+        "italian": "FALSO. Il pallet è una piattaforma sulla quale si raggruppano le merci; non è un semirimorchio.",
+        "italian_sha256": "4f6d7f4a76a1b5b74ee7a93ddfefa55ce2736bd2a398fa9b69671b1b8be967fe"
+      },
+      {
+        "source": {
+          "number": 15283,
+          "quesito_id": 3232,
+          "text_it": "L’unità di carico non può essere un semirimorchio",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "88b0ca2f92b17b15a26720bb5d2c4a7139fa97c2da30dee09a6d084b75f3d095",
+        "italian": "FALSO secondo il quiz: un semirimorchio idoneo può essere trasportato nell’intermodale. La terminologia UNECE distingue però le unità di carico, come container e casse mobili, dalle unità di trasporto intermodale, che comprendono anche i semirimorchi.",
+        "italian_sha256": "5a435bc37158a2347bc50520344022f2cdfa080a154605262dae2890513826a0"
+      },
+      {
+        "source": {
+          "number": 15284,
+          "quesito_id": 3232,
+          "text_it": "L’unità di carico è un sindacato che tutela gli interessi dei caricatori professionali",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4fea9eb8cc0ff04ce82552f0f981f59f42cd3da16283683bdb88fc1add3327fa",
+        "italian": "FALSO. L’unità di carico è un mezzo per contenere o raggruppare merci, per esempio un container; non è un sindacato.",
+        "italian_sha256": "a51b598f389c2a56fe1e3b6fae679d83ea3c54b13238b997d6df024dff30047d"
+      },
+      {
+        "source": {
+          "number": 15285,
+          "quesito_id": 3232,
+          "text_it": "L’unità di carico è il singolo lavoratore impegnato nel carico e scarico delle merci",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fc351f6ccc1950a6cb77cd8e1fb82761a2f62ea8926bde4443cfb96165d2de66",
+        "italian": "FALSO. L’unità di carico riguarda le merci e il loro contenimento, per esempio in un container; non è un lavoratore.",
+        "italian_sha256": "474ba0bc168b756ad1e97b1dc7953dd8a953782c04966274475cff7e537e4fd1"
+      },
+      {
+        "source": {
+          "number": 15286,
+          "quesito_id": 3233,
+          "text_it": "I container sono unità di carico usati nel traffico intermodale",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1dfd0cafe81cecdc76790b5715dda9338d221a53562de363e0de2d3599d639f3",
+        "italian": "VERO. Il container contiene la merce e può essere trasferito tra diversi modi di trasporto senza scaricarne il contenuto.",
+        "italian_sha256": "f43607b5c1fb0dd9c909ff9b4083826d4072f4be694e9a938ea0d71fb396ca11"
+      },
+      {
+        "source": {
+          "number": 15287,
+          "quesito_id": 3233,
+          "text_it": "Le casse mobili sono unità di carico utilizzati nel traffico intermodale",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ba8c56024448182363d04fab49461723c6b7efbc876801927892ea5e878ca764",
+        "italian": "VERO. La cassa mobile è un’unità di carico progettata per il trasporto intermodale, con una tratta stradale.",
+        "italian_sha256": "a45240a7d81809685a5e1ce0cb48c4fda6fa257b3cef21c9e19383a99f37160f"
+      },
+      {
+        "source": {
+          "number": 15288,
+          "quesito_id": 3233,
+          "text_it": "I container sono unità di carico",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d2ee70d79ce1ca7e2cf31a47c049606f5405bd3e1c997f5f888e937fefb5ad96",
+        "italian": "VERO. Il container è un’unità di carico destinata a contenere merci durante il trasporto.",
+        "italian_sha256": "2ea2f5af0d053341982ad96c1218522eab236096f01c897dc6c7afb75d13ab1e"
+      },
+      {
+        "source": {
+          "number": 15289,
+          "quesito_id": 3233,
+          "text_it": "Le casse mobili sono unità di carico",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5f3e7304776b589de532bfc50fab3dd9498694e86d9e8ecc94420b6c8aabe484",
+        "italian": "VERO. La cassa mobile è un’unità di carico separabile dal veicolo.",
+        "italian_sha256": "0ac989c840e5201bbacceaf65179eff52334bcca07b912e311c06c2835ec284b"
+      },
+      {
+        "source": {
+          "number": 15290,
+          "quesito_id": 3233,
+          "text_it": "Gli autocarri con centine e telone sono unità di carico nel traffico intermodale",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8acbedee5e111d0d472de5877a9ac9e1b6ce01ed892e8fa5567749cc827203b7",
+        "italian": "FALSO secondo il quiz: centine e telone descrivono la carrozzeria di un autocarro, non un container o una cassa mobile. La terminologia UNECE considera però anche un autocarro idoneo un’unità di trasporto intermodale: il termine «unità di carico» è qui ambiguo.",
+        "italian_sha256": "cd905edd4ec9241d0ad95f9c6ecca6a81b9d6accce546d03caf7c776906104fd"
+      },
+      {
+        "source": {
+          "number": 15291,
+          "quesito_id": 3233,
+          "text_it": "Le navi porta container sono unità di carico nel traffico intermodale",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "73ff7f304682c8de7a5191970c89ed0dc3800e1546bf823391753035e811c00f",
+        "italian": "FALSO. La nave portacontainer è il mezzo che trasporta i container; le unità di carico sono i container stessi.",
+        "italian_sha256": "b8b376c9d7ad5f9ebd400b537ad186cd91e7dff618f174a28b8ab5d47af20ece"
+      },
+      {
+        "source": {
+          "number": 15292,
+          "quesito_id": 3233,
+          "text_it": "I cunei di stazionamento sono da considerarsi unità di carico",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "463594eebcfd36bf3a9ac26c1182c1e14cd58e0c3f4832c43501d7013e127ff4",
+        "italian": "FALSO. I cunei servono a impedire il movimento del veicolo in sosta; non contengono merci come un’unità di carico.",
+        "italian_sha256": "d8101ade9d06bb0e269d4e370f9906cc806e62c446fcd52072dc1011370ae863"
+      },
+      {
+        "source": {
+          "number": 15293,
+          "quesito_id": 3233,
+          "text_it": "Le rampe di carico si considerano unità di carico",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "70d8070cf831fe6f23f87826d97860c3c3c3376e843c7b8fb88b27da150dbb9a",
+        "italian": "FALSO. Una rampa facilita il carico e lo scarico; non è un’unità che contiene le merci durante il trasporto.",
+        "italian_sha256": "94248dd9f39aceae5747bd8c8498c07a875581c1d087a84f00d9a8ee2a0bcb2d"
+      },
+      {
+        "source": {
+          "number": 15294,
+          "quesito_id": 3234,
+          "text_it": "I container e le casse mobili hanno dimensioni e caratteristiche unificate su base internazionale",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ca26014fce9f9782d1e69f5f718acc65b002339c20ca80eae3063560c04bead7",
+        "italian": "VERO nel senso che esistono dimensioni e caratteristiche normalizzate per agevolare l’intermodalità. La normalizzazione delle casse mobili è soprattutto europea, mentre per i container esistono standard ISO internazionali.",
+        "italian_sha256": "0b0b72be7942a0f07078329acf28240116f1bd82bd932395377772349240ea73"
+      },
+      {
+        "source": {
+          "number": 15296,
+          "quesito_id": 3234,
+          "text_it": "I container e le casse mobili trovano largo impiego nei trasporti combinati",
+          "answer": 1,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "861c512e6401d20528cb087e30d90d12d764b805e50fb377fa497873da782050",
+        "italian": "VERO. Container e casse mobili permettono di trasferire la stessa unità tra la strada e un altro modo di trasporto, come la ferrovia.",
+        "italian_sha256": "8ed39269efbbd2a924406435eba1d46dc86005e4bd44949d7fc79ea708d7c200"
+      },
+      {
+        "source": {
+          "number": 15297,
+          "quesito_id": 3234,
+          "text_it": "I container e le casse mobili hanno dimensioni e caratteristiche stabilite da ogni azienda di trasporto",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "64144c5af77eb64cd1368a29c9c3cd6959843674fb8dd0c578dfab6b46fed125",
+        "italian": "FALSO. Le dimensioni non sono lasciate semplicemente alla scelta di ogni azienda: esistono misure e caratteristiche normalizzate che facilitano l’intermodalità.",
+        "italian_sha256": "a0d34df5a4462d29fa00c2f18ec271b300c943f5b76ab772a1de6ba2ac2f16de"
+      },
+      {
+        "source": {
+          "number": 15298,
+          "quesito_id": 3234,
+          "text_it": "I container e le casse mobili non hanno dimensioni standard",
+          "answer": 0,
+          "page": 20,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0951b1a65f7a010fe4a7a847ab5e1114e1f6cddd8a0b8477fcff0b66f78e3426",
+        "italian": "FALSO. Esistono dimensioni standard, anche se possono esserci tipi e misure diversi.",
+        "italian_sha256": "215519a40af05218d02fef795d93cabb1beaa714fdb068f7d5a67a8454b14183"
+      },
+      {
+        "source": {
+          "number": 15299,
+          "quesito_id": 3234,
+          "text_it": "I container e le casse mobili sono trasportati esclusivamente con veicoli stradali",
+          "answer": 0,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1fe2200a12fa6acd41703c74ae0194940ec4c5524fb01db7a038fd4cd7719fd4",
+        "italian": "FALSO. Non sono trasportati solo su strada: possono viaggiare anche su ferrovia o nave, oltre che su veicoli stradali.",
+        "italian_sha256": "c8d58424edccdbf495f2e1dd2aecd77b713f9e444e1158d8bc0fa1dfa7722a12"
+      },
+      {
+        "source": {
+          "number": 15300,
+          "quesito_id": 3235,
+          "text_it": "Per effettuare trasporti combinati si possono utilizzare container",
+          "answer": 1,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "adce469b799f08ee8327a5846040c48de60280b921d23750f97ae362d63f8932",
+        "italian": "VERO. Il container può essere impiegato nel trasporto combinato passando dalla strada a un altro modo di trasporto.",
+        "italian_sha256": "b039217fdda2f904ec11e97fb6198c25603d358d63b30faecfd616944c786c62"
+      },
+      {
+        "source": {
+          "number": 15301,
+          "quesito_id": 3235,
+          "text_it": "Per effettuare trasporti combinati si possono utilizzare casse mobili",
+          "answer": 1,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "724d8ca6d2de88b01b0c2eaca71d3b3ef057cd500bd3acba2d70b4b6a77fe405",
+        "italian": "VERO. La cassa mobile può essere utilizzata nel trasporto combinato, per esempio tra strada e ferrovia.",
+        "italian_sha256": "c1f99fc1c365e7a90fd361d4449cdbedad5131020fa604654c6cb63759036fbc"
+      },
+      {
+        "source": {
+          "number": 15302,
+          "quesito_id": 3235,
+          "text_it": "Per effettuare trasporti combinati si utilizzano unità di carico",
+          "answer": 1,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "202ba0b3de63ea187b6f727649d534fc499ca411b9eadcaef913c7c81cce829b",
+        "italian": "VERO. Nel trasporto combinato si possono usare unità come container e casse mobili, trasferite tra modi diversi senza scaricare la merce.",
+        "italian_sha256": "36291ca7bdda4004f238b5c08c178b0fb07e6b79b51c0d5adffb679b9e625708"
+      },
+      {
+        "source": {
+          "number": 15303,
+          "quesito_id": 3235,
+          "text_it": "Per effettuare trasporti combinati è obbligatorio utilizzare autoveicoli muniti di gru o sponda montacarichi",
+          "answer": 0,
+          "page": 21,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "159e44e133dbdeaaff50ad2b73a946d8209c15f1a5aee8b4d0bad880835ed667",
+        "italian": "FALSO. Non è obbligatorio che l’autoveicolo abbia una gru o una sponda montacarichi: nel combinato si possono trasferire container o casse mobili usando le attrezzature del terminale.",
+        "italian_sha256": "a05feaa6d4ef1d9475e491b834f972809dc01a7598bc07372401626c7720adc8"
+      }
+    ],
+    "task_sha256": "b2e39a61260bb171b62134439920f5f79400847f45b9929b07e76e6f27f079bd"
+  },
+  "rows": [
+    {
+      "number": 15199,
+      "text": "Mass in running order includes the vehicle with the driver, fluids and fuel, with the tank at least 90% full. The quiz formula is abbreviated: it also includes the specified standard equipment."
+    },
+    {
+      "number": 15200,
+      "text": "Fully laden mass includes the permitted load; mass in running order describes the vehicle with the driver and specified equipment, before the payload is added."
+    },
+    {
+      "number": 15205,
+      "text": "The payload is not the vehicle's mass in running order: it is the mass available for the load, taking into account the other specified items."
+    },
+    {
+      "number": 15206,
+      "text": "The payload is not the weight of the bodywork: it is the load capacity, or the difference between the permitted maximum mass and the vehicle's unladen mass."
+    },
+    {
+      "number": 15207,
+      "text": "The required empty space limits the volume of the tank that can be occupied by liquid and therefore the amount that can be loaded."
+    },
+    {
+      "number": 15208,
+      "text": "The permitted empty space limits the volume that can be filled; the specific weight determines the mass of liquid in that volume, which must remain within the vehicle's load capacity."
+    },
+    {
+      "number": 15209,
+      "text": "ADR regulates the transport of dangerous goods; it does not determine the load capacity of a tank used for non-dangerous goods. The usable volume and the vehicle's load capacity are what matter."
+    },
+    {
+      "number": 15210,
+      "text": "The type of braking system does not determine the amount that can be loaded into the tank: the usable volume, the liquid's specific weight and the vehicle's load capacity are taken into account."
+    },
+    {
+      "number": 15215,
+      "text": "When transporting goods, exceeding the mass stated in the registration document by more than 5% results in an administrative penalty. The tolerance applies when the mass is checked: it does not authorize loading beyond the permitted mass."
+    },
+    {
+      "number": 15244,
+      "text": "LPG in cylinders is dangerous goods: exceeding the mass stated in the document for a vehicle used to transport it is penalized without the ordinary 5% tolerance."
+    },
+    {
+      "number": 15245,
+      "text": "Hydrochloric acid is dangerous goods: exceeding the mass stated in the document for a vehicle used to transport it is penalized without the ordinary 5% tolerance."
+    },
+    {
+      "number": 15246,
+      "text": "In ordinary goods transport, the 5% tolerance applies when the mass is checked, but it does not authorize overloading. The stricter rules of Article 168 apply to vehicles used to transport dangerous goods."
+    },
+    {
+      "number": 15247,
+      "text": "Staying within 5% is not enough: for a vehicle used to transport dangerous goods, exceeding the mass stated in the registration document is itself penalized."
+    },
+    {
+      "number": 15248,
+      "text": "The quiz treats as false the claim that a 3% excess is automatically subject to a penalty: the tolerances provided for by the relevant rules apply when checking the mass. The tolerance does not authorize loading beyond the limit."
+    },
+    {
+      "number": 15249,
+      "text": "The official verdict is FALSO, but the question is ambiguous: for exceptional transport, the tolerance must be considered in relation to the limit and violation concerned; Article 10 also provides a 5% tolerance for mass. A single percentage cannot be inferred for every measurement of the load."
+    },
+    {
+      "number": 15250,
+      "text": "The official verdict is FALSO, but caution is needed: a later ministerial clarification, responding to a case involving municipal waste, refers to the ordinary 5% tolerance when checking the mass. Even so, this does not make overloading lawful."
+    },
+    {
+      "number": 15251,
+      "text": "Petrol is dangerous goods: the ordinary 5% tolerance does not apply to a vehicle used to transport it; exceeding the stated mass is penalized."
+    },
+    {
+      "number": 15252,
+      "text": "The load must be distributed so that the permitted mass on each axle is respected, as well as the vehicle's overall limit."
+    },
+    {
+      "number": 15254,
+      "text": "Concentrating the load on the rear overhang can overload the rear axle and reduce the load on the front axle. It must be distributed while respecting the axle loads."
+    },
+    {
+      "number": 15255,
+      "text": "It is not necessary to always avoid using a trailer: one may be coupled if the combination is suitable and the trailer's mass is compatible with the towing vehicle's permitted towing capacity."
+    },
+    {
+      "number": 15256,
+      "text": "The verdict is FALSO: merely stating ‘vertically and horizontally’ does not establish a safe arrangement. The load must instead be distributed and secured with regard to its shape, axle limits and the risk of shifting. The question is imprecisely worded."
+    },
+    {
+      "number": 15257,
+      "text": "A higher centre of gravity increases the overturning moment caused by the lateral force on a bend, making the vehicle more likely to overturn."
+    },
+    {
+      "number": 15258,
+      "text": "A higher centre of gravity makes the vehicle more prone to lean and overturn on bends, compromising stability."
+    },
+    {
+      "number": 15259,
+      "text": "Raising the centre of gravity does not increase stability: it increases the risk of overturning on a bend."
+    },
+    {
+      "number": 15260,
+      "text": "Raising the centre of gravity does not reduce centrifugal force: for the same mass, speed and bend, it increases that force's tendency to overturn the vehicle."
+    },
+    {
+      "number": 15278,
+      "text": "A suitable load unit, such as a container, can pass between different modes of transport without transferring each individual item of cargo."
+    },
+    {
+      "number": 15279,
+      "text": "A load unit groups goods into an assembly that can be handled as a single package, making handling and storage easier."
+    },
+    {
+      "number": 15280,
+      "text": "A container can be a load unit: it holds goods and is designed to be handled and transferred between means of transport."
+    },
+    {
+      "number": 15281,
+      "text": "FALSO. A load unit is not necessarily handled by hand: for example, palletized loads can be handled with mechanical equipment."
+    },
+    {
+      "number": 15282,
+      "text": "FALSO. A pallet is a platform on which goods are grouped; it is not a semi-trailer."
+    },
+    {
+      "number": 15283,
+      "text": "FALSO according to the quiz: a suitable semi-trailer can be carried in intermodal transport. UNECE terminology, however, distinguishes load units, such as containers and swap bodies, from intermodal transport units, which also include semi-trailers."
+    },
+    {
+      "number": 15284,
+      "text": "FALSO. A load unit is a means of containing or grouping goods, for example a container; it is not a trade union."
+    },
+    {
+      "number": 15285,
+      "text": "FALSO. A load unit concerns goods and their containment, for example in a container; it is not a worker."
+    },
+    {
+      "number": 15286,
+      "text": "VERO. A container holds goods and can be transferred between different modes of transport without unloading its contents."
+    },
+    {
+      "number": 15287,
+      "text": "VERO. A swap body is a load unit designed for intermodal transport that includes a road leg."
+    },
+    {
+      "number": 15288,
+      "text": "VERO. A container is a load unit intended to hold goods during transport."
+    },
+    {
+      "number": 15289,
+      "text": "VERO. A swap body is a load unit that can be separated from the vehicle."
+    },
+    {
+      "number": 15290,
+      "text": "FALSO according to the quiz: hoops and a tarpaulin describe the bodywork of a truck, not a container or swap body. UNECE terminology, however, also considers a suitable truck an intermodal transport unit: the term ‘load unit’ is ambiguous here."
+    },
+    {
+      "number": 15291,
+      "text": "FALSO. A container ship is the vessel that carries the containers; the containers themselves are the load units."
+    },
+    {
+      "number": 15292,
+      "text": "FALSO. Wheel chocks prevent a parked vehicle from moving; they do not contain goods as a load unit does."
+    },
+    {
+      "number": 15293,
+      "text": "FALSO. A ramp makes loading and unloading easier; it is not a unit that contains goods during transport."
+    },
+    {
+      "number": 15294,
+      "text": "VERO in the sense that standardized dimensions and characteristics exist to facilitate intermodal transport. Standardization of swap bodies is mainly European, while international ISO standards exist for containers."
+    },
+    {
+      "number": 15296,
+      "text": "VERO. Containers and swap bodies allow the same unit to be transferred between road and another mode of transport, such as rail."
+    },
+    {
+      "number": 15297,
+      "text": "FALSO. Dimensions are not simply left to each company's choice: standardized measurements and characteristics exist to facilitate intermodal transport."
+    },
+    {
+      "number": 15298,
+      "text": "FALSO. Standard dimensions exist, although there may be different types and sizes."
+    },
+    {
+      "number": 15299,
+      "text": "FALSO. They are not transported only by road: they can also travel by rail or ship, as well as on road vehicles."
+    },
+    {
+      "number": 15300,
+      "text": "VERO. A container can be used in combined transport, passing from road to another mode of transport."
+    },
+    {
+      "number": 15301,
+      "text": "VERO. A swap body can be used in combined transport, for example between road and rail."
+    },
+    {
+      "number": 15302,
+      "text": "VERO. Combined transport can use units such as containers and swap bodies, which are transferred between different modes without unloading the goods."
+    },
+    {
+      "number": 15303,
+      "text": "FALSO. The motor vehicle is not required to have a crane or tail lift: in combined transport, containers or swap bodies can be transferred using terminal equipment."
+    }
+  ],
+  "output_sha256": "4674b06ef5adcbfd70463dbdaba871dcc226f45b39ad7f0f60618ebf7341eac3"
+}

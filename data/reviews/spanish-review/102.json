@@ -1,0 +1,37 @@
+{
+  "batch": "102",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ddc62100e1b4334e9da12a73d708030b6c0980b1e43f74e0b576ee83c81ddb04",
+  "source_sha256": "df69a78daa02afbf97f6e1c0307eb2ada2c0d247e1bd0d75bb15e9598f8887f5",
+  "corrections": [
+    {
+      "id": "879ef9e3c7e4d08f9d5e6a36237420645d6363dc943bc263295bd5bebf90f8be",
+      "before": "Si pierde su tarjeta de tacógrafo, el conductor puede pedirla prestada a un compañero",
+      "after": "Si se pierde su tarjeta de tacógrafo, el conductor puede pedirla prestada a un compañero",
+      "reason": "Broken Spanish grammar; meaning kept (the Italian claim is preserved as stated)"
+    },
+    {
+      "id": "87c2279898185432ff621754161553965c5b2420c0828d2f5412b89e3cb099ab",
+      "before": "El hidroplaneo ocurre más fácilmente en vehículos ligeros",
+      "after": "El hidroplaneo ocurre más fácilmente en los vehículos más ligeros",
+      "reason": "Se conserva la comparación del original: vehículos más ligeros."
+    },
+    {
+      "id": "891c09044b7f9aa42a04b3da85f6f7d7ed9c5e4be90b0bf586931836c0ecde6e",
+      "before": "05##tipología5 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "05##tipologia5 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Se preserva el marcador estructural 05##tipologia5 sin traducirlo."
+    }
+  ],
+  "reviewed_file_sha256": "7b349ddc1a512c3cc8032b522d2e583cbaaba1eb190459475aaf46b9f301fd3c"
+}

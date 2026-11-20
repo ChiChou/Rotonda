@@ -1,0 +1,43 @@
+{
+  "batch": "169",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "cf5821e1e173ba2575c38e448e37673fccad0a89b90592de03952d4a4cc4fa8a",
+  "source_sha256": "7298406ae3c4e9c3f3834865d24181ce072831dc241559a0bc220b79feac1b2d",
+  "corrections": [
+    {
+      "id": "df4a27140b0f0c2d4a9baa06bb572cb1e65225b0592e2858cf2daed1f9788913",
+      "before": "16##tipología16 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "16##tipologia16 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Keep the Italian label spelling tipologia, not tipología"
+    },
+    {
+      "id": "dfd1501cdd967052dd21c068c8713fd2ad5733d48a5d034d5f1fcc1e05427c09",
+      "before": "La licencia de categoría BE, salvo limitación indicada en el documento o ajuste a la fecha de cumpleaños del titular, vale cinco años si se expide o confirma a quien no ha cumplido 50 años",
+      "after": "La licencia de categoría BE, salvo limitación indicada en el documento o ajuste a la fecha de cumpleaños del titular, vale cinco años si se expide o confirma a quien no ha superado los 50 años",
+      "reason": "El límite del original incluye a quienes tienen 50 años."
+    },
+    {
+      "id": "dfdf3c117747cf36604c11c77c085caec362b2349f4363610b5696dd0276bfa8",
+      "before": "La distancia de seguridad también debe establecerse según el estado del vehículo",
+      "after": "La distancia de seguridad también debe establecerse según el estado de funcionamiento del vehículo",
+      "reason": "Conserva la referencia a la eficiencia del vehículo."
+    },
+    {
+      "id": "e086c6c15b1164751c06069c33172911f4d5d9e3d025caa041c0296beceff95b",
+      "before": "Entre las principales ventajas del transporte por carretera está la posibilidad de evitar las filas",
+      "after": "Entre las principales ventajas del transporte por carretera está la posibilidad de evitar las colas",
+      "reason": "Italian code means traffic queues, not rows of people"
+    }
+  ],
+  "reviewed_file_sha256": "05a75379dfa5086de5e87c0555ce6ab9898cdd2c255fc37394ac24e3d989c672"
+}

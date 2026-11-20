@@ -1,0 +1,37 @@
+{
+  "batch": "047",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "61328a01e781ee8959d8a01b3e3ea9349ee4ff56c51fe25ab29f5eb62cbf8ab6",
+  "source_sha256": "3947010a4a3b0aa1622a9c85a618c17434657f2a5ee57329f37fcac334d7bf1b",
+  "corrections": [
+    {
+      "id": "3eab37f0c4fbc2e5ebce463551c0fe1bc04d6bed6d71e7afecb46989851295ba",
+      "before": "Según el CMR, el destinatario puede sustituirse por otros destinatarios, pero debe comunicarlo al conductor del vehículo",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el destinatario puede sustituir a otros destinatarios por sí mismo, pero debe comunicarlo al conductor del vehículo",
+      "reason": "Restituye el nombre del convenio incluido en el original.; Reversed meaning: the consignee substitutes other consignees with himself, not the reverse"
+    },
+    {
+      "id": "3ec178d5ff54f7d09e3d5472e7bfc2c89aceffefe12d5522d3e43f79fc11006e",
+      "before": "El CMR regula la recepción de la mercancía por el transportista",
+      "after": "El CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera) regula la recepción de la mercancía por el transportista",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "3efb9c555982cb616dbdfd2963503fe868fcd961f41c6e784da7eaecd520e603",
+      "before": "Las mercancías de la UE incluyen mercancías importadas de Estados o territorios fuera de su territorio aduanero y despachadas a libre práctica",
+      "after": "Se consideran mercancías de la UE las mercancías importadas de Estados o territorios que no forman parte del territorio aduanero de la UE y despachadas a libre práctica",
+      "reason": "'si intendono' is a definition; Spanish turned it into an inclusion ('incluyen')"
+    }
+  ],
+  "reviewed_file_sha256": "86094bbe01e347663aa1a686c4c53d40f8256a7803b6f1ddee9439fb728837f2"
+}

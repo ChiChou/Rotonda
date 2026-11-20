@@ -1,0 +1,713 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28576,
+          "quesito_id": 6103,
+          "text_it": "La fascia d’ingombro aumenta all'aumentare degli sbalzi del veicolo",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "311d8d8037a8d52bf76030a0849ce009db09b587d02c4316c583a2091819cc61",
+        "localized_text": "La franja de espacio ocupado aumenta al aumentar los voladizos del vehículo"
+      },
+      {
+        "source": {
+          "number": 28577,
+          "quesito_id": 6103,
+          "text_it": "La fascia d’ingombro è lo spazio in larghezza che il veicolo occupa su strada rettilinea",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3a1f279b200b8bd0f0ea90d2ea62537356bb3d3d5b7b8132c651e07b788e248f",
+        "localized_text": "La franja de ocupación es el espacio a lo ancho que ocupa el vehículo en una vía recta"
+      },
+      {
+        "source": {
+          "number": 28578,
+          "quesito_id": 6103,
+          "text_it": "La fascia d’ingombro aumenta se il veicolo è dotato di più assi sterzanti",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2555c219f864adf9a85a67747f70671540f32ba6d6f2a168c4392075bcc7a149",
+        "localized_text": "La zona de barrido aumenta si el vehículo tiene más ejes directrices"
+      },
+      {
+        "source": {
+          "number": 28579,
+          "quesito_id": 6103,
+          "text_it": "La fascia d’ingombro non deve essere superiore alla larghezza del veicolo con il suo carico",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f7061588991e85e6194171712f2944c4a4b94a1a83106797bccfa314ac292b2f",
+        "localized_text": "La franja de espacio ocupado no debe ser mayor que el ancho del vehículo con su carga"
+      },
+      {
+        "source": {
+          "number": 28580,
+          "quesito_id": 6104,
+          "text_it": "Azionando il freno motore dei veicoli pesanti, il dispositivo chiude la mandata del gasolio da parte del sistema di iniezione",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2a1e7d8fc6c48d14049cdaf56cb06af1f75a7f1e65494189baaac248baa66cd3",
+        "localized_text": "Al activar el freno motor de un vehículo pesado, el dispositivo interrumpe el suministro de diésel del sistema de inyección"
+      },
+      {
+        "source": {
+          "number": 28581,
+          "quesito_id": 6104,
+          "text_it": "Azionando il freno motore dei veicoli pesanti, si crea una strozzatura del tubo di scarico tramite l’azionamento di un’apposita valvola a farfalla",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d3f3c0922425114ef90cd89d59a8f5d520c2c055408a08f6f32ad76e90ffa7a9",
+        "localized_text": "Al accionar el freno de motor de los vehículos pesados, se produce una restricción del tubo de escape mediante una válvula de mariposa específica"
+      },
+      {
+        "source": {
+          "number": 28582,
+          "quesito_id": 6104,
+          "text_it": "Azionando il freno motore dei veicoli pesanti, la fase di scarico del motore diventa in pratica una fase di compressione che frena/rallenta il veicolo",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e3f31a3b031385217a6f8b2cb44647dd4ef39c78e669a32f096a98c62c479288",
+        "localized_text": "Al accionar el freno de motor de los vehículos pesados, la fase de escape del motor se convierte en la práctica en una fase de compresión que frena o reduce la velocidad del vehículo"
+      },
+      {
+        "source": {
+          "number": 28583,
+          "quesito_id": 6104,
+          "text_it": "Il freno motore dei veicoli pesanti può essere utilizzato solo su strade in discesa",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a1076a40aeb77172ee60663afcc6fab5befe365210ada646ca7b7bcfd46a80a7",
+        "localized_text": "El freno motor de los vehículos pesados solo puede usarse en vías de bajada"
+      },
+      {
+        "source": {
+          "number": 28584,
+          "quesito_id": 6104,
+          "text_it": "Azionando il freno motore dei veicoli pesanti, la fase di scarico del motore diventa una fase di aspirazione che frena/rallenta il veicolo",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "145ee2025b1d98deeffd37e7de72add4b83567b1cf2529ada8b9e352c355b0ed",
+        "localized_text": "Al accionar el freno motor de vehículos pesados, la fase de escape del motor se convierte en una fase de admisión que frena o desacelera el vehículo"
+      },
+      {
+        "source": {
+          "number": 28585,
+          "quesito_id": 6104,
+          "text_it": "Azionando il freno motore dei veicoli pesanti, il dispositivo disinnesta automaticamente la frizione per sfruttare l’inerzia del veicolo",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fd5ac4c3a92ccbe5c480ce41f3f1b730b38de0252e5629e861fea25afa588bea",
+        "localized_text": "Al activar el freno motor de un vehículo pesado, el dispositivo desacopla automáticamente el embrague para aprovechar la inercia"
+      },
+      {
+        "source": {
+          "number": 28586,
+          "quesito_id": 6105,
+          "text_it": "Il freno-motore è particolarmente importante per ridurre il rischio di possibile surriscaldamento degli elementi frenanti",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "463be60cac251bf93ea1429b14d5e4c3f9f18a50d389675c3d3a2c3a98de05d4",
+        "localized_text": "El freno motor es especialmente importante para reducir el riesgo de sobrecalentamiento de los elementos de frenado"
+      },
+      {
+        "source": {
+          "number": 28587,
+          "quesito_id": 6105,
+          "text_it": "Il freno-motore ed il rallentatore non sono dispositivi uguali, ma hanno funzioni analoghe",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6ddb672a6078931ed8aecae267fcd7873d7c636c9ba347c90d20b3313d64af6a",
+        "localized_text": "El freno de motor y el retardador no son dispositivos iguales, pero tienen funciones similares"
+      },
+      {
+        "source": {
+          "number": 28588,
+          "quesito_id": 6105,
+          "text_it": "Il dispositivo \"freno motore\" può essere integrato con il rallentatore e con l’impianto di frenatura di servizio in un unico sistema a controllo elettronico",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "911885cd2cd72b68ed1e5677c02456fd7a66fb07e6b64bff779e88b7bf5b2817",
+        "localized_text": "El dispositivo de freno de motor puede integrarse con el retardador y el sistema de freno de servicio en un único sistema de control electrónico"
+      },
+      {
+        "source": {
+          "number": 28589,
+          "quesito_id": 6105,
+          "text_it": "Con l’azione del solo freno-motore non è possibile fermare il veicolo in distanze ragionevoli in tutte le situazioni di marcia",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9f2aa1598366d6291ed6073a30081fd67c3c6301d9d642bcc990376a330b4f44",
+        "localized_text": "Con la sola acción del freno motor no es posible detener el vehículo en distancias razonables en todas las situaciones de marcha"
+      },
+      {
+        "source": {
+          "number": 28590,
+          "quesito_id": 6105,
+          "text_it": "Innestando un basso rapporto del cambio si ottiene un maggior effetto frenante del motore",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c27b0ad43ae627c2df29fc314c3b46d236d54d9cb34dbeced5820a9767823932",
+        "localized_text": "Al engranar una marcha baja se obtiene mayor efecto de frenado del motor"
+      },
+      {
+        "source": {
+          "number": 28591,
+          "quesito_id": 6105,
+          "text_it": "L’effetto frenante del motore a scoppio è, a parità di cilindrata, generalmente maggiore di quello del motore Diesel",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0d770cf84d782fd4624b112adaa22c0e7b9147fe0448fa9d81e1140534c8b37a",
+        "localized_text": "El efecto de frenado del motor de explosión es, a igual cilindrada, generalmente mayor que el del motor diésel"
+      },
+      {
+        "source": {
+          "number": 28592,
+          "quesito_id": 6105,
+          "text_it": "Il freno motore è particolarmente efficiente sui veicoli elettrici",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c41d37c55513fa7365c43c535630fa1d3a8e5e2c5b3f4e6af9594342c062d8fe",
+        "localized_text": "El freno de motor es especialmente eficaz en vehículos eléctricos"
+      },
+      {
+        "source": {
+          "number": 28593,
+          "quesito_id": 6105,
+          "text_it": "Il freno motore è azionato tramite il \"manettino\" del freno di stazionamento a molla, quando lo stesso viene portato a fine corsa",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7955217a1a4bc741d838a878b7546bef0f5ac296ea2067da14d50682163c7393",
+        "localized_text": "El freno motor se acciona con la palanca del freno de estacionamiento de resorte cuando se lleva al final de su recorrido"
+      },
+      {
+        "source": {
+          "number": 28594,
+          "quesito_id": 6105,
+          "text_it": "Il freno motore funziona meglio quando il cambio è in folle",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "39c509fff3bdd792c9f98c9d7ff3de2a4ade02d2ed1826d7150936d25b95c30a",
+        "localized_text": "El freno motor funciona mejor cuando la transmisión está en punto muerto"
+      },
+      {
+        "source": {
+          "number": 28595,
+          "quesito_id": 6105,
+          "text_it": "Il freno motore è un dispositivo che serve a mantenere frenato il veicolo quando è in sosta su strada in pendenza",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "20bf7fd230c0a617dcd6ac0334ff5e7a752f88ed3c99aa61ca978208d7867ef1",
+        "localized_text": "El freno motor es un dispositivo que mantiene frenado el vehículo cuando está estacionado en una pendiente"
+      },
+      {
+        "source": {
+          "number": 28596,
+          "quesito_id": 6105,
+          "text_it": "Il freno motore ed il rallentatore si azionano assieme al freno di servizio in caso di pericolo immediato",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1940fdb36548447ef7f5906587b993acbc1af13106b9f146d1630e3271d29b3e",
+        "localized_text": "El freno motor y el retardador se accionan junto con el freno de servicio en caso de peligro inmediato"
+      },
+      {
+        "source": {
+          "number": 28597,
+          "quesito_id": 6105,
+          "text_it": "L’effetto frenante del motore Diesel è, a parità di cilindrata, generalmente, maggiore di quello del motore a scoppio",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "334bfafe5ddb35e22dba7d1b15441666a399876add9e4611d1efbe6c35347a77",
+        "localized_text": "Con la misma cilindrada, el efecto de frenado del motor diésel suele ser mayor que el del motor de explosión"
+      },
+      {
+        "source": {
+          "number": 28598,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore ed il freno motore integrano il sistema di frenatura di servizio",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "69ee61c5e4bfaa5bbac9e5969c7e62da5ba4242dcf30e085d5832979384ffdbd",
+        "localized_text": "El retardador y el freno motor complementan el sistema de freno de servicio"
+      },
+      {
+        "source": {
+          "number": 28599,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore può essere di tipo idraulico o elettromagnetico",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6e99ea36149cc7a1d8992ea632be35b4e1f48eddc4b5933ffb36782c1df2d645",
+        "localized_text": "El retardador puede ser hidráulico o electromagnético"
+      },
+      {
+        "source": {
+          "number": 28600,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore idraulico è posto all’uscita del cambio ed è collegato con l’albero di trasmissione",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9d840bee7191aed2d7f1cc6d012127835e20dfae6f7ba88dc042ad8e49b51d75",
+        "localized_text": "El retardador hidráulico se encuentra a la salida de la caja de cambios y está conectado al árbol de transmisión"
+      }
+    ],
+    "task_sha256": "9bf17c1947125220b74cf340c8523ffabedfff03eeb1b34225a70c4584616544"
+  },
+  "rows": [
+    {
+      "number": 28576,
+      "text": "En una curva, los voladizos describen arcos por fuera de la trayectoria de las ruedas: cuanto más largos son, mayor es el espacio barrido por el vehículo.",
+      "evidence": [
+        "https://moodle2.units.it/pluginfile.php/727888/mod_resource/content/1/PIV_2024-2025_L03_VeicoliUtenti.pdf — schemi del percorso e dell’ingombro in curva; lo sbalzo contribuisce al margine esterno."
+      ]
+    },
+    {
+      "number": 28577,
+      "text": "La franja de barrido es el espacio cubierto al girar, no simplemente el ancho ocupado en línea recta.",
+      "evidence": [
+        "https://moodle2.units.it/pluginfile.php/727888/mod_resource/content/1/PIV_2024-2025_L03_VeicoliUtenti.pdf — schemi del percorso e dell’ingombro in curva; lo sbalzo contribuisce al margine esterno."
+      ]
+    },
+    {
+      "number": 28578,
+      "text": "Un eje trasero direccional puede hacer que la parte posterior siga mejor la curva y reducir la franja de barrido; más ejes direccionales no necesariamente la aumentan.",
+      "evidence": [
+        "https://moodle2.units.it/pluginfile.php/727888/mod_resource/content/1/PIV_2024-2025_L03_VeicoliUtenti.pdf — schemi del percorso e dell’ingombro in curva; lo sbalzo contribuisce al margine esterno.",
+        "https://www.scania.com/content/dam/scanianoe/market/fr/products-and-services/buses-and-coaches/notre-gamme/chassis-serie-k/scania-serie-k.pdf — asse posteriore sterzante migliora la manovrabilità; https://www.ilportaledellautomobilista.it/documents/56611/85457073/DomandeSuperiori.pdf/7725566d-e40f-4583-ad74-db4395d103cf quesiti 28574–28575: definizione e riduzione con asse posteriore autosterzante."
+      ]
+    },
+    {
+      "number": 28579,
+      "text": "Al girar, las partes del vehículo siguen trayectorias distintas, por lo que la franja barrida puede ser más ancha que el vehículo y su carga.",
+      "evidence": [
+        "https://moodle2.units.it/pluginfile.php/727888/mod_resource/content/1/PIV_2024-2025_L03_VeicoliUtenti.pdf — schemi del percorso e dell’ingombro in curva; lo sbalzo contribuisce al margine esterno."
+      ]
+    },
+    {
+      "number": 28580,
+      "text": "En el freno de escape descrito por el examen se corta la inyección: el motor absorbe energía en vez de recibir combustible para impulsar el vehículo.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento.",
+        "https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf, p. 98 — attuatori del freno allo scarico arrestano iniezione e chiudono farfalla; contropressione frena il veicolo."
+      ]
+    },
+    {
+      "number": 28581,
+      "text": "En el freno de escape, una válvula de mariposa restringe la salida de gases; la contrapresión resultante ofrece resistencia al motor.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento.",
+        "https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf, p. 98 — attuatori del freno allo scarico arrestano iniezione e chiudono farfalla; contropressione frena il veicolo."
+      ]
+    },
+    {
+      "number": 28582,
+      "text": "Con el escape restringido, el pistón empuja los gases contra una alta contrapresión durante la carrera de escape; el trabajo absorbido desacelera el vehículo.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento.",
+        "https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf, p. 98 — attuatori del freno allo scarico arrestano iniezione e chiudono farfalla; contropressione frena il veicolo."
+      ]
+    },
+    {
+      "number": 28583,
+      "text": "El freno de motor también ayuda a desacelerar fuera de las bajadas; es especialmente útil en descensos largos porque alivia los frenos de servicio.",
+      "evidence": [
+        "https://caboturbo.nl/wp/wp-content/uploads/2012/03/HTi_10.pdf, Henry Tennant, Engines That Slow as Well as Go, printed p. 11 (PDF p. 12) — maggior effetto del benzina con farfalla di aspirazione rispetto al Diesel convenzionale; freno motore per decelerazione e discese.",
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento."
+      ]
+    },
+    {
+      "number": 28584,
+      "text": "En el freno de escape, el pistón encuentra resistencia al expulsar los gases contra la contrapresión; la carrera de escape no se convierte en una de admisión.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento.",
+        "https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150100033.pdf, p. 98 — attuatori del freno allo scarico arrestano iniezione e chiudono farfalla; contropressione frena il veicolo."
+      ]
+    },
+    {
+      "number": 28585,
+      "text": "Para transmitir la resistencia del motor a las ruedas debe mantenerse conectada la transmisión; desembragar interrumpe esa conexión.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento."
+      ]
+    },
+    {
+      "number": 28586,
+      "text": "El freno de motor absorbe parte de la energía sin usar continuamente los frenos de servicio, limitando el calor que generan.",
+      "evidence": [
+        "https://caboturbo.nl/wp/wp-content/uploads/2012/03/HTi_10.pdf, Henry Tennant, Engines That Slow as Well as Go, printed p. 11 (PDF p. 12) — maggior effetto del benzina con farfalla di aspirazione rispetto al Diesel convenzionale; freno motore per decelerazione e discese.",
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento."
+      ]
+    },
+    {
+      "number": 28587,
+      "text": "El freno de motor utiliza la resistencia del motor; un retardador separado puede actuar sobre la transmisión. Ambos ayudan a desacelerar sin depender continuamente de los frenos de servicio.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento.",
+        "https://www.zf.com/products/en/cv/products_76431.html — Intarder idrodinamico integrato nella trasmissione alleggerisce il freno di servizio e può essere integrato nella gestione frenante.",
+        "https://www.telma.com/produits/faq-ralentisseur — rallentatore elettromagnetico per frenatura prolungata e minore carico sui freni di servizio."
+      ]
+    },
+    {
+      "number": 28588,
+      "text": "Un control electrónico puede coordinar el freno de motor, el retardador y los frenos de servicio, repartiendo entre ellos la demanda de frenado.",
+      "evidence": [
+        "https://www.wabco-customercentre.com/catalog/docs/8150102173.pdf, Brakes and brake systems, sezione EBS brake blending — gestione elettronica coordina freno motore, rallentatore e freni di servizio."
+      ]
+    },
+    {
+      "number": 28589,
+      "text": "El freno de motor ayuda a desacelerar, pero su eficacia varía según las condiciones: para detener el vehículo cuando sea necesario se requiere el freno de servicio.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento.",
+        "https://www.scania.com/content/dam/scanianoe/market/uk/brochures/truck/spec-sheets/r-series/spec-sheet-scania-r730la4x2mna.PDF, Brake system — il comando di stazionamento aziona i freni a molla; il freno allo scarico è distinto."
+      ]
+    },
+    {
+      "number": 28590,
+      "text": "Con una marcha más baja, a la misma velocidad del vehículo el motor gira más rápido y puede ofrecer mayor resistencia de frenado.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento."
+      ]
+    },
+    {
+      "number": 28591,
+      "text": "Al comparar motores convencionales sin freno auxiliar, la mariposa de admisión cerrada del motor de gasolina aumenta las pérdidas de bombeo frente a un diésel sin restricción de admisión.",
+      "evidence": [
+        "https://caboturbo.nl/wp/wp-content/uploads/2012/03/HTi_10.pdf, Henry Tennant, Engines That Slow as Well as Go, printed p. 11 (PDF p. 12) — maggior effetto del benzina con farfalla di aspirazione rispetto al Diesel convenzionale; freno motore per decelerazione e discese.",
+        "https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/ADVANCED%20ENGINE%20TECHNOLOGY%20AND%20PERFORMANCE/epdf.pub_diesel-engine-system-design-woodhead-publishing-in.pdf, p. 409 — confronto a cilindrata e regime uguali con Diesel senza farfalla o freno allo scarico; il confronto riguarda motori convenzionali non dispositivi supplementari."
+      ]
+    },
+    {
+      "number": 28592,
+      "text": "El cuestionario marca FALSO. Las preguntas cercanas describen el freno motor de combustión, pero aquí no se precisa el sentido pretendido. El término también puede referirse a la frenada regenerativa eléctrica: algunos vehículos eléctricos recuperan energía al desacelerar.",
+      "evidence": [
+        "Official superiori question 28592 prints FALSO; combustion-engine context inferred from adjacent questions, not a documented official rationale.",
+        "Volvo Trucks https://www.volvotrucks.com/th-th/news/press-releases/2023/mar/volvo-and-boliden-collaborate-on-electric-underground-trucks.html uses engine braking for electric energy recovery; term can cover regenerative braking."
+      ]
+    },
+    {
+      "number": 28593,
+      "text": "El mando del freno de estacionamiento acciona los frenos de estacionamiento por resorte; no es el mando del freno de motor.",
+      "evidence": [
+        "https://www.scania.com/content/dam/scanianoe/market/uk/brochures/truck/spec-sheets/r-series/spec-sheet-scania-r730la4x2mna.PDF, Brake system — il comando di stazionamento aziona i freni a molla; il freno allo scarico è distinto.",
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento."
+      ]
+    },
+    {
+      "number": 28594,
+      "text": "En punto muerto, el motor queda desconectado de las ruedas y su resistencia no puede desacelerarlas mediante la caja. Debe haber una marcha engranada.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento."
+      ]
+    },
+    {
+      "number": 28595,
+      "text": "El freno de motor desacelera el vehículo en movimiento; para mantenerlo detenido al estacionar, incluso en una pendiente, se usa el freno de estacionamiento.",
+      "evidence": [
+        "https://www.scania.com/content/dam/scanianoe/market/uk/brochures/truck/spec-sheets/r-series/spec-sheet-scania-r730la4x2mna.PDF, Brake system — il comando di stazionamento aziona i freni a molla; il freno allo scarico è distinto.",
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento."
+      ]
+    },
+    {
+      "number": 28596,
+      "text": "Ante un peligro inmediato, usa sin demora el freno de servicio según la situación: el freno motor y el retardador ayudan sobre todo a controlar la velocidad de forma sostenida. Algunos sistemas los integran automáticamente con el freno de servicio; no esperes un mando separado.",
+      "evidence": [
+        "Official superiori question 28596 prints FALSO. Practical priority of prompt service braking in immediate danger is a safety interpretation, not a claim that combined braking is impossible.",
+        "Scania https://www.scania.com/content/dam/scanianoe/market/tz/experience-scania/publications/Scania-News-5.pdf : integrated auxiliary and service braking, including automatic control; systems differ."
+      ]
+    },
+    {
+      "number": 28597,
+      "text": "Al comparar motores convencionales sin freno auxiliar, el de gasolina puede frenar más: la mariposa cerrada aumenta las pérdidas de bombeo frente a un diésel sin restricción de admisión.",
+      "evidence": [
+        "https://caboturbo.nl/wp/wp-content/uploads/2012/03/HTi_10.pdf, Henry Tennant, Engines That Slow as Well as Go, printed p. 11 (PDF p. 12) — maggior effetto del benzina con farfalla di aspirazione rispetto al Diesel convenzionale; freno motore per decelerazione e discese.",
+        "https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/ADVANCED%20ENGINE%20TECHNOLOGY%20AND%20PERFORMANCE/epdf.pub_diesel-engine-system-design-woodhead-publishing-in.pdf, p. 409 — confronto a cilindrata e regime uguali con Diesel senza farfalla o freno allo scarico; il confronto riguarda motori convenzionali non dispositivi supplementari."
+      ]
+    },
+    {
+      "number": 28598,
+      "text": "El retardador y el freno de motor aportan desaceleración adicional y reducen el trabajo de los frenos de servicio, que siguen siendo necesarios para detener el vehículo.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento.",
+        "https://www.zf.com/products/en/cv/products_76431.html — Intarder idrodinamico integrato nella trasmissione alleggerisce il freno di servizio e può essere integrato nella gestione frenante.",
+        "https://www.telma.com/produits/faq-ralentisseur — rallentatore elettromagnetico per frenatura prolungata e minore carico sui freni di servizio."
+      ]
+    },
+    {
+      "number": 28599,
+      "text": "Un retardador hidráulico disipa energía en un fluido; uno electromagnético utiliza fuerzas magnéticas. Son dos sistemas distintos de frenado auxiliar.",
+      "evidence": [
+        "https://elearning.mito.org.nz/local/mitocontent/resources/CRT-17373v5-26776v2-WB.pdf, p. 27 (ed. 2019) — freno allo scarico: iniezione interrotta, farfalla, contropressione nella corsa di scarico, frizione innestata; rapporti bassi aumentano il rallentamento.",
+        "https://www.zf.com/products/en/cv/products_76431.html — Intarder idrodinamico integrato nella trasmissione alleggerisce il freno di servizio e può essere integrato nella gestione frenante.",
+        "https://www.telma.com/produits/faq-ralentisseur — rallentatore elettromagnetico per frenatura prolungata e minore carico sui freni di servizio."
+      ]
+    },
+    {
+      "number": 28600,
+      "text": "En el tipo secundario, el retardador hidráulico se ubica después de la caja de cambios y se conecta al árbol de transmisión, sobre el que ejerce resistencia de frenado.",
+      "evidence": [
+        "Voith Perspectives 1/2012 pp. 42–43, https://www.voith.com/corp-de/VT_PERSPECTIVES_01_12_EN.pdf : indexed text describes secondary retarder downstream of gearbox and acting on propshaft; direct browser open returned 404 in this environment.",
+        "Voith manufacturer press release https://www.voith.com/corp-en/news-room/press-releases/2021-11-10-vt-voith-to-supply-retarders-for-turkish-truck-manufacturer.html : example retarder on transmission output, connected to cardan shaft. The quiz is interpreted as referring to a secondary retarder."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "9bf17c1947125220b74cf340c8523ffabedfff03eeb1b34225a70c4584616544",
+    "output_sha256": "aafe8654084eb0798c09217cb92ad7da19b4f4505363f8b1a06d7a01c52ce5b8",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      28576,
+      28577,
+      28578,
+      28579,
+      28580,
+      28581,
+      28582,
+      28583,
+      28584,
+      28585,
+      28586,
+      28587,
+      28588,
+      28589,
+      28590,
+      28591,
+      28592,
+      28593,
+      28594,
+      28595,
+      28596,
+      28597,
+      28598,
+      28599,
+      28600
+    ],
+    "issues": [],
+    "review_evidence": [
+      "All assigned source statements and localized explanations reviewed. Exact WABCO EBS PDF exceeded browser size; integrated braking independently corroborated by Scania source cited in row 28596.",
+      "Re-reviewed all 25 current rows and localized text. ACI DPR 495/1992 art. 217 verified directly at PDF page 134; Cummins article corrected to printed page 11; 28592 now distinguishes verdict from inferred context. Voith press release directly confirms output-side retarder example. Exact WABCO 8150102173 PDF independently inspected locally, SHA256 2910987b0c24af03a728ea4949eb9f382a217a01ad177b1557a21808a9ba45d9, pp. 103 and 105: electronic braking system coordinates retarder, engine brake and wheel brakes."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eab2-d48c-7500-9556-16f71a0008e5",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "a2ea9bddbb7f009c59728c4b6b595d15ea0b122c39a480e5a1640626ad8c811e",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eab2-d48c-7500-9556-16f71a0008e5",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28592,
+              "reason": "Il quesito dichiara FALSO che il freno motore sia particolarmente efficiente sui veicoli elettrici, senza definire se il termine comprenda la frenatura rigenerativa del motore elettrico; il costruttore usa engine braking per tale recupero su un veicolo elettrico. Non è verificato il senso richiesto né il confronto di efficienza implicito.",
+              "checked_sources": [
+                "https://www.volvocars.com/au/support/car/ec40/article/47d2c97fd33effd3c0a8cc3718c999b7-eec7a9259f5bd482c0a8b0c13b211ac8-8664b2fa77a7e089c0a8296870d1a409/ — manuale EC40 descrive recupero in engine braking nella posizione B.",
+                "https://www.ilportaledellautomobilista.it/documents/56611/85457073/DomandeSuperiori.pdf/7725566d-e40f-4583-ad74-db4395d103cf — quesito 28592 e risposta FALSO."
+              ]
+            },
+            {
+              "number": 28596,
+              "reason": "La risposta FALSO a un’affermazione sull’azionamento insieme al freno di servizio in pericolo immediato non specifica se escluda il funzionamento integrato automatico; fonti dei costruttori descrivono integrazione e azionamento combinato. Non è verificabile quale distinzione giustifichi il FALSO senza negare tali sistemi.",
+              "checked_sources": [
+                "https://www.wabco-customercentre.com/catalog/docs/8150102173.pdf — EBS brake blending coordina freno motore e rallentatore con frenatura di servizio.",
+                "https://www.scania.com/content/dam/scanianoe/market/uk/brochures/truck/brochure/brochure-scania-next-gen-quick-guide.pdf — automatic retarder e freni ruota agiscono insieme alla pressione del pedale.",
+                "https://www.ilportaledellautomobilista.it/documents/56611/85457073/DomandeSuperiori.pdf/7725566d-e40f-4583-ad74-db4395d103cf — quesito 28596 e risposta FALSO."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "a2ea9bddbb7f009c59728c4b6b595d15ea0b122c39a480e5a1640626ad8c811e",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "9bf17c1947125220b74cf340c8523ffabedfff03eeb1b34225a70c4584616544",
+        "output_sha256": "92aea8f073cb268585729d199ca059e5ae4f7835a17dd1b187d0ff48fd13b99e",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          28576,
+          28577,
+          28578,
+          28579,
+          28580,
+          28581,
+          28582,
+          28583,
+          28584,
+          28585,
+          28586,
+          28587,
+          28588,
+          28589,
+          28590,
+          28591,
+          28592,
+          28593,
+          28594,
+          28595,
+          28596,
+          28597,
+          28598,
+          28599,
+          28600
+        ],
+        "issues": [
+          {
+            "number": 28583,
+            "reason": "The Cummins/Holset article Engines That Slow as Well as Go begins at printed p. 11 (PDF p. 12), not p. 1; correct the evidence pinpoint."
+          },
+          {
+            "number": 28586,
+            "reason": "The Cummins/Holset article Engines That Slow as Well as Go begins at printed p. 11 (PDF p. 12), not p. 1; correct the evidence pinpoint."
+          },
+          {
+            "number": 28591,
+            "reason": "The Cummins/Holset article Engines That Slow as Well as Go begins at printed p. 11 (PDF p. 12), not p. 1; correct the evidence pinpoint."
+          },
+          {
+            "number": 28597,
+            "reason": "The Cummins/Holset article Engines That Slow as Well as Go begins at printed p. 11 (PDF p. 12), not p. 1; correct the evidence pinpoint."
+          },
+          {
+            "number": 28592,
+            "reason": "The learner text presents the nearby combustion questions as the context in which the quiz marks FALSO, implying an official rationale. Evidence labels this only an inference. State the printed verdict separately and describe adjacent combustion questions as context without attributing that interpretation to the quiz."
+          },
+          {
+            "number": 28600,
+            "reason": "The sole cited Voith PDF https://voith.com/corp-en/VT_PERSPECTIVES_01_12_EN.pdf returns 404. The same Voith magazine is accessible at https://www.voith.com/corp-de/VT_PERSPECTIVES_01_12_EN.pdf, pp. 42–43; correct the URL."
+          }
+        ],
+        "review_evidence": [
+          "All assigned source statements and localized explanations reviewed. Exact WABCO EBS PDF exceeded browser size; integrated braking independently corroborated by Scania source cited in row 28596."
+        ]
+      }
+    ]
+  }
+}

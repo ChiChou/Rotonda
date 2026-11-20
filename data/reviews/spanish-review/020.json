@@ -1,0 +1,37 @@
+{
+  "batch": "020",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "2517d0c8b61050555ff21d1a31be00460680019b199a62ec1a7f9f4eaec47887",
+  "source_sha256": "91229a8aab3ee003daad7a5992aef57859439818343406746f012fa66dca2e42",
+  "corrections": [
+    {
+      "id": "1ad50e460a1d9951b4c36c490cd3ea48febe8e9f817ed91c65d04fe5475ab489",
+      "before": "Está prohibido detenerse en los cambios de rasante",
+      "after": "Está prohibido detenerse en los resaltos",
+      "reason": "'dossi' means speed humps; 'cambios de rasante' changes the meaning to grade changes"
+    },
+    {
+      "id": "1b69fd478fb158a0dc69427bf4968142425588d99c862fa9b9b79d358038d518",
+      "before": "El ABS nunca es necesario porque es un equipamiento opcional",
+      "after": "El ABS (dispositivo antibloqueo del sistema de frenos) nunca es necesario porque es un equipamiento opcional",
+      "reason": "Restituye la definición de ABS incluida en el original."
+    },
+    {
+      "id": "1bca2422fdde10e48273c687a08843c38d24938b0e9f30877abe054f750f0c64",
+      "before": "Al cruzar la frontera italo-suiza por Ponte Chiasso o Gaggiolo, la ficha de circulación debe ser llenada y firmada por el titular de la empresa de transporte",
+      "after": "Al cruzar la frontera italo-suiza por Ponte Chiasso (CO) o Gaggiolo (VA), la ficha de circulación debe ser llenada y firmada por el titular de la empresa de transporte",
+      "reason": "Restituye las siglas provinciales presentes en el original."
+    }
+  ],
+  "reviewed_file_sha256": "16eb6a14364c7786450c16284ba890accb1588cf5afb5c632b279e52932e5ab1"
+}

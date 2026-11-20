@@ -1,0 +1,846 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26435,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il tram ha la precedenza rispetto agli altri veicoli",
+          "answer": 1,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "b2479e57524dd27f6eeaf0629c42eb4298b02a14163848581f3d379baf41c884",
+        "localized_text": "在图示情况下，有轨电车优先于其他车辆通行。"
+      },
+      {
+        "source": {
+          "number": 26436,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il veicolo M attende il transito del veicolo O",
+          "answer": 1,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "008c27b1d054a51c87773c0a979a24c72c35709a909fbdd7a16ad8d5292fa15a",
+        "localized_text": "在图示情况下，车辆M等待车辆O通过。"
+      },
+      {
+        "source": {
+          "number": 26437,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il veicolo M attraversa l'incrocio insieme al tram",
+          "answer": 0,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4fdac972d10e63b075f2b6bbd5c8e96889b4b7f277a4d1c4ab113b2f2ab0ff58",
+        "localized_text": "在图示情况下，车辆M与有轨电车一起通过交叉路口。"
+      },
+      {
+        "source": {
+          "number": 26438,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il veicolo O attende il transito di tutti gli altri veicoli",
+          "answer": 0,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "a0ef6087b95a91f61d674a585acbe2201494be6cce1d0c90fb6eb36c5efdd3ac",
+        "localized_text": "在图示情况下，车辆O等待所有其他车辆通过。"
+      },
+      {
+        "source": {
+          "number": 26439,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il veicolo A dà la precedenza al tram ma non al veicolo M",
+          "answer": 0,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ebf094380397e2de9bc090733c0391c158e5168887be7a79483f9323babd47ca",
+        "localized_text": "在图示情况下，车辆A给有轨电车让行，但不给车辆M让行。"
+      },
+      {
+        "source": {
+          "number": 26440,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in modo da non costituire pericolo per la sicurezza delle persone",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "96a0673cc2cf3900807ea8732882ca1f3de52fda7b705fddf1c4e80aded22edc",
+        "localized_text": "必须调整速度，以免危及人员安全。"
+      },
+      {
+        "source": {
+          "number": 26441,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in modo da non causare disordine o intralcio alla circolazione",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e8bde192255f2492357448f67330aef627d708fce6e188d544b3d9e4bf3d15b8",
+        "localized_text": "必须调整速度，以免扰乱或妨碍交通。"
+      },
+      {
+        "source": {
+          "number": 26442,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in modo da consentire in ogni caso un tempestivo arresto del veicolo",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "8fe4b0a3fc34fa77a07b67a02fd97182097a19c20dbd1494e65f12d707e44ed3",
+        "localized_text": "必须调整速度，使车辆在任何情况下都能及时停下。"
+      },
+      {
+        "source": {
+          "number": 26443,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in relazione alle condizioni atmosferiche",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "52e58b911ccc5dcfb7b9ae3d186f8b9e70e53af7175adef0efd5649439082177",
+        "localized_text": "必须根据天气状况调整速度。"
+      },
+      {
+        "source": {
+          "number": 26444,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in relazione alla lunghezza del viaggio",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "28b9d1bb649056ff104b733daf54706dbb264768be2a0bac1aeca4a2712271f0",
+        "localized_text": "必须根据旅程长度调整速度。"
+      },
+      {
+        "source": {
+          "number": 26445,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in modo da garantire solo la sicurezza della persona trasportata",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "2429a49743e74746b8f4798554c48f587304ca1804d9e1eb610935c0eefdfeab",
+        "localized_text": "调整速度只需确保乘客的安全。"
+      },
+      {
+        "source": {
+          "number": 26446,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in base alla fretta del conducente",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e200117f1f4130967cecbae46c77e95109a7cd927af897389c6b6d9ecda8b4bb",
+        "localized_text": "必须根据驾驶人的紧迫程度调整速度。"
+      },
+      {
+        "source": {
+          "number": 26447,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alle caratteristiche e alle condizioni della strada",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "397fd9f2044573492becb155d86ce0f617fa3f1c2eb662a7f2bd46824f279bb0",
+        "localized_text": "驾驶人必须根据道路的特点和状况调整速度。"
+      },
+      {
+        "source": {
+          "number": 26448,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base all'efficienza dei freni del veicolo",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "98167e36308e3a052788443fcf5f5ea7b0a3f2fed3470641355b29be5f4a334c",
+        "localized_text": "驾驶人必须根据车辆制动器的性能调整速度。"
+      },
+      {
+        "source": {
+          "number": 26449,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alle condizioni del traffico",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "63c58da6bc1a324f93c9d3356c572678c4d332b554dc6676dd8554e47fb749ce",
+        "localized_text": "驾驶人必须根据交通状况调整速度。"
+      },
+      {
+        "source": {
+          "number": 26450,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alla marca dei pneumatici",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4ce5507c23c2fb775a84ab30247abfd2316ebdd1995451817d40a1c8a294b266",
+        "localized_text": "驾驶人必须根据轮胎品牌调整速度。"
+      },
+      {
+        "source": {
+          "number": 26451,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alla distanza della località da raggiungere",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "2d3ecb895c2963a5b950b2abc4f050109281d626a68dcdf16a33c43a77ef4afb",
+        "localized_text": "驾驶人必须根据到目的地的距离调整速度。"
+      },
+      {
+        "source": {
+          "number": 26452,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alla tabella di marcia che ha prestabilito",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "1fc0629c4cfde5cdb9088dc5cb4a686ac3f5e04b59b63114378f5b3aaacc2c31",
+        "localized_text": "驾驶人必须根据自己预定的行程表调整速度。"
+      },
+      {
+        "source": {
+          "number": 26453,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando è difficoltoso l'incrocio con altri veicoli",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4f71320632eb947bb015fc6fccae91cfd3bd2f9bf42ace3706d50d5c6c7f3c3c",
+        "localized_text": "与其他车辆会车困难时，必须减速，必要时停车。"
+      },
+      {
+        "source": {
+          "number": 26454,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando si rimane abbagliati",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5923962e8741de3e9215b2bebf43bff9fc32713b1f27192aa9d144e948acd272",
+        "localized_text": "当被强光炫目时，必须减速并在必要时停车"
+      },
+      {
+        "source": {
+          "number": 26455,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando i pedoni che si trovano sul percorso danno segni di incertezza",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "69879adf608390fd9076684ecbc50f7cd644995fbffe43f488d269a23dda7e65",
+        "localized_text": "行驶路线上的行人表现出犹豫时，必须减速，必要时停车。"
+      },
+      {
+        "source": {
+          "number": 26456,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi nei tratti di strada in salita",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "fc50c309442d00f46fb5a6d8920d13b0275350f25aae13ce0c09b0ab01af2f9c",
+        "localized_text": "在上坡路段必须减速，必要时停车。"
+      },
+      {
+        "source": {
+          "number": 26457,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi in presenza di tutti i segnali stradali",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c808e6ad03e7150f7561ac4c58b86650d8334ceffb5db9b75813ad95e97ee45c",
+        "localized_text": "遇到任何道路标志时都必须减速，必要时停车。"
+      },
+      {
+        "source": {
+          "number": 26458,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi nelle ore notturne",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "64d3ca1f67b2466a5f90b49a317294de3f130f6510233b45b773ccec356787f5",
+        "localized_text": "夜间必须减速，必要时停车。"
+      },
+      {
+        "source": {
+          "number": 26459,
+          "quesito_id": 5164,
+          "text_it": "Si è tenuti a regolare la velocità in base alle caratteristiche della strada",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "1378fdcd3e76f1508c36bd404be9d1d38e4cd4a2e81c9ed53d4fc08c5ac9b9d7",
+        "localized_text": "必须根据道路特点调整速度。"
+      }
+    ],
+    "task_sha256": "13537ccfce3aab7c256fcafbbc9c6d23d22be9387470883f3d59cd0b657048af"
+  },
+  "rows": [
+    {
+      "number": 26435,
+      "text": "有轨电车先行：通过有轨电车线路时，除非另有信号规定，应让轨道车辆先行。",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26436,
+      "text": "O在M的右侧，M必须等待O。有轨电车通过后，A驶到路口中央，为O让出通路。",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26437,
+      "text": "M不与有轨电车同时通过：它要等待O；O在电车通过、A驶到中央后通行。",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26438,
+      "text": "O不是最后通过：电车通过、A驶到中央后，O先于M通过。",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26439,
+      "text": "A等待有轨电车，然后驶到中央，还须让右侧的M先通过。",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26440,
+      "text": "车速须适应实际情况，避免危及所有人，包括车外人员。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26441,
+      "text": "车速不合适可能妨碍交通：应适应交通状况，也要避免无故行驶过慢。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 6, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26442,
+      "text": "必须保持对车辆的控制，能在可见距离内及可预见的障碍物前及时停车。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2 e 3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26443,
+      "text": "下雨或视线不良会改变驾驶条件：车速也须适应天气。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2 e 3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26444,
+      "text": "行程长度不能决定车速：应考虑道路、交通和车辆状况。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26445,
+      "text": "安全涉及所有人，不仅是乘客：车速须适应交通状况。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26446,
+      "text": "赶时间不能成为车速不合适的理由：应考虑道路、交通和车辆状况。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26447,
+      "text": "道路特点和状况影响驾驶：车速必须使驾驶人能够保持控制。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26448,
+      "text": "选择能保持控制并及时停车的车速时，要考虑车辆状况，包括制动器的效能。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26449,
+      "text": "车速须适应交通状况，避免危险和阻碍交通。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26450,
+      "text": "决定车速的不是轮胎品牌，而是车辆状况以及能否控制车辆。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26451,
+      "text": "目的地的距离不能决定车速：应根据道路和交通状况调整。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26452,
+      "text": "预定行程表不能决定车速：应根据实际交通状况调整。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26453,
+      "text": "与对向车辆会车困难时，应减速，必要时停车，让双方安全通过。",
+      "evidence": [
+        "Codice della strada art. 141 commi 4, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26454,
+      "text": "眩光会降低能见度：应减速，必要时停车，以保持控制。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2 e 3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26455,
+      "text": "行驶路线上犹豫的行人可能做出难以预料的动作：应减速，必要时停车。",
+      "evidence": [
+        "Codice della strada art. 141 commi 4, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26456,
+      "text": "仅因道路上坡，并不要求减速并在必要时停车；但仍须根据实际路况调整车速。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2, 3 e 4, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle circostanze e regolata di notte; riduzione e arresto se necessario nelle specifiche situazioni del comma 4."
+      ]
+    },
+    {
+      "number": 26457,
+      "text": "并非所有标志都要求减速或停车：应遵守具体规定，并根据情况调整车速。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26458,
+      "text": "仅因处于夜间，并不要求减速并在必要时停车；但仍须根据能见度和实际情况调整车速。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2, 3 e 4, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle circostanze e regolata di notte; riduzione e arresto se necessario nelle specifiche situazioni del comma 4."
+      ]
+    },
+    {
+      "number": 26459,
+      "text": "弯道和能见度等道路特点影响能够保持车辆控制的车速。",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2 e 3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "13537ccfce3aab7c256fcafbbc9c6d23d22be9387470883f3d59cd0b657048af",
+    "output_sha256": "4caa554557f1f31b7c99afa70501f598c53fdd8ca3f4b8c7da5f8506654bd22a",
+    "author": "gpt-6.1-terra / 01a1e9e6-8aee-7bd1-9f9b-b8f3343e68c0",
+    "reviewer": "gpt-6.1-terra / 01a1e9e7-85ef-75b2-a9ab-5b86343741fd",
+    "status": "accepted",
+    "checked_numbers": [
+      26435,
+      26436,
+      26437,
+      26438,
+      26439,
+      26440,
+      26441,
+      26442,
+      26443,
+      26444,
+      26445,
+      26446,
+      26447,
+      26448,
+      26449,
+      26450,
+      26451,
+      26452,
+      26453,
+      26454,
+      26455,
+      26456,
+      26457,
+      26458,
+      26459
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "702b6569b3139111a8cc457222cb7f54ff9100b5573d9ae65ad16990641da614",
+        "attached_image_paths": [
+          "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png"
+        ],
+        "attached_image_sha256": [
+          "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "f9e0a0f4d05553cda1eebd0d305968ead37e5c6234b925207d50c64ee0731086",
+        "attached_image_paths": [
+          "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png"
+        ],
+        "attached_image_sha256": [
+          "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7"
+        ]
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "a6dca29be20ffbb40da372232cf7e53d760db8d2578dcdebaef30a24015e4949",
+          "attached_image_paths": [
+            "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png"
+          ],
+          "attached_image_sha256": [
+            "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7"
+          ]
+        }
+      },
+      {
+        "run_id": "01a1e9e6-8aee-7bd1-9f9b-b8f3343e68c0",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "702b6569b3139111a8cc457222cb7f54ff9100b5573d9ae65ad16990641da614",
+          "attached_image_paths": [
+            "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png"
+          ],
+          "attached_image_sha256": [
+            "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "592f7952ec3b6eae10952fd97e8dcde14e2af6d52065762ebc227c50ae36e6ae",
+          "output_sha256": "f1a7e50f25756ca75fd0ae72c8dff9d1aa29265d13bb6d73d3cb8bd1dc1d94d6",
+          "author": "gpt-6.1-terra / 01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+          "reviewer": "gpt-6.1-terra / 01a1e9e5-799c-7341-969d-993e007fe1c0",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26435,
+            26436,
+            26437,
+            26438,
+            26439,
+            26440,
+            26441,
+            26442,
+            26443,
+            26444,
+            26445,
+            26446,
+            26447,
+            26448,
+            26449,
+            26450,
+            26451,
+            26452,
+            26453,
+            26454,
+            26455,
+            26456,
+            26457,
+            26458,
+            26459
+          ],
+          "issues": [
+            "26456, 26458: The correction describes the rejected duty as slowing down AND stopping, omitting that stopping is only required if necessary. This weakens the distinction tested and can suggest the claim is false because a stop is always required. State that the uphill stretch or nighttime alone does not require slowing down with a stop if needed, while speed must still be adjusted to actual conditions."
+          ]
+        },
+        {
+          "task_sha256": "fed7268fd634f3fe3c09b17fbe6f99d1dd4afa949464d9fb5aed0cc59fa31941",
+          "output_sha256": "bc3c40aa02279a4855ab011ea4e3eb5a471e8ddabfa6a221f836e4ccba9b1da3",
+          "author": "gpt-6.1-terra / 01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+          "reviewer": "gpt-6.1-terra / 01a1e9e5-799c-7341-969d-993e007fe1c0",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26435,
+            26436,
+            26437,
+            26438,
+            26439,
+            26440,
+            26441,
+            26442,
+            26443,
+            26444,
+            26445,
+            26446,
+            26447,
+            26448,
+            26449,
+            26450,
+            26451,
+            26452,
+            26453,
+            26454,
+            26455,
+            26456,
+            26457,
+            26458,
+            26459
+          ],
+          "issues": [
+            "26456, 26458: The correction describes the rejected duty as slowing down AND stopping, omitting that stopping is only required if necessary. This weakens the distinction tested and can suggest the claim is false because a stop is always required. State that the uphill stretch or nighttime alone does not require slowing down with a stop if needed, while speed must still be adjusted to actual conditions."
+          ]
+        },
+        {
+          "task_sha256": "13537ccfce3aab7c256fcafbbc9c6d23d22be9387470883f3d59cd0b657048af",
+          "output_sha256": "d097f66c0f8ac79e7b1785aee5be9ffee91e59953796d1175da588f6ea20775a",
+          "author": "gpt-6.1-terra / 01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+          "reviewer": "gpt-6.1-terra / 01a1e9e5-799c-7341-969d-993e007fe1c0",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26435,
+            26436,
+            26437,
+            26438,
+            26439,
+            26440,
+            26441,
+            26442,
+            26443,
+            26444,
+            26445,
+            26446,
+            26447,
+            26448,
+            26449,
+            26450,
+            26451,
+            26452,
+            26453,
+            26454,
+            26455,
+            26456,
+            26457,
+            26458,
+            26459
+          ],
+          "issues": [
+            "26456, 26458: The correction describes the rejected duty as slowing down AND stopping, omitting that stopping is only required if necessary. This weakens the distinction tested and can suggest the claim is false because a stop is always required. State that the uphill stretch or nighttime alone does not require slowing down with a stop if needed, while speed must still be adjusted to actual conditions."
+          ]
+        },
+        {
+          "task_sha256": "d20f957faecfb26f9c00d4164a0600310df5f90f37368394d52ec1958c4e2429",
+          "output_sha256": "5bc91c098e86c733d2b421449cfc324375001df919fa57c8658943d38450c570",
+          "author": "gpt-6.1-terra / 01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+          "reviewer": "gpt-6.1-terra / 01a1e9e5-799c-7341-969d-993e007fe1c0",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26435,
+            26436,
+            26437,
+            26438,
+            26439,
+            26440,
+            26441,
+            26442,
+            26443,
+            26444,
+            26445,
+            26446,
+            26447,
+            26448,
+            26449,
+            26450,
+            26451,
+            26452,
+            26453,
+            26454,
+            26455,
+            26456,
+            26457,
+            26458,
+            26459
+          ],
+          "issues": [
+            "26456, 26458: The correction describes the rejected duty as slowing down AND stopping, omitting that stopping is only required if necessary. This weakens the distinction tested and can suggest the claim is false because a stop is always required. State that the uphill stretch or nighttime alone does not require slowing down with a stop if needed, while speed must still be adjusted to actual conditions.",
+            "26444: La duración del recorrido means journey duration, whereas the Italian source and explanation refer to journey length or distance. Use longitud or distancia del viaje to preserve the tested distinction."
+          ]
+        }
+      ]
+    ]
+  }
+}

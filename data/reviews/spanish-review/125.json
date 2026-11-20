@@ -1,0 +1,25 @@
+{
+  "batch": "125",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "59fecbba675adb658d475a466ad4dd130a742cb71ff70872a428795afa818901",
+  "source_sha256": "4333442c695bb27107b4d2c450b0350a141a3628f3ea1c020f4c9ad86c140edf",
+  "corrections": [
+    {
+      "id": "a7c08f4689dbf750eb5ccb81488143252b259900c75ef835d3cb642a54e2e90a",
+      "before": "La declaración aduanera solo puede hacerse completando el formulario DUA",
+      "after": "La declaración aduanera solo puede hacerse completando el formulario DAU",
+      "reason": "Keep the Italian code DAU, not the Spanish DUA"
+    }
+  ],
+  "reviewed_file_sha256": "e14896a3b416fba823f9e474869d6d21a2535a1d7fd43e220c506827abb7ea43"
+}

@@ -1,0 +1,31 @@
+{
+  "batch": "002",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "da94a9310dced36995e4a37ea388968d602ab6279fe7cb0931c86d7ce5b19b5f",
+  "source_sha256": "8bc82c408de7cccf4b407fc2ccc252265dd359c8ced215b5a3de382b2fac1479",
+  "corrections": [
+    {
+      "id": "0313751496d3485b470953411405418b72bceb51de11d399408442c41bde36f3",
+      "before": "Si no se localiza al destinatario o este se niega a solicitar la entrega de las mercancías transportadas o se demora en hacerlo, el conductor debe pedir inmediatamente instrucciones al responsable de la empresa para la que trabaja",
+      "after": "Si no se localiza al destinatario o este se niega a solicitar la devolución de las mercancías transportadas o se demora en hacerlo, el conductor debe pedir inmediatamente instrucciones al responsable de la empresa para la que trabaja",
+      "reason": "'riconsegna' is redelivery/return of the goods, not delivery"
+    },
+    {
+      "id": "032eced09dcab74766f66e8c170a45b74bd0c294be26a4077daa9ae9b7d84710",
+      "before": "La señal mostrada se coloca en maquinaria de mantenimiento vial detenida en la calzada",
+      "after": "La señal mostrada se coloca en maquinaria de mantenimiento vial estacionada en la calzada",
+      "reason": "Distingue la maquinaria estacionada (en sosta) de una parada o detención momentánea."
+    }
+  ],
+  "reviewed_file_sha256": "4f970d64a9aaccf85b9dd9a5c43dd389f20d0a737d70540d52127e70f4c7c79b"
+}

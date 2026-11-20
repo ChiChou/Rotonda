@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed46-eed0-7bf0-9d9b-6ef6f09b9ac8"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 34695,
+          "quesito_id": 7258,
+          "text_it": "Le strade regionali collegano i capoluoghi di provincia della stessa regione",
+          "answer": 1,
+          "page": 121,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a4f94e2b18e04a616332c6f817ab8e990353458700707b9943899418609dd834",
+        "italian": "VERO. Tra i criteri delle strade regionali extraurbane c'è il collegamento fra capoluoghi di provincia della stessa regione.",
+        "italian_sha256": "7185d14dab23f8ffed40ebdb6d3dc9128c0c3fc97fdf27dc5e383054ed42d2e3"
+      },
+      {
+        "source": {
+          "number": 34696,
+          "quesito_id": 7258,
+          "text_it": "Le strade statali debbono attraversare almeno tre regioni",
+          "answer": 0,
+          "page": 121,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5ad0d707e20719b37e93068a46dcd4e3b3991143225505074f05935a575e3810",
+        "italian": "FALSO. Una strada statale non deve attraversare almeno tre regioni: può essere tale, per esempio, perché costituisce una grande direttrice del traffico nazionale.",
+        "italian_sha256": "5a49f6f888c41c90533ad3ef7b2bfa0ff9bcaeb9aa2fd81134fe2eb54c4f1ebe"
+      },
+      {
+        "source": {
+          "number": 34697,
+          "quesito_id": 7258,
+          "text_it": "Si definisce \"strada\" l'area ad uso pubblico destinata alla circolazione dei veicoli dei pedoni e degli animali",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "621b02846eb86255287f53b339584e56839ee45186bac144698a5e1efa812604",
+        "italian": "VERO. Il Codice definisce strada l'area a uso pubblico destinata alla circolazione di pedoni, veicoli e animali.",
+        "italian_sha256": "98396b4fc322c0a73fcbb165daa6d7206900d121e8fee5b96d7eb69c65646491"
+      },
+      {
+        "source": {
+          "number": 34698,
+          "quesito_id": 7258,
+          "text_it": "Le strade regionali collegano i capoluoghi di due regioni diverse",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a6390229ecca12fbab97505d2d5f35db36a734ac4383090d87e6baaf2e6ef1ee",
+        "italian": "FALSO nel criterio di classificazione del quiz: il collegamento fra capoluoghi di regioni diverse è indicato fra i criteri delle strade statali. Questo non esclude che una strada regionale possa attraversare un confine regionale.",
+        "italian_sha256": "59028f231b0933adc043751a07414a837b38c5f88966f67a32139b2086336a74"
+      },
+      {
+        "source": {
+          "number": 34699,
+          "quesito_id": 7258,
+          "text_it": "Le strade comunali sono riservate ai veicoli a motore",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9d614d2a8a3030ec7bb2895b4bdd123887bcb6617869b8485364f6ba43356f7b",
+        "italian": "FALSO. La classificazione comunale non riserva la strada ai veicoli a motore; la strada è destinata alla circolazione anche di pedoni e animali.",
+        "italian_sha256": "710150eba1928853c0be74acb4613146175e1e206c386bbd64933fec1b039fa1"
+      },
+      {
+        "source": {
+          "number": 34700,
+          "quesito_id": 7258,
+          "text_it": "Le strade statali possono congiungere la rete viabile principale dello Stato con quelle degli Stati limitrofi",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6ad97cc062e9494eb8d7ca0df5e4722fe9ecfd57510b02d90ed3dcbca998320d",
+        "italian": "VERO. Il collegamento della rete viabile principale dello Stato con quella degli Stati limitrofi è uno dei criteri delle strade statali.",
+        "italian_sha256": "6b121ce653a46ab0da21b3a2bdc923158349552eb70c78d4dff8c46dc6889e1c"
+      },
+      {
+        "source": {
+          "number": 34701,
+          "quesito_id": 7258,
+          "text_it": "L'autostrada è una strada a carreggiate separate prive di intersezioni a raso",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "129fd7199d9c2e554896f535ef82b42eab2de0a271106808d70a270f121141e2",
+        "italian": "VERO. L'autostrada ha carreggiate indipendenti o separate da spartitraffico invalicabile ed è priva di intersezioni a raso.",
+        "italian_sha256": "98d19e2bc9d7d185cbafba26e10408cf6d92f1784e7b2d13e33c34798e501f2d"
+      },
+      {
+        "source": {
+          "number": 34702,
+          "quesito_id": 7258,
+          "text_it": "Le strade provinciali collegano il capoluogo di provincia e i capoluoghi dei singoli comuni di quella stessa provincia",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9090c3d86f0e4551df016de3097faf260d5a94fc9a096f8b56ec11545eb22309",
+        "italian": "VERO. Il collegamento del capoluogo di provincia con i capoluoghi dei comuni della stessa provincia è uno dei criteri delle strade provinciali extraurbane.",
+        "italian_sha256": "d142eb7d114654b0a5023e8e0d5d45148d29d2e38f48ab521822a0623292af16"
+      },
+      {
+        "source": {
+          "number": 34703,
+          "quesito_id": 7258,
+          "text_it": "Le strade statali possono collegare fra loro capoluoghi di regione",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "296dc7ed4e7f2fd2fd51def7110ad1f1a49135432e9696799847ff9dd2d81183",
+        "italian": "VERO. Il collegamento fra capoluoghi di regione è uno dei criteri previsti per le strade statali.",
+        "italian_sha256": "c71bf7895306e9d9583435559bfc96c28e7b0259b6f684721ad80ad9455d9873"
+      },
+      {
+        "source": {
+          "number": 34704,
+          "quesito_id": 7258,
+          "text_it": "Si definisce \"strada\" qualunque area sulla quale possono transitare pedoni, veicoli, animali",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "61eaaca003fe9a42a2f14dac3131560c71d8a26b9d0417c5f76babcf2d1a0626",
+        "italian": "FALSO. Non basta che vi si possa transitare: per il Codice la strada è un'area a uso pubblico destinata alla circolazione.",
+        "italian_sha256": "abcad07b1a7c0bd38ab368b94b85e6ec6ec80f069510ac195679cd7b3d050348"
+      },
+      {
+        "source": {
+          "number": 34705,
+          "quesito_id": 7258,
+          "text_it": "Dal punto di vista amministrativo le strade sono suddivise in statali, regionali, provinciali, comunali",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6cf7ddd7a0e26c5a5887c45a91814641f1728215b51b9e493e61c3128824d407",
+        "italian": "VERO. Per le esigenze amministrative il Codice distingue le strade in statali, regionali, provinciali e comunali.",
+        "italian_sha256": "49eb54a19780ce563fef8d1c4a8142f658a78d53a913c6c8e8e4b4cc43d9876a"
+      },
+      {
+        "source": {
+          "number": 34706,
+          "quesito_id": 7258,
+          "text_it": "L'autostrada rientra nella classificazione delle strade",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8cdfce1106d5366c841257fcc695e08ad828e0b9996d61f883fb2d0157e018e7",
+        "italian": "VERO. L'autostrada è uno dei tipi previsti dalla classificazione delle strade secondo le caratteristiche costruttive, tecniche e funzionali.",
+        "italian_sha256": "b7bf25008965dc3dca20a2c306767b984d4405931bff43c119eb47d3a1a1525e"
+      },
+      {
+        "source": {
+          "number": 34707,
+          "quesito_id": 7258,
+          "text_it": "La strada è l'area ad uso pubblico destinata alla circolazione dei pedoni, dei veicoli e degli animali",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "37f8d3803b8b029fcc97ab32cb5fd13d0b9ba9127d33d99efd5e53903e548449",
+        "italian": "VERO. Per il Codice la strada è un'area a uso pubblico destinata alla circolazione di pedoni, veicoli e animali.",
+        "italian_sha256": "3e85b64ec03d1924ee4176547a00e899598ef492631fba6eadabe3c030760d37"
+      },
+      {
+        "source": {
+          "number": 34708,
+          "quesito_id": 7258,
+          "text_it": "Le strade extraurbane principali sono percorribili da tutte le categorie di veicoli",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7cc878e234fdcef265f0fa10dae0c4e3833d85f539671bc81ed089f56abc85d2",
+        "italian": "FALSO. Le strade extraurbane principali sono riservate a determinate categorie: per esempio i ciclomotori sono esclusi.",
+        "italian_sha256": "1754b772ebe612f2e7461721c673a1fc27bb2a76a68ebc97d7384e7efbfbd81c"
+      },
+      {
+        "source": {
+          "number": 34709,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane principali collegano esclusivamente capoluoghi di provincia",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7fc645ad75c90f0db7ca05ef1fc191f7b9ddd00e68fa7162789e23d14bc2a10a",
+        "italian": "FALSO. Extraurbana principale indica un tipo di strada definito dalle sue caratteristiche tecniche, non un collegamento esclusivo fra capoluoghi di provincia.",
+        "italian_sha256": "a4a783a430edcaeba7ea8565144f4e4a36c12d21fd58f02355d76904b2fb9a76"
+      },
+      {
+        "source": {
+          "number": 34710,
+          "quesito_id": 7259,
+          "text_it": "Gli accessi alle proprietà laterali di una strada extraurbana principale sono coordinati",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7918038f13501f86130e631e1179f67068c4bef979f288799402505701a54da5",
+        "italian": "VERO. La strada extraurbana principale prevede accessi coordinati alle proprietà laterali.",
+        "italian_sha256": "b9b468c7a61dc8c3a2813a08f7a32db37ebabf57cf6c80a1013f93e4d3120540"
+      },
+      {
+        "source": {
+          "number": 34711,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane principali sono prive di intersezione a raso",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fffb44f867449cc1bb883b94b5b7c6ab7d3405aae577b60212af17025c06bce5",
+        "italian": "La strada extraurbana principale non ha incroci a livello: le intersezioni sono organizzate senza attraversamenti a raso.",
+        "italian_sha256": "da5211c490fdcc81ec2c72621fcda51c129dc04538be2ec4b0e80a66db028601"
+      },
+      {
+        "source": {
+          "number": 34712,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane principali sono tutte strade statali",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "be29b81ea94e30c13931809c9666170f9e7d82f9d2470c9134c61f68188926dc",
+        "italian": "Non sono tutte statali: principale indica una categoria tecnica, mentre statale è una classificazione amministrativa basata sulla funzione della strada.",
+        "italian_sha256": "5d766c7a6f01952352f005ab0d06fd8ed9f6b54d71a588dc025b6aec8ec1b442"
+      },
+      {
+        "source": {
+          "number": 34713,
+          "quesito_id": 7259,
+          "text_it": "Sulle strade extraurbane principali a tre corsie per senso di marcia, la corsia di destra è riservata agli autobus e agli autocarri",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "aff46d29d77742946f298a27c407d2da70a040139447223d42db90f992b9400b",
+        "italian": "La corsia destra non è riservata ad autobus e autocarri: salvo diversa segnalazione, tutti devono usare la corsia libera più a destra.",
+        "italian_sha256": "4f5fc690f0923b0943e53f14f011939600f9b53c63dbb3eb01a2d2b7dbcbd42f"
+      },
+      {
+        "source": {
+          "number": 34714,
+          "quesito_id": 7259,
+          "text_it": "Sulle strade extraurbane principali a tre corsie per senso di marcia, il sorpasso può essere effettuato utilizzando una qualunque delle tre corsie",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "accbf3f4b45e8dc103826f02aecc912e23ba0e45556de916fd33c29c81f4381c",
+        "italian": "Non si può scegliere una corsia qualsiasi: il sorpasso va normalmente effettuato sulla corsia immediatamente a sinistra del veicolo da superare.",
+        "italian_sha256": "3e7b47a72be677c629af65807a085a0581530f98f2e88300410c6836274b675c"
+      },
+      {
+        "source": {
+          "number": 34715,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane secondarie debbono essere a carreggiate separate",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "11d45dfc3fef2171bf36e9989d4b2307c9f8b29975f8b143b3cd8e856d59e865",
+        "italian": "Non devono avere carreggiate separate: la strada extraurbana secondaria è definita a carreggiata unica, con almeno una corsia per senso di marcia.",
+        "italian_sha256": "7ffdac0dcc0159f7c4d75024b095013fcb08bff0f192eaf68415581ffa880133"
+      },
+      {
+        "source": {
+          "number": 34716,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane secondarie hanno almeno una corsia per senso di marcia",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "52378faff5c5d3aff18d94f0ec726d9635dc26d8d1a60c4526794a3f3d403b83",
+        "italian": "La strada extraurbana secondaria ha un'unica carreggiata con almeno una corsia per ciascun senso di marcia.",
+        "italian_sha256": "e3c0d5b4086801e9b82f7c9291e49bd3bba0011b75f5e01c640d83da9fa9fae8"
+      },
+      {
+        "source": {
+          "number": 34717,
+          "quesito_id": 7259,
+          "text_it": "Le intersezioni a raso sono presenti sulle strade extraurbane secondarie",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "91423861a2aa31fe166cc8b9de17e1c3c169224af7fca45035d109a6ec7b62f3",
+        "italian": "Sulle strade extraurbane secondarie possono esserci intersezioni a raso. La definizione non impone però che siano presenti su ogni singola strada.",
+        "italian_sha256": "e8778fbbdd272860f7d64ec0b80d4aacc78900813165a98ce8f6e8f6b756c995"
+      },
+      {
+        "source": {
+          "number": 34718,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane principali hanno intersezioni a raso",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c680f801d4dbfcef86ffa69339e622ef71b214feeee1d9886c6772bc5f822399",
+        "italian": "È errato attribuire loro intersezioni a raso: la strada extraurbana principale ne è priva.",
+        "italian_sha256": "85464944174bfbfc848b6321db57bbdd5e1b4bb906c6cc1f4078ca1849ddc926"
+      },
+      {
+        "source": {
+          "number": 34719,
+          "quesito_id": 7259,
+          "text_it": "Nelle strade extraurbane principali, le corsie diverse da quella di destra sono destinate al sorpasso",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8da3862a2e8dab27c518c61ef435f3bf08e2e59e3384b1e5f36ef8079a46b531",
+        "italian": "Salvo diversa segnalazione, si percorre la corsia libera più a destra; le corsie a sinistra sono riservate al sorpasso.",
+        "italian_sha256": "d82b2ca2d8607bd2d567de6d8ef9c6d63bc41c61f4d00b108d7f501dd194fccc"
+      },
+      {
+        "source": {
+          "number": 34720,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane principali hanno carreggiate indipendenti",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "1ea8e0e99420dd3490870dca82b073144d1245013db0df7e9470ca2daecf35dd",
+        "italian": "Le carreggiate sono indipendenti oppure separate da uno spartitraffico invalicabile: la legge ammette entrambe le soluzioni.",
+        "italian_sha256": "1917d1c05682ca83ba4d18637ef7daa7c58046386225aa1f74527167831305fc"
+      },
+      {
+        "source": {
+          "number": 34721,
+          "quesito_id": 7259,
+          "text_it": "Sulle strade extraurbane secondarie non sussiste l'obbligo delle banchine",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c3a72fd0522d4a2810aa724833d58d42b07f5cfc0a8c7359f32d9886824a830b",
+        "italian": "È errato dire che le banchine non sono obbligatorie: la definizione della strada extraurbana secondaria le prevede.",
+        "italian_sha256": "06a3c522af40c212717d6e7b580cd4a65998279d82a465ab6fa75a46e4d14599"
+      },
+      {
+        "source": {
+          "number": 34722,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane principali sono percorribili solo da alcune categorie di veicoli",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bf961a170ca64258ad25b7086f9278bd753f386ffd657466077a7ab2d0295590",
+        "italian": "La circolazione è riservata a determinate categorie di veicoli a motore; ad esempio, i velocipedi non sono ammessi.",
+        "italian_sha256": "a80c01a32ae6da524c592f5de26ec35995d9f731f9653b0d8d22178f17dafbeb"
+      },
+      {
+        "source": {
+          "number": 34723,
+          "quesito_id": 7259,
+          "text_it": "Le strade extraurbane secondarie sono prive di intersezioni a raso",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4b991273ddb914bf21167a570dbb34ef93d5170c616314ced414ccb36b91eabe",
+        "italian": "Non è vero che siano prive di intersezioni a raso: sulle strade extraurbane secondarie possono esserci incroci a livello.",
+        "italian_sha256": "bcab489b54c1bffcd7699b751eef8a38f9852e402e20607e0fbeb5d8f50f709f"
+      },
+      {
+        "source": {
+          "number": 34724,
+          "quesito_id": 7259,
+          "text_it": "È vietato il trasporto di merci pericolose sulle strade extraurbane principali",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "97396d882b6e0f457494c0811adf1dc737486004ee21be7a0567f28a38b46e11",
+        "italian": "Non esiste un divieto generale per tutte le merci pericolose sulle extraurbane principali. Il trasporto resta soggetto alle norme di sicurezza e alle eventuali autorizzazioni o restrizioni applicabili.",
+        "italian_sha256": "34654861e22e8f8cdd0574a7fd6e994c2a0c7c0b78f72a4a516817fb8028caea"
+      },
+      {
+        "source": {
+          "number": 34725,
+          "quesito_id": 7260,
+          "text_it": "Le strade extraurbane principali debbono essere attrezzate con apposite aree di servizio",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8c45e365b1e3d133fd2b182fbd73bbd3ff26ba9e5c13f309279acfc304b81383",
+        "italian": "La strada extraurbana principale deve avere aree di servizio con spazi per la sosta e accessi dotati di corsie di decelerazione e accelerazione.",
+        "italian_sha256": "cc17139ee82560afe9fe425d5efa4adf51804118a90700b0d23b1bc281247c5c"
+      },
+      {
+        "source": {
+          "number": 34726,
+          "quesito_id": 7260,
+          "text_it": "Le strade extraurbane secondarie sono munite di banchine",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "87e9bbd557ae6cf326dd0a04289045de6eaa2358872782a465fc8f8074c37a19",
+        "italian": "La presenza delle banchine è prevista nella definizione di strada extraurbana secondaria.",
+        "italian_sha256": "60a9e69ac6cd654edf38a9e5f09e3636de8788c7c03caa74055f822582b2346f"
+      },
+      {
+        "source": {
+          "number": 34727,
+          "quesito_id": 7260,
+          "text_it": "Nelle strade extraurbane principali, tutti i veicoli devono ordinariamente marciare sulla corsia di destra",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0718a54b728be67c3bac0eca109b3b148ab4054943458a35b098e11d4590f76a",
+        "italian": "Di norma, e salvo diversa segnalazione, si usa la corsia libera più a destra; quelle a sinistra servono per il sorpasso.",
+        "italian_sha256": "4418926dc3aa898aaec2793ff67d780143831a3883fd53f8f570d9b266b211fa"
+      },
+      {
+        "source": {
+          "number": 34728,
+          "quesito_id": 7260,
+          "text_it": "Le strade urbane di scorrimento sono a carreggiata unica e doppio senso di marcia",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "288b41fd5b9f7d35570c99dfb040329ca712afbe87bcd49c62436c4776ebad8d",
+        "italian": "Non è definita a carreggiata unica: la strada urbana di scorrimento ha carreggiate indipendenti o separate da spartitraffico.",
+        "italian_sha256": "697ad20fc7c39952f864843acb7e5ff2e6baa9ae56d390962f9e6e47da4ffa29"
+      },
+      {
+        "source": {
+          "number": 34729,
+          "quesito_id": 7260,
+          "text_it": "Le strade urbane di scorrimento sono dotate di intersezioni a raso regolamentate da semaforo",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "22c78df97b47589342839b73aa900f2ab21c16bd5d223b6d33c5304c38308bda",
+        "italian": "Le eventuali intersezioni a raso della strada urbana di scorrimento sono regolate da semaforo. La norma non richiede che ogni strada ne abbia.",
+        "italian_sha256": "c28144a35f8cf0f1164ca503b1401137322e34a4b4d42da32e876a6384d8ea19"
+      },
+      {
+        "source": {
+          "number": 34730,
+          "quesito_id": 7260,
+          "text_it": "L'area pedonale è un'area nella quale è vietata la circolazione dei velocipedi (biciclette)",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "28a3d804bf946c230d1f2013eb29cbeac92d4d99086598bb18f9015112dfc29e",
+        "italian": "Le biciclette non sono vietate in generale: i velocipedi sono tra le eccezioni ammesse, salvo eventuali restrizioni comunali segnalate.",
+        "italian_sha256": "11d1f98a2f47a6bd317b7e098a10253fb04d041b10940ba6c7a6b8dee7390cf5"
+      },
+      {
+        "source": {
+          "number": 34731,
+          "quesito_id": 7260,
+          "text_it": "L'area pedonale è una zona nella quale possono transitare veicoli al servizio di persone con limitate o impedite capacità motorie",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "289506b616c43bae4cd12c80c0736b207ba60cbd29348bf5f8d71c657191d0d6",
+        "italian": "I veicoli al servizio di persone con limitate o impedite capacità motorie rientrano tra le eccezioni al divieto di circolazione nell'area pedonale, fatte salve eventuali restrizioni segnalate.",
+        "italian_sha256": "7265f345ae0ef02920604148998f512e99b79e7fa67054ccd525bd3cde6ae4d7"
+      },
+      {
+        "source": {
+          "number": 34732,
+          "quesito_id": 7260,
+          "text_it": "Nell'area pedonale è vietata la sosta da 15 metri prima a 15 metri dopo i suoi limiti",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "918669f961a568407c62321a95cddf7f2c82c4a3eaa2912074eafbb5a59c525b",
+        "italian": "Il divieto non si estende automaticamente per 15 metri prima e dopo i confini: la sosta è vietata nelle aree pedonali urbane, oltre che negli altri casi previsti o segnalati.",
+        "italian_sha256": "413325a2e8d108e7a1c19c8f51229ddd9a2fe0307e1db77ae4badb96296261aa"
+      },
+      {
+        "source": {
+          "number": 34733,
+          "quesito_id": 7260,
+          "text_it": "L'area pedonale è un'area dove possono transitare i veicoli in servizio di emergenza",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e26bcffbd109d7d8e5648cc526dbe499de136fc24970e1fdd765fec41fc2b269",
+        "italian": "I veicoli in servizio di emergenza rientrano tra le eccezioni al divieto generale di circolazione nell'area pedonale.",
+        "italian_sha256": "6d32e3ff646ecc84b9a8eb238c920e016dbb884042fa9467c8b3c8989178d75b"
+      },
+      {
+        "source": {
+          "number": 34734,
+          "quesito_id": 7260,
+          "text_it": "L'area pedonale è delimitata da marciapiedi col ciglio dipinto di bianco- nero",
+          "answer": 0,
+          "page": 122,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c047ab54d26cacc61abc160e932edb78ec8b7dd8fd8d913d1982f53d1ac633b3",
+        "italian": "Non è il ciglio bianco e nero a delimitare l'area pedonale: il suo inizio è indicato dall'apposito segnale, eventualmente accompagnato da un pannello integrativo.",
+        "italian_sha256": "c0016b13846eea5cc29661ca622a52c8ce3263a5942f72443b86f1438cab7421"
+      },
+      {
+        "source": {
+          "number": 34735,
+          "quesito_id": 7260,
+          "text_it": "L'area pedonale è un'area dove possono eventualmente circolare solo i veicoli rappresentati nel pannello integrativo",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3ebf57e2f08b481009909912d11c44e7a4d82fc191534da96e156d002fdc9844",
+        "italian": "Il pannello integrativo può indicare le deroghe e le eccezioni al divieto di circolazione. La parola «solo» va però letta tenendo conto anche delle eccezioni previste dalla legge, come i veicoli in emergenza.",
+        "italian_sha256": "bbe83dc725a74e431ef791ad75d3cd75ab1beea63da474fe8f3d0c306b964ae2"
+      },
+      {
+        "source": {
+          "number": 34736,
+          "quesito_id": 7260,
+          "text_it": "L'area pedonale è un'area nella quale possono circolare i veicoli al servizio di persone con limitate capacità motorie",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "318a92172af3303d20c8ff8c45a6a937138cc20d98b1caa6ed3ed4ee8d21a471",
+        "italian": "I veicoli al servizio di persone con capacità motorie limitate o impedite sono ammessi nell’area pedonale, salvo eventuali ulteriori restrizioni comunali segnalate.",
+        "italian_sha256": "11529e498c371e94a0fd1b6c4a85dd37297593fdeeebd97d8f9abfaf158d6098"
+      },
+      {
+        "source": {
+          "number": 34737,
+          "quesito_id": 7260,
+          "text_it": "L'area pedonale è destinata alla circolazione dei pedoni, delle biciclette e degli autobus",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "91f04351863a042b2f4693f7a0036f9ac200249f98f6923f639b80e21fb235e9",
+        "italian": "Gli autobus non sono normalmente ammessi nell’area pedonale. Le biciclette sono ammesse, salvo eventuali ulteriori restrizioni comunali segnalate.",
+        "italian_sha256": "5655dce077a199db1108354be684579eed49acc988036cbff90b557a582c2930"
+      },
+      {
+        "source": {
+          "number": 34738,
+          "quesito_id": 7260,
+          "text_it": "L'area pedonale è un'area esclusa ai pedoni e delimitata da marciapiedi col ciglio dipinto di giallo-nero",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6d5dbfd97c21e9e3e31e288bedf7b5b1058c6d3260d4313fff79c41a4ddd54fe",
+        "italian": "L’area pedonale è destinata ai pedoni, non esclusa a loro; non è definita da marciapiedi con ciglio giallo-nero.",
+        "italian_sha256": "621ec46344affbf9dfac7b1ce43f69ae74ae4da805566b98a12658081af91ab2"
+      },
+      {
+        "source": {
+          "number": 34739,
+          "quesito_id": 7260,
+          "text_it": "L'attraversamento pedonale è una parte della carreggiata riservata all'attraversamento dei pedoni ma non esclusa alla circolazione dei veicoli",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8b158cc9c34cf40e24b5fe0a47396d4d22cb19a957ff2947070a505ce320b359",
+        "italian": "L’attraversamento è sulla carreggiata, dove circolano anche i veicoli; i pedoni che attraversano hanno la precedenza.",
+        "italian_sha256": "f1d626cc1f9479ebe4e0816099383947c3eb9b6c9de9725c55d40efc2ef0d300"
+      },
+      {
+        "source": {
+          "number": 34740,
+          "quesito_id": 7260,
+          "text_it": "L'attraversamento pedonale è una parte della carreggiata opportunamente segnalata ed organizzata",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "27254afb0185e542ae3358026c605ba0e88a0cb482894426ce0e5c91bbc67328",
+        "italian": "L’attraversamento pedonale è una parte della carreggiata segnalata e organizzata per il passaggio dei pedoni.",
+        "italian_sha256": "32dbc9425df6d7e17e379397630e85066419d8f09386f7d3fbfb0f060a34a8e8"
+      },
+      {
+        "source": {
+          "number": 34741,
+          "quesito_id": 7261,
+          "text_it": "L'attraversamento pedonale fa parte della carreggiata",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "290f8b04e0db70e0548d915594230e9dfa0c68b9c8229570795d9fbc08e4b6b8",
+        "italian": "L’attraversamento pedonale è ricavato sulla carreggiata.",
+        "italian_sha256": "0982caf97b7d6d2dcf96382b980fa79654332f515cdd1fda90defffd65224267"
+      },
+      {
+        "source": {
+          "number": 34742,
+          "quesito_id": 7261,
+          "text_it": "Nell'attraversamento pedonale i pedoni non hanno diritto di precedenza rispetto ai veicoli",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "48dbf0eac532c9aec4dc2790d2461b1b699046ebff4a85cdf8a83e43857e26df",
+        "italian": "È errato negare la precedenza: sull’attraversamento i pedoni che passano da un lato all’altro della strada hanno precedenza sui veicoli.",
+        "italian_sha256": "7d88b6dbe1ce93a715432ef4a21b413b6aa58b807d674e4ccefeca7a13bcddd8"
+      },
+      {
+        "source": {
+          "number": 34743,
+          "quesito_id": 7261,
+          "text_it": "L'attraversamento pedonale può trovarsi anche su strade extraurbane",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "379bbe17f4ecbefc08bdb0e88ec537f286c57600321c59ddcfd2b070ca39c13d",
+        "italian": "Gli attraversamenti possono essere realizzati anche su strade extraurbane, quando ne ricorrono le condizioni di sicurezza.",
+        "italian_sha256": "46a106adc116baf541c88acb03cb9404ae8a70eada082b3585b8bea7069fd363"
+      },
+      {
+        "source": {
+          "number": 34744,
+          "quesito_id": 7261,
+          "text_it": "L'attraversamento pedonale vieta ai pedoni di attraversare la strada dall'uno all'altro lato",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b95e745d69783b9c017c6007d5a3f82bc06d8145ff77e91d55ad1fb43cd018d7",
+        "italian": "L’attraversamento serve proprio a consentire ai pedoni di passare da un lato all’altro della strada, con precedenza sui veicoli.",
+        "italian_sha256": "5e56679651822a125dfc2a237407a8a3df17b82c4a1a6b4dbeb09889565ad3fc"
+      }
+    ],
+    "task_sha256": "0648ec7d6b0ec39f9078b85c1145dbaa5a3add0833c99f34a5ccb1bf89208062"
+  },
+  "rows": [
+    {
+      "number": 34695,
+      "text": "VERO. One of the criteria for regional roads outside built-up areas is that they connect provincial capitals within the same region."
+    },
+    {
+      "number": 34696,
+      "text": "FALSO. A state road does not have to cross at least three regions: it may be classified as such, for example, because it forms a major national traffic route."
+    },
+    {
+      "number": 34697,
+      "text": "VERO. The Highway Code defines a road as an area for public use intended for the movement of pedestrians, vehicles and animals."
+    },
+    {
+      "number": 34698,
+      "text": "FALSO under the quiz's classification criteria: connecting the capitals of different regions is listed among the criteria for state roads. This does not rule out a regional road crossing a regional boundary."
+    },
+    {
+      "number": 34699,
+      "text": "FALSO. Municipal classification does not reserve the road for motor vehicles; the road is also intended for the movement of pedestrians and animals."
+    },
+    {
+      "number": 34700,
+      "text": "VERO. Connecting the country's main road network with those of neighboring countries is one of the criteria for state roads."
+    },
+    {
+      "number": 34701,
+      "text": "VERO. A motorway has independent carriageways or carriageways separated by an impassable central divider, and has no at-grade intersections."
+    },
+    {
+      "number": 34702,
+      "text": "VERO. Connecting a provincial capital with the municipal centers in the same province is one of the criteria for provincial roads outside built-up areas."
+    },
+    {
+      "number": 34703,
+      "text": "VERO. Connecting regional capitals is one of the criteria for state roads."
+    },
+    {
+      "number": 34704,
+      "text": "FALSO. Being able to travel through an area is not enough: under the Highway Code, a road is an area for public use intended for traffic."
+    },
+    {
+      "number": 34705,
+      "text": "VERO. For administrative purposes, the Highway Code classifies roads as state, regional, provincial and municipal roads."
+    },
+    {
+      "number": 34706,
+      "text": "VERO. A motorway is one of the road types classified according to their construction, technical and functional characteristics."
+    },
+    {
+      "number": 34707,
+      "text": "VERO. Under the Highway Code, a road is an area for public use intended for the movement of pedestrians, vehicles and animals."
+    },
+    {
+      "number": 34708,
+      "text": "FALSO. Main roads outside built-up areas are reserved for certain categories: mopeds, for example, are excluded."
+    },
+    {
+      "number": 34709,
+      "text": "FALSO. A main road outside a built-up area is a type of road defined by its technical characteristics, not by an exclusive connection between provincial capitals."
+    },
+    {
+      "number": 34710,
+      "text": "VERO. A main road outside a built-up area has coordinated access to properties alongside it."
+    },
+    {
+      "number": 34711,
+      "text": "A main road outside a built-up area has no at-grade intersections: intersections are arranged without crossings at the same level."
+    },
+    {
+      "number": 34712,
+      "text": "They are not all state roads: main denotes a technical category, while state is an administrative classification based on the road's function."
+    },
+    {
+      "number": 34713,
+      "text": "The right lane is not reserved for buses and trucks: unless signs indicate otherwise, everyone must use the rightmost free lane."
+    },
+    {
+      "number": 34714,
+      "text": "You cannot choose just any lane: overtaking must normally be done in the lane immediately to the left of the vehicle being overtaken."
+    },
+    {
+      "number": 34715,
+      "text": "They do not have to have separate carriageways: a secondary road outside a built-up area is defined as having a single carriageway, with at least one lane in each direction."
+    },
+    {
+      "number": 34716,
+      "text": "A secondary road outside a built-up area has a single carriageway with at least one lane in each direction."
+    },
+    {
+      "number": 34717,
+      "text": "Secondary roads outside built-up areas may have at-grade intersections. However, the definition does not require every individual road to have them."
+    },
+    {
+      "number": 34718,
+      "text": "It is incorrect to say they have at-grade intersections: a main road outside a built-up area has none."
+    },
+    {
+      "number": 34719,
+      "text": "Unless signs indicate otherwise, use the rightmost free lane; the lanes to the left are reserved for overtaking."
+    },
+    {
+      "number": 34720,
+      "text": "The carriageways are either independent or separated by an impassable central divider: the law allows both arrangements."
+    },
+    {
+      "number": 34721,
+      "text": "It is incorrect to say that shoulders are not required: the definition of a secondary road outside a built-up area provides for them."
+    },
+    {
+      "number": 34722,
+      "text": "Traffic is restricted to certain categories of motor vehicles; bicycles, for example, are not allowed."
+    },
+    {
+      "number": 34723,
+      "text": "It is not true that they have no at-grade intersections: secondary roads outside built-up areas may have intersections at the same level."
+    },
+    {
+      "number": 34724,
+      "text": "There is no general ban on all dangerous goods on main roads outside built-up areas. Transport remains subject to safety rules and any applicable permits or restrictions."
+    },
+    {
+      "number": 34725,
+      "text": "A main road outside a built-up area must have service areas with parking spaces and access points equipped with deceleration and acceleration lanes."
+    },
+    {
+      "number": 34726,
+      "text": "The definition of a secondary road outside a built-up area provides for shoulders."
+    },
+    {
+      "number": 34727,
+      "text": "Normally, unless signs indicate otherwise, use the rightmost free lane; the lanes to the left are for overtaking."
+    },
+    {
+      "number": 34728,
+      "text": "It is not defined as having a single carriageway: an urban through road has independent carriageways or carriageways separated by a central divider."
+    },
+    {
+      "number": 34729,
+      "text": "Any at-grade intersections on an urban through road are controlled by traffic lights. The rule does not require every road to have them."
+    },
+    {
+      "number": 34730,
+      "text": "Bicycles are not generally prohibited: bicycles are among the permitted exceptions, subject to any posted municipal restrictions."
+    },
+    {
+      "number": 34731,
+      "text": "Vehicles serving people with limited or impaired mobility are among the exceptions to the traffic ban in a pedestrian area, subject to any posted restrictions."
+    },
+    {
+      "number": 34732,
+      "text": "The ban does not automatically extend 15 meters before and after the boundaries: parking is prohibited in urban pedestrian areas, as well as in other cases provided for or indicated by signs."
+    },
+    {
+      "number": 34733,
+      "text": "Emergency vehicles are among the exceptions to the general traffic ban in a pedestrian area."
+    },
+    {
+      "number": 34734,
+      "text": "A black-and-white curb does not mark the boundary of a pedestrian area: its beginning is indicated by the appropriate sign, possibly accompanied by a supplementary panel."
+    },
+    {
+      "number": 34735,
+      "text": "The supplementary panel may indicate exemptions and exceptions to the traffic ban. However, the word ‘only’ must also be read in light of exceptions provided by law, such as emergency vehicles."
+    },
+    {
+      "number": 34736,
+      "text": "Vehicles serving people with limited or impaired mobility are allowed in the pedestrian area, subject to any additional posted municipal restrictions."
+    },
+    {
+      "number": 34737,
+      "text": "Buses are not normally allowed in a pedestrian area. Bicycles are allowed, subject to any additional posted municipal restrictions."
+    },
+    {
+      "number": 34738,
+      "text": "A pedestrian area is intended for pedestrians, not closed to them; it is not defined by sidewalks with yellow-and-black curbs."
+    },
+    {
+      "number": 34739,
+      "text": "The crossing is on the carriageway, where vehicles also travel; pedestrians crossing have right of way."
+    },
+    {
+      "number": 34740,
+      "text": "A pedestrian crossing is a part of the carriageway marked and arranged for pedestrians to cross."
+    },
+    {
+      "number": 34741,
+      "text": "A pedestrian crossing is provided on the carriageway."
+    },
+    {
+      "number": 34742,
+      "text": "It is incorrect to deny them right of way: at a crossing, pedestrians passing from one side of the road to the other have right of way over vehicles."
+    },
+    {
+      "number": 34743,
+      "text": "Crossings can also be provided on roads outside built-up areas when the necessary safety conditions are met."
+    },
+    {
+      "number": 34744,
+      "text": "The crossing is specifically intended to allow pedestrians to pass from one side of the road to the other, with right of way over vehicles."
+    }
+  ],
+  "output_sha256": "cfd608dc5437b3fec6f4f43cc2afd0eb21e86f852b0144a78aecc34dd2567030"
+}

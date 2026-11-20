@@ -1,0 +1,37 @@
+{
+  "batch": "180",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "e1299c7dabf261e8ff40dbecf11bb757660b1db930df4b54e99563c383956bc3",
+  "source_sha256": "6ca1b8fe5d1052e6f9587eec035579f347acf18ad93e36794a5320fd75c0e40f",
+  "corrections": [
+    {
+      "id": "ee86c2ecad248f304cc6d404b1c23e699228b1ac050713e74fded71262eb355f",
+      "before": "Los cinturones de seguridad abdominales tienen cuatro puntos de anclaje",
+      "after": "Los cinturones de seguridad subabdominales tienen cuatro puntos de anclaje",
+      "reason": "sub-addominale is lap belt, not abdominal"
+    },
+    {
+      "id": "ef014346be9793a832240458fc83d109fd58e5b74f283044f7e07dc10627228e",
+      "before": "En un motor diésel, el sistema Common Rail permite, mediante inyectores electrónicos, una inyección extremadamente precisa en cantidad y momento",
+      "after": "En un motor diésel, el sistema Common Rail permite, mediante inyectores electrónicos, una inyección de combustible extremadamente precisa en cantidad y momento",
+      "reason": "Restituye que la inyección es de combustible."
+    },
+    {
+      "id": "ef2f51a89c34cb7df5db2a02f66ac1130ae6b05cbcc8906c8588f7bf1aa34c2b",
+      "before": "La zona de estacionamiento está destinada al paso de peatones",
+      "after": "El apartadero está destinado al paso de peatones",
+      "reason": "Piazzola di sosta designa un apartadero vial."
+    }
+  ],
+  "reviewed_file_sha256": "85e86a5300201e3be582963c2624df1a47ddb4bc58560e97894566fa4b0df49d"
+}

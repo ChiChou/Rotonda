@@ -1,0 +1,49 @@
+{
+  "batch": "044",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9bd07593f38a7d1372e4dbc2e6b987896325a0444962c448f5ee7d59ef909659",
+  "source_sha256": "3da126084be224767740c7af7cd2ffb322332f6facd72ac745bd3e61b8737c7c",
+  "corrections": [
+    {
+      "id": "3a6daac2608f3a8083cb3f36957926986cd1b971ce00f7fdaa4b037dcd7d8b74",
+      "before": "La señal mostrada puede complementarse con un panel con la inscripción CURVA CERRADA",
+      "after": "La señal mostrada puede complementarse con un panel con la inscripción «TORNANTE»",
+      "reason": "Conserva la inscripción literal y explica que se trata de una curva de herradura.; Removed explanation '(curva de herradura)' not in the Italian"
+    },
+    {
+      "id": "3a987c74f2190d16d9dbb83bbd8d562a078a4b60e059159957a0b8ebe67180f0",
+      "before": "Para transportar mercancías por cuenta de terceros dentro de la UE con vehículos de capacidad superior a 3,5 toneladas, la empresa debe estar inscrita y tener autorización, pero no necesita licencia comunitaria",
+      "after": "Para realizar transportes por cuenta de terceros dentro de la UE con vehículos de capacidad de carga superior a 3,5 toneladas, la empresa debe estar inscrita en el Registro de Transportistas y tener autorización, pero no necesita licencia comunitaria",
+      "reason": "Restituye el registro específico y no limita el transporte a mercancías."
+    },
+    {
+      "id": "3aabc4d607275c4c23eb9f1d018c10c2f2b6ce9455da45272b6149f7780f7733",
+      "before": "Debe avisarse a la autoridad si el material cayó en la vía de noche, mientras que si ocurrió de día hay que actuar por cuenta propia",
+      "after": "Debe avisarse a la autoridad si el material cayó en la vía de noche, mientras que si ocurrió de día hay que retirarlo uno mismo",
+      "reason": "'fare da sé' means to remove it oneself, not 'act on one's own account'"
+    },
+    {
+      "id": "3b06b7b72f8d393f6318be50c3d83df729223d329f4caa850a8ccdfa60187c07",
+      "before": "En caso de inmigración irregular, el medio de transporte que llevó al extranjero a la frontera está obligado a devolverlo al Estado de procedencia o al que expidió el boleto",
+      "after": "En caso de inmigración irregular, el medio de transporte que llevó al extranjero a la frontera está obligado a devolverlo al Estado de procedencia o al Estado donde se expidió el boleto",
+      "reason": "El original señala el Estado donde se emitió el boleto, no necesariamente el Estado que lo expidió."
+    },
+    {
+      "id": "3b1269e22e2aefbe6dd8ec9200dc2213828a3268b265f8edd0f535e386a841b7",
+      "before": "Para una empresa italiana basta la licencia comunitaria para transportar mercancías por carretera por cuenta de terceros en Rusia",
+      "after": "Para una empresa italiana basta la licencia comunitaria para realizar transporte por carretera por cuenta de terceros en Rusia",
+      "reason": "El original no limita el transporte a mercancías."
+    }
+  ],
+  "reviewed_file_sha256": "1bf55c79a3077bcf0023bfe180d8386f663f0a75f13d3b21ec49a5b2411dbb44"
+}

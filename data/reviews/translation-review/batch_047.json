@@ -1,0 +1,180 @@
+{
+  "batch": "047",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "838893c28f87e5e3cf97511ced85f812c99b1dbf2398dd790c69a333abdd0ec7",
+  "rows": 100,
+  "verified_ids": [
+    "8a60a61a4dd08e68dad6cb932acdb9d4e6d9d9b8ca87080ce318f27ef69879ec",
+    "d68402418c688437ba740784de477548c61853b6c59c6519c3d7551668ed5abb",
+    "a559a467b2d167ce6803496c8f0dd0b4cb0eea2d4161f9f42daac175d404bc98",
+    "1e06dfdaa26c5c8d92c5c0eab39cdfcf3a6369f852e6e3dbb2818cee588b3eab",
+    "c109596ff8dcf94d54dd487c569f9ca969fba2c4a1e90dce6b7fb2e9a1be3554",
+    "3ec178d5ff54f7d09e3d5472e7bfc2c89aceffefe12d5522d3e43f79fc11006e",
+    "954a82c9c1149f66f23793a976d45c09eb2af6fd25fb1e9d84b5977cfc1c2a97",
+    "1019bfac09a27f039f0c1779596422911a791897ca738936191d4fb753ee52ac",
+    "a4d97c982c8fd530aa87c1bdedbca4ad5e4d48b3a94e1da732d6d08ba28e962b",
+    "4cb65422162b04e49691f6e154966eaa4e4a31805f822f1e208c77e57bb31421",
+    "3e0ab4efc0468c67e6abe7a486a669ed9b35161a411769e7e46c110f1489583c",
+    "1e8c7070708831b27770a9543dd243ca45998ff2cb6c1995e83ea47331d4f681",
+    "ec79404db6f13b8da044d6e88caa6cc09bf6e77677672fb948488d0653641d21",
+    "fe20382d01170ce82f43f50a24ce7735cb57719cbe639f9265afd0f7fb5b01fc",
+    "e33423322407ea968c97037f57606847656adb8d0f8a4a822f1fb4276b104bc3",
+    "cf3283b23130ed9f917b38332baca560ec053ec282c31dde253e51cf5f4afda3",
+    "a5f16764cf0baf7543b856dc52d60ddbba29d592b89da35bf1d3836e2fc62fee",
+    "c7eab21126a7513797185f3d2ec89c514b5eecebba6005a42c782b92aa943074",
+    "6bf78b5c8b8b58dc14efa6bf12e216b63f56ac4f69eab563a4ea9da211cea7d6",
+    "c0e7b30bdf893e736be329b7a86f50a3f9cb0845c38cde2b74b63e90bf1d3540",
+    "4c7394a0140110bfb749799bc0947ce8beb5679e2814cee9b360e732f2cfa950",
+    "1664f4038be718c4cc6370632e4803aec633f5ff6fc52415e5e1511de4137630",
+    "37781b9a50a02bd67ea22bc4853bd5250a3e75416ac4b831e53b953335569469",
+    "0ddbde8fd336ae368608f286f8a8449313933606430919b9ceb88c46c5edb3a6",
+    "e7f38dac2b315d45d876ffedbccc86144761871256100d9567c5d451efc9df34",
+    "57444fc43738e0360a7d8d3124999c1879e7ec28e40a4f085b727bfd87b7bf6d",
+    "e2bdeed23d6dbfeb0436fe669fea13b43bba189383df6ceac263e3d1840366a1",
+    "3349b5294123b6f185cc50eaedf5c77d36dccdb2c531ae7853a93fa48ac6b3ff",
+    "529c78b83a979d8f83443c9b162583f0133b010b9cbe2fb9af751487dcf89fcf",
+    "71501092ca11bf64edaee170a8dc185e106932b38c5ef2d79246a5650c0404ba",
+    "2e247c1debc6627b8d30629c6c5a1503d4abca8f38d17a9f64d7c99263828aed",
+    "bcf70fffbca764295e4d5f196e82ca9ff96be302feb5ab3e08a01d41bf2802ae",
+    "dea89eaa8c752bbc8878ab998e3d839f431b2b5106325a9edf4bb3544a126a5b",
+    "0ae4444727ba302cf14ed7a6770252d8732956b3a31b0b14787e55de3eb41ff0",
+    "196db3e27982a84c59d099585a60c187b384cf05cf35f681066422321c61bed9",
+    "7c87330a48d2ab73cf1042c47100065544854129b3d51d491dde208d9ef16821",
+    "059fdc895a6ad73fb8e858e4430086369912c2bbb2c6f0f8812cb225cf145561",
+    "96a5577b75859bc84b3ef1949f6d8f6248a75684f682f2bffe064a56ce251ca6",
+    "21fb9121e1e133613c2fe216b852fc0f6eb91a99d7001a23d55009c4b4c5bf9a",
+    "07d410756519829c7c5f77f2bda70848bf7c96c8f1dcbae87f71015b5b3d39f7",
+    "7bae0914f7b37aebacbca85a09ef51257a041c0a6d8d41a9ba001135fbe32ccf",
+    "409fa73cede92f01cb5fae5665881990e27692fd5961f87798d2fcc96742855d",
+    "99d08abbe9dbcc6a97a815548b411daa5432795157e373ce7086fad5939c15ef",
+    "07ecbd7b5a457fe031fcbb6f9b1b42f12e55fc0ce616bba1a79ed30cbfab8313",
+    "7ce616378f704dc905559eaa9b80b0a99cd72c6dc524f344bfb54e1dcda2354f",
+    "41456fe88e1f8c302b231c9a38e9906f8649a0e076ec77e21b714376b674c10b",
+    "3eab37f0c4fbc2e5ebce463551c0fe1bc04d6bed6d71e7afecb46989851295ba",
+    "5e0d5f6736b94d3c8a8229a13bd68bd51c3cde20088dea1a6ecf1a4eb742a2a5",
+    "a74ee596e994d60c63c8386a9cd5e7102b8b375d9f45bc8f450ff1493059180b",
+    "31f67e32a47b3f5dfda68a4a7ee541d3749c926482dba82dd3506b75b35b9ec3",
+    "fd02a1cbf2ee24114decdad1029eaedb5ce9ebde0351a84e13a6803defe4d616",
+    "d77488d4eccd973b859dfc8f2042dc2f43f7b083a0794ea5070c7c168156cdac",
+    "b37059b1a37e5c2f23f4dc1166eb6bd5a5365fa3e0de60a272cb261fad8199d5",
+    "496bcb57d02d00c30216af3bd78afacdce725a2cece620b1499737f0a8e93a40",
+    "d339d1512e58155e0fe02765412b2043094467527a664dc20b3ddcde60bcaad0",
+    "ab4bfd85ea2f282946f39088a485dd2eaf1b701f5b9b791cedbc1f1cb6b9e685",
+    "fc61c4d536d70c941b4bd063e242eade99a0684cff060de10ec4f0cce39bf06f",
+    "bf96ae44c1f0769cf519f45c8f49c7e43b4b95eed238d7c06a005845e32d8050",
+    "399c99f84a2b2d8502e6aa077c9214d6a7749cd11cf565efc78a28d7705d975f",
+    "4700cb470e5e5fd554b9c6e211e7496c244cee12fa8691b6e4c490cb07c62847",
+    "582a5a2c4087b554fbdfcb48433d4e61d69e2b7fd28a5e0bb0daa12b5976ddf9",
+    "a847e00d22586cd123717253fa73fb39372d663d562764fbd86a291fd85ecadf",
+    "973e660aac9a60ee3e30dcb0c823093d674287dbbed08e8536d34b23186d8065",
+    "15da1b52b86c9110956da18eac2630a42571501b2f27fcb9b4b3d8f063233b23",
+    "aa383a7ccd32b0332315c6c1fa503b15b2c6ff36cdb583edf5c2e007829df92a",
+    "542aa7a13f7969eb935d1227854d95294f7162692069183ff9d5f1f829978490",
+    "90fb33ee5bca9c6343ab8d6df2e4f4a7c6639f511b391032383da89b1da15634",
+    "dc38f405cc740c38883b7302537e3bed9073746e06f75f64b34c0825c6a5ca5b",
+    "fce7a22b153c930ed6c71b93fbbec795aa16a6a460ff0988f88c98c061916217",
+    "3749e23ee4a5fa04aeb1bf5f54af9e3791bd90efc2798413a9a2d77ce5ff63e7",
+    "eaac8f78272f6e94e9f9e35cce076a001b92ac5126c7bde26fff9e6a4db408bd",
+    "dd77510441e205dfba1b67596cd5ed6d0a95954cde290fb71a58342556a92cf2",
+    "718fd9f975d2d28ae17a10cbb745ffd94af5853835baaba69c10decef9c962f8",
+    "62664ca70aecbb891865a6634d21dfbfbe1cccc1d53022595ad416040610ef42",
+    "39169ac54549639a924692a11b70baba7e7fa6c9eadb48fce503869d42a2e35c",
+    "073489736d4293cb5975a919b49cf2e02baa56b2793960e1c5bed5e4992f4b4f",
+    "93541fc6b220902b63c79d5d4a18e1f378b978c8b087fd20f02d99c4ab27b64d",
+    "d60f3facab96d438dd4a27be4e045283c590e626deddc6b30732a49ef2ca1834",
+    "1296235000b903b832b4b51011dd66a8a4383cf9e708e67c34b49bd918b5520d",
+    "f2b98ea18677292f0f72e3b2a4c5bc5bb2c7d5cd7d900ae23667a657bed57364",
+    "40a689259b328aa3db6acc9615be050c9c7c101c73332bfb3fbc62189ba38398",
+    "cac78ca4146cf63e4aba0bc8393651580bfdc3074a3151f7afa6b6e26c18c8e8",
+    "56a1e25ebfa8650553a7a9ce8835d64a03a3fb03a15248f171e37233ecd75a47",
+    "89898e78966f793c1291a5bf98d308537e6720e34b9fe8386f6722e90388994a",
+    "1ca4f5612206e3d3aa10afe9b7e6b03767c0a0beb0a8cf5dbdb19d3192a239fb",
+    "1c247642fe6d6f7ac2d6f97d527f3933e3ea02cd9b32e633d720dacf5cd6d17a",
+    "8657368bb1d670b9b18ab3d8e1935f8a31f210c6d16391c6e4ceb09becc7a2cb",
+    "9421bfdb8ac2e1f66487fdba31af3b3ce05d2887fe1ef1bb7f5955b7f4d3db3f",
+    "2b07444aa3003799b149e3ca3ff9cd325c546f345d2d4a50362d34bd9cffc4d5",
+    "1ce688d5da9794bd4821a847760438d53ffb29568872aba9d92e283ab998a57f",
+    "45e6d2f8a2adb3a9b2d130274d6b020004b7ce51ea4e5d7b7a0aa014fc214c51",
+    "1c6bd41a070ef2fd3c0e294a331c1fc0af7aa7dd273c57d05011578b5052f7b9",
+    "72522e881cc8101a1cf8f563dc21d02ecfdb0b9b609227c7b9a5d73e4897b43b",
+    "e6091875c673dca1df8fe746473992c249389c11acd9344ab60b39be0e727140",
+    "985151ebfa81d3691e90e94f5e3997ef59dcf6953981da64247d27b36597a322",
+    "20065d0ae477fc9675ca101deacfd064f38094c1be1da77680fa0aea27c0954a",
+    "e60c56a3837d53f6870dc2b942a0c1e14957e740ec354293917a4a0e042d7e58",
+    "b44cf3af08f1bda5db470d05bb9828d41dd9df18f6ebed645c438432f3ab65c7",
+    "60f8dbeee1be61768a5d2a7010c13ed93733ebbb42bacad7e057c50d27128513",
+    "9f8f4b0e4ff3fe3c8d9189d70fb70cb265b4f6fc62be94a04490edf4ebef1f9e"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "4cb65422162b04e49691f6e154966eaa4e4a31805f822f1e208c77e57bb31421",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "CMR自发货人认为所提供车辆适用之时起适用。",
+          "after": "CMR自发货人认为所提供车辆合适之时起适用。"
+        }
+      }
+    },
+    {
+      "id": "e33423322407ea968c97037f57606847656adb8d0f8a4a822f1fb4276b104bc3",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "根据CMR，接管是一项复杂行为，包括装货、将货物占有权转移给承运人，以及核实货物和包装的外观状况与运单记载的准确性。",
+          "after": "根据CMR，接管是一项复杂行为，包括装货、将货物的占有转移给承运人，以及核实货物和包装的外观状况与运单记载的准确性。"
+        }
+      }
+    },
+    {
+      "id": "cf3283b23130ed9f917b38332baca560ec053ec282c31dde253e51cf5f4afda3",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "根据CMR，接管只包括装货以及将货物占有权从发货人转移给承运人。",
+          "after": "根据CMR，接管只包括装货以及将货物的占有从发货人转移给承运人。"
+        }
+      }
+    },
+    {
+      "id": "2e247c1debc6627b8d30629c6c5a1503d4abca8f38d17a9f64d7c99263828aed",
+      "reason": "Grammar: \"need inform neither ... nor\" is non-standard; meaning kept",
+      "changes": {
+        "en": {
+          "before": "Under the CMR, if unable to continue the journey, the carrier need inform neither the sender nor the consignee.",
+          "after": "Under the CMR, if unable to continue the journey, the carrier need not inform either the sender or the consignee."
+        }
+      }
+    },
+    {
+      "id": "073489736d4293cb5975a919b49cf2e02baa56b2793960e1c5bed5e4992f4b4f",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "根据CMR，承运人对执行与运输有关职能的所有人员的工作承担直接责任。",
+          "after": "根据CMR，承运人对执行与运输有关职能的所有人员的工作承担直接且即时的责任。"
+        }
+      }
+    },
+    {
+      "id": "45e6d2f8a2adb3a9b2d130274d6b020004b7ce51ea4e5d7b7a0aa014fc214c51",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "根据CMR，当货物在约定期限后20天内交付时，收货人对交付不再有利益。",
+          "after": "根据CMR，当货物在约定期限起20天内交付时，收货人对交付不再有利益。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "7bc13a32d6ef0121e94c65b94403b03d091a0a49b1fd651d1737d7f3606bd791"
+}

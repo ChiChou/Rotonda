@@ -1,0 +1,248 @@
+{
+  "batch": "080",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "0ea32c37cc98e69a7214a69a99c72fc230bc69ed327bbd2cf65f75fd2bbebdfd",
+  "rows": 100,
+  "verified_ids": [
+    "a321e2ea065a67e81b82a699c6385983dcc7fbec0a9d9436a1d28b9654c9cf33",
+    "bd3996d56fb7e2f075e1007d5464815a27b54499f38c00ce6c9a3a545d22937d",
+    "2784239c9304162304405c800215ae4922c0d27301560e0040d4ec3548e8cf7d",
+    "a5998576e8b1069ffd309612a4792a315d32f6f029c2ab4a6e6e844816924e9e",
+    "766e1cea0e33a4094b9f6f9066eb67cf67f0fcb953dacaa89d0e180f3b90bcdf",
+    "6872d3377d7f6eb8eebebf4062cd2ddf21b1f112b574fd0b2b1ab1fb756d6ccc",
+    "ea1a03984cd7910269569e6df042689c9124bac95d1f2463e5e8eddb4b8dbe57",
+    "3441c98630a81c2983f8ad2fbf4019d9423adae1ec82206c3e11b6dfbfd5100a",
+    "29e3f9342b31931dd741da2cd591639e87713dbee060db64a838a3206c0093e6",
+    "1e4ec7dfc148077d5bad5d6b6d11fb3b7a3b0872c58c06405253a56c10849cca",
+    "ce7d9bf68d38b904100c1e09ff7dbb2adb3385d041c5563851d554581703d18f",
+    "3833dce8bfe323e8a64f4f05260424bdb709aa089900aad2222e2b0476d82131",
+    "f8d080626bdbc5bfb5040b6202adc304d14288305ee6ccebb460831dd11520ce",
+    "978f640a62f3407c8a0da5e2fc9c50b19daa9cc8e2a3e466319914e8f67ef145",
+    "4651303d7e8a7a2081dee761f5195c72871847e208b5e103a6433c2c4d1e3c21",
+    "619fc124b2f99d5bf114d76806fdc49378f24c76514aa497c65c27cb0daec4e5",
+    "0948f06de03ab9d06786a85bd7fd74b8dd21fb230d350057cbde796daf2668ac",
+    "6fc5ac9b5c62ca38cc17072812ec027d1e382a8961e392268d179e155dfbf6d0",
+    "b4a34346bd5e50e4fb3920a5bc0281ffb334ec379c2ac9cf5fb401b10ad3c0c4",
+    "17edf59142cd6a96e7b1d4651bf00cd319e6c5dc2b5ce534129e146082b296b3",
+    "32598ae2481d725d9909c4b6e0a24bcd55141ffb3df9af01cc95b98b59536a7b",
+    "27bc95047b9dc8b8822d7061ae41eca78fd92188aeb1e4bd9d922cd5cc14a6d8",
+    "1867b91dba9c82d61c50e4aec54048634f4f2b412c905ca50822dced1bebb4e1",
+    "3af2f54417ced67358b68c5362846ee3939e52fd1233632b19f312ee5fe9ceed",
+    "ae1317f593c0b188cc62caed2f5d3f1f695bfc16e105f43d72ef13331240c31b",
+    "c39a99f89173309cd7e145cc5969cc14c976b817cd2aa202c06654999d3f40e1",
+    "fa96a5c14615321482f6fb3f9a89edcc69ac9746347b14ff3e2f32ac7073f6b4",
+    "6b80eb4fab101ee49fc8d5502411f3b3064404e06e38a6500bd1ae579e8bb712",
+    "04109c5162469da833473b0647766936ed15e51dd611686ced84eed40ab8dc4e",
+    "06e2d19f3f8c307e197c079b1c7c42483ded95ef296424c46ae780abb84a3eac",
+    "1f81912b81cb400d6b5c5dd7c1035d1b157ec4f2c254ef221fcbb7ecc72acbd5",
+    "3e22b7498c9f96a3df8077d530aa5634f75dad4b525b4fe78193f1a8ac5604c1",
+    "79280a55f2300cd5c38f6712c6e8612ff43fabe7f933f64a092840258ca9f9ba",
+    "8d45de1711f82ec158637eb4b4bb5db902b6479355e15ab14eb7f8c2b483a2ab",
+    "eff3a161b1f0a2fb9591f18dae9b2e3511991f40fbca8eb6677c51e42732d1b2",
+    "8a9f275d7a5963ce852f1a506ae5c0637c335addbab359f739de024d093da13d",
+    "0f658508450eb6c368ac2ac3b7ced66eb07c300781ef6c2186288cf247795a36",
+    "3783852777ff0ab44c89e279a2b11f6ea0147e80af6842f423eb63909018c6cf",
+    "87086b320266540a980fb66341ab416b6bba991dc2ce91848ed4f08f4c5b1b6b",
+    "50b0907e17127b21aee153700b00396717cc0d5312e25a830ce4a12c6f39ed44",
+    "9b752ba02eaed1f3d38e04a96eb1d0ed45f7431aba1948f0b9331ea03746b831",
+    "e9f667e61bfa29457e26624478b98bc8109f59250e792c7cd56e67a6993c623b",
+    "2232addf61dacfc14b59433646613c4acc354760c27b89611bded274b3a5dbcf",
+    "84034050b173e4aa2635c2a15a985e6595ed49d27d36e51c850e887bf031a4ec",
+    "783719a68743f40bea63a0c287e73e6fc856bc7da1bd971aba91ad0449386b68",
+    "f94a6eb0bf40788b5a77ce502b4ad3a561565be38e6cfee4e2a88c8e728e2901",
+    "83cbbf2e0c2865c5933648068aceb1004f46b0f8e0876793ace0149f8b6be2a6",
+    "ce1526b15c583285e86a461ffa7199a89324ae78bd673ba8bf960389303820d5",
+    "6f64c553ec8d056b6ec26749f19567457eea76f74d443107e70134de22681b6c",
+    "c5317e19a99056d10dcfc290bb668a2bc785e077dffe7a63ddf05fe2deeaa105",
+    "02937d0fc004c112ac596fa0aa248374b0fb6df6acbed96af01dc20c9d54f7ec",
+    "302715f283dee3df886fbcf70dec2bdd036bd0acefc2cf5632bc0667035d9d82",
+    "5cbdeb7e8cce84dcd5469193ff46d24524eca6ca1b3cf159580a1bd967d85274",
+    "5b9bbb0861347f6b27a4c866729e51943343ba82878192e932e5db1ddbb3e8e8",
+    "af69c2665e33895669ab1413c8ba52e567a61f30fe49cc452d33b3f71aa598d9",
+    "e660a950257f7fe14cf02d3ea03e6be23499c97dd9642887fb4e1554bedcb007",
+    "6383c20b5bae1b513c98e4192e9c85bc3dbc65db683b36caef3c45117f07d965",
+    "39942cf258cd4812beea0342ab89d3be61079627622cc95006f7747be08d3d32",
+    "763caf8cc7838b7d2e6f0b71d638adfe8b294ae0accd48e292d5c15be1a29276",
+    "915eb2d92abe95863f0beec48f22498d8a3427d767964f92cbf91ac1984bb9b2",
+    "db09cefe10e2c066b630b2e9770998ebb066b5ffdb1aef0206cabb2064b4ee87",
+    "1971af35c99b137e2c380908c76a177e6bb856f69b9adea201e35864e0ea0e49",
+    "83769d4d1aa0ff526dc367170f9e7433f0106196fb3f874b578956487682b733",
+    "0b0583c4259018a4b71ec6049f6fa2ad27813526d66b7a2c9032748dafcb2162",
+    "bb45a1a0fb57504fbbd2e0f606d59e9f04fcfe8c20cf424aecea2e5a82c7b87d",
+    "e6bec11c6857c68e33038521a274b6692807a0c80c2c12e38eb0f5398d9dd4e8",
+    "b32384db93066b7a2d73b5101b8af34bde7b22f862f2289534710767a6268c38",
+    "c0161a1e8d610dfc8898ec2c3ecdcc072c549f3d3175815e8f7d5dcc8979c280",
+    "9dd4b3bb95f23a1b80c4b699c68be4ab0598ea1956bec9b22b297c1517f76793",
+    "fc4daa633aec0adbbf5635faa958df625458f78b367e092bc53048a79c71854e",
+    "b2254ee936b37c281c5f6bc6461800fecfd5b90ebfd65fab88351da843680704",
+    "862cceca8fba301e64755960ff207258f6a24d5f088ec1c1feb0793bcc4af5e5",
+    "12003b615009bfce5bb7a841319124cc0439c927026c661afa8f70de0de19138",
+    "38358479d36ffa53508aea5e575208d69b77a4be7f9a52cca24282eaec080f22",
+    "153c6be1d69ef838d16a07c87d42cb3205db8034d4a07a90c8291dc375ed3438",
+    "e78e71c1c8a9bc8991a801d00f94ac2691424f1232576c76cfe9627db8a262d2",
+    "f672ec247da8242f396a2e8a83eb2c0d9ca666bbf4c5f33c4c9e418c268e5b6a",
+    "889d8774de1e09ec59f24c0ef2bb8ce41b62e2554232b59083a01908690118cf",
+    "056ade885c5ef07525f2f604f03606d82ec72fa4664dbc22fc1c566744dbf680",
+    "14e2db2a826309658f590e87dbbd5af497172ffb6b4f9fe2e9f36986b0177562",
+    "24f5a249acfeb5fd9cf6f3d880c5449009c53dd3b3d37019bbdedfe7ac58e6f3",
+    "a9dacc02c3b7e176ce50f345df8bd0cb58a38e1566e9f47f3ec47f0a74d12d88",
+    "a30faf6e37af41aa1041dc703af4f6a841b0c7146f949cf20618b63f4b5219b7",
+    "7e6eaa13b78ee57e5145f2067dde36ac417448234763f053f93928c8c146a6e3",
+    "fed1f5adc53285817a69654c2880d0b5af241920598771b5268b1f7f38f92719",
+    "b81f72f0e4b762d9774f58bacaf04d09cb3613e54258525effba15b764071701",
+    "71b235ef5820c9305ea73dfe362525c22541be8a0484ba727e7b671a6c9ddcfd",
+    "285a0f2213c3a79f04f0e45182c968455d338e4dda2588b2152fb1052715d2bf",
+    "b09c46467ee2b0644999d9ce0eeb7e189baed7f2a0fcac6432a68ee6fd850aeb",
+    "76774c5693b0f5bcb01fa70dacc76951335e59a8c719f805d3dc5912b297e003",
+    "733f05a98507f18868371bb5e24a3d235979c10dda0efc50ee0624fee6828441",
+    "60f873560e9ff358fff917880c23cf2037dacd6d74d3ae91c0180b4c2946bcea",
+    "e5f1e3228f28290dcef81d5016c1bb4faf8fc816b3c6059ff8432a8177370688",
+    "0a0648a3e22dc27c56b131e371e1c4dcdb7ed21a4ecc959609b4f32af76802a6",
+    "d2dca5b02d0c14c3a285da54490d3640dee4552a674667d23a1202e473f83e58",
+    "f2a4b2a90b1e0d5c98e18c4608b54a4c548aaa3803cf3423a4cfe9f1b8fb2953",
+    "fa618b5689d195c7a1b78041c1d31a7976e0c0578aaa811c49728894d4008e1d",
+    "3581259676255ce28bc743a27de96a36d08902cfd9a0285a055784848bfc48a5",
+    "e56936353f3a298d2af008819682191aecf959ae7e37a02cd971da49aa92677d",
+    "f187ce70e891d59eb32d61485a46bc04a4776729e6aeba900a4e45b1565d2b2b"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "29e3f9342b31931dd741da2cd591639e87713dbee060db64a838a3206c0093e6",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "根据CMR，当货物在约定期限后20天内交付时，收货人对交付不再有利益。",
+          "after": "根据CMR，当货物在约定期限起20天内交付时，收货人对交付不再有利益。"
+        }
+      }
+    },
+    {
+      "id": "79280a55f2300cd5c38f6712c6e8612ff43fabe7f933f64a092840258ca9f9ba",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under the CMR, the carrier is exempt from liability for loss, damage or delay in delivery of the goods in the case of an inherent defect in the goods.",
+          "after": "The carrier is exempt from liability for loss, damage or delay in delivery of the goods in the case of an inherent defect in the goods."
+        },
+        "zh": {
+          "before": "根据CMR，如果货物存在自身缺陷，承运人免于承担货物灭失、损坏或交付延误的责任。",
+          "after": "如果货物存在自身缺陷，承运人免于承担货物灭失、损坏或交付延误的责任。"
+        }
+      }
+    },
+    {
+      "id": "0f658508450eb6c368ac2ac3b7ced66eb07c300781ef6c2186288cf247795a36",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under the CMR, the carrier is exempt from liability for loss, damage or delay in delivery of the goods in the case of circumstances the carrier could have avoided.",
+          "after": "The carrier is exempt from liability for loss, damage or delay in delivery of the goods in the case of circumstances the carrier could have avoided."
+        },
+        "zh": {
+          "before": "根据CMR，如果情况本可由承运人避免，承运人免于承担货物灭失、损坏或交付延误的责任。",
+          "after": "如果情况本可由承运人避免，承运人免于承担货物灭失、损坏或交付延误的责任。"
+        }
+      }
+    },
+    {
+      "id": "3783852777ff0ab44c89e279a2b11f6ea0147e80af6842f423eb63909018c6cf",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under the CMR, the carrier is exempt from liability for loss, damage or delay in delivery of the goods in every case.",
+          "after": "The carrier is exempt from liability for loss, damage or delay in delivery of the goods in every case."
+        },
+        "zh": {
+          "before": "根据CMR，承运人在任何情况下都免于承担货物灭失、损坏或交付延误的责任。",
+          "after": "承运人在任何情况下都免于承担货物灭失、损坏或交付延误的责任。"
+        }
+      }
+    },
+    {
+      "id": "87086b320266540a980fb66341ab416b6bba991dc2ce91848ed4f08f4c5b1b6b",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Under the CMR, the carrier is exempt from liability for loss, damage or delay in delivery of the goods in no case.",
+          "after": "The carrier is exempt from liability for loss, damage or delay in delivery of the goods in no case."
+        },
+        "zh": {
+          "before": "根据CMR，承运人在任何情况下都不能免于承担货物灭失、损坏或交付延误的责任。",
+          "after": "承运人在任何情况下都不能免于承担货物灭失、损坏或交付延误的责任。"
+        }
+      }
+    },
+    {
+      "id": "9b752ba02eaed1f3d38e04a96eb1d0ed45f7431aba1948f0b9331ea03746b831",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "根据CMR，接管是一项复杂行为，包括装货、将货物占有权转移给承运人，以及核实货物和包装的外观状况与运单记载的准确性。",
+          "after": "根据CMR，接管是一项复杂行为，包括装货、将货物的占有转移给承运人，以及核实货物和包装的外观状况与运单记载的准确性。"
+        }
+      }
+    },
+    {
+      "id": "783719a68743f40bea63a0c287e73e6fc856bc7da1bd971aba91ad0449386b68",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "根据CMR，接管是一项复杂行为，包括装货以及将货物占有权从发货人转移给承运人。",
+          "after": "根据CMR，接管是一项复杂行为，包括装货以及将货物的占有从发货人转移给承运人。"
+        }
+      }
+    },
+    {
+      "id": "915eb2d92abe95863f0beec48f22498d8a3427d767964f92cbf91ac1984bb9b2",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Customs duties apply to all goods transported within the EU.",
+          "after": "Customs duties apply to goods within the EU."
+        },
+        "zh": {
+          "before": "关税适用于在欧盟境内运输的所有货物。",
+          "after": "关税适用于欧盟境内的货物。"
+        }
+      }
+    },
+    {
+      "id": "1971af35c99b137e2c380908c76a177e6bb856f69b9adea201e35864e0ea0e49",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Customs authorities work to protect industry and consumers.",
+          "after": "Customs authorities also have a protective purpose towards industry and consumers."
+        },
+        "zh": {
+          "before": "海关开展旨在保护产业和消费者的工作。",
+          "after": "海关也以保护产业和消费者为目的。"
+        }
+      }
+    },
+    {
+      "id": "a9dacc02c3b7e176ce50f345df8bd0cb58a38e1566e9f47f3ec47f0a74d12d88",
+      "reason": "Definition 'si intendono' was rendered as an inclusion ('include'); restored the definitional form.; Definition 'si intendono' was rendered as an inclusion ('包括'); restored the definitional form.",
+      "changes": {
+        "en": {
+          "before": "EU goods include goods imported from states or territories outside EU customs territory and released for free circulation.",
+          "after": "EU goods means goods imported from countries or territories outside the EU customs territory and released for free circulation."
+        },
+        "zh": {
+          "before": "欧盟货物包括从欧盟关境以外的国家或地区进口并获准自由流通的货物。",
+          "after": "欧盟货物是指从欧盟关境以外的国家或地区进口并获准自由流通的货物。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "d9d216b92d90588c5813c27a8489b8b4911f2f2936568d75ca71794bd848a304"
+}

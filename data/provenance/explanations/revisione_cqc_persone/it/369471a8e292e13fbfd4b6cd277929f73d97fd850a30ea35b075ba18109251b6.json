@@ -1,0 +1,139 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee4e-22d9-74f3-b614-3859d7601289"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "revisione_cqc_persone",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 17224,
+          "quesito_id": 3493,
+          "text_it": "Possono essere causa di pericolo il mancato rispetto delle regole della strada da parte del pedone o di altri conducenti",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "52759a8523e7b6b776be27fca02ccff70086fff5efe953358b76af2d1df5fcee",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/7bb96eb28074f40583f6a5a277968f4e3f390983d61520d21667c5c0d9794486",
+            "candidate": {
+              "number": 17224,
+              "text": "Una violazione delle regole da parte di un pedone o di un altro conducente può creare un conflitto con gli altri utenti e quindi un pericolo.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/8291232c001aae39259263b402393fe1e06e223022f04e071e8c1e86c0b910d5",
+            "candidate": {
+              "number": 17224,
+              "text": "Una manovra scorretta di un pedone o di un altro conducente può creare un pericolo improvviso: bisogna osservare gli altri utenti e mantenere una guida prudente.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17225,
+          "quesito_id": 3493,
+          "text_it": "Possono essere causa di pericolo la mancanza di conoscenza delle regole da parte del pedone",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "d5fd4d09b78f5777126877eaecfe49e55568637d2c2d1c21d66fd3930179ffca",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/7bb96eb28074f40583f6a5a277968f4e3f390983d61520d21667c5c0d9794486",
+            "candidate": {
+              "number": 17225,
+              "text": "Un pedone che non conosce le regole può compiere una manovra inattesa o pericolosa, ad esempio attraversare senza valutare il traffico.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/8291232c001aae39259263b402393fe1e06e223022f04e071e8c1e86c0b910d5",
+            "candidate": {
+              "number": 17225,
+              "text": "Un pedone che non conosce le regole può comportarsi in modo imprevedibile, per esempio attraversando senza verificare il traffico, e creare così una situazione pericolosa.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17229,
+          "quesito_id": 3493,
+          "text_it": "Possono essere causa di pericolo la presenza di segnaletica stradale lungo il tragitto",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_persone",
+          "pdf_sha256": "84227bb759f598bac7007f5bbdc625a7e020c59b937ddb0ef4ad676516655c6a",
+          "figures": []
+        },
+        "source_sha256": "e25d129696f2ad89870e949a1e25332240a79b779e3d3edb0b6fd14fce4d6576",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/7bb96eb28074f40583f6a5a277968f4e3f390983d61520d21667c5c0d9794486",
+            "candidate": {
+              "number": 17229,
+              "text": "La semplice presenza della segnaletica non è di per sé un pericolo: serve a regolare e rendere più sicura la circolazione. Una segnalazione difettosa o non rispettata può invece creare rischi.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/8291232c001aae39259263b402393fe1e06e223022f04e071e8c1e86c0b910d5",
+            "candidate": {
+              "number": 17229,
+              "text": "È falso che la semplice presenza della segnaletica sia una causa di pericolo: i segnali servono a informare e regolare la circolazione. Una segnaletica danneggiata o collocata male può però creare confusione.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      }
+    ],
+    "task_sha256": "daa87149f5b3cb238e7066915d9addbd2f541dffead0787deb37bb7809bbf377",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage."
+  },
+  "rows": [
+    {
+      "number": 17224,
+      "text": "Una violazione delle regole da parte di un pedone o di un altro conducente può creare un conflitto con gli altri utenti e quindi un pericolo.",
+      "evidence": [
+        "Derivazione dal concetto di pericolo, applicazione alla circolazione: comportamenti in conflitto possono provocare un incidente."
+      ]
+    },
+    {
+      "number": 17225,
+      "text": "Un pedone che non conosce le regole può comportarsi in modo pericoloso, per esempio attraversando senza verificare il traffico.",
+      "evidence": [
+        "Derivazione dal concetto di pericolo, applicazione alla circolazione: un attraversamento davanti a veicoli in arrivo può provocare una collisione."
+      ]
+    },
+    {
+      "number": 17229,
+      "text": "È falso che la semplice presenza della segnaletica sia una causa di pericolo: i segnali servono a disciplinare la circolazione e a indicare condizioni della strada. Una segnaletica difettosa può invece creare rischi.",
+      "evidence": [
+        "Ministero delle infrastrutture e dei trasporti, direttiva 24 ottobre 2000 n. 6688, p. 8, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2017-09/Direttiva_24_ottobre_2000_n_6688___Dire__e_manutenzione_.pdf: la segnaletica disciplina la circolazione, indica caratteristiche e pericoli della strada e deve essere mantenuta efficiente."
+      ]
+    }
+  ],
+  "output_sha256": "1ae5a8cc7bcb8e2be82ef6c1f592c3a19bd5e51773fc36b94ea3243fe8dc1d80"
+}

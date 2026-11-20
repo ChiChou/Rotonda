@@ -1,0 +1,1853 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee4e-7ccb-7421-b224-5eb2c89adeda"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "cqc_vecchio",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 13466,
+          "quesito_id": 3019,
+          "text_it": "All’aumentare dello sbalzo posteriore diminuisce il beccheggio",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5f508cc433b47bcf6150eec62923c6c9355dd1196b464346cf8edf5419cedb98",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4c7280d89567d3e99ce967f8034eca867286faa4011499cf5995863c264980d7",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13466,
+                "reason": "Nessuna fonte primaria individuata che sostenga una relazione generale fra lunghezza dello sbalzo e beccheggio."
+              },
+              {
+                "number": 13467,
+                "reason": "Nessuna fonte primaria individuata che stabilisca una relazione generale fra sbalzo posteriore e sottosterzo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13467,
+          "quesito_id": 3019,
+          "text_it": "Aumentando lo sbalzo posteriore aumenta l’effetto sottosterzante del veicolo",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7e4ef0bca198980dc2b4ab0a7f775f78ba439e8ada537b26fd0f811712c548df",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4c7280d89567d3e99ce967f8034eca867286faa4011499cf5995863c264980d7",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13466,
+                "reason": "Nessuna fonte primaria individuata che sostenga una relazione generale fra lunghezza dello sbalzo e beccheggio."
+              },
+              {
+                "number": 13467,
+                "reason": "Nessuna fonte primaria individuata che stabilisca una relazione generale fra sbalzo posteriore e sottosterzo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Aumentando lo sbalzo posteriore aumenta l'effetto sottosterzante del veicolo",
+          "text": "Uno sbalzo posteriore più lungo non determina da solo un aumento del sottosterzo: il comportamento in curva dipende anche dalla distribuzione dei carichi e dalle caratteristiche degli pneumatici.",
+          "evidence": [
+            "https://research.chalmers.se/publication/501552/file/501552_Fulltext.pdf — analisi del sottosterzo: distribuzione dei carichi e rigidezza laterale degli pneumatici influenzano il comportamento; la sola lunghezza dello sbalzo non determina il risultato."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13577,
+          "quesito_id": 3029,
+          "text_it": "I freni a tamburo hanno una maggiore superficie di attrito dei freni a disco",
+          "answer": 1,
+          "page": 140,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fe4ac4b165f0454753809f2646dc4e1bbced3d6b3304661143924e56014905c3",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4bab9cb9e576c402034b8a9be7a22abe110b499680edf8d3f26599fc778fd687",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13575,
+                "reason": "Non verificato il confronto termico a parità di forza frenante; la temperatura dipende anche dalla progettazione e dalle condizioni."
+              },
+              {
+                "number": 13577,
+                "reason": "Non trovata una fonte primaria per il confronto generale delle superfici di attrito; dipende dalle dimensioni e dalla progettazione."
+              },
+              {
+                "number": 13584,
+                "reason": "Non verificata con fonte primaria la posizione rispetto al distributore duplex nella configurazione del quesito."
+              },
+              {
+                "number": 13587,
+                "reason": "Non verificato con fonte primaria il ruolo della bassa comprimibilità del liquido nell’impianto specifico."
+              },
+              {
+                "number": 13592,
+                "reason": "Non verificata una fonte primaria applicabile alla relazione fra temperatura del motore e possibilità di movimento."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13584,
+          "quesito_id": 3029,
+          "text_it": "Il convertitore pneumo-idraulico è posto fra i serbatoi dell’aria del distributore duplex",
+          "answer": 0,
+          "page": 140,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c6a255728eca4b64723f3247013ca06daa17ff67b7c6edb00955303a9c0d5051",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4bab9cb9e576c402034b8a9be7a22abe110b499680edf8d3f26599fc778fd687",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13575,
+                "reason": "Non verificato il confronto termico a parità di forza frenante; la temperatura dipende anche dalla progettazione e dalle condizioni."
+              },
+              {
+                "number": 13577,
+                "reason": "Non trovata una fonte primaria per il confronto generale delle superfici di attrito; dipende dalle dimensioni e dalla progettazione."
+              },
+              {
+                "number": 13584,
+                "reason": "Non verificata con fonte primaria la posizione rispetto al distributore duplex nella configurazione del quesito."
+              },
+              {
+                "number": 13587,
+                "reason": "Non verificato con fonte primaria il ruolo della bassa comprimibilità del liquido nell’impianto specifico."
+              },
+              {
+                "number": 13592,
+                "reason": "Non verificata una fonte primaria applicabile alla relazione fra temperatura del motore e possibilità di movimento."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13592,
+          "quesito_id": 3030,
+          "text_it": "L’insufficiente temperatura del motore impedisce al veicolo di mettersi in movimento",
+          "answer": 0,
+          "page": 140,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4b5bbc09e2c163d28a2c2c694ca2e332c874336d5eb39e83cc6525bac7adc4d5",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4bab9cb9e576c402034b8a9be7a22abe110b499680edf8d3f26599fc778fd687",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13575,
+                "reason": "Non verificato il confronto termico a parità di forza frenante; la temperatura dipende anche dalla progettazione e dalle condizioni."
+              },
+              {
+                "number": 13577,
+                "reason": "Non trovata una fonte primaria per il confronto generale delle superfici di attrito; dipende dalle dimensioni e dalla progettazione."
+              },
+              {
+                "number": 13584,
+                "reason": "Non verificata con fonte primaria la posizione rispetto al distributore duplex nella configurazione del quesito."
+              },
+              {
+                "number": 13587,
+                "reason": "Non verificato con fonte primaria il ruolo della bassa comprimibilità del liquido nell’impianto specifico."
+              },
+              {
+                "number": 13592,
+                "reason": "Non verificata una fonte primaria applicabile alla relazione fra temperatura del motore e possibilità di movimento."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13641,
+          "quesito_id": 3034,
+          "text_it": "L’impianto frenante oleo-pneumatico contiene una pompa ad ingranaggi",
+          "answer": 0,
+          "page": 142,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a2dfcb2c1b3564a60c68df1051431b95d6436d5dd7cef36728946c6208c40492",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/890acd6d577adf25a3b38d24c13094fa2294daba084a3378301774fef84b0ac9",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13641,
+                "reason": "Non è stata individuata una fonte primaria sufficiente per escludere una pompa a ingranaggi in ogni possibile configurazione oleopneumatica."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13644,
+          "quesito_id": 3034,
+          "text_it": "L’impianto frenante oleo-pneumatico è dotato di una catena di distribuzione",
+          "answer": 0,
+          "page": 142,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6fe701e0c853df630b362a686dd86a51f1cdd854908a372a713179dfa1614ea7",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d6a71926287aca8cb4f34328bc6e4d2b985bcbf8416480d6dc7928b23edfb94e",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13644,
+                "reason": "Manca una fonte primaria verificata che chiarisca il riferimento alla catena di distribuzione."
+              },
+              {
+                "number": 13647,
+                "reason": "Non verificata la configurazione specifica dei serbatoi descritta dal quiz."
+              },
+              {
+                "number": 13649,
+                "reason": "Non verificato che il serbatoio delle sospensioni coincida con quello dei servizi nella configurazione del quiz."
+              },
+              {
+                "number": 13659,
+                "reason": "Non verificata una fonte primaria sulla specifica spia di inserimento."
+              },
+              {
+                "number": 13663,
+                "reason": "Non verificato il confronto generalizzato delle superfici di attrito; dipende dalle dimensioni e dal progetto."
+              },
+              {
+                "number": 13665,
+                "reason": "Non verificato il confronto generalizzato del surriscaldamento a parità di forza frenante."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13647,
+          "quesito_id": 3035,
+          "text_it": "I serbatoi dell’impianto oleopneumatico sono uno per ogni sezione frenante, più uno per alimentare i servizi",
+          "answer": 1,
+          "page": 142,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4f79f329048a00a6850abd3b9e1bfcc157189e5e4219945050ae58da569d8d1d",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d6a71926287aca8cb4f34328bc6e4d2b985bcbf8416480d6dc7928b23edfb94e",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13644,
+                "reason": "Manca una fonte primaria verificata che chiarisca il riferimento alla catena di distribuzione."
+              },
+              {
+                "number": 13647,
+                "reason": "Non verificata la configurazione specifica dei serbatoi descritta dal quiz."
+              },
+              {
+                "number": 13649,
+                "reason": "Non verificato che il serbatoio delle sospensioni coincida con quello dei servizi nella configurazione del quiz."
+              },
+              {
+                "number": 13659,
+                "reason": "Non verificata una fonte primaria sulla specifica spia di inserimento."
+              },
+              {
+                "number": 13663,
+                "reason": "Non verificato il confronto generalizzato delle superfici di attrito; dipende dalle dimensioni e dal progetto."
+              },
+              {
+                "number": 13665,
+                "reason": "Non verificato il confronto generalizzato del surriscaldamento a parità di forza frenante."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13649,
+          "quesito_id": 3035,
+          "text_it": "L’aria delle sospensioni pneumatiche proviene dal serbatoio destinato ai servizi",
+          "answer": 1,
+          "page": 142,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a2f3e5399a368e24a7a9651acdac32a2d78aa5355bc9f68ec3f14d272c6bf18a",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d6a71926287aca8cb4f34328bc6e4d2b985bcbf8416480d6dc7928b23edfb94e",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13644,
+                "reason": "Manca una fonte primaria verificata che chiarisca il riferimento alla catena di distribuzione."
+              },
+              {
+                "number": 13647,
+                "reason": "Non verificata la configurazione specifica dei serbatoi descritta dal quiz."
+              },
+              {
+                "number": 13649,
+                "reason": "Non verificato che il serbatoio delle sospensioni coincida con quello dei servizi nella configurazione del quiz."
+              },
+              {
+                "number": 13659,
+                "reason": "Non verificata una fonte primaria sulla specifica spia di inserimento."
+              },
+              {
+                "number": 13663,
+                "reason": "Non verificato il confronto generalizzato delle superfici di attrito; dipende dalle dimensioni e dal progetto."
+              },
+              {
+                "number": 13665,
+                "reason": "Non verificato il confronto generalizzato del surriscaldamento a parità di forza frenante."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13663,
+          "quesito_id": 3036,
+          "text_it": "I freni a tamburo hanno una minore superficie di attrito dei freni a disco",
+          "answer": 0,
+          "page": 142,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2ef00c46c2ddae6a0203b892536b154cd76b0a226268a6bf55de994e0c115089",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d6a71926287aca8cb4f34328bc6e4d2b985bcbf8416480d6dc7928b23edfb94e",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13644,
+                "reason": "Manca una fonte primaria verificata che chiarisca il riferimento alla catena di distribuzione."
+              },
+              {
+                "number": 13647,
+                "reason": "Non verificata la configurazione specifica dei serbatoi descritta dal quiz."
+              },
+              {
+                "number": 13649,
+                "reason": "Non verificato che il serbatoio delle sospensioni coincida con quello dei servizi nella configurazione del quiz."
+              },
+              {
+                "number": 13659,
+                "reason": "Non verificata una fonte primaria sulla specifica spia di inserimento."
+              },
+              {
+                "number": 13663,
+                "reason": "Non verificato il confronto generalizzato delle superfici di attrito; dipende dalle dimensioni e dal progetto."
+              },
+              {
+                "number": 13665,
+                "reason": "Non verificato il confronto generalizzato del surriscaldamento a parità di forza frenante."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13697,
+          "quesito_id": 3039,
+          "text_it": "Il freno motore è particolarmente efficiente a bassa velocità",
+          "answer": 1,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2044a07272282ff95de4ff659102a2ee6cdf7ab9d383d434c4574f98b28b3bd3",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/fb664a52795a16f7db7b8457ffb658d50abcab219fd8253b8f88b7eb862d8d47",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 13697,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13701,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13707,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13708,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13709,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13710,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13712,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 13710,
+          "quesito_id": 3040,
+          "text_it": "Nelle lunghe discese è opportuno limitare l’uso del freno motore per evitare un eccessivo consumo di carburante",
+          "answer": 0,
+          "page": 143,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "576d0f4a254334712b50f93c1cd2dc40ba258e55b0262aa14c5a97efb1a8e1fa",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/fb664a52795a16f7db7b8457ffb658d50abcab219fd8253b8f88b7eb862d8d47",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 13697,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13701,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13707,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13708,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13709,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13710,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                },
+                {
+                  "number": 13712,
+                  "reason": "Fonte primaria adeguata non individuata per sostenere la formulazione e la spiegazione richiesta."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Nelle lunghe discese è opportuno limitare l'uso del freno motore per evitare un eccessivo consumo di carburante",
+          "text": "In discesa il freno motore è utile per controllare la velocità e ridurre l’uso dei freni; non occorre evitarlo per un presunto eccessivo consumo di carburante.",
+          "evidence": [
+            "https://aftermarket.zf.com/en/aftermarket-portal/knowledge-hub/tips-to-improve-the-life-of-your-brake-pads/ — una marcia inferiore sfrutta la compressione del motore per rallentare e ridurre l’usura dei freni.",
+            "https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/ — rilasciare l’acceleratore restando in marcia in discesa favorisce l’efficienza."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13771,
+          "quesito_id": 3047,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio del differenziale per consentire il corretto funzionamento dei satelliti e dei planetari",
+          "answer": 1,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c24d9a8ec27c407fa165783d8583fd825db408cd8fe7a9dbd8ff9df6bcfff0e6",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ebd119db5e63b55a8d5c139be46dfa9bb20e5a83cc924196b703093afacd0ab0",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13771,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13774,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13776,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13781,
+                "reason": "Verdetto ambiguo: non reperita una fonte primaria che identifichi il sistema con olio del servofreno a cui si riferisce il quesito."
+              },
+              {
+                "number": 13784,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13785,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13786,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13788,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13789,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13791,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13792,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Periodicamente deve essere controllato il livello dell'olio del differenziale per consentire la corretta lubrificazione dei satelliti e dei planetari",
+          "text": "L'olio del differenziale lubrifica i suoi ingranaggi, compresi satelliti e planetari; il livello va controllato secondo le prescrizioni del veicolo.",
+          "evidence": [
+            "Eaton, Detroit Truetrac FAQ, https://www.eaton.com/it/it-it/products/differentials-traction-control/aftermarket-differentials/detroit-truetrac-faqs.html, ingranaggi e lubrificazione del differenziale"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13774,
+          "quesito_id": 3047,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio dei freni per consentire il corretto funzionamento del distributore duplex",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "857f0d1924a1e6a1d3526b23bc7b836eafeb0d3f8fffd5621071a0dd044e2fb1",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ebd119db5e63b55a8d5c139be46dfa9bb20e5a83cc924196b703093afacd0ab0",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13771,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13774,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13776,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13781,
+                "reason": "Verdetto ambiguo: non reperita una fonte primaria che identifichi il sistema con olio del servofreno a cui si riferisce il quesito."
+              },
+              {
+                "number": 13784,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13785,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13786,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13788,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13789,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13791,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13792,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Periodicamente deve essere controllato il livello dell'olio del differenziale per consentire il corretto funzionamento dell'impianto di lubrificazione del motore",
+          "text": "L'olio del differenziale lubrifica gli ingranaggi del differenziale, non l'impianto di lubrificazione del motore, che ha il proprio olio.",
+          "evidence": [
+            "Eaton, Detroit Truetrac FAQ, https://www.eaton.com/it/it-it/products/differentials-traction-control/aftermarket-differentials/detroit-truetrac-faqs.html, ingranaggi e lubrificazione del differenziale"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13776,
+          "quesito_id": 3047,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio del differenziale per consentire il corretto funzionamento de giunto elastico e del giunto cardanico",
+          "answer": 0,
+          "page": 145,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "87f89342d0b32281c6517272402f348677f81cfc5b91ed84bf076263cc525411",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ebd119db5e63b55a8d5c139be46dfa9bb20e5a83cc924196b703093afacd0ab0",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13771,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13774,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13776,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13781,
+                "reason": "Verdetto ambiguo: non reperita una fonte primaria che identifichi il sistema con olio del servofreno a cui si riferisce il quesito."
+              },
+              {
+                "number": 13784,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13785,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13786,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13788,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13789,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13791,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13792,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/c86c783a522bc4f0fb8f04e4036b81c9e671c7cf8322b9f7055a7f9846befe85",
+            "candidate": null,
+            "blockers": {
+              "unresolved_ids": [
+                13466,
+                13467,
+                13577,
+                13584,
+                13592,
+                13641,
+                13644,
+                13647,
+                13649,
+                13663,
+                13697,
+                13709,
+                13710,
+                13771,
+                13774,
+                13776
+              ],
+              "reason": "Riferimento primario specifico insufficiente per motivare il verdetto e la regola corretta senza supposizioni."
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Periodicamente deve essere controllato il livello dell'olio del differenziale per consentire il corretto funzionamento dell'impianto di lubrificazione del motore",
+          "text": "L'olio del differenziale lubrifica gli ingranaggi del differenziale, non l'impianto di lubrificazione del motore, che ha il proprio olio.",
+          "evidence": [
+            "Eaton, Detroit Truetrac FAQ, https://www.eaton.com/it/it-it/products/differentials-traction-control/aftermarket-differentials/detroit-truetrac-faqs.html, ingranaggi e lubrificazione del differenziale"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13781,
+          "quesito_id": 3048,
+          "text_it": "Periodicamente deve essere controllato il livello dell’olio del servofreno",
+          "answer": 1,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c51afac4f0f884ea5cde70718e9e9a85458b778bfe82dd287193a88f508f798e",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ebd119db5e63b55a8d5c139be46dfa9bb20e5a83cc924196b703093afacd0ab0",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13771,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13774,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13776,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13781,
+                "reason": "Verdetto ambiguo: non reperita una fonte primaria che identifichi il sistema con olio del servofreno a cui si riferisce il quesito."
+              },
+              {
+                "number": 13784,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13785,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13786,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13788,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13789,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13791,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              },
+              {
+                "number": 13792,
+                "reason": "Riferimento primario specifico non reperito per il punto tecnico decisivo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ec26495708991b36f55369eb17c5598485bf235fa84c5f43b651e03322e0506",
+            "candidate": null,
+            "blockers": {
+              "13781": "Il servofreno non ha necessariamente un proprio serbatoio d’olio; non reperita fonte primaria idonea a chiarire la formulazione.",
+              "13788": "Non reperita fonte primaria adeguata sul danno allo sterzo dovuto a sterzate da fermo.",
+              "13794": "Non reperita fonte primaria adeguata per escludere il danno al giunto elastico nel contesto indicato.",
+              "13812": "La fonte reperita documenta guasti del circuito della spia, ma non supporta sufficientemente l’accensione causata dalla spia stessa.",
+              "13874": "Non reperita fonte primaria adeguata sul nesso specifico tra sterzate da fermo e aumento del gioco.",
+              "13951": "Non reperita fonte primaria che giustifichi la coincidenza generale tra regime di coppia massima e massimo rendimento.",
+              "13955": "Non reperita fonte primaria adeguata a chiarire il senso ambiguo di consumo massimo e il rapporto con la coppia massima."
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Periodicamente deve essere controllato il livello dell’olio del servosterzo",
+          "text": "Se il servosterzo è idraulico, si controlla il livello del suo liquido secondo il manuale; un servosterzo elettrico non ha questo serbatoio.",
+          "evidence": [
+            "Ford, manuale d’uso, controlli periodici dei liquidi, https://www.fordservicecontent.com/Ford_Content/vdirsnet/OwnerManual/Home/Content?ProcUid=G836087&Uid=G836086&buildtype=web&countryCode=USA&div=f&languageCode=en&moidRef=G539649&userMarket=USA&vFilteringEnabled=True&variantid=852, controllo del liquido servosterzo nei veicoli equipaggiati"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13794,
+          "quesito_id": 3049,
+          "text_it": "Le sterzate a veicolo fermo possono danneggiare il giunto elastico",
+          "answer": 0,
+          "page": 146,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "258052f08bbe71844bec7b5da0c5730aeb60f861dffd9bf401526a2462a9b9b7",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/5ce2f6a5cb2134b310f7be9f72165d4e101d3367f089ce51e1996cd5dcf745d4",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13794,
+                "reason": "Non è specificato quale giunto elastico; manca una fonte primaria che sostenga il verdetto senza escludere il giunto dello sterzo."
+              },
+              {
+                "number": 13809,
+                "reason": "Non verificato il possibile nesso indiretto tra mancanza di olio e surriscaldamento del liquido."
+              },
+              {
+                "number": 13812,
+                "reason": "Non trovata una fonte primaria che confermi l’accensione dovuta a un difetto della spia stessa."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ec26495708991b36f55369eb17c5598485bf235fa84c5f43b651e03322e0506",
+            "candidate": null,
+            "blockers": {
+              "13781": "Il servofreno non ha necessariamente un proprio serbatoio d’olio; non reperita fonte primaria idonea a chiarire la formulazione.",
+              "13788": "Non reperita fonte primaria adeguata sul danno allo sterzo dovuto a sterzate da fermo.",
+              "13794": "Non reperita fonte primaria adeguata per escludere il danno al giunto elastico nel contesto indicato.",
+              "13812": "La fonte reperita documenta guasti del circuito della spia, ma non supporta sufficientemente l’accensione causata dalla spia stessa.",
+              "13874": "Non reperita fonte primaria adeguata sul nesso specifico tra sterzate da fermo e aumento del gioco.",
+              "13951": "Non reperita fonte primaria che giustifichi la coincidenza generale tra regime di coppia massima e massimo rendimento.",
+              "13955": "Non reperita fonte primaria adeguata a chiarire il senso ambiguo di consumo massimo e il rapporto con la coppia massima."
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Le sterzate a veicolo fermo possono danneggiare il giunto elastico degli organi della trasmissione",
+          "text": "Il quiz considera FALSO il danno al giunto della trasmissione: la sterzata da fermo sollecita soprattutto pneumatici e organi di sterzo. Il collegamento con un giunto della trasmissione dipende comunque dalla struttura del veicolo.",
+          "evidence": [
+            "DVSA, National standard for driving lorries, elemento 2.1.2, p. 15: effetti della sterzata da fermo sui pneumatici, https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/226612/dsa-national-standard-driving-lorries.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13812,
+          "quesito_id": 3052,
+          "text_it": "L’accensione della spia dell’alternatore può essere determinata da difettoso funzionamento della spia stessa",
+          "answer": 1,
+          "page": 147,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c0d6bf5348c3e8ccd5dadb42f9aa7e54ae3b5cf699b2b376f3bd550ed07b64ce",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/5ce2f6a5cb2134b310f7be9f72165d4e101d3367f089ce51e1996cd5dcf745d4",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 13794,
+                "reason": "Non è specificato quale giunto elastico; manca una fonte primaria che sostenga il verdetto senza escludere il giunto dello sterzo."
+              },
+              {
+                "number": 13809,
+                "reason": "Non verificato il possibile nesso indiretto tra mancanza di olio e surriscaldamento del liquido."
+              },
+              {
+                "number": 13812,
+                "reason": "Non trovata una fonte primaria che confermi l’accensione dovuta a un difetto della spia stessa."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ec26495708991b36f55369eb17c5598485bf235fa84c5f43b651e03322e0506",
+            "candidate": null,
+            "blockers": {
+              "13781": "Il servofreno non ha necessariamente un proprio serbatoio d’olio; non reperita fonte primaria idonea a chiarire la formulazione.",
+              "13788": "Non reperita fonte primaria adeguata sul danno allo sterzo dovuto a sterzate da fermo.",
+              "13794": "Non reperita fonte primaria adeguata per escludere il danno al giunto elastico nel contesto indicato.",
+              "13812": "La fonte reperita documenta guasti del circuito della spia, ma non supporta sufficientemente l’accensione causata dalla spia stessa.",
+              "13874": "Non reperita fonte primaria adeguata sul nesso specifico tra sterzate da fermo e aumento del gioco.",
+              "13951": "Non reperita fonte primaria che giustifichi la coincidenza generale tra regime di coppia massima e massimo rendimento.",
+              "13955": "Non reperita fonte primaria adeguata a chiarire il senso ambiguo di consumo massimo e il rapporto con la coppia massima."
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’accensione della spia dell’alternatore può essere determinata da un guasto del raddrizzatore",
+          "text": "VERO. Un raddrizzatore guasto può compromettere la carica e provocare l’accensione della relativa spia.",
+          "evidence": [
+            "HELLA, Checking the alternator, https://www.hella.com/techworld/en/technical/car-electronics-and-electrics/starting-and-charging-system/checking-the-alternator/, funzione e diagnosi della spia di carica"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13874,
+          "quesito_id": 3061,
+          "text_it": "Sterzare a veicolo fermo aumenta precocemente il gioco dello sterzo",
+          "answer": 1,
+          "page": 149,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2629794e04940afb53b69c0418106c94f9003922b42e0feb28bab83038a289a3",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ec26495708991b36f55369eb17c5598485bf235fa84c5f43b651e03322e0506",
+            "candidate": null,
+            "blockers": {
+              "13781": "Il servofreno non ha necessariamente un proprio serbatoio d’olio; non reperita fonte primaria idonea a chiarire la formulazione.",
+              "13788": "Non reperita fonte primaria adeguata sul danno allo sterzo dovuto a sterzate da fermo.",
+              "13794": "Non reperita fonte primaria adeguata per escludere il danno al giunto elastico nel contesto indicato.",
+              "13812": "La fonte reperita documenta guasti del circuito della spia, ma non supporta sufficientemente l’accensione causata dalla spia stessa.",
+              "13874": "Non reperita fonte primaria adeguata sul nesso specifico tra sterzate da fermo e aumento del gioco.",
+              "13951": "Non reperita fonte primaria che giustifichi la coincidenza generale tra regime di coppia massima e massimo rendimento.",
+              "13955": "Non reperita fonte primaria adeguata a chiarire il senso ambiguo di consumo massimo e il rapporto con la coppia massima."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/9d502ef345f6f0fa73eafa8031199542b0403fcad10b1243bab3e625ee53042d",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 13873,
+                  "reason": "Non individuata una fonte primaria adeguata sull’usura degli pneumatici sterzando da fermi."
+                },
+                {
+                  "number": 13874,
+                  "reason": "Non individuata una fonte primaria adeguata sul gioco dello sterzo causato da sterzate a veicolo fermo."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Sterzare a veicolo fermo danneggia lo sterzo e aumenta precocemente il gioco dello sterzo",
+          "text": "A veicolo fermo i pneumatici devono ruotare contro l'attrito del suolo: ripetere la manovra sollecita lo sterzo e può accelerare usura e gioco degli organi.",
+          "evidence": [
+            "DVSA, National standard for driving lorries, elemento 2.1.2, p. 15: effetti della sterzata da fermo, https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/226612/dsa-national-standard-driving-lorries.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13951,
+          "quesito_id": 3070,
+          "text_it": "Nella curva di coppia il numero di giri corrispondenti alla coppia massima coincide con quello di massimo rendimento",
+          "answer": 1,
+          "page": 152,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f3dee4e7407000a6a988f0f6bbdd039ab812cc8b83a767ebced59554a32a11cc",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ec26495708991b36f55369eb17c5598485bf235fa84c5f43b651e03322e0506",
+            "candidate": null,
+            "blockers": {
+              "13781": "Il servofreno non ha necessariamente un proprio serbatoio d’olio; non reperita fonte primaria idonea a chiarire la formulazione.",
+              "13788": "Non reperita fonte primaria adeguata sul danno allo sterzo dovuto a sterzate da fermo.",
+              "13794": "Non reperita fonte primaria adeguata per escludere il danno al giunto elastico nel contesto indicato.",
+              "13812": "La fonte reperita documenta guasti del circuito della spia, ma non supporta sufficientemente l’accensione causata dalla spia stessa.",
+              "13874": "Non reperita fonte primaria adeguata sul nesso specifico tra sterzate da fermo e aumento del gioco.",
+              "13951": "Non reperita fonte primaria che giustifichi la coincidenza generale tra regime di coppia massima e massimo rendimento.",
+              "13955": "Non reperita fonte primaria adeguata a chiarire il senso ambiguo di consumo massimo e il rapporto con la coppia massima."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/0fcd282b98fd5506d93ee3b134e7e08ceb64f4bb0ffe04717fcbfab9f6a314f9",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 13951,
+                  "reason": "Non verificata una fonte primaria che sostenga la coincidenza generale tra regime di coppia massima e rendimento massimo; il rendimento dipende anche dal carico."
+                },
+                {
+                  "number": 13955,
+                  "reason": "Non verificata una fonte primaria sufficiente a chiarire il consumo massimo senza distinguere consumo orario e specifico."
+                },
+                {
+                  "number": 13960,
+                  "reason": "Non verificata una fonte primaria sufficiente per il calo della curva di potenza dopo il massimo nel campo di funzionamento."
+                },
+                {
+                  "number": 13964,
+                  "reason": "Non verificata una fonte primaria sufficiente per il calo della curva di potenza dopo il massimo nel campo di funzionamento."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Nella curva di coppia il numero di giri corrispondenti ad un valore vicino a quello della coppia massima coincide con quello di massimo rendimento",
+          "text": "Il quiz indica VERO, ma la curva di coppia da sola non dimostra dove sia il rendimento massimo. La mappa di rendimento dipende da regime e carico: per verificare la coincidenza indicata occorrono i dati del motore nelle condizioni considerate.",
+          "evidence": [
+            "US DOE Co-Optima webinar https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines — efficiency map depends on speed and load, with light-duty spark-ignition research examples. It does not establish the quiz’s claimed coincidence for an unspecified engine/load or a model-specific near-peak optimum.",
+            "NREL vehicle choice and applied analysis https://www.energy.gov/cmei/vehicles/articles/medium-and-heavy-duty-vehicle-choice-modeling-and-applied-analysis — fuel-rate maps relate operation to speed and torque; distinguish fuel rate from efficiency. Printed answer retained without asserting a demonstrated near-peak efficiency optimum."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 13955,
+          "quesito_id": 3070,
+          "text_it": "Nella curva di coppia, il numero di giri corrispondente alla coppia massima coincide con quello di massimo consumo",
+          "answer": 0,
+          "page": 152,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "86e8ea9d0e8d59f578a4bf8785d625f0e51ae70fda1dbd6597a0432d1f476ed0",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ec26495708991b36f55369eb17c5598485bf235fa84c5f43b651e03322e0506",
+            "candidate": null,
+            "blockers": {
+              "13781": "Il servofreno non ha necessariamente un proprio serbatoio d’olio; non reperita fonte primaria idonea a chiarire la formulazione.",
+              "13788": "Non reperita fonte primaria adeguata sul danno allo sterzo dovuto a sterzate da fermo.",
+              "13794": "Non reperita fonte primaria adeguata per escludere il danno al giunto elastico nel contesto indicato.",
+              "13812": "La fonte reperita documenta guasti del circuito della spia, ma non supporta sufficientemente l’accensione causata dalla spia stessa.",
+              "13874": "Non reperita fonte primaria adeguata sul nesso specifico tra sterzate da fermo e aumento del gioco.",
+              "13951": "Non reperita fonte primaria che giustifichi la coincidenza generale tra regime di coppia massima e massimo rendimento.",
+              "13955": "Non reperita fonte primaria adeguata a chiarire il senso ambiguo di consumo massimo e il rapporto con la coppia massima."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/0fcd282b98fd5506d93ee3b134e7e08ceb64f4bb0ffe04717fcbfab9f6a314f9",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 13951,
+                  "reason": "Non verificata una fonte primaria che sostenga la coincidenza generale tra regime di coppia massima e rendimento massimo; il rendimento dipende anche dal carico."
+                },
+                {
+                  "number": 13955,
+                  "reason": "Non verificata una fonte primaria sufficiente a chiarire il consumo massimo senza distinguere consumo orario e specifico."
+                },
+                {
+                  "number": 13960,
+                  "reason": "Non verificata una fonte primaria sufficiente per il calo della curva di potenza dopo il massimo nel campo di funzionamento."
+                },
+                {
+                  "number": 13964,
+                  "reason": "Non verificata una fonte primaria sufficiente per il calo della curva di potenza dopo il massimo nel campo di funzionamento."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Nella curva di coppia, il numero di giri corrispondente ad un valore vicino a quello della coppia massima coincide con quello di massimo consumo",
+          "text": "Il quiz indica FALSO. La curva di coppia non basta a individuare il consumo massimo: a uno stesso regime il consumo cambia anche con il carico. Per confrontare i consumi occorre la mappa del motore e precisare come sono misurati.",
+          "evidence": [
+            "US DOE Co-Optima webinar https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines — efficiency map depends on speed and load, with light-duty spark-ignition research examples. It does not establish the quiz’s claimed coincidence for an unspecified engine/load or a model-specific near-peak optimum.",
+            "NREL vehicle choice and applied analysis https://www.energy.gov/cmei/vehicles/articles/medium-and-heavy-duty-vehicle-choice-modeling-and-applied-analysis — fuel-rate maps relate operation to speed and torque; distinguish fuel rate from efficiency. Printed answer retained without asserting a demonstrated near-peak efficiency optimum."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 14061,
+          "quesito_id": 3083,
+          "text_it": "Chiunque, avendo l’obbligo di registrare i periodi di guida ai sensi delle norme vigenti, non inserisce il foglio di registrazione o la scheda del conducente, è soggetto a decurtazione dei punti della carta di qualificazione del conducente",
+          "answer": 1,
+          "page": 156,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "000c887a651b623e0608720a6e9d16bd7e1830388dec1a0a44a53a5bea63e8e4",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d8b47cbda7bebbac7e23cd8366f883a4832c40bc2e18c5385e12a5e27fbda3df",
+            "candidate": null,
+            "blockers": {
+              "14061": "Non verificato il collegamento specifico fra violazione e decurtazione sulla CQC.",
+              "14198": "Non trovata una fonte primaria che sostenga la formulazione generale sul rischio di incidente per tipo di combustibile.",
+              "14227": "Il riferimento consultato indica rilevatori di anidride carbonica, ma non esclude in assoluto l’uso di rilevatori di ossigeno.",
+              "14303": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14305": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14306": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14307": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14318": "La formulazione sulle prove e sulle sanzioni richiede una fonte giuridica specifica e qualificazioni non verificate.",
+              "14319": "La responsabilità penale e amministrativa dell’impresa e la formulazione sulle prove richiedono una fonte specifica non verificata.",
+              "14386": "Non verificata una fonte primaria che colleghi specificamente sovrappeso e aggravamento degli effetti delle vibrazioni.",
+              "14452": "La fonte individuata sulla filtrazione dell’abitacolo non era accessibile; effetto delle condizioni del filtro non verificato."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/4727b831dc53c13ecbc3e06012976c5266a229f22e8fc2d2049ea87aee4d74f9",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14053,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14054,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14055,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14056,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14057,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14058,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14059,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14060,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14061,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14062,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14063,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14064,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14065,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              },
+              {
+                "number": 14066,
+                "reason": "Il testo primario dell’articolo 179 del Codice della strada non è accessibile, neppure con il tentativo alternativo; non è possibile verificare la sanzione o la decurtazione applicabile."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Chiunque, avendo l’obbligo di registrare i periodi di guida ai sensi delle norme vigenti, non inserisce il foglio di registrazione o la scheda del conducente, è soggetto a sanzione amministrativa pecuniaria e a sospensione della patente di guida",
+          "text": "Il mancato inserimento del foglio o della carta, quando obbligatorio, comporta una sanzione amministrativa pecuniaria e la sospensione della patente.",
+          "evidence": [
+            "Codice della strada, art. 179, commi 2 e 9 (https://aci.gov.it/codice-della-strada/art-179/), sanzione pecuniaria e sospensione per le violazioni del conducente"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 14198,
+          "quesito_id": 3095,
+          "text_it": "La tipologia di combustibile (gasolio, gpl, metano) aumenta il rischio di incidente stradale",
+          "answer": 0,
+          "page": 161,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0e35d67c21aa7636abc365f318b0b54cb206ddaffb491c196e6722913043d4dc",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d8b47cbda7bebbac7e23cd8366f883a4832c40bc2e18c5385e12a5e27fbda3df",
+            "candidate": null,
+            "blockers": {
+              "14061": "Non verificato il collegamento specifico fra violazione e decurtazione sulla CQC.",
+              "14198": "Non trovata una fonte primaria che sostenga la formulazione generale sul rischio di incidente per tipo di combustibile.",
+              "14227": "Il riferimento consultato indica rilevatori di anidride carbonica, ma non esclude in assoluto l’uso di rilevatori di ossigeno.",
+              "14303": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14305": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14306": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14307": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14318": "La formulazione sulle prove e sulle sanzioni richiede una fonte giuridica specifica e qualificazioni non verificate.",
+              "14319": "La responsabilità penale e amministrativa dell’impresa e la formulazione sulle prove richiedono una fonte specifica non verificata.",
+              "14386": "Non verificata una fonte primaria che colleghi specificamente sovrappeso e aggravamento degli effetti delle vibrazioni.",
+              "14452": "La fonte individuata sulla filtrazione dell’abitacolo non era accessibile; effetto delle condizioni del filtro non verificato."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/ea1d96ff677a95279c5c0b32cffb65b15af8236f5231c9e5d4ecaf860f30751a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 14198,
+                "reason": "Nessuna fonte primaria verificata che sostenga il confronto generale tra tipo di combustibile e rischio di incidente."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "La tipologia di combustibile (gasolio, GPL, metano) aumenta il rischio di incidente stradale",
+          "text": "Il quiz indica FALSO: il solo tipo di combustibile non determina automaticamente un aumento del rischio di incidente. Contano anche condizioni del veicolo e modalità di guida; gli impianti richiedono misure di sicurezza adeguate al combustibile.",
+          "evidence": [
+            "Official CQC 31847 printed FALSO; no causal mechanism or fuel comparison is specified.",
+            "NHTSA FMVSS 303 laboratory procedure appendix D https://www.nhtsa.gov/sites/nhtsa.gov/files/tp-303-00.pdf p.79 — CNG fuel-system integrity requirements reduce fire injury from leakage during or after crashes, for specified vehicle categories; safety provisions are not proof of equal collision rates for all fuel types.",
+            "SWANA and NGVAmerica, Natural Gas: A Clean, Safe and Smart Choice for the Waste and Recycling Industry, p.2, DOE-hosted https://afdc.energy.gov/files/u/publication/Natural-Gas-A-Clean-Safe-and-Smart-Choice-for-the-Waste-Recycling-Industry.pdf — industry authors say properly operated and maintained natural-gas vehicles can be as safe as gasoline or diesel; all vehicles have risks. This is not a universal collision-rate comparison."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 14303,
+          "quesito_id": 3108,
+          "text_it": "Una delle aree maggiormente interessate dal fenomeno dell’immigrazione clandestina come punto di ingresso in Italia è la città di Roma ed in particolare la zona di Fregene",
+          "answer": 0,
+          "page": 165,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c58c91cddce447802bbf69de151b8e3c0a9bb0c563ed23ce964d2e5933c916da",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d8b47cbda7bebbac7e23cd8366f883a4832c40bc2e18c5385e12a5e27fbda3df",
+            "candidate": null,
+            "blockers": {
+              "14061": "Non verificato il collegamento specifico fra violazione e decurtazione sulla CQC.",
+              "14198": "Non trovata una fonte primaria che sostenga la formulazione generale sul rischio di incidente per tipo di combustibile.",
+              "14227": "Il riferimento consultato indica rilevatori di anidride carbonica, ma non esclude in assoluto l’uso di rilevatori di ossigeno.",
+              "14303": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14305": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14306": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14307": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14318": "La formulazione sulle prove e sulle sanzioni richiede una fonte giuridica specifica e qualificazioni non verificate.",
+              "14319": "La responsabilità penale e amministrativa dell’impresa e la formulazione sulle prove richiedono una fonte specifica non verificata.",
+              "14386": "Non verificata una fonte primaria che colleghi specificamente sovrappeso e aggravamento degli effetti delle vibrazioni.",
+              "14452": "La fonte individuata sulla filtrazione dell’abitacolo non era accessibile; effetto delle condizioni del filtro non verificato."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/dc997dd310e2f12ac2941b2c4877ac92f4eab21e5589ec77039b0e533c343098",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 14303,
+                  "reason": "Manca una fonte primaria comparativa che sostenga la classificazione storica di Roma e Fregene fra i punti di ingresso."
+                },
+                {
+                  "number": 14305,
+                  "reason": "Manca una fonte primaria comparativa che sostenga la classificazione storica di Milano rispetto ai punti di ingresso."
+                },
+                {
+                  "number": 14306,
+                  "reason": "Manca una fonte primaria comparativa che sostenga la classificazione storica delle coste liguri di ponente."
+                },
+                {
+                  "number": 14307,
+                  "reason": "Manca una fonte primaria comparativa che sostenga la classificazione storica delle coste della Versilia."
+                },
+                {
+                  "number": 14318,
+                  "reason": "L’affermazione non precisa la giurisdizione e sembra invertire l’onere della prova penale; non è stata trovata una fonte che ne sostenga la formulazione generale."
+                },
+                {
+                  "number": 14319,
+                  "reason": "L’affermazione non precisa la giurisdizione e attribuisce indistintamente sanzioni penali e amministrative all’impresa sulla base della mancanza di prove; manca una fonte che sostenga tale formulazione generale."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Una delle aree maggiormente interessate dal fenomeno dell'immigrazione clandestina come punto di ingresso in Italia è la città di Roma ed in particolare la zona di Fregene",
+          "text": "Il quiz considera falsa l'indicazione di Roma e Fregene come principale punto d'ingresso: le direttrici indicate dal Ministero comprendono le rotte marittime verso il Sud e quella terrestre balcanica. La distribuzione degli arrivi può cambiare.",
+          "evidence": [
+            "Ministero dell'Interno, audizione al Comitato Schengen, principali direttrici migratorie verso l'Italia; https://www.interno.gov.it/it/notizie/comitato-parlamentare-schengen-audizione-ministro-piantedosi"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 14305,
+          "quesito_id": 3108,
+          "text_it": "Una delle aree maggiormente interessate dal fenomeno dell’immigrazione clandestina come punto di ingresso in Italia è la città di Milano",
+          "answer": 0,
+          "page": 165,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3e1bb7ae5437a6d62dd9fc42cedecba0ae459ceece6d1d57e80defa3b26a4ff3",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/d8b47cbda7bebbac7e23cd8366f883a4832c40bc2e18c5385e12a5e27fbda3df",
+            "candidate": null,
+            "blockers": {
+              "14061": "Non verificato il collegamento specifico fra violazione e decurtazione sulla CQC.",
+              "14198": "Non trovata una fonte primaria che sostenga la formulazione generale sul rischio di incidente per tipo di combustibile.",
+              "14227": "Il riferimento consultato indica rilevatori di anidride carbonica, ma non esclude in assoluto l’uso di rilevatori di ossigeno.",
+              "14303": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14305": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14306": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14307": "Non verificata una comparazione geografica riferita al periodo del quiz; rapporto ministeriale individuato non accessibile.",
+              "14318": "La formulazione sulle prove e sulle sanzioni richiede una fonte giuridica specifica e qualificazioni non verificate.",
+              "14319": "La responsabilità penale e amministrativa dell’impresa e la formulazione sulle prove richiedono una fonte specifica non verificata.",
+              "14386": "Non verificata una fonte primaria che colleghi specificamente sovrappeso e aggravamento degli effetti delle vibrazioni.",
+              "14452": "La fonte individuata sulla filtrazione dell’abitacolo non era accessibile; effetto delle condizioni del filtro non verificato."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/dc997dd310e2f12ac2941b2c4877ac92f4eab21e5589ec77039b0e533c343098",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 14303,
+                  "reason": "Manca una fonte primaria comparativa che sostenga la classificazione storica di Roma e Fregene fra i punti di ingresso."
+                },
+                {
+                  "number": 14305,
+                  "reason": "Manca una fonte primaria comparativa che sostenga la classificazione storica di Milano rispetto ai punti di ingresso."
+                },
+                {
+                  "number": 14306,
+                  "reason": "Manca una fonte primaria comparativa che sostenga la classificazione storica delle coste liguri di ponente."
+                },
+                {
+                  "number": 14307,
+                  "reason": "Manca una fonte primaria comparativa che sostenga la classificazione storica delle coste della Versilia."
+                },
+                {
+                  "number": 14318,
+                  "reason": "L’affermazione non precisa la giurisdizione e sembra invertire l’onere della prova penale; non è stata trovata una fonte che ne sostenga la formulazione generale."
+                },
+                {
+                  "number": 14319,
+                  "reason": "L’affermazione non precisa la giurisdizione e attribuisce indistintamente sanzioni penali e amministrative all’impresa sulla base della mancanza di prove; manca una fonte che sostenga tale formulazione generale."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Una delle aree maggiormente interessate dal fenomeno dell'immigrazione clandestina come punto di ingresso in Italia è la città di Milano",
+          "text": "Il quiz considera falsa l'indicazione di Milano come principale punto d'ingresso: le direttrici individuate riguardano le frontiere e le coste d'arrivo. Milano è una città interna e può invece essere luogo di transito o destinazione.",
+          "evidence": [
+            "Ministero dell'Interno, audizione al Comitato Schengen, principali direttrici di ingresso terrestri e marittime; https://www.interno.gov.it/it/notizie/comitato-parlamentare-schengen-audizione-ministro-piantedosi"
+          ]
+        }
+      }
+    ],
+    "task_sha256": "680278c4d5dc2e7be2b038e6c7bd426d465574262cb650b80a2b850dcfabc771",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage."
+  },
+  "rows": [
+    {
+      "number": 13467,
+      "text": "Lo sbalzo posteriore, da solo, non determina un aumento del sottosterzo: il comportamento in curva dipende anche dalla distribuzione dei carichi e dalle caratteristiche degli pneumatici.",
+      "evidence": [
+        "Albinsson, Chalmers, Online and Offline Identification of Tyre Model Parameters, § 2.1, p. 9, https://research.chalmers.se/publication/501552/file/501552_Fulltext.pdf: il sottosterzo dipende dalla posizione del baricentro e dalla rigidezza laterale degli pneumatici."
+      ]
+    },
+    {
+      "number": 13584,
+      "text": "Il convertitore non si trova tra i serbatoi e il distributore: nell’impianto descritto riceve l’aria comandata dal distributore e la trasforma in pressione idraulica per i freni.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, pp. 6-9–6-10, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: il cilindro pneumatico del convertitore riceve la pressione comandata dalla valvola del freno e aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 13592,
+      "text": "Un motore freddo non impedisce necessariamente la partenza: una volta avviato, il veicolo può muoversi senza attendere che il motore raggiunga la temperatura di esercizio.",
+      "evidence": [
+        "Middlesbrough Council, Vehicle idling, Top tips, https://www.middlesbrough.gov.uk/environmental-issues/problems-on-roads-and-highways/vehicle-idling/: le auto moderne non richiedono il riscaldamento del motore da ferme."
+      ]
+    },
+    {
+      "number": 13641,
+      "text": "Nell’impianto oleopneumatico illustrato il liquido è spinto da un pistone azionato dall’aria compressa: non occorre una pompa a ingranaggi per produrre la pressione frenante.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, p. 6-10, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: il cilindro pneumatico aziona il pistone del cilindro idraulico."
+      ]
+    },
+    {
+      "number": 13644,
+      "text": "La catena di distribuzione non è un componente dell’impianto frenante oleopneumatico: in questo impianto l’aria aziona un pistone che mette in pressione il liquido dei freni.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, p. 6-10, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: descrizione del convertitore pneumatico-idraulico e dei suoi cilindri."
+      ]
+    },
+    {
+      "number": 13697,
+      "text": "Il quiz indica VERO riferendosi all’uso di una marcia bassa per ottenere freno motore anche a bassa velocità del veicolo. La velocità del veicolo non va però confusa con il regime del motore: a bassi giri l’effetto frenante può essere debole.",
+      "evidence": [
+        "Manuale MAN HX60, cap. 1-4, p. 13, §§ 53–56, https://assets.publishing.service.gov.uk/media/5f4794c98fa8f536379ef746/Binder1.pdf: il freno motore è più efficace ad alto regime e può richiedere una marcia inferiore."
+      ]
+    },
+    {
+      "number": 13710,
+      "text": "In discesa il freno motore aiuta a controllare la velocità e a limitare il riscaldamento dei freni; non va evitato per un presunto consumo eccessivo. Nei veicoli moderni, in marcia con acceleratore rilasciato, l’alimentazione spesso si interrompe.",
+      "evidence": [
+        "Vehicle Certification Agency, Fuel efficient driving tips, Drive smoothly, https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/: in discesa consiglia di restare in marcia e rilasciare l’acceleratore, con possibile interruzione del carburante."
+      ]
+    },
+    {
+      "number": 13771,
+      "text": "L’olio lubrifica gli ingranaggi del differenziale, fra cui satelliti e planetari: il livello va controllato agli intervalli indicati dal costruttore.",
+      "evidence": [
+        "Eaton, Detroit Truetrac FAQ, sezioni sul tipo di olio e sulla manutenzione, https://www.eaton.com/it/it-it/products/differentials-traction-control/aftermarket-differentials/detroit-truetrac-faqs.html: gli ingranaggi del differenziale richiedono lubrificante."
+      ]
+    },
+    {
+      "number": 13774,
+      "text": "Il livello del liquido dei freni va controllato, ma non per il funzionamento del distributore duplex: questo comanda la pressione dell’aria, mentre il liquido opera nella parte idraulica dell’impianto.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, fig. 6-5 e p. 6-10, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: valvola pneumatica e circuiti idraulici sono componenti distinti."
+      ]
+    },
+    {
+      "number": 13776,
+      "text": "L’olio del differenziale serve a lubrificare gli ingranaggi al suo interno, non il giunto elastico e il giunto cardanico della trasmissione, che sono componenti distinti.",
+      "evidence": [
+        "Eaton, Detroit Truetrac FAQ, sezioni sul lubrificante e sugli ingranaggi, https://www.eaton.com/it/it-it/products/differentials-traction-control/aftermarket-differentials/detroit-truetrac-faqs.html: il lubrificante è destinato agli ingranaggi del differenziale."
+      ]
+    },
+    {
+      "number": 13951,
+      "text": "Il quiz indica VERO, ma la coincidenza non è generale: il rendimento dipende sia dal regime sia dal carico. La sola curva di coppia non basta a dimostrare che il massimo rendimento cada proprio al regime di coppia massima.",
+      "evidence": [
+        "U.S. Department of Energy, Co-Optima webinar, descrizione della mappa di efficienza, https://www.energy.gov/cmei/fuels/text-version-co-optima-webinar-how-can-co-optimized-fuels-and-spark-ignition-engines: il rendimento è rappresentato in funzione del regime e del carico."
+      ]
+    },
+    {
+      "number": 13955,
+      "text": "Il regime di coppia massima non individua necessariamente il consumo massimo: il consumo varia anche con il carico e va valutato sulla mappa del motore, precisando come è misurato.",
+      "evidence": [
+        "U.S. Department of Energy, Vehicle and Systems Simulation and Testing, mappa dei consumi del motore, https://www.energy.gov/sites/prod/files/2014/04/f15/2013_vsst_report.pdf: la portata di carburante è associata a regime e coppia."
+      ]
+    }
+  ],
+  "output_sha256": "25130a14698588459c06b1d885a9dfb38f497ae2b35856bc22121a4271c5ab3b"
+}

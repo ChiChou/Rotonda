@@ -1,0 +1,200 @@
+{
+  "batch": "011",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_early",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "04448c7eecc60d1d4daa954946be7c30d64f58387a27ce9b955c98bcebeb394d",
+  "rows": 100,
+  "verified_ids": [
+    "307d04fb0010534788a1aef373225472caabb0d23739eebe02b770a6d020d880",
+    "82cf447d3786e327d4803d66f21e0ef5c3134c12b6a5f64ed8cd03abbf21be6e",
+    "1bae7985439e492c8826868966b8d10bec5a1c2af0cc4d10c3e197e62a77a2f9",
+    "7d1b671b7a65e0dbc8de2506f3c7643d8d45cd5dbf57410d1bad5dc18b3c4c96",
+    "403fff369976dce37b35cd80b1f2cf1b108020c2d04f5a7a3b716cd6a82dc3ab",
+    "53423a9321e8b74e725cbf9fa7c5456f80802e23cb29a629322a48b3bffcec15",
+    "c69ac1a9c67c862996446e1e715c7719917f41be87a0122c9b1932e985a36e16",
+    "34fe99815b6bcddeb68c46d2396a6dbc74a5690c103fc82770cbbaf35f885315",
+    "8d88c8239188f28b9f67629c938f6fc319215a5a389bc2ce8f45892097e2d59b",
+    "c7576add64ac70bb74ad2e4e690e5465287749f24fe0279f4d1ae14a907f8627",
+    "1c2361a8b2d767c493157d93e71706e55078ef95c502340d2a091f05806235a0",
+    "65ae119e8608840f22d3a1abf37aab657a7bb97540b87da86160c5247583c3aa",
+    "3f6b019dd95f56a693806ace0741aea2d85563f362079a4054bda38af3cdba5a",
+    "569caf30d23a8a8020cb89be2ab0351d90cb77cdfc2cecdadbdc6bc504cf6a18",
+    "556f17ed0f752262296f6a312801a98d59c96f8d2715301583da18cfa621e60a",
+    "a3026aefa6606e59e76a710e137c3a7ba89e574a7d4f307ebb213107d15a0bb6",
+    "53b5cd6310090cf5cba8f725fb6f20a216a86c7455d4e7ae32b72782d8b1d484",
+    "e5921398b0127294b58a63d535b6cd6d21f45cb313b664e674ca6afa36e728a0",
+    "729f5819523c665849f2148503ee36f1e6c9dd15a75642106dae642c97ff244a",
+    "d2edcb97e690702f84dc87eb2f03789ef259aa667e3d75dd30ebb964f7b0c5f5",
+    "6e177998f576e0589fcefa2d50013066c313c4d9d391fb47deceedf9242e1da6",
+    "2aee8034a494068ecfffb24bed85033c555e59a822fd6507189f870df850ad30",
+    "c942154a9fe23e02504828837865823cbb9223461520f218e40fde36aedb256a",
+    "d62dd89b71e26bf5f1a6aebfdd6c435ad89819e472e7b2c1728a730a4b0b7aa6",
+    "c0f0cc5dd9c801f6d72b8e45be053ae3207f0dfcf558efef7d44460af0a099f0",
+    "437a168de6ceccf50599ae41d33b35e7dccb7965770084354dbb8f62fe943f6e",
+    "cdf0bdd8fe147164b4036a652236f6828eb2fe8ae25232c2405aa7b419f4c7d8",
+    "87ede657f9f3a0ad78d1a3a5717dcfa84e5f7fb4bce6cfab02de971ae45717c9",
+    "111d8323bcf8152cfa2d9f100625d64e80cbf33dd57dcf4f72b5e3b39f785db1",
+    "91bb2cb3ce0638851b7f9290ebf1abefaf13edf4e781545981c3fa6318991886",
+    "666095146d67190211d688f136287af9e5b7b1f1c74d6fcd27329e14c63df82c",
+    "3490a46849e706fd985106da1a48efa90d8609baedfd10d3cce7c9ae5405c79b",
+    "9fa7217eacb6fbecbb02e77ed2265fe7564ed62a9c78ef2597df27bdeab15555",
+    "dd07f1787baf5ec8810094a218739d91192ab845302913f62e4384d67408203c",
+    "64595a1f727a43e89d5b90518d6918686bb8fb9445d2b71a7aeb7937e5bf6292",
+    "0a50a697db7bbfc5b7239647457109bd676088fef10be7927d6f375d81c6655b",
+    "9a3eec3e365cdc834e9576bcb74c071d75222266fd317df54fe1180ac9cac38b",
+    "ad3299c72df59fc1bf69f7dc21b141f264fb788451ccc1fea0becd3bd3207c76",
+    "ea72272e17e98634256aae80ca126a18b58d913d2cd67b4cb79c3949a9be3755",
+    "ad2741d1cded5c9ad4afaf4daa25d06dc17135d4819024125aa9aa5b9dffba43",
+    "30335c381ccaad97ad7c98e6068f311668b31454f250c3ef9573586b203601e4",
+    "c36cb34bdab52cf3f8848b845e9c8eaacdca7910aecb0ebbfbc679b2d1fcc0e8",
+    "ee914bada08589afb944b9d1e1d0c2b9523c710f480b870af96392704a9b4627",
+    "d634f1976c262c607d4746f907a47c177ef219cf7db75888abe688fca05408a5",
+    "f606cb20d9a299994c075a0779257f1ea18d61d20958076e56bdb4e6a14b4772",
+    "cc4982e8e004643d3c20252eca9da8dfa339492d471b8a97366deab3fd504fd8",
+    "a6ef2f15c56501e699eaff8b8671c5fc7baf27698a3997cc371c2bdbda0c71d1",
+    "93f4afd53d02e98df6f88b250cc35f75d72fc8dfd01fd891239f76bcff6004b2",
+    "18dfc96054b65a3c0d75b6eb1049664596d695be0d4d24e60aceb31873490a2b",
+    "af07a178240dd730638b56d654ac21bb118a94c6400d4b84a1a01ec67b40606b",
+    "5e3eb96c6fcebdbc7dd5ee7e37697e8a5fc5a058ac97a07ef31449d0b85c217c",
+    "4d73e873ca84c35de9c37e0d2dc6a0f6bf6276fcaeb2303f672a252696eac5b5",
+    "327872d74bf602949a354b058fae48afcab08854a1fa62e6cbcc472b2c39a7b8",
+    "f2f38cba99eebef6c177b6245e96f85ab4e1f3cf5fcdd134f7db920193a3de4c",
+    "5ccb34fe24687ab9d8ba3424c98c08b44f231d5cdb199680714a1c82a88fd644",
+    "f562d5d713fc85e6c99656a0bd88d38c68e4c9fc568c6f4566f3903c0b2ce75f",
+    "ffa54f3f105051aa412f8103f20e21402e5889f10b4f36f9919b30b3f2f0305d",
+    "bd4109b664727078d57144b2a547d92a96c9689b75c09c5a791177e7527b56e1",
+    "e4e5b17ba4e4859bb7f45733cfe92f980857298e2bd66a6c7d091c262e6d2ad6",
+    "c088c71c96f03895cf5c66631e4ce40b9773c0c20b4800ba1230aca750e901da",
+    "b3aeb2bda77fcde2f9e7425260f9fe95e1257ea2e48644eb55f044102bd3774c",
+    "7f5f9b707db5f13d907a4c47a989ac0401f01fc0b3f5a5a015e457beb1341a57",
+    "4c739d399b0274be4182222b53e43e0deca6f3abb1471770d83694c5faf55a9a",
+    "384dfd1b0157f61a78151f5a898df50ac684c13e700f1c88b55a0ad6e660cf93",
+    "1ce6d96fc0ce8fdfaaa4622f6ff7f70955d38fc4004b9d9ff0b399d0a7c0c9da",
+    "48ac4e4201d82764ff378021cf6cfeab1a02fccffdaa10918af1776ba3dc982a",
+    "0419bbd9d2fe839fb3d0be3c8cfb2ddd47ab26af49ea2c7aebbbc019c1936f4e",
+    "6625e064b6f8bd907249f7a9a10d7af686c23d0bce6681b948dd4d5fbd1cb6d0",
+    "fb7b840b0b32fc4d2f9ab83be49f7f85621cc4216eb4343fee4638c887a2994a",
+    "d8515190dee363fcd19b6b5bfb0634beb7e5d0f799d2eb51b263271575ae0cba",
+    "2545196e7b225414951c10e9355d6b0243957bb2f329b982c6ef064b3b57b8d0",
+    "a6138ccbda116a40e605c0186953237280c9b14fd8897436c195991fa1bdbef5",
+    "1bceac9ff96f183bf46490062615da7a832a9d13bd4d6b678290fba0018476a8",
+    "d40bafae988dd31e8fccda96262beb1803ac75d2fbada30d3bf7ba35240bcad4",
+    "d6b0ce449b38cb9e634f9fc3fb1e8ac55a2b2d5114fa376c264cd957813654d3",
+    "a0295c4675912b033cfd468ee074b07eca8c220f65ea56453fbf41ae1fc69b02",
+    "18642d98a1e3e0072b266ddacd676a69e5407a1cffd1ad36a3643dbdda09a8e0",
+    "92d1b68588c5c732a503d300a642d6e77cf2bc77bb0d6e8b7867d6060284eba0",
+    "53170c43fac2a9173ac5647b9ced2c30218c1299d2d5d4160b6da9ccb7e7715b",
+    "f00f47de0decfd3c115f8e9824247afd3a8a8616492b037e58eec7980b1fb7d8",
+    "66f63f4fbd7346b2a7f945ffffb84058271d5ceb114172552993893003473bce",
+    "05b5c208fbe6a99ebc4a9fe0ec488b63dd6133e63d182babe06041fdc7189efb",
+    "2c5fea5d1a127c4e9554aff9abc379a4cc7a150c1e2033bfb1b0312f13381e9d",
+    "03854a01ea234b287fbd979f13330e28d6f5b9c6991bbcd6a8e5703f8209cca2",
+    "0369c173b70c9e8ca31b011f9304b54f7d72b39a75e1f81955646085cd0a831a",
+    "39845c5d85499b8b09a4ae6d3d53bc0205e3b8877ba80df9a090d9dcbb12bf33",
+    "ea95f91438e270cca69e0797cf5ddcce78a61102d9efff7257dd9b73e34fd90f",
+    "bdea73ef6b36836874b7de63d3e40f5cc7271e8944f4d3f7d697564a649ad91a",
+    "47169de145086b805e1e86162106ffb7f058261aad4be37adc779d42ccb5837b",
+    "bcb7f4425d150f47ab3790a2fab2b7e33da6880d1ba3d41b02873538e843997f",
+    "64904436e6682d7f53edda9e40423f88905d6e1a3c80d758841e8430494a2a97",
+    "6f4ae5a2d9bc73a0d7dc49e8b2235a37705730e76a6611989ecc4bc05a35c465",
+    "286571ccd9ca4b3c0e0fd9b2da0ad6165ea34f479f5f69ad804079ab3b603d06",
+    "56bfd685ebb904afeab6c256012a830cd1a0ad32337eefe79a6927725c2d4c5d",
+    "422e0c3f8175267477c0a294d9ede5a1fe5e117dec2ae6c5c187307c795f4881",
+    "768e5cca638d1d3887e76b9abae7921a35fab64e9fe259ac0212dfa4efb30efe",
+    "839bdfb9b7ae1b9a8dc7758d6abcd4f1f367ad64a07862c7fca5a373fee685c7",
+    "b99b6e8e9c979bdfba16f75d102674afddaad1304fb0db0b8be63c8e7b9f984e",
+    "cb5adbb02eeae790ae60b721a6d569cdc03e56d9cdbcb908110e23b0ab415676",
+    "47d141a181191cf6c924720513c4a0eae8e8001be101f8ffa7662679c7855e39"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "0a50a697db7bbfc5b7239647457109bd676088fef10be7927d6f375d81c6655b",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "在湿滑道路上，驾驶人必须以特别适中的速度通过弯道。",
+          "after": "在易滑道路上，驾驶人必须以特别适中的速度通过弯道。"
+        }
+      }
+    },
+    {
+      "id": "9a3eec3e365cdc834e9576bcb74c071d75222266fd317df54fe1180ac9cac38b",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "在湿滑道路上，驾驶人必须增大与前车的安全距离。",
+          "after": "在易滑道路上，驾驶人必须增大与前车的安全距离。"
+        }
+      }
+    },
+    {
+      "id": "ad3299c72df59fc1bf69f7dc21b141f264fb788451ccc1fea0becd3bd3207c76",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "在湿滑道路上，驾驶人必须尽量保持适中且均匀的速度。",
+          "after": "在易滑道路上，驾驶人必须尽量保持适中且均匀的速度。"
+        }
+      }
+    },
+    {
+      "id": "ea72272e17e98634256aae80ca126a18b58d913d2cd67b4cb79c3949a9be3755",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "在湿滑道路上，驾驶人必须突然加速。",
+          "after": "在易滑道路上，驾驶人必须突然加速。"
+        }
+      }
+    },
+    {
+      "id": "ad2741d1cded5c9ad4afaf4daa25d06dc17135d4819024125aa9aa5b9dffba43",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "在湿滑道路上，驾驶人必须在弯道急刹车。",
+          "after": "在易滑道路上，驾驶人必须在弯道急刹车。"
+        }
+      }
+    },
+    {
+      "id": "30335c381ccaad97ad7c98e6068f311668b31454f250c3ef9573586b203601e4",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "在湿滑道路上，驾驶人必须通过突然大幅转动车把来控制行驶方向。",
+          "after": "在易滑道路上，驾驶人必须通过突然大幅转动车把来控制行驶方向。"
+        }
+      }
+    },
+    {
+      "id": "05b5c208fbe6a99ebc4a9fe0ec488b63dd6133e63d182babe06041fdc7189efb",
+      "reason": "'in servizio pubblico' means public transport, not public service",
+      "changes": {
+        "en": {
+          "before": "In heavy traffic, the driver must also use lanes reserved for public service vehicles.",
+          "after": "In heavy traffic, the driver must also use lanes reserved for public transport vehicles."
+        }
+      }
+    },
+    {
+      "id": "47d141a181191cf6c924720513c4a0eae8e8001be101f8ffa7662679c7855e39",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "为确保交通安全并避免事故，除其他事项外，必须在湿滑道路上全力制动。",
+          "after": "为确保交通安全并避免事故，除其他事项外，必须在易滑道路上全力制动。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "72def042729057e9bbf1469e953dfb4a554be828d45aab35eb95b35495675ebd"
+}

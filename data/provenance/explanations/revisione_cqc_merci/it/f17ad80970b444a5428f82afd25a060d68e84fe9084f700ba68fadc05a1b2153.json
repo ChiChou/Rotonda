@@ -1,0 +1,1082 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee4e-1b85-7dc3-8f8a-804012ace065"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "revisione_cqc_merci",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 15327,
+          "quesito_id": 3239,
+          "text_it": "Nel carico delle merci è importante porre le merci che debbono essere consegnate per prime in posizione più immediatamente accessibile",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "0382204e0953e6e8ff7ad9fae77db8b61b2936db3cc4fd6cab0a202141d54283",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/da0793a66275f3ca7aabbc0481ab79a4120942c0d97fb05e5c5948ad44083d42",
+            "candidate": {
+              "number": 15327,
+              "text": "Disporre vicino all’accesso i colli destinati alle prime consegne ne facilita lo scarico senza spostare inutilmente gli altri.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/3e26ab61d902dcd6f8a755e215b90481dcf9be0c7ae98e81d0d6ee6c64ce65ba",
+            "candidate": {
+              "number": 15327,
+              "text": "Mettere i colli destinati alle prime consegne in posizione accessibile facilita lo scarico senza dover spostare inutilmente quelli destinati alle tappe successive.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 15328,
+          "quesito_id": 3239,
+          "text_it": "Nel carico delle merci occorre sistemare le merci in modo da agevolare le operazioni di scarico intermedio",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "87b2e71a40f3bd4bb4ebcf89b4df4f2cd781883efd605526b9d22326ed1e51ab",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/da0793a66275f3ca7aabbc0481ab79a4120942c0d97fb05e5c5948ad44083d42",
+            "candidate": {
+              "number": 15328,
+              "text": "Organizzare il carico secondo le tappe rende accessibili i colli da scaricare durante il viaggio.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/3e26ab61d902dcd6f8a755e215b90481dcf9be0c7ae98e81d0d6ee6c64ce65ba",
+            "candidate": {
+              "number": 15328,
+              "text": "Disporre i colli tenendo conto delle tappe permette di raggiungere più facilmente quelli da scaricare durante il percorso.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 15329,
+          "quesito_id": 3239,
+          "text_it": "Quando si caricano le merci è indifferente tener conto dell’ordine di consegna dei singoli colli",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3f6e23bb1122a73c69b3e5061f28dbe6a1633be37cf8050c1e3c2e255f61e42e",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/da0793a66275f3ca7aabbc0481ab79a4120942c0d97fb05e5c5948ad44083d42",
+            "candidate": {
+              "number": 15329,
+              "text": "Non è indifferente: tenere conto dell’ordine delle consegne permette di rendere accessibili per primi i colli da scaricare prima.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/3e26ab61d902dcd6f8a755e215b90481dcf9be0c7ae98e81d0d6ee6c64ce65ba",
+            "candidate": {
+              "number": 15329,
+              "text": "Non è indifferente: considerare l’ordine delle consegne permette di rendere accessibili i colli da scaricare per primi.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ],
+        "related_reasoning": {
+          "question": "Quando si caricano le merci sul veicolo è indifferente tener conto dell'ordine di consegna dei singoli colli",
+          "text": "L’ordine di consegna conta: i colli da scaricare prima vanno disposti in modo accessibile, compatibilmente con la sicurezza e la distribuzione dei pesi.",
+          "evidence": [
+            "Transport Scotland, Planning and Managing Effective Customer Deliveries, https://www.transportscotland.gov.uk/system/files/uploaded_content/documents/tsc_basic_pages/Road/Planning_and_Managing_effective_customer_deliveries.pdf, disposizione logica del carico per uno scarico sicuro ed efficiente"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 15330,
+          "quesito_id": 3239,
+          "text_it": "Durante la fase di carico del veicolo, le merci che devono essere consegnate per prime devono essere quelle meno accessibili",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "0df61c848213b3ed184798a8ae9a0e9920acd204ad6cbe4635116377ac471b86",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/da0793a66275f3ca7aabbc0481ab79a4120942c0d97fb05e5c5948ad44083d42",
+            "candidate": {
+              "number": 15330,
+              "text": "I colli da consegnare per primi devono essere più accessibili, non meno accessibili, per agevolare lo scarico.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/3e26ab61d902dcd6f8a755e215b90481dcf9be0c7ae98e81d0d6ee6c64ce65ba",
+            "candidate": {
+              "number": 15330,
+              "text": "È sbagliato renderle meno accessibili: le merci da consegnare per prime vanno sistemate in modo da agevolarne lo scarico.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ],
+        "related_reasoning": {
+          "question": "Durante la fase di carico del veicolo, le merci che devono essere consegnate per prime devono essere caricate prima delle altre",
+          "text": "Non si caricano necessariamente per primi i colli da consegnare per primi: con accesso posteriore si collocano normalmente per ultimi, per poterli scaricare facilmente. Restano prioritari la stabilità e i limiti sugli assi.",
+          "evidence": [
+            "Employment Tribunal, Brierley v Asda Stores, https://assets.publishing.service.gov.uk/media/69b2ad95c9de29c35c1258ec/Ms_S_Brierley___others_v_Asda_Stores_Ltd_-_2406372_08___others_-_judgment.pdf, caricamento in ordine inverso alle consegne"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 15935,
+          "quesito_id": 3332,
+          "text_it": "Durante un trasporto internazionale l’autorizzazione CEMT deve essere esibita a tutte le dogane che si attraversano",
+          "answer": 1,
+          "page": 10,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3bf39d608115377b8a140fc7cd5ed3f2c85ff6a958ccbc65b62750139df6dc78",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/8f5ead8855271719f2230ccd2e092d098797d4c0f2a0305f8df9a9f4c0fd6da5",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La fonte CEMT consultata prevede esibizione su richiesta degli agenti di controllo, ma non conferma l’obbligo di esibizione a tutte le dogane; il verdetto ufficiale VERO resta pertanto non verificato."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Durante un trasporto internazionale l'autorizzazione CEMT deve essere esibita a tutte le dogane che si attraversano",
+          "text": "Il quiz indica VERO: il documento CEMT deve essere disponibile durante il viaggio per i controlli. La formulazione è però imprecisa: la guida prevede l'esibizione su richiesta, non un obbligo generale di presentazione spontanea a ogni dogana.",
+          "evidence": [
+            "ITF, ECMT Multilateral Quota User Guide 2026, https://www.itf-oecd.org/sites/default/files/docs/user_guide_2026.pdf, § 4.9: documento disponibile ed esibibile in caso di controllo"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16410,
+          "quesito_id": 3387,
+          "text_it": "A bordo dei veicoli adibiti al trasporto di alimenti sfusi deve trovarsi l’autorizzazione sanitaria di idoneità del veicolo",
+          "answer": 1,
+          "page": 12,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "beda2de4ee0e0905052e41151a0cc61a5b659274eea83082db8f996154c30ab5",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/a91f6a8e467410539a9063bc108f336d2e80d317be0b0a5a008e88b0c0356439",
+            "candidate": null,
+            "blockers": {
+              "16410": "Non verificata una fonte primaria che sostenga un obbligo generale attuale di autorizzazione sanitaria a bordo per tutti gli alimenti sfusi."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "A bordo dei veicoli adibiti al trasporto di alimenti sfusi deve trovarsi l'autorizzazione sanitaria di idoneità del veicolo",
+          "text": "Il VERO si riferisce ai mezzi soggetti all’autorizzazione sanitaria prevista per determinati alimenti sfusi: il mezzo deve essere idoneo al trasporto. La disciplina applicabile dipende dall’attività e dal tipo di alimento.",
+          "evidence": [
+            "DPR 327/1980, artt. 43-44, https://www.salute.gov.it/resources/static/uffici/DPR_26marzo1980n327.pdf: idoneità sanitaria dei mezzi destinati a determinati alimenti"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16437,
+          "quesito_id": 3390,
+          "text_it": "A bordo dei veicoli adibiti al trasporto di sostanze pericolose con modalità diverse dalla cisterna deve trovarsi facoltativamente, il certificato",
+          "answer": 0,
+          "page": 13,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1c5c8c8a8744a5a191175d7e1f93fe34de0063739ba8398c7f72a1d7cad71cf5",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/2574efea161b69aa1e6451665f61b544222185a39cf87cc8a85e994e4a1db728",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16437,
+                "reason": "Il testo è tronco: non specifica quale certificato sia ritenuto facoltativo."
+              },
+              {
+                "number": 16438,
+                "reason": "Il verdetto FALSO non chiarisce se l’autorizzazione sanitaria sia ritenuta obbligatoria o irrilevante; manca un fondamento per imporla genericamente al trasporto ADR non in cisterna."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "A bordo dei veicoli adibiti al trasporto di sostanze pericolose con modalità diverse dalla cisterna deve trovarsi facoltativamente, l’autorizzazione sanitaria di idoneità del veicolo",
+          "text": "L’autorizzazione sanitaria riguarda l’idoneità per il trasporto alimentare, non è un documento ADR facoltativo per le merci pericolose. Per queste ultime si applicano invece i documenti ADR richiesti dal caso concreto."
+        }
+      },
+      {
+        "source": {
+          "number": 16467,
+          "quesito_id": 3395,
+          "text_it": "A bordo dei veicoli per trasporto merci in conto proprio in ambito extra UE deve trovarsi l’attestazione per il viaggio rilasciata dall’UMC su modello DTT",
+          "answer": 0,
+          "page": 14,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "04d61bfed6f5c869ba363f849ee0268bfffb11cf5a92388fa9a995acc0979461",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c3a2a48184afbc48b3ed4241d621ccccb82a56f4a8bbc643a787cd77f7e1e993",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16463,
+                "reason": "Non verificato con fonte primaria applicabile il requisito assicurativo internazionale per i diversi Paesi extra UE."
+              },
+              {
+                "number": 16467,
+                "reason": "Non reperita fonte primaria che chiarisca specificamente l’attestazione per il viaggio su modello DTT."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "A bordo dei veicoli per trasporto merci in conto proprio in ambito extra UE deve trovarsi l'attestazione per il viaggio rilasciata dall'UMC su modello DTT",
+          "text": "FALSO. Non esiste un’attestazione UMC su modello DTT richiesta indistintamente per ogni viaggio extra UE in conto proprio: i documenti dipendono dal trasporto e dagli accordi applicabili.",
+          "evidence": [
+            "Ministero delle infrastrutture e dei trasporti, circolare art. 46-ter, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-05/CIRCOLARE%20ART%2046%20TER.pdf: documentazione del trasporto internazionale e regimi applicabili"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16494,
+          "quesito_id": 3400,
+          "text_it": "La riduzione del costo del trasporto si ottiene ottimizzando le potenzialità di ogni modalità di trasporto",
+          "answer": 1,
+          "page": 14,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3fc03f835a36974cc8cdc4ec0af8d10b74475ab45f4c7b199fbda366a1af8067",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c3a2a48184afbc48b3ed4241d621ccccb82a56f4a8bbc643a787cd77f7e1e993",
+            "candidate": {
+              "number": 16494,
+              "text": "Usare ciascuna modalità dove è più adatta può ridurre i costi complessivi, sfruttandone capacità e caratteristiche in relazione al viaggio.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16463,
+                "reason": "Non verificato con fonte primaria applicabile il requisito assicurativo internazionale per i diversi Paesi extra UE."
+              },
+              {
+                "number": 16467,
+                "reason": "Non reperita fonte primaria che chiarisca specificamente l’attestazione per il viaggio su modello DTT."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16494,
+              "text": "Usare ogni modalità dove è più adatta può ridurre i costi complessivi, per esempio combinando tratte diverse secondo distanza e carico.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "La riduzione del costo del trasporto si ottiene anche ottimizzando le potenzialità di ogni modalità di trasporto",
+          "text": "Combinare le modalità sfruttandone i punti di forza può ridurre il costo complessivo; bisogna però includere anche i costi di collegamento e trasbordo.",
+          "evidence": [
+            "Commissione europea, SWD(2023) 351, pp. 10-11, costi e competitività del trasporto intermodale secondo distanza e trasbordo: https://transport.ec.europa.eu/system/files/2023-11/SWD_2023_351_ia.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16498,
+          "quesito_id": 3400,
+          "text_it": "La riduzione del costo del trasporto si ottiene soddisfacendo tutte le domande",
+          "answer": 0,
+          "page": 14,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d3af48db21042365ca7457c77ab11314748e3eb08b0607f857f372cb416c464c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c3a2a48184afbc48b3ed4241d621ccccb82a56f4a8bbc643a787cd77f7e1e993",
+            "candidate": {
+              "number": 16498,
+              "text": "Soddisfare tutte le domande non garantisce costi minori: occorre organizzare carichi, mezzi e percorsi in modo efficiente.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16463,
+                "reason": "Non verificato con fonte primaria applicabile il requisito assicurativo internazionale per i diversi Paesi extra UE."
+              },
+              {
+                "number": 16467,
+                "reason": "Non reperita fonte primaria che chiarisca specificamente l’attestazione per il viaggio su modello DTT."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16498,
+              "text": "Soddisfare tutte le domande non riduce automaticamente i costi: occorre valutare capacità, percorsi e convenienza dei singoli trasporti.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "La riduzione del costo del trasporto si ottiene soddisfacendo tutte le domande indipendentemente dalla scelta della modalità del trasporto",
+          "text": "FALSO. La modalità scelta incide sul costo: soddisfare la domanda senza valutarla non garantisce un risparmio.",
+          "evidence": [
+            "Banca mondiale, Air Freight: A Market Study, sezione iniziale, il trasporto aereo costa generalmente più di quello stradale o marittimo; https://www.worldbank.org/en/topic/transport/publication/air-freight-study"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16548,
+          "quesito_id": 3406,
+          "text_it": "Il trasporto stradale consente la consegna porta a porta",
+          "answer": 1,
+          "page": 15,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "286a04b5614de7483a6731b56f6dac9ad228cd2124947cc3b0ec87a7acc59297",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c3a2a48184afbc48b3ed4241d621ccccb82a56f4a8bbc643a787cd77f7e1e993",
+            "candidate": {
+              "number": 16548,
+              "text": "Il veicolo stradale può raggiungere direttamente il luogo di carico e quello di consegna, consentendo il servizio porta a porta.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16463,
+                "reason": "Non verificato con fonte primaria applicabile il requisito assicurativo internazionale per i diversi Paesi extra UE."
+              },
+              {
+                "number": 16467,
+                "reason": "Non reperita fonte primaria che chiarisca specificamente l’attestazione per il viaggio su modello DTT."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16548,
+              "text": "La rete stradale consente al veicolo di raggiungere direttamente mittente e destinatario, quando i luoghi sono accessibili.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16549,
+          "quesito_id": 3406,
+          "text_it": "Il trasporto stradale garantisce migliore tempestività del servizio",
+          "answer": 1,
+          "page": 15,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4c16b0a21929386859e3529c539793e3af38d99ae29285f46798ffc29dfc6394",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c3a2a48184afbc48b3ed4241d621ccccb82a56f4a8bbc643a787cd77f7e1e993",
+            "candidate": {
+              "number": 16549,
+              "text": "La flessibilità di itinerari e orari può rendere tempestiva la consegna su strada. Il vantaggio dipende comunque da traffico, distanza e alternative disponibili.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16463,
+                "reason": "Non verificato con fonte primaria applicabile il requisito assicurativo internazionale per i diversi Paesi extra UE."
+              },
+              {
+                "number": 16467,
+                "reason": "Non reperita fonte primaria che chiarisca specificamente l’attestazione per il viaggio su modello DTT."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16549,
+              "text": "La flessibilità di orari e percorsi e la consegna diretta possono rendere tempestivo il servizio stradale; non garantiscono però tempi migliori in ogni situazione.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il trasporto stradale di merci garantisce, in certi casi, migliore tempestività del servizio",
+          "text": "La flessibilità degli itinerari e la consegna diretta possono rendere il trasporto stradale più tempestivo in alcuni casi; il vantaggio dipende dal percorso e dal servizio confrontato.",
+          "evidence": [
+            "Commissione europea, Road Transport, p. 3, flessibilità, rapidità e consegna porta a porta: https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16550,
+          "quesito_id": 3406,
+          "text_it": "Il trasporto stradale permettere di raggiungere località non raggiungibili con altri mezzi di trasporto",
+          "answer": 1,
+          "page": 15,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1e5bec93217fbb8e06b6a3c8241499255d9b8578ecce10f9d0d12256f511f70d",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c3a2a48184afbc48b3ed4241d621ccccb82a56f4a8bbc643a787cd77f7e1e993",
+            "candidate": {
+              "number": 16550,
+              "text": "La rete stradale può raggiungere località prive di collegamenti ferroviari, portuali o aeroportuali, purché accessibili al veicolo.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 16463,
+                "reason": "Non verificato con fonte primaria applicabile il requisito assicurativo internazionale per i diversi Paesi extra UE."
+              },
+              {
+                "number": 16467,
+                "reason": "Non reperita fonte primaria che chiarisca specificamente l’attestazione per il viaggio su modello DTT."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16550,
+              "text": "La rete stradale può raggiungere località prive di collegamenti ferroviari, portuali o aeroportuali, purché accessibili su strada.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16555,
+          "quesito_id": 3407,
+          "text_it": "Tra i principali vantaggi del trasporto su gomma vi è l’esecuzione di un servizio \"porta a porta\"",
+          "answer": 1,
+          "page": 15,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "52324745e50c796215d8c3e801561f64cff4a8422c3fa84fae1bb0eabf07998a",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16555,
+              "text": "Il veicolo può ritirare la merce presso il mittente e consegnarla direttamente al destinatario, se entrambi sono accessibili.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/6cc9ee05d35925aa2f6da0c28fd4083c5cd37ed6c6acfda20da6e4ac9e30ed23",
+            "candidate": {
+              "number": 16555,
+              "text": "Il veicolo può ritirare e consegnare la merce direttamente presso mittente e destinatario, realizzando un servizio porta a porta.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ],
+        "related_reasoning": {
+          "question": "Tra i principali vantaggi del trasporto su gomma vi è l'esecuzione di un servizio \"porta a porta\"",
+          "text": "Il servizio porta a porta è un vantaggio della strada: il veicolo può raccogliere e consegnare la merce direttamente presso le sedi servite dalla rete viaria.",
+          "evidence": [
+            "Commissione europea, Multimodal and intermodal freight transport, flessibilità stradale nelle tratte iniziali e finali; https://transport.ec.europa.eu/transport-themes/logistics-and-multimodal-transport/multimodal-and-intermodal-freight-transport_en"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16557,
+          "quesito_id": 3407,
+          "text_it": "Tra i principali vantaggi del trasporto su gomma vi è la possibilità di raggiungere località non raggiungibili con altre modalità di trasporto",
+          "answer": 1,
+          "page": 15,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "fe4138418a8e295f6d2d6fa2098ac7d2872826d47cf396809d27f9a45b308711",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16557,
+              "text": "La rete stradale permette di servire anche località non collegate direttamente da ferrovia, nave o aereo.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/6cc9ee05d35925aa2f6da0c28fd4083c5cd37ed6c6acfda20da6e4ac9e30ed23",
+            "candidate": {
+              "number": 16557,
+              "text": "La rete stradale consente di raggiungere anche località prive, per esempio, di stazioni ferroviarie o porti.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 16558,
+          "quesito_id": 3407,
+          "text_it": "Tra i principali vantaggi del trasporto su gomma vi è la possibilità di code",
+          "answer": 0,
+          "page": 15,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f1c7d5f28e1e5265b06e8e85a6a5dc8dd667e410c259c8f102da306fd0b6ec09",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16558,
+              "text": "Le code non sono un vantaggio: rallentano il viaggio. Un vantaggio della strada è invece la flessibilità del servizio.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/6cc9ee05d35925aa2f6da0c28fd4083c5cd37ed6c6acfda20da6e4ac9e30ed23",
+            "candidate": {
+              "number": 16558,
+              "text": "È falso che le code siano un vantaggio: rallentano il trasporto e possono ritardare le consegne.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ],
+        "related_reasoning": {
+          "question": "Tra i principali vantaggi del trasporto su gomma vi è l’aumento dei gas serra",
+          "text": "L’aumento dei gas serra è un impatto ambientale negativo, non un vantaggio del trasporto su gomma.",
+          "evidence": [
+            "IEA, Portugal 2026, Executive summary, https://www.iea.org/reports/portugal-2026/executive-summary: contributo del trasporto stradale alle emissioni"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16559,
+          "quesito_id": 3407,
+          "text_it": "Tra i principali vantaggi del trasporto su gomma vi è la possibilità di traffico",
+          "answer": 0,
+          "page": 15,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6b831af331eedd2a084c47c7407f54bac870e9875f72c06fb3fa84b5cf8411ff",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16559,
+              "text": "Il traffico non è un vantaggio: può causare rallentamenti e ritardi. La flessibilità dei percorsi è invece un vantaggio del trasporto su gomma.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/6cc9ee05d35925aa2f6da0c28fd4083c5cd37ed6c6acfda20da6e4ac9e30ed23",
+            "candidate": {
+              "number": 16559,
+              "text": "È falso che il traffico sia un vantaggio: la congestione rallenta la circolazione e rende meno prevedibili i tempi di consegna.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ],
+        "related_reasoning": {
+          "question": "Tra i principali vantaggi del trasporto su gomma vi è l’aumento dei gas serra",
+          "text": "L’aumento dei gas serra è un impatto ambientale negativo, non un vantaggio del trasporto su gomma.",
+          "evidence": [
+            "IEA, Portugal 2026, Executive summary, https://www.iea.org/reports/portugal-2026/executive-summary: contributo del trasporto stradale alle emissioni"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 16586,
+          "quesito_id": 3411,
+          "text_it": "La crescita del trasporto merci su strada favorisce la congestione della rete stradale",
+          "answer": 1,
+          "page": 15,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d6c079969491225efa4ba9f0aab208b072e4cca35a6b598e67c33123302e20ac",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5595048b9eb15ebe29ba2499b08a9e5011928371d0fb09f10a5e46b2254d742",
+            "candidate": {
+              "number": 16586,
+              "text": "Un maggior numero di veicoli merci occupa capacità della rete e può quindi contribuire alla congestione, soprattutto sulle tratte già trafficate.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 15935,
+                "reason": "La guida CEMT consultata prevede la disponibilità del documento e il controllo, ma non conferma l’esibizione a tutte le dogane attraversate."
+              },
+              {
+                "number": 16410,
+                "reason": "La fonte storica attesta l’autorizzazione sanitaria, ma non conferma l’obbligo generale di tenerla a bordo né chiarisce la disciplina attuale per ogni alimento sfuso."
+              },
+              {
+                "number": 16437,
+                "reason": "Il quesito è tronco: non specifica quale certificato; non è possibile determinare la regola applicabile."
+              },
+              {
+                "number": 16467,
+                "reason": "Non è stata reperita una fonte primaria che chiarisca il documento indicato per il trasporto merci in conto proprio extra UE."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/6cc9ee05d35925aa2f6da0c28fd4083c5cd37ed6c6acfda20da6e4ac9e30ed23",
+            "candidate": {
+              "number": 16586,
+              "text": "Un maggior numero di veicoli merci occupa capacità della rete stradale e può quindi favorire la congestione, soprattutto nei tratti già trafficati.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      }
+    ],
+    "task_sha256": "8c5c4f9b0667d3d3c9ccc32d932ea97ce91e37ccdf0faec500801c54e62e731d",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage."
+  },
+  "rows": [
+    {
+      "number": 15327,
+      "text": "Rendere accessibili i colli destinati alle prime consegne facilita lo scarico ed evita movimentazioni aggiuntive, compatibilmente con la sicurezza del carico.",
+      "evidence": [
+        "HSE, Health and safety in the publishing industry, https://www.hse.gov.uk/pubns/indg470.pdf, movimentazione: caricare secondo la sequenza di consegna evita movimentazioni aggiuntive"
+      ]
+    },
+    {
+      "number": 15328,
+      "text": "Organizzare il carico secondo le tappe rende accessibili i colli da scaricare durante il viaggio, evitando movimentazioni superflue.",
+      "evidence": [
+        "HSE, Health and safety in the publishing industry, https://www.hse.gov.uk/pubns/indg470.pdf, movimentazione: caricare secondo la sequenza di consegna evita movimentazioni aggiuntive"
+      ]
+    },
+    {
+      "number": 15329,
+      "text": "Non è indifferente: considerare l’ordine delle consegne rende accessibili i colli da scaricare prima e riduce le movimentazioni aggiuntive.",
+      "evidence": [
+        "HSE, Health and safety in the publishing industry, https://www.hse.gov.uk/pubns/indg470.pdf, movimentazione: caricare secondo la sequenza di consegna evita movimentazioni aggiuntive"
+      ]
+    },
+    {
+      "number": 15330,
+      "text": "È sbagliato rendere meno accessibili le prime consegne: i relativi colli vanno disposti in modo da facilitarne lo scarico.",
+      "evidence": [
+        "HSE, Health and safety in the publishing industry, https://www.hse.gov.uk/pubns/indg470.pdf, movimentazione: caricare secondo la sequenza di consegna evita movimentazioni aggiuntive"
+      ]
+    },
+    {
+      "number": 15935,
+      "text": "Il quiz indica VERO: il documento CEMT deve essere disponibile per i controlli durante il viaggio. La formulazione è imprecisa: la guida attuale prevede che sia esibibile in caso di controllo, non la presentazione spontanea a ogni dogana.",
+      "evidence": [
+        "ITF, ECMT Multilateral Quota User Guide 2026, https://www.itf-oecd.org/sites/default/files/docs/user_guide_2026.pdf, § 4.9: documento disponibile e mostrabile in caso di controllo"
+      ]
+    },
+    {
+      "number": 16467,
+      "text": "Non è prescritta indistintamente un’attestazione per il viaggio su modello DTT: la documentazione dipende dalla relazione di trasporto e dal regime applicabile. Per esempio, la circolare distingue trasporti liberalizzati e trasporti soggetti ad autorizzazione CEMT o bilaterale.",
+      "evidence": [
+        "Ministero dell’Interno e MIT, circolare 26 febbraio 2016, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-05/CIRCOLARE%20ART%2046%20TER.pdf, § 7: regimi e documenti del trasporto internazionale in conto proprio"
+      ]
+    },
+    {
+      "number": 16494,
+      "text": "Sfruttare ogni modalità dove è più adatta può ridurre i costi complessivi, scegliendo capacità e percorso in funzione del carico; il risparmio dipende dal caso concreto.",
+      "evidence": [
+        "Derivazione economica: scegliere una combinazione meno costosa per la stessa esigenza riduce il costo complessivo"
+      ]
+    },
+    {
+      "number": 16498,
+      "text": "Soddisfare tutte le domande non riduce di per sé il costo: può richiedere più viaggi o risorse. Occorre organizzare i servizi e usare efficientemente i mezzi disponibili.",
+      "evidence": [
+        "Derivazione economica: l’aumento dei servizi richiesti non implica una diminuzione dei costi"
+      ]
+    },
+    {
+      "number": 16548,
+      "text": "Il veicolo può ritirare la merce presso il mittente e consegnarla direttamente al destinatario, se le sedi sono accessibili su strada.",
+      "evidence": [
+        "Commissione europea, Road Transport, https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf, p. 12: flessibilità e consegna porta a porta"
+      ]
+    },
+    {
+      "number": 16549,
+      "text": "La flessibilità degli itinerari e la consegna diretta possono rendere tempestivo il servizio stradale. Il VERO non significa però che sia sempre più rapido: dipende dal percorso e dal servizio confrontato.",
+      "evidence": [
+        "Commissione europea, Road Transport, https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf, p. 12: flessibilità, rapidità e consegna porta a porta"
+      ]
+    },
+    {
+      "number": 16550,
+      "text": "La rete stradale può servire località prive di collegamenti diretti ferroviari, portuali o aeroportuali, purché accessibili al veicolo.",
+      "evidence": [
+        "Commissione europea, Road Transport, https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf, p. 12: flessibilità e consegna porta a porta su strada"
+      ]
+    },
+    {
+      "number": 16555,
+      "text": "Il veicolo può ritirare e consegnare la merce direttamente presso mittente e destinatario, quando le sedi sono accessibili su strada.",
+      "evidence": [
+        "Commissione europea, Road Transport, https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf, p. 12: capacità di consegna porta a porta"
+      ]
+    },
+    {
+      "number": 16557,
+      "text": "La rete stradale può servire località prive di collegamenti diretti ferroviari, portuali o aeroportuali, se accessibili al veicolo.",
+      "evidence": [
+        "Commissione europea, Road Transport, https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf, p. 12: flessibilità e consegna porta a porta su strada"
+      ]
+    },
+    {
+      "number": 16558,
+      "text": "Le code non sono un vantaggio: rallentano il viaggio e possono ritardare le consegne. Un vantaggio della strada è la flessibilità del servizio.",
+      "evidence": [
+        "Commissione europea, Road Transport, https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf, pp. 1 e 12: congestione come problema e flessibilità come caratteristica della strada"
+      ]
+    },
+    {
+      "number": 16559,
+      "text": "La possibilità di traffico congestionato non è un vantaggio: può rallentare il viaggio e ritardare le consegne. La flessibilità degli itinerari è invece un vantaggio.",
+      "evidence": [
+        "Commissione europea, Road Transport, https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf, pp. 1 e 12: congestione come problema e flessibilità come caratteristica della strada"
+      ]
+    },
+    {
+      "number": 16586,
+      "text": "Un maggior numero di veicoli merci occupa capacità della rete e può contribuire alla congestione, soprattutto sui tratti già trafficati.",
+      "evidence": [
+        "Commissione europea, Road Transport, https://transport.ec.europa.eu/system/files/2016-09/broch-road-transport_en.pdf, p. 1: reti stradali congestionate; contributo dei veicoli dedotto dall’occupazione della capacità"
+      ]
+    }
+  ],
+  "output_sha256": "d0f34be625b76c4549dc74996181d6c1893880a88fa4d2766d3c9659475ba30f"
+}

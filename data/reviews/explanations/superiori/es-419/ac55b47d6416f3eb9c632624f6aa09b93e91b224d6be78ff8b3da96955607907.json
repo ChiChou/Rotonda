@@ -1,0 +1,719 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28549,
+          "quesito_id": 6100,
+          "text_it": "E' vietata la circolazione in autostrada dei veicoli eccezionali",
+          "answer": 0,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "eb120294965c69c845a4a2034aca3c343e8db72e140e037c0853a5c69d4f96e4",
+        "localized_text": "Está prohibida la circulación de vehículos excepcionales por autopista"
+      },
+      {
+        "source": {
+          "number": 28550,
+          "quesito_id": 6100,
+          "text_it": "E' considerato veicolo eccezionale, un mezzo d'opera a 3 assi con massa complessiva a pieno carico pari a 32 tonnellate",
+          "answer": 0,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f78f11c3d0328ba5777e1a83c69a7d2d414753a813fed48f4614b2a16a0902d2",
+        "localized_text": "Se considera vehículo excepcional un vehículo de obra de 3 ejes con masa total a plena carga de 32 toneladas"
+      },
+      {
+        "source": {
+          "number": 28551,
+          "quesito_id": 6100,
+          "text_it": "Sono considerati trasporti in condizioni di eccezionalità, tutti i trasporti di materie esplosive",
+          "answer": 0,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bc3d30d74c916e789f5eba83732019e5456db8deb7d535bee486f440858a74be",
+        "localized_text": "Todos los transportes de explosivos se consideran transportes en condiciones excepcionales"
+      },
+      {
+        "source": {
+          "number": 28552,
+          "quesito_id": 6100,
+          "text_it": "Non vengono definiti eccezionali i veicoli che superano i limiti di sagoma ordinariamente previsti dal codice della strada, purché si tratti di veicoli ad almeno 5 assi",
+          "answer": 0,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9b4d95aadbe711ee5fcd5e761b2833f51f015a90cd5b9f8bf50ae372e7f2359d",
+        "localized_text": "No se consideran excepcionales los vehículos que superan los límites ordinarios de dimensiones si tienen al menos 5 ejes"
+      },
+      {
+        "source": {
+          "number": 28553,
+          "quesito_id": 6100,
+          "text_it": "Tutti i veicoli isolati che superano la lunghezza di 12 metri sono considerati veicoli eccezionali",
+          "answer": 0,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0b270c0c6cb9e655818b2aa184d239393431fb22acf277ee647448212cfc3943",
+        "localized_text": "Todos los vehículos aislados que superan los 12 metros de longitud se consideran vehículos excepcionales"
+      },
+      {
+        "source": {
+          "number": 28554,
+          "quesito_id": 6101,
+          "text_it": "La lunghezza massima di un autobus a 2 assi è di 13,50 metri",
+          "answer": 1,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7494ac2b779f0a0734b123067dedcd4fb7e4ad07888b59477346014c5552b9ae",
+        "localized_text": "La longitud máxima de un autobús de 2 ejes es de 13,50 metros"
+      },
+      {
+        "source": {
+          "number": 28555,
+          "quesito_id": 6101,
+          "text_it": "La lunghezza massima di un autobus a 3 o più assi è di 15 metri",
+          "answer": 1,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7b0ab77578966541681d33bc516a59c32b20566c3fd7f52504a209a2196c6cab",
+        "localized_text": "La longitud máxima de un autobús de 3 o más ejes es de 15 metros"
+      },
+      {
+        "source": {
+          "number": 28556,
+          "quesito_id": 6101,
+          "text_it": "L'altezza massima di autobus e filobus destinati a servizi pubblici di linea urbani e suburbani, circolanti su itinerari prestabiliti, non deve superare 4,30 metri",
+          "answer": 1,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "94150977ea7f335537da23e407b7deff9e324faf862df7688073b0d07fa4147a",
+        "localized_text": "La altura máxima de autobuses y trolebuses destinados a servicios públicos de línea urbanos y suburbanos que circulan por itinerarios establecidos no debe superar los 4,30 metros"
+      },
+      {
+        "source": {
+          "number": 28557,
+          "quesito_id": 6101,
+          "text_it": "L'altezza massima degli autoveicoli adibiti al trasporto di container non deve superare 4,30 metri",
+          "answer": 1,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2b46cc3369aab7565f4f1796ef8bf8ffee09652da20020874de286fed6b8a0f9",
+        "localized_text": "La altura máxima de los vehículos automotores destinados al transporte de contenedores no debe superar los 4,30 metros"
+      },
+      {
+        "source": {
+          "number": 28558,
+          "quesito_id": 6101,
+          "text_it": "La lunghezza massima di un autobus a 2 assi è di 15 metri",
+          "answer": 0,
+          "page": 75,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9eb125a31640b891936458284e160406780e6043b480ad89f69205978c3a49ca",
+        "localized_text": "La longitud máxima de un autobús de dos ejes es de 15 metros"
+      },
+      {
+        "source": {
+          "number": 28559,
+          "quesito_id": 6101,
+          "text_it": "La lunghezza massima di un autobus a 3 o più assi è di 18,75 metri",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4ece9f72f1bbc7999360313fcf4b8773e048b2a3f2d81844e7326fd2a2d9dc7b",
+        "localized_text": "La longitud máxima de un autobús de 3 o más ejes es de 18,75 metros"
+      },
+      {
+        "source": {
+          "number": 28560,
+          "quesito_id": 6101,
+          "text_it": "Ogni veicolo, esclusi autobus e i semirimorchi, deve avere lunghezza massima non superiore a 13,50 metri",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "990e8714307d4fc0e39be7d4c3a82d8ebde64a5204c33b987fadd8b816370c50",
+        "localized_text": "Todo vehículo, excepto los autobuses y semirremolques, debe tener una longitud máxima no superior a 13,50 metros"
+      },
+      {
+        "source": {
+          "number": 28561,
+          "quesito_id": 6102,
+          "text_it": "La fascia di ingombro di un veicolo è la corona circolare occupata dal veicolo stesso quando percorre una curva con il minimo raggio possibile di sterzata",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3028d7259c8c363e9934b6e6f0011da44783ea42082bde457f44becdd02afb8b",
+        "localized_text": "La zona de barrido de un vehículo es la corona circular ocupada por este cuando recorre una curva con el menor radio de giro posible"
+      },
+      {
+        "source": {
+          "number": 28562,
+          "quesito_id": 6102,
+          "text_it": "Le dimensioni della fascia di ingombro di un veicolo non sono indicate nella carta di circolazione",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "062b7cd2e3c0bac8c00a78698ac6d9a6f52da0ef00e75c8a596ac82b1160f102",
+        "localized_text": "Las dimensiones de la franja de espacio ocupado por un vehículo no se indican en el permiso de circulación"
+      },
+      {
+        "source": {
+          "number": 28563,
+          "quesito_id": 6102,
+          "text_it": "La fascia di ingombro di un veicolo deve rispettare determinati limiti di raggio fissati dalle norme",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5b504f47c525a47b36d21cd72272879c61ed7cb5ef42719084f7e1d08ede4d79",
+        "localized_text": "La zona de barrido de un vehículo debe respetar determinados límites de radio fijados por las normas"
+      },
+      {
+        "source": {
+          "number": 28564,
+          "quesito_id": 6102,
+          "text_it": "La fascia di ingombro di un veicolo deve avere il raggio esterno non superiore a 12,50 metri",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "07b87646adf91ad765170592f062dd32505710367cdcdf49cc0137f4bbb8456e",
+        "localized_text": "La zona de barrido de un vehículo debe tener un radio exterior no superior a 12,50 metros"
+      },
+      {
+        "source": {
+          "number": 28566,
+          "quesito_id": 6102,
+          "text_it": "Ogni veicolo a motore, o complesso di veicoli, compreso il relativo carico, deve potersi inserire in una corona circolare di raggio esterno 12,50 metri e raggio interno 5,30 metri",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9fbaa5b297b4c95f97fdf721702e8cb64b8e16569e286fd81a8d983c42a4bc57",
+        "localized_text": "Todo vehículo de motor o conjunto de vehículos, incluida su carga, debe poder inscribirse en una corona circular de 12,50 metros de radio exterior y 5,30 metros de radio interior"
+      },
+      {
+        "source": {
+          "number": 28567,
+          "quesito_id": 6102,
+          "text_it": "Ogni veicolo a motore o complesso di veicoli deve potersi inscrivere in una corona circolare larga 5,30 metri e di raggio interno pari a 7,20 metri",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a6b9659d1cd3707d8e9ef4f4a4f9854965077b0b33618e373e6e6dbed2bd43fd",
+        "localized_text": "Todo vehículo de motor o conjunto de vehículos debe poder inscribirse en una corona circular de 5,30 metros de anchura y 7,20 metros de radio interior"
+      },
+      {
+        "source": {
+          "number": 28568,
+          "quesito_id": 6102,
+          "text_it": "La fascia di ingombro di un veicolo figura sempre nella carta di circolazione",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bf7c4f9e639d597019510398d3a2087e2314f9563a3e5c5ec78642a8c48513d4",
+        "localized_text": "La franja de ocupación de un vehículo siempre figura en el documento de circulación"
+      },
+      {
+        "source": {
+          "number": 28570,
+          "quesito_id": 6102,
+          "text_it": "La fascia di ingombro di un veicolo diminuisce con l'aumentare della sua lunghezza",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ce9bb44d3d40738d70467eb1efe1b85025685c22afa33e4499dd71dffe97b836",
+        "localized_text": "La franja de espacio ocupado por un vehículo disminuye al aumentar su longitud"
+      },
+      {
+        "source": {
+          "number": 28571,
+          "quesito_id": 6102,
+          "text_it": "La fascia di ingombro di un veicolo aumenta con l'aumentare della sua massa",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b3cfb2b0e08f4d41af257df49dd710357740e14cd2b254341c5b4e923a53aa25",
+        "localized_text": "La zona de barrido de un vehículo aumenta al aumentar su masa"
+      },
+      {
+        "source": {
+          "number": 28572,
+          "quesito_id": 6102,
+          "text_it": "Ogni veicolo a motore o complesso di veicoli deve potersi inscrivere in una corona circolare larga 5,20 m e di raggio esterno pari a 16,50 metri",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5196a86b0fa364be203d182be81e4b0714be468ee30439c225e6823d276cdfa2",
+        "localized_text": "Todo vehículo de motor o conjunto vehicular debe poder inscribirse en una corona circular de 5,20 m de ancho y 16,50 metros de radio exterior"
+      },
+      {
+        "source": {
+          "number": 28573,
+          "quesito_id": 6102,
+          "text_it": "Gli autobus e gli autocarri, a differenza degli altri veicoli, devono potersi inscrivere in una corona circolare larga 8,20 metri e di raggio interno pari 6,30 metri",
+          "answer": 0,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5cafb072b56dd27c02b6947d14d1e5506f77f97801a616377629e70604277484",
+        "localized_text": "Los autobuses y camiones, a diferencia de otros vehículos, deben poder inscribirse en una corona circular de 8,20 metros de anchura y 6,30 metros de radio interior"
+      },
+      {
+        "source": {
+          "number": 28574,
+          "quesito_id": 6103,
+          "text_it": "La fascia d’ingombro è la corona circolare che il veicolo occupa, sul piano stradale, nell’effettuare una curva o una svolta",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "74f46e60d9909c7bab2b1c9d5b4c3fa89256a5205fd20e140df56ccf7454dfba",
+        "localized_text": "La franja de espacio ocupado es la corona circular que ocupa el vehículo sobre la vía al tomar una curva o realizar un giro"
+      },
+      {
+        "source": {
+          "number": 28575,
+          "quesito_id": 6103,
+          "text_it": "La fascia d’ingombro si riduce se il veicolo è dotato di asse autosterzante posteriore",
+          "answer": 1,
+          "page": 76,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4bbd5e4ffebb25fb1ebbfea49b5b33e64d01a7b28773fbad7e09c050769d493d",
+        "localized_text": "La franja de espacio ocupado se reduce si el vehículo tiene un eje trasero autodireccional"
+      }
+    ],
+    "task_sha256": "ac55b47d6416f3eb9c632624f6aa09b93e91b224d6be78ff8b3da96955607907"
+  },
+  "rows": [
+    {
+      "number": 28549,
+      "text": "La prohibición no es absoluta: los vehículos excepcionales pueden circular por autopistas bajo las condiciones aplicables y con la autorización que corresponda.",
+      "evidence": [
+        "Codice della strada, art. 10, commi 1–3, 6–8: https://aci.gov.it/codice-della-strada/art-10/ Commi 6, 7 e 22: autorizzazioni e condizioni anche su autostrade."
+      ]
+    },
+    {
+      "number": 28550,
+      "text": "El cuestionario marca FALSO: 32 toneladas por sí solas no determinan que el vehículo sea excepcional. Un vehículo de obra de tres ejes tiene un límite específico de 33 toneladas; el transporte que excede las masas ordinarias puede ser excepcional y la exención de autorización depende de condiciones.",
+      "evidence": [
+        "Official superiori question 28550 prints FALSO. CdS art. 10(1),(3)(f),(7),(8), https://aci.gov.it/codice-della-strada/art-10/ : exceptional vehicle versus exceptional transport, conditional authorization exemption and 33 t three-axle work-vehicle limit; the limit does not erase exceptional-transport classification."
+      ]
+    },
+    {
+      "number": 28551,
+      "text": "El transporte de explosivos está sujeto a normas de mercancías peligrosas, pero no es automáticamente excepcional: importan las condiciones relativas a dimensiones, masa o carga.",
+      "evidence": [
+        "Codice della strada, art. 10, commi 1–3, 6–8: https://aci.gov.it/codice-della-strada/art-10/ I commi 2–3 definiscono i casi eccezionali in base a carico, dimensioni e massa."
+      ]
+    },
+    {
+      "number": 28552,
+      "text": "Tener al menos cinco ejes no excluye la clasificación: un vehículo que supera los límites de dimensiones en su configuración de marcha por necesidades funcionales específicas es excepcional.",
+      "evidence": [
+        "Codice della strada, art. 10, commi 1–3, 6–8: https://aci.gov.it/codice-della-strada/art-10/ Comma 1: definizione in base ai limiti di sagoma o massa."
+      ]
+    },
+    {
+      "number": 28553,
+      "text": "No todos: por ejemplo, un autobús rígido de dos ejes puede alcanzar 13,50 m sin ser excepcional solo por su longitud.",
+      "evidence": [
+        "DM 12 settembre 2003, art. 1, lettera h), allegato I, punto 1.1: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=03A11824&atto.dataPubblicazioneGazzetta=2003-11-07&atto.tipoProvvedimento=DECRETO Prevede 13,50 m per autobus a due assi.",
+        "Codice della strada, art. 10, commi 1–3, 6–8: https://aci.gov.it/codice-della-strada/art-10/ Comma 1: definizione di veicolo eccezionale."
+      ]
+    },
+    {
+      "number": 28554,
+      "text": "Para un autobús rígido de dos ejes el límite de longitud es 13,50 m; no se aplica el límite general de 12 m de otros vehículos de motor aislados.",
+      "evidence": [
+        "DM 12 settembre 2003, art. 1, lettera h), allegato I, punto 1.1: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=03A11824&atto.dataPubblicazioneGazzetta=2003-11-07&atto.tipoProvvedimento=DECRETO Allegato I: autobus a due assi 13,50 m, altri veicoli a motore 12 m."
+      ]
+    },
+    {
+      "number": 28555,
+      "text": "Para un autobús rígido de más de dos ejes el límite previsto es 15 m; los autobuses articulados forman una categoría distinta.",
+      "evidence": [
+        "DM 12 settembre 2003, art. 1, lettera h), allegato I, punto 1.1: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=03A11824&atto.dataPubblicazioneGazzetta=2003-11-07&atto.tipoProvvedimento=DECRETO Allegato I: autobus oltre due assi 15 m e autosnodato 18,75 m."
+      ]
+    },
+    {
+      "number": 28556,
+      "text": "Para estos servicios de línea en rutas preestablecidas se permite una altura de hasta 4,30 m, superior al límite general de 4 m.",
+      "evidence": [
+        "Codice della strada, art. 61, commi 1–2: https://aci.gov.it/codice-della-strada/art-61/ Comma 1, lettera b: deroga per autobus e filobus di linea urbani e suburbani."
+      ]
+    },
+    {
+      "number": 28557,
+      "text": "El cuestionario marca VERO: para ciertos transportes de contenedores, 4,30 m es una condición de exención de autorización, junto con otros límites y condiciones de ruta. No es un máximo absoluto para todo transporte excepcional autorizado.",
+      "evidence": [
+        "Official superiori question 28557 prints VERO. CdS art. 10(3)(e),(6)(b-bis), https://aci.gov.it/codice-della-strada/art-10/ : 4.30 m is one conditional authorization exemption criterion; not a universal maximum for all authorized exceptional transport."
+      ]
+    },
+    {
+      "number": 28558,
+      "text": "El límite para un autobús rígido de dos ejes es 13,50 m; 15 m es el límite previsto para autobuses rígidos de más de dos ejes.",
+      "evidence": [
+        "DM 12 settembre 2003, art. 1, lettera h), allegato I, punto 1.1: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=03A11824&atto.dataPubblicazioneGazzetta=2003-11-07&atto.tipoProvvedimento=DECRETO Allegato I: limiti distinti per numero di assi."
+      ]
+    },
+    {
+      "number": 28559,
+      "text": "El cuestionario marca FALSO para el límite ordinario de un autobús rígido de más de dos ejes, que es de 15 m. El autobús articulado es una categoría distinta con límite de 18,75 m y puede tener tres o más ejes.",
+      "evidence": [
+        "Official superiori question 28559 prints FALSO. Directive 96/53/EC Annex I 1.1 https://eur-lex.europa.eu/eli/dir/1996/53/oj/eng : rigid bus over two axles 15 m and articulated bus 18.75 m; articulated buses can have three or more axles."
+      ]
+    },
+    {
+      "number": 28560,
+      "text": "No existe un límite único de 13,50 m para todos los demás vehículos: por ejemplo, el límite general de un vehículo aislado es 12 m, salvo las excepciones previstas.",
+      "evidence": [
+        "Codice della strada, art. 61, commi 1–2: https://aci.gov.it/codice-della-strada/art-61/ Comma 1, lettera c: limite generale veicoli isolati e deroghe."
+      ]
+    },
+    {
+      "number": 28561,
+      "text": "La zona de barrido es el espacio de la calzada recorrido por las partes del vehículo al girar, entre las trayectorias más interna y más externa.",
+      "evidence": [
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) Definisce la fascia come corona di inscrivibilità.",
+        "Comune di Genova, schema di ingombro in curva, traiettorie, passo e sagoma: https://www.comune.genova.it/sites/default/files/2024-07/ingombro_di_veicolo_in_curva.pdf Illustra le traiettorie del veicolo in sterzata."
+      ]
+    },
+    {
+      "number": 28562,
+      "text": "La zona de barrido mide el espacio ocupado en curva; no es una de las dimensiones ordinarias de los datos armonizados de la tarjeta de circulación.",
+      "evidence": [
+        "Direttiva 1999/37/CE, allegato I, punti V–VI, dati armonizzati della carta: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A31999L0037 Elenca i dati armonizzati senza indicare le dimensioni della fascia.",
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) La fascia riguarda la verifica di inscrivibilità."
+      ]
+    },
+    {
+      "number": 28563,
+      "text": "La prueba de inscripción en curva usa una corona de radio exterior de 12,50 m e interior de 5,30 m, dentro de la cual también debe caber la carga.",
+      "evidence": [
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) Fissa i raggi e include il carico."
+      ]
+    },
+    {
+      "number": 28564,
+      "text": "El radio exterior de la corona de referencia es 12,50 m; el vehículo, incluida la carga, debe caber en ella sin invadir el círculo interior.",
+      "evidence": [
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) Indica raggio esterno 12,50 m e interno 5,30 m."
+      ]
+    },
+    {
+      "number": 28566,
+      "text": "La prueba considera el vehículo o conjunto con su carga: debe caber entre los dos radios indicados sin rebasar sus límites.",
+      "evidence": [
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) Art. 217, comma 1: raggi 12,50 m e 5,30 m, compreso il carico."
+      ]
+    },
+    {
+      "number": 28567,
+      "text": "Los valores están intercambiados: la corona normativa tiene radio interior de 5,30 m y ancho de 7,20 m, con radio exterior de 12,50 m.",
+      "evidence": [
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) Raggi 12,50 e 5,30 m; la differenza è 7,20 m."
+      ]
+    },
+    {
+      "number": 28568,
+      "text": "La zona de barrido se refiere al espacio ocupado en curva y no siempre figura en la tarjeta: no está entre las dimensiones ordinarias de sus datos armonizados.",
+      "evidence": [
+        "Direttiva 1999/37/CE, allegato I, punti V–VI, dati armonizzati della carta: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A31999L0037 Elenca i dati armonizzati senza le dimensioni della fascia.",
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) La fascia è una verifica di inscrivibilità."
+      ]
+    },
+    {
+      "number": 28570,
+      "text": "La longitud no reduce automáticamente el espacio ocupado en curva: una mayor distancia entre ejes y mayores voladizos pueden aumentar la zona de barrido.",
+      "evidence": [
+        "Comune di Genova, schema di ingombro in curva, traiettorie, passo e sagoma: https://www.comune.genova.it/sites/default/files/2024-07/ingombro_di_veicolo_in_curva.pdf Mostra passo, lunghezza e tracce della sagoma in curva."
+      ]
+    },
+    {
+      "number": 28571,
+      "text": "La zona de barrido depende de la geometría del vehículo y del giro; no aumenta simplemente porque aumente la masa.",
+      "evidence": [
+        "Comune di Genova, schema di ingombro in curva, traiettorie, passo e sagoma: https://www.comune.genova.it/sites/default/files/2024-07/ingombro_di_veicolo_in_curva.pdf Diagramma delle traiettorie in funzione di sagoma, passo e sterzata."
+      ]
+    },
+    {
+      "number": 28572,
+      "text": "La corona prescrita tiene radio exterior de 12,50 m e interior de 5,30 m, por lo que mide 7,20 m de ancho; los valores propuestos no son los de la norma.",
+      "evidence": [
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) Raggi 12,50 e 5,30 m; differenza 7,20 m."
+      ]
+    },
+    {
+      "number": 28573,
+      "text": "La corona de referencia no es la indicada: para vehículos de motor y conjuntos, incluidos autobuses y camiones, su radio exterior es 12,50 m y el interior 5,30 m.",
+      "evidence": [
+        "DPR 495/1992, art. 217, comma 1, inscrivibilità in curva: https://rivistagiuridica.aci.it/fileadmin/Documenti/regolamento_codice_della_strada.pdf (PDF p. 134) Art. 217, comma 1: raggi per veicoli a motore e complessi."
+      ]
+    },
+    {
+      "number": 28574,
+      "text": "En una curva las partes del vehículo siguen trayectorias distintas: la zona de barrido comprende el espacio entre sus límites interior y exterior.",
+      "evidence": [
+        "Comune di Genova, schema di ingombro in curva, traiettorie, passo e sagoma: https://www.comune.genova.it/sites/default/files/2024-07/ingombro_di_veicolo_in_curva.pdf Mostra le tracce della sagoma e la fascia in curva."
+      ]
+    },
+    {
+      "number": 28575,
+      "text": "Un eje trasero autodireccional ayuda a las ruedas posteriores a seguir la curva, reduce la separación entre trayectorias y, por tanto, el ancho de barrido.",
+      "evidence": [
+        "Manuale patente C, fascia d’ingombro e asse autosterzante posteriore: https://asset.moto.it/download/b3e08491d33079f2e6d71dce639fe696/patente-c-1.pdf Indica la riduzione con asse autosterzante posteriore.",
+        "Comune di Genova, schema di ingombro in curva, traiettorie, passo e sagoma: https://www.comune.genova.it/sites/default/files/2024-07/ingombro_di_veicolo_in_curva.pdf Illustra traiettorie e fascia in curva."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "ac55b47d6416f3eb9c632624f6aa09b93e91b224d6be78ff8b3da96955607907",
+    "output_sha256": "fa62d840f8c46c954356d1f9ecf34382d92e9952fd0f3b4ac5f50436e52368ed",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      28549,
+      28550,
+      28551,
+      28552,
+      28553,
+      28554,
+      28555,
+      28556,
+      28557,
+      28558,
+      28559,
+      28560,
+      28561,
+      28562,
+      28563,
+      28564,
+      28566,
+      28567,
+      28568,
+      28570,
+      28571,
+      28572,
+      28573,
+      28574,
+      28575
+    ],
+    "issues": [],
+    "review_evidence": [
+      "All assigned source statements and localized explanations reviewed. Exact WABCO EBS PDF exceeded browser size; integrated braking independently corroborated by Scania source cited in row 28596.",
+      "Re-reviewed all 25 current rows and localized text. ACI DPR 495/1992 art. 217 verified directly at PDF page 134; Cummins article corrected to printed page 11; 28592 now distinguishes verdict from inferred context. Voith press release directly confirms output-side retarder example. Exact WABCO 8150102173 PDF independently inspected locally, SHA256 2910987b0c24af03a728ea4949eb9f382a217a01ad177b1557a21808a9ba45d9, pp. 103 and 105: electronic braking system coordinates retarder, engine brake and wheel brakes."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eab2-d48d-7b00-ba2a-834f169a1174",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7947f41e020e5afcf90cd356a2d725a4a3cbfc9ac04c00036b88aca37f2d86c0",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eab2-d48d-7b00-ba2a-834f169a1174",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28550,
+              "reason": "Il verdetto FALSO non chiarisce la distinzione tra veicolo eccezionale e trasporto eccezionale: a 32 t il mezzo a tre assi supera i limiti ordinari dell’art. 62 e l’art. 10 comma 1 definisce eccezionale il veicolo che supera tali limiti nella configurazione di marcia per esigenze funzionali. Il limite di 33 t e l’esenzione condizionata non risolvono da soli la classificazione.",
+              "checked_sources": [
+                "https://aci.gov.it/codice-della-strada/art-10/ commi 1, 3 lettera f, 7 e 8: definizione, trasporto con mezzo d’opera e condizioni fino a 33 t.",
+                "https://aci.gov.it/codice-della-strada/art-62/ comma 2: limiti ordinari di massa per tre assi.",
+                "https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDE%2BSUPERIORI23-10.pdf/8673967c-c17e-421d-8f67-b711a33194c1 quesito 28550: verdetto FALSO."
+              ]
+            },
+            {
+              "number": 28557,
+              "reason": "Il verdetto VERO presenta 4,30 m come massimo generale per i veicoli adibiti a container; la fonte verificata usa invece tale altezza come condizione di esenzione dall’autorizzazione per specifici trasporti, senza stabilirla come massimo assoluto. Non è chiaro se il quesito sottintenda il regime esente.",
+              "checked_sources": [
+                "https://aci.gov.it/codice-della-strada/art-61/ comma 1 lettera b: limite generale 4 m, salvo art. 10 e deroghe.",
+                "https://aci.gov.it/codice-della-strada/art-10/ commi 3 lettera e e 6 lettera b-bis: 4,30 m come condizione, insieme ad altre, per esenzione da autorizzazione.",
+                "https://www.gazzettaufficiale.it/eli/gu/2022/01/10/6/sg/pdf riporta il testo della stessa eccezione condizionata."
+              ]
+            },
+            {
+              "number": 28559,
+              "reason": "Il verdetto FALSO non specifica se autobus escluda l’autosnodato: il limite di 15 m si riferisce agli autobus oltre due assi, mentre la stessa tabella distingue autosnodati fino a 18,75 m. Un autosnodato può avere almeno tre assi; occorre chiarire l’ambito inteso dal quesito.",
+              "checked_sources": [
+                "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=03A11824&atto.dataPubblicazioneGazzetta=2003-11-07&atto.tipoProvvedimento=DECRETO art. 1 lettera h, allegato I punto 1.1: 15 m per autobus oltre due assi e 18,75 m per autosnodato.",
+                "https://aci.gov.it/codice-della-strada/art-61/ comma 2: disciplina distinta per autosnodati con condizioni e per servizi di linea.",
+                "https://www.ilportaledellautomobilista.it/documents/56611/57321/Domande%2BSuperiori%2Bitaliano%2B04%2B04%2B2025/7763ce74-4de6-4ad9-9129-7a7c21efd1fb quesito 28559: FALSO senza specificare veicolo rigido."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7947f41e020e5afcf90cd356a2d725a4a3cbfc9ac04c00036b88aca37f2d86c0",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "ac55b47d6416f3eb9c632624f6aa09b93e91b224d6be78ff8b3da96955607907",
+        "output_sha256": "862578ced372d0979a8c34b4b30d60f2c904e74c633f987cbfbca3a792a27479",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          28549,
+          28550,
+          28551,
+          28552,
+          28553,
+          28554,
+          28555,
+          28556,
+          28557,
+          28558,
+          28559,
+          28560,
+          28561,
+          28562,
+          28563,
+          28564,
+          28566,
+          28567,
+          28568,
+          28570,
+          28571,
+          28572,
+          28573,
+          28574,
+          28575
+        ],
+        "issues": [
+          {
+            "number": 28561,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          },
+          {
+            "number": 28562,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          },
+          {
+            "number": 28563,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          },
+          {
+            "number": 28564,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          },
+          {
+            "number": 28566,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          },
+          {
+            "number": 28567,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          },
+          {
+            "number": 28568,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          },
+          {
+            "number": 28572,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          },
+          {
+            "number": 28573,
+            "reason": "Sole cited DPR 495/1992 art. 217 source is https://www.provincia.padova.it/sites/default/files/paginabase/linee-giuda-viabiltia.pdf, which returns HTTP 403 and is labelled as a road guideline rather than the DPR itself. Replace with an accessible primary art. 217 text; the 12.50 m / 5.30 m figures are independently corroborated by the accessible Comune di Mereto engineering report."
+          }
+        ],
+        "review_evidence": [
+          "All assigned source statements and localized explanations reviewed. Exact WABCO EBS PDF exceeded browser size; integrated braking independently corroborated by Scania source cited in row 28596."
+        ]
+      }
+    ]
+  }
+}

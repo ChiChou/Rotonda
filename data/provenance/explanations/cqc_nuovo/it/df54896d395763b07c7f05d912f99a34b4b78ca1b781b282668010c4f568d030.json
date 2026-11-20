@@ -1,0 +1,2619 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee52-c4c5-7572-8d1e-316a878f0672"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "cqc_nuovo",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 34397,
+          "quesito_id": 7239,
+          "text_it": "Il trasporto stradale di merci è aumentato con l'abbattimento delle frontiere attuato dall'UE",
+          "answer": 1,
+          "page": 112,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "14a43112232a68401badfe47d0b4bb7ba272ab74f8f8e8b58f60aa94304ed582",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ed7207fd981a9b14f9c07fd9762373783c992193f162838f23e8731af011c530",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34392,
+                "reason": "Non trovata una fonte primaria che dimostri un’insufficienza generalizzata delle infrastrutture logistiche di accesso al trasporto aereo."
+              },
+              {
+                "number": 34393,
+                "reason": "Non trovata una fonte primaria che sostenga la specifica frammentarietà del sistema europeo delle merci aeree."
+              },
+              {
+                "number": 34395,
+                "reason": "La formulazione assoluta confligge con la possibilità di trasporto in conto proprio da parte di imprese la cui attività principale non è il trasporto; manca supporto per il verdetto senza alterarne il senso."
+              },
+              {
+                "number": 34397,
+                "reason": "Non trovata una fonte primaria che documenti il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale di merci."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il trasporto stradale di merci è aumentato con l’abbattimento delle frontiere attuato dall’UE",
+          "text": "L’integrazione del mercato europeo senza frontiere ha favorito i trasporti transfrontalieri su strada, cresciuti nel tempo. La rimozione delle barriere è un fattore della crescita, non l’unica causa.",
+          "evidence": [
+            "Commissione europea, SWD(2023) 447, valutazione della direttiva 96/53/CE, https://transport.ec.europa.eu/system/files/2023-07/SWD_2023_447_evaluation.pdf: integrazione del mercato e aumento della quota del trasporto stradale internazionale dal 1995 al 2020."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34406,
+          "quesito_id": 7239,
+          "text_it": "Il trasporto stradale di merci internazionale è una delle cause principali della congestione dei grandi assi stradali europei",
+          "answer": 1,
+          "page": 112,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f15a9c504ce7d1aca0790d59228d9607f8958f5c99df78807d24ad43291ba0af",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b1288b377947f26d914444c6073cfe82404902d0c8370af2b092f2a84d1c8330",
+            "candidate": {
+              "number": 34406,
+              "text": "I camion impegnati nei trasporti internazionali si sommano agli altri veicoli sui grandi assi e possono contribuire alla congestione. Il peso relativo tra le cause varia però secondo la tratta e il periodo.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 34429,
+                "reason": "La frase riguarda la crescita, non soltanto il volume, e non specifica area geografica né decennio; le fonti consultate non consentono di verificare un’accelerazione nel periodo inteso."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il trasporto stradale di merci internazionale è una delle cause principali della congestione dei grandi assi stradali europei",
+          "text": "Il traffico merci su strada contribuisce alla congestione, soprattutto nei corridoi internazionali dove si concentrano flussi a lunga distanza e traffico locale.",
+          "evidence": [
+            "Commissione europea, COM(2001) 544, analisi della rete, congestione nei corridoi internazionali: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52001PC0544"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34557,
+          "quesito_id": 7249,
+          "text_it": "I vettori (imprese di trasporto su strada) sono di norma imprese private",
+          "answer": 1,
+          "page": 117,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8fc1c160fde01f54652976c4afaff46e1a442710e0c3688c2b9f50d02bb09eed",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/dd2a20118a34fd5ce83979c3df22f41241024f1d058fc54c3c6f08d74b161622",
+            "candidate": {
+              "number": 34557,
+              "text": "I vettori stradali sono normalmente imprese private che assumono il trasporto di merci per conto di un committente; possono comunque esistere forme organizzative diverse.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "I vettori (imprese di trasporto su strada) possono essere società per azioni",
+          "text": "Un vettore può assumere la forma di società per azioni, purché possieda i requisiti per esercitare il trasporto.",
+          "evidence": [
+            "Regolamento (CE) 1071/2009, art. 2, punto 4 (https://eur-lex.europa.eu/eli/reg/2009/1071/oj): il trasporto commerciale di merci può essere svolto da persone fisiche o giuridiche."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34571,
+          "quesito_id": 7250,
+          "text_it": "Ai fini dell'organizzazione di un'impresa di trasporto merci è rilevante la tipologia del trasporto",
+          "answer": 1,
+          "page": 117,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b534ed50266793d8d46757121d191f584f40618135bf1c5e99a40628204283ee",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b6d72353dc5172063669cb9df926e228e69dc22a24af488b51a3ffd438c6f6a3",
+            "candidate": {
+              "number": 34571,
+              "text": "La tipologia del trasporto incide sull’organizzazione: merci e servizi diversi possono richiedere mezzi, personale e procedure differenti.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": {
+              "number": 34571,
+              "text": "La tipologia del trasporto incide sull’organizzazione: merci e servizi diversi possono richiedere mezzi, attrezzature e procedure differenti.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34573,
+          "quesito_id": 7250,
+          "text_it": "La forma societaria di un'impresa di autotrasporto non dipende dalla dimensione ma solamente dalla tipologia di trasporto",
+          "answer": 0,
+          "page": 117,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "031c02ab3a34c4fad9e29c52e08e036affa53a0c665f138097914c14c99917e7",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b6d72353dc5172063669cb9df926e228e69dc22a24af488b51a3ffd438c6f6a3",
+            "candidate": {
+              "number": 34573,
+              "text": "La forma societaria non dipende solamente dal tipo di trasporto: nella scelta possono pesare anche dimensione, capitale e responsabilità desiderata.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": {
+              "number": 34573,
+              "text": "La scelta della forma societaria non dipende soltanto dal tipo di trasporto: anche dimensioni, risorse e responsabilità desiderate possono influire sulla scelta.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "La forma societaria di un’impresa di autotrasporto non dipende dalla dimensione ma solamente dalla tipologia di trasporto",
+          "text": "FALSO. La forma giuridica non dipende soltanto dal tipo di trasporto: la scelta organizzativa può tenere conto anche delle dimensioni e delle esigenze dell'impresa.",
+          "evidence": [
+            "Legge 6 giugno 1974 n. 298, art. 1, l'albo comprende persone fisiche e giuridiche esercenti autotrasporto per conto di terzi"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34574,
+          "quesito_id": 7250,
+          "text_it": "Le possibili configurazioni di un'impresa di trasporto non dipendono dalla forma giuridica",
+          "answer": 0,
+          "page": 117,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d7671b01ad6f8359a4cff8db20aff70d7e89df54f03f84b88ad67306fdf898ca",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b6d72353dc5172063669cb9df926e228e69dc22a24af488b51a3ffd438c6f6a3",
+            "candidate": {
+              "number": 34574,
+              "text": "La forma giuridica incide sulla configurazione dell’impresa, ad esempio sui rapporti tra soci e sulle responsabilità.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": {
+              "number": 34574,
+              "text": "È errato escludere la forma giuridica: questa incide sulla configurazione dell’impresa, per esempio sui rapporti tra soci e sulle responsabilità.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Le possibili configurazioni di un’impresa di trasporto non dipendono dalla forma giuridica",
+          "text": "La forma giuridica incide sulla configurazione dell'impresa: l'attività può essere esercitata, per esempio, da una persona fisica o da una società, con organizzazione e responsabilità diverse. Il quesito non precisa quali configurazioni intenda."
+        }
+      },
+      {
+        "source": {
+          "number": 34634,
+          "quesito_id": 7254,
+          "text_it": "Si stima che i veicoli ibridi emettono nell'atmosfera circa il 53% dell'anidride carbonica emessa da un motore a benzina",
+          "answer": 1,
+          "page": 120,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "01e73bb7ca19a393051958a5b3869e03014551cbbced515d2bd8704c82cdfe02",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/efde6d7c53407da6ac4f4618b87f19e0ed9faf6818f056751cad10a916ca9f35",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34634,
+                "reason": "Non individuata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+              },
+              {
+                "number": 34635,
+                "reason": "Non individuata una fonte primaria che sostenga il valore di confronto necessario a confutare il 10% nelle condizioni previste dal quiz."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34635,
+          "quesito_id": 7254,
+          "text_it": "Si stima che i veicoli ibridi emettono nell'atmosfera circa il 10% dell'anidride carbonica emessa da un motore a benzina",
+          "answer": 0,
+          "page": 120,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ac7f296eebf71f763777226298b54c27627a978308a8343b213a11ee04ae7c72",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/efde6d7c53407da6ac4f4618b87f19e0ed9faf6818f056751cad10a916ca9f35",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34634,
+                "reason": "Non individuata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+              },
+              {
+                "number": 34635,
+                "reason": "Non individuata una fonte primaria che sostenga il valore di confronto necessario a confutare il 10% nelle condizioni previste dal quiz."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34666,
+          "quesito_id": 7256,
+          "text_it": "Il beccheggio del veicolo è influenzato dallo stato di usura dei pneumatici",
+          "answer": 0,
+          "page": 121,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cd484a23931964ff4f0816b780df0df4f94e88f66d04f298f277fa66fbf240f0",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c0c25febaa6d8f1f9d3a3007b4e3867a78fac864981ee47d2ead57870f90624d",
+            "candidate": null,
+            "blockers": {
+              "34429": "Intervallo di dieci anni e area geografica non specificati; andamento non verificabile.",
+              "34557": "Manca una fonte primaria sulla prevalenza delle imprese private.",
+              "34634": "Stima del 53% non verificata e confronto privo di condizioni.",
+              "34635": "Valore di confronto non verificato; le emissioni variano secondo veicolo e condizioni.",
+              "34666": "Verdetto potenzialmente ambiguo: non verificata una fonte tecnica che escluda effetti dell’usura sul beccheggio.",
+              "34671": "Non verificata una fonte tecnica sul rapporto tra sbalzo e beccheggio.",
+              "34915": "La frequenza «quasi sempre» non verificata dipende dalla rete e dagli itinerari.",
+              "34936": "Non verificata una fonte primaria sul compromesso proprio di questa configurazione.",
+              "34937": "Non verificata una fonte primaria sulla disposizione specifica dei marciapiedi.",
+              "34967": "Non verificata una fonte tecnica sull’effetto della velocità sullo strisciamento posteriore.",
+              "35009": "Non verificata una fonte che sostenga la conclusione ambientale generale."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il beccheggio del veicolo non influenza la stabilità di marcia",
+          "text": "Il beccheggio può influire sulla stabilità: in frenata il carico si trasferisce in avanti e l'aderenza delle ruote posteriori può ridursi.",
+          "evidence": [
+            "Georgia Department of Driver Services, Sessions 11–13, Vehicle Balance, https://dds.georgia.gov/sessions-11-13-0: la frenata trasferisce carico in avanti e può ridurre la trazione posteriore"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34671,
+          "quesito_id": 7256,
+          "text_it": "All'aumentare dello sbalzo posteriore del veicolo diminuisce il beccheggio",
+          "answer": 0,
+          "page": 121,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "21874c090c5d9473c7ca1f14cb9d9da8cf729657cd6bbad0a790594de5e67059",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c0c25febaa6d8f1f9d3a3007b4e3867a78fac864981ee47d2ead57870f90624d",
+            "candidate": null,
+            "blockers": {
+              "34429": "Intervallo di dieci anni e area geografica non specificati; andamento non verificabile.",
+              "34557": "Manca una fonte primaria sulla prevalenza delle imprese private.",
+              "34634": "Stima del 53% non verificata e confronto privo di condizioni.",
+              "34635": "Valore di confronto non verificato; le emissioni variano secondo veicolo e condizioni.",
+              "34666": "Verdetto potenzialmente ambiguo: non verificata una fonte tecnica che escluda effetti dell’usura sul beccheggio.",
+              "34671": "Non verificata una fonte tecnica sul rapporto tra sbalzo e beccheggio.",
+              "34915": "La frequenza «quasi sempre» non verificata dipende dalla rete e dagli itinerari.",
+              "34936": "Non verificata una fonte primaria sul compromesso proprio di questa configurazione.",
+              "34937": "Non verificata una fonte primaria sulla disposizione specifica dei marciapiedi.",
+              "34967": "Non verificata una fonte tecnica sull’effetto della velocità sullo strisciamento posteriore.",
+              "35009": "Non verificata una fonte che sostenga la conclusione ambientale generale."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34915,
+          "quesito_id": 7271,
+          "text_it": "La rete integrata di trasporti comporta quasi sempre il trasbordo di passeggeri da un mezzo all'altro",
+          "answer": 1,
+          "page": 127,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "35f51f056fef8b0bef16448dcc1e63672297549d8ed076d299c76f27c999d39b",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c0c25febaa6d8f1f9d3a3007b4e3867a78fac864981ee47d2ead57870f90624d",
+            "candidate": null,
+            "blockers": {
+              "34429": "Intervallo di dieci anni e area geografica non specificati; andamento non verificabile.",
+              "34557": "Manca una fonte primaria sulla prevalenza delle imprese private.",
+              "34634": "Stima del 53% non verificata e confronto privo di condizioni.",
+              "34635": "Valore di confronto non verificato; le emissioni variano secondo veicolo e condizioni.",
+              "34666": "Verdetto potenzialmente ambiguo: non verificata una fonte tecnica che escluda effetti dell’usura sul beccheggio.",
+              "34671": "Non verificata una fonte tecnica sul rapporto tra sbalzo e beccheggio.",
+              "34915": "La frequenza «quasi sempre» non verificata dipende dalla rete e dagli itinerari.",
+              "34936": "Non verificata una fonte primaria sul compromesso proprio di questa configurazione.",
+              "34937": "Non verificata una fonte primaria sulla disposizione specifica dei marciapiedi.",
+              "34967": "Non verificata una fonte tecnica sull’effetto della velocità sullo strisciamento posteriore.",
+              "35009": "Non verificata una fonte che sostenga la conclusione ambientale generale."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "La rete integrata di trasporti comporta quasi sempre il trasbordo di passeggeri da un mezzo all’altro",
+          "text": "Il quiz considera VERO che il viaggio nella rete integrata comporti spesso un cambio di mezzo. La frequenza effettiva dipende però dal percorso: l’integrazione non rende il trasbordo necessario in ogni viaggio.",
+          "evidence": [
+            "Ministero delle infrastrutture e dei trasporti, listato CQC quesito 7271, https://www.ilportaledellautomobilista.it/documents/56611/85457073/DomandeCqcNuovoListato.pdf/9bc6d483-6e0b-41f9-8347-91fd345ceeb9: rete integrata e interscambio"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34936,
+          "quesito_id": 7273,
+          "text_it": "L'autostazione realizzata con il fabbricato viaggiatori ad un lato del piazzale rappresenta un buon compromesso per la circolazione degli autobus e dei viaggiatori",
+          "answer": 1,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "374c0c7d9932ad02a462ba02b8418fb6f413258eef3c53df696903af3e0e1f2f",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ef5c38c54e945e52b1fdc8c1900c468a4873b32d79a5099bd94cd4d01971a6f",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34936,
+                  "reason": "Non individuata una fonte primaria che sostenga il giudizio di compromesso per questa configurazione."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non individuata una fonte primaria che descriva la disposizione dei marciapiedi per questa configurazione."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non individuata una fonte primaria che descriva la capacità di questa configurazione."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34937,
+          "quesito_id": 7273,
+          "text_it": "L'autostazione realizzata con il fabbricato viaggiatori ad un lato del piazzale ha una serie di marciapiedi paralleli al lato del fabbricato",
+          "answer": 1,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2c04b6ff8acee404a4b8cf6e570729f0d2af7b93e33b4fc01c2898931bb5ff89",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ef5c38c54e945e52b1fdc8c1900c468a4873b32d79a5099bd94cd4d01971a6f",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34936,
+                  "reason": "Non individuata una fonte primaria che sostenga il giudizio di compromesso per questa configurazione."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non individuata una fonte primaria che descriva la disposizione dei marciapiedi per questa configurazione."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non individuata una fonte primaria che descriva la capacità di questa configurazione."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L'autostazione realizzata con il fabbricato viaggiatori ad un lato del piazzale può avere un numero illimitato di marciapiedi",
+          "text": "VERO secondo il quiz: lo schema consente di aggiungere marciapiedi paralleli senza un limite prefissato dalla tipologia. «Illimitato» non significa che un impianto reale possa averne infiniti: lo spazio disponibile pone un limite.",
+          "evidence": [
+            "Ministero delle infrastrutture e dei trasporti, listato CQC persone, quesito 7273, p. 154, schema con marciapiedi paralleli e relativi verdetti: https://www.ilportaledellautomobilista.it/documents/56611/64942013/20211012%2BCQC%2B-%2Bflusso%2BPoligrafico%2Bper%2BEditori.pdf/d6aecb12-1025-4f8e-93ce-974543dd2e6c"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34938,
+          "quesito_id": 7273,
+          "text_it": "L'autostazione realizzata con il fabbricato viaggiatori ad un lato del piazzale ha sempre un numero molto limitato di marciapiedi",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d47c6e522a26840a87f92f048d11b3a65910834165a4454bec1d9a6450cb3bac",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/4ef5c38c54e945e52b1fdc8c1900c468a4873b32d79a5099bd94cd4d01971a6f",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34936,
+                  "reason": "Non individuata una fonte primaria che sostenga il giudizio di compromesso per questa configurazione."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non individuata una fonte primaria che descriva la disposizione dei marciapiedi per questa configurazione."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non individuata una fonte primaria che descriva la capacità di questa configurazione."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L'autostazione realizzata con il fabbricato viaggiatori ad un lato del piazzale può avere un numero limitato di marciapiedi",
+          "text": "FALSO secondo il quiz, che intende dire che lo schema non impone un numero massimo prefissato di marciapiedi. La frase è però ambigua: un’autostazione concreta può avere un numero limitato di marciapiedi.",
+          "evidence": [
+            "Ministero delle infrastrutture e dei trasporti, listato CQC persone, quesito 7273, p. 154, schema con marciapiedi paralleli e relativi verdetti: https://www.ilportaledellautomobilista.it/documents/56611/64942013/20211012%2BCQC%2B-%2Bflusso%2BPoligrafico%2Bper%2BEditori.pdf/d6aecb12-1025-4f8e-93ce-974543dd2e6c"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34967,
+          "quesito_id": 7275,
+          "text_it": "Il rischio di interferenza (strisciamento) della parte posteriore della carrozzeria dell'autobus con la sede stradale aumenta se il tratto di strada è percorso ad alta velocità",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8cb39b68c7be0dd91fd585ec2aa3c441b2f1723b4520d1591548784af5ffd7ec",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/2cebce99aada265f7ba23e377c4006fa565206368554f6544d8fe706fe2a40d9",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34967,
+                "reason": "Non è stata reperita una fonte primaria che colleghi direttamente la velocità al rischio di strisciamento della parte posteriore sulla strada."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il rischio di interferenza (strisciamento) della parte posteriore della carrozzeria dell’autobus con la sede stradale aumenta se il tratto di strada è percorso ad alta velocità",
+          "text": "Su un dosso o un cambio di pendenza, una velocità inadeguata può favorire il contatto dello sbalzo con la strada; il rischio dipende anche dal profilo e dal veicolo."
+        }
+      },
+      {
+        "source": {
+          "number": 35009,
+          "quesito_id": 7277,
+          "text_it": "L'uso di infrastrutture specifiche (aree di fermata, autostazioni, ecc.) aumenta l'impatto ambientale dei veicoli adibiti al trasporto pubblico",
+          "answer": 0,
+          "page": 130,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0b142d879e2d16ca26f925eb1d821db3338e58954e58f475ed007a6972576371",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f1756ddeb5e6083c2b7075fc9ae653dab495b1178964b4420ac9dbe380a326bd",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 35008,
+                "reason": "Non verificato un riferimento primario che sostenga entrambi i vantaggi economici e di sicurezza per le infrastrutture indicate in generale."
+              },
+              {
+                "number": 35009,
+                "reason": "Non verificato un riferimento primario che sostenga l'effetto ambientale delle infrastrutture indicate in generale; l'effetto dipende anche dal progetto e dall'esercizio."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 35015,
+          "quesito_id": 7278,
+          "text_it": "L'uso di infrastrutture specifiche (aree di fermata, autostazioni, ecc.) può riguardare diverse categorie di veicoli destinati al trasporto pubblico",
+          "answer": 1,
+          "page": 130,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0bfbd7fa9d5afb3039509a7821ffd480603d5834d13f405c57cb8ac18f5a9170",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/97d3171b8d623ea19e515dea89f4d85ead7eccfb44d2a0d3194c4f3c0283be4a",
+            "candidate": {
+              "number": 35015,
+              "text": "Fermate e autostazioni possono servire diverse categorie di mezzi pubblici, secondo la destinazione e le regole della struttura.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 35020,
+                "reason": "Non è stata individuata una fonte primaria che sostenga la riduzione dell’usura dei veicoli dovuta alle corsie riservate."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": {
+              "number": 35015,
+              "text": "Fermate e autostazioni possono servire diverse categorie di mezzi pubblici, secondo le caratteristiche e la destinazione dell’infrastruttura.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L'uso di infrastrutture specifiche (aree di fermata, autostazioni, ecc.) consente di migliorare il rispetto degli orari di servizio dei veicoli destinati al trasporto pubblico",
+          "text": "Fermate e autostazioni organizzate possono rendere più ordinate le operazioni e i movimenti degli autobus, aiutando il rispetto degli orari; il beneficio dipende dalla loro progettazione e gestione.",
+          "evidence": [
+            "Università di Roma Tor Vergata, Autostazioni, pp. 10 e 17, organizzazione dei percorsi e confronto dei perditempo per i veicoli"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35020,
+          "quesito_id": 7278,
+          "text_it": "La riserva di infrastrutture specifiche (strade e corsie) agli autobus e filobus destinati al trasporto pubblico consente di ridurre l'usura dei veicoli",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "aa5b93602a8b457c494d7f10f083bdb9c8d4c351330ac80e5fb728375cc7b32c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/97d3171b8d623ea19e515dea89f4d85ead7eccfb44d2a0d3194c4f3c0283be4a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 35020,
+                "reason": "Non è stata individuata una fonte primaria che sostenga la riduzione dell’usura dei veicoli dovuta alle corsie riservate."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "La riserva di infrastrutture specifiche (strade e corsie) agli autobus e filobus destinati al trasporto pubblico consente di ridurre l’usura dei veicoli",
+          "text": "Una marcia più scorrevole può ridurre arresti e ripartenze e quindi l'usura di componenti come i freni. Il risparmio effettivo dipende dalle condizioni di esercizio.",
+          "evidence": [
+            "TCRP Report 118, cap. 4, costi operativi, https://nacto.org/wp-content/uploads/tcrp118brt_practitioners_kittleson.pdf: meno arresti e ripartenze possono ridurre i costi di manutenzione"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35179,
+          "quesito_id": 7288,
+          "text_it": "Il conducente di un autobus di linea può mangiare a bordo quando l'autobus raggiunge il capolinea",
+          "answer": 0,
+          "page": 136,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "78d809f15bfca89bb4610a5907fe44b4794f3bc8727de7214cc7f4c4d0559bd1",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/5260a89da1eb6442f1f1939da274187a4f5bd818e65bdd60cd031af54108a010",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35179,
+                  "reason": "Il verdetto FALSO non chiarisce se il divieto valga anche durante una pausa al capolinea; non è stata trovata una fonte primaria che lo sostenga."
+                },
+                {
+                  "number": 35183,
+                  "reason": "Non è stata trovata una fonte primaria per l'obbligo generale di ispezione del veicolo alla fine del servizio di noleggio."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non è stata trovata una fonte primaria per il divieto generale indicato durante la sosta nel servizio di noleggio."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il conducente di un autobus di linea può mangiare a bordo quando l’autobus raggiunge il capolinea",
+          "text": "Il quiz considera falsa la possibilità di mangiare a bordo al capolinea: la sola sosta non rende automaticamente consentito mangiare sul veicolo. Le regole applicabili possono però dipendere dall’azienda e dalle circostanze."
+        }
+      },
+      {
+        "source": {
+          "number": 35185,
+          "quesito_id": 7288,
+          "text_it": "Di regola, i conducenti di autobus adibiti a servizio di noleggio con conducente non possono mangiare durante la sosta nella zona riservata ai passeggeri",
+          "answer": 1,
+          "page": 136,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5de973a60620848045c88fc829c2280a49214bce1751d8cb82bb8a9c122917be",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/5260a89da1eb6442f1f1939da274187a4f5bd818e65bdd60cd031af54108a010",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35179,
+                  "reason": "Il verdetto FALSO non chiarisce se il divieto valga anche durante una pausa al capolinea; non è stata trovata una fonte primaria che lo sostenga."
+                },
+                {
+                  "number": 35183,
+                  "reason": "Non è stata trovata una fonte primaria per l'obbligo generale di ispezione del veicolo alla fine del servizio di noleggio."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non è stata trovata una fonte primaria per il divieto generale indicato durante la sosta nel servizio di noleggio."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Di regola, i conducenti di autobus adibiti a servizio di noleggio con conducente non devono fumare durante la corsa",
+          "text": "Durante la corsa il conducente non deve fumare: il divieto tutela i passeggeri e la sicurezza del servizio.",
+          "evidence": [
+            "Comune di Verona, regolamento NCC, disposizioni sui conducenti, https://www.comune.verona.it/content/download/2423/45385/file/regolamento_noleggio_con_conducente.pdf: divieto di fumare durante la corsa"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35214,
+          "quesito_id": 7290,
+          "text_it": "La scelta dell'autobus è condizionata, tra l'altro, dal colore esterno della carrozzeria",
+          "answer": 0,
+          "page": 137,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a7c5f8114f77c8a4dd981a9ded082e0eff530415090d96eb02f6b7db566023bc",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/175eda4148f7e349330bedcd8f4591fd6a1c6c35fe0762c4fe806395ac5feda5",
+            "candidate": {
+              "number": 35214,
+              "text": "Il colore esterno non determina l’idoneità tecnica dell’autobus al servizio: contano invece caratteristiche come capacità e allestimento. Possono comunque esistere prescrizioni sulla livrea.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": {
+              "number": 35214,
+              "text": "Il quiz considera falso il colore come criterio di scelta: per l’idoneità al servizio contano capacità e caratteristiche del mezzo. La formulazione è comunque generale: eventuali prescrizioni sulla livrea possono incidere sulla scelta.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 35215,
+          "quesito_id": 7290,
+          "text_it": "La scelta dell'autobus è condizionata, tra l'altro, dal servizio a cui viene destinato",
+          "answer": 1,
+          "page": 137,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "37fe04a1b7b6e62c09b433f521afa92f0941a98e7458ebf401b80b3daadd4899",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/175eda4148f7e349330bedcd8f4591fd6a1c6c35fe0762c4fe806395ac5feda5",
+            "candidate": {
+              "number": 35215,
+              "text": "Il servizio previsto orienta la scelta: un mezzo per percorsi urbani può richiedere caratteristiche diverse da uno per viaggi lunghi.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/c85a4ae969c05c70a0fa5ff04037d8449e2eaa7d4c91ea2bebc4222d0b8fa78a",
+            "candidate": {
+              "number": 35215,
+              "text": "Il servizio previsto orienta la scelta: un mezzo per percorsi urbani può richiedere capacità e allestimenti diversi da uno per viaggi lunghi.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34634,
+                  "reason": "Non verificata una fonte primaria che sostenga la stima del 53% specificando veicoli e condizioni di confronto."
+                },
+                {
+                  "number": 34635,
+                  "reason": "Non verificata una fonte primaria che consenta di confutare il 10% nelle condizioni di confronto previste dal quiz."
+                },
+                {
+                  "number": 34666,
+                  "reason": "Non verificata una fonte tecnica che sostenga il verdetto escludendo l’influenza dell’usura dei pneumatici sul beccheggio."
+                },
+                {
+                  "number": 34671,
+                  "reason": "Non verificata una fonte tecnica che sostenga una relazione generale tra sbalzo posteriore e beccheggio."
+                },
+                {
+                  "number": 34915,
+                  "reason": "Non verificata una fonte primaria sulla frequenza «quasi sempre», che dipende dalla rete e dai percorsi."
+                },
+                {
+                  "number": 34936,
+                  "reason": "Non verificata una fonte tecnica sul compromesso specifico dello schema descritto."
+                },
+                {
+                  "number": 34937,
+                  "reason": "Non verificata una fonte tecnica indipendente sulla disposizione specifica dei marciapiedi dello schema."
+                },
+                {
+                  "number": 34938,
+                  "reason": "Non verificata una fonte tecnica sulla capacità di tale schema di ospitare più marciapiedi."
+                },
+                {
+                  "number": 34967,
+                  "reason": "La fonte consultata collega le variazioni di pendenza al rischio di contatto, ma non verifica l’effetto specifico della velocità."
+                },
+                {
+                  "number": 35009,
+                  "reason": "Non verificata una fonte primaria che giustifichi una conclusione ambientale generale per tutte le infrastrutture indicate."
+                },
+                {
+                  "number": 35020,
+                  "reason": "Le fonti consultate non dimostrano la riduzione dell’usura dovuta alla corsia riservata."
+                },
+                {
+                  "number": 35179,
+                  "reason": "Non verificata una regola che vieti al conducente di mangiare a bordo durante una sosta al capolinea."
+                },
+                {
+                  "number": 35185,
+                  "reason": "Non verificata una fonte primaria per il divieto generale durante la sosta nella zona passeggeri del servizio NCC."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "La scelta dell'autobus è condizionata, tra l'altro, dal numero di posti a sedere",
+          "text": "Il numero di posti a sedere incide sulla scelta perché deve essere adeguato al servizio richiesto.",
+          "evidence": [
+            "Regolamento (UE) 2020/683, allegato VIII, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02020R0683-20240101, il certificato distingue i passeggeri seduti e in piedi"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35597,
+          "quesito_id": 7315,
+          "text_it": "Gli autobus devono essere muniti di barelle",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c69e7880bba6e83ce8496dddb5069d156331c8a07739e2acb545117d1c2a8d6c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/912bf9f724026a7274e8326d277458b4e05683fcba053c9e7ce6662b83579a0f",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 35590,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35592,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35593,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35594,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35595,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35596,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35597,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35598,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35599,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35600,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35601,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35604,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35607,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35608,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Gli autobus devono essere muniti di obliteratrice",
+          "text": "L’obliteratrice non è una dotazione obbligatoria di ogni autobus: dipende dal servizio e dal sistema di bigliettazione.",
+          "evidence": [
+            "Ministero delle infrastrutture e dei trasporti, DOMANDECqcVecchioListato.pdf, quesito e verdetto ufficiale: https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDECqcVecchioListato.pdf/1a231830-7bec-4950-9e97-ccf31ce05f7b"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35601,
+          "quesito_id": 7315,
+          "text_it": "Gli autobus devono essere muniti di sponda montacarichi posteriore",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "28e83fdad32abe040c2b6654fe9426b3bb61b3a43eb22c83def23a13faf74767",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/912bf9f724026a7274e8326d277458b4e05683fcba053c9e7ce6662b83579a0f",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 35590,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35592,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35593,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35594,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35595,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35596,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35597,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35598,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35599,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35600,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35601,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35604,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35607,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35608,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Gli autobus devono essere muniti di barra paraincastro",
+          "text": "La barra paraincastro non è una dotazione obbligatoria generale degli autobus; le prescrizioni dipendono dalla categoria del veicolo.",
+          "evidence": [
+            "Ministero delle infrastrutture e dei trasporti, DOMANDECqcVecchioListato.pdf, quesito e verdetto ufficiale: https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDECqcVecchioListato.pdf/1a231830-7bec-4950-9e97-ccf31ce05f7b"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35608,
+          "quesito_id": 7316,
+          "text_it": "Negli autobus urbani a 4 porte, solitamente le 2 centrali sono per la salita e quelle anteriore e posteriore per la discesa dei passeggeri",
+          "answer": 0,
+          "page": 148,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5a30e3271aae68474b6f1f7aed99917b160525b340e42338f7978cd3be3f20f0",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/912bf9f724026a7274e8326d277458b4e05683fcba053c9e7ce6662b83579a0f",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 35590,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35592,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35593,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35594,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35595,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35596,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35597,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35598,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35599,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35600,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35601,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35604,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35607,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              },
+              {
+                "number": 35608,
+                "reason": "Fonte primaria accessibile insufficiente per verificare la regola specifica e il verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Negli autobus urbani a 3 porte, solitamente quella centrale è per la salita e le altre 2 per la discesa dei passeggeri",
+          "text": "La disposizione indicata è invertita: in una comune organizzazione a tre porte si sale davanti o dietro e si scende dalla porta centrale. La segnaletica del gestore resta determinante.",
+          "evidence": [
+            "ATAP, indicazioni ai passeggeri, https://www.atapspa.it/category/news/page/54/: salita anteriore o posteriore e discesa centrale sugli autobus a tre porte"
+          ]
+        }
+      }
+    ],
+    "task_sha256": "770bdbfc1c497313febb5be80301b6ceb916a4070853dd486b344b83da8e6d3f",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage. Do not confuse absent external citations with genuine uncertainty: stable terminology and ordinary business/physical reasoning may use evidence explicitly labelled Ragionamento didattico, without claiming external verification. Verify uncertain medical, legal, numerical and statistical assertions. For qualitative exam-context statements, explain the mechanism and limitations rather than demanding an exact current statistical frequency. Distinguish an illustrative configuration from a universal mechanical law. Where the printed answer is overbroad, qualify it visibly and explain the supported distinction; do not invent opposite absolutes. For the customs fiscal-origin item, the inspected original state-archive record https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=521942&TipoPag=comparc describes historical dazi as indirect taxes and receipts paid to the fiscal chamber; this supports explaining historical revenue function without inventing a first-origin date. For market liberalization and own-account distinctions use Commission COM2014/222 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52014DC0222 sections2.1 and2.3; preserve its2014 timeframe, do not extrapolate to every current transport."
+  },
+  "rows": [
+    {
+      "number": 34397,
+      "text": "L'apertura del mercato europeo ha facilitato i trasporti fra Stati membri e favorito la crescita dei flussi internazionali su strada. È un fattore della crescita, non l'unica causa.",
+      "evidence": [
+        "Commissione europea, COM(2014) 222, § 2.1, https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52014DC0222: crescita dei trasporti fra paesi terzi nel 2004-2012 e contributo della liberalizzazione."
+      ]
+    },
+    {
+      "number": 34406,
+      "text": "I camion internazionali si sommano agli altri veicoli sui grandi corridoi e contribuiscono alla congestione; il loro peso rispetto alle altre cause varia secondo il luogo e il periodo.",
+      "evidence": [
+        "Ragionamento didattico, congestione: flussi concentrati sulla stessa infrastruttura occupano capacità stradale."
+      ]
+    },
+    {
+      "number": 34557,
+      "text": "Nel contesto del quiz i vettori sono normalmente imprese private che svolgono trasporti per clienti; ciò non esclude altre forme organizzative.",
+      "evidence": [
+        "Ragionamento didattico, organizzazione del mercato: il vettore esercita un'attività di trasporto per un committente; «di norma» non significa esclusivamente."
+      ]
+    },
+    {
+      "number": 34571,
+      "text": "La tipologia del trasporto incide sull'organizzazione: merci e servizi diversi possono richiedere mezzi, attrezzature e procedure differenti.",
+      "evidence": [
+        "Ragionamento didattico, organizzazione: le risorse vanno adattate al servizio e alla merce."
+      ]
+    },
+    {
+      "number": 34573,
+      "text": "È errato dire che conti soltanto il tipo di trasporto: nella scelta della forma societaria possono pesare anche dimensioni, risorse e responsabilità desiderate.",
+      "evidence": [
+        "Ragionamento didattico, scelta della forma d'impresa: esigenze finanziarie e responsabilità cambiano con l'organizzazione."
+      ]
+    },
+    {
+      "number": 34574,
+      "text": "È errato escludere la forma giuridica: essa incide sulla configurazione dell'impresa, per esempio sui rapporti tra soci e sulle responsabilità.",
+      "evidence": [
+        "Ragionamento didattico, organizzazione d'impresa: la forma giuridica disciplina la struttura dei rapporti e delle responsabilità."
+      ]
+    },
+    {
+      "number": 34915,
+      "text": "Una rete integrata collega linee e mezzi diversi: per molti itinerari occorre cambiare mezzo in un punto di interscambio. Non ogni viaggio richiede però un trasbordo.",
+      "evidence": [
+        "Ragionamento didattico, rete integrata: l'interscambio collega servizi diversi, mentre un percorso diretto può evitarlo."
+      ]
+    },
+    {
+      "number": 34936,
+      "text": "Nello schema descritto il fabbricato su un lato permette di organizzare gli accessi ai marciapiedi e i movimenti degli autobus sul piazzale: è un compromesso fra le esigenze dei due flussi. La qualità concreta dipende dal progetto.",
+      "evidence": [
+        "Ragionamento didattico, autostazioni: la disposizione degli accessi e delle corsie va valutata rispetto ai flussi di viaggiatori e autobus."
+      ]
+    },
+    {
+      "number": 34937,
+      "text": "Nel modello descritto i marciapiedi sono disposti in serie parallelamente al lato del fabbricato viaggiatori. È una configurazione progettuale, non una regola per ogni autostazione.",
+      "evidence": [
+        "Ragionamento didattico, schema di autostazione: la disposizione indicata descrive un possibile assetto dei marciapiedi rispetto al fabbricato."
+      ]
+    },
+    {
+      "number": 34938,
+      "text": "È errato dire che i marciapiedi siano sempre molto pochi: il loro numero dipende dalle dimensioni e dal progetto del piazzale, anche con il fabbricato su un lato.",
+      "evidence": [
+        "Ragionamento didattico, disposizione del piazzale: la posizione laterale del fabbricato non fissa da sola il numero di marciapiedi."
+      ]
+    },
+    {
+      "number": 35009,
+      "text": "È errato sostenere che queste infrastrutture aumentino necessariamente l'impatto ambientale dei veicoli: fermate e autostazioni ben organizzate possono rendere più ordinato il servizio. L'effetto effettivo dipende anche da progetto e uso.",
+      "evidence": [
+        "Ragionamento didattico, infrastrutture: l'effetto ambientale dipende da come sono progettate e utilizzate, non dalla sola presenza."
+      ]
+    },
+    {
+      "number": 35015,
+      "text": "Fermate e autostazioni possono servire diverse categorie di mezzi pubblici, secondo le caratteristiche e la destinazione dell'infrastruttura.",
+      "evidence": [
+        "Ragionamento didattico, infrastrutture di trasporto: l'idoneità dipende dagli spazi e dal servizio previsto."
+      ]
+    },
+    {
+      "number": 35020,
+      "text": "Una corsia riservata può rendere la marcia più scorrevole e ridurre frenate e ripartenze dovute al traffico, limitando l'usura di alcuni componenti. Il beneficio dipende dalle condizioni effettive della corsia e del servizio.",
+      "evidence": [
+        "Ragionamento didattico, marcia del veicolo: meno frenate e ripartenze possono ridurre le sollecitazioni su freni e trasmissione."
+      ]
+    },
+    {
+      "number": 35214,
+      "text": "Il quiz considera falso il colore come criterio di scelta: per l'idoneità al servizio contano capacità e caratteristiche del mezzo. Eventuali prescrizioni sulla livrea possono comunque incidere sulla scelta.",
+      "evidence": [
+        "Ragionamento didattico, scelta del veicolo: le caratteristiche funzionali determinano l'idoneità al servizio; la livrea può rispondere a esigenze specifiche."
+      ]
+    },
+    {
+      "number": 35215,
+      "text": "Il servizio previsto orienta la scelta: un mezzo per percorsi urbani può richiedere capacità e allestimenti diversi da uno per viaggi lunghi.",
+      "evidence": [
+        "Ragionamento didattico, scelta dell'autobus: le esigenze di capacità e allestimento dipendono dal servizio."
+      ]
+    }
+  ],
+  "output_sha256": "4c0c7778a144d6066dc80963d32c537756ef70acdbd2d1c83bc6cbc5d3886451"
+}

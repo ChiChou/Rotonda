@@ -1,0 +1,37 @@
+{
+  "batch": "031",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "61a22cf13bd4a27e4159dc5f20aa728e9739da6e33390186c6e34c26cffea732",
+  "source_sha256": "6e0d3b93840c86f7c034137df80ad69353bf3e10f086bc36bad5778ddbce9911",
+  "corrections": [
+    {
+      "id": "295871a7133352f07c23bdaacf536758d38647ad5b9f0e1255a45dd30aa495ef",
+      "before": "Para prevenir agresiones o robos es legítimo exhibir armas de fuego en el tablero del vehículo",
+      "after": "Para prevenir agresiones o asaltos es legítimo exhibir armas de fuego en el tablero del vehículo",
+      "reason": "Rapine se refiere a asaltos, no a robos en general."
+    },
+    {
+      "id": "29675281dcb8d1ff12a21148e9ce9386521b8bb5da7bb9fc6f88725968673258",
+      "before": "Los conductores de SUV deben considerar los daños graves que los parachoques sobresalientes y reforzados pueden causar al chocar con vehículos más pequeños",
+      "after": "Los conductores de vehículos todoterreno (SUV) deben considerar los daños graves que los parachoques sobresalientes y reforzados pueden causar al chocar con vehículos más pequeños",
+      "reason": "Restituye la descripción de vehículo todoterreno junto a SUV."
+    },
+    {
+      "id": "2a066273f4947722d866aa4fe5051dac34a527ff1a075ab7fa095cda980f4b4c",
+      "before": "Las cuñas para ruedas pueden utilizarse como dispositivo antirrobo",
+      "after": "Las cuñas para ruedas pueden utilizarse como dispositivo contra asaltos",
+      "reason": "Antirapina se refiere a prevención de asaltos, no de cualquier robo."
+    }
+  ],
+  "reviewed_file_sha256": "f16ed9a6f44d8497cd437cc4b3abede98c21b43e19523e4397d759284fb9448a"
+}

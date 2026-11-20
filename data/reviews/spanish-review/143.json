@@ -1,0 +1,49 @@
+{
+  "batch": "143",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "03b963a8507e6063bd3e4e1f1747b1a4d8f9cb71af4b320a2093b4f9d504a2bb",
+  "source_sha256": "8531a218295613d002ac8e5871bc09b7f38222d104d2256ca75fb0c5b5fe6f3b",
+  "corrections": [
+    {
+      "id": "bd8347efacb9c9cd880f0be35ea75fb7b24d043270b2ab21e7f29f4977cce3d3",
+      "before": "05##tipología5 CQC",
+      "after": "05##tipologia5 CQC",
+      "reason": "Code label must keep Italian tipologia spelling"
+    },
+    {
+      "id": "bd9a04848b342a83ba31373f6c2522480cebe2ec8348811effd56e918e8f0910",
+      "before": "13##tipología13 CQC",
+      "after": "13##tipologia13 CQC",
+      "reason": "Code label must keep Italian tipologia spelling"
+    },
+    {
+      "id": "bd9e25cd59fd14cde0dc05d6e1a5b1514073993d7b4be533c5e24e8037b0f40d",
+      "before": "En un motor diésel, los inyectores reciben el combustible a presión de la bomba de inyección",
+      "after": "En un motor diésel, los inyectores reciben el diésel a presión de la bomba de inyección",
+      "reason": "Especifica diésel como gasolio, no combustible genérico."
+    },
+    {
+      "id": "bda0dbe0d85d99c9433822a940cbe40de03363aa503054cf7b02cdb7882de9a9",
+      "before": "Según la normativa sobre el tacógrafo, el conductor puede superar las cuatro horas y media de conducción para llegar a un lugar de parada adecuado para la seguridad del vehículo, siempre que no comprometa la seguridad vial",
+      "after": "Según la normativa sobre el tacógrafo, el conductor puede superar las cuatro horas y media de conducción para llegar a un lugar de estacionamiento adecuado para la seguridad del vehículo, siempre que no comprometa la seguridad vial",
+      "reason": "Sosta indica estacionamiento, no una parada temporal."
+    },
+    {
+      "id": "bdfbe5d08028980e47d50ac0543e51ddc38dd58dbe2b5e0ecb6263ae7df18ab6",
+      "before": "En las áreas de servicio y de descanso de autopistas y vías interurbanas principales, los animales no pueden circular ni siquiera si están debidamente vigilados",
+      "after": "En las áreas de servicio y de estacionamiento de autopistas y vías interurbanas principales, los animales no pueden circular ni siquiera si están debidamente vigilados",
+      "reason": "Traduce áreas de sosta como áreas de estacionamiento."
+    }
+  ],
+  "reviewed_file_sha256": "6addc8f56329ca9a92ea875824e6ea6ab48de060a4b82458b4de46be874db045"
+}

@@ -1,0 +1,674 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31424,
+          "quesito_id": 7023,
+          "text_it": "Un veicolo si dice sottosterzante quando l'angolo di deriva dei pneumatici dell'asse anteriore è superiore a quello dell'asse posteriore",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7609a750ab26411c070c9f5c0ece30e38dca4afa23477ebcddda671b1fe21227",
+        "localized_text": "Se dice que un vehículo presenta subviraje cuando el ángulo de deriva de los neumáticos del eje delantero es superior al del eje trasero"
+      },
+      {
+        "source": {
+          "number": 31425,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva è causato da forze trasversali che agiscono sui pneumatici",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c834e3dc1a8030ea88227baf7f114454b56e8e808afb3e7ef35ca91fd2c7ef37",
+        "localized_text": "El ángulo de deriva es causado por fuerzas transversales que actúan sobre los neumáticos"
+      },
+      {
+        "source": {
+          "number": 31426,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva non dipende dal carico che grava sui singoli assi",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3a3fd0401b57135441810ef99e9bd7b9080019620a6490a4befd056c05f97625",
+        "localized_text": "El ángulo de deriva no depende de la carga que soportan los distintos ejes"
+      },
+      {
+        "source": {
+          "number": 31427,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva dei pneumatici è maggiore nei veicoli muniti di servosterzo",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "37bff79cd988c200971f39fde91a326d2f97ebe3e45732598894faabdd464130",
+        "localized_text": "El ángulo de deriva de los neumáticos es mayor en los vehículos con dirección asistida"
+      },
+      {
+        "source": {
+          "number": 31428,
+          "quesito_id": 7024,
+          "text_it": "Nel sovrasterzo il veicolo tende a chiudere la traiettoria in curva per l'effetto della maggiore deriva delle ruote posteriori",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cbf16cd59dbe77333d9383e4217c54ba1c1723ebc1ed8f964302a4af2514a556",
+        "localized_text": "En el sobreviraje el vehículo tiende a cerrar la trayectoria en la curva por efecto de la mayor deriva de las ruedas traseras"
+      },
+      {
+        "source": {
+          "number": 31429,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva è l'angolo che si crea tra la traiettoria ideale e quella reale del pneumatico",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "68c79b55b6a4be1428854cf572285c94ef8d2d24d7709b4ac434d5a84de60d62",
+        "localized_text": "El ángulo de deriva es el ángulo entre la trayectoria ideal y la real del neumático"
+      },
+      {
+        "source": {
+          "number": 31430,
+          "quesito_id": 7024,
+          "text_it": "Il comportamento sottosterzante del veicolo non è influenzato dalla pressione di gonfiaggio dei pneumatici",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8979f9e3a8c5e00cde28ff17c7a54bbad147f9e1e1ff157f34ac9816be378672",
+        "localized_text": "El subviraje del vehículo no se ve afectado por la presión de inflado de los neumáticos"
+      },
+      {
+        "source": {
+          "number": 31431,
+          "quesito_id": 7024,
+          "text_it": "La deriva dei pneumatici dipende dal carico del veicolo",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3187eb7aa25ed00f60836d257793fc8fb78c603942d03000d072981a373d3bfd",
+        "localized_text": "La deriva de los neumáticos depende de la carga del vehículo"
+      },
+      {
+        "source": {
+          "number": 31432,
+          "quesito_id": 7024,
+          "text_it": "L'angolo di deriva è legato alla deformazione della carcassa del pneumatico",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4d7e3edad30835291309b4c9daa687dfdba3771c2a6d646870a5c6dc95f8bf25",
+        "localized_text": "El ángulo de deriva está relacionado con la deformación de la carcasa del neumático"
+      },
+      {
+        "source": {
+          "number": 31433,
+          "quesito_id": 7024,
+          "text_it": "La deriva dei pneumatici è influenzata dall'angolo di campanatura delle ruote che può favorire il cedimento dei fianchi",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "82c6f57538f4378eb6bfff96494bdf64e3df52f2d95abc4bf8ce55e128e3dc84",
+        "localized_text": "La deriva de los neumáticos se ve afectada por el ángulo de caída de las ruedas, que puede favorecer la deformación de los costados"
+      },
+      {
+        "source": {
+          "number": 31434,
+          "quesito_id": 7024,
+          "text_it": "Nel sovrasterzo il veicolo non è in grado di girare a sufficienza",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f906953c232d6aa81ba2cd5b08ade97513467cb973128e2092fc8dff35d0370a",
+        "localized_text": "En el sobreviraje el vehículo no puede girar lo suficiente"
+      },
+      {
+        "source": {
+          "number": 31435,
+          "quesito_id": 7024,
+          "text_it": "Nel sovrasterzo il veicolo tende a fare perno sulle ruote anteriori e ad andare in testacoda",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f2fc25b1594244281b6dd781ca4e9b419daf38aac4375f7a22321b6579879566",
+        "localized_text": "En el sobreviraje, el vehículo tiende a pivotar sobre las ruedas delanteras y a dar un trompo"
+      },
+      {
+        "source": {
+          "number": 31436,
+          "quesito_id": 7024,
+          "text_it": "La deriva dei pneumatici è lo scostamento della traiettoria del pneumatico, rispetto a quella impostata del conducente",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d00f8f372e500c7b581d7f518eeaf856e236e8ace6290e74c4d8aca010da81cb",
+        "localized_text": "La deriva de los neumáticos es la desviación de su trayectoria respecto de la trazada por el conductor"
+      },
+      {
+        "source": {
+          "number": 31437,
+          "quesito_id": 7024,
+          "text_it": "Per correggere il sovrasterzo può essere opportuno sterzare in senso opposto a quello della curva",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2be5b4c26e44ab31ea210ed4e81799ac5ba2d59ddbe78a4d9419eac092b7ea2b",
+        "localized_text": "Para corregir el sobreviraje puede ser conveniente girar el volante en sentido contrario al de la curva"
+      },
+      {
+        "source": {
+          "number": 31438,
+          "quesito_id": 7024,
+          "text_it": "Per correggere il sovrasterzo può essere richiesta una momentanea sterzata verso l'esterno della curva",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7c7b051761b243e336c4a747a013f01f41b7297260ada3934807c2d898c9f205",
+        "localized_text": "Para corregir el sobreviraje puede ser necesario girar momentáneamente la dirección hacia el exterior de la curva"
+      },
+      {
+        "source": {
+          "number": 31439,
+          "quesito_id": 7024,
+          "text_it": "Per correggere il sovrasterzo di può essere opportuno accelerare senza agire sul volante",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6457335c0be65b40b3e8b26e085eff2f73cb96e57ae63ffcc815a8f121cf158c",
+        "localized_text": "Para corregir el sobreviraje puede convenir acelerar sin actuar sobre el volante"
+      },
+      {
+        "source": {
+          "number": 31440,
+          "quesito_id": 7024,
+          "text_it": "In caso di comportamento sovrasterzante del veicolo bisogna frenare a fondo",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cb26d97e798c91db289af86a96d64a57892b5e07ab2970b130e24cdf41730104",
+        "localized_text": "En caso de sobreviraje del vehículo hay que frenar a fondo"
+      },
+      {
+        "source": {
+          "number": 31441,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sovrasterzo di un veicolo a trazione posteriore si dovrà rilasciare l'acceleratore e agevolare la ripresa di direzionalità del veicolo",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "397d51133319e12779de648a60349232cd9e4dbbba2b461d4c6198c54a5702f9",
+        "localized_text": "Para corregir el sobreviraje de un vehículo de tracción trasera se debe soltar el acelerador y facilitar la recuperación de la dirección"
+      },
+      {
+        "source": {
+          "number": 31442,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sovrasterzo è necessario un momentaneo e rapido intervento del volante verso l'interno della curva",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c72b7c82b2103f5f2d489971324a9da4940ebdbb4781342586f156fcbc9a8992",
+        "localized_text": "Para corregir el sobreviraje es necesario girar momentánea y rápidamente el volante hacia el interior de la curva"
+      },
+      {
+        "source": {
+          "number": 31443,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sovrasterzo occorre applicare correttamente il controsterzo",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "75435e693bd56a43f94bc09de109db2a81ace48104203004fa405eff8c810087",
+        "localized_text": "Para corregir el sobreviraje hay que aplicar correctamente el contravolante"
+      },
+      {
+        "source": {
+          "number": 31444,
+          "quesito_id": 7025,
+          "text_it": "Quando il veicolo ha un comportamento sottosterzante tende a curvare più di quanto richiesto dal conducente",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ff4c7a5b110eb68c7d07a78bcc8379a2cf787f60fdb1c18e91bd56c362dfdfd1",
+        "localized_text": "Cuando un vehículo presenta subviraje tiende a girar más de lo que pide el conductor"
+      },
+      {
+        "source": {
+          "number": 31445,
+          "quesito_id": 7025,
+          "text_it": "Quando il veicolo ha un comportamento sottosterzante tende a curvare meno di quanto voluto dal conducente",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4be883d419e92c046fe4904f115241fffe09a6962342aa1c640c6f8536ebb876",
+        "localized_text": "Cuando un vehículo presenta subviraje tiende a girar menos de lo que desea el conductor"
+      },
+      {
+        "source": {
+          "number": 31446,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sottosterzo occorre un momentaneo intervento sul volante verso l'interno della curva",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "07ec008bebfd6cec0e5453c3f02e853ab02a99e65e56f93df118cd616bd275ab",
+        "localized_text": "Para corregir el subviraje hay que girar momentáneamente el volante hacia el interior de la curva"
+      },
+      {
+        "source": {
+          "number": 31447,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sottosterzo occorre intervenire sullo sterzo e sull'acceleratore per ridare la corretta direzionalità al veicolo",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9d6116069ceb8bbb468c68542d96aeb21da55c6ee7afa48c2df0b1970537badf",
+        "localized_text": "Para corregir el subviraje hay que actuar sobre la dirección y el acelerador para devolver al vehículo la dirección correcta"
+      },
+      {
+        "source": {
+          "number": 31448,
+          "quesito_id": 7025,
+          "text_it": "Per correggere il sottosterzo occorre frenare a fondo",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "55c1745639f604054af5b2e962800c308c3b0f3d7c705d254ed23abcbbd14659",
+        "localized_text": "Para corregir el subviraje hay que frenar a fondo"
+      }
+    ],
+    "task_sha256": "d0ebc035320403e69a290d50b2f34a200886a1f581f26f5575ab359dd1ecba3f"
+  },
+  "rows": [
+    {
+      "number": 31424,
+      "text": "Una mayor deriva delantera hace que el vehículo siga una curva más amplia de la prevista.",
+      "evidence": [
+        "https://africa.michelin.com/en/auto/assistance/glossary — understeer: front tire slip angles exceed rear"
+      ]
+    },
+    {
+      "number": 31425,
+      "text": "La fuerza lateral deforma el neumático y hace que su dirección de marcha difiera de su orientación.",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, 2nd ed., §2.8 printed p.87/PDF p.102 and §2.9 printed p.93/PDF p.108 — lateral contact-patch deflection during cornering; lateral force/slip relationship depends on compliance contributed by carcass and tread. Exact directly inspected local PDF /tmp/rotonda-dixon-tyres-handling.pdf SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed.",
+        "Toyota Technical Review vol.67 pp.74–76 https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol67_E.pdf — measured lateral tyre forces under slip and camber; local copy /tmp/rotonda-toyota-ttr67.pdf."
+      ]
+    },
+    {
+      "number": 31426,
+      "text": "La carga sobre los ejes afecta el comportamiento lateral de los neumáticos y, por tanto, su deriva; no son independientes.",
+      "evidence": [
+        "https://simulation.michelin.com/tametire — tire forces and cornering stiffness depend on vertical load and slip angle"
+      ]
+    },
+    {
+      "number": 31427,
+      "text": "La dirección asistida ayuda a girar; su presencia no implica una mayor deriva de los neumáticos.",
+      "evidence": [
+        "https://www.bosch-mobility.com/en/solutions/steering/electric-power-steering-systems/ — steering assistance; https://simulation.michelin.com/tametire — tire forces depend on operating conditions including load and slip angle"
+      ]
+    },
+    {
+      "number": 31428,
+      "text": "Si la deriva trasera supera la delantera, el vehículo gira más de lo previsto y tiende a cerrar la curva.",
+      "evidence": [
+        "https://middle-east.michelin.com/en/auto/assistance/glossary — oversteer: rear slip greater and turn sharper"
+      ]
+    },
+    {
+      "number": 31429,
+      "text": "Es el ángulo entre la dirección hacia la que apunta el neumático y aquella en la que realmente avanza.",
+      "evidence": [
+        "https://link.springer.com/article/10.1007/s11249-020-1273-5 — slip angle between tire plane and actual direction of travel"
+      ]
+    },
+    {
+      "number": 31430,
+      "text": "La presión modifica la rigidez lateral del neumático y puede afectar la tendencia al subviraje.",
+      "evidence": [
+        "https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/tirepressure-fmvss-138.pdf — pp. V-55–56, low pressure reduces cornering stiffness; https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/ESC_FR_03_2007_0.pdf — inflation can change handling balance"
+      ]
+    },
+    {
+      "number": 31431,
+      "text": "La carga modifica la respuesta lateral del neumático y puede cambiar su deriva en una curva.",
+      "evidence": [
+        "https://simulation.michelin.com/tametire — tire force and cornering stiffness depend on vertical load"
+      ]
+    },
+    {
+      "number": 31432,
+      "text": "En una curva, la fuerza lateral deforma el neumático, incluida la carcasa; esa flexibilidad contribuye a la deriva.",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, 2nd ed., §2.8 printed p.87/PDF p.102 and §2.9 printed p.93/PDF p.108 — lateral contact-patch deflection during cornering; lateral force/slip relationship depends on compliance contributed by carcass and tread. Exact directly inspected local PDF /tmp/rotonda-dixon-tyres-handling.pdf SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed.",
+        "Toyota Technical Review vol.67 pp.74–76 https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol67_E.pdf — measured lateral tyre forces under slip and camber; local copy /tmp/rotonda-toyota-ttr67.pdf."
+      ]
+    },
+    {
+      "number": 31433,
+      "text": "El cuestionario marca VERDADERO. La caída de la rueda modifica la deformación de la zona de contacto y la respuesta lateral del neumático, lo que influye en la curva. La expresión no demuestra necesariamente una rotura o colapso estructural del costado; su sentido preciso no está claro.",
+      "evidence": [
+        "Toyota Technical Review vol.67 pp.74–76, https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol67_E.pdf — measured and analysed lateral forces due to camber and contact deformation; exact local PDF /tmp/rotonda-toyota-ttr67.pdf SHA256 712ef98dfd31d591e9ed041a54d58952c972ef7b9c43116bb6e297e219618f6f. This does not establish sidewall rupture, structural collapse, or intended meaning of cedimento."
+      ]
+    },
+    {
+      "number": 31434,
+      "text": "El subviraje hace que el vehículo gire menos de lo previsto; en el sobreviraje la parte trasera tiende a desplazarse hacia afuera.",
+      "evidence": [
+        "https://middle-east.michelin.com/en/auto/assistance/glossary — oversteer turns more sharply and rear swings outward; https://africa.michelin.com/en/auto/assistance/glossary — understeer"
+      ]
+    },
+    {
+      "number": 31435,
+      "text": "Si los neumáticos traseros derivan más que los delanteros, la cola tiende a deslizarse hacia afuera; en casos extremos puede producirse un trompo.",
+      "evidence": [
+        "https://thetiredigest.michelin.com/performance-handling — oversteer: greater rear slip and possible spin"
+      ]
+    },
+    {
+      "number": 31436,
+      "text": "El neumático no avanza exactamente hacia donde apunta: la fuerza lateral lo deforma y produce esa diferencia.",
+      "evidence": [
+        "https://thetiredigest.michelin.com/performance-handling — wheel direction, path and tread deformation"
+      ]
+    },
+    {
+      "number": 31437,
+      "text": "Si la parte trasera se desliza hacia afuera, el contravolante orienta las ruedas hacia la trayectoria deseada para ayudar a recuperar el control.",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4: rear skid, steer toward intended path"
+      ]
+    },
+    {
+      "number": 31438,
+      "text": "Girar momentáneamente hacia afuera es aplicar contravolante: ayuda a orientar las ruedas hacia la trayectoria deseada mientras la parte trasera se desliza.",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4: steer toward intended path during rear skid"
+      ]
+    },
+    {
+      "number": 31439,
+      "text": "Acelerar sin corregir la dirección no es una regla de recuperación: orienta las ruedas hacia la trayectoria deseada y modula el acelerador según la situación.",
+      "evidence": [
+        "https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/Driver-Training-Update-1850-21115.pdf — p. 5, steering and throttle vary with skid conditions"
+      ]
+    },
+    {
+      "number": 31440,
+      "text": "Frenar bruscamente puede agravar la pérdida de adherencia trasera; corrige la dirección suavemente.",
+      "evidence": [
+        "https://post.ca.gov/portals/0/post_docs/publications/driver_training.pdf — pp. 91–92, avoid braking in oversteer"
+      ]
+    },
+    {
+      "number": 31441,
+      "text": "Si el exceso de aceleración hace patinar las ruedas motrices traseras, aflojar el acelerador ayuda a recuperar adherencia y control direccional.",
+      "evidence": [
+        "https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/Driver-Training-Update-1850-21115.pdf — p. 5, ease off throttle for over-acceleration skid and steer toward intended path"
+      ]
+    },
+    {
+      "number": 31442,
+      "text": "En el sobreviraje la parte trasera se desplaza hacia afuera: aplica contravolante hacia la trayectoria deseada en vez de girar más hacia el interior.",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4, rear skid recovery"
+      ]
+    },
+    {
+      "number": 31443,
+      "text": "El contravolante orienta las ruedas hacia la trayectoria deseada mientras la parte trasera se desliza; ajústalo al recuperar adherencia.",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4, rear skid and countersteering"
+      ]
+    },
+    {
+      "number": 31444,
+      "text": "En el subviraje el vehículo sigue una curva más amplia, no más cerrada, de lo que pretende el conductor.",
+      "evidence": [
+        "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100WWVP.TXT — understeer is a larger turning radius than steering angle suggests"
+      ]
+    },
+    {
+      "number": 31445,
+      "text": "En el subviraje la trayectoria se abre respecto a lo indicado por el volante: el vehículo gira menos de lo previsto.",
+      "evidence": [
+        "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100WWVP.TXT — understeer means a larger radius than expected"
+      ]
+    },
+    {
+      "number": 31446,
+      "text": "El cuestionario marca VERDADERO, pero no precisa la situación. En subviraje estable, mientras las ruedas delanteras conservan adherencia, puede hacer falta más ángulo de dirección para seguir la curva. Si ya están derrapando, no aumentes el giro: reduce suavemente la velocidad y el ángulo de dirección para recuperar adherencia.",
+      "evidence": [
+        "Chalmers Vehicle Dynamics Compendium §4.3.3 PDF pp.247–249 https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — steady-state understeer gradient describes additional steering relative to reference; exact local copy /tmp/rotonda-chalmers-dynamics-compendium.pdf inspected. This is a possible interpretation, not verified quiz intent.",
+        "California POST Driver Training Instructor Manual printed pp.92,160 https://post.ca.gov/portals/0/post_docs/publications/driver_training.pdf — front-wheel skid understeer and recovery: avoid adding steering, reduce input and speed appropriately. Technical driving guidance; not universal legal instruction."
+      ]
+    },
+    {
+      "number": 31447,
+      "text": "Para recuperar el control direccional, coordina dirección y acelerador: afloja el acelerador y orienta las ruedas hacia la trayectoria deseada sin girar en exceso.",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4, front skid: ease throttle and steer toward intended path without excess"
+      ]
+    },
+    {
+      "number": 31448,
+      "text": "Frenar a fondo no es la corrección indicada: recupera adherencia y control direccional con mandos progresivos.",
+      "evidence": [
+        "https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf — fact sheet 10.4, front skid recovery uses smooth inputs"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "d0ebc035320403e69a290d50b2f34a200886a1f581f26f5575ab359dd1ecba3f",
+    "output_sha256": "f7659bd400940295b4e24d719cbbf2ca7eeee226eeb1e06fc70e207babbf3c19",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31424,
+      31425,
+      31426,
+      31427,
+      31428,
+      31429,
+      31430,
+      31431,
+      31432,
+      31433,
+      31434,
+      31435,
+      31436,
+      31437,
+      31438,
+      31439,
+      31440,
+      31441,
+      31442,
+      31443,
+      31444,
+      31445,
+      31446,
+      31447,
+      31448
+    ],
+    "issues": [],
+    "review_evidence": "Independently reviewed all 25 Italian source/verdict pairs and four language texts; no figures. Dixon exact local PDF SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed printed pp87,93: lateral tyre/contact deflection and carcass/tread compliance; Toyota Technical Review measured camber response and 31433 caveat. Michelin TameTire/glossary, NHTSA tyre-pressure discussion, California POST driver manual and Vermont recovery guidance inspected. 31446 differentiates steady understeer from sliding front tyres; no invented universal steering response.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb8a-2a10-72a1-9f97-44a14379b44d",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "9bd2f2125ab000b451bd4b0c6d5a23106f24ab9e2cbb7c338abae3d8b07bab34",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb8a-2a10-72a1-9f97-44a14379b44d",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31433,
+              "reason": "La fonte tecnica verificata collega campanatura, deformazione dell’impronta e forza laterale, ma non stabilisce che la campanatura favorisca il cedimento dei fianchi come afferma il quesito; occorre chiarire il significato tecnico di cedimento e verificare la proposizione completa.",
+              "checked_sources": [
+                "Toyota Technical Review vol. 67, pp. 74–75, https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol67_E.pdf: la campanatura deforma l’impronta e genera forza laterale, senza stabilire il cedimento dei fianchi."
+              ]
+            },
+            {
+              "number": 31446,
+              "reason": "Il verdetto VERO richiede una sterzata verso l’interno per correggere il sottosterzo senza distinguere il caso di perdita di aderenza; la fonte di addestramento avverte che aggiungere sterzo in tale condizione peggiora lo scivolamento e prescrive di ridurlo. Non è chiaro quale condizione il quesito sottintenda.",
+              "checked_sources": [
+                "California Commission on POST, Driver Training Instructor Manual, p. 92, https://post.ca.gov/portals/0/post_docs/publications/driver_training.pdf: nel sottosterzo con perdita di aderenza evitare ulteriore sterzata e allentare parte dello sterzo.",
+                "Vermont driver education, Unit 10, fact sheet 10.4, https://bsdweb.bsdvt.org/driver_ed/Printable_Materials/012%20-%20Unit%2010%20Adverse%20Driving%20Conditions%20and%20Emergencies.pdf: dirigere verso la traiettoria desiderata senza sterzare più del necessario."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "9bd2f2125ab000b451bd4b0c6d5a23106f24ab9e2cbb7c338abae3d8b07bab34",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "d0ebc035320403e69a290d50b2f34a200886a1f581f26f5575ab359dd1ecba3f",
+        "output_sha256": "294a92f118885f2afb567b7207a9911103072067d290966c158aed0e7b4693ad",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / camber-understeer-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31424,
+          31425,
+          31426,
+          31427,
+          31428,
+          31429,
+          31430,
+          31431,
+          31432,
+          31433,
+          31434,
+          31435,
+          31436,
+          31437,
+          31438,
+          31439,
+          31440,
+          31441,
+          31442,
+          31443,
+          31444,
+          31445,
+          31446,
+          31447,
+          31448
+        ],
+        "issues": [
+          {
+            "number": 31425,
+            "reason": "Sole NHTSA source https://www.nhtsa.gov/staticfiles/safercar/pdf/PneumaticTire_HS-810-561.pdf redirects to an NHTSA page stating file does not exist; provide an accessible directly inspected technical source supporting lateral force and deformation/slip."
+          },
+          {
+            "number": 31432,
+            "reason": "The same sole NHTSA source redirects to a file-not-found page. Replace with a directly inspected source supporting carcass deformation and slip; tire tread deformation alone does not establish the specific carcass claim."
+          }
+        ],
+        "source_access_notes": [
+          "Independently inspected local Toyota TTR PDF pp.76–78 and Chalmers Vehicle Dynamics PDF pp.247–249, Michelin tire and technical model pages, California POST manual pp.92–93, and ADTSEA Fact Sheet 10.4. 31433 avoids unverified structural failure and 31446 distinguishes steady-state steering from front-wheel skid; neither assumes official intended interpretation. Michelin Tire Digest has an internally inconsistent understeer-angle sentence; reviewed understeer definition against separate Michelin glossary and Chalmers, not that sentence."
+        ]
+      }
+    ]
+  }
+}

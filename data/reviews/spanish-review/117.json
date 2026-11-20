@@ -1,0 +1,43 @@
+{
+  "batch": "117",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "79ec546b539bbfc421afa4890bd525626ca42d0d1f9fe2acf5092e6a95254e1e",
+  "source_sha256": "802d4106746c8597661588565394da7748042657700dad847c7908f904ba5150",
+  "corrections": [
+    {
+      "id": "9ba7f27a7018f71d4ec185e3f703d8e54e17dc73f0452746f8aeb9e6c44b1b5f",
+      "before": "Para realizar un servicio ocasional de pasajeros de circuito cerrado entre Italia y la Confederación Suiza es necesario llevar a bordo del autobús la copia conforme de la autorización comunitaria y la copia conforme de la licencia comunitaria",
+      "after": "Para realizar un servicio ocasional de pasajeros de puertas cerradas entre Italia y la Confederación Suiza es necesario llevar a bordo del autobús la copia conforme de la autorización comunitaria y la copia conforme de la licencia comunitaria",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    },
+    {
+      "id": "9be11d420ebb5ddd24fc2af5ac61abf715df41124ac306320c1e0843d17442af",
+      "before": "La función «out of scope» del tacógrafo digital debe usarse cuando el vehículo se utiliza en actividades excluidas del Reglamento 561/2006/CE",
+      "after": "La función «out of scope» (desactivación del tacógrafo digital) debe usarse cuando el vehículo se utiliza en actividades excluidas del Reglamento 561/2006/CE",
+      "reason": "Se restituye la explicación entre paréntesis sobre la desactivación del tacógrafo."
+    },
+    {
+      "id": "9c369c8d9ed61e0518ee74f64fcf33aa69760217956e39acb888ec18133c22b9",
+      "before": "Al evaluar sus habilidades o una situación vial, el conductor puede incurrir en sesgos sociocognitivos como el optimismo irrealista, la ilusión de control y la relación entre riesgo real y percibido",
+      "after": "Al evaluar sus habilidades o una situación vial, el conductor puede incurrir en sesgos sociocognitivos como el optimismo irrealista, la ilusión de control, el riesgo real y el riesgo percibido",
+      "reason": "El original enumera riesgo real y riesgo percibido; no su relación."
+    },
+    {
+      "id": "9ca2bdc16dd3a48d6a356ecdcbde1be7930216c8c9a4b0011e74c27c5b5635d3",
+      "before": "Si se producen daños a personas, material u otras mercancías, o gastos causados por embalaje imperfecto o sujeción defectuosa o inadecuada, la responsabilidad siempre es del transportista hasta regresar a la sede, incluso con el vehículo vacío",
+      "after": "Si se producen daños a personas, material u otras mercancías, o gastos causados por embalaje imperfecto o sujeción defectuosa o inadecuada en el vehículo, la responsabilidad siempre es del transportista hasta regresar a la sede, incluso con el vehículo vacío",
+      "reason": "Se recupera que la sujeción defectuosa es en el vehículo."
+    }
+  ],
+  "reviewed_file_sha256": "5ac2727ba1dde4e41f0378d5a72bfb184bfc7724f25c133a1e4af1e0762680f9"
+}

@@ -1,0 +1,31 @@
+{
+  "batch": "145",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "d8bcd2a1940644e1709b693e1af0db1be9cf95ddec993b62df622221610ef2ee",
+  "source_sha256": "a0f3ccbcee0df0b9188f0fecc56b08740d98dc71b992bff097fc380ecd4328bc",
+  "corrections": [
+    {
+      "id": "bfbef188642a487894a5e653e2d0b90c9b2393c136c993085a74c2e44e305ead",
+      "before": "El transporte ferroviario consume menos energía que el transporte por carretera",
+      "after": "El transporte ferroviario es menos costoso en términos energéticos que el transporte por carretera",
+      "reason": "Conserva la comparación de costos en términos energéticos del original."
+    },
+    {
+      "id": "c097f4e040a06faaccad247f48622b7b524454e58186534790e2c42d7ca999b1",
+      "before": "Durante la detención, el conductor debe estar siempre presente y listo para reanudar la marcha",
+      "after": "Durante la parada, el conductor debe estar siempre presente y listo para reanudar la marcha",
+      "reason": "Fermata es parada temporal, diferenciada de arresto o detención."
+    }
+  ],
+  "reviewed_file_sha256": "8ec0aa9a4d0786e0aa4f0006ae135510bdb3f61961a993c57b63dc5d5f5f56e9"
+}

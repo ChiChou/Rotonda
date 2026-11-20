@@ -1,0 +1,43 @@
+{
+  "batch": "017",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "caa65647e8948a0ac5c717f02c0f854ace7f70f0f38fba4147ab6155c63a56ee",
+  "source_sha256": "1ff404162a0c98df6e57e65aff997b4a4ba828d325709268baee5831ab04a326",
+  "corrections": [
+    {
+      "id": "174f6caeb852bb0b84614f1540a6c0b617ce50533dc2bd4a38b794aba320ab71",
+      "before": "Para transportar productos alimenticios es obligatorio en todos los casos utilizar vehículos que cumplan las normas ATP para el transporte internacional de alimentos perecederos",
+      "after": "Para transportar productos alimenticios es obligatorio en todos los casos utilizar vehículos que cumplan las normas ATP (acuerdo internacional para el transporte de productos perecederos)",
+      "reason": "Restituye la descripción del acuerdo ATP sin convertirla en un requisito adicional de transporte internacional."
+    },
+    {
+      "id": "1777bb3346aa3e5fed579766802e530077fb314d1e790f4bc67eb33d8f142e4e",
+      "before": "Durante la señalización anticipada con la señal móvil de peligro, el conductor no debe usar el chaleco de alta visibilidad si está en carriles de emergencia o áreas de parada",
+      "after": "Durante la señalización anticipada con la señal móvil de peligro, el conductor no debe usar el chaleco de alta visibilidad si está en carriles de emergencia o apartaderos",
+      "reason": "Piazzole di sosta son apartaderos, no paradas genéricas."
+    },
+    {
+      "id": "17a3cd07a2104a880c9d79844509e49f97668434f6496a67b8144042513f176d",
+      "before": "En Italia, el transporte ocasional de pasajeros por carretera hacia Estados fuera de la UE se rige por acuerdos internacionales bilaterales y multilaterales",
+      "after": "En Italia, el transporte ocasional de pasajeros por carretera en Estados fuera de la UE se rige por acuerdos internacionales bilaterales y multilaterales",
+      "reason": "El original se refiere a servicios en esos Estados, sin especificar que sean hacia ellos."
+    },
+    {
+      "id": "17e29e826c0016bb57670d5b6309936a75e2338da32172b01e018e5ad32c1959",
+      "before": "La instalación del ABS es obligatoria en los vehículos ADR según el año de matriculación, la masa total y la modalidad de transporte",
+      "after": "La instalación del sistema de frenos ABS es obligatoria en los vehículos ADR según el año de matriculación, la masa total y la modalidad de transporte",
+      "reason": "Restituye la referencia al sistema de frenos presente en el original."
+    }
+  ],
+  "reviewed_file_sha256": "9db930b5ff81a7aa2f809db1d5e442173c84b608953f33fd5c0f812ef73bc7cc"
+}

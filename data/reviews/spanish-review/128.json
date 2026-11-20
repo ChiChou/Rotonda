@@ -1,0 +1,31 @@
+{
+  "batch": "128",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "7a5c6dbf3ec70f4445cb0b78d5096c270bb2bc18e343078109bc847e0046eada",
+  "source_sha256": "725e395a11241446f1574cb57754ca6162df493e4241e04d63632287d39ea762",
+  "corrections": [
+    {
+      "id": "aa8ea6f07d6166187a8dcbd0448548232b7cf410ac402bb21f390a71b7cf27ad",
+      "before": "Cruzar un paso a nivel sin respetar todas las normas puede poner en peligro a muchas personas que viajan en un tren",
+      "after": "Cruzar un paso a nivel sin respetar todas las normas puede poner en peligro a muchas personas que viajan en un tren que circula",
+      "reason": "Restores 'in transito' (train passing through) omitted from the source"
+    },
+    {
+      "id": "aafc75e9e5d4ab268f8513bfcc1661ecf9980423bacf72010275f59cbbd54b05",
+      "before": "02##tipología2 CQC",
+      "after": "02##tipologia2 CQC",
+      "reason": "Se conserva el marcador estructural 02##tipologia2."
+    }
+  ],
+  "reviewed_file_sha256": "66917cdb5a6cac3ce56086422787186bb4a54cdc538d17eaa40822d5cb2c35f9"
+}

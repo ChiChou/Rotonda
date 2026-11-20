@@ -1,0 +1,558 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee52-c4c7-7c93-9242-f634453140eb"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "cqc_nuovo",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 35674,
+          "quesito_id": 7320,
+          "text_it": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori senza cinture di sicurezza",
+          "answer": 0,
+          "page": 150,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "44e2021f19066d49ad710ff15db4626e3e010d506a8caa871746d7ecd721753a",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/a50578a7075ac87bd128851c77e79677daed23f97ec05e11c14dc5f4da2d3027",
+            "candidate": null,
+            "blockers": {
+              "35671": "Non verificata una fonte primaria che confermi collocazione posteriore e caratteristiche del segnale sul veicolo.",
+              "35674": "Il verdetto ufficiale non chiarisce le condizioni di omologazione e di eventuale assenza delle cinture per i posti accompagnatori."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori",
+          "text": "Non è vero che i sedili per accompagnatori siano vietati: lo scuolabus può esserne dotato e in certi servizi è necessario prevederli.",
+          "evidence": [
+            "Circolare Ministero dei trasporti 11 marzo 1997 n. 23, utilizzo e immatricolazione, sedili e trasporto scolastico: https://www.edscuola.it/archivio/norme/circolari/cmt023_97.htm"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35796,
+          "quesito_id": 7327,
+          "text_it": "Le persone con disabilità su carrozzella salgono e scendono dall'autobus tramite il sollevatore che può essere smontato se non serve",
+          "answer": 0,
+          "page": 154,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "116f1089604a46d11f85c113e8ce169ea9fff34012889919ddcacb6e1a08e933",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/35a3b9d1cfef73c907d2713632888da9094acd0fbd719a9c043effd2dad694e8",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 35796,
+                "reason": "Non verificata una fonte primaria che distingua la rimozione del sollevatore installato dai dispositivi eventualmente progettati per essere rimossi."
+              },
+              {
+                "number": 35801,
+                "reason": "Non verificata una fonte primaria per entrambe le modalità di azionamento, elettrica e idraulica, dei sollevatori per autobus."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Le persone con disabilità su carrozzella salgono e scendono dall'autobus tramite il tachigrafo digitale",
+          "text": "Il tachigrafo registra dati relativi alla guida: non serve a salire sull’autobus. Per l’accesso si usano, secondo il veicolo, rampe o sollevatori.",
+          "evidence": [
+            "Regolamento UE n. 181/2011, https://eur-lex.europa.eu/legal-content/it/ALL/?uri=CELEX%3A32011R0181, allegato I, assistenza alla salita mediante elevatori o altre attrezzature"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35830,
+          "quesito_id": 7329,
+          "text_it": "Gli alunni tendono a non utilizzare gli appositi sostegni presenti sull'autobus",
+          "answer": 1,
+          "page": 155,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "60831f2d006abe8a3b839666d89c8a0563483e4e3566541ac9d5687491b1a5d1",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/a4a833bb7c64cdbf30ec0444f8cc60d04e7a3135ec596638cf151bf262066fb2",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 35830,
+                "reason": "Non è stata individuata una fonte primaria che dimostri la tendenza generale attribuita agli alunni."
+              },
+              {
+                "number": 35831,
+                "reason": "Non è stata individuata una fonte primaria che quantifichi quanti scuolabus siano privi di cinture."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 35831,
+          "quesito_id": 7329,
+          "text_it": "Molti scuolabus sono privi di sistemi di ritenuta (cinture di sicurezza)",
+          "answer": 1,
+          "page": 155,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7643293503577fbc8bd5330ea47d38dadb123704a63d458791b6520dcd83c8de",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/a4a833bb7c64cdbf30ec0444f8cc60d04e7a3135ec596638cf151bf262066fb2",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 35830,
+                "reason": "Non è stata individuata una fonte primaria che dimostri la tendenza generale attribuita agli alunni."
+              },
+              {
+                "number": 35831,
+                "reason": "Non è stata individuata una fonte primaria che quantifichi quanti scuolabus siano privi di cinture."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 35854,
+          "quesito_id": 7333,
+          "text_it": "L'organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali le società per azioni",
+          "answer": 1,
+          "page": 156,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4a09bb764ffcb4cdb0de1bdb9e9d7a4a901c6686558896d1391077675ad213c6",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f960c05013db594ab5ff401ebe1933684eb121621fd3fbbe9df53766ca6ff54a",
+            "candidate": {
+              "number": 35854,
+              "text": "I servizi di linea possono richiedere una struttura articolata, con più veicoli e addetti; una società per azioni è una delle forme organizzative possibili. Il quiz descrive una tendenza, non un obbligo.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L'organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di persone",
+          "text": "Nel modello del quiz, una società di persone è una possibile struttura per il noleggio con conducente. La forma indicata non è obbligatoria per tutte le imprese del settore.",
+          "evidence": [
+            "Questionario ufficiale CQC, quesiti 7333-7334, pp. 156-157: modello organizzativo e rispettivi verdetti del quiz; le qualificazioni sulla tipicità non sono divieti"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 35855,
+          "quesito_id": 7333,
+          "text_it": "L'organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali l'impresa familiare",
+          "answer": 1,
+          "page": 156,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c53284dc4cf40e054daa63d76cf3020431e199428f3311068605f28e9fe19652",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f960c05013db594ab5ff401ebe1933684eb121621fd3fbbe9df53766ca6ff54a",
+            "candidate": {
+              "number": 35855,
+              "text": "Il noleggio con conducente può essere svolto anche da una struttura familiare di piccole dimensioni. È un esempio di organizzazione, non una forma obbligatoria per ogni impresa.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/4aba75b6917539fa571dd499bb885daf87c1d0fbb773c2059ee579417e35ae22",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 35597,
+                  "reason": "Non verificata una fonte primaria specifica sulla dotazione di barelle."
+                },
+                {
+                  "number": 35601,
+                  "reason": "Non verificata una fonte primaria specifica sulla sponda montacarichi posteriore."
+                },
+                {
+                  "number": 35608,
+                  "reason": "Non verificata una fonte primaria sulla disposizione abituale delle quattro porte."
+                },
+                {
+                  "number": 35674,
+                  "reason": "Non verificato il rapporto fra sedili per accompagnatori e assenza di cinture, tenendo conto delle diverse omologazioni."
+                },
+                {
+                  "number": 35796,
+                  "reason": "Non verificata la regola specifica sulla rimozione del sollevatore."
+                },
+                {
+                  "number": 35830,
+                  "reason": "Non verificata una fonte primaria sulla frequenza del comportamento degli alunni."
+                },
+                {
+                  "number": 35831,
+                  "reason": "Non verificata una fonte primaria sulla diffusione degli scuolabus privi di cinture."
+                },
+                {
+                  "number": 35854,
+                  "reason": "Non verificata una fonte primaria sulla frequenza della forma societaria nei servizi di linea."
+                },
+                {
+                  "number": 35855,
+                  "reason": "Non verificata una fonte primaria sulla frequenza dell’impresa familiare nel noleggio con conducente."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L'organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di persone",
+          "text": "Nel modello del quiz, una società di persone è una possibile struttura per il noleggio con conducente. La forma indicata non è obbligatoria per tutte le imprese del settore.",
+          "evidence": [
+            "Questionario ufficiale CQC, quesiti 7333-7334, pp. 156-157: modello organizzativo e rispettivi verdetti del quiz; le qualificazioni sulla tipicità non sono divieti"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 36204,
+          "quesito_id": 7372,
+          "text_it": "I servizi occasionali effettuati da un'impresa svizzera tra la Francia e l'Italia, sono vietati",
+          "answer": 0,
+          "page": 170,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8142a1aaf5edc6d8ace369517f127dca6a471e3ec4c8e033f6a04daaa45d570a",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ee9f0368b3203d4d20fc7cf120a7ddf6e2941c535cbfe5299b0464db03b1ae1c",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 36193,
+                  "reason": "Non verificati i documenti specifici per il servizio Italia-Svizzera; la fonte e una fonte sostitutiva non erano accessibili."
+                },
+                {
+                  "number": 36203,
+                  "reason": "Non verificati i documenti specifici per il servizio Italia-Svizzera; la fonte e una fonte sostitutiva non erano accessibili."
+                },
+                {
+                  "number": 36204,
+                  "reason": "Il divieto generale di cabotaggio UE-Svizzera appare in tensione con il verdetto; non verificata una pertinente eccezione bilaterale."
+                }
+              ]
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/90d3483a513fcfb05685c5756e18c1ed7698da8addce4af087b337b0a40d0769",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 36204,
+                  "reason": "Non verificata una fonte primaria che consenta il trasporto occasionale di un vettore svizzero tra Francia e Italia; il regime UE-Svizzera e gli eventuali accordi bilaterali richiedono verifica specifica."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "I servizi occasionali effettuati da un'impresa francese tra Spagna e Italia sono vietati",
+          "text": "Non sono vietati per il solo fatto che il vettore sia francese: il regime UE consente ai vettori abilitati di svolgere trasporti internazionali fra Stati membri senza discriminazione per luogo di stabilimento.",
+          "evidence": [
+            "Regolamento (CE) 1073/2009, artt. 1 e 3, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32009R1073, accesso ai servizi internazionali alle condizioni previste"
+          ]
+        }
+      }
+    ],
+    "task_sha256": "71b5c56f9b72d1cace4d670e3287a40ef618c9e1d5fe43af037592cdc67f1357",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage. Do not confuse absent external citations with genuine uncertainty: stable terminology and ordinary business/physical reasoning may use evidence explicitly labelled Ragionamento didattico, without claiming external verification. Verify uncertain medical, legal, numerical and statistical assertions. For qualitative exam-context statements, explain the mechanism and limitations rather than demanding an exact current statistical frequency. Distinguish an illustrative configuration from a universal mechanical law. Where the printed answer is overbroad, qualify it visibly and explain the supported distinction; do not invent opposite absolutes. For the customs fiscal-origin item, the inspected original state-archive record https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=521942&TipoPag=comparc describes historical dazi as indirect taxes and receipts paid to the fiscal chamber; this supports explaining historical revenue function without inventing a first-origin date. For market liberalization and own-account distinctions use Commission COM2014/222 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52014DC0222 sections2.1 and2.3; preserve its2014 timeframe, do not extrapolate to every current transport."
+  },
+  "rows": [
+    {
+      "number": 35796,
+      "text": "Il sollevatore facilita la salita e la discesa della persona in carrozzella, ma non si può smontare liberamente solo perché in quel momento non serve: il dispositivo fa parte dell'allestimento omologato del veicolo. L'eventuale rimozione va valutata in base alle caratteristiche e all'omologazione specifiche.",
+      "evidence": [
+        "Senato della Repubblica, risposta all'interrogazione 4-07563, https://www.senato.it/show-doc?id=1047619&leg=17&tipodoc=Sindispr: piattaforme, elevatori e rampe appartengono al veicolo e sono omologati con esso"
+      ]
+    },
+    {
+      "number": 35830,
+      "text": "Il quiz segnala un comportamento da prevenire: se un alunno non si tiene agli appositi sostegni, una frenata o una curva può fargli perdere l'equilibrio. È una cautela educativa, non una descrizione valida per ogni alunno.",
+      "evidence": [
+        "Ragionamento didattico: i sostegni aiutano a mantenere l'equilibrio quando il veicolo cambia velocità o direzione; il comportamento individuale varia"
+      ]
+    },
+    {
+      "number": 35831,
+      "text": "Il quiz richiama la presenza di scuolabus anche privi di cinture, in particolare tra i veicoli più datati; ‘molti’ non indica una quantità verificata oggi. Quando le cinture sono presenti, devono essere utilizzate secondo le regole applicabili.",
+      "evidence": [
+        "Codice della strada, art. 172, https://aci.gov.it/codice-della-strada/art-172/: disciplina l'uso delle cinture per i veicoli che ne sono muniti; il quesito ufficiale non quantifica la diffusione attuale"
+      ]
+    },
+    {
+      "number": 35854,
+      "text": "Nel modello del quiz, i servizi di linea sono spesso associati a strutture aziendali articolate, come una società per azioni, capaci di organizzare veicoli, personale e corse. È un esempio di organizzazione, non una forma obbligatoria per tutte le imprese.",
+      "evidence": [
+        "Ragionamento didattico: una rete di corse richiede coordinamento di mezzi e addetti; la forma societaria indicata è un esempio del modello proposto dal questionario ufficiale CQC, quesito 7333, p. 156"
+      ]
+    },
+    {
+      "number": 35855,
+      "text": "Nel modello del quiz, il noleggio con conducente può essere organizzato anche come impresa familiare, con familiari che collaborano all'attività. È un esempio di struttura, non una forma obbligatoria per tutte le imprese del settore.",
+      "evidence": [
+        "Ragionamento didattico: la collaborazione familiare è una possibile modalità organizzativa; il questionario ufficiale CQC, quesito 7333, p. 156, la propone come esempio per il noleggio"
+      ]
+    }
+  ],
+  "output_sha256": "2e3a2de58fdbdc8433b5b40e8fbb7e9f96f2a67838f16754dc5d4531af93d4af"
+}

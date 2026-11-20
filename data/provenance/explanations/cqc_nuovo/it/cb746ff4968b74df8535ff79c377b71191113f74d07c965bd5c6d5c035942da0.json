@@ -1,0 +1,2383 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee52-c4c5-7423-a21a-8c069d4b6988"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "cqc_nuovo",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 32264,
+          "quesito_id": 7079,
+          "text_it": "Nel settore dell'autotrasporto sono frequenti i sequestri dei viaggiatori",
+          "answer": 0,
+          "page": 40,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "70aa28e401b2dc15b62b918a8c174e5f870e302b2246d27c211923306f30449f",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/336cfb0eaa8096afc5b597e4a8ef35a10abf180c4cb9bec13ed1aa162602816c",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32264,
+                "reason": "Non è stata individuata una fonte primaria che sostenga il confronto sulla frequenza dei sequestri di viaggiatori nel settore."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/6ff1caa343ce19a44338414aadf4872a32480e6a93fd3a7433059025e7359bd3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 32264,
+                  "reason": "Non è stata reperita una fonte primaria che consenta di verificare la frequenza dei sequestri di viaggiatori nel settore; il verdetto ufficiale non basta a quantificarla."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 32335,
+          "quesito_id": 7087,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve assentarsi dal lavoro se è direttamente coinvolto",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "21cf3e380daa1d53659bc6d8e1bb28bb718307d92aab1b11ba390510988a51f0",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/75e543d95e69bd087dd0a932611b4232c3580294e591a60c8032237c94020f70",
+            "candidate": {
+              "number": 32335,
+              "text": "Un disaccordo sul prezzo non obbliga il conducente ad assentarsi dal lavoro. La questione commerciale va riferita all'impresa, che la gestisce con il cliente.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32398,
+                "reason": "Non reperita una fonte primaria che colleghi direttamente il sovraccarico anteriore alla maggiore durezza dello sterzo."
+              },
+              {
+                "number": 32552,
+                "reason": "La formulazione non distingue i diversi impianti: non verificata una fonte primaria per un livello di olio del servofreno universalmente applicabile."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi direttamente acqua nel serbatoio e rapido movimento della lancetta."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": {
+              "number": 32335,
+              "text": "Il disaccordo sul prezzo non impone al conducente di assentarsi: la questione commerciale riguarda il vettore e il cliente.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 32336,
+          "quesito_id": 7087,
+          "text_it": "Al conducente di un'impresa di autotrasporto viene richiesto l'obbligo di stipulare un'assicurazione sulla vita",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "54b08aa839948397f44338747bc47fdb089b7177801d46c915a0cfb6a7359257",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/75e543d95e69bd087dd0a932611b4232c3580294e591a60c8032237c94020f70",
+            "candidate": {
+              "number": 32336,
+              "text": "Non esiste un obbligo generale per il conducente di stipulare un'assicurazione sulla vita personale.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32398,
+                "reason": "Non reperita una fonte primaria che colleghi direttamente il sovraccarico anteriore alla maggiore durezza dello sterzo."
+              },
+              {
+                "number": 32552,
+                "reason": "La formulazione non distingue i diversi impianti: non verificata una fonte primaria per un livello di olio del servofreno universalmente applicabile."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi direttamente acqua nel serbatoio e rapido movimento della lancetta."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 32341,
+          "quesito_id": 7087,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente deve intervenire e prendere contatti direttamente con il cliente se il problema riguarda un trasporto da lui effettuato",
+          "answer": 0,
+          "page": 42,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bafca24bcfe7afaf634e24a20428a350608c893ab4b745e885eb6cadaba4e131",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/75e543d95e69bd087dd0a932611b4232c3580294e591a60c8032237c94020f70",
+            "candidate": {
+              "number": 32341,
+              "text": "Aver effettuato il trasporto non obbliga il conducente a trattare direttamente il prezzo con il cliente: la controversia compete al vettore. Può intervenire se incaricato dall'impresa.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32398,
+                "reason": "Non reperita una fonte primaria che colleghi direttamente il sovraccarico anteriore alla maggiore durezza dello sterzo."
+              },
+              {
+                "number": 32552,
+                "reason": "La formulazione non distingue i diversi impianti: non verificata una fonte primaria per un livello di olio del servofreno universalmente applicabile."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi direttamente acqua nel serbatoio e rapido movimento della lancetta."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": {
+              "number": 32341,
+              "text": "Aver effettuato il trasporto non obbliga il conducente a trattare direttamente la controversia sul prezzo: la questione riguarda il vettore e il cliente, salvo specifico incarico.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 32346,
+          "quesito_id": 7088,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente non deve intervenire perché non è parte in causa",
+          "answer": 1,
+          "page": 43,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "60ba9591acdfca7853bf0154463f9e6a080f916c48d966a45b918059ffad73a5",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/75e543d95e69bd087dd0a932611b4232c3580294e591a60c8032237c94020f70",
+            "candidate": {
+              "number": 32346,
+              "text": "La controversia sul prezzo riguarda il vettore e il cliente: il conducente normalmente la riferisce all'impresa e non la tratta di propria iniziativa. Può intervenire se incaricato.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32398,
+                "reason": "Non reperita una fonte primaria che colleghi direttamente il sovraccarico anteriore alla maggiore durezza dello sterzo."
+              },
+              {
+                "number": 32552,
+                "reason": "La formulazione non distingue i diversi impianti: non verificata una fonte primaria per un livello di olio del servofreno universalmente applicabile."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi direttamente acqua nel serbatoio e rapido movimento della lancetta."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": {
+              "number": 32346,
+              "text": "La controversia sul prezzo riguarda il vettore e il cliente; il conducente normalmente non la tratta di propria iniziativa. Può comunque riferire i fatti o intervenire se incaricato.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 32347,
+          "quesito_id": 7088,
+          "text_it": "In caso di disaccordo tra il vettore e il cliente per questioni inerenti al prezzo di trasporto, il conducente può intervenire se ritiene che il cliente abbia ragione",
+          "answer": 0,
+          "page": 43,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8664c4ecb373b444825aa83705f3d59ab9bee039a12e443b34daa7a1b72019e7",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/75e543d95e69bd087dd0a932611b4232c3580294e591a60c8032237c94020f70",
+            "candidate": {
+              "number": 32347,
+              "text": "Non basta ritenere che il cliente abbia ragione per intervenire nella trattativa sul prezzo: la questione compete al vettore, salvo incarico al conducente.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32398,
+                "reason": "Non reperita una fonte primaria che colleghi direttamente il sovraccarico anteriore alla maggiore durezza dello sterzo."
+              },
+              {
+                "number": 32552,
+                "reason": "La formulazione non distingue i diversi impianti: non verificata una fonte primaria per un livello di olio del servofreno universalmente applicabile."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi direttamente acqua nel serbatoio e rapido movimento della lancetta."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": {
+              "number": 32347,
+              "text": "La sola convinzione che il cliente abbia ragione non autorizza il conducente a trattare autonomamente la controversia sul prezzo: la questione riguarda il vettore e il cliente.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 32554,
+          "quesito_id": 7111,
+          "text_it": "Il veloce movimento della lancetta del manometro dell'aria durante la marcia può essere determinata dalla presenza di acqua nel serbatoio dell'aria dell'impianto frenante",
+          "answer": 1,
+          "page": 50,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f8a3bbe73bcf50ed6e24ddd0d979b6080a07f6158728a641648521b624b262ac",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/75e543d95e69bd087dd0a932611b4232c3580294e591a60c8032237c94020f70",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32398,
+                "reason": "Non reperita una fonte primaria che colleghi direttamente il sovraccarico anteriore alla maggiore durezza dello sterzo."
+              },
+              {
+                "number": 32552,
+                "reason": "La formulazione non distingue i diversi impianti: non verificata una fonte primaria per un livello di olio del servofreno universalmente applicabile."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi direttamente acqua nel serbatoio e rapido movimento della lancetta."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 32777,
+          "quesito_id": 7136,
+          "text_it": "Per ridurre i danni provocati dall'esposizione continuata alle vibrazioni, è utile fare esercizio fisico per rinforzare i muscoli del collo",
+          "answer": 1,
+          "page": 58,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3a9284d605cc87abb2d03010e6bdfad009b37e16126010b0a1bafc5b4992354e",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/68e36a47fdd6807a7e8f9c317d4b810f6df660aa90c3e7b10ab44677bcadfc48",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32777,
+                "reason": "Non è stata reperita una fonte primaria che sostenga specificamente il rinforzo dei muscoli del collo per ridurre i danni da vibrazioni; non si può inferire tale effetto dai consigli generali di esercizio."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Per ridurre i danni provocati dall’esposizione continuata alle vibrazioni, è utile fare esercizio fisico per rinforzare i muscoli del collo",
+          "text": "Il quiz considera utile rinforzare i muscoli del collo per sostenere la zona sollecitata. L’esercizio non elimina però le vibrazioni: occorre anche ridurre l’esposizione.",
+          "evidence": [
+            "Tuna et al., The effect of home exercises with kinesiotaping on pain, functionality, and work performance in bus drivers with non-specific neck pain, programma di esercizi, https://pmc.ncbi.nlm.nih.gov/articles/PMC11612929/"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 33075,
+          "quesito_id": 7155,
+          "text_it": "L'uso dell'autoarticolato è particolarmente indicato quando si trasporta un'esigua quantità di merce",
+          "answer": 0,
+          "page": 66,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ddd9920aeea0d76f6c1f039d87210af26c4a5b0b29fbe65d059c4758cabd9212",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/026dc7e7a54d28262ad3b6db72cdf0fe4304dc7f84ff6727b5f5591f91146b68",
+            "candidate": {
+              "number": 33075,
+              "text": "Per una quantità esigua l’autoarticolato è normalmente poco conveniente: la sua grande capacità è più utile con carichi consistenti.",
+              "evidence": []
+            },
+            "blockers": null
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 33088,
+          "quesito_id": 7156,
+          "text_it": "I veicoli adibiti al trasporto di merci possono essere muniti di accessori rimovibili quali le coperture telate, le sovrasponde e altri",
+          "answer": 1,
+          "page": 66,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "20a3a02fcfbe93e335b9c9921dc007d8a69be6af825a733b21d2f4e37f1ddff3",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/247b4545ca6c4e867c6cd0ff78014b88613e182cd6079a066a54e35f6fee0b19",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 33075,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33076,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33077,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33088,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33154,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33170,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33231,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33294,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33730,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33892,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 34038,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 34075,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 33231,
+          "quesito_id": 7165,
+          "text_it": "Il baricentro di un veicolo adibito al trasporto di cose con motore anteriore e carrozzeria del tipo a cassone è spostato verso la cabina di guida quando il veicolo è scarico",
+          "answer": 1,
+          "page": 71,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6149995156bf5174d43c59ddb8d70bdd93a72357183f2fb87a618d7ae116a46d",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/247b4545ca6c4e867c6cd0ff78014b88613e182cd6079a066a54e35f6fee0b19",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 33075,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33076,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33077,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33088,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33154,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33170,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33231,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33294,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33730,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33892,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 34038,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 34075,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 33730,
+          "quesito_id": 7197,
+          "text_it": "L'autorizzazione CEMT non può essere sostituita da una copia conforme autenticata",
+          "answer": 1,
+          "page": 88,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d528101197c5b2e4921aee7302f282d97e5e7224762a3b706239c2fa67e27a9a",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/247b4545ca6c4e867c6cd0ff78014b88613e182cd6079a066a54e35f6fee0b19",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 33075,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33076,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33077,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33088,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33154,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33170,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33231,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33294,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33730,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33892,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 34038,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 34075,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 33892,
+          "quesito_id": 7207,
+          "text_it": "La lettera di vettura internazionale CMR in Italia deve essere conservata dal destinatario per almeno 2 anni dalla data del trasporto",
+          "answer": 0,
+          "page": 94,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c4b2024e927109321d2890d78d92662846ddea5d054c053cd2cefdb86009c6c7",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/247b4545ca6c4e867c6cd0ff78014b88613e182cd6079a066a54e35f6fee0b19",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 33075,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33076,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33077,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33088,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33154,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33170,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33231,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33294,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33730,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 33892,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 34038,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              },
+              {
+                "number": 34075,
+                "reason": "Fonte primaria adeguata non individuata o verdetto non sufficientemente chiarito."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/a93a27e7f1ef4d4fef79b60b5b244c9e9ec9b3103fb5b396cc4205e5199e016a",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 32336,
+                "reason": "Non verificata una fonte primaria che escluda l’obbligo generale indicato."
+              },
+              {
+                "number": 32554,
+                "reason": "Non verificata una fonte primaria che colleghi l’acqua nel serbatoio al rapido movimento del manometro."
+              },
+              {
+                "number": 32777,
+                "reason": "Lo studio disponibile riguarda esercizi per cervicalgia nei conducenti, senza stabilire il nesso specifico con i danni da vibrazioni."
+              },
+              {
+                "number": 33075,
+                "reason": "Non verificata una fonte primaria sul criterio di convenienza per quantità esigue."
+              },
+              {
+                "number": 33088,
+                "reason": "Non verificata una fonte primaria che documenti entrambi gli accessori rimovibili indicati."
+              },
+              {
+                "number": 33231,
+                "reason": "Non verificata una fonte primaria che confermi la posizione del baricentro a vuoto per la configurazione descritta."
+              },
+              {
+                "number": 33730,
+                "reason": "Non verificata la regola sulla copia autentica nel regime cartaceo; dal 2026 la guida ITF prevede il sistema digitale."
+              },
+              {
+                "number": 33892,
+                "reason": "Non verificata la regola di conservazione applicabile al destinatario che chiarisca il verdetto."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34038,
+          "quesito_id": 7216,
+          "text_it": "I dazi doganali sono sorti per motivi diversi da quelli fiscali",
+          "answer": 0,
+          "page": 100,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fd1dbe0d672e883a00702d608a6b156ae271e0a2ba1aa3f294376602df51f07b",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/88bb97ca486d0a2fa52a11b419bed55a8b0c6baf83a9b950d8a1d644a866a4f7",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34038,
+                "reason": "Non è stata verificata una fonte primaria sulle origini storiche fiscali dei dazi; la funzione fiscale attuale non dimostra da sola la loro origine."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "I dazi doganali sono sorti per motivi diversi da quelli fiscali",
+          "text": "È falso che i dazi siano nati per ragioni diverse da quelle fiscali: inizialmente perseguivano uno scopo di entrata; successivamente hanno assunto anche una funzione protezionistica.",
+          "evidence": [
+            "Conclusioni dell’avvocato generale, causa C-284/05, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62005CC0284: origine fiscale dei dazi e successiva funzione protezionistica."
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34230,
+          "quesito_id": 7228,
+          "text_it": "I magazzini e i recinti doganali di temporanea custodia sono solitamente situati negli spazi doganali della dogana",
+          "answer": 1,
+          "page": 106,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "346cbdc84ec45fe61e91da820f23d973fcbd14a3bd096af9a5d4b92bb1ea24c6",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/3a36cf34efc080e89bf4ea1f26403dc672a8801d78f5a4ccc235a2d4850288d3",
+            "candidate": null,
+            "blockers": {
+              "34230": "Non verificata una fonte primaria che sostenga la collocazione solitamente negli spazi doganali; la normativa ammette anche altri luoghi autorizzati.",
+              "34242": "Non verificato un obbligo generale di dichiarazione di scorta o documento equipollente per ogni trasporto di latte e alimenti.",
+              "34244": "Non verificata una fonte primaria della specifica prescrizione documentale oltre al listato ufficiale del quesito.",
+              "34245": "Non verificata una fonte primaria che sostenga la raccomandazione specifica sulla ricevuta SCIA a bordo.",
+              "34246": "Non verificata una fonte primaria che imponga generalmente sigilli integri per le cisterne di farine."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "I magazzini e i recinti doganali di temporanea custodia sono solitamente situati negli spazi doganali della dogana",
+          "text": "Il quiz considera normalmente situati negli spazi doganali questi depositi; la disciplina storica ammetteva anche altri luoghi soggetti a vigilanza finanziaria.",
+          "evidence": [
+            "D.Lgs. 9 novembre 1990 n. 376, art. 96, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=090G0416&atto.dataPubblicazioneGazzetta=1990-12-14&qId=&tipoDettaglio=multivigenza, ubicazione negli spazi doganali o in altri luoghi vigilati"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34242,
+          "quesito_id": 7229,
+          "text_it": "Per trasportare latte ed alimenti in genere è necessaria una dichiarazione di scorta o documento equipollente",
+          "answer": 1,
+          "page": 107,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5d101bc616866a5fa40fcfb302870cf03decb752d84414c6d66afbd325190e39",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/3a36cf34efc080e89bf4ea1f26403dc672a8801d78f5a4ccc235a2d4850288d3",
+            "candidate": null,
+            "blockers": {
+              "34230": "Non verificata una fonte primaria che sostenga la collocazione solitamente negli spazi doganali; la normativa ammette anche altri luoghi autorizzati.",
+              "34242": "Non verificato un obbligo generale di dichiarazione di scorta o documento equipollente per ogni trasporto di latte e alimenti.",
+              "34244": "Non verificata una fonte primaria della specifica prescrizione documentale oltre al listato ufficiale del quesito.",
+              "34245": "Non verificata una fonte primaria che sostenga la raccomandazione specifica sulla ricevuta SCIA a bordo.",
+              "34246": "Non verificata una fonte primaria che imponga generalmente sigilli integri per le cisterne di farine."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34244,
+          "quesito_id": 7229,
+          "text_it": "Il trasporto in cisterna di sfarinati e farine, destinate all'alimentazione umana, deve essere accompagnato da un documento indicante il tipo di merce trasportata, la ragione sociale del fornitore e del destinatario, la sede di partenza e di arrivo della merce",
+          "answer": 1,
+          "page": 107,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d0f473d25130515aa83a1ef37aa2fdac657322f8940e69acc3aafb61df14ee30",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/3a36cf34efc080e89bf4ea1f26403dc672a8801d78f5a4ccc235a2d4850288d3",
+            "candidate": null,
+            "blockers": {
+              "34230": "Non verificata una fonte primaria che sostenga la collocazione solitamente negli spazi doganali; la normativa ammette anche altri luoghi autorizzati.",
+              "34242": "Non verificato un obbligo generale di dichiarazione di scorta o documento equipollente per ogni trasporto di latte e alimenti.",
+              "34244": "Non verificata una fonte primaria della specifica prescrizione documentale oltre al listato ufficiale del quesito.",
+              "34245": "Non verificata una fonte primaria che sostenga la raccomandazione specifica sulla ricevuta SCIA a bordo.",
+              "34246": "Non verificata una fonte primaria che imponga generalmente sigilli integri per le cisterne di farine."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34245,
+          "quesito_id": 7229,
+          "text_it": "Per il trasporto in cisterna di sfarinati e farine, destinate all'alimentazione umana, è consigliato che sia corredato dalla ricevuta della presentazione della SCIA (segnalazione certificata di inizio attività)",
+          "answer": 1,
+          "page": 107,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0a6e285bda1abedf212bff426b16ae310eca8d0d7a5e46eaaef186ed7fed2f80",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/3a36cf34efc080e89bf4ea1f26403dc672a8801d78f5a4ccc235a2d4850288d3",
+            "candidate": null,
+            "blockers": {
+              "34230": "Non verificata una fonte primaria che sostenga la collocazione solitamente negli spazi doganali; la normativa ammette anche altri luoghi autorizzati.",
+              "34242": "Non verificato un obbligo generale di dichiarazione di scorta o documento equipollente per ogni trasporto di latte e alimenti.",
+              "34244": "Non verificata una fonte primaria della specifica prescrizione documentale oltre al listato ufficiale del quesito.",
+              "34245": "Non verificata una fonte primaria che sostenga la raccomandazione specifica sulla ricevuta SCIA a bordo.",
+              "34246": "Non verificata una fonte primaria che imponga generalmente sigilli integri per le cisterne di farine."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34246,
+          "quesito_id": 7229,
+          "text_it": "La cisterna per il trasporto di sfarinati e farine, destinate all'alimentazione umana, deve avere sigilli integri, atti a garantire che il carico non sia stato manomesso",
+          "answer": 1,
+          "page": 107,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "37cf9c2f8173111acd523cffae9931cf1a3691a0c5d99f744e17acc18333d58d",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/3a36cf34efc080e89bf4ea1f26403dc672a8801d78f5a4ccc235a2d4850288d3",
+            "candidate": null,
+            "blockers": {
+              "34230": "Non verificata una fonte primaria che sostenga la collocazione solitamente negli spazi doganali; la normativa ammette anche altri luoghi autorizzati.",
+              "34242": "Non verificato un obbligo generale di dichiarazione di scorta o documento equipollente per ogni trasporto di latte e alimenti.",
+              "34244": "Non verificata una fonte primaria della specifica prescrizione documentale oltre al listato ufficiale del quesito.",
+              "34245": "Non verificata una fonte primaria che sostenga la raccomandazione specifica sulla ricevuta SCIA a bordo.",
+              "34246": "Non verificata una fonte primaria che imponga generalmente sigilli integri per le cisterne di farine."
+            }
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 34295,
+          "quesito_id": 7232,
+          "text_it": "A bordo dei veicoli adibiti al trasporto di alimenti surgelati deve trovarsi la SCIA (segnalazione certificata di inizio attività) per l'attività svolta",
+          "answer": 1,
+          "page": 108,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7a8466929ed656461ef7da4a9bf1797f52da3b9ca3f4ceab72526605166addcd",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/5cc764606d4e353e849a2bf050131b61267fd72d5bcf3dda977ab66db870c119",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34284,
+                "reason": "Non verificata la disciplina specifica dell’attestazione per il viaggio su modello DTT."
+              },
+              {
+                "number": 34295,
+                "reason": "Non verificato un obbligo generale di tenere a bordo la SCIA per i surgelati."
+              },
+              {
+                "number": 34296,
+                "reason": "Non verificata la portata dell’obbligo di attestato ATP a bordo e delle relative eccezioni."
+              },
+              {
+                "number": 34301,
+                "reason": "Non verificato un obbligo generale di tenere a bordo una SCIA sanitaria di idoneità del veicolo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "A bordo dei veicoli adibiti al trasporto di alimenti surgelati deve trovarsi l’autorizzazione sanitaria di idoneità del veicolo",
+          "text": "Il quiz richiama la precedente autorizzazione sanitaria per i mezzi destinati a determinati alimenti. La disciplina è storica: il verdetto non va inteso come obbligo generale attuale per ogni veicolo."
+        }
+      },
+      {
+        "source": {
+          "number": 34301,
+          "quesito_id": 7232,
+          "text_it": "A bordo dei veicoli adibiti al trasporto di carni deve trovarsi la SCIA sanitaria di idoneità del veicolo",
+          "answer": 1,
+          "page": 109,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "532743b9d6a65438a011ef6e592db7cb514344ae4cf47b7868092e28688749a8",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/5cc764606d4e353e849a2bf050131b61267fd72d5bcf3dda977ab66db870c119",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34284,
+                "reason": "Non verificata la disciplina specifica dell’attestazione per il viaggio su modello DTT."
+              },
+              {
+                "number": 34295,
+                "reason": "Non verificato un obbligo generale di tenere a bordo la SCIA per i surgelati."
+              },
+              {
+                "number": 34296,
+                "reason": "Non verificata la portata dell’obbligo di attestato ATP a bordo e delle relative eccezioni."
+              },
+              {
+                "number": 34301,
+                "reason": "Non verificato un obbligo generale di tenere a bordo una SCIA sanitaria di idoneità del veicolo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "A bordo dei veicoli adibiti al trasporto di carni deve trovarsi l’autorizzazione sanitaria di idoneità del veicolo",
+          "text": "Il quiz richiama la precedente autorizzazione sanitaria prevista per determinati mezzi che trasportavano carni. È una disciplina storica, non un obbligo generale attuale per ogni veicolo."
+        }
+      },
+      {
+        "source": {
+          "number": 34316,
+          "quesito_id": 7233,
+          "text_it": "A bordo dei veicoli eccezionali deve trovarsi anche l'autorizzazione a circolare senza scorta di polizia (se ricorre il caso)",
+          "answer": 1,
+          "page": 109,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "05c7eb062b7ae0974878127b6379f69c492c0679b51ea24c027da5bdfd90cd21",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/f14eb5dd2714741be0a242acc87fc9b8c3ee9db0ca47fa000dfcb4d1c5ebc1b6",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34316,
+                "reason": "Non è stata individuata una fonte primaria che confermi il documento separato di autorizzazione a circolare senza scorta di polizia e il relativo obbligo di tenerlo a bordo."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "A bordo dei veicoli eccezionali deve trovarsi l’autorizzazione a circolare senza scorta di polizia (se ricorre il caso)",
+          "text": "Il verdetto riguarda il caso in cui sia autorizzata una modalità di scorta diversa da quella di polizia. La formulazione riflette una disciplina precedente: oggi le prescrizioni sulla scorta figurano nel provvedimento di autorizzazione."
+        }
+      },
+      {
+        "source": {
+          "number": 34392,
+          "quesito_id": 7239,
+          "text_it": "Il trasporto aereo delle merci ha adeguate infrastrutture logistiche di accesso",
+          "answer": 0,
+          "page": 112,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b76909ad0f1e52697f3545aa2f79f6ac4d8de4310f740f58d0ce5bc98b63ddd4",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ed7207fd981a9b14f9c07fd9762373783c992193f162838f23e8731af011c530",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34392,
+                "reason": "Non trovata una fonte primaria che dimostri un’insufficienza generalizzata delle infrastrutture logistiche di accesso al trasporto aereo."
+              },
+              {
+                "number": 34393,
+                "reason": "Non trovata una fonte primaria che sostenga la specifica frammentarietà del sistema europeo delle merci aeree."
+              },
+              {
+                "number": 34395,
+                "reason": "La formulazione assoluta confligge con la possibilità di trasporto in conto proprio da parte di imprese la cui attività principale non è il trasporto; manca supporto per il verdetto senza alterarne il senso."
+              },
+              {
+                "number": 34397,
+                "reason": "Non trovata una fonte primaria che documenti il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale di merci."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il trasporto aereo delle merci ha adeguate infrastrutture logistiche di accesso",
+          "text": "Il quiz considera falsa l’adeguatezza generale delle infrastrutture di accesso: i collegamenti logistici degli aeroporti possono presentare carenze. La situazione varia da aeroporto a aeroporto.",
+          "evidence": [
+            "Commissione europea, Western Balkans - Eastern Mediterranean corridor, aeroporti, https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/trans-european-transport-network-ten-t/western-balkans-eastern-mediterranean-corridor_en: aeroporti con collegamenti ferroviari mancanti"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34393,
+          "quesito_id": 7239,
+          "text_it": "Il trasporto aereo delle merci non soffre di frammentarietà del sistema a livello europeo",
+          "answer": 0,
+          "page": 112,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "13568ca159f2e1e999154d56fbcbe56593cc67140f815568053444d7243e3648",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ed7207fd981a9b14f9c07fd9762373783c992193f162838f23e8731af011c530",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34392,
+                "reason": "Non trovata una fonte primaria che dimostri un’insufficienza generalizzata delle infrastrutture logistiche di accesso al trasporto aereo."
+              },
+              {
+                "number": 34393,
+                "reason": "Non trovata una fonte primaria che sostenga la specifica frammentarietà del sistema europeo delle merci aeree."
+              },
+              {
+                "number": 34395,
+                "reason": "La formulazione assoluta confligge con la possibilità di trasporto in conto proprio da parte di imprese la cui attività principale non è il trasporto; manca supporto per il verdetto senza alterarne il senso."
+              },
+              {
+                "number": 34397,
+                "reason": "Non trovata una fonte primaria che documenti il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale di merci."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il trasporto aereo delle merci non soffre di frammentarietà del sistema a livello europeo",
+          "text": "È falso che il sistema aereo europeo sia privo di frammentazione: la gestione dello spazio aereo resta suddivisa e ciò incide anche sui voli merci.",
+          "evidence": [
+            "Commissione europea, Single European Sky, introduzione, frammentazione dello spazio aereo europeo: https://transport.ec.europa.eu/transport-modes/air/single-european-sky_en"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 34395,
+          "quesito_id": 7239,
+          "text_it": "La modalità di trasporto su gomma si caratterizza per il fatto che possono esercitare l'attività solo aziende specializzate nel settore",
+          "answer": 1,
+          "page": 112,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "baeb32e00f17608340ec03e0b22a79db0ac52c04757a17c42ee99f7d7b6e6f40",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/ed7207fd981a9b14f9c07fd9762373783c992193f162838f23e8731af011c530",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 34392,
+                "reason": "Non trovata una fonte primaria che dimostri un’insufficienza generalizzata delle infrastrutture logistiche di accesso al trasporto aereo."
+              },
+              {
+                "number": 34393,
+                "reason": "Non trovata una fonte primaria che sostenga la specifica frammentarietà del sistema europeo delle merci aeree."
+              },
+              {
+                "number": 34395,
+                "reason": "La formulazione assoluta confligge con la possibilità di trasporto in conto proprio da parte di imprese la cui attività principale non è il trasporto; manca supporto per il verdetto senza alterarne il senso."
+              },
+              {
+                "number": 34397,
+                "reason": "Non trovata una fonte primaria che documenti il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale di merci."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-final-gaps-v1/290f52a0d7476c6381149ec7eab24138bc1362c092a8c93c2d633dc470133b7e",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 34038,
+                  "reason": "Non verificata una fonte primaria sulle origini fiscali dei dazi."
+                },
+                {
+                  "number": 34230,
+                  "reason": "Non verificata la collocazione abituale negli spazi doganali; sono ammessi altri luoghi autorizzati."
+                },
+                {
+                  "number": 34242,
+                  "reason": "Non verificato un obbligo generale di documento di scorta per tutti gli alimenti."
+                },
+                {
+                  "number": 34244,
+                  "reason": "Non verificata la prescrizione generale del documento con tutti i dati indicati."
+                },
+                {
+                  "number": 34245,
+                  "reason": "Non verificata la specifica raccomandazione sulla ricevuta SCIA a bordo."
+                },
+                {
+                  "number": 34246,
+                  "reason": "Non verificato un obbligo generale di sigilli per tutte le cisterne di farine."
+                },
+                {
+                  "number": 34295,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA a bordo."
+                },
+                {
+                  "number": 34301,
+                  "reason": "Non verificato un obbligo generale di avere la SCIA sanitaria del veicolo a bordo."
+                },
+                {
+                  "number": 34316,
+                  "reason": "Non verificata la specifica autorizzazione a circolare senza scorta di polizia."
+                },
+                {
+                  "number": 34392,
+                  "reason": "Non verificata la valutazione generale delle infrastrutture di accesso aeroportuali."
+                },
+                {
+                  "number": 34393,
+                  "reason": "Non verificata la frammentarietà del sistema e il suo ambito."
+                },
+                {
+                  "number": 34395,
+                  "reason": "Il trasporto in conto proprio rende ambigua la formulazione assoluta; non verificata la regola intesa."
+                },
+                {
+                  "number": 34397,
+                  "reason": "Non verificato il nesso storico indicato fra frontiere UE e crescita del trasporto."
+                },
+                {
+                  "number": 34406,
+                  "reason": "Non verificata la qualificazione del trasporto internazionale come causa principale della congestione."
+                },
+                {
+                  "number": 34557,
+                  "reason": "Non verificata una fonte primaria sulla prevalenza delle imprese private."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "La modalità di trasporto su gomma si caratterizza per il fatto che possono esercitare l’attività solo aziende specializzate nel settore",
+          "text": "Il quiz considera vera la specializzazione degli operatori del trasporto su gomma. La formulazione è però troppo assoluta: il trasporto può essere effettuato anche in conto proprio da imprese la cui attività principale è diversa dal trasporto.",
+          "evidence": [
+            "Ministero delle infrastrutture e dei trasporti, Conto nazionale delle infrastrutture e dei trasporti 2002, appendice, glossario Autotrasporto in conto proprio, https://mit.gov.it/nfsmitgov/files/media/pubblicazioni/2018-08/CNIT___Conto_nazionale_Infrastrutture_e_o_2002_appendice.pdf, trasporto accessorio rispetto a un’altra attività economica principale"
+          ]
+        }
+      }
+    ],
+    "task_sha256": "9158adb4344db83bce3ba142ef76e1acd77d97c6270ee46f46db6c083fbefe34",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage. Do not confuse absent external citations with genuine uncertainty: stable terminology and ordinary business/physical reasoning may use evidence explicitly labelled Ragionamento didattico, without claiming external verification. Verify uncertain medical, legal, numerical and statistical assertions. For qualitative exam-context statements, explain the mechanism and limitations rather than demanding an exact current statistical frequency. Distinguish an illustrative configuration from a universal mechanical law. Where the printed answer is overbroad, qualify it visibly and explain the supported distinction; do not invent opposite absolutes. For the customs fiscal-origin item, the inspected original state-archive record https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=521942&TipoPag=comparc describes historical dazi as indirect taxes and receipts paid to the fiscal chamber; this supports explaining historical revenue function without inventing a first-origin date. For market liberalization and own-account distinctions use Commission COM2014/222 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52014DC0222 sections2.1 and2.3; preserve its2014 timeframe, do not extrapolate to every current transport."
+  },
+  "rows": [
+    {
+      "number": 32335,
+      "text": "Un disaccordo sul prezzo non obbliga il conducente ad assentarsi dal lavoro: la questione commerciale riguarda il vettore e il cliente.",
+      "evidence": [
+        "Ragionamento didattico, rapporto commerciale: il disaccordo sul prezzo non interrompe di per sé il lavoro del conducente"
+      ]
+    },
+    {
+      "number": 32341,
+      "text": "Aver effettuato il trasporto non obbliga il conducente a trattare direttamente la controversia sul prezzo: la questione riguarda il vettore e il cliente, salvo specifico incarico.",
+      "evidence": [
+        "Ragionamento didattico, rapporti tra vettore, cliente e conducente: eseguire il trasporto non conferisce di per sé l'incarico di trattare il prezzo"
+      ]
+    },
+    {
+      "number": 32346,
+      "text": "La controversia sul prezzo riguarda il vettore e il cliente; il conducente normalmente non la tratta di propria iniziativa. Può comunque riferire i fatti o intervenire se incaricato.",
+      "evidence": [
+        "Ragionamento didattico, rapporti tra vettore, cliente e conducente: il conducente non è normalmente parte della trattativa"
+      ]
+    },
+    {
+      "number": 32347,
+      "text": "Il quiz considera falso che basti ritenere giusta la posizione del cliente per intervenire nella trattativa sul prezzo: la questione riguarda il vettore e il cliente. Il conducente può comunque riferire i fatti o agire se incaricato.",
+      "evidence": [
+        "Ragionamento didattico, rapporti tra vettore, cliente e conducente: l'opinione personale non conferisce un incarico a trattare"
+      ]
+    },
+    {
+      "number": 33075,
+      "text": "Una quantità esigua, da sola, non rende particolarmente indicato un autoarticolato: la sua grande capacità è sfruttata meglio con carichi consistenti. La scelta dipende anche dal servizio e dal raggruppamento delle merci.",
+      "evidence": [
+        "Ragionamento didattico, capacità di carico: una piccola spedizione occupa solo una parte della capacità del veicolo"
+      ]
+    },
+    {
+      "number": 33088,
+      "text": "Le coperture telate proteggono il carico e le sovrasponde aumentano il contenimento laterale: sono esempi di accessori che possono essere rimossi dal veicolo.",
+      "evidence": [
+        "Ragionamento didattico, definizione: telo e sovrasponde possono essere applicati e rimossi dal cassone"
+      ]
+    },
+    {
+      "number": 33231,
+      "text": "Nel caso illustrato dal quiz, a veicolo scarico il motore anteriore concentra massa verso la cabina e sposta in avanti il baricentro. La posizione effettiva dipende però dalla distribuzione delle masse del veicolo.",
+      "evidence": [
+        "Ragionamento didattico, baricentro: la posizione dipende dalla distribuzione delle masse, incluso il motore anteriore"
+      ]
+    },
+    {
+      "number": 34038,
+      "text": "È falso escludere il motivo fiscale: storicamente i dazi sulle merci costituivano anche un'entrata per le finanze pubbliche.",
+      "evidence": [
+        "Sistema informativo degli Archivi di Stato, fondo Dazi, descrizione, https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=521942&TipoPag=comparc: dazi commerciali come imposte indirette e versamenti alla camera fiscale"
+      ]
+    },
+    {
+      "number": 34242,
+      "text": "Il quiz richiama la documentazione di scorta per identificare il carico alimentare. La formulazione è generale: la disciplina storica prevedeva la dichiarazione specifica per le sostanze individuate con decreto, non indistintamente per ogni alimento.",
+      "evidence": [
+        "DPR 26 marzo 1980 n. 327, art. 52, https://www.salute.gov.it/resources/static/uffici/DPR_26marzo1980n327.pdf: dichiarazione o documento equipollente per sostanze individuate con decreto"
+      ]
+    },
+    {
+      "number": 34393,
+      "text": "È falso che il sistema sia del tutto privo di frammentazione: la gestione dello spazio aereo europeo è frammentata, con effetti anche sui voli merci. Il riferimento riguarda la gestione del traffico aereo.",
+      "evidence": [
+        "Commissione europea, Single European Sky, introduzione, https://transport.ec.europa.eu/transport-modes/air/single-european-sky_en: l'iniziativa affronta la frammentazione dello spazio aereo europeo"
+      ]
+    },
+    {
+      "number": 34395,
+      "text": "Il quiz considera vera la specializzazione degli operatori del trasporto su gomma. La frase è però troppo assoluta: esiste anche il trasporto in conto proprio svolto da imprese di altri settori per le proprie esigenze.",
+      "evidence": [
+        "Commissione europea, COM(2014) 222, sezione 2.1, https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52014DC0222: nel 2012 il trasporto in conto proprio era svolto da altri settori per le proprie esigenze"
+      ]
+    }
+  ],
+  "output_sha256": "6d32812c24bf058b40fce7f769b8272dc2617104300b49a6035d671d0fa01347"
+}

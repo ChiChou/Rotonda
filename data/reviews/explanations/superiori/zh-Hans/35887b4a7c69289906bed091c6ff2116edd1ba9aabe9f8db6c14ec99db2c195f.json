@@ -1,0 +1,739 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 27865,
+          "quesito_id": 6033,
+          "text_it": "Gli autoveicoli adibiti al trasporto di cose in conto terzi di massa complessiva a pieno carico superiore a 6 tonnellate, devono esporre una striscia obliqua di colore rosso avanti e dietro il veicolo",
+          "answer": 0,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fe753d5d9e06f2b06676bd691dc0f7f7181f0e088e572b55bc606f44355c1dbb",
+        "localized_text": "满载总质量超过6吨的第三方货运机动车前后必须展示一条红色斜纹。"
+      },
+      {
+        "source": {
+          "number": 27866,
+          "quesito_id": 6034,
+          "text_it": "I veicoli che trasportano merci pericolose debbono essere muniti di due pannelli arancioni retroriflettenti, fissati davanti e dietro al veicolo, ad esempio del tipo indicato in figura",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/6de4ecfcb529502a32ed0a8c0548defb60bada5d8ec329f250a16c53f8eec6fc.png",
+              "sha256": "6de4ecfcb529502a32ed0a8c0548defb60bada5d8ec329f250a16c53f8eec6fc",
+              "page": 56,
+              "bbox": [
+                465.63,
+                186.0,
+                545.63,
+                266.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "72d612f586b5ea692281c6019ca6efc1384356783d3687301e33eeaa1561b2d8",
+        "localized_text": "运输危险货物的车辆必须在前后固定两块橙色逆反射标牌，例如图示类型。"
+      },
+      {
+        "source": {
+          "number": 27867,
+          "quesito_id": 6034,
+          "text_it": "I veicoli eccezionali che eccedono in lunghezza i limiti di sagoma devono essere segnalati con due pannelli rettangolari retroriflettenti a fondo giallo, fissati anteriormente e posteriormente al veicolo, recanti la scritta in nero \"TRASPORTO ECCEZIONALE\"",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d442c2c702c80fc111e6dff8976d03edc4eb3587a5e1ca2619e87e346626fb53",
+        "localized_text": "长度超过外廓限值的特殊车辆必须在前后固定两块黄色矩形逆反射标牌，并以黑字标注“TRASPORTO ECCEZIONALE”（特殊运输）。"
+      },
+      {
+        "source": {
+          "number": 27868,
+          "quesito_id": 6034,
+          "text_it": "I veicoli eccezionali che eccedono in lunghezza i limiti di sagoma devono essere segnalati con due pannelli rettangolari retroriflettenti di colore giallo, uno per lato, che sostituiscono i catadiottri laterali",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0a3be03aaa27581f2c4af07ab0efcec98e97b439040bbfec40ca8cf76f07f020",
+        "localized_text": "长度超过外廓限值的特殊车辆必须在两侧各安装一块黄色矩形逆反射标牌，代替侧面反光器。"
+      },
+      {
+        "source": {
+          "number": 27869,
+          "quesito_id": 6034,
+          "text_it": "I veicoli eccezionali che eccedono in larghezza i limiti di sagoma devono essere segnalati con due pannelli rettangolari retroriflettenti a strisce bianche e rosse posti anteriormente e posteriormente al veicolo (bordo esterno coincidente con la massima larghezza del veicolo)",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4bc4764537986a8f392217e5eae501310db1ef4172d41389cf9e4a21ecccc067",
+        "localized_text": "宽度超过外廓限值的特殊车辆必须在前后安装两块红白条纹矩形逆反射标牌，外侧边缘与车辆最大宽度对齐。"
+      },
+      {
+        "source": {
+          "number": 27870,
+          "quesito_id": 6034,
+          "text_it": "Il divieto di circolazione nei giorni festivi per i veicoli adibiti al trasporto di merci di massa complessiva a pieno carico superiore a 7,5 tonnellate non si applica ai veicoli muniti, su ciascuna fiancata e sul retro, di pannelli a sfondo verde con impressa in nero la lettera \"d\"",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "76592280fb621fb1e1e67012d11416283159ed65433910b6387425456a741321",
+        "localized_text": "对满载总质量超过7.5吨货运车辆的节假日行驶禁令不适用于两侧和后部装有绿色底、黑色字母“d”标牌的车辆。"
+      },
+      {
+        "source": {
+          "number": 27871,
+          "quesito_id": 6034,
+          "text_it": "Il divieto di circolazione nei giorni festivi per i veicoli adibiti al trasporto di merci di massa complessiva a pieno carico superiore a 7,5 tonnellate non si applica ai veicoli muniti di pannelli a sfondo verde con impressa in nero la lettera \"a\", autorizzati dal Prefetto",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4541b69a7fb4493f79a7278dff117dad4096a43c297169acecc690342d011b37",
+        "localized_text": "对满载总质量超过7.5吨货运车辆的节假日行驶禁令不适用于经省督批准并装有绿色底、黑色字母“a”标牌的车辆。"
+      },
+      {
+        "source": {
+          "number": 27872,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo verde con impressa in nero la lettera \"a\" può essere posto su veicoli, di massa complessiva a pieno carico superiore a 7,5 tonnellate, che trasportano prodotti alimentari freschi o altri prodotti deperibili",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4471bf2d733c4d7381c8950a6f4718e48a395b2ce8b9fa099001fefdd7677e72",
+        "localized_text": "绿色底、黑色字母“a”标牌可以安装在运输新鲜食品或其他易腐产品、满载总质量超过7.5吨的车辆上。"
+      },
+      {
+        "source": {
+          "number": 27873,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo verde con impressa in nero la lettera \"d\" può essere posto su veicoli, di massa complessiva a pieno carico superiore a 7,5 tonnellate, che trasportano latte fresco",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d43450a4dad01e0153a5ff773901b76ecd7d34e2941e5073b363b094b2cddc13",
+        "localized_text": "绿色底、黑色字母“d”标牌可以安装在运输鲜奶、满载总质量超过7.5吨的车辆上。"
+      },
+      {
+        "source": {
+          "number": 27874,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo verde con impressa in nero la lettera \"d\" può essere posto su veicoli, di massa complessiva a pieno carico superiore a 7,5 tonnellate, che trasportano giornali quotidiani e periodici",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bd3243a747c9650e9cc12666e58b43452e55a09341470cb44b711b37b1bf93a3",
+        "localized_text": "绿色底、黑色字母“d”标牌可以安装在运输日报和期刊、满载总质量超过7.5吨的车辆上。"
+      },
+      {
+        "source": {
+          "number": 27875,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo verde con impressa in nero la lettera \"d\" può essere posto su veicoli, di massa complessiva a pieno carico superiore a 7,5 tonnellate, che trasportano prodotti per uso medico",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d93ab616ace7c0f52befc77f787e2adcde0488c950472d8e459ee66a726e1e65",
+        "localized_text": "绿色底、黑色字母“d”标牌可以安装在运输医疗用品、满载总质量超过7.5吨的车辆上。"
+      },
+      {
+        "source": {
+          "number": 27876,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo giallo con impressa in nero la lettera \"R\" è posto sulla parte posteriore destra di veicoli che trasportano rifiuti pericolosi",
+          "answer": 1,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3eee85c4aa15ea3d82cbc94782bee8471a395e154ae9842916badc2c4ec373b3",
+        "localized_text": "黄色底、黑色字母“R”标牌安装在运输危险废物车辆的右后部。"
+      },
+      {
+        "source": {
+          "number": 27877,
+          "quesito_id": 6034,
+          "text_it": "I veicoli eccezionali che eccedono in larghezza i limiti di sagoma devono essere segnalati con due pannelli quadrati retroriflettenti a fondo giallo, fissati su entrambe le fiancate del veicolo, recanti la scritta in nero \"TRASPORTO ECCEZIONALE\"",
+          "answer": 0,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "03cebfd865f7c4bdbff486b87af8a92f60a24fd9d7d73d36222e464254011d73",
+        "localized_text": "宽度超过外廓限值的特殊车辆必须在两侧固定两块黄色方形逆反射标牌，并以黑字标注“TRASPORTO ECCEZIONALE”（特殊运输）。"
+      },
+      {
+        "source": {
+          "number": 27878,
+          "quesito_id": 6034,
+          "text_it": "I veicoli eccezionali che eccedono in lunghezza i limiti di sagoma devono essere segnalati con due luci rosse supplementari",
+          "answer": 0,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2f45a0e083356c4099819c29221e8b1a222b24fc6ec08e4e3e84a0d8f66f5ef1",
+        "localized_text": "长度超过外廓限值的特殊车辆必须用两个额外红灯标示。"
+      },
+      {
+        "source": {
+          "number": 27879,
+          "quesito_id": 6034,
+          "text_it": "I veicoli eccezionali che eccedono in larghezza i limiti di sagoma devono essere segnalati con due pannelli retroriflettenti a strisce bianche e nere posti anteriormente e posteriormente al veicolo",
+          "answer": 0,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "44af03a880001b8214b928f641e3743e5f126f72500193ad62b6c66e129fed91",
+        "localized_text": "宽度超过外廓限值的特殊车辆必须在前后安装两块黑白条纹逆反射标牌。"
+      },
+      {
+        "source": {
+          "number": 27880,
+          "quesito_id": 6034,
+          "text_it": "Il divieto di circolazione nei giorni festivi per i veicoli adibiti al trasporto di merci di massa complessiva a pieno carico superiore a 7,5 tonnellate, non si applica ai veicoli muniti, su ciascuna fiancata e sul retro, di pannelli a sfondo verde con impressa in nero la lettera \"f\"",
+          "answer": 0,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "73cf80ca19bdfc463ba793044a377b5606eaf235b8fba6b14a0987f129cc831d",
+        "localized_text": "对满载总质量超过7.5吨货运车辆的节假日行驶禁令不适用于两侧和后部装有绿色底、黑色字母“f”标牌的车辆。"
+      },
+      {
+        "source": {
+          "number": 27881,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo verde con impressa in nero la lettera \"a\" indica che il veicolo su cui è posto trasporta azoto liquido",
+          "answer": 0,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bdf7cb4cc5699fd901ce7ce778d3496878a067a13172fd891036f22fc75ce252",
+        "localized_text": "绿色底、黑色字母“a”标牌表示该车辆运输液氮。"
+      },
+      {
+        "source": {
+          "number": 27882,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo verde con impressa in nero la lettera \"d\" è posto su autobus che trasportano persone disabili",
+          "answer": 0,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bf41a1e8e5c511533aaaa60bdda3a7447f740df3d273a04eec154ba21ab818f9",
+        "localized_text": "绿色底、黑色字母“d”标牌安装在运送残疾人的巴士上。"
+      },
+      {
+        "source": {
+          "number": 27883,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo verde con impressa in nero la lettera \"d\" può essere posto su veicoli che trasportano imbarcazioni da diporto",
+          "answer": 0,
+          "page": 56,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9fc590a12f29916008f5fd132b70c70f8460107f6ae7616ffe425bb509a0a001",
+        "localized_text": "绿色底、黑色字母“d”标牌可以安装在运输游艇的车辆上。"
+      },
+      {
+        "source": {
+          "number": 27884,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo giallo con impressa in nero la lettera \"R\" è posto su veicoli che trasportano prodotti alimentari refrigerati",
+          "answer": 0,
+          "page": 57,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "be2e86f921caa32c6e9da7855ee2b50f8f1c160dc09d971314f1f162f91bc408",
+        "localized_text": "黄色底、黑色字母“R”标牌安装在运输冷藏食品的车辆上。"
+      },
+      {
+        "source": {
+          "number": 27885,
+          "quesito_id": 6034,
+          "text_it": "Il pannello a sfondo giallo con impressa in nero la lettera \"R\" è posto sui veicoli, di massa complessiva a pieno carico superiore a 7,5 tonnellate, che trasportano posta raccomandata",
+          "answer": 0,
+          "page": 57,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4c156b69d59611ff18dcf5c8ce35a72bf003bc2851daee8efada5e18ac190f5d",
+        "localized_text": "黄色底、黑色字母“R”标牌安装在运输挂号邮件、满载总质量超过7.5吨的车辆上。"
+      },
+      {
+        "source": {
+          "number": 27886,
+          "quesito_id": 6034,
+          "text_it": "Il pannello in figura deve essere fissato davanti e dietro ai veicoli, di massa complessiva a pieno carico superiore a 7,5 tonnellate, che trasportano merci di tipo alimentare e ne indica rispettivamente il \"codice prodotto\" e la massa trasportata (in chilogrammi)",
+          "answer": 0,
+          "page": 57,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/6de4ecfcb529502a32ed0a8c0548defb60bada5d8ec329f250a16c53f8eec6fc.png",
+              "sha256": "6de4ecfcb529502a32ed0a8c0548defb60bada5d8ec329f250a16c53f8eec6fc",
+              "page": 57,
+              "bbox": [
+                465.63,
+                76.0,
+                545.63,
+                156.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "1eb7095c9c3e7fd21c9f108778ac559e8be64c8681d29fd2f48fdfbdff9b9b02",
+        "localized_text": "图示标牌必须固定在运输食品、满载总质量超过7.5吨的车辆前后，分别表示产品代码和所载质量（公斤）。"
+      },
+      {
+        "source": {
+          "number": 27887,
+          "quesito_id": 6035,
+          "text_it": "Il pannello di figura serve a segnalare carichi sporgenti",
+          "answer": 1,
+          "page": 57,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff.png",
+              "sha256": "4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff",
+              "page": 57,
+              "bbox": [
+                465.63,
+                210.0,
+                545.63,
+                290.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "757c7517b2c112bfff04acd5195d939c2ccd270a56df63edcba83ac23fccd762",
+        "localized_text": "图示标牌用于标示伸出的货物。"
+      },
+      {
+        "source": {
+          "number": 27888,
+          "quesito_id": 6035,
+          "text_it": "La sporgenza longitudinale del carico, fino ai 3/10 della lunghezza del veicolo, deve essere segnalata mediante uno o due pannelli quadrangolari in figura",
+          "answer": 1,
+          "page": 57,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff.png",
+              "sha256": "4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff",
+              "page": 57,
+              "bbox": [
+                465.63,
+                296.0,
+                545.63,
+                376.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "e1ace424112959a563b8766fa2069b000ad87e0e80bf764463481f23893d49aa",
+        "localized_text": "载物纵向伸出不超过车辆长度十分之三时，必须用图中所示的一块或两块四边形标志牌标示"
+      },
+      {
+        "source": {
+          "number": 27889,
+          "quesito_id": 6035,
+          "text_it": "Il pannello in figura deve essere applicato in ogni caso in cui il carico sporge posteriormente, anche se di poco",
+          "answer": 1,
+          "page": 57,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff.png",
+              "sha256": "4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff",
+              "page": 57,
+              "bbox": [
+                465.63,
+                382.0,
+                545.63,
+                462.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "27c9d1935ffd236ca672d905c801daaaccab3da8bab6d6c28db9a2754f2338b9",
+        "localized_text": "只要载物向后伸出，即使伸出很少，在任何情况下也必须安装图中所示标志牌"
+      }
+    ],
+    "task_sha256": "35887b4a7c69289906bed091c6ff2116edd1ba9aabe9f8db6c14ec99db2c195f"
+  },
+  "rows": [
+    {
+      "number": 27865,
+      "text": "为他人运输货物的标识斜条是白色；红色用于自用运输。车辆后部也要重复该标识。",
+      "evidence": [
+        "Legge 6 giugno 1974 n. 298, art. 45, https://registro.patente.it/ecom.dll/noAjax?idc=2671: striscia bianca conto terzi, rossa conto proprio, davanti e dietro."
+      ]
+    },
+    {
+      "number": 27866,
+      "text": "适用ADR规定的危险货物运输，其前后用橙色牌标识。图中是带编号的示例；某些ADR豁免可能适用。",
+      "evidence": [
+        "ADR 2025, 5.3.2.1.1 e 5.3.2.2.2, https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf: pannelli arancioni sulle unità di trasporto soggette; numero di pericolo sopra e numero ONU sotto; possibili esenzioni."
+      ]
+    },
+    {
+      "number": 27867,
+      "text": "车辆前后的黄色标志板提醒其他道路使用者该车超长；黑色文字标明其特殊运输性质。",
+      "evidence": [
+        "Official supplied superiori source PDF p. 56, questions 27867 and 27868, prints VERO; source describes exceptional vehicle length, not a protruding load.",
+        "Italian Army Circolare 4003 (2017), section 4.1.2.1 pp. 20–21, https://eldei.difesa.it/pluginfile.php/244904/mod_folder/content/0/Circolare%204003%20La%20scorta%20tecnica%20ai%20veicoli%20e%20ai%20trasporti%20eccezionali%20dellEsercito%20gen.%202017.pdf: independent adjudicator inspected contiguous indexed extraction lines 890–930 and scope lines 52–66; see /tmp/rotonda-army-escort-verified-source.txt. The author’s URL access timed out; complete PDF binary was not verified. This Army escort guidance identifies front/rear yellow marked panels and side yellow panels replacing orange reflectors; it is not itself a universal civilian decree, and the specific current civilian statutory basis remains unverified."
+      ]
+    },
+    {
+      "number": 27868,
+      "text": "车辆两侧的黄色标志板使超长特殊车辆从侧面更容易被识别；题库指出它们替代侧面反光器。",
+      "evidence": [
+        "Official supplied superiori source PDF p. 56, questions 27867 and 27868, prints VERO; source describes exceptional vehicle length, not a protruding load.",
+        "Italian Army Circolare 4003 (2017), section 4.1.2.1 pp. 20–21, https://eldei.difesa.it/pluginfile.php/244904/mod_folder/content/0/Circolare%204003%20La%20scorta%20tecnica%20ai%20veicoli%20e%20ai%20trasporti%20eccezionali%20dellEsercito%20gen.%202017.pdf: independent adjudicator inspected contiguous indexed extraction lines 890–930 and scope lines 52–66; see /tmp/rotonda-army-escort-verified-source.txt. The author’s URL access timed out; complete PDF binary was not verified. This Army escort guidance identifies front/rear yellow marked panels and side yellow panels replacing orange reflectors; it is not itself a universal civilian decree, and the specific current civilian statutory basis remains unverified."
+      ]
+    },
+    {
+      "number": 27869,
+      "text": "红白条纹使超宽易于辨认：前后标志板标示最大轮廓。",
+      "evidence": [
+        "D.M. 23 gennaio 1984, art. 12(b), https://www.consiglio.regione.toscana.it/upload/guido/11/2995.pdf: per eccedenza in larghezza pannelli a strisce bianche e rosse visibili davanti e dietro al limite di ingombro; disciplina storica."
+      ]
+    },
+    {
+      "number": 27870,
+      "text": "绿底黑色小写字母 d标志标识某些豁免类别，例如特定鲜奶罐车。是否豁免取决于类别和规定条件，不能只看标志板。",
+      "evidence": [
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27871,
+      "text": "绿底黑色小写字母 a标识经省督府批准豁免禁行的车辆。必须遵守批准的条件。",
+      "evidence": [
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27872,
+      "text": "a标志表示省督府批准的豁免，可能涉及为避免变质而运输的某些农产品。仅运输易腐食品并不足够，还须符合批准条件。",
+      "evidence": [
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27873,
+      "text": "豁免车辆包括运输鲜奶的罐车，其两侧和后部标有绿底黑色小写字母 d。",
+      "evidence": [
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27874,
+      "text": "按2007年禁行日历，仅运输报纸和期刊的车辆悬挂绿底黑色小写字母 d。2026年豁免仅运输第8条所列货物类别的车辆，包括空车行驶时；运输报纸和期刊不要求悬挂 d。",
+      "evidence": [
+        "D.M. 14 dicembre 2006, art. 3 comma 1 lettera m, https://www.gazzettaufficiale.it/eli/gu/2006/12/29/301/sg/pdf: nel calendario 2007 cartelli d per trasporto esclusivo di giornali, prodotti medici e latte non a lunga conservazione.",
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27875,
+      "text": "按2007年禁行日历，仅运输医疗用品的车辆悬挂绿底黑色小写字母 d。2026年豁免仅运输第8条所列货物类别的车辆，包括空车行驶时；运输医疗用品不要求悬挂 d。",
+      "evidence": [
+        "D.M. 14 dicembre 2006, art. 3 comma 1 lettera m, https://www.gazzettaufficiale.it/eli/gu/2006/12/29/301/sg/pdf: nel calendario 2007 cartelli d per trasporto esclusivo di giornali, prodotti medici e latte non a lunga conservazione.",
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27876,
+      "text": "黄底黑色R标识危险废物运输；牌子安装在车辆后部右侧的明显位置。",
+      "evidence": [
+        "Deliberazione Comitato interministeriale 27 luglio 1984, punto 2.3.1, https://www.indicenormativa.it/sites/default/files/Circ.%2520Inter.pdf: targa gialla R nera sul retro destro dei mezzi per rifiuti tossici e nocivi."
+      ]
+    },
+    {
+      "number": 27877,
+      "text": "超宽通过前后可见、位于轮廓边缘的红白条纹板标示，而不是题述的黄色方板。",
+      "evidence": [
+        "D.M. 23 gennaio 1984, art. 12(b), https://www.consiglio.regione.toscana.it/upload/guido/11/2995.pdf: per eccedenza in larghezza pannelli a strisce bianche e rosse visibili davanti e dietro al limite di ingombro; disciplina storica."
+      ]
+    },
+    {
+      "number": 27878,
+      "text": "超限车辆的附加信号使用黄色或橙色闪光灯，而非题述的两盏红灯。",
+      "evidence": [
+        "Codice della strada art. 151 lett. p-septies, https://aci.gov.it/codice-della-strada/art-151/: dispositivo supplementare lampeggiante giallo o arancione per veicoli eccezionali."
+      ]
+    },
+    {
+      "number": 27879,
+      "text": "标示超宽使用红白条纹，而非黑白条纹。",
+      "evidence": [
+        "D.M. 23 gennaio 1984, art. 12(b), https://www.consiglio.regione.toscana.it/upload/guido/11/2995.pdf: per eccedenza in larghezza pannelli a strisce bianche e rosse visibili davanti e dietro al limite di ingombro; disciplina storica."
+      ]
+    },
+    {
+      "number": 27880,
+      "text": "这些豁免规定的标识不是字母f：绿底黑色小写字母 d标识某些类别，a表示经批准的豁免。",
+      "evidence": [
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27881,
+      "text": "绿底黑色小写字母 a表示车辆获准豁免禁行，并不标识液氮运输。",
+      "evidence": [
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27882,
+      "text": "绿底黑色小写字母 d标识某些免于禁行的货运类别，并非运送残障人士的公交车标识。",
+      "evidence": [
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27883,
+      "text": "绿底黑色小写字母 d适用于某些豁免货物类别，例如部分易腐货物，并非用于标识游艇。",
+      "evidence": [
+        "Decreto calendario 2026, artt. 7(3),(5), 8 e 9, https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20251231&edizione=0&estensione=pdf&numeroGazzetta=302&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU: cartelli d per categorie specifiche, a per deroghe prefettizie; non basta il cartello."
+      ]
+    },
+    {
+      "number": 27884,
+      "text": "黄底黑色R标识危险废物运输，而非冷藏食品。",
+      "evidence": [
+        "Deliberazione Comitato interministeriale 27 luglio 1984, punto 2.3.1, https://www.indicenormativa.it/sites/default/files/Circ.%2520Inter.pdf: targa gialla R nera sul retro destro dei mezzi per rifiuti tossici e nocivi."
+      ]
+    },
+    {
+      "number": 27885,
+      "text": "黄底黑色R标识危险废物运输，而非挂号邮件。",
+      "evidence": [
+        "Deliberazione Comitato interministeriale 27 luglio 1984, punto 2.3.1, https://www.indicenormativa.it/sites/default/files/Circ.%2520Inter.pdf: targa gialla R nera sul retro destro dei mezzi per rifiuti tossici e nocivi."
+      ]
+    },
+    {
+      "number": 27886,
+      "text": "图中的橙色牌用于危险货物：33是危险识别号，1203是物质的联合国编号，并非食品代码和重量。",
+      "evidence": [
+        "ADR 2025, 5.3.2.1.1 e 5.3.2.2.2, https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf: pannelli arancioni sulle unità di trasporto soggette; numero di pericolo sopra e numero ONU sotto; possibili esenzioni.",
+        "Istituto federale BAM, UN 1203, https://www.dgg.bam.de/dgginfo/detailinfo/adr/iccsjthezzxjv?lang=en: 33 indica liquido molto infiammabile e 1203 benzina."
+      ]
+    },
+    {
+      "number": 27887,
+      "text": "红白条纹的四边形标志板用于标示货物纵向伸出，使其他道路使用者看见。",
+      "evidence": [
+        "Codice della strada art. 164 commi 2 e 6, https://aci.gov.it/codice-della-strada/art-164/; DPR 495/1992 art. 361 e figura V.3, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318: sporgenza posteriore di cose indivisibili fino a 3/10 nei limiti di sagoma, pannelli alle estremità."
+      ]
+    },
+    {
+      "number": 27888,
+      "text": "不可分割货物向后伸出可达车辆长度的十分之三，且不得超出外廓限制。伸出端须用一个或两个图示标志板标示。",
+      "evidence": [
+        "Codice della strada art. 164 commi 2 e 6, https://aci.gov.it/codice-della-strada/art-164/; DPR 495/1992 art. 361 e figura V.3, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318: sporgenza posteriore di cose indivisibili fino a 3/10 nei limiti di sagoma, pannelli alle estremità."
+      ]
+    },
+    {
+      "number": 27889,
+      "text": "货物向后纵向伸出即使很少也须标示：标志板应放在伸出部分的末端。",
+      "evidence": [
+        "Codice della strada art. 164 commi 2 e 6, https://aci.gov.it/codice-della-strada/art-164/; DPR 495/1992 art. 361 e figura V.3, https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318: sporgenza posteriore di cose indivisibili fino a 3/10 nei limiti di sagoma, pannelli alle estremità."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "35887b4a7c69289906bed091c6ff2116edd1ba9aabe9f8db6c14ec99db2c195f",
+    "output_sha256": "af1a2c21a5eb5323292bd9cae1095b637357ac78ee67c7c746815c6be41c7c77",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / exceptional-length-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      27865,
+      27866,
+      27867,
+      27868,
+      27869,
+      27870,
+      27871,
+      27872,
+      27873,
+      27874,
+      27875,
+      27876,
+      27877,
+      27878,
+      27879,
+      27880,
+      27881,
+      27882,
+      27883,
+      27884,
+      27885,
+      27886,
+      27887,
+      27888,
+      27889
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1ea76-f113-7571-ba04-95884ba19d8a",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "52fcfe30a61301f20b17e5eff61604bddeba2ac16369d04526b7a3c134d77d91",
+          "attached_image_paths": [
+            "source/images/4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff.png",
+            "source/images/6de4ecfcb529502a32ed0a8c0548defb60bada5d8ec329f250a16c53f8eec6fc.png"
+          ],
+          "attached_image_sha256": [
+            "4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff",
+            "6de4ecfcb529502a32ed0a8c0548defb60bada5d8ec329f250a16c53f8eec6fc"
+          ]
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1ea76-f113-7571-ba04-95884ba19d8a",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 27867,
+              "reason": "Il quiz dichiara obbligatori pannelli con dicitura TRASPORTO ECCEZIONALE per eccedenza in lunghezza; la disciplina verificata del 1984 prescriveva invece VEICOLO LUNGO. Non è stata verificata la disposizione successiva che risolva la differenza.",
+              "checked_sources": [
+                "D.M. 23 gennaio 1984 art. 12(a), https://www.consiglio.regione.toscana.it/upload/guido/11/2995.pdf: prescriveva VEICOLO LUNGO davanti e dietro.",
+                "DPR 495/1992 art. 11 comma 6, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28: rimette a provvedimento ministeriale caratteristiche e applicazione."
+              ]
+            },
+            {
+              "number": 27868,
+              "reason": "Il quiz afferma che due pannelli laterali gialli sostituiscono i catadiottri; la disposizione storica verificata richiedeva dispositivi aggiuntivi rispetto a quelli ordinari e non chiarisce tale sostituzione. Non è stato individuato il provvedimento successivo risolutivo.",
+              "checked_sources": [
+                "D.M. 23 gennaio 1984 art. 12 comma 1 e lettera a, https://www.consiglio.regione.toscana.it/upload/guido/11/2995.pdf: dispositivi aggiuntivi e pannelli anteriore/posteriore per lunghezza.",
+                "DPR 495/1992 art. 11 comma 6, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28: rinvia le caratteristiche dei pannelli a provvedimento ministeriale."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "52fcfe30a61301f20b17e5eff61604bddeba2ac16369d04526b7a3c134d77d91",
+          "attached_image_paths": [
+            "source/images/4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff.png",
+            "source/images/6de4ecfcb529502a32ed0a8c0548defb60bada5d8ec329f250a16c53f8eec6fc.png"
+          ],
+          "attached_image_sha256": [
+            "4ff91d63d1f6f78d4f4c4a871b4170b1fd0f83f46753d95286faba0f3968acff",
+            "6de4ecfcb529502a32ed0a8c0548defb60bada5d8ec329f250a16c53f8eec6fc"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "35887b4a7c69289906bed091c6ff2116edd1ba9aabe9f8db6c14ec99db2c195f",
+        "output_sha256": "5346102b731aafd0676d6191a81a35200ef1dd347f4c0d9cc3c10eb68994825b",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / exceptional-length-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          27865,
+          27866,
+          27867,
+          27868,
+          27869,
+          27870,
+          27871,
+          27872,
+          27873,
+          27874,
+          27875,
+          27876,
+          27877,
+          27878,
+          27879,
+          27880,
+          27881,
+          27882,
+          27883,
+          27884,
+          27885,
+          27886,
+          27887,
+          27888,
+          27889
+        ],
+        "issues": [
+          "27870, 27871, 27873–27875, 27880–27883: The explanation calls the letter a/d green, but the statutory marking is a black lowercase letter on a green background. Specify the green panel rather than a green letter.",
+          "27874–27875: The 2026 exemption in article 8(1) applies to vehicles carrying exclusively the specified goods, subject to the provision’s exceptions. Make that limitation explicit when stating the current rule."
+        ]
+      }
+    ]
+  }
+}

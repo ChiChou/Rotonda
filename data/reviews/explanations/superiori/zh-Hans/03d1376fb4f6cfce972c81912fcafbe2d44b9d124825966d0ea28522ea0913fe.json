@@ -1,0 +1,621 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28601,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore idraulico necessita di uno scambiatore di calore per evitare surriscaldamenti",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "53880ce4d23fad3b27c98b88366f3ac6ea9f252b13d42bef451d3b6dc00b16a4",
+        "localized_text": "液力缓速器需要热交换器以防过热。"
+      },
+      {
+        "source": {
+          "number": 28602,
+          "quesito_id": 6106,
+          "text_it": "Utilizzando il rallentatore idraulico, il minore o maggiore rallentamento del veicolo è legato dalla quantità d’olio che entra nel rallentatore stesso",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e5c27a1e6ec3b5144d6d720ca1895fa9a059af049e73c325c01987cce75bafcd",
+        "localized_text": "使用液力缓速器时，车辆减速程度取决于进入缓速器的油量。"
+      },
+      {
+        "source": {
+          "number": 28603,
+          "quesito_id": 6106,
+          "text_it": "In genere, il comando del rallentatore idraulico è ottenuto tramite un dispositivo a leva o a pedale, che consente vari livelli di frenatura",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "80467ff184043309207425460950707732b592775248d4f836b18231355a260a",
+        "localized_text": "液力缓速器通常由操纵杆或踏板控制，可提供多个制动级别。"
+      },
+      {
+        "source": {
+          "number": 28604,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore elettromagnetico è schematicamente composto da uno statore e da un rotore",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "75e7faeed4b19aee9c1b6b24e238e0f83c51ac8da35616ef608db21eefda32a6",
+        "localized_text": "电磁缓速器的基本组成包括定子和转子。"
+      },
+      {
+        "source": {
+          "number": 28605,
+          "quesito_id": 6106,
+          "text_it": "Nel rallentatore elettromagnetico, lo statore è fissato al telaio mentre i dischi del rotore sono vincolati all’albero di trasmissione",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1e8ca3ea7ada6ea62bb5e4c3cfd60e1dac62493f20d0f4cfe78c67d9493809b7",
+        "localized_text": "在电磁缓速器中，定子固定在底盘上，转子盘与传动轴相连。"
+      },
+      {
+        "source": {
+          "number": 28606,
+          "quesito_id": 6106,
+          "text_it": "Attivando il rallentatore elettromagnetico, viene generato un potente campo magnetico che si oppone alla rotazione del rotore e quindi dell'albero di trasmissione",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "997ebc7925a4bb33a8e8342efb683b9b9bfc4e80a9f0def28698f014e4c8a2ca",
+        "localized_text": "启用电磁缓速器时，会产生强磁场，阻碍转子以及传动轴的旋转。"
+      },
+      {
+        "source": {
+          "number": 28607,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore elettromagnetico genera una forte quantità di calore che deve essere smaltita",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fca9a773259e80a8faabd1d0cf691c4b4c0c95083ef110ee11dd65a4d9842b74",
+        "localized_text": "电磁缓速器产生大量热量，必须将其散去。"
+      },
+      {
+        "source": {
+          "number": 28608,
+          "quesito_id": 6106,
+          "text_it": "Nel rallentatore idraulico viene utilizzato uno speciale olio che genera attrito e si oppone alla rotazione",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3e4ab5c92a1c9d79c13d44f2fd04b0a4c561a058b90182323a2b0aae18214c03",
+        "localized_text": "液力缓速器使用特殊油液产生摩擦并阻碍旋转。"
+      },
+      {
+        "source": {
+          "number": 28609,
+          "quesito_id": 6106,
+          "text_it": "L’olio del rallentatore idraulico può raggiungere elevate temperature",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f0a39b619fb5a7499b0b97d2c6203c38ba3f8f635736cd8d2705c5c91571aa54",
+        "localized_text": "液力缓速器中的油液可能达到高温。"
+      },
+      {
+        "source": {
+          "number": 28610,
+          "quesito_id": 6106,
+          "text_it": "Il comando del rallentatore idraulico può essere sul volante",
+          "answer": 1,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "29b274820aead59f2514c5e60cc7c40563544181ac047cfba82bdb34ec0280c0",
+        "localized_text": "液力缓速器控制装置可以位于方向盘上。"
+      },
+      {
+        "source": {
+          "number": 28611,
+          "quesito_id": 6106,
+          "text_it": "Sui veicoli molto pesanti si possono montare sia il rallentatore idraulico che quello elettromagnetico insieme, purché siano disposti in serie",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4260f1aa3b3d0029f91d97aa02b60aac67fdd2cdfd5d067050a9422c90b47c59",
+        "localized_text": "超重型车辆可以同时安装液力缓速器和电磁缓速器，前提是两者串联布置。"
+      },
+      {
+        "source": {
+          "number": 28612,
+          "quesito_id": 6106,
+          "text_it": "Nel rallentatore elettromagnetico, lo statore è fissato al piantone dello sterzo mentre i dischi del rotore sono calettati sull’albero primario del cambio",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "211fbc7346567a539f50786655049d1d52d0abe56160c9801945a4d8554e72f4",
+        "localized_text": "在电磁缓速器中，定子固定在转向柱上，转子盘固定在变速箱输入轴上。"
+      },
+      {
+        "source": {
+          "number": 28613,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore elettromagnetico accumula energia centrifuga durante le curve per ricaricarsi",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a95cefe065e55d846a76a07e287cc96e2c009adf26e340d042b2c9e7b437da56",
+        "localized_text": "电磁缓速器在转弯时储存离心能量以重新充能。"
+      },
+      {
+        "source": {
+          "number": 28614,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore elettromagnetico è composto da un interruttore magnetotermico e da un diffusore",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f370a6e3eef023066ce68a0441e71dc0c4309670d455b1dc3d9851ad63e44b3c",
+        "localized_text": "电磁缓速器由热磁开关和扩散器组成。"
+      },
+      {
+        "source": {
+          "number": 28615,
+          "quesito_id": 6106,
+          "text_it": "L’uso del rallentatore idraulico comporta una maggiore usura dei materiali di attrito degli elementi frenanti ed un maggior riscaldamento dei tamburi",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "26091c1798d0d95384b006b3109ead047b3ea6db0a5a9cddf6dbfc305f9fe6f9",
+        "localized_text": "使用液力缓速器会增加制动摩擦材料磨损并使制动鼓更加发热。"
+      },
+      {
+        "source": {
+          "number": 28616,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore può essere di tipo pneumatico o pneumoidraulico",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "1d1b56adb1a5990af62e06f8869f1f75cb36781844262f29f855ffcff3a96668",
+        "localized_text": "缓速器可以是气动式或气液式。"
+      },
+      {
+        "source": {
+          "number": 28617,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore idraulico non necessita di uno scambiatore di calore, perché utilizza la propria scatola metallica per il raffreddamento ad aria",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0fafdedd2520c895495816323da05fd1811654ca9d910a6d3b20f97d4299ad9d",
+        "localized_text": "液力缓速器不需要热交换器，因为其金属外壳可实现风冷。"
+      },
+      {
+        "source": {
+          "number": 28618,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore elettromagnetico è più leggero di quello idraulico",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c7bcf575a7a21312f6734f7d0103550ae42ddc3489a963fbe23a97030b727f2c",
+        "localized_text": "电磁缓速器比液力缓速器轻。"
+      },
+      {
+        "source": {
+          "number": 28619,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore idraulico è posto tra la coppia conica ed i semiassi",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e76cd223db425a87ca39ef686e8af568af677823ed2c9b8ec1e64437e4bdd534",
+        "localized_text": "液力缓速器位于主减速器锥齿轮与半轴之间。"
+      },
+      {
+        "source": {
+          "number": 28620,
+          "quesito_id": 6106,
+          "text_it": "Il rallentatore idraulico consente il bloccaggio immediato delle ruote motrici",
+          "answer": 0,
+          "page": 77,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c5d148a33d2702aed49ea2a1367be2ca92c45cd135b9c41bbb1b09c87209f48e",
+        "localized_text": "液力缓速器可以立即锁住驱动轮。"
+      },
+      {
+        "source": {
+          "number": 28621,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore (retarder) può venire usato anche assieme al freno motore",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f225be4fbfecff8e6471936c49b985b73ec7caa13efe943414da0e81d7401818",
+        "localized_text": "缓速器也可以与发动机制动一起使用。"
+      },
+      {
+        "source": {
+          "number": 28622,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore può essere del tipo idraulico, elettromagnetico o a circolazione di acqua (aquatarder)",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "84a5ea4a51cbdda2c3059f15c15d3d3256634504acc4267c7e707ca945a382fe",
+        "localized_text": "缓速器可以是液力式、电磁式或水循环式（aquatarder）。"
+      },
+      {
+        "source": {
+          "number": 28623,
+          "quesito_id": 6107,
+          "text_it": "Con l’azione del solo rallentatore non si può fermare il veicolo in una distanza ragionevole in ogni situazione di marcia",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0278fc731c81c20650ab6578b8f9c45f48cb968cbdc3b81b016604506a51376c",
+        "localized_text": "在所有行驶情况下，仅靠缓速器无法在合理距离内使车辆停下。"
+      },
+      {
+        "source": {
+          "number": 28624,
+          "quesito_id": 6107,
+          "text_it": "Il rallentatore elettromagnetico deve essere periodicamente pulito da polvere e terriccio",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "689fc36070120792671efec303e55b31c708f6c70ffc4289fa816678db02e5f4",
+        "localized_text": "必须定期清除电磁缓速器上的灰尘和泥土。"
+      },
+      {
+        "source": {
+          "number": 28625,
+          "quesito_id": 6107,
+          "text_it": "II rallentatore elettromagnetico tende a surriscaldarsi maggiormente di quello idraulico",
+          "answer": 1,
+          "page": 78,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ca5cff151ae1d4365caffb19be0669127cad31a2da9e32972b9ed0291631b9f2",
+        "localized_text": "电磁缓速器比液力缓速器更容易过热。"
+      }
+    ],
+    "task_sha256": "03d1376fb4f6cfce972c81912fcafbe2d44b9d124825966d0ea28522ea0913fe"
+  },
+  "rows": [
+    {
+      "number": 28601,
+      "text": "制动会使油液升温。热交换器将热量传给冷却回路，以防过热。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: olio caldo raffreddato nello scambiatore olio-acqua."
+      ]
+    },
+    {
+      "number": 28602,
+      "text": "回路中的油量调节制动效果：在相同转速下，油量越多，制动扭矩越大。",
+      "evidence": [
+        "Voith, Truck Retarder, https://redirect.voith.com/index2.php?R=Q2906431QB81598E8: la coppia dipende dalla velocità e dal riempimento di olio."
+      ]
+    },
+    {
+      "number": 28603,
+      "text": "操纵杆或踏板可以调节回路中的油量，从而选择不同的制动级别。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: comando a leva o pedale e livelli di frenatura."
+      ]
+    },
+    {
+      "number": 28604,
+      "text": "定子保持固定并产生磁场；转子随传动系统旋转，受到感应电流的制动。",
+      "evidence": [
+        "Telma, Operating principle, https://www.telma.com/produits/fonctionnement: statore fisso, rotori collegati alla trasmissione e correnti parassite."
+      ]
+    },
+    {
+      "number": 28605,
+      "text": "在题目所述结构中，定子固定在车架上，转子盘随传动轴旋转。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: statore fissato al telaio e dischi collegati alla trasmissione."
+      ]
+    },
+    {
+      "number": 28606,
+      "text": "定子磁场在旋转的盘中感应出电流，电流的作用阻碍旋转，也使相连的传动轴减速。",
+      "evidence": [
+        "Telma, Operating principle, https://www.telma.com/produits/fonctionnement: campo e correnti indotte frenano il rotore e la trasmissione."
+      ]
+    },
+    {
+      "number": 28607,
+      "text": "从运动中吸收的能量在转子中变成热量，再通过通风散入空气。",
+      "evidence": [
+        "Telma, Operating principle, https://www.telma.com/produits/fonctionnement: correnti riscaldano i rotori e ventilazione disperde il calore."
+      ]
+    },
+    {
+      "number": 28608,
+      "text": "转子将油液推向定子，流体阻力使转子减速，并将能量转化为热量。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: circolazione dell’olio fra rotore e statore e dissipazione in calore."
+      ]
+    },
+    {
+      "number": 28609,
+      "text": "减速时吸收的能量在油液中转化为热量，油液由热交换器冷却。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: olio raggiunge temperature elevate e viene raffreddato nello scambiatore."
+      ]
+    },
+    {
+      "number": 28610,
+      "text": "控制装置可以设在方向盘上，驾驶人可以在驾驶位置选择减速程度。",
+      "evidence": [
+        "Renault Trucks, D/D Wide Range 2023, p. 24, https://novarnish.mws-prod-fi.renault-trucks.com/sites/default/files/2024-01/com9852_0.pdf: pulsanti del comando retarder sul volante; Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: il comando idraulico regola la frenatura."
+      ]
+    },
+    {
+      "number": 28611,
+      "text": "题库判为FALSO，但未定义“串联布置”的含义。缓速器能否安装以及如何布置取决于设计和认证，不能据此推断两种原理普遍不兼容。",
+      "evidence": [
+        "Official superiori question 28611 prints FALSO; the term “in serie” is not defined in the question.",
+        "EPO EP4450343A1 §0034 onward https://data.epo.org/publication-server/rest/v1.2/publication-dates/2024-10-23/patents/EP4450343NWA1/document.pdf describes a proposed design with hydraulic and electromagnetic devices; patent is not proof of a commercial installation or of the precise meaning of “series”. Direct browser access returned cache miss; independent adjudicator inspected indexed patent."
+      ]
+    },
+    {
+      "number": 28612,
+      "text": "在所述结构中，定子固定在车架上，盘与传动轴相连，并非分别固定在转向柱和变速箱输入轴上。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: statore sul telaio e dischi sull’albero di trasmissione."
+      ]
+    },
+    {
+      "number": 28613,
+      "text": "它不会在转弯时储存能量：线圈产生磁场，在转子中感应电流，使其减速并产生热量。",
+      "evidence": [
+        "Telma, Operating principle, https://www.telma.com/produits/fonctionnement: alimentazione delle bobine, correnti parassite e dispersione del calore."
+      ]
+    },
+    {
+      "number": 28614,
+      "text": "主要部件是带线圈的定子和与传动系统相连的转子；热磁开关和扩散器并不能描述这个装置。",
+      "evidence": [
+        "Telma, Operating principle, https://www.telma.com/produits/fonctionnement: statore elettromagnetico e rotori collegati all’albero."
+      ]
+    },
+    {
+      "number": 28615,
+      "text": "缓速器承担部分制动，不使用行车制动器的摩擦材料，从而减少其磨损和发热。",
+      "evidence": [
+        "Voith, Lightweights with Great Effect, 2012, p. 2, https://www.voith.com/corp-en/pm_lightweights-with-great-effect.pdf: il retarder protegge le guarnizioni e limita il surriscaldamento dei freni."
+      ]
+    },
+    {
+      "number": 28616,
+      "text": "本题按制动原理区分液力式和电磁式缓速器。气动控制不会使液力制动原理变成气动原理。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: descrive principi idrodinamico ed elettromagnetico; Voith, Truck Retarder, https://redirect.voith.com/index2.php?R=Q2906431QB81598E8: la coppia idrodinamica dipende dal riempimento di olio."
+      ]
+    },
+    {
+      "number": 28617,
+      "text": "油液在制动时吸收热量，并在油水热交换器中冷却；仅靠金属外壳不能完成这一功能。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: olio caldo raffreddato nello scambiatore olio-acqua."
+      ]
+    },
+    {
+      "number": 28618,
+      "text": "按本题的一般比较，电磁式更重；实际重量仍取决于具体型号。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: confronto generale: elettromagnetico più pesante dell’idraulico."
+      ]
+    },
+    {
+      "number": 28619,
+      "text": "在常见结构中，液力缓速器在变速箱输出端与传动系统相连，并非位于主减速器锥齿轮与半轴之间。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: rotore all’uscita del cambio collegato alla trasmissione."
+      ]
+    },
+    {
+      "number": 28620,
+      "text": "缓速器逐渐制动传动系统，并非用于立即锁住车轮；停车要使用行车制动器。",
+      "evidence": [
+        "Voith, Truck Retarder, https://redirect.voith.com/index2.php?R=Q2906431QB81598E8: hydraulic braking torque depends on retarder speed and oil fill; Telma FAQ, https://www.telma.com/produits/faq-ralentisseur: service brakes complete the stop."
+      ]
+    },
+    {
+      "number": 28621,
+      "text": "缓速器和发动机制动是不同的持续制动装置，可以相互补充制动作用。",
+      "evidence": [
+        "Voith, Lightweights with Great Effect, 2012, p. 2, https://www.voith.com/corp-en/pm_lightweights-with-great-effect.pdf: Aquatarder combinato con freno motore."
+      ]
+    },
+    {
+      "number": 28622,
+      "text": "除电磁式和以油为工作介质的液力式外，还有以水为工作介质的 Aquatarder。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: tipi idrodinamico ed elettromagnetico; Aquatarder usa acqua al posto dell’olio."
+      ]
+    },
+    {
+      "number": 28623,
+      "text": "缓速器是持续制动装置，单靠它无法保证在所有情况下停车；停车需要行车制动器。",
+      "evidence": [
+        "Telma, FAQ, https://www.telma.com/produits/faq-ralentisseur: il rallentatore agisce quasi fino all’arresto, completato dai freni di servizio."
+      ]
+    },
+    {
+      "number": 28624,
+      "text": "灰尘和泥土可能堵塞通风通道，因此需要定期检查和清洁，以便散热。",
+      "evidence": [
+        "Telma, Operation manual, p. 12, https://www.telma.com/documents/gestion/operation_manual_telma.pdf: controllare periodicamente che fango e polvere non ostruiscano ventilazione e bobine; Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: pulizia periodica dei rallentatori."
+      ]
+    },
+    {
+      "number": 28625,
+      "text": "按本题的一般比较，电磁式更容易发热，必须散去制动时产生的热量。",
+      "evidence": [
+        "Egaf, Tecnica veicoli, § 241.12.3, pp. 35–37, https://www.serformazione.it/data/uploads/docs/3974EA7E-9E39-11EC-92F1-41634E5F79CB.pdf: confronto generale del riscaldamento e necessità di dissipare calore."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "03d1376fb4f6cfce972c81912fcafbe2d44b9d124825966d0ea28522ea0913fe",
+    "output_sha256": "6be974660002ed728ceb9b1842f54cef6283f8639ce4710e6a86106eb71f83cf",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / retarder-installation-rereview-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      28601,
+      28602,
+      28603,
+      28604,
+      28605,
+      28606,
+      28607,
+      28608,
+      28609,
+      28610,
+      28611,
+      28612,
+      28613,
+      28614,
+      28615,
+      28616,
+      28617,
+      28618,
+      28619,
+      28620,
+      28621,
+      28622,
+      28623,
+      28624,
+      28625
+    ],
+    "issues": [],
+    "reviewer_evidence": [
+      "28610: Independently inspected Renault UK manufacturer brochure https://www.renault-trucks.co.uk/sites/default/files/2024-01/com9852_0.pdf, retrieved local copy SHA-256 8b0a642cb8cbaf373df8e73faadbd81a0c69338269d9fd4fe9fb854d996e55ce. PDF/printed page 24 image identifies retarder control on steering wheel; page 34 specifies hydraulic on gearbox or electric on driveline depending on model. The originally cited manufacturer host timed out in reviewer browser; the alternate UK manufacturer host was used.",
+      "28611: Independently inspected EP4450343A1 indexed full text; proposed hydraulic transmission and electromagnetic driveline retarders are not proof of commercial approval or the quiz meaning of series."
+    ],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eab5-46b1-76a3-b57f-5350ca1c13e5",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "439eefa1ec82101981355b2a0192d9e41a695682b6f6cd5043030a3c9a6c2ce8",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eab5-46b1-76a3-b57f-5350ca1c13e5",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28611,
+              "reason": "Il quesito esclude la possibilità di montare insieme i due tipi se disposti in serie, ma fonti tecniche descrivono sistemi che combinano i principi idraulico ed elettromagnetico. Non è chiaro se la formulazione intenda escludere una specifica disposizione di due unità separate o ogni combinazione; le fonti non chiariscono il motivo del FALSO stampato.",
+              "checked_sources": [
+                "Ministero delle infrastrutture e dei trasporti, quiz superiori n. 28611, https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDE%2BSUPERIORI23-10.pdf/8673967c-c17e-421d-8f67-b711a33194c1: affermazione e verdetto FALSO stampato.",
+                "US patent 6578681 B1, https://patents.google.com/patent/US6578681B1/en: descrive un sistema combinato elettromagnetico e idraulico per veicoli, senza stabilire se corrisponda alle due unità in serie del quesito.",
+                "Dogan e Aydogan, Vehicle Retarder Systems, 2021, § 3, https://dergipark.org.tr/tr/download/article-file/1537284: presenta i due sistemi secondari come alternativi; non risolve la possibilità di una disposizione in serie."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "439eefa1ec82101981355b2a0192d9e41a695682b6f6cd5043030a3c9a6c2ce8",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": []
+  }
+}

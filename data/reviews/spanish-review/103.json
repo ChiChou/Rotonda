@@ -1,0 +1,31 @@
+{
+  "batch": "103",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "0d1798ad912a1f07d50c8fdd87c8f3fb8ca56e52512d6ab919722bdc01df2e5a",
+  "source_sha256": "e8759055d5b482dfc3e974521a83dc1dfda66b5b97c4d95c40ef704ca0503077",
+  "corrections": [
+    {
+      "id": "8952d2b74d09235a7f60a2459a352232a174f5b43f113ecfd91b66612bbf7875",
+      "before": "Si se producen daños a personas, material u otras mercancías, o gastos causados por embalaje imperfecto o sujeción defectuosa o inadecuada de las mercancías, la responsabilidad es del transportista incluso cuando haya señalado las anomalías en la carta de porte",
+      "after": "Si se producen daños a personas, material u otras mercancías, o gastos causados por embalaje imperfecto o sujeción defectuosa o inadecuada de las mercancías en el vehículo, la responsabilidad es del transportista incluso cuando haya señalado las anomalías en la carta de porte",
+      "reason": "Se recupera que la sujeción inadecuada de las mercancías es en el vehículo."
+    },
+    {
+      "id": "8988b38eb18142bad9fdc131a7e865df739678d8ed2e7c682040d07afabf83d8",
+      "before": "El transporte por carretera se caracteriza, en ciertos casos, por la rapidez y eficiencia del servicio",
+      "after": "El transporte por carretera se caracteriza, en ciertos casos, por la oportunidad y eficiencia del servicio",
+      "reason": "Se refleja tempestività como oportunidad del servicio y no solo rapidez."
+    }
+  ],
+  "reviewed_file_sha256": "d1fda96c3affffba6223240ac1d7641091ef294f22946150b2bc5d136e118b47"
+}

@@ -1,0 +1,104 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "revisione_ab",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/revisione-ab-it.pdf",
+    "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 20439,
+          "quesito_id": 4187,
+          "text_it": "Il segnale raffigurato obbliga a rallentare per essere pronti a fermarsi in caso di segnalazione da parte degli agenti",
+          "answer": 0,
+          "page": 51,
+          "bank": "revisione_ab",
+          "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+          "figures": [
+            {
+              "path": "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png",
+              "sha256": "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f",
+              "page": 51,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4d3f2ebb4ee753f1c083302ad2914c40a0171d4806b437d1646ddbf19b14a7b0",
+        "localized_text": "La señal mostrada obliga a reducir la velocidad para estar preparado para detenerse si los agentes lo indican"
+      },
+      {
+        "source": {
+          "number": 22283,
+          "quesito_id": 4374,
+          "text_it": "Il conducente deve regolare la velocità in relazione alla propria abilità alla guida",
+          "answer": 0,
+          "page": 86,
+          "bank": "revisione_ab",
+          "pdf_sha256": "61066cc0f3ec09fa1855c2b5f1efa6175c9442cb25daf9625d20c999e05977ba",
+          "figures": []
+        },
+        "source_sha256": "658509ae1b8167c38312f82b094c8a91ec5a672f39fe94ea834b2bf3e959efe3",
+        "localized_text": "El conductor debe ajustar la velocidad según su habilidad para conducir"
+      }
+    ],
+    "task_sha256": "b9e3e6b32e6b733aa51e89f5bbe12404dd0796dbf8fe122b2ed0dd10cf21d0e8"
+  },
+  "rows": [
+    {
+      "number": 20439,
+      "text": "La señal ALT POLIZIA indica un puesto de control policial donde es obligatorio detenerse, aunque los agentes no hagan otra señal. No basta con reducir la velocidad y estar preparado para detenerse.",
+      "evidence": [
+        "D.P.R. 16 dicembre 1992 n. 495, art. 123, comma 3, figura II.98: ALT POLIZIA segnala un posto di blocco al quale è obbligatorio fermarsi; il segnale è ripetuto al punto di arresto. https://olympus.uniurb.it/index.php?option=com_content&view=article&id=15022%3Adpr49592"
+      ]
+    },
+    {
+      "number": 22283,
+      "text": "La velocidad debe adaptarse a las condiciones de circulación, por ejemplo, al tráfico y al clima, para poder detenerse dentro del tramo visible y libre de obstáculos. No se elige según la habilidad que uno cree tener al conducir.",
+      "evidence": [
+        "D.M. 12 marzo 2015 n. 46, allegato, punto 9.3.7: adeguamento della velocità alle condizioni di traffico e climatiche e arresto entro il tratto visibile e libero. https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=15G00059&atto.dataPubblicazioneGazzetta=2015-04-22&tipoDettaglio=originario"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "b9e3e6b32e6b733aa51e89f5bbe12404dd0796dbf8fe122b2ed0dd10cf21d0e8",
+    "output_sha256": "ac9ed027b45855221687b2a4c210b57f76bfa53914a8393bdee3098c4b5fd1a0",
+    "reviewer": "gpt-6.1-terra / 01a1e988-a3ba-7a21-9889-8caf272ea20f",
+    "status": "accepted",
+    "checked_numbers": [
+      20439,
+      22283
+    ],
+    "issues": [],
+    "author": "gpt-6.1-terra / 01a1e987-aeef-7661-a442-0e83eb17ad37",
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "430b9efbf87f00be1340649dc65ee40486646b5e1011bccf1ae3881015f5e0ba",
+        "attached_image_paths": [
+          "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png"
+        ],
+        "attached_image_sha256": [
+          "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "9c199b6d203cd73dacb929ed91ea6d0e36e6af8148077a8e8543df8280d0072e",
+        "attached_image_paths": [
+          "source/images/b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f.png"
+        ],
+        "attached_image_sha256": [
+          "b23f85d7914ff498f8a6a5b12f673a3ff04f2775b82668e82d5c615eeaf0022f"
+        ]
+      }
+    }
+  }
+}

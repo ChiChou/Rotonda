@@ -1,0 +1,31 @@
+{
+  "batch": "182",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "df21dfcc6742f9a9053072cfc389f37effeeb89806b9bdc6c50b490aa3d03333",
+  "source_sha256": "c182bdb51160ea481daadcb30c46aecd127fa33f12f423fc8b0cc02d35c3d42b",
+  "corrections": [
+    {
+      "id": "f14683466644dc8b87f2d61112dc1d848f4ee3aedf921b45d6310a19c975e560",
+      "before": "Ante la señal mostrada están prohibidos el estacionamiento y la detención tanto en la subida como en la bajada",
+      "after": "Ante la señal mostrada están prohibidos el estacionamiento y la parada tanto en la subida como en la bajada",
+      "reason": "Distingue fermata, parada temporal, de sosta."
+    },
+    {
+      "id": "f1d4097f05802ba2df8081a6964d680bbd1818ef8c460277c4442cba2f66f5a3",
+      "before": "El cronotacógrafo digital es un instrumento que registra las distancias, velocidades y tiempos de conducción y descanso del conductor",
+      "after": "El cronotacógrafo digital es un instrumento de medición que registra las distancias, velocidades y tiempos de conducción y descanso del conductor",
+      "reason": "Restituye que es un instrumento de medición."
+    }
+  ],
+  "reviewed_file_sha256": "00bc0b0e65700d382feb1e0b86e731ef448d2a0a8cfabefaed7fc3c4a21e6579"
+}

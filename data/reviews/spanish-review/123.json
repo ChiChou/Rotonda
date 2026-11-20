@@ -1,0 +1,37 @@
+{
+  "batch": "123",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "6e379027e47c280bcf502fbae44274abdc071db7ce047e1a5131a846f31ef4d6",
+  "source_sha256": "07c9160a006d5a733fefa571c3d899a49a9639cadea66bec04c75e2ee2981b90",
+  "corrections": [
+    {
+      "id": "a476acd3ed5a22de17aa2b7877ff3cda65e11768a24e02d3a1e1539dec6501b2",
+      "before": "El transporte ferroviario consume más energía que el transporte por carretera",
+      "after": "El transporte ferroviario, comparado con el de carretera, es más costoso en términos energéticos",
+      "reason": "Se conserva el costo en términos energéticos sin reducirlo a consumo físico de energía."
+    },
+    {
+      "id": "a4f5516f85177d492c053004dc5b807ff53b6ba881c5cf6aaf677602c3f3c231",
+      "before": "El distribuidor manual del sistema de frenos neumático controla el cilindro de doble cámara actuando sobre el elemento de resorte",
+      "after": "El distribuidor manual del sistema de frenos neumático controla el bielemento de freno actuando sobre el elemento de resorte",
+      "reason": "cilindro de doble camara is not in the Italian; keep the term bielemento"
+    },
+    {
+      "id": "a51a605d786b8e8aa90edd823df0c030ff58cc80a6e0c954a6f20c4df3bb0c28",
+      "before": "El límite máximo de velocidad en vías secundarias fuera de poblado es de 80 km/h para un automóvil que remolca una casa rodante de 750 kilogramos",
+      "after": "El límite máximo de velocidad en vías secundarias fuera de poblado es de 80 km/h para un automóvil que remolca un remolque vivienda de 750 kilogramos",
+      "reason": "Se identifica caravan como remolque vivienda, evitando confundirlo con una autocaravana."
+    }
+  ],
+  "reviewed_file_sha256": "193ef77ff6381977be2fb96905903d3ba1c0f0732e991d40ae9cc0e4b3f6fd20"
+}

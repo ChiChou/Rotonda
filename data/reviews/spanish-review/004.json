@@ -1,0 +1,37 @@
+{
+  "batch": "004",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9c99828ad5d03fd4ce103d391f0167a60a6d7df26af02675d296b40d3123bdfd",
+  "source_sha256": "4b809d6470731253e7ed4459dac9367b6b4824dd30e8d3624b7d3d26e6b2878a",
+  "corrections": [
+    {
+      "id": "05d4b5bcd29fec5765f2b533d729903613b0cbde7d7981168cd9e1adf7d55777",
+      "before": "La señal mostrada indica un área de parada para autobuses",
+      "after": "La señal mostrada indica un apartadero para autobuses",
+      "reason": "Piazzola di sosta designa un apartadero para vehículos y no necesariamente una parada de autobús."
+    },
+    {
+      "id": "06b87f8eb1c58aaebb1bba0bffad4bf80e213ea2027fe257db9d60ad918a9e9a",
+      "before": "Cuando el conductor de un vehículo encuentra una manifestación en una zona poblada, debe actuar según su densidad y adelantarla o interrumpirla si es posible",
+      "after": "Cuando el conductor de un vehículo encuentra un cortejo en una zona poblada, debe actuar según su densidad y adelantarlo o interrumpirlo si es posible",
+      "reason": "Corteo es un cortejo y no necesariamente una manifestación."
+    },
+    {
+      "id": "06f8ffc92c79b5ba5b802c1174b5d1bf84a26b8f3a6a99272aee55fcb4ca44df",
+      "before": "Para circular dentro de la Unión Europea, un vehículo que transporta mercancías por cuenta de terceros debe llevar a bordo el original de la licencia comunitaria",
+      "after": "Para circular dentro de la Unión Europea, un vehículo que realiza transporte por cuenta de terceros debe llevar a bordo el original de la licencia comunitaria",
+      "reason": "El original no limita el transporte por cuenta de terceros al de mercancías."
+    }
+  ],
+  "reviewed_file_sha256": "3c6e558fec20447ec76bfe7bf55976205c6db7ac6302c0f0ebcf8f3cc0519677"
+}

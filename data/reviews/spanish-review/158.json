@@ -1,0 +1,55 @@
+{
+  "batch": "158",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "953f8d7aefeef1b2088e03af56f45b36bbd6c9adf8318798e9a1194bcbc57720",
+  "source_sha256": "feda3ab4d33a144f314de847dea16a19e7be0e5d6fb8ffcbcff22363ffb8f07a",
+  "corrections": [
+    {
+      "id": "d0b284fae2fc42fa520bc1080cde8165306dd0a384cc80336b75fc8082c5db7c",
+      "before": "Si la dirección vibra, conviene revisar el equilibrado de las ruedas delanteras",
+      "after": "Si la dirección vibra, conviene hacer revisar el equilibrado de las ruedas delanteras",
+      "reason": "Far controllare indica mandar revisar el equilibrado."
+    },
+    {
+      "id": "d0bbd0fd84507b9681bcfb74d3186c9d80a9b3dab4d1ed1d332633601c0a3b54",
+      "before": "En el contrato de transporte de personas, el transportista no es responsable de la pérdida o deterioro del equipaje salvo que el pasajero pueda demostrar que el daño fue causado por él",
+      "after": "En el contrato de transporte de personas, el transportista no es responsable de la pérdida o deterioro del equipaje salvo que el pasajero pueda demostrar que el daño fue causado por el transportista",
+      "reason": "Aclara que el causante referido es el transportista."
+    },
+    {
+      "id": "d0d05faec73dea39c6949e694c481c9f0e01535730a72e5865ad594abf29e0a2",
+      "before": "15##tipología15 CQC",
+      "after": "15##tipologia15 CQC",
+      "reason": "Technical code: keep 'tipologia' as in the Italian, not 'tipología'"
+    },
+    {
+      "id": "d139c0cadf609a17b519dd9839348f37172dc2782110ccc71b88900cf5fa4839",
+      "before": "Los cinturones de seguridad deben ser de tipo homologado y mantenerse siempre en buen estado",
+      "after": "Los cinturones de seguridad deben ser de tipo homologado y mantenerse siempre en buen funcionamiento",
+      "reason": "Efficienti indica que funcionen correctamente."
+    },
+    {
+      "id": "d14eff54ba2992fd5af15e92f4cc793299f8a8f0aebce83c46b05bf161803f88",
+      "before": "La isla de tráfico es una zona de estacionamiento para vehículos",
+      "after": "La isla de tráfico es un apartadero para vehículos",
+      "reason": "Piazzola di sosta indica un apartadero vial."
+    },
+    {
+      "id": "d1ca8fa613b2fbeabba61243e2d3c85b4c3d3eb28b3739a85fe90217d81a5535",
+      "before": "Durante la colocación del triángulo móvil de peligro, el conductor no debe usar el chaleco de alta visibilidad si está en carriles de emergencia o zonas de estacionamiento",
+      "after": "Durante la colocación del triángulo móvil de peligro, el conductor no debe usar el chaleco de alta visibilidad si está en carriles de emergencia o apartaderos",
+      "reason": "Piazzole di sosta indica apartaderos viales."
+    }
+  ],
+  "reviewed_file_sha256": "3623cf351e7da344c5ad72ba2f8ab827befe28e9b0680d6ffca87e066f6ce3b8"
+}

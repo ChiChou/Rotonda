@@ -1,0 +1,25 @@
+{
+  "batch": "088",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ce8c65c9338ecc77ac4c7b54ec5f97a4fbc986d07ab802df13c9fef645aa9176",
+  "source_sha256": "0391c7470fcae280da22e23af995d40d3df33150735c9c33472240b4614ad817",
+  "corrections": [
+    {
+      "id": "742c6e58c823080874f01d88d6bd0d06ff5e3cfce42c05a338f319c638a1fa5d",
+      "before": "03##tipología3 CQC",
+      "after": "03##tipologia3 CQC",
+      "reason": "Se conserva sin alterar el marcador estructural 03##tipologia3 del original."
+    }
+  ],
+  "reviewed_file_sha256": "53e7d4fde0c45756b0f6b70b41485678e093bda8cb4963f089200634f5042c1c"
+}

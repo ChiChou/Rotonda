@@ -1,0 +1,980 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 30187,
+          "quesito_id": 6217,
+          "text_it": "Nei mesi estivi, la pressione di gonfiaggio degli pneumatici può essere controllata con meno frequenza perché l’alta temperatura dell’asfalto la mantiene regolare",
+          "answer": 0,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "d70f2e2f507621dbf9e95327aa342df4b8e72f852bcf9ea5a5234d4e09c35751",
+        "localized_text": "夏季可以较少检查轮胎气压，因为高温沥青会使气压保持稳定。"
+      },
+      {
+        "source": {
+          "number": 30188,
+          "quesito_id": 6217,
+          "text_it": "La bassa pressione di gonfiaggio degli pneumatici diminuisce la loro deriva",
+          "answer": 0,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c0f864652ca913d1d93fdd2cf74116eaa4304e2783bb7c363cc5956b305685cf",
+        "localized_text": "轮胎充气压力低会减小侧偏。"
+      },
+      {
+        "source": {
+          "number": 30189,
+          "quesito_id": 6218,
+          "text_it": "Una ruota può essere squilibrata per effetto di depositi solidi quali ghiaietto incastrato, fango, catrame",
+          "answer": 1,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f765c9e5b9ae4c79529fe6a45286849ae27bd42467d6e1cd2012253b7f5ff5e6",
+        "localized_text": "嵌入的碎石、泥土或沥青等固体沉积物可能使车轮失衡。"
+      },
+      {
+        "source": {
+          "number": 30190,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota può portare a saltellamenti o sfarfallamenti della ruota stessa",
+          "answer": 1,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c27ee0c74788bbc0938bdeeddb323207aee106ce1fff09e81c2347469dc82b0b",
+        "localized_text": "车轮失衡可能导致车轮跳动或摆动。"
+      },
+      {
+        "source": {
+          "number": 30191,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota può avere effetti sullo sterzo",
+          "answer": 1,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6614fb20c8c15e7701e9210e9f33997d4823f4aaf83ed033bbf9f732aac5ebfe",
+        "localized_text": "车轮失衡可能影响转向。"
+      },
+      {
+        "source": {
+          "number": 30192,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota deve essere corretta in officina specializzata con l’utilizzazione di appositi contrappesi",
+          "answer": 1,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9ff64c29d38baccdeac40450ba2f36d0c9d1d5c8e40e0093b6b3579a83b3d7c2",
+        "localized_text": "车轮失衡必须由专业维修厂使用适当平衡块纠正。"
+      },
+      {
+        "source": {
+          "number": 30193,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota porta a consumi anomali dello pneumatico",
+          "answer": 1,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7354122d65a91e1d17c38255cd49832e383bac2a55a036d85ae55d6da9c22573",
+        "localized_text": "车轮失衡会导致轮胎异常磨损。"
+      },
+      {
+        "source": {
+          "number": 30194,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota peggiora la stabilità di marcia del veicolo",
+          "answer": 1,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "113f2656b1fb7b3348fae0338e4632539c077e46b924fc152ea0165c97b6f28a",
+        "localized_text": "车轮失衡会降低车辆行驶稳定性。"
+      },
+      {
+        "source": {
+          "number": 30195,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota è indicata da apposita spia rossa posta sul cruscotto",
+          "answer": 0,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "59f52a32cdcebde6779f9922643a58dcaa6b1ab622102ba68ffa900c601c0633",
+        "localized_text": "车轮失衡由仪表板上的专用红色警告灯指示。"
+      },
+      {
+        "source": {
+          "number": 30196,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota può essere eliminata variando l’angolo di campanatura delle ruote del veicolo",
+          "answer": 0,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e4c3a8423405bec19c73f821bad1e828e96788289b6b8f572e3415deb9369652",
+        "localized_text": "改变车轮外倾角可以消除车轮失衡。"
+      },
+      {
+        "source": {
+          "number": 30197,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota può essere eliminata variando l’angolo di convergenza delle ruote del veicolo",
+          "answer": 0,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bbeb66d22d6ca23ff9e7fdc2362cc49c9cc63f49d9ab057b1aa95477b1a96d28",
+        "localized_text": "改变车轮前束角可以消除车轮失衡。"
+      },
+      {
+        "source": {
+          "number": 30198,
+          "quesito_id": 6218,
+          "text_it": "In uno pneumatico tubeless, il saltellamento di una ruota squilibrata può essere eliminato introducendo una camera d’aria",
+          "answer": 0,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7f5f445e05604dea074a76f458803ff5c2de44f4e8ee775c4558ad1f18d17f81",
+        "localized_text": "无内胎轮胎因车轮失衡而跳动时，可以通过加装内胎消除。"
+      },
+      {
+        "source": {
+          "number": 30199,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota può essere eliminata aumentando la pressione di 0,2 bar",
+          "answer": 0,
+          "page": 129,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3603fb75dc784347f8d493e86a0e811cf3be697c96968c719d8f096b82e254da",
+        "localized_text": "将气压提高0.2巴可以消除车轮失衡。"
+      },
+      {
+        "source": {
+          "number": 30200,
+          "quesito_id": 6218,
+          "text_it": "La squilibratura di una ruota può essere eliminata diminuendo la pressione di 0,4 bar",
+          "answer": 0,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2715dc2879ef479f55846742b067f5067674e7bb1f357e5cee6cedd29c20033d",
+        "localized_text": "将气压降低0.4巴可以消除车轮失衡。"
+      },
+      {
+        "source": {
+          "number": 30201,
+          "quesito_id": 6219,
+          "text_it": "In caso di foratura o anomalia ad uno pneumatico occorsa durante il servizio, bisogna rallentare e fermarsi appena è possibile farlo in sicurezza",
+          "answer": 1,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c115d1eda548192b31a9167f6c8e3c9d9cf85af9852645d42be83c1d3895e09b",
+        "localized_text": "运营期间轮胎扎破或出现异常时，必须减速并在安全可行时尽快停车。"
+      },
+      {
+        "source": {
+          "number": 30202,
+          "quesito_id": 6219,
+          "text_it": "La maggior usura del battistrada sul lato interno rispetto a quello esterno è attribuibile anche ad un'eccessiva convergenza delle ruote",
+          "answer": 1,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0349bf374afaaa932c7e80a22ecda0c1790eafca3b1138ef9fd5c9c879217d79",
+        "localized_text": "胎面内侧比外侧磨损更严重也可能由车轮前束过大引起。"
+      },
+      {
+        "source": {
+          "number": 30203,
+          "quesito_id": 6219,
+          "text_it": "In caso di lunghi viaggi è opportuno controllare periodicamente la temperatura del battistrada",
+          "answer": 1,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5beb051c023674f33af9fb83bea0d4fc56f497a3f2d4275439c34cfa9c242319",
+        "localized_text": "长途行程中宜定期检查胎面温度。"
+      },
+      {
+        "source": {
+          "number": 30204,
+          "quesito_id": 6219,
+          "text_it": "La pressione di gonfiaggio di uno pneumatico è indicata generalmente in bar",
+          "answer": 1,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3f7b50b5d67f1c513ba45d1501060e39d959f90631accd4b53e0647c3683b47f",
+        "localized_text": "轮胎充气压力通常以巴表示。"
+      },
+      {
+        "source": {
+          "number": 30205,
+          "quesito_id": 6219,
+          "text_it": "In caso di foratura o anomalia ad uno pneumatico occorsa durante il servizio, è necessario sostituirlo subito ovunque ci si trovi, lasciando a bordo del veicolo i passeggeri per salvaguardare la loro incolumità",
+          "answer": 0,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5a4eb9f565c54e1904e2ed09ea31b59dbc23da40584f9419f0053fe0661b973a",
+        "localized_text": "运营期间轮胎扎破或出现异常时，无论身处何处都必须立即更换，并让乘客留在车上以保障安全。"
+      },
+      {
+        "source": {
+          "number": 30206,
+          "quesito_id": 6219,
+          "text_it": "La maggior usura del battistrada sul lato interno rispetto a quello esterno è attribuibile esclusivamente a una cattiva bilanciatura delle ruote",
+          "answer": 0,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a424d07605f969a87027178aaa1761f753581de9cdd8a3beabf49ba029b8a7e5",
+        "localized_text": "胎面内侧比外侧磨损更严重完全由车轮动平衡不良引起。"
+      },
+      {
+        "source": {
+          "number": 30207,
+          "quesito_id": 6219,
+          "text_it": "In caso di lunghi viaggi occorre fermarsi periodicamente solo per raffreddare gli pneumatici",
+          "answer": 0,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f2d97b7436161debe379f13489ab666588c7c1906537053a9489689c7d821593",
+        "localized_text": "长途行程中定期停车只是为了冷却轮胎。"
+      },
+      {
+        "source": {
+          "number": 30208,
+          "quesito_id": 6219,
+          "text_it": "La pressione di gonfiaggio di uno pneumatico si esprime generalmente in atmosfere",
+          "answer": 0,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5ef724749436fd1fc9cb9df7d597aab20c0c64c7b11f2e3d8fbe1291ac2eb3dd",
+        "localized_text": "轮胎充气压力通常以大气压表示。"
+      },
+      {
+        "source": {
+          "number": 30209,
+          "quesito_id": 6219,
+          "text_it": "La pressione di gonfiaggio di uno pneumatico è un dato che è generalmente riportato sul fianco degli pneumatici",
+          "answer": 0,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ede6531ae7ee328a0f2443e08ce62f423d2de490ff4363be8d4a529b881debaa",
+        "localized_text": "轮胎充气压力通常标在胎侧上。"
+      },
+      {
+        "source": {
+          "number": 30210,
+          "quesito_id": 6220,
+          "text_it": "Il montaggio di pneumatici alternativi a quelli precedentemente utilizzati è ammesso se i nuovi sono tra quelli riportati sulla carta di circolazione",
+          "answer": 1,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6621ef24ca29e9fad75c54970b0c4e40d6ee9eda8ef9068592493778798602b5",
+        "localized_text": "新轮胎属于行驶证列出的类型时，可以安装替代原轮胎的轮胎。"
+      },
+      {
+        "source": {
+          "number": 30211,
+          "quesito_id": 6220,
+          "text_it": "Il montaggio di pneumatici alternativi a quelli precedentemente utilizzati è ammesso se i nuovi sono consigliati e garantiti da un gommista iscritto all’albo dei manutentori",
+          "answer": 0,
+          "page": 130,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0c942077785d5ca5b3d5bb4b0f0439acbdde168273767031a428d39948493574",
+        "localized_text": "如果新轮胎由登记在册的轮胎维修商推荐并保证，可以安装替代原轮胎的轮胎。"
+      }
+    ],
+    "task_sha256": "245a3f3ea2ead20f372f2dce374f936d842f8db05ad468603d1869eeefec284c"
+  },
+  "rows": [
+    {
+      "number": 30187,
+      "text": "热量会改变胎压，并不会使胎压保持正确。夏季也应定期在轮胎冷却时检查胎压。",
+      "evidence": [
+        "Michelin, truck and bus tyre pressure: https://b2b.middle-east.michelin.com/help-advice/truck/truck-bus-tyre-the-right-pressure — check cold regularly; pressure rises in use, underinflation increases temperature, and an unusually hot tyre needs inspection."
+      ]
+    },
+    {
+      "number": 30188,
+      "text": "胎压过低会降低轮胎的侧向刚度，因此在相同侧向力下，侧偏角可能增大。",
+      "evidence": [
+        "M. Jagicza, L. I. Nagy and I. Lakatos, Influence of Tire Pressure Distribution on Vehicle Cornering, Vehicles 2026: https://www.mdpi.com/2624-8921/8/7/154 — lower inflation reduces cornering stiffness and increases slip angle at comparable lateral acceleration."
+      ]
+    },
+    {
+      "number": 30189,
+      "text": "泥、沥青或碎石如果分布不均，会给车轮局部增加质量，可能破坏车轮平衡。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "Navistar, IK1700018, CV Vibration - wheels, step 3: https://static.nhtsa.gov/odi/tsbs/2020/MC-10170959-0001.pdf — mud, snow or debris on the assembly may affect wheel balance; uneven deposits of other solid material have the same mass-distribution effect, an inference from the balancing principle."
+      ]
+    },
+    {
+      "number": 30190,
+      "text": "质量分布不均会在车轮转动时产生作用力，使车轮上下跳动或左右摆动。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "Michelin FAQ, tire balance: https://www.michelinman.com/auto/assistance/michelin-faqs — imbalance produces wheel hop or side-to-side shimmy."
+      ]
+    },
+    {
+      "number": 30191,
+      "text": "车轮不平衡产生的振动可能传到转向系统，使行驶不够平稳。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "Continental, balancing tires: https://www.continental-tires.com/tire-knowledge/balancing-tires/ — imbalance produces vibrations and affects steering components."
+      ]
+    },
+    {
+      "number": 30192,
+      "text": "维修人员用动平衡机找出不平衡的位置，再加装平衡块，补偿质量分布不均。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement."
+      ]
+    },
+    {
+      "number": 30193,
+      "text": "不平衡会使车轮跳动，可能造成胎面不均匀磨损，形成局部磨损较严重的区域。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "Michelin, wheel alignment and balancing: https://www.michelinman.com/auto/auto-tips-and-advice/tire-maintenance/wheel-alignment-wheel-balancing — camber and toe are alignment angles; imbalance is corrected with weights and causes vibration and cupped wear."
+      ]
+    },
+    {
+      "number": 30194,
+      "text": "不平衡车轮的摆动除造成振动外，还可能影响车辆行驶和操控。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "Continental, balancing tires: https://www.continental-tires.com/tire-knowledge/balancing-tires/ — imbalance causes vibrations and affects steering and suspension."
+      ]
+    },
+    {
+      "number": 30195,
+      "text": "仪表盘没有专门表示车轮不平衡的红色警告灯。不平衡常表现为振动，需要检查；胎压警告灯提示的是充气压力问题。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "NHTSA, TireWise, TPMS: https://www.nhtsa.gov/vehicle-safety/tires — pressure monitoring warns of significant underinflation."
+      ]
+    },
+    {
+      "number": 30196,
+      "text": "外倾角是车轮定位角度，不能补偿质量分布不均。车轮不平衡需要做动平衡。",
+      "evidence": [
+        "Michelin, wheel alignment and balancing: https://www.michelinman.com/auto/auto-tips-and-advice/tire-maintenance/wheel-alignment-wheel-balancing — camber and toe are alignment angles; imbalance is corrected with weights and causes vibration and cupped wear."
+      ]
+    },
+    {
+      "number": 30197,
+      "text": "前束涉及车轮的指向，不是质量分布。车轮不平衡需要做动平衡。",
+      "evidence": [
+        "Michelin, wheel alignment and balancing: https://www.michelinman.com/auto/auto-tips-and-advice/tire-maintenance/wheel-alignment-wheel-balancing — camber and toe are alignment angles; imbalance is corrected with weights and causes vibration and cupped wear."
+      ]
+    },
+    {
+      "number": 30198,
+      "text": "内胎用于保持空气，不能纠正车轮的质量分布。由不平衡引起的跳动需要通过动平衡处理。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "Michelin, wheel alignment and balancing: https://www.michelinman.com/auto/auto-tips-and-advice/tire-maintenance/wheel-alignment-wheel-balancing — camber and toe are alignment angles; imbalance is corrected with weights and causes vibration and cupped wear."
+      ]
+    },
+    {
+      "number": 30199,
+      "text": "胎压增加0.2巴不能消除质量不平衡。应按规定值调整胎压并给车轮做动平衡。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "Michelin, truck and bus tyre pressure: https://b2b.middle-east.michelin.com/help-advice/truck/truck-bus-tyre-the-right-pressure — check cold regularly; pressure rises in use, underinflation increases temperature, and an unusually hot tyre needs inspection."
+      ]
+    },
+    {
+      "number": 30200,
+      "text": "胎压降低0.4巴不能消除质量不平衡。应按规定值调整胎压并给车轮做动平衡。",
+      "evidence": [
+        "WEGMANN automotive, Product FAQ, static and dynamic imbalance and balancing weights: https://shop.wegmann-automotive.com/en/Brand-world/Product-FAQ/ — asymmetric wheel mass causes hop or wobble; a balancing machine identifies imbalance and weight placement.",
+        "Michelin, truck and bus tyre pressure: https://b2b.middle-east.michelin.com/help-advice/truck/truck-bus-tyre-the-right-pressure — check cold regularly; pressure rises in use, underinflation increases temperature, and an unusually hot tyre needs inspection."
+      ]
+    },
+    {
+      "number": 30201,
+      "text": "损坏的轮胎可能影响车辆控制。应逐渐减速，并尽快在安全地点停车。",
+      "evidence": [
+        "UK Department for Transport, Highway Code rules 275–276: https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287 — stop in relative safety; leave by the side away from traffic when safe.",
+        "DVSA, Taxi Manual, section 4, blow-outs: https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf — slow gradually and stop under control in a safe place."
+      ]
+    },
+    {
+      "number": 30202,
+      "text": "试题标为 VERO，但所查资料未证实前束过大与内侧磨损存在普遍联系。前束过大通常更易磨损外侧；车轮外八（前束为负）或负外倾角可能造成内侧磨损。原因可能同时存在，应检查车轮定位和悬架。",
+      "evidence": [
+        "https://www.pirelli.com/global/it-it/road/auto/consigli/tutto-quello-che-c-e-da-sapere-sulla-convergenza-47885/ — Pirelli: convergenza positiva e usura esterna, divergenza e usura interna come tendenze.",
+        "https://middle-east.michelin.com/en/auto/advice/tyre-care/wheel-alignment-wheel-balancing — Michelin: campanatura negativa può causare usura interna."
+      ]
+    },
+    {
+      "number": 30203,
+      "text": "长途行驶时检查轮胎，可以发现某个轮胎是否比其他轮胎异常发热。过热可能提示需要检查的问题。",
+      "evidence": [
+        "Michelin, truck and bus tyre pressure: https://b2b.middle-east.michelin.com/help-advice/truck/truck-bus-tyre-the-right-pressure — check cold regularly; pressure rises in use, underinflation increases temperature, and an unusually hot tyre needs inspection."
+      ]
+    },
+    {
+      "number": 30204,
+      "text": "巴是表示充气压力的单位；压力表也可能显示其他单位，例如PSI。",
+      "evidence": [
+        "Michelin, inflate tyres: https://middle-east.michelin.com/en/auto/advice/tyre-pressure/inflate-tyres — gauge displays bar or PSI; recommended pressure is in vehicle information, not the sidewall."
+      ]
+    },
+    {
+      "number": 30205,
+      "text": "不能在任何地点立即换轮胎。应先尽可能到达安全地点，并根据现场情况保护乘客。",
+      "evidence": [
+        "UK Department for Transport, Highway Code rules 275–276: https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287 — stop in relative safety; leave by the side away from traffic when safe."
+      ]
+    },
+    {
+      "number": 30206,
+      "text": "轮胎一侧磨损较严重并非只由不平衡造成：前束或外倾角等定位问题也可能导致这种磨损。",
+      "evidence": [
+        "Michelin, wheel alignment and balancing: https://www.michelinman.com/auto/auto-tips-and-advice/tire-maintenance/wheel-alignment-wheel-balancing — camber and toe are alignment angles; imbalance is corrected with weights and causes vibration and cupped wear.",
+        "Michelin FAQ, one-sided wear: https://www.michelinman.com/auto/assistance/michelin-faqs — toe, camber and other conditions can cause one shoulder to wear faster."
+      ]
+    },
+    {
+      "number": 30207,
+      "text": "停车不仅是为了轮胎，也能让驾驶员休息。适用相关法规的运输还须遵守驾驶休息规定。",
+      "evidence": [
+        "Michelin, truck and bus tyre pressure: https://b2b.middle-east.michelin.com/help-advice/truck/truck-bus-tyre-the-right-pressure — check cold regularly; pressure rises in use, underinflation increases temperature, and an unusually hot tyre needs inspection.",
+        "Regulation (EC) 561/2006, article 7: https://www.legislation.gov.uk/eur/2006/561/article/7/2020-12-31 — requires a driving break for drivers within its scope."
+      ]
+    },
+    {
+      "number": 30208,
+      "text": "胎压通常以巴或PSI等单位表示。大气压也是压力单位，但不是这里通常使用的标示单位。",
+      "evidence": [
+        "Michelin, inflate tyres: https://middle-east.michelin.com/en/auto/advice/tyre-pressure/inflate-tyres — gauge displays bar or PSI; recommended pressure is in vehicle information, not the sidewall."
+      ]
+    },
+    {
+      "number": 30209,
+      "text": "题库判为错误，但表述不够准确：胎侧可能标有最高压力。如果题目指的是车辆的推荐胎压，应查阅制造商资料，而不能根据胎侧限值推断。",
+      "evidence": [
+        "Official quiz, question 30209: https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDE%2BSUPERIORI23-10.pdf/8673967c-c17e-421d-8f67-b711a33194c1 — the general wording is marked FALSO; it does not specify recommended pressure.",
+        "NHTSA-hosted manufacturer tire safety information, Maximum Pressure Indicated on the Tire Sidewall, p. 6: https://static.nhtsa.gov/odi/tsbs/2015/MC-10124213-9999.pdf — the sidewall may show maximum permissible pressure; vehicle recommended pressure may be lower or equal and is given on the vehicle placard or in the manual. Interpreting the quiz as asking for the recommended vehicle pressure is an inference, not its wording."
+      ]
+    },
+    {
+      "number": 30210,
+      "text": "行驶证上列出的替代尺寸是该车辆规定可用的尺寸。还须遵守其他适用的规格和要求。",
+      "evidence": [
+        "MIT, decree 581 of 17 December 2025, section 1.2.6 B: https://www.mit.gov.it/nfsmitgov/files/media/normativa/2025-12/m_inf.A22E495.REGISTRO_DECRETI%28U%29.0000581.17-12-2025.pdf — tyre sizes are recognized when listed in vehicle documents or specified supporting documents."
+      ]
+    },
+    {
+      "number": 30211,
+      "text": "仅凭轮胎技师的建议不能使替代尺寸获准使用：必须核实该尺寸是否适用于车辆，并遵守相关要求。",
+      "evidence": [
+        "MIT, decree 581 of 17 December 2025, section 1.2.6 B: https://www.mit.gov.it/nfsmitgov/files/media/normativa/2025-12/m_inf.A22E495.REGISTRO_DECRETI%28U%29.0000581.17-12-2025.pdf — tyre sizes are recognized when listed in vehicle documents or specified supporting documents."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "245a3f3ea2ead20f372f2dce374f936d842f8db05ad468603d1869eeefec284c",
+    "output_sha256": "2f3ce7b928338cacd8f23050879acc0a852021869c299034bf2c9183ccc9fb3b",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      30187,
+      30188,
+      30189,
+      30190,
+      30191,
+      30192,
+      30193,
+      30194,
+      30195,
+      30196,
+      30197,
+      30198,
+      30199,
+      30200,
+      30201,
+      30202,
+      30203,
+      30204,
+      30205,
+      30206,
+      30207,
+      30208,
+      30209,
+      30210,
+      30211
+    ],
+    "issues": [],
+    "review_evidence": "Independently inspected exact MIT decree 581/2025, Annex A, section 1.2.6 B, PDF page 23, via local copy /tmp/rotonda-mit-decree-581-2025.pdf SHA256 eaa3def18aa44091bff4877aeec0e1750bf839c22726e9ffbc34968a456668a8; browser access to original URL returned 502. The provision concerns the registration procedure described in the decree and recognizes tyre sizes listed on the vehicle document, certificate of conformity or qualifying supplementary technical sheet.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb3e-84f5-7ed0-9240-eacca1cf5bff",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "977395cb631ed0a046004bd42e153f13dfd60ce83fc5dadfd082428b0c4b6268",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb42-b6a5-76f3-9085-edab63cfe746",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ef09931bd7d65133896e777aac564c29940e1497d7684845145308aac04b011c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb42-b6a5-76f3-9085-edab63cfe746",
+        "label": "author-1-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 30202,
+              "reason": "The official question marks as true the claim that greater inner than outer tread wear can also be attributed to excessive toe-in. The checked manufacturer sources describe excessive toe-in as causing outer-shoulder wear and toe-out as causing inner-shoulder wear. The GM single-tire axle-misalignment passage does not assign inner wear specifically to toe-in; no authority was found establishing the claimed causal relationship. Independent adjudication is required without changing the printed verdict.",
+              "checked_sources": [
+                "Official superiori quiz, question 30202, marked VERO: https://www.ilportaledellautomobilista.it/documents/56611/85457073/DOMANDE%2BSUPERIORI23-10.pdf/8673967c-c17e-421d-8f67-b711a33194c1",
+                "Pirelli, Tutto quello che c’è da sapere sulla convergenza: https://www.pirelli.com/global/it-it/road/auto/consigli/tutto-quello-che-c-e-da-sapere-sulla-convergenza-47885/ — excessive toe-in wears the outside; toe-out wears the inside.",
+                "GM 2025 Silverado 4500HD/5500HD/6500HD Owner Manual, p. 285: https://contentdelivery.ext.gm.com/bypass/gma-content-api/resources/sites/GMA/content/staging/MANUALS/9000/MA9501/en_US/1.0/25_CHEV_Silverado_4500HD_5500HD_6500HD_OM_en_US_U_85018323A_2024OCT31.pdf — both outside shoulders indicate toe-in, both inside shoulders toe-out; one tire’s inside or outside wear may indicate toe-in or toe-out combined with axle misalignment without assigning a specific pairing."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ef09931bd7d65133896e777aac564c29940e1497d7684845145308aac04b011c",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "f6351128ff597bfea1a048d6de2d99ba84d332ab71911fe272a0233586cc5426",
+          "output_sha256": "a9dd1efb85a00892b8a760ae749a98edbb337dcb62596004423014724b82d427",
+          "author": "gpt-6.1-terra / 01a1eb3e-84f5-7ed0-9240-eacca1cf5bff",
+          "reviewer": "gpt-6.1-terra / 01a1eb40-ed6e-7c70-a2ac-bae7ab2a6936",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30187,
+            30188,
+            30189,
+            30190,
+            30191,
+            30192,
+            30193,
+            30194,
+            30195,
+            30196,
+            30197,
+            30198,
+            30199,
+            30200,
+            30201,
+            30202,
+            30203,
+            30204,
+            30205,
+            30206,
+            30207,
+            30208,
+            30209,
+            30210,
+            30211
+          ],
+          "issues": [
+            {
+              "number": 30189,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30190,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30191,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30192,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30193,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30194,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30195,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30198,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30199,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30200,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30202,
+              "reason": "GM manual p. 285 states that one steer tire’s inside OR outside wear can indicate toe-in OR toe-out plus axle misalignment; it does not identify excessive toe-in as a cause of inner-edge wear. It also says inside wear on both tires indicates toe-out. The proposed specific causal inference and its applicability to the printed true verdict need authoritative adjudication; retain the printed verdict."
+            },
+            {
+              "number": 30209,
+              "reason": "The question says inflation pressure generally, not recommended vehicle pressure. The explanation switches scope to recommended pressure without identifying that inference; sidewalls can carry pressure values. Verify whether this interpretation is justified and explain the distinction without implying the original wording specifies it."
+            }
+          ]
+        },
+        {
+          "task_sha256": "28901d0973a46e579e1982e2b6a2ec9fa16979c692e8c5036ddc02715a1d2ac3",
+          "output_sha256": "73af31fba920a89902e61ec0a5edc5207a68420185f8533e2a8f746a24b62783",
+          "author": "gpt-6.1-terra / 01a1eb3e-84f5-7ed0-9240-eacca1cf5bff",
+          "reviewer": "gpt-6.1-terra / 01a1eb40-ed6e-7c70-a2ac-bae7ab2a6936",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30187,
+            30188,
+            30189,
+            30190,
+            30191,
+            30192,
+            30193,
+            30194,
+            30195,
+            30196,
+            30197,
+            30198,
+            30199,
+            30200,
+            30201,
+            30202,
+            30203,
+            30204,
+            30205,
+            30206,
+            30207,
+            30208,
+            30209,
+            30210,
+            30211
+          ],
+          "issues": [
+            {
+              "number": 30189,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30190,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30191,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30192,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30193,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30194,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30195,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30198,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30199,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30200,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30202,
+              "reason": "GM manual p. 285 states that one steer tire’s inside OR outside wear can indicate toe-in OR toe-out plus axle misalignment; it does not identify excessive toe-in as a cause of inner-edge wear. It also says inside wear on both tires indicates toe-out. The proposed specific causal inference and its applicability to the printed true verdict need authoritative adjudication; retain the printed verdict."
+            },
+            {
+              "number": 30209,
+              "reason": "The question says inflation pressure generally, not recommended vehicle pressure. The explanation switches scope to recommended pressure without identifying that inference; sidewalls can carry pressure values. Verify whether this interpretation is justified and explain the distinction without implying the original wording specifies it."
+            }
+          ]
+        },
+        {
+          "task_sha256": "245a3f3ea2ead20f372f2dce374f936d842f8db05ad468603d1869eeefec284c",
+          "output_sha256": "274ab43898b28401a34247e2e4b9543d20eda460e69d269a17a4215af7fe2c4f",
+          "author": "gpt-6.1-terra / 01a1eb3e-84f5-7ed0-9240-eacca1cf5bff",
+          "reviewer": "gpt-6.1-terra / 01a1eb40-ed6e-7c70-a2ac-bae7ab2a6936",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30187,
+            30188,
+            30189,
+            30190,
+            30191,
+            30192,
+            30193,
+            30194,
+            30195,
+            30196,
+            30197,
+            30198,
+            30199,
+            30200,
+            30201,
+            30202,
+            30203,
+            30204,
+            30205,
+            30206,
+            30207,
+            30208,
+            30209,
+            30210,
+            30211
+          ],
+          "issues": [
+            {
+              "number": 30189,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30190,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30191,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30192,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30193,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30194,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30195,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30198,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30199,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30200,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30202,
+              "reason": "GM manual p. 285 states that one steer tire’s inside OR outside wear can indicate toe-in OR toe-out plus axle misalignment; it does not identify excessive toe-in as a cause of inner-edge wear. It also says inside wear on both tires indicates toe-out. The proposed specific causal inference and its applicability to the printed true verdict need authoritative adjudication; retain the printed verdict."
+            },
+            {
+              "number": 30209,
+              "reason": "The question says inflation pressure generally, not recommended vehicle pressure. The explanation switches scope to recommended pressure without identifying that inference; sidewalls can carry pressure values. Verify whether this interpretation is justified and explain the distinction without implying the original wording specifies it."
+            }
+          ]
+        },
+        {
+          "task_sha256": "f3ba28ea116b9e6174f173fcb40c69aa633675a55e66b81f3efd7509e423dad0",
+          "output_sha256": "ca2f716d874961b2c10e7af9fb64073d48cdb5fbc72481058a515b8cbea76373",
+          "author": "gpt-6.1-terra / 01a1eb3e-84f5-7ed0-9240-eacca1cf5bff",
+          "reviewer": "gpt-6.1-terra / 01a1eb40-ed6e-7c70-a2ac-bae7ab2a6936",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30187,
+            30188,
+            30189,
+            30190,
+            30191,
+            30192,
+            30193,
+            30194,
+            30195,
+            30196,
+            30197,
+            30198,
+            30199,
+            30200,
+            30201,
+            30202,
+            30203,
+            30204,
+            30205,
+            30206,
+            30207,
+            30208,
+            30209,
+            30210,
+            30211
+          ],
+          "issues": [
+            {
+              "number": 30189,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30190,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30191,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30192,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30193,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30194,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30195,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30198,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30199,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30200,
+              "reason": "The cited Michelin routine tire care URL currently contains no tire-balancing section or the balancing claims attributed to it. Replace this citation with an accessible authoritative source supporting the specific claim; independently verify any other cited source."
+            },
+            {
+              "number": 30202,
+              "reason": "GM manual p. 285 states that one steer tire’s inside OR outside wear can indicate toe-in OR toe-out plus axle misalignment; it does not identify excessive toe-in as a cause of inner-edge wear. It also says inside wear on both tires indicates toe-out. The proposed specific causal inference and its applicability to the printed true verdict need authoritative adjudication; retain the printed verdict."
+            },
+            {
+              "number": 30209,
+              "reason": "The question says inflation pressure generally, not recommended vehicle pressure. The explanation switches scope to recommended pressure without identifying that inference; sidewalls can carry pressure values. Verify whether this interpretation is justified and explain the distinction without implying the original wording specifies it."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

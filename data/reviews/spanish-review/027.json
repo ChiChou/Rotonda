@@ -1,0 +1,31 @@
+{
+  "batch": "027",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "6f2120cb4cfb880bb55309b96474cb869ecf5b4c806ed91d23101c4871937193",
+  "source_sha256": "d547eddacde37e9619474b5eab58e3ab49441850b52eb2f2953716bcac5458ed",
+  "corrections": [
+    {
+      "id": "246323f08d83f8853da177e519024036140a54a1e27232faa3dc79e5bea81c51",
+      "before": "El conductor de un SUV debe manejar con máxima prudencia, consciente de que la altura y la masa del vehículo representan un peligro potencial para peatones, ciclistas y automóviles pequeños",
+      "after": "El conductor de un vehículo todoterreno (SUV) debe manejar con máxima prudencia, consciente de que la altura y la masa del vehículo representan un peligro potencial para peatones, ciclistas y automóviles pequeños",
+      "reason": "Restituye la descripción de vehículo todoterreno junto a SUV."
+    },
+    {
+      "id": "24a385b6ee7eef49c3cf4f988ccec68b2008724635731a4db80de33f43b6f6d0",
+      "before": "Todos los transportes realizados en el Espacio Económico Europeo están exentos de la aplicación del CMR",
+      "after": "Todos los transportes realizados en el EEE (Espacio Económico Europeo) están exentos de la aplicación del CMR",
+      "reason": "Conserva la sigla del Espacio Económico Europeo y explica su significado."
+    }
+  ],
+  "reviewed_file_sha256": "cf2e042e2b272cebd1d14970c84e6ac47ee10bb3f8eb2316e3991fa47b44505f"
+}

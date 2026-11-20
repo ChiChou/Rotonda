@@ -1,0 +1,55 @@
+{
+  "batch": "172",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "12dfe6f414ef2e99938b7b476a2ad2950a8185ce6398e80bbfc52c921df4de5a",
+  "source_sha256": "540cc9a2b7d5e96ec793da94a49bb66d6214d8a1b9c418298b05bea4cde68ec8",
+  "corrections": [
+    {
+      "id": "e3a2d9879f3020374151e646c673a1131724e8ef44157d882e3cf990b783c605",
+      "before": "El combustible diésel inyectado en los cilindros de un motor debe pulverizarse finamente",
+      "after": "El combustible diésel inyectado en los cilindros de un motor diésel debe pulverizarse finamente",
+      "reason": "Restituye el tipo de motor indicado en el original."
+    },
+    {
+      "id": "e3c9a1632b12ba514827679c4c28d95d23684cb1700b75f1e152df7b30d53bf4",
+      "before": "La señal mostrada obliga a los vehículos con masa por eje superior a 2,5 toneladas a avanzar a paso de peatón",
+      "after": "La señal mostrada obliga a los vehículos con masa por eje superior a 2,5 toneladas a avanzar a velocidad de peatón",
+      "reason": "'a passo d'uomo' means walking pace, not a pedestrian crossing"
+    },
+    {
+      "id": "e46ebd03e29217f1bfd40f6750161ecba3dc86c3c28120e8d15f937bd3c9f04f",
+      "before": "En la válvula automática, la válvula de entrada permanece abierta mientras se pisa el pedal del freno",
+      "after": "En el servodistribuidor, la válvula de entrada permanece abierta mientras se pisa el pedal del freno",
+      "reason": "'servoautodistributore' is the brake servo-distributor, not a generic automatic valve"
+    },
+    {
+      "id": "e478cf3f9bd63bcfc8bc41d7662c16f2cf79104b60a0a76cd00f4435433ea149",
+      "before": "07##tipología7 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "07##tipologia7 CQC - DL 30 DE JULIO DE 2021",
+      "reason": "Keep Italian code spelling 'tipologia'; keep 'DL' as in the Italian legal reference"
+    },
+    {
+      "id": "e4b2ce04ca3d049074c192ecd496535058ab5b7d6ae642580720c5e3cfbc7ab8",
+      "before": "Los elementos de remolque de un vehículo pueden no estar homologados siempre que se remolquen vehículos de masa inferior a 750 kilogramos",
+      "after": "Los elementos de remolque de un vehículo pueden no estar homologados siempre que se remolquen remolques de masa inferior a 750 kilogramos",
+      "reason": "Rimorchi indica remolques, no vehículos en general."
+    },
+    {
+      "id": "e4c25c3e212336ea7c55ac99b538d3857bb476c834d69a9c228d41bc817a8d93",
+      "before": "La señal (A), si está complementada con el panel (B), indica el fin de la prohibición de detenerse y estacionar",
+      "after": "La señal (A), si está complementada con el panel (B), indica el fin de la prohibición de parar y estacionar",
+      "reason": "Distingue la parada temporal del estacionamiento."
+    }
+  ],
+  "reviewed_file_sha256": "b3b58daec7b0729d7432f2abcc0eb2d6edae58baf3f2b81d6c03eee4a7a8f7a3"
+}

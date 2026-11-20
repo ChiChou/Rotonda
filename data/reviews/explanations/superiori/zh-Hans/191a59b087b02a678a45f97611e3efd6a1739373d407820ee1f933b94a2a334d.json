@@ -1,0 +1,780 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 30414,
+          "quesito_id": 6237,
+          "text_it": "L'impianto di frenatura di tipo pneumoidraulico è composto, tra l'altro, da un compressore, da alcuni serbatoi d’accumulo per l’aria compressa e dai convertitori pneumoidraulici",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5f9f123c5219aee6b422f3f5df350c4e617459342802dc7fd3d7e0411a3be948",
+        "localized_text": "气液制动系统包括压缩机、压缩空气储气罐和气液转换器等部件。"
+      },
+      {
+        "source": {
+          "number": 30415,
+          "quesito_id": 6237,
+          "text_it": "Se l'impianto di frenatura è del tipo pneumoidraulico, l’aria compressa viene inviata dal distributore ai convertitori",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b8c41095e966f28de0689df0016fff39baa2cd41aecaca7844c23b3ef59532ae",
+        "localized_text": "在气液制动系统中，压缩空气由分配阀送至转换器。"
+      },
+      {
+        "source": {
+          "number": 30416,
+          "quesito_id": 6237,
+          "text_it": "Le ganasce di un impianto di frenatura pneumoidraulico, vengono allargate da due pistoncini spinti dalla pressione idraulica",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "763132995fe7297748237ab9553482e212cd793815279f676b7f1f46ecd32ebb",
+        "localized_text": "气液制动器的制动蹄由液压推动的两个小活塞张开。"
+      },
+      {
+        "source": {
+          "number": 30417,
+          "quesito_id": 6237,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumoidraulica, il convertitore pneumoidraulico sfrutta la pressione dell’aria per mettere in pressione uno speciale liquido idraulico che agisce sugli elementi frenanti",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c4241d2c53c9e9854ebfda799a2803c59e6f3af2086512ad7faf1f9fb8618d48",
+        "localized_text": "气液转换器利用气压对作用于制动部件的特殊液压液加压。"
+      },
+      {
+        "source": {
+          "number": 30418,
+          "quesito_id": 6237,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumoidraulica, il liquido del convertitore pneumoidraulico è sostanzialmente incomprimibile",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "a1278632c94639209f15bec2faa1f0238ec6555dadc741624b032a980dde4219",
+        "localized_text": "气液转换器中的液体基本不可压缩。"
+      },
+      {
+        "source": {
+          "number": 30419,
+          "quesito_id": 6237,
+          "text_it": "Negli autoveicoli dotati di frenatura pneumoidraulica, il liquido del convertitore pneumoidraulico va periodicamente sostituito",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9227824ece9f529acc1e070974a4b453539ec715ba0ca3f1bf6bc9444670851c",
+        "localized_text": "气液转换器中的液体必须定期更换。"
+      },
+      {
+        "source": {
+          "number": 30420,
+          "quesito_id": 6237,
+          "text_it": "Negli autoveicoli dotati di frenatura pneumoidraulica, può essere necessario rabboccare periodicamente il liquido del convertitore pneumoidraulico",
+          "answer": 1,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "80bc1e82b3e1feccc059750e38291609cc425e7d44c91ce177587df68fd6eb71",
+        "localized_text": "气液转换器中的液体可能需要定期补加。"
+      },
+      {
+        "source": {
+          "number": 30421,
+          "quesito_id": 6237,
+          "text_it": "Un autocarro pesante non può avere i freni pneumoidraulici perché troppo elastici",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "b0035c6484eb93409da31c153d3f63c045fb3fc21f007c33592a144cacebe0cd",
+        "localized_text": "重型卡车不能使用气液制动器，因为它们弹性过大。"
+      },
+      {
+        "source": {
+          "number": 30422,
+          "quesito_id": 6237,
+          "text_it": "Gli impianti di frenatura pneumoidraulici, detti anche freni misti, funzionano con una miscela di aria e olio preparata dal distributore duplex",
+          "answer": 0,
+          "page": 137,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "113ae25ea3e269f5909f0c4df98934634ca58c567efc10a54409b914d990dbfb",
+        "localized_text": "气液混合制动系统使用由双回路阀制备的空气和油混合物。"
+      },
+      {
+        "source": {
+          "number": 30423,
+          "quesito_id": 6237,
+          "text_it": "Negli impianti di frenatura pneumoidraulici, deve essere presente un miscelatore per l’aria e l’olio",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "140bef1cc09c30375ff6f163904f43b2088767d0a68f12d2be2aec66494fe7bb",
+        "localized_text": "气液制动系统必须配备空气和油混合器。"
+      },
+      {
+        "source": {
+          "number": 30424,
+          "quesito_id": 6237,
+          "text_it": "Se si verifica una perdita di olio dai freni pneumoidraulici, il conducente può convertire il funzionamento dei freni a pneumatico integrale escludendo i convertitori",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cd4fbfe94c577fb123e4469e5cd15996d3bd2d00c6f9a9be2d6a6ab020d2a66e",
+        "localized_text": "气液制动器漏油时，驾驶员可以绕过转换器，将制动系统转换为全气压工作。"
+      },
+      {
+        "source": {
+          "number": 30425,
+          "quesito_id": 6237,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumoidraulica, il convertitore di pressione pneumoidraulico, serve a trasformare la pressione di un liquido in aria fortemente compressa",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "025e1d3df955ad94b4fc933091b15d706ce0dddd9f96d43b884bb5e37f5464dc",
+        "localized_text": "气液压力转换器将液体压力转换为高度压缩的空气。"
+      },
+      {
+        "source": {
+          "number": 30426,
+          "quesito_id": 6237,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumoidraulica, il convertitore di pressione pneumoidraulico è posto tra il compressore ed i serbatoi dell’aria compressa",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8075a85e7059a163752029d3bd866ce44489feaf5e4e8831ad6bd9d284a5bbb0",
+        "localized_text": "气液压力转换器位于压缩机与压缩空气储气罐之间。"
+      },
+      {
+        "source": {
+          "number": 30427,
+          "quesito_id": 6237,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumoidraulica, l’olio dell’impianto frenante pneumoidraulico serve a mantenere ben lubrificati gli elementi frenanti, anche nelle forti discese",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2ae10973a3f8b4e802e273f2f48a8af534e93394b8c1548391a28ef57a5323d3",
+        "localized_text": "气液制动系统中的油使制动部件保持润滑，即使在陡下坡时也是如此。"
+      },
+      {
+        "source": {
+          "number": 30428,
+          "quesito_id": 6237,
+          "text_it": "Gli autoveicoli dotati di impianto frenante pneumoidraulico non possono essere atti al traino",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fab961e3673c8e242fb44522fa40fde3bec635f037c572d505a2326affbe3098",
+        "localized_text": "配备气液制动系统的车辆不能用于牵引。"
+      },
+      {
+        "source": {
+          "number": 30429,
+          "quesito_id": 6238,
+          "text_it": "Sui veicoli pesanti, il compressore dell’impianto di frenatura pneumatico o pneumoidraulico prende in genere movimento dal motore del veicolo",
+          "answer": 1,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0ac9c7fadd661e45ec035c037423f542fa19a7a963757ad7ed7112f27d42ddee",
+        "localized_text": "在重型车辆中，气压或气液制动压缩机通常由车辆发动机驱动。"
+      },
+      {
+        "source": {
+          "number": 30430,
+          "quesito_id": 6238,
+          "text_it": "Sui veicoli pesanti, il compressore dell’impianto di frenatura pneumatico o pneumoidraulico aspira aria dall'esterno attraverso un filtro e la invia a pressione verso i serbatoi",
+          "answer": 1,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ea791472dec188a76060eba64489048a380a7bfeda9b88af94b159b389ad6697",
+        "localized_text": "在重型车辆中，制动压缩机通过滤清器吸入外界空气，并加压送至储气罐。"
+      },
+      {
+        "source": {
+          "number": 30431,
+          "quesito_id": 6238,
+          "text_it": "Sui veicoli pesanti, il compressore dell’impianto di frenatura pneumatico o pneumoidraulico necessita di raffreddamento e lubrificazione",
+          "answer": 1,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f6d5ab5a420e4dab49c602e8875c24087c73bd9aea4f423a673d0fd8927df23c",
+        "localized_text": "在重型车辆中，气压或气液制动压缩机需要冷却和润滑。"
+      },
+      {
+        "source": {
+          "number": 30432,
+          "quesito_id": 6238,
+          "text_it": "Sui veicoli pesanti, il compressore dell’impianto di frenatura pneumatico o pneumoidraulico è alimentato con il combustibile del motore",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "415f13f7371e7b2003a15b9310c8712654ee0d2e2d5795994f855c49625743eb",
+        "localized_text": "在重型车辆中，气压或气液制动压缩机使用发动机燃料供能。"
+      },
+      {
+        "source": {
+          "number": 30433,
+          "quesito_id": 6238,
+          "text_it": "Sui veicoli pesanti, il compressore dell’impianto di frenatura pneumatico o pneumoidraulico è alimentato da miscela al 4% di olio",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fa9e2c599591e4cbb627037cbd3f537a0795e49ae5533e2af78f84373ca7e7c2",
+        "localized_text": "在重型车辆中，气压或气液制动压缩机使用含4%机油的混合燃料。"
+      },
+      {
+        "source": {
+          "number": 30434,
+          "quesito_id": 6238,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumoidraulica, il compressore può essere utilizzato come freno motore, invertendone il senso di rotazione",
+          "answer": 0,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bd0978564506ec3812072e410e4c7f76f36b9ab08a8919e0c9efcce337cd865b",
+        "localized_text": "在气液制动车辆中，压缩机可以通过反转作为发动机制动器使用。"
+      },
+      {
+        "source": {
+          "number": 30435,
+          "quesito_id": 6239,
+          "text_it": "Eventuali formazioni di ghiaccio nelle tubazioni dei freni ad aria compressa possono bloccare le valvole del regolatore di pressione e del distributore duplex",
+          "answer": 1,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5354cfe1995e6582c51a22bd6c85ead20cb97f048fb563d34452d09733fd3978",
+        "localized_text": "压缩空气制动管路中的冰可能卡住压力调节器和双回路阀的阀门。"
+      },
+      {
+        "source": {
+          "number": 30436,
+          "quesito_id": 6239,
+          "text_it": "Il sistema frenante antibloccaggio ruote ABS (Antilock Braking System), evita il bloccaggio delle ruote, ottimizzando la frenata e migliorando la dirigibilità del veicolo",
+          "answer": 1,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ef998ea58ab4b39d6aca52b8c947dbdfc77efad871f0ced2d7107e2f6c12e480",
+        "localized_text": "ABS防止车轮抱死，优化制动并改善车辆可转向性。"
+      },
+      {
+        "source": {
+          "number": 30437,
+          "quesito_id": 6239,
+          "text_it": "Negli autoveicoli dotati di frenatura pneumoidraulica, è bene effettuare periodicamente lo spurgo dell’acqua di condensa formatasi nei serbatoi per evitare il pericolo che si formi del ghiaccio",
+          "answer": 1,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "9152067cf6030ee184d198404fd8a52dcbb74d80a2977eaa2338dea3af840f6d",
+        "localized_text": "在气液制动车辆中，宜定期排出储气罐冷凝水，以防结冰。"
+      },
+      {
+        "source": {
+          "number": 30438,
+          "quesito_id": 6239,
+          "text_it": "Sugli autoveicoli dotati di frenatura pneumoidraulica, all’avviamento del veicolo, può essere necessario un breve lasso di tempo perché il compressore dell'impianto di frenatura ricarichi i serbatoi dell’aria compressa dei freni fino alla pressione minima di esercizio",
+          "answer": 1,
+          "page": 138,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f905ba342620722be08236b2e8213e847739c20cde31eeb01f810fc1d1cf7f4c",
+        "localized_text": "启动气液制动车辆时，制动压缩机可能需要短暂时间将储气罐充至最低工作压力。"
+      }
+    ],
+    "task_sha256": "191a59b087b02a678a45f97611e3efd6a1739373d407820ee1f933b94a2a334d"
+  },
+  "rows": [
+    {
+      "number": 30414,
+      "text": "压缩机为储气罐充气；控制阀再将空气送往转换器，由转换器驱动液压回路。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino."
+      ]
+    },
+    {
+      "number": 30415,
+      "text": "踩下制动踏板时，分配阀将储气罐中的空气按需送往转换器，转换器为制动器产生液压。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino."
+      ]
+    },
+    {
+      "number": 30416,
+      "text": "在使用双活塞轮缸的鼓式制动器中，液压将两个活塞向外推动，使制动蹄压向制动鼓。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 5, § wheel cylinders, p. 5-14, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-5.pdf: i due pistoni spingono le ganasce; HPG ch. 6 §6: il convertitore alimenta i freni idraulici."
+      ]
+    },
+    {
+      "number": 30417,
+      "text": "转换器利用压缩空气的力给液体加压，液体再将作用传给制动器。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino."
+      ]
+    },
+    {
+      "number": 30418,
+      "text": "制动液几乎不可压缩，因此能在液压回路中传递压力。蒸汽气泡则可以被压缩。",
+      "evidence": [
+        "HELLA, Changing the brake fluid, §4, https://www.hella.com/techworld/en/technical/brakes/changing-the-brake-fluid/: le bolle di vapore, diversamente dal liquido, sono comprimibili."
+      ]
+    },
+    {
+      "number": 30419,
+      "text": "应按制造商的要求更换制动液：乙二醇基制动液会吸收水分，使沸点降低。",
+      "evidence": [
+        "HELLA, Changing the brake fluid, §§4–6, https://www.hella.com/techworld/en/technical/brakes/changing-the-brake-fluid/: liquido, umidità, sostituzione secondo il costruttore e controllo del livello."
+      ]
+    },
+    {
+      "number": 30420,
+      "text": "应检查液位，必要时补加规定的制动液。液位低时还需检查是否泄漏或磨损。",
+      "evidence": [
+        "HELLA, Changing the brake fluid, §§4–6, https://www.hella.com/techworld/en/technical/brakes/changing-the-brake-fluid/: liquido, umidità, sostituzione secondo il costruttore e controllo del livello.",
+        "HELLA, Changing brake pads, step 8, https://www.hella.com/techworld/au/technical/brakes/changing-brake-pads-brake-discs-and-brake-calipers/: rabbocco se necessario con liquido approvato."
+      ]
+    },
+    {
+      "number": 30421,
+      "text": "重型卡车可以使用这种系统：空气驱动液压回路，将压力传给制动器；不能因其所谓弹性过大而排除使用。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino.",
+        "NHTSA, Interpretation 1984-2.34, https://www.nhtsa.gov/interpretations/1984-234: sistema aria-idraulico su autocarro diesel; NHTSA, Interpretation 1984 to Klusmeyer, https://www.nhtsa.gov/interpretations-search?page=715: autocarri pesanti Nissan con tale sistema."
+      ]
+    },
+    {
+      "number": 30422,
+      "text": "系统不会制备空气和油的混合物：空气作用于转换器，转换器给独立液压回路中的液体加压。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino."
+      ]
+    },
+    {
+      "number": 30423,
+      "text": "不需要混合器。转换器将空气的力传给液体，液体留在液压回路内。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino."
+      ]
+    },
+    {
+      "number": 30424,
+      "text": "绕过转换器不能将系统变成全气压制动：转换器负责产生作用于制动器的液压。泄漏需要修理。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6(b), (d), (f), pp. 6-8–6-12, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: l’aria viene convertita in forza idraulica; una perdita può compromettere un circuito e aumentare la distanza di arresto."
+      ]
+    },
+    {
+      "number": 30425,
+      "text": "方向正好相反：转换器利用气压产生制动液压力。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino."
+      ]
+    },
+    {
+      "number": 30426,
+      "text": "转换器位于储气罐和控制阀之后：它接收经过调节的空气并驱动液压回路，并非位于压缩机和储气罐之间。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino."
+      ]
+    },
+    {
+      "number": 30427,
+      "text": "制动液用于向制动器传递压力，而非润滑摩擦面；摩擦片沾油会影响制动。",
+      "evidence": [
+        "HELLA, Changing the brake fluid, §§4–6, https://www.hella.com/techworld/en/technical/brakes/changing-the-brake-fluid/: liquido, umidità, sostituzione secondo il costruttore e controllo del livello.",
+        "Maryland COMAR 11.22.03.06, Brake Systems, controlli delle guarnizioni, https://regs.maryland.gov/us/md/exec/comar/11.22/index.full.html: guarnizioni contaminate da olio, grasso o liquido freni sono motivo di rigetto."
+      ]
+    },
+    {
+      "number": 30428,
+      "text": "气液制动不排除牵引：装备适当的车辆也能向挂车的气压制动器供气。",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, ch. 6, §6, pp. 6-8–6-9, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: compressore, serbatoi, valvola e convertitori; l’aria aziona il circuito idraulico; possibile traino."
+      ]
+    },
+    {
+      "number": 30429,
+      "text": "压缩机通常由发动机直接或通过皮带机械驱动，为系统提供空气。",
+      "evidence": [
+        "Michigan Department of State, Commercial Driver License Manual (2024), §5.1.1–5.1.3, p. 71, https://www.michigan.gov/-/media/Project/Websites/sos/Resources/Forms-and-publications/CDL-Manual/cdlmanual.pdf?rev=b7f45e7c67ad4e979a86c84cd252c5a4: il compressore, collegato al motore tramite ingranaggi o cinghia, pompa aria nei serbatoi."
+      ]
+    },
+    {
+      "number": 30430,
+      "text": "压缩机吸入经过滤的空气，将其压缩并送入储气罐，供系统使用。",
+      "evidence": [
+        "Michigan Department of State, Commercial Driver License Manual (2024), §5.1.1–5.1.3, p. 71, https://www.michigan.gov/-/media/Project/Websites/sos/Resources/Forms-and-publications/CDL-Manual/cdlmanual.pdf?rev=b7f45e7c67ad4e979a86c84cd252c5a4: il compressore, collegato al motore tramite ingranaggi o cinghia, pompa aria nei serbatoi.",
+        "Bendix, Tu-Flo 550 Air Compressor, SD-01-333, p. 6, Air Induction, https://static.nhtsa.gov/odi/tsbs/2019/MC-10163231-9999.pdf: aria pulita fornita attraverso filtro dedicato o filtro del motore."
+      ]
+    },
+    {
+      "number": 30431,
+      "text": "压缩过程会产生热量，运动部件需要润滑，因此压缩机需要冷却和润滑。",
+      "evidence": [
+        "Bendix, Compressor Maintenance, https://static.nhtsa.gov/odi/tsbs/2019/MC-10163231-9999.pdf: alimentazione con aria filtrata, raffreddamento e lubrificazione del compressore.",
+        "Bendix, 720cc compressor service data, cooling and lubrication, https://static.nhtsa.gov/odi/tsbs/2014/SB-10056644-1346.pdf: raffreddamento ad aria e liquido e lubrificazione con olio motore."
+      ]
+    },
+    {
+      "number": 30432,
+      "text": "压缩机不燃烧燃料：它通常由发动机驱动，将空气压缩后送入储气罐。",
+      "evidence": [
+        "Michigan Department of State, Commercial Driver License Manual (2024), §5.1.1–5.1.3, p. 71, https://www.michigan.gov/-/media/Project/Websites/sos/Resources/Forms-and-publications/CDL-Manual/cdlmanual.pdf?rev=b7f45e7c67ad4e979a86c84cd252c5a4: il compressore, collegato al motore tramite ingranaggi o cinghia, pompa aria nei serbatoi."
+      ]
+    },
+    {
+      "number": 30433,
+      "text": "压缩机不是使用混合燃料的发动机：它由车辆发动机驱动，用来压缩空气。",
+      "evidence": [
+        "Michigan Department of State, Commercial Driver License Manual (2024), §5.1.1–5.1.3, p. 71, https://www.michigan.gov/-/media/Project/Websites/sos/Resources/Forms-and-publications/CDL-Manual/cdlmanual.pdf?rev=b7f45e7c67ad4e979a86c84cd252c5a4: il compressore, collegato al motore tramite ingranaggi o cinghia, pompa aria nei serbatoi."
+      ]
+    },
+    {
+      "number": 30434,
+      "text": "压缩机由发动机驱动，用来产生压缩空气。发动机制动则利用发动机的阻力使车辆减速，并非通过反转压缩机。",
+      "evidence": [
+        "Michigan Department of State, Commercial Driver License Manual (2024), §5.1.1–5.1.3, p. 71, https://www.michigan.gov/-/media/Project/Websites/sos/Resources/Forms-and-publications/CDL-Manual/cdlmanual.pdf?rev=b7f45e7c67ad4e979a86c84cd252c5a4: il compressore, collegato al motore tramite ingranaggi o cinghia, pompa aria nei serbatoi.",
+        "FMCSA, Motorcoach Brake Systems and Safety Technologies, Engine Compression Brake, https://www.fmcsa.dot.gov/carrier-safety/carrier-safety-resources/motorcoach-brake-systems-and-safety-technologies: la compressione del motore rallenta il veicolo quando si rilascia l’acceleratore."
+      ]
+    },
+    {
+      "number": 30435,
+      "text": "空气中的水分可能在管路和阀门中结冰，阻碍空气流动和控制装置工作。",
+      "evidence": [
+        "Michigan Department of State, Commercial Driver License Manual (2024), §5.1.4–5.1.5, p. 71, https://www.michigan.gov/-/media/Project/Websites/sos/Resources/Forms-and-publications/CDL-Manual/cdlmanual.pdf?rev=b7f45e7c67ad4e979a86c84cd252c5a4: acqua nei serbatoi, spurgo e rischio di ghiaccio nelle valvole e in altre parti dell’impianto."
+      ]
+    },
+    {
+      "number": 30436,
+      "text": "ABS监测车轮转动，当车轮趋于抱死时调节制动压力，帮助保持转向能力。",
+      "evidence": [
+        "Bendix, Understanding ABS for Air-braked Vehicles, p. 4, https://static.nhtsa.gov/odi/tsbs/2024/MC-10251133-0001.pdf: controllo della pressione, prevenzione del bloccaggio e direzionalità."
+      ]
+    },
+    {
+      "number": 30437,
+      "text": "压缩空气中的水分可能在储气罐中凝结并冻结。定期排水可排除冷凝水并降低这一风险。",
+      "evidence": [
+        "Michigan Department of State, Commercial Driver License Manual (2024), §5.1.4–5.1.5, p. 71, https://www.michigan.gov/-/media/Project/Websites/sos/Resources/Forms-and-publications/CDL-Manual/cdlmanual.pdf?rev=b7f45e7c67ad4e979a86c84cd252c5a4: acqua nei serbatoi, spurgo e rischio di ghiaccio nelle valvole e in altre parti dell’impianto."
+      ]
+    },
+    {
+      "number": 30438,
+      "text": "如果停车期间气压下降，压缩机必须给储气罐重新充气。起步前应等待气压进入工作范围。",
+      "evidence": [
+        "Utah Driver License Division, CDL Manual §5.1.1–5.1.3 e §5.3, Test Service Brakes, https://dld.utah.gov/cdl-manual-section-5-air-brakes/: il compressore alimenta i serbatoi; attendere la pressione normale prima di muovere il veicolo per provare i freni."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "191a59b087b02a678a45f97611e3efd6a1739373d407820ee1f933b94a2a334d",
+    "output_sha256": "970343b5683b8860fe0d7eb96d13b30a7ec6be99a24550a96b7811477417124e",
+    "author": "gpt-6.1-terra / 01a1eb4f-480c-7442-b562-cbb44f3fe76c",
+    "reviewer": "gpt-6.1-terra / 01a1eb50-eb70-7f93-a8e1-bfe3ae881137",
+    "status": "accepted",
+    "checked_numbers": [
+      30414,
+      30415,
+      30416,
+      30417,
+      30418,
+      30419,
+      30420,
+      30421,
+      30422,
+      30423,
+      30424,
+      30425,
+      30426,
+      30427,
+      30428,
+      30429,
+      30430,
+      30431,
+      30432,
+      30433,
+      30434,
+      30435,
+      30436,
+      30437,
+      30438
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "23cf3fd49062fcdda62b0299dada369cf502d16e99ea20fff9b6ab98a0034f18",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "b4d3f55d69518806ed6513d911ac1cfcb0e0091edc40ac929dd26c6d6df1e171",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1eb4b-0ae6-7f50-92a3-c504e9e17ecd",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "ced2d18c68fbc657dfdafc889130a2840f65e2879e4483ef79f28e55cbf1d588",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb4f-480c-7442-b562-cbb44f3fe76c",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "23cf3fd49062fcdda62b0299dada369cf502d16e99ea20fff9b6ab98a0034f18",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "22a4893ad279ca5176c45bf5f57461c3e42528a1d5bb462a6c0b88995485b200",
+          "output_sha256": "d57d0f6975f1741e8f0b9ece9124cceaa56ab85a60bdfea9ba95b7ba3dab1e5c",
+          "author": "gpt-6.1-terra / 01a1eb4b-0ae6-7f50-92a3-c504e9e17ecd",
+          "reviewer": "gpt-6.1-terra / 01a1eb4e-0a5d-7590-a832-4409f5efeb02",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30414,
+            30415,
+            30416,
+            30417,
+            30418,
+            30419,
+            30420,
+            30421,
+            30422,
+            30423,
+            30424,
+            30425,
+            30426,
+            30427,
+            30428,
+            30429,
+            30430,
+            30431,
+            30432,
+            30433,
+            30434,
+            30435,
+            30436,
+            30437,
+            30438
+          ],
+          "issues": [
+            "30424: The cited CVSA Inspection Bulletin PDF redirects to an unrelated parking-brake issue; its claimed Addendum 2, p. 20 cannot be checked. Replace it with an accessible exact supporting reference or remove it if redundant.",
+            "30427, 30429, 30430, 30432, 30433, 30434, 30435, 30437, 30438: The cited Ontario handbook pages return HTTP 403, so their cited supporting points could not be independently checked. Supply accessible exact references. The Michigan CDL manual §5.1.1–5.1.5 supports the compressor and freezing/drainage points; Utah CDL manual §5 supports waiting for normal pressure; Maryland COMAR 11.22.03.06 identifies contaminated brake linings as defective. Recheck each remaining claim and citation.",
+            "30436: The cited Bendix ABS operator's manual places the explanation of wheel-speed monitoring, pressure modulation and steerability on printed p. 4, not p. 1. Correct the pinpoint reference."
+          ]
+        },
+        {
+          "task_sha256": "e868d7c1e7f3f4713402153d48ef561ae9dfa4adcd514df78617f196a822decf",
+          "output_sha256": "86b8ce9c27af89e56cbcc4868a68ae6b568d806d29504d1d8219414055750fd7",
+          "author": "gpt-6.1-terra / 01a1eb4b-0ae6-7f50-92a3-c504e9e17ecd",
+          "reviewer": "gpt-6.1-terra / 01a1eb4e-0a5d-7590-a832-4409f5efeb02",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30414,
+            30415,
+            30416,
+            30417,
+            30418,
+            30419,
+            30420,
+            30421,
+            30422,
+            30423,
+            30424,
+            30425,
+            30426,
+            30427,
+            30428,
+            30429,
+            30430,
+            30431,
+            30432,
+            30433,
+            30434,
+            30435,
+            30436,
+            30437,
+            30438
+          ],
+          "issues": [
+            "30424: The cited CVSA Inspection Bulletin PDF redirects to an unrelated parking-brake issue; its claimed Addendum 2, p. 20 cannot be checked. Replace it with an accessible exact supporting reference or remove it if redundant.",
+            "30427, 30429, 30430, 30432, 30433, 30434, 30435, 30437, 30438: The cited Ontario handbook pages return HTTP 403, so their cited supporting points could not be independently checked. Supply accessible exact references. The Michigan CDL manual §5.1.1–5.1.5 supports the compressor and freezing/drainage points; Utah CDL manual §5 supports waiting for normal pressure; Maryland COMAR 11.22.03.06 identifies contaminated brake linings as defective. Recheck each remaining claim and citation.",
+            "30436: The cited Bendix ABS operator's manual places the explanation of wheel-speed monitoring, pressure modulation and steerability on printed p. 4, not p. 1. Correct the pinpoint reference."
+          ]
+        },
+        {
+          "task_sha256": "191a59b087b02a678a45f97611e3efd6a1739373d407820ee1f933b94a2a334d",
+          "output_sha256": "bf7ac97b4b63cf2f880ac382f6a27cdc18c5d7f6dd680a38de0aca1b4ce07380",
+          "author": "gpt-6.1-terra / 01a1eb4b-0ae6-7f50-92a3-c504e9e17ecd",
+          "reviewer": "gpt-6.1-terra / 01a1eb4e-0a5d-7590-a832-4409f5efeb02",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30414,
+            30415,
+            30416,
+            30417,
+            30418,
+            30419,
+            30420,
+            30421,
+            30422,
+            30423,
+            30424,
+            30425,
+            30426,
+            30427,
+            30428,
+            30429,
+            30430,
+            30431,
+            30432,
+            30433,
+            30434,
+            30435,
+            30436,
+            30437,
+            30438
+          ],
+          "issues": [
+            "30424: The cited CVSA Inspection Bulletin PDF redirects to an unrelated parking-brake issue; its claimed Addendum 2, p. 20 cannot be checked. Replace it with an accessible exact supporting reference or remove it if redundant.",
+            "30427, 30429, 30430, 30432, 30433, 30434, 30435, 30437, 30438: The cited Ontario handbook pages return HTTP 403, so their cited supporting points could not be independently checked. Supply accessible exact references. The Michigan CDL manual §5.1.1–5.1.5 supports the compressor and freezing/drainage points; Utah CDL manual §5 supports waiting for normal pressure; Maryland COMAR 11.22.03.06 identifies contaminated brake linings as defective. Recheck each remaining claim and citation.",
+            "30436: The cited Bendix ABS operator's manual places the explanation of wheel-speed monitoring, pressure modulation and steerability on printed p. 4, not p. 1. Correct the pinpoint reference."
+          ]
+        },
+        {
+          "task_sha256": "a8fb1f21a5ff01b3c9c4f4473661f2555591cfd41e7fb227f0f630e30f8567f8",
+          "output_sha256": "8d8029e35b31a95a0a1e09e77db5d42eb2d50f6ae6e52b0c44e3c8d0d4691243",
+          "author": "gpt-6.1-terra / 01a1eb4b-0ae6-7f50-92a3-c504e9e17ecd",
+          "reviewer": "gpt-6.1-terra / 01a1eb4e-0a5d-7590-a832-4409f5efeb02",
+          "status": "needs_changes",
+          "checked_numbers": [
+            30414,
+            30415,
+            30416,
+            30417,
+            30418,
+            30419,
+            30420,
+            30421,
+            30422,
+            30423,
+            30424,
+            30425,
+            30426,
+            30427,
+            30428,
+            30429,
+            30430,
+            30431,
+            30432,
+            30433,
+            30434,
+            30435,
+            30436,
+            30437,
+            30438
+          ],
+          "issues": [
+            "30424: The cited CVSA Inspection Bulletin PDF redirects to an unrelated parking-brake issue; its claimed Addendum 2, p. 20 cannot be checked. Replace it with an accessible exact supporting reference or remove it if redundant.",
+            "30427, 30429, 30430, 30432, 30433, 30434, 30435, 30437, 30438: The cited Ontario handbook pages return HTTP 403, so their cited supporting points could not be independently checked. Supply accessible exact references. The Michigan CDL manual §5.1.1–5.1.5 supports the compressor and freezing/drainage points; Utah CDL manual §5 supports waiting for normal pressure; Maryland COMAR 11.22.03.06 identifies contaminated brake linings as defective. Recheck each remaining claim and citation.",
+            "30436: The cited Bendix ABS operator's manual places the explanation of wheel-speed monitoring, pressure modulation and steerability on printed p. 4, not p. 1. Correct the pinpoint reference.",
+            "30438: “Antes de arrancar” can mean before starting the engine, yet the engine-driven compressor may need to run to build pressure. Match Italian “prima di partire” with “antes de ponerse en marcha” or another unambiguous expression for moving off."
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "batch": "056",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "7bd4ec815efea51eda31ea4c9e9f566762fd25fa0eb92078379eaaae7256d592",
+  "source_sha256": "a13d91c0fea7f97c4cef17d617092d01648516a8e6b66c661a2b71b3079a68ad",
+  "corrections": [
+    {
+      "id": "4a5fcd46e999f6f017e763f3b38c3b24647e3a7b5afbb7bff7f7c5fa8236c0be",
+      "before": "En caso de agresiones o robos hay que proporcionar a las fuerzas del orden todos los detalles relevantes",
+      "after": "En caso de agresiones, hurtos o robos hay que proporcionar a las fuerzas del orden todos los detalles relevantes",
+      "reason": "Se restituyen las tres categorías: agresiones, hurtos y robos."
+    },
+    {
+      "id": "4a65736855dee2ca2698eb68c2a787e833897f2a683b4215f998565a375612cd",
+      "before": "El uso del freno motor o retardador limita el desgaste de los revestimientos de fricción de los frenos",
+      "after": "El uso del freno motor y/o del retardador limita el desgaste de los revestimientos de fricción de los frenos",
+      "reason": "Se conserva la posibilidad de usar el freno motor, el retardador o ambos."
+    },
+    {
+      "id": "4a6ba471e0b3acc60604a35041018027127d02f0619b2a2b8484e6f110f957c8",
+      "before": "Al llegar a la aduana la mercancía amparada por el T1, la Guardia di Finanza puede revisarla por muestreo",
+      "after": "Al llegar a la aduana la mercancía amparada por el T1, la Guardia de Finanzas puede revisarla por muestreo",
+      "reason": "Italian institution name left untranslated; use the Spanish form"
+    },
+    {
+      "id": "4adcfb0f0b03f3ba012b2d340882f789afe4126a8395322d8030347ff01d0668",
+      "before": "Cuando en una intersección urbana el vehículo de delante tarda en arrancar al recibir vía libre, conviene poner el freno de mano y bajar a buscar a un agente de tránsito",
+      "after": "Cuando en una intersección urbana el vehículo de adelante tarda en arrancar al recibir vía libre, conviene poner el freno de mano y bajar a buscar a un agente de tránsito para que tome las medidas necesarias",
+      "reason": "Se restituye el propósito de que el agente adopte las medidas pertinentes."
+    },
+    {
+      "id": "4b1a4d1d1976201ef7fdeda3a3251f04555f6b3a4a20ffafbdc1067dbf3a76ce",
+      "before": "Según el Reglamento 561/2006/CE, una pausa es cualquier detención del vehículo durante la jornada laboral",
+      "after": "Según el Reglamento 561/2006/CE, por «interrupción» se entiende cualquier parada realizada con el vehículo durante la jornada laboral",
+      "reason": "Definition ('si intende') rendered as a plain statement and the defined term was changed; restored the definitional form"
+    },
+    {
+      "id": "4b2be5312b20c29077fab49cfeb0071c0e7cf67a5994d8a144fbdd0c5a50a02d",
+      "before": "Los servicios ocasionales de pasajeros en países sin acuerdo internacional no requieren autorización si son circuitos a puertas cerradas",
+      "after": "Los servicios ocasionales de pasajeros en países sin acuerdo internacional no requieren autorización si son circuitos cerrados",
+      "reason": "Circuitos cerrados expresa la modalidad de servicio a porte chiuse."
+    }
+  ],
+  "reviewed_file_sha256": "47bef3e1e9a64ecf845ea2b301cf7dedb0ee97387edfe1233b58337d13506a27"
+}

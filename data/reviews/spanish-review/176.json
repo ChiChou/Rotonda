@@ -1,0 +1,37 @@
+{
+  "batch": "176",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "d1a6ae0b571f92aa745fe9bf102b5ea219f9ca5f09d1a1168d61ba39b1c8a84c",
+  "source_sha256": "1e49096a099a4354b0c452bd8cdcaa7855fc80917bb866088ccf2376b1624c72",
+  "corrections": [
+    {
+      "id": "e902712dc9a819be76c238d89097390b15a7000ac75e61530a30edabae33df1d",
+      "before": "En un motor diésel, los inyectores electrónicos inyectan combustible en los cilindros con precisión tanto en el momento como en la cantidad",
+      "after": "En un motor diésel, los inyectores electrónicos inyectan diésel en los cilindros con precisión tanto en el momento como en la cantidad",
+      "reason": "Gasolio especifica el combustible diésel."
+    },
+    {
+      "id": "e9295f590e17749cee69a6f064f209c950220b33d17f2ffd38a49c94011de25d",
+      "before": "La visibilidad óptima también se obtiene manteniendo el limpiaparabrisas en perfecto estado",
+      "after": "La visibilidad óptima también se obtiene manteniendo el limpiaparabrisas en perfecto funcionamiento",
+      "reason": "Efficienza indica funcionamiento eficaz."
+    },
+    {
+      "id": "e93ed0e1744e9d430b7d8225b9d19d3a3b4106b241ff16b935d334de79dbadb7",
+      "before": "El freno neumático aprovecha la incomprensibilidad del aire",
+      "after": "El freno neumático aprovecha la incompresibilidad del aire",
+      "reason": "Corrige incomprensibilidad por incompresibilidad, propiedad física indicada en el original."
+    }
+  ],
+  "reviewed_file_sha256": "d05b0217e4a0316c3b734a355be2ffe30f188b9921ad495e28cd1d3cce484534"
+}

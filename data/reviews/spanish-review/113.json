@@ -1,0 +1,37 @@
+{
+  "batch": "113",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "f6b762daffa0982b514bf59bbd78e2812f1fdff466f125fad1e161644bcc724c",
+  "source_sha256": "e49c5e6f149afb59480008962feea732466bd74e06ed6fc04e9b1f51dabf45fc",
+  "corrections": [
+    {
+      "id": "96bd23c5dc557276d501656c1da3cf50c736472d91149c7d277116e3c9fc3ca0",
+      "before": "Para realizar un servicio ocasional de pasajeros de circuito cerrado entre Italia y Suiza es necesario llevar a bordo del autobús la copia conforme de la licencia comunitaria, pero no las hojas de ruta",
+      "after": "Para realizar un servicio ocasional de pasajeros de puertas cerradas entre Italia y Suiza es necesario llevar a bordo del autobús la copia conforme de la licencia comunitaria, pero no las hojas de ruta",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    },
+    {
+      "id": "96f9352364be79b3fca15f823ed5b0e021b0af0d4801c15ca305eed262d9ff49",
+      "before": "02##tipología2 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "02##tipologia2 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Se conserva sin modificar el marcador estructural 02##tipologia2."
+    },
+    {
+      "id": "978473bd21526ef2988171888bb5f9382a0e93dc1e41810110eb94f06c422f25",
+      "before": "Cuando el seguro de responsabilidad civil del ciclomotor ha vencido se puede recibir una multa elevada",
+      "after": "Cuando el seguro de responsabilidad civil del ciclomotor ha vencido se puede recibir una sanción severa",
+      "reason": "Sanción conserva el alcance del original sin limitarla a una multa."
+    }
+  ],
+  "reviewed_file_sha256": "aad346579f0e632b37d6dec760c5288c01db4e3b88e3cab828e199076371bb0a"
+}

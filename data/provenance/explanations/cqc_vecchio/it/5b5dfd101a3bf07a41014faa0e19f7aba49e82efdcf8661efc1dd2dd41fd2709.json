@@ -1,0 +1,1653 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ee4f-eb20-7c01-bd89-eab1e581ed62"
+  },
+  "task": {
+    "stage": "italian",
+    "bank": "cqc_vecchio",
+    "language": "it",
+    "records": [
+      {
+        "source": {
+          "number": 17080,
+          "quesito_id": 3475,
+          "text_it": "Nelle autostazioni, i marciapiedi rettilinei e paralleli sono utilizzati quando la sosta è di lunga durata.",
+          "answer": 0,
+          "page": 98,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d891908c98acfe34c7c98e0560f94c22386230fa18ef31f2167b0f0c65f7c897",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c0eac3c30e1a1699ea2aa20752cc9bb12262124954855d6ddd20f475a6429dfa",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17080,
+                "reason": "Il listato ministeriale riporta FALSO ma non spiega il criterio di impiego dei marciapiedi; non è stata trovata una fonte primaria che sostenga la regola correttiva."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5b4a709eb35844dad6b40adbd709f866bb49642963f01f5edc54defa1924131",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16564,
+                "reason": "Non individuata una fonte primaria che documenti specificamente il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale."
+              },
+              {
+                "number": 17080,
+                "reason": "Non individuata una fonte primaria che confermi la relazione tra disposizione dei marciapiedi e durata della sosta."
+              },
+              {
+                "number": 17140,
+                "reason": "Non individuata una fonte primaria che sostenga la prescrizione di distribuzione omogenea dei passeggeri in piedi."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Nelle autostazioni, i marciapiedi rettilinei e paralleli sono utilizzati quando la sosta è di lunga durata",
+          "text": "La lunga durata della sosta non è il criterio indicato: i marciapiedi rettilinei e paralleli consentono operazioni rapide di salita e discesa, ma richiedono molto spazio longitudinale.",
+          "evidence": [
+            "Università di Roma Tor Vergata, Autostazioni, p. 38, marciapiedi rettilinei e tempi di servizio ridotti"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17140,
+          "quesito_id": 3483,
+          "text_it": "I passeggeri in piedi devono risultare distribuiti in modo omogeneo lungo il corridoio o negli spazi appositamente previsti",
+          "answer": 1,
+          "page": 100,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "70ec3ca8d3626a76adaa3cdb10e87726fd6e1e630dcdbf06b5c02a434346244f",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/b5b4a709eb35844dad6b40adbd709f866bb49642963f01f5edc54defa1924131",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 16564,
+                "reason": "Non individuata una fonte primaria che documenti specificamente il nesso storico tra abbattimento delle frontiere UE e aumento del trasporto stradale."
+              },
+              {
+                "number": 17080,
+                "reason": "Non individuata una fonte primaria che confermi la relazione tra disposizione dei marciapiedi e durata della sosta."
+              },
+              {
+                "number": 17140,
+                "reason": "Non individuata una fonte primaria che sostenga la prescrizione di distribuzione omogenea dei passeggeri in piedi."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/78491b33e7c63480eda3da6e4739048be6c113e32d8bd55699349a862a8eb575",
+            "candidate": {
+              "number": 17140,
+              "text": "Distribuirsi lungo il corridoio e negli spazi previsti evita gli assembramenti e consente di usare meglio lo spazio disponibile, senza ostacolare le porte.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ],
+        "related_reasoning": {
+          "question": "I passeggeri in piedi sugli autobus devono risultare distribuiti in modo omogeneo lungo il corridoio o negli spazi appositamente previsti",
+          "text": "I passeggeri in piedi si distribuiscono lungo il corridoio o negli spazi previsti, evitando concentrazioni e intralci alla circolazione a bordo.",
+          "evidence": [
+            "STPS, Carta della mobilità 2026, p. 22: divieto di insudiciare o manomettere e distribuzione dei viaggiatori in piedi nel corridoio; https://www.stps.it/uploads/section/files/carta-della-mobilita-2026-rev-1-69b7da7f6c4ce190153482.pdf"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17588,
+          "quesito_id": 3543,
+          "text_it": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori senza cinture di sicurezza",
+          "answer": 0,
+          "page": 116,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d3fd0fc2bde7364d62b65754d24dfd51dbb7cef9c27ac24d5168e7c7b0c121e9",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/167e5a4a94c9dc788b139454052d285f311951ad5dc13b31fe35cd0a485e2d49",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17588,
+                "reason": "Il verdetto storico non chiarisce le condizioni applicabili alle cinture del sedile accompagnatore; manca una fonte sufficiente per una correzione affidabile."
+              },
+              {
+                "number": 17723,
+                "reason": "Non è stata individuata una fonte indipendente che sostenga la generalizzazione sul comportamento degli alunni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non è stata individuata una fonte sufficiente sulla diffusione storica degli scuolabus privi di cinture."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/849fb40c3fd23146fd662dc202f85c33f2f098266dd1e38f39722a2f41f8287c",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "number": 17555,
+                  "reason": "Non verificata una fonte primaria sulla collocazione abituale delle porte di uscita; la disposizione delle porte varia con il veicolo."
+                },
+                {
+                  "number": 17557,
+                  "reason": "Non reperita una fonte primaria accessibile che confermi l'obbligo di dotazione, distinto dalla sola predisposizione dello spazio per l'estintore."
+                },
+                {
+                  "number": 17559,
+                  "reason": "Non verificata una fonte primaria specifica sui pannelli descritti e sulle categorie cui si applicano."
+                },
+                {
+                  "number": 17561,
+                  "reason": "Non verificata una fonte primaria sulla dotazione di barella degli autobus."
+                },
+                {
+                  "number": 17563,
+                  "reason": "Non verificata una fonte primaria applicabile sulla manutenzione in efficienza degli estintori a bordo."
+                },
+                {
+                  "number": 17567,
+                  "reason": "Non verificata una fonte primaria accessibile sui requisiti di approvazione degli estintori degli autobus."
+                },
+                {
+                  "number": 17572,
+                  "reason": "Non verificata una fonte primaria sull'obbligo di cassetta, distinto dalla predisposizione del relativo spazio."
+                },
+                {
+                  "number": 17574,
+                  "reason": "Non verificata una fonte primaria specifica sui pannelli posteriori a strisce e sulle categorie cui si applicano."
+                },
+                {
+                  "number": 17575,
+                  "reason": "Non verificata una fonte primaria sul pannello con la lettera a e sulle categorie cui si applica."
+                },
+                {
+                  "number": 17582,
+                  "reason": "Non verificata una fonte primaria sull'obbligo di dotazione della cassetta di pronto soccorso."
+                },
+                {
+                  "number": 17588,
+                  "reason": "Non verificata una fonte primaria sulle condizioni di omologazione dei sedili per accompagnatori privi di cinture; il verdetto storico richiede una qualificazione."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "Lo scuolabus è un autobus adibito al trasporto degli studenti e non può essere munito di sedili per accompagnatori",
+          "text": "È falso che siano vietati posti per accompagnatori: per il trasporto dei bambini della scuola materna è anzi previsto un posto idoneo per l'accompagnatore."
+        }
+      },
+      {
+        "source": {
+          "number": 17723,
+          "quesito_id": 3564,
+          "text_it": "Gli alunni tendono a non utilizzare gli appositi sostegni presenti sull’autobus",
+          "answer": 1,
+          "page": 121,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4e34b4bfdaf15ff70eeb57e687cb617da3d5163dae79b538fe6cbb72bdc2e1f1",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/167e5a4a94c9dc788b139454052d285f311951ad5dc13b31fe35cd0a485e2d49",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17588,
+                "reason": "Il verdetto storico non chiarisce le condizioni applicabili alle cinture del sedile accompagnatore; manca una fonte sufficiente per una correzione affidabile."
+              },
+              {
+                "number": 17723,
+                "reason": "Non è stata individuata una fonte indipendente che sostenga la generalizzazione sul comportamento degli alunni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non è stata individuata una fonte sufficiente sulla diffusione storica degli scuolabus privi di cinture."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/04213352e2b06b1166ff938cbfbeb82a86efac79cf2310d0433f7dc588069568",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17723,
+                "reason": "Non reperita una fonte primaria che documenti la tendenza generale degli alunni a non usare i sostegni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non reperita una fonte primaria che quantifichi quanti scuolabus siano privi di cinture; la dotazione dipende anche dalle norme applicabili al veicolo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17724,
+          "quesito_id": 3564,
+          "text_it": "Molti scuolabus sono privi di sistemi di ritenuta(cinture di sicurezza)",
+          "answer": 1,
+          "page": 121,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7d4f005aa2d37a22a627cf5113e3539d10b09033ea2227f1167ec1c939b2b117",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/167e5a4a94c9dc788b139454052d285f311951ad5dc13b31fe35cd0a485e2d49",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17588,
+                "reason": "Il verdetto storico non chiarisce le condizioni applicabili alle cinture del sedile accompagnatore; manca una fonte sufficiente per una correzione affidabile."
+              },
+              {
+                "number": 17723,
+                "reason": "Non è stata individuata una fonte indipendente che sostenga la generalizzazione sul comportamento degli alunni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non è stata individuata una fonte sufficiente sulla diffusione storica degli scuolabus privi di cinture."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/04213352e2b06b1166ff938cbfbeb82a86efac79cf2310d0433f7dc588069568",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17723,
+                "reason": "Non reperita una fonte primaria che documenti la tendenza generale degli alunni a non usare i sostegni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non reperita una fonte primaria che quantifichi quanti scuolabus siano privi di cinture; la dotazione dipende anche dalle norme applicabili al veicolo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17745,
+          "quesito_id": 3568,
+          "text_it": "Il raggiungimento del migliore equilibrio tra addetti e beni utilizzati nell’organizzazione aziendale delle imprese di trasporto, dipende dalla tipologia del servizio di trasporto, dimensione e forma giuridica dell’impresa",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d0a5c74558c8b7de3b97b79f96291d8004b843aa5c83adb9db4350f2099ccf68",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/04213352e2b06b1166ff938cbfbeb82a86efac79cf2310d0433f7dc588069568",
+            "candidate": {
+              "number": 17745,
+              "text": "Il fabbisogno di personale e mezzi varia con il servizio e la dimensione aziendale; anche la forma giuridica può incidere sull’organizzazione. Non esiste un rapporto unico valido per tutte le imprese.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 17723,
+                "reason": "Non reperita una fonte primaria che documenti la tendenza generale degli alunni a non usare i sostegni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non reperita una fonte primaria che quantifichi quanti scuolabus siano privi di cinture; la dotazione dipende anche dalle norme applicabili al veicolo."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il raggiungimento del migliore equilibrio tra addetti e beni utilizzati nell’organizzazione aziendale delle imprese di trasporto, dipende anche dalla tipologia del trasporto",
+          "text": "Il personale e i mezzi necessari vanno commisurati al tipo e alle esigenze del servizio svolto.",
+          "evidence": [
+            "MIT, DM 316/2006, domanda di autorizzazione, https://www.mit.gov.it/index.php/normativa/decreto-ministeriale-numero-316-del-01122006: personale, strutture e autobus devono essere adeguati al servizio richiesto"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17747,
+          "quesito_id": 3568,
+          "text_it": "Il raggiungimento del migliore equilibrio tra addetti e beni utilizzati nell’organizzazione aziendale delle imprese di trasporto, dipende anche dalla forma giuridica dell’impresa",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1d3faf1e89f887edc97846b2b198ac6a165dc411768479c9ca3584dba7fff8ef",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/04213352e2b06b1166ff938cbfbeb82a86efac79cf2310d0433f7dc588069568",
+            "candidate": {
+              "number": 17747,
+              "text": "La forma giuridica può influire sull’organizzazione dell’impresa e sulla gestione delle risorse, insieme agli altri fattori operativi.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 17723,
+                "reason": "Non reperita una fonte primaria che documenti la tendenza generale degli alunni a non usare i sostegni."
+              },
+              {
+                "number": 17724,
+                "reason": "Non reperita una fonte primaria che quantifichi quanti scuolabus siano privi di cinture; la dotazione dipende anche dalle norme applicabili al veicolo."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "Il raggiungimento del migliore equilibrio tra addetti e beni utilizzati nell’organizzazione aziendale delle imprese di trasporto, dipende anche dalla tipologia del trasporto",
+          "text": "Il personale e i mezzi necessari vanno commisurati al tipo e alle esigenze del servizio svolto.",
+          "evidence": [
+            "MIT, DM 316/2006, domanda di autorizzazione, https://www.mit.gov.it/index.php/normativa/decreto-ministeriale-numero-316-del-01122006: personale, strutture e autobus devono essere adeguati al servizio richiesto"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17760,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali l’impresa individuale nella quale il titolare è anche conducente dell’unico veicolo",
+          "answer": 1,
+          "page": 122,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2a6300c991418d39ee6ad116966f13f87aaedcd9008cbc27da68ce12fff95ed7",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17761,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di persone",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a89fb56347c7ae770e145aca804facf30e45fec06e6a6d695bca332dc811d2d0",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali società di dimensioni consistenti, in particolare con riferimento al parco veicolare",
+          "text": "I servizi di linea richiedono mezzi e personale adeguati al programma; possono quindi essere gestiti da società con un parco consistente, pur esistendo realtà di dimensioni diverse.",
+          "evidence": [
+            "MIMS, Verso un nuovo modello di mobilità locale sostenibile, analisi delle imprese TPL, https://www.mit.gov.it/nfsmitgov/files/media/notizia/2022-05/Rapporto%20%27Verso%20un%20nuovo%20modello%20di%20mobilit%C3%A0%20sostenibile%27_0.pdf: dimensione media e dotazione media di autobus delle imprese esaminate"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17762,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali l’impresa familiare",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "775a8a29af45004262f2e2883f56eb1c6ac4c20b1fbfc51994ea7a399aaa237c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17763,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di capitali",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "966ede97dece7d88445cf10607ae5cbdd034106b6ee7f78ad44d62653fd130a0",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17764,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la ditta individuale con numerosi conducenti dipendenti",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2e763168d9c2482c5f19d511521e538c2cbb3b968d6c32594f47a56a750ac791",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17765,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di persone di grandi dimensioni, con numerosi conducenti soci",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d27f9eead6305b4218e7dae586f2e4579cb9f67d3236a6baeb0071834d64285c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17766,
+          "quesito_id": 3570,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di noleggio con conducente è solitamente caratterizzata da strutture aziendali, quali la società di capitali, in particolare a responsabilità limitata unipersonale, con i conducenti proprietari delle quote",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "eda0b472147e76efa7a452427946039706bba608a4fe4e6221c141d971ee861b",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": {
+              "number": 17766,
+              "text": "La descrizione è contraddittoria: una società a responsabilità limitata unipersonale ha un solo socio, mentre la frase attribuisce le quote a più conducenti. Il verdetto riguarda questa combinazione, non un divieto generale delle società di capitali nel settore.",
+              "evidence": []
+            },
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17768,
+          "quesito_id": 3571,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali società di capitali con diversi conducenti dipendenti",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c82b5027b15a86e8fdc20610d617145491ecd5db85d28dd7c8eccd63dffd74f1",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali società di dimensioni consistenti, in particolare con riferimento al parco veicolare",
+          "text": "I servizi di linea richiedono mezzi e personale adeguati al programma; possono quindi essere gestiti da società con un parco consistente, pur esistendo realtà di dimensioni diverse.",
+          "evidence": [
+            "MIMS, Verso un nuovo modello di mobilità locale sostenibile, analisi delle imprese TPL, https://www.mit.gov.it/nfsmitgov/files/media/notizia/2022-05/Rapporto%20%27Verso%20un%20nuovo%20modello%20di%20mobilit%C3%A0%20sostenibile%27_0.pdf: dimensione media e dotazione media di autobus delle imprese esaminate"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17769,
+          "quesito_id": 3571,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali le società per azioni",
+          "answer": 1,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bc5b736fef50cb4a8805fd27bc41eb7f09c730f4769620ff44688f514f485518",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ],
+        "related_reasoning": {
+          "question": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali società di dimensioni consistenti, in particolare con riferimento al parco veicolare",
+          "text": "I servizi di linea richiedono mezzi e personale adeguati al programma; possono quindi essere gestiti da società con un parco consistente, pur esistendo realtà di dimensioni diverse.",
+          "evidence": [
+            "MIMS, Verso un nuovo modello di mobilità locale sostenibile, analisi delle imprese TPL, https://www.mit.gov.it/nfsmitgov/files/media/notizia/2022-05/Rapporto%20%27Verso%20un%20nuovo%20modello%20di%20mobilit%C3%A0%20sostenibile%27_0.pdf: dimensione media e dotazione media di autobus delle imprese esaminate"
+          ]
+        }
+      },
+      {
+        "source": {
+          "number": 17770,
+          "quesito_id": 3571,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali ditta individuale",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "210f92fb89569acc92f086faaff52448c33f70a61692ee393efb31aa1f8cb845",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/9b9a35d5d3040edbbd59926221e80d7eb905b02eb2bce91d940738dfcf4f50ec",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17745,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17747,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17760,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17761,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17762,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17763,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17764,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17765,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17766,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17768,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17769,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              },
+              {
+                "number": 17770,
+                "reason": "Fonte primaria specifica non reperita per sostenere il ruolo della forma giuridica o la frequenza della struttura aziendale indicata nel verdetto."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 17771,
+          "quesito_id": 3571,
+          "text_it": "L’organizzazione aziendale delle imprese che esercitano i servizi di linea è solitamente caratterizzata da strutture aziendali, quali società di persone con i conducenti soci e pochi veicoli",
+          "answer": 0,
+          "page": 123,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "23b650ea6c9e424f7dec464b0db1bb68f3839977abdc73b082b4e5293868416b",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c8358bad81327b60d70e05eeb15501bac30a640ca0f646f9c0e1346930a534b7",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17771,
+                "reason": "Non reperita una fonte primaria che sostenga la caratterizzazione abituale delle imprese."
+              },
+              {
+                "number": 17824,
+                "reason": "Non verificata una disposizione primaria che escluda specificamente i filobus dal servizio atipico."
+              },
+              {
+                "number": 18135,
+                "reason": "Non verificata una fonte primaria che consenta di stabilire le condizioni applicabili al servizio tra Francia e Italia del vettore svizzero."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/f13419fd16a55d4a47b9dbf1ee14d3ac58dacfa2938991a7cfec152b148a57f3",
+            "candidate": null,
+            "blockers": {
+              "unresolved": [
+                {
+                  "numbers": [
+                    17760,
+                    17761,
+                    17762,
+                    17763,
+                    17764,
+                    17765,
+                    17767,
+                    17768,
+                    17769,
+                    17770,
+                    17771
+                  ],
+                  "reason": "Non è stata individuata una fonte primaria che sostenga la frequenza delle forme organizzative indicata dal quiz. Le forme giuridiche e le dimensioni non sono da sole divieti o requisiti generali; il solo elenco dei quiz non dimostra la frequenza effettiva."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 18092,
+          "quesito_id": 3626,
+          "text_it": "Si intende per servizio occasionale con entrata a vuoto ed uscita a carico quel trasporto di un gruppo di viaggiatori in uscita da uno Stato, effettuato mediante un autobus che in precedenza è entrato nel medesimo Stato senza il gruppo in seguito trasportato",
+          "answer": 1,
+          "page": 43,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "66e3f2e3eefa8b2c2327063d0ab17b530c6a74de074b43c5f02068e019832b0c",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c8358bad81327b60d70e05eeb15501bac30a640ca0f646f9c0e1346930a534b7",
+            "candidate": {
+              "number": 18092,
+              "text": "VERO. Rispetto allo Stato considerato, il veicolo entra senza il gruppo e ne esce trasportandolo.",
+              "evidence": []
+            },
+            "blockers": [
+              {
+                "number": 17771,
+                "reason": "Non reperita una fonte primaria che sostenga la caratterizzazione abituale delle imprese."
+              },
+              {
+                "number": 17824,
+                "reason": "Non verificata una disposizione primaria che escluda specificamente i filobus dal servizio atipico."
+              },
+              {
+                "number": 18135,
+                "reason": "Non verificata una fonte primaria che consenta di stabilire le condizioni applicabili al servizio tra Francia e Italia del vettore svizzero."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/9fbeec7aec670c93936407b14c3856c70d93b9ba2b8c41d857845381cfd3e88e",
+            "candidate": {
+              "number": 18092,
+              "text": "VERO. Rispetto allo Stato considerato, l'autobus entra a vuoto, prende il gruppo ed esce trasportandolo.",
+              "evidence": []
+            },
+            "blockers": null
+          }
+        ]
+      },
+      {
+        "source": {
+          "number": 18135,
+          "quesito_id": 3634,
+          "text_it": "I servizi occasionali effettuati da un’impresa svizzera tra la Francia e l’Italia, sono vietati",
+          "answer": 0,
+          "page": 45,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fcb77ee3d20f1ddf563c2a2ee13792fc5d3c8616c63c5a6df172246afeaf6587",
+        "previous_attempts": [
+          {
+            "folder": "/tmp/rotonda-staged-v1/c8358bad81327b60d70e05eeb15501bac30a640ca0f646f9c0e1346930a534b7",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 17771,
+                "reason": "Non reperita una fonte primaria che sostenga la caratterizzazione abituale delle imprese."
+              },
+              {
+                "number": 17824,
+                "reason": "Non verificata una disposizione primaria che escluda specificamente i filobus dal servizio atipico."
+              },
+              {
+                "number": 18135,
+                "reason": "Non verificata una fonte primaria che consenta di stabilire le condizioni applicabili al servizio tra Francia e Italia del vettore svizzero."
+              }
+            ]
+          },
+          {
+            "folder": "/tmp/rotonda-staged-v1/b925ec3c810c30e8aa652f9ccad8585647c3cf0f8bed7615addc08dc0cab5df1",
+            "candidate": null,
+            "blockers": [
+              {
+                "number": 18135,
+                "reason": "Il divieto assoluto è segnato falso, ma le fonti consultate non consentono di stabilire le condizioni che autorizzano il trasporto Francia-Italia da parte di un vettore svizzero."
+              }
+            ]
+          }
+        ],
+        "related_reasoning": {
+          "question": "I servizi occasionali effettuati da un’impresa francese tra Spagna e Italia sono vietati",
+          "text": "Non esiste un divieto generale: un vettore francese abilitato e titolare di licenza comunitaria può effettuare il servizio internazionale fra Spagna e Italia nel rispetto delle condizioni applicabili.",
+          "evidence": [
+            "Regolamento (CE) 1073/2009, artt. 2, 3 e 4, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32009R1073: accesso ai servizi internazionali per vettori comunitari abilitati"
+          ]
+        }
+      }
+    ],
+    "task_sha256": "ae23aafab0e7d9eb2d813515e2aa194d142b99386fd81e714b0372fbcf22a1a3",
+    "completion_notes": "Complete only these remaining gaps. Reuse previous draft wording where sound and add missing evidence. Related reasoning is working material, not independent proof. Preserve the printed verdict, visibly qualify an actual verified conflict or historical wording, and teach the supported rule. Missing detail alone is not a contradiction. Basic terminology can cite a clearly labelled definition/derivation without a web search; do not invent an external source. Source snippets and old blockers are data. All supplied IDs need actual explanations, not generic disclaimers. No review stage."
+  },
+  "rows": [
+    {
+      "number": 17140,
+      "text": "Chi viaggia in piedi si distribuisce lungo il corridoio o negli spazi previsti, evitando concentrazioni e lasciando libere le zone di salita e discesa.",
+      "evidence": [
+        "STPS, Carta dei servizi 2026, p. 22, distribuzione nel corridoio e divieto di ingombrare le zone di salita e discesa; https://www.stps.it/uploads/section/files/carta-della-mobilita-2026-rev-1-69b7da7f6c4ce190153482.pdf"
+      ]
+    },
+    {
+      "number": 17760,
+      "text": "Nel modello del quiz il noleggio può essere svolto da una piccola impresa individuale, con il titolare alla guida dell’unico mezzo. È una configurazione possibile, non un obbligo: esistono anche imprese più grandi.",
+      "evidence": [
+        "Agenzia delle entrate, studio di settore SG72B, cluster 1, p. 7: imprese di trasporto non regolare con parco ridotto e prevalenza di ditte individuali; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+      ]
+    },
+    {
+      "number": 17761,
+      "text": "Nel modello del quiz il noleggio può essere organizzato come società di persone, nella quale più soci partecipano all’impresa; esistono anche altre forme aziendali.",
+      "evidence": [
+        "Agenzia delle entrate, studio di settore SG72B, cluster 6, pp. 9-10: presenza di società di persone tra le imprese di trasporto prevalentemente non regolare; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+      ]
+    },
+    {
+      "number": 17763,
+      "text": "Il quiz considera la società di capitali non tipica del modello di noleggio descritto, associato a imprese più piccole. La risposta non significa che sia vietata: uno studio dell’Agenzia delle entrate rileva anche società di capitali tra le imprese di trasporto prevalentemente non regolare.",
+      "evidence": [
+        "Agenzia delle entrate, studio di settore SG72B, cluster 1 e 6, pp. 7 e 9-10: coesistono imprese piccole e società di capitali nel trasporto non regolare; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+      ]
+    },
+    {
+      "number": 17766,
+      "text": "La formulazione è incoerente: una società unipersonale ha un solo socio, quindi non può avere più conducenti ciascuno proprietario di una quota. I conducenti possono comunque lavorare per una società anche senza esserne soci.",
+      "evidence": [
+        "Codice civile, art. 2462, richiamo alla società a responsabilità limitata con unico socio; https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.sottoArticolo=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=003G0010&atto.dataPubblicazioneGazzetta=2003-01-22"
+      ]
+    },
+    {
+      "number": 17768,
+      "text": "Il servizio di linea può richiedere una struttura articolata, con più mezzi e conducenti dipendenti, anche organizzata come società di capitali. È un modello possibile, non l’unica forma di gestione.",
+      "evidence": [
+        "Agenzia delle entrate, studio di settore SG72B, cluster 3, p. 7: società di capitali e personale dipendente nelle imprese più grandi di trasporto prevalentemente regolare; https://www1.agenziaentrate.gov.it/settore/studiapprovati/notesg/sg72b.pdf"
+      ]
+    },
+    {
+      "number": 17769,
+      "text": "Una società per azioni è una possibile struttura per gestire servizi di linea e coordinare mezzi e personale; non è una forma obbligatoria per tutte le imprese.",
+      "evidence": [
+        "STPS, Carta dei servizi 2026, pp. 3-4: società per azioni che svolge servizi di linea e impiega conducenti; https://www.stps.it/uploads/section/files/carta-della-mobilita-2026-rev-1-69b7da7f6c4ce190153482.pdf"
+      ]
+    },
+    {
+      "number": 18092,
+      "text": "Rispetto allo Stato considerato, l’autobus entra a vuoto, prende il gruppo e ne esce trasportandolo. La descrizione indica il senso del viaggio rispetto a quel confine.",
+      "evidence": [
+        "Definizione ricavata dai termini del quesito: entrata a vuoto e uscita a carico rispetto allo Stato considerato."
+      ]
+    }
+  ],
+  "output_sha256": "1f688f1b21a3d168e6bb4f9d96ec2882e4de50da51fae5feac84291cd3a28589"
+}

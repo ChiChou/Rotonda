@@ -1,0 +1,766 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 27584,
+          "quesito_id": 6008,
+          "text_it": "L'impresa di trasporto non è responsabile per le violazioni alla normativa in materia di tempi di guida e di riposo commesse, durante il lavoro, dai conducenti alle proprie dipendenze quando sono all'estero",
+          "answer": 0,
+          "page": 42,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fc0d161813d04ac0750727a78f1cb47cf7234b8bd52ab73ab5eb56b773ce10ff",
+        "localized_text": "运输企业对其雇用的驾驶员在国外工作期间违反驾驶和休息时间规定的行为不承担责任。"
+      },
+      {
+        "source": {
+          "number": 27585,
+          "quesito_id": 6009,
+          "text_it": "Il regolamento 561/2006/CE prevede che, al fine di salvaguardare la sicurezza delle persone e delle cose trasportate, il conducente possa superare i tempi massimi di guida prescritti solo per raggiungere un luogo di sosta appropriato",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3d528d1f9688563fc5a67b6df4e221d711a8b34519c420e4d6ff61e7b2747551",
+        "localized_text": "第561/2006号（欧共体）条例规定，为保障所载人员和货物安全，驾驶员只有为到达合适停车地点才可以超过规定的最长驾驶时间。"
+      },
+      {
+        "source": {
+          "number": 27586,
+          "quesito_id": 6009,
+          "text_it": "Il conducente che deroga alla durata massima della guida al fine di raggiungere un luogo di sosta appropriato, deve annotarne i motivi sul foglio di registrazione o sul retro della stampa giornaliera (ticket)",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "16ca07450d83c7a355669de0de754d6c687b63169c04ee8d8b9fc6990cd3a0b9",
+        "localized_text": "驾驶员为到达合适停车地点而超过最长驾驶时间时，必须在记录纸或每日打印凭条背面注明原因。"
+      },
+      {
+        "source": {
+          "number": 27587,
+          "quesito_id": 6009,
+          "text_it": "Il regolamento 561/2006/CE prevede che il conducente possa superare i tempi massimi di guida prescritti per raggiungere il proprio domicilio",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0f546f468c31d448c197af04828e380ee4c2d12148e4731cc3c18d16cf0be217",
+        "localized_text": "第561/2006号（欧共体）条例规定驾驶员可以超过规定的最长驾驶时间以到达住所。"
+      },
+      {
+        "source": {
+          "number": 27588,
+          "quesito_id": 6009,
+          "text_it": "Il regolamento 561/2006/CE prevede che il conducente possa superare i tempi massimi di guida prescritti per raggiungere il deposito dell'impresa proprietaria del veicolo",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cae1a185e753bede18bc78f9b2e3a208f20fa11c94e3a3c54c50b3e4898d3398",
+        "localized_text": "第561/2006号（欧共体）条例规定驾驶员可以超过规定的最长驾驶时间以到达车辆所属企业的车场。"
+      },
+      {
+        "source": {
+          "number": 27589,
+          "quesito_id": 6010,
+          "text_it": "Secondo il regolamento 561/2006/CE, per \"interruzione\" si intende ogni periodo in cui il conducente non può guidare o svolgere altre mansioni",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0bcf6c3132c674204a74bc47d13c8c459a598b0e470822df8c1c2a6f23dd3744",
+        "localized_text": "根据第561/2006号（欧共体）条例，“间歇”是指驾驶员不得驾驶或从事其他工作的任何时段。"
+      },
+      {
+        "source": {
+          "number": 27590,
+          "quesito_id": 6010,
+          "text_it": "Secondo il regolamento 561/2006/CE, per \"riposo\" si intende ogni periodo ininterrotto durante il quale il conducente può disporre liberamente del suo tempo",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bcaab35489883101a3205e223eec65c357310462a3bb2a4149c2b7b2ba784540",
+        "localized_text": "根据第561/2006号（欧共体）条例，“休息”是指驾驶员可以自由支配时间的任何连续时段。"
+      },
+      {
+        "source": {
+          "number": 27591,
+          "quesito_id": 6010,
+          "text_it": "Secondo il regolamento 561/2006/CE, il \"tempo di disponibilità\" comprende il tempo di attesa sul posto di lavoro e la multipresenza",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "da816e5802f9962a90f52cf7cca235df8ca17224a861b0edaaceeee47378ec94",
+        "localized_text": "根据第561/2006号（欧共体）条例，“待命时间”包括在工作场所等待和多人驾驶。"
+      },
+      {
+        "source": {
+          "number": 27592,
+          "quesito_id": 6010,
+          "text_it": "Secondo il regolamento 561/2006/CE, per \"interruzione\" si intende ogni fermata effettuata con il veicolo durante la giornata lavorativa",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "576ff15093b756c4b4b30f7e82e5d511f98961c2dc6009b73e82be8757984cac",
+        "localized_text": "根据第561/2006号（欧共体）条例，“间歇”是指工作日内车辆的每次停靠。"
+      },
+      {
+        "source": {
+          "number": 27593,
+          "quesito_id": 6010,
+          "text_it": "Secondo il regolamento 561/2006/CE, per \"disponibilità\" si intende l'assenso del lavoratore a svolgere mansioni al di fuori del normale orario di lavoro",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "42b015dadceb4a01310c64215664c4395178bfd9f69425aaf9982968eb2a9262",
+        "localized_text": "根据第561/2006号（欧共体）条例，“待命”是指劳动者同意在正常工作时间以外履行职责。"
+      },
+      {
+        "source": {
+          "number": 27594,
+          "quesito_id": 6011,
+          "text_it": "Il regolamento 561/2006/CE stabilisce che il periodo massimo di guida settimanale è di cinquantasei ore",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "3f13438ec00955de842c006d97fe0a89b270241c5602c1539b4182f3f28c79e0",
+        "localized_text": "第561/2006号（欧共体）条例将每周最长驾驶时间规定为五十六小时。"
+      },
+      {
+        "source": {
+          "number": 27595,
+          "quesito_id": 6011,
+          "text_it": "Il regolamento 561/2006/CE stabilisce che il periodo massimo di guida settimanale è di cinquantasei ore e che la guida non deve superare le novanta ore nell’arco di due settimane consecutive",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "53793f4752141383e37d0ace69e869b949a1b9475fc326bbf99fb4ee3acb3b67",
+        "localized_text": "第561/2006号（欧共体）条例将每周最长驾驶时间规定为五十六小时，连续两周驾驶时间不得超过九十小时。"
+      },
+      {
+        "source": {
+          "number": 27596,
+          "quesito_id": 6011,
+          "text_it": "Secondo il regolamento 561/2006/CE, il periodo di riposo giornaliero può essere frazionato in due parti, la prima di almeno 3 ore e la seconda di almeno 9 ore",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e63d2ffe6b8d186fb92050e843e131848603cc53a5a827068f958bf79cf39377",
+        "localized_text": "根据第561/2006号（欧共体）条例，每日休息可以分为两部分，第一部分至少3小时，第二部分至少9小时。"
+      },
+      {
+        "source": {
+          "number": 27597,
+          "quesito_id": 6011,
+          "text_it": "Secondo il regolamento 561/2006/CE, il conducente, dopo sei periodi di guida, deve effettuare un riposo di 45 ore consecutive",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "871b5bfd0b3bdaea327fbc39e5e3b4c2167480234ea36b6a63d2a57fb96c4288",
+        "localized_text": "根据第561/2006号（欧共体）条例，驾驶员经过六个驾驶时段后必须连续休息45小时。"
+      },
+      {
+        "source": {
+          "number": 27598,
+          "quesito_id": 6011,
+          "text_it": "Secondo il regolamento 561/2006/CE, il conducente, dopo sei periodi di guida, può effettuare un riposo ridotto di almeno 24 ore consecutive, purché le restanti ore di riposo vengano recuperate entro la fine della terza settimana",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "387f7e95912c61398f67a5e6a2f9afa7b700431fe10088c785840c8e5bbf3aa1",
+        "localized_text": "根据第561/2006号（欧共体）条例，驾驶员经过六个驾驶时段后可以连续缩短休息至少24小时，前提是在第三周结束前补足剩余休息时间。"
+      },
+      {
+        "source": {
+          "number": 27599,
+          "quesito_id": 6011,
+          "text_it": "Secondo il regolamento 561/2006/CE, si può parlare di multipresenza quando a bordo del veicolo sono presenti almeno due conducenti per l’intero periodo, fatta salva la prima ora nella quale la presenza del secondo conducente è facoltativa",
+          "answer": 1,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cd41fb1e00db25e395ea7a2214f80b5afce307808a92c1d762b666625813c793",
+        "localized_text": "根据第561/2006号（欧共体）条例，除第一小时第二名驾驶员可以不在场外，整个时段车上至少有两名驾驶员时可称为多人驾驶。"
+      },
+      {
+        "source": {
+          "number": 27600,
+          "quesito_id": 6011,
+          "text_it": "Secondo il regolamento 561/2006/CE, il periodo di riposo giornaliero può essere frazionato in due parti, la prima di almeno 9 ore e la seconda di almeno 3 ore",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8b2696c5e6dcda993490f0f604f7a03a7f070223e03f0b93e9bc2b5d3d93d75f",
+        "localized_text": "根据第561/2006号（欧共体）条例，每日休息可以分为两部分，第一部分至少9小时，第二部分至少3小时。"
+      },
+      {
+        "source": {
+          "number": 27601,
+          "quesito_id": 6011,
+          "text_it": "Secondo il regolamento 561/2006/CE, il conducente, dopo quattro periodi di guida, deve effettuare un riposo di 48 ore consecutive",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "88392da33d33e021e16b0e8b1c505351284624a0e559943aa445257427685d0e",
+        "localized_text": "根据第561/2006号（欧共体）条例，驾驶员经过四个驾驶时段后必须连续休息48小时。"
+      },
+      {
+        "source": {
+          "number": 27602,
+          "quesito_id": 6011,
+          "text_it": "Secondo il regolamento 561/2006/CE, si può parlare di multipresenza quando a bordo del veicolo sono presenti due conducenti per l’intero periodo, fatte salve le prime tre ore dove la presenza del secondo conducente è facoltativa",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "6b40ae6fed4e256716be6b194327203a9440cdc2bf547b9f9333ddf286dc1f87",
+        "localized_text": "根据第561/2006号（欧共体）条例，除前三小时第二名驾驶员可以不在场外，整个时段车上有两名驾驶员时可称为多人驾驶。"
+      },
+      {
+        "source": {
+          "number": 27603,
+          "quesito_id": 6011,
+          "text_it": "Il regolamento 561/2006/CE stabilisce che il periodo massimo di guida settimanale è di quarantotto ore",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "04604889808a8f9c8d469bac7972d383aff42abe93c5ec1c0bb7e9963c880e0f",
+        "localized_text": "第561/2006号（欧共体）条例将每周最长驾驶时间规定为四十八小时。"
+      },
+      {
+        "source": {
+          "number": 27604,
+          "quesito_id": 6011,
+          "text_it": "Il regolamento 561/2006/CE stabilisce che il periodo massimo di guida settimanale è di cinquantasei ore e che la guida non deve superare le cento ore nell’arco di due settimane consecutive",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "f86f77e8e74e5b61c74d3fc173c57658613038a61bdbfd4115aacc89662f4f33",
+        "localized_text": "第561/2006号（欧共体）条例将每周最长驾驶时间规定为五十六小时，连续两周驾驶时间不得超过一百小时。"
+      },
+      {
+        "source": {
+          "number": 27605,
+          "quesito_id": 6011,
+          "text_it": "Dopo un periodo di guida di quattro ore e mezza, il conducente deve osservare un periodo di riposo di almeno 50 minuti consecutivi",
+          "answer": 0,
+          "page": 43,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5c4752da3c7873639e283abe8e35ffcfffab9b85ca30e1ca15e4aa20e7ea9de9",
+        "localized_text": "驾驶四个半小时后，驾驶员必须连续休息至少50分钟。"
+      },
+      {
+        "source": {
+          "number": 27606,
+          "quesito_id": 6012,
+          "text_it": "Sul cronotachigrafo, i tempi di guida sono convenzionalmente rappresentati dal simbolo in figura",
+          "answer": 1,
+          "page": 44,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/c8d56e2e95a7df66603791128b4b8a889f60198e13fe7cfb0b243ee0e4251752.png",
+              "sha256": "c8d56e2e95a7df66603791128b4b8a889f60198e13fe7cfb0b243ee0e4251752",
+              "page": 44,
+              "bbox": [
+                465.63,
+                23.0,
+                545.63,
+                103.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "3f732d49b37f8f7fe138271577b7895a5e6a5b6dde2f016b86b54e41d788dc70",
+        "localized_text": "在行车记录仪上，驾驶时间通常用图示符号表示。"
+      },
+      {
+        "source": {
+          "number": 27607,
+          "quesito_id": 6012,
+          "text_it": "Sul cronotachigrafo, i tempi di riposo sono convenzionalmente rappresentati dal simbolo in figura",
+          "answer": 1,
+          "page": 44,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/8ce93da1224d94ef3f90179dc5647968c4c9b752ca5aedfacfb1e6aa032d8df4.png",
+              "sha256": "8ce93da1224d94ef3f90179dc5647968c4c9b752ca5aedfacfb1e6aa032d8df4",
+              "page": 44,
+              "bbox": [
+                465.63,
+                109.0,
+                545.63,
+                189.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "9f43db522214b920ba931ff8ddd06a829afae7b54ba73fe1181c1958e41d99be",
+        "localized_text": "在行车记录仪上，休息时间通常用图示符号表示。"
+      },
+      {
+        "source": {
+          "number": 27608,
+          "quesito_id": 6012,
+          "text_it": "Sul cronotachigrafo, i tempi di disponibilità sono convenzionalmente rappresentati dal simbolo in figura",
+          "answer": 1,
+          "page": 44,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": [
+            {
+              "path": "source/images/a80a6ff1b7a57be702b1beeb9d5c5d908d6582f248246779292dffbd8481cb90.png",
+              "sha256": "a80a6ff1b7a57be702b1beeb9d5c5d908d6582f248246779292dffbd8481cb90",
+              "page": 44,
+              "bbox": [
+                465.63,
+                195.0,
+                545.63,
+                275.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "3fa2eaccb7836ac58bae1254e06008ae3bd80ffca7c4779fbc1f9bc60debcbe8",
+        "localized_text": "在行车记录仪上，待命时间通常用图示符号表示。"
+      }
+    ],
+    "task_sha256": "dc0a4b5e49bf58f099cda7c38b46ac547c99a6b0faf3d6ae561eac250cf76fd9"
+  },
+  "rows": [
+    {
+      "number": 27584,
+      "text": "企业也可能对其驾驶员在其他国家犯下的违规行为负责；国家法律可以规定责任成立的条件。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 10(3), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — responsabilità dell’impresa anche per infrazioni all’estero, con possibili condizioni nazionali."
+      ]
+    },
+    {
+      "number": 27585,
+      "text": "为保障人员、车辆或货物的安全，在不危及道路安全的前提下，可以仅在到达合适停车地点所需的范围内偏离限时规定。第12条另行规定，在符合条件的特殊情况下，可为每周休息返回住所或雇主的运营中心。",
+      "evidence": [
+        "Regulation (EC) 561/2006, article 12, consolidated from 20 August 2020: safety-to-suitable-stop provision; separately, exceptional return to residence or employer operational centre for weekly rest, up to one hour or up to two for regular weekly rest after immediately preceding uninterrupted 30-minute break; record reason and compensate extension en bloc by end of third following week. https://eur-lex.europa.eu/eli/reg/2006/561/2020-08-20",
+        "European Commission, Driving & rest times, Article 12 guidance: the 90-hour fortnightly driving limit and applicable six-24-hour weekly-rest deadline are not waived by the exceptional return derogation. https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en",
+        "Official superiori PDF, page 43 zero-based, prints 27585 VERO and 27587/27588 FALSO. Reading the latter as unconditional everyday permission is editorial interpretation, not a verified official explanation; the separate 2020 exceptional return derogation remains available subject to its conditions."
+      ]
+    },
+    {
+      "number": 27586,
+      "text": "为到达合适停车地点而偏离限时规定时，驾驶员须最迟在到达时将原因手写在记录纸或打印凭条上。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 12, primo comma, https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — annotazione della ragione entro l’arrivo alla sosta adeguata."
+      ]
+    },
+    {
+      "number": 27587,
+      "text": "题库判为 FALSO：回家通常不能成为超过限时的理由。依据第12条，在特殊情况下且不危及道路安全时，可为每周休息返回住所或雇主运营中心：最多延长一小时；若进行正常每周休息，且额外驾驶前已连续休息30分钟，最多可延长两小时。必须记录原因，并在随后第三周结束前补偿延长时间。",
+      "evidence": [
+        "Regulation (EC) 561/2006, article 12, consolidated from 20 August 2020: safety-to-suitable-stop provision; separately, exceptional return to residence or employer operational centre for weekly rest, up to one hour or up to two for regular weekly rest after immediately preceding uninterrupted 30-minute break; record reason and compensate extension en bloc by end of third following week. https://eur-lex.europa.eu/eli/reg/2006/561/2020-08-20",
+        "European Commission, Driving & rest times, Article 12 guidance: the 90-hour fortnightly driving limit and applicable six-24-hour weekly-rest deadline are not waived by the exceptional return derogation. https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en",
+        "Official superiori PDF, page 43 zero-based, prints 27585 VERO and 27587/27588 FALSO. Reading the latter as unconditional everyday permission is editorial interpretation, not a verified official explanation; the separate 2020 exceptional return derogation remains available subject to its conditions."
+      ]
+    },
+    {
+      "number": 27588,
+      "text": "题库判为 FALSO：前往车辆所有者的车场通常不能成为超过限时的理由。依据第12条，在特殊情况下且不危及道路安全时，可为每周休息返回住所或雇主运营中心，而非任意所有者车场：最多延长一小时；若进行正常每周休息，且额外驾驶前已连续休息30分钟，最多可延长两小时。必须记录原因，并在随后第三周结束前补偿延长时间。",
+      "evidence": [
+        "Regulation (EC) 561/2006, article 12, consolidated from 20 August 2020: safety-to-suitable-stop provision; separately, exceptional return to residence or employer operational centre for weekly rest, up to one hour or up to two for regular weekly rest after immediately preceding uninterrupted 30-minute break; record reason and compensate extension en bloc by end of third following week. https://eur-lex.europa.eu/eli/reg/2006/561/2020-08-20",
+        "European Commission, Driving & rest times, Article 12 guidance: the 90-hour fortnightly driving limit and applicable six-24-hour weekly-rest deadline are not waived by the exceptional return derogation. https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en",
+        "Official superiori PDF, page 43 zero-based, prints 27585 VERO and 27587/27588 FALSO. Reading the latter as unconditional everyday permission is editorial interpretation, not a verified official explanation; the separate 2020 exceptional return derogation remains available subject to its conditions."
+      ]
+    },
+    {
+      "number": 27589,
+      "text": "间歇专门用于恢复体力：期间不得驾驶，也不得从事其他工作。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(d), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — interruzione senza guida o altre mansioni e destinata al recupero."
+      ]
+    },
+    {
+      "number": 27590,
+      "text": "休息是驾驶员能够自由支配时间的连续时段，不必随时准备工作。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(f), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — riposo ininterrotto con tempo liberamente disponibile."
+      ]
+    },
+    {
+      "number": 27591,
+      "text": "待命既不是间歇，也不是实际工作：在规定条件下，它包括预计时长已知的等待，以及多人驾驶时车辆行驶中坐在驾驶员旁或躺在卧铺上的时间。并非工作场所的每次等待都属于待命。",
+      "evidence": [
+        "Direttiva 2002/15/CE, art. 3(a)-(b), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32002L0015 — disponibilità distinta dal lavoro e dalle pause; attese prevedibili e tempo in multipresenza alle condizioni indicate."
+      ]
+    },
+    {
+      "number": 27592,
+      "text": "停车不自动等于间歇：间歇必须专门用于恢复体力，期间不得驾驶或从事其他工作。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(d), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — interruzione destinata esclusivamente al recupero."
+      ]
+    },
+    {
+      "number": 27593,
+      "text": "待命不是同意加班，而是有别于间歇和休息的时段；在规定条件下，工作人员须随时准备响应工作召唤。",
+      "evidence": [
+        "Direttiva 2002/15/CE, art. 3(a)-(b), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32002L0015 — disponibilità distinta dal lavoro e dalle pause; attese prevedibili e tempo in multipresenza alle condizioni indicate."
+      ]
+    },
+    {
+      "number": 27594,
+      "text": "通常每周驾驶上限为56小时；连续两周90小时的上限也必须遵守。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 6(2)-(3), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — limiti di 56 ore settimanali e 90 in due settimane."
+      ]
+    },
+    {
+      "number": 27595,
+      "text": "通常每周驾驶上限为56小时，连续两周上限为90小时。为返回住所或雇主运营中心的特殊例外可在符合条件时延长每周上限，但不能突破90小时上限。",
+      "evidence": [
+        "Regulation (EC) 561/2006, Article 6(2)–(3), ordinary weekly and fortnightly driving limits; Article 12, conditional exceptional extension. https://eur-lex.europa.eu/eli/reg/2006/561/2020-08-20",
+        "European Commission, Article 12 guidance: the exceptional return derogation does not waive the 90-hour fortnightly limit. https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en"
+      ]
+    },
+    {
+      "number": 27596,
+      "text": "分段正常每日休息须先连续至少休息3小时，然后连续至少休息9小时。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(g), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — riposo giornaliero regolare frazionato: 3 ore poi 9."
+      ]
+    },
+    {
+      "number": 27597,
+      "text": "正常每周休息至少45小时。通常须在上一次每周休息结束后的六个24小时周期内开始；符合法定条件也可采用缩短的休息。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(h), 8(6), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — riposo regolare di almeno 45 ore, termine di sei periodi di 24 ore e riposo ridotto."
+      ]
+    },
+    {
+      "number": 27598,
+      "text": "缩短的每周休息至少24小时；减少的时间须在其后第三周结束前一次补足，并遵守其他每周休息条件。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(h), 8(6), 8(6b), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — riposo ridotto almeno 24 ore e compensazione entro la terza settimana successiva."
+      ]
+    },
+    {
+      "number": 27599,
+      "text": "多人驾驶时，在有关驾驶时段内车上须有至少两名驾驶员可供驾驶；仅第一小时第二名驾驶员的在场是可选的。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(o), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — multipresenza e prima ora facoltativa."
+      ]
+    },
+    {
+      "number": 27600,
+      "text": "顺序颠倒了：分段正常每日休息第一段至少连续3小时，第二段至少连续9小时。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(g), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — riposo frazionato: 3 ore poi 9."
+      ]
+    },
+    {
+      "number": 27601,
+      "text": "通常规则并不要求四个驾驶时段后休息48小时：正常每周休息至少45小时，通常须在上一次每周休息结束后的六个24小时周期内开始。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(h), 8(6), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — riposo regolare di almeno 45 ore e termine ordinario di sei periodi di 24 ore."
+      ]
+    },
+    {
+      "number": 27602,
+      "text": "多人驾驶时，仅第一小时第二名驾驶员可以不在场，而非前三小时。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 4(o), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — secondo conducente facoltativo solo nella prima ora."
+      ]
+    },
+    {
+      "number": 27603,
+      "text": "通常每周驾驶上限是56小时，不是48小时；连续两周90小时的上限也适用。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 6(2)-(3), https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — 56 ore settimanali e 90 in due settimane."
+      ]
+    },
+    {
+      "number": 27604,
+      "text": "通常每周上限为56小时，但连续两周上限为90小时，不是100小时。为返回住所或雇主运营中心的特殊例外可在符合条件时延长每周上限，但不能突破90小时上限。",
+      "evidence": [
+        "Regulation (EC) 561/2006, Article 6(2)–(3), ordinary weekly and fortnightly driving limits; Article 12, conditional exceptional extension. https://eur-lex.europa.eu/eli/reg/2006/561/2020-08-20",
+        "European Commission, Article 12 guidance: the exceptional return derogation does not waive the 90-hour fortnightly limit. https://transport.ec.europa.eu/transport-modes/road/mobility-package-i/driving-rest-times_en"
+      ]
+    },
+    {
+      "number": 27605,
+      "text": "驾驶4个半小时后，除非开始休息，否则须间歇至少45分钟；间歇也可以按规定条件分段。",
+      "evidence": [
+        "Regolamento (CE) 561/2006, art. 7, https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf — interruzione di 45 minuti dopo 4 ore e mezza, salvo riposo, con frazionamento ammesso."
+      ]
+    },
+    {
+      "number": 27606,
+      "text": "行车记录仪上类似方向盘的圆形符号表示驾驶时间。",
+      "evidence": [
+        "Regolamento (UE) 165/2014, art. 34(5)(b), https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0165 — pittogrammi distinti per guida, disponibilità e riposo."
+      ]
+    },
+    {
+      "number": 27607,
+      "text": "行车记录仪上的床形符号表示间歇和休息时间。",
+      "evidence": [
+        "Regolamento (UE) 165/2014, art. 34(5)(b), https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0165 — pittogrammi distinti per guida, disponibilità e riposo."
+      ]
+    },
+    {
+      "number": 27608,
+      "text": "行车记录仪上带对角线的方框表示待命时间。",
+      "evidence": [
+        "Regolamento (UE) 165/2014, art. 34(5)(b), https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0165 — pittogrammi distinti per guida, disponibilità e riposo."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "dc0a4b5e49bf58f099cda7c38b46ac547c99a6b0faf3d6ae561eac250cf76fd9",
+    "output_sha256": "5fef50fae7e07a6887ffde4763720a6d04fccd96d4899ee2764d486141f1ffe0",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      27584,
+      27585,
+      27586,
+      27587,
+      27588,
+      27589,
+      27590,
+      27591,
+      27592,
+      27593,
+      27594,
+      27595,
+      27596,
+      27597,
+      27598,
+      27599,
+      27600,
+      27601,
+      27602,
+      27603,
+      27604,
+      27605,
+      27606,
+      27607,
+      27608
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1ea66-31de-7881-bd96-e429fc9546a4",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7f0010820a176698b3a1810c8e53e109247f72f5c4e902854f5a96793954a8ab",
+          "attached_image_paths": [
+            "source/images/8ce93da1224d94ef3f90179dc5647968c4c9b752ca5aedfacfb1e6aa032d8df4.png",
+            "source/images/a80a6ff1b7a57be702b1beeb9d5c5d908d6582f248246779292dffbd8481cb90.png",
+            "source/images/c8d56e2e95a7df66603791128b4b8a889f60198e13fe7cfb0b243ee0e4251752.png"
+          ],
+          "attached_image_sha256": [
+            "8ce93da1224d94ef3f90179dc5647968c4c9b752ca5aedfacfb1e6aa032d8df4",
+            "a80a6ff1b7a57be702b1beeb9d5c5d908d6582f248246779292dffbd8481cb90",
+            "c8d56e2e95a7df66603791128b4b8a889f60198e13fe7cfb0b243ee0e4251752"
+          ]
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1ea66-31de-7881-bd96-e429fc9546a4",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 27585,
+              "reason": "Il quesito afferma che, per la sicurezza delle persone e cose trasportate, il superamento è consentito solo per raggiungere una sosta appropriata; la formulazione esclusiva è in conflitto con la deroga aggiuntiva per il rientro introdotta nel 2020. Il verdetto stampato è VERO e occorre adjudicare la portata di “solo” nel quesito.",
+              "checked_sources": [
+                "Regolamento 561/2006, art. 12, primo, secondo e terzo comma, https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf: la sosta appropriata è una deroga; esiste anche una distinta deroga eccezionale per raggiungere domicilio o sede operativa.",
+                "Regolamento (UE) 2020/1054, art. 1(11), https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020R1054: aggiunge le deroghe per il rientro."
+              ]
+            },
+            {
+              "number": 27587,
+              "reason": "Il quesito dichiara FALSO che si possa superare il tempo massimo per raggiungere il proprio domicilio; l’art. 12 vigente lo consente a condizioni eccezionali specifiche. Serve adjudicazione del conflitto con il verdetto stampato.",
+              "checked_sources": [
+                "Regolamento 561/2006, art. 12, secondo e terzo comma, https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf: consente aumenti limitati della guida giornaliera e settimanale per raggiungere il domicilio e fare il riposo settimanale, alle condizioni previste.",
+                "Regolamento (UE) 2020/1054, art. 1(11), https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020R1054: ha introdotto questa deroga."
+              ]
+            },
+            {
+              "number": 27588,
+              "reason": "Il quesito dichiara FALSO che si possa superare il massimo per raggiungere il deposito dell’impresa proprietaria; l’attuale deroga consente il rientro alla sede operativa del datore di lavoro a condizioni specifiche. Non è chiarito se il deposito indicato coincida con tale sede: serve adjudicazione della formulazione e del verdetto stampato.",
+              "checked_sources": [
+                "Regolamento 561/2006, art. 12, secondo e terzo comma, https://eur-lex.europa.eu/eli/reg/2006/561/2024-05-22/eng/pdf: deroga eccezionale limitata per raggiungere la sede operativa del datore di lavoro per il riposo settimanale.",
+                "Regolamento (UE) 2020/1054, art. 1(11), https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020R1054: ha introdotto la deroga."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "7f0010820a176698b3a1810c8e53e109247f72f5c4e902854f5a96793954a8ab",
+          "attached_image_paths": [
+            "source/images/8ce93da1224d94ef3f90179dc5647968c4c9b752ca5aedfacfb1e6aa032d8df4.png",
+            "source/images/a80a6ff1b7a57be702b1beeb9d5c5d908d6582f248246779292dffbd8481cb90.png",
+            "source/images/c8d56e2e95a7df66603791128b4b8a889f60198e13fe7cfb0b243ee0e4251752.png"
+          ],
+          "attached_image_sha256": [
+            "8ce93da1224d94ef3f90179dc5647968c4c9b752ca5aedfacfb1e6aa032d8df4",
+            "a80a6ff1b7a57be702b1beeb9d5c5d908d6582f248246779292dffbd8481cb90",
+            "c8d56e2e95a7df66603791128b4b8a889f60198e13fe7cfb0b243ee0e4251752"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "dc0a4b5e49bf58f099cda7c38b46ac547c99a6b0faf3d6ae561eac250cf76fd9",
+        "output_sha256": "d33edca01f5b8a5fa0d5d8a410271384002912ea36bfdad36b64e0a60e85afa9",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          27584,
+          27585,
+          27586,
+          27587,
+          27588,
+          27589,
+          27590,
+          27591,
+          27592,
+          27593,
+          27594,
+          27595,
+          27596,
+          27597,
+          27598,
+          27599,
+          27600,
+          27601,
+          27602,
+          27603,
+          27604,
+          27605,
+          27606,
+          27607,
+          27608
+        ],
+        "issues": [
+          "27595, 27604: The explanations assert the 56-hour weekly driving limit without qualifying the exceptional article 12 extension, although 27587/27588 explain that extension correctly. Describe 56 hours as the ordinary weekly limit while retaining the 90-hour maximum over two consecutive weeks."
+        ]
+      },
+      {
+        "task_sha256": "dc0a4b5e49bf58f099cda7c38b46ac547c99a6b0faf3d6ae561eac250cf76fd9",
+        "output_sha256": "d2f90b4db6b6629c0841d6a901af58f8b17843c73e41e34e5be1354057009ded",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          27584,
+          27585,
+          27586,
+          27587,
+          27588,
+          27589,
+          27590,
+          27591,
+          27592,
+          27593,
+          27594,
+          27595,
+          27596,
+          27597,
+          27598,
+          27599,
+          27600,
+          27601,
+          27602,
+          27603,
+          27604,
+          27605,
+          27606,
+          27607,
+          27608
+        ],
+        "issues": [
+          "27595, 27604: The learner text asserts that Article 12 as a whole does not waive the 90-hour limit. The Commission guidance establishes this for the exceptional return derogation, but Article 12 first paragraph separately permits departure from Articles 6–9, as necessary to reach a suitable stopping place for safety; this includes Article 6(3). Restrict the 90-hour statement to the return derogation."
+        ]
+      }
+    ]
+  }
+}

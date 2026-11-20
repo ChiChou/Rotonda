@@ -1,0 +1,31 @@
+{
+  "batch": "166",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "400012a05d20dc588ca96956f598454c7e74ae7cd699c30bb521c00c070e6e3e",
+  "source_sha256": "ef07812950e4e3fe5e7e8d3310893515f98b70e29b6e44ded7a8c6a2f33234a4",
+  "corrections": [
+    {
+      "id": "dbb38052f14bafb907c8c07df3a2a4ddd6ca3e9726d3e2695334910d2a0f0ea5",
+      "before": "Si un vehículo de policía con sirena funcionando nos adelanta, se coloca delante y muestra en el techo la indicación luminosa «ALTO POLICÍA», solo nosotros estamos obligados a detenernos",
+      "after": "Si un vehículo de policía con sirena funcionando nos adelanta, se coloca delante y muestra en el techo la indicación luminosa «ALT POLIZIA», solo nosotros estamos obligados a detenernos",
+      "reason": "Conserva la inscripción literal que aparece en la pantalla del vehículo policial."
+    },
+    {
+      "id": "dc2e40f8f53bf2237cb92cc483642d512d90f3da5bcb3b9f02855eadf635931a",
+      "before": "El motor diésel utiliza bujías que generan la chispa que enciende el combustible",
+      "after": "El motor diésel utiliza bujías que generan la chispa que enciende el diésel",
+      "reason": "Gasolio especifica el combustible diésel."
+    }
+  ],
+  "reviewed_file_sha256": "09eba0bb15e3b769305084e1f9faac6aa43e8b2856eb03983e539fa36b09c664"
+}

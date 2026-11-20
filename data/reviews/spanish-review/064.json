@@ -1,0 +1,37 @@
+{
+  "batch": "064",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "d28e0554c218cfaab9e6af56b1ead9cbc60a54c583473c27a0ba8c97c8795b54",
+  "source_sha256": "4b865039e6eb9a63505ce64d5cf654ae912a9fe3d62f289c2b5530bf1abd4e9b",
+  "corrections": [
+    {
+      "id": "5622ab3581f08c08c879a1ad007243cdb9c57bc34cc88bfd6442c1d2343be929",
+      "before": "Los motores de gasolina y diésel se refrigeran durante su funcionamiento mediante circulación de aire o líquido",
+      "after": "Los motores de explosión y diésel se refrigeran durante su funcionamiento mediante circulación de aire o líquido",
+      "reason": "Restituye la categoría general de motores de explosión, sin limitarla a gasolina."
+    },
+    {
+      "id": "564e609788a77b60cf5104142fd06081920b47597cf1c7119c8908c9d1db3af6",
+      "before": "Para reducir el riesgo de robo a los conductores hay que detenerse en áreas aisladas o poco iluminadas para pasar inadvertido",
+      "after": "Para reducir el riesgo de robo a los conductores hay que estacionar en áreas aisladas o poco iluminadas para pasar inadvertido",
+      "reason": "Traduce sosta como estacionamiento, adecuado al contexto de permanecer en un área."
+    },
+    {
+      "id": "5655c331b6dfb09c2769692b6c8a79e1a52af0900ddf4a503ec813d668913e26",
+      "before": "Una colocación incorrecta de la carga puede sobrecargar el camión o uno o más ejes",
+      "after": "Una colocación incorrecta de la carga en un camión puede sobrecargar el vehículo y/o uno o más ejes",
+      "reason": "Conserva la posibilidad de sobrecarga simultánea del vehículo y de los ejes expresada por y/o."
+    }
+  ],
+  "reviewed_file_sha256": "517407e92ac79256930dac97bc1e258e8c5779e629ec0a159abc85777e37f9d8"
+}

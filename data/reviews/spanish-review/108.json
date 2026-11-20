@@ -1,0 +1,25 @@
+{
+  "batch": "108",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "0173e5f82a2c7b0fcf1c0bc107e127604a2b23ac718883ef36105d9bca3b20b4",
+  "source_sha256": "029a28626e91e81672b50bd853285e7a4a03d1dd43ed76df29f129ee8c761d8b",
+  "corrections": [
+    {
+      "id": "907e779ad58e0b893fe3e713502d141ff1ee74d9b029f15e421d5fec02bdb3b3",
+      "before": "Las casas rodantes solo pueden usarse como alojamiento con el vehículo detenido",
+      "after": "Los remolques vivienda solo pueden usarse como alojamiento con el vehículo detenido",
+      "reason": "Se identifica caravan como remolque vivienda, sin confundirlo con una autocaravana."
+    }
+  ],
+  "reviewed_file_sha256": "8676ec70984fc5ffe892f35571fa23f5ed5200e56efbb2217dd0d5554a830a54"
+}

@@ -1,0 +1,31 @@
+{
+  "batch": "023",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "6d0fd5b938eeb27f3f26be192a8f64a115a79d9b1b8193e1ffb8d00d58ae1f77",
+  "source_sha256": "c424db49044094f43d581aa0471588321bff8100bbdbd26078a1c4c8c6f8cd0c",
+  "corrections": [
+    {
+      "id": "1e8c7070708831b27770a9543dd243ca45998ff2cb6c1995e83ea47331d4f681",
+      "before": "Según el CMR, el remitente puede exigir que el transportista compruebe el peso bruto o la cantidad en que se expresa la mercancía, a cargo del remitente",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el remitente puede exigir que el transportista compruebe el peso bruto o la cantidad en que se expresa la mercancía, a cargo del remitente",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "1f6b64a7ebdd4a25b07d5f335a1facbe4b82667817ea53e3edf84372c1630c28",
+      "before": "El regulador de presión de un sistema de frenos neumático o neumohidráulico incluye una válvula de seguridad que libera aire a la atmósfera si una avería provoca aumentos anormales de presión",
+      "after": "El regulador de presión de un sistema de frenos neumático o neumohidráulico incluye una válvula de seguridad que libera aire a la atmósfera si una avería del dispositivo provoca aumentos anormales de presión",
+      "reason": "Conserva que la avería es del dispositivo."
+    }
+  ],
+  "reviewed_file_sha256": "ea481e24d4932fba92f3cdad0b21a60a6ad7f506f67d4f715705ba1efef67e30"
+}

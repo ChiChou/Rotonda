@@ -1,0 +1,218 @@
+{
+  "batch": "031",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_early",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "2b6c394b40f1f9f13b6343d6d3b69e3783287bf8abb0da6a348fb26a11b8f5dd",
+  "rows": 100,
+  "verified_ids": [
+    "4edf250a366bac7b9206c8ffaf39e949c25f4263ee0604e1daa2e11797564ed7",
+    "851194a9626038a80e36b04848ac1433581f43a1a63baa667c58306cb0d93d30",
+    "73130695d6312b1edc38e5837a408a7632e2aa440c0edfa479c9c490d9aedbae",
+    "8ff72c54ea14d6dea3f1345df4dfe77b8f5d5764b2292e450c74223ccdbaa933",
+    "cb74186d8077a66b6be7a98cf0c980f9d69a7eed8214f94e651d4285badc5674",
+    "359836e5f1289ba391efcb541b124aa310c7247610f0ffdfdb823fefb2140cd0",
+    "7fcec324bbd429c5b2cd1ac766c0e4110f1d15d2221ea91ac98321ff2a7ab1dd",
+    "a6829f820cffc7dd8d457f1c12a1e00a5bf2d5be40c4619ff3e3529f3f5778eb",
+    "2f69300c97144709ef6e4b7148470b48b810c8c883dd0200d076cdaba61eacbb",
+    "45937b916f2b745e41c3d074cd18b9ff907efa59e876f82851b32c4c27e405e6",
+    "0e0651cc333b7b84580d587f7c36ea3a7e364316a959592f3f678c6c295cea2e",
+    "5da8ee5159a6073649e3b0849c6439a3c4a5aec3fb0bb9a0515c5e30e7f8f43c",
+    "9133c46d7414d249db3cfa5d351456cf33989fc6ae6ece033e95ac0e6ae7afd9",
+    "57ae5bdd3c6427e71ad6ce20603d2b1b929f492cc97967a4c5c757e30a5d3304",
+    "cc09171dc5d3b5f8758aaca7e504752ab9f30c67339a3acb554311a3bd5cddb2",
+    "1c148e7dfb556272d3a5a4b4968a52124fdfd51ac879a7b3a6fe72a2a9d2111f",
+    "0c4e6a1466a7451d615b258dec41af583477fe8ce4b7f56e865a787f147033d5",
+    "93356034fb55a8aea8ffbbdb7ba741c2c6f3886bc50d584facaff16ba92faeb2",
+    "dc1f8c6b7903a40aa7175e921617b60f64f71d6ede7a52db76ea98d9cd1b37f3",
+    "9d67f21b70ed971aeff223e310f3c903d0644569b31fa0a34c8fa2ab79aade24",
+    "73e661173c340c68e6fdbd33678375f3b515060d70a7f9420289d6312d8662f9",
+    "c43212e183afd58556813bf8b3a3e6a2dcc97eea7268f4b90d9313b2c15dcefa",
+    "a70a8cb08823844601eb45fffd420b04e6553583af957de3efb3f5bae2e4d16c",
+    "19c187172c79d2f29e49fc17716a1bdaa096cfa137d8b6768028aa96ff8bb5b3",
+    "a48ea109e8a06c43117a26089fcda2f2174eba7f6900a0271f18820794f282c8",
+    "bd75ee161ee2b1bbba63ca63eea06b33fa479bd778deb5468f8d8dfbcb041401",
+    "d770e23f06ac8c81719969d2cc8b6da8f781a9d7d0d17d423e5434fadace54e8",
+    "fb3060d9d1feecc775f391437fdda4e873e29634d3ab04ba70407d4d6c1ac759",
+    "ea1bf846702f8bcb516fa9003f78e1f280544fa59925508b51a27ed0ada7710a",
+    "16387086d23cbee9db6c1ac0c4ef74aa46e317c70029bf3ec51480c61df3ada4",
+    "94a5da875cd45d81c71248d349316e24c33941e246a69bb671d816afc8b072eb",
+    "ab0f83211e923e1425d6e6fe9183c692d152f3f0fad245047a8e83e14d6dffdf",
+    "0117d0c72e102b54611a314a888f3c798097bb4bbb3a26a2c98b073e95a50dd5",
+    "2eeb1da6cd3166a3ce5028d0fa23528fc1ba6016a29f580eabb449fc588767df",
+    "412a22e89dcf375eae0b4c518a6eefbdfd959e70ddb8fa181ad82c73153cf861",
+    "2b144d7741f32b71db21efc99048644b7a19c6ed2315489a93e5498a1aebec90",
+    "800fdd7a9f9321af54b91a8f53ef7f74521c31f19614b3b79875c2eef8bf7b0b",
+    "11fe8211d0206f0c557660bc9e92a78cffe237b5c6f6133026499901892da683",
+    "868ab3dbd33fcfb2559975b31ec8d2beea2b202f830de7a89f2c45dc7c96435a",
+    "2bc3ea487665f15e178d33539aad23bc84a298a19d0dbba4ffcbf99cb128b4b1",
+    "c10beb8b656f643932cda78cbc652d8fdba0987222d5ee603086e17e84c43080",
+    "d493acffcfa92794620fbe6230a142e4d1e424395f2bf905bf5b9261f9b84707",
+    "d7782c14c824f259511dbb18e7639930b72daf05109d74ace4ae6deb90b0615f",
+    "cbcd30764da8b782185e23c8470105d047eccb4e17519bb3f153b28fa190b4e1",
+    "4c8f9760d62bcf5675fc417a393c8417167d47ec634a90f6bc1c4efce7acbdab",
+    "8d676ac09744446c6ee28ef7c5b154d3d2a78e1a5be9e996ea7ebda1abef83cc",
+    "b600d7a38f0c32d1ed87ac520df2b77671c0c2690954d9bcc82039347c7fd80d",
+    "9abad4357c4bce3b840abaaddc4811e396829cdb2f367a7df71c77129e8a0727",
+    "7fd8dddf56f6108e07c596e18d42894b50aec2a026145f2dde6a770bad4c57c8",
+    "56691c8c8bbd37bd0c7b1154b465ed79b4cb214509d5dc6a9864d0527649562a",
+    "73e9988d439ffd08d9cf1c7b39f1b6bc7a14b1e3d91a1f7e46aa9666e38d33d1",
+    "ef6fc386a4431279ab1da387b25e604142b9eb193d535b66cec122e1d2bd1f19",
+    "53cb0385b7c2798165deb9590869114c3b7187e71b97e20277297631a216947d",
+    "61c164833963d05063dc11dfc9a7f8ae2c84e54c47b228b784ed03cc96789a20",
+    "575793aac33d0e28882dc35ed2ce22d21b6a3bacc700dc2f7db80569c825a44e",
+    "315f83b22231a9d0fb64c48f978a59ed107800d68fc3ec25f72d8eec99e6f250",
+    "7f2e6628d61126b622484ba7825859fde29a0ddca9867c27706a96a781f898a8",
+    "f1eae3f12cc00de0e631f5003b2541cb3cef2b3d08697c6d29be73cbb97c5d8d",
+    "0757f143eb747c649688c0d35635cceaeca66d8274d87da97d6f92787a3a921d",
+    "061ac1c0054abba971c90559a55f19e728086a160211f86c65db1109f4448eea",
+    "b7711f8d0ffae08777188de184a72e25b882372fed33c71f0bc24b611a726768",
+    "2a57652034f6029d596a24acbbbb8d4bb80ac351cbc9dffc52c1130c18bbbaf4",
+    "12fe907892c21ba801535015259d4697b6d6dc23c38aa92c661a1bc3eb222f4d",
+    "fb38e4a7bb9fe7f488bfd617a4d6e4312c419572408444596b2c2a6a9e11f254",
+    "0197f3c316902849c8e29d47ac1934b47ff8dcf461f49fcd974a07551283c67c",
+    "33efd19770f8d9e796e780a905af490f6302707c83b4908b7608cbebaccbbdcc",
+    "e92fe5121e2aaac2043201486960918699cb999619a0466f928e6d13cc49ffde",
+    "495cef8c99a45fcac20f8b944d1f7b5ea40eb4751263390a1e13b04c70217fce",
+    "39b8cdacbd27e8c4e2c97791035d9e7f0044fa8a31fa09def776c320015e4db6",
+    "b581dab3c52561d38d741f6ecbba0da5fb5188d82563bc63cda530107d028e89",
+    "537ca47c75b51631d68dcbf2dddff52f9c8e724b1b56b4d176fa589b5d82b7cd",
+    "0d1a4a7c062698999c5c8a468f263ba4c39630e875e4761216d4a07ce750a342",
+    "ce10df3adf4521a62a4739b16fbbcfbad7e90fab9b21f2c23d4ab612b0b890a4",
+    "49899530442efc5f55af60ed2014408cab42234a04dd543c08288c1905890924",
+    "496ae096114a2c644a6be790fc09b7178213d9e2d7edcf96f900fce1f6a62a29",
+    "b6096924feab22c6641654590c9dbbcd98fce9dff68bafb525224a7881494ba7",
+    "5d7893787716673dfc6716c60d3481345fffb4a74004b6a901a41717c53abac5",
+    "8e50748b667eb245e0fdffade49136391fc2aebb100460dbd8e248c12e3e9a54",
+    "182d2571c3434709208a1fe4b1081c4522f13d94994891221a56f52e51c5f32e",
+    "8870a0794fdaaaafbb1b4fe44ffb9a66e518f564c30f35ca5a1e328d098205f2",
+    "f4bcea255f1705053d8a283da7ec9e3862bd0742e54505da307c2f835725dc43",
+    "44a21fb5855abe2c2d2e46533a3105a8c0e59864d0aabf6ba90de656fd7c995c",
+    "c0d345043670403c35a6c1142f2b378fab847519658cbe8cb62c878394e983a2",
+    "98e375e81e3188a43501a9c451839f2a8c9cb593c8af0a47a9cf9cdf5a114384",
+    "97f2815cf15c859eb149a61776c33dbb66ff18dbb85512e9acc4431989bb811e",
+    "98f12a391e399dce6f3e15906d4f9c33e0bcec39b27011c2118b1e68f1d0e9e8",
+    "5eb83c0ef5a4ce4694aa8790f57f14d76cfe0c5e2d9f1373e0930e928a575ca2",
+    "891f7da95f7fa03c468ccc29620ca305b1341a4355903b46488a97e039a90a9c",
+    "be47c730faaa9539c2ec68f089dd7f6bedba2109e084f02748ad4c7c2347e181",
+    "cc2ad95715e58a608ce681f3b973c6f0846e468fdc90df37e7a3481120bf99a3",
+    "2e3726c18097bb0edbb61378e1e8b3819f1dec14e288dee510944e09929bea63",
+    "c594c425965e0b2155b73da48c980e663aa966cabd0d189b0fe21b10d055007f",
+    "de759525b6729a3c3474a67c512bf35376b00767527cd1106f7188cd53c780a4",
+    "47a29fc77b2409c8701a352ab6c9416eda3c6f2dfb147aaebebcc10bcc172d15",
+    "a5d3844bf60fd868cc03c3b3937510dfee98a379f68593139af88c9f6db0a558",
+    "d06a5be5fa491cffdf260a4c949a44072af2a245ad7ef58c92e0605924cc9888",
+    "08ab5d4fcee2d023ae37d1be607f4652188c2ecbf87eedec47347b2c7cdcaf9d",
+    "d762e6601805f5b2ea74ae105ebe3810179868245394676990ed61dcdc603d58",
+    "96965212157d5788dc481e9fb3d76833217c59a0c705ce07458a87b497c0839f",
+    "e9a371a4710cff3b162035d0cd9c9a6c9d36e0952ee1a03edbd724653a59f957"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "8d676ac09744446c6ee28ef7c5b154d3d2a78e1a5be9e996ea7ebda1abef83cc",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles must be kept in good working order on the road to ensure safe transport.",
+          "after": "It is important always to keep vehicles in good working order on the road to ensure safe transport."
+        },
+        "zh": {
+          "before": "车辆行驶时必须始终保持良好状态，以确保运输安全。",
+          "after": "车辆行驶时始终保持良好状态很重要，以确保运输安全。"
+        }
+      }
+    },
+    {
+      "id": "b600d7a38f0c32d1ed87ac520df2b77671c0c2690954d9bcc82039347c7fd80d",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles must be kept in good working order on the road to limit pollution.",
+          "after": "It is important always to keep vehicles in good working order on the road to limit pollution."
+        },
+        "zh": {
+          "before": "车辆行驶时必须始终保持良好状态，以减少污染。",
+          "after": "车辆行驶时始终保持良好状态很重要，以减少污染。"
+        }
+      }
+    },
+    {
+      "id": "9abad4357c4bce3b840abaaddc4811e396829cdb2f367a7df71c77129e8a0727",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles must be kept in good working order on the road to avoid reports to the chamber of commerce.",
+          "after": "It is important always to keep vehicles in good working order on the road to avoid reports to the chamber of commerce."
+        },
+        "zh": {
+          "before": "车辆行驶时必须始终保持良好状态，以避免被报告给商会。",
+          "after": "车辆行驶时始终保持良好状态很重要，以避免被报告给商会。"
+        }
+      }
+    },
+    {
+      "id": "7fd8dddf56f6108e07c596e18d42894b50aec2a026145f2dde6a770bad4c57c8",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles must be kept in good working order on the road to limit noise.",
+          "after": "It is important always to keep vehicles in good working order on the road to limit noise."
+        },
+        "zh": {
+          "before": "车辆行驶时必须始终保持良好状态，以减少噪声。",
+          "after": "车辆行驶时始终保持良好状态很重要，以减少噪声。"
+        }
+      }
+    },
+    {
+      "id": "56691c8c8bbd37bd0c7b1154b465ed79b4cb214509d5dc6a9864d0527649562a",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles must be kept in good working order on the road to pay a lower annual insurance premium.",
+          "after": "It is important always to keep vehicles in good working order on the road to pay a lower annual insurance premium."
+        },
+        "zh": {
+          "before": "车辆行驶时必须始终保持良好状态，以支付较低的年度保险费。",
+          "after": "车辆行驶时始终保持良好状态很重要，以支付较低的年度保险费。"
+        }
+      }
+    },
+    {
+      "id": "73e9988d439ffd08d9cf1c7b39f1b6bc7a14b1e3d91a1f7e46aa9666e38d33d1",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles must be kept in good working order on the road to avoid reports to the central road hauliers' register committee.",
+          "after": "It is important always to keep vehicles in good working order on the road to avoid reports to the central road hauliers' register committee."
+        },
+        "zh": {
+          "before": "车辆行驶时必须始终保持良好状态，以避免被报告给道路运输经营者登记中央委员会。",
+          "after": "车辆行驶时始终保持良好状态很重要，以避免被报告给道路运输经营者登记中央委员会。"
+        }
+      }
+    },
+    {
+      "id": "61c164833963d05063dc11dfc9a7f8ae2c84e54c47b228b784ed03cc96789a20",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles must be kept in good working order on the road to prevent wear of the digital tachograph.",
+          "after": "It is important always to keep vehicles in good working order on the road to prevent wear of the digital tachograph."
+        },
+        "zh": {
+          "before": "车辆行驶时必须始终保持良好状态，以避免数字行驶记录仪磨损。",
+          "after": "车辆行驶时始终保持良好状态很重要，以避免数字行驶记录仪磨损。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "0c3e04e0837d641077efa0102e47ae72910f0fc1135e998450987ff06ce3cd94"
+}

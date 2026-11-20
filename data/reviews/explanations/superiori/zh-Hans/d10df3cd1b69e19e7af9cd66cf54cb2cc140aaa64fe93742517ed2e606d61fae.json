@@ -1,0 +1,836 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "superiori",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-superiori-it.pdf",
+    "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 28852,
+          "quesito_id": 6123,
+          "text_it": "Le persone che soffrono di particolari malattie, purché opportunamente certificate, non sono obbligate ad indossare la cintura di sicurezza",
+          "answer": 1,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "cf7abcab1ee374a64011337879cb0189c106d147a68ba90a30147d7b0db7beba",
+        "localized_text": "患有经适当证明的特定疾病的人不必系安全带。"
+      },
+      {
+        "source": {
+          "number": 28853,
+          "quesito_id": 6123,
+          "text_it": "Se il veicolo è dotato di airbag frontali e laterali, si può fare a meno di indossare la cintura di sicurezza",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ac7fdfba9c8517eab1ac27eec92fe648d32cb365988099b247b7a9e30971375d",
+        "localized_text": "如果车辆配备前方和侧面安全气囊，就不必系安全带。"
+      },
+      {
+        "source": {
+          "number": 28854,
+          "quesito_id": 6123,
+          "text_it": "Le cinture di sicurezza devono essere obbligatoriamente allacciate solo se si circola a velocità uguale o superiore a 30 km/h",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "18a151e85c2e60a2d72b90d0c07aaea00ed44e57ad21af4d7e8c29b988d79ff3",
+        "localized_text": "只有车速达到或超过30公里／小时时才必须系安全带。"
+      },
+      {
+        "source": {
+          "number": 28855,
+          "quesito_id": 6123,
+          "text_it": "Le persone di età superiore a 65 anni non sono obbligate ad indossare le cinture di sicurezza",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "fc52a1633d8416400c19d9db51ce1e7fa6935577ef966f066b79fe17a484c8fd",
+        "localized_text": "65岁以上的人不必系安全带。"
+      },
+      {
+        "source": {
+          "number": 28856,
+          "quesito_id": 6123,
+          "text_it": "Coloro che guidano per più di 7 ore al giorno sono esentati dall’uso delle cinture di sicurezza",
+          "answer": 0,
+          "page": 86,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e9cb62aae1a6b3001453dd72ef21ce45017ae5afefdbcd275acc9c69e5da7db6",
+        "localized_text": "每天驾驶超过7小时的人免于使用安全带。"
+      },
+      {
+        "source": {
+          "number": 28857,
+          "quesito_id": 6124,
+          "text_it": "Gli autobus devono essere dotati di due cunei fermaruota",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "774401f806f0c44802b766a581497e23c7238bdf06c006942b9338eae561411a",
+        "localized_text": "巴士必须配备两个止轮楔。"
+      },
+      {
+        "source": {
+          "number": 28858,
+          "quesito_id": 6124,
+          "text_it": "I rimorchi degli autobus, di massa complessiva a pieno carico superiore a 3,5 tonnellate, devono essere dotati di due cunei fermaruota",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "619ad40c883031e1c9e2a516e6fd78250719ec8a39135742d8eedf471be75410",
+        "localized_text": "满载总质量超过3.5吨的巴士挂车必须配备两个止轮楔。"
+      },
+      {
+        "source": {
+          "number": 28859,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus con al massimo trenta posti, deve trovarsi almeno un estintore da cinque litri se a schiuma o uno da due chili se a neve carbonica",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5206ac228c412668e07cba5749c76155842daff532ad1a9c9e66c8a1ce4bb6de",
+        "localized_text": "座位不超过三十个的巴士必须至少配备一个5升泡沫灭火器或一个2公斤二氧化碳灭火器。"
+      },
+      {
+        "source": {
+          "number": 28860,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus con più di trenta posti, deve trovarsi almeno un estintore da cinque litri se a schiuma, oppure due estintori da due chili ciascuno se a neve carbonica",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2df483f4e1008874295a546eeeae8afe894f36c791b13aaf4f4e3e80656177f1",
+        "localized_text": "座位超过三十个的巴士必须至少配备一个5升泡沫灭火器，或两个各2公斤的二氧化碳灭火器。"
+      },
+      {
+        "source": {
+          "number": 28861,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus, ogni estintore deve essere alloggiato in idonea sede di cui una situata nei pressi del conducente",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "bae230a29f68b44148b7961210927622603ec5bb2211923dec857dc3abb7cad5",
+        "localized_text": "巴士上的每个灭火器都必须放在合适的位置，其中一个位置应靠近司机。"
+      },
+      {
+        "source": {
+          "number": 28862,
+          "quesito_id": 6124,
+          "text_it": "Gli estintori presenti sugli autobus devono essere di tipo omologato",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "e2e7aba0b875c99959e1b56a8788ed539be74bc2665b539912ec9949fd9df707",
+        "localized_text": "巴士灭火器必须为经批准的类型。"
+      },
+      {
+        "source": {
+          "number": 28863,
+          "quesito_id": 6124,
+          "text_it": "Gli estintori presenti sugli autobus devono sottostare a controllo periodico a scadenze prefissate",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "4e4fc091ae3863042e14131e664bec09212f5933a053bd90ff9a78c9bb924b4e",
+        "localized_text": "巴士灭火器必须按规定期限定期检查。"
+      },
+      {
+        "source": {
+          "number": 28864,
+          "quesito_id": 6124,
+          "text_it": "Gli estintori presenti sugli autobus devono essere controllati ogni sei mesi",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "58a7f2f18cf4bd88afd16b55ea21eea0fcf34c89d896ecf742c1ec7d80c0232a",
+        "localized_text": "巴士灭火器必须每六个月检查一次。"
+      },
+      {
+        "source": {
+          "number": 28865,
+          "quesito_id": 6124,
+          "text_it": "L'avvenuto controllo degli estintori presenti sugli autobus da parte di ditta specializzata, deve essere attestato da annotazione posta su apposita targhetta fissata sull'estintore stesso",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8e40a97b2741458101c9ac8251cfeee7f51145b6f88a710fd35855336d621128",
+        "localized_text": "专业公司对巴士灭火器进行的检查必须记录在固定于灭火器上的专用标签上。"
+      },
+      {
+        "source": {
+          "number": 28866,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus devono essere presenti una o più cassette, in base a quanto previsto dall'autorizzazione, contenenti il materiale di primo soccorso previsto dalle norme",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "0cd6b830ba7f38d4e82fe1a8f18f2722d12219c6efa1ea8bc97c89eb78b65636",
+        "localized_text": "巴士必须按许可规定配备一个或多个急救箱，内装法规要求的急救用品。"
+      },
+      {
+        "source": {
+          "number": 28867,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus devono essere presenti uscite di emergenza idoneamente segnalate",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "60ba2162d259938bfc3f970732214216010f31b900e5642c9d67c31eb7b70664",
+        "localized_text": "巴士必须设有标示适当的紧急出口。"
+      },
+      {
+        "source": {
+          "number": 28868,
+          "quesito_id": 6124,
+          "text_it": "Le uscite di emergenza presenti sugli autobus possono essere porte, finestrini o botole",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "108a3174d89b3baf9814e69afcebea74553e72bd41efbc57ccc2d295ca853364",
+        "localized_text": "巴士紧急出口可以是门、窗或舱口。"
+      },
+      {
+        "source": {
+          "number": 28869,
+          "quesito_id": 6124,
+          "text_it": "Sugli autobus deve essere presente un pulsante di emergenza posto a portata di mano del conducente",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "c21bfdb10a8e1031b520823271bf4a2c06824353ab5659217666faa9e0cdf0c6",
+        "localized_text": "巴士必须在司机伸手可及处设置紧急按钮。"
+      },
+      {
+        "source": {
+          "number": 28870,
+          "quesito_id": 6124,
+          "text_it": "Il pulsante di emergenza presente sugli autobus, se premuto, consente l'immediato arresto del motore in caso di incidente",
+          "answer": 1,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "387beefe748b47d73b250ee674ecce02f5ac24f5fa992e94ad885bbbb60a2c03",
+        "localized_text": "发生事故时，按下巴士上的紧急按钮可立即关闭发动机。"
+      },
+      {
+        "source": {
+          "number": 28871,
+          "quesito_id": 6124,
+          "text_it": "Gli autobus devono essere dotati di estintori nel caso non abbiano uscite di sicurezza",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "2273eab6aba19937d941312c8e607867abc3ac31b546ccb2447b8cd10c7572f2",
+        "localized_text": "如果巴士没有紧急出口，就必须配备灭火器。"
+      },
+      {
+        "source": {
+          "number": 28872,
+          "quesito_id": 6124,
+          "text_it": "Gli estintori degli autobus devono essere sostituiti in occasione della revisione periodica del veicolo",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "7eff5593ffe7a2ca82c2f1deb1b72bb9c42c79ca3b15a7d7b500fcad265b19e8",
+        "localized_text": "巴士灭火器必须在车辆进行定期检验时更换。"
+      },
+      {
+        "source": {
+          "number": 28873,
+          "quesito_id": 6124,
+          "text_it": "L'avvenuto controllo degli estintori presenti sugli autobus deve essere certificato dal conducente del veicolo",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "5f6db5daf6a9cd5f3c414fb63e8ffdd75ebd1add22d13e9b5f276577aa035570",
+        "localized_text": "巴士灭火器的检查必须由车辆司机证明。"
+      },
+      {
+        "source": {
+          "number": 28874,
+          "quesito_id": 6124,
+          "text_it": "L'avvenuto controllo degli estintori presenti sugli autobus deve essere annotato sulla carta di circolazione del veicolo",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "8e5eaafd6bb259ad85efe4d71cfb13f3c20f1e725f6d5ca3abfff6175a66598e",
+        "localized_text": "巴士灭火器的检查必须记入车辆行驶证。"
+      },
+      {
+        "source": {
+          "number": 28875,
+          "quesito_id": 6124,
+          "text_it": "Gli estintori presenti sugli autobus non possono che essere del tipo a schiuma",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "16990f2ef525e000850a6446d54dfee1ca9d204095d8ebf431073edcda371f06",
+        "localized_text": "巴士灭火器只能是泡沫型。"
+      },
+      {
+        "source": {
+          "number": 28876,
+          "quesito_id": 6124,
+          "text_it": "Le cassette contenenti materiale di primo soccorso non sono necessarie se sull’autobus è presente un contatto radiomobile con un ospedale",
+          "answer": 0,
+          "page": 87,
+          "bank": "superiori",
+          "pdf_sha256": "a8bb47ac18788c151ba4596b4095221a4a2fce6f2cb026ffe671cf8283df9234",
+          "figures": []
+        },
+        "source_sha256": "ff3589fd52c89e5d50011fa8da98a7b8c663048661e95afdfd7232d5d6424a10",
+        "localized_text": "如果巴士与医院有移动无线电联系，就不需要急救箱。"
+      }
+    ],
+    "task_sha256": "d10df3cd1b69e19e7af9cd66cf54cb2cc140aaa64fe93742517ed2e606d61fae"
+  },
+  "rows": [
+    {
+      "number": 28852,
+      "text": "豁免适用于经规定证明、使用安全带有明确禁忌的疾病或身体状况；仅有诊断并不足够。",
+      "evidence": [
+        "Codice della strada art. 172 commi 1, 6 e 8, https://aci.gov.it/codice-della-strada/art-172/: obbligo di ritenuta e casi specifici di esenzione, incluse controindicazioni certificate."
+      ]
+    },
+    {
+      "number": 28853,
+      "text": "安全气囊是安全带保护的补充，不能免除系安全带的义务：需要系安全带时，即使有安全气囊也要系。",
+      "evidence": [
+        "Codice della strada art. 172 commi 1, 6 e 8, https://aci.gov.it/codice-della-strada/art-172/: obbligo di ritenuta e casi specifici di esenzione, incluse controindicazioni certificate.",
+        "ACI, Sicurezza passiva, https://aci.gov.it/attivita-e-progetti/educazione-e-sicurezza-stradale/sicurezza-attiva-e-passiva-2/sicurezza-passiva-protezione-e-prevenzione-per-la-sicurezza-stradale/: airbag integra, non sostituisce, la cintura."
+      ]
+    },
+    {
+      "number": 28854,
+      "text": "这一义务并非从车速达到每小时30公里才开始：除规定的豁免情况外，较低速度也要系安全带。",
+      "evidence": [
+        "Codice della strada art. 172 commi 1, 6 e 8, https://aci.gov.it/codice-della-strada/art-172/: obbligo di ritenuta e casi specifici di esenzione, incluse controindicazioni certificate."
+      ]
+    },
+    {
+      "number": 28855,
+      "text": "超过65岁不会自动获得豁免：除非符合规定的具体例外，仍须系安全带。",
+      "evidence": [
+        "Codice della strada art. 172 commi 1, 6 e 8, https://aci.gov.it/codice-della-strada/art-172/: obbligo di ritenuta e casi specifici di esenzione, incluse controindicazioni certificate."
+      ]
+    },
+    {
+      "number": 28856,
+      "text": "每天驾驶的时长不属于规定的豁免条件：即使每天驾驶超过七小时，在规定须系安全带时也要系。",
+      "evidence": [
+        "Codice della strada art. 172 commi 1, 6 e 8, https://aci.gov.it/codice-della-strada/art-172/: obbligo di ritenuta e casi specifici di esenzione, incluse controindicazioni certificate."
+      ]
+    },
+    {
+      "number": 28857,
+      "text": "两个止轮楔有助于防止停放车辆滚动；一份公交车技术规格要求配备两个。试题标为 VERO，但该规格不能证明所有公交车都有统一的配备义务：应核对具体车辆的规定。",
+      "evidence": [
+        "https://www.amts.ct.it/bandi/Capitolatotecnico5busmetano26012015.pdf — AMTS Catania, capitolato 2015: due cunei e una cassetta; esempio di specifica, non requisito universale.",
+        "https://www.asaps.it/986-Comportamento_del_conducente_in_sosta_e_uso_di_cunei_fermaruote_per_i_veicoli_pesanti.html — ASAPS: indicazioni operative su due cunei per veicoli e rimorchi oltre 3,5 t, non fonte normativa primaria."
+      ]
+    },
+    {
+      "number": 28858,
+      "text": "试题标为 VERO：一份操作指南建议超过 3.5 吨的挂车配备两个止轮楔，以防意外移动。陡坡使用规定没有指定数量；该指南本身不能证明普遍的随车配备义务。",
+      "evidence": [
+        "https://www.asaps.it/986-Comportamento_del_conducente_in_sosta_e_uso_di_cunei_fermaruote_per_i_veicoli_pesanti.html — ASAPS: indicazioni operative su due cunei per veicoli e rimorchi oltre 3,5 t, non fonte normativa primaria.",
+        "https://www.provincia.livorno.it/documents/35271/0/Regolamento_di_esecuzione_e_di_attuazione_del_codice_della_strada_.pdf/8fdae09a-7c9b-e8ac-5742-f8592ba6f4f6?t=1618303798318 — DPR 495/1992 art. 353(2): uso di cunei in forte pendenza per veicoli oltre 3,5 t; nessun numero indicato."
+      ]
+    },
+    {
+      "number": 28859,
+      "text": "试题标为 VERO：1977 年法令对不超过 30 个座位规定至少配备一个经批准且适用的 5 升泡沫灭火器或一个 2 千克二氧化碳灭火器。允许使用等效产品；2018 年通函认可至少 6 升的核准水基灭火器或至少 2 千克的核准二氧化碳灭火器。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/1977/05/19/135/so/0/sg/pdf — DM 18 aprile 1977, allegato §§5.5.8.1–2, pp. 6–7: estintori e spazi per cassette; PDF locale /tmp/rotonda-gu-1977-135-supplement.pdf visualizzato.",
+        "https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf — circolare congiunta 6575/RU del 2018 pp. 2–3: equivalenti omologati ≥6 litri acqua o ≥2 kg CO₂."
+      ]
+    },
+    {
+      "number": 28860,
+      "text": "试题标为 VERO：1977 年法令对超过 30 个座位规定至少配备一个 5 升泡沫灭火器，或两个各 2 千克的二氧化碳灭火器。灭火器应经批准且适用；适用规定允许使用效能相当的类型。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/1977/05/19/135/so/0/sg/pdf — DM 18 aprile 1977, allegato §§5.5.8.1–2, pp. 6–7: estintori e spazi per cassette; PDF locale /tmp/rotonda-gu-1977-135-supplement.pdf visualizzato.",
+        "https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf — circolare congiunta 6575/RU del 2018 pp. 2–3: equivalenti omologati ≥6 litri acqua o ≥2 kg CO₂."
+      ]
+    },
+    {
+      "number": 28861,
+      "text": "灭火器必须固定在合适的位置，防止行驶中移动；至少一个应靠近司机。",
+      "evidence": [
+        "Ministero Interno e MIT, circolare 300/A/2436/18/113/31 e 6575 del 23 marzo 2018, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: DM 18 aprile 1977 allegato 5.5.8, dotazione, collocazione e manutenzione degli estintori.",
+        "Regolamento UNECE 107, allegato 3 punti 7.5.4 e 7.6, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:42018X0237: spazio e indicazione per estintori e cassette, uscite di sicurezza e loro marcatura."
+      ]
+    },
+    {
+      "number": 28862,
+      "text": "灭火器必须获得批准并适合在封闭空间使用；现行手提式灭火器须按适用规定获得型式批准。",
+      "evidence": [
+        "Ministero Interno e MIT, circolare 6575/RU del 23 marzo 2018, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: DM 1977 punto 5.5.8, estintori e cassette; approvazione e equivalenze moderne."
+      ]
+    },
+    {
+      "number": 28863,
+      "text": "灭火器必须保持有效，因此除了随车配备，还要定期检查。",
+      "evidence": [
+        "Ministero Interno e MIT, circolare 300/A/2436/18/113/31 e 6575 del 23 marzo 2018, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: DM 18 aprile 1977 allegato 5.5.8, dotazione, collocazione e manutenzione degli estintori.",
+        "Vigili del Fuoco, Estintori portatili, sezione manutenzione e cartellino, https://www.vigilfuoco.it/sites/default/files/2024-08/manuale.pdf: controllo semestrale da personale esperto e cartellino con data e identificazione manutentore."
+      ]
+    },
+    {
+      "number": 28864,
+      "text": "专业人员至少每六个月定期检查一次灭火器，以确认其有效性。",
+      "evidence": [
+        "Vigili del Fuoco, Estintori portatili, sezione manutenzione e cartellino, https://www.vigilfuoco.it/sites/default/files/2024-08/manuale.pdf: controllo semestrale da personale esperto e cartellino con data e identificazione manutentore."
+      ]
+    },
+    {
+      "number": 28865,
+      "text": "检查情况记录在灭火器的维护标签上，包括日期和维护人员身份，以便确认何时由谁检查。",
+      "evidence": [
+        "Vigili del Fuoco, Estintori portatili, sezione manutenzione e cartellino, https://www.vigilfuoco.it/sites/default/files/2024-08/manuale.pdf: controllo semestrale da personale esperto e cartellino con data e identificazione manutentore."
+      ]
+    },
+    {
+      "number": 28866,
+      "text": "急救箱用于提供初步救助用品。试题标为 VERO：1977 年法令要求为一个或多个急救箱预留空间，但该条文本未按许可证规定其数量或内容。应核对适用于该车的要求。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/1977/05/19/135/so/0/sg/pdf — DM 18 aprile 1977, allegato §§5.5.8.1–2, pp. 6–7: estintori e spazi per cassette; PDF locale /tmp/rotonda-gu-1977-135-supplement.pdf visualizzato.",
+        "https://www.amts.ct.it/bandi/Capitolatotecnico5busmetano26012015.pdf — AMTS Catania, capitolato 2015: due cunei e una cassetta; esempio di specifica, non requisito universale."
+      ]
+    },
+    {
+      "number": 28867,
+      "text": "紧急出口必须易于辨认：标识帮助乘客在紧急情况下找到出口。",
+      "evidence": [
+        "Regolamento UNECE 107, allegato 3 punti 7.5.4 e 7.6, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:42018X0237: spazio e indicazione per estintori e cassette, uscite di sicurezza e loro marcatura."
+      ]
+    },
+    {
+      "number": 28868,
+      "text": "为紧急用途设计并标识的车门、车窗和逃生舱口都可作为紧急出口。可击碎安全窗还需要配备易于取用的破窗工具。",
+      "evidence": [
+        "Regolamento UNECE n. 107, allegato 3 punti 7.6.8.2.2 e 7.6.11.5, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:42018X0237: il finestrino di sicurezza frangibile richiede un dispositivo accessibile e le uscite di sicurezza sono contrassegnate."
+      ]
+    },
+    {
+      "number": 28869,
+      "text": "在驾驶位规范所涵盖的城市公交车上，司机可以触及中央紧急控制装置，以便迅速操作。",
+      "evidence": [
+        "INAIL, Profilo di rischio nel trasporto urbano, posto di guida punto 23, https://appricercascientifica.inailcloud.it/profili_di_rischio/Trasporto_urbano/index.htm: per gli autobus urbani trattati il comando centrale di emergenza è accessibile al conducente."
+      ]
+    },
+    {
+      "number": 28870,
+      "text": "中央控制装置也可以启动发动机停机：例如，卡塔尼亚 AMTS 天然气公交车的技术规范就规定了这一功能。",
+      "evidence": [
+        "AMTS Catania, capitolato tecnico autobus CNG §§ 4.19.7 e 4.19.10, https://www.amts.ct.it/bandi/CapitolatoTecnicoBusCNG-03072014.pdf: per gli autobus oggetto della gara il comando centrale di emergenza aziona il circuito di arresto motore."
+      ]
+    },
+    {
+      "number": 28871,
+      "text": "灭火器和紧急出口是不同的安全配置：灭火器的配备并不以没有紧急出口为条件。",
+      "evidence": [
+        "Ministero Interno e MIT, circolare 300/A/2436/18/113/31 e 6575 del 23 marzo 2018, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: DM 18 aprile 1977 allegato 5.5.8, dotazione, collocazione e manutenzione degli estintori.",
+        "Regolamento UNECE 107, allegato 3 punti 7.5.4 e 7.6, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:42018X0237: spazio e indicazione per estintori e cassette, uscite di sicurezza e loro marcatura."
+      ]
+    },
+    {
+      "number": 28872,
+      "text": "车辆定期检验不会自动要求更换灭火器；灭火器须按自己的计划维护和检查。",
+      "evidence": [
+        "Ministero Interno e MIT, circolare 300/A/2436/18/113/31 e 6575 del 23 marzo 2018, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: DM 18 aprile 1977 allegato 5.5.8, dotazione, collocazione e manutenzione degli estintori.",
+        "Vigili del Fuoco, Estintori portatili, sezione manutenzione e cartellino, https://www.vigilfuoco.it/sites/default/files/2024-08/manuale.pdf: controllo semestrale da personale esperto e cartellino con data e identificazione manutentore."
+      ]
+    },
+    {
+      "number": 28873,
+      "text": "检查须由具备相应能力的人员实施并记录；仅有驾驶员身份不足以认证检查。如果驾驶员同时具备所需能力，也可以承担这一工作。",
+      "evidence": [
+        "Vigili del Fuoco, Estintori portatili, sezione manutenzione e cartellino, https://www.vigilfuoco.it/sites/default/files/2024-08/manuale.pdf: controllo semestrale da personale esperto e cartellino con data e identificazione manutentore."
+      ]
+    },
+    {
+      "number": 28874,
+      "text": "灭火器检查记录在其维护标签上，而不是车辆行驶证上。",
+      "evidence": [
+        "Vigili del Fuoco, Estintori portatili, sezione manutenzione e cartellino, https://www.vigilfuoco.it/sites/default/files/2024-08/manuale.pdf: controllo semestrale da personale esperto e cartellino con data e identificazione manutentore."
+      ]
+    },
+    {
+      "number": 28875,
+      "text": "泡沫并非唯一选择：法令还规定了二氧化碳灭火器，并允许合适的等效设备。",
+      "evidence": [
+        "Ministero Interno e MIT, circolare 6575/RU del 23 marzo 2018, https://www.uspbari.it/usp/wp-content/uploads/2018/04/1-17-4-2018.pdf: DM 1977 punto 5.5.8, estintori e cassette; approvazione e equivalenze moderne."
+      ]
+    },
+    {
+      "number": 28876,
+      "text": "与医院的通信联系无法提供初步救助所需物品。1977 年法令要求为一个或多个急救箱预留空间；应核对车辆所需配备。",
+      "evidence": [
+        "https://www.gazzettaufficiale.it/eli/gu/1977/05/19/135/so/0/sg/pdf — DM 18 aprile 1977, allegato §5.5.8.2, p. 7: sedi per una o più cassette; originale verificato nel PDF locale."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "d10df3cd1b69e19e7af9cd66cf54cb2cc140aaa64fe93742517ed2e606d61fae",
+    "output_sha256": "df40713e84dc41a201d3a5cdd14ba653b4f086f3e3a1b42e5bac22aec2019b10",
+    "author": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_vehicle_review",
+    "status": "accepted",
+    "checked_numbers": [
+      28852,
+      28853,
+      28854,
+      28855,
+      28856,
+      28857,
+      28858,
+      28859,
+      28860,
+      28861,
+      28862,
+      28863,
+      28864,
+      28865,
+      28866,
+      28867,
+      28868,
+      28869,
+      28870,
+      28871,
+      28872,
+      28873,
+      28874,
+      28875,
+      28876
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1eac5-5cd2-7c12-a67b-60d1268bcae0",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4f37d2dc882704288bb5a9dc0ed1471f953d9832cf9475a549384bc1c7125188",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eaca-cd79-7993-b3d6-9f510522fcbd",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "31ad0935e69c5e46a9d11e79c517f171146d73a69d546b1e3c24b1ea95d385b8",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eaca-cd79-7993-b3d6-9f510522fcbd",
+        "label": "author-1-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 28857,
+              "reason": "Non reperita una fonte indipendente che stabilisca la dotazione di due cunei per autobus e il relativo campo di applicazione, in particolare sotto 3,5 t.",
+              "checked_sources": [
+                "DPR 495/1992 art. 353 comma 2, https://www.usbank.patente.it/ecom.dll/noAjax?idc=880: impone l’uso dei cunei in forte pendenza per veicoli oltre 3,5 t, senza definire la dotazione di due.",
+                "MIT circolare 28827 del 19 settembre 2019, https://www.gov.patenti.it/ecom.dll/noAjax?idc=3981: cita i cunei nella dotazione obbligatoria per il complesso D1E/DE, senza specificarne numero o soglia."
+              ]
+            },
+            {
+              "number": 28858,
+              "reason": "Non reperita una fonte indipendente che stabilisca il numero di due cunei per i rimorchi di autobus oltre 3,5 t.",
+              "checked_sources": [
+                "DPR 495/1992 art. 353 comma 2, https://www.usbank.patente.it/ecom.dll/noAjax?idc=880: impone l’uso dei cunei in forte pendenza per veicoli oltre 3,5 t, senza definire la dotazione di due.",
+                "MIT circolare 28827 del 19 settembre 2019, https://www.gov.patenti.it/ecom.dll/noAjax?idc=3981: cita i cunei nella dotazione obbligatoria per il complesso D1E/DE, senza specificarne numero o soglia."
+              ]
+            },
+            {
+              "number": 28859,
+              "reason": "Le fonti ministeriali reperite descrivono in modo diverso unità e soglia storiche; non è stata verificata una copia ufficiale accessibile del decreto originale per chiarire esattamente il caso di 30 posti.",
+              "checked_sources": [
+                "Ministero Interno e MIT, circolare 300/A/2436/18/113/31 e 6575 del 23 marzo 2018, § 1, https://www.puntosicurezzaar.com/wp-content/uploads/2021/04/estintori_schiuma_autobusbus_23.03.2018_-_.pdf: riepiloga meno di 30 posti e 5 kg di schiuma, oltre 30 e 5 kg o due da 2 kg; più avanti indica equivalenza per 5 litri.",
+                "Ministero Interno, nota 15327 del 14 novembre 2017, https://www.firest.eu/wp-content/uploads/2018/06/Circolare-Estintori-Autobus-_-Pullman-_-Scuolabus.pdf: indica 5 litri di schiuma e 2 kg di CO₂ ed equivalenze, senza precisare le soglie di posti.",
+                "Polizia stradale, vademecum 3 febbraio 2016 nota 15, https://next.icsondriocentro.edu.it/sito-download-file/315/all: indica 5 litri o 2 kg fino a 30 posti; non chiarisce pienamente le alternative oltre 30."
+              ]
+            },
+            {
+              "number": 28860,
+              "reason": "Le fonti ministeriali reperite discordano sull’unità della carica storica a schiuma; non è stata verificata una copia ufficiale accessibile del decreto originale per riconciliare tale differenza.",
+              "checked_sources": [
+                "Ministero Interno e MIT, circolare 300/A/2436/18/113/31 e 6575 del 23 marzo 2018, § 1, https://www.puntosicurezzaar.com/wp-content/uploads/2021/04/estintori_schiuma_autobusbus_23.03.2018_-_.pdf: riepiloga meno di 30 posti e 5 kg di schiuma, oltre 30 e 5 kg o due da 2 kg; più avanti indica equivalenza per 5 litri.",
+                "Ministero Interno, nota 15327 del 14 novembre 2017, https://www.firest.eu/wp-content/uploads/2018/06/Circolare-Estintori-Autobus-_-Pullman-_-Scuolabus.pdf: indica 5 litri di schiuma e 2 kg di CO₂ ed equivalenze, senza precisare le soglie di posti.",
+                "Polizia stradale, vademecum 3 febbraio 2016 nota 15, https://next.icsondriocentro.edu.it/sito-download-file/315/all: indica 5 litri o 2 kg fino a 30 posti; non chiarisce pienamente le alternative oltre 30."
+              ]
+            },
+            {
+              "number": 28866,
+              "reason": "La nota ministeriale conferma cassette in dotazione per il trasporto persone, ma non specifica la quantità dipendente dall’autorizzazione o i materiali; non è stata reperita una fonte applicabile che verifichi tali condizioni.",
+              "checked_sources": [
+                "Ministero Interno, nota 15327 del 14 novembre 2017, https://www.firest.eu/wp-content/uploads/2018/06/Circolare-Estintori-Autobus-_-Pullman-_-Scuolabus.pdf: il DM 1977 prevede cassette in dotazione, senza indicare numero o contenuto.",
+                "Regolamento UNECE 107 allegato 3 punto 7.5.4, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:42018X0237: prescrive spazio per una o più cassette, non l’effettiva dotazione e il suo contenuto."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "31ad0935e69c5e46a9d11e79c517f171146d73a69d546b1e3c24b1ea95d385b8",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "4112e74dc1bac86e5542de6c85a597ee97853d8605697d26338e78cd590efb61",
+          "output_sha256": "3280a484a79bfb6f34d95fcee4018c92ef64e4ddd029180bf9260ff66ab92a8c",
+          "author": "gpt-6.1-terra / 01a1eac5-5cd2-7c12-a67b-60d1268bcae0",
+          "reviewer": "gpt-6.1-terra / 01a1eac9-1969-7c80-b351-a2b3a8591b5c",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28852,
+            28853,
+            28854,
+            28855,
+            28856,
+            28857,
+            28858,
+            28859,
+            28860,
+            28861,
+            28862,
+            28863,
+            28864,
+            28865,
+            28866,
+            28867,
+            28868,
+            28869,
+            28870,
+            28871,
+            28872,
+            28873,
+            28874,
+            28875,
+            28876
+          ],
+          "issues": [
+            "28857, 28858: The evidence cites DPR 495/1992 art. 353 comma 3, but the chock provision is comma 2 and addresses use on steep roads, not an explicit two-chock equipment requirement. The other cited evidence is another quiz answer, not an independent authority. Provide authoritative support for the pair and its applicable bus/trailer scope; 28857 does not establish the unqualified bus statement. Do not infer a verdict conflict merely from omitted conditions.",
+            "28859, 28860: The cited 2017 ministry note could not be retrieved (502), so its 6-litre/2-kg equivalences and exact scope were not independently verified. The accessible 2018 circular describes the historic foam quantity as 5 kg and its under-30 category as fewer than 30, while the drafts attribute 5 litres and up to 30 to the 1977 decree. Check the original decree and the 2017 note from accessible authoritative copies and reconcile the exact boundary and units, preserving the printed verdict.",
+            "28866: The 2017 ministry note cited for required first-aid kits was inaccessible; UNECE R107 annex 3 section 7.5.4 specifies space for one or more kits, not itself the obligation to carry the required materials or the authorization-dependent quantity. Provide and verify an authoritative applicable source for that requirement.",
+            "28868: The explanation merely restates the three exit types and adds only a generic compliance condition. Explain a meaningful distinction, for example that only appropriately designated and equipped openings qualify, with a concrete supported requirement (UNECE R107 annex 3 sections 7.6.7–7.6.9).",
+            "28869, 28870: The AMTS specification is for a particular Catania CNG bus procurement; INAIL describes public urban buses. Neither establishes that the stated central emergency control and engine-stop function apply to buses generally. Provide authoritative evidence for the applicable category and scope, or qualify the explanation to the supported case without changing the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "90639a07331c6667d36bcc1cd692d1965ff3e93abd28e0df06cff014d1452d3b",
+          "output_sha256": "73070fa7e93c332750c89d3a48ae28152253057c3d241dd84f6032c59a6201af",
+          "author": "gpt-6.1-terra / 01a1eac5-5cd2-7c12-a67b-60d1268bcae0",
+          "reviewer": "gpt-6.1-terra / 01a1eac9-1969-7c80-b351-a2b3a8591b5c",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28852,
+            28853,
+            28854,
+            28855,
+            28856,
+            28857,
+            28858,
+            28859,
+            28860,
+            28861,
+            28862,
+            28863,
+            28864,
+            28865,
+            28866,
+            28867,
+            28868,
+            28869,
+            28870,
+            28871,
+            28872,
+            28873,
+            28874,
+            28875,
+            28876
+          ],
+          "issues": [
+            "28857, 28858: The evidence cites DPR 495/1992 art. 353 comma 3, but the chock provision is comma 2 and addresses use on steep roads, not an explicit two-chock equipment requirement. The other cited evidence is another quiz answer, not an independent authority. Provide authoritative support for the pair and its applicable bus/trailer scope; 28857 does not establish the unqualified bus statement. Do not infer a verdict conflict merely from omitted conditions.",
+            "28859, 28860: The cited 2017 ministry note could not be retrieved (502), so its 6-litre/2-kg equivalences and exact scope were not independently verified. The accessible 2018 circular describes the historic foam quantity as 5 kg and its under-30 category as fewer than 30, while the drafts attribute 5 litres and up to 30 to the 1977 decree. Check the original decree and the 2017 note from accessible authoritative copies and reconcile the exact boundary and units, preserving the printed verdict.",
+            "28866: The 2017 ministry note cited for required first-aid kits was inaccessible; UNECE R107 annex 3 section 7.5.4 specifies space for one or more kits, not itself the obligation to carry the required materials or the authorization-dependent quantity. Provide and verify an authoritative applicable source for that requirement.",
+            "28868: The explanation merely restates the three exit types and adds only a generic compliance condition. Explain a meaningful distinction, for example that only appropriately designated and equipped openings qualify, with a concrete supported requirement (UNECE R107 annex 3 sections 7.6.7–7.6.9).",
+            "28869, 28870: The AMTS specification is for a particular Catania CNG bus procurement; INAIL describes public urban buses. Neither establishes that the stated central emergency control and engine-stop function apply to buses generally. Provide authoritative evidence for the applicable category and scope, or qualify the explanation to the supported case without changing the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "d10df3cd1b69e19e7af9cd66cf54cb2cc140aaa64fe93742517ed2e606d61fae",
+          "output_sha256": "d942ea9317eefa4eff22d031f0dc18490af302f3cde1c7991d0d22ea54d19623",
+          "author": "gpt-6.1-terra / 01a1eac5-5cd2-7c12-a67b-60d1268bcae0",
+          "reviewer": "gpt-6.1-terra / 01a1eac9-1969-7c80-b351-a2b3a8591b5c",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28852,
+            28853,
+            28854,
+            28855,
+            28856,
+            28857,
+            28858,
+            28859,
+            28860,
+            28861,
+            28862,
+            28863,
+            28864,
+            28865,
+            28866,
+            28867,
+            28868,
+            28869,
+            28870,
+            28871,
+            28872,
+            28873,
+            28874,
+            28875,
+            28876
+          ],
+          "issues": [
+            "28857, 28858: The evidence cites DPR 495/1992 art. 353 comma 3, but the chock provision is comma 2 and addresses use on steep roads, not an explicit two-chock equipment requirement. The other cited evidence is another quiz answer, not an independent authority. Provide authoritative support for the pair and its applicable bus/trailer scope; 28857 does not establish the unqualified bus statement. Do not infer a verdict conflict merely from omitted conditions.",
+            "28859, 28860: The cited 2017 ministry note could not be retrieved (502), so its 6-litre/2-kg equivalences and exact scope were not independently verified. The accessible 2018 circular describes the historic foam quantity as 5 kg and its under-30 category as fewer than 30, while the drafts attribute 5 litres and up to 30 to the 1977 decree. Check the original decree and the 2017 note from accessible authoritative copies and reconcile the exact boundary and units, preserving the printed verdict.",
+            "28866: The 2017 ministry note cited for required first-aid kits was inaccessible; UNECE R107 annex 3 section 7.5.4 specifies space for one or more kits, not itself the obligation to carry the required materials or the authorization-dependent quantity. Provide and verify an authoritative applicable source for that requirement.",
+            "28868: The explanation merely restates the three exit types and adds only a generic compliance condition. Explain a meaningful distinction, for example that only appropriately designated and equipped openings qualify, with a concrete supported requirement (UNECE R107 annex 3 sections 7.6.7–7.6.9).",
+            "28869, 28870: The AMTS specification is for a particular Catania CNG bus procurement; INAIL describes public urban buses. Neither establishes that the stated central emergency control and engine-stop function apply to buses generally. Provide authoritative evidence for the applicable category and scope, or qualify the explanation to the supported case without changing the printed verdict."
+          ]
+        },
+        {
+          "task_sha256": "5505c3f8b613384d222cd47e6e7f4b193b093ed96ae230eaf7a3f1a3d9fceeef",
+          "output_sha256": "16977fade4a56b5eb05633d8237d9a231fe2c80a79e80b860d01058a7d3a09a8",
+          "author": "gpt-6.1-terra / 01a1eac5-5cd2-7c12-a67b-60d1268bcae0",
+          "reviewer": "gpt-6.1-terra / 01a1eac9-1969-7c80-b351-a2b3a8591b5c",
+          "status": "needs_changes",
+          "checked_numbers": [
+            28852,
+            28853,
+            28854,
+            28855,
+            28856,
+            28857,
+            28858,
+            28859,
+            28860,
+            28861,
+            28862,
+            28863,
+            28864,
+            28865,
+            28866,
+            28867,
+            28868,
+            28869,
+            28870,
+            28871,
+            28872,
+            28873,
+            28874,
+            28875,
+            28876
+          ],
+          "issues": [
+            "28857, 28858: The evidence cites DPR 495/1992 art. 353 comma 3, but the chock provision is comma 2 and addresses use on steep roads, not an explicit two-chock equipment requirement. The other cited evidence is another quiz answer, not an independent authority. Provide authoritative support for the pair and its applicable bus/trailer scope; 28857 does not establish the unqualified bus statement. Do not infer a verdict conflict merely from omitted conditions.",
+            "28859, 28860: The cited 2017 ministry note could not be retrieved (502), so its 6-litre/2-kg equivalences and exact scope were not independently verified. The accessible 2018 circular describes the historic foam quantity as 5 kg and its under-30 category as fewer than 30, while the drafts attribute 5 litres and up to 30 to the 1977 decree. Check the original decree and the 2017 note from accessible authoritative copies and reconcile the exact boundary and units, preserving the printed verdict.",
+            "28866: The 2017 ministry note cited for required first-aid kits was inaccessible; UNECE R107 annex 3 section 7.5.4 specifies space for one or more kits, not itself the obligation to carry the required materials or the authorization-dependent quantity. Provide and verify an authoritative applicable source for that requirement.",
+            "28868: The explanation merely restates the three exit types and adds only a generic compliance condition. Explain a meaningful distinction, for example that only appropriately designated and equipped openings qualify, with a concrete supported requirement (UNECE R107 annex 3 sections 7.6.7–7.6.9).",
+            "28869, 28870: The AMTS specification is for a particular Catania CNG bus procurement; INAIL describes public urban buses. Neither establishes that the stated central emergency control and engine-stop function apply to buses generally. Provide authoritative evidence for the applicable category and scope, or qualify the explanation to the supported case without changing the printed verdict."
+          ]
+        }
+      ]
+    ]
+  }
+}

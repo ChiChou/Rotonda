@@ -1,0 +1,25 @@
+{
+  "batch": "107",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "a523d8aa0d46a323c940ece1b1e95e1819a035ac114a07687f6336d71d389663",
+  "source_sha256": "a4c4168148dcf26ea7727c9fb53a63e06236bf4170e2184211e70fb018c90144",
+  "corrections": [
+    {
+      "id": "8e8ef668563becc09e0ef82fc2eb4c061000531c35e98552a2c5181d701d4af7",
+      "before": "El área peatonal es un área donde está prohibida la circulación de bicicletas",
+      "after": "El área peatonal es un área donde está prohibida la circulación de velocípedos (bicicletas)",
+      "reason": "Se conserva la categoría velocipedi y la aclaración bicicletas tal como aparecen en el original."
+    }
+  ],
+  "reviewed_file_sha256": "f7f8ced56dbaba4f02aa101d7abe725a1888c8e4151653171e2c0dfe8ff8294f"
+}

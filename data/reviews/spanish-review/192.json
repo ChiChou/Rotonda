@@ -1,0 +1,37 @@
+{
+  "batch": "192",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "66ad76b3d0f6b3aac070b83f86ddbf50c3e6e233d9c518762a6d75ddb8b5d779",
+  "source_sha256": "0555857dc0c67a6a7c9486ef22e4e5a6e854d60cab1ad77a2d9e3c0f13005b73",
+  "corrections": [
+    {
+      "id": "fdb6f5019530a7eef14448baa8de2e734ed4786d037d3b307183bc34e0037e8d",
+      "before": "Por servicio ocasional con entrada en vacío y salida con pasajeros se entiende el transporte de un grupo en el mismo vehículo que después lo devuelve al lugar de partida",
+      "after": "Por servicio ocasional con entrada en vacío y salida con pasajeros se entiende el transporte de un grupo de pasajeros en el mismo vehículo que después lo devuelve al lugar de partida",
+      "reason": "Restituye que el grupo está formado por pasajeros."
+    },
+    {
+      "id": "fe09ebd61ffd949ab81bda76d3745a36c9415b67ffeeef9e2719beb10634f82a",
+      "before": "04##tipología4 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "04##tipologia4 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Technical code label: keep 'tipologia' spelling per Italian convention"
+    },
+    {
+      "id": "fe2fc358578960a709b3396f26ef70ae2882bdfa6f6a365a0b2cb85b9412af3d",
+      "before": "Al colocar el triángulo móvil de peligro, el conductor debe usar el chaleco de alta visibilidad incluso en carriles de emergencia o zonas de estacionamiento",
+      "after": "Al colocar el triángulo móvil de peligro, el conductor debe usar el chaleco de alta visibilidad incluso en carriles de emergencia o apartaderos",
+      "reason": "Piazzole di sosta designa aquí apartaderos viales."
+    }
+  ],
+  "reviewed_file_sha256": "efee5a371aac683184ba4ec74411f9a10a757ca07cbef876ecae6a416e11902b"
+}

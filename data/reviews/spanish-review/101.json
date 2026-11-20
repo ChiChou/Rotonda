@@ -1,0 +1,31 @@
+{
+  "batch": "101",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "92eee4914865fd5dd04a5d0ebd3625a531c71a8dc16414e0d55d771b21aac930",
+  "source_sha256": "a3102ca858551342a003a6ec0c1534bf30b83cb55a7d5cf95f4372d648a5e3ba",
+  "corrections": [
+    {
+      "id": "86678a15d3bac9cfa5b86871ae54de12eaa45de58d39f85b89ac908dea95b94e",
+      "before": "Al colocar la señal móvil de peligro, el conductor debe usar el chaleco de alta visibilidad incluso si está en carriles de emergencia o zonas de parada",
+      "after": "Al colocar la señal móvil de peligro, el conductor debe usar el chaleco de alta visibilidad incluso si está en carriles de emergencia o en plazoletas de estacionamiento",
+      "reason": "Piazzola di sosta designa un apartadero vial, no una zona genérica de parada o estacionamiento.; apartaderos is a passing place, not the Italian piazzole di sosta (lay-bys)"
+    },
+    {
+      "id": "867e3b930c72f4f56ff4f952e6bc87f7f369492febf89919e0286b3210032753",
+      "before": "Las marcas cebreadas en el pavimento consisten en pintar la calzada con franjas transversales azules",
+      "after": "Las marcas tipo cebra en el pavimento consisten en pintar la calzada con franjas transversales azules",
+      "reason": "Neutral LatAm term instead of Spain-specific cebreadas; meaning unchanged (false Italian claim kept)"
+    }
+  ],
+  "reviewed_file_sha256": "94302754613e1474fd03bb72359991e3dd8f265b5e9686fa76288b4c92843fbb"
+}

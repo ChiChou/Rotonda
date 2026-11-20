@@ -1,0 +1,31 @@
+{
+  "batch": "068",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9dbc88c522ad8ba157f0b310da095b39a6c6da80e8eca89b7fa7d82eb44f0da3",
+  "source_sha256": "7e6382025fe1967af6bb5d0bb6e604c899c10ca61ccc0cc354648cbecd00ba8e",
+  "corrections": [
+    {
+      "id": "5afc8d0ea100e46d014c7726b105d04f2424e125e8bb626e1abf2a1e867d9eb3",
+      "before": "Si es necesario cambiar la rueda de un autobús en el carril de emergencia o en una zona de parada de una autopista, conviene no hacer bajar a los pasajeros del vehículo",
+      "after": "Si es necesario cambiar la rueda de un autobús en el carril de emergencia o en un apartadero de una autopista, conviene no hacer bajar a los pasajeros del vehículo",
+      "reason": "Piazzola di sosta designa un apartadero vial, no una zona genérica de parada o estacionamiento."
+    },
+    {
+      "id": "5b22a5d5209c22ae50fb8e83bacd02a4fbbdabd6e2b5da786709f34dbd95e000",
+      "before": "La señal mostrada advierte de un cambio de rasante",
+      "after": "La señal mostrada advierte de un resalto",
+      "reason": "dosso is a bump; 'cambio de rasante' describes a different road feature"
+    }
+  ],
+  "reviewed_file_sha256": "d73c92ad0c2f39e20bd15ba9cc775603d76bdf9af05eb9fd3c72a709fa061a7f"
+}

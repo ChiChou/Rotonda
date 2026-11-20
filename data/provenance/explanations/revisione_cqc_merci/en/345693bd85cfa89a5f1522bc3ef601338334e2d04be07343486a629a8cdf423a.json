@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed51-19b9-7bf0-8d4f-ce46fc4f6145"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "revisione_cqc_merci",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 15506,
+          "quesito_id": 3271,
+          "text_it": "I soggetti giuridici coinvolti nel contratto di trasporto su strada comprendono solo il mittente e lo spedizioniere",
+          "answer": 0,
+          "page": 5,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "9e7cb9277795f9b0b17a8161ca88bc1cfe2e2477afb460de5c55227eda948e0f",
+        "italian": "FALSO. Non sono coinvolti soltanto mittente e spedizioniere: il vettore esegue il trasporto e il destinatario riceve la merce; lo spedizioniere può intervenire per organizzare il trasporto.",
+        "italian_sha256": "23d753da9491c786cd1b3139209dcfce312abf95aa62d1980d797fb7e683e35b"
+      },
+      {
+        "source": {
+          "number": 15507,
+          "quesito_id": 3271,
+          "text_it": "I soggetti giuridici coinvolti nel contratto di trasporto su strada comprendono l’acquirente e il venditore",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "a6d3799ba5fe1b23072333fb4c11b6e7139b3cb6d0c9d00cc6ece52db4aaca35",
+        "italian": "FALSO. Acquirente e venditore sono figure della compravendita, non necessariamente del contratto di trasporto. Possono però coincidere rispettivamente con destinatario e mittente.",
+        "italian_sha256": "85bd3d3acbbfa3561883caad38632cb4bb549db418841926abf7695c1a422225"
+      },
+      {
+        "source": {
+          "number": 15508,
+          "quesito_id": 3271,
+          "text_it": "I soggetti giuridici coinvolti nel contratto di trasporto su strada comprendono il proprietario del deposito della merce",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "0abffedf051babec99759a59128b3c71ea2b5042c8635a1f7ebd911cc1dadef8",
+        "italian": "FALSO. La proprietà del deposito non rende di per sé il suo titolare un soggetto del contratto di trasporto; egli può comunque assumere un ruolo nel trasporto se incaricato.",
+        "italian_sha256": "873c2af7578d93b794939613875e90cc5472b5d9b299e80d738a6b6fd9197ce5"
+      },
+      {
+        "source": {
+          "number": 15517,
+          "quesito_id": 3273,
+          "text_it": "Nel contratto di trasporto a \"porto assegnato\" il prezzo è pagato dal destinatario",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c0e39f15f6e2452add42abe9a06496bfe07c433fd4a4e73fc080f1ded6dc1aee",
+        "italian": "VERO. Con la clausola porto assegnato il corrispettivo del trasporto è a carico del destinatario.",
+        "italian_sha256": "0892bf27aa697837bd73deb816f4a5f2976a922879bb99ac3c0d4bdc5683c705"
+      },
+      {
+        "source": {
+          "number": 15518,
+          "quesito_id": 3273,
+          "text_it": "Nel contratto di trasporto a \"porto assegnato\" il prezzo è pagato dal mittente",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "9e72a5e1a2c7989862d19b0979756025e3e12fd76e084f3e9250d2a09563cbbb",
+        "italian": "FALSO. A porto assegnato paga il destinatario; il pagamento a carico del mittente corrisponde al porto affrancato.",
+        "italian_sha256": "8eac3206caf605d357762a2670cdf65f12f50d91b741f62e2dc56ef82a7e30bf"
+      },
+      {
+        "source": {
+          "number": 15519,
+          "quesito_id": 3273,
+          "text_it": "Nel contratto di trasporto a \"porto assegnato\" il prezzo è pagato dal vettore",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "05c4889f02ea00a5e3063a3bc5d1be6dbb3f9ec8b22bae7b3483ea2c9d2619d8",
+        "italian": "FALSO. Il vettore riceve il corrispettivo per il trasporto; a porto assegnato il pagamento è a carico del destinatario.",
+        "italian_sha256": "7a640931ed0b67d98fdf71da3f5692381c5febb90c2e0c0706fa97221cf43ae1"
+      },
+      {
+        "source": {
+          "number": 15520,
+          "quesito_id": 3273,
+          "text_it": "Nel contratto di trasporto a \"porto assegnato\" il prezzo è pagato indifferentemente dal mittente o dal destinatario",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "ca915e071ce43a244d788bcb9dbbb024a4620a05d26e1d92a5477b56398fe494",
+        "italian": "FALSO. Porto assegnato indica che il corrispettivo è a carico del destinatario, non indifferentemente del mittente o del destinatario.",
+        "italian_sha256": "4103d4a3dd9ed183ebcd4e3951859a44af2c31913186a799ec3d205f09bf93be"
+      },
+      {
+        "source": {
+          "number": 15521,
+          "quesito_id": 3274,
+          "text_it": "Qualora per l’esecuzione del trasporto occorrano particolari documenti, il mittente deve rimetterli al vettore all’atto in cui consegna le cose da trasportare",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "52ebe259c366e5011d0a720b6b5ea414cc95e77a8941fc9dd8d247e9d0eeb6da",
+        "italian": "VERO. Il mittente deve rimettere al vettore i documenti particolari necessari quando gli consegna le cose da trasportare.",
+        "italian_sha256": "73c2cb71ac86c0e2bfd685ae594cca926605e6ffff800f1371fee0c3ddb4c2f7"
+      },
+      {
+        "source": {
+          "number": 15522,
+          "quesito_id": 3274,
+          "text_it": "Qualora per l’esecuzione del trasporto occorrano particolari documenti, il vettore ha il compito di procurarseli presso gli organi competenti",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8291358905a11641a61a23590fea808c5432b7d75a297313744315af8fd61e13",
+        "italian": "FALSO. La regola indicata pone a carico del mittente la consegna al vettore dei documenti particolari occorrenti, insieme alla merce.",
+        "italian_sha256": "d1a0ef3a62b2637022f371d7697c35c8e442b08181405c37ea7235da0e5fd15a"
+      },
+      {
+        "source": {
+          "number": 15523,
+          "quesito_id": 3274,
+          "text_it": "Qualora per l’esecuzione del trasporto occorrano particolari documenti, il vettore può sostituirli con l’autocertificazione",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "a7b8d3706178a68c93a33a034716edab8f82c198c99bdd30f99d2a55d14ae0af",
+        "italian": "FALSO. Il mittente deve consegnare al vettore i documenti particolari necessari; non esiste una sostituzione generale con un’autocertificazione.",
+        "italian_sha256": "ed826e5d69c63a5b8ddee378f14306fefc10013e2c89bcb0be8d606c0b481d60"
+      },
+      {
+        "source": {
+          "number": 15524,
+          "quesito_id": 3274,
+          "text_it": "Qualora per l’esecuzione del trasporto occorrano particolari documenti, il destinatario deve trasmetterli via fax",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "58470bc2377773d7e4dbf5fe66747dd28440b7d0e3c0071d3320fa6c16e4def9",
+        "italian": "FALSO. La regola generale richiede al mittente di consegnare i documenti necessari al vettore con la merce, non al destinatario di inviarli via fax.",
+        "italian_sha256": "df29476ff7b11374a3b45af73ca71fd15c03290a45cb15cb5049990d1f4c3686"
+      },
+      {
+        "source": {
+          "number": 15540,
+          "quesito_id": 3277,
+          "text_it": "Il contratto di trasporto a \"porto affrancato\" prevede che il versamento per il trasporto venga effettuato da chi spedisce la merce",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4c0eed939dc12550625e8a9f147e708195579224d3ea8cf05c6cd32397d46604",
+        "italian": "VERO. A porto affrancato il corrispettivo del trasporto è a carico del mittente, cioè di chi spedisce.",
+        "italian_sha256": "ffc3db43d6dde8885d63a9baebc685fd512beec3241075cf6b33f7d007a65280"
+      },
+      {
+        "source": {
+          "number": 15541,
+          "quesito_id": 3277,
+          "text_it": "Il contratto di trasporto a \"porto assegnato\" prevede che il versamento per il trasporto venga effettuato da chi riceve la merce",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3c9431f6d8a9f3ebe227aba200d680fce97c3b0e9f5eff04eb8a9cab0655c608",
+        "italian": "VERO. A porto assegnato il corrispettivo del trasporto è a carico del destinatario, che riceve la merce.",
+        "italian_sha256": "09d7ced89b2803090406fcf1f5ff003a66565d394c1a3f654501f367af5bdc39"
+      },
+      {
+        "source": {
+          "number": 15542,
+          "quesito_id": 3277,
+          "text_it": "Il contratto di trasporto si può concludere a mezzo telefax purché chi fa la proposta venga a conoscenza dell’accettazione della controparte",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6d7c4e1583e41fe5a91987162e821d43323bf03683b92d632aa9ff4b5bf18f4a",
+        "italian": "VERO. Il contratto può essere concluso tramite telefax: la conclusione avviene quando chi ha proposto il contratto viene a conoscenza dell’accettazione.",
+        "italian_sha256": "d53a8f1c783cf7ad839313d47e02aeadb17cb54c0f52d346dd190ab460437055"
+      },
+      {
+        "source": {
+          "number": 15544,
+          "quesito_id": 3277,
+          "text_it": "Il contratto di trasporto a \"porto assegnato\" prevede che a pagare sia il mittente",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8893926c7eebade448c35737f52e3bcc969ef93ec0ee8bf2b18bc093ba17353b",
+        "italian": "FALSO. Nel porto assegnato il corrispettivo è a carico del destinatario; nel porto affrancato è a carico del mittente.",
+        "italian_sha256": "0005fd34f40d7fa09980fcf891bd94e1d0e3bd267f6195f14d18d2e153bc9f44"
+      },
+      {
+        "source": {
+          "number": 15545,
+          "quesito_id": 3277,
+          "text_it": "Il contratto di trasporto a \"porto affrancato\" prevede che a pagare sia il destinatario",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1fd06ad1a153e291ad4953791070fba47f21e7c6b929b0f2a5c6c2fd4f7da0d0",
+        "italian": "FALSO. Nel porto affrancato il corrispettivo è a carico del mittente; nel porto assegnato è a carico del destinatario.",
+        "italian_sha256": "02b9d20ad3b5d8a4bd53a1abd7c11d07a68f4593afab8a729bf7a41f8949849d"
+      },
+      {
+        "source": {
+          "number": 15546,
+          "quesito_id": 3277,
+          "text_it": "Il contratto di deposito può prevedere l’impegno da parte di un soggetto di concludere, in nome proprio e per conto di colui che l’ha incaricato, un contratto di trasporto",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1bde8907c2c9178a83f4f49826c1887678c6c7d050d13696679aee5223f74bdd",
+        "italian": "FALSO. L’incarico di concludere un trasporto in nome proprio e per conto del mandante caratterizza la spedizione; il deposito riguarda la custodia e la restituzione della cosa. Un accordo può comunque combinare prestazioni diverse.",
+        "italian_sha256": "b05f3f4b4380cac2dee009aa769843fc1bc04717102d99b19067142dcd7074e0"
+      },
+      {
+        "source": {
+          "number": 15549,
+          "quesito_id": 3278,
+          "text_it": "Il caricatore è corresponsabile, unitamente al mittente, della consegna delle merci al vettore",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "47610eba33dfcb5a281b203fab7bd68368d3763f9a5cd1d4add96c86b820d9bc",
+        "italian": "VERO. Il caricatore consegna la merce al vettore e cura la sua sistemazione; può operare per conto del mittente. La concreta responsabilità di ciascuno dipende dal ruolo e dagli obblighi assunti.",
+        "italian_sha256": "63d58363543d87a5486825bd984bf751647e6645ed638f7833da9e48f52bbdae"
+      },
+      {
+        "source": {
+          "number": 15550,
+          "quesito_id": 3278,
+          "text_it": "Il caricatore è corresponsabile, unitamente al mittente, della eccedenza di massa caricata sui veicoli, rispetto a quella riportata nella carta di circolazione",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "0190fe395ad8e40937add388da71b110cead450b6575e6d6f9c96cdf75a79a30",
+        "italian": "VERO. Il caricatore risponde delle violazioni accertate delle norme sulla massa e sul carico. La responsabilità di altri soggetti dipende dai rispettivi obblighi e dall’accertamento, non è automatica.",
+        "italian_sha256": "9232169c0629432d9389b1966ce620dd5d901fb8c16e64ac30ac8fd106271879"
+      },
+      {
+        "source": {
+          "number": 15551,
+          "quesito_id": 3278,
+          "text_it": "Il caricatore è corresponsabile, unitamente al mittente, della cattiva sistemazione del carico sul veicolo",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8ed70557d6ee3aeee5524336d16a73d759b8d3d362c2ef0907f36d1337f1db4b",
+        "italian": "VERO. Il caricatore risponde della violazione accertata delle norme sulla corretta sistemazione del carico. La responsabilità del mittente va valutata secondo il suo ruolo e le circostanze.",
+        "italian_sha256": "3ceed78c209ae02a51c21a4a572579af57973725ac1d1bf9cbf4567c1ac1f9ee"
+      },
+      {
+        "source": {
+          "number": 15554,
+          "quesito_id": 3278,
+          "text_it": "Il caricatore è l’impresa o la persona giuridica pubblica che consegna la merce al vettore, curando la sua sistemazione sul veicolo adibito alla esecuzione del trasporto",
+          "answer": 1,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2283a1f06e5e4469cd937cb4264f9e0dba17158391f6836b0a5f1998a01391de",
+        "italian": "VERO. Il caricatore è l’impresa o persona giuridica pubblica che consegna la merce al vettore e ne cura la sistemazione sul veicolo.",
+        "italian_sha256": "52b70ed18af929264f26c526356a52ea2d67449ed6d1b61668a6fbfdf00f653f"
+      },
+      {
+        "source": {
+          "number": 15555,
+          "quesito_id": 3278,
+          "text_it": "Il caricatore è responsabile per il tempo perduto nel caricare la merce con particolare attenzione",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "0b26b35be6d0757f8c71e96a57584c8b9fec40cad8dcc4c867aadd8b467f801a",
+        "italian": "La cura nel caricare non rende il caricatore automaticamente responsabile del tempo impiegato: il suo ruolo consiste nel consegnare la merce al vettore, curandone la sistemazione sul veicolo.",
+        "italian_sha256": "9d8cea9a020e2548babc18f3dc1ec8b0cca107151895ca4da285207168e77b73"
+      },
+      {
+        "source": {
+          "number": 15556,
+          "quesito_id": 3278,
+          "text_it": "Il caricatore è responsabile per la merce avariata",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "17126007d5e53c8bc05f97d25761da0144962d5a0fbc0aa081183bbf25e37b00",
+        "italian": "L’avaria non è automaticamente a carico del caricatore: durante il trasporto risponde della perdita o dell’avaria il vettore, salvo le cause di esonero previste dalla legge. Il caricatore può rispondere di danni a lui imputabili.",
+        "italian_sha256": "7023cd3f311756f934d3c753fd211ff122b814b6d173df8f650ad03365c198f4"
+      },
+      {
+        "source": {
+          "number": 15557,
+          "quesito_id": 3278,
+          "text_it": "Il caricatore è l’incaricato a sistemare la merce, ricevuta dal vettore, sugli scaffali o nei pallet",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "a20795ad37042c037fed2ba9eed0c2b681c051a987b179f09e1d85a34627bcbe",
+        "italian": "Il caricatore non è definito come chi ripone sugli scaffali la merce ricevuta dal vettore: consegna invece la merce al vettore, curandone la sistemazione sul veicolo.",
+        "italian_sha256": "ca5283b76d6dec60d4b2edfd338c00d25206d0fc4d2d041a2b7b071718641149"
+      },
+      {
+        "source": {
+          "number": 15561,
+          "quesito_id": 3278,
+          "text_it": "Il caricatore è corresponsabile, unitamente al mittente, della scelta dell’autista",
+          "answer": 0,
+          "page": 6,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "5c6e9e7f745bdafc2edf948d6ef70450a5cfd1a6c9f5ba3ea634f9cbb3fe0223",
+        "italian": "La scelta dell’autista non è una responsabilità attribuita al caricatore in quanto tale: il suo ruolo riguarda la consegna e la sistemazione della merce sul veicolo.",
+        "italian_sha256": "ad28596f6beddee2cf27a306f8f0254f91ffe6544a798cefb9e87bbabdb20ae0"
+      },
+      {
+        "source": {
+          "number": 15562,
+          "quesito_id": 3279,
+          "text_it": "Il caricatore è responsabile delle violazioni al codice della strada commesse dal conducente quali il superamento dei limiti di sagoma o di massa",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "5978369e1cce41f2bf1f71a1e355259fbf1b5e9b640caebf64a1c12f3ee2fcda",
+        "italian": "Il caricatore risponde delle violazioni accertate relative ai limiti di sagoma e massa del veicolo.",
+        "italian_sha256": "84e942c65136571a8f39bbe48dfe28875325fbcc42e81d18d7bbae97d9e48dbc"
+      },
+      {
+        "source": {
+          "number": 15563,
+          "quesito_id": 3279,
+          "text_it": "Il caricatore è responsabile delle violazioni al codice della strada commesse dal conducente quali la cattiva sistemazione del carico sul veicolo",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7980a8f1bdf02cc820352c919bcb9b40f6bbfd15fd48ded119777131723a2412",
+        "italian": "Il caricatore risponde quando è accertata una violazione delle norme sulla corretta sistemazione del carico.",
+        "italian_sha256": "45b95392875c4947c53baf0aafdc10f05abee150088c9c15497786216d326abb"
+      },
+      {
+        "source": {
+          "number": 15565,
+          "quesito_id": 3279,
+          "text_it": "Il caricatore è responsabile delle violazioni al codice della strada commesse dal conducente quali l’eccedenza di massa sui veicoli motore e sui rimorchi rispetto a quella riportata nella carta di circolazione",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "a06142280dfabd3a9bf7ef4d347776583ed2807c0e72b3e8f6ee018683d82deb",
+        "italian": "Il caricatore risponde anche dell’accertata eccedenza di massa rispetto a quella ammessa per il veicolo o il rimorchio.",
+        "italian_sha256": "5ed1c0d60a9de6dacf360dca2e7192c0c01979c250b648be38213550edd75acf"
+      },
+      {
+        "source": {
+          "number": 15566,
+          "quesito_id": 3279,
+          "text_it": "Il caricatore è responsabile delle violazioni al codice della strada commesse dal conducente quali esclusivamente le violazioni inerenti i tempi di guida e di riposo dei conducenti",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "abbd99b11e23376516c4bba7275552cd7e0b92b4919a33081501aed5992311b8",
+        "italian": "È errato «esclusivamente»: la responsabilità del caricatore riguarda anche le violazioni sui limiti di massa e sulla sistemazione del carico. Per tempi di guida e riposo può rilevare il suo concorso alle condizioni previste dalla legge.",
+        "italian_sha256": "1c60e04e823ef5bcf7d77cb630ee64e8074c529863323779c764c5441aabdb31"
+      },
+      {
+        "source": {
+          "number": 15568,
+          "quesito_id": 3279,
+          "text_it": "Il caricatore è responsabile delle violazioni al codice della strada commesse dal conducente quali esclusivamente il superamento dei limiti di massa consentita sui veicoli motore e sui rimorchi, rispetto a quelli riportati nella carta di circolazione",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "777084af427f1e600b84fe35458742ae9ded0ee107dc713369976638acc5adb4",
+        "italian": "È errato «esclusivamente»: oltre all’eccedenza di massa, il caricatore risponde anche delle violazioni sulla corretta sistemazione del carico.",
+        "italian_sha256": "c16db31677f9e400e1df2d09ceb18e41ec9d0ccbe14c53f709654772b5d580ac"
+      },
+      {
+        "source": {
+          "number": 15569,
+          "quesito_id": 3279,
+          "text_it": "Il caricatore è responsabile delle violazioni al codice della strada commesse dal conducente quali esclusivamente le diverse modalità errate di sistemare il carico sul veicolo",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c787557ebaf221fc77a65efa9ffe71829af124490a4052d678ae0f0cdf0d7a65",
+        "italian": "È errato «esclusivamente»: il caricatore risponde anche delle violazioni accertate sui limiti di massa, non solo di quelle sulla sistemazione del carico.",
+        "italian_sha256": "46b4ae835dc8f61b6ee4e854861b075c6de5ab10a239eee48eca22b69ae44c93"
+      },
+      {
+        "source": {
+          "number": 15570,
+          "quesito_id": 3280,
+          "text_it": "Il contratto di trasporto di cose prevede per il vettore l’obbligo del trasferimento delle merci da un luogo ad un altro, mentre per il mittente prevede l’obbligo del pagamento del corrispettivo",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6537fb7c4c35b6adf4943b7a2a35205739e63d2b3c4e36780d693453cfe82795",
+        "italian": "Il vettore si obbliga a trasferire le cose da un luogo a un altro verso un corrispettivo dovuto dal mittente.",
+        "italian_sha256": "da1fb9d6bf3ef28072d19865352b1609e8cff0537e04e44221f68f9a3aed3653"
+      },
+      {
+        "source": {
+          "number": 15571,
+          "quesito_id": 3280,
+          "text_it": "Il contratto di trasporto merci ha, come elementi essenziali, le cose da trasferire ed il corrispettivo del trasporto",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "941fc5d4d3955fd7c9a1684b0bea2d5a32978ea2b3a8cb5717cb7d9fb36a0404",
+        "italian": "Nel trasporto di cose il contratto ha per oggetto il trasferimento delle merci verso un corrispettivo: entrambi sono elementi essenziali della prestazione descritta.",
+        "italian_sha256": "a9df21e46df0c51a0fdcc80734365d895137f20b70b26abf3de86a36c8844498"
+      },
+      {
+        "source": {
+          "number": 15572,
+          "quesito_id": 3280,
+          "text_it": "Il contratto di trasporto merci ha come unico elemento essenziale il corrispettivo del trasporto",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "646651b2e7c761e989e57d5be25dc3fe97d7eabc78539564687333a7b27aafcc",
+        "italian": "Il corrispettivo non è l’unico elemento: il contratto riguarda anche il trasferimento delle cose da un luogo a un altro.",
+        "italian_sha256": "10dab661980f8398cbb712769dc5831b89c42eb386af59b33859251b8f7f4584"
+      },
+      {
+        "source": {
+          "number": 15573,
+          "quesito_id": 3280,
+          "text_it": "Il contratto di trasporto merci riguarda solo il vettore che deve trasferire cose del mittente",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "fe5b8bd63878ca1a4c36d641de961be8f4031938bb663bb688c3cb7e33c4cd59",
+        "italian": "Il contratto non riguarda solo il vettore: coinvolge anche il mittente, che affida il trasporto e deve il corrispettivo.",
+        "italian_sha256": "f9a41322beb3adc2afc5a97c938a3eaff4eb782d1c3c3d0b186bbfc5b90d443a"
+      },
+      {
+        "source": {
+          "number": 15574,
+          "quesito_id": 3280,
+          "text_it": "Il contratto di trasporto merci per il mittente è il trasferimento delle cose da un luogo ad un altro, mentre per il vettore è la riscossione della prestazione",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "681d7f2c8ec451906f895188417675ad13a32de07c83d3b1cea204f3895a11d0",
+        "italian": "I ruoli sono invertiti: è il vettore a impegnarsi a trasferire le cose; il mittente deve il corrispettivo.",
+        "italian_sha256": "a4a495c83113547080d6cf0327a1a1461095c041009912445f94163cfb25a040"
+      },
+      {
+        "source": {
+          "number": 15579,
+          "quesito_id": 3282,
+          "text_it": "Nel contratto di subtrasporto il vettore assume nei confronti del mittente l’obbligo dell’esecuzione dell’intero trasporto dal luogo di partenza fino al luogo di destinazione, avvalendosi dell’opera di uno o più subvettori",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "07f8b80138caecaf43e4357f627c2d120ae8e38f250becbb7a85700356eb7029",
+        "italian": "Il vettore resta obbligato verso il mittente per il trasporto affidatogli e può incaricare un subvettore dell’esecuzione, alle condizioni previste dalla legge.",
+        "italian_sha256": "5c08e7ac0cd5a7585a2b712255e5f34d5124b360f80c0c0b6f4bfa00bd3eaab8"
+      },
+      {
+        "source": {
+          "number": 15580,
+          "quesito_id": 3282,
+          "text_it": "Nel contratto di subtrasporto il vettore assume l’obbligo di stipulare con altre imprese d’autotrasporto autonomi contratti di trasporto",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6083825d1dbd8c1f393cada8f151eac46b1ce19fe76551ddc0b954c16088bfc9",
+        "italian": "Nel subtrasporto il vettore affida l’esecuzione a un altro trasportatore mediante un rapporto distinto. Il ricorso alla subvezione richiede l’accordo del committente: non è un obbligo generale di ogni vettore.",
+        "italian_sha256": "24aaddd9d39549464ea3b13d5f95f3b93aed63c60791fd62fc0a6b6066b04b6b"
+      },
+      {
+        "source": {
+          "number": 15581,
+          "quesito_id": 3282,
+          "text_it": "Nel contratto di subtrasporto il vettore assume nei confronti del mittente l’obbligo di assicurare le merci",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "62beaf7550a7818500e17e39885fb92fed046a1e60a86f5415f49ddebddc6d7a",
+        "italian": "Il subtrasporto non implica di per sé l’obbligo di assicurare la merce: riguarda l’affidamento dell’esecuzione a un subvettore.",
+        "italian_sha256": "8656eafaa66332340aec4a3bc29d6132966da2b76e240539418083473fd0ca29"
+      },
+      {
+        "source": {
+          "number": 15582,
+          "quesito_id": 3282,
+          "text_it": "Nel contratto di subtrasporto il vettore assume nei confronti del mittente l’obbligo di restituire le merci in caso di mancata consegna delle stesse",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "bf653d9ec3fb6af855998382b5e7252abdacb60f70f0902e6e202f25967005b3",
+        "italian": "La restituzione non è l’obbligo che definisce il subtrasporto: il vettore si impegna al trasporto e può affidarne l’esecuzione a un subvettore. In caso di impedimento alla consegna si applicano le regole e le istruzioni previste per il caso concreto.",
+        "italian_sha256": "e854ad91d1b313bdafe8d16ad56b5f2d131fe9e015bb8409854fb5412a5f0872"
+      },
+      {
+        "source": {
+          "number": 15583,
+          "quesito_id": 3282,
+          "text_it": "Nel contratto di subtrasporto il vettore non assume nessun obbligo",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "de86647a3a63bba895aecc492cad5e031f878ab965bda8c2829322c871c14abf",
+        "italian": "È falso che il vettore non assuma obblighi: resta impegnato verso il mittente per il trasporto, anche se affida l’esecuzione a un subvettore.",
+        "italian_sha256": "99dd24e58b7364e127c971c0b8c7fbe02a479445ee70edeedc01a521987944cf"
+      },
+      {
+        "source": {
+          "number": 15584,
+          "quesito_id": 3283,
+          "text_it": "Nel trasporto cumulativo la responsabilità per i danni diversi da quelli dovuti per ritardo o interruzione del viaggio, spetta a tutti i vettori in solido salva la possibilità di rivalsa contro colui o coloro che hanno causato il danno",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "20313b7f9381e62b2779ac0959b25c4cf099903d5e6d87e9e130f08834eea899",
+        "italian": "La risposta ufficiale è VERO, ma la formulazione è imprecisa: l’art. 1700 prevede la solidarietà per l’esecuzione del contratto e, per il danno, il risarcimento integrale da parte del vettore sul cui percorso è avvenuto; se non individuato, ripartisce il danno proporzionalmente ai percorsi, con le esclusioni previste.",
+        "italian_sha256": "0fb0e2fb3ad9e32e040683a0b21aeadcd9e3eb0654e897441c53a84075191f4e"
+      },
+      {
+        "source": {
+          "number": 15585,
+          "quesito_id": 3283,
+          "text_it": "Nel trasporto cumulativo la responsabilità per i danni diversi da quelli dovuti per ritardo o interruzione del viaggio, spetta ad ogni vettore in ragione solo del proprio percorso",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d6ecfcc78efa307fd1b46058bacdd0c9a67ad62435d1177b9c360d8ab3535157",
+        "italian": "La risposta ufficiale è VERO, ma vale solo con una precisazione: se non si individua il percorso in cui è avvenuto il danno, il risarcimento è ripartito proporzionalmente ai percorsi, esclusi i vettori che provino che non è avvenuto sul proprio. Se invece il percorso è individuato, il relativo vettore risarcisce integralmente.",
+        "italian_sha256": "b69b28c897b059853b9c8b3ab0d07ae05364a892f389baf7196cc0cd2febfcd5"
+      },
+      {
+        "source": {
+          "number": 15586,
+          "quesito_id": 3283,
+          "text_it": "Nel trasporto cumulativo la responsabilità per i danni diversi da quelli dovuti per ritardo o interruzione del viaggio, spetta al singolo vettore in relazione al proprio percorso e di quello che lo precede",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "24b715e2df09a6429a33641577c51abd41ea1ce471f6b571e5862600a178a130",
+        "italian": "Non esiste una regola che aggiunga automaticamente il percorso del vettore precedente. Se il percorso del danno è individuato, il relativo vettore risarcisce integralmente; altrimenti si applica la ripartizione proporzionale prevista dalla legge.",
+        "italian_sha256": "bf9624ec312bc54958cb07b85a2f663f5cf4ee65dc4bb4955c6db10236659670"
+      },
+      {
+        "source": {
+          "number": 15587,
+          "quesito_id": 3283,
+          "text_it": "Nel trasporto cumulativo la responsabilità per i danni diversi da quelli dovuti per ritardo o interruzione del viaggio, spetta ad ogni vettore in ragione dell’intero percorso",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "af23a2ce67196268f53207e0ff10d733931a1b7256a2c72a4066aed7b0f5feb0",
+        "italian": "La risposta ufficiale è FALSO: non si può attribuire automaticamente a ciascun vettore il danno in ragione dell’intero percorso. La legge prevede la solidarietà per l’esecuzione del contratto, ma disciplina separatamente il risarcimento secondo il percorso in cui è avvenuto il danno.",
+        "italian_sha256": "de9fe8242afad70d39dea54d19a561a6920c5e92e9e36a1d4da29e3100eb1c10"
+      },
+      {
+        "source": {
+          "number": 15588,
+          "quesito_id": 3283,
+          "text_it": "Nel trasporto cumulativo la responsabilità per i danni diversi da quelli dovuti per ritardo o interruzione del viaggio, spetta al singolo vettore in relazione al proprio percorso e di quello che lo segue",
+          "answer": 0,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "467212326dce158e76734b0d4d36eda705e50314e07f573009a7f4a55777eb20",
+        "italian": "Non esiste una regola che aggiunga automaticamente il percorso del vettore successivo. Se il percorso del danno è individuato, il relativo vettore risarcisce integralmente; altrimenti si applica la ripartizione proporzionale prevista dalla legge.",
+        "italian_sha256": "df796abe1be965127e30a38203a89560a646c365278d93e970c93f30f3908df0"
+      },
+      {
+        "source": {
+          "number": 15589,
+          "quesito_id": 3284,
+          "text_it": "Nel trasporto cumulativo, se le merci subiscono danni e non è possibile individuare il vettore che li ha causati, tutti i vettori ne rispondono in parti proporzionali ai rispettivi percorsi",
+          "answer": 1,
+          "page": 7,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "ded6a3a90dedf6509a3aa79c528593b51e6922ea55ea894f816b14b84414cb20",
+        "italian": "Nel riparto interno fra vettori, se non si individua la tratta del danno, ciascuno risponde in proporzione al percorso, salvo che provi che il danno non è avvenuto nella propria tratta. Verso l’avente diritto i vettori rispondono in solido.",
+        "italian_sha256": "a664b38a093ff77775eca06c5530c7c04ec70ab6771e6d75284446713ed3e40a"
+      },
+      {
+        "source": {
+          "number": 15590,
+          "quesito_id": 3284,
+          "text_it": "Nel trasporto cumulativo, se le merci subiscono danni e non è possibile individuare il vettore che li ha causati, tutti i vettori rispondono in parti uguali",
+          "answer": 0,
+          "page": 8,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "e5c5c58ec9fa59bf75562edd2c08b9300887197ca8a88af6688c4a913aca8237",
+        "italian": "Non si divide necessariamente in parti uguali: nel riparto fra vettori si considerano i rispettivi percorsi, salvo la prova che il danno non è avvenuto nella propria tratta.",
+        "italian_sha256": "cb826c34b943346a5cb963dff03b37756e2d1821db1680cd03bd7d8b2476a47d"
+      },
+      {
+        "source": {
+          "number": 15591,
+          "quesito_id": 3284,
+          "text_it": "Nel trasporto cumulativo, solamente il primo e l’ultimo vettore rispondono dei danni subiti dalle merci se non è possibile individuare il vettore che li ha causati",
+          "answer": 0,
+          "page": 8,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8fd3c0c05707f1b2b846bc73688d9a491dab4a7f8133f16f8095341f4f0c4bbc",
+        "italian": "Non rispondono soltanto il primo e l’ultimo: nel riparto fra vettori sono coinvolti anche gli altri, in proporzione ai percorsi, salvo la prova che il danno non è avvenuto nella propria tratta.",
+        "italian_sha256": "f61784b95cb0d49f5bbc2443b69bf2b7db3fd156f75314796bde477de7ef30f7"
+      },
+      {
+        "source": {
+          "number": 15592,
+          "quesito_id": 3284,
+          "text_it": "Nel trasporto cumulativo, il vettore che ha compiuto la tratta più lunga risponde dei danni subiti dalle merci se non è possibile individuare il vettore che li ha causati",
+          "answer": 0,
+          "page": 8,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f7e43f852d3dee712d72701dba1b32174aa548269c5a2ed40c28eec8683875b0",
+        "italian": "La tratta più lunga non rende quel vettore l’unico responsabile: nel riparto interno il danno si divide in proporzione ai percorsi, salvo la prova che non sia avvenuto nella propria tratta.",
+        "italian_sha256": "b7814fec9bf7f99bf15e509d52ec40b06e489e402879b80e718688ac5566f8de"
+      }
+    ],
+    "task_sha256": "5df8d9674fc5c4e78aa8e256365a38c3b9e0ac0999aef0fe703e8211353f8b99"
+  },
+  "rows": [
+    {
+      "number": 15506,
+      "text": "FALSO. The consignor and freight forwarder are not the only parties involved: the carrier performs the transport and the consignee receives the goods; the freight forwarder may arrange the transport."
+    },
+    {
+      "number": 15507,
+      "text": "FALSO. The buyer and seller are parties to the sale, not necessarily to the transport contract. They may, however, also be the consignee and consignor respectively."
+    },
+    {
+      "number": 15508,
+      "text": "FALSO. Owning the warehouse does not in itself make its owner a party to the transport contract; the owner may nevertheless take on a role in the transport if appointed to do so."
+    },
+    {
+      "number": 15517,
+      "text": "VERO. Under a freight collect clause, the consignee is responsible for the transport charge."
+    },
+    {
+      "number": 15518,
+      "text": "FALSO. With freight collect, the consignee pays; payment by the consignor corresponds to freight prepaid."
+    },
+    {
+      "number": 15519,
+      "text": "FALSO. The carrier receives payment for the transport; with freight collect, the consignee is responsible for payment."
+    },
+    {
+      "number": 15520,
+      "text": "FALSO. Freight collect means that the consignee is responsible for the charge, not either the consignor or the consignee indiscriminately."
+    },
+    {
+      "number": 15521,
+      "text": "VERO. The consignor must hand over the required special documents to the carrier when handing over the goods to be transported."
+    },
+    {
+      "number": 15522,
+      "text": "FALSO. The stated rule makes the consignor responsible for handing the necessary special documents to the carrier along with the goods."
+    },
+    {
+      "number": 15523,
+      "text": "FALSO. The consignor must hand the required special documents to the carrier; there is no general provision for replacing them with a self-declaration."
+    },
+    {
+      "number": 15524,
+      "text": "FALSO. The general rule requires the consignor to give the carrier the necessary documents with the goods, not the consignee to send them by fax."
+    },
+    {
+      "number": 15540,
+      "text": "VERO. With freight prepaid, the transport charge is borne by the consignor, the person who sends the goods."
+    },
+    {
+      "number": 15541,
+      "text": "VERO. With freight collect, the transport charge is borne by the consignee, who receives the goods."
+    },
+    {
+      "number": 15542,
+      "text": "VERO. The contract can be concluded by fax: it is concluded when the person who proposed it becomes aware of the acceptance."
+    },
+    {
+      "number": 15544,
+      "text": "FALSO. With freight collect, the charge is borne by the consignee; with freight prepaid, it is borne by the consignor."
+    },
+    {
+      "number": 15545,
+      "text": "FALSO. With freight prepaid, the charge is borne by the consignor; with freight collect, it is borne by the consignee."
+    },
+    {
+      "number": 15546,
+      "text": "FALSO. The undertaking to conclude a transport contract in one's own name on behalf of the principal characterizes freight forwarding; a storage contract concerns the safekeeping and return of the item. An agreement may nevertheless combine different services."
+    },
+    {
+      "number": 15549,
+      "text": "VERO. The loader hands the goods to the carrier and takes care of their placement; the loader may act on behalf of the consignor. Each party's actual liability depends on their role and the obligations they have assumed."
+    },
+    {
+      "number": 15550,
+      "text": "VERO. The loader is liable for established violations of the rules on mass and loading. The liability of other parties depends on their respective obligations and on what is established; it is not automatic."
+    },
+    {
+      "number": 15551,
+      "text": "VERO. The loader is liable for an established violation of the rules on proper load placement. The consignor's liability must be assessed in light of their role and the circumstances."
+    },
+    {
+      "number": 15554,
+      "text": "VERO. The loader is the company or public legal entity that hands the goods to the carrier and takes care of their placement on the vehicle."
+    },
+    {
+      "number": 15555,
+      "text": "Taking care when loading does not automatically make the loader liable for the time taken: the loader's role is to hand the goods to the carrier and take care of their placement on the vehicle."
+    },
+    {
+      "number": 15556,
+      "text": "The loader is not automatically liable for damage: during transport the carrier is liable for loss or damage, subject to the grounds for exemption provided by law. The loader may be liable for damage attributable to them."
+    },
+    {
+      "number": 15557,
+      "text": "The loader is not defined as the person who puts goods received from the carrier on shelves: the loader instead hands the goods to the carrier and takes care of their placement on the vehicle."
+    },
+    {
+      "number": 15561,
+      "text": "Choosing the driver is not a responsibility assigned to the loader as such: the loader's role concerns handing over the goods and placing them on the vehicle."
+    },
+    {
+      "number": 15562,
+      "text": "The loader is liable for established violations relating to the vehicle's dimension and mass limits."
+    },
+    {
+      "number": 15563,
+      "text": "The loader is liable when a violation of the rules on proper load placement is established."
+    },
+    {
+      "number": 15565,
+      "text": "The loader is also liable for an established excess over the permitted mass of the vehicle or trailer."
+    },
+    {
+      "number": 15566,
+      "text": "The word ‘exclusively’ is incorrect: the loader's liability also covers violations of mass limits and load placement rules. For driving and rest times, the loader's involvement may be relevant under the conditions provided by law."
+    },
+    {
+      "number": 15568,
+      "text": "The word ‘exclusively’ is incorrect: besides excess mass, the loader is also liable for violations of the rules on proper load placement."
+    },
+    {
+      "number": 15569,
+      "text": "The word ‘exclusively’ is incorrect: the loader is also liable for established violations of mass limits, not just violations concerning load placement."
+    },
+    {
+      "number": 15570,
+      "text": "The carrier undertakes to transport the goods from one place to another in return for a charge owed by the consignor."
+    },
+    {
+      "number": 15571,
+      "text": "In the transport of goods, the contract concerns moving the goods in return for a charge: both are essential elements of the service described."
+    },
+    {
+      "number": 15572,
+      "text": "The charge is not the only element: the contract also concerns moving the goods from one place to another."
+    },
+    {
+      "number": 15573,
+      "text": "The contract does not concern only the carrier: it also involves the consignor, who entrusts the transport to the carrier and owes the charge."
+    },
+    {
+      "number": 15574,
+      "text": "The roles are reversed: the carrier undertakes to move the goods; the consignor owes the charge."
+    },
+    {
+      "number": 15579,
+      "text": "The carrier remains obliged to the consignor for the transport entrusted to them and may appoint a subcontracted carrier to perform it, under the conditions provided by law."
+    },
+    {
+      "number": 15580,
+      "text": "In subcontracted transport, the carrier entrusts performance to another carrier through a separate arrangement. Using a subcontracted carrier requires the customer's agreement: it is not a general obligation for every carrier."
+    },
+    {
+      "number": 15581,
+      "text": "Subcontracted transport does not in itself imply an obligation to insure the goods: it concerns entrusting performance to a subcontracted carrier."
+    },
+    {
+      "number": 15582,
+      "text": "Returning the goods is not the obligation that defines subcontracted transport: the carrier undertakes to transport them and may entrust performance to a subcontracted carrier. If delivery is prevented, the rules and instructions applicable to the particular case apply."
+    },
+    {
+      "number": 15583,
+      "text": "It is false that the carrier assumes no obligations: the carrier remains committed to the consignor for the transport, even if performance is entrusted to a subcontracted carrier."
+    },
+    {
+      "number": 15584,
+      "text": "The official answer is VERO, but the wording is imprecise: Article 1700 provides for joint and several liability for performance of the contract and, for damage, full compensation by the carrier on whose leg it occurred; if that leg is not identified, it apportions the damage in proportion to the legs, subject to the prescribed exclusions."
+    },
+    {
+      "number": 15585,
+      "text": "The official answer is VERO, but only with a qualification: if the leg on which the damage occurred cannot be identified, compensation is apportioned in proportion to the legs, excluding carriers that prove it did not occur on theirs. If the leg is identified, the carrier responsible for it pays full compensation."
+    },
+    {
+      "number": 15586,
+      "text": "There is no rule that automatically adds the preceding carrier's leg. If the leg on which the damage occurred is identified, the carrier responsible for it pays full compensation; otherwise the proportional allocation provided by law applies."
+    },
+    {
+      "number": 15587,
+      "text": "The official answer is FALSO: damage cannot automatically be attributed to each carrier on the basis of the entire route. The law provides for joint and several liability for performance of the contract, but separately governs compensation according to the leg on which the damage occurred."
+    },
+    {
+      "number": 15588,
+      "text": "There is no rule that automatically adds the following carrier's leg. If the leg on which the damage occurred is identified, the carrier responsible for it pays full compensation; otherwise the proportional allocation provided by law applies."
+    },
+    {
+      "number": 15589,
+      "text": "In the allocation among carriers, if the leg on which the damage occurred cannot be identified, each is liable in proportion to its leg, unless it proves that the damage did not occur on its leg. The carriers are jointly and severally liable to the entitled party."
+    },
+    {
+      "number": 15590,
+      "text": "The damage is not necessarily divided equally: in the allocation among carriers, their respective legs are considered, subject to proof that the damage did not occur on a carrier's own leg."
+    },
+    {
+      "number": 15591,
+      "text": "It is not only the first and last carriers who are liable: the others are also involved in the allocation among carriers, in proportion to their legs, subject to proof that the damage did not occur on a carrier's own leg."
+    },
+    {
+      "number": 15592,
+      "text": "Having the longest leg does not make that carrier solely liable: in the allocation among carriers, the damage is divided in proportion to their legs, subject to proof that it did not occur on a carrier's own leg."
+    }
+  ],
+  "output_sha256": "0fb6a4f3974552fe8bd8a9a7c3253e5bc17fa64c921ada3c59a001c3d2824247"
+}

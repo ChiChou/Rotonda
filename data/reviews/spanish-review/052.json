@@ -1,0 +1,37 @@
+{
+  "batch": "052",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "351174ea91925d78328cfe131ae74a591ccab5403775feb3bb99666cee018af0",
+  "source_sha256": "5bf85a8f9e15746dac9eb44e8f11cbd471b41ac11b2e4a4318734e8109176828",
+  "corrections": [
+    {
+      "id": "457c888ba367042a525850c31aa34cd93eabb5ad139c2201dd301fc8c3f8355d",
+      "before": "Con tráfico intenso y vehículos en fila, antes de abrir las puertas para bajar de un vehículo estacionado hay que considerar que puede acercarse un vehículo de dos ruedas adelantando por la derecha",
+      "after": "Con tráfico intenso y vehículos en fila, antes de abrir las puertas para bajar de un vehículo estacionado hay que considerar que puede acercarse un vehículo de motor de dos ruedas adelantando por la derecha a los vehículos detenidos en la fila",
+      "reason": "Restituye que el vehículo de dos ruedas es de motor y adelanta a los vehículos detenidos."
+    },
+    {
+      "id": "45e6d2f8a2adb3a9b2d130274d6b020004b7ce51ea4e5d7b7a0aa014fc214c51",
+      "before": "Según el CMR, el destinatario ya no tiene interés en recibir la mercancía cuando se entrega dentro de los 20 días posteriores al plazo acordado",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el destinatario ya no tiene interés en recibir la mercancía cuando se entrega dentro de los 20 días posteriores al plazo acordado",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "4663254e20f80cb851f38870bb813fccaca509b9757a9b5487002291ba1569df",
+      "before": "Si se producen daños o gastos por defectos del embalaje o sujeción inadecuada, la responsabilidad es del remitente cuando el transportista anotó las anomalías en la carta de porte",
+      "after": "Si se producen daños a personas, equipos u otras mercancías, o gastos por defectos del embalaje o sujeción defectuosa o inadecuada en el vehículo, la responsabilidad es del remitente cuando el transportista anotó las anomalías en la carta de porte",
+      "reason": "Restituye los daños a personas, equipos y otras mercancías y la sujeción en el vehículo."
+    }
+  ],
+  "reviewed_file_sha256": "4f160c355b9d63ee759eb94bdf11d6e1214948f6ad714006620b4cfca5641d68"
+}

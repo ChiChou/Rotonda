@@ -1,0 +1,31 @@
+{
+  "batch": "098",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "a8e859da2a4eb6bc26962427a6ab260853928d048843066cbdf4b60f32694653",
+  "source_sha256": "076fe4e4048408c6b9d78b0bcc87922d73f44451c40d775def80b19af33e074c",
+  "corrections": [
+    {
+      "id": "825ce0800f766d9037af7fdc0a13c2d3922bfc5f014a4c25507465367d2eadb4",
+      "before": "La señal mostrada advierte que, en caso de viento lateral fuerte, el peligro es mayor para los vehículos que remolcan casas rodantes",
+      "after": "La señal mostrada advierte que, en caso de viento lateral fuerte, el peligro es mayor para los vehículos que remolcan remolques vivienda",
+      "reason": "Caravan se identifica como remolque vivienda, sin confundirlo con una autocaravana."
+    },
+    {
+      "id": "839470d169a90322480c438620d70df1f332cfcc1c9831c29873b1406848230c",
+      "before": "En caso de accidente de tránsito, lo primero que hay que hacer es alejarse para acudir a los Carabineros",
+      "after": "En caso de accidente de tránsito, lo primero que hay que hacer es alejarse para acudir a los carabinieri",
+      "reason": "Italian force name should stay as Carabinieri; Carabineros is the Chilean police"
+    }
+  ],
+  "reviewed_file_sha256": "6a503d579b9f57017e4fb355357f0bb466e20ec1d6be3c7bf5e416666810044a"
+}

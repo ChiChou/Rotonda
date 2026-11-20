@@ -1,0 +1,31 @@
+{
+  "batch": "077",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "814724160cc5ea437997dfaf1c7cd9448b641e7d013615d463f57c55c1116da1",
+  "source_sha256": "ae0a1779586c7f0477d5d8a602bf95d129ae5cbc60e7d36b09e695f7016a4cdd",
+  "corrections": [
+    {
+      "id": "67244b32dfaa027cbfa1094b1b7fe35c4940f311285b11308d70476135230360",
+      "before": "En los vehículos de transporte escolar solo pueden viajar alumnos de escuela secundaria si están autorizados para transportar estudiantes de esa escuela",
+      "after": "En los vehículos de transporte escolar solo pueden viajar alumnos de escuela media si están autorizados para transportar estudiantes de escuela media",
+      "reason": "'scuola media' is middle school; the draft changed it to secondary school and added 'esa escuela'"
+    },
+    {
+      "id": "673d65068295d5e972a4e518139a6d097de65e27bc25dec1b4e2e4c084a65118",
+      "before": "La señal mostrada indica una zona de parada a la derecha",
+      "after": "La señal mostrada indica un apartadero a la derecha",
+      "reason": "Piazzola di sosta indica un área de estacionamiento, no una parada breve. Piazzola di sosta designa un apartadero vial, no una zona genérica de parada o estacionamiento."
+    }
+  ],
+  "reviewed_file_sha256": "d3044f202d185437d15ed5489225ebfcf7098b5fe80539a14ca2ce3eedb677ab"
+}

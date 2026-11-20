@@ -1,0 +1,25 @@
+{
+  "batch": "116",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "884d678d2525bb6459ed8c86e0e0a43b2928b5513b65b01f31fcb7c58de37799",
+  "source_sha256": "456d95de112897d722b53dc020bcd2a4e59ca75a3b4a8b7aad870661e8db0327",
+  "corrections": [
+    {
+      "id": "9b067605ad30f50e076e85b2c83f64607e65f471280d7ab5e125034b59c7ca23",
+      "before": "El certificado de aptitud para conducir trolebuses contiene los datos de la licencia del titular",
+      "after": "El certificado de aptitud para conducir vehículos eléctricos sin rieles alimentados por línea aérea contiene los datos de la licencia del titular",
+      "reason": "Filoveicoli abarca vehículos eléctricos sin rieles alimentados por línea aérea, no solo trolebuses."
+    }
+  ],
+  "reviewed_file_sha256": "4eacd4ea442d445560d708800fa9aa8023f66a99724f1624075f5441c2d7c0c4"
+}

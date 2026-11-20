@@ -1,0 +1,55 @@
+{
+  "batch": "063",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "1ce796a9687752eed5b7c587e0a6ef5ffaca7f68dd2e38628e1163690fc16588",
+  "source_sha256": "c2fd032047ab268f371138832fabba3dbed00631231aa7b3ddd0cf9183bf9e23",
+  "corrections": [
+    {
+      "id": "54556f658b394d87d58df9bff5591c6a93654a5acc1683e04a37a1a4a47a0494",
+      "before": "Al adelantar hay que considerar que un vehículo que arrastra una caravana nunca puede ser adelantado en una bajada pronunciada",
+      "after": "Al adelantar hay que considerar que un vehículo que remolca un remolque vivienda nunca puede ser adelantado en una bajada pronunciada",
+      "reason": "Aclara que caravan es un remolque vivienda, no una caravana de vehículos."
+    },
+    {
+      "id": "546e08e27e0bb6c42689e71b125b3221814d8c0574e5d585e7824f95ad419bfa",
+      "before": "Si se usan vehículos de refuerzo en servicios internacionales entre la UE y el Reino Unido, también debe llevarse a bordo una autorización nacional de conformidad del vehículo",
+      "after": "Si se usan vehículos de refuerzo en servicios internacionales entre la UE y el Reino Unido, también debe llevarse a bordo una autorización de la autoridad nacional competente sobre la conformidad del vehículo",
+      "reason": "Restituye que la autorización procede de la autoridad nacional competente."
+    },
+    {
+      "id": "549976a0b6f0a5b06898f17f8d3b01d5b8c57a6b96d1599b483e9fe1e2a8621c",
+      "before": "La pérdida de carga debe señalizarse oportunamente y, si no puede retirarse de inmediato, hay que informar a los funcionarios del Registro Público de Automóviles",
+      "after": "La pérdida de carga debe señalizarse oportunamente y, si no puede retirarse de inmediato, hay que informar inmediatamente a los funcionarios del Registro Público de Automóviles",
+      "reason": "Restituye la obligación de informar inmediatamente."
+    },
+    {
+      "id": "549f3624dc865b01aea351a3fa702efec46531cf6a91a30bbb8ba9d77deff1bc",
+      "before": "El estrechamiento de la vía puede ser una causa probable de accidentes debidos a su estructura",
+      "after": "La estrechez de la vía puede ser una causa probable de accidentes debidos a su estructura",
+      "reason": "Corrige estrechamiento, que implica una reducción de anchura, por la estrechez de la vía."
+    },
+    {
+      "id": "54b53a0e65a2323d2b8a68c19b9719f48186d367b7a5dc5c7db1888d633f8c3d",
+      "before": "Los vehículos de mercancías por cuenta de terceros de masa máxima autorizada superior a 6 toneladas deben llevar una franja oblicua blanca delante y detrás",
+      "after": "Los vehículos de mercancías por cuenta de terceros de masa total a plena carga superior a 6 toneladas deben llevar una franja oblicua blanca delante y detrás",
+      "reason": "Distingue la masa total a plena carga de la masa máxima autorizada."
+    },
+    {
+      "id": "54f3aeb091ac64bc98f36b2895ed7d91ff63c25415e440900af85369d24f0f75",
+      "before": "Ante la señal mostrada se permite el paso de una autocaravana de masa máxima autorizada superior a 3,5 toneladas",
+      "after": "Ante la señal mostrada se permite el paso de una autocaravana de masa a plena carga superior a 3,5 toneladas",
+      "reason": "Distingue la masa a plena carga de la masa máxima autorizada."
+    }
+  ],
+  "reviewed_file_sha256": "5c75b113bdfa1134a620f77b335b4aeba7af391e2802918110d10d8883b47e6c"
+}

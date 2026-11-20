@@ -1,0 +1,25 @@
+{
+  "batch": "147",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "0e50363b7691418ee492cdfbbacea8fc7c615d842c2d20cd025d2f1b699bf64b",
+  "source_sha256": "136682aa773f762d7d77020d34e6d3ec13db21ff974df56ebe8d4789c8713ba2",
+  "corrections": [
+    {
+      "id": "c33aa3faa763f1abc73fd869e3d5584444965677119987f0884704f07f50d7df",
+      "before": "La señal mostrada advierte de la dirección hacia una zona de abastecimiento y descanso para vehículos pesados",
+      "after": "La señal mostrada advierte de la dirección hacia una zona de abastecimiento y estacionamiento para vehículos pesados",
+      "reason": "Sosta indica estacionamiento; descanso cambia el uso de la zona."
+    }
+  ],
+  "reviewed_file_sha256": "8217859de2d32f752df5fbfa7977a532f1976a3e64243324709f0ec5434aaa93"
+}

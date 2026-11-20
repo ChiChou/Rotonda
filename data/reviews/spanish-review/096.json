@@ -1,0 +1,37 @@
+{
+  "batch": "096",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "c84254aa4d4e1692f4c06b6863590d1f48da9082463616ab8508b297f898c8eb",
+  "source_sha256": "3d47d023e44e9614c2bbc993c0a25df06b7448146420e4954374f64b561d062b",
+  "corrections": [
+    {
+      "id": "800fdd7a9f9321af54b91a8f53ef7f74521c31f19614b3b79875c2eef8bf7b0b",
+      "before": "Para contribuir a la calidad del servicio, el conductor de una empresa de transporte por carretera debe comunicar a la empresa cualquier problema que surja durante el servicio",
+      "after": "Para contribuir a la calidad del servicio, el conductor de una empresa de transporte por carretera debe comunicar a la empresa cualquier problema que pueda surgir durante el servicio",
+      "reason": "Se conserva la posibilidad de problemas que puedan surgir, no solo los ya surgidos."
+    },
+    {
+      "id": "80221f54df97f99444e9329702a5edc9b760cc8bb623eac662ca9b0550f62fb3",
+      "before": "La línea transversal continua en el pavimento mostrada en la figura indica el punto donde los conductores deben detenerse por una señal de alto",
+      "after": "La línea transversal continua en el pavimento mostrada en la figura indica el punto donde los conductores deben detenerse ante una señal que obliga a detenerse",
+      "reason": "El original se refiere a cualquier señal de detención, sin limitarla a una señal de ALTO."
+    },
+    {
+      "id": "804e31cf0fb8fc8ccb1743f8c80c68629a8692922d0b2403d159c7f63633165f",
+      "before": "La señal mostrada indica un área de parada para autobuses y trolebuses",
+      "after": "La señal mostrada indica un área de estacionamiento para autobuses y trolebuses",
+      "reason": "Sosta indica estacionamiento de autobuses y trolebuses; parada puede referirse a la breve subida o bajada."
+    }
+  ],
+  "reviewed_file_sha256": "235d0ac0bcfb3c621493e594eb3f7861ee32a69eb54d7ec6141ecb57b9930ef7"
+}

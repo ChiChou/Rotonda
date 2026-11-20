@@ -1,0 +1,61 @@
+{
+  "batch": "006",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "0f0cd4e42aee594e561e9681a5268e3e51d78eb8d91483e22e309a008f6fe003",
+  "source_sha256": "0b132a2ecbed1321d7c31ce0edfccee9b3ec7b3fc333798c576c9bcb7aa31901",
+  "corrections": [
+    {
+      "id": "08abb560fa15aab52b857c55e9f888dd0662d2b2da3dfe214d471aa88f719cf3",
+      "before": "Para circular dentro de la UE, un vehículo que transporta mercancías por cuenta de terceros debe llevar a bordo una copia certificada de la licencia comunitaria",
+      "after": "Para circular dentro de la UE, un vehículo que realiza transporte por cuenta de terceros debe llevar a bordo una copia certificada de la licencia comunitaria",
+      "reason": "El original no limita el transporte por cuenta de terceros al de mercancías."
+    },
+    {
+      "id": "08b075f68d43e1c4dae259d2929f494a74d7ed404deb46a9245f92bff0a7b701",
+      "before": "Según el CMR, durante el transporte el transportista solo es responsable del retraso en la entrega",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), durante el transporte el transportista solo es responsable del retraso en la entrega",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    },
+    {
+      "id": "08bfe29675f75d638d64c5632dd10bef0db5223cf98a12796ded319a15977643",
+      "before": "Según el CMR, la mercancía se considera averiada cuando el cambio o la diferencia en su estado físico se debe a actos del transportista",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), la mercancía se considera averiada cuando el cambio o la diferencia en su estado físico se debe a actos del transportista",
+      "reason": "Restituye el nombre del convenio incluido entre paréntesis en el original."
+    },
+    {
+      "id": "08c95f5efdcb18b4ace1e259583c6eba456df86665d2414c73c1fbd07f934afc",
+      "before": "El freno neumático aprovecha la incomprensibilidad del aire",
+      "after": "El freno neumático aprovecha la incompresibilidad del aire",
+      "reason": "'incomprimibilità' (incompressibility) was rendered as 'incomprensibilidad' (incomprehensibility)"
+    },
+    {
+      "id": "09221195450f42e5aa0aac527167cf7de4bdb488258835c4fbe4cd78000c51f4",
+      "before": "La señal mostrada advierte que la detención y el estacionamiento están prohibidos en el sentido de la flecha",
+      "after": "La señal mostrada advierte que el estacionamiento y el aparcamiento están prohibidos en el sentido de la flecha",
+      "reason": "Sosta y parcheggio se refieren al estacionamiento; no se menciona la detención breve."
+    },
+    {
+      "id": "094eb64d5b5c08b7083ad5a32b889779191dcaffe2e8dd03a599b3bd3ad95340",
+      "before": "La señal mostrada se coloca donde comienza una vía reservada para bicicletas",
+      "after": "La señal mostrada se coloca en una vía reservada para bicicletas",
+      "reason": "El original indica la ubicación de la señal, sin afirmar que esté al comienzo de la vía."
+    },
+    {
+      "id": "094f75c5e85492ecd638370a8123347930921cf49c3372c9bbec1d549b669cf6",
+      "before": "En vías de fuerte pendiente, si el cruce es difícil, el vehículo que sube debe ceder el paso si dispone de un espacio para detenerse",
+      "after": "En vías de fuerte pendiente, si el cruce es difícil, el vehículo que sube debe ceder el paso si dispone de un apartadero",
+      "reason": "Piazzola di sosta designa un apartadero, no cualquier lugar para detenerse."
+    }
+  ],
+  "reviewed_file_sha256": "65050825da9f5e63557bb1c5281d2885405e180f9c024f9fc3d033d7970d87e3"
+}

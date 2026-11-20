@@ -1,0 +1,49 @@
+{
+  "batch": "037",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "e36ecb11d54ba477334900676f341870dee65770a9dab85f9d7a810bbf6a61f9",
+  "source_sha256": "55d659c399b834ee4f0ef1488e6b13839133c94196c233e24646303b2766415f",
+  "corrections": [
+    {
+      "id": "310ac0214b61598ecee2529fea3cbd2342647bcf16b27da50236c23760097e52",
+      "before": "La carta de porte debe contener el nombre del destinatario, destino, naturaleza, peso, cantidad y número de los objetos transportados, y las condiciones de transporte acordadas",
+      "after": "La carta de porte debe contener el nombre del destinatario, destino, naturaleza, peso, cantidad y número de los objetos que se van a transportar, y las condiciones de transporte acordadas",
+      "reason": "Conserva la referencia a los objetos por transportar."
+    },
+    {
+      "id": "312fc090089409dadc50ed31ece901fd33d6a840fea14f169d3e3d01e144d8e0",
+      "before": "El acuerdo ATP sobre transporte internacional de alimentos perecederos se refiere al transporte de mercancías que pueden contaminar el agua",
+      "after": "El acuerdo ATP (acuerdo internacional para el transporte de productos perecederos) se refiere al transporte de mercancías que pueden contaminar el agua",
+      "reason": "Restituye la descripción del acuerdo sin convertirla en requisito adicional."
+    },
+    {
+      "id": "31f67e32a47b3f5dfda68a4a7ee541d3749c926482dba82dd3506b75b35b9ec3",
+      "before": "Según el CMR, el remitente no es responsable si la carta de porte es llenada total o parcialmente por el transportista",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el remitente no es responsable si la carta de porte es llenada total o parcialmente por el transportista",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "322c5eca77283e2084e6eb2d2348948670ad8908ed5a046bd99f9a9e4f4b8301",
+      "before": "Estacionar en espacios reservados para vehículos de personas con discapacidad conlleva, entre otras cosas, la pérdida de puntos de la licencia",
+      "after": "Estacionar en espacios reservados para la parada y el estacionamiento de vehículos de personas con discapacidad conlleva, entre otras cosas, la pérdida de puntos de la licencia",
+      "reason": "Restituye la parada además del estacionamiento en la descripción de los espacios."
+    },
+    {
+      "id": "3262f8700166941270c986311ddbace79f318dfc6a9523dfc60ba03f91d172c3",
+      "before": "En seguridad laboral del sector transporte tienen gran importancia los índices de accidentes graves o mortales",
+      "after": "En seguridad laboral del sector transporte tienen gran importancia los índices de accidentes graves y/o mortales",
+      "reason": "Conserva la expresión y/o del original."
+    }
+  ],
+  "reviewed_file_sha256": "544a5aded1a41e48b02786927cf070110e4ecedb3ef55031d0dd6c6f884c639d"
+}

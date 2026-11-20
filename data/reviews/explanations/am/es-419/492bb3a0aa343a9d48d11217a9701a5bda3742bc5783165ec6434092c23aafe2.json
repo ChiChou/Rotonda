@@ -1,0 +1,607 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 27350,
+          "quesito_id": 5308,
+          "text_it": "In caso di incidente il soccorritore deve allontanarsi velocemente dal luogo dell'incidente",
+          "answer": 0,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e3024ac1df78878119cf7b8e8bb3b2e68c7585a42ef3a493dfd48ca4b1d39654",
+        "localized_text": "En caso de accidente, quien presta auxilio debe alejarse rápidamente del lugar"
+      },
+      {
+        "source": {
+          "number": 27351,
+          "quesito_id": 5308,
+          "text_it": "In caso di incidente il soccorritore deve identificare l'infortunato",
+          "answer": 0,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "521c552e646668797222a64e21c55a315ca1723fa852fd33c975f27889c06184",
+        "localized_text": "En caso de accidente, quien presta auxilio debe identificar a la persona herida"
+      },
+      {
+        "source": {
+          "number": 27352,
+          "quesito_id": 5308,
+          "text_it": "In caso di incidente il soccorritore deve somministrare farmaci",
+          "answer": 0,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e4226c20cd90a0981b989f289e63137b5783cc40ceeee4f0d3d92d59d8a72756",
+        "localized_text": "En caso de accidente, quien presta auxilio debe administrar medicamentos"
+      },
+      {
+        "source": {
+          "number": 27353,
+          "quesito_id": 5309,
+          "text_it": "Soccorrere un infortunato sulla strada è obbligatorio anche per dovere morale",
+          "answer": 1,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b4592a73681f4c87b6e7950ae67533f502b4fb64175bb694c18436231a1f0366",
+        "localized_text": "Auxiliar a una persona lesionada en la vía también es obligatorio por deber moral"
+      },
+      {
+        "source": {
+          "number": 27354,
+          "quesito_id": 5309,
+          "text_it": "Soccorrere un infortunato sulla strada è un obbligo previsto dal codice penale",
+          "answer": 1,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ab5420c414c68dfb762e595063d772a8b2bfb81aabbff8b0ebf0d329978fa291",
+        "localized_text": "Auxiliar a una persona accidentada en la vía es una obligación prevista por el código penal"
+      },
+      {
+        "source": {
+          "number": 27355,
+          "quesito_id": 5309,
+          "text_it": "Soccorrere un infortunato sulla strada è obbligatorio perché così si possono limitare gli effetti negativi dell'incidente",
+          "answer": 1,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "917fc56b64574e88791258967654bacc6c912e1bdd6caf8ccb84a1b3b7d3b3e6",
+        "localized_text": "Auxiliar a una persona lesionada en la vía es obligatorio porque así se pueden limitar los efectos negativos del accidente"
+      },
+      {
+        "source": {
+          "number": 27356,
+          "quesito_id": 5309,
+          "text_it": "Soccorrere un infortunato sulla strada non è obbligatorio",
+          "answer": 0,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "61a5b628f0c51427a48973781f18db019ed1a3203539ac07fe630b47986b23d2",
+        "localized_text": "No es obligatorio socorrer a una persona herida en la vía"
+      },
+      {
+        "source": {
+          "number": 27357,
+          "quesito_id": 5309,
+          "text_it": "Soccorrere un infortunato sulla strada è obbligatorio solo per i medici e il personale sanitario",
+          "answer": 0,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "fabb0fa9c9956f14a57848e6f3d27041207eb1a510c90bd981717863b064f423",
+        "localized_text": "Auxiliar a una persona accidentada en la vía solo es obligatorio para médicos y personal sanitario"
+      },
+      {
+        "source": {
+          "number": 27358,
+          "quesito_id": 5309,
+          "text_it": "Soccorrere un infortunato sulla strada non è obbligatorio, anche per evitare di essere coinvolti",
+          "answer": 0,
+          "page": 151,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "455af7298d788f27da8bc315d347089a4bc6ba9a6084a07d3e4a5c239a9ffd88",
+        "localized_text": "No es obligatorio socorrer a una persona herida en la vía, también para evitar verse involucrado"
+      },
+      {
+        "source": {
+          "number": 27359,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto può provocare eccitazione ed imprudenza",
+          "answer": 1,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ce771bf2434dd3c0e7d26e0aa003d8a9e19a3aae32c0801a924465387b0b9009",
+        "localized_text": "El consumo de alcohol influye en la conducción porque puede provocar excitación e imprudencia"
+      },
+      {
+        "source": {
+          "number": 27360,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto rende più lenti i riflessi",
+          "answer": 1,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c32edfe088236e8400a8a87295b3b37770df39f442839d7cad592c6ce3552583",
+        "localized_text": "El consumo de alcohol influye en la conducción porque hace más lentos los reflejos"
+      },
+      {
+        "source": {
+          "number": 27361,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto può provocare sonnolenza",
+          "answer": 1,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "feea63ce83c44a60cc0e0a29892af1e9884e0f65c4431579324eaeb85a473226",
+        "localized_text": "El consumo de alcohol influye en la conducción porque puede causar somnolencia"
+      },
+      {
+        "source": {
+          "number": 27362,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto riduce la capacità di concentrazione",
+          "answer": 1,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a50a3f4a9779732c00366cbd6689863e95cc9b7b3398f722ec650f4c2f55b81b",
+        "localized_text": "El consumo de alcohol influye en la conducción porque reduce la capacidad de concentración"
+      },
+      {
+        "source": {
+          "number": 27363,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto diminuisce il livello di attenzione",
+          "answer": 1,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7fe019d0ff91a3f33f36fb4a7c22a30cce0542a1f92879c43ab6e4766eb429a3",
+        "localized_text": "El consumo de alcohol influye en la conducción porque disminuye el nivel de atención"
+      },
+      {
+        "source": {
+          "number": 27364,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto annulla la stanchezza",
+          "answer": 0,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "873487c9099451be8dd650a7cdc13e516272a0a5786dbe2c4c598d41a08b4805",
+        "localized_text": "El consumo de alcohol influye en la conducción porque elimina el cansancio"
+      },
+      {
+        "source": {
+          "number": 27365,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto aumenta la capacità di concentrazione",
+          "answer": 0,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "cc0e6353735ad3e1c9c35bfa9bf817cf682eada203c5cae83c00cd3f3875cd16",
+        "localized_text": "El consumo de alcohol influye en la conducción porque aumenta la capacidad de concentración"
+      },
+      {
+        "source": {
+          "number": 27366,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto rende più vigili e attenti",
+          "answer": 0,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "2bb82e528e9d48fbad025a47f8819cae9c4482bc5f7ac190bb6a0398d1a2a304",
+        "localized_text": "El consumo de alcohol influye en la conducción porque hace que la persona esté más alerta y atenta"
+      },
+      {
+        "source": {
+          "number": 27367,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto la rende più sportiva e meno noiosa",
+          "answer": 0,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b8ab8381530e12899b751ef7225e9eed8d85546846afa7e81206b6305e8988c3",
+        "localized_text": "El consumo de alcohol influye en la conducción al hacerla más deportiva y menos aburrida"
+      },
+      {
+        "source": {
+          "number": 27368,
+          "quesito_id": 5310,
+          "text_it": "L'assunzione di alcool influenza la guida in quanto migliora la capacità visiva",
+          "answer": 0,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7538bbee30b999154cda89fd405d3ca4e77afe5b124ab06626068122ca239650",
+        "localized_text": "El consumo de alcohol influye en la conducción porque mejora la capacidad visual"
+      },
+      {
+        "source": {
+          "number": 27369,
+          "quesito_id": 5311,
+          "text_it": "Lo stato di ebbrezza durante la guida provoca pericolo grave per la circolazione",
+          "answer": 1,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4723886664eede3a0fc9669079374f68064bc230250ca3a1a2cabf504173f14d",
+        "localized_text": "Conducir en estado de ebriedad provoca un peligro grave para la circulación"
+      },
+      {
+        "source": {
+          "number": 27370,
+          "quesito_id": 5311,
+          "text_it": "Lo stato di ebbrezza durante la guida è punito con l'arresto e con il pagamento di una somma in denaro",
+          "answer": 1,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "3c90ab8620b140230ffba3be83c920443585914eb35c2c3d2e63ad470d96c741",
+        "localized_text": "Conducir en estado de ebriedad se castiga con arresto y el pago de una suma de dinero"
+      },
+      {
+        "source": {
+          "number": 27371,
+          "quesito_id": 5311,
+          "text_it": "Lo stato di ebbrezza durante la guida può essere accertato con alcooltest, al quale è obbligatorio sottoporsi",
+          "answer": 1,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "1aad1dc281c0c5d8db827b72c13d8d6786519c0f4b34b7b20fc3263c9e2576ac",
+        "localized_text": "El estado de ebriedad durante la conducción puede comprobarse mediante una prueba de alcoholemia, a la que es obligatorio someterse"
+      },
+      {
+        "source": {
+          "number": 27372,
+          "quesito_id": 5311,
+          "text_it": "Lo stato di ebbrezza durante la guida è vietato solo nel fine settimana",
+          "answer": 0,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "398013e3e6d4f2a5f92f8c52eb3cddc70034468ea5dca8488eea610f73707a9b",
+        "localized_text": "Conducir en estado de ebriedad está prohibido solo los fines de semana"
+      },
+      {
+        "source": {
+          "number": 27373,
+          "quesito_id": 5311,
+          "text_it": "Lo stato di ebbrezza durante la guida è consentito in assenza di passeggero",
+          "answer": 0,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "0d57e9545c10d3305c8f1b7349469aa7e197b29e0a50c1b94e768eec023f56db",
+        "localized_text": "Se permite conducir en estado de ebriedad si no hay pasajero"
+      },
+      {
+        "source": {
+          "number": 27374,
+          "quesito_id": 5311,
+          "text_it": "Lo stato di ebbrezza durante la guida è consentito se si circola a velocità moderata",
+          "answer": 0,
+          "page": 152,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "20f1a2e7c8d0683f3e0b11aba8a876a07b0c4f66ee1f84bcf7492f90e01253e8",
+        "localized_text": "Se permite conducir en estado de ebriedad si se circula a velocidad moderada"
+      }
+    ],
+    "task_sha256": "492bb3a0aa343a9d48d11217a9701a5bda3742bc5783165ec6434092c23aafe2"
+  },
+  "rows": [
+    {
+      "number": 27350,
+      "text": "No se debe abandonar el lugar sin ayudar: hay que llamar a emergencias y asistir a la persona de forma segura, siguiendo las indicaciones del operador.",
+      "evidence": [
+        "Ministero della Salute, Il numero 118 e il numero 112, https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/ : chiamata, informazioni e assistenza in attesa dei soccorsi; non fare assumere farmaci.",
+        "Codice penale art. 593, secondo comma, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&tipoDettaglio=originario : chi trova un ferito deve prestare assistenza occorrente o avvertire subito l’autorità."
+      ]
+    },
+    {
+      "number": 27351,
+      "text": "Conocer el nombre de la persona herida no es condición para ayudarla: hay que llamar a emergencias e indicar el lugar y su estado en la medida en que se conozcan.",
+      "evidence": [
+        "Ministero della Salute, Il numero 118 e il numero 112, https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/ : chiamata, informazioni e assistenza in attesa dei soccorsi; non fare assumere farmaci."
+      ]
+    },
+    {
+      "number": 27352,
+      "text": "Quien presta auxilio no debe dar medicamentos: debe llamar a emergencias y seguir las indicaciones del operador.",
+      "evidence": [
+        "Ministero della Salute, Il numero 118 e il numero 112, https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/ : chiamata, informazioni e assistenza in attesa dei soccorsi; non fare assumere farmaci."
+      ]
+    },
+    {
+      "number": 27353,
+      "text": "Ayudar a una persona herida es un deber de solidaridad además de una obligación legal: avisar de inmediato a la autoridad también es una forma de ayuda prevista por la ley.",
+      "evidence": [
+        "Codice penale art. 593, secondo comma, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&tipoDettaglio=originario : chi trova un ferito deve prestare assistenza occorrente o avvertire subito l’autorità."
+      ]
+    },
+    {
+      "number": 27354,
+      "text": "El artículo 593 del Código Penal establece que quien encuentra a una persona herida debe prestar la asistencia necesaria o avisar de inmediato a la autoridad.",
+      "evidence": [
+        "Codice penale art. 593, secondo comma, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&tipoDettaglio=originario : chi trova un ferito deve prestare assistenza occorrente o avvertire subito l’autorità."
+      ]
+    },
+    {
+      "number": 27355,
+      "text": "La asistencia y la llamada rápida a emergencias pueden evitar que la situación empeore y favorecer una atención oportuna; la ley exige la asistencia necesaria o el aviso inmediato a la autoridad.",
+      "evidence": [
+        "Ministero della Salute, Il numero 118 e il numero 112, https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/ : chiamata, informazioni e assistenza in attesa dei soccorsi; non fare assumere farmaci.",
+        "Codice penale art. 593, secondo comma, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&tipoDettaglio=originario : chi trova un ferito deve prestare assistenza occorrente o avvertire subito l’autorità."
+      ]
+    },
+    {
+      "number": 27356,
+      "text": "Prestar auxilio es obligatorio: quien encuentra a una persona herida debe prestar la asistencia necesaria o avisar de inmediato a la autoridad.",
+      "evidence": [
+        "Codice penale art. 593, secondo comma, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&tipoDettaglio=originario : chi trova un ferito deve prestare assistenza occorrente o avvertire subito l’autorità."
+      ]
+    },
+    {
+      "number": 27357,
+      "text": "La obligación no se limita al personal sanitario: quien encuentre a una persona herida debe prestar la asistencia necesaria o avisar de inmediato a la autoridad.",
+      "evidence": [
+        "Codice penale art. 593, secondo comma, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&tipoDettaglio=originario : chi trova un ferito deve prestare assistenza occorrente o avvertire subito l’autorità."
+      ]
+    },
+    {
+      "number": 27358,
+      "text": "El temor a verse involucrado no elimina la obligación: quien encuentre a una persona herida debe prestar la asistencia necesaria o avisar de inmediato a la autoridad.",
+      "evidence": [
+        "Codice penale art. 593, secondo comma, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&tipoDettaglio=originario : chi trova un ferito deve prestare assistenza occorrente o avvertire subito l’autorità."
+      ]
+    },
+    {
+      "number": 27359,
+      "text": "El alcohol puede reducir las inhibiciones y la percepción del riesgo y provocar excitación, por lo que el conductor puede actuar imprudentemente.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27360,
+      "text": "El alcohol puede hacer más lentos los reflejos y las reacciones, dificultando reconocer un peligro y reaccionar al conducir.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27361,
+      "text": "El alcohol puede causar somnolencia y reducir la vigilancia necesaria para seguir la vía.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27362,
+      "text": "El alcohol puede reducir la atención y el control, lo que dificulta concentrarse en las situaciones de conducción.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27363,
+      "text": "El alcohol puede disminuir la vigilancia y la atención, dificultando percibir a tiempo lo que ocurre en la vía.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27364,
+      "text": "El alcohol no elimina el cansancio: puede, en cambio, provocar somnolencia y reducir la vigilancia.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27365,
+      "text": "El alcohol no mejora la concentración: puede reducir la atención y el control necesarios para conducir.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27366,
+      "text": "El alcohol no hace que se esté más alerta y atento: puede reducir la vigilancia y la atención incluso cuando uno se siente desinhibido.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27367,
+      "text": "La sensación de desinhibición no mejora la conducción: el alcohol puede reducir la percepción del riesgo y favorecer conductas imprudentes.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27368,
+      "text": "El alcohol no mejora la vista: puede reducir la visión lateral y dificultar la percepción de lo que ocurre a los lados.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27369,
+      "text": "La embriaguez afecta la atención, el juicio y los reflejos: el conductor puede no reconocer o afrontar a tiempo un peligro para sí mismo y para los demás.",
+      "evidence": [
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27370,
+      "text": "Está prohibido conducir en estado de embriaguez. Las sanciones varían según el nivel de alcohol en sangre: en los rangos más altos se prevén juntos multa y arresto; en el rango inferior se prevé una sanción administrativa.",
+      "evidence": [
+        "Codice della strada art. 186 commi 1-2, 3-4 e 7, https://www.aci.it/fileadmin/cds/art-186.php : divieto di guida in stato di ebbrezza; sanzioni graduate, accertamento e rifiuto."
+      ]
+    },
+    {
+      "number": 27371,
+      "text": "La policía puede medir el nivel de alcohol con instrumentos adecuados en los casos previstos; negarse a la prueba está sancionado por la ley.",
+      "evidence": [
+        "Codice della strada art. 186 commi 1-2, 3-4 e 7, https://www.aci.it/fileadmin/cds/art-186.php : divieto di guida in stato di ebbrezza; sanzioni graduate, accertamento e rifiuto."
+      ]
+    },
+    {
+      "number": 27372,
+      "text": "La prohibición de conducir en estado de embriaguez se aplica todos los días, no solo los fines de semana.",
+      "evidence": [
+        "Codice della strada art. 186 commi 1-2, 3-4 e 7, https://www.aci.it/fileadmin/cds/art-186.php : divieto di guida in stato di ebbrezza; sanzioni graduate, accertamento e rifiuto."
+      ]
+    },
+    {
+      "number": 27373,
+      "text": "La prohibición de conducir en estado de embriaguez también se aplica sin pasajeros: su ausencia no elimina el peligro para la circulación.",
+      "evidence": [
+        "Codice della strada art. 186 commi 1-2, 3-4 e 7, https://www.aci.it/fileadmin/cds/art-186.php : divieto di guida in stato di ebbrezza; sanzioni graduate, accertamento e rifiuto.",
+        "Ministero della Salute, tabella descrittiva dei sintomi correlati ai livelli di concentrazione alcolica, https://www.salute.gov.it/imgs/C_17_newsAree_463_listaFile_itemName_4_file.pdf : disinibizione, attenzione, riflessi, visione, sonnolenza ed eccitazione; effetti variabili."
+      ]
+    },
+    {
+      "number": 27374,
+      "text": "Circular a velocidad moderada no autoriza a conducir en estado de embriaguez: la prohibición sigue vigente.",
+      "evidence": [
+        "Codice della strada art. 186 commi 1-2, 3-4 e 7, https://www.aci.it/fileadmin/cds/art-186.php : divieto di guida in stato di ebbrezza; sanzioni graduate, accertamento e rifiuto."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "492bb3a0aa343a9d48d11217a9701a5bda3742bc5783165ec6434092c23aafe2",
+    "output_sha256": "1a390ecbfe1ec8775553fed7f4e501b80ac28fd127b2d02ee4d1d9880e28851a",
+    "author": "gpt-6.1-terra / 01a1ea54-06b3-7771-9230-e2aa922a6a21",
+    "reviewer": "gpt-6.1-terra / 01a1ea55-b69e-73c1-8725-ec168fa79560",
+    "status": "accepted",
+    "checked_numbers": [
+      27350,
+      27351,
+      27352,
+      27353,
+      27354,
+      27355,
+      27356,
+      27357,
+      27358,
+      27359,
+      27360,
+      27361,
+      27362,
+      27363,
+      27364,
+      27365,
+      27366,
+      27367,
+      27368,
+      27369,
+      27370,
+      27371,
+      27372,
+      27373,
+      27374
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "806e58a1c47a72abcccf803f2ce1c08186c38409043b9909c3d2a2942080b42e",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "43b95ff2a71dd8d47bf1b800f0ecdb0bfa8c34cc13cd191eef65fc20a26f10f7",
+        "attached_image_paths": [],
+        "attached_image_sha256": []
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1ea54-06b3-7771-9230-e2aa922a6a21",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "806e58a1c47a72abcccf803f2ce1c08186c38409043b9909c3d2a2942080b42e",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": []
+  }
+}

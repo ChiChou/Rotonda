@@ -1,0 +1,671 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31524,
+          "quesito_id": 7030,
+          "text_it": "Su strade a forte pendenza, in caso di incrocio malagevole, il veicolo che procede in salita, se dispone di una piazzola di sosta, ha la precedenza",
+          "answer": 0,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "15bc5160801f9bf898b616bfe837ec70c4ab55bb8b459ca0e1a340367dd32354",
+        "localized_text": "En vías de pendiente pronunciada, si el cruce es difícil, el vehículo que sube tiene prioridad si dispone de un apartadero"
+      },
+      {
+        "source": {
+          "number": 31525,
+          "quesito_id": 7030,
+          "text_it": "Se sulle strade di montagna l'incrocio tra un veicolo di m.m.c. inferiore a 3,5 t con altro di m.m.c. superiore a 3,5 t è malagevole, la retromarcia deve essere effettuata dal veicolo più leggero",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "603ec9bd398ad96aea311dda047e660977dd4b7c7ddacc3cfb9839cb04ed5d02",
+        "localized_text": "Si en una carretera de montaña es difícil el cruce entre un vehículo de masa máxima autorizada inferior a 3,5 t y otro de masa máxima autorizada superior a 3,5 t, el vehículo más ligero debe dar marcha atrás"
+      },
+      {
+        "source": {
+          "number": 31526,
+          "quesito_id": 7030,
+          "text_it": "Se un autotreno ed un autobus si incrociano su una strada in pendenza dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia compete all'autobus",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5554a4094d4254113dd714777c042d6a95e3d143ab693f93a04291748cba14cb",
+        "localized_text": "Si un camión con remolque y un autobús se cruzan en una vía con pendiente donde no pueden pasar simultáneamente, la maniobra de reversa corresponde al autobús"
+      },
+      {
+        "source": {
+          "number": 31527,
+          "quesito_id": 7030,
+          "text_it": "Se un autocarro o un autobus si incrociano su strade di montagna dove non sia possibile il loro transito contemporaneo, l'eventuale manovra di retromarcia compete all'autocarro",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "84f636cd07a57af888059e55f7a440432e92407c0056489163101e9fad3a7d60",
+        "localized_text": "Si un camión y un autobús se cruzan en una carretera de montaña donde no pueden pasar simultáneamente, la eventual maniobra de reversa corresponde al camión"
+      },
+      {
+        "source": {
+          "number": 31528,
+          "quesito_id": 7030,
+          "text_it": "Se due autobus si incrociano su strade a forte pendenza, dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia, se necessaria, compete al veicolo che procede in discesa",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "62dccd2b01b74bfcf13b1106d0ad865fa293b2d0f7526c7806af9ecb9618ca37",
+        "localized_text": "Si dos autobuses se cruzan en una vía de pendiente pronunciada donde no pueden pasar al mismo tiempo, la maniobra en reversa, si es necesaria, corresponde al vehículo que baja"
+      },
+      {
+        "source": {
+          "number": 31529,
+          "quesito_id": 7031,
+          "text_it": "Se un'autovettura e un autotreno si incrociano su strade di montagna dove non sia possibile il loro transito contemporaneo, l'eventuale manovra di retromarcia compete all'autovettura",
+          "answer": 1,
+          "page": 14,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "513574d315a85256696b4c2b4720658afc52f37f01095053b786700740682f44",
+        "localized_text": "Si un automóvil y un conjunto de vehículo y remolque se cruzan en una vía de montaña donde no pueden pasar al mismo tiempo, la eventual maniobra de marcha atrás corresponde al automóvil"
+      },
+      {
+        "source": {
+          "number": 31530,
+          "quesito_id": 7031,
+          "text_it": "Se due autobus si incrociano su strade forte pendenza, dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia, se necessaria, compete al veicolo che procede in salita",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b944e9c99d7462f303f57a68e76625f82bd1a39d2c3a13bc33e2b88b9455fa9f",
+        "localized_text": "Si dos autobuses se cruzan en vías de pendiente pronunciada donde no pueden pasar al mismo tiempo, la maniobra de marcha atrás, si es necesaria, corresponde al vehículo que sube"
+      },
+      {
+        "source": {
+          "number": 31531,
+          "quesito_id": 7031,
+          "text_it": "Se due autobus si incrociano su strade a forte pendenza, dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia, se necessaria, compete al veicolo che lo ritiene opportuno",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e1d1bc4bf3205fa37c6a66d3b047977a522a82aef366fccf515eeec6fba91f5b",
+        "localized_text": "Si dos autobuses se cruzan en vías de pendiente pronunciada donde no pueden pasar al mismo tiempo, la maniobra de marcha atrás, si es necesaria, corresponde al vehículo que lo considere conveniente"
+      },
+      {
+        "source": {
+          "number": 31532,
+          "quesito_id": 7031,
+          "text_it": "Se sulle strade di montagna l'incrocio tra un veicolo di massa massima complessiva è inferiore al 3,5 t con altro di massa massima complessiva superiore a 3,5 t sia malagevole, la retromarcia deve essere effettuata dal veicolo più pesante",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7f9346dfb8c16b413f6ba74b18f143c85cf7254045189c4edd11e0e1bfd4a0c3",
+        "localized_text": "Si en una carretera de montaña es difícil el cruce entre un vehículo de masa máxima inferior a 3,5 t y otro superior a 3,5 t, el más pesado debe dar marcha atrás"
+      },
+      {
+        "source": {
+          "number": 31533,
+          "quesito_id": 7031,
+          "text_it": "Se un'autovettura e un autotreno si incrociano su strade di montagna dove non sia possibile il loro transito contemporaneo, l'eventuale manovra di retromarcia compete all'autotreno",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a350d134e3dbc58b91e50aecae69f42015208bd8b365d59f3153bbd6190300ed",
+        "localized_text": "Si un automóvil y un camión con remolque se cruzan en una carretera de montaña donde no pueden pasar al mismo tiempo, la eventual maniobra de reversa corresponde al camión con remolque"
+      },
+      {
+        "source": {
+          "number": 31534,
+          "quesito_id": 7031,
+          "text_it": "Se un autotreno ed un autobus si incrociano su una strada in pendenza dove non sia possibile il loro transito contemporaneo, la manovra di retromarcia compete all'autotreno",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8b4b9e75290cd2f07784ee479be23e88fd74cdd236e999c90a1816b80024108c",
+        "localized_text": "Si un camión con remolque y un autobús se cruzan en una vía con pendiente donde no pueden pasar simultáneamente, la maniobra de reversa corresponde al camión con remolque"
+      },
+      {
+        "source": {
+          "number": 31535,
+          "quesito_id": 7031,
+          "text_it": "Se un autocarro o un autobus si incrociano su strade di montagna dove non sia possibile il loro transito contemporaneo, l'eventuale manovra di retromarcia compete all'autobus",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f09acdeaf82e45fc9f8f3a152b5b56b259b2410538d108beffa6be11a761e74e",
+        "localized_text": "Si un camión y un autobús se cruzan en una carretera de montaña donde no pueden pasar simultáneamente, la eventual maniobra de reversa corresponde al autobús"
+      },
+      {
+        "source": {
+          "number": 31536,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di incidente stradale conviene allontanarsi per non farsi identificare",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d4291b7dd4b2c0e16d7dff9c55f8ce5a901f867b09bfdf483e541be1b6f07986",
+        "localized_text": "En caso de accidente de tránsito conviene alejarse para no ser identificado"
+      },
+      {
+        "source": {
+          "number": 31537,
+          "quesito_id": 7032,
+          "text_it": "Il conducente deve prestare il soccorso solo ai passeggeri infortunati del proprio autoveicolo",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c68ac590e39ed606641fb0288c8b5c6e5accced5772f890c781f08904a4943ff",
+        "localized_text": "El conductor debe prestar auxilio solo a los pasajeros heridos de su propio vehículo"
+      },
+      {
+        "source": {
+          "number": 31538,
+          "quesito_id": 7032,
+          "text_it": "È sempre necessario soccorrere un infortunato della strada",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "e20efd5e5cee9c0c1ec28d12ba495fb3f4fc703bac48e526bebcd77381bfccd8",
+        "localized_text": "Siempre es necesario auxiliar a una persona lesionada en la vía"
+      },
+      {
+        "source": {
+          "number": 31539,
+          "quesito_id": 7032,
+          "text_it": "In caso di grosse perdite di materie pericolose occorre avvisare l'autorità fornendo tutte le indicazioni possibili sulla materia fuoriuscita",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fffaf14e3ec2db2379b2dc5f577b5138be09e526276e8c47b6fd37fa085be602",
+        "localized_text": "En caso de grandes derrames de materiales peligrosos hay que avisar a la autoridad y proporcionar toda la información posible sobre la sustancia derramada"
+      },
+      {
+        "source": {
+          "number": 31540,
+          "quesito_id": 7032,
+          "text_it": "Negli incidenti stradali una situazione può essere di emergenza anche se non vi sono feriti",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3e47b8a4f39fbfc089dcfe79328b88003745f930069e9ad949c5e793f18ba4cd",
+        "localized_text": "En los accidentes de tránsito puede haber una emergencia aunque no haya heridos"
+      },
+      {
+        "source": {
+          "number": 31541,
+          "quesito_id": 7032,
+          "text_it": "Una delle cose da fare in situazioni di emergenza e di cercare di evitare che altri conducenti vengano coinvolti",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4d8c57706370c12eabef6c1f0601478414c2e7ef0580d3075a5dc1b7b14b4c43",
+        "localized_text": "Una de las acciones que deben tomarse en una emergencia es tratar de evitar que otros conductores resulten involucrados"
+      },
+      {
+        "source": {
+          "number": 31542,
+          "quesito_id": 7032,
+          "text_it": "L'unica eccezione all'obbligo di soccorrere un infortunato è costituita dalle cause di forza maggiore",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "fcd4e268f2d5a8449b8a1ff3dd044c2b77b42e926197538065ccf9855b3b1f02",
+        "localized_text": "La única excepción a la obligación de socorrer a una persona herida son las causas de fuerza mayor"
+      },
+      {
+        "source": {
+          "number": 31543,
+          "quesito_id": 7032,
+          "text_it": "L'autorità deve essere avvisata se la caduta di materiale sulla strada è avvenuta di notte e non se è avvenuta di giorno",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ec9585969b48152acf7fccd83673d3581b78868c5734f00df41c883b67aab919",
+        "localized_text": "Debe avisarse a la autoridad si la caída de material en la vía ocurrió de noche, pero no si ocurrió de día"
+      },
+      {
+        "source": {
+          "number": 31544,
+          "quesito_id": 7032,
+          "text_it": "Una situazione è considerata di emergenza solo quando l'incidente stradale ha provocato più di due feriti",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c101a8520199b66a5143155a4ed1f00b6f058ac3820a0a3955a0335bf340219c",
+        "localized_text": "Una situación se considera de emergencia solo cuando el accidente de tránsito ha causado más de dos heridos"
+      },
+      {
+        "source": {
+          "number": 31545,
+          "quesito_id": 7032,
+          "text_it": "In situazioni di emergenza, nel caso di elevato valore del veicolo o della merce trasportata, il conducente può occuparsi prima delle cose e dopo dei feriti",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "db360e4c9bf1abed68efa4367aac415c5c95c02dc81f2fa7da3bc492f65027d9",
+        "localized_text": "En una emergencia, si el vehículo o la mercancía transportada tienen un valor elevado, el conductor puede ocuparse primero de los bienes y después de los heridos"
+      },
+      {
+        "source": {
+          "number": 31546,
+          "quesito_id": 7032,
+          "text_it": "Può fornire il primo soccorso a un infortunato solo chi abbia frequentato un corso da soccorritore e abbia superato il relativo esame",
+          "answer": 0,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d242fe3ae08d6ec3668af435596e2e913c146a91e962ad8f47c58bf6ce2b53d0",
+        "localized_text": "Solo puede prestar primeros auxilios a una persona lesionada quien haya realizado un curso de socorrista y aprobado el examen correspondiente"
+      },
+      {
+        "source": {
+          "number": 31547,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di incidente stradale il conducente deve prima di tutto assicurarsi della propria incolumità",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0d46cd493eeea2324f18d181ff3e5c4a7e84f878dcaedd506488b35bece58801",
+        "localized_text": "En caso de accidente de tránsito, el conductor debe ante todo asegurarse de su propia seguridad"
+      },
+      {
+        "source": {
+          "number": 31548,
+          "quesito_id": 7032,
+          "text_it": "Nel caso di infortunio o malore non si debbono somministrare bevande al soggetto in stato di incoscienza",
+          "answer": 1,
+          "page": 15,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4d1e1407312ea146e1d0adbc9261f877270c164dcfd4082b6666fc3e6c833c5f",
+        "localized_text": "En caso de accidente o malestar no se deben dar bebidas a una persona inconsciente"
+      }
+    ],
+    "task_sha256": "4a4514e78bdf41548703edda00790679dc952410c36d5952ff5d4dee7404e59e"
+  },
+  "rows": [
+    {
+      "number": 31524,
+      "text": "Quien sube debe detenerse en el apartadero si, sin usarlo, la estrechez obligaría a retroceder.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31525,
+      "text": "Cuando es necesario retroceder, el vehículo de hasta 3,5 toneladas normalmente cede el paso al de más de 3,5 toneladas. También debe considerarse por separado la prioridad de los conjuntos de vehículos sobre las demás categorías.",
+      "evidence": [
+        "Codice della strada art. 150(3), https://aci.gov.it/codice-della-strada/art-150/ — hierarchy when reversing is necessary separately gives vehicle combinations priority over other categories; lighter vehicles up to 3.5 t yield to those above 3.5 t."
+      ]
+    },
+    {
+      "number": 31526,
+      "text": "Cuando es necesario retroceder, el conjunto de vehículos tiene prioridad sobre los demás, por lo que retrocede el autobús.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31527,
+      "text": "Cuando es necesario retroceder, el autobús tiene prioridad sobre el camión, que debe retroceder.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31528,
+      "text": "Entre vehículos de la misma categoría, normalmente retrocede el que baja, salvo que sea manifiestamente más fácil para el que sube.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31529,
+      "text": "Cuando es necesario retroceder, el conjunto de vehículos tiene prioridad, por lo que retrocede el auto.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31530,
+      "text": "Entre vehículos de la misma categoría, normalmente retrocede el que baja, no el que sube; hay una excepción si para este último es manifiestamente más fácil.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31531,
+      "text": "No es una elección arbitraria: entre vehículos de la misma categoría normalmente retrocede el que baja, salvo que sea manifiestamente más fácil para el que sube.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31532,
+      "text": "Cuando es necesario retroceder, el vehículo de hasta 3,5 toneladas normalmente cede el paso al de más de 3,5 toneladas. También debe considerarse por separado la prioridad de los conjuntos de vehículos sobre las demás categorías.",
+      "evidence": [
+        "Codice della strada art. 150(3), https://aci.gov.it/codice-della-strada/art-150/ — hierarchy when reversing is necessary separately gives vehicle combinations priority over other categories; lighter vehicles up to 3.5 t yield to those above 3.5 t."
+      ]
+    },
+    {
+      "number": 31533,
+      "text": "Cuando es necesario, retrocede el auto: el conjunto de vehículos tiene prioridad sobre los demás.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31534,
+      "text": "Cuando es necesario, retrocede el autobús: el conjunto de vehículos tiene prioridad sobre los demás.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31535,
+      "text": "Cuando es necesario, retrocede el camión: el autobús tiene prioridad sobre él.",
+      "evidence": [
+        "Codice della strada, art. 150, commi 2–3, https://aci.gov.it/codice-della-strada/art-150/ : piazzola e precedenze nella retromarcia, con eccezione per manovra in salita manifestamente più agevole."
+      ]
+    },
+    {
+      "number": 31536,
+      "text": "Quien participa en un accidente relacionado con su conducta debe detenerse y proporcionar sus datos, además de la asistencia necesaria.",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità."
+      ]
+    },
+    {
+      "number": 31537,
+      "text": "La asistencia necesaria corresponde a las personas lesionadas, no solo a los pasajeros del propio vehículo.",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità."
+      ]
+    },
+    {
+      "number": 31538,
+      "text": "Una persona lesionada necesita ayuda: quien la encuentra debe prestar la asistencia necesaria o avisar de inmediato a la autoridad.",
+      "evidence": [
+        "Codice penale art. 593, Gazzetta ufficiale, legge 9 aprile 2003 n. 72, nota all’art. 1: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&atto.tipoProvvedimento=LEGGE — finder of injured person provides necessary assistance or immediately informs authority; historical text cited for duty, not current penalties."
+      ]
+    },
+    {
+      "number": 31539,
+      "text": "Los servicios de emergencia necesitan conocer la sustancia para elegir medidas adecuadas; durante un transporte ADR hay que darles todos los datos disponibles cuando sea posible y seguro.",
+      "evidence": [
+        "United Nations ADR 2025 vol. II, §5.4.3.4, printed p. 274, https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf — written instructions for an accident or emergency while carrying dangerous goods: notify appropriate emergency services with information about incident and substances, warn others and move away; inspected indexed full text and local exact PDF /tmp/rotonda-adr-2025-vol-ii.pdf."
+      ]
+    },
+    {
+      "number": 31540,
+      "text": "Incluso sin lesionados, un derrame de mercancías peligrosas puede crear una emergencia y requerir la intervención de los servicios de emergencia.",
+      "evidence": [
+        "United Nations ADR 2025 vol. II, §5.4.3.4, printed p. 274, https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf — written instructions for an accident or emergency while carrying dangerous goods: notify appropriate emergency services with information about incident and substances, warn others and move away; inspected indexed full text and local exact PDF /tmp/rotonda-adr-2025-vol-ii.pdf."
+      ]
+    },
+    {
+      "number": 31541,
+      "text": "Señalar el peligro y asegurar la circulación ayuda a prevenir otros accidentes, dentro de lo que se pueda hacer con seguridad.",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità.",
+        "Codice della strada, art. 161, commi 1–3, https://aci.gov.it/codice-della-strada/art-161/ : ingombro, segnalazione e avviso a ente proprietario o polizia.",
+        "Croce Rossa Italiana, regole di base del primo soccorso, https://cri.it/cosa-facciamo/salute/primo-soccorso/pillole-di-primo-soccorso/ : valutare sicurezza della scena e chiamare soccorsi."
+      ]
+    },
+    {
+      "number": 31542,
+      "text": "El cuestionario la marca VERDADERA, pero la fuerza mayor no agota todas las posibles causas jurídicas que excluyen la responsabilidad. Quien participe en un accidente vinculado con su conducta debe detenerse y prestar ayuda. Si un impedimento real impide intervenir directamente, llama a emergencias cuando sea posible y seguro.",
+      "evidence": [
+        "Official CQC question 31542, source PDF, printed VERO: says force majeure is the sole exception; the quiz does not identify a specific impediment.",
+        "Codice della strada art. 189(1), https://aci.gov.it/codice-della-strada/art-189/ — stop and assist persons injured when the accident is attributable to one’s conduct. Genuine inability to approach does not by itself make an available safe emergency call unnecessary.",
+        "Codice penale art. 54, government legal database: https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+54&codiceOrdinamento=0000000000000540000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B2B29384C-338C-4788-98D2-5AB09937FE07%7D — verified exact one-page PDF /tmp/rotonda-criminal-54.pdf, SHA-256 fe2f4aa31520ea46cb7bdb22b8fb90d9987add4c4154f640f3ec2a671b1fa4c1. Necessity requires present serious danger to a person, not voluntarily caused or otherwise avoidable, and proportionality, with a special-duty exception; applicability depends on facts. Previous 1998 Gazzetta citation was based on indexed extraction whose page in the downloaded file could not be confirmed; it is withdrawn."
+      ]
+    },
+    {
+      "number": 31543,
+      "text": "Hay que señalar el peligro o la obstrucción e informar al organismo responsable de la vía o a la policía: la regla no depende de la hora.",
+      "evidence": [
+        "Codice della strada, art. 161, commi 1–3, https://aci.gov.it/codice-della-strada/art-161/ : ingombro, segnalazione e avviso a ente proprietario o polizia."
+      ]
+    },
+    {
+      "number": 31544,
+      "text": "No hay un número mínimo de lesionados: incluso un derrame de mercancías peligrosas sin heridos puede requerir una respuesta de emergencia.",
+      "evidence": [
+        "United Nations ADR 2025 vol. II, §5.4.3.4, printed p. 274, https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf — written instructions for an accident or emergency while carrying dangerous goods: notify appropriate emergency services with information about incident and substances, warn others and move away; inspected indexed full text and local exact PDF /tmp/rotonda-adr-2025-vol-ii.pdf."
+      ]
+    },
+    {
+      "number": 31545,
+      "text": "El valor de los bienes no elimina el deber de prestar la asistencia necesaria a los lesionados en un accidente relacionado con la propia conducta.",
+      "evidence": [
+        "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità."
+      ]
+    },
+    {
+      "number": 31546,
+      "text": "No hace falta haber aprobado un curso para ayudar: quien encuentra a una persona lesionada puede prestar la asistencia necesaria o avisar de inmediato a la autoridad.",
+      "evidence": [
+        "Codice penale art. 593, Gazzetta ufficiale, legge 9 aprile 2003 n. 72, nota all’art. 1: https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15&atto.tipoProvvedimento=LEGGE — finder of injured person provides necessary assistance or immediately informs authority; historical text cited for duty, not current penalties."
+      ]
+    },
+    {
+      "number": 31547,
+      "text": "Antes de intervenir hay que evaluar la seguridad del lugar: exponerse al peligro puede causar más víctimas y dificultar el rescate.",
+      "evidence": [
+        "Croce Rossa Italiana, regole di base del primo soccorso, https://cri.it/cosa-facciamo/salute/primo-soccorso/pillole-di-primo-soccorso/ : valutare sicurezza della scena e chiamare soccorsi."
+      ]
+    },
+    {
+      "number": 31548,
+      "text": "No des de beber a una persona inconsciente: el líquido puede entrar en las vías respiratorias.",
+      "evidence": [
+        "South Tees Hospitals NHS Foundation Trust, Hypoglycaemia, https://www.southtees.nhs.uk/resources/hypoglycaemia-hypo/ : non somministrare cibo o bevande a chi è incosciente."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "4a4514e78bdf41548703edda00790679dc952410c36d5952ff5d4dee7404e59e",
+    "output_sha256": "0b908f891be9daed2da61b055e5b53cba42a4c9d1390a4a68e4e90bbfbc12082",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31524,
+      31525,
+      31526,
+      31527,
+      31528,
+      31529,
+      31530,
+      31531,
+      31532,
+      31533,
+      31534,
+      31535,
+      31536,
+      31537,
+      31538,
+      31539,
+      31540,
+      31541,
+      31542,
+      31543,
+      31544,
+      31545,
+      31546,
+      31547,
+      31548
+    ],
+    "issues": [],
+    "review_evidence": "Reviewed all 25 Italian sources/verdicts and four-language texts, no figures. ACI art150,161,189 and Gazzetta 2003 reproduction criminal code593 directly inspected; ADR2025 vol II exact local PDF p284 printed274 directly inspected; Italian Red Cross and NHS sources checked. Exact 1998 Gazzetta art54 PDF accessible locally but no searchable passage; requested author page. Art150(3) vehicle-combination and mass categories both apply; generic lighter-vehicle explanation overlooks combination-priority scope. Fresh re-review: all four 31525/31532 now qualify weight rule with separate vehicle-combination precedence under art150(3); exact government art54 one-page local PDF SHA256 fe2f4aa31520ea46cb7bdb22b8fb90d9987add4c4154f640f3ec2a671b1fa4c1 directly inspected and prior uncertain GU reference withdrawn.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb8c-d002-7772-abf5-6bebe1bd2ecf",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4bc22f8e3f232441148c054f42a916c051939b0d3627a1d06ce6b7d180416214",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb8c-d002-7772-abf5-6bebe1bd2ecf",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31542,
+              "reason": "Il verdetto VERO afferma che la forza maggiore è l’unica eccezione; le fonti controllate non stabiliscono questa esclusività né chiariscono il rapporto con le altre cause di giustificazione. Serve adjudicazione della portata della frase.",
+              "checked_sources": [
+                "Codice penale art. 593, testo riportato in legge 9 aprile 2003 n. 72, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0067&atto.dataPubblicazioneGazzetta=2003-04-15 : chi trova un ferito presta assistenza occorrente o avvisa subito autorità.",
+                "Codice della strada, art. 189, commi 1–4, https://aci.gov.it/codice-della-strada/art-189/ : arresto, assistenza, sicurezza della circolazione e generalità.",
+                "Codice penale art. 54, https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1930-10-26&atto.codiceRedazionale=030U1398 : stato di necessità come causa di non punibilità a condizioni specifiche."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4bc22f8e3f232441148c054f42a916c051939b0d3627a1d06ce6b7d180416214",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "4a4514e78bdf41548703edda00790679dc952410c36d5952ff5d4dee7404e59e",
+        "output_sha256": "db02a1bf1f8cbb598731187c00ed1007f6b97cd8e1afb98592f72219b2d9cbff",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31524,
+          31525,
+          31526,
+          31527,
+          31528,
+          31529,
+          31530,
+          31531,
+          31532,
+          31533,
+          31534,
+          31535,
+          31536,
+          31537,
+          31538,
+          31539,
+          31540,
+          31541,
+          31542,
+          31543,
+          31544,
+          31545,
+          31546,
+          31547,
+          31548
+        ],
+        "issues": [
+          {
+            "number": 31525,
+            "reason": "This categorical mass-based priority omits that CdS art.150(3) separately gives vehicle combinations precedence over other vehicles. The generic quiz wording does not exclude a lighter combination meeting a heavier single vehicle; qualify the mass rule and preserve the printed verdict."
+          },
+          {
+            "number": 31532,
+            "reason": "This categorical mass-based priority omits that CdS art.150(3) separately gives vehicle combinations precedence over other vehicles. The generic quiz wording does not exclude a lighter combination meeting a heavier single vehicle; qualify the mass rule and preserve the printed verdict."
+          },
+          {
+            "number": 31542,
+            "reason": "The exact 1998 Gazzetta PDF is locally accessible but contains no searchable article 54 text; the cited page has not been located. Provide the exact inspected page or an accessible primary reproduction of article 54. The visible distinction between necessity and force majeure and the safe-help instruction are substantively appropriate, subject to source verification."
+          }
+        ],
+        "review_evidence": "Reviewed all 25 Italian sources/verdicts and four-language texts, no figures. ACI art150,161,189 and Gazzetta 2003 reproduction criminal code593 directly inspected; ADR2025 vol II exact local PDF p284 printed274 directly inspected; Italian Red Cross and NHS sources checked. Exact 1998 Gazzetta art54 PDF accessible locally but no searchable passage; requested author page. Art150(3) vehicle-combination and mass categories both apply; generic lighter-vehicle explanation overlooks combination-priority scope."
+      }
+    ]
+  }
+}

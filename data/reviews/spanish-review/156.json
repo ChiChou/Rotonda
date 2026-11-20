@@ -1,0 +1,43 @@
+{
+  "batch": "156",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "004aa56b8fe3aeb178088c60faf4bd532e4d9a7162fd2018838134a1127a4025",
+  "source_sha256": "7b8befa17a913cbda31fa1be08e78bdf0afd4e6cf9de43fe75bbd5ef7f773772",
+  "corrections": [
+    {
+      "id": "ce560049b8d63fa9581700df463fd5ca78929f2ab4cb5b6315283c902ae46adb",
+      "before": "Las zonas de parada de autobuses permiten el estacionamiento, pero no la detención de otros vehículos",
+      "after": "Las zonas de parada de autobuses permiten el estacionamiento, pero no la parada de otros vehículos",
+      "reason": "Distingue sosta de fermata, que designa una parada temporal."
+    },
+    {
+      "id": "ce628a5467cdd95bbfa9ce09a373ea82bae3b27cd27823eb4cbfb4f6e8dbab01",
+      "before": "En los motores diésel, el avance automático sirve para garantizar una buena combustión del combustible incluso a altas revoluciones",
+      "after": "En los motores diésel, el avance automático sirve para garantizar una buena combustión del diésel incluso a altas revoluciones",
+      "reason": "Especifica el diésel indicado por gasolio."
+    },
+    {
+      "id": "ce9e21c1ea311ab009e66f2621ac034ca0a4eda46495b0f8dbd3a041405dd54d",
+      "before": "Ante la señal mostrada, los conductores de vehículos pesados que transportan líquidos en cisterna deben moderar especialmente la velocidad para reducir al mínimo el movimiento del líquido",
+      "after": "Ante la señal mostrada, los conductores de vehículos pesados que transportan líquidos en cisterna deben moderar especialmente la velocidad para reducir al mínimo la agitación del líquido",
+      "reason": "Sbattimento indica la agitación del líquido, no su movimiento en general."
+    },
+    {
+      "id": "ced4a0f201052d597dec5b682f14c79d11cd3c3bc22dbd9b68894ac9a0b1e8ad",
+      "before": "Cuando llueve hay que usar durante la marcha las luces intermitentes de emergencia",
+      "after": "Cuando llueve hay que usar durante la marcha la señalización luminosa de peligro (las cuatro luces intermitentes encendidas simultáneamente)",
+      "reason": "Restore the omitted parenthetical about four simultaneous flashing lights"
+    }
+  ],
+  "reviewed_file_sha256": "2fad8f8b9e227502373469b614f328447b956dd8be7fccb2516b0cfbb4aeeae8"
+}

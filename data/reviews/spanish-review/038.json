@@ -1,0 +1,37 @@
+{
+  "batch": "038",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "087bf8966a035add049500b94653cc9c34c7ed9670fb72fe53915ce4bb5c8a10",
+  "source_sha256": "d5a953bf54c50cb8ff99f36b854b0233b120ca5d5cb83af89a9bed0e23610045",
+  "corrections": [
+    {
+      "id": "328443f003a7278c174623f6ef2b4cf021b9ec3bce2ebbca304f362d336f69f9",
+      "before": "Fuera de las zonas pobladas, de noche, cuando las luces traseras de posición o emergencia faltan o son insuficientes, es aconsejable, pero no obligatorio, señalizar con anticipación el vehículo detenido mediante el triángulo de peligro",
+      "after": "Fuera de las zonas pobladas, de noche, cuando las luces traseras de posición o emergencia faltan o son insuficientes, es aconsejable, pero no obligatorio, señalizar con anticipación el vehículo detenido en la calzada mediante el triángulo de peligro",
+      "reason": "Restituye que el vehículo está detenido en la calzada."
+    },
+    {
+      "id": "3349b5294123b6f185cc50eaedf5c77d36dccdb2c531ae7853a93fa48ac6b3ff",
+      "before": "Según el CMR, el transportista que no puede ejecutar las instrucciones del remitente debe comunicárselo",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista que no puede ejecutar las instrucciones del remitente debe comunicárselo",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "33857648d69322e6534629bcd5e67c47883a887c4375424f02b0a484cb6767c6",
+      "before": "El LDWS, sistema de aviso de salida de carril, avisa al conductor cada vez que debe girar en una intersección",
+      "after": "El LDWS (sistema de aviso de salida de carril) es un sistema electrónico que avisa al conductor cada vez que debe girar en una intersección",
+      "reason": "Restituye que el sistema es electrónico."
+    }
+  ],
+  "reviewed_file_sha256": "3f994abc4479f9c231d56cbbcc5ecb1c162d572c6ffc2b6f5f37b7bbac5a5380"
+}

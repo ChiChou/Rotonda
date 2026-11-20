@@ -1,0 +1,37 @@
+{
+  "batch": "070",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "101c4540b7b025756869ea09fbc1fdc380837d751dfc88ef5cdd47331ff219e3",
+  "source_sha256": "5de97c1e10280d7413e64806cdfe01cf7bf9d2b4213aa4a1e36dc26827401d76",
+  "corrections": [
+    {
+      "id": "5dbeca56b5b0cb82f646c56dda504672a78517ade16cd574533e4a5ad4955579",
+      "before": "La zona de parada está destinada al estacionamiento de vehículos",
+      "after": "El apartadero está destinado al estacionamiento de vehículos",
+      "reason": "Se distingue el área de estacionamiento de una parada breve. Piazzola di sosta designa un apartadero vial, no una zona genérica de parada o estacionamiento."
+    },
+    {
+      "id": "5e1d003a94eb7c2ce1212fef7d79830ba39306dd3e0bb038ae7e8317f1bd0a3c",
+      "before": "La señal mostrada solo tiene validez en días hábiles, salvo indicación en contrario",
+      "after": "La señal mostrada solo tiene validez en días laborables, salvo indicación en contrario",
+      "reason": "Días no festivos incluye los sábados, a diferencia de la interpretación habitual de días hábiles.; Italian 'feriali' means working weekdays, not all non-holiday days"
+    },
+    {
+      "id": "5e1fec57c82f2b8905c4839a2ba89306e059f1aabffb60498ca127e7755586cd",
+      "before": "El Acuerdo Interbus es un acuerdo internacional bilateral que regula los servicios ocasionales de circuito cerrado entre Italia y Suiza",
+      "after": "El Acuerdo Interbus es un acuerdo internacional bilateral que regula los servicios ocasionales a puertas cerradas entre Italia y Suiza",
+      "reason": "'a porte chiuse' is the closed-door service type, not a 'circuito cerrado'"
+    }
+  ],
+  "reviewed_file_sha256": "d23a419ac73aa704f1b039c88021cd04923ff65a9903e9e6a8cfec2d81b26002"
+}

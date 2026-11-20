@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed55-3d2d-7c60-b857-be3736485d86"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 13267,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia agisce su un veicolo ogni volta che intervengano variazioni al suo movimento",
+          "answer": 1,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6b1001818271657c039c05a700d483a7db87bd35ddbad291a5601e584076fa2e",
+        "italian": "Quando cambiano il valore o la direzione della velocità, il veicolo accelera. Nel riferimento che si muove con esso si considera una forza d’inerzia opposta a tale accelerazione.",
+        "italian_sha256": "f1ae9fa2070e772a1511fda3fefe54e6163b94c4d6429bffaa05e13c28d80abc"
+      },
+      {
+        "source": {
+          "number": 13269,
+          "quesito_id": 3000,
+          "text_it": "A parità di forza frenante, lo spazio di frenatura è maggiore con l’aumentare della massa del veicolo",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ae48307c7e07562155674db91b2a814ce94ae37320b9e2715f2c7bcb93d50ddf",
+        "italian": "A parità di velocità iniziale e forza frenante costante, una massa maggiore subisce una decelerazione minore e richiede più spazio per fermarsi.",
+        "italian_sha256": "22263c919c85b252eec07b3454e9468b4a60f78041f8e1a390cae48dc8d0e2b0"
+      },
+      {
+        "source": {
+          "number": 13270,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia è minore per un veicolo più leggero",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "492db6861ea8b7740766645b2d92635d44d8cd7253358d0354f272f846f6715f",
+        "italian": "A parità di accelerazione, la forza d’inerzia è proporzionale alla massa: è quindi minore per il veicolo più leggero.",
+        "italian_sha256": "3c2567e9d876c337adeb67b8c25f1029142141dc07bbdf889bfec2227448746f"
+      },
+      {
+        "source": {
+          "number": 13271,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia aumenta con la massa del veicolo",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f4fa86942b049c2f02ac1c8734d83c3f12f13c0b31a486fdc75cb7e36732feb2",
+        "italian": "A parità di accelerazione, la forza d’inerzia cresce proporzionalmente alla massa del veicolo.",
+        "italian_sha256": "cd51e56c7d45a1bc22223d1e20693fb8c57406dcbd1d1dec3f9c7923144c7553"
+      },
+      {
+        "source": {
+          "number": 13272,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia si oppone alla variazione di velocità del veicolo",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4155d8075d685d40e25bd868f9a662faf6ca52a47df6357a2caa31207e4df5c3",
+        "italian": "Nel riferimento del veicolo la forza d’inerzia è opposta all’accelerazione, cioè alla variazione della velocità nel tempo.",
+        "italian_sha256": "68ee6afd621997933670da0605ffdcbe220b25b830193fc9681ef547c7eebbfa"
+      },
+      {
+        "source": {
+          "number": 13273,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia si oppone al rallentamento del veicolo",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "acff239fcb93f55fac930df66fdeaee775c345e8fca2ae7ea1714cd17899d592",
+        "italian": "Durante la frenata l’inerzia tende a mantenere il moto: nel riferimento del veicolo la forza d’inerzia è diretta in avanti, opposta al rallentamento.",
+        "italian_sha256": "8605ac6ae7f77ebeba8a799b9326ce6b93c5fb767ee9c63bb3c035d2a8e80486"
+      },
+      {
+        "source": {
+          "number": 13274,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia non varia al variare della velocità",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9e36d261f2c12ebe9173924efaea122bc5d17f6c88c29735f96503e82dbf9bb2",
+        "italian": "Il quiz indica FALSO, ma la formulazione è ambigua: la forza d’inerzia dipende dall’accelerazione, non dalla sola velocità. Può cambiare quando cambia la velocità, ma non necessariamente: per esempio resta costante con accelerazione costante.",
+        "italian_sha256": "db6543ef7908f34225ab95122f79ab17725898020ff096a810cf6443145a3a1f"
+      },
+      {
+        "source": {
+          "number": 13275,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia non dipende dalla massa del veicolo ma solo dalla velocità",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "69a6e6c6f46ec279aca8e972b1d60f77e0803866ece21775224d94352734fab0",
+        "italian": "È errato escludere la massa e considerare solo la velocità: la forza d’inerzia è proporzionale alla massa e all’accelerazione del riferimento.",
+        "italian_sha256": "93ef7f36e96f6e4bb38f1d787a35e19fbc67a0eb3368f3909786cf39b6c339a2"
+      },
+      {
+        "source": {
+          "number": 13276,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia agevola la frenatura",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2de3e3fa11bc513068162a8b6e3063ef2c61623f07920723791067dfc26a2ce1",
+        "italian": "L’inerzia non agevola la frenatura: tende a mantenere il veicolo in moto e il sistema frenante deve produrre la decelerazione necessaria.",
+        "italian_sha256": "acefac863679c8d290479373f9c4c6d8562af969bcadf1b08b7c8d936f85346a"
+      },
+      {
+        "source": {
+          "number": 13277,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia permette una migliore tenuta di strada del veicolo in curva",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "996c54f08fab6a6566f13ff63880c23e805bda287af54e27a927b9188606d510",
+        "italian": "L’inerzia non migliora la tenuta in curva: il veicolo tende a proseguire rettilineo e serve una forza verso il centro della curva, fornita dall’aderenza degli pneumatici.",
+        "italian_sha256": "95b2a812be0e5d0438cbed437dbb819a81556f801223df5d3504d8d885bb03a1"
+      },
+      {
+        "source": {
+          "number": 13278,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia è uguale per i veicoli che marciano alla stessa velocità",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f20a393349276899e945fcf7f4a2f5d0f850b2d20e5f8e6c9f01fc4d632428ba",
+        "italian": "La stessa velocità non basta a rendere uguali le forze d’inerzia: contano anche massa e accelerazione; in curva conta inoltre il raggio.",
+        "italian_sha256": "5a4342d8afe14f10516e77b81bb00ee7704eff5a021df8c42c81abde7318ff69"
+      },
+      {
+        "source": {
+          "number": 13279,
+          "quesito_id": 3000,
+          "text_it": "La forza di inerzia varia con il mutare del coefficiente dell’aderenza del fondo stradale",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "84372dad8b5e831cc11cfe5fc0e1169c2971cd6fcc3fdbbaf62bdf7017a56bed",
+        "italian": "Il coefficiente di aderenza non determina direttamente la forza d’inerzia, che dipende da massa e accelerazione. Può però influire indirettamente sull’accelerazione effettivamente ottenibile.",
+        "italian_sha256": "234f790e787bf3da6ec95682ed6151e21ca36f39dcc4da1a1734b1276c66210a"
+      },
+      {
+        "source": {
+          "number": 13280,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice è la forza propulsiva generata dal motore",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "119c2b1465128a4639f9d7c7cb6f77a2946363b5e6c5374ac81237989bf56ea5",
+        "italian": "Il motore fornisce la potenza che, attraverso la trasmissione e le ruote motrici, produce la forza di trazione che spinge il veicolo.",
+        "italian_sha256": "bce183c20f27d71a0eadf29ceb1ce661e0b4eba739cf947ea88cae18f2db152b"
+      },
+      {
+        "source": {
+          "number": 13281,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice viene in parte assorbita dai componenti meccanici dei veicoli",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "097b7a333639ae671362780d2d4e7753b5ff72849d1f1af0b1f4f8d68630a6cf",
+        "italian": "Una parte della potenza del motore si perde negli organi meccanici, per esempio per attriti nella trasmissione; non tutta arriva alle ruote.",
+        "italian_sha256": "b346838050c01e3705505fc8782dfdfd73334e3bf1fde491da00a0908a9fe6e3"
+      },
+      {
+        "source": {
+          "number": 13282,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice in parte viene trasmessa a terra",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "87072a65ed7946da9593246cf558bd8d56a289fcd981b69a0bb68ea7bc1daab1",
+        "italian": "La trasmissione porta potenza alle ruote motrici, che esercitano una forza sul fondo stradale; la reazione del fondo spinge il veicolo.",
+        "italian_sha256": "011c5099f58d9b85c170338de6e3ea4f5094b8be7a3f83d02a3fce463b2fc778"
+      },
+      {
+        "source": {
+          "number": 13283,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice è la forza propulsiva generata dal motore endotermico- elettrico",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1ca8bb1fecf2ce7cacdc28f3e1c55f7f5eb1124745d28b8581924bad3931e2f8",
+        "italian": "Un motore termico o elettrico può fornire la potenza che, trasmessa alle ruote motrici, genera la trazione del veicolo.",
+        "italian_sha256": "06537dddefdb21af834650b032ff708ea139c4d7d9c274b054b88e4e49f754cf"
+      },
+      {
+        "source": {
+          "number": 13284,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice, grazie agli organi di trasmissione, consente il moto del veicolo",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7f145b7c4478e88622be6753835567fbfd8bb7e32c6eae9fcf9c73a353061a4a",
+        "italian": "Gli organi di trasmissione trasferiscono la potenza del motore alle ruote motrici, permettendo di generare la trazione necessaria al moto.",
+        "italian_sha256": "e979b241a9c1180d07c21e073ee4e6323f49dba02341f2734e2345d2dd65d0d4"
+      },
+      {
+        "source": {
+          "number": 13285,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice è la forza centrifuga generata dal motore",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6fcfe19bcf9a58360faebb70c417992d6900b49bfa082084b2e515fcc3616e61",
+        "italian": "La forza motrice non è una forza centrifuga: è la trazione che deriva dalla potenza del motore trasmessa alle ruote.",
+        "italian_sha256": "4903673fbfef687e49749f05d89e7ecc3eaffc84148bc9f4b541e9033ac33720"
+      },
+      {
+        "source": {
+          "number": 13286,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice è la forza di gravità",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fc7827a0c1a733d6594484b2b4e3b07d601f7a190e35f86701ece0edd456a3fb",
+        "italian": "La forza motrice non coincide con la gravità: è la trazione alle ruote che spinge il veicolo, mentre la gravità produce il peso.",
+        "italian_sha256": "4b090fff95f5cd57b51107c7a78e0d1a8dc2a7bb5efe1a9fc05ca83cbc1c296e"
+      },
+      {
+        "source": {
+          "number": 13287,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice, grazie agli organi di direzione mantiene il veicolo in moto",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d4ea5155cbbb5fc07f33a739956f60e7bdccfa2e608853a2b53f90d076bfef2e",
+        "italian": "Sono gli organi di trasmissione a portare la potenza del motore alle ruote motrici; gli organi di direzione servono invece a orientare il veicolo.",
+        "italian_sha256": "1503a4fc73f32a6033f17cb320196f1fff95ee34e02eb3406440ccd188ca1361"
+      },
+      {
+        "source": {
+          "number": 13288,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice è la forza sterzante generata dal motore endotermico o elettrico",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "71084db6fd061eceb85ba059a8d0e28660c784771aedfa39feb5b040de4f63e4",
+        "italian": "La forza motrice non è la forza sterzante: è la forza di trazione alle ruote che permette di spingere il veicolo.",
+        "italian_sha256": "613dd5c3399dd6c9edf894bca20d063a4b331487ceedcf176f92cebbc869011b"
+      },
+      {
+        "source": {
+          "number": 13289,
+          "quesito_id": 3001,
+          "text_it": "La forza motrice viene assorbita completamente dal motore",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "14bfa26ac2ed96d56e87d1dda96a173aa0ca3be834c67f989553e09648fa7361",
+        "italian": "La potenza del motore non è assorbita completamente: una parte raggiunge le ruote attraverso la trasmissione, pur con perdite.",
+        "italian_sha256": "f7fefe240c6f83b3f3dd97c07edfef2d9b73e03d06e36a79cd713a8538bb58e4"
+      },
+      {
+        "source": {
+          "number": 13290,
+          "quesito_id": 3002,
+          "text_it": "La forza peso è proporzionale alla sua massa",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "737bac9de55c1c27a23a62f39cf7bd18b7d97b947a9989c5aada678d3910b602",
+        "italian": "A parità di accelerazione di gravità, il peso di un corpo è proporzionale alla sua massa: P = m × g.",
+        "italian_sha256": "d1b8ab84d4dfbf19573c963952580e61e8bf443919b307d1c7332549c5facc8a"
+      },
+      {
+        "source": {
+          "number": 13291,
+          "quesito_id": 3002,
+          "text_it": "La forza peso si spiega tenendo presente che ogni corpo posto sulla superficie terrestre è attratto dalla terra",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e3add84960c0abd9103b6be0fd6aac5e88717b5f15b4f217aca00199024a3ec5",
+        "italian": "La forza peso è la forza con cui la Terra attrae un corpo posto presso la sua superficie.",
+        "italian_sha256": "dcb21746a868e68f3c775f48218e4ab1f477cb29396ea3d3d45a31bf4834355b"
+      },
+      {
+        "source": {
+          "number": 13292,
+          "quesito_id": 3002,
+          "text_it": "La forza peso è uguale al prodotto della sua massa per l’accelerazione di gravità",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "30c18203c9f4b49675333f23ffcedf7c2947db680a49610ebcb40965e65ca146",
+        "italian": "Il peso si calcola moltiplicando la massa del corpo per l’accelerazione di gravità: P = m × g.",
+        "italian_sha256": "9239df116ac6a75a9ccda18e6dd768eceb39a3a80a84e1b4c20ad9e3cb45376f"
+      },
+      {
+        "source": {
+          "number": 13293,
+          "quesito_id": 3002,
+          "text_it": "La forza peso non dipende dall’inclinazione della massa",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "553ba4dc55f4032c8c82460c1ff04c621253c42575272b9eb20213d860d117d7",
+        "italian": "La forza peso è diretta verticalmente e vale massa per accelerazione di gravità: non cambia se si inclina il corpo.",
+        "italian_sha256": "12a61dd7fbad758cfba668ff7aa8a1b2cf37a31c1aa8857d1893617b4c737ce7"
+      },
+      {
+        "source": {
+          "number": 13294,
+          "quesito_id": 3002,
+          "text_it": "La forza peso di un veicolo cambia se il veicolo è carico o scarico",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "20ec39d68b4da46c5a658cd361a6a3391c99383f7cea13cad8abff2a9b5d6026",
+        "italian": "A parità di gravità, caricando il veicolo aumenta la massa totale e quindi aumenta la forza peso.",
+        "italian_sha256": "41cf9bf21043b8ffa49f9844884584354ae028504b39d98f3cb22a5d3a6693ff"
+      },
+      {
+        "source": {
+          "number": 13295,
+          "quesito_id": 3002,
+          "text_it": "La forza peso dipende dall’inclinazione della strada",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0a2e1b6b501c878542c963b01ff53f5aa72c5aa348516b93a85644ab91c7558e",
+        "italian": "La pendenza non cambia la forza peso, che dipende da massa e gravità; cambiano invece le sue componenti rispetto alla strada.",
+        "italian_sha256": "a26800a297c4ad04e4633ad5128b725ff3ad9f80e3fb3fbabd4d4e8ddeda22cd"
+      },
+      {
+        "source": {
+          "number": 13296,
+          "quesito_id": 3002,
+          "text_it": "La forza peso è inversamente proporzionale alla massa del veicolo",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3225cace3847e6117907bc931c2ae9caea76c3cc3a52b18b11ab7cb6d902f647",
+        "italian": "Non è inversamente proporzionale: a parità di gravità, la forza peso aumenta in proporzione diretta alla massa.",
+        "italian_sha256": "9b0dfc6185a13a75525c269dc17a05a49f3058dea5c025ac0a55991f7214a5be"
+      },
+      {
+        "source": {
+          "number": 13297,
+          "quesito_id": 3002,
+          "text_it": "La forza peso è uguale alla somma della sua massa più l’accelerazione di gravità",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "523331925658e99463e2c72db109b7dfb145255bf172fe74f1466f5a3eb6d791",
+        "italian": "Non si sommano massa e accelerazione: la forza peso è il loro prodotto, P = m × g.",
+        "italian_sha256": "8f0bcbce08f18e884f6aafa76be12a5a2a4761f950fbc7a9dbe76e6d333971de"
+      },
+      {
+        "source": {
+          "number": 13298,
+          "quesito_id": 3002,
+          "text_it": "La forza peso è proporzionale al numero di assi del veicolo",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "56b56973f5317cb2155edb086e558af45f5894f382cd68ba608b64806feae63f",
+        "italian": "Il numero di assi non determina direttamente la forza peso: questa dipende dalla massa totale e dalla gravità.",
+        "italian_sha256": "6ebc2bacea3fbec606ce334309427a98cd51dac408672aa4dee285a9d9107c38"
+      },
+      {
+        "source": {
+          "number": 13299,
+          "quesito_id": 3002,
+          "text_it": "La forza peso di un veicolo dipende dalla natura del carico trasportato",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1db915a01babd87dcffbddc1277ff49ee39ee0a71c43bd19d467b3217d6368dd",
+        "italian": "La natura del carico non determina di per sé il peso: conta la massa totale. Carichi di materiali diversi possono avere la stessa massa e quindi lo stesso peso.",
+        "italian_sha256": "f2a548b110d975488dd8e703799f2ebe2455e11afc3702f83587b566a8484f14"
+      },
+      {
+        "source": {
+          "number": 13300,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta interviene quando un veicolo percorre una curva",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3b732cefb02ebfd6da1665e0f2a7bea4ca45b7008d0b44b30de8acc4cd9f2f47",
+        "italian": "In curva occorre una forza risultante diretta verso il centro della traiettoria per cambiare la direzione del moto.",
+        "italian_sha256": "3e90cc07dd05960e25ddfa83c143874634329ad33d803893394dcc865820a33a"
+      },
+      {
+        "source": {
+          "number": 13301,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta è connessa all’aderenza degli pneumatici",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a0fad1d1d1db217dc81f3303b86c3dc7c1acfaa05920db468fb589419eede9e4",
+        "italian": "Su una curva piana l’aderenza tra pneumatici e strada fornisce la forza laterale necessaria a curvare.",
+        "italian_sha256": "d5b48864966b2c1db0d216741c5e9d1a607a2d609ab70ed61c394f4687d0f218"
+      },
+      {
+        "source": {
+          "number": 13302,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta è la forza che permette ad un corpo di percorrere una traiettoria circolare",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "48e1b50df21d4f61cf16e2f039ebd414baa5e975beede70474b27ae24100a791",
+        "italian": "La forza centripeta è la risultante diretta verso il centro che permette al corpo di seguire una traiettoria circolare.",
+        "italian_sha256": "5f0cebbcbb24d48e836734b7d31e24749ed8a6dcf6f0e6778045e44fbd53e6f1"
+      },
+      {
+        "source": {
+          "number": 13303,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta interviene quando il veicolo percorre una curva",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ddc5308b1b96c5a526e29ba77702d6625b82c8e70f2d162d2e092703a82f909b",
+        "italian": "In curva occorre una forza risultante diretta verso il centro della traiettoria per cambiare la direzione del moto.",
+        "italian_sha256": "3e90cc07dd05960e25ddfa83c143874634329ad33d803893394dcc865820a33a"
+      },
+      {
+        "source": {
+          "number": 13304,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta è connessa all’aderenza degli pneumatici al suolo stradale",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "84b37b77f5ebce5abbc82fbe02aea19e9990962f2a347f9aa1eecc7b4c140cf6",
+        "italian": "Su una curva piana l’aderenza tra pneumatici e strada fornisce la forza laterale necessaria a curvare.",
+        "italian_sha256": "d5b48864966b2c1db0d216741c5e9d1a607a2d609ab70ed61c394f4687d0f218"
+      },
+      {
+        "source": {
+          "number": 13305,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta è proporzionale alla velocità e alla massa dell’oggetto",
+          "answer": 1,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9136b4215d1a1bdffed23a143ea4b8daa8e0e83f78ff82e0039007fa9368a8b9",
+        "italian": "Il quiz segna VERO, ma la formulazione è imprecisa: a parità di raggio la forza è direttamente proporzionale alla massa e al quadrato della velocità, non alla velocità stessa.",
+        "italian_sha256": "f7b42b9656cdd481f3e6ffe6f9584f25555ca1ceed1c5ceec77daf71911b0b66"
+      },
+      {
+        "source": {
+          "number": 13306,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta interviene durante la salita del veicolo",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "63c34f7b35a17e7be039c13b8d51fbc93c4ee6ba8be0cb4111a9c280f8a57754",
+        "italian": "La sola salita non richiede una forza centripeta: questa serve quando la traiettoria è curva, anche su una salita.",
+        "italian_sha256": "b4cb27a1496cfd941e4922b8a1e0d1347768d2385c3ad0fe33c5266d4893cad3"
+      },
+      {
+        "source": {
+          "number": 13307,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta è generata dagli organi di trasmissione",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fc5bc0a516134f95574462591a26dcd1c38bf79fe93bdb2a3ba3b9e08e10259b",
+        "italian": "Non sono gli organi di trasmissione a generare necessariamente la forza centripeta: in una curva piana essa è fornita dall’aderenza degli pneumatici alla strada.",
+        "italian_sha256": "8b6ca49d88f5c4567961df13cc87f6d9d916c4e095f1bddd40fcd90a334aaf03"
+      },
+      {
+        "source": {
+          "number": 13308,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta è generata dalla centralina elettrica",
+          "answer": 0,
+          "page": 131,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d490ab500c2cba23ad0079418516023a1c4e2e3e1c9cb6fc73cfc865a47f9011",
+        "italian": "La centralina non genera la forza centripeta: in una curva piana questa è fornita dall’aderenza degli pneumatici alla strada.",
+        "italian_sha256": "7e5c2289b0352ae4dcb5321475305d1af173a97c8e034f81c5a236ce0f68fb68"
+      },
+      {
+        "source": {
+          "number": 13309,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta è inversamente proporzionale alla massa dell’oggetto",
+          "answer": 0,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "40e96c86643f9c255eddc51045622e5e9c899d36407bdd03ab6bec2ff109c811",
+        "italian": "Non è inversamente proporzionale alla massa: a parità di velocità e raggio, la forza centripeta è direttamente proporzionale alla massa.",
+        "italian_sha256": "9c5323216ed6da0e4f78b8a91677c956d96a00f6a72c1924bb18119168f85898"
+      },
+      {
+        "source": {
+          "number": 13310,
+          "quesito_id": 3003,
+          "text_it": "La forza centripeta interviene durante la discesa del veicolo",
+          "answer": 0,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "17bddf0f355a8c16b9f5a121dc651a4201c4528fcc938492d75c65ec1b3f7ac8",
+        "italian": "La sola discesa non richiede una forza centripeta: questa serve quando la traiettoria è curva, anche su una discesa.",
+        "italian_sha256": "5d06e10b6628835d3e164f4f487d3cfde6cf9fdcfa92365429372befa8d91736"
+      },
+      {
+        "source": {
+          "number": 13311,
+          "quesito_id": 3004,
+          "text_it": "La forza centrifuga agisce su un corpo quando percorre una curva",
+          "answer": 1,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9507cbaf11c2b353c0aed3a2e3f35dfdbf00b436aa9fc721245b1d010641265c",
+        "italian": "Nel riferimento che ruota con il veicolo compare una forza apparente verso l’esterno, detta centrifuga; nel riferimento della strada la risultante è diretta verso il centro.",
+        "italian_sha256": "923c00588c53ea247e5613370f9fd8a1b1f8af2b92a5a6a144c6fef7ba40eb37"
+      },
+      {
+        "source": {
+          "number": 13312,
+          "quesito_id": 3004,
+          "text_it": "La forza centrifuga deve essere bilanciata dalla forza centripeta",
+          "answer": 1,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5a61c011e625e3cf1fb8ddb75046ea62744504bd4d51fb95c1a9a6deb0a24505",
+        "italian": "Nel riferimento rotante la forza centrifuga apparente è opposta alla forza centripeta. Nel riferimento della strada resta una risultante verso il centro, necessaria per curvare.",
+        "italian_sha256": "56a6795df988161bade927badb609897155233aad69e8a8a51c88f817416108b"
+      },
+      {
+        "source": {
+          "number": 13313,
+          "quesito_id": 3004,
+          "text_it": "La forza centripeta opponendosi alla forza centrifuga consente di percorrere una traiettoria curvilinea",
+          "answer": 1,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8fc3755cf43c4a399c47c7b96546771fd551933af55482c2e714d799a6874363",
+        "italian": "Nel riferimento del veicolo la forza centrifuga apparente è opposta alla forza verso il centro; nel riferimento della strada è quest’ultima a produrre la traiettoria curva.",
+        "italian_sha256": "8802addb79bde8230655754d04b3cffa04509cee7839c07c3243fc792d7943b2"
+      },
+      {
+        "source": {
+          "number": 13314,
+          "quesito_id": 3004,
+          "text_it": "La forza centrifuga può fare sbandare un veicolo",
+          "answer": 1,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4963fd7f7efd5c1dfe8705fe55a64e7dd2f618d191c37b18e1f53cb9b3ae877b",
+        "italian": "In curva, se l’aderenza non basta a fornire la forza laterale necessaria, il veicolo può sbandare verso l’esterno.",
+        "italian_sha256": "470c08e00ca7c4b93bf06e28ff53fed3b311a6dc56adb2229b5208704f63f3c6"
+      },
+      {
+        "source": {
+          "number": 13315,
+          "quesito_id": 3004,
+          "text_it": "La forza centrifuga può far ribaltare un veicolo",
+          "answer": 1,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "897ecdd9eba6d21c64723c9a7dacf6019f820618245b51d8fd08163596bb1a40",
+        "italian": "In curva un’accelerazione laterale eccessiva può superare la soglia di stabilità del veicolo e provocarne il ribaltamento.",
+        "italian_sha256": "9f6954d10d4c39ad9ddf73c1e702ddd4a0b1053677e6c5c92459b3a916bb4900"
+      },
+      {
+        "source": {
+          "number": 13316,
+          "quesito_id": 3004,
+          "text_it": "La forza centrifuga si modifica variando la traiettoria",
+          "answer": 1,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2c2925c858de5c48ae0f8eb7556eaa0bbd786d8ec5a9665ef574e9257fd348f7",
+        "italian": "Nel riferimento del veicolo la forza centrifuga apparente dipende dalla curvatura: a parità di velocità aumenta quando il raggio della curva diminuisce.",
+        "italian_sha256": "e69a5b6b215b22d75319ebdc84f4452a56bf3547f2a2e5062110f3bb0e286145"
+      },
+      {
+        "source": {
+          "number": 13317,
+          "quesito_id": 3004,
+          "text_it": "La forza centrifuga si modifica variando la velocità",
+          "answer": 1,
+          "page": 132,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "eea2c404e835478269e6f0f94aa97dec19c1466eb55560a9b5cd283ef9a4eac5",
+        "italian": "Nel riferimento del veicolo la forza centrifuga apparente aumenta con il quadrato della velocità, a parità di massa e raggio della curva.",
+        "italian_sha256": "1dfc30b6919fe5428125683e653b74926ed6cebbb28f2d1dc77bba022fff1d89"
+      }
+    ],
+    "task_sha256": "8a55ddedbba7aaa0f4503bef82678d9bcf741937713ebdb8c701b7285470cda8"
+  },
+  "rows": [
+    {
+      "number": 13267,
+      "text": "When the magnitude or direction of its velocity changes, the vehicle accelerates. In the frame of reference moving with it, an inertial force is considered to act opposite to that acceleration."
+    },
+    {
+      "number": 13269,
+      "text": "Given the same initial speed and constant braking force, a greater mass undergoes less deceleration and requires a longer distance to stop."
+    },
+    {
+      "number": 13270,
+      "text": "For the same acceleration, the inertial force is proportional to mass, so it is smaller for the lighter vehicle."
+    },
+    {
+      "number": 13271,
+      "text": "For the same acceleration, the inertial force increases in proportion to the vehicle's mass."
+    },
+    {
+      "number": 13272,
+      "text": "In the vehicle's frame of reference, the inertial force is opposite to the acceleration, that is, the change in velocity over time."
+    },
+    {
+      "number": 13273,
+      "text": "During braking, inertia tends to maintain motion: in the vehicle's frame of reference, the inertial force points forward, opposite to the deceleration."
+    },
+    {
+      "number": 13274,
+      "text": "The quiz marks this FALSO, but the wording is ambiguous: the inertial force depends on acceleration, not on velocity alone. It can change when velocity changes, but not necessarily: for example, it remains constant when acceleration is constant."
+    },
+    {
+      "number": 13275,
+      "text": "It is incorrect to exclude mass and consider only velocity: the inertial force is proportional to the mass and the acceleration of the frame of reference."
+    },
+    {
+      "number": 13276,
+      "text": "Inertia does not help braking: it tends to keep the vehicle moving, and the braking system must produce the necessary deceleration."
+    },
+    {
+      "number": 13277,
+      "text": "Inertia does not improve grip on a bend: the vehicle tends to continue in a straight line, and a force toward the center of the bend is needed, supplied by the tires' grip."
+    },
+    {
+      "number": 13278,
+      "text": "Having the same speed is not enough to make inertial forces equal: mass and acceleration also matter; on a bend, the radius matters too."
+    },
+    {
+      "number": 13279,
+      "text": "The coefficient of grip does not directly determine the inertial force, which depends on mass and acceleration. It can, however, indirectly affect the acceleration actually achievable."
+    },
+    {
+      "number": 13280,
+      "text": "The engine supplies the power that, through the transmission and drive wheels, produces the tractive force that propels the vehicle."
+    },
+    {
+      "number": 13281,
+      "text": "Some of the engine's power is lost in mechanical components, for example through friction in the transmission; not all of it reaches the wheels."
+    },
+    {
+      "number": 13282,
+      "text": "The transmission delivers power to the drive wheels, which exert a force on the road surface; the reaction of the surface propels the vehicle."
+    },
+    {
+      "number": 13283,
+      "text": "A combustion engine or an electric motor can supply the power that, transmitted to the drive wheels, generates the vehicle's traction."
+    },
+    {
+      "number": 13284,
+      "text": "The transmission components transfer engine power to the drive wheels, making it possible to generate the traction needed for motion."
+    },
+    {
+      "number": 13285,
+      "text": "The driving force is not a centrifugal force: it is the traction resulting from engine power transmitted to the wheels."
+    },
+    {
+      "number": 13286,
+      "text": "The driving force is not the same as gravity: it is the traction at the wheels that propels the vehicle, while gravity produces weight."
+    },
+    {
+      "number": 13287,
+      "text": "The transmission components carry engine power to the drive wheels; the steering components, on the other hand, are used to direct the vehicle."
+    },
+    {
+      "number": 13288,
+      "text": "The driving force is not the steering force: it is the tractive force at the wheels that propels the vehicle."
+    },
+    {
+      "number": 13289,
+      "text": "The engine's power is not completely absorbed: some reaches the wheels through the transmission, despite losses."
+    },
+    {
+      "number": 13290,
+      "text": "For the same gravitational acceleration, the weight of a body is proportional to its mass: P = m × g."
+    },
+    {
+      "number": 13291,
+      "text": "Weight is the force with which the Earth attracts a body near its surface."
+    },
+    {
+      "number": 13292,
+      "text": "Weight is calculated by multiplying the body's mass by the acceleration due to gravity: P = m × g."
+    },
+    {
+      "number": 13293,
+      "text": "Weight acts vertically and equals mass multiplied by gravitational acceleration: it does not change if the body is tilted."
+    },
+    {
+      "number": 13294,
+      "text": "For the same gravity, loading the vehicle increases its total mass and therefore increases its weight."
+    },
+    {
+      "number": 13295,
+      "text": "The slope does not change the weight, which depends on mass and gravity; its components relative to the road do change."
+    },
+    {
+      "number": 13296,
+      "text": "It is not inversely proportional: for the same gravity, weight increases in direct proportion to mass."
+    },
+    {
+      "number": 13297,
+      "text": "Mass and acceleration are not added together: weight is their product, P = m × g."
+    },
+    {
+      "number": 13298,
+      "text": "The number of axles does not directly determine weight: it depends on total mass and gravity."
+    },
+    {
+      "number": 13299,
+      "text": "The nature of the load does not in itself determine weight: total mass is what matters. Loads of different materials can have the same mass and therefore the same weight."
+    },
+    {
+      "number": 13300,
+      "text": "On a bend, a net force directed toward the center of the path is needed to change the direction of motion."
+    },
+    {
+      "number": 13301,
+      "text": "On a flat bend, grip between the tires and the road provides the lateral force needed to turn."
+    },
+    {
+      "number": 13302,
+      "text": "Centripetal force is the net force directed toward the center that allows a body to follow a circular path."
+    },
+    {
+      "number": 13303,
+      "text": "On a bend, a net force directed toward the center of the path is needed to change the direction of motion."
+    },
+    {
+      "number": 13304,
+      "text": "On a flat bend, grip between the tires and the road provides the lateral force needed to turn."
+    },
+    {
+      "number": 13305,
+      "text": "The quiz marks this VERO, but the wording is imprecise: for the same radius, the force is directly proportional to mass and to the square of speed, not to speed itself."
+    },
+    {
+      "number": 13306,
+      "text": "Going uphill alone does not require a centripetal force: it is needed when the path is curved, including on an uphill slope."
+    },
+    {
+      "number": 13307,
+      "text": "The transmission components do not necessarily generate the centripetal force: on a flat bend, it is supplied by the tires' grip on the road."
+    },
+    {
+      "number": 13308,
+      "text": "The control unit does not generate the centripetal force: on a flat bend, it is supplied by the tires' grip on the road."
+    },
+    {
+      "number": 13309,
+      "text": "It is not inversely proportional to mass: for the same speed and radius, centripetal force is directly proportional to mass."
+    },
+    {
+      "number": 13310,
+      "text": "Going downhill alone does not require a centripetal force: it is needed when the path is curved, including on a downhill slope."
+    },
+    {
+      "number": 13311,
+      "text": "In the frame of reference rotating with the vehicle, an apparent outward force appears, called centrifugal force; in the road's frame of reference, the net force is directed toward the center."
+    },
+    {
+      "number": 13312,
+      "text": "In the rotating frame of reference, the apparent centrifugal force is opposite to the centripetal force. In the road's frame of reference, a net force toward the center remains, as needed to turn."
+    },
+    {
+      "number": 13313,
+      "text": "In the vehicle's frame of reference, the apparent centrifugal force is opposite to the force toward the center; in the road's frame of reference, it is the latter that produces the curved path."
+    },
+    {
+      "number": 13314,
+      "text": "On a bend, if grip is insufficient to provide the necessary lateral force, the vehicle can skid outward."
+    },
+    {
+      "number": 13315,
+      "text": "On a bend, excessive lateral acceleration can exceed the vehicle's stability threshold and cause it to roll over."
+    },
+    {
+      "number": 13316,
+      "text": "In the vehicle's frame of reference, the apparent centrifugal force depends on curvature: for the same speed, it increases as the radius of the bend decreases."
+    },
+    {
+      "number": 13317,
+      "text": "In the vehicle's frame of reference, the apparent centrifugal force increases with the square of speed, for the same mass and bend radius."
+    }
+  ],
+  "output_sha256": "d34c2aa42c0c90321151bc4e41a9c15de0ee850c2d4bc3cd479b8de4ac7e7bf9"
+}

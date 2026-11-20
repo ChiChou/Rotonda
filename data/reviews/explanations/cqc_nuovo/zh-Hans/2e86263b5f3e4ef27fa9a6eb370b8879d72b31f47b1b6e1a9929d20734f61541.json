@@ -1,0 +1,679 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31399,
+          "quesito_id": 7022,
+          "text_it": "L'eccessiva pressione di gonfiaggio dei pneumatici ne provoca un maggiore consumo sui fianchi",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3fa1ae046ab3f4dc37bcdf323c812fba75f47d0ecbf29622351a0cd44ab3aad4",
+        "localized_text": "轮胎充气压力过高会导致胎面两侧磨损加剧。"
+      },
+      {
+        "source": {
+          "number": 31400,
+          "quesito_id": 7022,
+          "text_it": "La deriva dei pneumatici è l'angolo che si crea tra due assi del veicolo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a49566bab4ba0ae1f207f1d0aacc527cac299f2cd08e1492dff7defa02b99cef",
+        "localized_text": "轮胎侧偏角是车辆两根轴之间形成的角度。"
+      },
+      {
+        "source": {
+          "number": 31401,
+          "quesito_id": 7022,
+          "text_it": "La deriva dei pneumatici viene misurata in occasione della revisione periodica del veicolo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0f46c1bd4f58162a02906df111564d7408b584539356504dace247e06e7a03dd",
+        "localized_text": "车辆定期检验时会测量轮胎侧偏角。"
+      },
+      {
+        "source": {
+          "number": 31402,
+          "quesito_id": 7022,
+          "text_it": "La maggior deriva delle ruote posteriori rispetto a quelle anteriori diminuisce il comportamento sovrasterzante del veicolo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "184bce23b1a3a9086e88bb8d0e74bf931e709f71292c6376560b035be922ca96",
+        "localized_text": "后轮侧偏大于前轮侧偏会减小车辆的过度转向倾向。"
+      },
+      {
+        "source": {
+          "number": 31403,
+          "quesito_id": 7022,
+          "text_it": "Nel sovrasterzo il veicolo tende a chiudere la traiettoria della curva per effetto della maggiore deriva delle ruote anteriori rispetto a quella delle ruote posteriori",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "82ab7564cf776b661e39e814ab774f1a2557f9f3eead725cb7616519902df176",
+        "localized_text": "过度转向时，由于前轮侧偏大于后轮侧偏，车辆趋向缩小转弯轨迹。"
+      },
+      {
+        "source": {
+          "number": 31404,
+          "quesito_id": 7022,
+          "text_it": "La corretta manutenzione del veicolo impedisce il verificarsi del fenomeno della deriva",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2031927e819ae8c4d3ede94abdb066b31fd61af0c0000b53f6833eb57debf656",
+        "localized_text": "正确维护车辆可以防止轮胎侧偏现象发生。"
+      },
+      {
+        "source": {
+          "number": 31405,
+          "quesito_id": 7022,
+          "text_it": "Il sottosterzo aumenta la stabilità del veicolo in curva",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "a9526687a75914037af60f4cdb8f57fbfd764d6b89fc8f7baf5cd49c6c0e23cf",
+        "localized_text": "转向不足会提高车辆在弯道中的稳定性。"
+      },
+      {
+        "source": {
+          "number": 31406,
+          "quesito_id": 7022,
+          "text_it": "Il sottosterzo del veicolo in curva aumenta con l'aumentare della velocità",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "23eb011f7f549781931a821763223413f4022cbff1f66698116a8283f92860e1",
+        "localized_text": "车辆在弯道中的转向不足随速度增加而加剧。"
+      },
+      {
+        "source": {
+          "number": 31407,
+          "quesito_id": 7022,
+          "text_it": "Il sottosterzo è causato dalla maggior deriva delle ruote anteriori rispetto alle ruote posteriori",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "5cd3ad9044d792db112a35e246404ae218e823dc5e13ecf836f017312ecb9415",
+        "localized_text": "转向不足由前轮侧偏大于后轮侧偏造成。"
+      },
+      {
+        "source": {
+          "number": 31408,
+          "quesito_id": 7022,
+          "text_it": "Nel sovrasterzo il veicolo tende a girare su sé stesso facendo perno sulle ruote anteriori",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4f86b72dcab16a2eb58a13378ff7b548ed33884fc62a9481210835197a8c7eed",
+        "localized_text": "过度转向时，车辆趋向以前轮为支点旋转。"
+      },
+      {
+        "source": {
+          "number": 31409,
+          "quesito_id": 7023,
+          "text_it": "Nel sovrasterzo il veicolo curva meno di quanto voluto dal conducente",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d4e87dfefea7e998cc0d959254c6903e5295f654266266d2e9bcb8025ee48510",
+        "localized_text": "过度转向时，车辆转弯程度小于驾驶人期望。"
+      },
+      {
+        "source": {
+          "number": 31410,
+          "quesito_id": 7023,
+          "text_it": "Gli ammortizzatori scarichi possono aumentare il comportamento sottosterzante del veicolo",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d0631d11a08e1b723fe582b797066bbc7a290e5559e98d8fbba4e50f3b716340",
+        "localized_text": "失效的减振器可能增加车辆转向不足的倾向。"
+      },
+      {
+        "source": {
+          "number": 31411,
+          "quesito_id": 7023,
+          "text_it": "Nel sovrasterzo il veicolo curva più di quanto voluto dal conducente",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "92996159d0ca4d536021b640971b284ac8558b226a3908ce1a61055d03b167db",
+        "localized_text": "过度转向时，车辆转弯程度大于驾驶人期望。"
+      },
+      {
+        "source": {
+          "number": 31412,
+          "quesito_id": 7023,
+          "text_it": "Nel sovrasterzo il veicolo tende a proseguire per la tangente allargando la curva",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ad0200a098ddf03b7e6fc62de3499ec6cd03c0c005189816054b30a592f45d32",
+        "localized_text": "过度转向时，车辆趋向沿切线方向前进并扩大转弯轨迹。"
+      },
+      {
+        "source": {
+          "number": 31413,
+          "quesito_id": 7023,
+          "text_it": "L'angolo di deriva dei pneumatici è causato dalla forza motrice nei veicoli a trazione anteriore",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "af4dba3d0718f991ac1e66d42cc9abe746688fcf03bbb6a8ebf67c6936a8e201",
+        "localized_text": "在前轮驱动车辆中，轮胎侧偏角由驱动力引起。"
+      },
+      {
+        "source": {
+          "number": 31414,
+          "quesito_id": 7023,
+          "text_it": "L'aumento del carico sull'asse posteriore del veicolo aumenta il sottosterzo",
+          "answer": 0,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9a90d2c6d25ad819da4e72264ad320e38bc8b9a8f55a43b68ecdd50822b6609b",
+        "localized_text": "增加车辆后轴载荷会加剧转向不足。"
+      },
+      {
+        "source": {
+          "number": 31415,
+          "quesito_id": 7023,
+          "text_it": "La deriva dipende dalla pressione dei pneumatici",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "325a033a6630f8e1ae85671de61f2ecbc05ba3486615e0a82eeb1dc7be04eb87",
+        "localized_text": "轮胎侧偏取决于轮胎气压。"
+      },
+      {
+        "source": {
+          "number": 31416,
+          "quesito_id": 7023,
+          "text_it": "Nel sottosterzo il veicolo tende ad allargare la curva",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "2e4dba2a45bacd787d8eafb285a230dd0be5cd1d1483ce6a25eb6ab42555c66b",
+        "localized_text": "转向不足时，车辆趋向扩大转弯轨迹。"
+      },
+      {
+        "source": {
+          "number": 31417,
+          "quesito_id": 7023,
+          "text_it": "Un veicolo si dice sovrasterzante quando l'angolo di deriva dei pneumatici dell'asse posteriore è maggiore di quello dei pneumatici dell'asse anteriore",
+          "answer": 1,
+          "page": 10,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cf4fa8fcb11b8e5b531364a394d4db9a56683d9e0adbedcf3e7710ef87d52c98",
+        "localized_text": "后轴轮胎侧偏角大于前轴轮胎侧偏角时，车辆处于过度转向。"
+      },
+      {
+        "source": {
+          "number": 31418,
+          "quesito_id": 7023,
+          "text_it": "La deriva dipende dalla forza trasversale che agisce sulle ruote in curva",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dfed240fb0d6ba0cac6da1b190173e819de6a0c89221e4310f179a00938edb6b",
+        "localized_text": "轮胎侧偏取决于转弯时作用于车轮的横向力。"
+      },
+      {
+        "source": {
+          "number": 31419,
+          "quesito_id": 7023,
+          "text_it": "Un veicolo si dice in sovrasterzo quando, ad esempio, per motivi di carico tende a deviare la traiettoria verso l'interno della curva e curva di più",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8fad1da929a59cfd1a609f3e8e7aeaf9da3408e8dc9e67a561cdb3ce13494710",
+        "localized_text": "车辆因载荷等原因使轨迹偏向弯道内侧并转得更多时，称为过度转向。"
+      },
+      {
+        "source": {
+          "number": 31420,
+          "quesito_id": 7023,
+          "text_it": "L'angolo di deriva dei pneumatici è indipendente dalla pressione di gonfiaggio dei pneumatici",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "6eebc4eb24d1bc18e5d114299479fdb77cd735f8a39039ccb13b2006e61bf329",
+        "localized_text": "轮胎侧偏角与充气压力无关。"
+      },
+      {
+        "source": {
+          "number": 31421,
+          "quesito_id": 7023,
+          "text_it": "Il sottosterzo del veicolo compensa l'effetto della deriva dei pneumatici",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "0b71a63c88e154b83fbd80ee2492fcdeecc3e9350cf451b9da17d41a35deac2f",
+        "localized_text": "车辆转向不足会补偿轮胎侧偏的影响。"
+      },
+      {
+        "source": {
+          "number": 31422,
+          "quesito_id": 7023,
+          "text_it": "Il sottosterzo del veicolo aumenta nelle curve in salita",
+          "answer": 0,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "993cafbe723a65511c5a842742206e5d0fa3b718b5aa9943dea2ab29b744e159",
+        "localized_text": "车辆在上坡弯道中的转向不足会加剧。"
+      },
+      {
+        "source": {
+          "number": 31423,
+          "quesito_id": 7023,
+          "text_it": "Nel sottosterzo, il veicolo curva meno di quanto di quanto voluto dal conducente",
+          "answer": 1,
+          "page": 11,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "b93c198f1e2d1cf858310e59f2254c9d090741bf8e73ec7ae73324d14d268d7f",
+        "localized_text": "转向不足时，车辆转弯程度小于驾驶人期望。"
+      }
+    ],
+    "task_sha256": "2e86263b5f3e4ef27fa9a6eb370b8879d72b31f47b1b6e1a9929d20734f61541"
+  },
+  "rows": [
+    {
+      "number": 31399,
+      "text": "气压过高通常使胎面中央磨损较快；胎肩磨损则常见于气压不足。",
+      "evidence": [
+        "Michelin, What pressure for your tyres?: https://africa.michelin.com/en/auto/advice/tyre-pressure/what-tyre-pressure — sovrapressione al centro, pressione insufficiente sulle spalle."
+      ]
+    },
+    {
+      "number": 31400,
+      "text": "侧偏角是车轮指向与实际行驶方向之间的夹角，不是车辆两根车轴之间的夹角。",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31401,
+      "text": "定期检验会检查轮胎状况和磨损等项目。轮胎侧偏角产生于行驶时受到侧向力的情况下，不是定期轮胎检查规定测量的项目。",
+      "evidence": [
+        "Direttiva 2014/45/UE, allegato I, punto 5.2.3: https://eur-lex.europa.eu/eli/dir/2014/45/oj — ispezione visiva dei pneumatici e relative anomalie.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31402,
+      "text": "后轮侧偏大于前轮是转向过度的特征：车尾趋向弯道外侧，而不是减弱这一趋势。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31403,
+      "text": "转向过度时车辆转弯更急，但侧偏角较大的是后轮。前轮侧偏较大则是转向不足的特征。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31404,
+      "text": "侧偏源于轮胎对弯道侧向力的弹性反应，保养良好的车辆也会出现。保养不能消除侧偏。",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31405,
+      "text": "题库标为错误。前轮失去附着力造成的过度转向不足可能使行驶轨迹向弯道外侧扩大、降低控制能力。车辆设计中正常工作范围内的轻微转向不足是另一种含义，可以使车辆反应更易预测。",
+      "evidence": [
+        "NHTSA 2007 ESC final rule, technical discussion pp. 306–307 and 313–316, https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/ESC_FR_03_2007_0.pdf: distinguish designed understeer from excessive understeer and reduced steering response; technical discussion, not a claim of Italian law.",
+        "NHTSA heavy-vehicle ESC proposal https://www.nhtsa.gov/sites/nhtsa.gov/files/136_hvy_veh_esc_nprm.pdf, PDF p.21: severe understeer and front traction loss; proposal, not enacted rule."
+      ]
+    },
+    {
+      "number": 31406,
+      "text": "对于有转向不足特性的车辆，弯道中速度升高会增加所需的侧向力，因此需要更大的转向角才能保持同一路径。",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31407,
+      "text": "前轮侧偏超过后轮时，车头走出的弯道比驾驶员要求的更宽，这就是转向不足。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31408,
+      "text": "转向过度时，车尾趋向外侧，车辆旋转超过预期；严重时可能掉头旋转。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "NHTSA, Heavy Vehicle ESC Preliminary Regulatory Impact Analysis, figura III-2: https://www.nhtsa.gov/sites/nhtsa.gov/files/136_esc_hvy_veh_pria.pdf — il sovrasterzo può portare alla rotazione del veicolo."
+      ]
+    },
+    {
+      "number": 31409,
+      "text": "转向过度时车辆转弯超过预期，车尾趋向外侧。转弯小于预期则是转向不足。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31410,
+      "text": "减震器失效会改变车轮的接地和响应。在某些情况下，特别是前部出现故障时，车辆可能更容易转向不足。",
+      "evidence": [
+        "Deubel et al., Investigation and Phenomenological Modeling of Degraded Twin-Tube Shock Absorbers, §1: https://www.mdpi.com/2624-8921/7/1/26 — una prova con ammortizzatore anteriore degradato ha rilevato più rollio e sottosterzo."
+      ]
+    },
+    {
+      "number": 31411,
+      "text": "转向过度时后轮侧偏超过前轮：车尾趋向外侧，车辆转弯比预期更急。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31412,
+      "text": "转弯轨迹变宽是转向不足的特征。转向过度时则是车尾趋向外侧，车辆转弯超过预期。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31413,
+      "text": "侧偏角与弯道中的侧向力和轮胎变形有关；它并非仅由驱动力产生，也不只出现在前驱车的驱动轮上。",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31414,
+      "text": "后部载荷增加并不一定加重转向不足：它会改变轮胎响应，也可能使车辆趋向转向过度。",
+      "evidence": [
+        "NHTSA, ESV 2007, Light Commercial Vehicles: https://www-nrd.nhtsa.dot.gov/pdf/ESV/Proceedings/20/07-0269-O.pdf — nel veicolo studiato un carico sull’asse posteriore cambia la risposta da sottosterzante a sovrasterzante."
+      ]
+    },
+    {
+      "number": 31415,
+      "text": "气压会改变轮胎的变形及其对侧向力的响应，因此也会影响弯道中的侧偏角。",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, p.68 / PDF p.83 and §2.15.7 p.117 / PDF p.132, https://staff.emu.edu.tr/alexanderchefranov/Documents/CMSE443/CMSE443%20Fall%202023/pdfcoffee.com_tires-suspension-and-handling-1-56091-831-4-pdf-free.pdf: lateral force depends on slip angle and inflation pressure; cornering stiffness changes with pressure and tire design. Directly inspected university-hosted textbook copy, not an axle-specific conclusion."
+      ]
+    },
+    {
+      "number": 31416,
+      "text": "转向不足时前部的侧偏大于后部，车辆行驶的弯道比转向要求的更宽。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31417,
+      "text": "后轮侧偏大于前轮时，车尾趋向外侧，车辆转弯超过预期：这就是转向过度。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi."
+      ]
+    },
+    {
+      "number": 31418,
+      "text": "转弯时，侧向力使轮胎变形，其实际行驶方向与指向不同；两者的夹角就是侧偏角。",
+      "evidence": [
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31419,
+      "text": "转向过度时，车尾趋向外侧，车辆转弯超过预期。载荷分布可能改变这种行驶特性。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "NHTSA, ESV 2007, Light Commercial Vehicles: https://www-nrd.nhtsa.dot.gov/pdf/ESV/Proceedings/20/07-0269-O.pdf — la distribuzione del carico modifica il comportamento direzionale."
+      ]
+    },
+    {
+      "number": 31420,
+      "text": "气压影响轮胎变形和侧向响应，因此也影响侧偏角；两者并非无关。",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, p.68 / PDF p.83 and §2.15.7 p.117 / PDF p.132, https://staff.emu.edu.tr/alexanderchefranov/Documents/CMSE443/CMSE443%20Fall%202023/pdfcoffee.com_tires-suspension-and-handling-1-56091-831-4-pdf-free.pdf: lateral force depends on slip angle and inflation pressure; cornering stiffness changes with pressure and tire design. Directly inspected university-hosted textbook copy, not an axle-specific conclusion."
+      ]
+    },
+    {
+      "number": 31421,
+      "text": "转向不足不会消除侧偏：它描述的是前轮侧偏大于后轮时的车辆表现。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    },
+    {
+      "number": 31422,
+      "text": "题库标为错误，但仅凭坡度不能总是预测转向不足：车辆、载荷和附着力都有关。在某些匀速上坡条件下，载荷向后转移反而可能增加转向不足的倾向。",
+      "evidence": [
+        "John C. Dixon, Tires, Suspension and Handling, §6.18, printed pp.410–412 / PDF pp.425–427, https://staff.emu.edu.tr/alexanderchefranov/Documents/CMSE443/CMSE443%20Fall%202023/pdfcoffee.com_tires-suspension-and-handling-1-56091-831-4-pdf-free.pdf: steady-speed uphill model has rearward load transfer and increased primary understeer; certain specified final-handling model also increases. University-hosted copy of author textbook; not proof of a universal outcome.",
+        "Chalmers Vehicle Dynamics Compendium, §4.3.3, https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf: handling depends on vehicle and operating conditions; steady-state and transient understeer have distinct definitions."
+      ]
+    },
+    {
+      "number": 31423,
+      "text": "转向不足时车头趋向外侧，车辆转弯小于转向操作所要求的程度。",
+      "evidence": [
+        "Michelin, Tire Glossary, Overinflation, Oversteer and Understeer: https://middle-east.michelin.com/en/auto/assistance/glossary — sovrapressione consuma il centro; sovrasterzo e sottosterzo dipendono dalla deriva relativa degli assi.",
+        "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — deriva relativa degli assi e risposta in curva al crescere della velocità."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "2e86263b5f3e4ef27fa9a6eb370b8879d72b31f47b1b6e1a9929d20734f61541",
+    "output_sha256": "fc4c237a202b304fb27bd521bf9beca4feb8b88d00e595ee8dc99c8f6f8f606c",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31399,
+      31400,
+      31401,
+      31402,
+      31403,
+      31404,
+      31405,
+      31406,
+      31407,
+      31408,
+      31409,
+      31410,
+      31411,
+      31412,
+      31413,
+      31414,
+      31415,
+      31416,
+      31417,
+      31418,
+      31419,
+      31420,
+      31421,
+      31422,
+      31423
+    ],
+    "issues": [],
+    "review_evidence": "All 25 source/verdict pairs and four languages inspected; no figures. Exact local Dixon SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed §6.18 printed pp410–412 confirms steady uphill increases primary understeer; Chalmers exact local PDF SHA256 acd354e939823518dbbeeb056486d73530ea338dcb7bf69af6e0e819f2aeaef2 §4.3.3 inspected. NHTSA final ESC discussion supports mild designed understeer vs excessive grip loss. EU 2014/45 original local PDF p45 item5.2.3 inspected. Exact IFAC inaccessible; Dixon p68 independently corroborates pressure effect but is not cited for these rows. Fresh re-review: 31415/31420 Dixon printed p68/PDF83 and §2.15.7 printed p117/PDF132 inspected directly, confirming inflation-pressure influence on lateral force and cornering stiffness; learner text unchanged.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb88-7fd5-72d0-8ae1-32bbcf817e3e",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4f33518c13c81615970ebd456fda8a7ee663dd367074dd855ed842ed8cd229e2",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb88-7fd5-72d0-8ae1-32bbcf817e3e",
+        "label": "author-0-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31405,
+              "reason": "Il quesito stampa FALSO per un aumento della stabilità dovuto al sottosterzo, ma non distingue il lieve sottosterzo progettuale dalla perdita di controllo per sottosterzo eccessivo. Le fonti indicano entrambi i casi; manca il contesto per conciliarli con il verdetto.",
+              "checked_sources": [
+                "NHTSA, Federal Motor Vehicle Safety Standards, Electronic Stability Control Systems, p. 96: https://www.nhtsa.gov/sites/nhtsa.gov/files/fmvss/ESC_FR_03_2007_0.pdf — veicoli leggeri progettati con sottosterzo nel campo lineare.",
+                "NHTSA, Heavy Vehicle ESC NPRM: https://www.nhtsa.gov/sites/nhtsa.gov/files/136_hvy_veh_esc_nprm.pdf — il sottosterzo grave può causare perdita di controllo direzionale."
+              ]
+            },
+            {
+              "number": 31422,
+              "reason": "Il quiz stampa FALSO per aumento del sottosterzo in curva in salita, ma una fonte tecnica descrive un aumento del sottosterzo primario su salita a velocità costante. Non è specificato un contesto che risolva il conflitto.",
+              "checked_sources": [
+                "Dixon, Tires, Suspension and Handling, §6.18 Hills, p. 410: https://staff.emu.edu.tr/alexanderchefranov/Documents/CMSE443/CMSE443%20Fall%202023/pdfcoffee.com_tires-suspension-and-handling-1-56091-831-4-pdf-free.pdf — il trasferimento del carico verso il retro in salita aumenta il sottosterzo primario.",
+                "Chalmers, Vehicle Dynamics Compendium, §4.3.3: https://research.chalmers.se/publication/520229/file/520229_Fulltext.pdf — distingue gradiente di sottosterzo e comportamento transitorio."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "4f33518c13c81615970ebd456fda8a7ee663dd367074dd855ed842ed8cd229e2",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      {
+        "task_sha256": "2e86263b5f3e4ef27fa9a6eb370b8879d72b31f47b1b6e1a9929d20734f61541",
+        "output_sha256": "f6e8ea0918f7ea7299d9b5fd80a946ac272f33b64b2ef502cddea826c375e590",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+        "status": "needs_changes",
+        "checked_numbers": [
+          31399,
+          31400,
+          31401,
+          31402,
+          31403,
+          31404,
+          31405,
+          31406,
+          31407,
+          31408,
+          31409,
+          31410,
+          31411,
+          31412,
+          31413,
+          31414,
+          31415,
+          31416,
+          31417,
+          31418,
+          31419,
+          31420,
+          31421,
+          31422,
+          31423
+        ],
+        "issues": [
+          {
+            "number": 31415,
+            "reason": "The cited IFAC DOI and publisher page returned 403 during direct independent verification. Add an inspectable primary source for pressure effects on lateral response/slip, such as directly inspected Dixon Tires, Suspension and Handling printed p.68 (PDF p.83) and §2.15 printed pp.115–117; retain accurate model scope."
+          },
+          {
+            "number": 31420,
+            "reason": "The cited IFAC DOI and publisher page returned 403 during direct independent verification. Add an inspectable primary source for pressure effects on lateral response/slip, such as directly inspected Dixon Tires, Suspension and Handling printed p.68 (PDF p.83) and §2.15 printed pp.115–117; retain accurate model scope."
+          }
+        ],
+        "review_evidence": "All 25 source/verdict pairs and four languages inspected; no figures. Exact local Dixon SHA256 c69dbd1a92710b4bfde0c6358a990c4340a93580f418b3fc9aac509a6cd059ed §6.18 printed pp410–412 confirms steady uphill increases primary understeer; Chalmers exact local PDF SHA256 acd354e939823518dbbeeb056486d73530ea338dcb7bf69af6e0e819f2aeaef2 §4.3.3 inspected. NHTSA final ESC discussion supports mild designed understeer vs excessive grip loss. EU 2014/45 original local PDF p45 item5.2.3 inspected. Exact IFAC inaccessible; Dixon p68 independently corroborates pressure effect but is not cited for these rows."
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "batch": "065",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "96b97eded31596119a73a8cf3b15f9d838efe1e723b0cb5a375003d895af82b6",
+  "source_sha256": "55f67ed3d573a25aaef159a237ea423cee8701fbdab4bd375bb308d1122a2fff",
+  "corrections": [
+    {
+      "id": "56986cdd71aeaeef8241c96d2855f001c30a13709b25fa05c8b0456731de8111",
+      "before": "El transporte de mercancías por carretera está sujeto obligatoriamente a un sistema de tarifas con límites mínimos y máximos",
+      "after": "El transporte de mercancías por carretera está sujeto obligatoriamente a un sistema de tarifas de horquilla",
+      "reason": "'tariffe a forcella' is a tariff term (horquilla rates); the draft's gloss 'con límites mínimos y máximos' is not in the Italian"
+    },
+    {
+      "id": "5782dae920baed9729049e0defbc9f7253c04a2e3cc6b6a2441f36e08a9474ab",
+      "before": "El refugio peatonal es una persona encargada de prestar primeros auxilios",
+      "after": "El salvavidas es una persona encargada de prestar primeros auxilios",
+      "reason": "The Italian statement is that 'salvagente' (lifebuoy, here as a person) is in charge of first aid; the draft's 'refugio peatonal' does not fit the sentence"
+    }
+  ],
+  "reviewed_file_sha256": "24b7700d4f40db2965c10df821137fdb9a258250203a635ed533ebe6afd15b7f"
+}

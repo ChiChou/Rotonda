@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed68-4508-77f3-9501-1dbcece25ed0"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "en",
+    "records": [
+      {
+        "source": {
+          "number": 17905,
+          "quesito_id": 3593,
+          "text_it": "La licenza comunitaria non è necessaria per svolgere servizi regolari in ambito UE",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c0395e045a057792deffc63ee7c985775803c89df711ce96f570260a97bf95f5",
+        "italian": "È errato escludere la licenza: per i servizi regolari internazionali nell’UE il vettore per conto terzi deve possedere la licenza comunitaria, distinta dall’autorizzazione del servizio.",
+        "italian_sha256": "4d8cbebc7986525d652b5f599e69e8b4add0311461732e0031485957d181b417"
+      },
+      {
+        "source": {
+          "number": 17906,
+          "quesito_id": 3593,
+          "text_it": "La licenza comunitaria non è necessaria per svolgere servizi occasionali in ambito extra UE che attraversano il territorio di uno Stato UE",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5610009fb666801e3860274b750e4ffe32903b7f044a508a839253072d119ccb",
+        "italian": "Non è corretto escludere la licenza solo perché il servizio è diretto fuori dall’UE: per un trasporto tra uno Stato membro e un Paese terzo, il regolamento si applica al tratto negli Stati membri attraversati in transito.",
+        "italian_sha256": "b64b5733140b2a105026159f7e3025c69cb4220a5c069d6eb5ce5f4368fbd5f1"
+      },
+      {
+        "source": {
+          "number": 17907,
+          "quesito_id": 3593,
+          "text_it": "La licenza comunitaria non è necessaria per svolgere servizi regolari con Stati extra UE che attraversano il territorio di uno Stato UE",
+          "answer": 0,
+          "page": 128,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2cf47144c340455aaf95692bc9f89beea665a57de11f8f1ab4016b4367075baf",
+        "italian": "Non è corretto escludere la licenza solo perché il servizio è diretto fuori dall’UE: per un trasporto tra uno Stato membro e un Paese terzo, il regolamento si applica al tratto negli Stati membri attraversati in transito.",
+        "italian_sha256": "b64b5733140b2a105026159f7e3025c69cb4220a5c069d6eb5ce5f4368fbd5f1"
+      },
+      {
+        "source": {
+          "number": 17911,
+          "quesito_id": 3594,
+          "text_it": "La licenza comunitaria è obbligatoria per effettuare servizi regolari e occasionali con o attraverso la Svizzera",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bfd506d16f63786acb841fd34c7b527db3a822e0021f6068a1e48871dbde89c4",
+        "italian": "Per i servizi internazionali con o attraverso la Svizzera il vettore UE deve possedere la licenza comunitaria; per un vettore svizzero è prevista una licenza analoga svizzera.",
+        "italian_sha256": "eef2db0bdef3bd2e45b1c22c08ead78a67f4b1cdfdda37626971ed7037ed9bcf"
+      },
+      {
+        "source": {
+          "number": 17912,
+          "quesito_id": 3594,
+          "text_it": "La licenza comunitaria è obbligatoria per effettuare servizi occasionali attraverso la Svizzera",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "20720b85b63a8e677c4d22a1c6248a43796410b01f777f61080cd4ddf62fa733",
+        "italian": "Anche per un servizio occasionale internazionale attraverso la Svizzera il trasportatore UE deve avere la licenza comunitaria; quello svizzero deve avere la licenza svizzera analoga.",
+        "italian_sha256": "391d6b7b8171dbaa53c8b9e93af2d4cece79519dcace451320bd9bcd941473a0"
+      },
+      {
+        "source": {
+          "number": 17916,
+          "quesito_id": 3594,
+          "text_it": "La licenza comunitaria non è obbligatoria per effettuare servizi regolari attraverso la Svizzera",
+          "answer": 0,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "04c3e66340ef1399d4d7aea15fe22f73f6d0d25f5fd2bed2d74c186a523f5350",
+        "italian": "È errato escludere la licenza per il transito in Svizzera: per il trasporto internazionale il vettore UE deve avere la licenza comunitaria, mentre quello svizzero usa una licenza svizzera analoga.",
+        "italian_sha256": "f6616b30197d6ace447401ae933a037bea9b776cc72d6a6b8392431c48347eb7"
+      },
+      {
+        "source": {
+          "number": 17917,
+          "quesito_id": 3595,
+          "text_it": "La licenza comunitaria per il trasporto internazionale di persone con autobus viene rilasciata alle imprese abilitate all’attività di autotrasporto di persone su strada in ambito internazionale",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a87908747e9673caa872dc345291503cacc9b4c52027713378cc03d0442a55cc",
+        "italian": "La licenza è rilasciata al vettore stabilito nello Stato membro che soddisfa le condizioni di accesso alla professione e al trasporto internazionale.",
+        "italian_sha256": "5a15feca4482a40fc1339f3735cbddb4205cb8f852930f258dcd039d82fe2082"
+      },
+      {
+        "source": {
+          "number": 17918,
+          "quesito_id": 3595,
+          "text_it": "La licenza comunitaria per il trasporto internazionale di persone con autobus viene rilasciata al di fuori di qualsiasi contingente",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "5208fcb08e1ed9a3a0658f95499f8fa8d5909df30b4d18c6a9f4f5a8fb338f8d",
+        "italian": "La licenza è rilasciata ai vettori che soddisfano le condizioni previste, senza un contingente numerico di licenze.",
+        "italian_sha256": "deec468220b315b20228e27bff8c25b7a2dfcffd41990b0422173bf0eee71b7e"
+      },
+      {
+        "source": {
+          "number": 17919,
+          "quesito_id": 3595,
+          "text_it": "La licenza comunitaria per il trasporto internazionale di persone con autobus viene rilasciata con l’intestazione ad un solo trasportatore e non è cedibile",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "455d677b0957721be3118b292143a44c224b6e887df37604b4261fb49879665d",
+        "italian": "La licenza è personale: è rilasciata a nome del vettore e non può essere ceduta a un altro trasportatore.",
+        "italian_sha256": "87167f9ad6e58453a79f45d0bee19a515a68dfd8092f5d21870871535a791b5e"
+      },
+      {
+        "source": {
+          "number": 17920,
+          "quesito_id": 3595,
+          "text_it": "La licenza comunitaria per il trasporto internazionale di persone con autobus viene rilasciata alle imprese che hanno effettuato per più di cinque anni trasporti internazionali di persone su strada",
+          "answer": 0,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f65114b0e99ea501bfe0cd4c338ed83c2f8dd12103c4a8166f0d6229888623e9",
+        "italian": "Non occorrono più di cinque anni di trasporti internazionali già svolti: il rilascio dipende dal possesso delle condizioni previste per l’accesso alla professione e al trasporto internazionale.",
+        "italian_sha256": "18e32b011b723f5790ad6cca9a3c25424652be7520501a8e7c693fbb823cc8fb"
+      },
+      {
+        "source": {
+          "number": 17921,
+          "quesito_id": 3595,
+          "text_it": "La licenza comunitaria per il trasporto internazionale di persone con autobus viene rilasciata ai titolari di imprese in possesso dei requisiti per l’accesso all’attività di autotrasporto di persone su strada in ambito internazionale",
+          "answer": 0,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7f6cac9410845c1dfc3a41c9595bd4fbebc9d9893578ae99974c5c0771bbee01",
+        "italian": "Il quiz dà FALSO, ma la formulazione è ambigua: la licenza è intestata al vettore, cioè all’impresa esercente, e non automaticamente alla persona del suo titolare. Se il titolare è egli stesso il vettore individuale, la distinzione non è così netta.",
+        "italian_sha256": "4a33db9f049f70fd924beb1539274770fb015b2f428941e6977d9d03463f1592"
+      },
+      {
+        "source": {
+          "number": 17922,
+          "quesito_id": 3595,
+          "text_it": "La licenza comunitaria per il trasporto internazionale di persone con autobus viene rilasciata ai conducenti di autobus che operano su servizi internazionali",
+          "answer": 0,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d8dd36dc5deffad343cf8c65b28b89833d1cb6c5072ea05484d6eafca887e757",
+        "italian": "La licenza non è rilasciata ai conducenti in quanto tali: è intestata al vettore che esercita il trasporto. Il conducente deve avere i titoli di guida richiesti.",
+        "italian_sha256": "4bc0e9c47d1dd48bc63a96f9cda4ab46a8f5b9e8b27d917a4b6b97187d18330e"
+      },
+      {
+        "source": {
+          "number": 17928,
+          "quesito_id": 3597,
+          "text_it": "La licenza comunitaria è rilasciata al vettore che ha la professionalità per esercitare l’attività di autotrasporto di persone in ambito internazionale",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2f7dcb40af9be6ef28647f71f837a9d3f4e24cff899a776a075fadb09215fc3e",
+        "italian": "Il vettore deve soddisfare le condizioni professionali e di accesso al trasporto internazionale; la sola competenza professionale non basta se mancano gli altri requisiti.",
+        "italian_sha256": "b2f35ef92deec70546922fc46174ec4dde0105960921dbb169b52d527a340009"
+      },
+      {
+        "source": {
+          "number": 17929,
+          "quesito_id": 3597,
+          "text_it": "La licenza comunitaria in copia conforme deve essere sempre tenuta a bordo del veicolo",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "05e6ea8a9db964c894224f4014cdd96b4715bbf90706391a5c123e39f2b52fc7",
+        "italian": "Una copia certificata conforme della licenza deve trovarsi a bordo di ogni veicolo del vettore ed essere esibita su richiesta ai controlli.",
+        "italian_sha256": "fa63ee2c4a00b98535b782c4a80b936b431612476e0d11eb52b5c453a07286b1"
+      },
+      {
+        "source": {
+          "number": 17930,
+          "quesito_id": 3597,
+          "text_it": "L’impresa proprietaria di più autobus, intestataria di licenza comunitaria, deve conservarne una copia conforme (copia autenticata) in ogni autobus",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fb0a8cd32b21817f4a1b83b514d6567aaa95014461811c3c36efbe45418b10d5",
+        "italian": "L’impresa conserva l’originale e tiene una copia certificata conforme a bordo di ciascun autobus del vettore, da esibire agli organi di controllo.",
+        "italian_sha256": "fdf22bcc8542eca7cfbdc3a4cfcbd9ec1a218f4e97c2c2e559ae4cc3bbe443ee"
+      },
+      {
+        "source": {
+          "number": 17931,
+          "quesito_id": 3597,
+          "text_it": "La licenza comunitaria originale deve essere conservata presso la sede dell’impresa",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cf739351aff5bcd3eafb62b9374471d055b75f90dcf6a1e5fc97ed7b5a51dd9f",
+        "italian": "L’originale è custodito dal vettore presso l’impresa; sul veicolo si porta la copia certificata conforme.",
+        "italian_sha256": "0d14a16d3614dd791b26468cf9012de1bc754a78a6b6c294a772a34e7623ac2b"
+      },
+      {
+        "source": {
+          "number": 17932,
+          "quesito_id": 3597,
+          "text_it": "La licenza comunitaria è necessaria per svolgere servizi regolari",
+          "answer": 1,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3dac82b91a66c1741ed7ad610b0369414c6f9575a57492adb40935b5b388d553",
+        "italian": "Per il trasporto internazionale di passeggeri con autobus occorre la licenza comunitaria; il servizio regolare richiede anche la prevista autorizzazione.",
+        "italian_sha256": "ca581639cd4694c3b4d1611dbca581c6fafb9e1b922f190ff5a64d2289a9481a"
+      },
+      {
+        "source": {
+          "number": 17933,
+          "quesito_id": 3597,
+          "text_it": "La licenza comunitaria non è necessaria per svolgere servizi regolari specializzati",
+          "answer": 0,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8477693001f9e1ddb3f9d952e5f33f2f933c5a6e50ec488a2993e5ef75581ca6",
+        "italian": "È errato escludere la licenza: anche i servizi regolari specializzati internazionali per conto terzi richiedono la licenza comunitaria.",
+        "italian_sha256": "290a4e036711e1370a6aeb2c30108cd159c3e7e9cc53c878837ee8ee54fec8b2"
+      },
+      {
+        "source": {
+          "number": 17934,
+          "quesito_id": 3597,
+          "text_it": "La licenza comunitaria non è necessaria per svolgere servizi occasionali",
+          "answer": 0,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "240d19a207f94f70235bdc8555f7e575d64903a60207e57c78c64dbc77244d58",
+        "italian": "È errato escludere la licenza: anche per i servizi occasionali internazionali per conto terzi occorre la licenza comunitaria, distinta dall’autorizzazione del servizio.",
+        "italian_sha256": "619987f4bb90e0642ef0d28dd209dc68b83bcc9c1e742f5e043d48e67541e385"
+      },
+      {
+        "source": {
+          "number": 17935,
+          "quesito_id": 3597,
+          "text_it": "La licenza comunitaria originale deve essere conservata a bordo del veicolo",
+          "answer": 0,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "30ebc5c24876435a280233de7d823fc3eca1f4b11ca920bc216c25ec63587d30",
+        "italian": "È errato collocare l’originale a bordo: l’originale è custodito dal vettore e sul veicolo deve trovarsi una copia certificata conforme.",
+        "italian_sha256": "1f048c60332d52e096d15dfe88e83a9c3fec846f64caac7d89f79c2374629aa7"
+      },
+      {
+        "source": {
+          "number": 17936,
+          "quesito_id": 3597,
+          "text_it": "La licenza comunitaria è sufficiente per svolgere servizi regolari che prevedono l’attraversamento di paesi terzi",
+          "answer": 0,
+          "page": 129,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "662f847a22a48b04d2e71829b2fcfb7c97616ea3bc62cf5a38cb5112319f378b",
+        "italian": "La sola licenza non basta: il servizio regolare internazionale richiede un’autorizzazione e, per i paesi terzi, valgono gli accordi applicabili, anche per il transito.",
+        "italian_sha256": "b23ea60f8f01bdeab8acbf61474c10891dfd0a6cba15c2fb6caf9070192de116"
+      },
+      {
+        "source": {
+          "number": 17941,
+          "quesito_id": 3599,
+          "text_it": "La copia conforme della licenza comunitaria non ha validità massima di dieci anni",
+          "answer": 1,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e3140bb47ae557a7df34c9ebefd82c1a24939e6b3069a269570642018ab5e932",
+        "italian": "Nel contesto italiano del quiz la licenza per passeggeri dura cinque anni e la copia dipende dalla sua validità. Attenzione: il regolamento europeo consente una durata della licenza fino a dieci anni.",
+        "italian_sha256": "3b7b83bedc026abacfda3e2237fcc98079e8fdfe6312419c6b5c5e5de473e0d0"
+      },
+      {
+        "source": {
+          "number": 17942,
+          "quesito_id": 3599,
+          "text_it": "La copia conforme della licenza comunitaria non è necessaria ai fini della circolazione nello svolgimento dei servizi di trasporto di viaggiatori con paesi non appartenenti all’Unione Europea, Svizzera o firmatari dell’accordo INTERBUS",
+          "answer": 1,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "737c5e0b205283e1f517329221d204209878857855f0fb879ab1bcbeb3cfe010",
+        "italian": "Il quiz considera i servizi con paesi terzi estranei a tali accordi soggetti ai rispettivi titoli. La formulazione è però troppo assoluta: la copia comunitaria può essere necessaria per il tratto sul territorio UE, secondo il percorso e gli accordi applicabili.",
+        "italian_sha256": "872f59d762ea6b6c87e71f0f05f371d024695f63600b47175e70f32fbee096e1"
+      },
+      {
+        "source": {
+          "number": 17943,
+          "quesito_id": 3599,
+          "text_it": "La copia conforme della licenza comunitaria non è rilasciata dal Ministero delle infrastrutture e dei trasporti",
+          "answer": 1,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4db03a27ebdb4bc5a0296250970fa439b244a31e0e46ed0cb409204c49f27358",
+        "italian": "Il quiz distingue l’ufficio centrale che rilascia la licenza dall’UMC competente che rilascia la copia. La frase è imprecisa: l’UMC appartiene comunque all’amministrazione del Ministero.",
+        "italian_sha256": "3a75240b106e500d294f0a4011866c8329a406f09eb95bcfc53367d1d833fa04"
+      },
+      {
+        "source": {
+          "number": 17944,
+          "quesito_id": 3599,
+          "text_it": "La copia conforme della licenza comunitaria non è necessaria ai fini della circolazione nello svolgimento dei servizi nazionali",
+          "answer": 1,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7fbdc56aeb92674f5a03def1f17a55dfa3e3b30df5ab9738a6f545cd6bea4a54",
+        "italian": "Per un servizio interamente nazionale svolto da un vettore residente la copia della licenza internazionale non è richiesta come titolo di circolazione. Il quiz non considera il cabotaggio temporaneo di un vettore non residente.",
+        "italian_sha256": "8e889295be7b5f9bcdae721a0d5541b7c549f31899552ace2ddd11836112a3c3"
+      },
+      {
+        "source": {
+          "number": 17945,
+          "quesito_id": 3599,
+          "text_it": "La copia conforme della licenza comunitaria non è necessaria ai fini della circolazione nello svolgimento dei servizi internazionali",
+          "answer": 0,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f8bd92aec73a6d599a7ee397ea47394c7dbbdc335d8192f818be7c729193e979",
+        "italian": "È errato escludere la copia per tutti i servizi internazionali: nei trasporti soggetti alla licenza comunitaria la copia certificata conforme deve trovarsi a bordo.",
+        "italian_sha256": "5070105a0d1ec9cbe62c6dfd0cbff2df779ad9679657458e0c6f0a98fb920f7b"
+      },
+      {
+        "source": {
+          "number": 17946,
+          "quesito_id": 3599,
+          "text_it": "La copia conforme della licenza comunitaria non va esibita agli organi di controllo sulla strada",
+          "answer": 0,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "932e4308eebbbd7efe919a2d802efee4bc8ae41b8fead1ff09dea225009513ac",
+        "italian": "È errato dire che non va esibita: la copia certificata conforme deve essere mostrata agli agenti quando la richiedono.",
+        "italian_sha256": "2b77bbbb5383edaec664ff7c4263d25861617b213bf4f144fd07f6051c5f02d1"
+      },
+      {
+        "source": {
+          "number": 17947,
+          "quesito_id": 3599,
+          "text_it": "La copia conforme della licenza comunitaria non ha validità massima di cinque anni, come l’originale di cui è copia",
+          "answer": 0,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "276b44d2db9a8e3173f3c2911ffc7a8ff9604f574f6939aacacf557111e94aa1",
+        "italian": "È errata la negazione: nel regime italiano richiamato dal quiz la licenza ha durata quinquennale e la validità della copia dipende dalla licenza originale.",
+        "italian_sha256": "7bea5094109d7220688c038ca4e57c968aa6ce8581f6830f285479cc9d9b9ca7"
+      },
+      {
+        "source": {
+          "number": 17948,
+          "quesito_id": 3599,
+          "text_it": "La copia conforme della licenza comunitaria non è rilasciata dall’UMC (Ufficio motorizzazione civile), nel cui territorio provinciale di competenza ha sede l’impresa, mediante procedura informatica",
+          "answer": 0,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6fcc39df426910ab557c07acd03b9a1f1e880ab4578d773b47257a200d3eb52e",
+        "italian": "È errato negare il rilascio da parte dell’UMC: la procedura indicata dal MIT prevede l’ufficio competente e l’apposita procedura informatica, con eccezioni territoriali.",
+        "italian_sha256": "8910598eff17e1a093ee907e6bac79d8efb974581243e88c169852727bde850b"
+      },
+      {
+        "source": {
+          "number": 17955,
+          "quesito_id": 3601,
+          "text_it": "Per servizio occasionale, a livello internazionale, s’intende un servizio di noleggio con conducente",
+          "answer": 1,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ad79eb10d7bac1a4681a8aa95fb6b81f57cdd1fa3d9774415a6aa8ff7d4108a1",
+        "italian": "Nel lessico del quiz il servizio occasionale internazionale corrisponde al noleggio con conducente per gruppi, senza le caratteristiche del servizio regolare.",
+        "italian_sha256": "35cfc3e0d1e9b129fd1dbc7f8fc13d904fb13e4d203a9654edb8f4af17ba4eb4"
+      },
+      {
+        "source": {
+          "number": 17956,
+          "quesito_id": 3601,
+          "text_it": "Per servizio occasionale, a livello internazionale, s’intende un servizio in regola con le norme fiscali",
+          "answer": 0,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "69a16aa7717769704b4324f362dc8948497f7a3bc295a2b7f2ac53822998db61",
+        "italian": "La regolarità fiscale non definisce il servizio occasionale: conta invece il trasporto di gruppi costituiti su iniziativa del committente o del vettore, fuori dai servizi regolari.",
+        "italian_sha256": "1b10d47b4bc4bdf9aeef19dd957caf7e0687922ffd1e6456241dcbe7d5184194"
+      },
+      {
+        "source": {
+          "number": 17957,
+          "quesito_id": 3601,
+          "text_it": "Per servizio occasionale, a livello internazionale, s’intende un servizio di linea",
+          "answer": 0,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "2a6c10a5942c7726cbc9ef206b7c9c965dbc0120dda809415d10005e54c0f607",
+        "italian": "È errato identificarlo con un servizio di linea: il servizio occasionale non risponde alla definizione di servizio regolare, che segue frequenza e itinerario determinati.",
+        "italian_sha256": "e96842254c70bad7df57ceeac05baa8e5223467c08ddea41f16226ad003b86ec"
+      },
+      {
+        "source": {
+          "number": 17958,
+          "quesito_id": 3601,
+          "text_it": "Per servizio occasionale, a livello internazionale, s’intende un servizio di trasporto persone in conto proprio",
+          "answer": 0,
+          "page": 130,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8f9db2084df226841f690b2109ecdf5b89a60e2969b551055afca60f36304a27",
+        "italian": "Il quiz si riferisce al servizio occasionale per conto terzi, distinto dal trasporto per conto proprio, svolto senza fini commerciali. La sola parola «occasionale» non indica necessariamente chi sopporta il trasporto.",
+        "italian_sha256": "c4fd85e803c535ba29221b9c4a265550f9f5ef1bb0081046b6849c45077d55a2"
+      },
+      {
+        "source": {
+          "number": 17959,
+          "quesito_id": 3602,
+          "text_it": "Non rientrano tra le tipologie di servizi occasionali quelli specializzati",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "fbec1a2f6062facd85298f1935a031f0eaebd49e4ece3e94c68ffa7fb9d878e2",
+        "italian": "I servizi regolari specializzati costituiscono una categoria distinta: trasportano determinate categorie di persone con carattere regolare, mentre quelli occasionali non rispondono a tale definizione.",
+        "italian_sha256": "367cac2ee0c431c787a454894bbcd48cc9e4b83b44732cb90301908078cf622a"
+      },
+      {
+        "source": {
+          "number": 17960,
+          "quesito_id": 3602,
+          "text_it": "Non rientrano tra le tipologie di servizi occasionali quelli regolari",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "1636801d4ca707921fefb16202a3c22a801cf8c2fc006e52e0913d88c749690c",
+        "italian": "I servizi regolari seguono frequenza e itinerario determinati; i servizi occasionali sono definiti proprio come diversi dai servizi regolari.",
+        "italian_sha256": "5a6849b6e160e6ea2b542498f55e5e498af13db21f8ffbb3f25075705194b3a7"
+      },
+      {
+        "source": {
+          "number": 17961,
+          "quesito_id": 3602,
+          "text_it": "Non rientrano tra le tipologie di servizi occasionali quelli a porte chiuse",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "357acd6fdbecf249fc4f4d4391874c57aaabff6b1077dac20631d43e58a2eb59",
+        "italian": "È errato escludere i circuiti a porte chiuse: sono servizi occasionali in cui lo stesso gruppo percorre il tragitto e ritorna al punto di partenza.",
+        "italian_sha256": "6df3acd8cfbee2b1a3a26e7351488339bcee5f95e50c8dd6e73215651b87e75d"
+      },
+      {
+        "source": {
+          "number": 17962,
+          "quesito_id": 3602,
+          "text_it": "Non rientrano tra le tipologie di servizi occasionali quelli ad entrata a carico ed uscita a vuoto",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "905b584df5ff55fdfd053d30b0c7c3d11c69ad06a6677880d87f04e86be94da6",
+        "italian": "È errato escludere questa forma: un servizio occasionale può portare i passeggeri all’andata e tornare a vuoto.",
+        "italian_sha256": "bbc63e40eea386f04f5289e0c725d6a4fac9237806be63136f7d719138c5f401"
+      },
+      {
+        "source": {
+          "number": 17963,
+          "quesito_id": 3602,
+          "text_it": "Non rientrano tra le tipologie di servizi occasionali quelli ad entrata a vuoto ed uscita a carico",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a4b6d92ee039efceca12abe7abfce0a477da5410778a48ff8a053ea481714f99",
+        "italian": "È errato escludere questa forma: un servizio occasionale può entrare a vuoto per imbarcare un gruppo e uscire a carico, alle condizioni previste dagli accordi applicabili.",
+        "italian_sha256": "675528a509257ffc11d5b865788cba3c315e74cb8e5df9b68d06bed9e719e329"
+      },
+      {
+        "source": {
+          "number": 17964,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi regolari infracomunitari",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a68071bf6e780cc115467615ac3ff98967663f60a69e8ce478a0ffd52663cb7b",
+        "italian": "I servizi regolari internazionali possono collegare Stati membri dell’Unione, rispettando il regime di autorizzazione previsto.",
+        "italian_sha256": "4ba95b0c53f32c5a4f79dc439e96e4bc7a208265d760cdfce35c41813981d4e2"
+      },
+      {
+        "source": {
+          "number": 17965,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi regolari extracomunitari",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "299316e17c1ff56ff33ec0e175730e6eaf38f602666e661390239f6bf056e926",
+        "italian": "I servizi regolari possono collegare uno Stato membro e un paese terzo, secondo le autorizzazioni e gli accordi applicabili.",
+        "italian_sha256": "a290b3f15d612e3928947c866bdfa802d237e6c966de2fd8990469564c35aba1"
+      },
+      {
+        "source": {
+          "number": 17966,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi occasionali infracomunitari",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c4f33d228cd4e15776fccc9098961e79a7679a590fc381b1add50dbfaadb59a1",
+        "italian": "I servizi occasionali possono svolgersi tra Stati membri, nel rispetto delle condizioni previste per il trasporto internazionale con autobus.",
+        "italian_sha256": "a5ddaa6f07a11ba7d529463e662690bdf68d28afc43f29f4391fbd26de51ac74"
+      },
+      {
+        "source": {
+          "number": 17967,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi occasionali extracomunitari",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "589a1374b00d97180f2af020dc35405f36c5f4bd71b3b7fce6f94510cce91188",
+        "italian": "I servizi occasionali possono collegare anche Stati UE e paesi extra UE, secondo gli accordi e le condizioni applicabili alla tratta.",
+        "italian_sha256": "29fa1a4b1e0800fcaddeb663fc228fee36a55457c8495a34f90e3443efc36900"
+      },
+      {
+        "source": {
+          "number": 17968,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi regolari",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3095d45846bdcadeb08492daa648a4045d53dd8421cfd4cbc3da9fdec4d9d312",
+        "italian": "Tra i servizi internazionali con autobus sono previsti anche servizi regolari, soggetti alle condizioni e autorizzazioni applicabili.",
+        "italian_sha256": "fb641bee7bb566370428b1ebda3e1c146bab2463d59282221f9f000ec5ec1799"
+      },
+      {
+        "source": {
+          "number": 17969,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi regolari specializzati, che sono ad offerta indifferenziata",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c6a4dd620d7a2c8647ef288d8bd4edd254b12449a7c10176d8890889f1674f6b",
+        "italian": "È errata l'offerta indifferenziata: i servizi regolari specializzati trasportano categorie determinate di passeggeri, escludendo gli altri.",
+        "italian_sha256": "87f8ac0e3ec0a4da34c8e99c8a2bb4c75f48e6af411ba7f166d560ae0924b4dd"
+      },
+      {
+        "source": {
+          "number": 17970,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi occasionali, cioè servizi di linea",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "79b544da58ee73a61de657d5815fefb59e668d705c09d7d23c7259c85cb0aae1",
+        "italian": "È errato equiparare gli occasionali ai servizi di linea: questi ultimi sono regolari, mentre gli occasionali non rientrano nella definizione di servizio regolare o regolare specializzato.",
+        "italian_sha256": "a77dc9d01561ebc30776617fdb3477873583f5201506e4fb87061afd47f00f84"
+      },
+      {
+        "source": {
+          "number": 17971,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi regolari, cioè servizi di noleggio",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "48412d80155d79217f32e43a88a3f3590e740424d02c5ac570c7569093852d19",
+        "italian": "È errato identificare i servizi regolari con il noleggio: i regolari hanno frequenza e itinerario determinati e fermate prestabilite; il noleggio non è la loro definizione.",
+        "italian_sha256": "f23bb27aa3495e926dd52eb8ffa76789afae4779576553871d228947e02e84a7"
+      },
+      {
+        "source": {
+          "number": 17972,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi regolari occasionali",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cffd0cac8a31f56db7e01ad6f34f7c38284d3e9a920c601d1828f24ad849b515",
+        "italian": "Il quiz considera errata la categoria «regolari occasionali»: regolari e occasionali sono categorie distinte. Un servizio occasionale può però ripetersi con una certa frequenza senza perdere tale carattere.",
+        "italian_sha256": "108032a8dc7669c9456407bec20e394d1556fc15c0c20cfd18f8fc2f2fc49ab6"
+      },
+      {
+        "source": {
+          "number": 17973,
+          "quesito_id": 3603,
+          "text_it": "In ambito internazionale si possono effettuare servizi occasionali specializzati",
+          "answer": 0,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "52517fb533a9e0a55f92d0f71159574b12da035e48d7b8c613f7b40166ab8792",
+        "italian": "Il quiz considera errata la categoria «occasionali specializzati»: nella classificazione normativa gli specializzati sono servizi regolari per categorie determinate, mentre gli occasionali formano una categoria distinta.",
+        "italian_sha256": "7d8a5a660295b476725801b2903f3de6fa50179626657a85559e9058ce300bbb"
+      },
+      {
+        "source": {
+          "number": 17974,
+          "quesito_id": 3604,
+          "text_it": "I servizi regolari assicurano il trasporto di viaggiatori con una frequenza e su un itinerario predeterminati",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "ea390ad43a8666689a9f2778bcb43de18201172a0236f9dd2380122dbbbf4b4b",
+        "italian": "Un servizio regolare segue un itinerario e una frequenza determinati, con fermate prestabilite per salita e discesa.",
+        "italian_sha256": "f7659c482437d6aa0a41e4aecab16af90ea3d4dc671bcf6dda0a89c126404f63"
+      },
+      {
+        "source": {
+          "number": 17975,
+          "quesito_id": 3604,
+          "text_it": "I servizi occasionali sono quei servizi che non rispondono né alle caratteristiche dei servizi regolari, né a quelle dei servizi regolari specializzati",
+          "answer": 1,
+          "page": 37,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e4f13f53602de928ed191ff765a87c7df45d0cb3b04c3175b3ab114b64d998e6",
+        "italian": "I servizi occasionali sono distinti sia dai regolari sia dai regolari specializzati; normalmente trasportano gruppi costituiti su iniziativa del committente o del vettore.",
+        "italian_sha256": "1e1de9271e20eecbdb55524070b5083cd3e22306ac972e2c02d3dbb1f75cf471"
+      }
+    ],
+    "task_sha256": "5f5776d04fe2d2d042a4b348d692af5706959aedd214eae744a022a3dfcebdd7"
+  },
+  "rows": [
+    {
+      "number": 17905,
+      "text": "It is incorrect to rule out the licence: for international regular services in the EU, a carrier operating for hire or reward must hold a Community licence, which is separate from the service authorisation."
+    },
+    {
+      "number": 17906,
+      "text": "It is incorrect to rule out the licence merely because the service is bound for a destination outside the EU: for transport between a Member State and a third country, the regulation applies to the part of the journey through Member States crossed in transit."
+    },
+    {
+      "number": 17907,
+      "text": "It is incorrect to rule out the licence merely because the service is bound for a destination outside the EU: for transport between a Member State and a third country, the regulation applies to the part of the journey through Member States crossed in transit."
+    },
+    {
+      "number": 17911,
+      "text": "For international services to, from or through Switzerland, an EU carrier must hold a Community licence; a Swiss carrier must have an equivalent Swiss licence."
+    },
+    {
+      "number": 17912,
+      "text": "An EU carrier must also hold a Community licence for an international occasional service through Switzerland; a Swiss carrier must hold the equivalent Swiss licence."
+    },
+    {
+      "number": 17916,
+      "text": "It is incorrect to rule out the licence for transit through Switzerland: for international transport, an EU carrier must hold a Community licence, while a Swiss carrier uses an equivalent Swiss licence."
+    },
+    {
+      "number": 17917,
+      "text": "The licence is issued to a carrier established in a Member State that meets the conditions for access to the profession and to international transport."
+    },
+    {
+      "number": 17918,
+      "text": "The licence is issued to carriers that meet the required conditions, without a numerical quota on licences."
+    },
+    {
+      "number": 17919,
+      "text": "The licence is personal: it is issued in the carrier's name and cannot be transferred to another carrier."
+    },
+    {
+      "number": 17920,
+      "text": "More than five years of previous international transport experience is not required: issuance depends on meeting the conditions for access to the profession and to international transport."
+    },
+    {
+      "number": 17921,
+      "text": "The quiz marks this FALSO, but the wording is ambiguous: the licence is issued in the name of the carrier, meaning the operating business, and not automatically in the name of its owner as an individual. If the owner is the individual carrier, the distinction is not so clear-cut."
+    },
+    {
+      "number": 17922,
+      "text": "The licence is not issued to drivers as such: it is issued in the name of the carrier operating the transport service. The driver must hold the required driving qualifications."
+    },
+    {
+      "number": 17928,
+      "text": "The carrier must meet the professional conditions and those for access to international transport; professional competence alone is not enough if the other requirements are not met."
+    },
+    {
+      "number": 17929,
+      "text": "A certified true copy of the licence must be carried on board each of the carrier's vehicles and presented on request during inspections."
+    },
+    {
+      "number": 17930,
+      "text": "The business keeps the original and carries a certified true copy on board each of the carrier's buses, to be presented to inspection authorities."
+    },
+    {
+      "number": 17931,
+      "text": "The carrier keeps the original at the business premises; a certified true copy is carried on the vehicle."
+    },
+    {
+      "number": 17932,
+      "text": "A Community licence is required for international passenger transport by bus; a regular service also requires the prescribed authorisation."
+    },
+    {
+      "number": 17933,
+      "text": "It is incorrect to rule out the licence: international special regular services operated for hire or reward also require a Community licence."
+    },
+    {
+      "number": 17934,
+      "text": "It is incorrect to rule out the licence: international occasional services operated for hire or reward also require a Community licence, separate from the service authorisation."
+    },
+    {
+      "number": 17935,
+      "text": "It is incorrect to place the original on board: the carrier keeps the original, and a certified true copy must be on the vehicle."
+    },
+    {
+      "number": 17936,
+      "text": "The licence alone is not enough: an international regular service requires an authorisation, and the applicable agreements govern travel in third countries, including transit."
+    },
+    {
+      "number": 17941,
+      "text": "In the Italian context of the quiz, the passenger transport licence is valid for five years and the copy's validity depends on it. Note that the European regulation allows a licence to be valid for up to ten years."
+    },
+    {
+      "number": 17942,
+      "text": "The quiz treats services involving third countries outside those agreements as subject to their respective permits. However, the wording is too absolute: the Community copy may be required for the portion of the journey within EU territory, depending on the route and the applicable agreements."
+    },
+    {
+      "number": 17943,
+      "text": "The quiz distinguishes between the central office that issues the licence and the competent UMC that issues the copy. However, the wording is imprecise: the UMC is still part of the Ministry's administration."
+    },
+    {
+      "number": 17944,
+      "text": "For a wholly domestic service operated by a resident carrier, a copy of the international licence is not required as a document authorising the vehicle to circulate. The quiz does not consider temporary cabotage by a non-resident carrier."
+    },
+    {
+      "number": 17945,
+      "text": "It is incorrect to rule out the copy for all international services: for transport subject to the Community licence, a certified true copy must be carried on board."
+    },
+    {
+      "number": 17946,
+      "text": "It is incorrect to say that it need not be presented: the certified true copy must be shown to officers when they request it."
+    },
+    {
+      "number": 17947,
+      "text": "The negation is incorrect: under the Italian system referred to in the quiz, the licence lasts five years and the validity of the copy depends on the original licence."
+    },
+    {
+      "number": 17948,
+      "text": "It is incorrect to deny that the UMC issues the copy: the procedure specified by the MIT provides for issuance by the competent office using the designated electronic procedure, with territorial exceptions."
+    },
+    {
+      "number": 17955,
+      "text": "In the quiz's terminology, an international occasional service corresponds to hiring a vehicle with a driver for groups, without the characteristics of a regular service."
+    },
+    {
+      "number": 17956,
+      "text": "Tax compliance does not define an occasional service: what matters is the transport of groups formed at the initiative of the customer or the carrier, outside regular services."
+    },
+    {
+      "number": 17957,
+      "text": "It is incorrect to identify it as a scheduled service: an occasional service does not meet the definition of a regular service, which follows a fixed frequency and route."
+    },
+    {
+      "number": 17958,
+      "text": "The quiz refers to an occasional service operated for hire or reward, distinct from own-account transport, which is carried out without commercial purposes. The word ‘occasional’ alone does not necessarily indicate who bears the cost of the transport."
+    },
+    {
+      "number": 17959,
+      "text": "Special regular services form a separate category: they transport specified categories of people on a regular basis, whereas occasional services do not meet that definition."
+    },
+    {
+      "number": 17960,
+      "text": "Regular services follow a fixed frequency and route; occasional services are defined as being different from regular services."
+    },
+    {
+      "number": 17961,
+      "text": "It is incorrect to exclude closed-door tours: these are occasional services in which the same group makes the journey and returns to the starting point."
+    },
+    {
+      "number": 17962,
+      "text": "It is incorrect to exclude this type: an occasional service can carry passengers on the outward journey and return empty."
+    },
+    {
+      "number": 17963,
+      "text": "It is incorrect to exclude this type: an occasional service can enter empty to pick up a group and leave with passengers on board, subject to the conditions of the applicable agreements."
+    },
+    {
+      "number": 17964,
+      "text": "International regular services can connect EU Member States, subject to the prescribed authorisation system."
+    },
+    {
+      "number": 17965,
+      "text": "Regular services can connect a Member State and a third country, subject to the applicable authorisations and agreements."
+    },
+    {
+      "number": 17966,
+      "text": "Occasional services can operate between Member States, subject to the conditions for international transport by bus."
+    },
+    {
+      "number": 17967,
+      "text": "Occasional services can also connect EU and non-EU countries, subject to the agreements and conditions applicable to the route."
+    },
+    {
+      "number": 17968,
+      "text": "International bus services also include regular services, subject to the applicable conditions and authorisations."
+    },
+    {
+      "number": 17969,
+      "text": "It is incorrect to say they are offered to everyone: special regular services carry specified categories of passengers, excluding others."
+    },
+    {
+      "number": 17970,
+      "text": "It is incorrect to equate occasional services with scheduled services: the latter are regular services, while occasional services do not fall within the definition of a regular or special regular service."
+    },
+    {
+      "number": 17971,
+      "text": "It is incorrect to identify regular services with hire services: regular services have a fixed frequency and route and predetermined stops; hire is not their defining feature."
+    },
+    {
+      "number": 17972,
+      "text": "The quiz considers the category ‘regular occasional services’ incorrect: regular and occasional services are separate categories. An occasional service can, however, be repeated with some frequency without losing its occasional character."
+    },
+    {
+      "number": 17973,
+      "text": "The quiz considers the category ‘special occasional services’ incorrect: in the regulatory classification, special services are regular services for specified categories, while occasional services form a separate category."
+    },
+    {
+      "number": 17974,
+      "text": "A regular service follows a fixed route and frequency, with predetermined stops for boarding and alighting."
+    },
+    {
+      "number": 17975,
+      "text": "Occasional services are distinct from both regular and special regular services; they normally transport groups formed at the initiative of the customer or the carrier."
+    }
+  ],
+  "output_sha256": "d71b60d2c8e62323c97b71e685ce136c244ff73611dfcba1f280e509427d65ed"
+}

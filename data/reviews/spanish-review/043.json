@@ -1,0 +1,61 @@
+{
+  "batch": "043",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "8e3da459350fe8ece7cd40b0a4c086540b6435dbcda8cb8112e7f428022164bc",
+  "source_sha256": "41d17cecba8088089760d837161ce492c14ddc8c6c23f9df0606db902a9bd205",
+  "corrections": [
+    {
+      "id": "39169ac54549639a924692a11b70baba7e7fa6c9eadb48fce503869d42a2e35c",
+      "before": "Según el CMR, el transportista es responsable del trabajo de todos los que intervienen en la ejecución del transporte, sin importar la relación que tengan con él",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el transportista es responsable del trabajo de todos los que intervienen en la ejecución del transporte, sin importar la relación que tengan con él",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "3943a38a8ce2a01fdbf6c0008e3369ae44a679054194795481b01e14d29504eb",
+      "before": "El AAS es un sistema electrónico que controla la amortiguación de la suspensión para optimizar la adherencia y la comodidad de marcha",
+      "after": "El AAS (sistema de control de la suspensión) es un sistema electrónico que controla la amortiguación de la suspensión del vehículo para optimizar la adherencia y la comodidad de marcha",
+      "reason": "Restituye el desarrollo de la sigla AAS."
+    },
+    {
+      "id": "3959fcbc0c59c87f8ca510fa6eb3ce22d121fe1860f718261371cfbe0c013d25",
+      "before": "El sistema de escape de los vehículos eléctricos requiere mantenimiento más frecuente que el de los vehículos con motor de gasolina",
+      "after": "El sistema de escape de los vehículos eléctricos requiere mantenimiento más frecuente que el de los vehículos con motor de combustión",
+      "reason": "'motore a scoppio' is internal combustion, not gasoline specifically"
+    },
+    {
+      "id": "399c99f84a2b2d8502e6aa077c9214d6a7749cd11cf565efc78a28d7705d975f",
+      "before": "Según el CMR, el remitente no tiene obligaciones al evaluar el embalaje",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el remitente no tiene obligaciones al evaluar el embalaje",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "39b8cdacbd27e8c4e2c97791035d9e7f0044fa8a31fa09def776c320015e4db6",
+      "before": "Un frenado poco eficaz puede deberse a revestimientos, tambores o discos muy desgastados",
+      "after": "Un frenado poco eficaz puede deberse a revestimientos o tambores y/o discos muy desgastados",
+      "reason": "Conserva la expresión y/o entre tambores y discos."
+    },
+    {
+      "id": "39e6e953fef5b28e264a33f8569e3fa3f389a5e77780242a9ea13ba960711b7f",
+      "before": "Para reducir el riesgo de robo al conductor conviene detenerse en lugares no aislados",
+      "after": "Para reducir el riesgo de asalto al conductor conviene detenerse en lugares no aislados",
+      "reason": "Rapina se refiere a un asalto, no a cualquier robo."
+    },
+    {
+      "id": "3a050772fe5208165fd67a6915ac18f4d42eb8220ad24630f69ebd1fbf18c8f4",
+      "before": "El autobús articulado no está clasificado como remolque",
+      "after": "El vehículo articulado no está clasificado como remolque",
+      "reason": "'autosnodato' is an articulated vehicle in general, not only a bus"
+    }
+  ],
+  "reviewed_file_sha256": "8fafe63b6872d90a53db7b235f6e5f7b0886d34a59180362a45e92fb5eb8e48b"
+}

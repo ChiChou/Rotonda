@@ -1,0 +1,37 @@
+{
+  "batch": "078",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9b8ad61cd876ab541a241294881a2275bcefaf5a3e672a160c429e4c22fb83bd",
+  "source_sha256": "5bd8efd0fd0f94aff98af9f81defb20ead5abe6f56f00b9373c1aabf56067664",
+  "corrections": [
+    {
+      "id": "68052ab21508db782a05aab32cf068847c28625621a0591648922a24acfb7a62",
+      "before": "Cada uno de los paneles complementarios mostrados solo tiene validez en días hábiles",
+      "after": "Cada uno de los paneles complementarios mostrados solo tiene validez en días laborables",
+      "reason": "Días no festivos incluye los sábados comprendidos en los días feriales italianos.; 'feriali' means working weekdays, not non-holiday days"
+    },
+    {
+      "id": "687aa3d34588123cb051e202ba87d295a5e19a02f3f95e54d5fb2f972b495847",
+      "before": "Las tarjetas utilizables en el tacógrafo digital son de dos tipos: una para el conductor y otra para la autoridad de vehículos",
+      "after": "Las tarjetas utilizables en el tacógrafo digital son de dos tipos: una para el conductor y otra para la Motorización Civil",
+      "reason": "'Motorizzazione Civile' is the named Italian authority; the draft used a generic 'autoridad de vehículos'"
+    },
+    {
+      "id": "68bb4bec48120649657af97b7ea289ff205eb549b7b43bf4dac15871fa70b30c",
+      "before": "El transporte de mercancías por carretera ha crecido durante los últimos diez años",
+      "after": "El crecimiento del transporte de mercancías por carretera ha aumentado en los últimos diez años",
+      "reason": "El original afirma que aumentó el crecimiento, no solamente que aumentó el transporte."
+    }
+  ],
+  "reviewed_file_sha256": "61f55a2700672f3ce2300249ac5cc2817a28affe0ec90f8215c03d9caa52e8cc"
+}

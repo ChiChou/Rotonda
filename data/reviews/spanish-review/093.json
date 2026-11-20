@@ -1,0 +1,25 @@
+{
+  "batch": "093",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "d11d73298507b08a2a5a451be5d8b65424ad254bc6d2438b9844f5d0f8016899",
+  "source_sha256": "6542fb1ee00b72a704e52ee93ddf221595f5900d86021aa9362f42b7e943f4d8",
+  "corrections": [
+    {
+      "id": "7bac7370b0e7b7d1222e5e20a0a4f97fac2afef0cc438fa30dbabb9170c10cb1",
+      "before": "En las casas rodantes, para reducir el riesgo de vuelco en las curvas, hay que distribuir la carga lo más equilibradamente posible entre los lados derecho e izquierdo",
+      "after": "En los remolques vivienda, para reducir el riesgo de vuelco en las curvas, hay que distribuir la carga lo más equilibradamente posible entre los lados derecho e izquierdo",
+      "reason": "Se distingue el caravan como remolque vivienda de una autocaravana autopropulsada."
+    }
+  ],
+  "reviewed_file_sha256": "97668bebda31a7468cfd6827e448da3bdb27ca8d59504a74e7754d46bc18d967"
+}

@@ -1,0 +1,43 @@
+{
+  "batch": "150",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "84f637583dc6ad74a339e83c9524f60143239344ddec3150bd357a36553d2aa4",
+  "source_sha256": "793b57ef52df0592126f6ca136e627488519e740aaf6c833303aa50f948ec967",
+  "corrections": [
+    {
+      "id": "c69016749acb82de6a02c5585ff50c509b640a0bdad94ce81c80bff0a887c85c",
+      "before": "El panel complementario mostrado indica el horario de validez de la señal en días laborables",
+      "after": "El panel complementario mostrado indica el horario de validez de la señal en días no festivos",
+      "reason": "Feriali incluye el sábado salvo festivo; días no festivos evita excluirlo."
+    },
+    {
+      "id": "c6b114fa7a4a4be91f618799f21c113e61a973cf6bbad81bbc491dbbf5fa0509",
+      "before": "En los motores diésel más potentes, el combustible se inyecta a baja presión",
+      "after": "En los motores diésel más potentes, el diésel se inyecta a baja presión",
+      "reason": "Especifica el diésel indicado por gasolio."
+    },
+    {
+      "id": "c6d8e09480059404e2ace221f6ca90a2e2b9f91e6d772cb0633f06fc25e1d250",
+      "before": "En un motor diésel, el sistema de inyección multijet siempre realiza dos inyecciones de combustible en el ciclo de funcionamiento",
+      "after": "En un motor diésel, el sistema de inyección multijet siempre realiza dos inyecciones de diésel en el ciclo de funcionamiento",
+      "reason": "Especifica el diésel indicado por gasolio."
+    },
+    {
+      "id": "c746b080a03fa30fde5ae012068f0e3cfa08443b6be107b7139653f9dce12951",
+      "before": "La obstrucción del filtro de aire del motor reduce su rendimiento",
+      "after": "La obstrucción del filtro de aire del motor reduce el rendimiento del motor",
+      "reason": "Aclara que disminuye el rendimiento del motor, no del filtro."
+    }
+  ],
+  "reviewed_file_sha256": "e499eaadd298db4671f2521f37d89166fe7c5b635ec5637ce06f4a2e77c5f65a"
+}

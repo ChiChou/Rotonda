@@ -1,0 +1,55 @@
+{
+  "batch": "021",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "dd5d6e5230bf68fae1c04e18b1b12e7c94728b502d90771ed604853e957d753d",
+  "source_sha256": "02bb0d18487275a74c277da59bc351394b55cee1101767091fd938cc8c7fbf25",
+  "corrections": [
+    {
+      "id": "1c247642fe6d6f7ac2d6f97d527f3933e3ea02cd9b32e633d720dacf5cd6d17a",
+      "before": "Según el CMR, el remitente no puede encargar al transportista otras tareas además de las propias del transporte",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el remitente no puede encargar al transportista otras tareas además de las propias del transporte",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "1c6bd41a070ef2fd3c0e294a331c1fc0af7aa7dd273c57d05011578b5052f7b9",
+      "before": "Según el CMR, el destinatario ya no tiene interés en recibir la mercancía cuando, sin haberse acordado un plazo, esta se entrega dentro de los 50 días posteriores a su recepción por el transportista",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el destinatario ya no tiene interés en recibir la mercancía cuando, sin haberse acordado un plazo, esta se entrega dentro de los 50 días posteriores a su recepción por el transportista",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "1c7becf883710ef2b57a9a161f19cbdbe37b279061cbde4dc1d8dc5e3c679c69",
+      "before": "El uso del freno motor o del retardador limita el desgaste de los elementos de freno",
+      "after": "El uso del freno motor y/o del retardador limita el desgaste de los elementos de freno",
+      "reason": "Conserva la expresión y/o del original."
+    },
+    {
+      "id": "1ca4f5612206e3d3aa10afe9b7e6b03767c0a0beb0a8cf5dbdb19d3192a239fb",
+      "before": "Según el CMR, el remitente puede encargar al transportista el cobro de una suma determinada que se le deba al remitente por otra relación",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el remitente puede encargar al transportista el cobro de una suma determinada que se le deba al remitente por otra relación",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "1ce5a2c620d56de2051dc14700d757579fb89d257a89895c15e84c7f39c35cb2",
+      "before": "Los vehículos del Estado, regiones, provincias, municipios y otros organismos destinados exclusivamente al transporte de mercancías necesarias para sus necesidades están exentos de la normativa de transporte por cuenta propia",
+      "after": "Los vehículos propiedad del Estado, regiones, provincias, municipios, etc., destinados exclusivamente al transporte de mercancías necesarias para satisfacer las necesidades de la entidad están exentos de la normativa de transporte de mercancías por cuenta propia",
+      "reason": "Conserva la propiedad de los vehículos y la referencia al transporte de mercancías en la normativa."
+    },
+    {
+      "id": "1ce688d5da9794bd4821a847760438d53ffb29568872aba9d92e283ab998a57f",
+      "before": "Según el CMR, el destinatario ya no tiene interés en recibir la mercancía cuando esta todavía puede utilizarse",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), el destinatario ya no tiene interés en recibir la mercancía cuando esta todavía puede utilizarse",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "cfec2f76706d866f6071b830b0c26a29004bfab9e08a0869f70ba5091c31a73b"
+}

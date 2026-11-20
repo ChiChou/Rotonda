@@ -1,0 +1,31 @@
+{
+  "batch": "183",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "828697554920f067b0855d4141b4319c5e6b58533790712949a38fb3277b1b18",
+  "source_sha256": "9f0bef229e072c0e201528301e9762b99893cb5a51189e036fe01bb860196f25",
+  "corrections": [
+    {
+      "id": "f2503b89e2683f33822262a184b263425386522a82140f223ce3c8fa91268700",
+      "before": "Quien esté obligado a registrar los períodos de conducción y no inserte la hoja de registro o la tarjeta del conductor está sujeto a una multa administrativa y a la suspensión de la licencia",
+      "after": "Quien esté obligado a registrar los períodos de conducción conforme a las normas vigentes y no inserte la hoja de registro o la tarjeta del conductor está sujeto a una multa administrativa y a la suspensión de la licencia",
+      "reason": "Restituye que la obligación se deriva de las normas vigentes."
+    },
+    {
+      "id": "f2e55d1c1f64fa55c7722bcd5ab303ea04d2d1c213fcc7c24f13730be2318e65",
+      "before": "Adelantar en autopista puede causar un accidente si se hace cerca de una zona de estacionamiento",
+      "after": "Adelantar en autopista puede causar un accidente si se hace cerca de un apartadero",
+      "reason": "Piazzola di sosta indica aquí un apartadero vial."
+    }
+  ],
+  "reviewed_file_sha256": "336e597a6cc10076dd8a88c3645a302a6604df67c9208f01109c3d3627178fe6"
+}

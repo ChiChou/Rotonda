@@ -1,0 +1,31 @@
+{
+  "batch": "165",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "cdee5bdaf65b2b8fa914b3ab6f298cb42fd27cabccc17ad3e6e65023f0b85402",
+  "source_sha256": "b57addc067516a2787c3bfd9eb3fa028510eefdc21158ff0bb961a3c9d8d67bd",
+  "corrections": [
+    {
+      "id": "d9acc2d4a20523ecb607088cf642599b7fa672dfba12df74f13bd58a38f10cdc",
+      "before": "La detención está prohibida en el borde derecho de la calzada",
+      "after": "La parada está prohibida en el borde derecho de la calzada",
+      "reason": "Fermata indica parada temporal."
+    },
+    {
+      "id": "da1abf35f4eb3a02e14340a10b1b393e8715c3f63920bea6196bd52906d4a34d",
+      "before": "Las bujías de precalentamiento de un motor diésel sirven, con el motor caliente, para regular los encendidos del combustible cuando el motor gira al régimen de potencia máxima",
+      "after": "Las bujías de precalentamiento de un motor diésel sirven, con el motor caliente, para regular los encendidos del diésel cuando el motor gira al régimen de potencia máxima",
+      "reason": "Gasolio especifica el combustible diésel."
+    }
+  ],
+  "reviewed_file_sha256": "3baa69911be0b7a51c78010cf28f6431686ac8f250443ea7783b18a66b95a135"
+}

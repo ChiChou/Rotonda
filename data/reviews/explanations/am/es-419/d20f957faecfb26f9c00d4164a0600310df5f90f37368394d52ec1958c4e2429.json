@@ -1,0 +1,846 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26435,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il tram ha la precedenza rispetto agli altri veicoli",
+          "answer": 1,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                329.0,
+                545.63,
+                409.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "b2479e57524dd27f6eeaf0629c42eb4298b02a14163848581f3d379baf41c884",
+        "localized_text": "En la situación mostrada, el tranvía tiene prioridad sobre los demás vehículos"
+      },
+      {
+        "source": {
+          "number": 26436,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il veicolo M attende il transito del veicolo O",
+          "answer": 1,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                415.0,
+                545.63,
+                495.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "008c27b1d054a51c87773c0a979a24c72c35709a909fbdd7a16ad8d5292fa15a",
+        "localized_text": "En la situación mostrada, el vehículo M espera a que pase O"
+      },
+      {
+        "source": {
+          "number": 26437,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il veicolo M attraversa l'incrocio insieme al tram",
+          "answer": 0,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                501.0,
+                545.63,
+                581.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "4fdac972d10e63b075f2b6bbd5c8e96889b4b7f277a4d1c4ab113b2f2ab0ff58",
+        "localized_text": "En la situación mostrada, el vehículo M cruza junto con el tranvía"
+      },
+      {
+        "source": {
+          "number": 26438,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il veicolo O attende il transito di tutti gli altri veicoli",
+          "answer": 0,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                587.0,
+                545.63,
+                667.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "a0ef6087b95a91f61d674a585acbe2201494be6cce1d0c90fb6eb36c5efdd3ac",
+        "localized_text": "En la situación mostrada, el vehículo O espera a que pasen todos los demás vehículos"
+      },
+      {
+        "source": {
+          "number": 26439,
+          "quesito_id": 5160,
+          "text_it": "Nella situazione raffigurata, il veicolo A dà la precedenza al tram ma non al veicolo M",
+          "answer": 0,
+          "page": 11,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": [
+            {
+              "path": "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png",
+              "sha256": "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7",
+              "page": 11,
+              "bbox": [
+                465.63,
+                673.0,
+                545.63,
+                753.0
+              ]
+            }
+          ]
+        },
+        "source_sha256": "ebf094380397e2de9bc090733c0391c158e5168887be7a79483f9323babd47ca",
+        "localized_text": "En la situación mostrada, el vehículo A cede el paso al tranvía, pero no al vehículo M"
+      },
+      {
+        "source": {
+          "number": 26440,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in modo da non costituire pericolo per la sicurezza delle persone",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "96a0673cc2cf3900807ea8732882ca1f3de52fda7b705fddf1c4e80aded22edc",
+        "localized_text": "La velocidad debe ajustarse de modo que no represente un peligro para la seguridad de las personas"
+      },
+      {
+        "source": {
+          "number": 26441,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in modo da non causare disordine o intralcio alla circolazione",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e8bde192255f2492357448f67330aef627d708fce6e188d544b3d9e4bf3d15b8",
+        "localized_text": "La velocidad debe regularse de modo que no se cause desorden ni se obstaculice la circulación"
+      },
+      {
+        "source": {
+          "number": 26442,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in modo da consentire in ogni caso un tempestivo arresto del veicolo",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "8fe4b0a3fc34fa77a07b67a02fd97182097a19c20dbd1494e65f12d707e44ed3",
+        "localized_text": "La velocidad debe ajustarse para permitir en todo caso detener el vehículo oportunamente"
+      },
+      {
+        "source": {
+          "number": 26443,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in relazione alle condizioni atmosferiche",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "52e58b911ccc5dcfb7b9ae3d186f8b9e70e53af7175adef0efd5649439082177",
+        "localized_text": "La velocidad debe ajustarse a las condiciones meteorológicas"
+      },
+      {
+        "source": {
+          "number": 26444,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in relazione alla lunghezza del viaggio",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "28b9d1bb649056ff104b733daf54706dbb264768be2a0bac1aeca4a2712271f0",
+        "localized_text": "La velocidad debe ajustarse según la longitud del viaje"
+      },
+      {
+        "source": {
+          "number": 26445,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in modo da garantire solo la sicurezza della persona trasportata",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "2429a49743e74746b8f4798554c48f587304ca1804d9e1eb610935c0eefdfeab",
+        "localized_text": "La velocidad debe ajustarse de modo que garantice solo la seguridad de la persona transportada"
+      },
+      {
+        "source": {
+          "number": 26446,
+          "quesito_id": 5161,
+          "text_it": "La velocità deve essere regolata in base alla fretta del conducente",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e200117f1f4130967cecbae46c77e95109a7cd927af897389c6b6d9ecda8b4bb",
+        "localized_text": "La velocidad debe ajustarse según la prisa del conductor"
+      },
+      {
+        "source": {
+          "number": 26447,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alle caratteristiche e alle condizioni della strada",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "397fd9f2044573492becb155d86ce0f617fa3f1c2eb662a7f2bd46824f279bb0",
+        "localized_text": "El conductor está obligado a ajustar la velocidad a las características y condiciones de la vía"
+      },
+      {
+        "source": {
+          "number": 26448,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base all'efficienza dei freni del veicolo",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "98167e36308e3a052788443fcf5f5ea7b0a3f2fed3470641355b29be5f4a334c",
+        "localized_text": "El conductor debe ajustar la velocidad según la eficacia de los frenos del vehículo"
+      },
+      {
+        "source": {
+          "number": 26449,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alle condizioni del traffico",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "63c58da6bc1a324f93c9d3356c572678c4d332b554dc6676dd8554e47fb749ce",
+        "localized_text": "El conductor está obligado a ajustar la velocidad a las condiciones del tráfico"
+      },
+      {
+        "source": {
+          "number": 26450,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alla marca dei pneumatici",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4ce5507c23c2fb775a84ab30247abfd2316ebdd1995451817d40a1c8a294b266",
+        "localized_text": "El conductor está obligado a ajustar la velocidad según la marca de los neumáticos"
+      },
+      {
+        "source": {
+          "number": 26451,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alla distanza della località da raggiungere",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "2d3ecb895c2963a5b950b2abc4f050109281d626a68dcdf16a33c43a77ef4afb",
+        "localized_text": "El conductor debe ajustar la velocidad según la distancia hasta el lugar de destino"
+      },
+      {
+        "source": {
+          "number": 26452,
+          "quesito_id": 5162,
+          "text_it": "Il conducente è tenuto a regolare la velocità in base alla tabella di marcia che ha prestabilito",
+          "answer": 0,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "1fc0629c4cfde5cdb9088dc5cb4a686ac3f5e04b59b63114378f5b3aaacc2c31",
+        "localized_text": "El conductor está obligado a ajustar la velocidad según el horario que haya establecido"
+      },
+      {
+        "source": {
+          "number": 26453,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando è difficoltoso l'incrocio con altri veicoli",
+          "answer": 1,
+          "page": 119,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4f71320632eb947bb015fc6fccae91cfd3bd2f9bf42ace3706d50d5c6c7f3c3c",
+        "localized_text": "Es obligatorio reducir la velocidad y, si es necesario, detenerse cuando es difícil cruzarse con otros vehículos"
+      },
+      {
+        "source": {
+          "number": 26454,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando si rimane abbagliati",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5923962e8741de3e9215b2bebf43bff9fc32713b1f27192aa9d144e948acd272",
+        "localized_text": "Es obligatorio reducir la velocidad y, si es necesario, detenerse cuando se sufre deslumbramiento"
+      },
+      {
+        "source": {
+          "number": 26455,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando i pedoni che si trovano sul percorso danno segni di incertezza",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "69879adf608390fd9076684ecbc50f7cd644995fbffe43f488d269a23dda7e65",
+        "localized_text": "Es obligatorio reducir la velocidad y, si es necesario, detenerse cuando los peatones que están en el recorrido muestran señales de incertidumbre"
+      },
+      {
+        "source": {
+          "number": 26456,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi nei tratti di strada in salita",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "fc50c309442d00f46fb5a6d8920d13b0275350f25aae13ce0c09b0ab01af2f9c",
+        "localized_text": "Es obligatorio reducir la velocidad y, si es necesario, detenerse en tramos de vía en subida"
+      },
+      {
+        "source": {
+          "number": 26457,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi in presenza di tutti i segnali stradali",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c808e6ad03e7150f7561ac4c58b86650d8334ceffb5db9b75813ad95e97ee45c",
+        "localized_text": "Es obligatorio reducir la velocidad y, si es necesario, detenerse ante todas las señales viales"
+      },
+      {
+        "source": {
+          "number": 26458,
+          "quesito_id": 5163,
+          "text_it": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi nelle ore notturne",
+          "answer": 0,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "64d3ca1f67b2466a5f90b49a317294de3f130f6510233b45b773ccec356787f5",
+        "localized_text": "Es obligatorio reducir la velocidad y, si es necesario, detenerse durante la noche"
+      },
+      {
+        "source": {
+          "number": 26459,
+          "quesito_id": 5164,
+          "text_it": "Si è tenuti a regolare la velocità in base alle caratteristiche della strada",
+          "answer": 1,
+          "page": 120,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "1378fdcd3e76f1508c36bd404be9d1d38e4cd4a2e81c9ed53d4fc08c5ac9b9d7",
+        "localized_text": "Es obligatorio ajustar la velocidad a las características de la vía"
+      }
+    ],
+    "task_sha256": "d20f957faecfb26f9c00d4164a0600310df5f90f37368394d52ec1958c4e2429"
+  },
+  "rows": [
+    {
+      "number": 26435,
+      "text": "El tranvía pasa primero: en los cruces de vías tranviarias se cede el paso a los vehículos sobre rieles, salvo señalización distinta.",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26436,
+      "text": "O está a la derecha de M y este debe esperarlo. Después del tranvía, A avanza al centro y deja libre el paso a O.",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26437,
+      "text": "M no cruza junto al tranvía: espera a O, que pasa después del tranvía y de que A avance al centro.",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26438,
+      "text": "O no pasa al final: después del tranvía y de que A avance al centro, pasa antes que M.",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26439,
+      "text": "A espera al tranvía y, tras avanzar al centro, también deja pasar a M, que está a su derecha.",
+      "evidence": [
+        "Codice della strada art. 145 commi 2-3, https://aci.gov.it/codice-della-strada/art-145/ — precedenza a destra e ai veicoli su rotaia salvo segnalazione diversa.",
+        "Figura ufficiale quesito 5160 e spiegazione figura 642, https://www.quizpatente3d.it/domande-ufficiali-b/829/precedenze-incrocio-di-figura-1-642 — sequenza tram, A al centro, O, M, A."
+      ]
+    },
+    {
+      "number": 26440,
+      "text": "La velocidad debe adaptarse a las condiciones reales para evitar peligros a todas las personas, incluso fuera del vehículo.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26441,
+      "text": "Una velocidad inadecuada puede obstaculizar el tránsito: hay que adaptarla a las condiciones y evitar circular innecesariamente despacio.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 6, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26442,
+      "text": "Hay que conservar el control y poder detener el vehículo a tiempo dentro de la distancia visible y ante obstáculos previsibles.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2 e 3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26443,
+      "text": "La lluvia o la poca visibilidad cambian las condiciones de conducción: la velocidad también debe adaptarse al clima.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2 e 3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26444,
+      "text": "La longitud del recorrido no determina la velocidad: importan las condiciones de la vía, el tránsito y el vehículo.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26445,
+      "text": "La seguridad concierne a todas las personas, no solo al pasajero: la velocidad debe adaptarse a las condiciones de circulación.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26446,
+      "text": "Tener prisa no justifica una velocidad inadecuada: hay que considerar las condiciones de la vía, el tránsito y el vehículo.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26447,
+      "text": "Las características y condiciones de la vía influyen en la conducción: la velocidad debe permitir mantener el control.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26448,
+      "text": "El estado del vehículo, incluida la eficacia de los frenos, importa al elegir una velocidad que permita controlarlo y detenerlo a tiempo.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26449,
+      "text": "La velocidad debe adaptarse al tránsito para evitar peligros y obstáculos a la circulación.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26450,
+      "text": "La marca de los neumáticos no determina la velocidad: importan el estado del vehículo y la capacidad de mantener el control.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26451,
+      "text": "La distancia al destino no determina la velocidad: hay que adaptarla a las condiciones de la vía y del tránsito.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26452,
+      "text": "Un horario previsto no determina la velocidad: hay que adaptarla a las condiciones reales de circulación.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26453,
+      "text": "Si es difícil cruzarse con otro vehículo, hay que reducir la velocidad y detenerse si es necesario para permitir el paso seguro.",
+      "evidence": [
+        "Codice della strada art. 141 commi 4, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26454,
+      "text": "El deslumbramiento reduce la visibilidad: hay que reducir la velocidad y detenerse si es necesario para mantener el control.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2 e 3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26455,
+      "text": "Un peatón que duda en el recorrido puede moverse de forma imprevisible: hay que reducir la velocidad y detenerse si es necesario.",
+      "evidence": [
+        "Codice della strada art. 141 commi 4, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26456,
+      "text": "Una subida por sí sola no obliga a reducir la velocidad y, si es necesario, detenerse; de todos modos, la velocidad debe adaptarse a las condiciones reales de la vía.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2, 3 e 4, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle circostanze e regolata di notte; riduzione e arresto se necessario nelle specifiche situazioni del comma 4."
+      ]
+    },
+    {
+      "number": 26457,
+      "text": "No todas las señales obligan a reducir la velocidad o detenerse: hay que obedecer la indicación específica y adaptar la velocidad a las condiciones.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1 e 2, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    },
+    {
+      "number": 26458,
+      "text": "La noche por sí sola no obliga a reducir la velocidad y, si es necesario, detenerse; de todos modos, hay que regular la velocidad según la visibilidad y las condiciones reales.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2, 3 e 4, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle circostanze e regolata di notte; riduzione e arresto se necessario nelle specifiche situazioni del comma 4."
+      ]
+    },
+    {
+      "number": 26459,
+      "text": "Las características de la vía, como curvas y visibilidad, influyen en la velocidad a la que se puede mantener el control.",
+      "evidence": [
+        "Codice della strada art. 141 commi 1, 2 e 3, https://aci.gov.it/codice-della-strada/art-141/ — velocità adeguata alle condizioni, controllo e arresto; casi specifici di riduzione."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "d20f957faecfb26f9c00d4164a0600310df5f90f37368394d52ec1958c4e2429",
+    "output_sha256": "27359adbb4f3f50101cb5339b3b880d1e859b694bf2df73006bb38d75168bff8",
+    "author": "gpt-6.1-terra / 01a1e9e6-8aee-7bd1-9f9b-b8f3343e68c0",
+    "reviewer": "gpt-6.1-terra / 01a1e9e7-85ef-75b2-a9ab-5b86343741fd",
+    "status": "accepted",
+    "checked_numbers": [
+      26435,
+      26436,
+      26437,
+      26438,
+      26439,
+      26440,
+      26441,
+      26442,
+      26443,
+      26444,
+      26445,
+      26446,
+      26447,
+      26448,
+      26449,
+      26450,
+      26451,
+      26452,
+      26453,
+      26454,
+      26455,
+      26456,
+      26457,
+      26458,
+      26459
+    ],
+    "issues": [],
+    "run_inputs": {
+      "author": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "702b6569b3139111a8cc457222cb7f54ff9100b5573d9ae65ad16990641da614",
+        "attached_image_paths": [
+          "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png"
+        ],
+        "attached_image_sha256": [
+          "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7"
+        ]
+      },
+      "reviewer": {
+        "model": "gpt-6.1-terra",
+        "prompt_sha256": "f9e0a0f4d05553cda1eebd0d305968ead37e5c6234b925207d50c64ee0731086",
+        "attached_image_paths": [
+          "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png"
+        ],
+        "attached_image_sha256": [
+          "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7"
+        ]
+      }
+    },
+    "author_runs": [
+      {
+        "run_id": "01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "a6dca29be20ffbb40da372232cf7e53d760db8d2578dcdebaef30a24015e4949",
+          "attached_image_paths": [
+            "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png"
+          ],
+          "attached_image_sha256": [
+            "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7"
+          ]
+        }
+      },
+      {
+        "run_id": "01a1e9e6-8aee-7bd1-9f9b-b8f3343e68c0",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "702b6569b3139111a8cc457222cb7f54ff9100b5573d9ae65ad16990641da614",
+          "attached_image_paths": [
+            "source/images/a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7.png"
+          ],
+          "attached_image_sha256": [
+            "a2152b3d6a0df76598a7538e7868c5f794f8cb6d4f90fa196a3c19eb8d2291e7"
+          ]
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "592f7952ec3b6eae10952fd97e8dcde14e2af6d52065762ebc227c50ae36e6ae",
+          "output_sha256": "f1a7e50f25756ca75fd0ae72c8dff9d1aa29265d13bb6d73d3cb8bd1dc1d94d6",
+          "author": "gpt-6.1-terra / 01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+          "reviewer": "gpt-6.1-terra / 01a1e9e5-799c-7341-969d-993e007fe1c0",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26435,
+            26436,
+            26437,
+            26438,
+            26439,
+            26440,
+            26441,
+            26442,
+            26443,
+            26444,
+            26445,
+            26446,
+            26447,
+            26448,
+            26449,
+            26450,
+            26451,
+            26452,
+            26453,
+            26454,
+            26455,
+            26456,
+            26457,
+            26458,
+            26459
+          ],
+          "issues": [
+            "26456, 26458: The correction describes the rejected duty as slowing down AND stopping, omitting that stopping is only required if necessary. This weakens the distinction tested and can suggest the claim is false because a stop is always required. State that the uphill stretch or nighttime alone does not require slowing down with a stop if needed, while speed must still be adjusted to actual conditions."
+          ]
+        },
+        {
+          "task_sha256": "fed7268fd634f3fe3c09b17fbe6f99d1dd4afa949464d9fb5aed0cc59fa31941",
+          "output_sha256": "bc3c40aa02279a4855ab011ea4e3eb5a471e8ddabfa6a221f836e4ccba9b1da3",
+          "author": "gpt-6.1-terra / 01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+          "reviewer": "gpt-6.1-terra / 01a1e9e5-799c-7341-969d-993e007fe1c0",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26435,
+            26436,
+            26437,
+            26438,
+            26439,
+            26440,
+            26441,
+            26442,
+            26443,
+            26444,
+            26445,
+            26446,
+            26447,
+            26448,
+            26449,
+            26450,
+            26451,
+            26452,
+            26453,
+            26454,
+            26455,
+            26456,
+            26457,
+            26458,
+            26459
+          ],
+          "issues": [
+            "26456, 26458: The correction describes the rejected duty as slowing down AND stopping, omitting that stopping is only required if necessary. This weakens the distinction tested and can suggest the claim is false because a stop is always required. State that the uphill stretch or nighttime alone does not require slowing down with a stop if needed, while speed must still be adjusted to actual conditions."
+          ]
+        },
+        {
+          "task_sha256": "13537ccfce3aab7c256fcafbbc9c6d23d22be9387470883f3d59cd0b657048af",
+          "output_sha256": "d097f66c0f8ac79e7b1785aee5be9ffee91e59953796d1175da588f6ea20775a",
+          "author": "gpt-6.1-terra / 01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+          "reviewer": "gpt-6.1-terra / 01a1e9e5-799c-7341-969d-993e007fe1c0",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26435,
+            26436,
+            26437,
+            26438,
+            26439,
+            26440,
+            26441,
+            26442,
+            26443,
+            26444,
+            26445,
+            26446,
+            26447,
+            26448,
+            26449,
+            26450,
+            26451,
+            26452,
+            26453,
+            26454,
+            26455,
+            26456,
+            26457,
+            26458,
+            26459
+          ],
+          "issues": [
+            "26456, 26458: The correction describes the rejected duty as slowing down AND stopping, omitting that stopping is only required if necessary. This weakens the distinction tested and can suggest the claim is false because a stop is always required. State that the uphill stretch or nighttime alone does not require slowing down with a stop if needed, while speed must still be adjusted to actual conditions."
+          ]
+        },
+        {
+          "task_sha256": "d20f957faecfb26f9c00d4164a0600310df5f90f37368394d52ec1958c4e2429",
+          "output_sha256": "5bc91c098e86c733d2b421449cfc324375001df919fa57c8658943d38450c570",
+          "author": "gpt-6.1-terra / 01a1e9e3-e225-7843-a4aa-a7d5e8294f71",
+          "reviewer": "gpt-6.1-terra / 01a1e9e5-799c-7341-969d-993e007fe1c0",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26435,
+            26436,
+            26437,
+            26438,
+            26439,
+            26440,
+            26441,
+            26442,
+            26443,
+            26444,
+            26445,
+            26446,
+            26447,
+            26448,
+            26449,
+            26450,
+            26451,
+            26452,
+            26453,
+            26454,
+            26455,
+            26456,
+            26457,
+            26458,
+            26459
+          ],
+          "issues": [
+            "26456, 26458: The correction describes the rejected duty as slowing down AND stopping, omitting that stopping is only required if necessary. This weakens the distinction tested and can suggest the claim is false because a stop is always required. State that the uphill stretch or nighttime alone does not require slowing down with a stop if needed, while speed must still be adjusted to actual conditions.",
+            "26444: La duración del recorrido means journey duration, whereas the Italian source and explanation refer to journey length or distance. Use longitud or distancia del viaje to preserve the tested distinction."
+          ]
+        }
+      ]
+    ]
+  }
+}

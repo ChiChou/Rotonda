@@ -1,0 +1,37 @@
+{
+  "batch": "184",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "5a71321eacfe5ec3d31cf84a8ce18f050102c62d5bf7c56da086897e758ea2cc",
+  "source_sha256": "8478f9bc37580da8d80706eba15987ddc964dbf6cdfaf25dcd55dbccb0e12b5f",
+  "corrections": [
+    {
+      "id": "f3e15aaee3f0d390f939fd38bee7ee37cb5c1b17d43a2656d1e0849bdc1dd19d",
+      "before": "Las posibles marcas viales de la parada de vehículos de transporte público colectivo de línea incluyen la inscripción «AUTOBÚS DE LÍNEA» en el pavimento dentro de la zona de parada",
+      "after": "Las posibles marcas viales de la parada de vehículos de transporte público colectivo de línea incluyen la inscripción «AUTOBUS DI LINEA» en el pavimento dentro de la zona de parada",
+      "reason": "Conserva la inscripción literal indicada en el pavimento."
+    },
+    {
+      "id": "f42085e03f788f90d57ca990a90e6088c37db92ed694bffff857e75675a20287",
+      "before": "Según el CMR, el destinatario de la mercancía puede sustituirse por otros destinatarios, pero debe comunicarlo al conductor del vehículo utilizado",
+      "after": "Según el CMR, el destinatario de la mercancía puede sustituir a otros destinatarios por sí mismo, pero debe comunicarlo al conductor del vehículo utilizado",
+      "reason": "Direction of substitution reversed: consignee substitutes himself for others, not replaced by others"
+    },
+    {
+      "id": "f4b8512e9a9e559a3ebf8657dccbdf383b965af095d068c5f392d0b81a2cdddc",
+      "before": "Cuando un pasajero debe subir o bajar del vehículo hay que hacerlo esperar hasta que esté completamente detenido",
+      "after": "Cuando un pasajero debe subir o bajar del vehículo hay que hacerlo esperar hasta que el vehículo esté completamente detenido",
+      "reason": "Aclara que es el vehículo el que debe estar detenido."
+    }
+  ],
+  "reviewed_file_sha256": "bbb23ed6fe56d82f68456e1a431bd065b11e66e724c038bf51b4c370ba96f0a4"
+}

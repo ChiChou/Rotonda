@@ -1,0 +1,49 @@
+{
+  "batch": "022",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "91c11e5c3e94a2d1371aef82e6257cf0f16ce44d723d0026ad523ac90bb928d4",
+  "source_sha256": "dc09a9d5b6c26cde95278f2643e6a24858a0e62d5ac463edda77a21801fd2beb",
+  "corrections": [
+    {
+      "id": "1d558941d23ea54b6aa536cf2d8c57b27994e3a353e1a67235d3ee1dca536e21",
+      "before": "En el transporte por carretera, los robos son más frecuentes durante las paradas en áreas vigiladas",
+      "after": "En el transporte por carretera, los asaltos son más frecuentes durante las paradas en áreas vigiladas",
+      "reason": "Rapine se refiere a asaltos, no a robos en general."
+    },
+    {
+      "id": "1d80c9cb72f88b776acc710eb43df0ea3c5ceb871b25f663e7e3a51ea3eef074",
+      "before": "Ante la señal mostrada es necesario moderar la velocidad cerca de las intersecciones",
+      "after": "Ante la señal mostrada es necesario, en cualquier caso, moderar la velocidad cerca de las intersecciones",
+      "reason": "Omitted 'comunque' (in any case)"
+    },
+    {
+      "id": "1e06dfdaa26c5c8d92c5c0eab39cdfcf3a6369f852e6e3dbb2818cee588b3eab",
+      "before": "Según el CMR, una carta de porte perdida puede sustituirse con el consentimiento del destinatario de la mercancía",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), una carta de porte perdida puede sustituirse con el consentimiento del destinatario de la mercancía",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "1e1a837a633e95b58fdb03ef5c327d2671b7f9509354aefa05e17f21566d51d6",
+      "before": "Los carriles reservados para autobuses pueden estar delimitados por líneas continuas amarilla y blanca juntas",
+      "after": "Los carriles reservados para autobuses pueden estar delimitados por líneas continuas amarillas y blancas juntas",
+      "reason": "Gender agreement: 'líneas' is feminine plural"
+    },
+    {
+      "id": "1e6ef4b41dc505c83fe0b7e59c57ef93b06e06acd58103335fbc6fcd6f8af13e",
+      "before": "Un autobús de clase I es un autobús con plazas de pie y un total superior a 22 plazas, sin contar al conductor",
+      "after": "Se entiende por autobús de clase I un autobús con plazas de pie y un total superior a 22 plazas, sin contar al conductor",
+      "reason": "Definition 'si intende' rendered as 'se entiende por' (definition, not a general statement)"
+    }
+  ],
+  "reviewed_file_sha256": "30317637f1ab722239c565792b0e77a840c48aade09eb3cdc5c560d3ba35d905"
+}

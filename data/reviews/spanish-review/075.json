@@ -1,0 +1,31 @@
+{
+  "batch": "075",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "f603de3e4c1368be1458b04f37e733cdc009547ff4b2aeae23be3b4a16f0b873",
+  "source_sha256": "8273f521e0b9399dd5fdae41ae1be483e8658d32d12ce47ad5e74e035cab9915",
+  "corrections": [
+    {
+      "id": "641486520d976d3a88345182b314c874bc4a9a1f712eaec3cf87dc2955c30256",
+      "before": "Para realizar un servicio ocasional de pasajeros de circuito cerrado entre Italia y Francia es necesario llevar a bordo del autobús la copia conforme de la hoja de ruta comunitaria, además del original de la licencia comunitaria",
+      "after": "Para realizar un servicio ocasional de pasajeros a puertas cerradas entre Italia y Francia es necesario llevar a bordo del autobús la copia conforme de la hoja de ruta comunitaria, además del original de la licencia comunitaria",
+      "reason": "'a porte chiuse' is the closed-door service type, not a 'circuito cerrado'"
+    },
+    {
+      "id": "6466dff1ebbc32db08a209821a0390c052d6b69fa76cc722544bf722064db1b7",
+      "before": "13##tipología13 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "13##tipologia13 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "reason": "Se preserva intacto el marcador estructural 13##tipologia13 del original."
+    }
+  ],
+  "reviewed_file_sha256": "a13de2b84a6cdf8aee794dac8a189a3302820458c720576aff0d9b20b47de0e5"
+}

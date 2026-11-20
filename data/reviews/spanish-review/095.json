@@ -1,0 +1,25 @@
+{
+  "batch": "095",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "cebded57154c889aff488d305900797eb4d4aac1700b732649d00f1cbd433e07",
+  "source_sha256": "261e6d279f205ac535b5ef7a95962fe568d7abc579e357c68ffc3e56279da678",
+  "corrections": [
+    {
+      "id": "7ec55096022a35f796b78a79b199845f3f7f0ae760ae6bcae8ffb459832f1649",
+      "before": "El límite máximo de velocidad en autopistas es de 80 km/h para un automóvil que remolca una casa rodante",
+      "after": "El límite máximo de velocidad en autopistas es de 80 km/h para un automóvil que remolca un remolque vivienda",
+      "reason": "Se identifica caravan como remolque vivienda, evitando confundirlo con una autocaravana."
+    }
+  ],
+  "reviewed_file_sha256": "bd33f9a3fbeefe8b778ff477bff034676c77484f1b171d4bb8be804ed7aaae3e"
+}

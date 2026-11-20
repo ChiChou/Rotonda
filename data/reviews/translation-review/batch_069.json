@@ -1,0 +1,176 @@
+{
+  "batch": "069",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "51c6ddf2ae9a8ab678c0558ba003dde89173648c56a04155e1c8661a2d7b7855",
+  "rows": 100,
+  "verified_ids": [
+    "435dbe3c7f245eb4233327b7df73022391455d138c749b65004021beebb7d86b",
+    "9ae39a5c98e57f0487a627440450c2a07d11010ab751e7fcfa28cc3fc6eae082",
+    "20a757a8bb4e521131c4c0252b18bfe37017d25b182cdfb30b4d838d7afe1f19",
+    "49ca3b8826479e7f12549834b146e047142f7695a0748e8cd117dcc6ecf482d1",
+    "6a7210f93e0d4492cbbdae760966df022fde8109d5ae1f0c70f994a2783ef75b",
+    "3d7ebf6883d993707a5cdafc8d666424e9e7e894245ad2132011b5483a5ee803",
+    "c446b27a755590c453f8f8de41a71d19994fffb2931e8fee003c2842c3dbda9d",
+    "c3323a00f269f4c6978e59c23e33c9337c794f911433e10f34614ce03fd8bc9a",
+    "4c62de24daaee00e5c49c1ab4cf48dc23c68fc645fd7b9f67e71573ee70bfb77",
+    "4322fcdda1dcc86e82406d38f35deb7482921d26486ff1fdbfa5286cf0ac5748",
+    "13048b8bb93704802f436392472f5bb20de13240b191d7e430d6229d09238186",
+    "8c13e1a00c1cd98592ccc833f43baad4b9cd465368f74f92e6af865f8cbd9be5",
+    "8bc65d1a79c90ae32e46489df4dc457be0347c9cfb68abdfb762ea4e5e351d7f",
+    "4ef114808dc487aeb19843ac7ff5af0b8875f86ba9784b5a8bd2ed1bfec5ab64",
+    "158aee7046cbaa67b550682331d41ba510592139f4faac087046f401432f513e",
+    "9a7a46ecff1a0ce36c66c90d16887671b5dd757276c81726a6b49ac0aef9ae79",
+    "9b603cd9c8ca26c3d6729454cbda9f64fc05f9d8d287bd4193f79f26705289f2",
+    "8f2f12371dfa2cee1dec1adafd57a38c4fa5e1b6db41f05d01999e2003e62d18",
+    "e6d8d3fbd39a4e5becd6695a50d5fe850f307521f4be302ca413f665be862984",
+    "e7ab5f74c2c2d527183f7bc06dd72fd48467a6c97507118fd6abf879d0aba9ec",
+    "98e6328586f361d07da5617688b4c971b62506362b7ff44f27c849f3aa0c4a6d",
+    "5be661afef4ba162418c0d200f9a24b48399f5697ceb3b0635aff4077995d670",
+    "4312504402ceac06743c8f66f2c0d0f489683aca826f7c1f90e76a227a5ac0c8",
+    "254b7962f19f5469e843a42f0d2a089170c2dccb05a9463a78077e0117ed770d",
+    "4719c56521cde165f953007be232b4f8f7585ebfc59852910f3fc410e30790d4",
+    "7e073cb020367b7be076c6f51a06e7f852c81c2d3d0ad2fc8a56d782b9e13f3b",
+    "82d8e4a1738d7c7791fd15af222b681795dc41aa668c2d830b456e7924ce3744",
+    "003fc8b8eab9b325949942af1e0efe1aa9574df5a1a53e47d97d8f4b17e404d3",
+    "71aed37ecf61763d528852c7fcb36ad780db505d7369fdf9615366b16c93c48c",
+    "34df2a31bdeed35404d25a035facc46464bcacce52f448b3bd07ff189aac2a40",
+    "e6a23faade3900673503011b7cc3a6d11006a8fbcbc6bfce48001a73e79fd81a",
+    "82a16a65b5c729521cb03afaf49de2234e81d0b1df54262bc8eacf44d3e68cac",
+    "cd54a7f3fd01864958913075f5d49237dcc6ca4287e6032b33446d0766eea434",
+    "83240c328d9ea43c282e854ef8a07b5ace4f199b6569a4263e424485ce98b456",
+    "8deb774c188f08e63dce795e450055a6678d04e022d15b4330e5126a170ba188",
+    "e80f2d169d52d8d9ee799c72bb798bb8be4ffba32a2351d9960a4c2a30f9dad3",
+    "b8331bfe038a1732c7a8495a4a77051e47f04112d8195b1dd13eaa92cdeb1b68",
+    "6b8f85c011c474d2b161ca28623e9c03fd371691c550569ec1f89fc366638c06",
+    "96614f06af9179e0876b49e0609e5319affa599cf8b56d47d99af83eddac9ecd",
+    "2838c71cf4530d8ef66bd9510e1cccbf35aa3a4d827abf950f0c9c4e7935f802",
+    "5234966456c15fab536d307620305dfede50f91209175b75e24fe8e28c2dfc8f",
+    "fedfcbd805c477fc2eee4d21699e5a734655916313f6b05bb2c94a0cef6b72d7",
+    "e801f5cd835287e04a34641e5d90870892fbf24c68bb9376a1f4e54af2509040",
+    "2d3e75bc0fe762f48668d5af537e01399527b23a47b71f65cea3263b06d68d9f",
+    "c86bedd8aeb35181a5cbc46769e26883c009e2ee8d828828a8c4a40daccc19af",
+    "5e33850d914cb5f71706d6b31b77761bc7493b97136e8b39055f03064883a73f",
+    "fd58b51d922a09898e6a094d3691a92fd7644bb770314584a2a2685d3e22f3d7",
+    "e5b9e9ed52e01a56d72ab3a9e67065a60e84d706321fb9e6e517e3f99d329e52",
+    "36874f9e19535e0cbcd79cd4c7dbe79615fd8549ed525f76340c5b623813f176",
+    "3b927598208b33647dfd4a75968fef0aa10f4b425634231779ada078cc45c5fd",
+    "e9cd2512a46f61cec2178de1eab3a6edbb76096fb4860648dd6288ebe2c5cf04",
+    "a009c568dcf633493aae01800c1048e30bf4f5d3cc26156086b4cd6be082a6ad",
+    "10b43020e94dc6d4f5ce62340ee5a707bd1dc84447542aba8f1f5b76e48556e1",
+    "28748ff499bb27e6705ccd8545a4f4db56bd207eb7776270058a0a46191babfb",
+    "f3a709a93a4abef0e523af17e720c9c32091967b1d8810c99be49a0407cdc8da",
+    "52c4434c079084437a466b600b85de0b484185fef07398e430ba90c09a9937ef",
+    "b186c198cb69b2676a732a6d4564e3b0e0627ab4e2ac4fbae6ecf62c3673ef7c",
+    "d543bd837d9bcde4f4aedaa021021c35d7324b4bb1409a420b9c6d58904e6520",
+    "9ee1758ac1536c7391aa97206fdc7daba53d7ab5b7353a3a9863d544200d82af",
+    "f874725c85c1bd982009c5dde60af10cf34863d063dfe502ce769396a00d6f32",
+    "24dff67dee039454d571fcd7b4b114c242de0f9550873d6923ebf2beeb568ab8",
+    "936aea99566032299f26d55d24e24f7c8256cc4e995a3a40cf5a892d4507e32c",
+    "8dafd27e1949033ab1ead59c8f3d7936cf0f904e06abdc431fd054b00ddfbb0e",
+    "e891de705552fe44e3459e949b5784124273dbaa479d541913ac2a480ed5e384",
+    "34e2fe66a8a7bf712a509db26b15127e733a9a13bc4de51a7991714a9920e746",
+    "e61af312487921784e60b76be8bcea67b73e8f8098fab687a425eb62558eefcd",
+    "58034a763f34edca9df7cfb0e6e54e154f01d1f2c3d8d7e45aea70b73291df13",
+    "0bfa0edbe84b7f6a7d5c109ff35c22408e99e4a6e91c4ab76ff82beecae8777b",
+    "f4b339a06bded24d50af5929c97a700e6bb6e11c6738b4098ee1d70e4cc621e5",
+    "a8f256f371c5bc1b068233a6095708be6cb7318805b1b255e5fba597a061590a",
+    "4b7e7f2327ffd8b7f4acb2c7a510b58c377f90baf72424d455ac262d200e4086",
+    "37ff9ec86d812b5a664644da971842b9fb47fd0adb1decf2d9fdf4bd96345282",
+    "8721e8ed11ad59818ebe09cd312c48991f88a596122fe4a59c3b8de22fb0ba84",
+    "4be5da91b743860b38fc9300ec9a5cbe1eeffa1f8d1ef9baf1953a039e283a03",
+    "7adb11bff7daf53a19ad8ad18fa66d122ebccec7c36582555fc6a3463b04496d",
+    "5574ffd8c8897256ac31a1427feb55c6f621c43da308ae985048e12cb00f941f",
+    "6f496c4c5e9830647051c691accf0df7c37ddfd649b9804fc10c92f337bf391a",
+    "54d3811f99140b2bb871bb72efccace9a7bb1a71d058330267eb5c30a09fb8ce",
+    "e33940bb478db261415fe7bbba1dcbd29cb476a11d49d951790d5e843f7d64c1",
+    "ea4630f16f049d61d097fd83c7b1a215e43d0c50fcc4ed159f6ea08f546bceeb",
+    "2e82c9b39db8d09c1292d58463d494bb0a28ec32bc52cd529781c0e71abb6f4c",
+    "021098a7250f65c60dbf1b9582670eecf3ee30b1641a574ecc7c75ae6d6f1b71",
+    "1407fa8cf6bfdc6a0da0685d1ea5131f6ae060ade8a73918e8a15959f525ac61",
+    "fdb6f5019530a7eef14448baa8de2e734ed4786d037d3b307183bc34e0037e8d",
+    "ed314789a6e31a1548448f8c25afe5c06f2f5d801bed957257f43070ea444877",
+    "3a0bbf7e76d8c26ec4adaee5ebc6f2d0621fa1c8b5842016424a49b36c2da1fa",
+    "e2b92a8de19790d02f0e204ff3e88cf45797267f153337b9d1fdff4140d1a602",
+    "33e3cf570270bfabb15da9cfdff6ec9c39f2746d466aa0397603d5ef9e749bcc",
+    "fa838ec0853394fb8c9dee6dac84ff89b0d02643c03656222415c78b3460d475",
+    "aac538bceb0d2959ac1b5ee4d250c58860f787eac55fbe38dca592597d69b32e",
+    "2706bbdd9a7d02510b485807619317c02eab0f80ffe4ec760e50ae55db946208",
+    "43071d2bae46794a4a54785bab012b4d48a9b26fa3762f52b87cf546325c8c23",
+    "c5448c2df8344b2f868815069515bed5034ffd09784eb69f81712f9275cb5366",
+    "b3cc698c3bd6415a6560f13095768b21ca0bdfa14d26852b34f3558752a091f6",
+    "c899d8ead3d74cbfe18b7faee217d662ee60e994561e898320f904afdd127a14",
+    "0405dcada1715892d284a1f5abe9f95a699a26b856a9610473dd64e5f2f2f9ad",
+    "0183c2fe2951238d8cc6cd2496dec8a2f7395e6eca447d3335709fab46cc06a3",
+    "4df75c2f7c7375779724f294ba95f6b913752a56a462a19057ce04c362be8b35",
+    "ddd304552a1a075841cd2d56291f7f48927fb6ed5d4bfee70be8855100dfc3b9",
+    "96bd23c5dc557276d501656c1da3cf50c736472d91149c7d277116e3c9fc3ca0"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "f4b339a06bded24d50af5929c97a700e6bb6e11c6738b4098ee1d70e4cc621e5",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "An Italian company operating an international occasional service between Italy and Sweden needs control documents and journey sheets issued by competent Italian and Swedish authorities and all transit states crossed.",
+          "after": "An Italian company operating an international occasional service between Italy and Sweden needs journey-sheet control documents issued by the competent Italian and Swedish authorities and by the transit states crossed."
+        },
+        "zh": {
+          "before": "意大利企业在意大利和瑞典之间开展国际临时服务，需要意大利、瑞典主管机关及所有途经国签发的控制文件和行程单。",
+          "after": "意大利企业在意大利和瑞典之间开展国际临时服务，需要意大利、瑞典主管机关及所有途经国签发的行程单控制文件。"
+        }
+      }
+    },
+    {
+      "id": "a8f256f371c5bc1b068233a6095708be6cb7318805b1b255e5fba597a061590a",
+      "reason": "Italian 's'intende' is a definition, rendered here as a bare statement",
+      "changes": {
+        "en": {
+          "before": "A closed-door occasional bus passenger service does not allow the company to offer customers local excursions in the destination state.",
+          "after": "A closed-door occasional bus passenger service means one that does not allow the company to offer customers local excursions in the destination state."
+        },
+        "zh": {
+          "before": "闭门临时公共汽车客运服务不允许企业向客户提供服务目的国境内的当地游览。",
+          "after": "闭门临时公共汽车客运服务是指不允许企业向客户提供服务目的国境内当地游览的服务。"
+        }
+      }
+    },
+    {
+      "id": "6f496c4c5e9830647051c691accf0df7c37ddfd649b9804fc10c92f337bf391a",
+      "reason": "Italian 's'intende' is a definition, rendered here as a bare statement",
+      "changes": {
+        "en": {
+          "before": "A closed-door occasional bus passenger service carries the same group on both outward and return journeys.",
+          "after": "A closed-door occasional bus passenger service means one that carries the same group on both outward and return journeys."
+        },
+        "zh": {
+          "before": "闭门临时公共汽车客运服务在去程和返程运载同一组人员。",
+          "after": "闭门临时公共汽车客运服务是指去程和返程运载同一组人员的服务。"
+        }
+      }
+    },
+    {
+      "id": "b3cc698c3bd6415a6560f13095768b21ca0bdfa14d26852b34f3558752a091f6",
+      "reason": "Italian 'sono quei servizi che' is a definition; the Chinese stated a general fact; Italian 'sono quei servizi che' is a definition; the English stated a general fact",
+      "changes": {
+        "en": {
+          "before": "Occasional passenger services have a route predetermined by the authority.",
+          "after": "Occasional passenger services are those that have a route predetermined by the authority."
+        },
+        "zh": {
+          "before": "临时客运服务具有由主管机关预先确定的路线。",
+          "after": "临时客运服务是指具有由主管机关预先确定路线的服务。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "0a6e4adcc9c60df22f866ab6a06f3018b15f7257f9395eabe5b6fb7ac54fb72f"
+}

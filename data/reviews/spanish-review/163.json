@@ -1,0 +1,37 @@
+{
+  "batch": "163",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "4d5e1a128a5978fe4e0ecfec44bf281e115ea9296b904216a244fc5d8cdf6a0e",
+  "source_sha256": "752fd3c0a6baa2c528c518f8725160c320125aeb5dfcd8da82e411c64dd9d1d1",
+  "corrections": [
+    {
+      "id": "d7782c14c824f259511dbb18e7639930b72daf05109d74ace4ae6deb90b0615f",
+      "before": "En caso de desacuerdo entre el transportista y el cliente sobre el precio del transporte, el conductor no debe intervenir porque no es parte interesada",
+      "after": "En caso de desacuerdo entre el transportista y el cliente sobre el precio del transporte, el conductor no debe intervenir porque no es parte en la controversia",
+      "reason": "\"Parte in causa\" means party to the dispute, not an interested party"
+    },
+    {
+      "id": "d799e9c156614ee9d5fb141238ed6f41e807090c5ae820b030b15f015fa01844",
+      "before": "La detención de un vehículo es la suspensión temporal de la marcha por necesidades de muy corta duración.",
+      "after": "La parada de un vehículo es la suspensión temporal de la marcha por necesidades de muy corta duración.",
+      "reason": "Fermata es parada temporal; se conserva la distinción respecto de arresto."
+    },
+    {
+      "id": "d8112c40a5cabf516fb2d01e7bbcccbe37d0bfbddcbc70a0a78a4cb05689ac54",
+      "before": "La detención está prohibida en las intersecciones y cerca de ellas",
+      "after": "La parada está prohibida en las intersecciones y cerca de ellas",
+      "reason": "Fermata indica parada temporal."
+    }
+  ],
+  "reviewed_file_sha256": "9ebd497f15a9e421b8bbf7bba07aea18cec8d14204b762489303053aa7b257f6"
+}

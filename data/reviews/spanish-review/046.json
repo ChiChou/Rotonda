@@ -1,0 +1,61 @@
+{
+  "batch": "046",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "004225e9f2530696790663f24afaefd39b493885fddd5392fcc24da91635ed03",
+  "source_sha256": "57388c3d37c43e5f61a846286ff55c02625444fcf3eaf303665fe7567f0981de",
+  "corrections": [
+    {
+      "id": "3d7ebf6883d993707a5cdafc8d666424e9e7e894245ad2132011b5483a5ee803",
+      "before": "El pasajero necesariamente debe recoger el boleto antes de subir al autobús",
+      "after": "El pasajero necesariamente debe recoger el boleto (documento de transporte) antes de subir al autobús",
+      "reason": "Restituye la explicación del boleto incluida en el original."
+    },
+    {
+      "id": "3d935e3d4f22284934519bb96fde1776872f5ca08c738e720c67fc17db93366d",
+      "before": "En vehículos de dos ruedas, si la cadena de transmisión muestra desgaste hay que reforzarla con alambre adecuado",
+      "after": "En vehículos de motor de dos ruedas, si la cadena de transmisión muestra desgaste hay que reforzarla con alambre adecuado",
+      "reason": "Restituye la categoría de vehículos de motor."
+    },
+    {
+      "id": "3dbb18f2843b18b6b4a12fdc36da0e52abf4e0e8598583873aa1aeba99c1a7b4",
+      "before": "Solo forman parte de la CEMT los Estados miembros de la UE",
+      "after": "Solo forman parte de la Conferencia Europea de Ministros de Transporte (CEMT) los Estados miembros de la UE",
+      "reason": "Restituye el nombre de la conferencia incluido en el original."
+    },
+    {
+      "id": "3dd01183efb70127369bcbf86ff8f84684b3c780ed92c0917ca97019d81ab076",
+      "before": "A efectos de la normativa del tacógrafo, se define como descanso semanal normal todo descanso de al menos 24 horas",
+      "after": "A efectos de la normativa del tacógrafo, se define como descanso semanal regular todo descanso de al menos 24 horas",
+      "reason": "'periodo di riposo settimanale regolare' is 'regular' weekly rest, not 'normal'"
+    },
+    {
+      "id": "3e01d051838760c1159b083f3f9612dc3631a64de21eb0bede70491fadfaa50e",
+      "before": "En vehículos de dos ruedas, para arrancar el motor el interruptor de emergencia del manubrio debe estar en ON o arranque",
+      "after": "En vehículos de motor de dos ruedas, para arrancar el motor el interruptor de emergencia del manubrio debe estar en ON o arranque",
+      "reason": "Restituye la categoría de vehículos de motor."
+    },
+    {
+      "id": "3e0ab4efc0468c67e6abe7a486a669ed9b35161a411769e7e46c110f1489583c",
+      "before": "El CMR solo regula la responsabilidad del transportista",
+      "after": "El CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera) solo regula la responsabilidad del transportista",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    },
+    {
+      "id": "3e155ca57f9dab59b51386815b75db001703a2d4fb9dc06e4066062ea23552ea",
+      "before": "10##tipología10 CQC - DECRETO LEY DEL 30 DE JULIO DE 2021",
+      "after": "10##tipologia10 CQC - DL 30 JULIO 2021",
+      "reason": "Conserva intacto el prefijo técnico tipologia del original.; Technical label should keep the source's 'DL' abbreviation; 'DECRETO LEY' expansion was added"
+    }
+  ],
+  "reviewed_file_sha256": "05ce23933eb9250ce33f6cb951d2b9434c8c2e51b565ec949b8491f273a6dd33"
+}

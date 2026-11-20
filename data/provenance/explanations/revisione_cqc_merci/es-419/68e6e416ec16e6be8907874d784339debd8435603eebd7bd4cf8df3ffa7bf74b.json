@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1edc0-2fdc-7013-af32-39e6b4904c24"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "revisione_cqc_merci",
+    "language": "es-419",
+    "records": [
+      {
+        "source": {
+          "number": 15271,
+          "quesito_id": 3230,
+          "text_it": "Per evitare lo spostamento del carico durante la marcia del veicolo è opportuno lasciare il carico stesso sospeso alla gru caricatrice",
+          "answer": 0,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "52b03cf5bff42be82fce6ca2e208ed3b1d8b8faece369d9d5987a395949e5a7c",
+        "italian": "Il carico non va lasciato sospeso alla gru durante la marcia: deve essere appoggiato e assicurato al veicolo, mentre la gru va sistemata per il viaggio.",
+        "italian_sha256": "674d0bc1893babb369e7a1a67e49987c832d788ddbbfdcc064b9a8984d264efc"
+      },
+      {
+        "source": {
+          "number": 15272,
+          "quesito_id": 3231,
+          "text_it": "I veicoli cisterna sono soggetti ad instabilità a causa del fenomeno dello sbattimento del liquido trasportato",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "93fcc31d280ea2325d829557b1a7d9fa6ad2659df4ec876aae07721abe560b88",
+        "italian": "Il liquido può muoversi nella cisterna durante la marcia, modificando le sollecitazioni sul veicolo e contribuendo alla sua instabilità.",
+        "italian_sha256": "17efdbb3cdfdb574aa3f0e8d19acf0a3aae07eafd63822a6e83cee1bbf399be7"
+      },
+      {
+        "source": {
+          "number": 15273,
+          "quesito_id": 3231,
+          "text_it": "I veicoli cisterna sono soggetti al fenomeno dello sbattimento laterale in curva",
+          "answer": 1,
+          "page": 1,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6d3ff958c2c791786adb588574c841850cf5d9909ce71a36dcefc4f3e04c171e",
+        "italian": "In curva il liquido può spostarsi lateralmente nella cisterna e rendere meno stabile il veicolo.",
+        "italian_sha256": "8e05042390905e4cc625e9f7e3f21c58bf2b584e7c821d6af3427e67c84f29c1"
+      },
+      {
+        "source": {
+          "number": 15274,
+          "quesito_id": 3231,
+          "text_it": "I veicoli cisterna sono soggetti al fenomeno dello sbattimento laterale nelle rotatorie",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f16d6a72438e7d3a1f278d783b133623ba383aaabf2e240b32068083b4ba4894",
+        "italian": "In rotatoria, come nelle altre curve, il liquido può spostarsi lateralmente e influire sulla stabilità della cisterna.",
+        "italian_sha256": "32f53ded472c3bada97b295596ccdca5794c29aaef9b1f13e910032e3aab04bc"
+      },
+      {
+        "source": {
+          "number": 15275,
+          "quesito_id": 3231,
+          "text_it": "I veicoli cisterna sono soggetti al fenomeno del sovraccarico dell’asse posteriore",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "ddc7e21b3df437eb9860b4349584dc9e850de8db07c916516675cabd44f07767",
+        "italian": "Il sovraccarico dell’asse posteriore non è un fenomeno inevitabile delle cisterne: dipende dalla distribuzione e dalla quantità del carico. Occorre rispettare i limiti di massa sugli assi.",
+        "italian_sha256": "3facf79a4a84681e7d99bf96bfdca089ca46b03dc079489e21628eebc5c70ab8"
+      },
+      {
+        "source": {
+          "number": 15276,
+          "quesito_id": 3231,
+          "text_it": "I veicoli cisterna non possono viaggiare a pieno carico per problemi di stabilità",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "8894006e03e7553e92dae54f7b31ae7e6ad52d4dae999638fd929e8c06b8e4c0",
+        "italian": "Non esiste un divieto generale di viaggiare a pieno carico per ragioni di stabilità: il carico deve rispettare i limiti del veicolo e le condizioni di riempimento applicabili al liquido trasportato.",
+        "italian_sha256": "b3345ec4dc6385c038b9e1c010ef461960cffef5f70a4fff030682aa03c35665"
+      },
+      {
+        "source": {
+          "number": 15277,
+          "quesito_id": 3231,
+          "text_it": "I veicoli cisterna, percorrendo una curva,sono soggetti al fenomeno della dispersione del carico a causa dello sbattimento laterale",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "759e66f3785580673f4a908fee1419d7931754c9effd239ad625e5e06fc31039",
+        "italian": "Lo sbattimento laterale può compromettere la stabilità in curva, ma non provoca di per sé la dispersione del carico: il liquido è contenuto nella cisterna.",
+        "italian_sha256": "8732234572fc8e3e7693eb17121bd2633ed05c6d20704efdbee84c3268bdbd1b"
+      },
+      {
+        "source": {
+          "number": 15305,
+          "quesito_id": 3236,
+          "text_it": "Il pallet è un supporto per il carico",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "24cc6656430f9554c90d22326fa7575b05f3903597618e67743fb3147f60047e",
+        "italian": "Il pallet è una piattaforma sulla quale si appoggia la merce per formare un carico movimentabile.",
+        "italian_sha256": "ee7ae137894c305d60e8cdb61b092f8ce144b704783abe7bcd84b791e3e7d840"
+      },
+      {
+        "source": {
+          "number": 15306,
+          "quesito_id": 3236,
+          "text_it": "Il pallet è una piattaforma dotata di traverse e appoggi",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "3982c4e2ab10baec4d66408a2877e479d696f3cad8b40f7d26a984fffe452e0d",
+        "italian": "Il pallet è una piattaforma di carico: nella forma comune ha un piano sostenuto da traverse e appoggi che lasciano spazio per le forche.",
+        "italian_sha256": "2a444de0aeb1a0c10300f5e5cdcab043a4f0a593a3a8dad926f49b5921c711ca"
+      },
+      {
+        "source": {
+          "number": 15307,
+          "quesito_id": 3236,
+          "text_it": "Il pallet è un’attrezzatura adatta alla movimentazione e al trasporto della merce",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7a388d09de7da987eba2387ccce5434162cdf48263d0225153a189629358a86d",
+        "italian": "Il pallet riunisce e sostiene la merce, facilitandone la movimentazione con le forche e il trasporto.",
+        "italian_sha256": "c6495e0412c289f2d7fc6a2761f90ab1082d3c6b0dcf5386cf765e382e6a2973"
+      },
+      {
+        "source": {
+          "number": 15310,
+          "quesito_id": 3236,
+          "text_it": "Il pallet è un carrello elevatore",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6c6796a30e24c80561e50131d41f343e596d795fc5e5866f5fa548edb0c0e2ad",
+        "italian": "Il pallet non è un carrello elevatore: è il supporto del carico che il carrello può sollevare con le proprie forche.",
+        "italian_sha256": "edd39a3855a267bebcb485e5e1912b822ddb16d22fc3bb8ce96b850fea840668"
+      },
+      {
+        "source": {
+          "number": 15311,
+          "quesito_id": 3236,
+          "text_it": "Il pallet consiste in bombole ad alta pressione",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2d1a33dc0ae72599c264da1597a64d59a2ea4522a19a90a728c2c30eebed4edf",
+        "italian": "Il pallet non è un insieme di bombole ad alta pressione: è una piattaforma che sostiene la merce durante la movimentazione.",
+        "italian_sha256": "c72ef58d8300ea31da44a6b4a215250abb0768e74507522c434bae69723bfe1d"
+      },
+      {
+        "source": {
+          "number": 15312,
+          "quesito_id": 3236,
+          "text_it": "Il pallet è un’attrezzatura utilizzata per la movimentazione dei container",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "86f5627da924bc0a0ecb9cfc011edf6969ec4b53c914b655ed96a6f8378233f7",
+        "italian": "Il pallet serve a sostenere e movimentare merci come unità di carico; non è l’attrezzatura destinata a movimentare i container.",
+        "italian_sha256": "2adba8683a22704a6c644fd8486365b73071138d3a8fbc25193596dc4b2dd2c2"
+      },
+      {
+        "source": {
+          "number": 15314,
+          "quesito_id": 3237,
+          "text_it": "Le merci movimentate con pallet sono sovrapponibili",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b51b5473bfbae8200ff00a712438baa9a0383dc302245bfda037b2ba91e5282b",
+        "italian": "Le merci su pallet possono essere sovrapposte se la loro natura, gli imballaggi e la stabilità lo consentono. Non tutte le merci pallettizzate sono però sovrapponibili.",
+        "italian_sha256": "017ada2b06bde66cb24528fa1a981cdd0db6c6d37abd3d7f5408f7c8a77967ff"
+      },
+      {
+        "source": {
+          "number": 15315,
+          "quesito_id": 3237,
+          "text_it": "Le merci movimentate con pallet devono poter sopportare il peso delle merci eventualmente stipate sopra",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "90b5905980fe3d61264c2e349dc2f04227bd7254f0c30c79814c509248de72f8",
+        "italian": "Se si sovrappongono merci, quelle sotto devono poter sostenere il peso di quelle sopra anche durante frenate e curve.",
+        "italian_sha256": "837d430126dc54b2544ed2fa8d1f8a1cc225dbea99ec66e57092e0e3fd730742"
+      },
+      {
+        "source": {
+          "number": 15317,
+          "quesito_id": 3237,
+          "text_it": "I pallet caricati con merci sono ancorabili tramite corde, catene, fasce in nylon e tenditori",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7c77998d5669599c5b71aba12126bd362209fe53177a339c3028dbba6d50ea7f",
+        "italian": "I pallet caricati possono essere assicurati con legature e tenditori adatti al carico e ai punti di ancoraggio, scelti in modo da impedire gli spostamenti.",
+        "italian_sha256": "c7608922c2ba4289979c7a5d06600e77b91adc751ce528407697d2b24f51daef"
+      },
+      {
+        "source": {
+          "number": 15318,
+          "quesito_id": 3237,
+          "text_it": "Le merci movimentate con pallet non vanno stabilizzate con cinghie per consentire maggiore flessibilità della movimentazione",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "703fd40205635a51a842af45a859555677b390b1bda2bb979a31b782ee6e0a39",
+        "italian": "La maggiore flessibilità non giustifica un carico instabile: la merce sul pallet va stabilizzata con mezzi adeguati, comprese cinghie quando necessarie.",
+        "italian_sha256": "858fa50a5f4c3a824bd97f852a78c9960c843fa391c2848bb6c74f858eb33250"
+      },
+      {
+        "source": {
+          "number": 15319,
+          "quesito_id": 3237,
+          "text_it": "Le merci movimentate con pallet non possono essere sovrapposte",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d6fdc0e54fafb4703bcd26dba34fd71f84bb03108f002d4fe0a8b2947229db77",
+        "italian": "Non è vero che le merci su pallet non possano mai essere sovrapposte: si possono impilare quando imballaggi, resistenza e stabilità lo permettono.",
+        "italian_sha256": "062c7448fe0479b99817881393bf83a01542a5de8dba36fe7d1f56ac14e3822c"
+      },
+      {
+        "source": {
+          "number": 15320,
+          "quesito_id": 3237,
+          "text_it": "Le merci movimentate con pallet non devono essere fissate con cinghie perché il loro eventuale movimento potrebbe rompere le cinghie stesse",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "79319f84eef01ab39c3a6cb904fcb564177385318d9379d5b06484eac7b8a809",
+        "italian": "Il possibile movimento non è un motivo per rinunciare alle cinghie: occorre stabilizzare e fissare il carico con dispositivi adatti e in buono stato, proteggendoli dagli spigoli.",
+        "italian_sha256": "5409f556372c33a2b2c253f7b5fbf5d441bb80ddc087d4159589ffd58b09385b"
+      },
+      {
+        "source": {
+          "number": 15321,
+          "quesito_id": 3238,
+          "text_it": "Nel trasporto di fusti, bombole o bidoni è necessario utilizzare accorgimenti per evitarne il rotolamento",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "b73efadc4dcf458658db1aa0042cea8aa6439bfb5824e7420df2ae1e33c94e49",
+        "italian": "Fusti, bombole e bidoni possono rotolare: vanno disposti e bloccati con sistemi adatti, per esempio sostegni o cunei, oltre agli eventuali fissaggi.",
+        "italian_sha256": "dcc1e4937a55af3d00c2379ad0bd1a147b55f48639b2cd2e34dd86102d06e516"
+      },
+      {
+        "source": {
+          "number": 15322,
+          "quesito_id": 3238,
+          "text_it": "Nel trasporto di fusti, bombole o bidoni è necessario utilizzare veicoli appositamente attrezzati",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d718db57f0a7201ca324e633829a1942c3424b907c8b50a2ce1eb6639010a60f",
+        "italian": "Il veicolo deve essere idoneo e dotato dei mezzi necessari a contenere e fissare in sicurezza questi colli. La formulazione non implica che serva sempre un veicolo costruito esclusivamente per fusti, bombole o bidoni.",
+        "italian_sha256": "9f86c222c0193bccbae61e262af960064fae4e3ce46b89e1466002484e2cd343"
+      },
+      {
+        "source": {
+          "number": 15323,
+          "quesito_id": 3238,
+          "text_it": "Nel trasporto di fusti, bombole o bidoni è obbligatorio utilizzare teli di copertura per evitare la dispersione del materiale trasportato",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2f7d3c23ed69ad8fd4674a33f4e3dcf3e8d224e104fa4231b80f41c4db1e9fa0",
+        "italian": "Un telo non è obbligatorio per ogni trasporto di fusti, bombole o bidoni: serve una sistemazione adatta che trattenga i colli e ne impedisca la caduta o il movimento.",
+        "italian_sha256": "fd5ab1f60937eaacd42e7ab990a74e105807e77c537af9ada3c993251df6e9df"
+      },
+      {
+        "source": {
+          "number": 15324,
+          "quesito_id": 3238,
+          "text_it": "Nel trasporto di fusti, bombole o bidoni è obbligatorio utilizzare tappetini per aumentare il coefficiente d’attrito tra il piano di carico e il contenitore",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "584e5fe1a4d1ae2c7fd4b09187d75f2ab3ad01e859b60669a08b5b753264c742",
+        "italian": "I tappetini antiscivolo non sono obbligatori in ogni caso: possono aiutare il fissaggio, ma il sistema scelto deve comunque impedire il movimento del carico.",
+        "italian_sha256": "090b8229fea8786157cfd7cda3e76c74d7ff0ec45cd62e51ee5023ab451cf3bb"
+      },
+      {
+        "source": {
+          "number": 15325,
+          "quesito_id": 3238,
+          "text_it": "Nel trasporto di fusti, bombole o bidoni si debbono utilizzare, per motivi di sicurezza veicoli attrezzati con sponde montacarichi",
+          "answer": 0,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f138bea0393c9e65664c2e5a805c9faeb72b3c86ce6c5b5acbce3c02d83ebbe2",
+        "italian": "La sponda montacarichi non è sempre necessaria per trasportare questi colli: occorrono un veicolo idoneo e sistemi adeguati per caricarli e fissarli in sicurezza.",
+        "italian_sha256": "20601ab0e59e4b031895a55ebbd6bec1061efd3a1bf7161229a13ede8923a5b1"
+      },
+      {
+        "source": {
+          "number": 15326,
+          "quesito_id": 3239,
+          "text_it": "Nel carico delle merci è importante tenere conto dell’ordine di consegna dei singoli colli",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2f19802a23b8a55af98c7bd9fb06546aa2206ddf6ac44458ce6f2cacb3b5d019",
+        "italian": "Considerare l’ordine di consegna aiuta a rendere accessibili i colli da scaricare. Dopo ogni scarico va mantenuta una distribuzione corretta e va verificato il fissaggio del carico rimasto.",
+        "italian_sha256": "5e9314384734043fdf8dd2b6cb487e195ba50c09a04139285de1fa4e33849387"
+      },
+      {
+        "source": {
+          "number": 15331,
+          "quesito_id": 3240,
+          "text_it": "Per il trasporto di animali vivi è richiesto l’uso di veicoli per trasporto specifico",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f56a74e97b9c0df7baae13df8b666601a787f45f2a2f0836296c96252c9702eb",
+        "italian": "Il quiz considera il trasporto di animali vivi effettuato con carrozzerie apposite, classificate per trasporto specifico. La formulazione è generale: la classificazione della carrozzeria non dimostra da sola che ogni trasporto di animali richieda tale veicolo.",
+        "italian_sha256": "c420bdf1d30c50f7ab4fc398053d9d47bd23636dbd8c56c82c56c247c986a8a4"
+      },
+      {
+        "source": {
+          "number": 15332,
+          "quesito_id": 3240,
+          "text_it": "Per il trasporto di rifiuti solidi urbani, è richiesto l’uso di veicoli per trasporto specifico",
+          "answer": 1,
+          "page": 2,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "4dd1e6d36fa7bcdf360f1bad94429940742840ecc7c3614c5c2897c076267534",
+        "italian": "Il quiz si riferisce ai veicoli con carrozzeria attrezzata per carico, compattazione, trasporto e scarico dei rifiuti urbani, classificati per trasporto specifico. La sola classificazione non dimostra che ogni trasporto di tali rifiuti richieda quel veicolo.",
+        "italian_sha256": "5e878b44813904788959eb06ac40a7594d2592ec77d8a50aa5dc5d3839b214ee"
+      },
+      {
+        "source": {
+          "number": 15333,
+          "quesito_id": 3240,
+          "text_it": "Per il trasporto di merci deperibili in regime ATP, è richiesto l’uso di veicoli per trasporto specifico",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "116c9a82d8c683b2e468a64ac6e05b63df77f80a2dcb6d8d7a106a6f78882f19",
+        "italian": "Nel trasporto ATP si impiegano normalmente mezzi o attrezzature speciali idonei a mantenere la temperatura richiesta. L’accordo prevede un’eccezione quando le temperature previste rendono manifestamente superflua l’attrezzatura speciale.",
+        "italian_sha256": "062770ea1a6167c7a8acc83942c76fbc01eaa830b87b76fd0939145c2a95f297"
+      },
+      {
+        "source": {
+          "number": 15334,
+          "quesito_id": 3240,
+          "text_it": "Per il trasporto di mobili d’arredamento è richiesto l’uso di veicoli per trasporto specifico",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "76af7c8c44cc11574dcdf00e3e129d8d3234637e833834acbd6faa40876e3599",
+        "italian": "È errato ritenere obbligatorio un veicolo per trasporto specifico: i mobili possono essere trasportati su un ordinario veicolo per merci, purché il carico sia sistemato e fissato correttamente.",
+        "italian_sha256": "735ee6c9a2a7ed76d71af482a55e807441d6a69809408fa1a2653c91ba03a8e0"
+      },
+      {
+        "source": {
+          "number": 15335,
+          "quesito_id": 3240,
+          "text_it": "Per il trasporto di carta con pallet è richiesto l’uso di veicoli per trasporto specifico",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "f63fd64a5dfe30178b5f70f32f2330581d89fb640907632a5b5d525fcb3c1256",
+        "italian": "La carta su pallet non richiede di per sé un veicolo per trasporto specifico: può essere caricata su un veicolo ordinario idoneo, fissando i pallet in sicurezza.",
+        "italian_sha256": "e04ccbd0531f226d2c87e8936ac93d3618dcd96e4d165afada60bbc4cfa1bd8f"
+      },
+      {
+        "source": {
+          "number": 15336,
+          "quesito_id": 3240,
+          "text_it": "Per il trasporto di collettame è richiesto l’uso di veicoli per trasporto specifico",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "928a4fd2ac29fc3a80f36ffd5cf7e6fc6c7e70122f3e433d8373a3e0dcda31dd",
+        "italian": "Il collettame, cioè un insieme di colli diversi, non richiede di per sé un veicolo per trasporto specifico; occorre comunque un veicolo idoneo e un carico ben fissato.",
+        "italian_sha256": "e30deb78efaea7c20d80d1d8a24e4490cef72b60f32831436bd0d82a7281b6b8"
+      },
+      {
+        "source": {
+          "number": 15344,
+          "quesito_id": 3242,
+          "text_it": "Le cisterne sono veicoli per trasporto specifico",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7ab3b29f288f9dc7bad35de25b99bcda1bd5978e20384c34a1b89ca4004091d4",
+        "italian": "Le cisterne attrezzate per il trasporto di liquidi, liquami o materiali sfusi rientrano tra le carrozzerie per trasporto specifico.",
+        "italian_sha256": "088c9fda378a45b7a4591ab4b46662663205db964d26c3b6653e2fd5b6b7c543"
+      },
+      {
+        "source": {
+          "number": 15345,
+          "quesito_id": 3242,
+          "text_it": "I furgoni isotermici per il trasporto di derrate in regime ATP sono veicoli per trasporto specifico",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "adf9905f041e03c973081c85a894f72b728b4f8ea6437adefb77ae46eb8148d5",
+        "italian": "Il furgone isotermico riconosciuto idoneo al trasporto di derrate a temperatura controllata è classificato per trasporto specifico.",
+        "italian_sha256": "8a851f5db8f53bb53fd60e7ec73c7fafaf1fd4cb388f95c349cc17f194b82a0c"
+      },
+      {
+        "source": {
+          "number": 15346,
+          "quesito_id": 3242,
+          "text_it": "Le betoniere sono veicoli classificati per trasporto specifico",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "c685b3b7f12d1871af7bc80b1f00a7c281b9fee13833895e4bfecbe0d06824a9",
+        "italian": "La betoniera è espressamente compresa tra gli autoveicoli per trasporto specifico.",
+        "italian_sha256": "f2a6590545e8714e06d9f0d27f33bfa6415bbb17bd205551e2f598252a245459"
+      },
+      {
+        "source": {
+          "number": 15347,
+          "quesito_id": 3242,
+          "text_it": "I furgoni di massa massima autorizzata superiore a 3,5 t. sono veicoli per trasporto specifico",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "33698f3a166d5e07ab9895b304ee84d562fc925099b4ac3ca2641f5961a19201",
+        "italian": "Superare 3,5 t non rende automaticamente specifico un furgone: la classificazione dipende dalla destinazione e dall’allestimento permanente.",
+        "italian_sha256": "50ab90c342c32ef5fa325e005b1cf30771d62484de27e4c4a51e8d32f91d940a"
+      },
+      {
+        "source": {
+          "number": 15348,
+          "quesito_id": 3242,
+          "text_it": "Gli autocarri di massa massima autorizzata inferiore a 3,5 t. sono veicoli per trasporto specifico",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "06b6c430a2bdf8f64e66d153880fe547bc6b1819f2e0d5084391dcc0ca3b6a78",
+        "italian": "Una massa inferiore a 3,5 t non rende automaticamente specifico un autocarro: contano destinazione e attrezzature permanenti.",
+        "italian_sha256": "9395367f482f0eb2bc9b84796fa8765386896b15308b1c22ed07e06352bb138d"
+      },
+      {
+        "source": {
+          "number": 15349,
+          "quesito_id": 3242,
+          "text_it": "I veicoli per trasporto specifico possono esser utilizzati per il trasporto di persone",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "e127de6bd3fb0b7ec7e252a1a4df17c8e029003369397d6393be8d433c9a01ce",
+        "italian": "Il quiz indica FALSO, ma la frase è ambigua: un veicolo specifico per merci non è destinato al trasporto generico di passeggeri; esistono però veicoli per trasporto specifico di persone in particolari condizioni.",
+        "italian_sha256": "c53c2a30716a750df65d3751e55c3a1a4670da0e3410b6fe2397059edc9844bb"
+      },
+      {
+        "source": {
+          "number": 15376,
+          "quesito_id": 3249,
+          "text_it": "Con un veicolo munito della licenza in conto proprio possono essere trasportate soltanto cose attinenti l’attività del titolare",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "5c8fb75c58a16012ab85774a8c1c4111cab9054cfe4213c9bf1853c990a018de",
+        "italian": "Nel conto proprio le cose trasportate devono avere un rapporto con l’attività del titolare, ad esempio essere da lui prodotte, acquistate o utilizzate; il trasporto è accessorio alla sua attività.",
+        "italian_sha256": "2f61fa218f61ae51137e4e4692b91fe6bade84b7e221cf48a6c4aae72001d5cf"
+      },
+      {
+        "source": {
+          "number": 15378,
+          "quesito_id": 3249,
+          "text_it": "Con un veicolo munito della licenza in conto proprio possono essere trasportate cose connesse al ciclo produttivo dell’impresa",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "0ac65251fc0508ba7ff32f935c982f03db3765265aef8c485f9b6e18853e5565",
+        "italian": "Le cose connesse al ciclo produttivo possono essere trasportate in conto proprio se ricorrono anche le altre condizioni previste, tra cui il carattere accessorio del trasporto.",
+        "italian_sha256": "2e29ba1f002c24a01bde1954585b813ab971a267a3d46574e5ce8607032a9fc5"
+      },
+      {
+        "source": {
+          "number": 15379,
+          "quesito_id": 3249,
+          "text_it": "Con veicolo munito della licenza in conto proprio possono essere effettuati trasporti purché alla guida vi sia un titolare o da un suo dipendente",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "cdb7f22aa00af3468d5a21b70483e0bf805173e2b426fa4a68c04a8d4aae10cf",
+        "italian": "La guida può essere svolta dal titolare oppure da un suo dipendente. Questo requisito da solo non basta: devono ricorrere anche le altre condizioni del trasporto in conto proprio.",
+        "italian_sha256": "0019d8be9c335f959aec9ddacfe62d66fdbf301503e721010b6de0e34399c212"
+      },
+      {
+        "source": {
+          "number": 15381,
+          "quesito_id": 3249,
+          "text_it": "Con un veicolo munito della licenza in conto proprio possono essere trasportate esclusivamente cose di proprietà del conducente",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "516ae1bb536969e545ba129becd8d9b39340f6af65fd4736727e0b89d0b4083e",
+        "italian": "Non è richiesta la proprietà del conducente: le merci devono avere il rapporto previsto dalla legge con l’attività del soggetto che effettua il trasporto, ad esempio possono essere da lui acquistate o utilizzate.",
+        "italian_sha256": "8794a752bf788396ba159bcbbb49003cb4485221410d96e2e72d1636e69064a5"
+      },
+      {
+        "source": {
+          "number": 15382,
+          "quesito_id": 3250,
+          "text_it": "Il trasporto di cose in conto proprio è quello eseguito con veicoli immatricolati a nome di persone fisiche, giuridiche o enti per esigenze proprie",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "6168df04b77a1b49ccbcced6a44bb63397a1c6a9cd479997aa04ec1945ee0cfb",
+        "italian": "Il conto proprio riguarda trasporti per esigenze proprie di persone fisiche, giuridiche o enti, con mezzi nella disponibilità ammessa dalla legge e alle altre condizioni previste.",
+        "italian_sha256": "f6bb39df0abba518d3312b084be8a25145ea5a5743d08956810b0827465b2436"
+      },
+      {
+        "source": {
+          "number": 15383,
+          "quesito_id": 3250,
+          "text_it": "Il trasporto di cose in conto proprio costituisce attività complementare rispetto a quella economicamente prevalente, effettuata dall’impresa intestataria dei veicoli",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "7e7083c9a21b49d45ba6ca5d703c35cfc68dc8df97d5807c6ad2f656f8eb800f",
+        "italian": "Nel conto proprio il trasporto non è l’attività economicamente prevalente: è complementare o accessorio rispetto all’attività principale.",
+        "italian_sha256": "86cc3737c97ee2c7d1e320e8ad7bf2824d04dc5917cc76bac3bdd8f806d46625"
+      },
+      {
+        "source": {
+          "number": 15384,
+          "quesito_id": 3250,
+          "text_it": "Il trasporto di cose in conto proprio è quello eseguito da imprese per le quali l’attività di trasporto è un’attività accessoria a quella economicamente prevalente",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2e9bd1e9d2f889d85c9e799656890ce03bafe90585a656177ed2271624e7940c",
+        "italian": "Il trasporto in conto proprio è accessorio rispetto all’attività principale e non costituisce l’attività economicamente prevalente; devono inoltre sussistere le altre condizioni di legge.",
+        "italian_sha256": "dc198937e6454199688ef90d84dbf545c7f9d9b970e20d57e352fed826e15a8a"
+      },
+      {
+        "source": {
+          "number": 15385,
+          "quesito_id": 3250,
+          "text_it": "Il trasporto di cose in conto proprio è eseguito soltanto con veicoli immatricolati a nome di una persona fisica",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "ebf16cc9d12b3f52545a350589b65e01274aea6b17cfe32f1f1667db9cceac24",
+        "italian": "Non è limitato alle persone fisiche: anche persone giuridiche ed enti possono effettuare trasporti per esigenze proprie, con veicoli nella disponibilità prevista dalla legge.",
+        "italian_sha256": "84fd2c19775458d407f5cd997f56520b1bfb91aa2096033b3c0edaf600bf1055"
+      },
+      {
+        "source": {
+          "number": 15389,
+          "quesito_id": 3252,
+          "text_it": "La guida di un veicolo adibito al trasporto di cose in conto proprio è consentita al dipendente dell’azienda titolare della licenza",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "533d63ac582547f8c664f9fe46b263e76ba7e34c2c4fd11c164d6c19dbe9995d",
+        "italian": "Un dipendente dell’azienda può guidare il veicolo adibito al conto proprio, nel rispetto delle altre condizioni previste per questo tipo di trasporto.",
+        "italian_sha256": "ff05fdc0d75459bff77729f3075a77cfad8fd30fb20c9ac41b38958b2902a410"
+      },
+      {
+        "source": {
+          "number": 15390,
+          "quesito_id": 3252,
+          "text_it": "La guida di un veicolo adibito al trasporto di cose in conto proprio è consentita ad un socio della società di persone intestataria della licenza.",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "fb75b2daaa2c50607ccdcec79aa5c36606f6dbbd57216dc90d9289a8cd3f00b2",
+        "italian": "Il socio di una società di persone può essere addetto alla guida. La formulazione è generica: tra i soci ammessi per tale qualità figurano quelli illimitatamente responsabili.",
+        "italian_sha256": "25023eeaf5249e049ef4522e55d6087efb38c9238f11046aec8335b2dcb31821"
+      },
+      {
+        "source": {
+          "number": 15391,
+          "quesito_id": 3252,
+          "text_it": "La guida di un veicolo adibito al trasporto di cose in conto proprio è consentita al titolare della licenza se trattasi di impresa individuale",
+          "answer": 1,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "2aa9ec7074915789e4359993ae3144a07f28c2763fe01bbb2a759dcf0b7ce9e8",
+        "italian": "Nell’impresa individuale il titolare della licenza può guidare personalmente il veicolo adibito al trasporto in conto proprio.",
+        "italian_sha256": "14caf40104f971c969aa845aa7b0ac1b4debcfb586864206e0d96c397d79970a"
+      },
+      {
+        "source": {
+          "number": 15392,
+          "quesito_id": 3252,
+          "text_it": "La guida di un veicolo adibito al trasporto di cose in conto proprio è consentita ad un collaboratore esterno all’impresa",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "d88c750140326ddace39d0f4a8120dbaad2236b0f58181331e7c37f5597a2210",
+        "italian": "Non basta essere un collaboratore esterno: la guida è riservata ai soggetti ammessi, tra cui il titolare e i lavoratori dipendenti.",
+        "italian_sha256": "e628cb3d879b554c8afe2608fb4ed242cdb4fd88e0b5562548039dce4bdcf505"
+      },
+      {
+        "source": {
+          "number": 15394,
+          "quesito_id": 3252,
+          "text_it": "La guida di un veicolo adibito al trasporto di cose in conto proprio è consentita a qualsiasi persona purché munita di patente di categoria C",
+          "answer": 0,
+          "page": 3,
+          "bank": "revisione_cqc_merci",
+          "pdf_sha256": "1018e13b17d6960c30626b7eb53210da9c78240f7ee4166843d2cc10ccffb4eb",
+          "figures": []
+        },
+        "source_sha256": "1992a2308686265b9c37aa7a51c627858d48dd9d4ee33dc0db07a2be082e0349",
+        "italian": "La sola patente C non autorizza qualsiasi persona a guidare per conto proprio: occorre anche rientrare tra i soggetti ammessi alla guida per l’impresa.",
+        "italian_sha256": "1d38c34f66f646e32745ed615676c97ac7b03107e9d38a1094e53d39be822a32"
+      }
+    ],
+    "task_sha256": "13e4a096b1f55bbff49adb509e57bfe840a15ae4745a3484328b6582438e7c7c"
+  },
+  "rows": [
+    {
+      "number": 15271,
+      "text": "La carga no debe quedar suspendida de la grúa durante la marcha: debe apoyarse y asegurarse al vehículo, mientras que la grúa debe colocarse en posición para el viaje."
+    },
+    {
+      "number": 15272,
+      "text": "El líquido puede moverse dentro de la cisterna durante la marcha, modificando las fuerzas que actúan sobre el vehículo y contribuyendo a su inestabilidad."
+    },
+    {
+      "number": 15273,
+      "text": "En una curva, el líquido puede desplazarse lateralmente dentro de la cisterna y reducir la estabilidad del vehículo."
+    },
+    {
+      "number": 15274,
+      "text": "En una rotonda, como en otras curvas, el líquido puede desplazarse lateralmente y afectar la estabilidad de la cisterna."
+    },
+    {
+      "number": 15275,
+      "text": "La sobrecarga del eje trasero no es un fenómeno inevitable en las cisternas: depende de la distribución y la cantidad de la carga. Se deben respetar los límites de masa por eje."
+    },
+    {
+      "number": 15276,
+      "text": "No existe una prohibición general de circular con la carga completa por razones de estabilidad: la carga debe respetar los límites del vehículo y las condiciones de llenado aplicables al líquido transportado."
+    },
+    {
+      "number": 15277,
+      "text": "El movimiento lateral del líquido puede comprometer la estabilidad en una curva, pero no provoca por sí solo la dispersión de la carga: el líquido está contenido en la cisterna."
+    },
+    {
+      "number": 15305,
+      "text": "El pallet es una plataforma sobre la que se coloca la mercancía para formar una carga que pueda manipularse."
+    },
+    {
+      "number": 15306,
+      "text": "El pallet es una plataforma de carga: en su forma habitual tiene una superficie sostenida por travesaños y apoyos que dejan espacio para las horquillas."
+    },
+    {
+      "number": 15307,
+      "text": "El pallet agrupa y sostiene la mercancía, lo que facilita su manipulación con horquillas y su transporte."
+    },
+    {
+      "number": 15310,
+      "text": "El pallet no es un montacargas: es el soporte de la carga que el montacargas puede levantar con sus horquillas."
+    },
+    {
+      "number": 15311,
+      "text": "El pallet no es un conjunto de cilindros de alta presión: es una plataforma que sostiene la mercancía durante su manipulación."
+    },
+    {
+      "number": 15312,
+      "text": "El pallet sirve para sostener y manipular mercancías como una unidad de carga; no es el equipo destinado a manipular contenedores."
+    },
+    {
+      "number": 15314,
+      "text": "Las mercancías sobre pallets pueden apilarse si su naturaleza, los embalajes y la estabilidad lo permiten. Sin embargo, no todas las mercancías paletizadas pueden apilarse."
+    },
+    {
+      "number": 15315,
+      "text": "Si se apilan mercancías, las de abajo deben poder soportar el peso de las de arriba, incluso durante las frenadas y en las curvas."
+    },
+    {
+      "number": 15317,
+      "text": "Los pallets cargados pueden asegurarse con amarres y tensores adecuados para la carga y los puntos de anclaje, elegidos de manera que impidan los desplazamientos."
+    },
+    {
+      "number": 15318,
+      "text": "Una mayor flexibilidad no justifica una carga inestable: la mercancía sobre el pallet debe estabilizarse con medios adecuados, incluidas correas cuando sean necesarias."
+    },
+    {
+      "number": 15319,
+      "text": "No es cierto que las mercancías sobre pallets nunca puedan apilarse: pueden hacerlo cuando el embalaje, la resistencia y la estabilidad lo permiten."
+    },
+    {
+      "number": 15320,
+      "text": "La posibilidad de movimiento no es motivo para prescindir de las correas: es necesario estabilizar y asegurar la carga con dispositivos adecuados y en buen estado, protegiéndolos de los bordes."
+    },
+    {
+      "number": 15321,
+      "text": "Los tambores, cilindros y bidones pueden rodar: deben colocarse y bloquearse con sistemas adecuados, por ejemplo soportes o cuñas, además de los elementos de sujeción que correspondan."
+    },
+    {
+      "number": 15322,
+      "text": "El vehículo debe ser adecuado y contar con los medios necesarios para contener y sujetar estos bultos de forma segura. La formulación no implica que siempre se necesite un vehículo construido exclusivamente para tambores, cilindros o bidones."
+    },
+    {
+      "number": 15323,
+      "text": "Una lona no es obligatoria para todo transporte de tambores, cilindros o bidones: se necesita una disposición adecuada que retenga los bultos e impida que se caigan o se muevan."
+    },
+    {
+      "number": 15324,
+      "text": "Las alfombrillas antideslizantes no son obligatorias en todos los casos: pueden ayudar a sujetar la carga, pero el sistema elegido debe impedir su movimiento de todos modos."
+    },
+    {
+      "number": 15325,
+      "text": "La plataforma elevadora no siempre es necesaria para transportar estos bultos: se requieren un vehículo adecuado y sistemas apropiados para cargarlos y sujetarlos de forma segura."
+    },
+    {
+      "number": 15326,
+      "text": "Tener en cuenta el orden de entrega ayuda a mantener accesibles los bultos que se deben descargar. Después de cada descarga debe mantenerse una distribución correcta y verificarse la sujeción de la carga restante."
+    },
+    {
+      "number": 15331,
+      "text": "El cuestionario considera el transporte de animales vivos realizado con carrocerías especiales, clasificadas para transporte específico. La formulación es general: la clasificación de la carrocería por sí sola no demuestra que todo transporte de animales requiera ese vehículo."
+    },
+    {
+      "number": 15332,
+      "text": "El cuestionario se refiere a los vehículos con carrocería equipada para la carga, compactación, transporte y descarga de residuos urbanos, clasificados para transporte específico. La clasificación por sí sola no demuestra que todo transporte de esos residuos requiera ese vehículo."
+    },
+    {
+      "number": 15333,
+      "text": "En el transporte ATP normalmente se utilizan vehículos o equipos especiales adecuados para mantener la temperatura requerida. El acuerdo prevé una excepción cuando las temperaturas previstas hacen manifiestamente innecesario el equipo especial."
+    },
+    {
+      "number": 15334,
+      "text": "Es incorrecto considerar obligatorio un vehículo para transporte específico: los muebles pueden transportarse en un vehículo ordinario de mercancías, siempre que la carga esté colocada y sujetada correctamente."
+    },
+    {
+      "number": 15335,
+      "text": "El papel sobre pallets no requiere por sí mismo un vehículo para transporte específico: puede cargarse en un vehículo ordinario adecuado, sujetando los pallets de forma segura."
+    },
+    {
+      "number": 15336,
+      "text": "La carga agrupada, es decir, un conjunto de bultos diferentes, no requiere por sí misma un vehículo para transporte específico; de todos modos, se necesitan un vehículo adecuado y una carga bien sujeta."
+    },
+    {
+      "number": 15344,
+      "text": "Las cisternas equipadas para transportar líquidos, lodos o materiales a granel se incluyen entre las carrocerías para transporte específico."
+    },
+    {
+      "number": 15345,
+      "text": "El furgón isotérmico reconocido como apto para transportar productos alimenticios a temperatura controlada está clasificado para transporte específico."
+    },
+    {
+      "number": 15346,
+      "text": "La hormigonera está expresamente incluida entre los vehículos automotores para transporte específico."
+    },
+    {
+      "number": 15347,
+      "text": "Superar las 3,5 t no convierte automáticamente a un furgón en un vehículo para transporte específico: la clasificación depende de su destino y equipamiento permanente."
+    },
+    {
+      "number": 15348,
+      "text": "Una masa inferior a 3,5 t no convierte automáticamente a un camión en un vehículo para transporte específico: cuentan su destino y sus equipos permanentes."
+    },
+    {
+      "number": 15349,
+      "text": "El cuestionario indica FALSO, pero la frase es ambigua: un vehículo específico para mercancías no está destinado al transporte general de pasajeros; sin embargo, existen vehículos para el transporte específico de personas en condiciones particulares."
+    },
+    {
+      "number": 15376,
+      "text": "En el transporte por cuenta propia, los bienes transportados deben estar relacionados con la actividad del titular; por ejemplo, pueden ser producidos, adquiridos o utilizados por él. El transporte es accesorio a su actividad."
+    },
+    {
+      "number": 15378,
+      "text": "Los bienes relacionados con el ciclo productivo pueden transportarse por cuenta propia si también se cumplen las demás condiciones previstas, entre ellas el carácter accesorio del transporte."
+    },
+    {
+      "number": 15379,
+      "text": "El titular o un empleado suyo pueden conducir el vehículo. Este requisito por sí solo no basta: también deben cumplirse las demás condiciones del transporte por cuenta propia."
+    },
+    {
+      "number": 15381,
+      "text": "No se exige que las mercancías sean propiedad del conductor: deben tener la relación prevista por la ley con la actividad de quien realiza el transporte; por ejemplo, pueden haber sido adquiridas o ser utilizadas por él."
+    },
+    {
+      "number": 15382,
+      "text": "El transporte por cuenta propia comprende los transportes para necesidades propias de personas físicas, jurídicas o entidades, con vehículos a su disposición en las condiciones permitidas por la ley y cumpliendo las demás condiciones previstas."
+    },
+    {
+      "number": 15383,
+      "text": "En el transporte por cuenta propia, el transporte no es la actividad económicamente predominante: es complementario o accesorio respecto de la actividad principal."
+    },
+    {
+      "number": 15384,
+      "text": "El transporte por cuenta propia es accesorio a la actividad principal y no constituye la actividad económicamente predominante; además, deben cumplirse las demás condiciones legales."
+    },
+    {
+      "number": 15385,
+      "text": "No se limita a las personas físicas: las personas jurídicas y las entidades también pueden realizar transportes para necesidades propias, con vehículos a su disposición en las condiciones previstas por la ley."
+    },
+    {
+      "number": 15389,
+      "text": "Un empleado de la empresa puede conducir el vehículo destinado al transporte por cuenta propia, siempre que se respeten las demás condiciones previstas para este tipo de transporte."
+    },
+    {
+      "number": 15390,
+      "text": "Un socio de una sociedad de personas puede encargarse de la conducción. La formulación es general: entre los socios admitidos por esa condición se encuentran los que tienen responsabilidad ilimitada."
+    },
+    {
+      "number": 15391,
+      "text": "En una empresa individual, el titular de la licencia puede conducir personalmente el vehículo destinado al transporte por cuenta propia."
+    },
+    {
+      "number": 15392,
+      "text": "No basta con ser un colaborador externo: la conducción está reservada a las personas autorizadas, entre ellas el titular y los empleados."
+    },
+    {
+      "number": 15394,
+      "text": "La licencia de conducir C por sí sola no autoriza a cualquier persona a conducir para el transporte por cuenta propia: también debe estar entre las personas autorizadas para conducir para la empresa."
+    }
+  ],
+  "output_sha256": "4b2252f7bbd78f682a14bcf63d52c97465edd465b57d842f69c295f89ce8acc4"
+}

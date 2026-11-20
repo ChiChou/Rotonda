@@ -1,0 +1,43 @@
+{
+  "batch": "015",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_000_064",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "990b4087ac4cda80ec8de7c8e1b75870385696f84a4b450b76f90b601697e649",
+  "source_sha256": "87269f38beaeb548344bc6754c8920ca171bbc1aaca0c95b32a723e2dc4ee3e2",
+  "corrections": [
+    {
+      "id": "1472bdf8d33f6d6aa9c3b9be1abe1ae7259811e1951a458cbac01ea98a01b488",
+      "before": "El desarrollo del comercio electrónico no ha influido en el sector logístico",
+      "after": "El desarrollo del e-commerce (comercio electrónico) no ha influido en el sector logístico",
+      "reason": "Restituye el término y su explicación presentes en el original."
+    },
+    {
+      "id": "147f872a1a3bba4838918c5af82ecdf35d3178d60693f1ee95bde52f385d37a3",
+      "before": "La señal mostrada, con un panel complementario que indica 5 toneladas, prohíbe adelantar a vehículos de motor a los vehículos de mercancías de masa máxima autorizada superior a 5 toneladas",
+      "after": "La señal mostrada, con un panel complementario que indica 5 toneladas, prohíbe a los vehículos de mercancías de masa máxima autorizada superior a 5 toneladas adelantar a vehículos de motor",
+      "reason": "Garbled sentence: subject and object swapped; the prohibition applies to goods vehicles overtaking motor vehicles"
+    },
+    {
+      "id": "14edc22b193c9c515bb83b20f3e9cedd6b52916651476e9ee045b60c423dc4b0",
+      "before": "Cuando el conductor encuentra una manifestación en una zona poblada, debe asegurarse antes de pasar de que haya terminado de pasar por completo",
+      "after": "Cuando el conductor encuentra un cortejo en una zona poblada, debe asegurarse antes de pasar de que haya pasado por completo",
+      "reason": "Corteo es un cortejo y no necesariamente una manifestación."
+    },
+    {
+      "id": "1592dc265ca77c20d23ceafe8ced5cb3826596878c45b563168a68d2a5e071cf",
+      "before": "Según el CMR, por retraso se entiende la falta de entrega de la mercancía dentro de los 70 días posteriores a su recepción por el transportista",
+      "after": "Según el CMR (Convenio relativo al contrato de transporte internacional de mercancías por carretera), por retraso se entiende la falta de entrega de la mercancía dentro de los 70 días posteriores a su recepción por el transportista",
+      "reason": "Restituye el nombre del convenio incluido en el original."
+    }
+  ],
+  "reviewed_file_sha256": "ba6dddccf7186d1c1a8df9d58879210fbe98c40eb89687166b17f7e0ce400d7c"
+}

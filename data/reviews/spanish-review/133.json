@@ -1,0 +1,25 @@
+{
+  "batch": "133",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "c9ea648bbe8128af6a7c28b83d51d9e11ff0300a9ee254028a03739a5c18519f",
+  "source_sha256": "36dc37847e95d6fdf0d0da3cfc131fd27ed3dbf8e9be69aa8a24743da740d939",
+  "corrections": [
+    {
+      "id": "b1cb6cd999b51c2aaa87e656d91ba0f8f075377d38ab36a84e39087b0aed31bf",
+      "before": "La circulación por la vía también comprende el movimiento de los peatones.",
+      "after": "Por circulación en la vía también se entiende el movimiento de los peatones.",
+      "reason": "Definition rendered as inclusion; 'si intende' means 'se entiende'"
+    }
+  ],
+  "reviewed_file_sha256": "25d8a0df906101fb0a0a7db8ec13ac9cfbf42f8f155b6a1e85e5e7359849ffd5"
+}

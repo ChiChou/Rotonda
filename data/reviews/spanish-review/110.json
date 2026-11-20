@@ -1,0 +1,37 @@
+{
+  "batch": "110",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "ad0a899a3af57dc53fdde8ec744244342db55eee3f90553d51e4aaa0f7128939",
+  "source_sha256": "6a8a2d4fbb2e8b25d39d099c525775202463a1c9c4f7d859b6fe3c3dcee49d2e",
+  "corrections": [
+    {
+      "id": "92dc48e54f3a45f5f1b6986ce599d85b0ae4d990383aa88d63d1f54124fe9ec8",
+      "before": "El certificado de aptitud para conducir trolebuses no vence",
+      "after": "El certificado de aptitud para conducir vehículos eléctricos sin rieles alimentados por línea aérea no vence",
+      "reason": "Filoveicoli abarca vehículos eléctricos sin rieles alimentados por línea aérea, no solo trolebuses."
+    },
+    {
+      "id": "936aea99566032299f26d55d24e24f7c8256cc4e995a3a40cf5a892d4507e32c",
+      "before": "Por servicio ocasional de transporte de personas en autobús de «circuito cerrado» se entiende un servicio ofrecido por la empresa solo a pasajeros con reservación",
+      "after": "Por servicio ocasional de transporte de personas en autobús de «puertas cerradas» se entiende un servicio ofrecido por la empresa solo a pasajeros con reservación",
+      "reason": "'a porte chiuse' is the closed-door service (puertas cerradas), not a closed circuit"
+    },
+    {
+      "id": "93eeda7081b854d99442c93c426592b692a482cbce2cd1a45eb91e3a62ee9779",
+      "before": "Las tarjetas de tacógrafo son expedidas por la autoridad de vehículos",
+      "after": "Las tarjetas de tacógrafo son expedidas por la Motorizzazione Civile",
+      "reason": "Keep the Italian authority name instead of a generic substitute"
+    }
+  ],
+  "reviewed_file_sha256": "a6a1d956efa430aa3fcfbd84f4e956146fdac943acd1e236d1e1ffba7fa74753"
+}

@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Build output
+DerivedData/
+build/
+.build/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# SQLite runtime sidecars
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Local agent state
+.claude/
+.codex/
+
+# Signing team ID (see Scripts/build.sh)
+team.txt
+
+# Generated content databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.pdf
+__pycache__/
+*.py[cod]
+/Data/quiz.db
+/Data/banks.db
+/Rotonda/Resources/patente.db
+
+# Local screenshots, prompts, drafts and App Store submission materials
+/Marketing/**

@@ -1,0 +1,852 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "es-419",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 26510,
+          "quesito_id": 5172,
+          "text_it": "E' vietato il sorpasso di veicoli fermatisi per consentire ai pedoni di attraversare la carreggiata",
+          "answer": 1,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "53afe5682c436dfa3f515964ffa32f711fa957472a3fe133a494c7db26730862",
+        "localized_text": "Está prohibido adelantar a vehículos que se han detenido para permitir que los peatones crucen la calzada"
+      },
+      {
+        "source": {
+          "number": 26511,
+          "quesito_id": 5172,
+          "text_it": "E' vietato il sorpasso nelle strade a senso unico",
+          "answer": 0,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b7476f91c9ba149e4f9ea191789de2ab488cad542bceee1085cb0f1fb80d75aa",
+        "localized_text": "Está prohibido adelantar en las vías de sentido único"
+      },
+      {
+        "source": {
+          "number": 26512,
+          "quesito_id": 5172,
+          "text_it": "E' vietato il sorpasso quando il veicolo che ci precede ha azionato l'indicatore destro per fermarsi",
+          "answer": 0,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "3abc6565d9f568be4bbdfea8e87190f63df842744b6bc1a405d0871f7d288c35",
+        "localized_text": "Está prohibido adelantar cuando el vehículo de adelante ha accionado la luz direccional derecha para detenerse"
+      },
+      {
+        "source": {
+          "number": 26513,
+          "quesito_id": 5172,
+          "text_it": "E' vietato il sorpasso quando il veicolo da superare è un ciclomotore",
+          "answer": 0,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9fdc665464ccd04dae6e22a2654d5aa0cca3ae83a3151bcf4b1c3264d9fd3970",
+        "localized_text": "Está prohibido adelantar cuando el vehículo que se va a superar es un ciclomotor"
+      },
+      {
+        "source": {
+          "number": 26514,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nelle curve, su strade con due corsie e a doppio senso di circolazione",
+          "answer": 1,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "14d896d6b0b6f05b5308cb83ede7cfe18fc18d9783074f708ec00610c5f3cbb9",
+        "localized_text": "Está prohibido adelantar en curvas en vías de dos carriles y doble sentido"
+      },
+      {
+        "source": {
+          "number": 26515,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nei passaggi a livello senza barriere e senza semaforo",
+          "answer": 1,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "95cd5cdfedbadc785dbb8e33abb4a2f7b87bd41589787957556f087e99a4c6cf",
+        "localized_text": "Está prohibido adelantar en pasos a nivel sin barreras y sin semáforo"
+      },
+      {
+        "source": {
+          "number": 26516,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso di veicoli fermi al semaforo quando si deve superare la linea continua",
+          "answer": 1,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "21a584c1f749dfcbe6e1c8ff3ca7f48fa0c79887bf3d06a17c2c6757b4b54d13",
+        "localized_text": "Está prohibido adelantar a vehículos detenidos en un semáforo cuando es necesario cruzar la línea continua"
+      },
+      {
+        "source": {
+          "number": 26517,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nelle strade a carreggiate separate",
+          "answer": 0,
+          "page": 121,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ff63388f4729b3635269592ed2d1634755b454fd085dd1e3359068f03ec67869",
+        "localized_text": "Está prohibido adelantar en vías de calzadas separadas"
+      },
+      {
+        "source": {
+          "number": 26518,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nei centri abitati",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "49e5c48cc4f95c71c7d22ffcd4e20f29c6d31ffa08b70c66ae3b3053f4b2c205",
+        "localized_text": "Está prohibido adelantar en zonas pobladas"
+      },
+      {
+        "source": {
+          "number": 26519,
+          "quesito_id": 5173,
+          "text_it": "E' vietato il sorpasso nelle ore notturne",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4579c5371e3211ba30aa8ac6e3c2112d2d7967e919fc8e7ff5bd489e6ae31fd0",
+        "localized_text": "Está prohibido adelantar durante la noche"
+      },
+      {
+        "source": {
+          "number": 26520,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso quando il veicolo che precede ha segnalato di voler iniziare il sorpasso",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a999b55fdd993153863685eec9e7347a96051dd4e1bf7a0f1ee5504ad2422ff0",
+        "localized_text": "Está prohibido adelantar cuando el vehículo de adelante ha indicado que quiere iniciar un adelantamiento"
+      },
+      {
+        "source": {
+          "number": 26521,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso a destra di un tram fermo per la salita e discesa dei passeggeri, se non c'è il salvagente",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "b79712828a9ade6105832580887af12d2ccb12a1fca684cc1515c2f8832a181b",
+        "localized_text": "Está prohibido adelantar por la derecha a un tranvía detenido para la subida y bajada de pasajeros si no hay isla de refugio"
+      },
+      {
+        "source": {
+          "number": 26522,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso su strade a due corsie e a doppio senso, quando la visibilità è limitata",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "884825627805acfbf9a78eb9b20a392bb2d5748cd8ced9e8afee5c7fb9cd953d",
+        "localized_text": "Está prohibido adelantar en vías de dos carriles y doble sentido cuando la visibilidad es limitada"
+      },
+      {
+        "source": {
+          "number": 26523,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso quando piove",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7d5825f004f7ceff0f3e65a73dfdf7dd414b67f69ba779b4feac138453b2cda1",
+        "localized_text": "Está prohibido adelantar cuando llueve"
+      },
+      {
+        "source": {
+          "number": 26524,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso nelle curve, su strade a due corsie per ogni senso di marcia",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5c9bf6ab3aab58d84e56160284f0c4b39c7e80825833dc9c9f45d8296e95dba7",
+        "localized_text": "Está prohibido adelantar en las curvas, en vías con dos carriles por cada sentido de circulación"
+      },
+      {
+        "source": {
+          "number": 26525,
+          "quesito_id": 5174,
+          "text_it": "E' vietato il sorpasso nei dossi, su strade a senso unico di circolazione",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "95323b3c16c3730654197b970871ec03ef22dabec7743a1f16bd176f87aaa8e7",
+        "localized_text": "Está prohibido adelantar en cambios de rasante en vías de sentido único"
+      },
+      {
+        "source": {
+          "number": 26526,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso bisogna segnalare la manovra azionando l'indicatore di direzione",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c0602ec7bf2c7a73891911e794e4bbc30c8979968a34def4abe99106979f3bb5",
+        "localized_text": "Al adelantar hay que señalizar la maniobra accionando la luz direccional"
+      },
+      {
+        "source": {
+          "number": 26527,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso bisogna affiancare il veicolo sulla sua sinistra lasciando un adeguato margine di sicurezza",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9952455aaa8c26baf95b7030483f98119b1b3e42a344a75b29bf0eba893b1f66",
+        "localized_text": "Al adelantar hay que pasar a la izquierda del vehículo dejando un margen de seguridad adecuado"
+      },
+      {
+        "source": {
+          "number": 26528,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso bisogna assicurarsi che si disponga di uno spazio libero sufficiente",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7462ba4541e63967a9cfac790049ef6a7c291fb459b3b821ca515d1056c64bfb",
+        "localized_text": "Al adelantar hay que asegurarse de disponer de suficiente espacio libre"
+      },
+      {
+        "source": {
+          "number": 26529,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso occorre tener presente che sulle strade provinciali il sorpasso è ammesso solo di giorno",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "72e75cc12c00654bd3473a08ea3ac9e27221181d5b429cb0a0e392eb5169ad69",
+        "localized_text": "Al adelantar hay que tener presente que en las carreteras provinciales solo se permite adelantar de día"
+      },
+      {
+        "source": {
+          "number": 26530,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso dei motocicli, si può effettuare la manovra sia a destra che a sinistra",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "003cbd6cfcc9a91f1caa95d17ed3a79b9f97c4886d52d8cdd18afa4d6f547532",
+        "localized_text": "Al adelantar motocicletas se puede realizar la maniobra tanto por la derecha como por la izquierda"
+      },
+      {
+        "source": {
+          "number": 26531,
+          "quesito_id": 5175,
+          "text_it": "Nell'eseguire la manovra di sorpasso in curva si deve sempre suonare il clacson",
+          "answer": 0,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "8a1602c9f6d5e3112d38c86944a19cb492d2765d93b3716acc9d3ae09cd47745",
+        "localized_text": "Al adelantar en una curva siempre se debe tocar la bocina"
+      },
+      {
+        "source": {
+          "number": 26532,
+          "quesito_id": 5176,
+          "text_it": "Non si può sorpassare quando si deve oltrepassare una striscia longitudinale bianca continua, singola o doppia",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7d6b27c5e56d586bfb219b570e62aab875a321ec3a3fc716f55b26a62a263b01",
+        "localized_text": "No se puede adelantar cuando es necesario cruzar una línea longitudinal blanca continua, sencilla o doble"
+      },
+      {
+        "source": {
+          "number": 26533,
+          "quesito_id": 5176,
+          "text_it": "Non si può sorpassare in prossimità o in corrispondenza dei passaggi a livello senza barriere e senza semaforo",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ba64d00127506daeeb068dc2e473900bc832ebd063a270a6fbe21dba06923c9a",
+        "localized_text": "No se puede adelantar cerca de pasos a nivel sin barreras ni semáforo o en ellos"
+      },
+      {
+        "source": {
+          "number": 26534,
+          "quesito_id": 5176,
+          "text_it": "Non si può sorpassare un veicolo che si sia fermato per dare la precedenza ad altri veicoli",
+          "answer": 1,
+          "page": 122,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "ea9b6b05d5b53a01cb298655991639285fb57611044f373e6a404e2f1745ba4d",
+        "localized_text": "No se puede adelantar a un vehículo que se haya detenido para ceder el paso a otros vehículos"
+      }
+    ],
+    "task_sha256": "20f1820db337e8220ac435ed779f8048e718a28b34de0f3477357fbcc0ed00af"
+  },
+  "rows": [
+    {
+      "number": 26510,
+      "text": "Un vehículo detenido para dejar cruzar a peatones puede ocultarlos a la vista: rebasarlo podría atropellarlos. Hay que esperar a que crucen con seguridad.",
+      "evidence": [
+        "PDF ufficiale AM assegnato, data/inputs/official/2026-11-14/conseguimento-am-it.pdf, SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30: il quesito è classificato VERO nella situazione descritta. Quesito 26510, pagina PDF 122.",
+        "Codice della strada, art. 148 comma 13: divieto espresso di sorpassare un veicolo fermo o rallentato per lasciare attraversare i pedoni in corrispondenza di un attraversamento pedonale; https://aci.gov.it/codice-della-strada/art-148/",
+        "Codice della strada, art. 191 comma 2: sulle strade prive di attraversamenti pedonali, consentire a chi ha già impegnato la carreggiata di raggiungere l’altro lato in sicurezza; https://aci.gov.it/codice-della-strada/art-191/"
+      ]
+    },
+    {
+      "number": 26511,
+      "text": "Una calle de sentido único no prohíbe por sí sola el rebase. Aun así, debes obedecer las señales y marcas viales aplicables y contar con visibilidad y espacio suficientes.",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 10: richiedono condizioni di sicurezza e contemplano il sorpasso su carreggiata a senso unico; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 38, commi 1 e 2: la segnaletica comprende segnali verticali e orizzontali e le relative prescrizioni devono essere rispettate; https://aci.gov.it/codice-della-strada/art-38/"
+      ]
+    },
+    {
+      "number": 26512,
+      "text": "La direccional derecha para detenerse no prohíbe automáticamente rebasar: normalmente se pasa por la izquierda, solo si es seguro.",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2, 3 e 7: prescrivono verifiche e sorpasso a sinistra, con specifiche eccezioni; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26513,
+      "text": "Se puede rebasar a un ciclomotor si la maniobra está permitida y es segura, dejando una separación lateral adecuada.",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 3: richiedono sicurezza e adeguata distanza laterale nel sorpasso; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26514,
+      "text": "En una curva de calzada de doble sentido con un carril por sentido, la vista puede no permitir comprobar el tránsito contrario. La prohibición tiene excepciones, incluso para calzadas separadas con la señalización horizontal correspondiente.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 10: vieta il sorpasso in curva e prevede eccezioni per particolari carreggiate o corsie; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26515,
+      "text": "Sin barreras ni semáforo está prohibido rebasar cerca de un paso a nivel: debe quedar libre la zona por donde puede llegar un tren.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 13: vieta il sorpasso presso passaggi a livello senza barriere, salvo regolazione semaforica; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26516,
+      "text": "Aunque los vehículos estén detenidos ante un semáforo, no se puede cruzar una línea longitudinal continua para rebasarlos.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 11: limita il superamento di veicoli fermi al semaforo quando occorre invadere la parte destinata al senso opposto; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 40, commi 3 e 8: le strisce longitudinali continue non si possono oltrepassare; https://www.aci.it/fileadmin/cds/art-40.php"
+      ]
+    },
+    {
+      "number": 26517,
+      "text": "Las calzadas separadas no implican una prohibición general de rebasar. Hay que respetar las señales y las condiciones de seguridad.",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 10: prevedono condizioni di sicurezza e contemplano il sorpasso su carreggiate separate; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26518,
+      "text": "La zona poblada por sí sola no prohíbe rebasar: por ejemplo, puede permitirse en un tramo recto con suficiente visibilidad y espacio, respetando señales, marcas y reglas de intersecciones.",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 12: prescrivono condizioni di sicurezza e limitano il sorpasso presso le intersezioni; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26519,
+      "text": "La oscuridad no prohíbe automáticamente rebasar: se necesitan visibilidad y espacio suficientes para completar la maniobra con seguridad.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettere a e d: richiede visibilità e spazio libero sufficienti; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26520,
+      "text": "Si quien va delante en el mismo carril ha indicado que quiere rebasar, hay que esperar: podría ocupar el espacio que se pretende usar.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettera b: impone di verificare che il veicolo davanti nella stessa corsia non abbia segnalato analoga manovra; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26521,
+      "text": "Sin refugio, los pasajeros suben o bajan en la calzada: no se puede pasar por la derecha del tranvía detenido para ellos.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 9: vieta il sorpasso a destra del tram fermo in mezzo alla carreggiata per i viaggiatori senza salvagente; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26522,
+      "text": "Con poca visibilidad en una calzada de doble sentido con un carril por sentido, es difícil observar los vehículos de frente. La ley prevé excepciones, incluso para calzadas separadas con la señalización horizontal correspondiente.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 10: vieta il sorpasso con scarsa visibilità salvo specifiche condizioni di carreggiata e segnaletica; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26523,
+      "text": "La lluvia por sí sola no prohíbe rebasar, pero hay que desistir si la visibilidad o las condiciones no permiten hacerlo sin peligro.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettera a: richiede visibilità adeguata e manovra senza pericolo o intralcio; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26524,
+      "text": "En una curva puede permitirse el rebase con al menos dos carriles en el mismo sentido y señalización horizontal adecuada; también deben existir condiciones seguras.",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 10: richiedono sicurezza e ammettono l’eccezione con almeno due corsie nello stesso senso e apposita segnaletica; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26525,
+      "text": "En una calzada de sentido único puede permitirse rebasar cerca de una elevación; siguen siendo necesarios suficiente visibilidad y respeto de la señalización.",
+      "evidence": [
+        "Codice della strada, art. 148, commi 2 e 10: richiedono visibilità adeguata e prevedono un’eccezione per carreggiata a senso unico; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 38, commi 1 e 2: la segnaletica comprende segnali verticali e orizzontali e le relative prescrizioni devono essere rispettate; https://aci.gov.it/codice-della-strada/art-38/"
+      ]
+    },
+    {
+      "number": 26526,
+      "text": "La direccional advierte a los demás del desplazamiento: hay que señalizar antes de iniciar la maniobra.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 3: prescrive la segnalazione prima dello spostamento per sorpassare; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 154, commi 1 e 2: segnalazione preventiva dei cambiamenti di direzione o corsia con gli indicatori; https://www.aci.it/fileadmin/cds/art-154.php"
+      ]
+    },
+    {
+      "number": 26527,
+      "text": "Al rebasar normalmente por la izquierda se necesita una separación lateral adecuada para evitar contactos al quedar a la par.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 3: prescrive il passaggio a sinistra e una distanza laterale adeguata; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26528,
+      "text": "Debe haber espacio libre suficiente para completar toda la maniobra, considerando los vehículos de adelante y los que vienen en sentido contrario.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettera d: richiede spazio libero per completare il sorpasso considerando anche gli altri utenti; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26529,
+      "text": "En una carretera provincial no hay una prohibición general de rebasar de noche; aun así se necesitan visibilidad y espacio suficientes.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 2, lettere a e d: richiede visibilità e spazio sufficienti senza limitare la manovra alle ore diurne; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26530,
+      "text": "A una motocicleta también se la rebasa normalmente por la izquierda; pasar por la derecha solo se permite en casos particulares.",
+      "evidence": [
+        "Codice della strada, art. 148, commi 3 e 7: stabiliscono la regola del sorpasso a sinistra e le eccezioni a destra; https://www.aci.it/fileadmin/cds/art-148.php"
+      ]
+    },
+    {
+      "number": 26531,
+      "text": "En una curva no hay que tocar siempre el claxon: se usa con moderación por seguridad y no vuelve legal un rebase prohibido.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 10: disciplina il divieto di sorpasso in curva e le eccezioni; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 156, commi 1 e 2: uso moderato del segnale acustico per sicurezza, anche durante il sorpasso quando necessario fuori dai centri abitati; https://www.aci.it/fileadmin/cds/art-156.php"
+      ]
+    },
+    {
+      "number": 26532,
+      "text": "No se puede cruzar una línea longitudinal continua: si rebasar exige cruzarla, la maniobra no está permitida.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 3: il sorpasso richiede lo spostamento a sinistra nel rispetto delle regole; https://www.aci.it/fileadmin/cds/art-148.php",
+        "Codice della strada, art. 40, commi 3 e 8: le strisce longitudinali continue non si possono oltrepassare; https://www.aci.it/fileadmin/cds/art-40.php"
+      ]
+    },
+    {
+      "number": 26533,
+      "text": "Al acercarte a un paso a nivel sin barreras ni semáforo, no rebases: debes poder comprobar si viene un tren y detenerte antes de las vías si es necesario.",
+      "evidence": [
+        "Codice della strada, art. 148, comma 13: vieta il sorpasso in prossimità o in corrispondenza di passaggi a livello senza barriere, salvo regolazione semaforica; https://aci.gov.it/codice-della-strada/art-148/",
+        "Codice della strada, art. 147, comma 2: prima di impegnare un passaggio a livello senza barriere o semibarriere né segnalazioni luminose o acustiche occorre verificare l’arrivo dei treni e fermarsi secondo la segnaletica; https://aci.gov.it/codice-della-strada/art-147/"
+      ]
+    },
+    {
+      "number": 26534,
+      "text": "Un vehículo detenido para ceder el paso puede ocultar a quienes están pasando: rebasarlo podría cruzarse en su trayectoria. Hay que esperar y respetar la prioridad.",
+      "evidence": [
+        "PDF ufficiale AM assegnato, data/inputs/official/2026-11-14/conseguimento-am-it.pdf, SHA-256 61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30: il quesito è classificato VERO nella situazione descritta. Quesito 26534, pagina PDF 123.",
+        "Codice della strada, art. 148 comma 2: il sorpasso richiede visibilità e spazio sufficienti e deve avvenire senza pericolo o intralcio; comma 12: divieto presso le intersezioni con eccezioni specificate. Queste norme non stabiliscono un divieto illimitato per ogni veicolo fermo per dare precedenza; https://aci.gov.it/codice-della-strada/art-148/",
+        "Codice della strada, art. 145: regole di precedenza alle intersezioni; https://aci.gov.it/codice-della-strada/art-145/"
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "20f1820db337e8220ac435ed779f8048e718a28b34de0f3477357fbcc0ed00af",
+    "output_sha256": "d1ccc8688cc245e55a17b46caff592d1174b981e79d7e207e84f10fd7c038172",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-26510-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      26510,
+      26511,
+      26512,
+      26513,
+      26514,
+      26515,
+      26516,
+      26517,
+      26518,
+      26519,
+      26520,
+      26521,
+      26522,
+      26523,
+      26524,
+      26525,
+      26526,
+      26527,
+      26528,
+      26529,
+      26530,
+      26531,
+      26532,
+      26533,
+      26534
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1e9e8-6694-7900-b4d2-8908498b882b",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "c1707e514d697263900be30e45eac8513b1d45856288775cbf489af0bf69f0da",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+        "label": "author-0-1",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "b38cf8ed9b08fa0ec69bebc1bfaf7670130dcdf7c6e0923bf5b5907301966156",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9ed-cc7b-7281-8973-bcf20c7280e9",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "34e8547847d0b9ebc8254d745087eb05b5c00d58ebf6cfbfe08ab496f4e321a0",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9ef-987c-7873-9573-f7e604e977b0",
+        "label": "author-1-1",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3be634cf35c74661b8f1836fffa7457ffefed21ed1cb520ebcec312370406659",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9f0-f502-7403-9744-d5d4a9c87b1d",
+        "label": "author-1-2",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3be634cf35c74661b8f1836fffa7457ffefed21ed1cb520ebcec312370406659",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1e9f1-e338-7583-ae81-c755c669c028",
+        "label": "author-1-3",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "3be634cf35c74661b8f1836fffa7457ffefed21ed1cb520ebcec312370406659",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "9f6cf2f4cee29537fbcd321978b196dc8100d92ae2152a4a2b636909e52a8d5d",
+          "output_sha256": "d53bd9a0076e354c771ec5bcf168693330957bed2467eb23a1f1b5c601fda6e9",
+          "author": "gpt-6.1-terra / 01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+          "reviewer": "gpt-6.1-terra / 01a1e9ec-902c-7401-b74f-fcba1edb6068",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26510,
+            26511,
+            26512,
+            26513,
+            26514,
+            26515,
+            26516,
+            26517,
+            26518,
+            26519,
+            26520,
+            26521,
+            26522,
+            26523,
+            26524,
+            26525,
+            26526,
+            26527,
+            26528,
+            26529,
+            26530,
+            26531,
+            26532,
+            26533,
+            26534
+          ],
+          "issues": [
+            "26510: The cited art. 148(13) explicitly prohibits passing a vehicle stopped or slowed at a pedestrian crossing; the question has no crossing qualifier. The draft gives a plausible hazard but supplies no authority establishing the full unqualified printed VERO. Verify scope and adjudicate any conflict without changing the verdict.",
+            "26533: The explanation merely restates that the prohibition also covers the approach; it does not explain why overtaking there is prohibited. Add a specific reason supported by evidence.",
+            "26534: Articles 145(2),(4) and 148(2) establish conditional priority and safety duties, not an unconditional ban on passing every vehicle stopped to yield. The explanation's collision risk does not establish that broad rule. The cited official quiz PDF timed out when inspected; independently verify the citation and obtain authoritative support or adjudicate the wording while preserving the printed VERO."
+          ]
+        },
+        {
+          "task_sha256": "7b1870f20ccd77f550b121d2bc81066f4a61ae5121dcc5ff9108928474bacc59",
+          "output_sha256": "f730c5071dc80b5954e222a4359b1acd8bff58ff3fcdf16aca877e365879ddbf",
+          "author": "gpt-6.1-terra / 01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+          "reviewer": "gpt-6.1-terra / 01a1e9ec-902c-7401-b74f-fcba1edb6068",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26510,
+            26511,
+            26512,
+            26513,
+            26514,
+            26515,
+            26516,
+            26517,
+            26518,
+            26519,
+            26520,
+            26521,
+            26522,
+            26523,
+            26524,
+            26525,
+            26526,
+            26527,
+            26528,
+            26529,
+            26530,
+            26531,
+            26532,
+            26533,
+            26534
+          ],
+          "issues": [
+            "26510: The cited art. 148(13) explicitly prohibits passing a vehicle stopped or slowed at a pedestrian crossing; the question has no crossing qualifier. The draft gives a plausible hazard but supplies no authority establishing the full unqualified printed VERO. Verify scope and adjudicate any conflict without changing the verdict.",
+            "26533: The explanation merely restates that the prohibition also covers the approach; it does not explain why overtaking there is prohibited. Add a specific reason supported by evidence.",
+            "26534: Articles 145(2),(4) and 148(2) establish conditional priority and safety duties, not an unconditional ban on passing every vehicle stopped to yield. The explanation's collision risk does not establish that broad rule. The cited official quiz PDF timed out when inspected; independently verify the citation and obtain authoritative support or adjudicate the wording while preserving the printed VERO.",
+            "26511: The wording says that signs/signalling are required, rather than that applicable road signs and markings must be obeyed, changing the Italian meaning.",
+            "26525: The translation narrows Italian segnaletica (traffic signs and markings) to road markings alone; preserve the complete requirement."
+          ]
+        },
+        {
+          "task_sha256": "54ab60bb6d5152f86c1bd91c5d7c9d1c9cfd4f9b4b2b922e0068b9945614b0e3",
+          "output_sha256": "0f04746a69419a81e084b0064bdb39e4c8e271612e3a3d09bc021e58e0c3c1cc",
+          "author": "gpt-6.1-terra / 01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+          "reviewer": "gpt-6.1-terra / 01a1e9ec-902c-7401-b74f-fcba1edb6068",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26510,
+            26511,
+            26512,
+            26513,
+            26514,
+            26515,
+            26516,
+            26517,
+            26518,
+            26519,
+            26520,
+            26521,
+            26522,
+            26523,
+            26524,
+            26525,
+            26526,
+            26527,
+            26528,
+            26529,
+            26530,
+            26531,
+            26532,
+            26533,
+            26534
+          ],
+          "issues": [
+            "26510: The cited art. 148(13) explicitly prohibits passing a vehicle stopped or slowed at a pedestrian crossing; the question has no crossing qualifier. The draft gives a plausible hazard but supplies no authority establishing the full unqualified printed VERO. Verify scope and adjudicate any conflict without changing the verdict.",
+            "26533: The explanation merely restates that the prohibition also covers the approach; it does not explain why overtaking there is prohibited. Add a specific reason supported by evidence.",
+            "26534: Articles 145(2),(4) and 148(2) establish conditional priority and safety duties, not an unconditional ban on passing every vehicle stopped to yield. The explanation's collision risk does not establish that broad rule. The cited official quiz PDF timed out when inspected; independently verify the citation and obtain authoritative support or adjudicate the wording while preserving the printed VERO.",
+            "26525: The translation narrows Italian segnaletica (traffic signs and markings) to road markings alone; preserve the complete requirement."
+          ]
+        },
+        {
+          "task_sha256": "20f1820db337e8220ac435ed779f8048e718a28b34de0f3477357fbcc0ed00af",
+          "output_sha256": "219bb5dc8f7b8020d583dc01cb8e107a9363e8fad4640c3aa2213e0c8cfd0f8e",
+          "author": "gpt-6.1-terra / 01a1e9eb-03ab-74f2-a6c7-7488db8f2af7",
+          "reviewer": "gpt-6.1-terra / 01a1e9ec-902c-7401-b74f-fcba1edb6068",
+          "status": "needs_changes",
+          "checked_numbers": [
+            26510,
+            26511,
+            26512,
+            26513,
+            26514,
+            26515,
+            26516,
+            26517,
+            26518,
+            26519,
+            26520,
+            26521,
+            26522,
+            26523,
+            26524,
+            26525,
+            26526,
+            26527,
+            26528,
+            26529,
+            26530,
+            26531,
+            26532,
+            26533,
+            26534
+          ],
+          "issues": [
+            "26510: The cited art. 148(13) explicitly prohibits passing a vehicle stopped or slowed at a pedestrian crossing; the question has no crossing qualifier. The draft gives a plausible hazard but supplies no authority establishing the full unqualified printed VERO. Verify scope and adjudicate any conflict without changing the verdict.",
+            "26533: The explanation merely restates that the prohibition also covers the approach; it does not explain why overtaking there is prohibited. Add a specific reason supported by evidence.",
+            "26534: Articles 145(2),(4) and 148(2) establish conditional priority and safety duties, not an unconditional ban on passing every vehicle stopped to yield. The explanation's collision risk does not establish that broad rule. The cited official quiz PDF timed out when inspected; independently verify the citation and obtain authoritative support or adjudicate the wording while preserving the printed VERO.",
+            "26511: The wording says that signs/signalling are required, rather than that applicable road signs and markings must be obeyed, changing the Italian meaning."
+          ]
+        }
+      ],
+      {
+        "task_sha256": "20f1820db337e8220ac435ed779f8048e718a28b34de0f3477357fbcc0ed00af",
+        "output_sha256": "16dda184b2f368ff2ffd64d09f46656289cb9d3e7e50944632b68e02804dcad6",
+        "author": "gpt-6.1-terra / collaboration /root/terra_author",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-26510-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          26510,
+          26511,
+          26512,
+          26513,
+          26514,
+          26515,
+          26516,
+          26517,
+          26518,
+          26519,
+          26520,
+          26521,
+          26522,
+          26523,
+          26524,
+          26525,
+          26526,
+          26527,
+          26528,
+          26529,
+          26530,
+          26531,
+          26532,
+          26533,
+          26534
+        ],
+        "issues": [
+          "26514: The text asserts that any two-lane two-way road lacks the separation needed for the exception. Article 148(10) also allows a separate-carriageway exception; qualify the common single-carriageway case and acknowledge that exception, as in the corrected 26508 explanation.",
+          "26522: The text assumes that a two-lane two-way road necessarily requires entering the opposing-traffic area. Article 148(10) also provides an exception for separate carriageways; explain the common single-carriageway scenario and preserve that exception.",
+          "26518: The text simply reverses the assertion and mentions unspecified restrictions; add a concrete condition or example explaining why overtaking may be allowed in a built-up area while still respecting safety and intersection rules."
+        ]
+      }
+    ]
+  }
+}

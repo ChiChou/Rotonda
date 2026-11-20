@@ -1,0 +1,43 @@
+{
+  "batch": "189",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9ff99683da1c9c7f9f884552bbbce023718c55a7c199ed21d569690adec8ad05",
+  "source_sha256": "28c7c0b8f986a861ef971b7ab6a1f3e99086bc5e20ab6a9a2b5f413398fbd1e5",
+  "corrections": [
+    {
+      "id": "f9d5feb812f794b1236404ee44ab99ac7361d90d157aa75c4429beee3c165377",
+      "before": "El transporte aéreo de mercancías no se ve afectado por los controles porque son rápidos",
+      "after": "El transporte aéreo de mercancías no se ve afectado por los controles, que son rápidos",
+      "reason": "Added causal explanation ('porque') not in the Italian"
+    },
+    {
+      "id": "fa071b1d68c33e05ae293d1f8ea712c148fd0d2ee46ffcb260d6323afe58d127",
+      "before": "Para conducir trolebuses se necesita una licencia de categoría D o DE",
+      "after": "Para conducir vehículos eléctricos sin rieles alimentados por línea aérea se necesita una licencia de categoría D o DE",
+      "reason": "Filoveicoli abarca vehículos eléctricos sin rieles alimentados por línea aérea, no solo trolebuses ni tranvías."
+    },
+    {
+      "id": "faa3de4b5baf9c13babb7421be483acaee18907e81beec4efbebf608b684761e",
+      "before": "La tarjeta de calificación del conductor es obligatoria para conductores profesionales de Estados fuera de la UE o del EEE que trabajan para una empresa de transporte de personas o mercancías con sede en Italia",
+      "after": "La tarjeta de calificación del conductor es obligatoria para conductores profesionales que son ciudadanos de Estados fuera de la UE o del EEE y trabajan para una empresa de transporte de personas o mercancías con sede en Italia",
+      "reason": "Omitted 'cittadini' (nationals); restore the nationality condition"
+    },
+    {
+      "id": "faedf20454e404c69b95c28b01c2968e07cd89cfe959aa455104d4eace8859a2",
+      "before": "El conductor de un autobús garantiza una comodidad de marcha adecuada manteniendo una velocidad no uniforme y realizando giros bruscos",
+      "after": "El conductor de un autobús garantiza una comodidad de marcha adecuada a los pasajeros manteniendo una velocidad no uniforme y realizando giros bruscos",
+      "reason": "Restituye que la comodidad es para los pasajeros."
+    }
+  ],
+  "reviewed_file_sha256": "434a07febba500d628ef5a2627e51a9c95436103f51a1df805265b83d8f8c090"
+}

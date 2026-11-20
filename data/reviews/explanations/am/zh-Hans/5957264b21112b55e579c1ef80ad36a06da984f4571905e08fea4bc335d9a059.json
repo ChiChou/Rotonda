@@ -1,0 +1,704 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "am",
+    "language": "zh-Hans",
+    "pdf": "inputs/official/2026-11-14/conseguimento-am-it.pdf",
+    "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 27120,
+          "quesito_id": 5271,
+          "text_it": "La patente AM è necessaria solo per trasportare un passeggero sul ciclomotore",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "89f210f29833e18707a8d6e2d8ae8457f05afc9a03bab25c18606957f97be654",
+        "localized_text": "只有在轻便摩托车上载乘客才需要AM驾照。"
+      },
+      {
+        "source": {
+          "number": 27121,
+          "quesito_id": 5271,
+          "text_it": "La patente AM consente, solo in Italia, di condurre anche motocicli fino a 125 cm3 di cilindrata senza passeggeri a bordo",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "395748d53bed1ff5f5d224be8a72e1a239386e9ed7f8ddb6357b65ecc32725ae",
+        "localized_text": "AM驾照仅在意大利允许驾驶排量不超过125立方厘米且不载乘客的摩托车。"
+      },
+      {
+        "source": {
+          "number": 27122,
+          "quesito_id": 5272,
+          "text_it": "I ciclomotori devono circolare vicino al margine destro della strada",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "fbafd3e79eefaa9907c7852c3166c9ec9595e1880ff3ad5534b5080a2e09eecb",
+        "localized_text": "轻便摩托车必须靠近道路右边缘行驶。"
+      },
+      {
+        "source": {
+          "number": 27123,
+          "quesito_id": 5272,
+          "text_it": "Su strada a due corsie e a doppio senso, i ciclomotori possono usare la corsia di sinistra per il sorpasso",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "223a3191dc21e11acde4d17b4b6a98612324e5035ce79e7ad093babdd7660f39",
+        "localized_text": "在双向两车道道路上，轻便摩托车可以使用左侧车道超车。"
+      },
+      {
+        "source": {
+          "number": 27124,
+          "quesito_id": 5272,
+          "text_it": "Su strade a tre corsie per senso di marcia, durante la marcia normale, i ciclomotori devono percorrere la corsia di destra",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "6169842e1080c60552edb0980222b47b240a8f71c3db13d74d6c1bb63a030b58",
+        "localized_text": "在每个方向有三条车道的道路上，轻便摩托车正常行驶时必须使用右侧车道。"
+      },
+      {
+        "source": {
+          "number": 27125,
+          "quesito_id": 5272,
+          "text_it": "Su strada a due corsie e a doppio senso, i ciclomotori possono utilizzare per il sorpasso tutte e due le corsie",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e11d3871c87fd27e39fe13fcd050fd4b4e45842b575865972bc24714de156927",
+        "localized_text": "在双向两车道道路上，轻便摩托车可以使用两条车道超车。"
+      },
+      {
+        "source": {
+          "number": 27126,
+          "quesito_id": 5272,
+          "text_it": "Quando una strada è a tre corsie e a doppio senso, i ciclomotori possono circolare per file parallele",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "0280834f0f7f8cdda027ab15d996f1758f4c3be43f937cce3d58043b1b99f41b",
+        "localized_text": "在双向三车道道路上，轻便摩托车可以并排行驶。"
+      },
+      {
+        "source": {
+          "number": 27127,
+          "quesito_id": 5272,
+          "text_it": "I ciclomotori possono circolare al centro della strada quando è libera",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9be7d1eaf390aa760b957166e108b27eed5915a718c09451af33aa3991a0433b",
+        "localized_text": "道路空闲时，轻便摩托车可以在道路中央行驶。"
+      },
+      {
+        "source": {
+          "number": 27128,
+          "quesito_id": 5273,
+          "text_it": "Su strada a doppio senso di marcia a due corsie, i ciclomotori devono marciare il più possibile vicino al margine destro della strada quando incrociano altri veicoli",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "e1615175512cff17c5dda23e78a6426e50da6c2aa78dd31928e264cb20e2858c",
+        "localized_text": "在双向两车道道路上，轻便摩托车与对向车辆会车时必须尽量靠近道路右边缘。"
+      },
+      {
+        "source": {
+          "number": 27129,
+          "quesito_id": 5273,
+          "text_it": "Su strada a due corsie a doppio senso di circolazione, i ciclomotori devono marciare il più possibile vicino al margine destro della strada quando percorrono una curva",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a1cb3b179496a1fc72f22c575e053fe30bbf14916a26b7707119b65d7745d279",
+        "localized_text": "在双向两车道道路上，轻便摩托车通过弯道时必须尽量靠近道路右边缘。"
+      },
+      {
+        "source": {
+          "number": 27130,
+          "quesito_id": 5273,
+          "text_it": "Su strada a due corsie a due sensi di marcia, i ciclomotori devono marciare il più possibile vicino al margine destro della strada quando percorrono un dosso",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "0048354994ce77b3f599d5c2d7e5c678e57ebae41ba6fa666e5a439e7d1bcf41",
+        "localized_text": "在双向两车道道路上，轻便摩托车通过坡顶时必须尽量靠近道路右边缘。"
+      },
+      {
+        "source": {
+          "number": 27131,
+          "quesito_id": 5273,
+          "text_it": "Su strada a senso unico, i ciclomotori devono marciare il più possibile vicino al margine destro della strada quando percorrono una curva",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "fe916fb3665f2e9034e8eedcc0b6acf52a7e0a73893ff807cadeefb55dbef60e",
+        "localized_text": "在单行道上，轻便摩托车通过弯道时必须尽量靠近道路右边缘。"
+      },
+      {
+        "source": {
+          "number": 27132,
+          "quesito_id": 5273,
+          "text_it": "I ciclomotori devono marciare il più possibile vicino al margine destro della strada quando devono svoltare a sinistra",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7017a1511f8d99ca94bb95f97ef4697ff9992832fbd56cb3ca78157b0d9ed78c",
+        "localized_text": "轻便摩托车需要左转时必须尽量靠近道路右边缘。"
+      },
+      {
+        "source": {
+          "number": 27133,
+          "quesito_id": 5273,
+          "text_it": "I ciclomotori devono marciare il più possibile vicino al margine destro della strada quando sorpassano un altro ciclomotore",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "f8220c583121104478b006ec435c77423e2392348afaabec01cd0ba6d22d4a89",
+        "localized_text": "轻便摩托车超越另一辆轻便摩托车时必须尽量靠近道路右边缘。"
+      },
+      {
+        "source": {
+          "number": 27134,
+          "quesito_id": 5274,
+          "text_it": "E' vietato sostare con i ciclomotori nelle corsie riservate ai mezzi pubblici",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "7168413cab3857ded82f344f89726d7e26c2a675bfa0adfb7e8d1d9f3c1f8ed6",
+        "localized_text": "禁止在公共交通专用车道停放轻便摩托车。"
+      },
+      {
+        "source": {
+          "number": 27135,
+          "quesito_id": 5274,
+          "text_it": "E' vietato sostare con i ciclomotori sulle piste per biciclette",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "9d41745e72d2766d0cec96d7c7efaed06c171f579ac01e2726d3e42fab154f4d",
+        "localized_text": "禁止在自行车道停放轻便摩托车。"
+      },
+      {
+        "source": {
+          "number": 27136,
+          "quesito_id": 5274,
+          "text_it": "E' vietato sostare con i ciclomotori sui marciapiedi, salvo diversa segnalazione",
+          "answer": 1,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "a111abac25f66d1abc86fc602fce1320ed89b18f063eaf6b66ed45bdf2829d14",
+        "localized_text": "除非标志另有规定，禁止在人行道停放轻便摩托车。"
+      },
+      {
+        "source": {
+          "number": 27137,
+          "quesito_id": 5274,
+          "text_it": "E' vietato sostare con i ciclomotori in prossimità o in corrispondenza dei segnali stradali, anche se perfettamente visibili",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "c7e1fc79dbf7af018e909d8b301f2ab720a5e7fb2e23dff915c400c25dea46f6",
+        "localized_text": "即使道路标志完全可见，也禁止在其附近或所在位置停放轻便摩托车。"
+      },
+      {
+        "source": {
+          "number": 27138,
+          "quesito_id": 5274,
+          "text_it": "E' vietato sostare con i ciclomotori nei centri abitati, quando non esistono le apposite strisce",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "df0f34c349a2cd412ed89625dd8dc1d74444597047dcab6a8b705ddd09effb80",
+        "localized_text": "建成区内没有专用停车线时禁止停放轻便摩托车。"
+      },
+      {
+        "source": {
+          "number": 27139,
+          "quesito_id": 5274,
+          "text_it": "E' sempre vietato sostare con i ciclomotori lungo il margine sinistro delle strade a senso unico",
+          "answer": 0,
+          "page": 143,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4cd11f177b34dcd39a8fa8a0c0eb7f5f4115d7e0bb4676671eaa168812b8cabc",
+        "localized_text": "始终禁止在单行道左边缘停放轻便摩托车。"
+      },
+      {
+        "source": {
+          "number": 27140,
+          "quesito_id": 5275,
+          "text_it": "Quando si sosta sulla strada con un ciclomotore deve essere lasciato parallelo al marciapiede, salvo diversa segnalazione",
+          "answer": 1,
+          "page": 144,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "4e19a023fc21b9be8dbe3922937d14a72fd7d986dbfcf2f39071a83ecfea5a6a",
+        "localized_text": "在道路上停放轻便摩托车时，除非标志另有规定，必须与人行道平行停放。"
+      },
+      {
+        "source": {
+          "number": 27141,
+          "quesito_id": 5275,
+          "text_it": "Quando si sosta sulla strada con un ciclomotore è consigliabile utilizzare, se presente, il cavalletto centrale",
+          "answer": 1,
+          "page": 144,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "50ef3aed5a9186cbeda9f801baf449a4673b8ef101a863e8eb3c770061ce435c",
+        "localized_text": "在道路上停放轻便摩托车时，如果有中央支架，宜使用该支架。"
+      },
+      {
+        "source": {
+          "number": 27142,
+          "quesito_id": 5275,
+          "text_it": "Quando si sosta sulla strada con un ciclomotore è vietato lasciarlo sul marciapiede, salvo diversa segnalazione",
+          "answer": 1,
+          "page": 144,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "968ef4d41ba4b050d4c7c4e0417fcd8e26c55625b4b10b3ca6d6dd49b5c4b99c",
+        "localized_text": "在道路上停放轻便摩托车时，除非标志另有规定，禁止将其停在人行道上。"
+      },
+      {
+        "source": {
+          "number": 27143,
+          "quesito_id": 5275,
+          "text_it": "Quando si sosta sulla strada con un ciclomotore si deve spegnere il motore, anche se la sosta è di breve durata",
+          "answer": 1,
+          "page": 144,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "675d363f5feb695ee0e2fd96843f1cdbc6e7db59d95151799edd3afd322ca9f0",
+        "localized_text": "在道路上停放轻便摩托车时，即使停放时间短也必须关闭发动机。"
+      },
+      {
+        "source": {
+          "number": 27144,
+          "quesito_id": 5275,
+          "text_it": "Quando si sosta sulla strada con un ciclomotore lo si può lasciare sul marciapiede, ma solo per poco tempo",
+          "answer": 0,
+          "page": 144,
+          "bank": "am",
+          "pdf_sha256": "61d1e0516b972526401615d9cde18e8b2e60de754a70a97dca9edfb2c4347b30",
+          "figures": []
+        },
+        "source_sha256": "5efe61bf161386fa7b455fe5fa0089c2f9ec461ffcc23b851c2c6c569a40b956",
+        "localized_text": "在道路上停放轻便摩托车时，可以将其停在人行道上，但仅限短时间。"
+      }
+    ],
+    "task_sha256": "5957264b21112b55e579c1ef80ad36a06da984f4571905e08fea4bc335d9a059"
+  },
+  "rows": [
+    {
+      "number": 27120,
+      "text": "AM驾照允许驾驶轻便摩托车，即使没有乘客也是如此；载客还须符合年龄和车辆条件。",
+      "evidence": [
+        "MIT, Conseguimento patente AM, https://www.mit.gov.it/conseguimento-patente-am: AM abilita alla guida dei ciclomotori; passeggero solo su veicolo omologato e conducente almeno sedicenne."
+      ]
+    },
+    {
+      "number": 27121,
+      "text": "AM驾照适用于轻便摩托车，不适用于A1类摩托车；不载乘客也不会扩大其准驾范围。",
+      "evidence": [
+        "MIT, circolare 636/2013 allegato 1, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Circolare_protocollo_636_09-01-2013_all_1.pdf: distingue AM per ciclomotori e A1 per motocicli fino a 125 cm³ entro i limiti previsti."
+      ]
+    },
+    {
+      "number": 27122,
+      "text": "靠近道路右侧边缘行驶可为其他车辆留出空间；在双向道路上，也为对向车辆留出空间。",
+      "evidence": [
+        "Codice della strada, art. 143 comma 1, https://aci.gov.it/codice-della-strada/art-143/: posizione a destra e presso il margine destro."
+      ]
+    },
+    {
+      "number": 27123,
+      "text": "只有在允许超车且空间和视距充足时，才可临时进入对向车道超车；随后返回右侧。",
+      "evidence": [
+        "Codice della strada, art. 148 commi 2-3, https://aci.gov.it/codice-della-strada/art-148/: verifica di visibilità e spazio, passaggio a sinistra e rientro."
+      ]
+    },
+    {
+      "number": 27124,
+      "text": "正常行驶时使用最靠右的空闲车道，即使每个方向有三条车道也是如此。",
+      "evidence": [
+        "Codice della strada, art. 143 comma 5, https://aci.gov.it/codice-della-strada/art-143/: su carreggiate a due o più corsie per senso si occupa la corsia libera più a destra."
+      ]
+    },
+    {
+      "number": 27125,
+      "text": "测验将此题标为FALSO（错误），但“两条车道”未说明是先后使用还是可以任意选择。通常靠右行驶；允许超车时一般从左侧超越，并在安全且可行时尽快返回右侧，但存在规定的例外。",
+      "evidence": [
+        "Official AM PDF, viewer page 144, group 5272: question 27125 prints FALSO and adjacent 27123 prints VERO for use of the left lane to overtake. https://www.ilportaledellautomobilista.it/documents/56611/85457073/DomandeAM.pdf/112daa18-5efc-441d-8c15-640556a28ef4",
+        "Codice della strada art.143(1): vehicles normally travel on the right near the right edge. https://aci.gov.it/codice-della-strada/art-143/",
+        "Codice della strada art.148(2–3,7–8): safety checks, passing on the left and returning right without danger; specific exceptions prescribe right passing in stated cases. https://aci.gov.it/codice-della-strada/art-148/",
+        "Editorial note: the source wording “tutte e due le corsie” does not specify sequential lane use versus interchangeable choice for passing. The official adjacent question and general rule support the practical explanation but do not establish the intended interpretation or a legal contradiction."
+      ]
+    },
+    {
+      "number": 27126,
+      "text": "双向共三条车道本身并不意味着可以并排行驶：一般规则要求每个方向至少两条车道且交通拥挤，法律规定的其他情况除外。",
+      "evidence": [
+        "Codice della strada, art. 144 comma 1, https://aci.gov.it/codice-della-strada/art-144/: condizioni di traffico, autorizzazione degli agenti e tratto verso intersezione regolata."
+      ]
+    },
+    {
+      "number": 27127,
+      "text": "道路空闲并不免除靠右并接近右边缘行驶的义务。",
+      "evidence": [
+        "Codice della strada, art. 143 comma 1, https://aci.gov.it/codice-della-strada/art-143/: obbligo anche a strada libera."
+      ]
+    },
+    {
+      "number": 27128,
+      "text": "与对向车辆会车时尽可能靠右边缘，可为对方通过留出更多空间。",
+      "evidence": [
+        "Codice della strada, art. 143 comma 3, https://aci.gov.it/codice-della-strada/art-143/: prescrizione specifica nell’incrocio."
+      ]
+    },
+    {
+      "number": 27129,
+      "text": "在每个方向一条车道的双向单幅车行道上通过弯道时，视距可能受限；尽可能靠右可为对向车辆留出空间。",
+      "evidence": [
+        "Codice della strada, art. 143 comma 3, https://aci.gov.it/codice-della-strada/art-143/: regola per curve su carreggiate a doppio senso con due corsie.",
+        "Codice della strada art. 148(10): curve, dossi e scarsa visibilità, con eccezioni previste. https://aci.gov.it/codice-della-strada/art-148/"
+      ]
+    },
+    {
+      "number": 27130,
+      "text": "在每个方向一条车道的双向单幅车行道上通过坡顶时，视距可能受限；尽可能靠右可为对向车辆留出空间。",
+      "evidence": [
+        "Codice della strada, art. 143 comma 3, https://aci.gov.it/codice-della-strada/art-143/: regola per dossi su carreggiate a doppio senso con due corsie.",
+        "Codice della strada art. 148(10): curve, dossi e scarsa visibilità, con eccezioni previste. https://aci.gov.it/codice-della-strada/art-148/"
+      ]
+    },
+    {
+      "number": 27131,
+      "text": "例如，在每个方向一条车道的双向单幅车行道上过弯时，应尽可能靠右。在单向车行道上，仍适用靠近右边缘行驶的一般规定。",
+      "evidence": [
+        "Codice della strada art. 143 commi 1 e 3: regola generale a destra; prescrizione più stringente durante incrocio, curva o dosso con eccezioni per carreggiate separate, almeno due corsie per senso o carreggiata a senso unico. https://aci.gov.it/codice-della-strada/art-143/"
+      ]
+    },
+    {
+      "number": 27132,
+      "text": "左转时，应在发出信号并确认可以转弯后靠近车行道中线；在单行道上则靠近左边缘。",
+      "evidence": [
+        "Codice della strada, art. 154 commi 1 e 3 lettera b, https://aci.gov.it/codice-della-strada/art-154/: segnalazione e posizione per svolta a sinistra."
+      ]
+    },
+    {
+      "number": 27133,
+      "text": "超车时通常从被超车辆左侧通过，保持足够的侧向间距，然后返回右侧。",
+      "evidence": [
+        "Codice della strada, art. 148 comma 3, https://aci.gov.it/codice-della-strada/art-148/: passaggio a sinistra, distanza laterale e rientro a destra."
+      ]
+    },
+    {
+      "number": 27134,
+      "text": "公共交通专用车道须保持畅通，禁止停车。",
+      "evidence": [
+        "Codice della strada, art. 158 comma 2 lettera h, https://aci.gov.it/codice-della-strada/art-158/: divieto di sosta nelle corsie riservate ai mezzi pubblici."
+      ]
+    },
+    {
+      "number": 27135,
+      "text": "自行车道禁止停车，因为停车会占用供自行车通行的空间。",
+      "evidence": [
+        "Codice della strada, art. 158 comma 1 lettera g, https://aci.gov.it/codice-della-strada/art-158/: divieto di fermata e sosta sulle piste ciclabili."
+      ]
+    },
+    {
+      "number": 27136,
+      "text": "人行道供行人使用，除非标志另有规定，否则禁止停车。",
+      "evidence": [
+        "Codice della strada, art. 158 comma 1 lettera h, https://aci.gov.it/codice-della-strada/art-158/: divieto sui marciapiedi salvo diversa segnalazione."
+      ]
+    },
+    {
+      "number": 27137,
+      "text": "靠近交通标志并不总是禁止停车：车辆遮挡标志时禁止停车，也须遵守其他适用的禁令。",
+      "evidence": [
+        "Codice della strada, art. 158 comma 1 lettera d, https://aci.gov.it/codice-della-strada/art-158/: divieto presso segnali quando se ne occulta la vista."
+      ]
+    },
+    {
+      "number": 27138,
+      "text": "在城镇内，即使没有停车位标线也可能允许停车，例如在没有禁令的右边缘停车；车辆仍须正确停放并遵守标志和其他限制。",
+      "evidence": [
+        "Codice della strada, art. 157 commi 2 e 5, https://aci.gov.it/codice-della-strada/art-157/: regole generali di posizione e rispetto della segnaletica nelle zone predisposte; art. 158, https://aci.gov.it/codice-della-strada/art-158/: luoghi vietati."
+      ]
+    },
+    {
+      "number": 27139,
+      "text": "在城市单行道上，只要留有供一列车辆通行的空间且宽度至少三米，也可以在左侧停车。",
+      "evidence": [
+        "Codice della strada, art. 157 comma 4, https://aci.gov.it/codice-della-strada/art-157/: sosta a sinistra su strade urbane a senso unico alle condizioni indicate."
+      ]
+    },
+    {
+      "number": 27140,
+      "text": "一般应将车辆停在靠近边缘的位置，与边缘平行且朝向行驶方向；标志可以另作规定。",
+      "evidence": [
+        "Codice della strada, art. 157 comma 2, https://aci.gov.it/codice-della-strada/art-157/: posizione parallela, salvo segnalazione diversa o caso del comma 4."
+      ]
+    },
+    {
+      "number": 27141,
+      "text": "如果装有中央支架，正确使用时它可以在停车期间支撑轻便摩托车；仍需检查车辆在地面上是否稳固。",
+      "evidence": [
+        "Direttiva 2009/78/CE, allegato I punti 1.3 e 2.1, https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32009L0078: cavalletto centrale sostiene il veicolo sui due lati del piano mediano; il cavalletto garantisce stabilità in sosta."
+      ]
+    },
+    {
+      "number": 27142,
+      "text": "人行道供行人使用，除非标志另有规定，否则禁止停车。",
+      "evidence": [
+        "Codice della strada, art. 158 comma 1 lettera h, https://aci.gov.it/codice-della-strada/art-158/: divieto sui marciapiedi salvo diversa segnalazione."
+      ]
+    },
+    {
+      "number": 27143,
+      "text": "停车期间必须关闭发动机；停车与短暂停车有区别。",
+      "evidence": [
+        "Codice della strada, art. 157 commi 1 lettere b-c e 2, https://aci.gov.it/codice-della-strada/art-157/: distinzione tra fermata e sosta e motore spento durante la sosta."
+      ]
+    },
+    {
+      "number": 27144,
+      "text": "短时间停车也不能占用人行道；除非标志另有规定，否则禁令仍然适用。",
+      "evidence": [
+        "Codice della strada, art. 158 comma 1 lettera h, https://aci.gov.it/codice-della-strada/art-158/: divieto di fermata e sosta sul marciapiede salvo diversa segnalazione."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "5957264b21112b55e579c1ef80ad36a06da984f4571905e08fea4bc335d9a059",
+    "output_sha256": "abcff95ed3d4ad2bbcb59cffb10aa1d82478ab08ef8f98b8d5b6a55aad1075f0",
+    "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-27125-2026-11-17",
+    "status": "accepted",
+    "checked_numbers": [
+      27120,
+      27121,
+      27122,
+      27123,
+      27124,
+      27125,
+      27126,
+      27127,
+      27128,
+      27129,
+      27130,
+      27131,
+      27132,
+      27133,
+      27134,
+      27135,
+      27136,
+      27137,
+      27138,
+      27139,
+      27140,
+      27141,
+      27142,
+      27143,
+      27144
+    ],
+    "issues": [],
+    "original_author_runs": [
+      {
+        "run_id": "01a1ea38-1e78-7602-8846-c40cc84d1fe0",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "f502503eaf0af84396b173d644fb13b89bc4b969236844c68519e13708de0177",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea3a-a7c0-7d20-91af-80a8fac1711d",
+        "label": "author-0-1",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "08a791b51a72498c21079da0025ee216bd58f206751936197095923d35538bdd",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea3b-514a-7651-a4a3-d5b0ca5f9545",
+        "label": "author-0-2",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "08a791b51a72498c21079da0025ee216bd58f206751936197095923d35538bdd",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1ea3b-df13-7001-b5c6-b240256c70a8",
+        "label": "author-0-3",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "08a791b51a72498c21079da0025ee216bd58f206751936197095923d35538bdd",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [],
+    "prior_review_findings": [
+      {
+        "task_sha256": "5957264b21112b55e579c1ef80ad36a06da984f4571905e08fea4bc335d9a059",
+        "output_sha256": "5b390ca3b2c49e30fedb1e10f4101bc74dd09a3268e056392c2a28c1c0139384",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-27125-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          27120,
+          27121,
+          27122,
+          27123,
+          27124,
+          27125,
+          27126,
+          27127,
+          27128,
+          27129,
+          27130,
+          27131,
+          27132,
+          27133,
+          27134,
+          27135,
+          27136,
+          27137,
+          27138,
+          27139,
+          27140,
+          27141,
+          27142,
+          27143,
+          27144
+        ],
+        "issues": [
+          "27122: The text paraphrases the obligation without explaining why keeping right matters; add a concrete reason such as space for traffic or the opposing direction, within the applicable road context.",
+          "27125: The text states that for a permitted overtake one passes on the left without qualifying this as the ordinary rule. Article 148(7) requires passing on the right in specified circumstances; qualify the left-passing rule without changing the caveat or implying unconditional free choice.",
+          "27128, 27129, 27130: Each explanation repeats the question’s right-edge rule without explaining why it applies. Add a reason appropriate to oncoming traffic, reduced visibility in a bend, or reduced visibility at a crest, respectively.",
+          "27131: Article 143(3) sets exceptions for separated carriageways, at least two lanes per direction, or one-way carriageways; it is not restricted exclusively to two-lane two-way roads. State the single-carriageway two-lane example without excluding other configurations.",
+          "27138: The explanation negates the premise and refers to unspecified rules without giving a reason or example. Explain a permitted parking case without marked bays, subject to actual restrictions and proper positioning."
+        ]
+      },
+      {
+        "task_sha256": "5957264b21112b55e579c1ef80ad36a06da984f4571905e08fea4bc335d9a059",
+        "output_sha256": "8bbc8cf31e728b2923fea83ddca4c4ea9f1d74e5200fb5a4de9df097564f1d61",
+        "author": "gpt-6.1-terra / collaboration /root/terra_runner",
+        "reviewer": "gpt-6.1-terra / collaboration /root/terra_reviewer / am-27125-2026-11-17",
+        "status": "needs_changes",
+        "checked_numbers": [
+          27120,
+          27121,
+          27122,
+          27123,
+          27124,
+          27125,
+          27126,
+          27127,
+          27128,
+          27129,
+          27130,
+          27131,
+          27132,
+          27133,
+          27134,
+          27135,
+          27136,
+          27137,
+          27138,
+          27139,
+          27140,
+          27141,
+          27142,
+          27143,
+          27144
+        ],
+        "issues": [
+          "27122: The new explanation says to keep right but drops the source question’s stronger requirement to travel near the right edge. Restore “near the right edge of the carriageway” in each language while retaining the reason."
+        ]
+      }
+    ]
+  }
+}

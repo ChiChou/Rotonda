@@ -1,0 +1,31 @@
+{
+  "batch": "114",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_065_129",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "7a821daf719cdef07774d6021ea45c81cc492a8e2be61c812c334da229c49dc4",
+  "source_sha256": "cdc7d6ab9a5cdbecf6190ea9768689282efbc9de68b853278a8b960dc9ea80af",
+  "corrections": [
+    {
+      "id": "983981894557ac4cc7a4ef76ce59103558fa9068c56c02f8fc5bd160f1519053",
+      "before": "Para acreditar la idoneidad del vehículo para el transporte nacional por carretera de mercancías peligrosas en bultos no se necesita ningún certificado para cargas distintas de explosivos y materiales radiactivos",
+      "after": "Para acreditar la idoneidad del vehículo para el transporte por carretera, en régimen nacional, de mercancías peligrosas en bultos, no se necesita certificación alguna para cargas distintas de explosivos y radiactivos",
+      "reason": "Se conserva el marcador estructural 02##tipologia2.; Wrong sentence: the draft described the CQC code instead of the dangerous-goods packaging rule"
+    },
+    {
+      "id": "9917909bb128d506b91baa2ebbccbd1b69f2b3e798e9146b75f1ab38af090cf0",
+      "before": "16##tipología16 CQC",
+      "after": "16##tipologia16 CQC",
+      "reason": "Se conserva el marcador estructural 16##tipologia16."
+    }
+  ],
+  "reviewed_file_sha256": "539d3b911553186d356cc0ac84681d8829becdb93952de2b299dd40ec01efc68"
+}

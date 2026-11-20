@@ -1,0 +1,37 @@
+{
+  "batch": "186",
+  "language": "es-419",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source and Spanish translation read and semantically compared by a Claude Haiku 5.5 subagent; false assertions retained; corrections recorded with before/after and reason.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_es_130_193",
+    "reviewed_on": "2026-11-14"
+  },
+  "rows": 100,
+  "baseline_sha256": "9443adb6ba87d315e06be23ff4b37fefeb6157266620b4370a847b41960f0e7c",
+  "source_sha256": "7891929a576ce84bbc80abcfa1808b718711c0dbb2df3f67ff5e7a8d044f32c8",
+  "corrections": [
+    {
+      "id": "f68a75627dca88364e68a786206a799e209a0868f068853c494a8674ad5b26c5",
+      "before": "El limitador de velocidad actúa sobre la bomba de inyección del vehículo si esta existe",
+      "after": "El limitador de velocidad, si está instalado, actúa sobre la bomba de inyección del vehículo",
+      "reason": "La condición de presencia se refiere al limitador, no a la bomba."
+    },
+    {
+      "id": "f6a39ca5fe2ed60a4afa1d47d8127d68b2f4fb6e4debd0d3b3c7bca7c892d76f",
+      "before": "Para garantizar la seguridad vial y evitar accidentes es necesario, entre otras cosas, mantener en buen estado los dispositivos de frenado e iluminación",
+      "after": "Para garantizar la seguridad vial y evitar accidentes es necesario, entre otras cosas, mantener en buen funcionamiento los dispositivos de frenado e iluminación",
+      "reason": "Efficienti indica que funcionen correctamente."
+    },
+    {
+      "id": "f6cfa72e9e4b5a7a8040f2a6ef31200899fcfe231b00ad9e64cc2aea1479cba2",
+      "before": "Está prohibido detenerse en vías que no estén divididas en carriles",
+      "after": "Está prohibida la parada en vías que no estén divididas en carriles",
+      "reason": "Fermata indica parada temporal."
+    }
+  ],
+  "reviewed_file_sha256": "ba91566be61b1e6e109d04cbd2c3ddd819cf18a8c3d37297e654daf3ab50b0a2"
+}

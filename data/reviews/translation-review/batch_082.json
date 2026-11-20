@@ -1,0 +1,312 @@
+{
+  "batch": "082",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_agent": "claude-haiku-5-5 review subagent (batch-level, 2026-11-19)",
+  "reviewed_on": "2026-11-19",
+  "method": "Second pass: every Italian source row and both English and Simplified Chinese translations compared by a Claude Haiku 5.5 subagent; false assertions retained; acronym forms kept as in common English/Chinese usage.",
+  "previous_review": {
+    "reviewer_model": "gpt-6.1-terra",
+    "reviewer_agent": "/root/review_middle",
+    "reviewed_on": "2026-11-14"
+  },
+  "baseline_sha256": "0bfc533183a55b4d96311ed6d1b1f1d07741356c6ba34def0641a3611389d844",
+  "rows": 100,
+  "verified_ids": [
+    "ba76d649a1f414c6a6f17cefd3a71d2f921b41c95e4393f1642e0e84cf17d650",
+    "923dcb8a740325132e02b7c50ec01352073dc80301ca807469e5e0fe5874c578",
+    "ffaf0e93abb08d776dbf12d8bc18a1887953de973b60310f10f2cfa0bf0af6c4",
+    "53140111901704c7ba49fed2c69fb8357ff28891dcf5928ed5ab62b684815eb4",
+    "c3c4558aed80231a6389e22daad036d23c0f2812a6939a33258ea64aa9db1038",
+    "b3f6a2794a1364d57289402d5e7efd33050ccb9f9c5c23f47f3c46c7fdb94ad3",
+    "d264f2c3b0331fd7581ba1b7c3a74bdc34858b7f4df879c99d21a6b9d012ba3f",
+    "ba1d8a32a83525c7581c590089a71dfbbb6592327d67539db0fd8e145033544c",
+    "4d8151438d42d3c25a10044ce00f69fa231420882bb437bdc44b0d91402cb8d8",
+    "79b15132ba07058d0bf543bd69d20ea3df4d69fafddeb99185336dfdae61c43b",
+    "e1f0543a62e67fa0a792f2f8359f482a59183e7b0a406146fa8370d922a03369",
+    "c447ba99804a8cb343c2fc826132817c544fc09ee166ec37eaa9e80f827f0164",
+    "58450de2ef5d5653b157d8ec7ddcc5be48e472c21a221f8acb79400f202ea94c",
+    "f52e7b67e4c15eaa2274727ff89c190fdb2f77c44293bc0e99b4fbda6050a51e",
+    "9b1a93121d121eafe429d71b7bac703dec1ea68a8e2b1049d1532bb4479fe96b",
+    "f81b455cca41ff6c566e64004d6674df42bf1f92b7b3822292a60a0801437735",
+    "da26868042d3166479d7218944a94dab79022e0c82f53e7f4f1783c16884fb7c",
+    "cbb1e7458ddda81c93561d984c48b7dba7b330f9fc4ebab342a0b59ee9a1fe44",
+    "89ea7608fbc7bd0f6334b95be53d821e5db4c59068545f34493e2f80cd112ac0",
+    "df2b16f1d5325e2deccbd635948bd5cb2412d1f80fdb579fb2cae73640b24db8",
+    "6987c164dd59a8617aea32d1b7480957fd98fa20f7021d29fc58ee8a9bcf7cb5",
+    "45b4daf8bd1fc2148fbfe0b29f1512397e3b8e8f14ee38d90ef08ae09c6c99e1",
+    "dc0b328b083f328ac25c7bdaa7fef8b84b57148120eba5ec30b0707c870551e2",
+    "f3b71744f4c70e7d8d2472f81084f6151b3fd733b5430627ce598cfe35a10904",
+    "484f9ab43eb9258603f116f346bb51e8057a9c2a83f47829b8bb01918a111132",
+    "57a45dfef487f3b60065dd295cd4f2ef58b64f2ddf4b80266364d9586c509d15",
+    "aca7b6e596b51e6ac1fea540cc15953f8dcf23593f83eb8a71a038e9a9ffdb18",
+    "273bee8cf119e3a84545721642d2b47a4f7b7a1565b53def140cdb52c7a35e4a",
+    "96b082cbb1fc82313ef4d9bd2d6d71a21d9d80e600892a3a778ea2a14b1f2625",
+    "c74a4f773f66c5b7d6ff5b77355382292bd1ca81c4dc4e3b0ff9e1d1a2ac98a4",
+    "1e61c8c4556c2e8d6bcbfbfd4901c8f010a6e22b91d9b25b2b2fac50e6d21f63",
+    "444f6856218fd86f45dca470a162f97a37e5646bbaa1445321af49513fa027e4",
+    "273347522be755eb090ca0ca5d77b48edc3f1097a05daf5aa0073089ea68b8ce",
+    "2e5599fcd8d065a30ed7f88030ec1a6cdaef559d13ab4e25dcd9750ae9e34fff",
+    "d449c05ba19f964ad9307519d646b4cecd1835a1ada3e24ae1a250cc169e6720",
+    "74e1fb310cd31f2243c59a0571078063dce3621a9d7c183042557a51e8390183",
+    "61c69d85b18062dc508012bfe712865f0f803e6dad9fe40c13dde00962f007c0",
+    "4abce09cf48be511f048b801c7b42ec7d8807a2ca26ccf1a7e0dd08a13867fb5",
+    "2c47b3c5b9ab337c835b05aaa91b302e0cb7e25ab07d4562851976ace0f260fd",
+    "22780568f77e42ed98bbe9d8e2d9af32efb33360d50e1a006cacabc55f74fe9f",
+    "d63ccd22efe4a7916d219eabaf46ea7986b1d9bd3010abb0286a5637879ab7af",
+    "ab938526089c460c7616153576af3366596a775d541676c097471cdba052ebc2",
+    "4daab8c932372f534ca25b4d35de815295470146dd12131c0474704adfa19d41",
+    "8ecd5a88f0ec156dfee0ad1be6d0d42aabd606f2b7694b9fbd3c94f3d9f07b7c",
+    "863d517087e26d14d90bb3430b69654d457b785f3149fa8b6a3e773cac20502c",
+    "a5adc78c1e3aa80fe45e344edd4dd069596ecc3ccf98fb902af0c36cc4af5265",
+    "bbf1ab9080060e9c72fbf5292b638101a6ca5f8a88aec28d23c6207e81b6bcf1",
+    "a061b45a1fafb960eda87d79e636eeac4d3820d39b0c238b433478716485b0fa",
+    "374e46cbc1a93785c27f8af59d235c98803192c1ea53136bb4cccf6c833c53af",
+    "2da7c58ec51155fd0b7a7b6894a66a31f2f5a2204b202f65f33d5913fdd4c9f0",
+    "df86beaf8b5f3f6bbad9201b186830e2495c8d5855b5dd25d861ea2cb75546d5",
+    "db2147ca030cf44c9e08fcb39c3ad4f6a1d62b27be56de4939a0a4ee2c87e3e6",
+    "85b697700e258f224258a560711a3794283eee858a8ad4695f0f4a0123a055da",
+    "c0779006a395cc7159ad5e233472c3de9c4a7b443766105e8c3c24b8ce24f97e",
+    "1112ceba47e0c36965c93727676c54445142e7e198a4514baf6bee18819ca61f",
+    "195c6d6e06d03ec9a06c2b183b1c82ed21cea80e3e0c33e031ea758b6d56fedc",
+    "8a39bac29d8d449c08294434f506053b0acd2bf18731733982caa7f1aa74be21",
+    "58274ca55d7610a14dfca4fb4bf8c17744c7a6f525c8fd620f6c4843b7e51d97",
+    "81618e1c4f7fdd27bd1037dd8e567d1522af0e5a09d9e63151fcf25e397b0905",
+    "1f582c3ca9814459a3f50fd020698773a86d08195962dcaed1e86ed7f5918bd9",
+    "c2737596f52a2a1a93bcc6f25b6c2afce588f38c7ef6b9bad1a1ca945fb08e74",
+    "a0df3316221a789684d2e3fc0d6a543591c875096633db9f404963ad634f43d1",
+    "59529cd02dc27e7ef70d96ee3677a901b62e020f62747a9090331845470b0d3a",
+    "72b66cb873b86550826e99a825448e731a62cb36bed2374b8088bb8360bff5c1",
+    "72c50d0672d291dfd8a9d222714a1d38f52ee0c9e1862df4b6b8349f3451261a",
+    "efa5fcba5b0440dce50d5e53fb8ce3c6680c7efaf954bba44d29c3d530eed132",
+    "84a2806f047206b351ca94349b9ed5595dd27bb59e8455189d5da8c1d2d60e24",
+    "6a6dc9f6a8725f8dcd6a54aef6af9644b14cc366000dc1d94a7cc090d166ceb5",
+    "5951f051323a2b81876a13b838dc410971a8fcdc4e36d9c93f4c97382e12f352",
+    "19830ace76d724e1dc241bfb40de1cba8635145b3cc0e3d2c49dbaf64a1cd9a4",
+    "b36d52627b088f870c4ae69dfd302ef5fd71940740af7ac123398676edb994e9",
+    "1c59e92ca60fd1fb935da29b550f1115134bfea578076fbfdb6c7e165f027aca",
+    "6c3e5caa42e603d002307957c79f7130bc52bb6cdf19f589a8a79721301d7510",
+    "a78dec250bcfc1b217073f332ca03fbcc39eee369aedb424837fd6c2d805efa2",
+    "f90638f9454904744c2061bf59dc227963642bbbbf1cc73f111d1e2991c5e448",
+    "ae5660a9199f0384b2e73378a434b162b8b0f108eafc3f3782bc93b6e52ba578",
+    "7aaa8764e708d90c235a46980609fbd01b65c130ee76897ce88c24b57b8c59d7",
+    "b1260a4d1ae26883d3fc7e6b6312336c1bdb390e3681737fefa1deb59b432fac",
+    "8a42d92de690ae81d5ec4148c77e2a6b66b14bbd05fcb707ff2d7ad10ce85aec",
+    "4cf817c4ac6530512edb37adfdffda4df3e452adc8bbf6d6df50765b46bd4ff2",
+    "14a7d32d8d4297299410964104e5267a10650883541fa6e228350d8c9e2e09d0",
+    "ac91ae736d2a9f93ad9b6e06f0808e904aadfbf7d4a1ceaba98dbe4bb1593c22",
+    "6b12d3c8266afbc56c495089e11927b16d0fd4cec254992a1da2ffe146ee803b",
+    "85871206598d6f377fd29e91182f5a0ef79e4d45516de16a4c9e726b4535430c",
+    "9472ef6294640f6dbecf811e345be5575c643e845436728d80839cef6cd16335",
+    "d46dbd8fdbc68cf65943a45ce6b7bdf38c2f05bb06df809d6157bf1699225a53",
+    "f9bd7839003263ad6ee3b37024f56d5619b596cb25070a6a85aaa5e40d1c4709",
+    "e5bbfdbdcd28ba5525500381e5332492a21c4d6d64919974ceba758333aa9d63",
+    "6a8c655dee7f4eb110e3383825674795ffe86a067ca5415232a1f8856661bc94",
+    "78844221ee34720638a6d0cf1758384c301c2b3de4b6592c17dea738ba9806c7",
+    "c7f7b8ac481db7118ee77a044e9527f97c3394ca8d24fc1ad44892d84d61f28d",
+    "1d58625183e9a366547535616f5d37baebad09198a71ee642a2ab7a78c4508d6",
+    "7c8d3409627b3a7755e3d39f736d805d36134b1930228294f6389fa238f697c0",
+    "948a737b52cb1c60ab30009542e8562de6a7c7ad6093747e4f2b5f0abd2bcab7",
+    "331219b03590180d2ca6e6ea776e530951643d7a1ac958ed0d68209c24b75f0a",
+    "eb207d2496fb68cb080cc359b4bea0ccaf5175e45fdb984ee9c77839b7cf8314",
+    "7ca674c7ee172b2790ac3f02eaaab23c194bfd7de55b42f52fddeea5fe95edf1",
+    "0c18303e55f1fa5b48e892fc14bf97a30bd3dd4db0a9520bf254d4ec6726aaad",
+    "07360c69f399c3131fcb772f21452e4d4a76195a2f568195c9e439cd24fe5e4c",
+    "05ceb50f68615265638c96cbae6343419601a4bef477378f3c42528effd404a0"
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "id": "c3c4558aed80231a6389e22daad036d23c0f2812a6939a33258ea64aa9db1038",
+      "reason": "Earlier review pass",
+      "changes": {
+        "zh": {
+          "before": "经过蓬泰基亚索（科莫省）和加焦洛（瓦雷泽省）的意瑞边境时，“通行卡”必须由运输企业负责人填写并签署。",
+          "after": "经过蓬泰基亚索（科莫省）和加焦洛（瓦雷泽省）的意瑞边境时，“通行卡”必须由运输企业所有人填写并签署。"
+        }
+      }
+    },
+    {
+      "id": "cbb1e7458ddda81c93561d984c48b7dba7b330f9fc4ebab342a0b59ee9a1fe44",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Tank transport of milled grain products and flour intended for human consumption must be accompanied by a carrier's self-declaration of specific experience in such transport.",
+          "after": "Tank transport of milled grain products and flour intended for human consumption must be accompanied by a carrier’s self-declaration, made under its own responsibility, that it has specific experience in such transport."
+        },
+        "zh": {
+          "before": "罐装运输供人食用的研磨谷物制品和面粉时，必须随附承运人声明其具有此类运输专门经验的自我证明。",
+          "after": "罐装运输供人食用的研磨谷物制品和面粉时，必须随附承运人自行承担责任声明其具有此类运输专门经验的自我证明。"
+        }
+      }
+    },
+    {
+      "id": "89ea7608fbc7bd0f6334b95be53d821e5db4c59068545f34493e2f80cd112ac0",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Tank transport of milled grain products and flour intended for human consumption requires the driver to hold a professional training certificate (CFP).",
+          "after": "Tank transport of milled grain products and flour intended for human consumption must be accompanied by the driver’s professional training certificate (CFP)."
+        },
+        "zh": {
+          "before": "罐装运输供人食用的研磨谷物制品和面粉要求驾驶人持有职业培训证书（CFP）。",
+          "after": "罐装运输供人食用的研磨谷物制品和面粉时，必须随附驾驶人的职业培训证书（CFP）。"
+        }
+      }
+    },
+    {
+      "id": "dc0b328b083f328ac25c7bdaa7fef8b84b57148120eba5ec30b0707c870551e2",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles carrying goods for hire or reward must always carry the original Community licence.",
+          "after": "Vehicles carrying goods for hire or reward must carry the original Community licence."
+        },
+        "zh": {
+          "before": "受雇或收取报酬运输货物的车辆在任何情况下都必须随车携带共同体许可证原件。",
+          "after": "受雇或收取报酬运输货物的车辆必须随车携带共同体许可证原件。"
+        }
+      }
+    },
+    {
+      "id": "f3b71744f4c70e7d8d2472f81084f6151b3fd733b5430627ce598cfe35a10904",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles carrying goods for hire or reward must always carry a certified true copy of the driver attestation.",
+          "after": "Vehicles carrying goods for hire or reward must carry a certified true copy of the driver attestation."
+        },
+        "zh": {
+          "before": "受雇或收取报酬运输货物的车辆必须始终随车携带驾驶员证明核证副本。",
+          "after": "受雇或收取报酬运输货物的车辆必须随车携带驾驶员证明核证副本。"
+        }
+      }
+    },
+    {
+      "id": "484f9ab43eb9258603f116f346bb51e8057a9c2a83f47829b8bb01918a111132",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Exceptional vehicles must also carry authorisation to travel without a police escort, where applicable.",
+          "after": "Exceptional vehicles must carry authorisation to travel without a police escort, where applicable."
+        },
+        "zh": {
+          "before": "超限车辆在适用时还必须随车携带无警察护送行驶的许可。",
+          "after": "超限车辆在适用时必须随车携带无警察护送行驶的许可。"
+        }
+      }
+    },
+    {
+      "id": "c74a4f773f66c5b7d6ff5b77355382292bd1ca81c4dc4e3b0ff9e1d1a2ac98a4",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Meat on board a vehicle must bear a health mark and have accompanying documents.",
+          "after": "Vehicles used to transport meat must carry the stamp and accompanying documents."
+        },
+        "zh": {
+          "before": "车辆上的肉类必须带有卫生标记及随附文件。",
+          "after": "用于运输肉类的车辆必须随车携带印记和随附文件。"
+        }
+      }
+    },
+    {
+      "id": "c0779006a395cc7159ad5e233472c3de9c4a7b443766105e8c3c24b8ce24f97e",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Vehicles carrying goods on own account outside the EU must also carry the registration certificate.",
+          "after": "Vehicles carrying goods on own account outside the EU must carry the registration certificate."
+        },
+        "zh": {
+          "before": "在欧盟境外自营运输货物的车辆还必须随车携带车辆登记证。",
+          "after": "在欧盟境外自营运输货物的车辆必须随车携带车辆登记证。"
+        }
+      }
+    },
+    {
+      "id": "72c50d0672d291dfd8a9d222714a1d38f52ee0c9e1862df4b6b8349f3451261a",
+      "reason": "Acronym RCA dropped from the Chinese; technical codes must be kept as in the Italian.; Acronym RCA dropped from the English; technical codes must be kept as in the Italian.",
+      "changes": {
+        "en": {
+          "before": "Unauthorised transport occurs when transport is performed with non-compliant staff, without motor liability insurance and without paying the national road hauliers’ register contribution.",
+          "after": "Unauthorised transport occurs when transport is performed with non-compliant staff, without RCA motor liability insurance and without paying the national road hauliers' register contribution."
+        },
+        "zh": {
+          "before": "使用不合规人员、没有机动车责任保险且未缴纳全国公路运输经营者名册费用而运输时，构成非法运输。",
+          "after": "使用不合规人员、没有RCA（机动车责任保险）且未缴纳全国公路运输经营者名册费用而运输时，构成非法运输。"
+        }
+      }
+    },
+    {
+      "id": "6a6dc9f6a8725f8dcd6a54aef6af9644b14cc366000dc1d94a7cc090d166ceb5",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Transport costs can also be reduced by optimising the potential of each transport mode.",
+          "after": "Transport costs are reduced by optimising the potential of each transport mode."
+        },
+        "zh": {
+          "before": "优化每种运输方式的潜力也可以降低运输成本。",
+          "after": "优化每种运输方式的潜力可以降低运输成本。"
+        }
+      }
+    },
+    {
+      "id": "5951f051323a2b81876a13b838dc410971a8fcdc4e36d9c93f4c97382e12f352",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Transport costs can also be reduced by choosing a flatter route.",
+          "after": "Transport costs are reduced by choosing a flatter route."
+        },
+        "zh": {
+          "before": "选择更平坦的路线也可以降低运输成本。",
+          "after": "选择更平坦的路线可以降低运输成本。"
+        }
+      }
+    },
+    {
+      "id": "19830ace76d724e1dc241bfb40de1cba8635145b3cc0e3d2c49dbaf64a1cd9a4",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "Transport costs can also be reduced by using intermodal transport over long distances.",
+          "after": "Transport costs are reduced by using intermodal transport over long distances."
+        },
+        "zh": {
+          "before": "长距离使用多式联运也可以降低运输成本。",
+          "after": "长距离使用多式联运可以降低运输成本。"
+        }
+      }
+    },
+    {
+      "id": "6b12d3c8266afbc56c495089e11927b16d0fd4cec254992a1da2ffe146ee803b",
+      "reason": "'su gomma' rendered as 轮胎运输, which is not the transport mode term; use 胶轮运输.; 'su gomma' was rendered as 'transport on tyres', which is not a transport mode term; use rubber-tyred.",
+      "changes": {
+        "en": {
+          "before": "Land transport of goods can be divided into road transport and transport on tyres.",
+          "after": "Land transport of goods can be divided into road transport and rubber-tyred transport."
+        },
+        "zh": {
+          "before": "陆路货物运输可以分为公路运输和轮胎运输。",
+          "after": "陆路货物运输可以分为公路运输和胶轮运输。"
+        }
+      }
+    },
+    {
+      "id": "c7f7b8ac481db7118ee77a044e9527f97c3394ca8d24fc1ad44892d84d61f28d",
+      "reason": "Earlier review pass",
+      "changes": {
+        "en": {
+          "before": "One of the main advantages of road transport is the ability to reach places inaccessible by other transport modes.",
+          "after": "Road transport can reach places inaccessible by other means of transport."
+        },
+        "zh": {
+          "before": "公路运输的主要优势之一是能够到达其他运输方式无法到达的地点。",
+          "after": "公路运输能够到达其他运输工具无法到达的地点。"
+        }
+      }
+    }
+  ],
+  "reviewed_file_sha256": "724224086343bfe37fc7b8241510e0e695909463631b9c27f28d67559162a30f"
+}

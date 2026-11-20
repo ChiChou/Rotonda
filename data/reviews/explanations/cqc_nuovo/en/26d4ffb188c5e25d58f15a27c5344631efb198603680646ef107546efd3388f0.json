@@ -1,0 +1,816 @@
+{
+  "task": {
+    "schema_version": 1,
+    "stage": "explain",
+    "bank": "cqc_nuovo",
+    "language": "en",
+    "pdf": "inputs/official/2026-11-14/conseguimento-cqc-nuovo-it.pdf",
+    "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+    "model": "gpt-6.1-terra",
+    "records": [
+      {
+        "source": {
+          "number": 31249,
+          "quesito_id": 7012,
+          "text_it": "Il modulatore pressione-carico dell'impianto di frenatura evita il bloccaggio delle ruote in frenatura quando il veicolo è scarico",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "dc663dc338ce842ed3178d02234260762321086d3ff9080d1d0d373756403ab3",
+        "localized_text": "The braking system load-sensing pressure modulator prevents wheel lock under braking when the vehicle is unloaded."
+      },
+      {
+        "source": {
+          "number": 31250,
+          "quesito_id": 7012,
+          "text_it": "Il modulatore pressione-carico dell'impianto di frenatura può interagire funzionalmente con le sospensioni",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "74882e0684a827743a6d3cd4bc95945ecf604e6509b27e92130f3a7dd8d9b883",
+        "localized_text": "The braking system load-sensing pressure modulator can interact with the suspension."
+      },
+      {
+        "source": {
+          "number": 31251,
+          "quesito_id": 7012,
+          "text_it": "Il modulatore pressione-carico dell'impianto di frenatura regola l'intensità della forza frenante di frenatura applicata agli assi in funzione del carico del veicolo",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "090d68dddb09217953903ef9d0450f8ae4d8cc916671617ac3cb0dcf2f393804",
+        "localized_text": "The braking system load-sensing pressure modulator adjusts braking force applied to the axles according to vehicle load."
+      },
+      {
+        "source": {
+          "number": 31252,
+          "quesito_id": 7013,
+          "text_it": "Il modulatore pressione-carico dell'impianto di frenatura consente di variare l'altezza del pianale di carico del veicolo",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "9acbeee2471bb8673b328a5f5c3ec7fb3c2387077a9bdb66e6208dd2560b448e",
+        "localized_text": "The braking system load-sensing pressure modulator allows vehicle load-floor height to be changed."
+      },
+      {
+        "source": {
+          "number": 31253,
+          "quesito_id": 7013,
+          "text_it": "Il modulatore pressione-carico dell'impianto di frenatura riduce la pressione dell'aria su tutti gli elementi frenanti al bloccaggio delle ruote",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7ff24a976c5343de226ee8a1390e0825c357271f590bdc41bf85708874697fb5",
+        "localized_text": "The braking system load-sensing pressure modulator reduces air pressure on all braking elements when wheels lock."
+      },
+      {
+        "source": {
+          "number": 31254,
+          "quesito_id": 7013,
+          "text_it": "Nell'impianto frenante oleopneumatico il compressore aspira l'aria dall'esterno e la convoglia negli appositi serbatoi",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ddeab02502ce6165d774cb15f4987167abcbfa8d379e7b41c8d660a3bab94e96",
+        "localized_text": "In an air-over-hydraulic braking system, the compressor draws in external air and sends it to dedicated tanks."
+      },
+      {
+        "source": {
+          "number": 31255,
+          "quesito_id": 7013,
+          "text_it": "L'impianto frenante oleopneumatico contiene una pompa dell'aria ad ingranaggi",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "333bc9028887da925b63dccb1a7f04d5017279065abbb1b3685240ca9262f930",
+        "localized_text": "An air-over-hydraulic braking system contains a gear-type air pump."
+      },
+      {
+        "source": {
+          "number": 31256,
+          "quesito_id": 7013,
+          "text_it": "Il convertitore pneumoidraulico dell'impianto di frenatura trasmette la forza dell'aria compressa a una pompa idraulica",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "c17cb989ee68cb15f4b3385c977ccb18971c121d49bacf368818148a3940cdf4",
+        "localized_text": "The pneumatic-hydraulic brake converter transmits compressed-air force to a hydraulic pump."
+      },
+      {
+        "source": {
+          "number": 31257,
+          "quesito_id": 7013,
+          "text_it": "Il convertitore pneumoidraulico dell'impianto di frenatura è posto fra i serbatoi dell'aria e il distributore duplex",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "4f81de5d48bd68f713d5e8cfa3f8534fbe1cae7f9fc9f201d608c797f9f71229",
+        "localized_text": "The pneumatic-hydraulic brake converter is located between the air tanks and the duplex valve."
+      },
+      {
+        "source": {
+          "number": 31258,
+          "quesito_id": 7013,
+          "text_it": "Il convertitore pneumoidraulico dell'impianto di frenatura invia olio in pressione verso i dispositivi idraulici frenanti delle ruote",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "16f3a1d6c4a203f8699215ef6fe9b8d2a5fb38ac6c6080a9e84f226f285261b8",
+        "localized_text": "The pneumatic-hydraulic brake converter sends pressurised oil to the wheels' hydraulic braking devices."
+      },
+      {
+        "source": {
+          "number": 31259,
+          "quesito_id": 7013,
+          "text_it": "Nel circuito frenante oleopneumatico l'olio è contenuto in apposito serbatoio del convertitore pneumoidraulico",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "33d34bc23e875acd3aaad4a7ec2777432ed936a22d4a311f67406ea93e2714db",
+        "localized_text": "In an air-over-hydraulic brake circuit, oil is held in a dedicated reservoir in the pneumatic-hydraulic converter."
+      },
+      {
+        "source": {
+          "number": 31260,
+          "quesito_id": 7013,
+          "text_it": "Il convertitore pneumoidraulico dell'impianto di frenatura mette in pressione l'olio del circuito di lubrificazione dell'impianto frenante",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "999b0cf271e7068c5b1fc6461e7be974248991ebf0ee780e6b829a975f224162",
+        "localized_text": "The pneumatic-hydraulic brake converter pressurises oil in the braking system lubrication circuit."
+      },
+      {
+        "source": {
+          "number": 31261,
+          "quesito_id": 7013,
+          "text_it": "Nei freni oleopneumatici il fluido frenante è costituito da una miscela di acqua, olio e aria",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7f7213cce46e0cf5635fcfa723a0dca24a2681d306efc2a18df729ff0a793c0b",
+        "localized_text": "In air-over-hydraulic brakes, the braking fluid is a mixture of water, oil and air."
+      },
+      {
+        "source": {
+          "number": 31262,
+          "quesito_id": 7013,
+          "text_it": "L'impianto frenante oleopneumatico è dotato di convertitori pneumoidraulici",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "7e9655525c003beb374d13f5835c9dd07d774095ddf8ff0c75633c2c72ad1e36",
+        "localized_text": "An air-over-hydraulic braking system has pneumatic-hydraulic converters."
+      },
+      {
+        "source": {
+          "number": 31263,
+          "quesito_id": 7013,
+          "text_it": "Prima di iniziare la marcia è necessario che aria ed olio dell'impianto frenante oleopneumatico abbia raggiunto una sufficiente pressione",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "cae5794890996d24b5f7361d7be58a9ebaa80098a6351e0c2b5230efe5f83d46",
+        "localized_text": "Before moving off, the air and oil in an air-over-hydraulic braking system must have reached sufficient pressure."
+      },
+      {
+        "source": {
+          "number": 31264,
+          "quesito_id": 7013,
+          "text_it": "L'impianto frenante oleopneumatico è dotato di una catena di distribuzione",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "bf542c28d39cd901ee7ee6a0e1d21660adc9ec7913853ce80e47ba552771e9fa",
+        "localized_text": "An air-over-hydraulic braking system has a timing chain."
+      },
+      {
+        "source": {
+          "number": 31265,
+          "quesito_id": 7013,
+          "text_it": "Nell'impianto frenante pneumoidraulico il circuito dell'olio è sempre collegato al pedale del freno e quello dell'aria agli elementi frenanti",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "227fa7db69ecc65a285d7ffbe52fd72348dc2d117f66df8ef39d0fca20bbc7c1",
+        "localized_text": "In a pneumatic-hydraulic braking system, the oil circuit is always connected to the brake pedal and the air circuit to the braking elements."
+      },
+      {
+        "source": {
+          "number": 31266,
+          "quesito_id": 7013,
+          "text_it": "L'impianto frenante oleopneumatico utilizza aria compressa ed olio",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "607c07916090344659061084d3ced61ff2cb1e16499301177145b2480fff0863",
+        "localized_text": "An air-over-hydraulic braking system uses compressed air and oil."
+      },
+      {
+        "source": {
+          "number": 31267,
+          "quesito_id": 7013,
+          "text_it": "Il convertitore pneumoidraulico consente l'inserimento di marce ridotte",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "f1be4cf5b5fdf331afdf8a3af6895a29c42abeec0328b04a30bf32d83292ef5e",
+        "localized_text": "The pneumatic-hydraulic converter allows low-range gears to be selected."
+      },
+      {
+        "source": {
+          "number": 31268,
+          "quesito_id": 7014,
+          "text_it": "Il convertitore pneumoidraulico genera pressione pneumatica destinata ad agire sugli elementi frenanti",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "77e9e9539496014617b349b9935b0be744f55d32488d07232d0ed0aca7797352",
+        "localized_text": "The pneumatic-hydraulic converter generates pneumatic pressure to act on the braking elements."
+      },
+      {
+        "source": {
+          "number": 31269,
+          "quesito_id": 7014,
+          "text_it": "Il circuito frenante pneumoidraulico dell'impianto di frenatura è dotato di serbatoio dell'acqua",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "d4e14181625fd241c166995a9ebc0cf70ba546c8de716cc67ec1ba1d31f4772b",
+        "localized_text": "The pneumatic-hydraulic brake circuit has a water tank."
+      },
+      {
+        "source": {
+          "number": 31270,
+          "quesito_id": 7014,
+          "text_it": "Nell'impianto oleopneumatico uno o più dispositivi convertitori pneumoidraulici trasmettono la forza dell'aria compressa a una pompa idraulica",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "8a8de9f60789099e5a5d63499d83563f9fe84d646909c5ca96b8718e93039740",
+        "localized_text": "In an air-over-hydraulic system, one or more pneumatic-hydraulic converters transmit compressed-air force to a hydraulic pump."
+      },
+      {
+        "source": {
+          "number": 31271,
+          "quesito_id": 7014,
+          "text_it": "In curva, il convertitore pneumoidraulico consente alla ruota esterna di adeguarsi al numero di giri della ruota interna",
+          "answer": 0,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "66c81ef56f196020deeb6ac0fede096fcf4392a92ae475102718d703bb9ab534",
+        "localized_text": "On a bend, the pneumatic-hydraulic converter allows the outer wheel to match the rotational speed of the inner wheel."
+      },
+      {
+        "source": {
+          "number": 31272,
+          "quesito_id": 7014,
+          "text_it": "Il convertitore pneumoidraulico dell'impianto di frenatura converte la pressione pneumatica in pressione idraulica",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "3df38b373b9ae2834752e59077aec8727a8b7d18ccf4cee70445fd6b93100523",
+        "localized_text": "The pneumatic-hydraulic brake converter converts air pressure into hydraulic pressure."
+      },
+      {
+        "source": {
+          "number": 31273,
+          "quesito_id": 7014,
+          "text_it": "L'impianto frenante oleopneumatico è costituito da una sezione ad aria compressa e una sezione idraulica",
+          "answer": 1,
+          "page": 6,
+          "bank": "cqc_nuovo",
+          "pdf_sha256": "8b95f4871dca30158981ec25c816f2a148eb2f5cb8fcdcad8de52f8d271d1cc6",
+          "figures": []
+        },
+        "source_sha256": "ceca25d833ee70acee57cf72321c975e01fdacf6740a7c5677d014185b4264f4",
+        "localized_text": "An air-over-hydraulic braking system consists of a compressed-air section and a hydraulic section."
+      }
+    ],
+    "task_sha256": "26d4ffb188c5e25d58f15a27c5344631efb198603680646ef107546efd3388f0"
+  },
+  "rows": [
+    {
+      "number": 31249,
+      "text": "When the vehicle is unladen, the valve reduces brake pressure in proportion to the load, limiting wheel lock. This prevention assumes correctly designed brakes and a dry road.",
+      "evidence": [
+        "WABCO, Brakes and brake systems, §6.1.1.5, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150102173.pdf: regolazione in base al carico e prevenzione del bloccaggio a vuoto su strada asciutta con impianto correttamente dimensionato."
+      ]
+    },
+    {
+      "number": 31250,
+      "text": "The valve can sense load through spring deflection or suspension bellows pressure and adjust braking accordingly.",
+      "evidence": [
+        "WABCO, Brakes and brake systems, §6.1.1.5, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150102173.pdf: regolazione in base al carico e prevenzione del bloccaggio a vuoto su strada asciutta con impianto correttamente dimensionato."
+      ]
+    },
+    {
+      "number": 31251,
+      "text": "The valve adjusts pressure to the axle brakes according to load: it reduces it when the vehicle is light compared with fully loaded.",
+      "evidence": [
+        "WABCO, Brakes and brake systems, §6.1.1.5, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150102173.pdf: regolazione in base al carico e prevenzione del bloccaggio a vuoto su strada asciutta con impianto correttamente dimensionato."
+      ]
+    },
+    {
+      "number": 31252,
+      "text": "The valve adjusts braking pressure to the load; it does not control the height of the loading platform.",
+      "evidence": [
+        "WABCO, Brakes and brake systems, §6.1.1.5, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150102173.pdf: regolazione in base al carico e prevenzione del bloccaggio a vuoto su strada asciutta con impianto correttamente dimensionato."
+      ]
+    },
+    {
+      "number": 31253,
+      "text": "The valve adjusts pressure to the load; it does not react to lockup at all brakes. ABS instead uses wheel speed to modulate pressure when wheels risk locking.",
+      "evidence": [
+        "WABCO, Brakes and brake systems, §6.1.1.5, https://doc.wabco-auto.com/ProductFiles/anteros/Document/8150102173.pdf: regolazione in base al carico e prevenzione del bloccaggio a vuoto su strada asciutta con impianto correttamente dimensionato.",
+        "ZF Aftermarket, ABS sensors, https://aftermarket.zf.com/en/aftermarket-portal/our-portfolio/passenger-cars/products/brakes/actuation-systems/: sensori di velocità e riduzione della pressione da parte delle valvole ABS."
+      ]
+    },
+    {
+      "number": 31254,
+      "text": "The compressor draws in atmospheric air, compresses it and supplies the reservoirs that store it for the pneumatic circuit.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico.",
+        "California Highway Patrol, HPG 83.2, cap. 3, §5.a e figure 3-3 e 3-4, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-3.pdf: compressore alternativo aspira aria atmosferica e la comprime nei serbatoi."
+      ]
+    },
+    {
+      "number": 31255,
+      "text": "A compressor, for example a piston type, produces the compressed air. Being driven by gears does not make it a gear-type air pump.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico.",
+        "California Highway Patrol, HPG 83.2, cap. 3, §5.a e figure 3-3 e 3-4, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-3.pdf: compressore alternativo aspira aria atmosferica e la comprime nei serbatoi.",
+        "California Commercial Driver Handbook §5.1.1, https://www.chp.ca.gov/siteassets/files/comlhdbk.pdf: compressore collegato al motore tramite ingranaggi o cinghia."
+      ]
+    },
+    {
+      "number": 31256,
+      "text": "Air controlled by the brake moves a piston in the converter, which actuates the hydraulic cylinder and pressurizes the brake fluid.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31257,
+      "text": "In an air-over-hydraulic system, the reservoirs supply the brake valve, which controls air to the converters downstream of it.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31258,
+      "text": "The converter uses pneumatic force to pressurize hydraulic fluid, which reaches the wheel brake cylinders.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31259,
+      "text": "In the converter the hydraulic cylinder is supplied from a brake fluid reservoir; compressed air remains in the pneumatic section.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31260,
+      "text": "The converter pressurizes fluid in the hydraulic circuit that operates the wheel brakes, not a lubrication circuit.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31261,
+      "text": "Compressed air and brake fluid work in separate sections connected by the converter; they do not form a mixture with water.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31262,
+      "text": "The converters link the two sections functionally: air force operates the hydraulic cylinder supplying the brakes.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31263,
+      "text": "The quiz marks this FALSE. In an air-over-hydraulic system, compressed air is stored, while hydraulic braking pressure develops when the brake is applied. A small residual pressure may remain; both circuits still need to be checked for correct operation before departure.",
+      "evidence": [
+        "Official CQC question 31263 printed FALSO; it does not specify pedal position. The explanation interprets its contrast as stored air readiness versus actuation-generated hydraulic service pressure, not an established official rationale.",
+        "California Highway Patrol HPG 83.2 chapter 6, §§6(b), 6(e)–(g) and 8, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf — air-over-hydraulic converter and reservoir, hydraulic pressure rises with application, small residual pressure can remain; inspection includes both portions. US technical example, not Italian legal rule."
+      ]
+    },
+    {
+      "number": 31264,
+      "text": "The circuit uses a compressor, reservoirs, a valve and converters; a timing chain is not a component of it.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31265,
+      "text": "This is not always so: in the air-over-hydraulic layout the pedal valve controls air to the converter, which sends pressurized fluid to the wheel brakes.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31266,
+      "text": "The circuit combines a compressed-air section with a hydraulic section: the converter transfers force between them.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31267,
+      "text": "The converter uses compressed air to operate the hydraulic brake circuit; it does not select transmission ratios.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31268,
+      "text": "The converter receives already compressed air and uses its force to generate hydraulic pressure for the wheel brakes.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31269,
+      "text": "The circuit uses a compressed-air supply and a brake fluid reservoir; it has no water tank for operating the brakes.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31270,
+      "text": "One or more converters receive air controlled by the brake valve; the pneumatic piston actuates the hydraulic cylinder that sends fluid to the brakes.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31271,
+      "text": "The converter operates the hydraulic brakes. The differential allows the driven wheels to travel different distances on a bend and thus rotate at different speeds.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico.",
+        "ZF, https://www.zf.com/mobile/en/company/strategy/heritage_zf/stories/75_years_of_porsche.html: il differenziale compensa le diverse distanze percorse dalle ruote motrici in curva."
+      ]
+    },
+    {
+      "number": 31272,
+      "text": "Air pressure acts on the pneumatic piston, which operates the hydraulic piston and produces pressure in the brake fluid.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    },
+    {
+      "number": 31273,
+      "text": "The pneumatic section stores and controls compressed air; the converter operates the hydraulic section that delivers pressure to the wheel brakes.",
+      "evidence": [
+        "California Highway Patrol, HPG 83.2, cap. 6, figure 6-5 e 6-6 e §e, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: serbatoi aria, valvola a pedale, convertitori, serbatoio idraulico e cilindri alle ruote; il pistone pneumatico aziona quello idraulico."
+      ]
+    }
+  ],
+  "review": {
+    "task_sha256": "26d4ffb188c5e25d58f15a27c5344631efb198603680646ef107546efd3388f0",
+    "output_sha256": "d85707a99de4c511dd3359d58d2a3dc0602e5a02841c05f3c5170897e03f72ad",
+    "author": "gpt-6.1-terra / collaboration /root/terra_author",
+    "reviewer": "gpt-6.1-terra / collaboration /root/terra_translation_review",
+    "status": "accepted",
+    "checked_numbers": [
+      31249,
+      31250,
+      31251,
+      31252,
+      31253,
+      31254,
+      31255,
+      31256,
+      31257,
+      31258,
+      31259,
+      31260,
+      31261,
+      31262,
+      31263,
+      31264,
+      31265,
+      31266,
+      31267,
+      31268,
+      31269,
+      31270,
+      31271,
+      31272,
+      31273
+    ],
+    "issues": [],
+    "review_evidence": "Reviewed all 25 source questions and verdicts and four-language texts; no figures. California Highway Patrol chapter 6 sections 6(b),(e)-(g) and 8 directly inspected: air storage, actuation-generated hydraulic pressure, small residual pressure and inspection of both systems; chapter 3 describes piston compressor. WABCO 8150102173 PDF p61 section 6.1.1.5 inspected locally: load and suspension sensing and unladen locking under correct design/dry road. ZF ABS and differential explanations inspected. 31263 does not add a pedal position to question and preserves checks of both circuits.",
+    "original_author_runs": [
+      {
+        "run_id": "01a1eb7c-cded-79f1-87e0-2680a7b54bb9",
+        "label": "author-0-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "92a7940b284aae7479c6c62ce0e0a55a3ceb8c7e71fb6c3815bab26c8216fa2d",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      },
+      {
+        "run_id": "01a1eb7f-9448-79b1-97e4-1313f9c6182a",
+        "label": "author-1-0",
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "697d29b3896e0eb1fe1892fe1469007ccc9d284f3af19e85bbabb4e11b531fc3",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "source_blocker_history": [
+      {
+        "run_id": "01a1eb7f-9448-79b1-97e4-1313f9c6182a",
+        "label": "author-1-0",
+        "model": "gpt-6.1-terra",
+        "report": {
+          "kind": "source_ambiguity",
+          "issues": [
+            {
+              "number": 31263,
+              "reason": "Il quesito stampato indica FALSO per la necessità che aria e olio abbiano raggiunto pressione sufficiente prima della marcia, ma non specifica che il freno sia rilasciato. Le fonti consultate descrivono la generazione della pressione idraulica durante l’azionamento, senza chiarire se la formulazione ufficiale escluda una prova del freno prima della partenza o quale interpretazione giustifichi il verdetto.",
+              "checked_sources": [
+                "Ministero delle infrastrutture e dei trasporti, Flusso Poligrafico 2021, quesito it_IT_07014_70209, https://www.mit.gov.it/nfsmitgov/files/media/normativa/2021-09/Flusso%20Poligrafico.pdf: riporta la stessa formulazione con risposta F, senza motivazione.",
+                "California Highway Patrol, HPG 83.2, capitolo 6, § e e figure 6-5 e 6-6, https://www.chp.ca.gov/siteassets/policy/hpg/hpg-83.2-ch-6.pdf: descrive il convertitore e la pressione idraulica generata dall’azionamento; non determina la condizione del freno nel quesito.",
+                "US Navy, manuale tecnico, https://media.defense.gov/2014/Jun/20/2002655919/-1/-1/1/140620-N-ZZ182-6560.pdf: descrive una prova di pressione pneumatica e idraulica con pedale premuto; non interpreta il quesito ufficiale."
+              ]
+            }
+          ]
+        },
+        "inputs": {
+          "model": "gpt-6.1-terra",
+          "prompt_sha256": "697d29b3896e0eb1fe1892fe1469007ccc9d284f3af19e85bbabb4e11b531fc3",
+          "attached_image_paths": [],
+          "attached_image_sha256": []
+        }
+      }
+    ],
+    "prior_review_findings": [
+      [
+        {
+          "task_sha256": "c4cf44c4290e22f2d42502ab77d01eb3e9f254a19723a9b9f4437318b29a9b5c",
+          "output_sha256": "db9d6d9c659fdcbbcf5828424bf0a590bf0cb33b4ce9aaf04feb024f07944623",
+          "author": "gpt-6.1-terra / 01a1eb7c-cded-79f1-87e0-2680a7b54bb9",
+          "reviewer": "gpt-6.1-terra / 01a1eb7e-c859-7b81-aeba-f6e4200d82a4",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31249,
+            31250,
+            31251,
+            31252,
+            31253,
+            31254,
+            31255,
+            31256,
+            31257,
+            31258,
+            31259,
+            31260,
+            31261,
+            31262,
+            31263,
+            31264,
+            31265,
+            31266,
+            31267,
+            31268,
+            31269,
+            31270,
+            31271,
+            31272,
+            31273
+          ],
+          "issues": [
+            {
+              "number": 31257,
+              "reason": "The explanation refers to an illustrated circuit, but this task has no figure; the learner cannot see the cited manual diagram. Describe the arrangement without implying an illustration is supplied."
+            },
+            {
+              "number": 31263,
+              "reason": "The question says before starting to drive, not with the service brake released or fluid at rest. The explanation assumes that unstated condition to justify the printed FALSO; the cited example does not establish that the wording requires pressure while at rest. Seek source adjudication and preserve the printed verdict."
+            }
+          ]
+        },
+        {
+          "task_sha256": "26d4ffb188c5e25d58f15a27c5344631efb198603680646ef107546efd3388f0",
+          "output_sha256": "1a31f8b02fd45ab53fb7312412f83f82741796a247e05945f1ff763ce7287f65",
+          "author": "gpt-6.1-terra / 01a1eb7c-cded-79f1-87e0-2680a7b54bb9",
+          "reviewer": "gpt-6.1-terra / 01a1eb7e-c859-7b81-aeba-f6e4200d82a4",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31249,
+            31250,
+            31251,
+            31252,
+            31253,
+            31254,
+            31255,
+            31256,
+            31257,
+            31258,
+            31259,
+            31260,
+            31261,
+            31262,
+            31263,
+            31264,
+            31265,
+            31266,
+            31267,
+            31268,
+            31269,
+            31270,
+            31271,
+            31272,
+            31273
+          ],
+          "issues": [
+            {
+              "number": 31257,
+              "reason": "The explanation refers to an illustrated circuit, but this task has no figure; the learner cannot see the cited manual diagram. Describe the arrangement without implying an illustration is supplied."
+            },
+            {
+              "number": 31263,
+              "reason": "The question says before starting to drive, not with the service brake released or fluid at rest. The explanation assumes that unstated condition to justify the printed FALSO; the cited example does not establish that the wording requires pressure while at rest. Seek source adjudication and preserve the printed verdict."
+            }
+          ]
+        },
+        {
+          "task_sha256": "a4ed643480516c37712d64922a045275af5dcdbe25b641795d4eef82addbf111",
+          "output_sha256": "8ac0672dc25574bd2e84197e8d7b493a00d8c8b176df966c5475ee3e5d1aeac9",
+          "author": "gpt-6.1-terra / 01a1eb7c-cded-79f1-87e0-2680a7b54bb9",
+          "reviewer": "gpt-6.1-terra / 01a1eb7e-c859-7b81-aeba-f6e4200d82a4",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31249,
+            31250,
+            31251,
+            31252,
+            31253,
+            31254,
+            31255,
+            31256,
+            31257,
+            31258,
+            31259,
+            31260,
+            31261,
+            31262,
+            31263,
+            31264,
+            31265,
+            31266,
+            31267,
+            31268,
+            31269,
+            31270,
+            31271,
+            31272,
+            31273
+          ],
+          "issues": [
+            {
+              "number": 31257,
+              "reason": "The explanation refers to an illustrated circuit, but this task has no figure; the learner cannot see the cited manual diagram. Describe the arrangement without implying an illustration is supplied."
+            },
+            {
+              "number": 31263,
+              "reason": "The question says before starting to drive, not with the service brake released or fluid at rest. The explanation assumes that unstated condition to justify the printed FALSO; the cited example does not establish that the wording requires pressure while at rest. Seek source adjudication and preserve the printed verdict."
+            },
+            {
+              "number": 31265,
+              "reason": "The Chinese explanation says “in the illustrated air-hydraulic system” (所示), but no figure is attached; the other explanations describe a layout without referring to an illustration."
+            }
+          ]
+        },
+        {
+          "task_sha256": "06a680a15518af4399cf6d17e9aa581aeeb7c9bf9ed25cceb41333c5dd9fa862",
+          "output_sha256": "29466dd6f7f99f3540e75bcaea9a41c97a4706e63d68eac2bd7927838df3ff52",
+          "author": "gpt-6.1-terra / 01a1eb7c-cded-79f1-87e0-2680a7b54bb9",
+          "reviewer": "gpt-6.1-terra / 01a1eb7e-c859-7b81-aeba-f6e4200d82a4",
+          "status": "needs_changes",
+          "checked_numbers": [
+            31249,
+            31250,
+            31251,
+            31252,
+            31253,
+            31254,
+            31255,
+            31256,
+            31257,
+            31258,
+            31259,
+            31260,
+            31261,
+            31262,
+            31263,
+            31264,
+            31265,
+            31266,
+            31267,
+            31268,
+            31269,
+            31270,
+            31271,
+            31272,
+            31273
+          ],
+          "issues": [
+            {
+              "number": 31257,
+              "reason": "The explanation refers to an illustrated circuit, but this task has no figure; the learner cannot see the cited manual diagram. Describe the arrangement without implying an illustration is supplied."
+            },
+            {
+              "number": 31263,
+              "reason": "The question says before starting to drive, not with the service brake released or fluid at rest. The explanation assumes that unstated condition to justify the printed FALSO; the cited example does not establish that the wording requires pressure while at rest. Seek source adjudication and preserve the printed verdict."
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,968 @@
+{
+  "status": "generated_unreviewed",
+  "author": {
+    "model": "gpt-6.1-terra",
+    "run_id": "01a1ed9c-7a8d-71a2-bf0a-66fe9ea1b97c"
+  },
+  "task": {
+    "stage": "localize",
+    "bank": "cqc_vecchio",
+    "language": "zh-Hans",
+    "records": [
+      {
+        "source": {
+          "number": 16675,
+          "quesito_id": 3422,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando la lunghezza del veicolo più la parte sporgente della trave supera la lunghezza di 12 metri",
+          "answer": 1,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4f8f2f4447b8b389f308bf8af0965d886fce4a649b36233d856fc9542822f84b",
+        "italian": "Per un autocarro isolato il limite ordinario di lunghezza è 12 metri: una trave indivisibile che, con la sua sporgenza, lo fa superare dà luogo a trasporto eccezionale per sagoma.",
+        "italian_sha256": "6df91d3a96fa870350d2afbc9c92a196739cec7b97f52d15d0aeca51a35a4269"
+      },
+      {
+        "source": {
+          "number": 16679,
+          "quesito_id": 3422,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando la lunghezza del veicolo più la parte sporgente della trave supera la lunghezza di 16,50 metri",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f0e5f8cfeab65abc134a911e88ae0b6a3c52a00f475517d23a9e19198e5c2400",
+        "italian": "Il limite ordinario dell’autocarro isolato è 12 metri, non 16,50. La frase è però ambigua: superare 16,50 metri significa anche superare 12 metri, quindi il trasporto è comunque eccezionale.",
+        "italian_sha256": "e0ad014ca25805a37b359abe81a5ccdc12424ba0c9cc2c4b12b3a90a574a7abd"
+      },
+      {
+        "source": {
+          "number": 16682,
+          "quesito_id": 3422,
+          "text_it": "Il trasporto di una trave su un autocarro viene definito eccezionale per dimensioni quando sporge posteriormente di un quarto della lunghezza",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e510227bee0cdbd148a450684b5968b88cca8b6cdec08c86cf3651e82680ca5c",
+        "italian": "La sola sporgenza di un quarto non rende automaticamente eccezionale il trasporto: una cosa indivisibile può sporgere posteriormente fino a tre decimi, rispettando anche i limiti di sagoma.",
+        "italian_sha256": "49ff33193283f3f01310220a020f9b4ffd0f7c729e14a7c5391f943f5a90e0a9"
+      },
+      {
+        "source": {
+          "number": 16683,
+          "quesito_id": 3423,
+          "text_it": "L’installazione di una carrozzeria per trasporto di derrate deperibili in regime di temperatura controllata comporta specifica visita e prova presso il competente UMC (ufficio motorizzazione civile)",
+          "answer": 1,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "eda510e27c30ee716f5480a204275b9dcf57b7db922b9543f03127a1fa363082",
+        "italian": "Nel caso ordinario di modifica delle caratteristiche del veicolo, l’allestimento richiede visita e prova per aggiornare i documenti; la normativa prevede eccezioni per specifiche modifiche.",
+        "italian_sha256": "dab20767809a1df21ccebd443f93099a5a5280697b20588c6cbd320b07daefe7"
+      },
+      {
+        "source": {
+          "number": 16684,
+          "quesito_id": 3423,
+          "text_it": "La sigla ATP si riferisce a accordo internazionale per il trasporto di derrate deperibili",
+          "answer": 1,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "9c2e9961c4e551df50b42487f4cc28c1c98f3b98dbb3dec69c1916746e83275a",
+        "italian": "ATP indica l’accordo internazionale sul trasporto delle derrate deteriorabili e sui mezzi speciali usati per trasportarle.",
+        "italian_sha256": "ef57bea5d92458f934005e519b868077245c931b027bd8f131c74e9027daddaf"
+      },
+      {
+        "source": {
+          "number": 16685,
+          "quesito_id": 3423,
+          "text_it": "L’installazione di una carrozzeria per trasporto di derrate deperibili in regime di temperatura controllata richiede specifica comunicazione al competente UMC (ufficio motorizzazione civile)",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a0564528eb897c0ba1f3d5652b9bfa4a22e9e76d9c4b0d7f365afea57bc07ec2",
+        "italian": "Il quiz considera insufficiente una semplice comunicazione: la modifica delle caratteristiche del veicolo richiede normalmente visita e prova. La formulazione è imprecisa perché non dice espressamente che la comunicazione sia l’unica formalità.",
+        "italian_sha256": "da8af2ef3cefb2d1352cd558ccb6ec8a816e9aba911ee38834c0bb664c596508"
+      },
+      {
+        "source": {
+          "number": 16686,
+          "quesito_id": 3423,
+          "text_it": "L’installazione di una carrozzeria per trasporto di derrate deperibili in regime di temperatura controllata non comporta visita e prova presso il competente UMC (ufficio motorizzazione civile)",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c085c9af95498034d6bc873b5011befb64ca5b991ec783bbb9660ea6117b6f84",
+        "italian": "Non è corretto escludere la visita e prova: per la modifica delle caratteristiche del veicolo essa è normalmente richiesta, salve le eccezioni previste.",
+        "italian_sha256": "399adc10af1af9ee9be37fe903fbb075dc0ed63cf2fceaee86582b5cffbda7f0"
+      },
+      {
+        "source": {
+          "number": 16687,
+          "quesito_id": 3423,
+          "text_it": "L’installazione di una carrozzeria per trasporto di derrate deperibili in regime di temperatura controllata non richiede alcuna formalità se il veicolo è già circolante",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "b7587613efdda1b2e2fb73aca257254a1cabb63f8cedaf7f79e6d6f1d9823298",
+        "italian": "Il fatto che il veicolo sia già circolante non elimina le formalità: una modifica delle caratteristiche richiede normalmente visita e prova e aggiornamento dei documenti.",
+        "italian_sha256": "117e111178610fc28c3ec8bb810fa38bb48d31d1d4a7d39ac194fe8607475410"
+      },
+      {
+        "source": {
+          "number": 16688,
+          "quesito_id": 3423,
+          "text_it": "La sigla ATP si riferisce a autorizzazione trasporto prodotti agricoli",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "0dcafcc49816f6885c8a51e5b578090927c14caa08672b072456c75b6bab4cf6",
+        "italian": "ATP non significa autorizzazione per prodotti agricoli: è l’accordo internazionale sulle derrate deteriorabili e sui mezzi speciali di trasporto.",
+        "italian_sha256": "f54cd270304c374a0eb0aa8993072e29756e920e70c1943b5000b7b5c8f87eaf"
+      },
+      {
+        "source": {
+          "number": 16689,
+          "quesito_id": 3423,
+          "text_it": "La sigla ATP si riferisce a accordo internazionale per il trasporto delle merci pericolose",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "de71709f839504b1e647fd492ef47a083ed8840dd6675a32d92cb8b69f7adf26",
+        "italian": "ATP riguarda le derrate deteriorabili; l’accordo sul trasporto stradale delle merci pericolose è l’ADR.",
+        "italian_sha256": "7563e6223e78f46f6555e46e101dc3016bf0726d52c26f1d4d9f61fe1af4c0c7"
+      },
+      {
+        "source": {
+          "number": 16690,
+          "quesito_id": 3423,
+          "text_it": "La sigla ATP si riferisce a autorizzazione trasporto prodotti petroliferi",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e40be3de4d90a971a08d5f34efb026e338dd79fc4760dfb5aae7640d55ec200c",
+        "italian": "ATP non è un’autorizzazione per prodotti petroliferi: è l’accordo internazionale sulle derrate deteriorabili e sui mezzi speciali di trasporto.",
+        "italian_sha256": "d2466804a8a9b285ce45d6b4983722b504ee4a1a149bd3fa2fb280dcc0f06bc3"
+      },
+      {
+        "source": {
+          "number": 16693,
+          "quesito_id": 3424,
+          "text_it": "Per il trasporto di prodotti alimentari non deteriorabili è sufficiente la rispondenza del veicolo alle norme igienico sanitarie stabilite dalle competenti autorità sanitarie",
+          "answer": 1,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7aef6b3e0f64f3c96c203320c135565753bf3930882b589e25e1e0fce9a01cba",
+        "italian": "Anche per gli alimenti non deteriorabili il vano di carico deve rispettare i requisiti igienici, per esempio essere pulito e mantenuto in buono stato per evitare contaminazioni.",
+        "italian_sha256": "93bba4760af801a1536cb3ed3a4915dbbc1ad2c48ff103feee023f1de56ca08e"
+      },
+      {
+        "source": {
+          "number": 16694,
+          "quesito_id": 3424,
+          "text_it": "Per il trasporto di prodotti alimentari non deteriorabili non è necessario il rispetto di particolari prescrizioni",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "851041be27fbc4b73b6def7134383e14690907e03d5a28ee213324b276035c2b",
+        "italian": "Non è vero che mancano prescrizioni: anche per alimenti non deteriorabili il vano di carico deve essere pulito e in buono stato, così da proteggerli dalla contaminazione.",
+        "italian_sha256": "d034346686a809b97bc58f70568f07986e5c6d67396bfdbaeb0cd5aa791c81c9"
+      },
+      {
+        "source": {
+          "number": 16697,
+          "quesito_id": 3424,
+          "text_it": "Rientrano nelle disposizioni di trasporto in regime ATP i rifiuti speciali",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8887a0ebfc95acdce1ea7a1ece7f850ef0c2a1799c1bf17a9a271fb27911c761",
+        "italian": "Falso: i rifiuti speciali non rientrano nell’ATP in quanto tali. L’accordo riguarda il trasporto di determinate derrate alimentari deteriorabili.",
+        "italian_sha256": "67f4b39c11a9067861f43034bae430fd46c3bcc244a74ad75ab2d2b42967e208"
+      },
+      {
+        "source": {
+          "number": 16698,
+          "quesito_id": 3424,
+          "text_it": "Rientrano nelle disposizioni di trasporto in regime ATP i prodotti di scarto delle industrie metallurgiche",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7e8a7c4256aae2564845396a0bf45207deefd4a8ca507f54bf30ce2af7ae15e3",
+        "italian": "Falso: gli scarti metallurgici non sono derrate alimentari deteriorabili; l’ATP disciplina il trasporto di determinate derrate alimentari.",
+        "italian_sha256": "641f37ad127d115d83bdc50b6f13ea7fd5531e28f7cde6e01c85778f16e1f6be"
+      },
+      {
+        "source": {
+          "number": 16699,
+          "quesito_id": 3424,
+          "text_it": "Per trasportare prodotti alimentari, è obbligatorio utilizzare veicoli rispondenti alle norme ATP in ogni caso",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "dcfab297cc725d71622103aea2f4eb0a47212fb87bb0818f296f9c1234a9636a",
+        "italian": "Falso: non tutti gli alimenti richiedono un mezzo ATP. Le prescrizioni riguardano determinate derrate deteriorabili e le condizioni previste per il loro trasporto.",
+        "italian_sha256": "bf209a7964765e76e007d5e9b046cf10fc56b55528bed8c1a795be7260162bf1"
+      },
+      {
+        "source": {
+          "number": 16700,
+          "quesito_id": 3424,
+          "text_it": "Per trasportare prodotti alimentari, è obbligatorio utilizzare veicoli rispondenti alle norme ATP in nessun caso",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "78e71f456f9f9e9db72509ebad8ca451dd4f79185ebfc6b2306608538193462c",
+        "italian": "Falso: per determinate derrate deteriorabili e nei casi previsti occorrono mezzi conformi all’ATP; non è vero che non servano mai.",
+        "italian_sha256": "74f64a43837123c2eb73f13831e58950c3ae915289f358de975ed7f15f62e137"
+      },
+      {
+        "source": {
+          "number": 16701,
+          "quesito_id": 3424,
+          "text_it": "Per trasportare prodotti alimentari, è obbligatorio utilizzare veicoli rispondenti alle norme ATP solo in caso di trasporti internazionali",
+          "answer": 0,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "714e6011bd6b1cb2010f0e7476b268be0428528df22ae42da573d42e18e2aeda",
+        "italian": "Falso: la conformità ATP può essere richiesta anche per trasporti nazionali di derrate deteriorabili, non soltanto per quelli internazionali.",
+        "italian_sha256": "fdb2af64ce46f46b1c51ef252c795dda6962c98844012609398466a871e92bc3"
+      },
+      {
+        "source": {
+          "number": 16702,
+          "quesito_id": 3425,
+          "text_it": "L’accordo ATP riguarda il trasporto delle derrate deteriorabili",
+          "answer": 1,
+          "page": 85,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8e0b7d6548e2f33e26d3dd432f0371cf656a2ce80968e877c39e2ecacb8751b7",
+        "italian": "Vero: l’ATP disciplina il trasporto di determinate derrate alimentari deteriorabili e i mezzi speciali da utilizzare.",
+        "italian_sha256": "cac2305999a1ddd7377560ec6950232887373cf6301fd74ea2a22d1acf3ec4b4"
+      },
+      {
+        "source": {
+          "number": 16703,
+          "quesito_id": 3425,
+          "text_it": "Le carrozzerie per il trasporto di derrate deperibili in regime ATP sono munite di attestato di conformità ATP",
+          "answer": 1,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e1a65fe0679ca52734f59d5121f38335c327742cd75af190fda5ecf5e5973081",
+        "italian": "Vero: per il mezzo conforme alle norme ATP è rilasciato un certificato di conformità dall’autorità competente.",
+        "italian_sha256": "14e51597faf656bb7ff6d5dbe8fdcad651d5aa686b6ad9c432c76b8ad383a565"
+      },
+      {
+        "source": {
+          "number": 16704,
+          "quesito_id": 3425,
+          "text_it": "Nel trasporto di talune derrate surgelate e congelate con furgone ATP, durante alcune operazioni di breve durata, è ammesso un innalzamento della temperatura sulla superficie del prodotto in una parte del carico per un massimo di 3 gradi centigradi",
+          "answer": 1,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "61608031e351c421bc187e694ecc08f13985d21ded6d91536890993b2d4f16d6",
+        "italian": "Vero: durante alcune operazioni, come lo sbrinamento, è ammesso un breve aumento fino a 3 °C sulla superficie dei prodotti in una parte del carico.",
+        "italian_sha256": "bc9994ec22bcbdac3cfaf19beb61a5aeb399278fdfe306b55cdbc18bd87efc58"
+      },
+      {
+        "source": {
+          "number": 16705,
+          "quesito_id": 3425,
+          "text_it": "L’accordo ATP riguarda il trasporto delle merci pericolose",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a043e642e1d8e982fdaf25ba4904664f6c17660558917aae33cdb4f8eb95f151",
+        "italian": "Falso: l’ATP riguarda determinate derrate alimentari deteriorabili e i mezzi per trasportarle; le merci pericolose non ne sono l’oggetto.",
+        "italian_sha256": "42a86b3930ca2e2597ab84d35b04006ce26326e65f4b74f5b9c3d3ee7e60b742"
+      },
+      {
+        "source": {
+          "number": 16706,
+          "quesito_id": 3425,
+          "text_it": "L’accordo ATP riguarda il trasporto dei rifiuti",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7126974e96768cb14ba8030ee7ab4636ebbcc6df0ea7ae18c4ad18aa1fcb9ff1",
+        "italian": "Falso: l’ATP riguarda determinate derrate alimentari deteriorabili, non il trasporto dei rifiuti come categoria.",
+        "italian_sha256": "285bc7949163723ac47ae5de66d2eae5ec2adb399a0d86ae633a8fe806f2e633"
+      },
+      {
+        "source": {
+          "number": 16707,
+          "quesito_id": 3425,
+          "text_it": "L’accordo ATP riguarda il trasporto delle merci che possono contaminare le acque",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3dcca3f14ec7d8dfd5afc2b45eeb88e9ddad0aa97e2eb0060f1d10c4f2cfcd2e",
+        "italian": "Falso: l’ATP riguarda determinate derrate alimentari deteriorabili, non le merci individuate per il rischio di contaminare le acque.",
+        "italian_sha256": "eec8d0394f17cbbf1adb78cad9b2ca369359bc8d40b635bf000516ded1c98cd3"
+      },
+      {
+        "source": {
+          "number": 16708,
+          "quesito_id": 3425,
+          "text_it": "Le carrozzerie per il trasporto di derrate deperibili in regime ATP sono classificate conformemente alla normativa ADR",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "445502a50d0754f807e57730c6dbb8c7136c6c16deb49ad0d705b778a740f877",
+        "italian": "Falso: le carrozzerie per derrate in regime ATP sono classificate secondo le categorie ATP, non secondo l’ADR.",
+        "italian_sha256": "ec259b02fedd86f7a150c32d6c2518c1db89ae7c4e3879669c6bca95319f3bcf"
+      },
+      {
+        "source": {
+          "number": 16709,
+          "quesito_id": 3425,
+          "text_it": "Le carrozzerie per il trasporto di derrate deperibili in regime ATP sono munite di targhetta VIN",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "516e04ec0b25de86d481ee57b8d4360d3828c98ee3ba7f96b838dd5c08fd35c1",
+        "italian": "Falso secondo il quiz: la conformità ATP si attesta con il certificato o la relativa piastra ATP; il VIN identifica invece il veicolo. La formulazione è ambigua, perché la presenza di un VIN sul veicolo non esclude la certificazione ATP.",
+        "italian_sha256": "404a11b0b32cc9c8ce97c89f2aff550e09ca6dd7d145a39a8bbd612627d77f5b"
+      },
+      {
+        "source": {
+          "number": 16710,
+          "quesito_id": 3425,
+          "text_it": "Le carrozzerie per il trasporto di derrate deperibili in regime ATP sono esclusivamente di tipo frigorifero",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "bb7dc4267b8344ae224ab0d14a8eaf2fca276bfb7aa6d93e54660c8be497fca5",
+        "italian": "Falso: i mezzi ATP non sono esclusivamente frigoriferi; sono previste anche altre categorie, tra cui mezzi isotermici, refrigeranti e caloriferi.",
+        "italian_sha256": "d31eb292d87a43b5b3a5016d28ee116b8ced924f10a3031e733969ac1ae8fd25"
+      },
+      {
+        "source": {
+          "number": 16711,
+          "quesito_id": 3425,
+          "text_it": "Nel trasporto di talune derrate surgelate e congelate con furgone ATP, durante alcune operazioni di breve durata, è ammesso un innalzamento della temperatura sulla superficie del prodotto in una parte del carico per un massimo di 4 gradi centigradi",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cce2f53efe2b608562230f14c362d1958f26785e2844d801f5c4ef56b05ff160",
+        "italian": "Falso: per le operazioni indicate l’aumento breve ammesso sulla superficie di parte del carico è al massimo di 3 °C, non di 4 °C.",
+        "italian_sha256": "d6ebf28f27dcada2ece1f5d8003b2cbc3ab040fb29e8bb57afdd0afcacc22279"
+      },
+      {
+        "source": {
+          "number": 16712,
+          "quesito_id": 3425,
+          "text_it": "Nel trasporto di talune derrate surgelate e congelate con furgone ATP, durante alcune operazioni di breve durata, è ammesso un innalzamento della temperatura sulla superficie del prodotto in una parte del carico per un massimo di 2 gradi centigradi",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c4853a6ecc7b3ba408b8c33f59ecd548547f3ad5154af15578eecfd8beac6d56",
+        "italian": "Falso secondo il quiz: la soglia prevista è di 3 °C, non di 2 °C. La frase è ambigua alla lettera: un aumento di 2 °C rientra comunque nel limite di 3 °C.",
+        "italian_sha256": "d82154ee580d6f44c9d09307a355add9e30b91ad475922e6efa764a4a5f31c1a"
+      },
+      {
+        "source": {
+          "number": 16713,
+          "quesito_id": 3425,
+          "text_it": "Nel trasporto di talune derrate surgelate e congelate con furgone ATP, durante alcune operazioni di breve durata, è ammesso un innalzamento della temperatura sulla superficie del prodotto in una parte del carico per un massimo di 1 grado centigrado",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "77d2eecc2d5b593771ced9348168cf7b3639d66403ed493fecfba87e2d07b5f3",
+        "italian": "Falso secondo il quiz: la soglia prevista è di 3 °C, non di 1 °C. La frase è ambigua alla lettera: un aumento di 1 °C rientra comunque nel limite di 3 °C.",
+        "italian_sha256": "418286b3b96448705e53b3963dc02adcda429abdc69a1349f9a93a071f0d589a"
+      },
+      {
+        "source": {
+          "number": 16718,
+          "quesito_id": 3427,
+          "text_it": "L’ottimizzazione gestionale ed economica di una rete integrata di trasporto combinato è legata alla scelta tra diverse modalità di trasporto",
+          "answer": 1,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "f2fdb5a5261e95bb24cc353290c70f4f208b143c0f707a966f87b1265c7fcfa4",
+        "italian": "Vero: la scelta e la combinazione delle modalità disponibili incidono su costi, tempi e organizzazione della rete.",
+        "italian_sha256": "868434eeabbaf880b488e7f30b96c44394b48d8a43748bbcebd3861dccd39020"
+      },
+      {
+        "source": {
+          "number": 16720,
+          "quesito_id": 3427,
+          "text_it": "L’ottimizzazione gestionale ed economica di una rete integrata di trasporto combinato è legata alla scelta prevalentemente della modalità di trasporto stradale",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "574761cefc525ac3d00e767e057b96784addd60cf7a4d5fff668763514836d85",
+        "italian": "Falso: non esiste una scelta prevalentemente stradale valida per ogni rete. L’ottimizzazione richiede di valutare e combinare le modalità disponibili in base al servizio.",
+        "italian_sha256": "a31c6c6c52d10032bbbd77a9457d121b8879d816bb0c50bf29b329157de6a23c"
+      },
+      {
+        "source": {
+          "number": 16721,
+          "quesito_id": 3427,
+          "text_it": "L’ottimizzazione gestionale ed economica di una rete integrata di trasporto combinato è legata alla scelta prevalentemente della modalità di trasporto fluviale",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "c8fae4360d5fb7722a415e55fdda6d687dd58e6e279b43ba6a48a176f94942cd",
+        "italian": "Falso: la modalità fluviale non è sempre quella da privilegiare. L’ottimizzazione dipende dalla combinazione delle modalità disponibili e dalle esigenze del servizio.",
+        "italian_sha256": "3c5aedf6a4a381403b594d323be97ca7cb154a0c048fd67913daa98cb26f2e28"
+      },
+      {
+        "source": {
+          "number": 16722,
+          "quesito_id": 3427,
+          "text_it": "L’ottimizzazione gestionale ed economica di una rete integrata di trasporto combinato è legata alla scelta prevalentemente della modalità di trasporto marittimo",
+          "answer": 0,
+          "page": 86,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "3d965744bfa367cc8e741873f3de729b962399e7d53d50a3e97a9fecdbeffe52",
+        "italian": "Falso: la modalità marittima non è sempre quella da privilegiare. L’ottimizzazione dipende dalla combinazione delle modalità disponibili e dalle esigenze del servizio.",
+        "italian_sha256": "70cb912081c716321e16a385badcfbd9d27d8e7054dc793a4d7aeb7024325d18"
+      },
+      {
+        "source": {
+          "number": 16730,
+          "quesito_id": 3428,
+          "text_it": "La forma societaria di un’impresa di autotrasporto non dipende dalla dimensione ma solamente dalla tipologia di trasporto",
+          "answer": 0,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "78460261d43202044881be9c8eaa76685571fbffc40aa1abb6620adb82776e1f",
+        "italian": "FALSO. La forma giuridica non dipende soltanto dal tipo di trasporto: la scelta organizzativa può tenere conto anche delle dimensioni e delle esigenze dell'impresa.",
+        "italian_sha256": "d2086e89cd729e2b19ba914bc29cee54e234b56ce4536e6e05c0d694a2be2387"
+      },
+      {
+        "source": {
+          "number": 16731,
+          "quesito_id": 3429,
+          "text_it": "I vettori sono di norma imprese private",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7441d059c6ce0a406dbf50972538f066ea28cde0bf2fb407736c8e120c2b8ea6",
+        "italian": "VERO. Nel contesto del quiz i vettori sono normalmente imprese private che offrono servizi di trasporto; la formulazione indica una regola generale, non un'esclusiva.",
+        "italian_sha256": "924de7783f59cd516afe5571688c3a442747efdbe91710b69c4569fa46025126"
+      },
+      {
+        "source": {
+          "number": 16732,
+          "quesito_id": 3429,
+          "text_it": "I vettori esercitano attività di autotrasporto per conto di terzi",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "a912185c76c24e8d43efb0d04e877f89e69e2f0fab028c1ba7fefde35315e8fe",
+        "italian": "VERO. Il vettore assume il trasporto per conto di un cliente: nell'autotrasporto di merci per conto di terzi presta il servizio nell'ambito della propria attività imprenditoriale.",
+        "italian_sha256": "fc59220b09a82136a6c13fecc26dca10bf9901957d87096518cbc70c72b8fe52"
+      },
+      {
+        "source": {
+          "number": 16733,
+          "quesito_id": 3429,
+          "text_it": "I vettori sono imprese che possono assumere dimensioni e forme giuridiche diverse",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e7afdb88de8598041a50d7029d4eb4bda26f3f5f96f0ba1e2b69c126ae1e8307",
+        "italian": "VERO. Un vettore può operare come impresa individuale o in forma societaria e può avere dimensioni diverse, secondo la propria organizzazione.",
+        "italian_sha256": "1b70aab152f8ce8ea93c5da8de60569771dcd886268e7ee9bdae1731a1a93468"
+      },
+      {
+        "source": {
+          "number": 16734,
+          "quesito_id": 3429,
+          "text_it": "I vettori possono essere società per azioni",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "7b1497519ea274ee4c7ab3d0b45e2c33fb18b85a2bf30253933cc52c1172517d",
+        "italian": "VERO. Una società per azioni può esercitare l'autotrasporto come vettore, purché possieda i requisiti richiesti per l'attività.",
+        "italian_sha256": "89927683e24939dfcd2e380e3d595742fbcbc848cceda1c6ff213d341a3a16ee"
+      },
+      {
+        "source": {
+          "number": 16735,
+          "quesito_id": 3429,
+          "text_it": "I vettori svolgono attività di autotrasporto dietro corrispettivo",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "cf01ef6dc5edc4077a869f2ca1765a4fd3fb2d7b4e62767b0eb1efeebde218ca",
+        "italian": "VERO. Nell'autotrasporto di cose per conto di terzi il vettore presta il servizio di trasporto verso un corrispettivo.",
+        "italian_sha256": "530065356bcc40661d27c746f32177eebd0da7d44580fdf90a9532438d96d552"
+      },
+      {
+        "source": {
+          "number": 16736,
+          "quesito_id": 3429,
+          "text_it": "Nel sub-trasporto un soggetto conferisce ad un ulteriore soggetto l’incarico di trasporto con un contratto",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d2056d9e08dd18d5977c451dc7d2d21e9952e90cc67eb6e56c8d042b40477c1f",
+        "italian": "VERO. Nella subvezione il vettore incaricato affida con un ulteriore contratto l'esecuzione del trasporto a un altro vettore.",
+        "italian_sha256": "8d6d2835299b948584896864a41d7eb15d50cda02425054067e83cc51a1bb4ce"
+      },
+      {
+        "source": {
+          "number": 16738,
+          "quesito_id": 3429,
+          "text_it": "I vettori non sono obbligati a disporre di un parco automezzi",
+          "answer": 0,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "229ee444f5ac514bbd5811a97fc14886fb41a382ef8cd60ffe60878b28ae1d18",
+        "italian": "FALSO. Per le imprese soggette alla disciplina europea, dopo l'autorizzazione occorre disporre di almeno un veicolo; non è però necessario possederlo in proprietà né avere una flotta numerosa.",
+        "italian_sha256": "6e8ea563a28a435fb2952f0efc95e94f68adf8c12bdc075d195dc1e8c2ebf3b9"
+      },
+      {
+        "source": {
+          "number": 16739,
+          "quesito_id": 3429,
+          "text_it": "I vettori sono sempre società di capitali",
+          "answer": 0,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "6c7059e76d8d9f0fb83e190b4d8f49e256f5fe1de2dddb32937f6e51dff41e12",
+        "italian": "FALSO. Il vettore non deve essere sempre una società di capitali: l'attività può essere esercitata anche da una persona fisica o da altri soggetti ammessi.",
+        "italian_sha256": "ecb1aaac9e9e00c35e2261bf8e191174c283e42b3e7f620b65270f9950a1546c"
+      },
+      {
+        "source": {
+          "number": 16740,
+          "quesito_id": 3429,
+          "text_it": "I vettori non possono essere società a responsabilità limitata",
+          "answer": 0,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "217d974e497610b5207a9935cfdea5fffa0aa9d80b15c980744e957d8b0c0a55",
+        "italian": "FALSO. Anche una società a responsabilità limitata può esercitare l'autotrasporto, se soddisfa i requisiti previsti per l'attività.",
+        "italian_sha256": "1e45311a3da600e3b12596e87b28587cd1646e75b31f0d2da05f0eb5e4f878c1"
+      },
+      {
+        "source": {
+          "number": 16741,
+          "quesito_id": 3429,
+          "text_it": "I vettori sono imprese che esercitano attività di autotrasporto in conto proprio",
+          "answer": 0,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "99cf1b5953a1148d9990f93637fbb2d930e3515232ff21094f9499ac25e8f9b5",
+        "italian": "FALSO. Nel significato del quiz il vettore presta trasporto per conto di terzi; il trasporto in conto proprio è invece svolto per le esigenze della propria attività, alle condizioni di legge.",
+        "italian_sha256": "f70ad77258a3e13e47d67ac62bf864750e8e1464b32f1408f9cb03d4187992f7"
+      },
+      {
+        "source": {
+          "number": 16742,
+          "quesito_id": 3430,
+          "text_it": "Lo spedizioniere fa da intermediario tra committente e vettore",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "e220bb66fc0aab5f62e6abda9dccae5156611c3d0369e4404503cd35e0821c64",
+        "italian": "VERO. Lo spedizioniere organizza la spedizione per il mandante e conclude il contratto di trasporto con il vettore, operando quindi da intermediario.",
+        "italian_sha256": "68dc7d10345b308930713e01226165c2631c85c369de4e67e62f1bda5acdfc6e"
+      },
+      {
+        "source": {
+          "number": 16743,
+          "quesito_id": 3430,
+          "text_it": "Lo spedizioniere può essere spedizioniere vettore",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d99a140ab3b3aab125c12c97c11b16c8db87e921c2cb1322c8b47f7a1e7db2ac",
+        "italian": "VERO. Lo spedizioniere può assumere anche l'esecuzione del trasporto: in tal caso è spedizioniere-vettore e assume i diritti e gli obblighi del vettore.",
+        "italian_sha256": "dbe61e5303a896fc893869812f783f26b85602eb72732fed760f6953d1e6155f"
+      },
+      {
+        "source": {
+          "number": 16744,
+          "quesito_id": 3430,
+          "text_it": "Lo spedizioniere deve iscriversi nell’Elenco interprovinciale Autorizzato degli Spedizionieri",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "8369bac97d52a04f9cef3683cca1c1559c2e33e74b0cc83993224ac85f7d099e",
+        "italian": "VERO secondo il quiz storico. La disposizione è superata: l'elenco degli spedizionieri è stato soppresso e oggi l'attività è soggetta a SCIA e agli adempimenti presso il Registro delle imprese.",
+        "italian_sha256": "af66bf95c4fc4ddbc862aa2770d0ebf7dcff975e47b3a3517a26313dfad38ecf"
+      },
+      {
+        "source": {
+          "number": 16745,
+          "quesito_id": 3430,
+          "text_it": "Lo spedizioniere è colui che ha concluso con il mandante un contratto di spedizione",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "4026c4d664e76908830d43ba995c7be5e0421a834531370a30761fe40a5bed60",
+        "italian": "VERO. Lo spedizioniere riceve dal mandante l'incarico previsto dal contratto di spedizione e agisce per suo conto.",
+        "italian_sha256": "894385bb8fe7fd6cd7d4dba5758b6b85846b9a89699b82b0decafad737742873"
+      },
+      {
+        "source": {
+          "number": 16746,
+          "quesito_id": 3430,
+          "text_it": "Lo spedizioniere assume l’obbligo di concludere, in nome proprio e per conto del mandante, un contratto di trasporto",
+          "answer": 1,
+          "page": 87,
+          "bank": "cqc_vecchio",
+          "pdf_sha256": "b8fffef6237ecbe9a5407b866d27f918fc45933e5e127910c5ac9b1b91213abd",
+          "figures": []
+        },
+        "source_sha256": "d19e427bb03e1b1a1228002d74b51d01dc51d90e9d64454e51c89f3fe08e2228",
+        "italian": "VERO. Con il contratto di spedizione lo spedizioniere si obbliga a concludere il contratto di trasporto in nome proprio e per conto del mandante.",
+        "italian_sha256": "0e8ccb8bcf184b6b4b553c634d5445f6b77a81de9e4d4f4395a4542e3eed117e"
+      }
+    ],
+    "task_sha256": "1b876f3752c00a8b522dab5d0116add1800ec860da2494e18b33785b553aa030"
+  },
+  "rows": [
+    {
+      "number": 16675,
+      "text": "单辆货车的普通长度限值为12米：如果一根不可分割的梁因其伸出部分使总长度超过这一限值，就构成超尺寸特殊运输。"
+    },
+    {
+      "number": 16679,
+      "text": "单辆货车的普通长度限值是12米，而不是16.50米。不过，这句话有歧义：超过16.50米也意味着超过12米，因此该运输仍然属于特殊运输。"
+    },
+    {
+      "number": 16682,
+      "text": "仅仅伸出四分之一并不会自动使运输成为特殊运输：不可分割的物品向后最多可伸出十分之三，同时也要遵守外廓尺寸限值。"
+    },
+    {
+      "number": 16683,
+      "text": "通常情况下，改变车辆特性后的改装需要经过检验和测试，以更新车辆文件；法规对某些特定改动规定了例外。"
+    },
+    {
+      "number": 16684,
+      "text": "ATP指关于易腐食品运输及其专用运输工具的国际协定。"
+    },
+    {
+      "number": 16685,
+      "text": "题目认为仅作通知并不充分：改变车辆特性通常需要检验和测试。这一表述并不准确，因为它没有明确说通知是唯一需要办理的手续。"
+    },
+    {
+      "number": 16686,
+      "text": "认为不需要检验和测试是不正确的：改变车辆特性通常需要进行检验和测试，但规定的例外情况除外。"
+    },
+    {
+      "number": 16687,
+      "text": "车辆已经上路行驶并不能免除相关手续：改变车辆特性通常需要检验和测试，并更新车辆文件。"
+    },
+    {
+      "number": 16688,
+      "text": "ATP不是农产品运输许可的意思，而是关于易腐食品及其专用运输工具的国际协定。"
+    },
+    {
+      "number": 16689,
+      "text": "ATP涉及易腐食品；关于危险货物道路运输的协定是ADR。"
+    },
+    {
+      "number": 16690,
+      "text": "ATP不是石油产品运输许可，而是关于易腐食品及其专用运输工具的国际协定。"
+    },
+    {
+      "number": 16693,
+      "text": "即使运输不易腐食品，货厢也必须符合卫生要求，例如保持清洁和良好状态，以避免污染。"
+    },
+    {
+      "number": 16694,
+      "text": "说没有任何规定是不对的：即使运输不易腐食品，货厢也必须保持清洁和良好状态，以保护食品免受污染。"
+    },
+    {
+      "number": 16697,
+      "text": "错误：特殊废物本身不属于ATP的适用范围。该协定涉及特定易腐食品的运输。"
+    },
+    {
+      "number": 16698,
+      "text": "错误：冶金废料不是易腐食品；ATP规范的是特定食品的运输。"
+    },
+    {
+      "number": 16699,
+      "text": "错误：并非所有食品都需要使用符合ATP的运输工具。相关规定涉及特定易腐食品及其运输所规定的条件。"
+    },
+    {
+      "number": 16700,
+      "text": "错误：对于特定易腐食品，在规定的情况下需要使用符合ATP的运输工具；说任何情况下都不需要是不对的。"
+    },
+    {
+      "number": 16701,
+      "text": "错误：国内易腐食品运输也可能要求符合ATP，而不仅是国际运输。"
+    },
+    {
+      "number": 16702,
+      "text": "正确：ATP规范特定易腐食品的运输以及应使用的专用运输工具。"
+    },
+    {
+      "number": 16703,
+      "text": "正确：主管机关会为符合ATP规定的运输工具颁发合格证书。"
+    },
+    {
+      "number": 16704,
+      "text": "正确：在除霜等某些操作期间，允许部分货物中的产品表面温度短暂上升，升幅最高为3 °C。"
+    },
+    {
+      "number": 16705,
+      "text": "错误：ATP涉及特定易腐食品及其运输工具；危险货物不是该协定的对象。"
+    },
+    {
+      "number": 16706,
+      "text": "错误：ATP涉及特定易腐食品，而不是作为一个类别的废物运输。"
+    },
+    {
+      "number": 16707,
+      "text": "错误：ATP涉及特定易腐食品，而不是因存在水体污染风险而被列出的货物。"
+    },
+    {
+      "number": 16708,
+      "text": "错误：用于ATP规定下食品运输的车厢按ATP类别分类，而不是按ADR分类。"
+    },
+    {
+      "number": 16709,
+      "text": "按照题目的判断，这一说法错误：符合ATP的情况通过证书或相关ATP标牌证明；VIN则用于识别车辆。这一表述有歧义，因为车辆上有VIN并不排除其获得ATP认证。"
+    },
+    {
+      "number": 16710,
+      "text": "错误：ATP运输工具并不只有机械制冷型；还包括其他类别，如隔热型、冷藏型和加热型运输工具。"
+    },
+    {
+      "number": 16711,
+      "text": "错误：在所述操作期间，允许部分货物表面温度短暂上升的幅度最高为3 °C，而不是4 °C。"
+    },
+    {
+      "number": 16712,
+      "text": "按照题目的判断，这一说法错误：规定的限值是3 °C，而不是2 °C。但从字面上看，这句话有歧义：升高2 °C仍在3 °C的限值内。"
+    },
+    {
+      "number": 16713,
+      "text": "按照题目的判断，这一说法错误：规定的限值是3 °C，而不是1 °C。但从字面上看，这句话有歧义：升高1 °C仍在3 °C的限值内。"
+    },
+    {
+      "number": 16718,
+      "text": "正确：可用运输方式的选择和组合会影响运输网络的成本、时间和组织。"
+    },
+    {
+      "number": 16720,
+      "text": "错误：不存在适用于所有运输网络的、以公路运输为主的选择。优化需要根据服务需求评估并组合可用的运输方式。"
+    },
+    {
+      "number": 16721,
+      "text": "错误：内河运输并非总是应当优先选择的方式。优化取决于可用运输方式的组合和服务需求。"
+    },
+    {
+      "number": 16722,
+      "text": "错误：海运并非总是应当优先选择的方式。优化取决于可用运输方式的组合和服务需求。"
+    },
+    {
+      "number": 16730,
+      "text": "错误。法律形式并不只取决于运输类型：组织形式的选择也可以考虑企业的规模和需求。"
+    },
+    {
+      "number": 16731,
+      "text": "正确。在本题的语境中，承运人通常是提供运输服务的私营企业；这一表述指的是一般情况，并非排他性规定。"
+    },
+    {
+      "number": 16732,
+      "text": "正确。承运人承担为客户运输的任务：在为第三方提供公路货运时，承运人在其经营活动范围内提供服务。"
+    },
+    {
+      "number": 16733,
+      "text": "正确。承运人可以以个人企业或公司形式经营，规模也可以根据其组织情况而有所不同。"
+    },
+    {
+      "number": 16734,
+      "text": "正确。股份公司可以作为承运人从事公路运输，只要满足该业务所要求的条件。"
+    },
+    {
+      "number": 16735,
+      "text": "正确。在为第三方提供公路货运时，承运人提供运输服务并收取报酬。"
+    },
+    {
+      "number": 16736,
+      "text": "正确。在转承运中，受托承运人通过另一份合同，将运输的执行交给另一承运人。"
+    },
+    {
+      "number": 16738,
+      "text": "错误。对于受欧洲法规约束的企业，获得许可后必须拥有至少一辆可供使用的车辆；但不一定要拥有车辆的所有权，也不必拥有大型车队。"
+    },
+    {
+      "number": 16739,
+      "text": "错误。承运人并非必须是资本公司：自然人或其他获准的主体也可以从事该业务。"
+    },
+    {
+      "number": 16740,
+      "text": "错误。有限责任公司也可以从事公路运输，只要满足该业务规定的条件。"
+    },
+    {
+      "number": 16741,
+      "text": "错误。在本题的含义中，承运人为第三方提供运输服务；自营运输则是在法律规定的条件下，为满足自身经营活动的需求而进行的运输。"
+    },
+    {
+      "number": 16742,
+      "text": "正确。货运代理人为委托人组织货物发送，并与承运人订立运输合同，因此起到中介作用。"
+    },
+    {
+      "number": 16743,
+      "text": "正确。货运代理人也可以承担运输的执行；此时他是货运代理承运人，并承担承运人的权利和义务。"
+    },
+    {
+      "number": 16744,
+      "text": "按照历史题库的判断，这一说法正确。该规定已过时：货运代理人名录已被废除，如今从事该业务须提交SCIA，并在企业登记处办理相关手续。"
+    },
+    {
+      "number": 16745,
+      "text": "正确。货运代理人接受委托人根据货运代理合同交付的任务，并为委托人的利益行事。"
+    },
+    {
+      "number": 16746,
+      "text": "正确。根据货运代理合同，货运代理人承担以自己的名义、为委托人的利益订立运输合同的义务。"
+    }
+  ],
+  "output_sha256": "18e7280d9904a29f0f49fc86d1ab2e6d9fcfe7784318edab6714eda0e6b2d84a"
+}
